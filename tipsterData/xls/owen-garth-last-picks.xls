@@ -1,0 +1,7679 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 21:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>VALENCIA CF vs FC BARCELONA</td>
+	<td>1-1 (1-0)</td>
+	<td>Draw no bet</td>
+	<td>VALENCIA CF</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:55:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>PETERBOROUGH UNITED vs WEST BROMWICH ALBION</td>
+	<td>4-5 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WEST BROMWICH ALBION</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 02:00:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 20:30:00</td>
+	<td>Austria</td>
+	<td>ÖFB Stiegl Cup</td>
+	<td>SK STURM GRAZ vs RB SALZBURG</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>RB SALZBURG</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 02:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 19:00:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>TROYES AC vs AS SAINT ETIENNE</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS SAINT ETIENNE</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 02:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 19:00:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>1 FC HEIDENHEIM vs HERTHA BSC</td>
+	<td>2-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>HERTHA BSC</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:54:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 18:45:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>CS MARITIMO MADEIRA vs PORTIMONENSE SC</td>
+	<td>3-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>PORTIMONENSE SC</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 18:30:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>ATROMITOS ATHENS vs PANATHINAIKOS ATHENS</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PANATHINAIKOS ATHENS</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:59:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 18:15:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>SEINAJOEN JK vs VAASA PS</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 17:45:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>AKHISAR BLD SPOR vs GALATASARAY ISTANBUL</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>GALATASARAY ISTANBUL</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:59:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 17:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>FC ILVES vs ROVANIEMI PALLOSEURA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>210.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-10 01:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 20:45:00</td>
+	<td>Scotland</td>
+	<td>Second Division</td>
+	<td>COWDENBEATH FC vs ALBION ROVERS FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 20:45:00</td>
+	<td>Scotland</td>
+	<td>Third Division</td>
+	<td>STIRLING ALBION vs MONTROSE FC</td>
+	<td>7-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:11:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>ALTRINCHAM FC vs WREXHAM FC</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.69</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>269.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>KIDDERMINSTER HARRIERS vs EASTLEIGH FC</td>
+	<td>3-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>EASTLEIGH FC</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>MILTON KEYNES DONS vs MIDDLESBROUGH FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MIDDLESBROUGH FC</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>WEST HAM UNITED vs LIVERPOOL FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>LIVERPOOL FC</td>
+	<td>2.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:08:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 20:30:00</td>
+	<td>Scotland</td>
+	<td>First Division</td>
+	<td>ALLOA ATHLETIC FC vs GREENOCK MORTON FC</td>
+	<td>2-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>280.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 18:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>AL AHLY CAIRO vs EL ZAMALEK</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:07:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 16:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HJK HELSINKI vs HIFK</td>
+	<td>3-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.42</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>242.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:06:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 16:00:00</td>
+	<td>Algeria</td>
+	<td>Ligue 1</td>
+	<td>MO BEJAIA vs ES SETIF</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-09 03:05:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-08 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC HAVRE vs DIJON FCO</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DIJON FCO</td>
+	<td>2.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>189.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:18:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-08 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>TRAPANI CALCIO vs COMO CALCIO</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>TRAPANI CALCIO</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:18:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-08 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ESPANYOL BARCELONA vs REAL SOCIEDAD</td>
+	<td>0-5 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:13:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-08 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ARMINIA BIELEFELD vs MSV DUISBURG</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-08 19:30:00</td>
+	<td>Israel</td>
+	<td>Premier League</td>
+	<td>HAPOEL RAANANA vs BEITAR JERUSALEM</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-08 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KASIMPASA vs GENCLERBIRLIGI</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-08 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>PANIONIOS ATHENS vs PANAITOLIKOS</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:16:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-08 18:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>IFK MARIEHAMN vs FC INTER TURKU</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-08 16:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-08 18:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>GOZTEPESPOR vs SANLIURFASPOR</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>255.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-07 21:10:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 18:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>ROYAL MOUSCRON vs KRC GENK</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KRC GENK</td>
+	<td>2.39</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>139.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:53:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs AC FIORENTINA</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 17:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>ALANYASPOR vs MALATYA BLD SPOR</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:31:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>2-4 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1 FSV MAINZ 05</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>1 FSV MAINZ 05</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:29:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs VFL WOLFSBURG</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>145.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC INGOLSTADT vs FC AUGSBURG</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:26:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>KARDEMIR KARABUKSPOR vs BALIKESIRSPOR</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs LEICESTER CITY</td>
+	<td>1-3 (0-1)</td>
+	<td>Draw no bet</td>
+	<td>LEICESTER CITY</td>
+	<td>4.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>360.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 22:36:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 12:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>1461 TRABZON vs ALTINORDU</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-06 02:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 23:30:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>SANTIAGO WANDERERS vs O'HIGGINS FC</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:44:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRIGHTON & HOVE ALBION FC vs BRENTFORD FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC BARI 1908 vs FC CROTONE</td>
+	<td>2-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 20:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>YELLOW-RED KV MECHELEN vs RSC ANDERLECHT</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>278.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:11:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>MALAGA CF vs GETAFE CF</td>
+	<td>3-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:11:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs WERDER BREMEN</td>
+	<td>5-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 19:10:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>SBV EXCELSIOR vs WILLEM II TILBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.49</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>249.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 01:31:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFL OSNABRUCK vs ENERGIE COTTBUS</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 01:29:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFR AALEN vs ERZGEBIRGE AUE</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 01:27:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs FC UNION BERLIN</td>
+	<td>2-2 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>260.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 02:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs SC FREIBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-05 02:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>OSMANLISPOR FK vs SIVASSPOR</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.56</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 20:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 18:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>ADANASPOR vs GIRESUNSPOR</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 17:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 17:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>CHEMNITZER FC vs FC MAGDEBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 17:49:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 16:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HJK HELSINKI vs FC LAHTI</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>267.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 17:47:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs SYDNEY FC</td>
+	<td>2-2 (2-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>260.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 17:44:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 01:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>UNIVERSITARIO DE SUCRE vs CLUB PETROLERO</td>
+	<td>1-1 (1-0)</td>
+	<td>Draw no bet</td>
+	<td>CLUB PETROLERO</td>
+	<td>8.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-04 16:50:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-04 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>STADE RENNES vs AS SAINT ETIENNE</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 22:34:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-04 21:00:00</td>
+	<td>Portugal</td>
+	<td>Taca de Portugal</td>
+	<td>SPORTING BRAGA vs RIO AVE FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 22:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-04 20:45:00</td>
+	<td>England</td>
+	<td>Football League Trophy</td>
+	<td>FLEETWOOD TOWN vs BARNSLEY FC</td>
+	<td>3-5 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BARNSLEY FC</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 22:35:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-04 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>SEVILLA FC vs CELTA DE VIGO</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>200.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 22:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-04 18:30:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>IRAKLIS 1908 vs AEK ATHENS FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>4.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 22:32:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-04 01:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>SPORT BOYS vs CLUB JORGE WILSTERMANN</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:20:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WATFORD FC vs CHELSEA FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 20:45:00</td>
+	<td>Belgium</td>
+	<td>Cofidis Cup</td>
+	<td>CLUB BRUGGE vs KAA GENT</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>KAA GENT</td>
+	<td>3.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 20:30:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>EXCELSIOR VIRTON vs FC TUBIZE</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 19:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE LYON vs FC GIRONDINS BORDEAUX</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 19:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>STADE REIMS vs SCO ANGERS</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SCO ANGERS</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 19:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>LILLE OSC vs SM CAEN</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 19:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ENPPI CLUB vs AL AHLY CAIRO</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 18:30:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>ASTERAS TRIPOLIS vs OLYMPIACOS FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIACOS FC</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 14:30:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HIFK vs IFK MARIEHAMN</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-03 02:10:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC AJACCIO vs OLYMPIQUE NIMES</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE NIMES</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-02 18:00:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>MONTPELLIER HSC vs OLYMPIQUE MARSEILLE</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-02 15:38:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>SHEFFIELD WEDNESDAY vs BURNLEY FC</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BURNLEY FC</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>IPSWICH TOWN vs READING FC</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.42</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:09:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>DONCASTER ROVERS vs WALSALL FC</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WALSALL FC</td>
+	<td>2.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>167.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:07:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>MORECAMBE FC vs PORTSMOUTH FC</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>291.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:06:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 20:45:00</td>
+	<td>Belgium</td>
+	<td>Cofidis Cup</td>
+	<td>KRC GENK vs STANDARD LIEGE</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>STANDARD LIEGE</td>
+	<td>3.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>PARTICK THISTLE vs MOTHERWELL FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:04:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs AS ROMA</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:03:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs SOUTHAMPTON FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SOUTHAMPTON FC</td>
+	<td>5.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 21:02:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ITTIHAD EL-SHORTA vs WADI DEGLA SC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 20:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 13:15:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>PK 35 VANTAA vs FC LAHTI</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.46</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>246.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-02-01 20:57:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC AROUCA vs FC PACOS FERREIRA</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>218.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 15:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>RIO AVE FC vs VITORIA SETUBAL</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 15:22:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1 FC COLOGNE</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>335.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 13:56:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>AC MARTINA vs ISCHIA ISOLAVERDE</td>
+	<td>3-3 (2-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>214.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 13:55:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>CATANIA CALCIO vs MATERA FC</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 13:54:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone B</td>
+	<td>AC PRATO vs ROBUR SIENA</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 15:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>KONYASPOR vs ANTALYASPOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KONYASPOR</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:14:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>UDINESE CALCIO vs LAZIO ROMA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LAZIO ROMA</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs AC FIORENTINA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs SAMPDORIA GENOA</td>
+	<td>3-2 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ENERGIE COTTBUS vs FORTUNA COLOGNE</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FORTUNA COLOGNE</td>
+	<td>3.54</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 14:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>SM CAEN vs OGC NICE</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>OGC NICE</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:08:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 12:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>GIRESUNSPOR vs S. B. ELAZIGSPOR</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>205.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 12:00:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>LAJONG SC vs SPORTING CLUBE DE GOA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:04:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 11:30:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>SALGAOCAR SC vs AIZAWL FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>230.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-31 05:04:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 00:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>BOYACA CHICO FC vs INDEPENDIENTE SANTA FE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 21:54:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 00:00:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Clausura</td>
+	<td>CRUZ AZUL vs JAGUARES DE CHIAPAS</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 21:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 23:30:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>OLIMPIA ASUNCION vs CLUB LIBERTAD ASUNCION</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.37</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 21:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 23:30:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>HUACHIPATO vs UNION ESPANOLA</td>
+	<td>3-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>268.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 21:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 23:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>CLUB CORTULUA vs DEPORTIVO CALI</td>
+	<td>4-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 21:52:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NEC NIJMEGEN vs AZ ALKMAAR</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 20:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>KVC WESTERLO vs SV ZULTE WAREGEM</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:38:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>TROYES AC vs FC NANTES</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.36</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>TOULOUSE FC vs EA GUINGAMP</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:35:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 19:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PEC ZWOLLE vs FC GRONINGEN</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:34:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 18:15:00</td>
+	<td>Wales</td>
+	<td>Premier League</td>
+	<td>LLANDUDNO FC vs AIRBUS UK BROUGHTON</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:32:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs US SASSUOLO</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>227.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 16:33:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs HERTHA BSC</td>
+	<td>3-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>245.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:15:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 15:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>PS KEMI KINGS vs FC ILVES</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:14:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs US PALERMO</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>231.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 14:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC HAVRE vs RC LENS</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 13:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>ROVANIEMI PALLOSEURA vs VAASA PS</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:12:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 12:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>UD OLIVEIRENSE vs BENFICA LISBON B</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 11:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>PERTH GLORY FC vs MELBOURNE VICTORY</td>
+	<td>3-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>SYDNEY FC vs BRISBANE ROAR FC</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.58</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 07:15:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>WELLINGTON PHOENIX FC vs CENTRAL COAST MARINERS FC</td>
+	<td>1-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-30 05:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 00:15:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>CLUB GUARANI vs DEPORTIVO CAPIATA</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 23:07:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 21:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>VITORIA GUIMARAES vs CF UNIAO MADEIRA</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 19:10:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:55:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>DERBY COUNTY vs MANCHESTER UNITED</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 18:57:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 20:45:00</td>
+	<td>Wales</td>
+	<td>Premier League</td>
+	<td>ABERYSTWYTH TOWN vs PORT TALBOT TOWN</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 18:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS AVELLINO vs CAGLIARI CALCIO</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 18:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE MARSEILLE vs LILLE OSC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>244.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs MONCHENGLADBACH</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:54:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>FC SOCHAUX vs BOURG PERONNAS</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.26</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>226.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:49:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>WILLEM II TILBURG vs HERACLES ALMELO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>268.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:48:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC OSS vs FC DORDRECHT</td>
+	<td>2-3 (2-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FORTUNA SITTARD vs ALMERE CITY FC</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 18:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HIFK vs PK 35 VANTAA</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:42:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 17:30:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>KUOPIO PS vs SEINAJOEN JK</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>267.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:40:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 14:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>FC LAHTI vs FC INTER TURKU</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>WESTERN SYDNEY vs MELBOURNE CITY FC</td>
+	<td>4-3 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-29 04:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 21:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>LAS PALMAS UD vs VALENCIA CF</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>FEYENOORD ROTTERDAM vs SC HEERENVEEN</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>5.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 20:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>CD MIRANDES vs SEVILLA FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:36:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 18:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>RODA JC KERKRADE vs FC UTRECHT</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:30:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 17:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>ESKISEHIRSPOR vs BURSASPOR</td>
+	<td>2-3 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 13:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BASAKSEHIR FK vs AMEDSPOR</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>5.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>400.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 12:00:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>LAJONG SC vs SALGAOCAR SC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:12:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 11:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>CAYKUR RIZESPOR vs MERSIN IDMAN YURDU SK</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:21:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 11:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BUYUK. TEPECIKSPOR vs BOLUSPOR</td>
+	<td>2-1 </td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-28 00:21:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>JUVENTUS TURIN vs INTER MILAN</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 09:15:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 20:45:00</td>
+	<td>England</td>
+	<td>Carling Cup</td>
+	<td>MANCHESTER CITY vs EVERTON FC</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 02:07:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 19:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>DE GRAAFSCHAP vs ADO DEN HAAG</td>
+	<td>3-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.59</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 02:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 19:15:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>RIO AVE FC vs SPORTING BRAGA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:55:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 18:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NEC NIJMEGEN vs FC TWENTE ENSCHEDE</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 02:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 16:30:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>AC MARTINA vs COSENZA CALCIO</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 14:45:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>PANIONIOS ATHENS vs PAOK FC</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>218.50</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 14:35:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>MUMBAI FC vs BENGALURU FC</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.61</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:50:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 13:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>AYDINSPOR vs BUCASPOR</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:52:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 12:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BANDIRMASPOR vs SANLIURFASPOR</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>275.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-27 01:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 02:00:00</td>
+	<td>Mexico</td>
+	<td>Copa MX, Clausura, Group 5</td>
+	<td>ALEBRIJES DE OAXACA vs TIBURONES ROJOS DE VERACRUZ</td>
+	<td>2-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>TIBURONES ROJOS DE VERACRUZ</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>MORECAMBE FC vs MANSFIELD TOWN</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-26 20:45:00</td>
+	<td>England Amateur</td>
+	<td>FA Trophy</td>
+	<td>CHELTENHAM TOWN vs OXFORD CITY</td>
+	<td>0-3 </td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.69</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:56:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 20:45:00</td>
+	<td>England Amateur</td>
+	<td>FA Trophy</td>
+	<td>NANTWICH TOWN vs BRADFORD PARK AVENUE</td>
+	<td>5-0 </td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.51</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-26 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>BLACKPOOL FC vs SHEFFIELD UNITED</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>260.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:50:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRENTFORD FC vs LEEDS UNITED</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:48:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-26 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>NOTTINGHAM FOREST vs QUEENS PARK RANGERS</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:48:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 18:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>WILLEM II TILBURG vs FC GRONINGEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.66</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>266.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-26 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs SYDNEY FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-26 01:44:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BURNLEY FC vs DERBY COUNTY</td>
+	<td>4-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 19:32:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>CURZON ASHTON FC vs STALYBRIDGE CELTIC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>266.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 19:29:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>LEVANTE UD vs LAS PALMAS UD</td>
+	<td>3-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 19:28:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS LIVORNO vs COMO CALCIO</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>220.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 20:30:00</td>
+	<td>Italy</td>
+	<td>Lega Pro, Girone A</td>
+	<td>AC REGGIANA vs AC LUMEZZANE</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>CLERMONT FOOT vs AC HAVRE</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:30:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC AJACCIO vs STADE BREST</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 20:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>MATERA FC vs FIDELIS ANDRIA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>210.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:27:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>BASAKSEHIR FK vs KASIMPASA</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>230.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>IRAKLIS 1908 vs PLATANIAS FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>214.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-25 18:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>ALTINORDU vs BOLUSPOR</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 09:30:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>AIZAWL FC vs SPORTING CLUBE DE GOA</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-25 02:20:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 17:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PERUGIA vs PESCARA CALCIO</td>
+	<td>0-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>PESCARA CALCIO</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>210.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>STADE REIMS vs AS SAINT ETIENNE</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS SAINT ETIENNE</td>
+	<td>2.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:32:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone B</td>
+	<td>SAVONA FBC vs MACERATESE</td>
+	<td>4-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>MACERATESE</td>
+	<td>2.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:30:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>US CATANZARO vs US FOGGIA</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>US FOGGIA</td>
+	<td>2.47</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>147.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro, Girone A</td>
+	<td>AC MANTOVA vs FC SUDTIROL</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC SUDTIROL</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 14:00:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>LEVADIAKOS FC vs PANATHINAIKOS ATHENS</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PANATHINAIKOS ATHENS</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:34:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 14:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>AS MONACO vs TOULOUSE FC</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>AS MONACO</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:31:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 12:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>DENIZLISPOR vs KARDEMIR KARABUKSPOR</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KARDEMIR KARABUKSPOR</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:32:21</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>REAL VALLADOLID vs CORDOBA CF</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>CORDOBA CF</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-24 02:25:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs CELTA DE VIGO</td>
+	<td>3-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>3.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:45:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>COSENZA CALCIO vs CATANIA CALCIO</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>COSENZA CALCIO</td>
+	<td>2.47</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:44:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone B</td>
+	<td>AC ANCONA vs AC PRATO</td>
+	<td>3-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AC ANCONA</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:44:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 20:30:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>SAN JOSE ORURO vs SPORT BOYS</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SPORT BOYS</td>
+	<td>5.61</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:42:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GRANADA CF vs GETAFE CF</td>
+	<td>3-2 (2-0)</td>
+	<td>Match Odds</td>
+	<td>GETAFE CF</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 20:00:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>WHITE STAR BRUXELLES vs ROYAL ANTWERP FC</td>
+	<td>0-4 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ROYAL ANTWERP FC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:39:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ESPANYOL BARCELONA vs VILLARREAL CF</td>
+	<td>2-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>VILLARREAL CF</td>
+	<td>2.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 17:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>OSMANLISPOR FK vs GALATASARAY ISTANBUL</td>
+	<td>3-2 (2-2)</td>
+	<td>Match Odds</td>
+	<td>GALATASARAY ISTANBUL</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 06:18:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 18:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>RCD MALLORCA vs ALCORCON AD</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ALCORCON AD</td>
+	<td>3.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 01:21:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>READING FC vs SHEFFIELD WEDNESDAY</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SHEFFIELD WEDNESDAY</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 06:17:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>FULHAM FC vs HULL CITY</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HULL CITY</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 02:46:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs FC AUGSBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HERTHA BSC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 23:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs AS AVELLINO</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS AVELLINO</td>
+	<td>3.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 23:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>NOVARA CALCIO vs FC CROTONE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>3.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>292.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 23:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 12:30:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KONYASPOR vs KAYSERISPOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KONYASPOR</td>
+	<td>2.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>165.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 23:23:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 12:00:00</td>
+	<td>India</td>
+	<td>I-League</td>
+	<td>MOHUN BAGAN AC vs EAST BENGAL FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MOHUN BAGAN AC</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-23 00:05:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 04:36:00</td>
+	<td>Mexico</td>
+	<td>Liga de Ascenso, Clausura</td>
+	<td>CIMARRONES DE SONORA vs CORRECAMINOS UAT</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CORRECAMINOS UAT</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 21:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 04:30:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Clausura</td>
+	<td>CLUB TIJUANA vs SANTOS LAGUNA</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CLUB TIJUANA</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:44:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 01:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>DEPORTES IQUIQUE vs HUACHIPATO</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>DEPORTES IQUIQUE</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 21:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 23:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>DEPORTIVO CAPIATA vs GENERAL CABALLERO</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO CAPIATA</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:45:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 22:30:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>SANTIAGO WANDERERS vs SAN LUIS DE QUILLOTA</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SANTIAGO WANDERERS</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:47:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 21:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>VITORIA SETUBAL vs ACADEMICA COIMBRA</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VITORIA SETUBAL</td>
+	<td>2.39</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>111.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SPORTING GIJON vs REAL SOCIEDAD</td>
+	<td>5-1 (3-1)</td>
+	<td>Match Odds</td>
+	<td>REAL SOCIEDAD</td>
+	<td>2.55</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:25:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 20:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>KV KORTRIJK vs KV OOSTENDE</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>KV OOSTENDE</td>
+	<td>2.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:22:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPORTIVA SALERNITANA vs BRESCIA CALCIO</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>BRESCIA CALCIO</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-22 19:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>STUTTGARTER KICKERS vs ERZGEBIRGE AUE</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ERZGEBIRGE AUE</td>
+	<td>2.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:41:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FORTUNA COLOGNE vs HANSA ROSTOCK</td>
+	<td>5-1 (3-1)</td>
+	<td>Match Odds</td>
+	<td>FORTUNA COLOGNE</td>
+	<td>2.51</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>120.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:39:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 14:00:00</td>
+	<td>Israel</td>
+	<td>National League</td>
+	<td>HAPOEL KATAMON vs IRONI RISHON LEZION</td>
+	<td>3-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>IRONI RISHON LEZION</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 14:00:00</td>
+	<td>Israel</td>
+	<td>National League</td>
+	<td>HAPOEL RAMAT GAN vs MACCABI HERZLIYA</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>HAPOEL RAMAT GAN</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:31:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 14:00:00</td>
+	<td>Israel</td>
+	<td>National League</td>
+	<td>BEITAR TEL AVIV RAMLA vs HAPOEL JERUSALEM</td>
+	<td>0-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BEITAR TEL AVIV RAMLA</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:31:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 14:00:00</td>
+	<td>Israel</td>
+	<td>National League</td>
+	<td>HAPOEL AFULA vs MS IRONI ASHDOD</td>
+	<td>3-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>MS IRONI ASHDOD</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:29:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 14:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>PETROJET FC vs ENPPI CLUB</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PETROJET FC</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:27:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 13:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>FC INTER TURKU vs PK 35 VANTAA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC INTER TURKU</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs ADELAIDE UNITED FC</td>
+	<td>1-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BRISBANE ROAR FC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-21 23:20:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-21 20:45:00</td>
+	<td>Belgium</td>
+	<td>Cofidis Cup</td>
+	<td>KAA GENT vs CLUB BRUGGE</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>KAA GENT</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>122.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 20:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-21 15:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BOLUSPOR vs ESKISEHIRSPOR</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ESKISEHIRSPOR</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>152.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 19:14:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-21 11:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>AMEDSPOR vs BANDIRMASPOR</td>
+	<td>3-3 (1-3)</td>
+	<td>Match Odds</td>
+	<td>AMEDSPOR</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 19:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 21:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>RIO AVE FC vs CF OS BELENENSES</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RIO AVE FC</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>LEICESTER CITY vs TOTTENHAM HOTSPUR</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>2.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>LAZIO ROMA vs JUVENTUS TURIN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:19:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>CELTA DE VIGO vs ATLETICO MADRID</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>2.41</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 18:57:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>SKODA XANTHI FC vs PAOK FC</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>PAOK FC</td>
+	<td>2.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 18:30:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>EVIAN TG FC vs AS MONACO</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AS MONACO</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:24:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 18:30:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>CONCARNEAU vs TROYES AC</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>TROYES AC</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>133.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 16:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>MOREIRENSE FC vs CD NACIONAL</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MOREIRENSE FC</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:29:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 13:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ASWAN FC vs AL MOQAWLOON AL ARAB</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>ASWAN FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 13:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BUCASPOR vs CAYKUR RIZESPOR</td>
+	<td>3-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CAYKUR RIZESPOR</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-20 02:34:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-19 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>PORTSMOUTH FC vs IPSWICH TOWN</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>IPSWICH TOWN</td>
+	<td>3.72</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-19 19:24:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-19 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>YEOVIL TOWN vs CARLISLE UNITED</td>
+	<td>5-6 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CARLISLE UNITED</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-19 19:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-19 20:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>BRISTOL CITY vs WEST BROMWICH ALBION</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WEST BROMWICH ALBION</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-19 19:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-18 21:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>BOAVISTA FC vs VITORIA SETUBAL</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VITORIA SETUBAL</td>
+	<td>3.01</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-18 05:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-18 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>VALENCIENNES FC vs FC METZ</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC METZ</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-18 05:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-18 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs CAGLIARI CALCIO</td>
+	<td>3-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>CAGLIARI CALCIO</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-18 05:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-18 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SD EIBAR vs GRANADA CF</td>
+	<td>5-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>SD EIBAR</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-18 05:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-18 20:15:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>NEWPORT COUNTY vs BLACKBURN ROVERS</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>NEWPORT COUNTY</td>
+	<td>5.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-18 05:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-15 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRENTFORD FC vs BURNLEY FC</td>
+	<td>1-3 (0-3)</td>
+	<td>Match Odds</td>
+	<td>BURNLEY FC</td>
+	<td>3.12</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>127.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 21:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-15 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs SCO ANGERS</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SCO ANGERS</td>
+	<td>4.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 21:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-15 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>US CRETEIL vs RC LENS</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RC LENS</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 20:02:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-15 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>OLYMPIQUE NIMES vs CLERMONT FOOT</td>
+	<td>6-2 (3-2)</td>
+	<td>Match Odds</td>
+	<td>CLERMONT FOOT</td>
+	<td>3.29</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 18:15:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-15 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>AL ITTIHAD AL SAKANDARY vs AL MASRY CLUB</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AL MASRY CLUB</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 18:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-14 20:45:00</td>
+	<td>England</td>
+	<td>Football League Trophy</td>
+	<td>MILLWALL FC vs OXFORD UNITED</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>MILLWALL FC</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 00:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-14 20:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>GRANADA CF vs VALENCIA CF</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VALENCIA CF</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 00:05:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-14 18:45:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>EL DAKLYEH vs AL AHLY CAIRO</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AL AHLY CAIRO</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 00:04:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-14 16:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>VITORIA GUIMARAES B vs CLUBE ORIENTAL DE LISBOA</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CLUBE ORIENTAL DE LISBOA</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 00:08:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-14 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ISMAILY SC vs SMOUHA SC</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SMOUHA SC</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-14 00:03:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 21:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>LAS PALMAS UD vs SD EIBAR</td>
+	<td>3-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SD EIBAR</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 22:18:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-13 21:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>TOTTENHAM HOTSPUR vs LEICESTER CITY</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>5.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>255.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 22:12:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>HULL CITY vs CARDIFF CITY</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>HULL CITY</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 22:13:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-13 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>VILLARREAL CF vs ATHLETIC BILBAO</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VILLARREAL CF</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 22:15:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 17:00:00</td>
+	<td>Portugal</td>
+	<td>Taca de Portugal</td>
+	<td>GIL VICENTE FC vs CD NACIONAL</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>GIL VICENTE FC</td>
+	<td>3.26</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>135.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 22:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-12 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>BOURNEMOUTH AFC vs WEST HAM UNITED</td>
+	<td>1-3 (1-0)</td>
+	<td>Match Odds</td>
+	<td>WEST HAM UNITED</td>
+	<td>3.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>172.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 01:02:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-12 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRISTOL CITY vs PRESTON NORTH END</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PRESTON NORTH END</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>129.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 01:01:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-12 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs CRYSTAL PALACE</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CRYSTAL PALACE</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 01:00:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-12 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRENTFORD FC vs MIDDLESBROUGH FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MIDDLESBROUGH FC</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>110.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 00:59:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-12 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>PLYMOUTH ARGYLE vs NORTHAMPTON TOWN</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>PLYMOUTH ARGYLE</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-12 00:58:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-11 22:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division</td>
+	<td>SANTIAGO WANDERERS vs COLO COLO</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>SANTIAGO WANDERERS</td>
+	<td>4.16</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>252.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-10 23:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-11 21:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC PACOS FERREIRA vs VITORIA SETUBAL</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-11 00:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-11 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>FC METZ vs FC SOCHAUX</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC METZ</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>112.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-10 23:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-11 20:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>PAGANESE CALCIO vs US CASERTANA 1908</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>US CASERTANA 1908</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-10 23:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs ATLETICO MADRID</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>4.33</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-10 17:55:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 19:15:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>CORDOBA CF vs RCD MALLORCA</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>CORDOBA CF</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>93.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-10 17:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>PANAITOLIKOS vs ASTERAS TRIPOLIS</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ASTERAS TRIPOLIS</td>
+	<td>2.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-09 23:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 16:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>CD MAFRA vs GIL VICENTE FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>GIL VICENTE FC</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>92.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-09 23:15:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL SOCIEDAD vs VALENCIA CF</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>VALENCIA CF</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-09 23:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>US FOGGIA vs JUVE STABIA</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>US FOGGIA</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-09 23:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 15:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>CARLISLE UNITED vs YEOVIL TOWN</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CARLISLE UNITED</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-09 23:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC AJACCIO vs AC HAVRE</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AC HAVRE</td>
+	<td>3.39</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 22:16:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>CHAMOIS NIORT FC vs DIJON FCO</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>DIJON FCO</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 22:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>OLYMPIQUE NIMES vs STADE BREST</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>STADE BREST</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 22:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>CLERMONT FOOT vs EVIAN TG FC</td>
+	<td>4-1 (4-0)</td>
+	<td>Match Odds</td>
+	<td>CLERMONT FOOT</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 18:46:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AJ AUXERRE vs VALENCIENNES FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AJ AUXERRE</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 18:45:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-07 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WIGAN ATHLETIC vs GILLINGHAM FC</td>
+	<td>3-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>GILLINGHAM FC</td>
+	<td>4.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 03:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-07 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>CADIZ CF vs CELTA DE VIGO</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 03:48:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-07 14:00:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>PAS GIANNINA FC vs PANATHINAIKOS ATHENS</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PANATHINAIKOS ATHENS</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-07 03:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 21:00:00</td>
+	<td>England</td>
+	<td>Carling Cup</td>
+	<td>EVERTON FC vs MANCHESTER CITY</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MANCHESTER CITY</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-06 17:06:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 18:15:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>BETIS SEVILLA vs SEVILLA FC</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SEVILLA FC</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-06 16:30:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FC EMPOLI vs INTER MILAN</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.34</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>107.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-06 16:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>CD TONDELA vs FC PACOS FERREIRA</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>104.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-06 15:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 16:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>CD MIRANDES vs DEPORTIVO LA CORUNA</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO LA CORUNA</td>
+	<td>2.89</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-05 22:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs AC FIORENTINA</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-05 22:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs AS ROMA</td>
+	<td>3-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-05 22:29:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 12:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>ATHLETIC BILBAO vs VILLARREAL CF</td>
+	<td>3-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>VILLARREAL CF</td>
+	<td>4.66</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-05 22:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-05 21:00:00</td>
+	<td>England</td>
+	<td>Carling Cup</td>
+	<td>STOKE CITY vs LIVERPOOL FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>LIVERPOOL FC</td>
+	<td>2.57</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>125.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 22:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-05 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs SAMPDORIA GENOA</td>
+	<td>2-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 22:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-05 18:30:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>VEROIA FC vs IRAKLIS 1908</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>IRAKLIS 1908</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 22:40:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-05 16:15:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>LARISSA vs ASTERAS TRIPOLIS</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ASTERAS TRIPOLIS</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 22:39:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-04 20:45:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>OGC NICE vs STADE RENNES</td>
+	<td>8-9 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 15:13:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-04 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SPORTING GIJON vs GETAFE CF</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 15:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-04 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>GIRONA FC vs REAL VALLADOLID</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +1.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>160.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 15:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-04 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>TENERIFE CD vs ALCORCON AD</td>
+	<td>1-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ALCORCON AD</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>160.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-04 15:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>MALAGA CF vs CELTA DE VIGO</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>3.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 17:16:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 20:45:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>SEDAN-ARDENNES vs SC BASTIA</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SC BASTIA</td>
+	<td>2.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>167.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 17:17:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 19:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC PACOS FERREIRA vs CF OS BELENENSES</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 17:16:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>SCUNTHORPE UNITED vs WIGAN ATHLETIC</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>WIGAN ATHLETIC</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 01:08:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WALSALL FC vs ROCHDALE FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>WALSALL FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 01:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>GILLINGHAM FC vs BRADFORD CITY</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>GILLINGHAM FC</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 01:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LEICESTER CITY vs BOURNEMOUTH AFC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 01:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>CHARLTON ATHLETIC vs NOTTINGHAM FOREST</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>NOTTINGHAM FOREST</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2016-01-02 01:04:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>LEEDS UNITED vs DERBY COUNTY</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>DERBY COUNTY</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-28 20:26:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LEICESTER CITY vs MANCHESTER CITY</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>4.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-28 20:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-29 16:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>CLUBE ORIENTAL DE LISBOA vs MOREIRENSE FC</td>
+	<td>2-4 (1-2)</td>
+	<td>Match Odds</td>
+	<td>MOREIRENSE FC</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>105.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-28 20:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 16:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>LEIXOES SC vs RIO AVE FC</td>
+	<td>1-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>RIO AVE FC</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-28 20:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 19:00:00</td>
+	<td>Portugal</td>
+	<td>League Cup, Phase 3, Gr. C</td>
+	<td>PORTIMONENSE SC vs FC AROUCA</td>
+	<td>4-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>FC AROUCA</td>
+	<td>2.64</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-28 17:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>FLEETWOOD TOWN vs WIGAN ATHLETIC</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>WIGAN ATHLETIC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-27 20:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WALSALL FC vs PETERBOROUGH UNITED</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WALSALL FC</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>85.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-27 20:49:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>CHESTERFIELD FC vs COVENTRY CITY</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>COVENTRY CITY</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-27 20:48:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BURNLEY FC vs BRISTOL CITY</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>BURNLEY FC</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-27 20:45:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>PRESTON NORTH END vs HULL CITY</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HULL CITY</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-27 20:44:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 15:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KAYSERISPOR vs GALATASARAY ISTANBUL</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>GALATASARAY ISTANBUL</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 22:11:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs NOVARA CALCIO</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>NOVARA CALCIO</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 22:10:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS ENTELLA vs FC CROTONE</td>
+	<td>1-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>114.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 22:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>BRESCIA CALCIO vs TERNANA CALCIO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BRESCIA CALCIO</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 22:08:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>LATINA CALCIO vs PESCARA CALCIO</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PESCARA CALCIO</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>112.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 22:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SOUTHAMPTON FC vs ARSENAL FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL FC</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 17:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 20:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>YELLOW-RED KV MECHELEN vs KAA GENT</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KAA GENT</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-26 17:30:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs WEST HAM UNITED</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>WEST HAM UNITED</td>
+	<td>2.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-25 19:06:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LIVERPOOL FC vs LEICESTER CITY</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>4.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-25 19:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 14:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRENTFORD FC vs BRIGHTON & HOVE ALBION FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BRIGHTON & HOVE ALBION FC</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-25 19:07:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>STOKE CITY vs MANCHESTER UNITED</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>MANCHESTER UNITED</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-25 19:02:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-24 13:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPORTIVA SALERNITANA vs CAGLIARI CALCIO</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CAGLIARI CALCIO</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-22 02:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PESCARA CALCIO vs FC MODENA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PESCARA CALCIO</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-22 02:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>NOVARA CALCIO vs AC CESENA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>NOVARA CALCIO</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-22 02:10:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs TRAPANI CALCIO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-22 02:09:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-21 22:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>SPORTING BRAGA vs FC PACOS FERREIRA</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SPORTING BRAGA</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-21 01:18:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-21 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>ATHLETIC BILBAO B vs CD LUGO</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>CD LUGO</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-21 01:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-21 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>OSMANLISPOR FK vs BESIKTAS JK</td>
+	<td>2-3 (2-1)</td>
+	<td>Match Odds</td>
+	<td>BESIKTAS JK</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-21 01:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-21 17:00:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>CS VOLUNTARI vs FC VIITORUL CONSTANTA</td>
+	<td>2-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC VIITORUL CONSTANTA</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>128.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-21 01:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-18 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>ELCHE CF vs CORDOBA CF</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>CORDOBA CF</td>
+	<td>3.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-18 03:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-18 20:30:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>WISLA KRAKOW SA vs MKS POGON SZCZECIN</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>MKS POGON SZCZECIN</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>176.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-18 03:33:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-18 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>STADE LAVALLOIS MFC vs OLYMPIQUE NIMES</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>STADE LAVALLOIS MFC</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-18 03:44:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-18 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs KARLSRUHER SC</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC ST. PAULI</td>
+	<td>2.46</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-18 03:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 22:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>CF UNIAO MADEIRA vs BENFICA LISBON</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under Team</td>
+	<td>BENFICA LISBON Over +3.50</td>
+	<td>5.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-15 19:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-15 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>QUEENS PARK RANGERS vs BRIGHTON & HOVE ALBION FC</td>
+	<td>2-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BRIGHTON & HOVE ALBION FC</td>
+	<td>2.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-15 19:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>DERBY COUNTY vs BRISTOL CITY</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DERBY COUNTY</td>
+	<td>1.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-15 19:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-15 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>FULHAM FC vs IPSWICH TOWN</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>IPSWICH TOWN</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-15 19:24:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-14 21:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>ACADEMICA COIMBRA vs CF OS BELENENSES</td>
+	<td>4-3 (2-1)</td>
+	<td>Match Odds</td>
+	<td>CF OS BELENENSES</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-14 05:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-14 21:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LEICESTER CITY vs CHELSEA FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>3.21</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>132.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-14 05:26:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-14 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ARMINIA BIELEFELD vs FC ST. PAULI</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC ST. PAULI</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-14 05:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-14 19:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>FC VIITORUL CONSTANTA vs STEAUA BUCURESTI</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC VIITORUL CONSTANTA</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-14 05:25:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-14 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>BESIKTAS JK vs GALATASARAY ISTANBUL</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BESIKTAS JK</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-14 05:29:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-10 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SPORTING CP vs BESIKTAS JK</td>
+	<td>3-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SPORTING CP</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-09 22:51:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-10 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PARTIZAN BELGRADE vs FC AUGSBURG</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>PARTIZAN BELGRADE</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-09 22:51:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-10 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AC FIORENTINA vs CF OS BELENENSES</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-09 22:46:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-10 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK GABALA vs FC KRASNODAR</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>FC KRASNODAR</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-09 22:50:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-10 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC MIDTJYLLAND vs CLUB BRUGGE</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC MIDTJYLLAND</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-09 22:47:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>OLYMPIACOS FC vs ARSENAL FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIACOS FC</td>
+	<td>3.68</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-08 23:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>VALENCIA CF vs OLYMPIQUE LYON</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-08 23:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>KAA GENT vs ZENIT ST PETERSBURG</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ZENIT ST PETERSBURG</td>
+	<td>3.24</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-08 23:03:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>CHELSEA FC vs FC PORTO</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-08 23:02:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYER LEVERKUSEN vs FC BARCELONA</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC BARCELONA</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-08 23:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-07 21:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>VITORIA GUIMARAES vs RIO AVE FC</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>RIO AVE FC</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-07 02:24:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-07 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>ATHLETIC BILBAO B vs REAL ZARAGOZA</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>REAL ZARAGOZA</td>
+	<td>3.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>124.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-07 02:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-07 19:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>FC PETROLUL PLOIESTI vs DINAMO BUCURESTI</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DINAMO BUCURESTI</td>
+	<td>2.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>106.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-07 02:27:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-07 17:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>AKHISAR BLD SPOR vs SIVASSPOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AKHISAR BLD SPOR</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>97.60</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-07 02:29:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-07 17:00:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>CS VOLUNTARI vs ASA TARGU MURES</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ASA TARGU MURES</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>92.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-07 02:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>BETIS SEVILLA vs CELTA DE VIGO</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-05 04:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 22:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>DEPORTIVO LA CORUNA vs SEVILLA FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SEVILLA FC</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-05 04:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SWANSEA CITY vs LEICESTER CITY</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>LEICESTER CITY</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>150.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-05 04:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs AS ROMA</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-12-05 04:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-30 22:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>SPORTING BRAGA vs BENFICA LISBON</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>4.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-30 05:40:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-30 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SSC NAPOLI vs INTER MILAN</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-30 05:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-30 20:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>SPORTING CP vs CF OS BELENENSES</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-30 05:39:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-30 19:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs AC FIORENTINA</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-30 05:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ATLETICO MADRID vs GALATASARAY ISTANBUL</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>5.50</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-25 02:45:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>JUVENTUS TURIN vs MANCHESTER CITY</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>77.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-25 02:44:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MONCHENGLADBACH vs SEVILLA FC</td>
+	<td>4-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SEVILLA FC</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-25 02:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC SHAKHTAR DONETSK vs REAL MADRID</td>
+	<td>3-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>REAL MADRID</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-25 02:40:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-25 16:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC ASTANA vs BENFICA LISBON</td>
+	<td>2-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>4.33</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>266.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-25 02:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-24 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYERN MUNICH vs OLYMPIACOS FC</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +2.50 Half time</td>
+	<td>4.33</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>199.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-24 06:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-24 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BARCELONA vs AS ROMA</td>
+	<td>6-1 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.80</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-24 06:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-24 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ZENIT ST PETERSBURG vs VALENCIA CF</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ZENIT ST PETERSBURG</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-24 06:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-24 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BATE BORISOV vs BAYER LEVERKUSEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>BAYER LEVERKUSEN</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-24 06:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 22:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs ECUADOR</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ECUADOR</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>128.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-17 02:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-17 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>SLOVENIA vs UKRAINE</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>UKRAINE</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-17 02:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>DENMARK vs SWEDEN</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>184.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-17 02:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-17 16:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>SLOVENIA vs SERBIA</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SERBIA</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-17 02:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 11:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>GEORGIA vs SWEDEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SWEDEN</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.20</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-17 02:37:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-10 00:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CRUCERO DEL NORTE vs CA ALDOSIVI</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CA ALDOSIVI</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-09 21:59:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-09 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs AS AVELLINO</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-09 04:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-09 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs FORTUNA DUSSELDORF</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC ST. PAULI</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-09 04:58:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-09 20:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>CF OS BELENENSES vs CD TONDELA</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CF OS BELENENSES</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>66.40</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-09 04:56:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-09 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC LAUSANNE-SPORT vs NEUCHATEL XAMAX FC</td>
+	<td>2-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC LAUSANNE-SPORT</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-09 05:02:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SAMPDORIA GENOA vs AC FIORENTINA</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-08 19:11:38</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SEVILLA FC vs REAL MADRID</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>REAL MADRID</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-08 17:54:19</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 19:15:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>BURSASPOR vs BESIKTAS JK</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BESIKTAS JK</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-08 17:53:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 17:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>ALBACETE BALOMPIE vs CORDOBA CF</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CORDOBA CF</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-08 15:14:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>MOREIRENSE FC vs FC PACOS FERREIRA</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-08 15:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs LAZIO ROMA</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-07 22:34:21</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 15:00:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC KRASNODAR vs CSKA MOSCOW</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>CSKA MOSCOW</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-07 22:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 14:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>STANDARD LIEGE vs RSC ANDERLECHT</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>RSC ANDERLECHT</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-07 22:31:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs INTER MILAN</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-07 22:29:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>ELCHE CF vs CA OSASUNA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>CA OSASUNA</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-07 22:25:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-02 21:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC PACOS FERREIRA vs VITORIA GUIMARAES</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-01 22:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-02 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>RC LENS vs AS NANCY</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS NANCY</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-01 22:09:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-02 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>WACKER INNSBRUCK vs AUSTRIA SALZBURG</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WACKER INNSBRUCK</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-01 19:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-02 17:30:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC ROSTOV vs FC DINAMO MOSCOW</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC ROSTOV</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-11-01 19:35:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 00:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>ABC RN vs SAMPAIO CORREA MA</td>
+	<td>2-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SAMPAIO CORREA MA</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>136.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-31 19:27:37</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 23:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>VELEZ SARSFIELD vs RIVER PLATE</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RIVER PLATE</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-31 19:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL SOCIEDAD vs CELTA DE VIGO</td>
+	<td>2-3 (2-1)</td>
+	<td>Match Odds</td>
+	<td>CELTA DE VIGO</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-31 19:09:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>INTER MILAN vs AS ROMA</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-31 19:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GETAFE CF vs FC BARCELONA</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under Team</td>
+	<td>FC BARCELONA Over +3.50</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-31 19:06:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 21:00:00</td>
+	<td>France</td>
+	<td>Coupe de la Ligue</td>
+	<td>FC LORIENT vs MONTPELLIER HSC</td>
+	<td>3-2 (3-1)</td>
+	<td>Match Odds</td>
+	<td>FC LORIENT</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-28 19:08:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 21:00:00</td>
+	<td>France</td>
+	<td>Coupe de la Ligue</td>
+	<td>BOURG PERONNAS vs FC NANTES</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC NANTES</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-28 19:07:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 20:45:00</td>
+	<td>England</td>
+	<td>Carling Cup</td>
+	<td>MANCHESTER CITY vs CRYSTAL PALACE</td>
+	<td>5-1 (2-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +2.50 Half time</td>
+	<td>5.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-28 19:13:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs LAZIO ROMA</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>LAZIO ROMA</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-28 19:03:51</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-27 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AC CESENA vs COMO CALCIO</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>AC CESENA</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-26 21:33:37</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-27 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS ENTELLA vs AS LIVORNO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS LIVORNO</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-26 21:30:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-27 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs SPEZIA CALCIO</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SPEZIA CALCIO</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-26 21:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-27 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PERUGIA vs CAGLIARI CALCIO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CAGLIARI CALCIO</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-26 21:25:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-27 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PRO VERCELLI vs FC BARI 1908</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC BARI 1908</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-26 20:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 19:15:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>TENERIFE CD vs CA OSASUNA</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>CA OSASUNA</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-24 22:58:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 18:00:00</td>
+	<td>Denmark</td>
+	<td>SAS Ligaen</td>
+	<td>BRONDBY IF vs FC MIDTJYLLAND</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC MIDTJYLLAND</td>
+	<td>2.62</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-24 22:46:20</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs FC SCHALKE 04</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-24 22:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>MOREIRENSE FC vs VITORIA SETUBAL</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VITORIA SETUBAL</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>176.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-24 22:38:43</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>LAS PALMAS UD vs VILLARREAL CF</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>VILLARREAL CF</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-24 22:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>ROTHERHAM UTD vs SHEFFIELD WEDNESDAY</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SHEFFIELD WEDNESDAY</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-23 00:21:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC AJACCIO vs FC METZ</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC METZ</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>168.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-23 00:41:46</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PEC ZWOLLE vs FC UTRECHT</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>PEC ZWOLLE</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-23 00:28:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC VOLENDAM vs FC EMMEN</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC VOLENDAM</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-23 00:25:27</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SPORTING BRAGA vs OLYMPIQUE MARSEILLE</td>
+	<td>3-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SPORTING BRAGA</td>
+	<td>2.55</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>124.00</td>
+	<td>Win</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-22 18:06:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>DNIPRO DNIPROPETROVSK vs AS SAINT ETIENNE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>DNIPRO DNIPROPETROVSK</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-22 17:52:41</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC SCHALKE 04 vs SPARTA PRAGUE</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Owen Garth</td>
+		<td>Football</td>
+		<td>2015-10-22 17:50:10</td>
+	</tr>
+</tbody>
+
+</table>

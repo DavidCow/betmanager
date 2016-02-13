@@ -1,0 +1,426 @@
+Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-02-10 21:00:00,Spain,Copa del Rey,VALENCIA CF vs FC BARCELONA,1-1 (1-0),Draw no bet,VALENCIA CF,3.00,,100,0.00,Void,Owen Garth,Football,2016-02-10 01:55:02
+2016-02-10 20:45:00,England,FA Cup,PETERBOROUGH UNITED vs WEST BROMWICH ALBION,4-5 (0-0),Match Odds,WEST BROMWICH ALBION,2.10,,100,-100.00,Lost,Owen Garth,Football,2016-02-10 02:00:04
+2016-02-10 20:30:00,Austria,ÖFB Stiegl Cup,SK STURM GRAZ vs RB SALZBURG,0-1 (0-1),Match Odds,RB SALZBURG,2.00,,100,100.00,Win,Owen Garth,Football,2016-02-10 02:02:02
+2016-02-10 19:00:00,France,Coupe de France,TROYES AC vs AS SAINT ETIENNE,1-1 (0-0),Match Odds,AS SAINT ETIENNE,2.05,,100,-100.00,Lost,Owen Garth,Football,2016-02-10 02:01:02
+2016-02-10 19:00:00,Germany,DFB Pokal,1 FC HEIDENHEIM vs HERTHA BSC,2-3 (1-2),Match Odds,HERTHA BSC,2.05,,100,105.00,Win,Owen Garth,Football,2016-02-10 01:54:01
+2016-02-10 18:45:00,Portugal,Carlsberg Cup,CS MARITIMO MADEIRA vs PORTIMONENSE SC,3-1 (2-1),Match Odds,PORTIMONENSE SC,3.80,,100,-100.00,Lost,Owen Garth,Football,2016-02-10 01:58:02
+2016-02-10 18:30:00,Greece,Greece Cup,ATROMITOS ATHENS vs PANATHINAIKOS ATHENS,1-0 (0-0),Match Odds,PANATHINAIKOS ATHENS,2.25,,100,-100.00,Lost,Owen Garth,Football,2016-02-10 01:59:05
+2016-02-10 18:15:00,Finland,Liigacup Group 1,SEINAJOEN JK vs VAASA PS,2-1 (0-1),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-02-10 01:57:02
+2016-02-10 17:45:00,Turkey,Turkish Cup,AKHISAR BLD SPOR vs GALATASARAY ISTANBUL,1-2 (0-0),Match Odds,GALATASARAY ISTANBUL,2.30,,100,130.00,Win,Owen Garth,Football,2016-02-10 01:59:01
+2016-02-10 17:00:00,Finland,Liigacup Group 1,FC ILVES vs ROVANIEMI PALLOSEURA,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Owen Garth,Football,2016-02-10 01:56:02
+2016-02-09 20:45:00,Scotland,Second Division,COWDENBEATH FC vs ALBION ROVERS FC,1-2 (1-1),Match Odds,Draw,3.60,,100,-100.00,Lost,Owen Garth,Football,2016-02-09 03:13:02
+2016-02-09 20:45:00,Scotland,Third Division,STIRLING ALBION vs MONTROSE FC,7-0 (3-0),Match Odds,Draw,4.00,,100,-100.00,Lost,Owen Garth,Football,2016-02-09 03:11:11
+2016-02-09 20:45:00,England,Skrill Premier,ALTRINCHAM FC vs WREXHAM FC,1-1 (1-1),Match Odds,Draw,3.69,,100,269.00,Win,Owen Garth,Football,2016-02-09 03:11:02
+2016-02-09 20:45:00,England,Skrill Premier,KIDDERMINSTER HARRIERS vs EASTLEIGH FC,3-2 (1-0),Match Odds,EASTLEIGH FC,1.85,,100,-100.00,Lost,Owen Garth,Football,
+2016-02-09 20:45:00,England,Championship,MILTON KEYNES DONS vs MIDDLESBROUGH FC,1-1 (1-0),Match Odds,MIDDLESBROUGH FC,1.92,,100,-100.00,Lost,Owen Garth,Football,2016-02-09 03:09:02
+2016-02-09 20:45:00,England,FA Cup,WEST HAM UNITED vs LIVERPOOL FC,1-1 (1-0),Match Odds,LIVERPOOL FC,2.98,,100,-100.00,Lost,Owen Garth,Football,2016-02-09 03:08:06
+2016-02-09 20:30:00,Scotland,First Division,ALLOA ATHLETIC FC vs GREENOCK MORTON FC,2-2 (1-2),Match Odds,Draw,3.80,,100,280.00,Win,Owen Garth,Football,2016-02-09 03:08:02
+2016-02-09 18:00:00,Egypt,Premier League,AL AHLY CAIRO vs EL ZAMALEK,2-0 (0-0),Match Odds,Draw,2.88,,100,-100.00,Lost,Owen Garth,Football,2016-02-09 03:07:01
+2016-02-09 16:00:00,Finland,Liigacup Group 1,HJK HELSINKI vs HIFK,3-3 (1-2),Match Odds,Draw,3.42,,100,242.00,Win,Owen Garth,Football,2016-02-09 03:06:02
+2016-02-09 16:00:00,Algeria,Ligue 1,MO BEJAIA vs ES SETIF,0-0 (0-0),Match Odds,Draw,2.75,,100,175.00,Win,Owen Garth,Football,2016-02-09 03:05:03
+2016-02-08 20:30:00,France,Ligue 2,AC HAVRE vs DIJON FCO,0-2 (0-0),Match Odds,DIJON FCO,2.89,,100,189.00,Win,Owen Garth,Football,2016-02-07 21:18:09
+2016-02-08 20:30:00,Italy,Serie B,TRAPANI CALCIO vs COMO CALCIO,2-2 (0-1),Match Odds,TRAPANI CALCIO,2.00,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:18:01
+2016-02-08 20:30:00,Spain,Liga BBVA,ESPANYOL BARCELONA vs REAL SOCIEDAD,0-5 (0-2),Match Odds,Draw,3.20,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:13:07
+2016-02-08 20:15:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs MSV DUISBURG,2-1 (2-1),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:13:02
+2016-02-08 19:30:00,Israel,Premier League,HAPOEL RAANANA vs BEITAR JERUSALEM,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:12:02
+2016-02-08 19:00:00,Turkey,Turkcell Super Lig,KASIMPASA vs GENCLERBIRLIGI,0-1 (0-0),Match Odds,Draw,4.00,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:15:03
+2016-02-08 18:30:00,Greece,Super League,PANIONIOS ATHENS vs PANAITOLIKOS,2-0 (0-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-02-07 21:16:01
+2016-02-08 18:00:00,Finland,Liigacup Group 1,IFK MARIEHAMN vs FC INTER TURKU,0-1 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Owen Garth,Football,2016-02-08 16:17:02
+2016-02-08 18:00:00,Turkey,Bank Asya 1. Lig,GOZTEPESPOR vs SANLIURFASPOR,1-1 (1-0),Match Odds,Draw,3.55,,100,255.00,Win,Owen Garth,Football,2016-02-07 21:10:02
+2016-02-06 18:00:00,Belgium,Jupiler Pro League,ROYAL MOUSCRON vs KRC GENK,0-1 (0-0),Match Odds,KRC GENK,2.39,,100,139.00,Win,Owen Garth,Football,2016-02-06 02:53:04
+2016-02-06 18:00:00,Italy,Serie A,BOLOGNA FC vs AC FIORENTINA,1-1 (0-0),Match Odds,AC FIORENTINA,2.19,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:33:02
+2016-02-06 17:30:00,Turkey,Bank Asya 1. Lig,ALANYASPOR vs MALATYA BLD SPOR,2-0 (2-0),Match Odds,Draw,3.70,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:31:04
+2016-02-06 15:30:00,Germany,Bundesliga,EINTRACHT FRANKFURT vs VFB STUTTGART,2-4 (0-2),Match Odds,Draw,3.70,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:30:02
+2016-02-06 15:30:00,Germany,Bundesliga,HANNOVER 96 vs 1 FSV MAINZ 05,0-1 (0-1),Match Odds,1 FSV MAINZ 05,2.70,,100,170.00,Win,Owen Garth,Football,2016-02-06 02:29:03
+2016-02-06 15:30:00,Germany,Bundesliga,FC SCHALKE 04 vs VFL WOLFSBURG,3-0 (2-0),Match Odds,FC SCHALKE 04,2.45,,100,145.00,Win,Owen Garth,Football,2016-02-06 02:28:02
+2016-02-06 15:30:00,Germany,Bundesliga,FC INGOLSTADT vs FC AUGSBURG,2-1 (0-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:26:04
+2016-02-06 15:00:00,Turkey,Bank Asya 1. Lig,KARDEMIR KARABUKSPOR vs BALIKESIRSPOR,3-0 (2-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:23:02
+2016-02-06 13:45:00,England,Premier League,MANCHESTER CITY vs LEICESTER CITY,1-3 (0-1),Draw no bet,LEICESTER CITY,4.60,,100,360.00,Win,Owen Garth,Football,2016-02-05 22:36:02
+2016-02-06 12:30:00,Turkey,Bank Asya 1. Lig,1461 TRABZON vs ALTINORDU,1-3 (1-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Owen Garth,Football,2016-02-06 02:22:02
+2016-02-05 23:30:00,Chile,"Primera Division, Clausura",SANTIAGO WANDERERS vs O'HIGGINS FC,3-1 (1-1),Match Odds,Draw,3.57,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 19:44:06
+2016-02-05 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs BRENTFORD FC,3-0 (2-0),Match Odds,Draw,3.55,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 19:44:02
+2016-02-05 20:30:00,Italy,Serie B,FC BARI 1908 vs FC CROTONE,2-3 (0-1),Match Odds,Draw,2.97,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 19:13:02
+2016-02-05 20:30:00,Belgium,Jupiler Pro League,YELLOW-RED KV MECHELEN vs RSC ANDERLECHT,2-2 (1-1),Match Odds,Draw,3.78,,100,278.00,Win,Owen Garth,Football,2016-02-05 19:11:09
+2016-02-05 20:30:00,Spain,Liga BBVA,MALAGA CF vs GETAFE CF,3-0 (3-0),Match Odds,Draw,3.85,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 19:11:05
+2016-02-05 20:30:00,Germany,Bundesliga,MONCHENGLADBACH vs WERDER BREMEN,5-1 (2-0),Match Odds,Draw,4.27,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 19:10:01
+2016-02-05 20:00:00,Netherlands,Eredivisie,SBV EXCELSIOR vs WILLEM II TILBURG,0-0 (0-0),Match Odds,Draw,3.49,,100,249.00,Win,Owen Garth,Football,2016-02-05 01:31:01
+2016-02-05 19:00:00,Germany,3.Liga,VFL OSNABRUCK vs ENERGIE COTTBUS,0-0 (0-0),Match Odds,Draw,3.50,,100,250.00,Win,Owen Garth,Football,2016-02-05 01:29:03
+2016-02-05 19:00:00,Germany,3.Liga,VFR AALEN vs ERZGEBIRGE AUE,0-2 (0-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 01:27:01
+2016-02-05 18:30:00,Germany,2. Bundesliga,1 FC KAISERSLAUTERN vs FC UNION BERLIN,2-2 (2-0),Match Odds,Draw,3.60,,100,260.00,Win,Owen Garth,Football,2016-02-05 02:45:03
+2016-02-05 18:30:00,Germany,2. Bundesliga,VFL BOCHUM vs SC FREIBURG,2-0 (1-0),Match Odds,Draw,3.45,,100,-100.00,Lost,Owen Garth,Football,2016-02-05 02:44:02
+2016-02-05 18:00:00,Turkey,Turkcell Super Lig,OSMANLISPOR FK vs SIVASSPOR,4-0 (2-0),Match Odds,Draw,3.56,,100,-100.00,Lost,Owen Garth,Football,2016-02-04 20:30:02
+2016-02-05 18:00:00,Turkey,Bank Asya 1. Lig,ADANASPOR vs GIRESUNSPOR,1-0 (1-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-02-04 17:51:02
+2016-02-05 17:00:00,Germany,3.Liga,CHEMNITZER FC vs FC MAGDEBURG,0-0 (0-0),Match Odds,Draw,3.50,,100,250.00,Win,Owen Garth,Football,2016-02-04 17:49:01
+2016-02-05 16:00:00,Finland,Liigacup Group 1,HJK HELSINKI vs FC LAHTI,1-1 (0-1),Match Odds,Draw,3.67,,100,267.00,Win,Owen Garth,Football,2016-02-04 17:47:04
+2016-02-05 09:40:00,Australia,Hyundai A-League,ADELAIDE UNITED FC vs SYDNEY FC,2-2 (2-2),Match Odds,Draw,3.60,,100,260.00,Win,Owen Garth,Football,2016-02-04 17:44:04
+2016-02-05 01:00:00,Bolivia,"Liga Profesional Boliviano, Clausura",UNIVERSITARIO DE SUCRE vs CLUB PETROLERO,1-1 (1-0),Draw no bet,CLUB PETROLERO,8.00,,100,0.00,Void,Owen Garth,Football,2016-02-04 16:50:06
+2016-02-04 21:00:00,France,Ligue 1,STADE RENNES vs AS SAINT ETIENNE,0-1 (0-0),Match Odds,Draw,3.28,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 22:34:01
+2016-02-04 21:00:00,Portugal,Taca de Portugal,SPORTING BRAGA vs RIO AVE FC,1-0 (1-0),Over / Under,Over +3.50,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 22:31:05
+2016-02-04 20:45:00,England,Football League Trophy,FLEETWOOD TOWN vs BARNSLEY FC,3-5 (0-0),Match Odds,BARNSLEY FC,3.20,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 22:35:02
+2016-02-04 20:30:00,Spain,Copa del Rey,SEVILLA FC vs CELTA DE VIGO,4-0 (1-0),Over / Under,Over +3.50,3.00,,100,200.00,Win,Owen Garth,Football,2016-02-03 22:28:03
+2016-02-04 18:30:00,Greece,Greece Cup,IRAKLIS 1908 vs AEK ATHENS FC,0-1 (0-0),Over / Under,Over +3.50,4.50,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 22:32:05
+2016-02-04 01:00:00,Bolivia,"Liga Profesional Boliviano, Clausura",SPORT BOYS vs CLUB JORGE WILSTERMANN,1-1 (1-1),Match Odds,Draw,3.50,,100,250.00,Win,Owen Garth,Football,2016-02-03 02:20:05
+2016-02-03 20:45:00,England,Premier League,WATFORD FC vs CHELSEA FC,0-0 (0-0),Match Odds,CHELSEA FC,2.00,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:26:02
+2016-02-03 20:45:00,Belgium,Cofidis Cup,CLUB BRUGGE vs KAA GENT,1-0 (1-0),Match Odds,KAA GENT,3.83,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:25:02
+2016-02-03 20:30:00,Belgium,EXQI League,EXCELSIOR VIRTON vs FC TUBIZE,2-1 (2-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:23:02
+2016-02-03 19:00:00,France,Ligue 1,OLYMPIQUE LYON vs FC GIRONDINS BORDEAUX,3-0 (1-0),Match Odds,Draw,3.80,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:18:02
+2016-02-03 19:00:00,France,Ligue 1,STADE REIMS vs SCO ANGERS,2-1 (1-1),Match Odds,SCO ANGERS,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:16:02
+2016-02-03 19:00:00,France,Ligue 1,LILLE OSC vs SM CAEN,1-0 (0-0),Match Odds,Draw,3.65,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:13:03
+2016-02-03 19:00:00,Egypt,Premier League,ENPPI CLUB vs AL AHLY CAIRO,0-2 (0-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:12:02
+2016-02-03 18:30:00,Greece,Greece Cup,ASTERAS TRIPOLIS vs OLYMPIACOS FC,1-1 (1-0),Match Odds,OLYMPIACOS FC,2.22,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:11:01
+2016-02-03 14:30:00,Finland,Liigacup Group 1,HIFK vs IFK MARIEHAMN,1-0 (0-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-02-03 02:10:04
+2016-02-02 21:00:00,France,Ligue 2,AC AJACCIO vs OLYMPIQUE NIMES,2-0 (1-0),Match Odds,OLYMPIQUE NIMES,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-02-02 18:00:03
+2016-02-02 21:00:00,France,Ligue 1,MONTPELLIER HSC vs OLYMPIQUE MARSEILLE,0-1 (0-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-02-02 15:38:04
+2016-02-02 20:45:00,England,Championship,SHEFFIELD WEDNESDAY vs BURNLEY FC,1-1 (0-1),Match Odds,BURNLEY FC,3.10,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:10:02
+2016-02-02 20:45:00,England,Championship,IPSWICH TOWN vs READING FC,2-1 (0-0),Match Odds,Draw,3.42,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:09:01
+2016-02-02 20:45:00,England,League One,DONCASTER ROVERS vs WALSALL FC,1-2 (0-0),Match Odds,WALSALL FC,2.67,,100,167.00,Win,Owen Garth,Football,2016-02-01 21:07:05
+2016-02-02 20:45:00,England,League Two,MORECAMBE FC vs PORTSMOUTH FC,1-1 (0-1),Match Odds,Draw,3.91,,100,291.00,Win,Owen Garth,Football,2016-02-01 21:06:02
+2016-02-02 20:45:00,Belgium,Cofidis Cup,KRC GENK vs STANDARD LIEGE,1-1 (1-1),Match Odds,STANDARD LIEGE,3.35,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:05:02
+2016-02-02 20:45:00,Scotland,Premier League,PARTICK THISTLE vs MOTHERWELL FC,1-0 (0-0),Match Odds,Draw,3.60,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:04:02
+2016-02-02 20:45:00,Italy,Serie A,US SASSUOLO vs AS ROMA,0-2 (0-1),Match Odds,Draw,3.31,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:03:02
+2016-02-02 20:45:00,England,Premier League,ARSENAL FC vs SOUTHAMPTON FC,0-0 (0-0),Match Odds,SOUTHAMPTON FC,5.20,,100,-100.00,Lost,Owen Garth,Football,2016-02-01 21:02:01
+2016-02-02 16:00:00,Egypt,Premier League,ITTIHAD EL-SHORTA vs WADI DEGLA SC,0-0 (0-0),Match Odds,Draw,2.75,,100,175.00,Win,Owen Garth,Football,2016-02-01 20:56:02
+2016-02-02 13:15:00,Finland,Liigacup Group 1,PK 35 VANTAA vs FC LAHTI,1-1 (0-0),Match Odds,Draw,3.46,,100,246.00,Win,Owen Garth,Football,2016-02-01 20:57:04
+2016-01-31 17:00:00,Portugal,Liga Sagres,FC AROUCA vs FC PACOS FERREIRA,2-2 (0-1),Match Odds,Draw,3.18,,100,218.00,Win,Owen Garth,Football,2016-01-31 15:24:04
+2016-01-31 17:00:00,Portugal,Liga Sagres,RIO AVE FC vs VITORIA SETUBAL,2-1 (2-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 15:22:05
+2016-01-31 15:30:00,Germany,Bundesliga,VFL WOLFSBURG vs 1 FC COLOGNE,1-1 (0-0),Match Odds,Draw,4.35,,100,335.00,Win,Owen Garth,Football,2016-01-31 13:56:04
+2016-01-31 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",AC MARTINA vs ISCHIA ISOLAVERDE,3-3 (2-2),Match Odds,Draw,3.14,,100,214.00,Win,Owen Garth,Football,2016-01-31 13:55:03
+2016-01-31 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",CATANIA CALCIO vs MATERA FC,2-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 13:54:02
+2016-01-31 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",AC PRATO vs ROBUR SIENA,0-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:15:02
+2016-01-31 15:00:00,Turkey,Turkish Cup,KONYASPOR vs ANTALYASPOR,1-0 (0-0),Match Odds,KONYASPOR,2.25,,100,125.00,Win,Owen Garth,Football,2016-01-31 05:14:01
+2016-01-31 15:00:00,Italy,Serie A,UDINESE CALCIO vs LAZIO ROMA,0-0 (0-0),Match Odds,LAZIO ROMA,2.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:13:02
+2016-01-31 15:00:00,Italy,Serie A,GENOA FC vs AC FIORENTINA,0-0 (0-0),Match Odds,AC FIORENTINA,2.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:12:02
+2016-01-31 15:00:00,Italy,Serie A,BOLOGNA FC vs SAMPDORIA GENOA,3-2 (2-0),Match Odds,Draw,3.38,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:11:02
+2016-01-31 14:00:00,Germany,3.Liga,ENERGIE COTTBUS vs FORTUNA COLOGNE,0-0 (0-0),Match Odds,FORTUNA COLOGNE,3.54,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:09:02
+2016-01-31 14:00:00,France,Ligue 1,SM CAEN vs OGC NICE,2-0 (2-0),Match Odds,OGC NICE,3.20,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:08:01
+2016-01-31 12:30:00,Turkey,Bank Asya 1. Lig,GIRESUNSPOR vs S. B. ELAZIGSPOR,2-2 (1-0),Match Odds,Draw,3.05,,100,205.00,Win,Owen Garth,Football,2016-01-31 05:06:02
+2016-01-31 12:00:00,India,I-League,LAJONG SC vs SPORTING CLUBE DE GOA,1-0 (0-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-01-31 05:04:02
+2016-01-31 11:30:00,India,I-League,SALGAOCAR SC vs AIZAWL FC,1-1 (1-0),Match Odds,Draw,3.30,,100,230.00,Win,Owen Garth,Football,2016-01-31 05:04:06
+2016-01-31 00:00:00,Colombia,Apertura I,BOYACA CHICO FC vs INDEPENDIENTE SANTA FE,0-1 (0-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 21:54:04
+2016-01-31 00:00:00,Mexico,"Primera Division, Clausura",CRUZ AZUL vs JAGUARES DE CHIAPAS,2-1 (0-1),Match Odds,Draw,3.72,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 21:44:03
+2016-01-30 23:30:00,Paraguay,Primera Division,OLIMPIA ASUNCION vs CLUB LIBERTAD ASUNCION,1-0 (1-0),Match Odds,Draw,3.37,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 21:57:02
+2016-01-30 23:30:00,Chile,"Primera Division, Clausura",HUACHIPATO vs UNION ESPANOLA,3-3 (1-1),Match Odds,Draw,3.68,,100,268.00,Win,Owen Garth,Football,2016-01-30 21:42:02
+2016-01-30 23:00:00,Colombia,Apertura I,CLUB CORTULUA vs DEPORTIVO CALI,4-1 (2-1),Match Odds,Draw,3.28,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 21:52:04
+2016-01-30 20:45:00,Netherlands,Eredivisie,NEC NIJMEGEN vs AZ ALKMAAR,0-3 (0-2),Match Odds,Draw,3.57,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 16:39:02
+2016-01-30 20:00:00,Belgium,Jupiler Pro League,KVC WESTERLO vs SV ZULTE WAREGEM,1-2 (1-0),Match Odds,Draw,3.65,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 16:38:01
+2016-01-30 20:00:00,France,Ligue 1,TROYES AC vs FC NANTES,0-1 (0-1),Match Odds,Draw,3.36,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 16:36:03
+2016-01-30 20:00:00,France,Ligue 1,TOULOUSE FC vs EA GUINGAMP,1-2 (0-1),Match Odds,Draw,3.44,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 16:35:05
+2016-01-30 19:45:00,Netherlands,Eredivisie,PEC ZWOLLE vs FC GRONINGEN,1-3 (0-1),Match Odds,Draw,3.83,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 16:34:04
+2016-01-30 18:15:00,Wales,Premier League,LLANDUDNO FC vs AIRBUS UK BROUGHTON,1-1 (0-1),Match Odds,Draw,3.40,,100,240.00,Win,Owen Garth,Football,2016-01-30 16:32:02
+2016-01-30 18:00:00,Italy,Serie A,ATALANTA BERGAMASCA vs US SASSUOLO,1-1 (1-1),Match Odds,Draw,3.27,,100,227.00,Win,Owen Garth,Football,2016-01-30 16:33:06
+2016-01-30 15:30:00,Germany,Bundesliga,WERDER BREMEN vs HERTHA BSC,3-3 (0-2),Match Odds,Draw,3.45,,100,245.00,Win,Owen Garth,Football,2016-01-30 05:15:04
+2016-01-30 15:00:00,Finland,Liigacup Group 1,PS KEMI KINGS vs FC ILVES,3-1 (1-1),Match Odds,Draw,3.43,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:14:06
+2016-01-30 15:00:00,Italy,Serie A,CARPI FC vs US PALERMO,1-1 (0-1),Match Odds,Draw,3.31,,100,231.00,Win,Owen Garth,Football,2016-01-30 05:14:02
+2016-01-30 14:30:00,France,Ligue 2,AC HAVRE vs RC LENS,2-0 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:13:03
+2016-01-30 13:00:00,Finland,Liigacup Group 1,ROVANIEMI PALLOSEURA vs VAASA PS,0-0 (0-0),Match Odds,Draw,3.40,,100,240.00,Win,Owen Garth,Football,2016-01-30 05:12:01
+2016-01-30 12:15:00,Portugal,Liga Vitalis,UD OLIVEIRENSE vs BENFICA LISBON B,1-2 (0-1),Match Odds,Draw,3.31,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:11:03
+2016-01-30 11:40:00,Australia,Hyundai A-League,PERTH GLORY FC vs MELBOURNE VICTORY,3-2 (2-1),Match Odds,Draw,3.74,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:09:02
+2016-01-30 09:30:00,Australia,Hyundai A-League,SYDNEY FC vs BRISBANE ROAR FC,1-3 (0-1),Match Odds,Draw,3.58,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:08:02
+2016-01-30 07:15:00,Australia,Hyundai A-League,WELLINGTON PHOENIX FC vs CENTRAL COAST MARINERS FC,1-3 (0-0),Match Odds,Draw,3.90,,100,-100.00,Lost,Owen Garth,Football,2016-01-30 05:07:02
+2016-01-30 00:15:00,Paraguay,Primera Division,CLUB GUARANI vs DEPORTIVO CAPIATA,0-3 (0-2),Match Odds,Draw,4.06,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 23:07:04
+2016-01-29 21:30:00,Portugal,Liga Sagres,VITORIA GUIMARAES vs CF UNIAO MADEIRA,3-1 (1-1),Match Odds,Draw,3.75,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 19:10:03
+2016-01-29 20:55:00,England,FA Cup,DERBY COUNTY vs MANCHESTER UNITED,1-3 (1-1),Match Odds,Draw,3.60,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 18:57:07
+2016-01-29 20:45:00,Wales,Premier League,ABERYSTWYTH TOWN vs PORT TALBOT TOWN,1-0 (0-0),Match Odds,Draw,3.70,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 18:25:02
+2016-01-29 20:30:00,Italy,Serie B,AS AVELLINO vs CAGLIARI CALCIO,1-2 (1-1),Match Odds,Draw,3.28,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 18:23:02
+2016-01-29 20:30:00,France,Ligue 1,OLYMPIQUE MARSEILLE vs LILLE OSC,1-1 (0-0),Match Odds,Draw,3.44,,100,244.00,Win,Owen Garth,Football,2016-01-29 04:58:02
+2016-01-29 20:30:00,Germany,Bundesliga,1 FSV MAINZ 05 vs MONCHENGLADBACH,1-0 (1-0),Match Odds,Draw,3.57,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:54:02
+2016-01-29 20:00:00,France,Ligue 2,FC SOCHAUX vs BOURG PERONNAS,1-1 (1-1),Match Odds,Draw,3.26,,100,226.00,Win,Owen Garth,Football,2016-01-29 04:49:01
+2016-01-29 20:00:00,Netherlands,Eredivisie,WILLEM II TILBURG vs HERACLES ALMELO,0-0 (0-0),Match Odds,Draw,3.68,,100,268.00,Win,Owen Garth,Football,2016-01-29 04:48:01
+2016-01-29 20:00:00,Netherlands,Jupiler League,FC OSS vs FC DORDRECHT,2-3 (2-2),Match Odds,Draw,3.75,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:44:02
+2016-01-29 20:00:00,Netherlands,Jupiler League,FORTUNA SITTARD vs ALMERE CITY FC,0-2 (0-0),Match Odds,Draw,3.70,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:43:01
+2016-01-29 18:00:00,Finland,Liigacup Group 1,HIFK vs PK 35 VANTAA,0-3 (0-1),Match Odds,Draw,3.60,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:42:01
+2016-01-29 17:30:00,Finland,Liigacup Group 1,KUOPIO PS vs SEINAJOEN JK,0-0 (0-0),Match Odds,Draw,3.67,,100,267.00,Win,Owen Garth,Football,2016-01-29 04:40:02
+2016-01-29 14:00:00,Finland,Liigacup Group 1,FC LAHTI vs FC INTER TURKU,2-1 (1-1),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:39:02
+2016-01-29 09:40:00,Australia,Hyundai A-League,WESTERN SYDNEY vs MELBOURNE CITY FC,4-3 (1-0),Match Odds,Draw,4.08,,100,-100.00,Lost,Owen Garth,Football,2016-01-29 04:38:02
+2016-01-28 21:00:00,Spain,Copa del Rey,LAS PALMAS UD vs VALENCIA CF,0-1 (0-1),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:36:02
+2016-01-28 20:45:00,Netherlands,Eredivisie,FEYENOORD ROTTERDAM vs SC HEERENVEEN,1-2 (0-1),Match Odds,Draw,5.25,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:28:02
+2016-01-28 20:00:00,Spain,Copa del Rey,CD MIRANDES vs SEVILLA FC,0-3 (0-1),Match Odds,Draw,3.86,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:36:06
+2016-01-28 18:30:00,Netherlands,Eredivisie,RODA JC KERKRADE vs FC UTRECHT,1-0 (0-0),Match Odds,Draw,3.67,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:30:01
+2016-01-28 17:00:00,Turkey,Turkish Cup,ESKISEHIRSPOR vs BURSASPOR,2-3 (1-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:24:02
+2016-01-28 13:00:00,Turkey,Turkish Cup,BASAKSEHIR FK vs AMEDSPOR,2-2 (0-1),Match Odds,Draw,5.00,,100,400.00,Win,Owen Garth,Football,2016-01-28 00:23:02
+2016-01-28 12:00:00,India,I-League,LAJONG SC vs SALGAOCAR SC,1-0 (0-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:12:05
+2016-01-28 11:00:00,Turkey,Turkish Cup,CAYKUR RIZESPOR vs MERSIN IDMAN YURDU SK,1-0 (1-0),Match Odds,Draw,4.33,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:21:06
+2016-01-28 11:00:00,Turkey,Turkish Cup,BUYUK. TEPECIKSPOR vs BOLUSPOR,2-1,Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-01-28 00:21:01
+2016-01-27 20:45:00,Italy,Coppa Italia,JUVENTUS TURIN vs INTER MILAN,3-0 (1-0),Match Odds,JUVENTUS TURIN,1.70,,100,70.00,Win,Owen Garth,Football,2016-01-27 09:15:01
+2016-01-27 20:45:00,England,Carling Cup,MANCHESTER CITY vs EVERTON FC,3-1 (1-1),Match Odds,Draw,4.82,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 02:07:01
+2016-01-27 19:45:00,Netherlands,Eredivisie,DE GRAAFSCHAP vs ADO DEN HAAG,3-1 (0-1),Match Odds,Draw,3.59,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 02:06:02
+2016-01-27 19:15:00,Portugal,Carlsberg Cup,RIO AVE FC vs SPORTING BRAGA,0-0 (0-0),Match Odds,Draw,3.50,,100,250.00,Win,Owen Garth,Football,2016-01-27 01:55:01
+2016-01-27 18:30:00,Netherlands,Eredivisie,NEC NIJMEGEN vs FC TWENTE ENSCHEDE,2-0 (0-0),Match Odds,Draw,3.79,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 02:01:02
+2016-01-27 16:30:00,Italy,"Lega Pro Prima Divisione, Girone C",AC MARTINA vs COSENZA CALCIO,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 01:54:02
+2016-01-27 14:45:00,Greece,Greece Cup,PANIONIOS ATHENS vs PAOK FC,1-1 (1-1),Match Odds,Draw,3.30,,100,218.50,Win,Owen Garth,Football,2016-01-27 01:56:02
+2016-01-27 14:35:00,India,I-League,MUMBAI FC vs BENGALURU FC,2-0 (2-0),Match Odds,Draw,3.61,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 01:50:02
+2016-01-27 13:00:00,Turkey,Turkish Cup,AYDINSPOR vs BUCASPOR,0-1 (0-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-01-27 01:52:02
+2016-01-27 12:00:00,Turkey,Turkish Cup,BANDIRMASPOR vs SANLIURFASPOR,0-0 (0-0),Match Odds,Draw,3.75,,100,275.00,Win,Owen Garth,Football,2016-01-27 01:51:02
+2016-01-27 02:00:00,Mexico,"Copa MX, Clausura, Group 5",ALEBRIJES DE OAXACA vs TIBURONES ROJOS DE VERACRUZ,2-3 (1-1),Match Odds,TIBURONES ROJOS DE VERACRUZ,1.60,,100,60.00,Win,Owen Garth,Football,2016-01-20 02:10:02
+2016-01-26 20:45:00,England,League Two,MORECAMBE FC vs MANSFIELD TOWN,1-2 (0-0),Match Odds,Draw,3.52,,100,-100.00,Lost,Owen Garth,Football,2016-01-26 01:58:02
+2016-01-26 20:45:00,England Amateur,FA Trophy,CHELTENHAM TOWN vs OXFORD CITY,0-3,Match Odds,Draw,3.69,,100,-100.00,Lost,Owen Garth,Football,2016-01-26 01:56:07
+2016-01-26 20:45:00,England Amateur,FA Trophy,NANTWICH TOWN vs BRADFORD PARK AVENUE,5-0,Match Odds,Draw,3.51,,100,-100.00,Lost,Owen Garth,Football,2016-01-26 01:56:02
+2016-01-26 20:45:00,England,League One,BLACKPOOL FC vs SHEFFIELD UNITED,0-0 (0-0),Match Odds,Draw,3.60,,100,260.00,Win,Owen Garth,Football,2016-01-26 01:50:02
+2016-01-26 20:45:00,England,Championship,BRENTFORD FC vs LEEDS UNITED,1-1 (1-0),Match Odds,Draw,3.50,,100,250.00,Win,Owen Garth,Football,2016-01-26 01:48:06
+2016-01-26 20:45:00,England,Championship,NOTTINGHAM FOREST vs QUEENS PARK RANGERS,0-0 (0-0),Match Odds,Draw,3.40,,100,240.00,Win,Owen Garth,Football,2016-01-26 01:48:01
+2016-01-26 18:30:00,Netherlands,Eredivisie,WILLEM II TILBURG vs FC GRONINGEN,1-1 (1-0),Match Odds,Draw,3.66,,100,266.00,Win,Owen Garth,Football,2016-01-26 01:46:02
+2016-01-26 09:30:00,Australia,Hyundai A-League,MELBOURNE VICTORY vs SYDNEY FC,1-0 (0-0),Match Odds,Draw,3.71,,100,-100.00,Lost,Owen Garth,Football,2016-01-26 01:44:01
+2016-01-25 20:45:00,England,Championship,BURNLEY FC vs DERBY COUNTY,4-1 (1-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 19:32:01
+2016-01-25 20:45:00,England,Skrill North,CURZON ASHTON FC vs STALYBRIDGE CELTIC,0-0 (0-0),Match Odds,Draw,3.80,,100,266.00,Win,Owen Garth,Football,2016-01-25 19:29:04
+2016-01-25 20:30:00,Spain,Liga BBVA,LEVANTE UD vs LAS PALMAS UD,3-2 (1-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 19:28:04
+2016-01-25 20:30:00,Italy,Serie B,AS LIVORNO vs COMO CALCIO,1-1 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Owen Garth,Football,2016-01-25 02:32:02
+2016-01-25 20:30:00,Italy,"Lega Pro, Girone A",AC REGGIANA vs AC LUMEZZANE,2-0 (1-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 02:31:02
+2016-01-25 20:30:00,France,Ligue 2,CLERMONT FOOT vs AC HAVRE,2-1 (0-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 02:30:03
+2016-01-25 20:00:00,France,Ligue 2,AC AJACCIO vs STADE BREST,2-1 (1-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 02:28:02
+2016-01-25 20:00:00,Italy,"Lega Pro Prima Divisione, Girone C",MATERA FC vs FIDELIS ANDRIA,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Owen Garth,Football,2016-01-25 02:27:01
+2016-01-25 19:00:00,Turkey,Turkcell Super Lig,BASAKSEHIR FK vs KASIMPASA,1-1 (0-1),Match Odds,Draw,3.30,,100,230.00,Win,Owen Garth,Football,2016-01-25 02:26:02
+2016-01-25 18:30:00,Greece,Super League,IRAKLIS 1908 vs PLATANIAS FC,0-0 (0-0),Match Odds,Draw,3.14,,100,214.00,Win,Owen Garth,Football,2016-01-25 02:25:02
+2016-01-25 18:00:00,Turkey,Bank Asya 1. Lig,ALTINORDU vs BOLUSPOR,0-2 (0-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 02:24:02
+2016-01-25 09:30:00,India,I-League,AIZAWL FC vs SPORTING CLUBE DE GOA,0-2 (0-2),Match Odds,Draw,3.55,,100,-100.00,Lost,Owen Garth,Football,2016-01-25 02:20:02
+2016-01-24 17:30:00,Italy,Serie B,PERUGIA vs PESCARA CALCIO,0-4 (0-1),Match Odds,PESCARA CALCIO,3.10,,100,210.00,Win,Owen Garth,Football,2016-01-24 02:28:02
+2016-01-24 17:00:00,France,Ligue 1,STADE REIMS vs AS SAINT ETIENNE,1-1 (0-0),Match Odds,AS SAINT ETIENNE,2.86,,100,-100.00,Lost,Owen Garth,Football,2016-01-24 02:32:01
+2016-01-24 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",SAVONA FBC vs MACERATESE,4-2 (1-1),Match Odds,MACERATESE,2.44,,100,-100.00,Lost,Owen Garth,Football,2016-01-24 02:30:01
+2016-01-24 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",US CATANZARO vs US FOGGIA,0-3 (0-1),Match Odds,US FOGGIA,2.47,,100,147.00,Win,Owen Garth,Football,2016-01-24 02:27:02
+2016-01-24 15:00:00,Italy,"Lega Pro, Girone A",AC MANTOVA vs FC SUDTIROL,0-0 (0-0),Match Odds,FC SUDTIROL,2.70,,100,-100.00,Lost,Owen Garth,Football,2016-01-24 02:26:02
+2016-01-24 14:00:00,Greece,Super League,LEVADIAKOS FC vs PANATHINAIKOS ATHENS,0-2 (0-0),Match Odds,PANATHINAIKOS ATHENS,2.05,,100,105.00,Win,Owen Garth,Football,2016-01-24 02:34:01
+2016-01-24 14:00:00,France,Ligue 1,AS MONACO vs TOULOUSE FC,4-0 (2-0),Match Odds,AS MONACO,1.91,,100,91.00,Win,Owen Garth,Football,2016-01-24 02:31:01
+2016-01-24 12:30:00,Turkey,Bank Asya 1. Lig,DENIZLISPOR vs KARDEMIR KARABUKSPOR,1-1 (0-0),Match Odds,KARDEMIR KARABUKSPOR,2.15,,100,-100.00,Lost,Owen Garth,Football,2016-01-24 02:32:21
+2016-01-24 12:00:00,Spain,Liga Adelante,REAL VALLADOLID vs CORDOBA CF,2-0 (2-0),Match Odds,CORDOBA CF,4.00,,100,-100.00,Lost,Owen Garth,Football,2016-01-24 02:25:04
+2016-01-23 22:05:00,Spain,Liga BBVA,RAYO VALLECANO vs CELTA DE VIGO,3-0 (3-0),Match Odds,CELTA DE VIGO,3.16,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 17:45:06
+2016-01-23 20:30:00,Italy,"Lega Pro Prima Divisione, Girone C",COSENZA CALCIO vs CATANIA CALCIO,1-1 (0-0),Match Odds,COSENZA CALCIO,2.47,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 17:44:08
+2016-01-23 20:30:00,Italy,"Lega Pro Prima Divisione, Girone B",AC ANCONA vs AC PRATO,3-2 (1-0),Match Odds,AC ANCONA,2.00,,100,100.00,Win,Owen Garth,Football,2016-01-23 17:44:04
+2016-01-23 20:30:00,Bolivia,"Liga Profesional Boliviano, Clausura",SAN JOSE ORURO vs SPORT BOYS,1-1 (0-1),Match Odds,SPORT BOYS,5.61,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 17:42:05
+2016-01-23 20:30:00,Spain,Liga BBVA,GRANADA CF vs GETAFE CF,3-2 (2-0),Match Odds,GETAFE CF,3.10,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 17:41:02
+2016-01-23 20:00:00,Belgium,EXQI League,WHITE STAR BRUXELLES vs ROYAL ANTWERP FC,0-4 (0-2),Match Odds,ROYAL ANTWERP FC,2.30,,100,130.00,Win,Owen Garth,Football,2016-01-23 17:39:01
+2016-01-23 18:15:00,Spain,Liga BBVA,ESPANYOL BARCELONA vs VILLARREAL CF,2-2 (2-1),Match Odds,VILLARREAL CF,2.76,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 17:15:03
+2016-01-23 18:00:00,Turkey,Turkcell Super Lig,OSMANLISPOR FK vs GALATASARAY ISTANBUL,3-2 (2-2),Match Odds,GALATASARAY ISTANBUL,2.54,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 06:18:02
+2016-01-23 18:00:00,Spain,Liga Adelante,RCD MALLORCA vs ALCORCON AD,1-0 (0-0),Match Odds,ALCORCON AD,3.16,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 01:21:01
+2016-01-23 16:00:00,England,Championship,READING FC vs SHEFFIELD WEDNESDAY,1-1 (0-1),Match Odds,SHEFFIELD WEDNESDAY,3.60,,100,-100.00,Lost,Owen Garth,Football,2016-01-23 06:17:04
+2016-01-23 16:00:00,England,Championship,FULHAM FC vs HULL CITY,0-1 (0-0),Match Odds,HULL CITY,2.00,,100,100.00,Win,Owen Garth,Football,2016-01-23 02:46:06
+2016-01-23 15:30:00,Germany,Bundesliga,HERTHA BSC vs FC AUGSBURG,0-0 (0-0),Match Odds,HERTHA BSC,2.30,,100,-100.00,Lost,Owen Garth,Football,2016-01-22 23:27:02
+2016-01-23 15:00:00,Italy,Serie B,FC MODENA vs AS AVELLINO,1-1 (0-0),Match Odds,AS AVELLINO,3.27,,100,-100.00,Lost,Owen Garth,Football,2016-01-22 23:26:03
+2016-01-23 15:00:00,Italy,Serie B,NOVARA CALCIO vs FC CROTONE,0-1 (0-1),Match Odds,FC CROTONE,3.92,,100,292.00,Win,Owen Garth,Football,2016-01-22 23:25:02
+2016-01-23 12:30:00,Turkey,Turkcell Super Lig,KONYASPOR vs KAYSERISPOR,1-0 (0-0),Match Odds,KONYASPOR,2.65,,100,165.00,Win,Owen Garth,Football,2016-01-22 23:23:01
+2016-01-23 12:00:00,India,I-League,MOHUN BAGAN AC vs EAST BENGAL FC,1-1 (0-0),Match Odds,MOHUN BAGAN AC,2.15,,80,-80.00,Lost,Owen Garth,Football,2016-01-23 00:05:01
+2016-01-23 04:36:00,Mexico,"Liga de Ascenso, Clausura",CIMARRONES DE SONORA vs CORRECAMINOS UAT,0-0 (0-0),Match Odds,CORRECAMINOS UAT,3.00,,60,-60.00,Lost,Owen Garth,Football,2016-01-22 21:43:01
+2016-01-23 04:30:00,Mexico,"Primera Division, Clausura",CLUB TIJUANA vs SANTOS LAGUNA,1-3 (0-1),Match Odds,CLUB TIJUANA,2.31,,80,-80.00,Lost,Owen Garth,Football,2016-01-22 19:44:01
+2016-01-23 01:00:00,Chile,"Primera Division, Clausura",DEPORTES IQUIQUE vs HUACHIPATO,1-1 (1-1),Match Odds,DEPORTES IQUIQUE,2.40,,80,-80.00,Lost,Owen Garth,Football,2016-01-22 21:38:02
+2016-01-22 23:00:00,Paraguay,Primera Division,DEPORTIVO CAPIATA vs GENERAL CABALLERO,3-2 (1-1),Match Odds,DEPORTIVO CAPIATA,2.00,,80,80.00,Win,Owen Garth,Football,2016-01-22 19:45:02
+2016-01-22 22:30:00,Chile,"Primera Division, Clausura",SANTIAGO WANDERERS vs SAN LUIS DE QUILLOTA,3-1 (1-0),Match Odds,SANTIAGO WANDERERS,1.93,,100,93.00,Win,Owen Garth,Football,2016-01-22 19:47:01
+2016-01-22 21:30:00,Portugal,Liga Sagres,VITORIA SETUBAL vs ACADEMICA COIMBRA,2-1 (1-0),Match Odds,VITORIA SETUBAL,2.39,,80,111.20,Win,Owen Garth,Football,2016-01-22 19:42:02
+2016-01-22 20:30:00,Spain,Liga BBVA,SPORTING GIJON vs REAL SOCIEDAD,5-1 (3-1),Match Odds,REAL SOCIEDAD,2.55,,80,-80.00,Lost,Owen Garth,Football,2016-01-22 19:25:01
+2016-01-22 20:30:00,Belgium,Jupiler Pro League,KV KORTRIJK vs KV OOSTENDE,2-1 (1-0),Match Odds,KV OOSTENDE,2.79,,80,-80.00,Lost,Owen Garth,Football,2016-01-22 19:22:05
+2016-01-22 20:30:00,Italy,Serie B,SPORTIVA SALERNITANA vs BRESCIA CALCIO,3-0 (1-0),Match Odds,BRESCIA CALCIO,3.20,,80,-80.00,Lost,Owen Garth,Football,2016-01-22 19:21:04
+2016-01-22 19:00:00,Germany,3.Liga,STUTTGARTER KICKERS vs ERZGEBIRGE AUE,1-1 (1-0),Match Odds,ERZGEBIRGE AUE,2.86,,60,-60.00,Lost,Owen Garth,Football,2016-01-21 23:41:03
+2016-01-22 19:00:00,Germany,3.Liga,FORTUNA COLOGNE vs HANSA ROSTOCK,5-1 (3-1),Match Odds,FORTUNA COLOGNE,2.51,,80,120.80,Win,Owen Garth,Football,2016-01-21 23:39:03
+2016-01-22 14:00:00,Israel,National League,HAPOEL KATAMON vs IRONI RISHON LEZION,3-2 (0-1),Match Odds,IRONI RISHON LEZION,2.80,,40,-40.00,Lost,Owen Garth,Football,2016-01-21 23:33:02
+2016-01-22 14:00:00,Israel,National League,HAPOEL RAMAT GAN vs MACCABI HERZLIYA,3-1 (1-0),Match Odds,HAPOEL RAMAT GAN,2.10,,60,66.00,Win,Owen Garth,Football,2016-01-21 23:31:06
+2016-01-22 14:00:00,Israel,National League,BEITAR TEL AVIV RAMLA vs HAPOEL JERUSALEM,0-4 (0-1),Match Odds,BEITAR TEL AVIV RAMLA,1.83,,80,-80.00,Lost,Owen Garth,Football,2016-01-21 23:31:01
+2016-01-22 14:00:00,Israel,National League,HAPOEL AFULA vs MS IRONI ASHDOD,3-2 (2-1),Match Odds,MS IRONI ASHDOD,2.10,,60,-60.00,Lost,Owen Garth,Football,2016-01-21 23:29:04
+2016-01-22 14:00:00,Egypt,Premier League,PETROJET FC vs ENPPI CLUB,0-0 (0-0),Match Odds,PETROJET FC,2.38,,80,-80.00,Lost,Owen Garth,Football,2016-01-21 23:27:05
+2016-01-22 13:00:00,Finland,Liigacup Group 1,FC INTER TURKU vs PK 35 VANTAA,0-0 (0-0),Match Odds,FC INTER TURKU,2.02,,80,-80.00,Lost,Owen Garth,Football,2016-01-21 23:24:04
+2016-01-22 10:00:00,Australia,Hyundai A-League,BRISBANE ROAR FC vs ADELAIDE UNITED FC,1-4 (0-1),Match Odds,BRISBANE ROAR FC,2.30,,80,-80.00,Lost,Owen Garth,Football,2016-01-21 23:20:05
+2016-01-21 20:45:00,Belgium,Cofidis Cup,KAA GENT vs CLUB BRUGGE,2-1 (0-1),Match Odds,KAA GENT,2.22,,100,122.00,Win,Owen Garth,Football,2016-01-20 20:14:02
+2016-01-21 15:00:00,Turkey,Turkish Cup,BOLUSPOR vs ESKISEHIRSPOR,0-2 (0-0),Match Odds,ESKISEHIRSPOR,2.90,,80,152.00,Win,Owen Garth,Football,2016-01-20 19:14:08
+2016-01-21 11:00:00,Turkey,Turkish Cup,AMEDSPOR vs BANDIRMASPOR,3-3 (1-3),Match Odds,AMEDSPOR,1.70,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 19:14:02
+2016-01-20 21:00:00,Portugal,Carlsberg Cup,RIO AVE FC vs CF OS BELENENSES,1-1 (0-0),Match Odds,RIO AVE FC,2.05,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 02:33:02
+2016-01-20 20:45:00,England,FA Cup,LEICESTER CITY vs TOTTENHAM HOTSPUR,0-2 (0-1),Match Odds,LEICESTER CITY,2.94,,80,-80.00,Lost,Owen Garth,Football,2016-01-20 02:21:02
+2016-01-20 20:45:00,Italy,Coppa Italia,LAZIO ROMA vs JUVENTUS TURIN,0-1 (0-0),Match Odds,JUVENTUS TURIN,2.20,,100,120.00,Win,Owen Garth,Football,2016-01-20 02:19:01
+2016-01-20 20:30:00,Spain,Copa del Rey,CELTA DE VIGO vs ATLETICO MADRID,0-0 (0-0),Match Odds,ATLETICO MADRID,2.41,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 18:57:01
+2016-01-20 18:30:00,Greece,Super League,SKODA XANTHI FC vs PAOK FC,1-1 (0-1),Match Odds,PAOK FC,2.21,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 02:30:02
+2016-01-20 18:30:00,France,Coupe de France,EVIAN TG FC vs AS MONACO,1-1 (0-1),Match Odds,AS MONACO,1.76,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 02:24:03
+2016-01-20 18:30:00,France,Coupe de France,CONCARNEAU vs TROYES AC,1-3 (0-1),Match Odds,TROYES AC,2.40,,100,133.00,Win,Owen Garth,Football,2016-01-20 02:23:02
+2016-01-20 16:00:00,Portugal,Carlsberg Cup,MOREIRENSE FC vs CD NACIONAL,0-0 (0-0),Match Odds,MOREIRENSE FC,2.31,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 02:29:04
+2016-01-20 13:00:00,Egypt,Premier League,ASWAN FC vs AL MOQAWLOON AL ARAB,2-1 (2-1),Match Odds,ASWAN FC,2.00,,60,60.00,Win,Owen Garth,Football,2016-01-20 02:43:02
+2016-01-20 13:00:00,Turkey,Turkish Cup,BUCASPOR vs CAYKUR RIZESPOR,3-2 (1-0),Match Odds,CAYKUR RIZESPOR,1.91,,100,-100.00,Lost,Owen Garth,Football,2016-01-20 02:34:02
+2016-01-19 20:45:00,England,FA Cup,PORTSMOUTH FC vs IPSWICH TOWN,2-1 (2-0),Match Odds,IPSWICH TOWN,3.72,,80,-80.00,Lost,Owen Garth,Football,2016-01-19 19:24:05
+2016-01-19 20:45:00,England,FA Cup,YEOVIL TOWN vs CARLISLE UNITED,5-6 (1-0),Match Odds,CARLISLE UNITED,2.60,,80,-80.00,Lost,Owen Garth,Football,2016-01-19 19:23:02
+2016-01-19 20:45:00,England,FA Cup,BRISTOL CITY vs WEST BROMWICH ALBION,0-1 (0-0),Match Odds,WEST BROMWICH ALBION,2.35,,80,108.00,Win,Owen Garth,Football,2016-01-19 19:22:02
+2016-01-18 21:00:00,Portugal,Liga Sagres,BOAVISTA FC vs VITORIA SETUBAL,4-0 (1-0),Match Odds,VITORIA SETUBAL,3.01,,80,-80.00,Lost,Owen Garth,Football,2016-01-18 05:18:02
+2016-01-18 20:30:00,France,Ligue 2,VALENCIENNES FC vs FC METZ,2-1 (1-1),Match Odds,FC METZ,2.63,,80,-80.00,Lost,Owen Garth,Football,2016-01-18 05:17:02
+2016-01-18 20:30:00,Italy,Serie B,FC CROTONE vs CAGLIARI CALCIO,3-1 (2-1),Match Odds,CAGLIARI CALCIO,2.85,,40,-40.00,Lost,Owen Garth,Football,2016-01-18 05:16:02
+2016-01-18 20:30:00,Spain,Liga BBVA,SD EIBAR vs GRANADA CF,5-1 (2-0),Match Odds,SD EIBAR,1.80,,80,64.00,Win,Owen Garth,Football,2016-01-18 05:15:02
+2016-01-18 20:15:00,England,FA Cup,NEWPORT COUNTY vs BLACKBURN ROVERS,1-2 (1-1),Match Odds,NEWPORT COUNTY,5.00,,40,-40.00,Lost,Owen Garth,Football,2016-01-18 05:14:02
+2016-01-15 20:45:00,England,Championship,BRENTFORD FC vs BURNLEY FC,1-3 (0-3),Match Odds,BURNLEY FC,3.12,,60,127.20,Win,Owen Garth,Football,2016-01-14 21:49:02
+2016-01-15 20:30:00,France,Ligue 1,OGC NICE vs SCO ANGERS,2-1 (0-1),Match Odds,SCO ANGERS,4.02,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 21:41:02
+2016-01-15 20:00:00,France,Ligue 2,US CRETEIL vs RC LENS,1-1 (0-0),Match Odds,RC LENS,2.18,,80,-80.00,Lost,Owen Garth,Football,2016-01-14 20:02:01
+2016-01-15 20:00:00,France,Ligue 2,OLYMPIQUE NIMES vs CLERMONT FOOT,6-2 (3-2),Match Odds,CLERMONT FOOT,3.29,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 18:15:01
+2016-01-15 16:00:00,Egypt,Premier League,AL ITTIHAD AL SAKANDARY vs AL MASRY CLUB,1-1 (0-1),Match Odds,AL MASRY CLUB,2.50,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 18:12:02
+2016-01-14 20:45:00,England,Football League Trophy,MILLWALL FC vs OXFORD UNITED,0-2 (0-2),Match Odds,MILLWALL FC,2.38,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 00:07:02
+2016-01-14 20:00:00,Spain,Copa del Rey,GRANADA CF vs VALENCIA CF,0-3 (0-1),Match Odds,VALENCIA CF,2.80,,60,108.00,Win,Owen Garth,Football,2016-01-14 00:05:01
+2016-01-14 18:45:00,Egypt,Premier League,EL DAKLYEH vs AL AHLY CAIRO,1-1 (1-0),Match Odds,AL AHLY CAIRO,1.83,,80,-80.00,Lost,Owen Garth,Football,2016-01-14 00:04:02
+2016-01-14 16:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs CLUBE ORIENTAL DE LISBOA,1-1 (0-1),Match Odds,CLUBE ORIENTAL DE LISBOA,3.80,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 00:08:05
+2016-01-14 16:00:00,Egypt,Premier League,ISMAILY SC vs SMOUHA SC,2-2 (1-1),Match Odds,SMOUHA SC,3.20,,60,-60.00,Lost,Owen Garth,Football,2016-01-14 00:03:04
+2016-01-13 21:00:00,Spain,Copa del Rey,LAS PALMAS UD vs SD EIBAR,3-2 (1-0),Match Odds,SD EIBAR,3.10,,60,-60.00,Lost,Owen Garth,Football,2016-01-12 22:18:03
+2016-01-13 21:00:00,England,Premier League,TOTTENHAM HOTSPUR vs LEICESTER CITY,0-1 (0-0),Match Odds,LEICESTER CITY,5.25,,60,255.00,Win,Owen Garth,Football,2016-01-12 22:12:04
+2016-01-13 20:45:00,England,Championship,HULL CITY vs CARDIFF CITY,2-0 (1-0),Match Odds,HULL CITY,1.75,,80,60.00,Win,Owen Garth,Football,2016-01-12 22:13:01
+2016-01-13 20:30:00,Spain,Copa del Rey,VILLARREAL CF vs ATHLETIC BILBAO,0-1 (0-1),Match Odds,VILLARREAL CF,2.38,,60,-60.00,Lost,Owen Garth,Football,2016-01-12 22:15:08
+2016-01-13 17:00:00,Portugal,Taca de Portugal,GIL VICENTE FC vs CD NACIONAL,1-0 (1-0),Match Odds,GIL VICENTE FC,3.26,,60,135.60,Win,Owen Garth,Football,2016-01-12 22:19:02
+2016-01-12 20:45:00,England,Premier League,BOURNEMOUTH AFC vs WEST HAM UNITED,1-3 (1-0),Match Odds,WEST HAM UNITED,3.87,,60,172.20,Win,Owen Garth,Football,2016-01-12 01:02:03
+2016-01-12 20:45:00,England,Championship,BRISTOL CITY vs PRESTON NORTH END,1-2 (0-0),Match Odds,PRESTON NORTH END,3.15,,60,129.00,Win,Owen Garth,Football,2016-01-12 01:01:10
+2016-01-12 20:45:00,England,Premier League,ASTON VILLA vs CRYSTAL PALACE,1-0 (0-0),Match Odds,CRYSTAL PALACE,2.50,,60,-60.00,Lost,Owen Garth,Football,2016-01-12 01:00:03
+2016-01-12 20:45:00,England,Championship,BRENTFORD FC vs MIDDLESBROUGH FC,0-1 (0-0),Match Odds,MIDDLESBROUGH FC,2.38,,80,110.40,Win,Owen Garth,Football,2016-01-12 00:59:02
+2016-01-12 20:45:00,England,League Two,PLYMOUTH ARGYLE vs NORTHAMPTON TOWN,1-2 (0-1),Match Odds,PLYMOUTH ARGYLE,2.50,,60,-60.00,Lost,Owen Garth,Football,2016-01-12 00:58:01
+2016-01-11 22:00:00,Chile,Primera Division,SANTIAGO WANDERERS vs COLO COLO,2-1 (2-1),Match Odds,SANTIAGO WANDERERS,4.16,,80,252.80,Win,Owen Garth,Football,2016-01-10 23:54:02
+2016-01-11 21:00:00,Portugal,Liga Sagres,FC PACOS FERREIRA vs VITORIA SETUBAL,2-1 (1-1),Match Odds,FC PACOS FERREIRA,1.97,,80,77.60,Win,Owen Garth,Football,2016-01-11 00:01:02
+2016-01-11 20:30:00,France,Ligue 2,FC METZ vs FC SOCHAUX,1-0 (0-0),Match Odds,FC METZ,2.40,,80,112.00,Win,Owen Garth,Football,2016-01-10 23:58:02
+2016-01-11 20:00:00,Italy,"Lega Pro Prima Divisione, Girone C",PAGANESE CALCIO vs US CASERTANA 1908,2-2 (0-1),Match Odds,US CASERTANA 1908,2.40,,80,-80.00,Lost,Owen Garth,Football,2016-01-10 23:59:02
+2016-01-10 20:30:00,Spain,Liga BBVA,CELTA DE VIGO vs ATLETICO MADRID,0-2 (0-0),Match Odds,CELTA DE VIGO,4.33,,60,-60.00,Lost,Owen Garth,Football,2016-01-10 17:55:07
+2016-01-10 19:15:00,Spain,Liga Adelante,CORDOBA CF vs RCD MALLORCA,3-1 (2-0),Match Odds,CORDOBA CF,2.17,,80,93.60,Win,Owen Garth,Football,2016-01-10 17:58:02
+2016-01-10 16:15:00,Greece,Super League,PANAITOLIKOS vs ASTERAS TRIPOLIS,2-1 (0-0),Match Odds,ASTERAS TRIPOLIS,2.72,,60,-60.00,Lost,Owen Garth,Football,2016-01-09 23:14:03
+2016-01-10 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs GIL VICENTE FC,0-1 (0-1),Match Odds,GIL VICENTE FC,2.54,,60,92.40,Win,Owen Garth,Football,2016-01-09 23:15:06
+2016-01-10 16:00:00,Spain,Liga BBVA,REAL SOCIEDAD vs VALENCIA CF,2-0 (0-0),Match Odds,VALENCIA CF,3.50,,60,-60.00,Lost,Owen Garth,Football,2016-01-09 23:09:02
+2016-01-10 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",US FOGGIA vs JUVE STABIA,1-1 (1-1),Match Odds,US FOGGIA,1.78,,80,-80.00,Lost,Owen Garth,Football,2016-01-09 23:11:01
+2016-01-10 15:00:00,England,FA Cup,CARLISLE UNITED vs YEOVIL TOWN,2-2 (1-0),Match Odds,CARLISLE UNITED,2.05,,60,-60.00,Lost,Owen Garth,Football,2016-01-09 23:07:02
+2016-01-08 20:00:00,France,Ligue 2,AC AJACCIO vs AC HAVRE,1-1 (1-0),Match Odds,AC HAVRE,3.39,,60,-60.00,Lost,Owen Garth,Football,2016-01-07 22:16:04
+2016-01-08 20:00:00,France,Ligue 2,CHAMOIS NIORT FC vs DIJON FCO,2-2 (1-1),Match Odds,DIJON FCO,2.90,,60,-60.00,Lost,Owen Garth,Football,2016-01-07 22:15:02
+2016-01-08 20:00:00,France,Ligue 2,OLYMPIQUE NIMES vs STADE BREST,2-0 (0-0),Match Odds,STADE BREST,3.40,,60,-60.00,Lost,Owen Garth,Football,2016-01-07 22:13:02
+2016-01-08 20:00:00,France,Ligue 2,CLERMONT FOOT vs EVIAN TG FC,4-1 (4-0),Match Odds,CLERMONT FOOT,2.05,,60,63.00,Win,Owen Garth,Football,2016-01-07 18:46:04
+2016-01-08 20:00:00,France,Ligue 2,AJ AUXERRE vs VALENCIENNES FC,1-1 (0-0),Match Odds,AJ AUXERRE,1.95,,80,-80.00,Lost,Owen Garth,Football,2016-01-07 18:45:01
+2016-01-07 20:45:00,England,League One,WIGAN ATHLETIC vs GILLINGHAM FC,3-2 (0-1),Match Odds,GILLINGHAM FC,4.40,,80,-80.00,Lost,Owen Garth,Football,2016-01-07 03:47:02
+2016-01-07 20:30:00,Spain,Copa del Rey,CADIZ CF vs CELTA DE VIGO,0-3 (0-1),Match Odds,CELTA DE VIGO,1.85,,100,85.00,Win,Owen Garth,Football,2016-01-07 03:48:01
+2016-01-07 14:00:00,Greece,Greece Cup,PAS GIANNINA FC vs PANATHINAIKOS ATHENS,1-2 (0-0),Match Odds,PANATHINAIKOS ATHENS,2.08,,100,108.00,Win,Owen Garth,Football,2016-01-07 03:49:02
+2016-01-06 21:00:00,England,Carling Cup,EVERTON FC vs MANCHESTER CITY,2-1 (1-0),Match Odds,MANCHESTER CITY,2.15,,80,-80.00,Lost,Owen Garth,Football,2016-01-06 17:06:01
+2016-01-06 18:15:00,Spain,Copa del Rey,BETIS SEVILLA vs SEVILLA FC,0-2 (0-1),Match Odds,SEVILLA FC,1.91,,80,72.80,Win,Owen Garth,Football,2016-01-06 16:30:03
+2016-01-06 18:00:00,Italy,Serie A,FC EMPOLI vs INTER MILAN,0-1 (0-1),Match Odds,INTER MILAN,2.34,,80,107.20,Win,Owen Garth,Football,2016-01-06 16:31:02
+2016-01-06 17:00:00,Portugal,Liga Sagres,CD TONDELA vs FC PACOS FERREIRA,0-2 (0-1),Match Odds,FC PACOS FERREIRA,2.31,,80,104.80,Win,Owen Garth,Football,2016-01-06 15:38:02
+2016-01-06 16:00:00,Spain,Copa del Rey,CD MIRANDES vs DEPORTIVO LA CORUNA,1-1 (1-0),Match Odds,DEPORTIVO LA CORUNA,2.89,,80,-80.00,Lost,Owen Garth,Football,2016-01-05 22:33:02
+2016-01-06 15:00:00,Italy,Serie A,US PALERMO vs AC FIORENTINA,1-3 (0-2),Match Odds,AC FIORENTINA,1.86,,80,68.80,Win,Owen Garth,Football,2016-01-05 22:31:02
+2016-01-06 15:00:00,Italy,Serie A,AC CHIEVO VERONA vs AS ROMA,3-3 (1-2),Match Odds,AS ROMA,2.25,,80,-80.00,Lost,Owen Garth,Football,2016-01-05 22:29:06
+2016-01-06 12:00:00,Spain,Copa del Rey,ATHLETIC BILBAO vs VILLARREAL CF,3-2 (0-2),Match Odds,VILLARREAL CF,4.66,,80,-80.00,Lost,Owen Garth,Football,2016-01-05 22:28:02
+2016-01-05 21:00:00,England,Carling Cup,STOKE CITY vs LIVERPOOL FC,0-1 (0-1),Match Odds,LIVERPOOL FC,2.57,,80,125.60,Win,Owen Garth,Football,2016-01-04 22:37:02
+2016-01-05 20:45:00,Italy,Serie A,GENOA FC vs SAMPDORIA GENOA,2-3 (0-2),Match Odds,Draw,3.25,,80,-80.00,Lost,Owen Garth,Football,2016-01-04 22:38:02
+2016-01-05 18:30:00,Greece,Greece Cup,VEROIA FC vs IRAKLIS 1908,0-1 (0-0),Match Odds,IRAKLIS 1908,3.50,,60,150.00,Win,Owen Garth,Football,2016-01-04 22:40:02
+2016-01-05 16:15:00,Greece,Greece Cup,LARISSA vs ASTERAS TRIPOLIS,0-3 (0-1),Match Odds,ASTERAS TRIPOLIS,1.91,,100,91.00,Win,Owen Garth,Football,2016-01-04 22:39:01
+2016-01-04 20:45:00,France,Coupe de France,OGC NICE vs STADE RENNES,8-9 (1-0),Over / Under,Over +2.50,2.29,,100,-100.00,Lost,Owen Garth,Football,2016-01-04 15:13:04
+2016-01-04 20:30:00,Spain,Liga BBVA,SPORTING GIJON vs GETAFE CF,1-2 (1-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Owen Garth,Football,2016-01-04 15:17:02
+2016-01-04 20:30:00,Spain,Liga Adelante,GIRONA FC vs REAL VALLADOLID,1-0 (0-0),Over / Under,Under +1.50,3.00,,80,160.00,Win,Owen Garth,Football,2016-01-04 15:10:02
+2016-01-04 20:30:00,Spain,Liga Adelante,TENERIFE CD vs ALCORCON AD,1-2 (0-2),Match Odds,ALCORCON AD,3.00,,80,160.00,Win,Owen Garth,Football,2016-01-04 15:08:02
+2016-01-02 22:05:00,Spain,Liga BBVA,MALAGA CF vs CELTA DE VIGO,2-0 (2-0),Match Odds,CELTA DE VIGO,3.65,,100,-100.00,Lost,Owen Garth,Football,2016-01-02 17:16:05
+2016-01-02 20:45:00,France,Coupe de France,SEDAN-ARDENNES vs SC BASTIA,0-2 (0-0),Match Odds,SC BASTIA,2.67,,100,167.00,Win,Owen Garth,Football,2016-01-02 17:17:01
+2016-01-02 19:00:00,Portugal,Liga Sagres,FC PACOS FERREIRA vs CF OS BELENENSES,2-2 (1-1),Match Odds,FC PACOS FERREIRA,1.98,,100,-100.00,Lost,Owen Garth,Football,2016-01-02 17:16:01
+2016-01-02 16:00:00,England,League One,SCUNTHORPE UNITED vs WIGAN ATHLETIC,1-1 (1-1),Match Odds,WIGAN ATHLETIC,2.25,,60,-60.00,Lost,Owen Garth,Football,2016-01-02 01:08:03
+2016-01-02 16:00:00,England,League One,WALSALL FC vs ROCHDALE FC,0-3 (0-1),Match Odds,WALSALL FC,2.00,,60,-60.00,Lost,Owen Garth,Football,2016-01-02 01:07:02
+2016-01-02 16:00:00,England,League One,GILLINGHAM FC vs BRADFORD CITY,3-0 (2-0),Match Odds,GILLINGHAM FC,2.60,,60,96.00,Win,Owen Garth,Football,2016-01-02 01:06:04
+2016-01-02 16:00:00,England,Premier League,LEICESTER CITY vs BOURNEMOUTH AFC,0-0 (0-0),Match Odds,LEICESTER CITY,1.98,,80,-80.00,Lost,Owen Garth,Football,2016-01-02 01:05:02
+2016-01-02 16:00:00,England,Championship,CHARLTON ATHLETIC vs NOTTINGHAM FOREST,1-1 (0-1),Match Odds,NOTTINGHAM FOREST,2.25,,60,-60.00,Lost,Owen Garth,Football,2016-01-02 01:04:02
+2015-12-29 20:45:00,England,Championship,LEEDS UNITED vs DERBY COUNTY,2-2 (1-1),Match Odds,DERBY COUNTY,2.05,,80,-80.00,Lost,Owen Garth,Football,2015-12-28 20:26:02
+2015-12-29 20:45:00,England,Premier League,LEICESTER CITY vs MANCHESTER CITY,0-0 (0-0),Match Odds,LEICESTER CITY,4.20,,80,-80.00,Lost,Owen Garth,Football,2015-12-28 20:22:02
+2015-12-29 16:00:00,Portugal,Carlsberg Cup,CLUBE ORIENTAL DE LISBOA vs MOREIRENSE FC,2-4 (1-2),Match Odds,MOREIRENSE FC,2.32,,80,105.60,Win,Owen Garth,Football,2015-12-28 20:28:02
+2015-12-29 16:00:00,Portugal,Carlsberg Cup,LEIXOES SC vs RIO AVE FC,1-2 (0-2),Match Odds,RIO AVE FC,2.10,,80,88.00,Win,Owen Garth,Football,2015-12-28 20:27:02
+2015-12-28 19:00:00,Portugal,"League Cup, Phase 3, Gr. C",PORTIMONENSE SC vs FC AROUCA,4-1 (2-1),Match Odds,FC AROUCA,2.64,,80,-80.00,Lost,Owen Garth,Football,2015-12-28 17:53:02
+2015-12-28 16:00:00,England,League One,FLEETWOOD TOWN vs WIGAN ATHLETIC,1-3 (0-1),Match Odds,WIGAN ATHLETIC,2.30,,60,78.00,Win,Owen Garth,Football,2015-12-27 20:51:02
+2015-12-28 16:00:00,England,League One,WALSALL FC vs PETERBOROUGH UNITED,2-0 (0-0),Match Odds,WALSALL FC,2.42,,60,85.20,Win,Owen Garth,Football,2015-12-27 20:49:01
+2015-12-28 16:00:00,England,League One,CHESTERFIELD FC vs COVENTRY CITY,1-1 (1-0),Match Odds,COVENTRY CITY,2.05,,60,-60.00,Lost,Owen Garth,Football,2015-12-27 20:48:02
+2015-12-28 16:00:00,England,Championship,BURNLEY FC vs BRISTOL CITY,4-0 (2-0),Match Odds,BURNLEY FC,1.91,,80,72.80,Win,Owen Garth,Football,2015-12-27 20:45:02
+2015-12-28 16:00:00,England,Championship,PRESTON NORTH END vs HULL CITY,1-0 (0-0),Match Odds,HULL CITY,2.30,,60,-60.00,Lost,Owen Garth,Football,2015-12-27 20:44:01
+2015-12-27 15:00:00,Turkey,Turkcell Super Lig,KAYSERISPOR vs GALATASARAY ISTANBUL,1-1 (1-0),Match Odds,GALATASARAY ISTANBUL,2.38,,60,-60.00,Lost,Owen Garth,Football,2015-12-26 22:11:07
+2015-12-27 15:00:00,Italy,Serie B,FC MODENA vs NOVARA CALCIO,3-0 (1-0),Match Odds,NOVARA CALCIO,2.70,,60,-60.00,Lost,Owen Garth,Football,2015-12-26 22:10:02
+2015-12-27 15:00:00,Italy,Serie B,VIRTUS ENTELLA vs FC CROTONE,1-2 (1-2),Match Odds,FC CROTONE,2.90,,60,114.00,Win,Owen Garth,Football,2015-12-26 22:09:02
+2015-12-27 15:00:00,Italy,Serie B,BRESCIA CALCIO vs TERNANA CALCIO,0-0 (0-0),Match Odds,BRESCIA CALCIO,2.12,,80,-80.00,Lost,Owen Garth,Football,2015-12-26 22:08:01
+2015-12-27 12:30:00,Italy,Serie B,LATINA CALCIO vs PESCARA CALCIO,0-1 (0-0),Match Odds,PESCARA CALCIO,2.88,,60,112.80,Win,Owen Garth,Football,2015-12-26 22:07:02
+2015-12-26 20:45:00,England,Premier League,SOUTHAMPTON FC vs ARSENAL FC,4-0 (1-0),Match Odds,ARSENAL FC,2.45,,100,-100.00,Lost,Owen Garth,Football,2015-12-26 17:30:02
+2015-12-26 20:00:00,Belgium,Jupiler Pro League,YELLOW-RED KV MECHELEN vs KAA GENT,2-0 (0-0),Match Odds,KAA GENT,1.98,,100,-100.00,Lost,Owen Garth,Football,2015-12-26 17:30:05
+2015-12-26 16:00:00,England,Premier League,ASTON VILLA vs WEST HAM UNITED,1-1 (0-1),Match Odds,WEST HAM UNITED,2.95,,60,-60.00,Lost,Owen Garth,Football,2015-12-25 19:06:01
+2015-12-26 16:00:00,England,Premier League,LIVERPOOL FC vs LEICESTER CITY,1-0 (0-0),Match Odds,LEICESTER CITY,4.06,,60,-60.00,Lost,Owen Garth,Football,2015-12-25 19:05:02
+2015-12-26 14:00:00,England,Championship,BRENTFORD FC vs BRIGHTON & HOVE ALBION FC,0-0 (0-0),Match Odds,BRIGHTON & HOVE ALBION FC,2.90,,60,-60.00,Lost,Owen Garth,Football,2015-12-25 19:07:05
+2015-12-26 13:45:00,England,Premier League,STOKE CITY vs MANCHESTER UNITED,2-0 (2-0),Match Odds,MANCHESTER UNITED,2.40,,80,-80.00,Lost,Owen Garth,Football,2015-12-25 19:02:07
+2015-12-24 13:00:00,Italy,Serie B,SPORTIVA SALERNITANA vs CAGLIARI CALCIO,0-2 (0-1),Match Odds,CAGLIARI CALCIO,2.05,,80,84.00,Win,Owen Garth,Football,2015-12-22 02:12:02
+2015-12-23 20:30:00,Italy,Serie B,PESCARA CALCIO vs FC MODENA,1-0 (0-0),Match Odds,PESCARA CALCIO,1.81,,80,64.80,Win,Owen Garth,Football,2015-12-22 02:11:02
+2015-12-23 20:30:00,Italy,Serie B,NOVARA CALCIO vs AC CESENA,0-0 (0-0),Match Odds,NOVARA CALCIO,2.07,,80,-80.00,Lost,Owen Garth,Football,2015-12-22 02:10:01
+2015-12-23 20:30:00,Italy,Serie B,FC CROTONE vs TRAPANI CALCIO,0-0 (0-0),Match Odds,FC CROTONE,1.93,,80,-80.00,Lost,Owen Garth,Football,2015-12-22 02:09:01
+2015-12-21 22:00:00,Portugal,Liga Sagres,SPORTING BRAGA vs FC PACOS FERREIRA,1-1 (1-0),Match Odds,SPORTING BRAGA,1.65,,80,-80.00,Lost,Owen Garth,Football,2015-12-21 01:18:01
+2015-12-21 20:30:00,Spain,Liga Adelante,ATHLETIC BILBAO B vs CD LUGO,1-1 (1-1),Match Odds,CD LUGO,3.60,,80,-80.00,Lost,Owen Garth,Football,2015-12-21 01:17:02
+2015-12-21 19:00:00,Turkey,Turkcell Super Lig,OSMANLISPOR FK vs BESIKTAS JK,2-3 (2-1),Match Odds,BESIKTAS JK,2.10,,80,88.00,Win,Owen Garth,Football,2015-12-21 01:18:04
+2015-12-21 17:00:00,Romania,Liga 1,CS VOLUNTARI vs FC VIITORUL CONSTANTA,2-3 (1-1),Match Odds,FC VIITORUL CONSTANTA,2.60,,80,128.00,Win,Owen Garth,Football,2015-12-21 01:16:02
+2015-12-18 20:30:00,Spain,Liga Adelante,ELCHE CF vs CORDOBA CF,2-1 (2-1),Match Odds,CORDOBA CF,3.97,,80,-80.00,Lost,Owen Garth,Football,2015-12-18 03:39:02
+2015-12-18 20:30:00,Poland,Ekstraklasa,WISLA KRAKOW SA vs MKS POGON SZCZECIN,0-1 (0-1),Match Odds,MKS POGON SZCZECIN,3.20,,80,176.00,Win,Owen Garth,Football,2015-12-18 03:33:01
+2015-12-18 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs OLYMPIQUE NIMES,3-2 (1-1),Match Odds,STADE LAVALLOIS MFC,2.15,,80,92.00,Win,Owen Garth,Football,2015-12-18 03:44:01
+2015-12-18 18:30:00,Germany,2. Bundesliga,FC ST. PAULI vs KARLSRUHER SC,1-2 (1-1),Match Odds,FC ST. PAULI,2.46,,80,-80.00,Lost,Owen Garth,Football,2015-12-18 03:43:01
+2015-12-15 22:00:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs BENFICA LISBON,0-0 (0-0),Over / Under Team,BENFICA LISBON Over +3.50,5.50,,60,-60.00,Lost,Owen Garth,Football,2015-12-15 19:30:02
+2015-12-15 20:45:00,England,Championship,QUEENS PARK RANGERS vs BRIGHTON & HOVE ALBION FC,2-2 (0-0),Match Odds,BRIGHTON & HOVE ALBION FC,2.93,,80,-80.00,Lost,Owen Garth,Football,2015-12-15 19:31:02
+2015-12-15 20:45:00,England,Championship,DERBY COUNTY vs BRISTOL CITY,4-0 (1-0),Match Odds,DERBY COUNTY,1.63,,100,63.00,Win,Owen Garth,Football,2015-12-15 19:25:02
+2015-12-15 20:45:00,England,Championship,FULHAM FC vs IPSWICH TOWN,1-2 (1-1),Match Odds,IPSWICH TOWN,2.50,,80,120.00,Win,Owen Garth,Football,2015-12-15 19:24:02
+2015-12-14 21:00:00,Portugal,Liga Sagres,ACADEMICA COIMBRA vs CF OS BELENENSES,4-3 (2-1),Match Odds,CF OS BELENENSES,3.30,,60,-60.00,Lost,Owen Garth,Football,2015-12-14 05:29:02
+2015-12-14 21:00:00,England,Premier League,LEICESTER CITY vs CHELSEA FC,2-1 (1-0),Match Odds,LEICESTER CITY,3.21,,60,132.60,Win,Owen Garth,Football,2015-12-14 05:26:02
+2015-12-14 20:15:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs FC ST. PAULI,0-0 (0-0),Match Odds,FC ST. PAULI,2.90,,60,-60.00,Lost,Owen Garth,Football,2015-12-14 05:27:02
+2015-12-14 19:30:00,Romania,Liga 1,FC VIITORUL CONSTANTA vs STEAUA BUCURESTI,0-1 (0-1),Match Odds,FC VIITORUL CONSTANTA,3.50,,60,-60.00,Lost,Owen Garth,Football,2015-12-14 05:25:01
+2015-12-14 19:00:00,Turkey,Turkcell Super Lig,BESIKTAS JK vs GALATASARAY ISTANBUL,2-1 (0-0),Match Odds,BESIKTAS JK,2.10,,80,88.00,Win,Owen Garth,Football,2015-12-14 05:29:03
+2015-12-10 21:05:00,European cups,UEFA Europa League,SPORTING CP vs BESIKTAS JK,3-1 (0-0),Match Odds,SPORTING CP,1.85,,80,68.00,Win,Owen Garth,Football,2015-12-09 22:51:03
+2015-12-10 21:05:00,European cups,UEFA Europa League,PARTIZAN BELGRADE vs FC AUGSBURG,1-3 (1-1),Match Odds,PARTIZAN BELGRADE,3.60,,40,-40.00,Lost,Owen Garth,Football,2015-12-09 22:51:01
+2015-12-10 21:05:00,European cups,UEFA Europa League,AC FIORENTINA vs CF OS BELENENSES,1-0 (0-0),Over / Under,Over +3.50,3.00,,60,-60.00,Lost,Owen Garth,Football,2015-12-09 22:46:07
+2015-12-10 19:00:00,European cups,UEFA Europa League,FK GABALA vs FC KRASNODAR,0-3 (0-2),Match Odds,FC KRASNODAR,1.80,,80,64.00,Win,Owen Garth,Football,2015-12-09 22:50:05
+2015-12-10 19:00:00,European cups,UEFA Europa League,FC MIDTJYLLAND vs CLUB BRUGGE,1-1 (1-0),Match Odds,FC MIDTJYLLAND,2.88,,60,-60.00,Lost,Owen Garth,Football,2015-12-09 22:47:02
+2015-12-09 20:45:00,European cups,UEFA Champions League,OLYMPIACOS FC vs ARSENAL FC,0-3 (0-1),Match Odds,OLYMPIACOS FC,3.68,,60,-60.00,Lost,Owen Garth,Football,2015-12-08 23:08:02
+2015-12-09 20:45:00,European cups,UEFA Champions League,VALENCIA CF vs OLYMPIQUE LYON,0-2 (0-1),Over / Under,Over +3.50,3.00,,60,-60.00,Lost,Owen Garth,Football,2015-12-08 23:05:02
+2015-12-09 20:45:00,European cups,UEFA Champions League,KAA GENT vs ZENIT ST PETERSBURG,2-1 (1-0),Match Odds,ZENIT ST PETERSBURG,3.24,,60,-60.00,Lost,Owen Garth,Football,2015-12-08 23:03:04
+2015-12-09 20:45:00,European cups,UEFA Champions League,CHELSEA FC vs FC PORTO,2-0 (1-0),Match Odds,CHELSEA FC,2.00,,60,60.00,Win,Owen Garth,Football,2015-12-08 23:02:03
+2015-12-09 20:45:00,European cups,UEFA Champions League,BAYER LEVERKUSEN vs FC BARCELONA,1-1 (1-1),Match Odds,FC BARCELONA,2.08,,80,-80.00,Lost,Owen Garth,Football,2015-12-08 23:01:02
+2015-12-07 21:00:00,Portugal,Liga Sagres,VITORIA GUIMARAES vs RIO AVE FC,3-1 (1-1),Match Odds,RIO AVE FC,3.30,,60,-60.00,Lost,Owen Garth,Football,2015-12-07 02:24:02
+2015-12-07 20:30:00,Spain,Liga Adelante,ATHLETIC BILBAO B vs REAL ZARAGOZA,0-1 (0-1),Match Odds,REAL ZARAGOZA,3.08,,60,124.80,Win,Owen Garth,Football,2015-12-07 02:26:02
+2015-12-07 19:30:00,Romania,Liga 1,FC PETROLUL PLOIESTI vs DINAMO BUCURESTI,1-2 (1-0),Match Odds,DINAMO BUCURESTI,2.77,,60,106.20,Win,Owen Garth,Football,2015-12-07 02:27:01
+2015-12-07 17:00:00,Turkey,Turkcell Super Lig,AKHISAR BLD SPOR vs SIVASSPOR,1-0 (0-0),Match Odds,AKHISAR BLD SPOR,2.22,,80,97.60,Win,Owen Garth,Football,2015-12-07 02:29:01
+2015-12-07 17:00:00,Romania,Liga 1,CS VOLUNTARI vs ASA TARGU MURES,0-2 (0-2),Match Odds,ASA TARGU MURES,2.54,,60,92.40,Win,Owen Garth,Football,2015-12-07 02:28:02
+2015-12-05 22:05:00,Spain,Liga BBVA,BETIS SEVILLA vs CELTA DE VIGO,1-1 (0-1),Match Odds,CELTA DE VIGO,2.20,,80,-80.00,Lost,Owen Garth,Football,2015-12-05 04:11:02
+2015-12-05 22:00:00,Spain,Liga BBVA,DEPORTIVO LA CORUNA vs SEVILLA FC,1-1 (1-0),Match Odds,SEVILLA FC,2.40,,80,-80.00,Lost,Owen Garth,Football,2015-12-05 04:10:02
+2015-12-05 16:00:00,England,Premier League,SWANSEA CITY vs LEICESTER CITY,0-3 (0-2),Match Odds,LEICESTER CITY,2.88,,80,150.40,Win,Owen Garth,Football,2015-12-05 04:07:02
+2015-12-05 15:00:00,Italy,Serie A,TURIN FC vs AS ROMA,1-1 (0-0),Match Odds,AS ROMA,2.70,,80,-80.00,Lost,Owen Garth,Football,2015-12-05 04:13:02
+2015-11-30 22:00:00,Portugal,Liga Sagres,SPORTING BRAGA vs BENFICA LISBON,0-2 (0-2),Over / Under,Over +3.50,4.20,,80,-80.00,Lost,Owen Garth,Football,2015-11-30 05:40:02
+2015-11-30 21:00:00,Italy,Serie A,SSC NAPOLI vs INTER MILAN,2-1 (1-0),Over / Under,Over +3.50,2.88,,80,-80.00,Lost,Owen Garth,Football,2015-11-30 05:38:02
+2015-11-30 20:00:00,Portugal,Liga Sagres,SPORTING CP vs CF OS BELENENSES,1-0 (0-0),Over / Under,Over +3.50,2.50,,80,-80.00,Lost,Owen Garth,Football,2015-11-30 05:39:01
+2015-11-30 19:00:00,Italy,Serie A,US SASSUOLO vs AC FIORENTINA,1-1 (1-1),Over / Under,Over +3.50,3.50,,80,-80.00,Lost,Owen Garth,Football,2015-11-30 05:37:02
+2015-11-25 20:45:00,European cups,UEFA Champions League,ATLETICO MADRID vs GALATASARAY ISTANBUL,2-0 (1-0),Over / Under,Over +4.50,5.50,,40,-40.00,Lost,Owen Garth,Football,2015-11-25 02:45:01
+2015-11-25 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs MANCHESTER CITY,1-0 (1-0),Match Odds,JUVENTUS TURIN,2.29,,60,77.40,Win,Owen Garth,Football,2015-11-25 02:44:01
+2015-11-25 20:45:00,European cups,UEFA Champions League,MONCHENGLADBACH vs SEVILLA FC,4-2 (1-0),Match Odds,SEVILLA FC,2.90,,40,-40.00,Lost,Owen Garth,Football,2015-11-25 02:43:02
+2015-11-25 20:45:00,European cups,UEFA Champions League,FC SHAKHTAR DONETSK vs REAL MADRID,3-4 (0-1),Match Odds,REAL MADRID,1.85,,100,85.00,Win,Owen Garth,Football,2015-11-25 02:40:01
+2015-11-25 16:00:00,European cups,UEFA Champions League,FC ASTANA vs BENFICA LISBON,2-2 (2-1),Over / Under,Over +3.50,4.33,,80,266.40,Win,Owen Garth,Football,2015-11-25 02:38:02
+2015-11-24 20:45:00,European cups,UEFA Champions League,BAYERN MUNICH vs OLYMPIACOS FC,4-0 (3-0),Over / Under 1st Half,Over +2.50 Half time,4.33,,60,199.80,Win,Owen Garth,Football,2015-11-24 06:13:02
+2015-11-24 20:45:00,European cups,UEFA Champions League,FC BARCELONA vs AS ROMA,6-1 (3-0),Over / Under,Over +3.50,1.96,,80,76.80,Win,Owen Garth,Football,2015-11-24 06:09:02
+2015-11-24 18:00:00,European cups,UEFA Champions League,ZENIT ST PETERSBURG vs VALENCIA CF,2-0 (1-0),Match Odds,ZENIT ST PETERSBURG,2.20,,80,96.00,Win,Owen Garth,Football,2015-11-24 06:08:02
+2015-11-24 18:00:00,European cups,UEFA Champions League,FC BATE BORISOV vs BAYER LEVERKUSEN,1-1 (1-0),Match Odds,BAYER LEVERKUSEN,1.70,,100,-100.00,Lost,Owen Garth,Football,2015-11-24 06:07:02
+2015-11-17 22:00:00,International,World Cup Qualification,VENEZUELA vs ECUADOR,1-3 (0-2),Match Odds,ECUADOR,2.60,,80,128.00,Win,Owen Garth,Football,2015-11-17 02:31:02
+2015-11-17 20:45:00,International,"Euro Cup Qualification, Playoffs",SLOVENIA vs UKRAINE,1-1 (1-0),Match Odds,UKRAINE,2.60,,80,-80.00,Lost,Owen Garth,Football,2015-11-17 02:21:02
+2015-11-17 20:45:00,International,"Euro Cup Qualification, Playoffs",DENMARK vs SWEDEN,2-2 (0-1),Match Odds,Draw,3.30,,80,184.00,Win,Owen Garth,Football,2015-11-17 02:20:04
+2015-11-17 16:30:00,International Youth,U21 Euro Qualification,SLOVENIA vs SERBIA,2-0 (0-0),Match Odds,SERBIA,2.25,,40,-40.00,Lost,Owen Garth,Football,2015-11-17 02:37:02
+2015-11-17 11:00:00,International Youth,U21 Euro Qualification,GEORGIA vs SWEDEN,0-1 (0-0),Match Odds,SWEDEN,1.83,,40,33.20,Win,Owen Garth,Football,2015-11-17 02:37:04
+2015-11-10 00:10:00,Argentina,Primera Division,CRUCERO DEL NORTE vs CA ALDOSIVI,0-2 (0-1),Match Odds,CA ALDOSIVI,2.25,,80,100.00,Win,Owen Garth,Football,2015-11-09 21:59:02
+2015-11-09 20:30:00,Italy,Serie B,FC CROTONE vs AS AVELLINO,3-1 (1-0),Match Odds,FC CROTONE,2.25,,80,100.00,Win,Owen Garth,Football,2015-11-09 04:54:03
+2015-11-09 20:15:00,Germany,2. Bundesliga,FC ST. PAULI vs FORTUNA DUSSELDORF,4-0 (2-0),Match Odds,FC ST. PAULI,2.15,,80,92.00,Win,Owen Garth,Football,2015-11-09 04:58:03
+2015-11-09 20:00:00,Portugal,Liga Sagres,CF OS BELENENSES vs CD TONDELA,2-1 (1-0),Match Odds,CF OS BELENENSES,1.83,,80,66.40,Win,Owen Garth,Football,2015-11-09 04:56:03
+2015-11-09 19:45:00,Switzerland,Challenge League,FC LAUSANNE-SPORT vs NEUCHATEL XAMAX FC,2-3 (0-1),Match Odds,FC LAUSANNE-SPORT,1.85,,80,-80.00,Lost,Owen Garth,Football,2015-11-09 05:02:07
+2015-11-08 20:45:00,Italy,Serie A,SAMPDORIA GENOA vs AC FIORENTINA,0-2 (0-1),Match Odds,AC FIORENTINA,2.05,,100,105.00,Win,Owen Garth,Football,2015-11-08 19:11:38
+2015-11-08 20:30:00,Spain,Liga BBVA,SEVILLA FC vs REAL MADRID,3-2 (1-1),Match Odds,REAL MADRID,1.91,,100,-100.00,Lost,Owen Garth,Football,2015-11-08 17:54:19
+2015-11-08 19:15:00,Turkey,Turkcell Super Lig,BURSASPOR vs BESIKTAS JK,0-1 (0-0),Match Odds,BESIKTAS JK,2.50,,100,150.00,Win,Owen Garth,Football,2015-11-08 17:53:04
+2015-11-08 17:00:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs CORDOBA CF,2-0 (0-0),Match Odds,CORDOBA CF,3.20,,60,-60.00,Lost,Owen Garth,Football,2015-11-08 15:14:04
+2015-11-08 17:00:00,Portugal,Liga Sagres,MOREIRENSE FC vs FC PACOS FERREIRA,2-0 (1-0),Match Odds,FC PACOS FERREIRA,2.75,,60,-60.00,Lost,Owen Garth,Football,2015-11-08 15:13:03
+2015-11-08 15:00:00,Italy,Serie A,AS ROMA vs LAZIO ROMA,2-0 (1-0),Match Odds,AS ROMA,2.05,,80,84.00,Win,Owen Garth,Football,2015-11-07 22:34:21
+2015-11-08 15:00:00,Russia,Premier League,FC KRASNODAR vs CSKA MOSCOW,2-1 (2-1),Match Odds,CSKA MOSCOW,2.45,,60,-60.00,Lost,Owen Garth,Football,2015-11-07 22:33:03
+2015-11-08 14:30:00,Belgium,Jupiler Pro League,STANDARD LIEGE vs RSC ANDERLECHT,1-0 (1-0),Match Odds,RSC ANDERLECHT,2.15,,60,-60.00,Lost,Owen Garth,Football,2015-11-07 22:31:14
+2015-11-08 12:30:00,Italy,Serie A,TURIN FC vs INTER MILAN,0-1 (0-1),Match Odds,INTER MILAN,2.70,,60,102.00,Win,Owen Garth,Football,2015-11-07 22:29:03
+2015-11-08 12:00:00,Spain,Liga Adelante,ELCHE CF vs CA OSASUNA,2-1 (1-1),Match Odds,CA OSASUNA,3.10,,60,-60.00,Lost,Owen Garth,Football,2015-11-07 22:25:06
+2015-11-02 21:00:00,Portugal,Liga Sagres,FC PACOS FERREIRA vs VITORIA GUIMARAES,0-1 (0-0),Match Odds,FC PACOS FERREIRA,2.05,,80,-80.00,Lost,Owen Garth,Football,2015-11-01 22:11:01
+2015-11-02 20:30:00,France,Ligue 2,RC LENS vs AS NANCY,1-0 (0-0),Match Odds,AS NANCY,2.45,,80,-80.00,Lost,Owen Garth,Football,2015-11-01 22:09:17
+2015-11-02 18:30:00,Austria,ADEG Erste Liga,WACKER INNSBRUCK vs AUSTRIA SALZBURG,1-1 (0-0),Match Odds,WACKER INNSBRUCK,1.83,,80,-80.00,Lost,Owen Garth,Football,2015-11-01 19:21:04
+2015-11-02 17:30:00,Russia,Premier League,FC ROSTOV vs FC DINAMO MOSCOW,1-0 (0-0),Match Odds,FC ROSTOV,2.25,,80,100.00,Win,Owen Garth,Football,2015-11-01 19:35:05
+2015-11-01 00:00:00,Brazil,Brasilero Serie B,ABC RN vs SAMPAIO CORREA MA,2-3 (0-1),Match Odds,SAMPAIO CORREA MA,2.70,,80,136.00,Win,Owen Garth,Football,2015-10-31 19:27:37
+2015-10-31 23:00:00,Argentina,Primera Division,VELEZ SARSFIELD vs RIVER PLATE,0-1 (0-0),Match Odds,RIVER PLATE,2.25,,60,75.00,Win,Owen Garth,Football,2015-10-31 19:25:03
+2015-10-31 22:05:00,Spain,Liga BBVA,REAL SOCIEDAD vs CELTA DE VIGO,2-3 (2-1),Match Odds,CELTA DE VIGO,2.80,,60,108.00,Win,Owen Garth,Football,2015-10-31 19:09:10
+2015-10-31 20:45:00,Italy,Serie A,INTER MILAN vs AS ROMA,1-0 (1-0),Match Odds,AS ROMA,2.75,,60,-60.00,Lost,Owen Garth,Football,2015-10-31 19:37:02
+2015-10-31 20:30:00,Spain,Liga BBVA,GETAFE CF vs FC BARCELONA,0-2 (0-1),Over / Under Team,FC BARCELONA Over +3.50,3.75,,60,-60.00,Lost,Owen Garth,Football,2015-10-31 19:06:06
+2015-10-28 21:00:00,France,Coupe de la Ligue,FC LORIENT vs MONTPELLIER HSC,3-2 (3-1),Match Odds,FC LORIENT,1.91,,100,91.00,Win,Owen Garth,Football,2015-10-28 19:08:05
+2015-10-28 21:00:00,France,Coupe de la Ligue,BOURG PERONNAS vs FC NANTES,2-2 (1-1),Match Odds,FC NANTES,2.40,,80,-80.00,Lost,Owen Garth,Football,2015-10-28 19:07:07
+2015-10-28 20:45:00,England,Carling Cup,MANCHESTER CITY vs CRYSTAL PALACE,5-1 (2-0),Over / Under 1st Half,Over +2.50 Half time,5.00,,60,-60.00,Lost,Owen Garth,Football,2015-10-28 19:13:10
+2015-10-28 20:45:00,Italy,Serie A,ATALANTA BERGAMASCA vs LAZIO ROMA,2-1 (0-1),Match Odds,LAZIO ROMA,2.40,,80,-80.00,Lost,Owen Garth,Football,2015-10-28 19:03:51
+2015-10-27 20:30:00,Italy,Serie B,AC CESENA vs COMO CALCIO,3-1 (2-0),Match Odds,AC CESENA,1.75,,80,60.00,Win,Owen Garth,Football,2015-10-26 21:33:37
+2015-10-27 20:30:00,Italy,Serie B,VIRTUS ENTELLA vs AS LIVORNO,0-0 (0-0),Match Odds,AS LIVORNO,2.50,,60,-60.00,Lost,Owen Garth,Football,2015-10-26 21:30:11
+2015-10-27 20:30:00,Italy,Serie B,FC MODENA vs SPEZIA CALCIO,1-1 (0-1),Match Odds,SPEZIA CALCIO,2.70,,60,-60.00,Lost,Owen Garth,Football,2015-10-26 21:27:02
+2015-10-27 20:30:00,Italy,Serie B,PERUGIA vs CAGLIARI CALCIO,0-0 (0-0),Match Odds,CAGLIARI CALCIO,2.45,,60,-60.00,Lost,Owen Garth,Football,2015-10-26 21:25:03
+2015-10-27 20:30:00,Italy,Serie B,PRO VERCELLI vs FC BARI 1908,0-1 (0-0),Match Odds,FC BARI 1908,2.50,,60,90.00,Win,Owen Garth,Football,2015-10-26 20:37:02
+2015-10-25 19:15:00,Spain,Liga Adelante,TENERIFE CD vs CA OSASUNA,2-2 (1-1),Match Odds,CA OSASUNA,3.25,,40,-40.00,Lost,Owen Garth,Football,2015-10-24 22:58:04
+2015-10-25 18:00:00,Denmark,SAS Ligaen,BRONDBY IF vs FC MIDTJYLLAND,2-1 (1-1),Match Odds,FC MIDTJYLLAND,2.62,,80,-80.00,Lost,Owen Garth,Football,2015-10-24 22:46:20
+2015-10-25 17:30:00,Germany,Bundesliga,MONCHENGLADBACH vs FC SCHALKE 04,3-1 (1-1),Match Odds,FC SCHALKE 04,3.30,,80,-80.00,Lost,Owen Garth,Football,2015-10-24 22:28:03
+2015-10-25 17:00:00,Portugal,Liga Sagres,MOREIRENSE FC vs VITORIA SETUBAL,0-2 (0-1),Match Odds,VITORIA SETUBAL,3.20,,80,176.00,Win,Owen Garth,Football,2015-10-24 22:38:43
+2015-10-25 16:00:00,Spain,Liga BBVA,LAS PALMAS UD vs VILLARREAL CF,0-0 (0-0),Match Odds,VILLARREAL CF,2.20,,40,-40.00,Lost,Owen Garth,Football,2015-10-24 22:55:03
+2015-10-23 20:45:00,England,Championship,ROTHERHAM UTD vs SHEFFIELD WEDNESDAY,1-2 (0-0),Match Odds,SHEFFIELD WEDNESDAY,2.50,,80,120.00,Win,Owen Garth,Football,2015-10-23 00:21:03
+2015-10-23 20:00:00,France,Ligue 2,AC AJACCIO vs FC METZ,0-1 (0-0),Match Odds,FC METZ,3.10,,80,168.00,Win,Owen Garth,Football,2015-10-23 00:41:46
+2015-10-23 20:00:00,Netherlands,Eredivisie,PEC ZWOLLE vs FC UTRECHT,1-2 (1-1),Match Odds,PEC ZWOLLE,2.30,,80,-80.00,Lost,Owen Garth,Football,2015-10-23 00:28:08
+2015-10-23 20:00:00,Netherlands,Jupiler League,FC VOLENDAM vs FC EMMEN,0-2 (0-0),Match Odds,FC VOLENDAM,1.85,,80,-80.00,Lost,Owen Garth,Football,2015-10-23 00:25:27
+2015-10-22 21:05:00,European cups,UEFA Europa League,SPORTING BRAGA vs OLYMPIQUE MARSEILLE,3-2 (0-0),Match Odds,SPORTING BRAGA,2.55,,80,124.00,Win,Owen Garth,Football,2015-10-22 18:06:08
+2015-10-22 19:00:00,European cups,UEFA Europa League,DNIPRO DNIPROPETROVSK vs AS SAINT ETIENNE,0-1 (0-1),Match Odds,DNIPRO DNIPROPETROVSK,2.15,,80,-80.00,Lost,Owen Garth,Football,2015-10-22 17:52:41
+2015-10-22 19:00:00,European cups,UEFA Europa League,FC SCHALKE 04 vs SPARTA PRAGUE,2-2 (1-0),Match Odds,FC SCHALKE 04,1.72,,80,-80.00,Lost,Owen Garth,Football,2015-10-22 17:50:10

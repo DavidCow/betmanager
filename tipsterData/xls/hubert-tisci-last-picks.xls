@@ -1,0 +1,6077 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 19:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>CD NACIONAL vs SPORTING CP</td>
+	<td>0-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>43.50</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-13 18:26:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC THUN vs FC LUGANO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>FC THUN Over +1.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>21.25</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-13 14:48:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 16:00:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>EASTBOURNE BOROUGH vs WESTON SUPER MARE FC</td>
+	<td>3-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-10 23:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS AVELLINO vs FC BARI 1908</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AS AVELLINO -0.25</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-11 21:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>WESTON SUPER MARE FC vs OXFORD CITY</td>
+	<td>5-2 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>58.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-09 18:19:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>MALAHIDE UNITED vs CORK CITY FC</td>
+	<td>0-6 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>44.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-09 11:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs SAMPDORIA GENOA</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-07 19:40:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-07 16:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>FC UTRECHT vs PSV EINDHOVEN</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>PSV EINDHOVEN -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-07 15:42:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 07:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>NEWCASTLE UNITED JETS FC vs MELBOURNE CITY FC</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-07 02:47:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 20:00:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>YOUNG BOYS BERN vs GRASSHOPPER CLUB ZURICH</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-06 04:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 16:00:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>GS CONSOLAT MARSEILLE vs COLMAR</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-05 14:14:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 00:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>CERRO PORTENO vs GENERAL CABALLERO</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-04 21:47:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs AC MILAN</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-03 19:31:23</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 19:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs TOULOUSE FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-02 23:44:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SUNDERLAND AFC vs MANCHESTER CITY</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-02-01 21:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs ESPANYOL BARCELONA</td>
+	<td>6-0 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-31 02:54:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 20:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>MOREIRENSE FC vs BENFICA LISBON</td>
+	<td>1-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>66.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-31 03:17:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC LORIENT vs STADE REIMS</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-30 01:03:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 13:45:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>COLCHESTER UNITED vs TOTTENHAM HOTSPUR</td>
+	<td>1-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>TOTTENHAM HOTSPUR -1.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-30 02:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>OLYMPIQUE NIMES vs AJ AUXERRE</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>OLYMPIQUE NIMES Over +1.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-27 23:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>SBV EXCELSIOR vs PSV EINDHOVEN</td>
+	<td>1-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>PSV EINDHOVEN -1.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>66.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-27 18:24:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 15:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC LUZERN vs FC WOHLEN</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-27 13:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>BETIS SEVILLA vs REAL MADRID</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-24 00:12:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 17:00:00</td>
+	<td>Spain</td>
+	<td>Segunda B Group III</td>
+	<td>CD ALCOYANO vs LEVANTE B</td>
+	<td>2-0 </td>
+	<td>Over / Under Team</td>
+	<td>CD ALCOYANO Over +1.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>34.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-24 13:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs FC LORIENT</td>
+	<td>2-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>43.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-23 18:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>CREWE ALEXANDRA FC vs WIGAN ATHLETIC</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-22 22:22:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 16:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>MOREIRENSE FC vs CD NACIONAL</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>-30.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-19 22:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-19 18:00:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>STADE RENNES vs BOURG PERONNAS</td>
+	<td>1-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-18 19:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-17 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs SPORTING GIJON</td>
+	<td>5-1 (5-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>34.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-17 14:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-17 14:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC LORIENT vs AS MONACO</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-20.00</td>
+	<td>Half lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-17 04:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-16 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>CRAWLEY TOWN vs NOTTS COUNTY</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-15 02:43:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-15 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>DIJON FCO vs BOURG PERONNAS</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>39.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-15 02:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FK BAUMIT JABLONEC vs FC GRAFFIN VLASIM</td>
+	<td>4-2 (4-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>29.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-13 11:45:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>BOURG PERONNAS vs US CRETEIL</td>
+	<td>5-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>41.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-05 22:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-03 15:00:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>FC MULHOUSE vs BOURG PERONNAS</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>46.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-03 13:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>AFC FYLDE vs CHORLEY FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2016-01-02 03:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>HALIFAX TOWN vs LINCOLN CITY</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HALIFAX TOWN +0.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>22.20</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-31 23:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>GILLINGHAM FC vs COLCHESTER UNITED</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>GILLINGHAM FC</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-27 00:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>PETERBOROUGH UNITED vs CHESTERFIELD FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PETERBOROUGH UNITED</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>53.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-24 23:34:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>COLCHESTER UNITED vs SOUTHEND UNITED</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-24 23:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-19 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>NORTHAMPTON TOWN vs PORTSMOUTH FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>NORTHAMPTON TOWN +0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-18 22:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-19 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>NUNEATON TOWN FC vs CHORLEY FC</td>
+	<td>2-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-17 23:36:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-19 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>CARLISLE UNITED vs NOTTS COUNTY</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>36.80</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-17 23:12:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-16 20:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>FC AUGSBURG vs BORUSSIA DORTMUND</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-16 00:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 20:00:00</td>
+	<td>France</td>
+	<td>Coupe de la Ligue</td>
+	<td>FC LORIENT vs DIJON FCO</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>56.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-15 17:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-13 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs CLUB SPORT EMELEC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-13 02:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-13 14:30:00</td>
+	<td>Switzerland</td>
+	<td>Swiss Cup</td>
+	<td>FC LUGANO vs FC KONIZ</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.15</td>
+	<td>
+	Bwin	</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-12 22:35:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs MONCHENGLADBACH</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>MONCHENGLADBACH Over +1.00</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-12 12:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-12 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>COLCHESTER UNITED vs BARNSLEY FC</td>
+	<td>2-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>65.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-11 22:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>PETERBOROUGH UNITED vs SHREWSBURY TOWN</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PETERBOROUGH UNITED</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-11 00:29:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-10 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PARTIZAN BELGRADE vs FC AUGSBURG</td>
+	<td>1-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-10 16:11:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-09 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>FC UNITED OF MANCHESTER vs NUNEATON TOWN FC</td>
+	<td>3-2 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-09 00:20:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-06 15:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>COLCHESTER UNITED vs ALTRINCHAM FC</td>
+	<td>3-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>50.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-06 00:28:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-05 17:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 18:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>SBV EXCELSIOR vs FC TWENTE ENSCHEDE</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-04 18:20:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 18:00:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>GKS PIAST GLIWICE vs KS CRACOVIA</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>57.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-04 22:16:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>HALIFAX TOWN vs GUISELEY FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-04 17:50:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-03 21:30:00</td>
+	<td>Venezuela</td>
+	<td>Primera Division, Relegation Promotion Playoffs</td>
+	<td>METROPOLITANOS FC vs DEPORTIVO JBL DEL ZULIA</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-03 20:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-03 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs INDEPENDIENTE DEL VALLE</td>
+	<td>0-5 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>37.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-12-02 22:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-30 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>JONG AJAX vs SPARTA ROTTERDAM</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-30 17:28:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-29 22:15:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>BLOOMING vs BOLIVAR LA PAZ</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-29 17:50:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-29 14:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>RSC ANDERLECHT vs OUD-HEVERLEE LEUVEN</td>
+	<td>3-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT -1.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-28 23:04:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-28 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>FC TWENTE ENSCHEDE vs WILLEM II TILBURG</td>
+	<td>1-3 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-27 23:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-28 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>MALAGA CF vs GRANADA CF</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MALAGA CF</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-27 22:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-28 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>HALIFAX TOWN vs DOVER ATHLETIC</td>
+	<td>4-2 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>74.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-27 23:47:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-27 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>ALMERE CITY FC vs FC OSS</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-26 22:45:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-26 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AZ ALKMAAR vs PARTIZAN BELGRADE</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-25 01:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-24 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>PETERBOROUGH UNITED vs BARNSLEY FC</td>
+	<td>3-2 (1-1)</td>
+	<td>Over / Under Team</td>
+	<td>PETERBOROUGH UNITED Over +1.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-23 23:01:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-24 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BATE BORISOV vs BAYER LEVERKUSEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-24 00:25:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-23 06:00:00</td>
+	<td>Japan</td>
+	<td>J.League 2</td>
+	<td>FC GIFU vs AVISPA FUKUOKA</td>
+	<td>1-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AVISPA FUKUOKA -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>31.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-23 00:08:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-22 20:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>ATLETICO MINEIRO MG vs GOIAS GO</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-22 15:50:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-21 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>GATESHEAD FC vs HALIFAX TOWN</td>
+	<td>1-4 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>84.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-21 00:22:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WIGAN ATHLETIC vs SHREWSBURY TOWN</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>WIGAN ATHLETIC</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-20 23:56:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-21 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>MILLWALL FC vs COLCHESTER UNITED</td>
+	<td>4-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>70.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-20 22:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 09:30:00</td>
+	<td>Russia</td>
+	<td>1st Division</td>
+	<td>ZENIT-2 ST.PETERSBURG vs FC TOM TOMSK</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.75</td>
+	<td>
+	Bwin	</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-20 17:43:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-20 20:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>SPORT BOYS vs CA NACIONAL POTOSI</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-20 19:00:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-19 17:45:00</td>
+	<td>Poland</td>
+	<td>Puchar Polski</td>
+	<td>KS CRACOVIA vs ZAGLEBIE SOSNOWIEC SA</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-19 00:20:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-18 20:30:00</td>
+	<td>Venezuela</td>
+	<td>Primera Division</td>
+	<td>DVO TACHIRA vs METROPOLITANOS FC</td>
+	<td>2-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-18 13:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-16 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ALBANIA vs LIECHTENSTEIN</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ALBANIA -2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-16 13:36:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-15 15:00:00</td>
+	<td>Russia</td>
+	<td>1st Division</td>
+	<td>ZENIT-2 ST.PETERSBURG vs FK TOSNO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>75.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-15 13:17:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-14 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>BOSTON UNITED vs CORBY TOWN</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-14 14:38:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-14 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>COLCHESTER UNITED vs COVENTRY CITY</td>
+	<td>1-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-14 00:51:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-14 06:00:00</td>
+	<td>Japan</td>
+	<td>J.League 2</td>
+	<td>JUBILO IWATA vs YOKOHAMA FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>JUBILO IWATA -1.50</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-13 22:30:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-13 20:30:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>CZECH REPUBLIC vs SERBIA</td>
+	<td>4-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>47.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-12 23:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-12 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SBV EXCELSIOR vs SPARTA ROTTERDAM</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-12 12:06:27</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 16:00:00</td>
+	<td>Russia</td>
+	<td>1st Division</td>
+	<td>ARSENAL TULA vs ZENIT-2 ST.PETERSBURG</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>42.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-08 00:43:41</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 15:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>BRISTOL ROVERS vs CHESHAM UTD</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-08 13:43:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 00:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>SOL DE AMERICA vs CLUB GUARANI</td>
+	<td>2-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-06 23:58:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 19:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NEC NIJMEGEN vs DE GRAAFSCHAP</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>NEC NIJMEGEN -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-05 22:35:19</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-05 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>ATHLETIC BILBAO vs PARTIZAN BELGRADE</td>
+	<td>5-1 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC BILBAO -1.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>70.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-04 00:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-04 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS ROMA vs BAYER LEVERKUSEN</td>
+	<td>3-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-02 20:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 22:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>CLUB GUARANI vs NACIONAL FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-02 20:33:33</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 21:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>BOLIVAR LA PAZ vs UNIVERSITARIO DE SUCRE</td>
+	<td>5-2 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-01 19:57:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 21:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>VASCO DA GAMA RJ vs FLUMINENSE RJ</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VASCO DA GAMA RJ</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-01 19:11:40</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 17:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SOUTHAMPTON FC vs BOURNEMOUTH AFC</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-11-01 02:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 23:30:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>SOL DE AMERICA vs CLUB SPORTIVO LUQUENO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-30 23:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 23:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>VELEZ SARSFIELD vs RIVER PLATE</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD +0.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-30 20:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 17:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RED STAR BELGRADE vs OFK BELGRADE</td>
+	<td>4-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-31 14:59:34</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 17:00:00</td>
+	<td>Israel</td>
+	<td>Premier League</td>
+	<td>HAPOEL TEL AVIV vs MACCABI TEL AVIV</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-31 14:43:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 16:00:00</td>
+	<td>Scotland</td>
+	<td>Second Division</td>
+	<td>AYR UNITED vs STRANRAER FC</td>
+	<td>3-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>AYR UNITED</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>28.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-30 20:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-30 18:00:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>DUKLA PRAGUE vs FC FASTAV ZLIN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-30 02:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-29 21:00:00</td>
+	<td>International Youth</td>
+	<td>U17 World Championship</td>
+	<td>CROATIA vs GERMANY</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-29 16:21:38</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 19:15:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Clausura</td>
+	<td>JUAN AURICH DE CHICLAYO vs UNION COMERCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-28 00:02:00</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-27 20:30:00</td>
+	<td>Poland</td>
+	<td>Puchar Polski</td>
+	<td>ZAGLEBIE SOSNOWIEC SA vs KS CRACOVIA</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-26 23:59:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 16:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs FK AUSTRIA VIENNA</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-25 14:23:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 15:00:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>KSK HEIST vs LIERSE SK</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-24 22:27:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 12:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>KUOPIO PS vs HJK HELSINKI</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HJK HELSINKI -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>23.40</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-24 22:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-24 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>ACCRINGTON STANLEY vs DAGENHAM & REDBRIDGE</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-24 14:04:57</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-24 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>EINTRACHT TRIER vs TSV STEINBACH</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT TRIER -1.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-24 13:03:49</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-24 01:00:00</td>
+	<td>International Youth</td>
+	<td>U17 World Championship</td>
+	<td>CROATIA vs NIGERIA</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>47.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-23 23:13:35</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs SHAMROCK ROVERS FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under Team</td>
+	<td>LIMERICK 37 FC Over +1.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-23 02:33:45</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs ESPANYOL BARCELONA</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>79.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-23 16:33:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>APOEL NICOSIA FC vs ASTERAS TRIPOLIS</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>59.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-22 16:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>RSC ANDERLECHT vs TOTTENHAM HOTSPUR</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT +0.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-22 15:26:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PARTIZAN BELGRADE vs ATHLETIC BILBAO</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-21 22:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ATLETICO MADRID vs FC ASTANA</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO MADRID -2.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>52.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-21 02:27:45</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-21 17:30:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RED STAR BELGRADE vs FK VOJVODINA</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-21 12:30:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-20 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>GILLINGHAM FC vs SCUNTHORPE UTD</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-20 14:37:35</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-20 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>MORECAMBE FC vs CRAWLEY TOWN</td>
+	<td>3-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>66.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-19 22:50:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 21:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>SANTOS FC SP vs GOIAS GO</td>
+	<td>3-1 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>SANTOS FC SP -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-18 14:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 13:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HJK HELSINKI vs IFK MARIEHAMN</td>
+	<td>4-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HJK HELSINKI -1.00</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>56.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-18 01:48:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 13:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>ROVANIEMI PALLOSEURA vs KUOPIO PS</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ROVANIEMI PALLOSEURA</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>66.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-15 14:38:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 19:30:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs DERRY CITY FC</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>LIMERICK 37 FC Over +0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-17 18:18:26</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>WOKING FC vs WREXHAM FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-17 14:27:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WIGAN ATHLETIC vs COLCHESTER UTDFC</td>
+	<td>5-0 (4-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>74.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-15 02:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-13 17:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>LITHUANIA vs SERBIA</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>SERBIA -1.50</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>55.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-12 23:03:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-11 15:00:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>KSV ROESELARE vs LIERSE SK</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>45.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-10 21:08:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-10 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>DOVER ATHLETIC vs WREXHAM FC</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-10 02:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-10 16:00:00</td>
+	<td>Sweden</td>
+	<td>Div 1</td>
+	<td>NORRBY IF vs LUNDS BK</td>
+	<td>4-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>74.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-09 14:41:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-09 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>GALWAY UNITED FC vs LIMERICK 37 FC</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under Team</td>
+	<td>LIMERICK 37 FC Over +1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-09 02:08:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-08 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>GEORGIA vs GIBRALTAR</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>58.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-05 22:08:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-07 20:30:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>CERCLE BRUGGE KSV vs KVV COXYDE</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-07 01:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-06 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>WELLING UTD vs BROMLEY FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-05 22:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-05 19:00:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>FREDRIKSTAD FK vs BAERUM SK</td>
+	<td>3-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>67.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-05 18:00:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-04 23:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs CRUCERO DEL NORTE</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-04 22:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC MILAN vs SSC NAPOLI</td>
+	<td>0-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-04 19:04:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-04 17:45:00</td>
+	<td>Slovenia</td>
+	<td>PrvaLiga</td>
+	<td>NK OLIMPIJA LJUBLJANA vs NK KRSKO</td>
+	<td>5-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>NK OLIMPIJA LJUBLJANA -1.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>32.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-04 13:51:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 15:30:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>KS GORNIK ZABRZE vs LEGIA WARSAW</td>
+	<td>2-2 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.46</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>36.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-04 03:24:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-04 13:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>YOUNG BOYS BERN vs GRASSHOPPER CLUB ZURICH</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-04 02:52:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 02:00:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Apertura</td>
+	<td>CF MONTERREY vs LEON</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-03 22:55:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 20:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>ST. TRUIDENSE VV vs WAASLAND-BEVEREN</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-03 18:38:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-03 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>NORWICH CITY vs LEICESTER CITY</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-02 23:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 15:00:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>FK MLADA BOLESLAV vs 1 FK PRIBRAM</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-02 23:03:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-02 20:00:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>LB CHATEAUROUX vs AVRANCHES</td>
+	<td>1-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.47</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>37.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-02 13:25:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-02 20:00:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>GS CONSOLAT MARSEILLE vs VENDEE LUCON</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-10-02 03:42:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-01 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AZ ALKMAAR vs ATHLETIC BILBAO</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-30 14:36:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-01 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC AUGSBURG vs PARTIZAN BELGRADE</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-30 12:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-30 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MONCHENGLADBACH vs MANCHESTER CITY</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-30 03:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-29 20:45:00</td>
+	<td>England Amateur</td>
+	<td>Isthmian Football League</td>
+	<td>BRENTWOOD TOWN vs NEEDHAM MARKET FC</td>
+	<td>1-0 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-29 03:21:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-29 00:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>CERRO PORTENO vs DEPORTIVO CAPIATA</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CERRO PORTENO</td>
+	<td>1.45</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-28 22:58:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-28 20:45:00</td>
+	<td>England Amateur</td>
+	<td>Isthmian Football League</td>
+	<td>FARNBOROUGH TOWN vs BOGNOR REGIS TOWN</td>
+	<td>2-1 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-28 19:28:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-28 19:00:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>SK BRANN vs BRYNE FK</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SK BRANN</td>
+	<td>1.55</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>44.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-28 02:23:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-27 18:00:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>CERCLE BRUGGE KSV vs KSK HEIST</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-27 02:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-27 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>EA GUINGAMP vs AS MONACO</td>
+	<td>3-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-27 14:18:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-27 15:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>LUNEBURGER SK vs GOSLARER SC</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>49.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 23:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-27 01:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>DEPORTIVO SANTANI vs CLUB SPORTIVO LUQUENO</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.29</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>23.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 22:22:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-26 19:30:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs DUNDALK FC</td>
+	<td>1-3 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>LIMERICK 37 FC Over +0.75</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>38.00</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 17:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 19:00:00</td>
+	<td>Slovakia</td>
+	<td>1. Liga</td>
+	<td>AS TRENCIN vs MFK SKALICA</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 17:02:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-26 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>SWINDON TOWN vs COLCHESTER UTDFC</td>
+	<td>1-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>56.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 04:08:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 16:00:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>HALMSTADS BK vs MALMO FF</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MALMO FF</td>
+	<td>1.48</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-26 03:30:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-25 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>FULHAM FC vs QUEENS PARK RANGERS</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>22.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-25 13:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-25 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC VOLENDAM vs ALMERE CITY FC</td>
+	<td>3-1 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>32.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-25 13:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-25 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>WACKER INNSBRUCK vs FLORIDSDORFER AC</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>WACKER INNSBRUCK</td>
+	<td>1.37</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-25 03:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-24 19:00:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>HELSINGBORGS IF vs OREBRO SK</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>22.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-24 11:34:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-24 01:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division</td>
+	<td>UNIVERSIDAD DE CHILE vs COBRESAL</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-23 22:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs SSC NAPOLI</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-23 13:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-23 20:00:00</td>
+	<td>Belgium</td>
+	<td>Cofidis Cup</td>
+	<td>RSC ANDERLECHT vs SPOUWEN-MOPERTINGEN</td>
+	<td>3-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-23 13:29:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 18:20:00</td>
+	<td>Slovakia</td>
+	<td>1. Liga</td>
+	<td>AS TRENCIN vs MSK ZILINA</td>
+	<td>1-4 (1-1)</td>
+	<td>Over / Under Team</td>
+	<td>AS TRENCIN Over +1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-23 13:20:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-23 02:00:00</td>
+	<td>Mexico</td>
+	<td>Copa MX, Apertura, Group 5</td>
+	<td>NECAXA vs ZACATEPEC</td>
+	<td>3-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-22 23:38:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 01:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>BRAGANTINO SP vs BOA ESPORTE CLUBE</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>BRAGANTINO SP</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>55.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-22 23:57:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-22 20:45:00</td>
+	<td>England</td>
+	<td>Carling Cup</td>
+	<td>LEICESTER CITY vs WEST HAM UTD</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-22 19:21:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-22 20:45:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>EBBSFLEET UTD vs WESTON SUPER MARE FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EBBSFLEET UTD -1.50</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-22 01:48:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-20 23:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>CERRO PORTENO vs DEPORTIVO SANTANI</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CERRO PORTENO -1.00</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-20 12:44:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-20 16:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>VITESSE ARNHEM vs DE GRAAFSCHAP</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>VITESSE ARNHEM -1.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>28.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-20 01:25:25</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC SCHALKE 04</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-20 13:00:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-20 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs SAMPDORIA GENOA</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-20 00:30:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-20 01:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>OLIMPIA ASUNCION vs CLUB SPORTIVO LUQUENO</td>
+	<td>4-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>OLIMPIA ASUNCION</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>26.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-19 23:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 17:45:00</td>
+	<td>Slovenia</td>
+	<td>PrvaLiga</td>
+	<td>ND GORICA vs NK OLIMPIJA LJUBLJANA</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-19 16:30:20</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-19 16:00:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>VIKINGUR OLAFSVIK vs KF FJARDABYGGD</td>
+	<td>6-2 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>VIKINGUR OLAFSVIK -1.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>67.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-19 14:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>BOREHAM WOOD vs WREXHAM FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-19 04:35:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs EINTRACHT FRANKFURT</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-19 04:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-18 20:30:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>LIERSE SK vs FC DESSEL SPORT</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-18 01:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-18 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>FLORIDSDORFER AC vs LASK LINZ</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LASK LINZ -0.75</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>44.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-18 00:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-18 18:00:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>KS GORNIK ZABRZE vs WKS SLASK WROCLAW</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-17 12:34:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-17 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PARTIZAN BELGRADE vs AZ ALKMAAR</td>
+	<td>3-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-17 02:32:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-17 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FENERBAHCE vs MOLDE FK</td>
+	<td>1-3 (1-1)</td>
+	<td>Over / Under Team</td>
+	<td>FENERBAHCE Over +1.75</td>
+	<td>1.59</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-17 12:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-17 03:30:00</td>
+	<td>Mexico</td>
+	<td>Copa MX, Apertura, Group 3</td>
+	<td>JAGUARES DE CHIAPAS vs UNAM PUMAS</td>
+	<td>2-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-17 02:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-15 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>SHEFFIELD UNITED vs COLCHESTER UTDFC</td>
+	<td>2-3 (0-2)</td>
+	<td>Over / Under Team</td>
+	<td>SHEFFIELD UNITED Over +1.50</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>26.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-15 12:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-15 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>AFC FYLDE vs FC UNITED OF MANCHESTER</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>34.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-15 02:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-14 20:45:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>CHELMSFORD CITY vs CONCORD RANGERS</td>
+	<td>5-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>28.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-14 13:10:22</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-14 01:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>RUBIO NU vs CLUB GUARANI</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-13 23:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-13 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE MARSEILLE vs SC BASTIA</td>
+	<td>4-1 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>OLYMPIQUE MARSEILLE Over +1.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-13 14:42:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-13 18:00:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>RUCH CHORZOW vs KS GORNIK ZABRZE</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-13 14:18:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-13 02:00:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Apertura</td>
+	<td>CF MONTERREY vs CRUZ AZUL</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under Team</td>
+	<td>CF MONTERREY Over +1.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 23:02:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PEC ZWOLLE vs SBV EXCELSIOR</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>PEC ZWOLLE</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>61.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 19:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>CAMBUUR LEEUWARDEN vs PSV EINDHOVEN</td>
+	<td>0-6 (0-3)</td>
+	<td>Asian handicap</td>
+	<td>PSV EINDHOVEN -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>47.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-11 01:05:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 19:15:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>GALATASARAY ISTANBUL vs MERSIN IDMAN YURDU SK</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GALATASARAY ISTANBUL -1.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 18:13:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 18:00:00</td>
+	<td>Spain</td>
+	<td>Segunda B Group III</td>
+	<td>BARCELONA B FC vs CE L'HOSPITALET</td>
+	<td>1-3 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>46.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 01:15:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>FC UNITED OF MANCHESTER vs CORBY TOWN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 14:42:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>BRADFORD PARK AVENUE vs SOLIHULL MOORS FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 00:45:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 15:00:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>HAUKAR HAFNARFJORDUR vs BI/BOLUNGARVIK</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>HAUKAR HAFNARFJORDUR -1.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-12 13:50:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-11 20:00:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>GS CONSOLAT MARSEILLE vs BOULOGNE SUR MER</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-11 02:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-10 02:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>CA NACIONAL POTOSI vs THE STRONGEST</td>
+	<td>2-3 (1-2)</td>
+	<td>Over / Under Team</td>
+	<td>THE STRONGEST Over +1.50</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>26.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-10 00:03:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-08 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>MACEDONIA vs SPAIN</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SPAIN -2.00</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-06 23:41:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-08 18:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ICELAND vs NORTHERN IRELAND</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>ICELAND -1.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-08 13:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-06 21:00:00</td>
+	<td>Chile</td>
+	<td>Copa Chile</td>
+	<td>AUDAX ITALIANO vs SANTIAGO MORNING</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.61</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-06 19:46:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-06 19:15:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>CD LEGANES vs REAL ZARAGOZA</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-06 14:59:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-06 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>TSV SCHILKSEE vs FC ST. PAULI II</td>
+	<td>1-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-06 12:58:20</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-05 19:30:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs SAINT PATRICK'S ATHLETIC FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under Team</td>
+	<td>LIMERICK 37 FC Over +1.50</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-05 13:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-05 09:00:00</td>
+	<td>Australia</td>
+	<td>West State League Premier Division</td>
+	<td>COCKBURN CITY vs PERTH GLORY FC</td>
+	<td>0-3 </td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-05 01:57:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-04 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ROT-WEISS ESSEN vs FC WEGBERG-BEECK</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-03 22:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-03 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VFB 03 HILDEN vs FORTUNA DUSSELDORF</td>
+	<td>0-6 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>42.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-09-03 16:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-30 20:15:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>FENERBAHCE vs ANTALYASPOR</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>13.20</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-30 14:58:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-30 15:30:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>KS GORNIK ZABRZE vs KS CRACOVIA</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.46</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-30 00:00:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-29 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs SV MATTERSBURG</td>
+	<td>2-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-28 23:51:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-29 17:00:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>KA AKUREYRI vs HK KOPAVOGS</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>KA AKUREYRI -1.00</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>40.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-29 11:20:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-29 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>1 FC NUREMBERG II vs TSV RAIN/LECH</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-29 00:02:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-28 20:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK ZAGREB vs NK LOKOMOTIVA ZAGREB</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>15.00</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-28 16:52:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-27 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AZ ALKMAAR vs AFC ASTRA GIURGIU</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-27 17:42:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC SHAKHTAR DONETSK vs SK RAPID VIENNA</td>
+	<td>2-2 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>FC SHAKHTAR DONETSK -0.75</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-25 19:35:15</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-25 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>BORUSSIA M'GLADBACH II vs FC WEGBERG-BEECK</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-25 17:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-24 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC LE MONT LS vs FC WIL 1900</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-24 18:43:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-23 22:30:00</td>
+	<td>Chile</td>
+	<td>Primera Division</td>
+	<td>COLO COLO vs DEPORTES IQUIQUE</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>COLO COLO -0.75</td>
+	<td>1.47</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>18.80</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-23 13:47:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-23 17:45:00</td>
+	<td>Slovenia</td>
+	<td>PrvaLiga</td>
+	<td>NK OLIMPIJA LJUBLJANA vs NK CELJE</td>
+	<td>6-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>NK OLIMPIJA LJUBLJANA -0.75</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-23 14:00:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-22 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC LUGANO vs FC BASEL</td>
+	<td>1-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>FC BASEL -0.75</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>44.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-22 14:15:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-22 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>WYCOMBE WANDERERS vs DAGENHAM & REDBRIDGE</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>WYCOMBE WANDERERS -0.75</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-21 20:48:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-20 20:50:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC VIKTORIA PLZEN vs FK VOJVODINA</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>19.80</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-20 15:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-20 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC KRASNODAR vs HJK HELSINKI</td>
+	<td>5-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>FC KRASNODAR -1.75</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>29.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-20 15:55:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-19 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>SK RAPID VIENNA vs FC SHAKHTAR DONETSK</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.27</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-19 02:00:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-16 20:30:00</td>
+	<td>Chile</td>
+	<td>Primera Division</td>
+	<td>COBRESAL vs COLO COLO</td>
+	<td>2-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-16 12:34:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-16 17:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RADNIK SURDULICA vs FK RED STAR BELGRADE</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-15 23:10:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-16 14:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>CRYSTAL PALACE vs ARSENAL FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>20.40</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-16 12:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-16 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>EINTRACHT NORDERSTEDT vs ETSV WEICHE FLENSBURG</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>18.00</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-16 12:22:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-15 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>RB SALZBURG vs SCR ALTACH</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-15 12:58:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-15 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>FC MEMMINGEN vs TSV RAIN/LECH</td>
+	<td>1-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>21.60</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-15 01:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-15 17:00:00</td>
+	<td>Switzerland</td>
+	<td>Swiss Cup</td>
+	<td>AS CASTELLO vs FC LUGANO</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-15 13:22:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-15 16:00:00</td>
+	<td>Scotland</td>
+	<td>Second Division</td>
+	<td>DUNFERMLINE ATHLETIC vs COWDENBEATH FC</td>
+	<td>7-1 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>DUNFERMLINE ATHLETIC -0.75</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-12 23:17:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-14 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs HAMBURGER SV</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>49.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-14 14:20:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-14 20:30:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>FK MLADA BOLESLAV vs SPARTA PRAGUE</td>
+	<td>2-4 (1-1)</td>
+	<td>Over / Under Team</td>
+	<td>SPARTA PRAGUE Over +1.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-13 23:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-14 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>LUCCHESE LIBERTAS vs AC FIORENTINA</td>
+	<td>0-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>AC FIORENTINA -1.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-14 13:25:15</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-13 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC VADUZ vs GRASSHOPPER CLUB ZURICH</td>
+	<td>3-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-13 00:13:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-13 19:35:00</td>
+	<td>Norway</td>
+	<td>NM Cup</td>
+	<td>ROSENBORG BK vs MJONDALEN</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>24.60</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-12 23:40:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-12 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC BASEL vs FC THUN</td>
+	<td>3-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>FC BASEL -0.75</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-11 23:46:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-12 19:15:00</td>
+	<td>Slovenia</td>
+	<td>PrvaLiga</td>
+	<td>NK MARIBOR vs NK CELJE</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NK MARIBOR -0.75</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>26.40</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-12 15:12:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-11 20:45:00</td>
+	<td>England Amateur</td>
+	<td>Isthmian Football League</td>
+	<td>MERSTHAM vs DULWICH HAMLET</td>
+	<td>0-2 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-11 17:01:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-11 18:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>ADO DEN HAAG vs PSV EINDHOVEN</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>PSV EINDHOVEN -0.75</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-11 09:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-10 20:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK LOKOMOTIVA ZAGREB vs HNK HAJDUK SPLIT</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.90</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-09 23:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-10 19:00:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>FC SLOVAN LIBEREC vs DUKLA PRAGUE</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-10 17:29:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-09 14:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>FSV SALMROHR 1921 vs VFL BOCHUM</td>
+	<td>0-5 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +4.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-09 10:56:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-09 14:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>HSV BARMBEK-UHLENHORST vs SC FREIBURG</td>
+	<td>0-5 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +4.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>24.90</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-09 01:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-09 14:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs WEST HAM UTD</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -1.75</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-09 01:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-08 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>GRASSHOPPER CLUB ZURICH vs FC LUGANO</td>
+	<td>6-1 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>27.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-08 10:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-08 16:00:00</td>
+	<td>England Amateur</td>
+	<td>Isthmian Football League</td>
+	<td>DULWICH HAMLET vs CANVEY ISLAND</td>
+	<td>3-0 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-08 10:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-08 15:00:00</td>
+	<td>Finland</td>
+	<td>Ykkonen</td>
+	<td>PS KEMI KINGS vs VIFK</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>PS KEMI KINGS -1.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-07 23:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-07 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>LILLE OSC vs PARIS ST GERMAIN</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -0.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>16.60</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-07 12:38:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-07 19:00:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>TUS ERNDTEBRUCK vs SV DARMSTADT 98</td>
+	<td>0-5 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-07 12:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-06 22:15:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>VITORIA GUIMARAES vs SCR ALTACH</td>
+	<td>1-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VITORIA GUIMARAES -0.75</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-06 09:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-06 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>TRABZONSPOR vs FK RABOTNICKI SKOPJE</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>TRABZONSPOR -1.00</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-06 14:02:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-06 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>ROSENBORG BK vs DEBRECENI VSC</td>
+	<td>3-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-06 01:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-05 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC VIKTORIA PLZEN vs MACCABI TEL AVIV</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-04 23:28:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-05 20:15:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BASEL vs KKS LECH POZNAN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC BASEL +0.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-04 23:42:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-05 19:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BATE BORISOV vs VIDEOTON FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC BATE BORISOV -0.75</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>20.40</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-04 22:29:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-05 18:00:00</td>
+	<td>Latvia</td>
+	<td>Cup</td>
+	<td>PREILU BJSS vs SPARTAKS JURMALA</td>
+	<td>1-6 </td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>17.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-05 12:34:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-04 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>KFC ZWARTE LEEUW vs HOOGSTRATEN VV</td>
+	<td>1-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.36</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>28.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-04 18:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-04 18:00:00</td>
+	<td>Norway</td>
+	<td>NM Cup, Women</td>
+	<td>ROA vs OVREVOLL HOSLE</td>
+	<td>7-1 (3-0)</td>
+	<td>Match Odds</td>
+	<td>ROA</td>
+	<td>1.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>5.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-04 10:53:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-03 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>NORTHWOOD FC vs BARNET FC</td>
+	<td>4-3 (2-2)</td>
+	<td>Match Odds</td>
+	<td>BARNET FC</td>
+	<td>1.33</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-03 10:11:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-03 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>DAGENHAM & REDBRIDGE vs CRYSTAL PALACE</td>
+	<td>1-0 (0-0)</td>
+	<td>Draw no bet</td>
+	<td>CRYSTAL PALACE</td>
+	<td>1.36</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-03 09:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 23:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>SPORT RECIFE PE vs CRUZEIRO MG</td>
+	<td>0-0 (0-0)</td>
+	<td>Draw no bet</td>
+	<td>SPORT RECIFE PE</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-02 19:04:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-02 23:15:00</td>
+	<td>Chile</td>
+	<td>Copa Chile, Group 4</td>
+	<td>UNIVERSIDAD CATOLICA vs CSD BARNECHEA</td>
+	<td>5-1 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.48</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>28.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-02 19:14:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 21:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>HNK RIJEKA vs NK LOKOMOTIVA ZAGREB</td>
+	<td>3-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-01 22:18:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-02 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs LIGA DE LOJA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.75</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-02 10:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 16:00:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC ZURICH vs GRASSHOPPER CLUB ZURICH</td>
+	<td>2-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>67.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-02 10:10:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-02 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>WEST HAM UTD vs WERDER BREMEN</td>
+	<td>1-2 (1-2)</td>
+	<td>Draw no bet</td>
+	<td>WERDER BREMEN</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-01 22:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-01 20:15:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>DUKLA PRAGUE vs FC VIKTORIA PLZEN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-01 11:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-01 18:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>JVC CUIJK vs RODA JC KERKRADE</td>
+	<td>2-5 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.36</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>28.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-01 16:52:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-01 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>ALMERE CITY FC vs FLEVO BOYS</td>
+	<td>5-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +4.00</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-08-01 13:43:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-31 20:45:00</td>
+	<td>Scotland</td>
+	<td>Co-operative Insurance Cup</td>
+	<td>FALKIRK FC vs EAST STIRLING</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-31 18:58:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-31 20:45:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FLEETWOOD TOWN vs GETAFE CF</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>GETAFE CF</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-31 13:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-30 21:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>HNK HAJDUK SPLIT vs STROMSGODSET</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-30 10:06:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-30 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>ATHLETIC BILBAO vs INTER BAKU</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC BILBAO -1.75</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>13.60</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-30 10:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-30 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>BRITON FERRY vs PORT TALBOT TOWN</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-30 19:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-30 16:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC KAIRAT ALMATY vs ABERDEEN FC</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC KAIRAT ALMATY</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>40.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-29 23:02:34</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-29 20:45:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>HUDDERSFIELD TOWN vs DEPORTIVO LA CORUNA</td>
+	<td>0-0 (0-0)</td>
+	<td>Draw no bet</td>
+	<td>DEPORTIVO LA CORUNA</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-29 17:55:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-29 20:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>STEAUA BUCURESTI vs PARTIZAN BELGRADE</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.75</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>20.40</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-29 15:52:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-28 20:45:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>DONEGAL CELTIC FC vs GLENTORAN FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-28 11:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-28 20:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>VIDEOTON FC vs FC BATE BORISOV</td>
+	<td>1-1 (0-0)</td>
+	<td>Draw no bet</td>
+	<td>FC BATE BORISOV</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-27 18:04:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-28 20:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>JVC CUIJK vs ACHILLES '29</td>
+	<td>2-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.45</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>18.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-28 12:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-26 23:30:00</td>
+	<td>Venezuela</td>
+	<td>Primera Division</td>
+	<td>DVO TACHIRA vs TUCANES FC</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DVO TACHIRA -1.75</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-26 13:35:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-26 20:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK CUKARICKI STANKOM vs FK RAD BELGRADE</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>FK CUKARICKI STANKOM -0.75</td>
+	<td>1.52</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-26 08:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-26 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC WINTERTHUR vs VFB STUTTGART</td>
+	<td>1-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.55</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>22.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-26 17:18:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-26 15:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>RW OBERHAUSEN vs FORTUNA SITTARD</td>
+	<td>2-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>32.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-26 13:10:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-26 11:00:00</td>
+	<td>Japan</td>
+	<td>J.League 2</td>
+	<td>OMIYA ARDIJA vs FC GIFU</td>
+	<td>5-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>OMIYA ARDIJA +0.75</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>22.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-25 20:01:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-26 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CD UNIVERSIDAD CATOLICA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.75</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-25 19:38:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-25 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs SV JOSKO RIED</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SK RAPID VIENNA -0.75</td>
+	<td>1.45</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>18.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-25 13:29:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-25 16:00:00</td>
+	<td>Scotland</td>
+	<td>Challenge Cup</td>
+	<td>BRORA RANGERS vs ALLOA ATHLETIC FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ALLOA ATHLETIC FC</td>
+	<td>1.53</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>21.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-25 14:06:51</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-25 16:00:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SV MATTERSBURG vs RB SALZBURG</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-25 13:08:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-24 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>AZ ALKMAAR vs AL-WASL</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.35</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-24 09:04:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-24 17:45:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SUPERSPORT UNITED FC vs CRYSTAL PALACE</td>
+	<td>0-4 (0-4)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-24 08:18:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-24 17:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>1 FC COLOGNE vs CAMBUUR LEEUWARDEN</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>1 FC COLOGNE</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-24 08:08:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-23 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AFC ASTRA GIURGIU vs INVERNESS CALEDONIAN THISTLE</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AFC ASTRA GIURGIU -0.75</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-22 22:52:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-23 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>HNK HAJDUK SPLIT vs FC LUKA KOPER</td>
+	<td>4-1 (2-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-23 14:26:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-23 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>STROMSGODSET vs FK MLADA BOLESLAV</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-22 23:20:57</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-22 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>QUEENS PARK RANGERS vs DUNDEE UNITED</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>QUEENS PARK RANGERS -1.00</td>
+	<td>1.54</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-22 16:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-22 11:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>AC SPARTA PRAGUE vs SK MOTORLET PRAHA</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.33</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-22 09:58:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-21 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>ACHILLES '29 vs NEC NIJMEGEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NEC NIJMEGEN -0.75</td>
+	<td>1.56</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>16.80</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-21 14:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-21 18:15:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>EINTRACHT FRANKFURT vs LEEDS UTD</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -0.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>8.20</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-21 14:44:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-20 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>CHESHAM UTD vs MILTON KEYNES DONS</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>20.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-20 15:29:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-19 21:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>FLUMINENSE RJ vs VASCO DA GAMA RJ</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FLUMINENSE RJ -0.75</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-19 10:40:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-19 18:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>RSC ANDERLECHT vs LAZIO ROMA</td>
+	<td>3-1 (3-0)</td>
+	<td>Draw no bet</td>
+	<td>RSC ANDERLECHT</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>22.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-19 12:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-19 17:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>OFK BELGRADE vs FK RED STAR BELGRADE</td>
+	<td>2-6 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FK RED STAR BELGRADE -1.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>32.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-18 22:16:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-18 21:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs QUILMES AC</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.75</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>12.00</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-18 18:03:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-18 17:00:00</td>
+	<td>Austria</td>
+	<td>ÖFB Stiegl Cup</td>
+	<td>SC GOLLING vs FLORIDSDORFER AC</td>
+	<td>0-6 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>32.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-18 01:53:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-18 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>AZ ALKMAAR vs SC TELSTAR</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>24.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-18 12:24:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-18 15:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>GKS TYCHY 71 vs 1 FC COLOGNE</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-18 12:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-18 10:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SK SIGMA OLOMOUC B vs 1 SC ZNOJMO</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>24.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-17 22:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-17 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>PEC ZWOLLE vs SPARTA ROTTERDAM</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PEC ZWOLLE</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-17 15:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-17 19:00:00</td>
+	<td>Austria</td>
+	<td>ÖFB Stiegl Cup</td>
+	<td>SV ALLERHEILIGEN vs KSV 1919</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>17.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-17 15:28:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-17 17:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SAMPDORIA GENOA vs NK TRIGLAV</td>
+	<td>3-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-17 14:49:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-16 20:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK VOJVODINA vs SPARTAKS JURMALA</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-16 11:12:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-16 20:15:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>LISBURN DISTILLERY FC vs BALLYMENA UNITED</td>
+	<td>0-6 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>30.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-16 10:05:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-16 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK MLADA BOLESLAV vs STROMSGODSET</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>10.70</td>
+	<td>Half win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-16 10:40:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-16 16:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC KAIRAT ALMATY vs ALASHKERT</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC KAIRAT ALMATY -1.00</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-15 01:16:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-15 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>KIDSGROVE ATHLETIC FC vs PORT VALE FC</td>
+	<td>0-5 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.36</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>21.60</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-15 13:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-15 18:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>QARABAG FK vs FK RUDAR PLJEVLJA</td>
+	<td>0-0 (0-0)</td>
+	<td>European handicap</td>
+	<td>QARABAG FK -1.00</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-14 23:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-14 20:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>ALSAGER TOWN FC vs PORT VALE FC</td>
+	<td>2-5 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-14 12:51:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-14 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VITESSE ARNHEM vs SPARTA PRAGUE</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-14 13:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-14 16:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC VOLENDAM vs BASAKSEHIR FK</td>
+	<td>1-3 (0-2)</td>
+	<td>Draw no bet</td>
+	<td>BASAKSEHIR FK</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.20</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-14 13:29:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-13 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SV MATTERSBURG vs UFC PURBACH</td>
+	<td>9-0 (4-0)</td>
+	<td>Over / Under</td>
+	<td>Over +5.00</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>42.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-13 14:32:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-12 16:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>AUSTRIA SALZBURG vs DUKLA PRAGUE</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>32.00</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-12 11:03:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-11 23:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>GREMIO RS vs VASCO DA GAMA RJ</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GREMIO RS -0.75</td>
+	<td>1.54</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>32.40</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-11 16:58:51</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-10 20:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK INTER ZAPRESIC vs HNK RIJEKA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HNK RIJEKA</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-08 15:51:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-10 18:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>SPAIN vs RUSSIA</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SPAIN -0.75</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-10 02:05:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-09 19:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>NK LOKOMOTIVA ZAGREB vs AIRBUS UK BROUGHTON</td>
+	<td>2-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-08 16:30:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-09 19:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>MSK ZILINA vs GLENTORAN FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-08 15:38:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-09 18:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC SHAKHTER SOLIGORSK vs GLENAVON FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-09 12:09:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-08 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>WIENER SC AXA vs VALENCIA CF</td>
+	<td>0-4 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Hubert Tisci</td>
+		<td>Football</td>
+		<td>2015-07-08 14:14:04</td>
+	</tr>
+</tbody>
+
+</table>

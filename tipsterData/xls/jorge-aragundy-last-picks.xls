@@ -1,0 +1,8471 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs CD UNIVERSIDAD CATOLICA</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +1.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-02-05 21:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 21:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD RIVER PLATE ECUADOR vs LIGA DE LOJA</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CD RIVER PLATE ECUADOR -1.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-12-12 17:45:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-22 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs INDEPENDIENTE DEL VALLE</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>69.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-11-21 18:00:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 22:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs ECUADOR</td>
+	<td>1-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR +0</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>43.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-11-17 19:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-14 01:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ARGENTINA vs BRAZIL</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BRAZIL +0.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>22.50</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-11-12 18:20:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-13 00:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>CHILE vs COLOMBIA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -0.50</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-11-12 18:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-12 22:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ECUADOR vs URUGUAY</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-11-12 18:18:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-14 04:15:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>PERU vs CHILE</td>
+	<td>3-4 (2-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-10-13 09:45:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-14 03:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>BRAZIL vs VENEZUELA</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.00</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-10-13 09:45:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-14 01:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>URUGUAY vs COLOMBIA</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>COLOMBIA +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-10-13 09:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-27 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE DEL VALLE vs SD AUCAS</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>20.60</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-09-26 17:09:25</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs CD RIVER PLATE ECUADOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>CD UNIVERSIDAD CATOLICA -5.00 Half time</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-09-26 17:06:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-13 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MUSHUC RUNA vs SD AUCAS</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SD AUCAS +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-09-13 16:35:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-30 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs LIGA DE LOJA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA -0.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>50.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-08-29 16:08:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-02 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs INDEPENDIENTE DEL VALLE</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>45.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-08-02 19:13:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MUSHUC RUNA vs CD UNIVERSIDAD CATOLICA</td>
+	<td>1-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>52.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-08-02 19:11:54</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-30 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs MUSHUC RUNA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MUSHUC RUNA +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-29 08:40:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-30 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs BARCELONA GUAYAQUIL</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.75</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>27.65</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-29 08:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-26 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CD UNIVERSIDAD CATOLICA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-25 16:16:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-25 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>SD AUCAS vs LIGA DE LOJA</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SD AUCAS -0.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-25 16:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-19 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs BARCELONA GUAYAQUIL</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-18 15:30:26</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-19 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE DEL VALLE vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-18 15:27:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-18 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs SD AUCAS</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SD AUCAS +0.50</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-18 15:28:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-05 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs SD AUCAS</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-04 16:08:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-04 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs DEPORTIVO CUENCA</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA +5.00</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>71.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-07-04 16:03:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-16 01:30:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>CHILE vs MEXICO</td>
+	<td>3-3 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -1.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-06-15 16:10:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-15 23:00:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>ECUADOR vs BOLIVIA</td>
+	<td>2-3 (0-3)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -0.75</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-06-15 16:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-10 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO QUITO</td>
+	<td>3-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-05-09 08:53:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-09 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs MUSHUC RUNA</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MUSHUC RUNA +0.75</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>53.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-05-09 08:45:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-03 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-05-02 15:50:23</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-02 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MUSHUC RUNA vs LIGA DE LOJA</td>
+	<td>3-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MUSHUC RUNA -0.25</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>71.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-05-02 15:50:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-26 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>42.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-04-26 16:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-26 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs DEPORTIVO QUITO</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO +0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>38.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-04-26 16:52:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-18 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs MUSHUC RUNA</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>56.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-04-18 11:05:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-29 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs BARCELONA GUAYAQUIL</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>34.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-03-29 08:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-29 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs LIGA DE LOJA</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -1.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-03-29 08:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-01 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs DEPORTIVO QUITO</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CD UNIVERSIDAD CATOLICA</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>80.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-28 14:21:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-28 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD RIVER PLATE ECUADOR vs MUSHUC RUNA</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MUSHUC RUNA +0.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-28 14:27:14</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-28 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs INDEPENDIENTE JOSE TERAN</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-28 14:23:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-21 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs CD RIVER PLATE ECUADOR</td>
+	<td>3-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -1.00</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-21 20:22:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-21 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs CD UNIVERSIDAD CATOLICA</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-21 20:24:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-21 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-21 20:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-14 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CLUB SPORT EMELEC</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-13 12:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-01 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs CLUB SPORT EMELEC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2015-02-01 13:25:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-14 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MUSHUC RUNA vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>45.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-12-14 13:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-14 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MUSHUC RUNA vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>53.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-12-14 13:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-07 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>2-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.75</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>13.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-12-07 10:40:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-07 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs BARCELONA GUAYAQUIL</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-12-06 13:35:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-06 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs EL NACIONAL QUITO</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -1.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>-30.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-12-06 13:35:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-19 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs LIGA DE LOJA</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MANTA FC</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>46.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-19 12:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-16 16:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs INDEPENDIENTE JOSE TERAN</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>55.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-16 11:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-06 01:07:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs MANTA FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-05 13:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-06 01:00:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>CLUB SPORT EMELEC vs SAO PAULO SP</td>
+	<td>3-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-05 13:17:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-06 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs INDEPENDIENTE JOSE TERAN</td>
+	<td>3-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INDEPENDIENTE JOSE TERAN</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-05 13:16:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-02 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0.50</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>44.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-02 12:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-02 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs DEPORTIVO QUITO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>64.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-02 12:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-01 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MUSHUC RUNA vs LIGA DE LOJA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MUSHUC RUNA +0</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-11-01 12:25:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-26 22:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs EL NACIONAL QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-26 21:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-26 22:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs DEFENSA Y JUSTICIA</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>42.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-26 21:10:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-26 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD OLMEDO vs MANTA FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>31.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-26 16:30:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-26 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO +0</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-26 16:28:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-26 01:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CLUB OLIMPO vs RACING CLUB</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RACING CLUB +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-25 15:02:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-25 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA INDEPENDIENTE vs CA TIGRE</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>CA INDEPENDIENTE -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>42.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-25 15:02:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-11 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -0.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>56.70</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-10 13:50:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-11 01:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ATLETICO LANUS vs GODOY CRUZ A.T.</td>
+	<td>3-3 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -0.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-10 13:56:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-05 20:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD OLMEDO vs EL NACIONAL QUITO</td>
+	<td>1-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-10-05 13:34:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-28 23:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs QUILMES AC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>23.40</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-09-28 13:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-09-28 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CD OLMEDO</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.25</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>39.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-09-27 14:15:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-27 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs INDEPENDIENTE JOSE TERAN</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>2.26</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-09-27 14:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-09-22 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs MUSHUC RUNA</td>
+	<td>3-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-09-21 16:30:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-21 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD OLMEDO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-09-21 16:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-08-31 20:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-08-31 07:50:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-08-22 00:30:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>BARCELONA GUAYAQUIL vs ALIANZA LIMA</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>39.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-08-21 18:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-08-09 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs INDEPENDIENTE JOSE TERAN</td>
+	<td>2-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>62.30</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-08-09 13:00:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-08-03 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs CD OLMEDO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-08-03 13:50:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-08-03 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs MANTA FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -1.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-08-03 13:50:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-07-31 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs BARCELONA GUAYAQUIL</td>
+	<td>1-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>38.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-30 13:01:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-07-31 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-30 13:00:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-07-31 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs DEPORTIVO QUITO</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>38.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-30 13:00:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-07-19 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs CD UNIVERSIDAD CATOLICA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -0.50</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-19 12:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-07-05 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs LIGA DE LOJA</td>
+	<td>2-3 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0.25</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-05 10:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-07-05 18:00:00</td>
+	<td>World Cup</td>
+	<td>World Cup</td>
+	<td>ARGENTINA vs BELGIUM</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ARGENTINA -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>61.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-04 21:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-07-05 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs MANTA FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA -0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>56.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-07-04 20:40:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-05-11 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs BARCELONA GUAYAQUIL</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>24.90</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-05-11 14:10:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-05-11 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO QUITO</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>26.25</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-05-10 14:18:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-05-10 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs INDEPENDIENTE JOSE TERAN</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-05-10 14:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-05-04 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs LIGA DE LOJA</td>
+	<td>4-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>56.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-05-03 12:00:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-27 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.75</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.60</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-04-27 13:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-26 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>46.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-04-26 13:47:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-26 21:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CD UNIVERSIDAD CATOLICA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-04-26 13:47:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-13 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs INDEPENDIENTE JOSE TERAN</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-04-13 13:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-29 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs MANTA FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA -0.75</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>20.20</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-29 19:47:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-15 22:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs INDEPENDIENTE JOSE TERAN</td>
+	<td>2-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>EL NACIONAL QUITO</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-15 11:28:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-15 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs CD OLMEDO</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>83.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-15 11:28:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-15 20:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CLUB SPORT EMELEC</td>
+	<td>1-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC +0.25</td>
+	<td>3.04</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>40.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-15 11:28:19</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-09 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-09 11:40:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-08 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MUSHUC RUNA vs CD OLMEDO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-08 11:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-08 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs EL NACIONAL QUITO</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0.25</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>50.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-03-07 20:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-22 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs MANTA FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -1.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-22 13:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-22 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MUSHUC RUNA vs EL NACIONAL QUITO</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>47.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-22 13:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-22 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs CD OLMEDO</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>42.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-22 13:08:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-22 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs LIGA DE LOJA</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-22 00:02:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-22 01:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-21 23:20:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-22 01:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-21 23:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-16 00:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA SAN LORENZO vs RACING CLUB</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RACING CLUB +0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-15 12:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-10 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs CD OLMEDO</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>10.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-09 12:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-10 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs CD OLMEDO</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>78.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-09 12:03:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-09 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs MANTA FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>29.10</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-09 11:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-08 21:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs CD UNIVERSIDAD CATOLICA</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2014-02-08 12:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-01 22:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CD UNIVERSIDAD CATOLICA</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-12-01 12:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-01 22:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ATLETICO LANUS vs BOCA JUNIORS</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS +0.25</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-12-01 12:32:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-01 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-12-01 12:34:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-24 22:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>42.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-24 13:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-23 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-23 11:38:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-21 00:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification, AFC CONMEBOL Playoffs</td>
+	<td>URUGUAY vs JORDAN</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>URUGUAY -3.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-20 08:02:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-20 03:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>HONDURAS vs ECUADOR</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>HONDURAS</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-19 23:41:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-20 02:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>BRAZIL vs CHILE</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>22.50</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-19 23:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-03 22:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>35.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-11-03 11:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-27 22:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO QUEVEDO</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-27 13:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-26 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO +0</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-26 13:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-16 01:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>URUGUAY vs ARGENTINA</td>
+	<td>3-2 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>URUGUAY -0.25</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>32.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-15 14:38:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-16 01:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>CHILE vs ECUADOR</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>CHILE</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-15 14:38:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-12 01:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ARGENTINA vs PERU</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>ARGENTINA -1.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>55.30</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-11 12:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-11 23:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs PARAGUAY</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-11 12:51:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-11 23:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ECUADOR vs URUGUAY</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-10-11 12:49:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-29 23:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs QUILMES AC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>42.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-29 12:16:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-29 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs MANTA FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -1.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-29 12:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-28 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-28 13:29:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-28 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs EL NACIONAL QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-28 13:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-22 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs CLUB SPORT EMELEC</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-22 12:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-19 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs INDEPENDIENTE JOSE TERAN</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-18 23:46:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-19 01:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>ATLETICO LANUS vs UNIVERSIDAD DE CHILE</td>
+	<td>4-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -0.75</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-18 23:43:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-14 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO QUEVEDO</td>
+	<td>3-1 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>34.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-09-13 13:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-08-10 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs CD UNIVERSIDAD CATOLICA</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-08-10 14:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-07-21 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs MANTA FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA -1.00</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-07-21 14:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-07-18 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs CLUB SPORT EMELEC</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-07-17 14:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-07-17 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUEVEDO vs CD UNIVERSIDAD CATOLICA</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>71.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-07-17 14:21:52</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-26 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA RIVER PLATE vs ATLETICO DE RAFAELA</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>CA RIVER PLATE -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>25.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-26 10:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-24 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB TIJUANA vs ATLETICO MINEIRO</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO MINEIRO +0.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>16.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-24 00:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-24 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>BOCA JUNIORS vs NEWELL'S OLD BOYS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS +0.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>16.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-24 00:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-12 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs MANTA FC</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO -0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>75.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-11 10:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-12 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs DEPORTIVO QUITO</td>
+	<td>2-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-11 10:55:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-09 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>VELEZ SARSFIELD vs CA TIGRE</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-05-08 11:15:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-02 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>BOCA JUNIORS vs CORINTHIANS SP</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CORINTHIANS SP +0</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-30 13:31:21</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-01 03:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB TIJUANA vs PALMEIRAS SP</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB TIJUANA -0.75</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-30 13:30:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-28 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs MANTA FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>41.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-28 11:35:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-14 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs EL NACIONAL QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-14 11:34:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-14 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>NEWELL'S OLD BOYS vs CA TIGRE</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-14 11:39:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-03 04:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB SPORT EMELEC vs CA PENAROL</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-04-02 22:55:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-30 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs EL NACIONAL QUITO</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0.50</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-30 10:35:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-21 22:30:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ECUADOR vs EL SALVADOR</td>
+	<td>5-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -1.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>56.70</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-21 10:00:21</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-14 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs MANTA FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-20.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-13 22:34:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-11 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>ATLETICO LANUS vs ARSENAL DE SARANDI</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -0.75</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>34.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-11 08:44:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-10 22:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs CSD MACARA</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-10 10:27:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-10 20:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUEVEDO vs CLUB SPORT EMELEC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -0.50</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>43.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-10 10:21:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-09 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO CUENCA</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN -0.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-09 12:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-06 03:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB SPORT EMELEC vs DEPORTES IQUIQUE</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-05 09:43:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-05 23:15:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>NEWELL'S OLD BOYS vs UNIVERSIDAD DE CHILE</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS -0.75</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-05 09:40:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-04 00:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>BOCA JUNIORS vs UNION DE SANTA FE</td>
+	<td>1-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -1.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-03-03 10:38:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-27 23:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>DEPORTES IQUIQUE vs CLUB SPORT EMELEC</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC +0</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-27 11:58:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-24 00:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>ATLETICO LANUS vs VELEZ SARSFIELD</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>52.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-23 08:12:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-24 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs EL NACIONAL QUITO</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.00</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-23 08:10:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-18 00:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA RIVER PLATE vs ESTUDIANTES DE LA PLATA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CA RIVER PLATE -0.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>53.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-17 10:11:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-09 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs DEPORTIVO CUENCA</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.00</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>59.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-08 22:27:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-07 01:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>TRINIDAD AND TOBAGO vs PERU</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>PERU +0</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>56.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2013-02-06 09:36:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-30 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>TECNICO UNIVERSITARIO vs DEPORTIVO CUENCA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA +0</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-29 23:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-30 00:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>LIGA DE LOJA vs NACIONAL DE FOOTBALL</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-29 22:15:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-29 00:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>CD COBRELOA CALAMA vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>60.90</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-28 09:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-26 20:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA BELGRANO vs NEWELL'S OLD BOYS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-26 11:30:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-25 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs BARCELONA GUAYAQUIL</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-24 11:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-25 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-24 11:38:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-19 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs TECNICO UNIVERSITARIO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-19 10:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-19 20:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs EL NACIONAL QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MANTA FC -0.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-19 10:30:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-11 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs CD OLMEDO</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0.75</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>75.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-11 20:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-05 20:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs DEPORTIVO CUENCA</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>22.75</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-05 10:38:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-05 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>2-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-05 10:36:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-05 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CSD MACARA vs EL NACIONAL QUITO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>38.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-04 13:58:29</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-08-05 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CSD MACARA vs EL NACIONAL QUITO</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-08-04 13:57:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-08-02 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs BARCELONA GUAYAQUIL</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-45.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-31 23:37:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-30 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs CSD MACARA</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CSD MACARA +0.75</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-45.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-29 09:45:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-29 20:45:00</td>
+	<td>International</td>
+	<td>Olympic Tournament Men</td>
+	<td>GREAT BRITAIN  vs UNITED ARAB EMIRATES </td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>UNITED ARAB EMIRATES +1.25</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-29 11:09:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-26 02:30:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>DVO TACHIRA vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-25 21:32:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-26 02:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>60.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-24 22:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-26 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs EL NACIONAL QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-24 22:57:15</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-15 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD OLMEDO vs BARCELONA GUAYAQUIL</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-14 09:58:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-14 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-13 23:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-14 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CSD MACARA vs DEPORTIVO QUITO</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-13 23:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-08 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs BARCELONA GUAYAQUIL</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-06 22:17:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-07 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>TECNICO UNIVERSITARIO vs EL NACIONAL QUITO</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-06 22:21:16</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-07-01 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs TECNICO UNIVERSITARIO</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-07-01 11:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-07-01 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs CLUB SPORT EMELEC</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CSD MACARA +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-29 22:04:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-28 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>BOCA JUNIORS vs CORINTHIANS SP</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>28.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-27 11:55:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-24 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA TIGRE vs CA INDEPENDIENTE</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CA TIGRE -1.00</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-24 10:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-24 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-23 21:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-23 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera B Nacional</td>
+	<td>GUILLERMO BROWN vs QUILMES AC</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>QUILMES AC -0.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-23 10:36:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-19 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SWEDEN vs FRANCE</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FRANCE -0.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-18 09:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-17 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs EL NACIONAL QUITO</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.75</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-16 12:05:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-17 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>PORTUGAL vs NETHERLANDS</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>43.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-17 10:49:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-16 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>GREECE vs RUSSIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RUSSIA -0.50</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-16 10:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-14 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SPAIN vs IRELAND</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SPAIN -1.50</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>48.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-14 12:12:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-14 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs BARCELONA GUAYAQUIL</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>86.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-12 10:34:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>POLAND vs RUSSIA</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RUSSIA +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-12 11:05:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-10 23:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ECUADOR vs COLOMBIA</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR +0</td>
+	<td>1.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-10 09:04:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-10 22:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>OLIMPO BAHIA BLANCO vs ATLETICO LANUS</td>
+	<td>2-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -0.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-09 12:35:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-09 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>GERMANY vs PORTUGAL</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GERMANY -0.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>63.70</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-09 12:40:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-09 19:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA BANFIELD vs BOCA JUNIORS</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BOCA JUNIORS</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-09 12:32:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-06-03 00:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ARGENTINA vs ECUADOR</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-02 12:12:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-06-02 22:10:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>BOLIVIA vs CHILE</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-06-02 12:09:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-24 03:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-22 22:31:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-24 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs BARCELONA GUAYAQUIL</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>18.20</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-23 10:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-24 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs BARCELONA GUAYAQUIL</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-23 10:20:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-24 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CD OLMEDO</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>LIGA DE LOJA -0.50 Half time</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>63.70</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-22 22:31:29</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-24 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>TECNICO UNIVERSITARIO vs DEPORTIVO QUITO</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.25</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-22 22:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-20 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs CSD MACARA</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>70.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-18 21:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-19 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs MANTA FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-18 21:20:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-17 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CLUB SPORT EMELEC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA -0.25</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>73.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-16 11:52:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-17 00:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB LIBERTAD ASUNCION vs UNIVERSIDAD DE CHILE</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>UNIVERSIDAD DE CHILE +0.25</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>30.40</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-16 11:54:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-13 02:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD OLMEDO vs BARCELONA GUAYAQUIL</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>78.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-11 11:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-13 01:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA SAN LORENZO vs OLIMPO BAHIA BLANCO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CA SAN LORENZO -0.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-11 11:24:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-07 00:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>ATLETICO DE RAFAELA vs BOCA JUNIORS</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO DE RAFAELA +0.50</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>55.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-06 10:23:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-06 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs MANTA FC</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-05 10:17:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-06 22:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>OLIMPO BAHIA BLANCO vs NEWELL'S OLD BOYS</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS -0.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-06 10:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-05-06 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-06 10:19:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-05-02 02:15:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>ATLETICO NACIONAL MEDELLIN vs VELEZ SARSFIELD</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD +0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>65.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-05-01 09:40:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-29 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs EL NACIONAL QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-29 11:01:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-29 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-28 11:35:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-22 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>56.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-22 10:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-22 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>83.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-21 10:47:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-22 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-22 10:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-21 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs DEPORTIVO CUENCA</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA +0.25</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-20 23:00:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-21 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA TIGRE vs OLIMPO BAHIA BLANCO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CA TIGRE -0.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>32.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-20 22:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-14 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-13 10:15:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-08 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>GODOY CRUZ A.T. vs NEWELL'S OLD BOYS</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS +0.25</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>36.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-07 10:03:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-08 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs TECNICO UNIVERSITARIO</td>
+	<td>4-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>65.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-08 08:52:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-04-05 00:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>GODOY CRUZ A.T. vs UNIVERSIDAD DE CHILE</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>UNIVERSIDAD DE CHILE +0.25</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>56.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-03 08:48:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-04-04 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO QUITO</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.25</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-04-04 10:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-29 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs CSD MACARA</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-28 21:35:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-29 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>TECNICO UNIVERSITARIO vs MANTA FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TECNICO UNIVERSITARIO -0.25</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-28 21:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-29 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs INDEPENDIENTE JOSE TERAN</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-28 21:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-29 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs DEPORTIVO QUITO</td>
+	<td>2-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-28 09:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-25 04:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs CLUB SPORT EMELEC</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA +0</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-24 09:10:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-25 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs MANTA FC</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INDEPENDIENTE JOSE TERAN</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-24 09:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-24 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs TECNICO UNIVERSITARIO</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>TECNICO UNIVERSITARIO +0</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-23 09:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-24 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs CD OLMEDO</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-23 08:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-22 23:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>VELEZ SARSFIELD vs DEPORTIVO QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-22 09:03:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-21 00:15:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB SPORT EMELEC vs ATLETICO LANUS</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC +0</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-19 20:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-18 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CLUB SPORT EMELEC vs TECNICO UNIVERSITARIO</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>TECNICO UNIVERSITARIO +0.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-17 09:55:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-18 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs BARCELONA GUAYAQUIL</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>31.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-18 08:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-18 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs BARCELONA GUAYAQUIL</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-18 08:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-18 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO CUENCA</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>58.10</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-17 09:57:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-16 02:00:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>FLAMENGO RJ vs OLIMPIA ASUNCION</td>
+	<td>3-3 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>OLIMPIA ASUNCION +1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>27.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-15 19:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-16 02:00:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>FLAMENGO RJ vs OLIMPIA ASUNCION</td>
+	<td>3-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-15 19:46:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-13 01:35:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>VELEZ SARSFIELD vs OLIMPO BAHIA BLANCO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-12 08:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-11 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>TECNICO UNIVERSITARIO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-11 07:46:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-11 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>EL NACIONAL QUITO vs CD OLMEDO</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO -0.75</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>37.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-10 08:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-10 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DE LOJA vs MANTA FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-09 09:23:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-08 23:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>FLAMENGO RJ vs CLUB SPORT EMELEC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FLAMENGO RJ -1.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-08 08:12:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-07 23:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>DEPORTIVO QUITO vs VELEZ SARSFIELD</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD +0.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-07 11:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-04 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA SAN LORENZO vs BOCA JUNIORS</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS +0</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-04 09:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-04 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs DEPORTIVO CUENCA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.60</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-04 09:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-04 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>65.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-03-03 08:24:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-26 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DE LOJA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-25 23:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-26 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-25 23:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-25 20:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC +0</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-25 07:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-23 02:00:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>VELEZ SARSFIELD vs GUADALAJARA CHIVAS</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD -1.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-22 19:45:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-22 01:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>ARSENAL DE SARANDI vs ZAMORA FC</td>
+	<td>3-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-21 20:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-19 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>UNION DE SANTA FE vs BOCA JUNIORS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-19 08:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-19 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>CA SAN LORENZO vs ESTUDIANTES DE LA PLATA</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ESTUDIANTES DE LA PLATA +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-19 08:29:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-15 03:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>ATLETICO NACIONAL MEDELLIN vs UNIVERSIDAD DE CHILE</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-14 09:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-14 23:00:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>DEFENSOR SPORTING vs DEPORTIVO QUITO</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO +0.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-14 20:20:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-12 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>TECNICO UNIVERSITARIO vs BARCELONA GUAYAQUIL</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-12 06:53:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-12 17:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CD OLMEDO</td>
+	<td>5-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -1.00</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>74.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-12 01:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-12 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Clausura</td>
+	<td>SAN MARTIN DE SAN JUAN vs CA INDEPENDIENTE</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CA INDEPENDIENTE +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>-90.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-11 09:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-11 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>DEPORTIVO CUENCA vs INDEPENDIENTE JOSE TERAN</td>
+	<td>3-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO CUENCA</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-10 08:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-05 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MANTA FC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -0.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-05 18:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-05 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs LIGA DE LOJA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>30</td>
+	<td>-30.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-04 09:54:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-05 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>INDEPENDIENTE JOSE TERAN vs LIGA DE LOJA</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>75.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-04 09:52:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-04 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CSD MACARA vs DEPORTIVO QUITO</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-02-03 09:48:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-01 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>SPORT HUANCAYO vs ARSENAL DE SARANDI</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SPORT HUANCAYO</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-01-30 19:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-01 00:00:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB LIBERTAD ASUNCION vs EL NACIONAL QUITO</td>
+	<td>4-1 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB LIBERTAD ASUNCION -1.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-01-30 19:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-01-30 02:10:00</td>
+	<td>Argentina</td>
+	<td>Copa Torneo de Verano</td>
+	<td>BOCA JUNIORS vs CA RIVER PLATE</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CA RIVER PLATE +0.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-01-29 20:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-01-30 02:10:00</td>
+	<td>Argentina</td>
+	<td>Copa Torneo de Verano</td>
+	<td>BOCA JUNIORS vs CA RIVER PLATE</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-01-29 20:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-01-25 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>EL NACIONAL QUITO vs CLUB LIBERTAD ASUNCION</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB LIBERTAD ASUNCION +0.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2012-01-24 07:41:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-20 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Playoffs</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs EL NACIONAL QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-19 07:31:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-17 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Playoffs</td>
+	<td>DEPORTIVO QUITO vs CLUB SPORT EMELEC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-17 07:15:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-11 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Playoffs</td>
+	<td>EL NACIONAL QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>EL NACIONAL QUITO</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-10 08:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-09 01:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs UNIVERSIDAD DE CHILE</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-08 19:01:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-08 23:05:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA BANFIELD vs CA BELGRANO</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>CA BELGRANO +0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>70.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-08 09:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-04 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs CA BANFIELD</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>66.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-04 20:59:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-04 22:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CD ESPOLI</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-04 20:22:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-04 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs DEPORTIVO QUITO</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MANTA FC +0</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>70.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-04 11:10:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-04 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CD OLMEDO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CD OLMEDO +0.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-04 11:01:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-04 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>IMBABURA SPORTING CLUB vs CLUB SPORT EMELEC</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>IMBABURA SPORTING CLUB +0</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>78.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-04 10:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-02 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-12-01 17:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-01 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs BARCELONA GUAYAQUIL</td>
+	<td>3-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-30 19:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-01 00:50:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>UNIVERSIDAD DE CHILE vs VASCO DA GAMA RJ</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-30 20:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-01 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs EL NACIONAL QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>EL NACIONAL QUITO</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>130.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-30 19:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-27 22:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-27 10:12:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-27 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-27 10:40:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-27 17:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs IMBABURA SPORTING CLUB</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>IMBABURA SPORTING CLUB +0.50</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-27 10:10:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-24 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs EL NACIONAL QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-23 08:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-22 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-22 07:42:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-20 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs RACING CLUB</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.00</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-20 09:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-19 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs CD OLMEDO</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA -0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-19 09:41:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-19 19:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs IMBABURA SPORTING CLUB</td>
+	<td>5-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>IMBABURA SPORTING CLUB +1.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-19 09:37:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-17 23:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>CLUB LIBERTAD ASUNCION vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-17 20:04:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-16 02:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs BOLIVIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BOLIVIA +1.00</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-15 07:15:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-16 02:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs BOLIVIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>38.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-15 07:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-16 00:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>CHILE vs PARAGUAY</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -0.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-14 22:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-15 22:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>COLOMBIA vs ARGENTINA</td>
+	<td>1-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>COLOMBIA +0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-15 19:45:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-12 01:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>PARAGUAY vs ECUADOR</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR +1.00</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-11 22:03:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-12 01:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>COLOMBIA vs VENEZUELA</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>37.20</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-11 08:56:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-11 23:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>URUGUAY vs CHILE</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>69.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-11 09:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-08 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs EL NACIONAL QUITO</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-07 09:30:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-05 21:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GODOY CRUZ A.T. vs ESTUDIANTES DE LA PLATA</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>GODOY CRUZ A.T. -0.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-05 10:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-03 23:30:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>ARSENAL DE SARANDI vs UNIVERSIDAD DE CHILE</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>UNIVERSIDAD DE CHILE +0</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>74.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-11-03 07:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-30 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs EL NACIONAL QUITO</td>
+	<td>1-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-30 04:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-27 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>RACING CLUB vs ATLETICO LANUS</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RACING CLUB +0</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-26 11:35:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-27 00:05:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GODOY CRUZ A.T. vs SAN MARTIN DE SAN JUAN</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>GODOY CRUZ A.T.</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-26 10:55:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-26 22:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA TIGRE vs CA BELGRANO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CA BELGRANO +0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-26 11:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-26 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs CLUB SPORT EMELEC</td>
+	<td>1-3 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-26 10:37:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-23 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs EL NACIONAL QUITO</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-23 10:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-21 00:15:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>VELEZ SARSFIELD vs UNIVERSIDAD CATOLICA</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-19 09:58:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-20 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-19 09:35:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-20 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD OLMEDO vs CLUB SPORT EMELEC</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>73.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-19 08:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-16 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs LIGA DE LOJA</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-16 17:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-16 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO CUENCA</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-16 11:36:38</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-16 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>IMBABURA SPORTING CLUB vs DEPORTIVO QUITO</td>
+	<td>1-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-15 14:24:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-12 00:45:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>CHILE vs PERU</td>
+	<td>4-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>PERU +1.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-11 19:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-07 23:05:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>ECUADOR vs VENEZUELA</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-07 12:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-06 02:50:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>CLUBE DESPORTIVO AURORA vs VASCO DA GAMA RJ</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUBE DESPORTIVO AURORA -0.25</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-05 08:42:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-02 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>32.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-02 08:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-10-01 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs EL NACIONAL QUITO</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-01 09:34:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-10-01 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>34.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-10-01 09:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-27 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>NEWELL'S OLD BOYS vs GODOY CRUZ A.T.</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>NEWELL'S OLD BOYS</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-26 21:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-25 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO CUENCA</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-25 10:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-25 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ARGENTINOS JRS vs BOCA JUNIORS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-25 11:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-25 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs CLUB SPORT EMELEC</td>
+	<td>5-0 (4-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>21.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-25 09:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-25 19:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs CLUB SPORT EMELEC</td>
+	<td>5-0 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-25 09:15:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-22 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>RACING CLUB vs NEWELL'S OLD BOYS</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RACING CLUB -0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-21 12:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-18 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs INDEPENDIENTE JOSE TERAN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-18 11:03:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-18 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ATLETICO LANUS vs BOCA JUNIORS</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-18 12:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-18 18:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs EL NACIONAL QUITO</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-18 11:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-18 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>3-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-17 10:37:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-18 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>3-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DE LOJA +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-17 10:35:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-17 22:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA ALL BOYS vs CA BANFIELD</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CA BANFIELD +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-17 11:05:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-11 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs SAN MARTIN DE SAN JUAN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -1.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-11 20:03:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-11 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>RACING CLUB vs OLIMPO BAHIA BLANCO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RACING CLUB -0.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-10 23:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-10 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs DEPORTIVO CUENCA</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>29.40</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-09 22:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-03 03:15:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>PERU vs BOLIVIA</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>PERU -1.00</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-02 08:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-03 02:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA SAN LORENZO vs CA BELGRANO</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CA SAN LORENZO</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-02 09:04:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-02 23:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ECUADOR vs JAMAICA</td>
+	<td>5-2 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -1.25</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>86.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-09-02 07:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-28 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs MANTA FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-28 15:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-28 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>VELEZ SARSFIELD vs CA ALL BOYS</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-27 22:41:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-25 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +1.00</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>37.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-24 21:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-25 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-24 21:42:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-25 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO QUITO</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-24 11:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-24 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs EL NACIONAL QUITO</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-24 11:45:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-24 03:45:00</td>
+	<td>International Clubs</td>
+	<td>Copa Sudamericana</td>
+	<td>INDEPENDIENTE SANTA FE vs UNIVERSIDAD CESAR VALLEJO</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE SANTA FE -1.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>75.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-23 23:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-20 23:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs IMBABURA SPORTING CLUB</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-20 11:10:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-20 22:05:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA SAN LORENZO vs ARGENTINOS JRS</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CA SAN LORENZO</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>70.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-20 11:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-14 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs BARCELONA GUAYAQUIL</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>86.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-14 08:03:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-14 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>IMBABURA SPORTING CLUB vs EL NACIONAL QUITO</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO -0.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>73.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-13 20:54:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-11 00:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>NIGERIA vs ENGLAND</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NIGERIA -0.50</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>91.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-10 09:40:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-07 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CD OLMEDO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-07 11:03:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-07 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CD OLMEDO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>34.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-07 11:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-07 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>85.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-07 11:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-08-07 00:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>ECUADOR vs COSTA RICA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -0.25</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>95.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-06 08:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-05 03:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>EGYPT vs AUSTRIA</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EGYPT -0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-08-04 21:55:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-07-28 02:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DE LOJA</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL -0.50</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>119.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-27 12:47:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-07-28 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO QUITO</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO +0</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-27 13:00:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-07-23 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs IMBABURA SPORTING CLUB</td>
+	<td>5-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-23 12:37:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-07-23 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs BARCELONA GUAYAQUIL</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-23 12:23:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-07-17 00:15:00</td>
+	<td>International</td>
+	<td>Copa America, Final Round</td>
+	<td>ARGENTINA vs URUGUAY</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>URUGUAY +1.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-16 22:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-07-17 00:15:00</td>
+	<td>International</td>
+	<td>Copa America, Final Round</td>
+	<td>ARGENTINA vs URUGUAY</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-16 22:03:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-07-09 23:30:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>VENEZUELA vs ECUADOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR -0.25</td>
+	<td>2.26</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-09 10:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-07-09 23:30:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>VENEZUELA vs ECUADOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-09 10:12:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-07-09 21:00:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>BRAZIL vs PARAGUAY</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>PARAGUAY +0.75</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>82.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-09 09:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-07-09 00:15:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>URUGUAY vs CHILE</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-07-08 09:53:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-06-25 23:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ECUADOR vs MEXICO</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ECUADOR</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-25 17:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-06-22 19:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division Relegation Promotion Playoffs</td>
+	<td>CA HURACAN vs GIMNASIA LA PLATA</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>GIMNASIA LA PLATA -0.50</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>89.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-22 08:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-06-19 19:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ARSENAL DE SARANDI vs ESTUDIANTES DE LA PLATA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL DE SARANDI</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-19 05:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-06-18 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs LIGA DE LOJA</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-18 08:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-06-18 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>QUILMES AC vs OLIMPO BAHIA BLANCO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-18 10:36:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-06-18 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GIMNASIA LA PLATA vs BOCA JUNIORS</td>
+	<td>2-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-18 10:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-06-18 20:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>RIVER PLATE vs ATLETICO LANUS</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RIVER PLATE -0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-18 09:51:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-06-16 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CA PENAROL vs SANTOS SP</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-15 10:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-06-16 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-06-15 08:59:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-28 23:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA ALL BOYS vs QUILMES AC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>QUILMES AC +0.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-28 11:27:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-28 22:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>MEXICO vs ECUADOR</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-28 10:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-28 22:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>MEXICO vs ECUADOR</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MEXICO -0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-28 10:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-26 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>SANTOS SP vs CLUB CERRO PORTENO</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>75.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-26 00:47:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-23 01:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ARSENAL DE SARANDI vs BOCA JUNIORS</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-22 21:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-19 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>IMBABURA SPORTING CLUB vs MANTA FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>IMBABURA SPORTING CLUB -0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-18 21:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-15 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs RIVER PLATE</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>44.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-15 11:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-14 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs DEPORTIVO QUITO</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-14 10:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-14 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs IMBABURA SPORTING CLUB</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-14 10:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-05 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs MANTA FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INDEPENDIENTE JOSE TERAN</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-05 09:10:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-05 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>UNIVERSIDAD CATOLICA vs GREMIO RS</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>UNIVERSIDAD CATOLICA</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-05 00:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-01 22:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>65.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-01 11:39:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-01 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs BARCELONA GUAYAQUIL</td>
+	<td>2-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-01 10:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-01 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs IMBABURA SPORTING CLUB</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-01 10:30:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-01 17:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs INDEPENDIENTE JOSE TERAN</td>
+	<td>2-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-05-01 09:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-01 01:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ESTUDIANTES DE LA PLATA vs VELEZ SARSFIELD</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD +0.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-30 09:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-27 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>VELEZ SARSFIELD vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-26 09:36:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-24 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs EL NACIONAL QUITO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-24 11:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-24 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-24 10:30:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-17 19:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>OLIMPO BAHIA BLANCO vs ESTUDIANTES DE LA PLATA</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ESTUDIANTES DE LA PLATA -0.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-16 02:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-15 01:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CARACAS FC vs VELEZ SARSFIELD</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VELEZ SARSFIELD</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-13 23:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-14 02:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>ESTUDIANTES DE LA PLATA vs CRUZEIRO MG</td>
+	<td>0-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>CRUZEIRO MG +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>89.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-13 22:22:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-10 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs MANTA FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-09 22:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-10 02:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs MANTA FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MANTA FC +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-09 22:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-10 02:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-09 20:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-07 02:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>NACIONAL DE FOOTBALL vs FLUMINENSE RJ</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-06 23:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-07 00:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>JAGUARES CHIAPAS vs INTERNACIONAL RS</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INTERNACIONAL RS -0.25</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-06 22:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-03 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>QUILMES AC vs RIVER PLATE</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RIVER PLATE -0.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-04-03 11:01:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-24 02:40:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>85.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-23 20:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-21 00:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs OLIMPO BAHIA BLANCO</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -1.00</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-20 08:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-16 03:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CD ONCE CALDAS vs REAL SAN LUIS</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CD ONCE CALDAS -0.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-15 23:26:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-13 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs DEPORTIVO QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-13 18:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-13 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EL NACIONAL QUITO +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-13 07:45:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-13 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CD ESPOLI</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD ESPOLI +1.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-13 07:05:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-12 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>OLIMPO BAHIA BLANCO vs CA ALL BOYS</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>OLIMPO BAHIA BLANCO -0.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-11 21:55:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-12 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>OLIMPO BAHIA BLANCO vs CA ALL BOYS</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-11 20:30:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-10 23:15:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>UNION ESPANOLA vs VELEZ SARSFIELD</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>VELEZ SARSFIELD</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-09 22:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-10 02:15:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DE LOJA vs BARCELONA GUAYAQUIL</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-09 21:10:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-09 23:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CA PENAROL vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>66.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-09 20:48:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-06 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>RACING CLUB vs OLIMPO BAHIA BLANCO</td>
+	<td>4-3 (3-0)</td>
+	<td>Match Odds</td>
+	<td>RACING CLUB</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-05 09:55:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-05 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>IMBABURA SPORTING CLUB vs DEPORTIVO CUENCA</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO CUENCA -0.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-05 10:11:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-05 20:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO QUITO</td>
+	<td>1-6 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>81.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-05 10:05:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-04 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CA INDEPENDIENTE</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-03 19:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-04 02:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CA INDEPENDIENTE</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO -1.25</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>111.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-03 19:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-03-03 01:50:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>AMERICA DE MEXICO vs FLUMINENSE RJ</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-02 20:52:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-03-03 01:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CLUB SPORT EMELEC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>41.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-03-02 19:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-02-27 19:10:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO +0</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>67.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-27 10:24:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-02-27 17:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs BARCELONA GUAYAQUIL</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>38.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-27 08:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-02-27 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs CA ALL BOYS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -1.00</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-26 09:16:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-02-26 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs IMBABURA SPORTING CLUB</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-26 09:53:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-02-26 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>ATLETICO LANUS vs QUILMES AC</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO LANUS -1.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-26 08:08:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-02-12 01:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA INDEPENDIENTE vs VELEZ SARSFIELD</td>
+	<td>2-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>54.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-11 08:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-02-06 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-05 08:36:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-02-05 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO QUITO</td>
+	<td>0-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-05 08:34:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-02-05 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs DEPORTIVO QUITO</td>
+	<td>0-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-05 08:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-02-02 01:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>DEPORTIVO QUITO vs CA INDEPENDIENTE</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-02-01 20:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-01-30 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD ESPOLI vs CLUB SPORT EMELEC</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC +0</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-01-29 09:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-01-29 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO CUENCA</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-01-29 09:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-01-29 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs MANTA FC</td>
+	<td>2-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-01-29 09:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-01-29 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs MANTA FC</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>MANTA FC +0.75</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2011-01-29 09:15:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-12-06 01:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>BOCA JUNIORS vs QUILMES AC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -0.75</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>40.80</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-12-05 08:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-12-05 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GODOY CRUZ vs VELEZ SARSFIELD</td>
+	<td>0-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>71.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-12-05 08:02:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-12-05 23:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GODOY CRUZ vs VELEZ SARSFIELD</td>
+	<td>0-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VELEZ SARSFIELD +0</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>59.20</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-12-05 07:59:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-12-05 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs CLUB SPORT EMELEC</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.20</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-12-05 08:05:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-27 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>EL NACIONAL QUITO vs CSD MACARA</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-27 10:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-27 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs CLUB SPORT EMELEC</td>
+	<td>2-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-27 10:15:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-20 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO CUENCA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE JOSE TERAN +0</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>97.80</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-20 08:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-14 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>36.00</td>
+	<td>Half win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-14 08:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-14 23:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BARCELONA GUAYAQUIL +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-14 08:56:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-14 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>QUILMES AC vs GODOY CRUZ</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>GODOY CRUZ</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-14 09:06:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-14 00:10:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA TIGRE vs ESTUDIANTES DE LA PLATA</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ESTUDIANTES DE LA PLATA -0.25</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-13 10:43:52</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-13 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>MANTA FC vs CLUB SPORT EMELEC</td>
+	<td>1-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-13 10:42:22</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-13 21:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>INDEPENDIENTE JOSE TERAN vs DEPORTIVO QUITO</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-13 10:42:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-07 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CD UNIVERSIDAD CATOLICA vs MANTA FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>CD UNIVERSIDAD CATOLICA</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-07 09:03:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-07 18:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA SAN LORENZO vs CA INDEPENDIENTE</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CA SAN LORENZO</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-07 08:58:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-06 20:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>GODOY CRUZ vs NEWELL'S OLD BOYS</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GODOY CRUZ -0.75</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-06 09:03:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-11-06 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO QUITO vs CD ESPOLI</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>DEPORTIVO QUITO -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-06 08:36:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-11-06 00:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CLUB SPORT EMELEC vs EL NACIONAL QUITO</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CLUB SPORT EMELEC</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-11-05 21:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-10-31 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>BARCELONA GUAYAQUIL vs CLUB SPORT EMELEC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>132.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-10-30 10:52:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2010-10-31 00:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs CD OLMEDO</td>
+	<td>2-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-10-30 12:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2010-10-30 22:25:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>CSD MACARA vs DEPORTIVO QUITO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO QUITO</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2010-10-30 11:53:02</td>
+	</tr>
+</tbody>
+
+</table>

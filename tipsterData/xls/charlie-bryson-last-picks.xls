@@ -1,0 +1,2927 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC COLOGNE vs EINTRACHT FRANKFURT</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>EINTRACHT FRANKFURT Over +0.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-13 11:46:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs ATHLETIC BILBAO</td>
+	<td>4-2 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-13 10:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-12 17:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>IK START vs JERV FK</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-12 15:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-11 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs HELLAS VERONA</td>
+	<td>5-2 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>62.70</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-11 10:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-11 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>CELTA DE VIGO vs SEVILLA FC</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-10 23:20:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>ROSS COUNTY FC vs HEART OF MIDLOTHIAN</td>
+	<td>0-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-10 17:30:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 14:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>BOURNEMOUTH AFC vs ARSENAL FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-07 12:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ATHLETIC BILBAO vs VILLARREAL CF</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-05 17:09:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1 FSV MAINZ 05</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-04 17:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>2-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>160.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-04 16:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs SOUTHAMPTON FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-02-02 18:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs ESPANYOL BARCELONA</td>
+	<td>6-0 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-28 19:25:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs HERTHA BSC</td>
+	<td>3-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-29 23:00:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 00:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>SAN LUIS DE QUILLOTA vs UNIVERSIDAD DE CHILE</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>UNIVERSIDAD DE CHILE -0.75</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-27 15:34:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 21:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>FC BARCELONA vs ATHLETIC BILBAO</td>
+	<td>3-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-26 10:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs AS ROMA</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-24 12:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs CELTA DE VIGO</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>RAYO VALLECANO +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-22 15:47:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs FC AUGSBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC -0.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-40.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-20 15:02:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SPORTING GIJON vs REAL SOCIEDAD</td>
+	<td>5-1 (3-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-22 15:31:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 16:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>MOREIRENSE FC vs CD NACIONAL</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-20 12:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-17 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs SPORTING GIJON</td>
+	<td>5-1 (5-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -3.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>78.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-15 15:38:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-16 21:45:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>GD ESTORIL PRAIA vs BENFICA LISBON</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-16 10:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-16 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs CRYSTAL PALACE</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>MANCHESTER CITY</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-15 18:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-12 16:35:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>BORUSSIA DORTMUND vs EINTRACHT FRANKFURT</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>83.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-12 15:00:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SSC NAPOLI vs TURIN FC</td>
+	<td>2-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-05 13:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-03 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ATHLETIC BILBAO vs LAS PALMAS UD</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-03 12:28:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WEST HAM UNITED vs LIVERPOOL FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2016-01-02 11:20:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-19 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>HALIFAX TOWN vs TRANMERE ROVERS</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HALIFAX TOWN +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-19 14:42:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-18 18:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK ZAGREB vs HNK RIJEKA</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HNK RIJEKA -1.50</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>53.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-18 11:14:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-15 20:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>BAYERN MUNICH vs SV DARMSTADT 98</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BAYERN MUNICH -1.25 Half time</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-15 13:13:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 19:15:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>MONCHENGLADBACH vs WERDER BREMEN</td>
+	<td>3-4 (1-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-14 11:05:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-13 20:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>BOLIVAR LA PAZ vs CLUB JORGE WILSTERMANN</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-13 15:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-12 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs MONCHENGLADBACH</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>2.43</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>85.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-09 22:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs ESPANYOL BARCELONA</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-12 11:28:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>NK DINAMO ZAGREB vs BAYERN MUNICH</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-09 17:19:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-08 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs MONCHENGLADBACH</td>
+	<td>4-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-08 11:12:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-03 10:50:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs GETAFE CF</td>
+	<td>4-1 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>46.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-12-04 12:11:30</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-29 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs FC SCHALKE 04</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0.75</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-27 09:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-28 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs SOUTHAMPTON FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-28 11:25:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-28 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs MONCHENGLADBACH</td>
+	<td>3-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-27 17:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MONCHENGLADBACH vs SEVILLA FC</td>
+	<td>4-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-24 09:04:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-25 19:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien, Relegation Promotion</td>
+	<td>IK START vs JERV FK</td>
+	<td>3-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>JERV FK +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-24 12:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-24 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ARSENAL FC vs NK DINAMO ZAGREB</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -1.75</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-23 13:47:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-22 17:40:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC INGOLSTADT vs SV DARMSTADT 98</td>
+	<td>3-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-21 13:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-22 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs US SASSUOLO</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-22 09:05:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 15:45:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC AUGSBURG</td>
+	<td>0-4 (0-3)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>VFB STUTTGART Over +0.50</td>
+	<td>1.66</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-21 14:27:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs HANNOVER 96</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MONCHENGLADBACH</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-19 19:14:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs BAYER LEVERKUSEN</td>
+	<td>1-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>44.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-19 12:13:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-20 16:30:00</td>
+	<td>Bulgaria</td>
+	<td>A PFG</td>
+	<td>LOKOMOTIV PLOVDIV vs PFC MONTANA 1921</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LOKOMOTIV PLOVDIV</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>36.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-20 13:15:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-17 18:45:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>CROATIA vs SPAIN</td>
+	<td>2-3 (0-2)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-17 13:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-16 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ALBANIA vs LIECHTENSTEIN</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>ALBANIA -1.00 Half time</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-16 11:43:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-15 15:00:00</td>
+	<td>Russia</td>
+	<td>1st Division</td>
+	<td>ZENIT-2 ST.PETERSBURG vs FK TOSNO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.80</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-15 10:45:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-14 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>SWEDEN vs DENMARK</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-13 10:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-14 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>SPVGG UNTERHACHING vs TSV RAIN/LECH</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG UNTERHACHING -1.00</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-14 11:51:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-13 18:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>SERBIA vs ITALY</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-12 12:32:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-12 18:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>MACEDONIA vs MONTENEGRO</td>
+	<td>4-1 (3-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>55.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-12 09:10:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-12 17:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>RUSSIA vs FAROE ISLANDS</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RUSSIA -2.00</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-12 11:22:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-10 14:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>DENMARK vs ICELAND</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-10 11:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 18:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>BODO/GLIMT vs STABAEK FOTBALL</td>
+	<td>6-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>51.50</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-08 15:46:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs WERDER BREMEN</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-08 11:18:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 15:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK DINAMO ZAGREB vs NK ISTRA 1961</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under Team</td>
+	<td>NK DINAMO ZAGREB Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-06 23:38:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ATHLETIC BILBAO vs ESPANYOL BARCELONA</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-08 10:57:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PEC ZWOLLE vs HERACLES ALMELO</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-07 17:52:37</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 19:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NEC NIJMEGEN vs DE GRAAFSCHAP</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under Team</td>
+	<td>NEC NIJMEGEN Over +1.50</td>
+	<td>1.55</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>44.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-07 16:58:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SV DARMSTADT 98 vs HAMBURGER SV</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV DARMSTADT 98 +0.50</td>
+	<td>1.48</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>38.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-07 12:26:14</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs 1 FC COLOGNE</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.00 Half time</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-07 14:28:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs EINTRACHT FRANKFURT</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-06 19:43:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 13:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>OFK BELGRADE vs FK RADNICKI NIS</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OFK BELGRADE</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-06 11:00:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-06 18:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK INTER ZAPRESIC vs NK LOKOMOTIVA ZAGREB</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.00 Half time</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-06 16:56:27</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-05 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC AUGSBURG vs AZ ALKMAAR</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>41.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-05 15:32:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-05 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>BORUSSIA DORTMUND vs FK GABALA</td>
+	<td>4-0 (2-0)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>35.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-05 15:09:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-04 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>OLYMPIACOS FC vs NK DINAMO ZAGREB</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-03 08:57:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MONCHENGLADBACH vs JUVENTUS TURIN</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH +0</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-03 15:09:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-03 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>FC LIEFERING vs SC AUSTRIA LUSTENAU</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-03 16:56:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>KSV 1919 vs AUSTRIA KLAGENFURT</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-03 16:55:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-03 16:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC ASTANA vs ATLETICO MADRID</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>ATLETICO MADRID -1.00 Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-03 14:53:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC NANTES vs OLYMPIQUE MARSEILLE</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.37</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-01 17:44:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 20:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>CA CICLON vs REAL POTOSI</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-01 17:39:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 16:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK METALAC GM vs PARTIZAN BELGRADE</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PARTIZAN BELGRADE</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-01 11:50:43</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SD EIBAR vs RAYO VALLECANO</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-11-01 00:51:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs BAYER LEVERKUSEN</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>63.20</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-29 09:17:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs NORWICH CITY</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY -1.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-30 10:41:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>SF LOTTE vs SC VERL</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SF LOTTE</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-31 11:09:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-30 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>GALWAY UNITED FC vs SAINT PATRICK'S ATHLETIC FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>GALWAY UNITED FC +0.50</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-30 19:45:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-30 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>DEPORTIVO LA CORUNA vs ATLETICO MADRID</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-29 15:18:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-29 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SAMPDORIA GENOA vs FC EMPOLI</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.50 Half time</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-29 17:47:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs UDINESE CALCIO</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>58.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-28 13:46:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 19:15:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Clausura</td>
+	<td>JUAN AURICH DE CHICLAYO vs UNION COMERCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-28 17:31:34</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-27 19:00:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>ERZGEBIRGE AUE vs EINTRACHT FRANKFURT</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -0.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-27 12:29:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs FC SCHALKE 04</td>
+	<td>3-1 (1-1)</td>
+	<td>Draw no bet</td>
+	<td>MONCHENGLADBACH</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>62.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-25 11:58:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 16:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs FK AUSTRIA VIENNA</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>57.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-25 09:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 13:00:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>HODD vs STROMMEN IF</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HODD -0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-35.00</td>
+	<td>Half lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-25 10:13:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-24 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs REAL MADRID</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Under +3.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-24 13:36:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs VFB STUTTGART</td>
+	<td>4-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>53.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-24 13:02:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs ESPANYOL BARCELONA</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>69.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-23 01:38:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>MOLDE FK vs CELTIC FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MOLDE FK +0.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-22 15:27:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>RSC ANDERLECHT vs TOTTENHAM HOTSPUR</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-22 10:48:36</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-21 17:30:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RED STAR BELGRADE vs FK VOJVODINA</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>74.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-21 11:53:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-20 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>NK DINAMO ZAGREB vs OLYMPIACOS FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>OLYMPIACOS FC +0.25</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-20 11:08:40</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC INGOLSTADT</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC INGOLSTADT +1.00</td>
+	<td>1.56</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-18 15:44:16</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SSC NAPOLI vs AC FIORENTINA</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>65.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-18 13:44:25</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 13:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>ROVANIEMI PALLOSEURA vs KUOPIO PS</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ROVANIEMI PALLOSEURA</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-17 11:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs MONCHENGLADBACH</td>
+	<td>1-5 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-17 16:55:21</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs LEVANTE UD</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under Team</td>
+	<td>LEVANTE UD Under +0.50</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-17 11:28:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs BAYERN MUNICH</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-17 11:15:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-16 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs BORUSSIA DORTMUND</td>
+	<td>0-2 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-16 18:40:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-16 18:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK DINAMO ZAGREB vs NK ZAGREB</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>NK DINAMO ZAGREB -1.00 Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-16 00:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-14 17:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RADNIK SURDULICA vs PARTIZAN BELGRADE</td>
+	<td>2-2 (0-2)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-14 12:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-13 18:45:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>SPAIN vs SWEDEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SPAIN</td>
+	<td>1.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-13 16:46:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-12 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>RUSSIA vs MONTENEGRO</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>RUSSIA -1.50</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>90.40</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-12 14:17:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-09 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>GERMANY vs FINLAND</td>
+	<td>4-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>GERMANY -2.50</td>
+	<td>2.55</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>124.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-09 13:01:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 15:30:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>SARPSBORG vs STROMSGODSET</td>
+	<td>1-6 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>STROMSGODSET -1.00</td>
+	<td>2.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>183.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-03 11:57:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs VFB STUTTGART</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>1899 HOFFENHEIM</td>
+	<td>2.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-10-02 13:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYERN MUNICH vs NK DINAMO ZAGREB</td>
+	<td>5-0 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-29 19:18:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC PORTO vs CHELSEA FC</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CHELSEA FC +0.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-29 19:12:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-28 01:30:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>BLOOMING vs ORIENTE PETROLERO</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-27 16:08:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 17:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC NANTES vs PARIS ST GERMAIN</td>
+	<td>1-4 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PARIS ST GERMAIN</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>44.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-26 15:02:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>STOKE CITY vs BOURNEMOUTH AFC</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>55.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-26 00:11:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs MONCHENGLADBACH</td>
+	<td>1-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-26 12:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-24 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>RB LEIPZIG vs SC FREIBURG</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.00 Half time</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-24 18:02:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs VFB STUTTGART</td>
+	<td>1-3 (1-2)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-23 07:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-22 20:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ATLETICO MADRID vs GETAFE CF</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO MADRID -1.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-22 12:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-22 15:30:00</td>
+	<td>Croatia</td>
+	<td>Croatia Cup</td>
+	<td>JADRAN POREC vs NK ZADAR</td>
+	<td>0-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>JADRAN POREC +0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-22 09:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-20 23:00:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>CERRO PORTENO vs DEPORTIVO SANTANI</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CERRO PORTENO</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-20 14:54:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC SCHALKE 04</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-20 11:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-20 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs SAMPDORIA GENOA</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-20 11:10:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 21:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>SPORT BOYS vs THE STRONGEST</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-19 15:23:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-19 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SV GRODIG vs SV MATTERSBURG</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-19 15:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 17:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>HNK HAJDUK SPLIT vs NK DINAMO ZAGREB</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-19 15:24:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-17 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PARTIZAN BELGRADE vs AZ ALKMAAR</td>
+	<td>3-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>AZ ALKMAAR +0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-15 19:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-16 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>NK DINAMO ZAGREB vs ARSENAL FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL FC</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-15 12:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-15 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>PARIS ST GERMAIN vs MALMO FF</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PARIS ST GERMAIN</td>
+	<td>1.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>15.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-15 12:56:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-13 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs WERDER BREMEN</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-13 14:06:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-13 13:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC LUZERN vs GRASSHOPPER CLUB ZURICH</td>
+	<td>3-3 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>42.60</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-13 10:08:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-13 13:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>WACKER NORDHAUSEN vs FSV ZWICKAU</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>FSV ZWICKAU +0.50</td>
+	<td>1.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-13 10:28:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 16:00:00</td>
+	<td>Scotland</td>
+	<td>First Division</td>
+	<td>RANGERS FC vs LIVINGSTON FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>RANGERS FC</td>
+	<td>1.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>14.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-11 16:23:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BORUSSIA DORTMUND</td>
+	<td>2-4 (1-2)</td>
+	<td>Match Odds</td>
+	<td>BORUSSIA DORTMUND</td>
+	<td>1.48</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-10 13:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-08 18:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>SERBIA vs LITHUANIA</td>
+	<td>5-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>SERBIA</td>
+	<td>1.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>21.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-08 13:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-08 16:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>AZERBAIJAN vs GERMANY</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>GERMANY</td>
+	<td>1.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>23.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-08 13:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-07 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>POLAND vs GIBRALTAR</td>
+	<td>8-1 (4-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.50 Half time</td>
+	<td>1.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>29.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-07 13:56:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-06 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>BOSNIA & HERZEGOVINA vs ANDORRA</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>BOSNIA & HERZEGOVINA -2.50</td>
+	<td>1.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>20.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-06 17:46:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-06 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ITALY vs BULGARIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ITALY</td>
+	<td>1.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>45.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-06 10:12:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-05 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SPAIN vs SLOVAKIA</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>SPAIN</td>
+	<td>1.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-05 11:13:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-05 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>AUSTRIA vs MOLDOVA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AUSTRIA</td>
+	<td>1.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>21.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-05 11:12:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-05 19:30:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs SAINT PATRICK'S ATHLETIC FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>65.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-05 17:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-05 16:00:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>BISHOP'S STORTFORD vs WESTON SUPER MARE FC</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BISHOP'S STORTFORD +0.50</td>
+	<td>1.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-05 11:15:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-05 02:30:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ARGENTINA vs BOLIVIA</td>
+	<td>7-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>ARGENTINA</td>
+	<td>1.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>18.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-04 21:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-04 18:45:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ROMANIA vs BULGARIA</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ROMANIA +0.50</td>
+	<td>1.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-04 16:35:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-03 16:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>IRAN vs GUAM</td>
+	<td>6-0 (4-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>20.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-03 13:11:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-02 16:00:00</td>
+	<td>Serbia</td>
+	<td>Serbia Cup</td>
+	<td>CSK PIVARA CELAREVO vs MACVA SABAC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CSK PIVARA CELAREVO +0.50</td>
+	<td>1.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>29.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-02 13:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-02 16:00:00</td>
+	<td>Serbia</td>
+	<td>Serbia Cup</td>
+	<td>FK ZEMUN vs FK JEDINSTVO PUTEVI</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FK ZEMUN</td>
+	<td>1.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>17.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-09-02 13:12:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-29 16:00:00</td>
+	<td>Scotland</td>
+	<td>Second Division</td>
+	<td>DUNFERMLINE ATHLETIC vs STRANRAER FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>DUNFERMLINE ATHLETIC</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-28 15:35:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-29 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs HANNOVER 96</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0.50</td>
+	<td>1.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-29 09:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-29 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs EINTRACHT FRANKFURT</td>
+	<td>1-4 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.61</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>61.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-28 10:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-28 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>EA GUINGAMP vs OLYMPIQUE MARSEILLE</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-28 15:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-28 02:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>SAN JOSE ORURO vs UNIVERSITARIO DE SUCRE</td>
+	<td>2-4 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-27 21:15:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-27 22:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>CF OS BELENENSES vs SCR ALTACH</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CF OS BELENENSES +0.50</td>
+	<td>1.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>20.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-27 21:16:19</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-27 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AZ ALKMAAR vs AFC ASTRA GIURGIU</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +0.50 Half time</td>
+	<td>1.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-27 15:11:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-27 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>HNK HAJDUK SPLIT vs FC SLOVAN LIBEREC</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +1.50</td>
+	<td>1.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-27 15:09:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-27 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK BAUMIT JABLONEC vs AJAX AMSTERDAM</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AJAX AMSTERDAM +0.50</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Charlie Bryson</td>
+		<td>Football</td>
+		<td>2015-08-27 15:05:10</td>
+	</tr>
+</tbody>
+
+</table>

@@ -1,0 +1,213 @@
+Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-02-13 18:00:00,Italy,Serie A,AC CHIEVO VERONA vs US SASSUOLO,1-1 (1-1),Asian handicap,US SASSUOLO -0.25,2.14,,100,-50.00,Half lost,Rosario Barone,Football,2016-02-13 17:05:01
+2016-02-13 15:00:00,Italy,Serie B,VIRTUS ENTELLA vs TRAPANI CALCIO,4-0 (1-0),Asian handicap,TRAPANI CALCIO +0.25,1.96,,100,-100.00,Lost,Rosario Barone,Football,2016-02-13 14:09:05
+2016-02-12 20:45:00,Italy,Serie A,CARPI FC vs AS ROMA,1-3 (0-0),Match Odds,AS ROMA,1.95,,100,95.00,Win,Rosario Barone,Football,2016-02-12 11:46:02
+2016-02-07 18:00:00,Italy,Serie A,ATALANTA BERGAMASCA vs FC EMPOLI,0-0 (0-0),Asian handicap,ATALANTA BERGAMASCA +0,1.95,,100,0.00,Void,Rosario Barone,Football,2016-02-07 16:39:01
+2016-02-07 12:30:00,Italy,Serie A,HELLAS VERONA vs INTER MILAN,3-3 (2-1),Asian handicap,INTER MILAN -0.50,1.95,,100,-100.00,Lost,Rosario Barone,Football,2016-02-07 02:16:01
+2016-02-06 20:45:00,Italy,Serie A,GENOA FC vs LAZIO ROMA,0-0 (0-0),Asian handicap,GENOA FC +0,1.89,,100,0.00,Void,Rosario Barone,Football,2016-02-06 18:00:03
+2016-02-06 18:00:00,Italy,Serie A,BOLOGNA FC vs AC FIORENTINA,1-1 (0-0),Match Odds,AC FIORENTINA,2.03,,100,-100.00,Lost,Rosario Barone,Football,2016-02-06 10:55:06
+2016-02-03 20:45:00,Italy,Serie A,HELLAS VERONA vs ATALANTA BERGAMASCA,2-1 (1-1),Asian handicap,HELLAS VERONA -0.50,2.47,,100,147.00,Win,Rosario Barone,Football,2016-02-03 04:24:02
+2016-02-02 20:45:00,Italy,Serie A,US SASSUOLO vs AS ROMA,0-2 (0-1),Asian handicap,AS ROMA +0,1.75,,100,75.00,Win,Rosario Barone,Football,2016-02-02 16:27:02
+2016-01-31 20:45:00,Italy,Serie A,AC MILAN vs INTER MILAN,3-0 (1-0),Over / Under,Over +2.50,2.50,,100,150.00,Win,Rosario Barone,Football,2016-01-31 15:15:07
+2016-01-31 15:00:00,Italy,Serie A,TURIN FC vs HELLAS VERONA,0-0 (0-0),Asian handicap,HELLAS VERONA -0.75,2.12,,100,-100.00,Lost,Rosario Barone,Football,2016-01-31 13:59:04
+2016-01-30 20:45:00,Italy,Serie A,AS ROMA vs FROSINONE CALCIO,3-1 (1-1),Asian Handicap 1st Half,AS ROMA -0.75 Half time,1.81,,100,-100.00,Lost,Rosario Barone,Football,2016-01-30 17:12:02
+2016-01-29 20:30:00,Italy,Serie B,AS AVELLINO vs CAGLIARI CALCIO,1-2 (1-1),Over / Under,Over +2.50,2.19,,100,119.00,Win,Rosario Barone,Football,2016-01-29 17:46:02
+2016-01-26 21:00:00,Italy,Coppa Italia,ALESSANDRIA CALCIO vs AC MILAN,0-1 (0-1),Asian handicap,AC MILAN -1.00,1.91,,100,0.00,Void,Rosario Barone,Football,2016-01-26 15:29:02
+2016-01-24 15:00:00,Italy,Serie A,US SASSUOLO vs BOLOGNA FC,0-2 (0-0),Match Odds,US SASSUOLO,2.03,,100,-100.00,Lost,Rosario Barone,Football,2016-01-24 11:06:02
+2016-01-24 12:30:00,Italy,Serie A,AC FIORENTINA vs TURIN FC,2-0 (1-0),Match Odds,AC FIORENTINA,1.86,,100,86.00,Win,Rosario Barone,Football,2016-01-24 11:09:07
+2016-01-23 20:45:00,Italy,Serie A,FC EMPOLI vs AC MILAN,2-2 (1-1),Lay Match Odds,Lay FC EMPOLI,3.30,,44,44.00,Win,Rosario Barone,Football,2016-01-23 19:34:02
+2016-01-23 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs TERNANA CALCIO,1-0 (0-0),Over / Under,Over +2.50,2.32,,100,-100.00,Lost,Rosario Barone,Football,2016-01-23 12:06:02
+2016-01-23 15:00:00,Italy,Serie B,AC CESENA vs VIRTUS ENTELLA,2-0 (1-0),Match Odds,AC CESENA,2.02,,100,102.00,Win,Rosario Barone,Football,2016-01-23 12:04:04
+2016-01-20 20:45:00,Italy,Coppa Italia,LAZIO ROMA vs JUVENTUS TURIN,0-1 (0-0),Over / Under Team,LAZIO ROMA Over +1.00,2.17,,100,-100.00,Lost,Rosario Barone,Football,2016-01-20 19:56:01
+2016-01-20 20:45:00,Italy,Serie A,US SASSUOLO vs TURIN FC,1-1 (1-1),Over / Under,Over +2.00,1.71,,100,0.00,Void,Rosario Barone,Football,2016-01-20 19:45:03
+2016-01-19 20:45:00,Italy,Coppa Italia,SSC NAPOLI vs INTER MILAN,0-2 (0-0),Asian handicap,INTER MILAN +0.75,2.12,,100,112.00,Win,Rosario Barone,Football,2016-01-19 19:46:01
+2016-01-17 15:00:00,Italy,Serie A,UDINESE CALCIO vs JUVENTUS TURIN,0-4 (0-4),Over / Under 1st Half Team,JUVENTUS TURIN Over +0.50,1.81,,100,81.00,Win,Rosario Barone,Football,2016-01-17 11:32:02
+2016-01-17 15:00:00,Italy,Serie A,AS ROMA vs HELLAS VERONA,1-1 (1-0),Match Odds 1st Half,AS ROMA Half time,1.83,,100,83.00,Win,Rosario Barone,Football,2016-01-17 11:24:05
+2016-01-17 12:30:00,Italy,Serie A,GENOA FC vs US PALERMO,4-0 (1-0),Asian handicap,GENOA FC -0.50,1.79,,100,79.00,Win,Rosario Barone,Football,2016-01-17 09:39:02
+2016-01-16 18:00:00,Italy,Serie A,TURIN FC vs FROSINONE CALCIO,4-2 (3-1),Asian handicap,FROSINONE CALCIO +1.50,1.94,,100,-100.00,Lost,Rosario Barone,Football,2016-01-16 16:50:01
+2016-01-16 15:00:00,Italy,Serie B,AS AVELLINO vs SPORTIVA SALERNITANA,1-0 (0-0),Over / Under,Over +2.50,2.20,,100,-100.00,Lost,Rosario Barone,Football,2016-01-16 12:26:06
+2016-01-13 21:00:00,Italy,Coppa Italia,AC MILAN vs CARPI FC,2-1 (2-0),Asian handicap,AC MILAN -1.25,2.01,,100,-50.00,Half lost,Rosario Barone,Football,2016-01-13 16:15:04
+2016-01-09 20:45:00,Italy,Serie A,AS ROMA vs AC MILAN,1-1 (1-0),Match Odds,AS ROMA,2.21,,100,-100.00,Lost,Rosario Barone,Football,2016-01-09 19:48:02
+2016-01-09 18:00:00,Italy,Serie A,AC FIORENTINA vs LAZIO ROMA,1-3 (0-1),Over / Under,Over +2.50,2.13,,100,113.00,Win,Rosario Barone,Football,2016-01-09 12:24:02
+2016-01-06 18:00:00,Italy,Serie A,FC EMPOLI vs INTER MILAN,0-1 (0-1),Over / Under Team,FC EMPOLI Under +0.75,2.17,,100,117.00,Win,Rosario Barone,Football,2016-01-06 14:59:03
+2016-01-06 15:00:00,Italy,Serie A,US PALERMO vs AC FIORENTINA,1-3 (0-2),Match Odds,AC FIORENTINA,1.91,,100,91.00,Win,Rosario Barone,Football,2016-01-05 11:25:01
+2016-01-05 20:45:00,Italy,Serie A,GENOA FC vs SAMPDORIA GENOA,2-3 (0-2),Over / Under,Under +2.25,1.97,,100,-100.00,Lost,Rosario Barone,Football,2016-01-05 07:15:02
+2015-12-27 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs PRO VERCELLI,3-0 (2-0),Match Odds 1st Half,CAGLIARI CALCIO Half time,1.92,,100,92.00,Win,Rosario Barone,Football,2015-12-27 11:49:02
+2015-12-23 20:30:00,Italy,Serie B,FC CROTONE vs TRAPANI CALCIO,0-0 (0-0),Match Odds,FC CROTONE,1.75,,100,-100.00,Lost,Rosario Barone,Football,2015-12-23 10:37:02
+2015-12-23 20:30:00,Italy,Serie B,NOVARA CALCIO vs AC CESENA,0-0 (0-0),Match Odds,NOVARA CALCIO,2.00,,100,-100.00,Lost,Rosario Barone,Football,2015-12-23 10:36:02
+2015-12-22 20:30:00,Italy,Serie B,AS AVELLINO vs VIRTUS ENTELLA,2-0 (1-0),Asian handicap,AS AVELLINO -0.50,1.87,,100,87.00,Win,Rosario Barone,Football,2015-12-22 09:25:02
+2015-12-20 18:00:00,Italy,Serie A,SAMPDORIA GENOA vs US PALERMO,2-0 (0-0),Match Odds,SAMPDORIA GENOA,2.23,,100,123.00,Win,Rosario Barone,Football,2015-12-20 10:35:05
+2015-12-20 15:00:00,Italy,Serie A,AS ROMA vs GENOA FC,2-0 (1-0),Over / Under 1st Half Team,AS ROMA Over +0.75,2.01,,100,50.50,Half win,Rosario Barone,Football,2015-12-20 04:30:02
+2015-12-20 15:00:00,Italy,Serie A,HELLAS VERONA vs US SASSUOLO,1-1 (1-1),Asian handicap,HELLAS VERONA -0.25,2.31,,100,-50.00,Half lost,Rosario Barone,Football,2015-12-20 04:15:02
+2015-12-19 20:45:00,Italy,Serie A,BOLOGNA FC vs FC EMPOLI,2-3 (2-2),Asian handicap,BOLOGNA FC +0,1.95,,100,-100.00,Lost,Rosario Barone,Football,2015-12-19 18:11:04
+2015-12-19 15:00:00,Italy,Serie B,LATINA CALCIO vs FC CROTONE,2-2 (1-0),Asian handicap,FC CROTONE +0,2.02,,100,0.00,Void,Rosario Barone,Football,2015-12-19 10:43:04
+2015-12-19 15:00:00,Italy,Serie B,BRESCIA CALCIO vs SPEZIA CALCIO,1-1 (0-1),Asian handicap,BRESCIA CALCIO +0,1.83,,100,0.00,Void,Rosario Barone,Football,2015-12-19 05:58:01
+2015-12-17 16:00:00,Italy,Coppa Italia,LAZIO ROMA vs UDINESE CALCIO,2-1 (0-0),Asian handicap,LAZIO ROMA -1.00,2.00,,100,0.00,Void,Rosario Barone,Football,2015-12-17 14:03:03
+2015-12-16 14:30:00,Italy,Coppa Italia,AS ROMA vs SPEZIA CALCIO,2-4 (0-0),Asian handicap,AS ROMA +1.50,2.17,,100,-100.00,Lost,Rosario Barone,Football,2015-12-16 13:58:02
+2015-12-15 21:00:00,Italy,Coppa Italia,INTER MILAN vs CAGLIARI CALCIO,3-0 (1-0),Match Odds 1st Half,INTER MILAN Half time,2.02,,100,102.00,Win,Rosario Barone,Football,2015-12-15 12:05:02
+2015-12-14 20:45:00,Italy,Serie A,LAZIO ROMA vs SAMPDORIA GENOA,1-1 (0-0),Asian handicap,SAMPDORIA GENOA +0.50,2.67,,100,167.00,Win,Rosario Barone,Football,2015-12-14 11:21:01
+2015-12-13 18:00:00,Italy,Serie A,SSC NAPOLI vs AS ROMA,0-0 (0-0),Match Odds,SSC NAPOLI,1.75,,100,-100.00,Lost,Rosario Barone,Football,2015-12-13 16:06:02
+2015-12-12 20:45:00,Italy,Serie A,UDINESE CALCIO vs INTER MILAN,0-4 (0-2),Match Odds,INTER MILAN,2.04,,100,104.00,Win,Rosario Barone,Football,2015-12-12 17:12:02
+2015-12-12 15:00:00,Italy,Serie B,SPORTIVA SALERNITANA vs ASCOLI,2-0 (1-0),Match Odds,SPORTIVA SALERNITANA,1.91,,100,91.00,Win,Rosario Barone,Football,2015-12-12 11:24:05
+2015-12-12 15:00:00,Italy,Serie B,AS AVELLINO vs VIRTUS LANCIANO,3-2 (0-1),Match Odds,AS AVELLINO,2.04,,100,104.00,Win,Rosario Barone,Football,2015-12-12 11:23:15
+2015-12-10 19:00:00,European cups,UEFA Europa League,SSC NAPOLI vs LEGIA WARSAW,5-2 (2-0),Over / Under,Under +3.00,1.94,,100,-100.00,Lost,Rosario Barone,Football,2015-12-10 14:52:04
+2015-12-09 20:45:00,European cups,UEFA Champions League,AS ROMA vs FC BATE BORISOV,0-0 (0-0),Asian Handicap 1st Half,AS ROMA +0.75 Half time,2.11,,100,-100.00,Lost,Rosario Barone,Football,2015-12-07 15:16:02
+2015-12-09 18:30:00,Italy,Serie B,COMO CALCIO vs FC CROTONE,0-1 (0-0),Asian handicap,FC CROTONE +0.25,1.71,,100,71.00,Win,Rosario Barone,Football,2015-12-09 11:25:02
+2015-12-09 18:30:00,Italy,Serie B,VIRTUS LANCIANO vs CAGLIARI CALCIO,1-3 (0-2),Asian handicap,CAGLIARI CALCIO -0.50,1.88,,100,88.00,Win,Rosario Barone,Football,2015-12-09 11:23:03
+2015-12-08 20:45:00,European cups,UEFA Champions League,SEVILLA FC vs JUVENTUS TURIN,1-0 (0-0),Over / Under 1st Half,Under +1.00 Half time,1.81,,100,81.00,Win,Rosario Barone,Football,2015-12-07 15:04:01
+2015-12-08 15:00:00,Italy,Serie B,ASCOLI vs TERNANA CALCIO,1-0 (1-0),Over / Under 1st Half,Under +0.75 Half time,2.11,,100,-50.00,Half lost,Rosario Barone,Football,2015-12-08 10:02:01
+2015-12-08 15:00:00,Italy,Serie B,FC MODENA vs FC BARI 1908,2-1 (2-0),Over / Under,Under +2.25,1.72,,100,-100.00,Lost,Rosario Barone,Football,2015-12-08 09:19:01
+2015-12-06 18:00:00,Italy,Serie A,SAMPDORIA GENOA vs US SASSUOLO,1-3 (0-3),Match Odds,SAMPDORIA GENOA,2.50,,100,-100.00,Lost,Rosario Barone,Football,2015-12-01 17:45:03
+2015-12-06 15:00:00,Italy,Serie A,ATALANTA BERGAMASCA vs US PALERMO,3-0 (2-0),Match Odds,ATALANTA BERGAMASCA,1.80,Bwin,100,80.00,Win,Rosario Barone,Football,2015-12-06 12:09:02
+2015-12-06 15:00:00,Italy,Serie A,AC FIORENTINA vs UDINESE CALCIO,3-0 (1-0),Both team to score,No,1.83,,100,83.00,Win,Rosario Barone,Football,2015-12-02 18:13:02
+2015-12-06 15:00:00,Italy,Serie A,HELLAS VERONA vs FC EMPOLI,0-1 (0-0),Match Odds,HELLAS VERONA,2.99,,100,-100.00,Lost,Rosario Barone,Football,2015-12-02 17:24:03
+2015-12-06 12:30:00,Italy,Serie A,BOLOGNA FC vs SSC NAPOLI,3-2 (2-0),Over / Under,Under +2.75,1.78,,100,-100.00,Lost,Rosario Barone,Football,2015-12-06 09:47:02
+2015-12-05 15:00:00,Italy,Serie B,FC CROTONE vs AC CESENA,2-0 (0-0),Asian handicap,FC CROTONE -0.25,1.95,,100,95.00,Win,Rosario Barone,Football,2015-12-05 11:25:02
+2015-12-04 21:00:00,Italy,Serie B,PERUGIA vs FC MODENA,1-0 (1-0),Match Odds,PERUGIA,1.98,,100,98.00,Win,Rosario Barone,Football,2015-12-04 15:40:02
+2015-12-04 19:00:00,Italy,Serie B,VIRTUS ENTELLA vs BRESCIA CALCIO,0-0 (0-0),Over / Under,Under +2.25,1.94,,100,94.00,Win,Rosario Barone,Football,2015-12-04 18:25:02
+2015-12-03 21:00:00,Italy,Coppa Italia,US SASSUOLO vs CAGLIARI CALCIO,0-1 (0-1),Both team to score,Yes,1.80,,100,-100.00,Lost,Rosario Barone,Football,2015-12-01 16:48:05
+2015-12-02 15:00:00,Italy,Coppa Italia,US PALERMO vs ALESSANDRIA CALCIO,2-3 (0-2),Over / Under,Over +2.50,1.90,,100,90.00,Win,Rosario Barone,Football,2015-12-02 09:58:01
+2015-11-30 19:00:00,Italy,Serie A,US SASSUOLO vs AC FIORENTINA,1-1 (1-1),Both team to score,Yes,1.75,Bwin,100,75.00,Win,Rosario Barone,Football,2015-11-25 14:47:01
+2015-11-29 20:45:00,Italy,Serie A,US PALERMO vs JUVENTUS TURIN,0-3 (0-0),Over / Under Team,US PALERMO Under +0.75,1.72,,100,72.00,Win,Rosario Barone,Football,2015-11-24 04:42:05
+2015-11-29 18:00:00,Italy,Serie A,FC EMPOLI vs LAZIO ROMA,1-0 (1-0),Asian handicap,LAZIO ROMA +0,1.84,,100,-100.00,Lost,Rosario Barone,Football,2015-11-29 11:52:05
+2015-11-29 15:00:00,Italy,Serie A,FROSINONE CALCIO vs HELLAS VERONA,3-2 (2-0),Asian handicap,HELLAS VERONA -0.25,2.48,,100,-100.00,Lost,Rosario Barone,Football,2015-11-29 11:58:02
+2015-11-28 15:00:00,Italy,Serie B,FC MODENA vs VIRTUS ENTELLA,0-1 (0-0),Over / Under 1st Half,Under +0.75 Half time,2.05,,100,105.00,Win,Rosario Barone,Football,2015-11-28 13:50:06
+2015-11-28 15:00:00,Italy,Serie B,AS AVELLINO vs PERUGIA,1-2 (1-0),Both team to score,Yes,1.83,,100,83.00,Win,Rosario Barone,Football,2015-11-28 13:49:01
+2015-11-27 19:00:00,Italy,Serie B,SPEZIA CALCIO vs FC CROTONE,0-1 (0-1),Both team to score,Yes,1.91,,100,-100.00,Lost,Rosario Barone,Football,2015-11-27 12:15:03
+2015-11-26 21:05:00,European cups,UEFA Europa League,CLUB BRUGGE vs SSC NAPOLI,0-1 (0-1),Over / Under,Over +2.50,1.75,,100,-100.00,Lost,Rosario Barone,Football,2015-11-26 17:30:02
+2015-11-26 19:00:00,European cups,UEFA Europa League,LAZIO ROMA vs DNIPRO DNIPROPETROVSK,3-1 (1-0),Match Odds,LAZIO ROMA,1.80,,100,80.00,Win,Rosario Barone,Football,2015-11-26 12:23:05
+2015-11-26 19:00:00,European cups,UEFA Europa League,FC BASEL vs AC FIORENTINA,2-2 (1-2),Over / Under 1st Half,Under +1.00 Half time,1.88,,100,-100.00,Lost,Rosario Barone,Football,2015-11-26 12:21:03
+2015-11-23 20:00:00,Italy,"Lega Pro Prima Divisione, Girone B",SPAL 2013 vs SC PISA,1-2 (1-0),Asian handicap,SPAL 2013 -0.25,1.94,,100,-100.00,Lost,Rosario Barone,Football,2015-11-23 11:56:02
+2015-11-22 15:00:00,Italy,Serie A,UDINESE CALCIO vs SAMPDORIA GENOA,1-0 (1-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Rosario Barone,Football,2015-11-22 11:53:03
+2015-11-22 15:00:00,Italy,Serie A,LAZIO ROMA vs US PALERMO,1-1 (0-1),Over / Under,Over +2.25,1.71,,100,-50.00,Half lost,Rosario Barone,Football,2015-11-22 11:28:18
+2015-11-22 15:00:00,Italy,Serie A,GENOA FC vs US SASSUOLO,2-1 (0-0),Both team to score,Yes,1.80,,100,80.00,Win,Rosario Barone,Football,2015-11-22 11:26:15
+2015-11-22 15:00:00,Italy,Serie A,AC FIORENTINA vs FC EMPOLI,2-2 (0-2),Match Odds,Draw,4.58,,100,358.00,Win,Rosario Barone,Football,2015-11-16 17:21:02
+2015-11-22 12:30:00,Italy,Serie A,HELLAS VERONA vs SSC NAPOLI,0-2 (0-0),Asian Handicap 1st Half,SSC NAPOLI -0.50 Half time,1.97,,100,-100.00,Lost,Rosario Barone,Football,2015-11-22 10:45:11
+2015-11-21 18:00:00,Italy,Serie A,BOLOGNA FC vs AS ROMA,2-2 (1-0),Match Odds,Draw,3.84,,100,284.00,Win,Rosario Barone,Football,2015-11-16 17:17:02
+2015-11-21 15:00:00,Italy,Serie B,VICENZA CALCIO vs AC CESENA,1-1 (1-1),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Rosario Barone,Football,2015-11-21 11:33:10
+2015-11-21 15:00:00,Italy,Serie B,FC CROTONE vs TERNANA CALCIO,3-0 (0-0),Match Odds,FC CROTONE,2.19,,100,119.00,Win,Rosario Barone,Football,2015-11-21 10:33:02
+2015-11-20 20:30:00,Italy,Serie B,PESCARA CALCIO vs AS AVELLINO,3-2 (1-0),Over / Under,Over +2.25,1.80,,100,80.00,Win,Rosario Barone,Football,2015-11-20 12:20:17
+2015-11-17 20:45:00,International,International Friendly Games,ITALY vs ROMANIA,2-2 (0-1),Match Odds,ITALY,1.77,,100,-100.00,Lost,Rosario Barone,Football,2015-11-17 10:43:04
+2015-11-15 15:00:00,Italy,Serie B,ASCOLI vs PERUGIA,1-0 (0-0),Over / Under 1st Half,Under +0.75 Half time,1.99,,100,99.00,Win,Rosario Barone,Football,2015-11-15 10:47:10
+2015-11-15 12:30:00,Italy,Serie B,SPEZIA CALCIO vs CAGLIARI CALCIO,0-3 (0-1),Over / Under,Over +2.25,1.86,,100,86.00,Win,Rosario Barone,Football,2015-11-10 16:21:36
+2015-11-14 20:30:00,Italy,Serie B,FC MODENA vs PRO VERCELLI,1-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Rosario Barone,Football,2015-11-10 16:25:07
+2015-11-13 20:45:00,International,International Friendly Games,BELGIUM vs ITALY,3-1 (1-1),Both team to score,Yes,1.91,,100,91.00,Win,Rosario Barone,Football,2015-11-09 15:14:31
+2015-11-08 20:45:00,Italy,Serie A,SAMPDORIA GENOA vs AC FIORENTINA,0-2 (0-1),Asian handicap,SAMPDORIA GENOA +0.50,1.89,,100,-100.00,Lost,Rosario Barone,Football,2015-11-04 03:15:02
+2015-11-08 15:00:00,Italy,Serie A,US PALERMO vs AC CHIEVO VERONA,1-0 (0-0),Asian handicap,US PALERMO +0,1.75,,100,75.00,Win,Rosario Barone,Football,2015-11-08 13:22:07
+2015-11-08 15:00:00,Italy,Serie A,AS ROMA vs LAZIO ROMA,2-0 (1-0),Match Odds 1st Half,Draw Half time,2.35,,100,-100.00,Lost,Rosario Barone,Football,2015-11-08 10:27:08
+2015-11-08 15:00:00,Italy,Serie A,FC EMPOLI vs JUVENTUS TURIN,1-3 (1-2),Match Odds 1st Half,JUVENTUS TURIN Half time,2.50,,100,150.00,Win,Rosario Barone,Football,2015-11-04 03:18:02
+2015-11-08 12:30:00,Italy,Serie A,TURIN FC vs INTER MILAN,0-1 (0-1),Asian handicap,INTER MILAN +0,1.93,,100,93.00,Win,Rosario Barone,Football,2015-11-08 10:23:12
+2015-11-07 20:45:00,Italy,Serie A,AC MILAN vs ATALANTA BERGAMASCA,0-0 (0-0),Over / Under,Over +2.50,1.99,,100,-100.00,Lost,Rosario Barone,Football,2015-11-03 09:55:04
+2015-11-07 15:00:00,Italy,Serie B,LATINA CALCIO vs AC CESENA,1-0 (0-0),Both team to score,Yes,1.91,,100,-100.00,Lost,Rosario Barone,Football,2015-11-07 11:01:17
+2015-11-07 15:00:00,Italy,Serie B,VIRTUS ENTELLA vs COMO CALCIO,2-2 (1-2),Asian handicap,VIRTUS ENTELLA -0.25,1.97,,100,-50.00,Half lost,Rosario Barone,Football,2015-11-07 10:58:07
+2015-11-07 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs FC MODENA,2-1 (2-1),Asian handicap,CAGLIARI CALCIO -0.75,1.76,,100,38.00,Half win,Rosario Barone,Football,2015-11-07 10:14:05
+2015-11-06 20:30:00,Italy,Serie B,FC BARI 1908 vs SPORTIVA SALERNITANA,2-1 (1-0),Over / Under,Over +2.25,1.92,,100,92.00,Win,Rosario Barone,Football,2015-11-06 14:52:04
+2015-11-05 21:05:00,European cups,UEFA Europa League,KKS LECH POZNAN vs AC FIORENTINA,0-2 (0-1),Match Odds,AC FIORENTINA,1.78,,100,78.00,Win,Rosario Barone,Football,2015-11-05 09:58:51
+2015-11-04 20:45:00,European cups,UEFA Champions League,AS ROMA vs BAYER LEVERKUSEN,3-2 (2-0),Asian handicap,AS ROMA -0.25,1.78,,100,78.00,Win,Rosario Barone,Football,2015-11-04 10:19:03
+2015-11-03 20:45:00,European cups,UEFA Champions League,MONCHENGLADBACH vs JUVENTUS TURIN,1-1 (1-1),Asian handicap,JUVENTUS TURIN +0,1.72,,100,0.00,Void,Rosario Barone,Football,2015-11-03 14:58:07
+2015-11-03 18:30:00,Italy,Serie B,NOVARA CALCIO vs PESCARA CALCIO,1-0 (0-0),Over / Under 1st Half Team,NOVARA CALCIO Under +0.50,1.71,,100,71.00,Win,Rosario Barone,Football,2015-11-03 12:41:10
+2015-11-02 21:00:00,Italy,Serie A,US PALERMO vs FC EMPOLI,0-1 (0-0),Over / Under,Over +2.25,1.92,,100,-100.00,Lost,Rosario Barone,Football,2015-10-30 03:21:02
+2015-11-02 19:00:00,Italy,Serie A,AC CHIEVO VERONA vs SAMPDORIA GENOA,1-1 (1-1),Lay Match Odds,Lay AC CHIEVO VERONA,2.20,,84,79.80,Win,Rosario Barone,Football,2015-11-02 15:20:05
+2015-11-01 15:00:00,Italy,Serie A,UDINESE CALCIO vs US SASSUOLO,0-0 (0-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Rosario Barone,Football,2015-11-01 11:42:18
+2015-11-01 15:00:00,Italy,Serie A,GENOA FC vs SSC NAPOLI,0-0 (0-0),Match Odds,SSC NAPOLI,1.80,,100,-100.00,Lost,Rosario Barone,Football,2015-11-01 11:38:43
+2015-11-01 15:00:00,Italy,Serie A,BOLOGNA FC vs ATALANTA BERGAMASCA,3-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Rosario Barone,Football,2015-11-01 11:32:54
+2015-11-01 12:30:00,Italy,Serie A,AC FIORENTINA vs FROSINONE CALCIO,4-1 (4-0),Asian Handicap 1st Half,AC FIORENTINA -0.75 Half time,1.99,,100,99.00,Win,Rosario Barone,Football,2015-11-01 10:23:16
+2015-10-31 20:45:00,Italy,Serie A,INTER MILAN vs AS ROMA,1-0 (1-0),Asian handicap,INTER MILAN +0,1.93,,100,93.00,Win,Rosario Barone,Football,2015-10-31 17:10:16
+2015-10-31 15:00:00,Italy,Serie B,SPORTIVA SALERNITANA vs PERUGIA,1-1 (1-0),Both team to score,Yes,2.00,,100,100.00,Win,Rosario Barone,Football,2015-10-31 12:36:06
+2015-10-31 15:00:00,Italy,Serie B,AS LIVORNO vs TRAPANI CALCIO,2-0 (1-0),Over / Under,Over +2.50,2.12,,100,-100.00,Lost,Rosario Barone,Football,2015-10-31 12:22:24
+2015-10-31 15:00:00,Italy,Serie B,AC CESENA vs VIRTUS LANCIANO,2-0 (1-0),Match Odds,AC CESENA,1.72,,100,72.00,Win,Rosario Barone,Football,2015-10-31 11:23:07
+2015-10-31 15:00:00,Italy,Serie B,PESCARA CALCIO vs FC CROTONE,4-1 (2-0),Match Odds 1st Half,Draw Half time,2.20,,100,-100.00,Lost,Rosario Barone,Football,2015-10-31 10:55:18
+2015-10-28 20:45:00,Italy,Serie A,HELLAS VERONA vs AC FIORENTINA,0-2 (0-1),Match Odds,AC FIORENTINA,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-28 10:28:03
+2015-10-28 20:45:00,Italy,Serie A,TURIN FC vs GENOA FC,3-3 (2-1),Match Odds,TURIN FC,2.05,,100,-100.00,Lost,Rosario Barone,Football,2015-10-28 10:20:11
+2015-10-28 20:45:00,Italy,Serie A,SSC NAPOLI vs US PALERMO,2-0 (1-0),Over / Under,Over +3.50,2.55,,100,-100.00,Lost,Rosario Barone,Football,2015-10-28 10:18:02
+2015-10-28 20:45:00,Italy,Serie A,AS ROMA vs UDINESE CALCIO,3-1 (2-0),Asian handicap,AS ROMA -1.25,1.96,,100,96.00,Win,Rosario Barone,Football,2015-10-28 10:15:03
+2015-10-28 20:45:00,Italy,Serie A,AC MILAN vs AC CHIEVO VERONA,1-0 (0-0),Match Odds,AC MILAN,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-24 01:13:02
+2015-10-28 18:30:00,Italy,"Coppa Italia Lega Pro, Final Round",AC MANTOVA vs SPAL 2013,1-1 (1-1),Asian handicap,AC MANTOVA +0,1.94,,100,0.00,Void,Rosario Barone,Football,2015-10-28 09:54:05
+2015-10-27 20:45:00,Italy,Serie A,BOLOGNA FC vs INTER MILAN,0-1 (0-0),Match Odds,INTER MILAN,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-27 17:25:17
+2015-10-27 20:30:00,Italy,Serie B,PERUGIA vs CAGLIARI CALCIO,0-0 (0-0),Over / Under,Over +2.00,1.83,,100,-100.00,Lost,Rosario Barone,Football,2015-10-27 16:33:03
+2015-10-27 20:30:00,Italy,Serie B,VIRTUS ENTELLA vs AS LIVORNO,0-0 (0-0),Both team to score,Yes,2.00,,100,-100.00,Lost,Rosario Barone,Football,2015-10-27 15:22:12
+2015-10-27 20:30:00,Italy,Serie B,AC CESENA vs COMO CALCIO,3-1 (2-0),Match Odds,AC CESENA,1.73,,100,73.00,Win,Rosario Barone,Football,2015-10-27 14:49:03
+2015-10-27 20:30:00,Italy,Serie B,AS AVELLINO vs ASCOLI,3-0 (2-0),Over / Under,Over +2.50,2.14,,100,114.00,Win,Rosario Barone,Football,2015-10-27 10:33:07
+2015-10-25 20:45:00,Italy,Serie A,AC CHIEVO VERONA vs SSC NAPOLI,0-1 (0-0),Asian handicap,SSC NAPOLI -0.25,1.61,,100,61.00,Win,Rosario Barone,Football,2015-10-25 18:10:12
+2015-10-25 15:00:00,Italy,Serie A,JUVENTUS TURIN vs ATALANTA BERGAMASCA,2-0 (1-0),Over / Under,Over +2.50,2.00,,100,-100.00,Lost,Rosario Barone,Football,2015-10-25 12:25:09
+2015-10-25 15:00:00,Italy,Serie A,UDINESE CALCIO vs FROSINONE CALCIO,1-0 (1-0),Over / Under Team,FROSINONE CALCIO Under +0.75,1.90,,100,90.00,Win,Rosario Barone,Football,2015-10-25 04:48:04
+2015-10-25 15:00:00,Italy,Serie A,AC MILAN vs US SASSUOLO,2-1 (1-0),Over / Under,Over +2.50,2.07,,100,107.00,Win,Rosario Barone,Football,2015-10-23 12:59:06
+2015-10-25 12:30:00,Italy,Serie A,SAMPDORIA GENOA vs HELLAS VERONA,4-1 (3-0),Match Odds,SAMPDORIA GENOA,2.08,,100,108.00,Win,Rosario Barone,Football,2015-10-25 11:31:26
+2015-10-24 20:45:00,Italy,Serie A,US PALERMO vs INTER MILAN,1-1 (0-0),Match Odds,INTER MILAN,2.11,,100,-100.00,Lost,Rosario Barone,Football,2015-10-20 15:19:04
+2015-10-24 15:00:00,Italy,Serie B,SPEZIA CALCIO vs AS AVELLINO,1-1 (0-1),Over / Under,Over +2.50,2.27,,100,-100.00,Lost,Rosario Barone,Football,2015-10-24 11:03:37
+2015-10-24 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs TRAPANI CALCIO,4-1 (3-0),Match Odds,CAGLIARI CALCIO,1.65,,100,65.00,Win,Rosario Barone,Football,2015-10-24 10:48:03
+2015-10-23 19:00:00,Italy,Serie B,PESCARA CALCIO vs PRO VERCELLI,1-0 (0-0),Over / Under 1st Half,Under +1.25 Half time,1.83,,100,83.00,Win,Rosario Barone,Football,2015-10-23 16:48:07
+2015-10-22 19:00:00,European cups,UEFA Europa League,AC FIORENTINA vs KKS LECH POZNAN,1-2 (0-0),Asian handicap,AC FIORENTINA -1.50,2.04,,100,-100.00,Lost,Rosario Barone,Football,2015-10-22 17:03:06
+2015-10-21 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs MONCHENGLADBACH,0-0 (0-0),Over / Under,Over +2.50,1.86,,100,-100.00,Lost,Rosario Barone,Football,2015-10-21 13:00:12
+2015-10-18 20:45:00,Italy,Serie A,INTER MILAN vs JUVENTUS TURIN,0-0 (0-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Rosario Barone,Football,2015-10-13 12:14:03
+2015-10-18 15:00:00,Italy,Serie A,US SASSUOLO vs LAZIO ROMA,2-1 (1-0),Over / Under,Over +2.50,2.21,,100,121.00,Win,Rosario Barone,Football,2015-10-18 11:49:31
+2015-10-18 15:00:00,Italy,Serie A,GENOA FC vs AC CHIEVO VERONA,3-2 (2-1),Match Odds,GENOA FC,2.00,,100,100.00,Win,Rosario Barone,Football,2015-10-18 11:30:36
+2015-10-18 15:00:00,Italy,Serie A,SSC NAPOLI vs AC FIORENTINA,2-1 (0-0),Over / Under,Over +2.50,1.85,,100,85.00,Win,Rosario Barone,Football,2015-10-13 12:12:03
+2015-10-18 12:30:00,Italy,Serie A,BOLOGNA FC vs US PALERMO,0-1 (0-1),Over / Under,Under +2.50,1.64,,100,64.00,Win,Rosario Barone,Football,2015-10-18 11:42:07
+2015-10-17 20:45:00,Italy,Serie A,TURIN FC vs AC MILAN,1-1 (0-0),Both team to score,Yes,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-13 12:01:16
+2015-10-17 18:00:00,Italy,Serie A,AS ROMA vs FC EMPOLI,3-1 (0-0),Match Odds 1st Half,AS ROMA Half time,1.89,,100,-100.00,Lost,Rosario Barone,Football,2015-10-13 12:00:09
+2015-10-17 15:00:00,Italy,Serie B,VIRTUS ENTELLA vs SPORTIVA SALERNITANA,1-0 (1-0),Over / Under,Under +2.50,1.63,,100,63.00,Win,Rosario Barone,Football,2015-10-17 12:33:08
+2015-10-17 15:00:00,Italy,Serie B,FC CROTONE vs AS LIVORNO,3-0 (1-0),Over / Under,Under +2.50,1.65,,100,-100.00,Lost,Rosario Barone,Football,2015-10-17 12:03:27
+2015-10-17 15:00:00,Italy,Serie B,TERNANA CALCIO vs FC BARI 1908,3-0 (3-0),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Rosario Barone,Football,2015-10-17 11:58:09
+2015-10-17 15:00:00,Italy,Serie B,FC MODENA vs ASCOLI,2-1 (0-0),Match Odds,FC MODENA,1.97,,100,97.00,Win,Rosario Barone,Football,2015-10-17 11:47:20
+2015-10-16 20:30:00,Italy,Serie B,AS AVELLINO vs BRESCIA CALCIO,3-3 (1-1),Asian handicap,AS AVELLINO -0.25,1.79,,100,-50.00,Half lost,Rosario Barone,Football,2015-10-16 15:35:03
+2015-10-13 17:00:00,International Youth,U21 Euro Qualification,ITALY vs IRELAND,1-0 (0-0),Match Odds,ITALY,1.51,,100,51.00,Win,Rosario Barone,Football,2015-10-13 14:44:04
+2015-10-11 20:30:00,Italy,Serie B,ASCOLI vs PESCARA CALCIO,3-1 (0-0),Asian handicap,PESCARA CALCIO +0,1.87,,100,-100.00,Lost,Rosario Barone,Football,2015-10-11 10:32:08
+2015-10-11 15:00:00,Italy,Serie B,PERUGIA vs VIRTUS ENTELLA,0-0 (0-0),Over / Under,Under +2.50,1.59,,100,59.00,Win,Rosario Barone,Football,2015-10-11 10:42:06
+2015-10-11 12:30:00,Italy,Serie B,CAGLIARI CALCIO vs AC CESENA,3-1 (1-0),Match Odds,CAGLIARI CALCIO,1.88,,100,88.00,Win,Rosario Barone,Football,2015-10-11 10:06:03
+2015-10-10 20:30:00,Italy,Serie B,PRO VERCELLI vs NOVARA CALCIO,0-1 (0-1),Asian handicap,NOVARA CALCIO -0.25,2.18,,100,118.00,Win,Rosario Barone,Football,2015-10-10 14:52:41
+2015-10-10 15:00:00,Italy,"Lega Pro, Girone A",FC SUDTIROL vs AC FERALPI SALO,0-0 (0-0),Match Odds,AC FERALPI SALO,3.10,,80,-80.00,Lost,Rosario Barone,Football,2015-10-10 14:01:41
+2015-10-10 15:00:00,Italy,Serie B,VICENZA CALCIO vs FC CROTONE,0-0 (0-0),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Rosario Barone,Football,2015-10-10 13:00:07
+2015-10-08 18:30:00,International Youth,U21 Euro Qualification,SLOVENIA vs ITALY,0-3 (0-0),Match Odds,ITALY,2.25,,100,125.00,Win,Rosario Barone,Football,2015-10-08 17:15:20
+2015-10-04 20:45:00,Italy,Serie A,AC FIORENTINA vs ATALANTA BERGAMASCA,3-0 (2-0),Match Odds,AC FIORENTINA,1.73,,100,73.00,Win,Rosario Barone,Football,2015-10-04 18:45:03
+2015-10-04 18:00:00,Italy,Serie A,JUVENTUS TURIN vs BOLOGNA FC,3-1 (1-1),Match Odds 1st Half,JUVENTUS TURIN Half time,1.72,,100,-100.00,Lost,Rosario Barone,Football,2015-10-04 16:27:02
+2015-10-04 15:00:00,Italy,Serie A,UDINESE CALCIO vs GENOA FC,1-1 (0-0),Both team to score,Yes,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-04 14:03:10
+2015-10-04 15:00:00,Italy,Serie A,SAMPDORIA GENOA vs INTER MILAN,1-1 (0-0),Asian handicap,SAMPDORIA GENOA +0.50,1.88,,100,88.00,Win,Rosario Barone,Football,2015-10-04 12:43:02
+2015-10-04 15:00:00,Italy,Serie A,US PALERMO vs AS ROMA,2-4 (0-3),Both team to score,Yes,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-04 12:40:11
+2015-10-04 12:30:00,Italy,Serie A,FC EMPOLI vs US SASSUOLO,1-0 (0-0),Both team to score,Yes,1.80,,100,-100.00,Lost,Rosario Barone,Football,2015-10-04 11:00:11
+2015-10-03 20:45:00,Italy,Serie A,AC CHIEVO VERONA vs HELLAS VERONA,1-1 (0-0),Over / Under 1st Half,Under +1.00 Half time,1.76,,100,76.00,Win,Rosario Barone,Football,2015-10-03 19:41:03
+2015-10-03 18:00:00,Italy,Serie A,CARPI FC vs TURIN FC,2-1 (0-0),Asian handicap,CARPI FC +0.25,1.94,,100,94.00,Win,Rosario Barone,Football,2015-10-03 16:26:23
+2015-10-03 15:00:00,Italy,Serie B,BRESCIA CALCIO vs FC MODENA,2-2 (2-1),Asian handicap,FC MODENA +0,1.99,,100,0.00,Void,Rosario Barone,Football,2015-10-03 12:52:04
+2015-10-02 20:30:00,Italy,Serie B,FC CROTONE vs SPORTIVA SALERNITANA,4-0 (2-0),Match Odds,FC CROTONE,2.20,,100,120.00,Win,Rosario Barone,Football,2015-10-02 17:07:03
+2015-10-01 21:05:00,European cups,UEFA Europa League,LEGIA WARSAW vs SSC NAPOLI,0-2 (0-0),Match Odds,SSC NAPOLI,1.91,,100,91.00,Win,Rosario Barone,Football,2015-10-01 16:41:03
+2015-10-01 19:00:00,European cups,UEFA Europa League,LAZIO ROMA vs AS SAINT ETIENNE,3-2 (1-1),Match Odds 1st Half,Draw Half time,2.14,,100,114.00,Win,Rosario Barone,Football,2015-10-01 15:15:06
+2015-10-01 19:00:00,European cups,UEFA Europa League,CF OS BELENENSES vs AC FIORENTINA,0-4 (0-2),Match Odds,AC FIORENTINA,1.80,,100,80.00,Win,Rosario Barone,Football,2015-10-01 12:30:06
+2015-09-30 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs SEVILLA FC,2-0 (1-0),Match Odds,JUVENTUS TURIN,1.86,,100,86.00,Win,Rosario Barone,Football,2015-09-26 11:24:21
+2015-09-29 20:45:00,European cups,UEFA Champions League,FC BATE BORISOV vs AS ROMA,3-2 (3-0),Match Odds 1st Half,Draw Half time,2.21,,100,-100.00,Lost,Rosario Barone,Football,2015-09-29 16:14:04
+2015-09-28 19:00:00,Italy,Serie A,FROSINONE CALCIO vs FC EMPOLI,2-0 (0-0),Match Odds,FC EMPOLI,2.28,,100,-100.00,Lost,Rosario Barone,Football,2015-09-28 12:03:18
+2015-09-27 20:45:00,Italy,Serie A,INTER MILAN vs AC FIORENTINA,1-4 (0-3),Asian handicap,AC FIORENTINA +0.50,1.92,,100,92.00,Win,Rosario Barone,Football,2015-09-27 18:10:08
+2015-09-27 15:00:00,Italy,Serie A,US SASSUOLO vs AC CHIEVO VERONA,1-1 (1-1),Both team to score,Yes,2.00,,100,100.00,Win,Rosario Barone,Football,2015-09-27 13:39:02
+2015-09-27 15:00:00,Italy,Serie A,BOLOGNA FC vs UDINESE CALCIO,1-2 (1-0),Over / Under,Under +2.50,1.59,,100,-100.00,Lost,Rosario Barone,Football,2015-09-27 10:54:04
+2015-09-26 20:45:00,Italy,Serie A,SSC NAPOLI vs JUVENTUS TURIN,2-1 (1-0),Asian handicap,JUVENTUS TURIN +0.25,2.04,,100,-100.00,Lost,Rosario Barone,Football,2015-09-26 17:32:03
+2015-09-26 18:00:00,Italy,Serie A,AS ROMA vs CARPI FC,5-1 (3-1),Asian handicap,AS ROMA -1.50,1.96,,100,96.00,Win,Rosario Barone,Football,2015-09-26 10:30:10
+2015-09-26 15:00:00,Italy,Serie B,AS LIVORNO vs SPEZIA CALCIO,1-2 (0-1),Match Odds 1st Half,Draw Half time,2.05,,100,-100.00,Lost,Rosario Barone,Football,2015-09-26 12:38:09
+2015-09-26 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs LATINA CALCIO,3-2 (2-1),Asian handicap,CAGLIARI CALCIO -1.00,2.11,,100,0.00,Void,Rosario Barone,Football,2015-09-26 12:29:03
+2015-09-26 15:00:00,Italy,Serie B,TRAPANI CALCIO vs VIRTUS ENTELLA,4-2 (2-1),Match Odds,TRAPANI CALCIO,1.93,,100,93.00,Win,Rosario Barone,Football,2015-09-26 12:10:04
+2015-09-23 20:45:00,Italy,Serie A,AC FIORENTINA vs BOLOGNA FC,2-0 (0-0),Match Odds,AC FIORENTINA,1.51,,100,51.00,Win,Rosario Barone,Football,2015-09-23 17:19:03
+2015-09-23 20:45:00,Italy,Serie A,AC CHIEVO VERONA vs TURIN FC,1-0 (0-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Rosario Barone,Football,2015-09-23 17:15:04
+2015-09-23 20:45:00,Italy,Serie A,US PALERMO vs US SASSUOLO,0-1 (0-1),Over / Under,Over +2.50,2.11,,100,-100.00,Lost,Rosario Barone,Football,2015-09-23 17:01:10
+2015-09-22 20:30:00,Italy,Serie B,PESCARA CALCIO vs SPORTIVA SALERNITANA,1-1 (1-0),Asian handicap,PESCARA CALCIO -0.50,2.08,,100,-100.00,Lost,Rosario Barone,Football,2015-09-22 17:47:02
+2015-09-22 20:30:00,Italy,Serie B,LATINA CALCIO vs ASCOLI,1-0 (1-0),Asian handicap,LATINA CALCIO -0.50,1.81,,100,81.00,Win,Rosario Barone,Football,2015-09-22 17:40:06
+2015-09-22 20:30:00,Italy,Serie B,SPEZIA CALCIO vs PERUGIA,1-0 (1-0),Asian handicap,PERUGIA +0.25,2.10,,100,-100.00,Lost,Rosario Barone,Football,2015-09-22 15:37:05
+2015-09-20 15:00:00,Italy,Serie A,BOLOGNA FC vs FROSINONE CALCIO,1-0 (1-0),Match Odds 1st Half,Draw Half time,2.25,,100,-100.00,Lost,Rosario Barone,Football,2015-09-20 11:54:08
+2015-09-20 15:00:00,Italy,Serie A,AS ROMA vs US SASSUOLO,2-2 (1-2),Over / Under,Over +2.50,1.80,,100,80.00,Win,Rosario Barone,Football,2015-09-20 11:52:08
+2015-09-20 15:00:00,Italy,Serie A,ATALANTA BERGAMASCA vs HELLAS VERONA,1-1 (0-0),Match Odds,ATALANTA BERGAMASCA,2.05,,100,-100.00,Lost,Rosario Barone,Football,2015-09-20 11:50:05
+2015-09-19 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs AS AVELLINO,2-1 (1-0),Match Odds,CAGLIARI CALCIO,1.67,,100,67.00,Win,Rosario Barone,Football,2015-09-19 12:16:02
+2015-09-19 15:00:00,Italy,Serie B,ASCOLI vs AC CESENA,1-3 (0-0),Asian handicap,AC CESENA +0,1.74,,100,74.00,Win,Rosario Barone,Football,2015-09-19 12:12:02
+2015-09-18 21:00:00,Italy,Serie B,AS LIVORNO vs BRESCIA CALCIO,3-1 (1-1),Over / Under,Over +2.50,2.25,,100,125.00,Win,Rosario Barone,Football,2015-09-18 16:20:13
+2015-09-18 19:00:00,Italy,Serie B,FC MODENA vs TERNANA CALCIO,1-0 (0-0),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Rosario Barone,Football,2015-09-18 16:22:06
+2015-09-15 18:00:00,Italy,Serie B,ASCOLI vs VIRTUS ENTELLA,1-0 (1-0),Over / Under 1st Half,Under +0.75 Half time,2.16,,100,-50.00,Half lost,Rosario Barone,Football,2015-09-15 13:58:11
+2015-09-13 18:00:00,Italy,Serie A,LAZIO ROMA vs UDINESE CALCIO,2-0 (0-0),Over / Under,Over +2.50,2.04,,100,-100.00,Lost,Rosario Barone,Football,2015-09-13 16:46:28
+2015-09-13 15:00:00,Italy,Serie A,US PALERMO vs CARPI FC,2-2 (1-1),Match Odds,US PALERMO,1.75,,100,-100.00,Lost,Rosario Barone,Football,2015-09-13 13:13:12
+2015-09-13 15:00:00,Italy,Serie A,FC EMPOLI vs SSC NAPOLI,2-2 (2-1),Over / Under,Over +2.50,1.91,,100,91.00,Win,Rosario Barone,Football,2015-09-13 12:37:11
+2015-09-13 12:30:00,Italy,Serie A,HELLAS VERONA vs TURIN FC,2-2 (0-0),Over / Under,Over +2.50,2.04,,100,104.00,Win,Rosario Barone,Football,2015-09-13 10:27:03
+2015-09-12 20:45:00,Italy,Serie A,JUVENTUS TURIN vs AC CHIEVO VERONA,1-1 (0-1),Asian Handicap 1st Half,JUVENTUS TURIN -0.50 Half time,1.92,,100,-100.00,Lost,Rosario Barone,Football,2015-09-12 16:10:05
+2015-09-12 18:00:00,Italy,Serie A,FROSINONE CALCIO vs AS ROMA,0-2 (0-1),Match Odds,AS ROMA,1.42,,100,42.00,Win,Rosario Barone,Football,2015-09-12 16:32:15
+2015-09-12 18:00:00,Italy,Serie A,AC FIORENTINA vs GENOA FC,1-0 (0-0),Match Odds,AC FIORENTINA,1.71,,100,71.00,Win,Rosario Barone,Football,2015-09-12 15:47:02
+2015-09-12 15:00:00,Italy,Serie B,TERNANA CALCIO vs CAGLIARI CALCIO,1-1 (0-1),Match Odds,CAGLIARI CALCIO,2.05,,100,-100.00,Lost,Rosario Barone,Football,2015-09-12 11:32:26
+2015-09-12 15:00:00,Italy,Serie B,COMO CALCIO vs AS LIVORNO,1-2 (1-1),Asian handicap,AS LIVORNO +0,1.72,,100,72.00,Win,Rosario Barone,Football,2015-09-12 11:11:13
+2015-09-08 17:00:00,International Youth,U21 Euro Qualification,ITALY vs SLOVENIA,1-0 (0-0),Asian handicap,ITALY -0.50,1.70,,100,70.00,Win,Rosario Barone,Football,2015-09-08 12:57:03
+2015-09-06 15:00:00,Italy,Serie B,FC MODENA vs VICENZA CALCIO,0-1 (0-0),Over / Under,Under +2.50,1.53,,100,53.00,Win,Rosario Barone,Football,2015-09-06 11:35:04
+2015-09-06 15:00:00,Italy,Serie B,PERUGIA vs COMO CALCIO,2-0 (1-0),Match Odds,PERUGIA,1.81,,100,81.00,Win,Rosario Barone,Football,2015-09-06 11:28:05
+2015-09-05 20:30:00,Italy,Serie B,AC CESENA vs BRESCIA CALCIO,2-0 (2-0),Asian handicap,AC CESENA -0.50,1.79,,100,79.00,Win,Rosario Barone,Football,2015-09-05 17:30:05
+2015-09-05 19:30:00,Ireland,Airtricity Premier Division,LIMERICK 37 FC vs SAINT PATRICK'S ATHLETIC FC,3-1 (2-0),Match Odds,SAINT PATRICK'S ATHLETIC FC,1.82,,100,-100.00,Lost,Rosario Barone,Football,2015-09-05 17:40:07

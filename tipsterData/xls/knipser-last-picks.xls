@@ -1,0 +1,6059 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs KARLSRUHER SC</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0.25</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-02-13 10:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>2-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-02-06 10:32:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs VFL WOLFSBURG</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-02-06 10:30:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs WERDER BREMEN</td>
+	<td>5-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-02-05 18:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs 1899 HOFFENHEIM</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-01-31 11:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFL WOLFSBURG</td>
+	<td>3-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2016-01-24 11:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs VFL BOCHUM</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0.25</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>51.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-20 10:59:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-20 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC FREIBURG vs 1860 MUNICH</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG -0.75</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-20 10:57:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-18 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs 1899 HOFFENHEIM</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-18 15:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-18 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs SV SANDHAUSEN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-18 15:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 19:15:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>SPVGG UNTERHACHING vs BAYER LEVERKUSEN</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -2.00</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-14 19:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs 1 FC COLOGNE</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-12 12:26:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs HANNOVER 96</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM -0.25</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>68.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-12 12:25:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-11 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs VFB STUTTGART</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-11 15:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-05 15:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs BAYER LEVERKUSEN</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-05 12:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC FREIBURG vs FC UNION BERLIN</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>47.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-04 22:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ARMINIA BIELEFELD vs KARLSRUHER SC</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ARMINIA BIELEFELD +0</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-12-04 22:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-28 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs ARMINIA BIELEFELD</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-28 11:54:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-22 17:40:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC INGOLSTADT vs SV DARMSTADT 98</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV DARMSTADT 98 +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-22 11:10:32</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs BAYER LEVERKUSEN</td>
+	<td>1-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-21 10:54:30</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-09 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs FORTUNA DUSSELDORF</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FC ST. PAULI -0.25</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-09 18:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs VFB STUTTGART</td>
+	<td>4-0 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-07 10:33:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs 1 FC NUREMBERG</td>
+	<td>3-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-07 10:30:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-06 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs SV SANDHAUSEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-06 15:24:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-06 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs VFL BOCHUM</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +0.25</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-11-06 15:23:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs 1 FSV MAINZ 05</td>
+	<td>3-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-31 10:43:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs MONCHENGLADBACH</td>
+	<td>1-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC +0.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-31 10:38:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC HEIDENHEIM vs FC UNION BERLIN</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC HEIDENHEIM -0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-31 10:40:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs WERDER BREMEN</td>
+	<td>1-3 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-24 10:26:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SV DARMSTADT 98 vs VFL WOLFSBURG</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-24 10:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs VFB STUTTGART</td>
+	<td>4-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-24 10:22:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs VFL BOCHUM</td>
+	<td>3-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM -0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-23 15:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-19 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs KARLSRUHER SC</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1860 MUNICH +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-19 17:40:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC INGOLSTADT</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART -0.25</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>65.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-18 16:04:20</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1899 HOFFENHEIM</td>
+	<td>4-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-17 10:42:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-16 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs 1 FC KAISERSLAUTERN</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SV SANDHAUSEN +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-16 16:07:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-16 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs ARMINIA BIELEFELD</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-16 16:06:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-04 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs BORUSSIA DORTMUND</td>
+	<td>5-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>101.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-04 12:06:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs FC AUGSBURG</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-04 12:04:30</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs WERDER BREMEN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-10-03 10:29:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-25 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs SV SANDHAUSEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-09-25 15:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-23 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs FC UNION BERLIN</td>
+	<td>3-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>45.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td>2015-09-23 11:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-16 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs MONCHENGLADBACH</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +1.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-10 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC NUREMBERG vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>71.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs 1899 HOFFENHEIM</td>
+	<td>3-1 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs WERDER BREMEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-09 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs FC ST. PAULI</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -1.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-06 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BARCELONA vs BAYERN MUNICH</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC BARCELONA -1.00</td>
+	<td>2.49</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>149.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-03 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFR AALEN vs VFL BOCHUM</td>
+	<td>2-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-02 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs BAYERN MUNICH</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN +0</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>71.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs HANNOVER 96</td>
+	<td>2-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -1.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs BORUSSIA DORTMUND</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM +0.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-19 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs FC SCHALKE 04</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-17 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs MONCHENGLADBACH</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.75</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-13 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF +0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-11 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs BAYER LEVERKUSEN</td>
+	<td>2-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-11 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs EINTRACHT FRANKFURT</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-11 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs BORUSSIA DORTMUND</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH +0.75</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>79.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-11 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC PADERBORN vs FC AUGSBURG</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SC PADERBORN +0.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>74.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-05 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs FC UNION BERLIN</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SV SANDHAUSEN +0</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BORUSSIA DORTMUND</td>
+	<td>2-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +1.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs FC AUGSBURG</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>74.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-20 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs FC ST. PAULI</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-20 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs SV SANDHAUSEN</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV SANDHAUSEN +0.25</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-14 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs 1 FC NUREMBERG</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -0.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-14 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs FSV FRANKFURT</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs WERDER BREMEN</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs VFL WOLFSBURG</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC AUGSBURG +0.25</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs BORUSSIA DORTMUND</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HAMBURGER SV +1.00</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-06 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs VFL BOCHUM</td>
+	<td>2-2 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +0.50</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-01 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs VFL WOLFSBURG</td>
+	<td>3-5 (3-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs MONCHENGLADBACH</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HAMBURGER SV +0.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>46.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-22 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs 1 FC NUREMBERG</td>
+	<td>1-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>112.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs EINTRACHT FRANKFURT</td>
+	<td>3-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs 1899 HOFFENHEIM</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.25</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs VFL BOCHUM</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +1.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-14 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs FC SCHALKE 04</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs BAYER LEVERKUSEN</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs BORUSSIA DORTMUND</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>51.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs HERTHA BSC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>69.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-21 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs SV SANDHAUSEN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -1.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs EINTRACHT FRANKFURT</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs BORUSSIA DORTMUND</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +1.00</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>94.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-17 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs WERDER BREMEN</td>
+	<td>4-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-17 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs HERTHA BSC</td>
+	<td>4-4 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-17 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs 1 FC NUREMBERG</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-17 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs SV DARMSTADT 98</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV SANDHAUSEN +0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-16 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs FC AUGSBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-06 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs ERZGEBIRGE AUE</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -1.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-05 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs 1899 HOFFENHEIM</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM +1.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>42.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-01 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs 1 FC NUREMBERG</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT BRAUNSCHWEIG -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-29 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs HAMBURGER SV</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC AUGSBURG -0.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC PADERBORN vs BORUSSIA DORTMUND</td>
+	<td>2-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.00</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-21 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs VFR AALEN</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs BAYERN MUNICH</td>
+	<td>0-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-01 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs BORUSSIA DORTMUND</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs VFL WOLFSBURG</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-11-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs BAYER LEVERKUSEN</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>HAMBURGER SV +0.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>99.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-11-01 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC NUREMBERG vs FC ST. PAULI</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG -0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-31 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs FC AUGSBURG</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 -0.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>94.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-26 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs BAYERN MUNICH</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1 FSV MAINZ 05</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>45.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-26 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1860 MUNICH +0</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-24 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs FSV FRANKFURT</td>
+	<td>2-5 (2-3)</td>
+	<td>Asian handicap</td>
+	<td>GREUTHER FURTH -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-18 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs STUTTGARTER KICKERS</td>
+	<td>5-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART II +0.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-10-18 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ENERGIE COTTBUS vs MSV DUISBURG</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-10-03 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs ERZGEBIRGE AUE</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>GREUTHER FURTH -1.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-28 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs FC ST. PAULI</td>
+	<td>3-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-09-27 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs FC INGOLSTADT</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC INGOLSTADT +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-26 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs SV SANDHAUSEN</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT BRAUNSCHWEIG -0.75</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>51.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-09-23 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs VFR AALEN</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>GREUTHER FURTH -1.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-09-23 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC ST. PAULI +0</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>111.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-05-10 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs VFB STUTTGART</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-05-04 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs FORTUNA DUSSELDORF</td>
+	<td>2-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-05-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs FC SCHALKE 04</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-26 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs BORUSSIA DORTMUND</td>
+	<td>2-2 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-25 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs VFB STUTTGART</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-20 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs FSV FRANKFURT</td>
+	<td>3-2 (3-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs MONCHENGLADBACH</td>
+	<td>4-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>89.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-13 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs FC AUGSBURG</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FC AUGSBURG +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs HAMBURGER SV</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-11 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC INGOLSTADT vs SC PADERBORN</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SC PADERBORN +0</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs 1 FSV MAINZ 05</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-04-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs MONCHENGLADBACH</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-04-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs FC SCHALKE 04</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-29 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs FC AUGSBURG</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-29 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs 1 FC KAISERSLAUTERN</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>KARLSRUHER SC +0.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-26 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs VFB STUTTGART</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-26 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs HANNOVER 96</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-26 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs FSV FRANKFURT</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>79.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-26 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs ARMINIA BIELEFELD</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -1.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-23 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs 1899 HOFFENHEIM</td>
+	<td>2-3 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>65.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs EINTRACHT FRANKFURT</td>
+	<td>2-5 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BORUSSIA DORTMUND</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs FC AUGSBURG</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG +0</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-22 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs FC INGOLSTADT</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC ST. PAULI -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-21 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs WERDER BREMEN</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0.25</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs HANNOVER 96</td>
+	<td>0-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC -0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs 1 FSV MAINZ 05</td>
+	<td>2-4 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 +0.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>97.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-09 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs FC ST. PAULI</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-09 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs SC PADERBORN</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs FC AUGSBURG</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH +0</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-02 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>47.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-03-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs VFL WOLFSBURG</td>
+	<td>6-2 (4-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>97.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-03-02 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC INGOLSTADT vs DYNAMO DRESDEN</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>DYNAMO DRESDEN +0.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs FC AUGSBURG</td>
+	<td>2-4 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.25</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs 1899 HOFFENHEIM</td>
+	<td>2-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs VFB STUTTGART</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs MONCHENGLADBACH</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-02-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1 FSV MAINZ 05</td>
+	<td>3-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-02-08 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs GREUTHER FURTH</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>89.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-22 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs VFL WOLFSBURG</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG +0.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>52.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-21 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs FC SCHALKE 04</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>44.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-21 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs HANNOVER 96</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs ARMINIA BIELEFELD</td>
+	<td>4-2 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-20 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs FC AUGSBURG</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -0.25</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-15 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs FSV FRANKFURT</td>
+	<td>3-3 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs MONCHENGLADBACH</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs VFL WOLFSBURG</td>
+	<td>0-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.50</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs HANNOVER 96</td>
+	<td>4-2 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0.50</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-12-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs 1899 HOFFENHEIM</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-12-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs FC SCHALKE 04</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0.25</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-30 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs VFB STUTTGART</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs WERDER BREMEN</td>
+	<td>4-4 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN +1.00</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>71.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.75</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-24 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs FORTUNA DUSSELDORF</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs VFL WOLFSBURG</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs FC SCHALKE 04</td>
+	<td>3-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs SC FREIBURG</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-22 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs FSV FRANKFURT</td>
+	<td>1-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-15 18:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>SCHWEINFURT 05 vs 1 FC NUREMBERG II</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG II -1.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-09 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs 1 FC NUREMBERG</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +1.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs BORUSSIA DORTMUND</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>41.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs FC AUGSBURG</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs HAMBURGER SV</td>
+	<td>5-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs HERTHA BSC</td>
+	<td>2-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC +0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-11-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs MONCHENGLADBACH</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-11-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs SC FREIBURG</td>
+	<td>0-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-27 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs EINTRACHT FRANKFURT</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-27 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs ERZGEBIRGE AUE</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN -1.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1899 HOFFENHEIM</td>
+	<td>1-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 -0.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs BORUSSIA DORTMUND</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs FC AUGSBURG</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>43.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-19 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs MONCHENGLADBACH</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs SC FREIBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs 1 FSV MAINZ 05</td>
+	<td>4-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-10-19 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs VFL BOCHUM</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-10-05 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs BAYERN MUNICH</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-28 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs FC SCHALKE 04</td>
+	<td>3-3 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM +0.25</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>22.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-28 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs SC FREIBURG</td>
+	<td>5-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.75</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-23 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs FORTUNA DUSSELDORF</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-09-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs VFR AALEN</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>VFR AALEN +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-09-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs ERZGEBIRGE AUE</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>1860 MUNICH -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-18 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs BAYER LEVERKUSEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HAMBURGER SV +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs FC AUGSBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG -0.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-04 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs BAYERN MUNICH</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND +0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>28.20</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-04 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs FORTUNA DUSSELDORF</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -0.75</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-05-04 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1 FSV MAINZ 05</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-05-03 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs FC SCHALKE 04</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-27 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>29.40</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-27 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs VFB STUTTGART</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.25</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-27 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ALEMANNIA AACHEN vs 1 FC HEIDENHEIM</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC HEIDENHEIM -0.75</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>22.20</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-27 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs MSV DUISBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.90</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs FC SCHALKE 04</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs 1899 HOFFENHEIM</td>
+	<td>5-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>47.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-14 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC PADERBORN vs SSV JAHN REGENSBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-13 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs WERDER BREMEN</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-13 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs 1860 MUNICH</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC ST. PAULI +0</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>42.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-04-07 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs VFB STUTTGART</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-04-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs BAYERN MUNICH</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT +1.25</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>29.70</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-31 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs 1 FC KAISERSLAUTERN</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs BAYER LEVERKUSEN</td>
+	<td>1-4 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-30 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC INGOLSTADT vs MSV DUISBURG</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>69.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-28 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs 1860 MUNICH</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-17 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs HANNOVER 96</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-17 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs FC INGOLSTADT</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>39.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-16 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs FC SCHALKE 04</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-16 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs HERTHA BSC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-15 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC PADERBORN vs FSV FRANKFURT</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FSV FRANKFURT +0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-10 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs DYNAMO DRESDEN</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DYNAMO DRESDEN +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs BORUSSIA DORTMUND</td>
+	<td>2-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-08 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs 1 FC NUREMBERG</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-03 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs 1 FSV MAINZ 05</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-03-03 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs FC INGOLSTADT</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC INGOLSTADT +0.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-03-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs SC FREIBURG</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs BORUSSIA DORTMUND</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-24 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs SSV JAHN REGENSBURG</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ENERGIE COTTBUS -0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs WERDER BREMEN</td>
+	<td>6-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-17 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs VFB STUTTGART</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs HANNOVER 96</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>HANNOVER 96 +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-17 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>DYNAMO DRESDEN vs SV SANDHAUSEN</td>
+	<td>3-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>46.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-16 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs EINTRACHT FRANKFURT</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-16 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs FC AUGSBURG</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-10 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs 1 FSV MAINZ 05</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC AUGSBURG +0</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs BAYER LEVERKUSEN</td>
+	<td>3-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-09 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs WERDER BREMEN</td>
+	<td>1-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>59.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-08 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ERZGEBIRGE AUE vs FSV FRANKFURT</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-02 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs EINTRACHT FRANKFURT</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HAMBURGER SV -0.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs VFB STUTTGART</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>41.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs SC FREIBURG</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2013-02-02 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>STUTTGARTER KICKERS vs VFB STUTTGART II</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART II +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2013-02-01 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs HANNOVER 96</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN -0.25</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>44.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-16 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs 1 FC NUREMBERG</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-16 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs SSV JAHN REGENSBURG</td>
+	<td>4-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>39.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-16 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs SC PADERBORN</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SC PADERBORN +0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-15 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC INGOLSTADT vs FC ST. PAULI</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-15 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>HERTHA BSC vs FSV FRANKFURT</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +1.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>46.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-09 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BAYER LEVERKUSEN</td>
+	<td>3-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-09 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs ERZGEBIRGE AUE</td>
+	<td>0-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs GREUTHER FURTH</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>GREUTHER FURTH +1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs BAYERN MUNICH</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-08 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs FC SCHALKE 04</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-02 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs HAMBURGER SV</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -0.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-02 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>1-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>FSV FRANKFURT +0.25</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-01 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs BORUSSIA DORTMUND</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -0.75</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-12-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs 1 FC NUREMBERG</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-12-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs SC FREIBURG</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-30 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs EINTRACHT FRANKFURT</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-28 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs BAYER LEVERKUSEN</td>
+	<td>1-4 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-28 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs VFL WOLFSBURG</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG +0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-28 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs FC UNION BERLIN</td>
+	<td>1-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN +0</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>46.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-28 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs ENERGIE COTTBUS</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV SANDHAUSEN +0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-27 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs SSV JAHN REGENSBURG</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -1.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-24 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs HANNOVER 96</td>
+	<td>5-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>45.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-24 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>ENERGIE COTTBUS +0</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-24 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs 1 FC KAISERSLAUTERN</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FSV FRANKFURT +0.25</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-18 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs ERZGEBIRGE AUE</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs VFB STUTTGART</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-17 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs BAYERN MUNICH</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Under +3.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-16 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>DYNAMO DRESDEN vs FSV FRANKFURT</td>
+	<td>2-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>47.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-11 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs HANNOVER 96</td>
+	<td>2-4 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-10 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs EINTRACHT FRANKFURT</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-10 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>RW ERFURT vs CHEMNITZER FC</td>
+	<td>3-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RW ERFURT +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-10 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ALEMANNIA AACHEN vs HALLESCHER FC</td>
+	<td>0-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ALEMANNIA AACHEN -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-09 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs 1 FC NUREMBERG</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 -0.75</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>33.60</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-09 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs HERTHA BSC</td>
+	<td>1-6 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC -1.00</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>73.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-04 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs FORTUNA DUSSELDORF</td>
+	<td>3-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF +1.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs VFB STUTTGART</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs FC SCHALKE 04</td>
+	<td>3-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM +0.75</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>50.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-11-02 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SSV JAHN REGENSBURG vs SC PADERBORN</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SC PADERBORN +0</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>55.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-11-02 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs SV SANDHAUSEN</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.30</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-28 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs BAYER LEVERKUSEN</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.75</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-28 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs EINTRACHT FRANKFURT</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>23.40</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-28 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs SC PADERBORN</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-27 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs BORUSSIA DORTMUND</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-27 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs 1899 HOFFENHEIM</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FSV MAINZ 05 -0.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>58.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-27 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs HERTHA BSC</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-21 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs FSV FRANKFURT</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN -0.75</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>27.60</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs HANNOVER 96</td>
+	<td>3-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-20 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SPVGG UNTERHACHING vs RW ERFURT</td>
+	<td>2-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG UNTERHACHING -0.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-07 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BORUSSIA DORTMUND</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-07 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs VFR AALEN</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFR AALEN +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-07 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC INGOLSTADT vs 1 FC KAISERSLAUTERN</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -0.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-10-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs 1899 HOFFENHEIM</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-10-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs 1 FC NUREMBERG</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC NUREMBERG +0.25</td>
+	<td>2.21</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-09-30 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs FC INGOLSTADT</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC INGOLSTADT +0.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>33.00</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-09-29 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SV WEHEN WIESBADEN vs VFB STUTTGART II</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART II +0.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>31.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-09-28 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs FC SCHALKE 04</td>
+	<td>2-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 -0.25</td>
+	<td>1.69</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-30.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-09-25 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs SC PADERBORN</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-18 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs FC SCHALKE 04</td>
+	<td>1-4 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-03-18 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs VFL BOCHUM</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>30.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-03-18 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs HANSA ROSTOCK</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>KARLSRUHER SC -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-20.00</td>
+	<td>Half lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-25 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs 1 FC NUREMBERG</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WERDER BREMEN -0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-25 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs HERTHA BSC</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC +0</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-25 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1899 HOFFENHEIM</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -0.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-25 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs SC FREIBURG</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>18.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2012-02-25 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs ERZGEBIRGE AUE</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ENERGIE COTTBUS -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2012-02-25 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs VFL BOCHUM</td>
+	<td>6-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>24.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-09 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs FC SCHALKE 04</td>
+	<td>1-2 (1-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-07 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs BAYERN MUNICH</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY -0.75</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-12-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs HANNOVER 96</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-12-03 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs 1 FSV MAINZ 05</td>
+	<td>2-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>61.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-27 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs BAYERN MUNICH</td>
+	<td>3-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.25</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-27 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ENERGIE COTTBUS vs FC INGOLSTADT</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC INGOLSTADT +1.00</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-26 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs 1 FC KAISERSLAUTERN</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN +0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-26 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs EINTRACHT FRANKFURT</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>25.50</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-20 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs FSV FRANKFURT</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>GREUTHER FURTH -1.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>SC FREIBURG vs HERTHA BSC</td>
+	<td>2-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HERTHA BSC +0</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs HANNOVER 96</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>64.80</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-19 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs FORTUNA DUSSELDORF</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN +0.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>18.80</td>
+	<td>Half win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-05 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC NUREMBERG vs SC FREIBURG</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>50.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-11-05 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SV WEHEN WIESBADEN vs CHEMNITZER FC</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SV WEHEN WIESBADEN -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-11-05 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>JAHN REGENSBURG vs SPVGG UNTERHACHING</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-09-16 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SV WEHEN WIESBADEN vs WACKER BURGHAUSEN</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SV WEHEN WIESBADEN -0.50</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-09-16 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs HANSA ROSTOCK</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -1.00</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-08-05 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs FC INGOLSTADT</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF -0.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>43.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-21 20:00:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>MSV DUISBURG vs FC SCHALKE 04</td>
+	<td>0-5 (0-3)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>63.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-05-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC KAISERSLAUTERN vs WERDER BREMEN</td>
+	<td>3-2 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC KAISERSLAUTERN -0.25</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>83.20</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-05-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs EINTRACHT FRANKFURT</td>
+	<td>3-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -0.75</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>62.40</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-29 18:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>HERTHA BSC vs 1860 MUNICH</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2011-04-24 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs ARMINIA BIELEFELD</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF -1.25</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2011-04-16 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>DYNAMO DRESDEN vs TUS KOBLENZ</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DYNAMO DRESDEN -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Knipser</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+</tbody>
+
+</table>

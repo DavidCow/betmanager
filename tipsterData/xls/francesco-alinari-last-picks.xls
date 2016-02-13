@@ -1,0 +1,5339 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs SSC NAPOLI</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>119.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:42:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs US SASSUOLO</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>215.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-13 11:54:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 16:00:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>CELTIC FC vs ROSS COUNTY FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>CELTIC FC -1.50 Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-13 11:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>TERNANA CALCIO vs SPORTIVA SALERNITANA</td>
+	<td>4-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>TERNANA CALCIO</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-13 14:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS ENTELLA vs TRAPANI CALCIO</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-13 14:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>COMO CALCIO vs NOVARA CALCIO</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>NOVARA CALCIO</td>
+	<td>2.58</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-13 09:50:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs MELBOURNE VICTORY</td>
+	<td>2-2 (2-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.50 Half time</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:44:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-12 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs AS ROMA</td>
+	<td>1-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>97.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-12 20:30:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>RACING STRASBOURG vs SEDAN-ARDENNES</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RACING STRASBOURG -1.50</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>210.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 17:33:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-12 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs FC SCHALKE 04</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 17:29:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-12 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>CHAMOIS NIORT FC vs STADE BREST</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 17:28:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-12 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>PARIS FC 98 vs OLYMPIQUE NIMES</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>213.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 17:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-12 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>FENERBAHCE vs KASIMPASA</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FENERBAHCE -1.50</td>
+	<td>2.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>152.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 17:25:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-12 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs NEWCASTLE UNITED JETS FC</td>
+	<td>2-2 (1-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BRISBANE ROAR FC -1.00 Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-12 09:30:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-11 19:45:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BASAKSEHIR FK vs CAYKUR RIZESPOR</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 09:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-11 18:45:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>AL MOQAWLOON AL ARAB vs EL DAKLYEH</td>
+	<td>3-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-11 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>EL-ENTAG EL-HARBY vs ISMAILY SC</td>
+	<td>3-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-11 15:00:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia Lega Pro, Final Round</td>
+	<td>ROBUR SIENA vs TERAMO CALCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 09:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-11 13:30:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ASWAN FC vs AL ITTIHAD AL SAKANDARY</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-11 10:26:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 21:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>VALENCIA CF vs FC BARCELONA</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>FC BARCELONA Half time</td>
+	<td>2.56</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-10 11:34:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 19:00:00</td>
+	<td>France</td>
+	<td>Coupe de France</td>
+	<td>FC GIRONDINS BORDEAUX vs FC NANTES</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>220.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-10 16:51:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 18:45:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>CS MARITIMO MADEIRA vs PORTIMONENSE SC</td>
+	<td>3-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.64</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-10 09:54:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 15:00:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia Lega Pro, Final Round</td>
+	<td>US CREMONESE vs ALESSANDRIA CALCIO</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-10 09:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-10 14:00:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia Lega Pro, Final Round</td>
+	<td>AKRAGAS vs US FOGGIA</td>
+	<td>4-5 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>260.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-10 09:40:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs SAMPDORIA GENOA</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>AS ROMA -1.50</td>
+	<td>2.49</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-07 17:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-07 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GRANADA CF vs REAL MADRID</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.50</td>
+	<td>2.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-07 12:18:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC MILAN vs UDINESE CALCIO</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AC MILAN -1.50</td>
+	<td>2.57</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-07 09:35:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-07 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs INTER MILAN</td>
+	<td>3-3 (2-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>3.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-07 09:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 07:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>NEWCASTLE UNITED JETS FC vs MELBOURNE CITY FC</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>MELBOURNE CITY FC Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-07 01:00:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS LIVORNO vs TERNANA CALCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-06 14:12:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs WESTERN SYDNEY</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>MELBOURNE VICTORY Over +0.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 14:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 07:15:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs CENTRAL COAST MARINERS FC</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BRISBANE ROAR FC -1.00 Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>200.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 14:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRIGHTON & HOVE ALBION FC vs BRENTFORD FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>BRIGHTON & HOVE ALBION FC</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 12:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC BARI 1908 vs FC CROTONE</td>
+	<td>2-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>3.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>213.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 10:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs SC FREIBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>VFL BOCHUM Half time</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>188.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 14:39:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>AALBORG BK vs SKIVE IK</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>SKIVE IK</td>
+	<td>3.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 11:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs SYDNEY FC</td>
+	<td>2-2 (2-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>220.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-05 09:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC FIORENTINA vs CARPI FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>AC FIORENTINA -1.50</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-03 11:57:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs GENOA FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -2.00</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-03 11:55:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ISMAILY SC vs EL ZAMALEK</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>EL ZAMALEK</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-03 12:00:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-02 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs AS ROMA</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-02 09:24:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LEICESTER CITY vs LIVERPOOL FC</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-02-02 09:20:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs ESPANYOL BARCELONA</td>
+	<td>6-0 (4-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>REAL MADRID -1.75 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-31 16:12:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs AC FIORENTINA</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-31 14:25:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 12:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>RODA JC KERKRADE vs AJAX AMSTERDAM</td>
+	<td>2-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>AJAX AMSTERDAM -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-31 11:21:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs JUVENTUS TURIN</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.50</td>
+	<td>2.46</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>146.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-31 11:02:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 12:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>FC PORTO B vs LEIXOES SC</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-30 22:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs PERUGIA</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-29 22:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 14:30:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AC HAVRE vs RC LENS</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.12</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-30 14:36:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>WESTERN SYDNEY vs MELBOURNE CITY FC</td>
+	<td>4-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>3.60</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>260.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-27 08:16:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs AS ROMA</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>JUVENTUS TURIN Over +0.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-24 10:36:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>BETIS SEVILLA vs REAL MADRID</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-24 10:39:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC FIORENTINA vs TURIN FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>AC FIORENTINA -1.50</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-24 10:35:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ATHLETIC BILBAO vs SD EIBAR</td>
+	<td>5-2 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC BILBAO -1.50</td>
+	<td>3.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>202.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-24 10:34:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FC EMPOLI vs AC MILAN</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>AC MILAN -0.50</td>
+	<td>2.48</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-23 17:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FROSINONE CALCIO vs ATALANTA BERGAMASCA</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>ATALANTA BERGAMASCA Under +0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-23 16:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>GILLINGHAM FC vs PETERBOROUGH UNITED</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>5.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-23 11:42:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BIRMINGHAM CITY vs IPSWICH TOWN</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-23 11:39:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CAGLIARI CALCIO vs TERNANA CALCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>CAGLIARI CALCIO Over +0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-21 16:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 12:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>CLUBE ORIENTAL DE LISBOA vs FC PORTO B</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-23 10:05:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPORTIVA SALERNITANA vs BRESCIA CALCIO</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-22 15:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs BAYERN MUNICH</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BAYERN MUNICH -0.75 Half time</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>42.50</td>
+	<td>Half win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-22 15:55:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-21 11:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>AMEDSPOR vs BANDIRMASPOR</td>
+	<td>3-3 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-21 09:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-20 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>LAZIO ROMA vs JUVENTUS TURIN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-20 13:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-19 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>CELTIC FC vs HAMILTON ACADEMICAL</td>
+	<td>8-1 (5-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>CELTIC FC -1.50 Half time</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>185.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-19 13:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-19 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PERUGIA vs VICENZA CALCIO</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PERUGIA</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-19 13:49:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-17 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>LAS PALMAS UD vs ATLETICO MADRID</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under Team</td>
+	<td>ATLETICO MADRID Over +1.50</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>99.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 14:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs SAMPDORIA GENOA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 11:01:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>UDINESE CALCIO vs JUVENTUS TURIN</td>
+	<td>0-4 (0-4)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.50</td>
+	<td>2.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>196.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 09:26:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs LAZIO ROMA</td>
+	<td>2-2 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 09:22:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs HELLAS VERONA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>AS ROMA -0.50 Half time</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 09:21:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-17 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs US PALERMO</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>GENOA FC</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-17 09:17:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-16 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SSC NAPOLI vs US SASSUOLO</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>SSC NAPOLI -1.50</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>94.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-16 16:20:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-16 18:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs LEICESTER CITY</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>253.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-16 16:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-16 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs LEVANTE UD</td>
+	<td>4-3 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CELTA DE VIGO -1.50</td>
+	<td>2.66</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-16 16:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-16 11:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>PERTH GLORY FC vs MELBOURNE CITY FC</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE CITY FC</td>
+	<td>2.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-15 16:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-16 07:15:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs CENTRAL COAST MARINERS FC</td>
+	<td>3-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ADELAIDE UNITED FC -1.50</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>123.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-15 16:22:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-15 21:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>SPORTING CP vs CD TONDELA</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SPORTING CP -1.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-15 16:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-15 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>DUNDEE UNITED vs CELTIC FC</td>
+	<td>1-4 (1-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>CELTIC FC -0.50 Half time</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-15 11:33:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-15 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>DIJON FCO vs BOURG PERONNAS</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-15 17:56:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-14 18:45:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>EL DAKLYEH vs AL AHLY CAIRO</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-14 12:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-14 17:30:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>ESKISEHIRSPOR vs BUYUK. TEPECIKSPOR</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-14 09:48:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-14 16:00:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>ISMAILY SC vs SMOUHA SC</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>203.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-14 12:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-14 11:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>AMEDSPOR vs SANLIURFASPOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AMEDSPOR -1.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-14 09:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 21:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LIVERPOOL FC vs ARSENAL FC</td>
+	<td>3-3 (2-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 11:12:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-13 19:30:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>MERSIN IDMAN YURDU SK vs BUCASPOR</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BUCASPOR</td>
+	<td>4.00</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>300.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 17:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 18:45:00</td>
+	<td>France</td>
+	<td>Coupe de la Ligue</td>
+	<td>EA GUINGAMP vs LILLE OSC</td>
+	<td>2-4 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +1.50</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 16:34:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-13 18:45:00</td>
+	<td>Egypt</td>
+	<td>Premier League</td>
+	<td>TALAEA EL GAISH vs ENPPI CLUB</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 10:34:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-13 17:00:00</td>
+	<td>France</td>
+	<td>Coupe de la Ligue</td>
+	<td>TOULOUSE FC vs OLYMPIQUE MARSEILLE</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>243.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 16:28:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-13 15:30:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BOLUSPOR vs BURSASPOR</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BOLUSPOR</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-13 09:59:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SAMPDORIA GENOA vs JUVENTUS TURIN</td>
+	<td>1-2 (0-1)</td>
+	<td>European handicap</td>
+	<td>Draw +2.00</td>
+	<td>4.50</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 17:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs US PALERMO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>US PALERMO +0</td>
+	<td>2.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>153.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 14:33:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs GENOA FC</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 10:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 15:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>CARLISLE UNITED vs YEOVIL TOWN</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 10:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs FC EMPOLI</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>TURIN FC</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 13:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>OXFORD UNITED vs SWANSEA CITY</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 12:46:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>INTER MILAN vs US SASSUOLO</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 09:26:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-10 12:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>CD FEIRENSE vs SPORTING LISBON B</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CD FEIRENSE</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 09:45:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-10 12:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VILLARREAL CF vs SPORTING GIJON</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VILLARREAL CF -1.50</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>154.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-10 09:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-09 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs AC MILAN</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.54</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>254.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-09 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC FIORENTINA vs LAZIO ROMA</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:13:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-09 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>VEROIA FC vs PANTHRAKIKOS FC KOMOTINI</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PANTHRAKIKOS FC KOMOTINI</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-09 14:48:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-09 14:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>RED STAR FC vs RC LENS</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-09 09:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-09 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs WESTERN SYDNEY</td>
+	<td>3-2 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-09 09:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-08 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs SC BASTIA</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>PARIS ST GERMAIN -1.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>PARIS FC 98 vs TOURS FC</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>2.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 16:25:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>OLYMPIQUE NIMES vs STADE BREST</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:17:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AS NANCY vs STADE LAVALLOIS MFC</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 15:16:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-08 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>CENTRAL COAST MARINERS FC vs MELBOURNE VICTORY</td>
+	<td>3-3 (3-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>MELBOURNE VICTORY Half time</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-08 09:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 21:15:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC PORTO vs RIO AVE FC</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FC PORTO -1.50 Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-06 17:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>FC BARCELONA vs ESPANYOL BARCELONA</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FC BARCELONA -1.50 Half time</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-06 17:04:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 18:30:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>KALLONI AEL FC vs PAOK FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>48.50</td>
+	<td>Half win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-06 17:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs CARPI FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under Team</td>
+	<td>CARPI FC Over +0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-06 10:05:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs AC FIORENTINA</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 11:12:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs AS ROMA</td>
+	<td>3-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.41</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>241.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 11:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC MILAN vs BOLOGNA FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AC MILAN -1.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 11:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs HELLAS VERONA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.75</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 11:06:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-06 12:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>ATHLETIC BILBAO vs VILLARREAL CF</td>
+	<td>3-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ATHLETIC BILBAO</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-06 09:33:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-05 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs SAMPDORIA GENOA</td>
+	<td>2-3 (0-2)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 10:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-05 16:15:00</td>
+	<td>Greece</td>
+	<td>Greece Cup</td>
+	<td>LARISSA vs ASTERAS TRIPOLIS</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>128.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-05 15:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs NEWCASTLE UNITED</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -1.75</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-02 09:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-02 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WEST HAM UNITED vs LIVERPOOL FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WEST HAM UNITED +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-02 09:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-02 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs SYDNEY FC</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE CITY FC</td>
+	<td>2.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2016-01-02 08:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-30 21:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>FC FAMALICAO vs CD FEIRENSE</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC FAMALICAO</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 16:38:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-30 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>MOTHERWELL FC vs FC ST JOHNSTONE</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 17:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-30 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>HEART OF MIDLOTHIAN vs DUNDEE UNITED</td>
+	<td>3-2 (3-2)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>HEART OF MIDLOTHIAN Over +0.50</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 17:07:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-30 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>ABERDEEN FC vs PARTICK THISTLE</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>ABERDEEN FC Over +0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 17:03:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-30 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>FC BARCELONA vs BETIS SEVILLA</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>FC BARCELONA Over +1.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 16:30:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-30 17:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>INTER MILAN vs PARIS ST GERMAIN</td>
+	<td>0-1 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 17:02:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-30 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs REAL SOCIEDAD</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>REAL MADRID -1.00 Half time</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-30 09:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 21:00:00</td>
+	<td>Portugal</td>
+	<td>League Cup, Phase 3, Gr. C</td>
+	<td>SPORTING CP vs FC PACOS FERREIRA</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>188.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 18:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-29 20:45:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>BENFICA LISBON vs CD NACIONAL</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 17:59:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>FULHAM FC vs ROTHERHAM UNITED</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>200.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 11:12:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>LEEDS UNITED vs DERBY COUNTY</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>244.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 11:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>CARDIFF CITY vs NOTTINGHAM FOREST</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>CARDIFF CITY Half time</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 10:58:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-29 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRIGHTON & HOVE ALBION FC vs IPSWICH TOWN</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>IPSWICH TOWN Half time</td>
+	<td>4.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>340.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 10:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-29 19:00:00</td>
+	<td>Portugal</td>
+	<td>Carlsberg Cup</td>
+	<td>FC PORTO vs CS MARITIMO MADEIRA</td>
+	<td>1-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.75</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-29 17:58:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 19:00:00</td>
+	<td>Portugal</td>
+	<td>League Cup, Phase 3, Gr. C</td>
+	<td>PORTIMONENSE SC vs FC AROUCA</td>
+	<td>4-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-28 14:13:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-28 18:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs BOURNEMOUTH AFC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -2.50</td>
+	<td>4.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-28 09:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>WALSALL FC vs PETERBOROUGH UNITED</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.66</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-28 14:14:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>MANSFIELD TOWN vs YORK CITY</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MANSFIELD TOWN -1.50</td>
+	<td>2.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-28 10:40:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-28 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>READING FC vs BRENTFORD FC</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-28 09:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>BESIKTAS JK vs KONYASPOR</td>
+	<td>4-0 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>KONYASPOR Half time</td>
+	<td>7.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 17:18:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 17:30:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>NOTTINGHAM FOREST vs LEEDS UNITED</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>232.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 16:49:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS LANCIANO vs AS LIVORNO</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 14:09:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs NOVARA CALCIO</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 14:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>ASCOLI vs SPEZIA CALCIO</td>
+	<td>3-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SPEZIA CALCIO</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 09:34:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 15:00:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>HEART OF MIDLOTHIAN vs CELTIC FC</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CELTIC FC -1.75</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 09:13:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 13:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>BURSASPOR vs MERSIN IDMAN YURDU SK</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BURSASPOR -2.50</td>
+	<td>3.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 09:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>LATINA CALCIO vs PESCARA CALCIO</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>163.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-27 09:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-27 09:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs MELBOURNE CITY FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE CITY FC</td>
+	<td>3.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 15:06:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-27 07:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs PERTH GLORY FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>MELBOURNE VICTORY -0.75 Half time</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>69.00</td>
+	<td>Half win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 16:53:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 18:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>NEWCASTLE UNITED vs EVERTON FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 16:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 18:15:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>WOLVERHAMPTON WANDERERS vs READING FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 14:02:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KASIMPASA vs TRABZONSPOR</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 16:55:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs SUNDERLAND AFC</td>
+	<td>4-1 (3-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>MANCHESTER CITY -1.50 Half time</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>185.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 15:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LIVERPOOL FC vs LEICESTER CITY</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>LEICESTER CITY +0 Half time</td>
+	<td>2.51</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 15:40:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>LINCOLN CITY vs HALIFAX TOWN</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 14:04:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 13:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>CAYKUR RIZESPOR vs BASAKSEHIR FK</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 09:30:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 12:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>BOLUSPOR vs MALATYA BLD SPOR</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-26 09:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-24 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BURSASPOR vs ESKISEHIRSPOR</td>
+	<td>4-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-24 11:45:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-24 13:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPORTIVA SALERNITANA vs CAGLIARI CALCIO</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CAGLIARI CALCIO</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-24 09:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-24 12:45:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>SIVAS BELEDIYE SPOR vs BESIKTAS JK</td>
+	<td>0-2 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.95</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-24 11:43:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs TRAPANI CALCIO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC CROTONE -1.00</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-23 10:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPEZIA CALCIO vs COMO CALCIO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SPEZIA CALCIO -1.00</td>
+	<td>2.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-23 10:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-22 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS AVELLINO vs VIRTUS ENTELLA</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AS AVELLINO</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-22 09:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>INTER MILAN vs LAZIO ROMA</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-20 14:29:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-20 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>MALAGA CF vs ATLETICO MADRID</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-20 17:55:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 16:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>GIL VICENTE FC vs CD FEIRENSE</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-20 12:01:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-20 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>READING FC vs BLACKBURN ROVERS</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-20 11:55:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs JUVENTUS TURIN</td>
+	<td>2-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.50</td>
+	<td>2.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-20 09:44:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-19 19:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PSV EINDHOVEN vs PEC ZWOLLE</td>
+	<td>3-2 (2-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>PSV EINDHOVEN -1.00 Half time</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-19 15:42:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-19 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>BRESCIA CALCIO vs SPEZIA CALCIO</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BRESCIA CALCIO +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-19 09:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-19 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs MELBOURNE VICTORY</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>MELBOURNE CITY FC +0 Half time</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-18 14:48:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-18 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PERUGIA vs AS LIVORNO</td>
+	<td>4-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>PERUGIA</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-18 09:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-18 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>NEWCASTLE UNITED JETS FC vs ADELAIDE UNITED FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +1.00 Half time</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-18 07:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-17 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>WOLVERHAMPTON WANDERERS vs LEEDS UNITED</td>
+	<td>2-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-17 10:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-16 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>JUVENTUS TURIN vs TURIN FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-16 17:02:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-16 14:30:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>AS ROMA vs SPEZIA CALCIO</td>
+	<td>2-4 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AS ROMA -1.50</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-16 13:55:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-16 11:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>PERTH GLORY FC vs MELBOURNE VICTORY</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE VICTORY -0.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-15 12:43:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-15 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League, Playoffs</td>
+	<td>FC GOA vs DELHI DYNAMOS FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC GOA</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-15 09:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-13 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs AC FIORENTINA</td>
+	<td>3-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -0.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-13 11:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-12 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>UDINESE CALCIO vs INTER MILAN</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>INTER MILAN -0.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-11 12:41:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-12 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPEZIA CALCIO vs LATINA CALCIO</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SPEZIA CALCIO</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-12 11:58:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-12 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPORTIVA SALERNITANA vs ASCOLI</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SPORTIVA SALERNITANA</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-12 11:57:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-11 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>WOLVERHAMPTON WANDERERS vs NOTTINGHAM FOREST</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>240.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-11 10:50:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>OLYMPIACOS FC vs ARSENAL FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL FC</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>112.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-09 14:12:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>NK DINAMO ZAGREB vs BAYERN MUNICH</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-09 14:10:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-09 18:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS LANCIANO vs CAGLIARI CALCIO</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>CAGLIARI CALCIO</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>99.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-09 14:15:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-09 18:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>SPEZIA CALCIO vs VICENZA CALCIO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VICENZA CALCIO +0.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-09 14:13:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-08 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>REAL MADRID vs MALMO FF</td>
+	<td>8-0 (3-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>REAL MADRID Over +1.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-08 12:41:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-08 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AC CESENA vs TRAPANI CALCIO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC CESENA</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-08 12:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-06 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs AC MILAN</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC MILAN</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-02 16:07:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-06 17:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CAGLIARI CALCIO vs COMO CALCIO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CAGLIARI CALCIO -1.50</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-04 17:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-06 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs US PALERMO</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ATALANTA BERGAMASCA</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-06 11:23:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PRO VERCELLI vs TERNANA CALCIO</td>
+	<td>1-2 </td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-05 11:41:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs AC CESENA</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC CROTONE</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>131.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-05 11:32:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>FC PUNE CITY vs CHENNAIYIN FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.65</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-05 11:31:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 07:15:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>WELLINGTON PHOENIX FC vs MELBOURNE VICTORY</td>
+	<td>2-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE VICTORY</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-04 16:58:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-04 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>ATLETICO DE KOLKATA vs MUMBAI CITY FC</td>
+	<td>2-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>163.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-04 11:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-03 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>STADE RENNES vs OLYMPIQUE MARSEILLE</td>
+	<td>0-1 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.90</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-03 18:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-03 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>DELHI DYNAMOS FC vs KERALA BLASTERS FC</td>
+	<td>3-3 (2-3)</td>
+	<td>Match Odds</td>
+	<td>DELHI DYNAMOS FC</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-02 12:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-03 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>CENTRAL COAST MARINERS FC vs MELBOURNE CITY FC</td>
+	<td>1-5 (0-2)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE CITY FC</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-02 12:58:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-02 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>NORTHEAST UNITED FC vs FC PUNE CITY</td>
+	<td>3-2 (3-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>NORTHEAST UNITED FC Half time</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-12-02 12:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-30 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SSC NAPOLI vs INTER MILAN</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SSC NAPOLI</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-30 10:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-29 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FC EMPOLI vs LAZIO ROMA</td>
+	<td>1-0 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-27 14:25:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-29 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs ATALANTA BERGAMASCA</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under Team</td>
+	<td>AS ROMA Over +1.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-27 14:23:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-28 15:30:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>RFK TEREK GROZNY vs ZENIT ST PETERSBURG</td>
+	<td>4-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ZENIT ST PETERSBURG</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-27 14:18:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>JUVENTUS TURIN vs MANCHESTER CITY</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.37</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-25 15:20:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MALMO FF vs PARIS ST GERMAIN</td>
+	<td>0-5 (0-2)</td>
+	<td>Match Odds 1st Half</td>
+	<td>PARIS ST GERMAIN Half time</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-20 15:47:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-24 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ZENIT ST PETERSBURG vs VALENCIA CF</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>ZENIT ST PETERSBURG Half time</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:32:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-23 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CAGLIARI CALCIO vs ASCOLI</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CAGLIARI CALCIO -1.00</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:29:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-22 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>INTER MILAN vs FROSINONE CALCIO</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>INTER MILAN -0.75 Half time</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>45.00</td>
+	<td>Half win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-22 17:37:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-22 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs US SASSUOLO</td>
+	<td>2-1 (0-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:30:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-22 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs US PALERMO</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:28:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-21 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC CROTONE vs TERNANA CALCIO</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC CROTONE -0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-21 14:30:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>ZENIT ST PETERSBURG vs FC URAL YEKATERINBURG</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>ZENIT ST PETERSBURG Half time</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>92.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-20 20:45:00</td>
+	<td>Scotland</td>
+	<td>First Division</td>
+	<td>FC ST MIRREN vs GREENOCK MORTON FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC ST MIRREN</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-20 16:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-20 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>MIDDLESBROUGH FC vs QUEENS PARK RANGERS</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MIDDLESBROUGH FC</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-20 16:54:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-20 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>NORTHEAST UNITED FC vs MUMBAI CITY FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-20 12:03:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-20 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs MELBOURNE CITY FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BRISBANE ROAR FC -0.25</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:26:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-19 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs CENTRAL COAST MARINERS FC</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE VICTORY -1.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-18 10:25:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-17 20:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ITALY vs ROMANIA</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ITALY</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-17 11:39:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 20:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>AUSTRIA vs SWITZERLAND</td>
+	<td>1-2 (1-2)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-17 10:07:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-15 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AC CESENA vs FC BARI 1908</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AC CESENA -0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-15 10:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-15 16:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>PORTUGAL vs GREECE</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>PORTUGAL Half time</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-14 14:06:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-15 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>VIRTUS LANCIANO vs FC CROTONE</td>
+	<td>1-1 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-15 11:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-15 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>ASCOLI vs PERUGIA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-15 09:49:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-15 07:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs PERTH GLORY FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BRISBANE ROAR FC -0.25 Half time</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-14 14:05:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-14 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>UKRAINE vs SLOVENIA</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>UKRAINE</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-14 14:01:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-13 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>GERMANY vs AZERBAIJAN</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>GERMANY -1.50 Half time</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-13 14:32:17</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-13 14:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>KOSOVO vs ALBANIA</td>
+	<td>2-2 (0-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-13 09:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>NORWAY vs HUNGARY</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>NORWAY</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-12 17:21:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-12 15:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>TURKEY vs AZERBAIJAN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>TURKEY -0.25 Half time</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-12 09:37:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SAMPDORIA GENOA vs AC FIORENTINA</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SAMPDORIA GENOA +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-06 09:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>PAOK FC vs PANTHRAKIKOS FC KOMOTINI</td>
+	<td>3-3 (1-2)</td>
+	<td>Match Odds 1st Half</td>
+	<td>PANTHRAKIKOS FC KOMOTINI Half time</td>
+	<td>7.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>600.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-08 13:05:38</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs CARPI FC</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>US SASSUOLO</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-06 09:30:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FC EMPOLI vs JUVENTUS TURIN</td>
+	<td>1-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-06 09:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-08 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs INTER MILAN</td>
+	<td>0-1 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-06 09:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-08 11:00:00</td>
+	<td>Italy</td>
+	<td>Campionato Primavera, Girone A</td>
+	<td>JUVENTUS TURIN vs SASSUOLO</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Over +1.25 Half time</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-08 09:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs BOLOGNA FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.75 Half time</td>
+	<td>2.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-06 09:27:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CAGLIARI CALCIO vs FC MODENA</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>CAGLIARI CALCIO -1.00</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-07 10:12:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-05 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>KKS LECH POZNAN vs AC FIORENTINA</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-30 16:17:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-05 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>CHENNAIYIN FC vs FC GOA</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-05 14:17:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-05 10:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs MELBOURNE CITY FC</td>
+	<td>2-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-04 12:15:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-05 01:10:00</td>
+	<td>Argentina</td>
+	<td>Copa Argentina</td>
+	<td>CA ROSARIO CENTRAL vs BOCA JUNIORS</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-04 09:32:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-04 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>CHELSEA FC vs FC DYNAMO KIEV</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-04 09:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-04 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS ROMA vs BAYER LEVERKUSEN</td>
+	<td>3-2 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>70.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:42:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-04 18:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs FC NANTES</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>OGC NICE</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-04 09:37:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BENFICA LISBON vs GALATASARAY ISTANBUL</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>BENFICA LISBON Half time</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:39:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-03 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC SHAKHTAR DONETSK vs MALMO FF</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>FC SHAKHTAR DONETSK Half time</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:38:20</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>SEVILLA FC vs MANCHESTER CITY</td>
+	<td>1-3 (1-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>79.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:38:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-03 18:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>NOVARA CALCIO vs PESCARA CALCIO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:50:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-03 16:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC ASTANA vs ATLETICO MADRID</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO MADRID -1.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:36:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-03 14:30:00</td>
+	<td>India</td>
+	<td>Indian Super League</td>
+	<td>DELHI DYNAMOS FC vs NORTHEAST UNITED FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-11-03 11:46:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs AC MILAN</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>78.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-29 15:10:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs SSC NAPOLI</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SSC NAPOLI</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-29 15:08:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CARPI FC vs HELLAS VERONA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-29 15:07:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-01 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs ATALANTA BERGAMASCA</td>
+	<td>3-0 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-29 15:07:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-01 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC FIORENTINA vs FROSINONE CALCIO</td>
+	<td>4-1 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>AC FIORENTINA -1.50</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-29 15:06:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-31 17:55:00</td>
+	<td>Hungary</td>
+	<td>NB I</td>
+	<td>FERENCVAROSI TC vs SC VASAS BUDAPEST</td>
+	<td>5-1 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +6.50</td>
+	<td>5.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td></td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-31 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs ADELAIDE UNITED FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>BRISBANE ROAR FC</td>
+	<td>2.26</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>126.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-31 09:12:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-29 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>SAMPDORIA GENOA vs FC EMPOLI</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SAMPDORIA GENOA</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:10:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs LAZIO ROMA</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>LAZIO ROMA +0</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:09:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs JUVENTUS TURIN</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:07:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AS ROMA vs UDINESE CALCIO</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>AS ROMA -1.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:06:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC MILAN vs AC CHIEVO VERONA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC MILAN</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:05:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-28 09:30:00</td>
+	<td>Australia</td>
+	<td>FFA Cup</td>
+	<td>HUME CITY vs MELBOURNE VICTORY</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE VICTORY -2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-28 09:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-27 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs INTER MILAN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-27 10:14:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC MILAN vs US SASSUOLO</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>107.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-25 13:04:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-24 17:00:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>CS VOLUNTARI vs FC PETROLUL PLOIESTI</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-24 16:37:21</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs SHAMROCK ROVERS FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>LIMERICK 37 FC</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-23 17:30:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AJ AUXERRE vs RED STAR FC 93</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-23 09:21:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-23 10:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>NEWCASTLE UNITED JETS FC vs MELBOURNE VICTORY</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE VICTORY</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-23 09:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SPORTING BRAGA vs OLYMPIQUE MARSEILLE</td>
+	<td>3-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-22 18:08:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>APOEL NICOSIA FC vs ASTERAS TRIPOLIS</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>APOEL NICOSIA FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-22 18:09:25</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC LOKOMOTIV MOSCOW vs BESIKTAS JK</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>220.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-22 18:07:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC BASEL vs CF OS BELENENSES</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>FC BASEL -2.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-22 18:05:15</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-22 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AC FIORENTINA vs KKS LECH POZNAN</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AC FIORENTINA -2.25</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-22 18:05:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs SEVILLA FC</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>MANCHESTER CITY</td>
+	<td>1.62</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>62.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-21 15:52:45</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>CSKA MOSCOW vs MANCHESTER UTD</td>
+	<td>1-1 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-21 15:51:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ATLETICO MADRID vs FC ASTANA</td>
+	<td>4-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.41</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>141.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-21 15:50:30</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>JUVENTUS TURIN vs MONCHENGLADBACH</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-21 15:49:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 16:00:00</td>
+	<td>Ukraine</td>
+	<td>Premier League</td>
+	<td>CHERNOMORETS ODESSA vs FC METALURG ZAPORIZHYA</td>
+	<td>5-2 (3-1)</td>
+	<td>Match Odds</td>
+	<td>CHERNOMORETS ODESSA</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>67.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 11:34:19</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs AC CHIEVO VERONA</td>
+	<td>3-2 (2-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-18 14:00:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs LAZIO ROMA</td>
+	<td>2-1 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-18 11:53:26</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs CARPI FC</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ATALANTA BERGAMASCA</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-18 09:58:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>BOLOGNA FC vs US PALERMO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.75 Half time</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-18 09:57:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs ASCOLI</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC MODENA</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>97.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 11:45:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>US LECCE vs ISCHIA ISOLAVERDE</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>US LECCE</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>67.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 10:41:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>PRO VERCELLI vs VICENZA CALCIO</td>
+	<td>2-1 (2-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 09:07:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-17 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>NOVARA CALCIO vs CAGLIARI CALCIO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CAGLIARI CALCIO +0</td>
+	<td>1.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 09:04:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-17 14:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>DIJON FCO vs EVIAN TG FC</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-17 09:09:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-16 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS AVELLINO vs BRESCIA CALCIO</td>
+	<td>3-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>AS AVELLINO</td>
+	<td>3.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>229.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-16 16:26:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-16 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>FC SOCHAUX vs TOURS FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Francesco Alinari</td>
+		<td>Football</td>
+		<td>2015-10-16 16:31:02</td>
+	</tr>
+</tbody>
+
+</table>

@@ -1,0 +1,7895 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs US SASSUOLO</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>US SASSUOLO</td>
+	<td>2.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-02-12 21:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SWANSEA CITY vs SOUTHAMPTON FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SWANSEA CITY</td>
+	<td>3.34</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-02-12 21:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs LAZIO ROMA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>232.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-02-05 22:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-04 17:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>ROVANIEMI PALLOSEURA vs KUOPIO PS</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>4.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-02-04 10:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs JUVENTUS TURIN</td>
+	<td>0-4 (0-2)</td>
+	<td>Match Odds 1st Half</td>
+	<td>JUVENTUS TURIN Half time</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-01-30 20:39:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 22:05:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL SOCIEDAD vs BETIS SEVILLA</td>
+	<td>2-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-01-30 18:59:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-20 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>LAZIO ROMA vs JUVENTUS TURIN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-01-19 21:20:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-07 20:30:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>SD EIBAR vs LAS PALMAS UD</td>
+	<td>2-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>4.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>350.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-01-06 20:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-05 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs SAMPDORIA GENOA</td>
+	<td>2-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>SAMPDORIA GENOA</td>
+	<td>3.61</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>261.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2016-01-04 22:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-26 18:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>NEWCASTLE UNITED vs EVERTON FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>NEWCASTLE UNITED</td>
+	<td>3.42</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-25 23:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-26 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>CHELSEA FC vs WATFORD FC</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>CHELSEA FC Half time</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-25 22:27:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-20 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC GIRONDINS BORDEAUX vs OLYMPIQUE MARSEILLE</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE MARSEILLE</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-20 17:14:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>MALAGA CF vs ATLETICO MADRID</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-20 11:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-20 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL SOCIEDAD vs VILLARREAL CF</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VILLARREAL CF</td>
+	<td>3.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>235.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-20 17:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-20 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs RAYO VALLECANO</td>
+	<td>10-2 (4-2)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-20 12:03:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-05 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SWANSEA CITY vs LEICESTER CITY</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>SWANSEA CITY</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-05 12:14:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-12-05 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>TURIN FC vs AS ROMA</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-12-05 12:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-12-01 01:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division</td>
+	<td>O'HIGGINS FC vs COBRESAL</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>O'HIGGINS FC Half time</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-30 22:50:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-18 22:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>GOIAS GO vs CORITIBA PR</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>GOIAS GO</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-18 12:12:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-17 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup Qualification, Playoffs</td>
+	<td>DENMARK vs SWEDEN</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>DENMARK</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-16 12:45:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-16 20:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ALBANIA vs GEORGIA</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>ALBANIA Half time</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-16 16:52:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>MONTPELLIER HSC vs FC NANTES</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-07 12:25:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-11-07 18:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>STOKE CITY vs CHELSEA FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-07 12:23:40</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-11-07 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs BOLOGNA FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Under +0.50</td>
+	<td>8.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-11-07 12:28:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-30 03:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>PORTLAND TIMBERS vs SPORTING KANSAS CITY</td>
+	<td>9-8 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-29 18:26:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-30 00:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>MONTREAL IMPACT vs TORONTO FC</td>
+	<td>3-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-29 18:23:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-26 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>CARDIFF CITY vs BRISTOL CITY</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CARDIFF CITY</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-26 14:05:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 16:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs FK AUSTRIA VIENNA</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-25 10:59:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-25 15:05:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>BOURNEMOUTH AFC vs TOTTENHAM HOTSPUR</td>
+	<td>1-5 (1-3)</td>
+	<td>Match Odds</td>
+	<td>TOTTENHAM HOTSPUR</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-25 10:51:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-25 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs ATALANTA BERGAMASCA</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>JUVENTUS TURIN -0.50 Half time</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-25 10:55:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-23 20:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>KRC GENK vs ROYAL MOUSCRON</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>KRC GENK -0.50 Half time</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-22 23:54:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-20 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYER LEVERKUSEN vs AS ROMA</td>
+	<td>4-4 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>AS ROMA +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-19 23:25:20</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-20 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC DYNAMO KIEV vs CHELSEA FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-19 23:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC GIRONDINS BORDEAUX vs MONTPELLIER HSC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-18 10:36:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-18 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL SOCIEDAD vs ATLETICO MADRID</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-18 10:27:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-18 13:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC SION vs FC BASEL</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC BASEL</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>145.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-18 10:31:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-13 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ITALY vs NORWAY</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ITALY</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-13 11:36:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-11 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ARMENIA vs ALBANIA</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ALBANIA</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-11 11:53:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-09 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>LIECHTENSTEIN vs SWEDEN</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SWEDEN -2.50</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-09 14:19:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-09 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SLOVENIA vs LITHUANIA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SLOVENIA -0.50 Half time</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-09 14:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-09 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SLOVAKIA vs BELARUS</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SLOVAKIA -0.50 Half time</td>
+	<td>2.24</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-09 14:09:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 20:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>RSC ANDERLECHT vs YELLOW-RED KV MECHELEN</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>RSC ANDERLECHT -0.50 Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-10-04 16:14:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC PORTO vs CHELSEA FC</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>CHELSEA FC</td>
+	<td>3.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-29 11:33:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BATE BORISOV vs AS ROMA</td>
+	<td>3-2 (3-0)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-29 11:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BARCELONA vs BAYER LEVERKUSEN</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC BARCELONA -1.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-29 11:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-25 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VALENCIA CF vs GRANADA CF</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>VALENCIA CF -0.50 Half time</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-25 12:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-23 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs US SASSUOLO</td>
+	<td>0-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-23 13:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 20:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs FC BARCELONA</td>
+	<td>4-1 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FC BARCELONA -0.50 Half time</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-23 13:42:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-21 02:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>CA SAN LORENZO vs RACING CLUB</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>CA SAN LORENZO</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-20 23:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-16 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS ROMA vs FC BARCELONA</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>AS ROMA +1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-16 16:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-15 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs JUVENTUS TURIN</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN +0.50</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>117.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-15 17:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-15 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BENFICA LISBON vs FC ASTANA</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BENFICA LISBON -1.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-15 17:08:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-15 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>VFL WOLFSBURG vs CSKA MOSCOW</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VFL WOLFSBURG</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-15 17:05:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>JUVENTUS TURIN vs AC CHIEVO VERONA</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.50</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-11 12:17:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-12 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>RB SALZBURG vs SV GRODIG</td>
+	<td>4-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>RB SALZBURG -2.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-12 13:02:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-11 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs FC GIRONDINS BORDEAUX</td>
+	<td>2-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -1.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-11 12:22:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-03 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>BULGARIA vs NORWAY</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BULGARIA</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-03 11:20:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-03 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>CYPRUS vs WALES</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WALES</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-03 11:17:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-03 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>AZERBAIJAN vs CROATIA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>CROATIA -0.50 Half time</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-09-03 11:16:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-30 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VALENCIA CF vs DEPORTIVO LA CORUNA</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>VALENCIA CF -0.50 Half time</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-30 16:19:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-29 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs FC INGOLSTADT</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC AUGSBURG</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-29 11:55:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MACCABI TEL AVIV vs FC BASEL</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC BASEL</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-25 16:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-25 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>VIKTORIA ASCHAFFENBURG vs GREUTHER FURTH II</td>
+	<td>4-2 (2-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>GREUTHER FURTH II Under +1.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-25 16:29:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-25 17:30:00</td>
+	<td>Denmark</td>
+	<td>Ekstra Bladet Cup</td>
+	<td>BRABRAND IF vs FC FREDERICIA</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>BRABRAND IF Under +1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-25 16:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-24 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GRANADA CF vs SD EIBAR</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>188.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-24 16:30:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-24 18:30:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>FOLLO vs STROMMEN IF</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>STROMMEN IF Under +1.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-24 16:26:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-24 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HJK HELSINKI vs HIFK</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>HIFK Under +1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-24 16:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-22 19:00:00</td>
+	<td>Bulgaria</td>
+	<td>A PFG</td>
+	<td>BEROE STARA ZAGORA vs BOTEV PLOVDIV</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>BOTEV PLOVDIV Under +1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-22 16:06:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-22 18:00:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>WKS SLASK WROCLAW vs TS PODBESKIDZIE BIELSKO-BIALA</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>TS PODBESKIDZIE BIELSKO-BIALA Under +1.00</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-22 16:12:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-22 18:00:00</td>
+	<td>Hungary</td>
+	<td>NB I</td>
+	<td>UJPEST FC vs SZOMBATHELYI HALADAS FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>SZOMBATHELYI HALADAS FC Under +1.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-22 16:11:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-17 01:30:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional, Apertura</td>
+	<td>BLOOMING vs REAL POTOSI</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under Team</td>
+	<td>REAL POTOSI Under +2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-16 23:02:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-17 01:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A</td>
+	<td>DEPORTIVO CUENCA vs CLUB SPORT EMELEC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>DEPORTIVO CUENCA Under +2.00</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-16 23:04:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-17 00:20:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>NEWELL'S OLD BOYS vs CA TEMPERLEY</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NEWELL'S OLD BOYS -0.25</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-16 23:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-12 16:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>CS UNIVERSITATEA CRAIOVA vs FC VIITORUL CONSTANTA</td>
+	<td>1-2 (0-2)</td>
+	<td>Over / Under 1st Half Team</td>
+	<td>FC VIITORUL CONSTANTA Under +1.50</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-12 11:14:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-12 12:30:00</td>
+	<td>South Korea</td>
+	<td>K-League Classic</td>
+	<td>INCHEON UNITED FC vs POHANG STEELERS FC</td>
+	<td>0-2 (0-0)</td>
+	<td>Both team to score 1st Half</td>
+	<td>No Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-12 11:10:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-12 12:30:00</td>
+	<td>South Korea</td>
+	<td>K-League Classic</td>
+	<td>ULSAN HYUNDAI vs FC SEOUL</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under Team</td>
+	<td>FC SEOUL Under +2.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-12 11:08:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-08 19:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK METALAC GM vs FK RADNICKI NIS</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under Team</td>
+	<td>FK RADNICKI NIS Under +2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-08 16:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-08 19:00:00</td>
+	<td>Bulgaria</td>
+	<td>A PFG</td>
+	<td>LOKOMOTIV PLOVDIV vs LITEX LOVECH</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LITEX LOVECH +0</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-08 16:21:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-08 18:00:00</td>
+	<td>Belgium</td>
+	<td>EXQI League</td>
+	<td>UNION SAINT-GILLOISE vs AS EUPEN</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AS EUPEN +0</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-08 16:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-01 15:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HIFK vs FC ILVES</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HIFK -0.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-01 10:54:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-01 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FORTUNA COLOGNE vs VFR AALEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Both team to score 1st Half</td>
+	<td>No Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-01 10:36:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-01 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs MSV DUISBURG</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM -0.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-08-01 10:45:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-22 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>KKS LECH POZNAN vs FK SARAJEVO</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>KKS LECH POZNAN Half time</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-22 16:05:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-22 20:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>VIDEOTON FC vs THE NEW SAINTS FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>VIDEOTON FC -0.50 Half time</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-22 16:03:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-22 20:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>STEAUA BUCURESTI vs AS TRENCIN</td>
+	<td>2-3 (0-2)</td>
+	<td>Match Odds 1st Half</td>
+	<td>STEAUA BUCURESTI Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-22 16:01:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-16 19:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>KS KUKESI vs FK MLADOST PODGORICA</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>KS KUKESI Half time</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-16 16:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-16 18:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>RUSSIA vs GREECE</td>
+	<td>4-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-16 16:16:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-13 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity First Division</td>
+	<td>CABINTEELY FC vs WATERFORD UNITED FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-13 11:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-13 20:00:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>ACS POLI TIMISOARA vs CS PANDURII TARGU JIU</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.51</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-13 11:20:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-07 21:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SHAMROCK ROVERS FC vs PROGRES NIEDERCORN</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SHAMROCK ROVERS FC -0.50 Half time</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-07 16:08:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-07 17:30:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>NETHERLANDS vs RUSSIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-07 16:10:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-05 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>VAASA PS vs FC INTER TURKU</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-05 15:36:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-02 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SHKENDIJA 79 TETOVO vs ABERDEEN FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-02 11:40:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-02 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK RED STAR BELGRADE vs FC KAIRAT ALMATY</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FK RED STAR BELGRADE -0.50 Half time</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-02 11:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-02 17:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>KF LACI vs INTER BAKU</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-07-02 11:38:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-30 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>SWEDEN vs PORTUGAL</td>
+	<td>4-3 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-30 15:46:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-30 18:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>IF BROMMAPOJKARNA vs MJALLBY AIF</td>
+	<td>2-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.37</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>137.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-30 15:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-27 21:00:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>DENMARK vs SWEDEN</td>
+	<td>1-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-27 11:29:22</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-27 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>PORTUGAL vs GERMANY</td>
+	<td>5-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>133.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-27 11:25:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-24 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>PORTUGAL vs SWEDEN</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.26</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-24 15:55:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-24 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>ENGLAND vs ITALY</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>133.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-24 15:53:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-24 19:00:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>SOGNDAL IL vs JERV FK</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SOGNDAL IL -0.50 Half time</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-24 15:57:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-19 23:00:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>MEXICO vs ECUADOR</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>MEXICO</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-19 16:23:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-19 02:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>FIGUEIRENSE FC vs INTERNACIONAL RS</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-18 16:16:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-18 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>ENGLAND vs PORTUGAL</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-18 16:14:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-17 00:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>NAUTICO PE vs PAYSANDU PA</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-16 16:22:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-16 19:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ROMANIA vs ARMENIA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>ROMANIA -0.50 Half time</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>119.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-16 16:15:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-16 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HIFK vs ROVANIEMI PALLOSEURA</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-16 16:25:30</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-14 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SLOVAKIA vs MACEDONIA</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SLOVAKIA -0.50 Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-14 16:15:23</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-14 17:30:00</td>
+	<td>International</td>
+	<td>Africa Cup of Nations, Qualification, Group A</td>
+	<td>TOGO vs LIBERIA</td>
+	<td>2-1 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>TOGO -0.50 Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-14 16:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-13 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>FAROE ISLANDS vs GREECE</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>GREECE -0.50 Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-13 16:11:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-13 18:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ALBANIA vs FRANCE</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ALBANIA +0.50</td>
+	<td>2.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>172.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-13 16:04:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ICELAND vs CZECH REPUBLIC</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-12 16:44:55</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>NORWAY vs AZERBAIJAN</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>NORWAY -0.50 Half time</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-12 16:42:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>MALTA vs BULGARIA</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BULGARIA -0.50 Half time</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-12 16:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-12 02:00:00</td>
+	<td>Argentina</td>
+	<td>Copa Argentina</td>
+	<td>SAN MARTIN DE SAN JUAN vs ESTUDIANTES BA</td>
+	<td>8-7 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SAN MARTIN DE SAN JUAN</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-11 16:07:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-11 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>MOLDOVA vs MALTA</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>118.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-11 16:03:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-11 09:30:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>GERMANY vs NIGERIA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>GERMANY -0.50 Half time</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>132.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-10 12:26:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-10 20:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>GERMANY vs USA</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>GERMANY -0.50 Half time</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-10 12:22:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-10 17:00:00</td>
+	<td>International Youth</td>
+	<td>U23 Friendly Games</td>
+	<td>ESTONIA vs LATVIA</td>
+	<td>1-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-10 12:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-09 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>SAINT PATRICK'S ATHLETIC FC vs BOHEMIANS DUBLIN FC</td>
+	<td>3-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.36</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>136.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-09 16:43:27</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-09 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Friendly Games</td>
+	<td>CZECH REPUBLIC vs UKRAINE</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-09 16:52:57</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-07 19:30:00</td>
+	<td>Greece</td>
+	<td>Super League, Playoffs</td>
+	<td>ASTERAS TRIPOLIS vs PAOK FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-07 12:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-07 17:30:00</td>
+	<td>Finland</td>
+	<td>Ykkonen</td>
+	<td>PK 35 vs EIF</td>
+	<td>5-1 (2-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-07 12:35:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-07 16:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>INTERNACIONAL RS vs CORITIBA PR</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>INTERNACIONAL RS -0.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-06 20:16:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-07 03:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>SAO PAULO SP vs GREMIO RS</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-06 20:14:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-07 02:00:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>CRB AL vs ABC RN</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-06 20:18:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-04 21:15:00</td>
+	<td>Iceland</td>
+	<td>Bikarinn</td>
+	<td>KFG vs BREIDABLIK KOPAVOGUR</td>
+	<td>1-3 (0-1)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-04 12:49:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-04 17:30:00</td>
+	<td>Finland</td>
+	<td>Ykkonen</td>
+	<td>FC HAKA VALKEAKOSKI vs MIKKELIN PALLOILIJAT</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-04 12:46:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-02 20:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs HOLSTEIN KIEL</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-02 11:58:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-02 19:20:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>JONKOPINGS SODRA vs IK SIRIUS FK</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-06-02 11:55:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-30 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs AC MILAN</td>
+	<td>1-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.60</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-30 11:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-30 18:30:00</td>
+	<td>Ukraine</td>
+	<td>Premier League</td>
+	<td>FC SHAKHTAR DONETSK vs KARPATY LVIV</td>
+	<td>2-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SHAKHTAR DONETSK -2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-30 11:15:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-30 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs JUVENTUS TURIN</td>
+	<td>2-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.21</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>192.60</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-30 11:19:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-30 16:00:00</td>
+	<td>Ukraine</td>
+	<td>Premier League</td>
+	<td>FC DYNAMO KIEV vs FC METALURG ZAPORIZHYA</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC DYNAMO KIEV -1.75</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-30 11:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-30 02:50:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>EC BAHIA BA vs PARANA CLUBE PR</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>EC BAHIA BA -0.50 Half time</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-29 21:06:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-28 02:45:00</td>
+	<td>Colombia</td>
+	<td>Apertura I, Final</td>
+	<td>DEPORTES TOLIMA vs INDEPENDIENTE MEDELLIN</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-27 12:39:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-28 01:00:00</td>
+	<td>Argentina</td>
+	<td>Copa Argentina</td>
+	<td>BOCA JUNIORS vs HURACAN LAS HERAS</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOCA JUNIORS -2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-27 12:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-27 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>DNIPRO DNIPROPETROVSK vs SEVILLA FC</td>
+	<td>2-3 (2-2)</td>
+	<td>Match Odds 1st Half</td>
+	<td>SEVILLA FC Half time</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-27 12:34:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-25 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>AKHISAR BLD SPOR vs BURSASPOR</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-25 15:41:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-25 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC INTER TURKU vs IFK MARIEHAMN</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-25 15:39:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-25 16:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NAC BREDA vs VVV VENLO</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>NAC BREDA -0.25 Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-25 15:37:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-24 17:00:00</td>
+	<td>Serbia</td>
+	<td>Superliga</td>
+	<td>FK RED STAR BELGRADE vs FK MLADOST LUCANI</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FK RED STAR BELGRADE -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-22 13:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-23 18:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>FC BARCELONA vs DEPORTIVO LA CORUNA</td>
+	<td>2-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +1.50</td>
+	<td>10.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-23 13:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-23 18:30:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>SOUTHEND UTD vs WYCOMBE WANDERERS</td>
+	<td>8-7 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-23 13:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-23 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs 1 FSV MAINZ 05</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.75</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>55.00</td>
+	<td>Half win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-23 13:28:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-22 20:00:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>RED STAR FC 93 vs SC AMIENS</td>
+	<td>3-3 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>RED STAR FC 93 -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-22 13:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-22 19:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>SV MATTERSBURG vs KSV 1919</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SV MATTERSBURG -0.50 Half time</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>132.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-22 13:35:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-21 19:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>IK SIRIUS FK vs MJALLBY AIF</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-21 13:05:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-21 17:30:00</td>
+	<td>Finland</td>
+	<td>Ykkonen</td>
+	<td>FC HAKA VALKEAKOSKI vs EIF</td>
+	<td>4-4 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-21 13:03:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-21 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HJK HELSINKI vs FC INTER TURKU</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-21 13:00:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-20 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>SEINAJOEN JK vs FC ILVES</td>
+	<td>3-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-20 09:50:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-20 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>IFK MARIEHAMN vs ROVANIEMI PALLOSEURA</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-20 09:46:52</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-20 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>KUOPIO PS vs FC LAHTI</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-20 09:45:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-17 17:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>ASSYRISKA FF vs IK SIRIUS FK</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-17 09:56:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-17 15:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>MJALLBY AIF vs UTSIKTENS BK</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-17 09:54:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-17 15:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier, Playoffs</td>
+	<td>BRISTOL ROVERS vs GRIMSBY TOWN</td>
+	<td>6-4 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-17 09:51:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-16 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>LILLE OSC vs OLYMPIQUE MARSEILLE</td>
+	<td>0-4 (0-2)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE MARSEILLE</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-16 09:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-16 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>MONTPELLIER HSC vs PARIS ST GERMAIN</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>PARIS ST GERMAIN -0.50 Half time</td>
+	<td>2.32</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>132.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-16 09:53:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-14 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>DNIPRO DNIPROPETROVSK vs SSC NAPOLI</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SSC NAPOLI -0.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-14 12:24:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-14 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>SOUTHEND UTD vs STEVENAGE FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-14 12:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-14 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC INTER TURKU vs FC KTP</td>
+	<td>4-1 (4-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-14 12:28:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-11 21:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ARSENAL FC vs SWANSEA CITY</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-11 13:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-11 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>SEINAJOEN JK vs KUOPIO PS</td>
+	<td>5-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-11 13:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-11 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HJK HELSINKI vs VAASA PS</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-11 13:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-08 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>SKN ST. POLTEN vs FC LIEFERING</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC LIEFERING</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-08 10:06:22</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-08 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>VAASA PS vs FC ILVES</td>
+	<td>2-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-08 10:03:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-08 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC LAHTI vs SEINAJOEN JK</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-08 10:01:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-08 02:00:00</td>
+	<td>Colombia</td>
+	<td>Copa Postobon, Group D</td>
+	<td>ATLETICO BUCARAMANGA vs ALIANZA PETROLERA</td>
+	<td>3-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO BUCARAMANGA -0.75</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>55.00</td>
+	<td>Half win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-07 13:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-07 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SSC NAPOLI vs DNIPRO DNIPROPETROVSK</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>SSC NAPOLI -0.50 Half time</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-07 13:02:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-07 19:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League, Relegation Playoff</td>
+	<td>AS EUPEN vs LIERSE SK</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-07 13:05:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-06 19:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>LJUNGSKILLE SK vs IK SIRIUS FK</td>
+	<td>4-3 (3-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-06 09:36:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-06 19:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>MJALLBY AIF vs ANGELHOLMS FF</td>
+	<td>1-2 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-06 09:33:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-06 12:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>VEGALTA SENDAI vs FC TOKYO</td>
+	<td>2-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>123.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-06 09:41:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-06 00:45:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>CD SPORT LORETO vs UTC DE CAJAMARCA</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-05 08:55:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-05 22:30:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>SPORTING CRISTAL vs UNION COMERCIO</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-05 08:52:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-05 20:15:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>REAL GARCILASO vs INTI GAS AYACUCHO</td>
+	<td>3-2 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>REAL GARCILASO -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-05 08:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-03 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>AS MONACO vs TOULOUSE FC</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>AS MONACO -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-03 11:00:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-03 15:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC LAHTI vs FC INTER TURKU</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.46</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-03 10:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-03 14:30:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>CHELSEA FC vs CRYSTAL PALACE</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CHELSEA FC -1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-05-03 10:55:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-30 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>FC EMPOLI vs SSC NAPOLI</td>
+	<td>4-2 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>SSC NAPOLI -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-30 11:44:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-30 20:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs VALENCIA CF</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VALENCIA CF</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-30 11:46:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-30 19:30:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>GALATASARAY ISTANBUL vs SIVASSPOR</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>GALATASARAY ISTANBUL -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-30 11:49:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-26 21:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs REAL MADRID</td>
+	<td>2-4 (2-3)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.00</td>
+	<td>2.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>152.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-26 13:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-26 19:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>HNK RIJEKA vs NK ISTRA 1961</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-26 13:28:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-26 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs AC CHIEVO VERONA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>LAZIO ROMA -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-26 13:23:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-24 20:35:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>CORK CITY FC vs DUNDALK FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-24 17:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-24 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE MARSEILLE vs FC LORIENT</td>
+	<td>3-5 (0-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>OLYMPIQUE MARSEILLE -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-24 17:23:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-24 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>FC LIEFERING vs AUSTRIA LUSTENAU</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>FC LIEFERING -0.50 Half time</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-24 17:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-22 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>REAL MADRID vs ATLETICO MADRID</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +1.00 Half time</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>122.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-22 11:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-22 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS MONACO vs JUVENTUS TURIN</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-22 11:24:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-22 16:30:00</td>
+	<td>Croatia</td>
+	<td>Croatia Cup</td>
+	<td>RNK SPLIT vs HNK HAJDUK SPLIT</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RNK SPLIT +0</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>122.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-22 11:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-21 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>MILTON KEYNES DONS vs DONCASTER ROVERS</td>
+	<td>3-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MILTON KEYNES DONS -1.00</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-21 14:00:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-21 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYERN MUNICH vs FC PORTO</td>
+	<td>6-1 (5-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-21 13:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-21 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>SV MATTERSBURG vs SV HORN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SV MATTERSBURG -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-21 14:04:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-20 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>BRAY WANDERERS AFC vs SHAMROCK ROVERS FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>135.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-20 18:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-20 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>LIMERICK 37 FC vs DERRY CITY FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-20 18:16:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-20 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>SLIGO ROVERS FC vs BOHEMIANS DUBLIN FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.62</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-20 18:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-19 19:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VILLARREAL CF vs CORDOBA CF</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>VILLARREAL CF -0.50 Half time</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-19 13:20:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-19 18:15:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>REAL VALLADOLID vs CE SABADELL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL VALLADOLID -1.50</td>
+	<td>2.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-19 13:23:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-19 15:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC INTER TURKU vs FC ILVES</td>
+	<td>3-1 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>145.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-19 13:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-18 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>AS MONACO vs STADE RENNES</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>AS MONACO -0.50 Half time</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>160.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-18 12:37:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-18 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs PARIS ST GERMAIN</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>PARIS ST GERMAIN -0.50 Half time</td>
+	<td>2.46</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-18 12:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-18 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CARPI FC vs BRESCIA CALCIO</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CARPI FC -0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-18 12:35:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-16 18:00:00</td>
+	<td>Finland</td>
+	<td>Suomen Cup</td>
+	<td>FC HAKA VALKEAKOSKI vs MUSA PORI</td>
+	<td>6-5 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>FC HAKA VALKEAKOSKI -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-16 12:25:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-16 17:30:00</td>
+	<td>Finland</td>
+	<td>Suomen Cup</td>
+	<td>FC INTER TURKU vs ROVANIEMI PALLOSEURA</td>
+	<td>7-3 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-16 12:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-16 17:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>SIVASSPOR vs KAYSERISPOR</td>
+	<td>4-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SIVASSPOR -0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-16 12:26:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-15 20:45:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>BURTON ALBION vs CARLISLE UTD</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>BURTON ALBION -0.50 Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-15 16:59:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-15 18:30:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SCR ALTACH vs SC WIENER NEUSTADT</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SCR ALTACH -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-15 16:53:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-15 18:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE LYON vs SC BASTIA</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>OLYMPIQUE LYON -0.50 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-15 16:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-14 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>HALIFAX TOWN vs EASTLEIGH FC</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-14 14:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-14 20:45:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>BATH CITY vs EBBSFLEET UTD</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>EBBSFLEET UTD +0</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-14 14:06:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-14 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>JUVENTUS TURIN vs AS MONACO</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian Handicap 1st Half</td>
+	<td>JUVENTUS TURIN -0.50 Half time</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-14 13:57:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-13 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VALENCIA CF vs LEVANTE UD</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>VALENCIA CF -1.25</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-13 17:10:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-12 18:00:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs RB SALZBURG</td>
+	<td>3-3 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>6.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-12 14:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-12 18:00:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs RB SALZBURG</td>
+	<td>3-3 (0-3)</td>
+	<td>Asian handicap</td>
+	<td>RB SALZBURG -0.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-12 14:06:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-12 16:00:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>FC BRASOV vs FC BOTOSANI</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC BRASOV</td>
+	<td>3.20</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-12 14:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-11 19:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>RNK SPLIT vs NK ZADAR</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RNK SPLIT</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-11 14:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-11 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>WORCESTER CITY vs HYDE UTD</td>
+	<td>4-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-11 14:18:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-11 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs EINTRACHT FRANKFURT</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-11 14:16:31</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-11 09:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs BRISBANE ROAR FC</td>
+	<td>2-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>ADELAIDE UNITED FC -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-10 11:22:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-11 01:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>UNIVERSIDAD CATOLICA vs DEPORTES UNION LA CALERA</td>
+	<td>4-2 (3-2)</td>
+	<td>Asian handicap</td>
+	<td>UNIVERSIDAD CATOLICA -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-10 11:24:29</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-10 19:00:00</td>
+	<td>Bulgaria</td>
+	<td>A PFG, Championship Round</td>
+	<td>CSKA SOFIA vs BOTEV PLOVDIV</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOTEV PLOVDIV +0.50</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>148.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-10 11:20:24</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-09 20:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>STEAUA BUCURESTI vs FC PETROLUL PLOIESTI</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>STEAUA BUCURESTI -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-09 13:04:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-09 01:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>UNIAUTONOMA vs CUCUTA DEPORTIVO</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CUCUTA DEPORTIVO +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>85.50</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-08 09:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-08 22:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs REAL MADRID</td>
+	<td>0-2 (0-0)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>2.65</td>
+	<td>
+		</td>
+	<td>90</td>
+	<td>141.08</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-08 17:45:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-08 20:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>BAYER LEVERKUSEN vs BAYERN MUNICH</td>
+	<td>3-5 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN +0.50</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>128.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-08 09:46:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-08 19:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>MJALLBY AIF vs ATHLETIC UNITED</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC UNITED +0.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>114.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-08 09:48:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-07 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>WORCESTER CITY vs BRACKLEY TOWN</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>WORCESTER CITY -0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-07 10:46:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-07 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>MILTON KEYNES DONS vs SCUNTHORPE UTD</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MILTON KEYNES DONS -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-07 10:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-07 19:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>LILLESTROM SK vs IK START</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>LILLESTROM SK -0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-07 10:48:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-06 21:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division</td>
+	<td>NUEVA CHICAGO vs CA BANFIELD</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CA BANFIELD -0.50</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>129.50</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-06 13:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-06 18:15:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>WOLVERHAMPTON WANDERERS vs LEEDS UTD</td>
+	<td>4-3 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>WOLVERHAMPTON WANDERERS -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-06 13:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-06 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRENTFORD FC vs NOTTINGHAM FOREST</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BRENTFORD FC -0.50</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-06 13:19:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-05 21:00:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>CORINTHIANS SP vs SANTOS FC SP</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-05 19:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-05 21:00:00</td>
+	<td>Uruguay</td>
+	<td>Primera Division, Clausura</td>
+	<td>DEFENSOR SPORTING vs TACUAREMBO FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DEFENSOR SPORTING -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-05 19:27:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-04 16:00:00</td>
+	<td>Indonesia</td>
+	<td>Indonesia Super League</td>
+	<td>SRIWIJAYA FC vs PELITA BANDUNG RAYA</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SRIWIJAYA FC -0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-04 12:38:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-04 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>GRIMSBY TOWN vs GATESHEAD FC</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>GRIMSBY TOWN -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-04 12:35:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-04 14:00:00</td>
+	<td>Greece</td>
+	<td>B'Ethniki</td>
+	<td>ACHARNAIKOS vs PANACHAIKI 2005</td>
+	<td>4-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ACHARNAIKOS -0.50</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-04 12:37:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-03 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AJ AUXERRE vs OLYMPIQUE NIMES</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AJ AUXERRE -0.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-03 18:20:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-03 15:00:00</td>
+	<td>Sweden</td>
+	<td>Superettan</td>
+	<td>IF BROMMAPOJKARNA vs OSTERSUNDS FK</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>OSTERSUNDS FK +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-02 22:15:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-03 02:50:00</td>
+	<td>Brazil</td>
+	<td>Copa do Brasil</td>
+	<td>NACIONAL AM vs EC BAHIA BA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>NACIONAL AM +0.50</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-02 13:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-02 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS VARESE vs CATANIA CALCIO</td>
+	<td>0-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>CATANIA CALCIO -0.50</td>
+	<td>2.63</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>130.40</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-02 13:24:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-02 17:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>FT BRAUNSCHWEIG vs GOSLARER SC</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GOSLARER SC -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-02 13:18:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-02 11:00:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs CENTRAL COAST MARINERS FC</td>
+	<td>6-1 (3-0)</td>
+	<td>Match Odds</td>
+	<td>BRISBANE ROAR FC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-01 11:28:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-04-02 03:00:00</td>
+	<td>Brazil</td>
+	<td>Copa do Brasil</td>
+	<td>CONFIANCA SE vs CEARA CE</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CONFIANCA SE +0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-01 18:28:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-04-01 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>BRADFORD PARK AVENUE vs GAINSBOROUGH TRINITY</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BRADFORD PARK AVENUE -0.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-04-01 11:25:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-31 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ISRAEL vs BELGIUM</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BELGIUM -0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-31 12:53:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-31 16:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Friendly Games</td>
+	<td>RUSSIA vs SWEDEN</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>SWEDEN</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-31 12:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-31 14:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Friendly Games</td>
+	<td>BOSNIA & HERZEGOVINA vs TURKEY</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>TURKEY -0.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-31 12:47:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-28 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>SHEFFIELD UNITED vs CREWE ALEXANDRA FC</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.75</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>61.00</td>
+	<td>Half win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-28 14:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-28 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>BARROW FC vs BRADFORD PARK AVENUE</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-28 14:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-27 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>MOLDOVA vs SWEDEN</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>SWEDEN Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-27 15:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-27 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SLOVENIA vs SAN MARINO</td>
+	<td>6-0 (1-0)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-27 14:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-26 23:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>CORINTHIANS SP vs ATLETICO PENAPOLENSE</td>
+	<td>5-3 (4-0)</td>
+	<td>Asian handicap</td>
+	<td>CORINTHIANS SP -1.50</td>
+	<td>2.24</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>124.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-26 13:29:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-26 19:30:00</td>
+	<td>Brazil</td>
+	<td>Carioca</td>
+	<td>NOVA IGUACU RJ vs FRIBURGUENSE RJ</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-26 13:40:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-26 02:00:00</td>
+	<td>Brazil</td>
+	<td>Carioca</td>
+	<td>FLAMENGO RJ vs BANGU RJ</td>
+	<td>2-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FLAMENGO RJ -1.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-25 17:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-25 23:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>ATLETICO LINENSE SP vs MOGI MIRIM SP</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-25 17:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-25 19:30:00</td>
+	<td>Brazil</td>
+	<td>Carioca</td>
+	<td>MADUREIRA RJ vs BONSUCESSO</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MADUREIRA RJ -1.00</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-25 17:48:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-24 20:45:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>OLDHAM ATHLETIC vs ROCHDALE FC</td>
+	<td>3-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-24 12:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-24 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>NUNEATON TOWN FC vs WREXHAM FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-24 12:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-24 20:45:00</td>
+	<td>England</td>
+	<td>Skrill South</td>
+	<td>HEMEL HEMPSTEAD vs CHELMSFORD CITY</td>
+	<td>3-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-24 12:08:09</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-22 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>PARMA FC vs TURIN FC</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>10.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-22 13:59:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-22 17:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>SPORTING GIJON vs RECREATIVO HUELVA</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>SPORTING GIJON -1.00</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-22 14:03:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-22 16:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>AJAX AMSTERDAM vs ADO DEN HAAG</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AJAX AMSTERDAM -1.50</td>
+	<td>2.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-22 14:01:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-22 15:45:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>FC VIKTORIA PLZEN vs FC SLOVAN LIBEREC</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC VIKTORIA PLZEN -1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-22 13:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-21 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>HANSA ROSTOCK vs FORTUNA COLOGNE</td>
+	<td>4-0 (3-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-21 11:34:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-21 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ENERGIE COTTBUS vs CHEMNITZER FC</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-21 11:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-21 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>DYNAMO DRESDEN vs HALLESCHER FC</td>
+	<td>2-3 (1-2)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-21 11:27:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs SV DARMSTADT 98</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.65</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-21 11:25:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-21 13:00:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs FC INGOLSTADT</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.67</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>100.20</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-21 11:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-20 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs FC LORIENT</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -1.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-20 16:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-20 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>SV MATTERSBURG vs FLORIDSDORFER AC</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV MATTERSBURG -1.00</td>
+	<td>2.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-20 16:37:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-19 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>INTER MILAN vs VFL WOLFSBURG</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-19 10:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-19 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SEVILLA FC vs VILLARREAL CF</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>250.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-19 10:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-19 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC DINAMO MOSCOW vs SSC NAPOLI</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +0.50</td>
+	<td>3.35</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>235.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-19 10:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-17 23:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>SAO BENTO SP vs MOGI MIRIM SP</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-17 11:27:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-17 23:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>BOTAFOGO SP vs ATLETICO PENAPOLENSE</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-17 11:25:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-17 20:45:00</td>
+	<td>Scotland</td>
+	<td>First Division</td>
+	<td>RANGERS FC vs ALLOA ATHLETIC FC</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RANGERS FC -1.00</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-17 10:56:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-16 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GETAFE CF vs REAL SOCIEDAD</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>GETAFE CF +0</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-16 12:32:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-16 19:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1</td>
+	<td>FCM TARGU MURES vs FC BRASOV</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FCM TARGU MURES -1.00</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-16 12:15:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-15 19:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SEVILLA FC vs ELCHE CF</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SEVILLA FC -1.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-15 12:04:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs SC FREIBURG</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -1.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-15 11:49:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-15 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US SASSUOLO vs PARMA FC</td>
+	<td>4-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>8.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-15 12:08:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-15 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>EINTRACHT NORDERSTEDT vs ETSV WEICHE FLENSBURG</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>EINTRACHT NORDERSTEDT Half time</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-15 11:56:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs FC SCHALKE 04</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-14 10:24:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs 1 FSV MAINZ 05</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC AUGSBURG</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-14 10:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-13 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VALENCIA CF vs DEPORTIVO LA CORUNA</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VALENCIA CF -1.25</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-13 10:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-13 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs EA GUINGAMP</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-13 10:05:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-13 13:30:00</td>
+	<td>Bulgaria</td>
+	<td>A PFG</td>
+	<td>CHERNO MORE VARNA vs HASKOVO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CHERNO MORE VARNA -2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-13 10:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-12 23:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>SAO PAULO SP vs SAO BENTO SP</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SAO PAULO SP -2.00</td>
+	<td>2.47</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-12 21:33:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-12 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>EVERTON FC vs FC DYNAMO KIEV</td>
+	<td>2-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-12 12:46:22</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-11 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>GUISELEY FC vs HYDE UTD</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-11 16:19:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-11 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BAYERN MUNICH vs FC SHAKHTAR DONETSK</td>
+	<td>7-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.00</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>123.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-10 20:18:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-11 02:15:00</td>
+	<td>Mexico</td>
+	<td>Copa MX, Clausura, Knockout stage</td>
+	<td>GALLOS BLANCOS QUERETARO vs GUADALAJARA CHIVAS</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-10 20:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-11 00:00:00</td>
+	<td>Mexico</td>
+	<td>Copa MX, Clausura, Knockout stage</td>
+	<td>FC PUEBLA vs MERIDA FC</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds 1st Half</td>
+	<td>FC PUEBLA Half time</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-10 20:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-09 20:45:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>STADE BREST vs LB CHATEAUROUX</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>STADE BREST Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-09 11:03:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-08 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>MONTPELLIER HSC vs OLYMPIQUE LYON</td>
+	<td>1-5 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>OLYMPIQUE LYON +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-08 10:51:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-08 14:30:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>AJAX AMSTERDAM vs SBV EXCELSIOR</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>AJAX AMSTERDAM -1.50</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-08 10:44:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-08 14:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>WELLING UTD vs ALTRINCHAM FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-08 11:19:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-07 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PEC ZWOLLE vs CAMBUUR LEEUWARDEN</td>
+	<td>6-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>PEC ZWOLLE</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-07 13:38:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-07 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>DEPORTIVO LA CORUNA vs SEVILLA FC</td>
+	<td>3-4 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SEVILLA FC</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-07 13:43:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs 1899 HOFFENHEIM</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>144.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-07 12:23:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-06 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs HERTHA BSC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>VFB STUTTGART</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-06 16:35:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-06 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>TOULOUSE FC vs OLYMPIQUE MARSEILLE</td>
+	<td>1-6 (0-4)</td>
+	<td>Asian handicap</td>
+	<td>OLYMPIQUE MARSEILLE -0.25</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>109.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-06 13:27:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-06 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC EMMEN vs FC OSS</td>
+	<td>2-3 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-06 13:15:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-06 15:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HJK HELSINKI vs FC LAHTI</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-06 13:20:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-05 20:30:00</td>
+	<td>Romania</td>
+	<td>Cupei Romaniei Timisoreana</td>
+	<td>FC PETROLUL PLOIESTI vs STEAUA BUCURESTI</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-05 13:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-04 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER CITY vs LEICESTER CITY</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY -1.75</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>52.25</td>
+	<td>Half win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-04 16:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-04 20:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>BAYERN MUNICH vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-04 17:22:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-03 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>HULL CITY vs SUNDERLAND AFC</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-03 11:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-03 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs WEST BROMWICH ALBION</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ASTON VILLA +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-03 11:31:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-03 18:30:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs SV WEHEN WIESBADEN</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-03 11:40:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-02 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>HYDE UTD vs SOLIHULL MOORS FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-02 12:15:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-02 16:00:00</td>
+	<td>Russia</td>
+	<td>Russian Cup</td>
+	<td>CSKA MOSCOW vs FC KRYLIYA SOVETOV SAMARA</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-02 12:17:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-01 18:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>RSC ANDERLECHT vs KV KORTRIJK</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT -1.00</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-01 12:00:14</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-03-01 16:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>PSV EINDHOVEN vs AJAX AMSTERDAM</td>
+	<td>1-3 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>119.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-01 11:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-03-01 13:00:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>CELTIC FC vs ABERDEEN FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>160.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-03-01 11:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-28 18:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>ROYAL CHARLEROI SC vs SPORTING LOKEREN</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-28 12:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-28 16:00:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SCR ALTACH vs WOLFSBERGER AC</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-28 12:46:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-28 15:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK DINAMO ZAGREB vs RNK SPLIT</td>
+	<td>2-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-28 12:50:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-28 01:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>CLUB JORGE WILSTERMANN vs SPORT BOYS</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-27 22:04:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-28 01:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>O`HIGGINS FC vs CSD BARNECHEA</td>
+	<td>3-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-27 22:03:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-27 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ESPANYOL BARCELONA vs CORDOBA CF</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-27 19:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-27 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs 1 FC COLOGNE</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-27 19:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-26 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SPORTING CP vs VFL WOLFSBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -0.25</td>
+	<td>2.26</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-26 11:52:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-26 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>OLYMPIACOS FC vs DNIPRO DNIPROPETROVSK</td>
+	<td>2-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>OLYMPIACOS FC -0.25</td>
+	<td>2.12</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-26 11:37:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-26 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>INTER MILAN vs CELTIC FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INTER MILAN -1.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-26 11:44:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-25 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>ARSENAL FC vs AS MONACO</td>
+	<td>1-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-25 12:07:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-25 18:30:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC VADUZ vs FC SION</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-25 12:14:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-24 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs FC BARCELONA</td>
+	<td>1-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY +0.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-24 11:13:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-24 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>JUVENTUS TURIN vs BORUSSIA DORTMUND</td>
+	<td>2-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>JUVENTUS TURIN</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-24 11:10:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-23 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CAGLIARI CALCIO vs INTER MILAN</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-23 11:09:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-23 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs RB LEIPZIG</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-23 11:02:15</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-22 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>PANATHINAIKOS ATHEN vs OLYMPIACOS FC</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIACOS FC</td>
+	<td>2.66</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-22 13:42:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-22 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs HERTHA BSC</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -1.50</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-22 13:38:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-21 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>SIVASSPOR vs GALATASARAY ISTANBUL</td>
+	<td>2-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>GALATASARAY ISTANBUL +0.25</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>114.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-21 13:05:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-21 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs TOULOUSE FC</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-21 11:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-21 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs STOKE CITY</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>ASTON VILLA +0</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-21 13:15:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-20 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>NAC BREDA vs CAMBUUR LEEUWARDEN</td>
+	<td>2-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-20 12:52:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-20 18:30:00</td>
+	<td>Denmark</td>
+	<td>SAS Ligaen</td>
+	<td>FC NORDSJALLAND vs RANDERS FC</td>
+	<td>0-3 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.51</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>151.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-20 12:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-19 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AJAX AMSTERDAM vs LEGIA WARSAW</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AJAX AMSTERDAM</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-19 14:03:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-19 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>TRABZONSPOR vs SSC NAPOLI</td>
+	<td>0-4 (0-3)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +1.00 Half time</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-19 14:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-19 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>VFL WOLFSBURG vs SPORTING CP</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL WOLFSBURG -1.00</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>138.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-19 13:57:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-18 21:00:00</td>
+	<td>Colombia</td>
+	<td>Copa Postobon, Group F</td>
+	<td>FORTALEZA FC vs BOYACA CHICO FC</td>
+	<td>1-2 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-18 17:42:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-18 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC SCHALKE 04 vs REAL MADRID</td>
+	<td>0-2 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>4.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-18 11:34:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-18 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BASEL vs FC PORTO</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>FC BASEL Half time</td>
+	<td>4.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>320.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-18 11:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-17 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC SHAKHTAR DONETSK vs BAYERN MUNICH</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -1.50</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-17 11:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-17 20:45:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>AFC FYLDE vs BOSTON UTD</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>AFC FYLDE</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-17 10:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-17 16:00:00</td>
+	<td>Finland</td>
+	<td>Liigacup Group 1</td>
+	<td>HJK HELSINKI vs ROVANIEMI PALLOSEURA</td>
+	<td>2-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HJK HELSINKI -1.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-17 10:54:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-16 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SD EIBAR vs ELCHE CF</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-16 11:34:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-16 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>CATANIA CALCIO vs FC CROTONE</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CATANIA CALCIO -1.00</td>
+	<td>2.31</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-16 11:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-16 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>GALATASARAY ISTANBUL vs BALIKESIRSPOR</td>
+	<td>3-1 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>GALATASARAY ISTANBUL -2.00</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-16 11:32:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-15 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>FC LORIENT vs OLYMPIQUE LYON</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE LYON</td>
+	<td>2.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 17:17:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-15 21:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>CELTA DE VIGO vs ATLETICO MADRID</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO MADRID</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 17:14:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-15 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>ATROMITOS ATHENS vs PAOK FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>PAOK FC</td>
+	<td>3.24</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 17:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-15 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs SC FREIBURG</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>HERTHA BSC</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 11:31:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-15 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>ATALANTA BERGAMASCA vs INTER MILAN</td>
+	<td>1-4 (1-2)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>121.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 11:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-15 14:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>RSC ANDERLECHT vs YELLOW-RED KV MECHELEN</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT -1.50</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-15 11:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-14 21:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>CD MIRANDES vs TENERIFE CD</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CD MIRANDES</td>
+	<td>2.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 19:23:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-14 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs SSC NAPOLI</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.68</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 19:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-14 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>ADO DEN HAAG vs NAC BREDA</td>
+	<td>3-2 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 19:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-14 16:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs SM CAEN</td>
+	<td>2-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -2.00</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 12:12:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-14 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>STOCKPORT COUNTY vs HYDE UTD</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>STOCKPORT COUNTY -2.00</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 12:07:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-14 16:00:00</td>
+	<td>England</td>
+	<td>Skrill North</td>
+	<td>AFC FYLDE vs HARROGATE TOWN</td>
+	<td>1-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>AFC FYLDE -1.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-14 12:03:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-11 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>STOKE CITY vs MANCHESTER CITY</td>
+	<td>1-4 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY +1.00</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>129.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-11 19:02:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-11 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>MANCHESTER UTD vs BURNLEY FC</td>
+	<td>3-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER UTD -1.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-11 18:57:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-08 19:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>ESPANYOL BARCELONA vs VALENCIA CF</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>VALENCIA CF</td>
+	<td>2.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>184.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-08 13:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-08 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs EINTRACHT FRANKFURT</td>
+	<td>2-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>FC AUGSBURG</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-08 13:49:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-08 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>CAGLIARI CALCIO vs AS ROMA</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-08 13:46:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-07 16:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>STADE RENNES vs OLYMPIQUE MARSEILLE</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE MARSEILLE</td>
+	<td>2.37</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-07 13:24:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-07 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SWANSEA CITY vs SUNDERLAND AFC</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SWANSEA CITY</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-07 13:15:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-06 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs MONCHENGLADBACH</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>191.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-06 17:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-01 21:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>FC BARCELONA vs VILLARREAL CF</td>
+	<td>3-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>FC BARCELONA -2.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-01 17:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-01 19:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>SEVILLA FC vs ESPANYOL BARCELONA</td>
+	<td>3-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>SEVILLA FC -1.00</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-01 17:44:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-01 18:00:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>RSC ANDERLECHT vs SV ZULTE WAREGEM</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RSC ANDERLECHT -1.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-01 11:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-02-01 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>PAS GIANNINA FC vs AOK KERKYRA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>PAS GIANNINA FC</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>103.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-01 11:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-02-01 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>WERDER BREMEN vs HERTHA BSC</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>WERDER BREMEN</td>
+	<td>2.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>133.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-02-01 11:50:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-31 18:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs AC FIORENTINA</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.39</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>239.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-31 11:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-31 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>REAL MADRID vs REAL SOCIEDAD</td>
+	<td>4-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -2.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-31 11:44:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-31 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WEST BROMWICH ALBION vs TOTTENHAM HOTSPUR</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>TOTTENHAM HOTSPUR</td>
+	<td>2.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>183.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-31 11:40:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-30 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>RAYO VALLECANO vs DEPORTIVO LA CORUNA</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.25</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-30 12:48:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-30 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>AS BARI vs FROSINONE CALCIO</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>AS BARI Half time</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>42.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-30 13:01:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-30 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs STADE RENNES</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>PARIS ST GERMAIN -2.00</td>
+	<td>2.28</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-30 12:59:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-30 15:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC THUN vs FC LAUSANNE-SPORT</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-30 12:55:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-28 22:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>ATLETICO MADRID vs FC BARCELONA</td>
+	<td>2-3 (2-3)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO MADRID +0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-28 13:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-28 20:45:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>PARMA FC vs JUVENTUS TURIN</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>Draw Half time</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>30.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-28 13:19:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-28 19:00:00</td>
+	<td>Africa Cup of Nations</td>
+	<td>Africa Cup of Nations, Group C</td>
+	<td>GUINEA vs MALI</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-28 13:16:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-28 19:00:00</td>
+	<td>Africa Cup of Nations</td>
+	<td>Africa Cup of Nations, Group C</td>
+	<td>CAMEROON vs IVORY COAST</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>IVORY COAST</td>
+	<td>2.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>143.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-28 13:15:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-23 23:00:00</td>
+	<td>International Youth</td>
+	<td>U20 Conmebol Championship</td>
+	<td>BRAZIL vs COLOMBIA</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BRAZIL -1.00</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-23 19:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-23 20:30:00</td>
+	<td>Belgium</td>
+	<td>Jupiler Pro League</td>
+	<td>KRC GENK vs ROYAL MOUSCRON</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds 1st Half</td>
+	<td>KRC GENK Half time</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-23 19:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-23 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OGC NICE vs OLYMPIQUE MARSEILLE</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE MARSEILLE</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-23 09:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-01-23 20:00:00</td>
+	<td>Africa Cup of Nations</td>
+	<td>Africa Cup of Nations, Group C</td>
+	<td>SOUTH AFRICA vs SENEGAL</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>233.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-23 10:03:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-01-23 17:00:00</td>
+	<td>Africa Cup of Nations</td>
+	<td>Africa Cup of Nations, Group C</td>
+	<td>GHANA vs ALGERIA</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ALGERIA</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2015-01-23 09:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-19 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>OLYMPIQUE NIMES vs US ORLEANS 45</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-19 12:18:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-19 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>AS NANCY vs CLERMONT FOOT</td>
+	<td>1-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>AS NANCY</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-19 12:16:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-19 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>SC HEERENVEEN vs ADO DEN HAAG</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SC HEERENVEEN -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-19 12:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-18 22:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>ATHLETIC BILBAO vs CD ALCOYANO</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC BILBAO -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-18 12:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-18 20:45:00</td>
+	<td>Netherlands</td>
+	<td>KNVB beker</td>
+	<td>AJAX AMSTERDAM vs VITESSE ARNHEM</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>AJAX AMSTERDAM -1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-18 12:55:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-18 20:30:00</td>
+	<td>France</td>
+	<td>National</td>
+	<td>SC AMIENS vs RACING STRASBOURG</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-18 13:03:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-17 18:30:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>OLYMPIACOS FC vs PANIONIOS ATHENS</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>OLYMPIACOS FC -2.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-17 14:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-17 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>OFI CRETE FC vs KALLONI AEL FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OFI CRETE FC</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-17 14:33:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-17 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>VEROIA FC vs NIKI VOLOU</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VEROIA FC -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-17 14:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-16 22:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>FC BARCELONA vs SD HUESCA</td>
+	<td>8-1 (5-0)</td>
+	<td>Asian handicap</td>
+	<td>FC BARCELONA -3.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-16 14:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-16 20:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>VALENCIA CF vs RAYO VALLECANO</td>
+	<td>4-4 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>VALENCIA CF -1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-16 14:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-16 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs SC FREIBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-16 14:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-15 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs INTER MILAN</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-15 12:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-15 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>LATINA CALCIO vs AS VARESE</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-15 12:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-15 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>TRABZONSPOR vs CAYKUR RIZESPOR</td>
+	<td>3-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>TRABZONSPOR -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-15 12:43:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-14 16:15:00</td>
+	<td>Greece</td>
+	<td>Super League</td>
+	<td>ASTERAS TRIPOLIS vs VEROIA FC</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ASTERAS TRIPOLIS -0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-14 11:03:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-14 15:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK DINAMO ZAGREB vs NK SLAVEN BELUPO</td>
+	<td>3-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>NK DINAMO ZAGREB -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-14 10:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-14 14:00:00</td>
+	<td>Scotland</td>
+	<td>Premier League</td>
+	<td>CELTIC FC vs FC ST MIRREN</td>
+	<td>4-1 (3-1)</td>
+	<td>Asian handicap</td>
+	<td>CELTIC FC -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-14 11:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-13 18:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>VALENCIA CF vs RAYO VALLECANO</td>
+	<td>3-0 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>VALENCIA CF -0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-13 12:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-13 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>LEICESTER CITY vs MANCHESTER CITY</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY +0.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-13 12:47:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-13 16:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>GETAFE CF vs FC BARCELONA</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-13 12:39:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-12 20:45:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>UD ALMERIA vs REAL MADRID</td>
+	<td>1-4 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID +2.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-12 13:08:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-12 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE LYON vs SM CAEN</td>
+	<td>3-0 (1-0)</td>
+	<td>European handicap</td>
+	<td>OLYMPIQUE LYON -1.00</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>82.80</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-12 13:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-12 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>TRAPANI CALCIO vs PERUGIA</td>
+	<td>2-2 (2-0)</td>
+	<td>Match Odds</td>
+	<td>TRAPANI CALCIO</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-12 13:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-12 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>HERACLES ALMELO vs FC DORDRECHT</td>
+	<td>1-1 (0-1)</td>
+	<td>European handicap</td>
+	<td>HERACLES ALMELO -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-12 13:04:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-11 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>SEVILLA FC vs HNK RIJEKA</td>
+	<td>1-0 (1-0)</td>
+	<td>European handicap</td>
+	<td>SEVILLA FC -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-11 17:46:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-11 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>AC FIORENTINA vs FC DINAMO MINSK</td>
+	<td>1-2 (0-1)</td>
+	<td>European handicap</td>
+	<td>AC FIORENTINA -1.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-11 17:43:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-11 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>EVERTON FC vs FC KRASNODAR</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>EVERTON FC</td>
+	<td>1.89</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-11 17:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-10 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AJAX AMSTERDAM vs APOEL NICOSIA FC</td>
+	<td>4-0 (1-0)</td>
+	<td>European handicap</td>
+	<td>AJAX AMSTERDAM -1.00</td>
+	<td>2.62</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>97.20</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-10 13:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-10 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>NK MARIBOR vs FC SCHALKE 04</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>113.60</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-10 13:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-10 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS ROMA vs MANCHESTER CITY</td>
+	<td>0-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-10 13:44:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-10 17:00:00</td>
+	<td>Turkey</td>
+	<td>Turkish Cup</td>
+	<td>BURSASPOR vs MERSIN IDMAN YURDU SK</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>BURSASPOR</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-10 13:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>REAL MADRID vs LUDOGORETS RAZGRAD</td>
+	<td>4-0 (2-0)</td>
+	<td>Both team to score</td>
+	<td>No</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-09 14:50:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS MONACO vs ZENIT ST PETERSBURG</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-09 14:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-09 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>GALATASARAY ISTANBUL vs ARSENAL FC</td>
+	<td>1-4 (0-3)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-09 14:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-08 21:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SOUTHAMPTON FC vs MANCHESTER UTD</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-08 19:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-08 21:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs SAMPDORIA GENOA</td>
+	<td>1-3 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-08 19:55:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-06 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs FC NANTES</td>
+	<td>2-1 (1-1)</td>
+	<td>European handicap</td>
+	<td>PARIS ST GERMAIN -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-06 12:55:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-06 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>STOKE CITY vs ARSENAL FC</td>
+	<td>3-2 (3-0)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL FC</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-06 12:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs HERTHA BSC</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>MONCHENGLADBACH</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-06 13:02:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-05 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC FIORENTINA vs JUVENTUS TURIN</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-05 13:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2014-12-05 20:30:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FROSINONE CALCIO vs TERNANA CALCIO</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FROSINONE CALCIO</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-05 13:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2014-12-05 18:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK ZAGREB vs NK ISTRA 1961</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>NK ZAGREB</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Robert Volkan</td>
+		<td>Football</td>
+		<td>2014-12-05 13:03:04</td>
+	</tr>
+</tbody>
+
+</table>
