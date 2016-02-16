@@ -84,10 +84,6 @@ public class BetAdvisorParser {
 		            		// sport
 		            		String sport = tokens[13];
 		            		// publicationDate
-		            		if(tokens[14].length() == 0){
-		            			int kek = 12;
-		            			int b = kek;
-		            		}
 		            		Date publicationDate = format.parse(tokens[14]);
 		            		
 		            		// Create element
@@ -106,6 +102,18 @@ public class BetAdvisorParser {
 		    }
 		});		
 		return res;
+	}
+	
+	public static String parseHostFromEvent(String eventString){
+		int endIndex = eventString.indexOf(" vs ");
+		String hostString = eventString.substring(0, endIndex);
+		return hostString;
+	}
+	
+	public static String parseGuestFromEvent(String eventString){
+		int startIndex = eventString.indexOf(" vs ") + 4;
+		String guestString = eventString.substring(startIndex);
+		return guestString;
 	}
 	
 	public static void main(String[] args) throws IOException {
