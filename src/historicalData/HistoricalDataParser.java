@@ -2,15 +2,38 @@ package historicalData;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class HistoricalDataParser {
+	
+	public List<HistoricalDataElement> parseFilesInFolder(String folderPath, String filterString){
+		List<HistoricalDataElement> res = new ArrayList<HistoricalDataElement>();
+		try {
+			Files.walk(Paths.get(folderPath)).forEach(filePath -> {
+			    if (Files.isRegularFile(filePath) && filePath.toString().indexOf(filterString) != -1){
+			    	List<HistoricalDataElement> l = parseFile(filePath.toString());
+			    	res.addAll(l);
+			    }
+			});
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// Sort the list
+		Collections.sort(res, new HistoricalDataComparator());		
+		return res;
+	}
 	
 	public List<HistoricalDataElement> parseFile(String path){
 		List<HistoricalDataElement> res = new ArrayList<HistoricalDataElement>();
@@ -98,14 +121,28 @@ public class HistoricalDataParser {
 		}
 		
 		// Postprocessing
-		
+		// Sort odds
+		for(int i = 0; i < res.size(); i++){
+			HistoricalDataElement e = res.get(i);
+			List<OneTwoElement> l = e.getOneTwoList();
+			Collections.sort(l, new OddsElementComparator());
+			for(int j = 0; j < l.size() - 1; j++){
+				long t0 = l.get(j).getTime();
+				long t1 = l.get(j + 1).getTime();
+				if(t0 == t1){
+					System.out.println("Duplicate");
+				}
+			}
+		}
+		// Sort the list
+		Collections.sort(res, new HistoricalDataComparator());
 		
 		return res;
 	}
 	
 	public static void main(String[] args) {
 		HistoricalDataParser parser = new HistoricalDataParser();
-		List<HistoricalDataElement> l = parser.parseFile("C:\\Users\\Patryk\\Desktop\\HistoricalData\\ChangesOnly\\data\\pendingFull-results_20140101_20140201.xml");
+		List<HistoricalDataElement> l = parser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\HistoricalData\\ChangesOnly\\data", "pendingFull");
 		int kek = 21;
 		int b = kek;
 	}

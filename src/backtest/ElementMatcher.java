@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -57,6 +58,8 @@ public class ElementMatcher {
 			
 			String historicalDataHost = "";
 			String historicalDataGuest = "";
+			
+			List<HistoricalDataElement> availableBets = new ArrayList<HistoricalDataElement>();
 			for(int j = 0; j < historicalDataList.size(); j++){
 				DateFormat gmtFormat = new SimpleDateFormat();
 				TimeZone gmtTime = TimeZone.getTimeZone("GMT");
@@ -87,7 +90,6 @@ public class ElementMatcher {
 						hostMatches++;
 						double win = e0.getProfit() / e0.getTake() * 100;
 						ev += win;
-						//break;
 						if(hostMatches == 2){
 							int kek = 12;
 							int b = kek;
@@ -97,14 +99,12 @@ public class ElementMatcher {
 						hostMatches++;
 						double win = e0.getProfit() / e0.getTake() * 100;
 						ev += win;
-						break;
 					}
 					else if(betAdvisorLeague.equals("International Friendly Games")){
 						if(betAdvisorHost.equalsIgnoreCase(historicalDataGuest)){
 							hostMatches++;
 							double win = e0.getProfit() / e0.getTake() * 100;
 							ev += win;
-							break;
 						}
 					}
 					
