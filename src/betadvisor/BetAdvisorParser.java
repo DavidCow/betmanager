@@ -101,6 +101,7 @@ public class BetAdvisorParser {
 		        }
 		    }
 		});		
+		Collections.sort(res, new BetAdvisorComparator());
 		return res;
 	}
 	

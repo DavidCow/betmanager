@@ -11,8 +11,23 @@ public class HistoricalDataElement {
 	private String guest;
 	private String source;
 	
+	/**
+	 * @return the totalList
+	 */
+	public List<TotalElement> getTotalList() {
+		return totalList;
+	}
+
+	/**
+	 * @param totalList the totalList to set
+	 */
+	public void setTotalList(List<TotalElement> totalList) {
+		this.totalList = totalList;
+	}
+
 	// Odds
 	private List<OneTwoElement> oneTwoList;
+	private List<TotalElement> totalList;
 	
 	public HistoricalDataElement(Date startDate, String league, String host, String guest, String source){
 		this.startDate = startDate;
