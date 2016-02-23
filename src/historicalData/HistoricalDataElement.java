@@ -5,6 +5,20 @@ import java.util.Date;
 import java.util.List;
 
 public class HistoricalDataElement {
+	/**
+	 * @return the hdpList
+	 */
+	public List<HdpElement> getHdpList() {
+		return hdpList;
+	}
+
+	/**
+	 * @param hdpList the hdpList to set
+	 */
+	public void setHdpList(List<HdpElement> hdpList) {
+		this.hdpList = hdpList;
+	}
+
 	private Date startDate;
 	private String league;
 	private String host;
@@ -28,6 +42,7 @@ public class HistoricalDataElement {
 	// Odds
 	private List<OneTwoElement> oneTwoList;
 	private List<TotalElement> totalList;
+	private List<HdpElement> hdpList;
 	
 	public HistoricalDataElement(Date startDate, String league, String host, String guest, String source){
 		this.startDate = startDate;
