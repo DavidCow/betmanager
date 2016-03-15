@@ -1,6 +1,6 @@
 package historicalData;
 
-public class HdpElement implements OddsElement{
+public class HdpElement implements OddsElement, java.io.Serializable{
 
 	private double host;
 	private double guest;

@@ -6,18 +6,27 @@ import historicalData.HistoricalDataParser;
 import historicalData.OneTwoElement;
 import historicalData.TotalElement;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-import betadvisor.BetAdvisorComparator;
+import org.apache.commons.math3.stat.inference.TTest;
+
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
+import bettingBot.LetterPairSimilarity;
+import bettingBot.TeamMapping;
 
 public class BetAdvisorBacktest {
 
@@ -43,7 +52,7 @@ public class BetAdvisorBacktest {
 		// EVs with lay hedging
 		double evLayed = 0;
 		
-		// If we only take bets with odds higher or equal to what the tippster suggested
+		// If we only take bets with odds higher or equal to what the tipster suggested
 		double evOnlyGoodOddsTaken = 0;
 		double numberOfGoodBets = 0;
 		
@@ -84,17 +93,49 @@ public class BetAdvisorBacktest {
 		for(int i = 0; i < betAdvisorList.size(); i++){
 			Date date = betAdvisorList.get(i).getGameDate();
 			int y = date.getYear() + 1900;
-			if(y == 2015){
-				if(date.getMonth() == 9){
+			if(y == 2016){
+//				if(date.getMonth() == 8){
 					endI = i;
 					break;
-				}
+//				}
 			}
 		}
 		
-		HistoricalDataParser historicalDataParser = new HistoricalDataParser();
-		List<HistoricalDataElement> historicalDataList = new ArrayList<HistoricalDataElement>();//historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full");
-		historicalDataList.addAll(historicalDataParser.parseFileJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015\\pendingFull_20150201_20150301.xml"));
+		//Try to load the historical data from an object stream or load it flom csv files otherwise
+		List<HistoricalDataElement> historicalDataList = null;
+		File historicalDataFile = new File("allFullHistoricalData.dat");
+		if(historicalDataFile.exists()){
+            FileInputStream fileInput = new FileInputStream(historicalDataFile);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+				historicalDataList = (List<HistoricalDataElement>)objectInputStream.readObject();
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            System.out.println("Historical data loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			historicalDataList = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full");
+			historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full"));
+			historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full"));	
+			System.out.println("Historical data loaded from CSV");
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFile);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(historicalDataList);
+            objectOutputStream.close();
+		}
+//		HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+//		List<HistoricalDataElement> historicalDataList = historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full");
+//		historicalDataList = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full");
+//		historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full"));
+//		historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full"));
+//		List<HistoricalDataElement> historicalDataList = historicalDataParser.parseFileJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015\\pendingFull_20150701_20150801.xml");
+//		historicalDataList.addAll(historicalDataParser.parseFileJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015\\pendingFull_20150501_20150601.xml"));
 		
 		/* Needed for comparison of Dates */
 		DateFormat gmtFormat = new SimpleDateFormat();
@@ -120,7 +161,7 @@ public class BetAdvisorBacktest {
 			
 			/* The Date of the tipp */
 			BetAdvisorElement tipp = betAdvisorList.get(i);
-			if(!tipp.getTypeOfBet().equals("Match Odds") && !tipp.getTypeOfBet().equals("Over / Under")&& !tipp.getTypeOfBet().equals("Asian handicap")){
+			if(!tipp.getTypeOfBet().equals("Match Odds") && !tipp.getTypeOfBet().equals("Over / Under") && !tipp.getTypeOfBet().equals("Asian handicap")){
 				continue;
 			}
 			checkedTipps++;
@@ -159,7 +200,7 @@ public class BetAdvisorBacktest {
 					// current tipp
 					if(!startJSet){
 						startJSet = true;
-						startJ = j - 10;
+						startJ = j;
 					}
 					
 					String betAdvisorLeague = tipp.getLeague();
@@ -174,7 +215,7 @@ public class BetAdvisorBacktest {
 					matches++;
 					
 					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
-					if(betAdvisorHost.equalsIgnoreCase(historicalDataHost)){
+					if(betAdvisorHost.equalsIgnoreCase(historicalDataHost) || betAdvisorGuest.equalsIgnoreCase(historicalDataGuest)){
 						availableBets.add(historicalDataElement);
 						if(tipp.getTypeOfBet().equals("Match Odds")){
 							if(tippTeam.equalsIgnoreCase("Draw")){
@@ -184,6 +225,78 @@ public class BetAdvisorBacktest {
 								tippIndex = 0;
 							}
 							else if(tippTeam.equalsIgnoreCase(betAdvisorGuest)){
+								tippIndex = 1;
+							}		
+						}
+						if(tipp.getTypeOfBet().equals("Over / Under")){
+							int totalStart = tipp.getSelection().lastIndexOf("+");
+							if(totalStart == -1)
+								return;
+							totalStart++;							
+							String totalString = tipp.getSelection().substring(totalStart);
+							double total = Double.parseDouble(totalString);
+							
+							List<TotalElement> l = historicalDataElement.getTotalList();
+							if(!l.isEmpty()){
+								boolean totalOk = false;
+								for(int t = 0; t < l.size(); t++){
+									if(l.get(t).getTotal() == total){
+										totalOk = true;
+										break;
+									}
+								}
+								if(totalOk){
+									availableBets.add(historicalDataElement);
+									if(tippTeam.indexOf("Over") == 0){
+										tippIndex = 0;
+									}
+									else if(tippTeam.indexOf("Under") == 0){
+										tippIndex = 1;
+									}
+								}
+							}
+						}
+						if(tipp.getTypeOfBet().equals("Asian handicap")){
+							int pivotStart = tipp.getSelection().lastIndexOf("-");
+							if(pivotStart != -1){
+								try{
+									pivotStart++;
+									String pivotString = tipp.getSelection().substring(pivotStart);
+									double pivot = Double.parseDouble(pivotString);
+									List<HdpElement> l = historicalDataElement.getHdpList();
+									if(!l.isEmpty()){
+										boolean pivotOk = false;
+										for(int t = 0; t < l.size(); t++){
+											if(l.get(t).getPivot() == pivot){
+												pivotOk = true;
+												break;
+											}
+										}
+										if(pivotOk){
+											if(tippTeam.indexOf(betAdvisorHost) != -1){
+												tippIndex = 0;
+											}
+											else if(tippTeam.indexOf(betAdvisorGuest) != -1){
+												tippIndex = 1;
+											}
+										}
+									}			
+								}catch(Exception e){
+//									e.printStackTrace();
+								}
+							}
+						}
+					}
+					else if(TeamMapping.teamsMatch(historicalDataHost, betAdvisorHost) || TeamMapping.teamsMatch(historicalDataGuest, betAdvisorGuest)){
+						availableBets.add(historicalDataElement);
+						if(tipp.getTypeOfBet().equals("Match Odds")){
+							if(tippTeam.equalsIgnoreCase("Draw")){
+								tippIndex = 2;
+							}
+							else if(tippTeam.equalsIgnoreCase(betAdvisorHost) || TeamMapping.teamsMatch(tippTeam, betAdvisorHost)){
+								tippIndex = 0;
+							}
+							else if(tippTeam.equalsIgnoreCase(betAdvisorGuest) || TeamMapping.teamsMatch(tippTeam, betAdvisorGuest)){
 								tippIndex = 1;
 							}		
 						}
@@ -226,74 +339,7 @@ public class BetAdvisorBacktest {
 												break;
 											}
 										}
-										if(pivotOk){
-											if(tippTeam.indexOf(betAdvisorHost) != -1){
-												tippIndex = 0;
-											}
-											else if(tippTeam.indexOf(betAdvisorGuest) != -1){
-												tippIndex = 1;
-											}
-										}
-									}			
-								}catch(Exception e){
-									
-								}
-							}
-						}
-					}
-					else if(betAdvisorGuest.equalsIgnoreCase(historicalDataGuest)){
-						availableBets.add(historicalDataElement);
-						if(tipp.getTypeOfBet().equals("Match Odds")){
-							if(tippTeam.equalsIgnoreCase("Draw")){
-								tippIndex = 2;
-							}
-							else if(tippTeam.equalsIgnoreCase(betAdvisorHost)){
-								tippIndex = 0;
-							}
-							else if(tippTeam.equalsIgnoreCase(betAdvisorGuest)){
-								tippIndex = 1;
-							}
-						}
-						if(tipp.getTypeOfBet().equals("Over / Under")){
-							int totalStart = tipp.getSelection().lastIndexOf("+") + 1;
-							String totalString = tipp.getSelection().substring(totalStart);
-							double total = Double.parseDouble(totalString);
-							List<TotalElement> l = historicalDataElement.getTotalList();
-							if(!l.isEmpty()){
-								boolean totalOk = false;
-								for(int t = 0; t < l.size(); t++){
-									if(l.get(t).getTotal() == total){
-										totalOk = true;
-										break;
-									}
-								}
-								if(totalOk){
-									availableBets.add(historicalDataElement);
-									if(tippTeam.indexOf("Over") == 0){
-										tippIndex = 0;
-									}
-									else if(tippTeam.indexOf("Under") == 0){
-										tippIndex = 1;
-									}
-								}
-							}
-						}	
-						if(tipp.getTypeOfBet().equals("Asian handicap")){
-							int pivotStart = tipp.getSelection().lastIndexOf("-") + 1;
-							if(pivotStart != 0){
-								try{
-									String pivotString = tipp.getSelection().substring(pivotStart);
-									double pivot = Double.parseDouble(pivotString);
-									List<HdpElement> l = historicalDataElement.getHdpList();
-									if(!l.isEmpty()){
-										boolean pivotOk = false;
-										for(int t = 0; t < l.size(); t++){
-											if(l.get(t).getPivot() == pivot){
-												pivotOk = true;
-												break;
-											}
-										}
-										if(pivotOk){
+										if(pivotOk){											
 											if(tippTeam.indexOf(betAdvisorHost) != -1){
 												tippIndex = 0;
 											}
@@ -337,10 +383,10 @@ public class BetAdvisorBacktest {
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					List<OneTwoElement> oneTwoOdds = historicalElement.getOneTwoList();
 
+					double odds = 0;
 					for(int oddIndex = 0; oddIndex < oneTwoOdds.size(); oddIndex++){
 						OneTwoElement oneTwoElement = oneTwoOdds.get(oddIndex);
 						Date oddsDate = new Date(oneTwoElement.getTime());
-						double odds = 0;
 						if(oddsDate.before(tippPublishedDate)){
 							if(tippIndex == 0){
 								odds = oneTwoElement.getOne();
@@ -352,17 +398,18 @@ public class BetAdvisorBacktest {
 								odds = oneTwoElement.getDraw();
 							}
 						}
-						if(odds > bestOdds){
-							bestOdds = odds;
-							bestSource = historicalElement;
-						}	
-					}		
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}	
 				}
 				
 				// OVER / UNDER
 				if(tipp.getTypeOfBet().equals("Over / Under")){
 					List<TotalElement> totalOdds = historicalElement.getTotalList();
 
+					double odds = 0;
 					for(int oddIndex = 0; oddIndex < totalOdds.size(); oddIndex++){
 						TotalElement totalElement = totalOdds.get(oddIndex);
 						
@@ -372,7 +419,6 @@ public class BetAdvisorBacktest {
 						
 						if(totalElement.getTotal() == total){
 							Date oddsDate = new Date(totalElement.getTime());
-							double odds = 0;
 							if(oddsDate.before(tippPublishedDate)){
 								if(tippIndex == 0){
 									odds = 1 + totalElement.getOver();
@@ -381,18 +427,19 @@ public class BetAdvisorBacktest {
 									odds = 1 + totalElement.getUnder();
 								}
 							}
-							if(odds > bestOdds){
-								bestOdds = odds;
-								bestSource = historicalElement;
-							}	
 						}
-					}					
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}	
 				}
 				
 				// Asian handicap
 				if(tipp.getTypeOfBet().equals("Asian handicap")){
 					List<HdpElement> hdpOdds = historicalElement.getHdpList();
 
+					double odds = 0;
 					for(int oddIndex = 0; oddIndex < hdpOdds.size(); oddIndex++){
 						HdpElement totalElement = hdpOdds.get(oddIndex);
 						
@@ -404,7 +451,6 @@ public class BetAdvisorBacktest {
 								
 								if(totalElement.getPivot() == pivot){
 									Date oddsDate = new Date(totalElement.getTime());
-									double odds = 0;
 									if(oddsDate.before(tippPublishedDate)){
 										if(tippIndex == 0){
 											odds = 1 + totalElement.getHost();
@@ -413,16 +459,16 @@ public class BetAdvisorBacktest {
 											odds = 1 + totalElement.getGuest();
 										}
 									}
-									if(odds > bestOdds){
-										bestOdds = odds;
-										bestSource = historicalElement;
-									}
 								}		
 							}catch(Exception e){
 								
 							}
 						}
-					}					
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}
 				}
 			}
 			if(bestOdds != 0){
@@ -452,13 +498,13 @@ public class BetAdvisorBacktest {
 						else{
 							if(oddIndex != 0 && oddIndex == oneTwoOdds.size() -1){
 								if(tippIndex == 0){
-									firstLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getTwo());
+									lastLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getTwo());
 								}
 								else if(tippIndex == 1){
-									firstLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getOne());
+									lastLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getOne());
 								}
 								else if(tippIndex == 2){
-									firstLay = 0.5 * (oneTwoElement.getOne() + oneTwoElement.getTwo());
+									lastLay = 0.5 * (oneTwoElement.getOne() + oneTwoElement.getTwo());
 								}						
 							}
 						}
@@ -475,6 +521,9 @@ public class BetAdvisorBacktest {
 					if(layMovement > layThreshold){
 						numberOfTakenLaysThreshold++;
 						takenLayMovementThreshold += layMovement;
+					}
+					if(bestOdds > 10){
+						System.out.println();
 					}
 					double take = 100;
 					numberOfAllBets++;
@@ -746,19 +795,51 @@ public class BetAdvisorBacktest {
 		double betVariance = 0;
 		double evPerBet = evAllPossibleBetsTaken / numberOfAllBets;
 		for(int i = 0; i < betEvs.size(); i++){
-			betVariance +=Math.pow((betEvs.get(i) - evPerBet), 2);
+			betVariance += Math.pow((betEvs.get(i) - evPerBet), 2);
 		}
-		betVariance /= betEvs.size();
+		betVariance /= betEvs.size() - 1;		
+		System.out.println("Normal variance per Bet: " + betVariance);
+		betVariance /= betEvs.size();	
+		double betSigma = Math.pow(betVariance, 0.5);
 		
 		double betVarianceHedged = 0;
 		double evPerBetHedged = evLayed / numberOfTakenLaysThreshold;
 		for(int i = 0; i < hedgedEvs.size(); i++){
-			betVarianceHedged +=Math.pow((hedgedEvs.get(i) - evPerBetHedged), 2);
+			betVarianceHedged += Math.pow((hedgedEvs.get(i) - evPerBetHedged), 2);
 		}
+		betVarianceHedged /= hedgedEvs.size() - 1;
+		System.out.println("Hedged variance per Bet: " + betVarianceHedged);
 		betVarianceHedged /= hedgedEvs.size();
+		double betSigmaHedged = Math.pow(betVarianceHedged, 0.5);
 		
-		System.out.println("Normal variance: " + betVariance);
-		System.out.println("Hedged variance: " + betVarianceHedged);
+		System.out.println("Normal variance of mean: " + betVariance);
+		System.out.println("Normal sigma of mean: " + betSigma);
+		System.out.println("Hedged variance of mean: " + betVarianceHedged);
+		System.out.println("Hedged sigma of mean: " + betSigmaHedged);
+		
+		double[] bEv = new double[betEvs.size()];
+		for(int e = 0; e < betEvs.size(); e++){
+			bEv[e] = betEvs.get(e);
+		}
+		System.out.println("\nSignificance tests:");
+		TTest test = new TTest();
+		double significance = test.tTest(0, bEv);
+		System.out.println("Significance level of < 0: " + significance / 2);
+		significance = test.tTest(1, bEv);
+		System.out.println("Significance level of < 1: " + significance / 2);
+		significance = test.tTest(2, bEv);
+		System.out.println("Significance level of < 2: " + significance / 2);
+		significance = test.tTest(3, bEv);
+		System.out.println("Significance level of < 3: " + significance / 2);
+		significance = test.tTest(4, bEv);
+		System.out.println("Significance level of < 4: " + significance / 2);
+		significance = test.tTest(5, bEv);
+		System.out.println("Significance level of < 5: " + significance / 2);
+		significance = test.tTest(6, bEv);
+		System.out.println("Significance level of < 6: " + significance / 2);
+		significance = test.tTest(7, bEv);
+		System.out.println("Significance level of < 7: " + significance / 2);
+		System.out.println();		
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();

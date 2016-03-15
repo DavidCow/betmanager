@@ -1,6 +1,6 @@
 package historicalData;
 
-public class OneTwoElement implements OddsElement{
+public class OneTwoElement implements OddsElement, java.io.Serializable{
 	private double one;
 	private double two;
 	private double draw;

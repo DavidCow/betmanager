@@ -665,7 +665,7 @@ public class HistoricalDataParser {
 	
 	public static void main(String[] args) {
 		HistoricalDataParser parser = new HistoricalDataParser();
-		List<HistoricalDataElement> l = parser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full");
+		List<HistoricalDataElement> l = parser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full");
 		System.out.println();
 	}
 }

@@ -1,10 +1,9 @@
 package historicalData;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class HistoricalDataElement {
+public class HistoricalDataElement implements java.io.Serializable {
 	/**
 	 * @return the hdpList
 	 */

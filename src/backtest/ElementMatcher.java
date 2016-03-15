@@ -3,7 +3,14 @@ package backtest;
 import historicalData.HistoricalDataElement;
 import historicalData.HistoricalDataParser;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,11 +23,11 @@ import java.util.TimeZone;
 import betadvisor.BetAdvisorComparator;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
+import bettingBot.TeamMapping;
 
 public class ElementMatcher {
 
 	void matchElements() throws IOException, ParseException{
-		double ev = 0;
 		
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
@@ -38,19 +45,47 @@ public class ElementMatcher {
 		for(int i = 0; i < betAdvisorList.size(); i++){
 			Date date = betAdvisorList.get(i).getGameDate();
 			int y = date.getYear() + 1900;
-			if(y == 2014){
-				if(date.getMonth() == 1){
-					endI = i;
-					break;
-				}
+			if(y == 2015 && date.getMonth() == 0){
+				endI = i;
+				break;
 			}
 		}
 		
-		HistoricalDataParser historicalDataParser = new HistoricalDataParser();
-		List<HistoricalDataElement> historicalDataList = historicalDataParser.parseFile("C:\\Users\\Patryk\\Desktop\\HistoricalData\\ChangesOnly\\data\\pendingFull-results_20140101_20140201.xml");
+		//Try to load the historical data from an object stream or load it flom csv files otherwise
+		List<HistoricalDataElement> historicalDataList = null;
+		File historicalDataFile = new File("changesOnly.dat");
+		if(historicalDataFile.exists()){
+            FileInputStream fileInput = new FileInputStream(historicalDataFile);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+				historicalDataList = (List<HistoricalDataElement>)objectInputStream.readObject();
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            System.out.println("Historical data loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			historicalDataList = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full");
+			System.out.println("Historical data loaded from CSV");
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFile);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(historicalDataList);
+            objectOutputStream.close();
+		}
 		
 		int tipps = 0;
+		int dateMatches = 0;
+		// We dont have to loop over all historical data for every tipp, sonce some historical data will be
+		// From games before the tipp
+		int startJ = 0;
+		boolean startJSet = false;
 		for(int i = startI; i < endI; i++){
+			startJSet = false;
 			int matches = 0;
 			int hostMatches = 0;
 			String betAdvisorHost = "";
@@ -60,7 +95,7 @@ public class ElementMatcher {
 			String historicalDataGuest = "";
 			
 			List<HistoricalDataElement> availableBets = new ArrayList<HistoricalDataElement>();
-			for(int j = 0; j < historicalDataList.size(); j++){
+			for(int j = startJ; j < historicalDataList.size(); j++){
 				DateFormat gmtFormat = new SimpleDateFormat();
 				TimeZone gmtTime = TimeZone.getTimeZone("GMT");
 				gmtFormat.setTimeZone(gmtTime);
@@ -68,12 +103,18 @@ public class ElementMatcher {
 				Date betAdvisorDate = betAdvisorList.get(i).getGameDate();
 				BetAdvisorElement e0 = betAdvisorList.get(i);
 				String s0 = betAdvisorDate.toGMTString();
+				long t0 = betAdvisorDate.getTime();
 				
 				Date historicalDataDate = historicalDataList.get(j).getStartDate();
 				HistoricalDataElement e1 = historicalDataList.get(j);
 				String s1 = historicalDataDate.toGMTString();
+				long t1 = historicalDataDate.getTime();
 				
-				if(s0.equals(s1)){
+				if(t0 == t1){
+					if(!startJSet){
+						startJSet = true;
+						startJ = j;
+					}					
 					String betAdvisorLeague = e0.getLeague();
 					String historicalDataLeague = e1.getLeague();
 					//System.out.println(betAdvisorLeague + " , " + historicalDataLeague);
@@ -88,43 +129,36 @@ public class ElementMatcher {
 					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
 					if(betAdvisorHost.equalsIgnoreCase(historicalDataHost)){
 						hostMatches++;
-						double win = e0.getProfit() / e0.getTake() * 100;
-						ev += win;
-						if(hostMatches == 2){
-							int kek = 12;
-							int b = kek;
-						}
 					}
 					else if(betAdvisorGuest.equalsIgnoreCase(historicalDataGuest)){
 						hostMatches++;
-						double win = e0.getProfit() / e0.getTake() * 100;
-						ev += win;
 					}
 					else if(betAdvisorLeague.equals("International Friendly Games")){
 						if(betAdvisorHost.equalsIgnoreCase(historicalDataGuest)){
 							hostMatches++;
-							double win = e0.getProfit() / e0.getTake() * 100;
-							ev += win;
 						}
+					}	
+					else if(TeamMapping.teamsMatch(betAdvisorHost, historicalDataHost)){
+						hostMatches++;
 					}
-					
+					else if(TeamMapping.teamsMatch(betAdvisorGuest, historicalDataGuest)){
+						hostMatches++;
+					}
 					matches++;
-					int kek = 12;
-					int b = kek;
+				}
+				if(t0 < t1){
+					break;
 				}
 			}
 			if(matches != 0){
-				if(hostMatches == 0){
-					int kek = 12;
-					int b = kek;
-				}
-				else
+				dateMatches++;
+				if(hostMatches != 0){
 					tipps++;
-				System.out.println(hostMatches);
+				}
 			}
 		}
+		System.out.println("dateMatches: " + dateMatches);
 		System.out.println("Tipps: " + tipps);
-		System.out.println("EV: " + ev);
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
