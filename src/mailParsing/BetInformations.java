@@ -4,6 +4,14 @@ import java.util.Date;
 
 
 public class BetInformations {
+	
+	@Override
+	public String toString(){
+		String res = "";
+		res += "Event: " + event + ", Tipster: " + tipster + ", bet on: " + betOn + ", no Bet under: " + noBetUnder;
+		return res;		
+	}
+	
 	public String event;
 	public String host;
 	public String guest;

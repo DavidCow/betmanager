@@ -10,6 +10,13 @@ public class BetTicket {
 	private String reqId;
 	private int actionStatus;
 	
+	@Override
+	public String toString(){
+		String res = "";
+		res += "minStake: " + minStake + ", maxStake: " + maxStake + ", currentOdd: " + currentOdd + ", reqId: " + reqId + ", actionStatus: " + actionStatus;
+		return res;
+	}
+	
 	private static Gson gson = new Gson();
 	
 	/**

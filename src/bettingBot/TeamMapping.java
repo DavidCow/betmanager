@@ -29,7 +29,6 @@ public class TeamMapping {
 		
 		double similarity = LetterPairSimilarity.compareStrings(t0, t1);		
 		if(similarity > similarityThreshold){
-//			System.out.println("Similar Teams Pair: " + t0 + "   " + t1);
 			return true;
 		}
 		

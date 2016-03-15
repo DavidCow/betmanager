@@ -9,7 +9,7 @@ public class Bet {
 	private String reqId;
 	private double betAmount;
 	private int betStatus;
-	private double bestOdd;
+	private double betOdd;
 	private int actionStatus;
 	
 	private static Gson gson = new Gson();
@@ -88,14 +88,14 @@ public class Bet {
 	/**
 	 * @return the bestOdd
 	 */
-	public double getBestOdd() {
-		return bestOdd;
+	public double getBetOdd() {
+		return betOdd;
 	}
 	/**
 	 * @param bestOdd the bestOdd to set
 	 */
-	public void setBestOdd(double bestOdd) {
-		this.bestOdd = bestOdd;
+	public void setBetOdd(double betOdd) {
+		this.betOdd = betOdd;
 	}
 	/**
 	 * @return the actionStatus

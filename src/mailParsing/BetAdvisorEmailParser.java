@@ -134,12 +134,13 @@ public class BetAdvisorEmailParser {
 			result.pivotValue = pivotValue;
 		}
 		else if(typeOfBet.indexOf("Asian handicap") == 0){
-			int pivotValueStart = cleanedMail.indexOf("+", betOnStart);
+			String betOnLine = cleanedMail.substring(betOnStart, cleanedMail.indexOf("\n", betOnStart));
+			int pivotValueStart = betOnLine.indexOf("+");
 			if(pivotValueStart == -1){
-				pivotValueStart = cleanedMail.indexOf("-", betOnStart);
+				pivotValueStart = betOnLine.lastIndexOf("-");
 				pivotValueStart++;
-				int pivotValueEnd = cleanedMail.indexOf(" ", pivotValueStart);
-				String pivotValueString = cleanedMail.substring(pivotValueStart, pivotValueEnd);
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
 				double pivotValue = Double.parseDouble(pivotValueString);
 				result.pivotValue = pivotValue;	
 				if(result.betOn.equals(result.host)){
@@ -151,8 +152,8 @@ public class BetAdvisorEmailParser {
 			}
 			else{
 				pivotValueStart++;
-				int pivotValueEnd = cleanedMail.indexOf(" ", pivotValueStart);
-				String pivotValueString = cleanedMail.substring(pivotValueStart, pivotValueEnd);
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
 				double pivotValue = Double.parseDouble(pivotValueString);
 				result.pivotValue = pivotValue;	
 				if(result.betOn.equals(result.host)){
@@ -185,6 +186,7 @@ public class BetAdvisorEmailParser {
 	private static String cleanMail(String s){
 		String plain = new HtmlToPlainText().getPlainText(Jsoup.parse(s));
 		plain = plain.replaceAll("<.*>", "");
+		plain = plain.replaceAll("'", "");
 		int startIndex = plain.indexOf("Details of the tip:");
 		plain = plain.substring(startIndex);
 		int endIndex = plain.indexOf("units)") + 6;

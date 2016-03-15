@@ -1,5 +1,6 @@
 package bettingBot;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -15,15 +16,30 @@ import mailParsing.BetAdvisorEmailParser;
 import mailParsing.BetInformations;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
+import bettingBot.database.BettingBotDatabase;
 import bettingBot.entities.Bet;
 import bettingBot.entities.BetTicket;
+import bettingBot.gui.BettingBotFrame;
 import eastbridge.BettingApi;
 
 public class BettingBot {
 	
 	private static final int numberOfDaysToCheck = 2;
+	private BettingBotFrame mainFrame = new BettingBotFrame();
+	private BettingBotDatabase dataBase;
 	
 	public void run(){
+		
+		// Initialize GUI
+		mainFrame.setVisible(true);
+		
+		// Initialize Database
+		try {
+			dataBase = new BettingBotDatabase();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
 		
 		// Initialize Properties for Data Crawler
 		Properties systemProps = System.getProperties();
@@ -44,7 +60,11 @@ public class BettingBot {
 		GMailReader reader = new GMailReader();
 	
 		// Loop over tips and available events
-		while (true) {			
+		while (true) {		
+			// Get current funds
+			double funds = BettingApi.getUserCreditAsDouble(-1);
+			mainFrame.setFunds(funds);
+			
 			// Get Events
 			// this call will block if the connection to the feed fails. 
 			// If auto reconnection is enabled, it will automatically reconnect to the feed for you
@@ -79,6 +99,13 @@ public class BettingBot {
 				if(tippStartUnixTime < System.currentTimeMillis())
 					continue;
 				
+				/* Check if we have a new tipp */
+				if(dataBase.isTippInDatabase(tipp.event, tipp.tipster, tipp.date.getTime())){
+					mainFrame.addEvent("Tipp already processed");
+					continue;
+				}
+				mainFrame.addEvent("New Tipp received:\n" + tipp.toString());
+				
 				/* Inner loop: iterate over currently available events */
 				for (SoccerEvent event : events) {
 					
@@ -104,8 +131,6 @@ public class BettingBot {
 					/* We do not bet on "Home Team" */
 					if(eventHost.indexOf("Home Team") == 0)
 						continue;
-					
-					System.out.println(eventHost);
 										
 					/* The date when the event starts */
 					Date eventStartDate = new Date(event.getLiveState().getStartTime() * 1000);
@@ -240,6 +265,7 @@ public class BettingBot {
 								String bestEventId = "";
 								int bestOddId = 0;
 								double bestMinStake = 0;
+								BetTicket bestBetTicket = null;
 								
 								for(Record record : records){
 									// Check if the tipp and the record have the same pivot value
@@ -264,6 +290,7 @@ public class BettingBot {
 										
 										// Check for best odds
 										if(betTicket.getCurrentOdd() > bestOdd){
+											bestBetTicket = betTicket;
 											bestOdd = betTicket.getCurrentOdd();
 											bestOddId = oddId;
 											bestCompany = company;
@@ -273,16 +300,21 @@ public class BettingBot {
 										}		
 									}	
 								}
-								if(bestOdd > 0){
+								if(bestOdd > 0 && bestOdd + 1 > tipp.noBetUnder){
 									if(bestMinStake < 20){
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
 										Bet bet = Bet.fromJson(betString);
-										String kek = BettingApi.getBetStatus("mgbp0124002|5119711712");
-										String kek2 = BettingApi.getBetStatus(bet.getId());
-										
-										System.out.println();
-									}
-									System.out.println();										
+										System.out.println(bestBetTicket);
+										try {
+											dataBase.addBetInformations(tipp);
+											dataBase.addBet(bet);
+										} catch (SQLException e) {
+											e.printStackTrace();
+											System.exit(-1);
+										}
+										mainFrame.addEvent("Tipp processed:\n" + tipp.toString());
+										mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());
+									}							
 								}	
 							}									
 						}
@@ -294,7 +326,6 @@ public class BettingBot {
 			try {
 				Thread.sleep(5000);
 			} catch (InterruptedException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		}
