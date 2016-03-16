@@ -12,6 +12,13 @@ public class Bet {
 	private double betOdd;
 	private int actionStatus;
 	
+	@Override
+	public String toString(){
+		String res = "";
+		res += "id: " + id + ", reqId: " + reqId + ", betAmount: " + betAmount + ", betOdd: " + betOdd + ", betStatus: " + betStatus; 
+		return res;
+	}
+	
 	private static Gson gson = new Gson();
 	
 	/**

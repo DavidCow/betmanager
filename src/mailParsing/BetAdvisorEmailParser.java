@@ -109,14 +109,15 @@ public class BetAdvisorEmailParser {
 		
 		/* Parse bet on */
 		int betOnStart = cleanedMail.indexOf("BET ON: ") + 8;
+		String betOnLine = cleanedMail.substring(betOnStart, cleanedMail.indexOf("\n", betOnStart));
 		/* Extra case for Asian handicap */
 		if(typeOfBet.indexOf("Asian handicap") == 0){
-			int betOnEnd = cleanedMail.indexOf("+", betOnStart);
+			int betOnEnd = betOnLine.lastIndexOf("+", betOnStart);
 			if(betOnEnd == -1){
-				betOnEnd = cleanedMail.indexOf("-", betOnStart);
+				betOnEnd = betOnLine.lastIndexOf("-", betOnStart);
 			}
 			betOnEnd--;
-			String betOn = cleanedMail.substring(betOnStart, betOnEnd);		
+			String betOn = betOnLine.substring(0, betOnEnd);		
 			result.betOn = betOn;			
 		}
 		else{
@@ -134,7 +135,6 @@ public class BetAdvisorEmailParser {
 			result.pivotValue = pivotValue;
 		}
 		else if(typeOfBet.indexOf("Asian handicap") == 0){
-			String betOnLine = cleanedMail.substring(betOnStart, cleanedMail.indexOf("\n", betOnStart));
 			int pivotValueStart = betOnLine.indexOf("+");
 			if(pivotValueStart == -1){
 				pivotValueStart = betOnLine.lastIndexOf("-");

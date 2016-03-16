@@ -11,9 +11,15 @@ public class TeamMapping {
 		return res;
 	}
 	
+	private static String deleteUnessential(String team){
+		String res = team.replaceAll("\\(.*\\)", "");
+		return res;
+	}
+	
 	private static String postProcess(String team){
 		String res = team.toUpperCase();
 		res = Normalizer.normalize(res, Normalizer.Form.NFD);
+		res = deleteUnessential(res); 
 		res = replaceAbrevations(res);
 		return res;
 	}

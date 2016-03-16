@@ -42,6 +42,8 @@ public class BettingBotFrame extends JFrame{
 		
 		runningBetsTextArea = new JTextArea();
 		runningBetsTextArea.setEditable(false);
+		runningBetsTextArea.setLineWrap(true);
+		runningBetsTextArea.setText("Running bets:");
 		runningBetsPane = new JScrollPane(runningBetsTextArea, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		mainPanel.add(runningBetsPane);
 		runningBetsPane.setSize(450,  500);
@@ -65,6 +67,10 @@ public class BettingBotFrame extends JFrame{
 	
 	public void addEvent(String event){
 		eventTextArea.setText(eventTextArea.getText() + "\n" + event);
+	}
+	
+	public void setBets(String bets){
+		runningBetsTextArea.setText(bets);
 	}
 	
 	public static void main(String[] args) {

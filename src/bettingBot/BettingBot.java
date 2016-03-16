@@ -65,6 +65,12 @@ public class BettingBot {
 			double funds = BettingApi.getUserCreditAsDouble(-1);
 			mainFrame.setFunds(funds);
 			
+			// Emergency stop
+			if(funds < 950){
+				System.out.println("INSUFFICIENT FUNDS");
+				System.exit(-1);
+			}
+			
 			// Get Events
 			// this call will block if the connection to the feed fails. 
 			// If auto reconnection is enabled, it will automatically reconnect to the feed for you
@@ -321,6 +327,24 @@ public class BettingBot {
 					}
 				}				
 			}
+			
+			// Get open Bets
+			List<Bet> bets = dataBase.getAllBets();
+			String openBets = "Running bets:\n";
+			for(int b = 0; b < bets.size(); b++){
+				Bet bet = bets.get(b);
+				// Update bet status
+				if(bet.getBetStatus() == 1){
+					String betString = BettingApi.getBetStatus(bet.getId());
+					Bet newBet = Bet.fromJson(betString);
+					if(newBet.getBetStatus() != 1){
+						bet.setBetStatus(newBet.getBetStatus());
+						dataBase.updateBet(bet.getId(), newBet.getBetStatus());
+					}
+				}
+				openBets += bet.toString() + "\n";
+			}
+			mainFrame.setBets(openBets);
 			
 			// Sleep at the end of while loop
 			try {

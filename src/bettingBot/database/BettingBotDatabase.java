@@ -80,6 +80,64 @@ public class BettingBotDatabase {
 		sT.executeUpdate(addBet);		
 	}
 	
+	public List<Bet> getAllBets(){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		ResultSet rs = null;
+		try {
+			rs = sT.executeQuery("SELECT * FROM bets");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}	
+	
+		List<Bet> bets = new ArrayList<Bet>();
+		if(rs != null){
+			try {
+				while(rs.next()){
+					Bet b = new Bet();
+					String id = rs.getString("id");
+					String reqId = rs.getString("reqId");
+					double betAmount = rs.getDouble("betAmount");
+					double betOdd = rs.getDouble("betOdd");
+					int betStatus = rs.getInt("betStatus");
+					b.setBetAmount(betAmount);
+					b.setBetOdd(betOdd);
+					b.setBetStatus(betStatus);
+					b.setId(id);
+					b.setReqId(reqId);
+					bets.add(b);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		return bets;
+	}
+	
+	public void updateBet(String id, int betStatus){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		String updateBet = "UPDATE bets set betStatus=" + betStatus + " WHERE id='" + id + "'";
+		try {
+			sT.executeUpdate(updateBet);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	public void addBetInformations(BetInformations betInformations) throws SQLException{
 		addBetInformations(betInformations.event, betInformations.tipster, betInformations.date.getTime(), 
 		                   betInformations.host, betInformations.guest, betInformations.typeOfBet, betInformations.betOn, 
