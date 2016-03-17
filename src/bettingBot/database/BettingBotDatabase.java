@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mailParsing.BetAdvisorEmailParser;
-import mailParsing.BetInformations;
+import mailParsing.BetAdvisorTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 import bettingBot.entities.Bet;
@@ -36,8 +36,9 @@ public class BettingBotDatabase {
 		
 		/* Create necessary tables */
 	    
-	    // Tipps Table
-	    String createBetAdvisor = "CREATE TABLE IF NOT EXISTS bet_advisor " +
+	    // Tips Table
+		// Contains all the processed tips, not all the tips we received
+	    String createBetAdvisor = "CREATE TABLE IF NOT EXISTS processed_tips " +
 	            "(event VARCHAR(255) NOT NULL, " +
 	            " tipster VARCHAR(255) NOT NULL, " +
 	            " date BIGINT NOT NULL, " +
@@ -59,15 +60,19 @@ public class BettingBotDatabase {
 	            " betAmount DOUBLE PRECISION, " + 
 	            " betOdd DOUBLE PRECISION, " + 
 	            " betStatus INTEGER, " + 
+	            " tipJsonString VARCHAR, " +
+	            " eventJsonString TEXT, " +
+	            " recordJsonString VARCHAR, " +
+	            " selection VARCHAR(255), " +
 	            " PRIMARY KEY ( id ))"; 
 	    sql.executeUpdate(createBets);
 	}
 	
 	public void addBet(Bet bet) throws SQLException{
-		addBet(bet.getId(), bet.getReqId(), bet.getBetAmount(), bet.getBetOdd(), bet.getBetStatus());
+		addBet(bet.getId(), bet.getReqId(), bet.getBetAmount(), bet.getBetOdd(), bet.getBetStatus(), bet.getTipJsonString(), bet.getEventJsonString(), bet.getRecordJsonString(), bet.getSelection());
 	}
 	
-	private void addBet(String id, String reqId, double betAmount, double betOdd, int betStatus) throws SQLException{
+	private void addBet(String id, String reqId, double betAmount, double betOdd, int betStatus, String tipJSsonString, String eventJsonString, String recordJsonString, String selection) throws SQLException{
 		Statement sT = null;
 		try {
 			sT = db.createStatement();
@@ -75,8 +80,8 @@ public class BettingBotDatabase {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		String addBet = "INSERT INTO bets (id, reqId, betAmount, betOdd, betStatus)";
-		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ")";
+		String addBet = "INSERT INTO bets (id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, selection)";
+		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ",'" +  tipJSsonString + "','" + eventJsonString + "','" + recordJsonString + "','" +  selection + "')";
 		sT.executeUpdate(addBet);		
 	}
 	
@@ -105,11 +110,19 @@ public class BettingBotDatabase {
 					double betAmount = rs.getDouble("betAmount");
 					double betOdd = rs.getDouble("betOdd");
 					int betStatus = rs.getInt("betStatus");
+					String tipJsonString = rs.getString("tipJsonString");
+					String eventJsonString = rs.getString("eventJsonString");
+					String recordJsonString = rs.getString("recordJsonString");
+					String selection = rs.getString("selection");
 					b.setBetAmount(betAmount);
 					b.setBetOdd(betOdd);
 					b.setBetStatus(betStatus);
 					b.setId(id);
 					b.setReqId(reqId);
+					b.setTipJsonString(tipJsonString);
+					b.setEventJsonString(eventJsonString);
+					b.setRecordJsonString(recordJsonString);
+					b.setSelection(selection);
 					bets.add(b);
 				}
 			} catch (SQLException e) {
@@ -138,13 +151,13 @@ public class BettingBotDatabase {
 		}
 	}
 	
-	public void addBetInformations(BetInformations betInformations) throws SQLException{
-		addBetInformations(betInformations.event, betInformations.tipster, betInformations.date.getTime(), 
-		                   betInformations.host, betInformations.guest, betInformations.typeOfBet, betInformations.betOn, 
-		                   betInformations.bestOdds, betInformations.noBetUnder, betInformations.pivotValue, betInformations.pivotBias);
+	public void addProcessedTip(BetAdvisorTip tip) throws SQLException{
+		addProcessedTip(tip.event, tip.tipster, tip.date.getTime(), 
+		                   tip.host, tip.guest, tip.typeOfBet, tip.betOn, 
+		                   tip.bestOdds, tip.noBetUnder, tip.pivotValue, tip.pivotBias);
 	}
 	
-	private void addBetInformations(String event, String tipster, long date, String host, String guest, String typeofBet, 
+	private void addProcessedTip(String event, String tipster, long date, String host, String guest, String typeofBet, 
 			                        String betOn, double bestOdds, double noBetUnder, double pivotValue, String pivotBias) throws SQLException
 	{
 		Statement sT = null;
@@ -154,17 +167,17 @@ public class BettingBotDatabase {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		String addBetInformations = "INSERT INTO bet_advisor (event, tipster, date, host, guest, typeOfBet, betOn, bestOdds, noBetUnder, pivotValue, pivotBias)";
+		String addBetInformations = "INSERT INTO processed_tips (event, tipster, date, host, guest, typeOfBet, betOn, bestOdds, noBetUnder, pivotValue, pivotBias)";
 		addBetInformations += "VALUES ('" + event + "','" + tipster + "'," + date + ",'" + host + "','" + guest + "','" + typeofBet +
 				              "','" + betOn + "'," + bestOdds + "," + noBetUnder + "," + pivotValue + ",'" + pivotBias + "')";
 		sT.executeUpdate(addBetInformations);
 	}
 	
-	public boolean isTippInDatabase(String event, String tipster, long date) {
+	public boolean isTipInDatabase(String event, String tipster, long date) {
 		try {
 			Statement stmt = db.createStatement();
 			ResultSet result = null;
-			result = stmt.executeQuery("SELECT date FROM bet_advisor WHERE event='" + event + "' AND tipster='" + tipster + "' AND date=" + date);
+			result = stmt.executeQuery("SELECT date FROM processed_tips WHERE event='" + event + "' AND tipster='" + tipster + "' AND date=" + date);
 			if (!result.isBeforeFirst()) {
 				return false;
 			} else {
@@ -181,16 +194,16 @@ public class BettingBotDatabase {
 		BettingBotDatabase dataBase = new BettingBotDatabase();
 		GMailReader reader = new GMailReader();
 		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
-		List<BetInformations> betInformations = new ArrayList<BetInformations>();
+		List<BetAdvisorTip> betInformations = new ArrayList<BetAdvisorTip>();
 		for(ParsedTextMail mail : mails){
 			if(mail.subject.indexOf("Tip subscription") != -1){
 				System.out.println(mail.subject);
-				betInformations.add(BetAdvisorEmailParser.parseMail(mail.content));
+				betInformations.add(BetAdvisorEmailParser.parseTip(mail));
 				System.out.println();
 			}
 		}
 		for(int i = 0; i < betInformations.size(); i++){
-			dataBase.addBetInformations(betInformations.get(i));
+			dataBase.addProcessedTip(betInformations.get(i));
 		}
 	}
 }

@@ -11,11 +11,71 @@ public class Bet {
 	private int betStatus;
 	private double betOdd;
 	private int actionStatus;
+	private String tipJsonString;
+	/**
+	 * @return the tipJsonString
+	 */
+	public String getTipJsonString() {
+		return tipJsonString;
+	}
+
+	/**
+	 * @param tipJsonString the tipJsonString to set
+	 */
+	public void setTipJsonString(String tipJsonString) {
+		this.tipJsonString = tipJsonString;
+	}
+
+	/**
+	 * @return the eventJsonString
+	 */
+	public String getEventJsonString() {
+		return eventJsonString;
+	}
+
+	/**
+	 * @param eventJsonString the eventJsonString to set
+	 */
+	public void setEventJsonString(String eventJsonString) {
+		this.eventJsonString = eventJsonString;
+	}
+
+	/**
+	 * @return the recordJsonString
+	 */
+	public String getRecordJsonString() {
+		return recordJsonString;
+	}
+
+	/**
+	 * @param recordJsonString the recordJsonString to set
+	 */
+	public void setRecordJsonString(String recordJsonString) {
+		this.recordJsonString = recordJsonString;
+	}
+
+	/**
+	 * @return the selection
+	 */
+	public String getSelection() {
+		return selection;
+	}
+
+	/**
+	 * @param selection the selection to set
+	 */
+	public void setSelection(String selection) {
+		this.selection = selection;
+	}
+
+	private String eventJsonString;
+	private String recordJsonString;
+	private String selection;
 	
 	@Override
 	public String toString(){
 		String res = "";
-		res += "id: " + id + ", reqId: " + reqId + ", betAmount: " + betAmount + ", betOdd: " + betOdd + ", betStatus: " + betStatus; 
+		res += "id: " + id + ", reqId: " + reqId + ", betAmount: " + betAmount + ", betOdd: " + betOdd + ", betStatus: " + betStatus;
 		return res;
 	}
 	

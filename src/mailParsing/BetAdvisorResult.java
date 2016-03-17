@@ -2,8 +2,7 @@ package mailParsing;
 
 import java.util.Date;
 
-
-public class BetInformations {
+public class BetAdvisorResult {
 	
 	@Override
 	public String toString(){
@@ -23,4 +22,8 @@ public class BetInformations {
 	public Date date;
 	public double pivotValue;
 	public String pivotBias;
+	public Date receivedDate;
+	public String result;
+	public String score;
+	public String fullContent;
 }

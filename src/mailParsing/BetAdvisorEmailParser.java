@@ -41,13 +41,17 @@ public class BetAdvisorEmailParser {
 		}
 		return res;
 	}
-
-	public static BetInformations parseMail(String mail){
+	
+	public static BetAdvisorResult parseResult(ParsedTextMail mail){
 		// Clean HTML Tags etc.
-		String cleanedMail = cleanMail(mail);
+		String cleanedMail = cleanMail(mail.content);
 		
 		/* Create result object */
-		BetInformations result = new BetInformations();
+		BetAdvisorResult result = new BetAdvisorResult();
+		
+		/* Get receiveDate and full Content */
+		result.receivedDate = mail.receivedDate;
+		result.fullContent = cleanedMail;
 		
 		/* Parse Tipster */
 		int tipsterStart = cleanedMail.indexOf("Tipster:") + 9;
@@ -85,7 +89,163 @@ public class BetAdvisorEmailParser {
 			System.out.println("Date: " + date.toString());
 		
 		/* Parse event */
-		int eventStart = cleanedMail.indexOf("EVENT:") + 8;
+		int eventStart = cleanedMail.indexOf("EVENT:") + 7;
+		int eventEnd = cleanedMail.indexOf("DATE", eventStart);
+		String event = cleanedMail.substring(eventStart, eventEnd);
+		event = event.replaceAll("\n", "");
+		result.event = event;
+		if(debug)
+			System.out.println("Event: " + event);
+		
+		/* Parse host */
+		String host = parseHostFromEvent(event);
+		result.host = host;
+		
+		/* Parse guest */
+		String guest = parseGuestFromEvent(event);
+		result.guest = guest;
+		
+		/* Parse type of bet*/
+		int typeOfBetStart = cleanedMail.indexOf("Type Of Bet: ") + 13;
+		int typeOfBetEnd = cleanedMail.indexOf("\n", typeOfBetStart) - 1;
+		String typeOfBet = cleanedMail.substring(typeOfBetStart, typeOfBetEnd);
+		result.typeOfBet = typeOfBet;
+		
+		/* Parse bet on */
+		int betOnStart = cleanedMail.indexOf("BET ON: ") + 8;
+		String betOnLine = cleanedMail.substring(betOnStart, cleanedMail.indexOf("\n", betOnStart));
+		/* Extra case for Asian handicap */
+		if(typeOfBet.indexOf("Asian handicap") == 0){
+			int betOnEnd = betOnLine.lastIndexOf("+", betOnStart);
+			if(betOnEnd == -1){
+				betOnEnd = betOnLine.lastIndexOf("-", betOnStart);
+			}
+			betOnEnd--;
+			String betOn = betOnLine.substring(0, betOnEnd);		
+			result.betOn = betOn;			
+		}
+		else{
+			int betOnEnd = cleanedMail.indexOf("\n", betOnStart) - 1;
+			String betOn = cleanedMail.substring(betOnStart, betOnEnd);		
+			result.betOn = betOn;		
+		}
+		
+		/* Parse pivot value */
+		if(typeOfBet.indexOf("Over / Under") == 0){
+			int pivotValueStart = cleanedMail.indexOf("+", betOnStart) + 1;
+			int pivotValueEnd = cleanedMail.indexOf(" ", pivotValueStart);
+			String pivotValueString = cleanedMail.substring(pivotValueStart, pivotValueEnd);
+			double pivotValue = Double.parseDouble(pivotValueString);
+			result.pivotValue = pivotValue;
+		}
+		else if(typeOfBet.indexOf("Asian handicap") == 0){
+			int pivotValueStart = betOnLine.indexOf("+");
+			if(pivotValueStart == -1){
+				pivotValueStart = betOnLine.lastIndexOf("-");
+				pivotValueStart++;
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
+				double pivotValue = Double.parseDouble(pivotValueString);
+				result.pivotValue = pivotValue;	
+				if(result.betOn.equals(result.host)){
+					result.pivotBias = "HOST";
+				}
+				else{
+					result.pivotBias = "GUEST";
+				}
+			}
+			else{
+				pivotValueStart++;
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
+				double pivotValue = Double.parseDouble(pivotValueString);
+				result.pivotValue = pivotValue;	
+				if(result.betOn.equals(result.host)){
+					result.pivotBias = "GUEST";
+				}
+				else{
+					result.pivotBias = "HOST";
+				}
+			}
+		}
+		
+		/* Parse bestOdds */
+		int bestOddsStart = cleanedMail.indexOf("Best odds: ") + 11;
+		int bestOddsEnd = cleanedMail.indexOf(" ", bestOddsStart);
+		String bestOddsString = cleanedMail.substring(bestOddsStart, bestOddsEnd);
+		double bestOdds = Double.parseDouble(bestOddsString);
+		result.bestOdds = bestOdds;
+		
+		/* Parse no bet under */
+		int noBetUnderStart = cleanedMail.indexOf("NO BET UNDER: ") + 14;
+		int noBetUnderEnd = cleanedMail.indexOf("\n", noBetUnderStart) - 1;
+		String noBetUnderString = cleanedMail.substring(noBetUnderStart, noBetUnderEnd);
+		double noBetUnder = Double.parseDouble(noBetUnderString);
+		result.noBetUnder = noBetUnder;
+		
+		/* Parse score */
+		int scoreStart = cleanedMail.indexOf("Score: ") + 7;
+		int scoreEnd = cleanedMail.indexOf("\n", scoreStart);
+		String score = cleanedMail.substring(scoreStart, scoreEnd);
+		result.score = score;	
+		
+		/* Parse Result */
+		int resultStart = cleanedMail.indexOf("Result of tip: ") + 15;
+		int resultEnd = cleanedMail.indexOf("\n", resultStart);
+		String resultString = cleanedMail.substring(resultStart, resultEnd);
+		result.result = resultString;	
+		
+		return result;
+	}
+
+	public static BetAdvisorTip parseTip(ParsedTextMail mail){
+		// Clean HTML Tags etc.
+		String cleanedMail = cleanMail(mail.content);
+		
+		/* Create result object */
+		BetAdvisorTip result = new BetAdvisorTip();
+		
+		/* Get receiveDate and full Content */
+		result.receivedDate = mail.receivedDate;
+		result.fullContent = cleanedMail;
+		
+		/* Parse Tipster */
+		int tipsterStart = cleanedMail.indexOf("Tipster:") + 9;
+		int tipsterEnd = cleanedMail.indexOf("\n", tipsterStart) - 1;
+		String tipster = cleanedMail.substring(tipsterStart, tipsterEnd);
+		result.tipster = tipster;
+		if(debug)
+			System.out.println("Tipster: " + tipster);
+		
+		/* Parse date 
+		 * 
+		 * The timezone is CET
+		 * Format is like: 3rd March 2016 at 20:45
+		 */
+		DateFormat format = new SimpleDateFormat("dd MMMM yyyy 'at' HH:mm", Locale.UK);
+		int dateStart = cleanedMail.indexOf("DATE:") + 6;
+		int dateEnd = cleanedMail.indexOf("\n", dateStart);
+		String dateString = cleanedMail.substring(dateStart, dateEnd);
+		
+		// Remove the suffix of the day 
+		// There is nothing in the java standard library to do this more elegantly
+		dateString = dateString.replaceAll("st", ""); // as in 1st
+		dateString = dateString.replaceAll("nd", ""); // as in 2nd
+		dateString = dateString.replaceAll("rd", ""); // as in 3rd
+		dateString = dateString.replaceAll("th", ""); // as in 4th
+		Date date = null;
+		try {
+			date = format.parse(dateString);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			System.exit(-1); // Exit and debug it, rather than working with wrong values
+		}
+		result.date = date;
+		if(debug)
+			System.out.println("Date: " + date.toString());
+		
+		/* Parse event */
+		int eventStart = cleanedMail.indexOf("EVENT:") + 7;
 		int eventEnd = cleanedMail.indexOf("DATE", eventStart);
 		String event = cleanedMail.substring(eventStart, eventEnd);
 		event = event.replaceAll("\n", "");
@@ -187,7 +347,9 @@ public class BetAdvisorEmailParser {
 		String plain = new HtmlToPlainText().getPlainText(Jsoup.parse(s));
 		plain = plain.replaceAll("<.*>", "");
 		plain = plain.replaceAll("'", "");
-		int startIndex = plain.indexOf("Details of the tip:");
+		int startIndex = plain.indexOf("Result of tip:");
+		if(startIndex == -1)
+			startIndex = plain.indexOf("Details of the tip:");
 		plain = plain.substring(startIndex);
 		int endIndex = plain.indexOf("units)") + 6;
 		plain = plain.substring(0, endIndex);
@@ -198,12 +360,14 @@ public class BetAdvisorEmailParser {
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
 		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
-		List<BetInformations> betInformations = new ArrayList<BetInformations>();
+		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
+		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){
 			if(mail.subject.indexOf("Tip subscription") != -1){
-				System.out.println(mail.subject);
-				betInformations.add(BetAdvisorEmailParser.parseMail(mail.content));
-				System.out.println();
+				tips.add(BetAdvisorEmailParser.parseTip(mail));
+			}
+			if(mail.subject.indexOf("Tip result") != -1){
+				results.add(BetAdvisorEmailParser.parseResult(mail));
 			}
 		}
 		int kek = 12;

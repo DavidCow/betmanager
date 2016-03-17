@@ -78,6 +78,7 @@ public class GMailReader {
 					ParsedTextMail parsedMail = new ParsedTextMail();
 					parsedMail.from = matchingFrom;
 					parsedMail.subject = messages[i].getSubject();
+					parsedMail.receivedDate = messages[i].getReceivedDate();
 
 					StringBuilder builder = new StringBuilder();
 					Object content = messages[i].getContent();
@@ -136,6 +137,7 @@ public class GMailReader {
 					ParsedTextMail parsedMail = new ParsedTextMail();
 					parsedMail.from = matchingFrom;
 					parsedMail.subject = messages[i].getSubject();
+					parsedMail.receivedDate = messages[i].getReceivedDate();
 
 					StringBuilder builder = new StringBuilder();
 					Object content = messages[i].getContent();
@@ -181,6 +183,7 @@ public class GMailReader {
 				ParsedTextMail parsedMail = new ParsedTextMail();
 				parsedMail.from = addresses[0].toString();
 				parsedMail.subject = messages[i].getSubject();
+				parsedMail.receivedDate = messages[i].getReceivedDate();
 
 				StringBuilder builder = new StringBuilder();
 				Object content = messages[i].getContent();

@@ -15,7 +15,7 @@ import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
 import jayeson.lib.recordfetcher.DeltaCrawlerSession;
 import mailParsing.BetAdvisorEmailParser;
-import mailParsing.BetInformations;
+import mailParsing.BetAdvisorTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 
