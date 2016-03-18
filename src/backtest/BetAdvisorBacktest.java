@@ -72,6 +72,9 @@ public class BetAdvisorBacktest {
 		double numberOfTakenLaysThreshold = 0;
 		double layThreshold = 1.1;
 		
+		// Variable for testing worse cases of bestOdds
+		double bestOddsFactor = 1.0;
+		
 		// Variance calculation
 		List<Double> betEvs = new ArrayList<Double>();
 		List<Double> hedgedEvs = new ArrayList<Double>();
@@ -472,6 +475,7 @@ public class BetAdvisorBacktest {
 				}
 			}
 			if(bestOdds != 0){
+				bestOdds *= bestOddsFactor;
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					// Check "lay" movement
 					double firstLay = 0;
@@ -839,7 +843,9 @@ public class BetAdvisorBacktest {
 		System.out.println("Significance level of < 6: " + significance / 2);
 		significance = test.tTest(7, bEv);
 		System.out.println("Significance level of < 7: " + significance / 2);
-		System.out.println();		
+		System.out.println();	
+		
+		// Chart
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();

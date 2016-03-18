@@ -1,0 +1,201 @@
+
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  WESTERN SYDNEY vs ADELAIDE UNITED FC, Football, Australia, Hyundai A-League , Tipster: Chris Toma, bet on: WESTERN SYDNEY, no Bet under: 2.0
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  EINTRACHT FRANKFURT vs HANNOVER 96, Football, Germany, Bundesliga , Tipster: Soccero, bet on: EINTRACHT FRANKFURT, no Bet under: 1.75
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  FC AUGSBURG vs BORUSSIA DORTMUND, Football, Germany, Bundesliga , Tipster: Soccero, bet on: BORUSSIA DORTMUND, no Bet under: 1.75
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.75
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  SPVGG NECKARELZ vs EINTRACHT TRIER, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: EINTRACHT TRIER, no Bet under: 1.7
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SV WALDHOF MANNHEIM, no Bet under: 1.7
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  VFB STUTTGART II vs VFL OSNABRUCK, Football, Germany, 3.Liga , Tipster: Soccero, bet on: VFL OSNABRUCK, no Bet under: 1.6
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  TSG NEUSTRELITZ vs FSV ZWICKAU, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: FSV ZWICKAU, no Bet under: 1.7
+Fri Mar 18 16:06:29 CET 2016: New Tip received:
+Event: 121921  FC SCHALKE 04 vs MONCHENGLADBACH, Football, Germany, Bundesliga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:33 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 16:06:34 CET 2016: New Tip received:
+Event: 121921  OLYMPIQUE MARSEILLE vs STADE RENNES, Football, France, Ligue 1 , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:36 CET 2016: New Tip received:
+Event: 121921  RIO AVE FC vs CS MARITIMO MADEIRA, Football, Portugal, Liga Sagres , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:42 CET 2016: Tip processed:
+Event: 121921  RIO AVE FC vs CS MARITIMO MADEIRA, Football, Portugal, Liga Sagres , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:42 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 1058.2, currentOdd: 3.35, reqId: null, actionStatus: 0
+Fri Mar 18 16:06:42 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24005|1603181106389056, reqId=null, betAmount=1.06, betStatus=1, betOdd=3.35, timeOfBet=Fri Mar 18 16:06:42 CET 2016, selection=draw]
+Fri Mar 18 16:06:42 CET 2016: New Tip received:
+Event: 121921  AS EUPEN vs KSV ROESELARE, Football, Belgium, EXQI League , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 16:06:46 CET 2016: Tip processed:
+Event: 121921  AS EUPEN vs KSV ROESELARE, Football, Belgium, EXQI League , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 16:06:46 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 211.64, currentOdd: 3.75, reqId: null, actionStatus: 0
+Fri Mar 18 16:06:46 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24005|1603181106431940, reqId=null, betAmount=1.06, betStatus=1, betOdd=3.75, timeOfBet=Fri Mar 18 16:06:46 CET 2016, selection=draw]
+Fri Mar 18 16:06:46 CET 2016: New Tip received:
+Event: 121921  NK OSIJEK vs NK ZAGREB, Football, Croatia, 1. HNL , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.4
+Fri Mar 18 16:06:51 CET 2016: Tip processed:
+Event: 121921  NK OSIJEK vs NK ZAGREB, Football, Croatia, 1. HNL , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.4
+Fri Mar 18 16:06:51 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 52.91, currentOdd: 3.72, reqId: null, actionStatus: 0
+Fri Mar 18 16:06:51 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24003|1603181106477041, reqId=null, betAmount=1.06, betStatus=1, betOdd=3.72, timeOfBet=Fri Mar 18 16:06:51 CET 2016, selection=draw]
+Fri Mar 18 16:06:51 CET 2016: New Tip received:
+Event: 121921  AALBORG BK vs AGF AARHUS, Football, Denmark, SAS Ligaen , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:58 CET 2016: Tip processed:
+Event: 121921  AALBORG BK vs AGF AARHUS, Football, Denmark, SAS Ligaen , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:06:58 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 1481.48, currentOdd: 3.35, reqId: null, actionStatus: 0
+Fri Mar 18 16:06:58 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24002|1603181106542135, reqId=null, betAmount=1.06, betStatus=1, betOdd=3.35, timeOfBet=Fri Mar 18 16:06:58 CET 2016, selection=draw]
+Fri Mar 18 16:06:58 CET 2016: New Tip received:
+Event: 121921  FALKIRK FC vs RANGERS FC, Football, Scotland, First Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.9
+Fri Mar 18 16:06:59 CET 2016: New Tip received:
+Event: 121921  MSK ZILINA vs FC VION ZLATE MORAVCE, Football, Slovakia, 1. Liga , Tipster: Owen Gart, bet on: Draw, no Bet under: 4.0
+Fri Mar 18 16:07:05 CET 2016: Tip processed:
+Event: 121921  MSK ZILINA vs FC VION ZLATE MORAVCE, Football, Slovakia, 1. Liga , Tipster: Owen Gart, bet on: Draw, no Bet under: 4.0
+Fri Mar 18 16:07:05 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 105.82, currentOdd: 4.1, reqId: null, actionStatus: 0
+Fri Mar 18 16:07:05 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24002|1603181107029946, reqId=null, betAmount=1.06, betStatus=1, betOdd=4.1, timeOfBet=Fri Mar 18 16:07:05 CET 2016, selection=draw]
+Fri Mar 18 16:07:06 CET 2016: New Tip received:
+Event: 121921  FC LUKA KOPER vs ND GORICA, Football, Slovenia, PrvaLiga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  WESTERN SYDNEY vs ADELAIDE UNITED FC, Football, Australia, Hyundai A-League , Tipster: Chris Toma, bet on: WESTERN SYDNEY, no Bet under: 2.0
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  EINTRACHT FRANKFURT vs HANNOVER 96, Football, Germany, Bundesliga , Tipster: Soccero, bet on: EINTRACHT FRANKFURT, no Bet under: 1.75
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  FC AUGSBURG vs BORUSSIA DORTMUND, Football, Germany, Bundesliga , Tipster: Soccero, bet on: BORUSSIA DORTMUND, no Bet under: 1.75
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.75
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  SPVGG NECKARELZ vs EINTRACHT TRIER, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: EINTRACHT TRIER, no Bet under: 1.7
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SV WALDHOF MANNHEIM, no Bet under: 1.7
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  VFB STUTTGART II vs VFL OSNABRUCK, Football, Germany, 3.Liga , Tipster: Soccero, bet on: VFL OSNABRUCK, no Bet under: 1.6
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  TSG NEUSTRELITZ vs FSV ZWICKAU, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: FSV ZWICKAU, no Bet under: 1.7
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  FC SCHALKE 04 vs MONCHENGLADBACH, Football, Germany, Bundesliga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  OLYMPIQUE MARSEILLE vs STADE RENNES, Football, France, Ligue 1 , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  FALKIRK FC vs RANGERS FC, Football, Scotland, First Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.9
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  FC LUKA KOPER vs ND GORICA, Football, Slovenia, PrvaLiga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  CS MUNICIPAL STUDENTESC IASI vs CS VOLUNTARI, Football, Romania, Liga 1,Relegation round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.46
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  AFC ASTRA GIURGIU vs ASA TARGU MURES, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.6
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  MIDDLESBROUGH FC vs HULL CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  SC PADERBORN vs MSV DUISBURG, Football, Germany, 2. Bundesliga , Tipster: Soccero, bet on: SC PADERBORN, no Bet under: 1.8
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  OLYMPIQUE NIMES vs US CRETEIL, Football, France, Ligue 2 , Tipster: Amar Sidra, bet on: US CRETEIL, no Bet under: 1.8
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  KAYSERISPOR vs ESKISEHIRSPOR, Football, Turkey, Turkcell Super Lig , Tipster: Amar Sidra, bet on: KAYSERISPOR, no Bet under: 1.8
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  SKN ST. POLTEN vs AUSTRIA KLAGENFURT, Football, Austria, ADEG Erste Liga , Tipster: Ivan Kaci, bet on: SKN ST. POLTEN, no Bet under: 1.7
+Fri Mar 18 16:07:25 CET 2016: New Tip received:
+Event: 121921  BERLINER AK 07 vs FC OBERLAUSITZ NEUGERSDORF, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: BERLINER AK 07, no Bet under: 1.75
+Fri Mar 18 16:08:12 CET 2016: Tip processed:
+Event: 121921  FC LUKA KOPER vs ND GORICA, Football, Slovenia, PrvaLiga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 16:08:12 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 105.82, currentOdd: 3.05, reqId: null, actionStatus: 0
+Fri Mar 18 16:08:12 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24001|1603181108083099, reqId=null, betAmount=1.06, betStatus=1, betOdd=3.05, timeOfBet=Fri Mar 18 16:08:12 CET 2016, selection=draw]
+Fri Mar 18 16:08:23 CET 2016: Tip processed:
+Event: 121921  SC PADERBORN vs MSV DUISBURG, Football, Germany, 2. Bundesliga , Tipster: Soccero, bet on: SC PADERBORN, no Bet under: 1.8
+Fri Mar 18 16:08:23 CET 2016: BetTicket Received:
+minStake: 1.06, maxStake: 1442.96, currentOdd: 1.88, reqId: null, actionStatus: 0
+Fri Mar 18 16:08:23 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24001|1603181108193144, reqId=null, betAmount=1.06, betStatus=1, betOdd=1.88, timeOfBet=Fri Mar 18 16:08:23 CET 2016, selection=one]
+Fri Mar 18 16:08:28 CET 2016: Tip processed:
+Event: 121921  OLYMPIQUE NIMES vs US CRETEIL, Football, France, Ligue 2 , Tipster: Amar Sidra, bet on: US CRETEIL, no Bet under: 1.8
+Fri Mar 18 16:08:28 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 3174.6, currentOdd: 1.06, reqId: null, actionStatus: 0
+Fri Mar 18 16:08:28 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24002|1603181108252606, reqId=null, betAmount=2.12, betStatus=1, betOdd=1.06, timeOfBet=Fri Mar 18 16:08:28 CET 2016, selection=take]
+Fri Mar 18 16:08:33 CET 2016: Tip processed:
+Event: 121921  KAYSERISPOR vs ESKISEHIRSPOR, Football, Turkey, Turkcell Super Lig , Tipster: Amar Sidra, bet on: KAYSERISPOR, no Bet under: 1.8
+Fri Mar 18 16:08:33 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 3174.6, currentOdd: 0.99, reqId: null, actionStatus: 0
+Fri Mar 18 16:08:33 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24001|1603181108309117, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.99, timeOfBet=Fri Mar 18 16:08:33 CET 2016, selection=give]
+Fri Mar 18 16:08:38 CET 2016: Tip processed:
+Event: 121921  SKN ST. POLTEN vs AUSTRIA KLAGENFURT, Football, Austria, ADEG Erste Liga , Tipster: Ivan Kaci, bet on: SKN ST. POLTEN, no Bet under: 1.7
+Fri Mar 18 16:08:38 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 1058.2, currentOdd: 0.79, reqId: null, actionStatus: 0
+Fri Mar 18 16:08:38 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24003|1603181108358914, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.79, timeOfBet=Fri Mar 18 16:08:38 CET 2016, selection=give]
+Fri Mar 18 16:09:05 CET 2016: Tip processed:
+Event: 121921  WESTERN SYDNEY vs ADELAIDE UNITED FC, Football, Australia, Hyundai A-League , Tipster: Chris Toma, bet on: WESTERN SYDNEY, no Bet under: 2.0
+Fri Mar 18 16:09:05 CET 2016: BetTicket Received:
+minStake: 0.81, maxStake: 616.0, currentOdd: 2.04, reqId: null, actionStatus: 0
+Fri Mar 18 16:09:05 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5136324530, reqId=null, betAmount=0.8, betStatus=1, betOdd=2.04, timeOfBet=Fri Mar 18 16:09:05 CET 2016, selection=one]
+Fri Mar 18 16:09:17 CET 2016: Tip processed:
+Event: 121921  FC AUGSBURG vs BORUSSIA DORTMUND, Football, Germany, Bundesliga , Tipster: Soccero, bet on: BORUSSIA DORTMUND, no Bet under: 1.75
+Fri Mar 18 16:09:17 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 1600.8, currentOdd: 0.8, reqId: null, actionStatus: 0
+Fri Mar 18 16:09:17 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5136324899, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.8, timeOfBet=Fri Mar 18 16:09:17 CET 2016, selection=give]
+Fri Mar 18 16:09:23 CET 2016: Tip processed:
+Event: 121921  SPVGG NECKARELZ vs EINTRACHT TRIER, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: EINTRACHT TRIER, no Bet under: 1.7
+Fri Mar 18 16:09:23 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 105.82, currentOdd: 0.75, reqId: null, actionStatus: 0
+Fri Mar 18 16:09:23 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24004|1603181109209073, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.75, timeOfBet=Fri Mar 18 16:09:23 CET 2016, selection=give]
+Fri Mar 18 16:15:20 CET 2016: Tip processed:
+Event: 121921  BERLINER AK 07 vs FC OBERLAUSITZ NEUGERSDORF, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: BERLINER AK 07, no Bet under: 1.75
+Fri Mar 18 16:15:20 CET 2016: BetTicket Received:
+minStake: 0.81, maxStake: 160.8, currentOdd: 1.99, reqId: null, actionStatus: 0
+Fri Mar 18 16:15:20 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5136337569, reqId=null, betAmount=0.8, betStatus=1, betOdd=1.99, timeOfBet=Fri Mar 18 16:15:20 CET 2016, selection=one]
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  EINTRACHT FRANKFURT vs HANNOVER 96, Football, Germany, Bundesliga , Tipster: Soccero, bet on: EINTRACHT FRANKFURT, no Bet under: 1.75
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.75
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SV WALDHOF MANNHEIM, no Bet under: 1.7
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  VFB STUTTGART II vs VFL OSNABRUCK, Football, Germany, 3.Liga , Tipster: Soccero, bet on: VFL OSNABRUCK, no Bet under: 1.6
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  TSG NEUSTRELITZ vs FSV ZWICKAU, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: FSV ZWICKAU, no Bet under: 1.7
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  FC SCHALKE 04 vs MONCHENGLADBACH, Football, Germany, Bundesliga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  OLYMPIQUE MARSEILLE vs STADE RENNES, Football, France, Ligue 1 , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  FALKIRK FC vs RANGERS FC, Football, Scotland, First Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.9
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  AFC ASTRA GIURGIU vs ASA TARGU MURES, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.6
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  MIDDLESBROUGH FC vs HULL CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 17:30:27 CET 2016: New Tip received:
+Event: 121921  FORTALEZA FC vs DEPORTIVO LA EQUIDAD, Football, Colombia, Apertura I , Tipster: Darijo Beli, bet on: DEPORTIVO LA EQUIDAD, no Bet under: 1.8
+Fri Mar 18 17:30:28 CET 2016: New Tip received:
+Event: 121921  RED BULL BRASIL SP vs OESTE SP, Football, Brazil, Paulista Serie A1 , Tipster: Darijo Beli, bet on: RED BULL BRASIL SP, no Bet under: 1.7
+Fri Mar 18 17:30:28 CET 2016: New Tip received:
+Event: 121921  US ORLEANS 45 vs ETOILE FREJUS SAINT-RAPHAEL, Football, France, National , Tipster: Darijo Beli, bet on: US ORLEANS 45, no Bet under: 1.6
+Fri Mar 18 17:30:28 CET 2016: New Tip received:
+Event: 121921  PORTIMONENSE SC vs BENFICA LISBON B, Football, Portugal, Liga Vitalis , Tipster: Darijo Beli, bet on: PORTIMONENSE SC, no Bet under: 1.8
+Fri Mar 18 17:30:28 CET 2016: New Tip received:
+Event: 121921  AS EUPEN vs KSV ROESELARE, Football, Belgium, EXQI League , Tipster: Darijo Beli, bet on: AS EUPEN, no Bet under: 1.6
+Fri Mar 18 17:31:17 CET 2016: Tip processed:
+Event: 121921  EINTRACHT FRANKFURT vs HANNOVER 96, Football, Germany, Bundesliga , Tipster: Soccero, bet on: EINTRACHT FRANKFURT, no Bet under: 1.75
+Fri Mar 18 17:31:17 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 0.86, reqId: null, actionStatus: 0
+Fri Mar 18 17:31:17 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5136483879, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.86, timeOfBet=Fri Mar 18 17:31:17 CET 2016, selection=give]

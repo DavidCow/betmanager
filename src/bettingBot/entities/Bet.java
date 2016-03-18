@@ -1,5 +1,7 @@
 package bettingBot.entities;
 
+import java.util.Date;
+
 import com.google.gson.Gson;
 
 public class Bet {
@@ -12,6 +14,22 @@ public class Bet {
 	private double betOdd;
 	private int actionStatus;
 	private String tipJsonString;
+	private long timeOfBet;
+	
+	/**
+	 * @return the timeOfBet
+	 */
+	public long getTimeOfBet() {
+		return timeOfBet;
+	}
+
+	/**
+	 * @param timeOfBet the timeOfBet to set
+	 */
+	public void setTimeOfBet(long timeOfBet) {
+		this.timeOfBet = timeOfBet;
+	}
+	
 	/**
 	 * @return the tipJsonString
 	 */
@@ -72,11 +90,14 @@ public class Bet {
 	private String recordJsonString;
 	private String selection;
 	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	@Override
-	public String toString(){
-		String res = "";
-		res += "id: " + id + ", reqId: " + reqId + ", betAmount: " + betAmount + ", betOdd: " + betOdd + ", betStatus: " + betStatus;
-		return res;
+	public String toString() {
+		return "Bet [id=" + id + ", reqId=" + reqId + ", betAmount="
+				+ betAmount + ", betStatus=" + betStatus + ", betOdd=" + betOdd
+				+ ", timeOfBet=" + new Date(timeOfBet) + ", selection=" + selection + "]";
 	}
 	
 	private static Gson gson = new Gson();

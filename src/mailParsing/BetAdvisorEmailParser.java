@@ -270,7 +270,7 @@ public class BetAdvisorEmailParser {
 		/* Parse bet on */
 		int betOnStart = cleanedMail.indexOf("BET ON: ") + 8;
 		String betOnLine = cleanedMail.substring(betOnStart, cleanedMail.indexOf("\n", betOnStart));
-		/* Extra case for Asian handicap */
+
 		if(typeOfBet.indexOf("Asian handicap") == 0){
 			int betOnEnd = betOnLine.lastIndexOf("+", betOnStart);
 			if(betOnEnd == -1){
@@ -278,6 +278,21 @@ public class BetAdvisorEmailParser {
 			}
 			betOnEnd--;
 			String betOn = betOnLine.substring(0, betOnEnd);		
+			result.betOn = betOn;			
+		}
+		else if(typeOfBet.indexOf("Asian Handicap 1st Half") == 0){
+			int betOnEnd = betOnLine.lastIndexOf("+", betOnStart);
+			if(betOnEnd == -1){
+				betOnEnd = betOnLine.lastIndexOf("-", betOnStart);
+			}
+			betOnEnd--;
+			String betOn = betOnLine.substring(0, betOnEnd);		
+			result.betOn = betOn;			
+		}
+		else if(typeOfBet.indexOf("Match Odds 1st Half") == 0){
+			int betOnEnd = cleanedMail.indexOf("\n", betOnStart) - 1;
+			String betOn = cleanedMail.substring(betOnStart, betOnEnd);	
+			betOn = betOn.replaceAll(" Half Time", "");
 			result.betOn = betOn;			
 		}
 		else{
@@ -324,6 +339,36 @@ public class BetAdvisorEmailParser {
 				}
 			}
 		}
+		else if(typeOfBet.indexOf("Asian Handicap 1st Half") == 0){
+			int pivotValueStart = betOnLine.indexOf("+");
+			if(pivotValueStart == -1){
+				pivotValueStart = betOnLine.lastIndexOf("-");
+				pivotValueStart++;
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
+				double pivotValue = Double.parseDouble(pivotValueString);
+				result.pivotValue = pivotValue;	
+				if(result.betOn.equals(result.host)){
+					result.pivotBias = "HOST";
+				}
+				else{
+					result.pivotBias = "GUEST";
+				}
+			}
+			else{
+				pivotValueStart++;
+				int pivotValueEnd = betOnLine.indexOf(" ", pivotValueStart);
+				String pivotValueString = betOnLine.substring(pivotValueStart, pivotValueEnd);
+				double pivotValue = Double.parseDouble(pivotValueString);
+				result.pivotValue = pivotValue;	
+				if(result.betOn.equals(result.host)){
+					result.pivotBias = "GUEST";
+				}
+				else{
+					result.pivotBias = "HOST";
+				}
+			}
+		}
 		
 		/* Parse bestOdds */
 		int bestOddsStart = cleanedMail.indexOf("Best odds: ") + 11;
@@ -338,6 +383,10 @@ public class BetAdvisorEmailParser {
 		String noBetUnderString = cleanedMail.substring(noBetUnderStart, noBetUnderEnd);
 		double noBetUnder = Double.parseDouble(noBetUnderString);
 		result.noBetUnder = noBetUnder;
+		
+		if(typeOfBet.indexOf("1st Half") != -1){
+				System.out.println();
+		}
 		
 		return result;
 	}

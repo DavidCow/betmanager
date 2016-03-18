@@ -1,6 +1,11 @@
 package bettingBot.gui;
 
 import java.awt.Color;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Date;
 
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
@@ -13,6 +18,7 @@ import javax.swing.SwingConstants;
 public class BettingBotFrame extends JFrame{
 	
 	private JLabel fundsLabel;
+	private JLabel investedLabel;
 	private JScrollPane runningBetsPane;
 	private JTextArea runningBetsTextArea;
 	private JScrollPane eventPane;
@@ -40,6 +46,14 @@ public class BettingBotFrame extends JFrame{
 		fundsLabel.setSize(200, 60);
 		fundsLabel.setText("<html>Current Funds:<br></html>");
 		
+		investedLabel = new JLabel();
+		add(investedLabel);
+		investedLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		investedLabel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
+		investedLabel.setLocation(218, 20);
+		investedLabel.setSize(200, 60);
+		investedLabel.setText("<html>Currently invested:<br></html>");
+		
 		runningBetsTextArea = new JTextArea();
 		runningBetsTextArea.setEditable(false);
 		runningBetsTextArea.setLineWrap(true);
@@ -65,8 +79,18 @@ public class BettingBotFrame extends JFrame{
 		fundsLabel.setText("<html>Current Funds:<br>" + funds + " GBP</html>");
 	}
 	
+	public void setInvested(double invested){
+		investedLabel.setText("<html>Currently investes:<br>" + invested + " GBP</html>");
+	}
+	
 	public void addEvent(String event){
-		eventTextArea.setText(eventTextArea.getText() + "\n" + event);
+		String newEventString = new Date(System.currentTimeMillis()) + ": " + event;
+		try {
+		    Files.write(Paths.get("logs/eventLog.txt"), ("\n" + newEventString).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+		}catch (IOException e) {
+		    System.out.println("Logging Error");
+		}
+		eventTextArea.setText(eventTextArea.getText() + "\n" + newEventString);
 	}
 	
 	public void setBets(String bets){

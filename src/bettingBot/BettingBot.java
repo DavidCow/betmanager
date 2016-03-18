@@ -1,6 +1,5 @@
 package bettingBot;
 
-import java.awt.Event;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -20,14 +19,9 @@ import mailParsing.ParsedTextMail;
 import bettingBot.database.BettingBotDatabase;
 import bettingBot.entities.Bet;
 import bettingBot.entities.BetTicket;
-import bettingBot.entities.ExtendedSoccerEventInstanceCreator;
 import bettingBot.gui.BettingBotFrame;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo.Id;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import eastbridge.BettingApi;
 
@@ -211,7 +205,19 @@ public class BettingBot {
 						if(teamsMatch){
 							
 							// Match Odds tip, get the best matching record and make a bet
-							if(tip.typeOfBet.equalsIgnoreCase("Match Odds")){
+							if(tip.typeOfBet.indexOf("Match Odds") == 0){
+								String tipTimeType = "";
+								if(tip.typeOfBet.equals("Match Odds")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.typeOfBet.equals("Match Odds 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
 								String betOn = "INVALID";
 								if(tip.betOn.equalsIgnoreCase(tip.host))
 									betOn = "one";
@@ -231,7 +237,7 @@ public class BettingBot {
 								
 								for(Record record : records){
 																	
-									if(record.getPivotType() == PivotType.ONE_TWO && record.getTimeType().name().equals("FULL_TIME")){
+									if(record.getPivotType() == PivotType.ONE_TWO && record.getTimeType().name().equals(tipTimeType)){
 										// Get bet ticket
 										String company = record.getSource().toLowerCase();
 										String market = record.getOddType().toString().toLowerCase();
@@ -267,20 +273,34 @@ public class BettingBot {
 												bet.setEventJsonString(eventJsonString);
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
+												bet.setTimeOfBet(System.currentTimeMillis());
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();
 												System.exit(-1);
 											}
 											mainFrame.addEvent("Tip processed:\n" + tip.toString());
-											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());	
+											mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
 										}
 									}							
 								}	
 							}
 							
 							// Over /Under  tip, get the best matching record and make a bet
-							else if(tip.typeOfBet.equalsIgnoreCase("Over / Under")){
+							else if(tip.typeOfBet.indexOf("Over / Under") == 0 && tip.typeOfBet.indexOf("Team") == -1){
+								String tipTimeType = "";
+								if(tip.typeOfBet.equals("Over / Under")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.typeOfBet.equals("Over / Under 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
 								String betOn = "INVALID";
 								if(tip.betOn.indexOf("Over") == 0)
 									betOn = "over";
@@ -304,7 +324,7 @@ public class BettingBot {
 									if(tipPivotValue != recordPivotValue)
 										continue;								
 									
-									if(record.getPivotType() == PivotType.TOTAL && record.getTimeType().name().equals("FULL_TIME")){
+									if(record.getPivotType() == PivotType.TOTAL && record.getTimeType().name().equals(tipTimeType)){
 										// Get bet ticket
 										String company = record.getSource().toLowerCase();
 										String market = record.getOddType().toString().toLowerCase();
@@ -341,6 +361,7 @@ public class BettingBot {
 												bet.setEventJsonString(eventJsonString);
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
+												bet.setTimeOfBet(System.currentTimeMillis());
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();
@@ -348,11 +369,24 @@ public class BettingBot {
 											}
 											mainFrame.addEvent("Tip processed:\n" + tip.toString());
 											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+											mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
 										}
 									}							
 								}	
 							}		
-							else if(tip.typeOfBet.equalsIgnoreCase("Asian handicap")){
+							else if(tip.typeOfBet.indexOf("Asian handicap") == 0 || tip.typeOfBet.indexOf("Asian Handicap") == 0){
+								String tipTimeType = "";
+								if(tip.typeOfBet.equals("Asian handicap")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.typeOfBet.equals("Asian Handicap 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
 								String betOn = "INVALID";
 								if(tip.betOn.equals(tip.host)){
 									if(tip.pivotBias.equals("HOST")){
@@ -387,7 +421,7 @@ public class BettingBot {
 									if(tipPivotValue != recordPivotValue)
 										continue;	
 																							
-									if(record.getPivotType() == PivotType.HDP && record.getTimeType().name().equals("FULL_TIME")){
+									if(record.getPivotType() == PivotType.HDP && record.getTimeType().name().equals(tipTimeType)){
 										String tipPivotBias = tip.pivotBias;
 										String recordPivotBias = record.getPivotBias().name();
 										if(!tipPivotBias.equalsIgnoreCase(recordPivotBias))
@@ -429,6 +463,7 @@ public class BettingBot {
 												bet.setEventJsonString(eventJsonString);
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
+												bet.setTimeOfBet(System.currentTimeMillis());
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();
@@ -436,6 +471,7 @@ public class BettingBot {
 											}
 											mainFrame.addEvent("Tip processed:\n" + tip.toString());
 											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+											mainFrame.addEvent("Bet Placed:\n" + bet.toString());		
 										}
 									}							
 								}	
@@ -448,6 +484,7 @@ public class BettingBot {
 			// Get open Bets
 			List<Bet> bets = dataBase.getAllBets();
 			String openBets = "Running bets:\n";
+			double currentlyInvested = 0;
 			for(int b = 0; b < bets.size(); b++){
 				Bet bet = bets.get(b);
 				// Update bet status
@@ -460,6 +497,10 @@ public class BettingBot {
 						mainFrame.addEvent("Bet Status changed: " + bet);
 					}
 					else{
+						// Currently invested
+						currentlyInvested += bet.getBetAmount();
+						
+						// Infos about the event
 						SoccerEvent event = null;
 						Record record = null;
 						if(eventClass != null && recordClass != null){
@@ -474,6 +515,7 @@ public class BettingBot {
 				}
 			}
 			mainFrame.setBets(openBets);
+			mainFrame.setInvested(currentlyInvested);
 			
 			// Sleep at the end of while loop
 			try {
