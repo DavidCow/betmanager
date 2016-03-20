@@ -39,7 +39,7 @@ public class GMailReader {
 		}
 	}
 	
-	public List<ParsedTextMail> read(String from, Date sinceDate) {
+	public List<ParsedTextMail> read(String from, int numberOfLastMessages) {
 		
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
 		try {
@@ -51,9 +51,9 @@ public class GMailReader {
 			Folder inbox = store.getFolder("inbox");
 			inbox.open(Folder.READ_ONLY);
 			
-			
-			SearchTerm sT = new ReceivedDateTerm(ComparisonTerm.GT, sinceDate);
-			Message[] messages = inbox.search(sT);
+			int end = inbox.getMessageCount();
+			int start = end - numberOfLastMessages + 1;
+			Message[] messages = inbox.getMessages(start, end);
 			
 		    FetchProfile fp = new FetchProfile();
 		    fp.add(FetchProfile.Item.ENVELOPE);
@@ -203,7 +203,7 @@ public class GMailReader {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 10);
 		for(ParsedTextMail s : mails)
 			System.out.println(s.content);
 	}

@@ -1,5 +1,10 @@
 package bettingBot;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,7 +32,7 @@ import eastbridge.BettingApi;
 
 public class BettingBot {
 	
-	private static final int numberOfDaysToCheck = 2;
+	private static final int numberOfMessagesToCheck = 100;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
 	
@@ -73,6 +78,29 @@ public class BettingBot {
 		Class recordClass = null;
 		
 		boolean initialiseGson = true;
+		
+		File f0 = new File("event.dat");
+		File f1 = new File("record.dat");
+		if(f0.isFile() && f0.canRead() && f1.isFile() && f1.canRead()){
+			initialiseGson = false;
+			try{
+				FileInputStream in0 = new FileInputStream(f0);
+				ObjectInputStream inO0 = new ObjectInputStream(in0);
+				eventClass = (Class)inO0.readObject();
+				
+				FileInputStream in1 = new FileInputStream(f1);
+				ObjectInputStream inO1 = new ObjectInputStream(in1);
+				recordClass = (Class)inO1.readObject();
+				inO0.close();
+				inO1.close();
+				initialiseGson = false;
+			}catch(Exception e){
+				e.printStackTrace();
+				System.exit(-1);
+			}
+			System.out.println("Objects loaded from Inputstream");
+		}
+		
 		while(initialiseGson){
 			System.out.println("Initialising Gson");
 			Collection<SoccerEvent> events = cs.getAllEvents();
@@ -86,7 +114,25 @@ public class BettingBot {
 				Record record = records.iterator().next(); 
 				eventClass = event.getClass();
 				recordClass = record.getClass();	
+				// Save Objects
+				try{
+					FileOutputStream out = new FileOutputStream("event.dat");
+			        ObjectOutputStream oout = new ObjectOutputStream(out);
+			        oout.writeObject(event.getClass());
+					FileOutputStream out2 = new FileOutputStream("record.dat");
+			        ObjectOutputStream oout2 = new ObjectOutputStream(out2);
+			        oout2.writeObject(record.getClass());
+			        oout.close();
+			        oout2.close();
+					initialiseGson = false;	
+					System.out.println("Objects saved");
+					break;
+				}catch(Exception e){
+					e.printStackTrace();
+					System.exit(-1);
+				}
 				initialiseGson = false;
+				break;
 			}
 			if(!initialiseGson)
 				break;
@@ -117,9 +163,7 @@ public class BettingBot {
 			Collection<SoccerEvent> events = cs.getAllEvents();
 			
 			// Get parsed mails
-			// Date of the oldest mail to check
-			Date getMailsSinceDate = new Date(System.currentTimeMillis() - numberOfDaysToCheck * 24 * 60 * 60 * 1000);
-			List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", getMailsSinceDate);
+			List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", numberOfMessagesToCheck);
 			List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 			for(ParsedTextMail mail : mails){
 				if(mail.subject.indexOf("Tip subscription") != -1){
@@ -234,6 +278,7 @@ public class BettingBot {
 								double bestMinStake = 0;
 								BetTicket bestBetTicket = null;
 								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
 								
 								for(Record record : records){
 																	
@@ -255,6 +300,7 @@ public class BettingBot {
 											bestEventId = eventId;
 											bestMinStake = betTicket.getMinStake();
 											bestRecord = record;
+											bestBetTicketJsonString = betTicketString;
 										}										
 									}									
 								}
@@ -274,6 +320,7 @@ public class BettingBot {
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
 												bet.setTimeOfBet(System.currentTimeMillis());
+												bet.setBetTicketJsonString(bestBetTicketJsonString);
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();
@@ -315,6 +362,7 @@ public class BettingBot {
 								double bestMinStake = 0;
 								BetTicket bestBetTicket = null;
 								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
 								
 								for(Record record : records){
 									
@@ -330,8 +378,8 @@ public class BettingBot {
 										String market = record.getOddType().toString().toLowerCase();
 										String eventId = record.getEventId();
 										int oddId = record.getOddId();
-										String res = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
-										BetTicket betTicket = BetTicket.fromJson(res);
+										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
+										BetTicket betTicket = BetTicket.fromJson(betTicketString);
 										
 										// Check for best odds
 										if(betTicket.getCurrentOdd() > bestOdd){
@@ -343,6 +391,7 @@ public class BettingBot {
 											bestEventId = eventId;
 											bestMinStake = betTicket.getMinStake();
 											bestRecord = record;
+											bestBetTicketJsonString = betTicketString;
 										}			
 									}
 								}
@@ -362,6 +411,7 @@ public class BettingBot {
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
 												bet.setTimeOfBet(System.currentTimeMillis());
+												bet.setBetTicketJsonString(bestBetTicketJsonString);
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();
@@ -413,6 +463,7 @@ public class BettingBot {
 								double bestMinStake = 0;
 								BetTicket bestBetTicket = null;
 								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
 								
 								for(Record record : records){
 									// Check if the tip and the record have the same pivot value
@@ -432,8 +483,8 @@ public class BettingBot {
 										String market = record.getOddType().toString().toLowerCase();
 										String eventId = record.getEventId();
 										int oddId = record.getOddId();
-										String res = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
-										BetTicket betTicket = BetTicket.fromJson(res);
+										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
+										BetTicket betTicket = BetTicket.fromJson(betTicketString);
 										
 										// Check for best odds
 										if(betTicket.getCurrentOdd() > bestOdd){
@@ -445,6 +496,7 @@ public class BettingBot {
 											bestEventId = eventId;
 											bestMinStake = betTicket.getMinStake();
 											bestRecord = record;
+											bestBetTicketJsonString = betTicketString;
 										}		
 									}	
 								}
@@ -464,6 +516,7 @@ public class BettingBot {
 												bet.setRecordJsonString(recordJsonString);
 												bet.setSelection(betOn);
 												bet.setTimeOfBet(System.currentTimeMillis());
+												bet.setBetTicketJsonString(bestBetTicketJsonString);
 												dataBase.addBet(bet);
 											} catch (SQLException e) {
 												e.printStackTrace();

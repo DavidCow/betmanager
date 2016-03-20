@@ -21,11 +21,18 @@ import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
+import javax.swing.JFrame;
+
 import org.apache.commons.math3.stat.inference.TTest;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.xy.XYDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
 
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
-import bettingBot.LetterPairSimilarity;
 import bettingBot.TeamMapping;
 
 public class BetAdvisorBacktest {
@@ -73,7 +80,7 @@ public class BetAdvisorBacktest {
 		double layThreshold = 1.1;
 		
 		// Variable for testing worse cases of bestOdds
-		double bestOddsFactor = 1.0;
+		double bestOddsFactor = 0.95;
 		
 		// Variance calculation
 		List<Double> betEvs = new ArrayList<Double>();
@@ -81,6 +88,9 @@ public class BetAdvisorBacktest {
 		
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		// Odds Ratio
+		double oddsRatio = 0;
 		
 		// We set the start and endIndex of considered tipps, according to the historical data that we have
 		int startI = 0;
@@ -475,7 +485,11 @@ public class BetAdvisorBacktest {
 				}
 			}
 			if(bestOdds != 0){
+				if(bestOdds > tipp.getOdds())
+					bestOdds = tipp.getOdds();
+				
 				bestOdds *= bestOddsFactor;
+				oddsRatio += bestOdds / tipp.getOdds();
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					// Check "lay" movement
 					double firstLay = 0;
@@ -845,7 +859,24 @@ public class BetAdvisorBacktest {
 		System.out.println("Significance level of < 7: " + significance / 2);
 		System.out.println();	
 		
+		// Odds ratio
+		oddsRatio /= numberOfAllBets;
+		System.out.println("Odds Ratio: " + oddsRatio);
+		
 		// Chart
+		XYSeries series = new XYSeries("Profit");
+		XYDataset xyDataset = new XYSeriesCollection(series);
+		double totalProfit = 0;
+		for(int i = 0; i < betEvs.size(); i++){
+			series.add(i, totalProfit);
+			totalProfit += betEvs.get(i);
+		}
+		final JFreeChart chart = ChartFactory.createXYLineChart("Profit", "Bets", "Profit", xyDataset);
+        final ChartPanel chartPanel = new ChartPanel(chart);
+        JFrame frame = new JFrame("Backtest");
+        frame.setContentPane(chartPanel);
+        frame.setSize(600, 400);
+        frame.setVisible(true);
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();

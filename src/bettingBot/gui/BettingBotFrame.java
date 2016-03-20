@@ -80,7 +80,7 @@ public class BettingBotFrame extends JFrame{
 	}
 	
 	public void setInvested(double invested){
-		investedLabel.setText("<html>Currently investes:<br>" + invested + " GBP</html>");
+		investedLabel.setText("<html>Currently invested:<br>" + invested + " GBP</html>");
 	}
 	
 	public void addEvent(String event){

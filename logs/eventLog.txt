@@ -199,3 +199,354 @@ Fri Mar 18 17:31:17 CET 2016: BetTicket Received:
 minStake: 1.61, maxStake: 2880.0, currentOdd: 0.86, reqId: null, actionStatus: 0
 Fri Mar 18 17:31:17 CET 2016: Bet Placed:
 Bet [id=mgbp0124001|5136483879, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.86, timeOfBet=Fri Mar 18 17:31:17 CET 2016, selection=give]
+Fri Mar 18 18:56:19 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24003|1603181106477041, reqId=null, betAmount=1.06, betStatus=5, betOdd=3.72, timeOfBet=Fri Mar 18 16:06:51 CET 2016, selection=draw]
+Fri Mar 18 18:56:21 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24001|1603181108083099, reqId=null, betAmount=1.06, betStatus=4, betOdd=3.05, timeOfBet=Fri Mar 18 16:08:12 CET 2016, selection=draw]
+Fri Mar 18 19:23:59 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Robert Volka, bet on: Under +0.50 Half Time, no Bet under: 2.5
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.75
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SV WALDHOF MANNHEIM, no Bet under: 1.7
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  TSG NEUSTRELITZ vs FSV ZWICKAU, Football, Germany, Regionalliga Northeast , Tipster: Soccero, bet on: FSV ZWICKAU, no Bet under: 1.7
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  FC SCHALKE 04 vs MONCHENGLADBACH, Football, Germany, Bundesliga , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.2
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  OLYMPIQUE MARSEILLE vs STADE RENNES, Football, France, Ligue 1 , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  FALKIRK FC vs RANGERS FC, Football, Scotland, First Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.9
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  AFC ASTRA GIURGIU vs ASA TARGU MURES, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.6
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  MIDDLESBROUGH FC vs HULL CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  FORTALEZA FC vs DEPORTIVO LA EQUIDAD, Football, Colombia, Apertura I , Tipster: Darijo Beli, bet on: DEPORTIVO LA EQUIDAD, no Bet under: 1.8
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  RED BULL BRASIL SP vs OESTE SP, Football, Brazil, Paulista Serie A1 , Tipster: Darijo Beli, bet on: RED BULL BRASIL SP, no Bet under: 1.7
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  US ORLEANS 45 vs ETOILE FREJUS SAINT-RAPHAEL, Football, France, National , Tipster: Darijo Beli, bet on: US ORLEANS 45, no Bet under: 1.6
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  PORTIMONENSE SC vs BENFICA LISBON B, Football, Portugal, Liga Vitalis , Tipster: Darijo Beli, bet on: PORTIMONENSE SC, no Bet under: 1.8
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  AS EUPEN vs KSV ROESELARE, Football, Belgium, EXQI League , Tipster: Darijo Beli, bet on: AS EUPEN, no Bet under: 1.6
+Fri Mar 18 19:27:12 CET 2016: New Tip received:
+Event: 121921  GETAFE CF vs SD EIBAR, Football, Spain, Liga BBVA , Tipster: Robert Volka, bet on: Under +0.50 Half Time, no Bet under: 2.5
+Fri Mar 18 20:00:01 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24002|1603181106542135, reqId=null, betAmount=1.06, betStatus=4, betOdd=3.35, timeOfBet=Fri Mar 18 16:06:58 CET 2016, selection=draw]
+Fri Mar 18 20:00:01 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24002|1603181107029946, reqId=null, betAmount=1.06, betStatus=5, betOdd=4.1, timeOfBet=Fri Mar 18 16:07:05 CET 2016, selection=draw]
+Fri Mar 18 20:00:03 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24001|1603181108309117, reqId=null, betAmount=2.12, betStatus=5, betOdd=0.99, timeOfBet=Fri Mar 18 16:08:33 CET 2016, selection=give]
+Fri Mar 18 20:23:04 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24001|1603181108193144, reqId=null, betAmount=1.06, betStatus=5, betOdd=1.88, timeOfBet=Fri Mar 18 16:08:23 CET 2016, selection=one]
+Fri Mar 18 20:23:05 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24003|1603181108358914, reqId=null, betAmount=2.12, betStatus=5, betOdd=0.79, timeOfBet=Fri Mar 18 16:08:38 CET 2016, selection=give]
+Fri Mar 18 21:59:03 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24002|1603181108252606, reqId=null, betAmount=2.12, betStatus=4, betOdd=1.06, timeOfBet=Fri Mar 18 16:08:28 CET 2016, selection=take]
+Fri Mar 18 22:21:50 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24005|1603181106431940, reqId=null, betAmount=1.06, betStatus=5, betOdd=3.75, timeOfBet=Fri Mar 18 16:06:46 CET 2016, selection=draw]
+Fri Mar 18 22:39:14 CET 2016: New Tip received:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Soccero, bet on: ODENSE BK, no Bet under: 1.7
+Fri Mar 18 23:25:05 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24005|1603181106389056, reqId=null, betAmount=1.06, betStatus=5, betOdd=3.35, timeOfBet=Fri Mar 18 16:06:42 CET 2016, selection=draw]
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  FORTALEZA FC vs DEPORTIVO LA EQUIDAD, Football, Colombia, Apertura I , Tipster: Darijo Beli, bet on: DEPORTIVO LA EQUIDAD, no Bet under: 1.8
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  RED BULL BRASIL SP vs OESTE SP, Football, Brazil, Paulista Serie A1 , Tipster: Darijo Beli, bet on: RED BULL BRASIL SP, no Bet under: 1.7
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  PORTIMONENSE SC vs BENFICA LISBON B, Football, Portugal, Liga Vitalis , Tipster: Darijo Beli, bet on: PORTIMONENSE SC, no Bet under: 1.8
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Soccero, bet on: ODENSE BK, no Bet under: 1.7
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  SV SANDHAUSEN vs FC ST. PAULI, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.06
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  PRESTON NORTH END vs QUEENS PARK RANGERS, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  READING FC vs CARDIFF CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  HERTHA BSC vs FC INGOLSTADT, Football, Germany, Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  FC VIITORUL CONSTANTA vs STEAUA BUCURESTI, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.5
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  ALBACETE BALOMPIE vs CA OSASUNA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  ALCORCON AD vs REAL OVIEDO, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.3
+Sat Mar 19 11:11:50 CET 2016: New Tip received:
+Event: 121921  ELCHE CF vs UD ALMERIA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.16
+Sat Mar 19 11:14:30 CET 2016: New Tip received:
+Event: 121921  FC HOMBURG vs TSV STEINBACH, Football, Germany, Regionalliga Southwest , Tipster: Jeremy Pric, bet on: TSV STEINBACH, no Bet under: 1.7
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  FORTALEZA FC vs DEPORTIVO LA EQUIDAD, Football, Colombia, Apertura I , Tipster: Darijo Beli, bet on: DEPORTIVO LA EQUIDAD, no Bet under: 1.8
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  RED BULL BRASIL SP vs OESTE SP, Football, Brazil, Paulista Serie A1 , Tipster: Darijo Beli, bet on: RED BULL BRASIL SP, no Bet under: 1.7
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  PORTIMONENSE SC vs BENFICA LISBON B, Football, Portugal, Liga Vitalis , Tipster: Darijo Beli, bet on: PORTIMONENSE SC, no Bet under: 1.8
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Soccero, bet on: ODENSE BK, no Bet under: 1.7
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  SV SANDHAUSEN vs FC ST. PAULI, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.06
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  PRESTON NORTH END vs QUEENS PARK RANGERS, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  READING FC vs CARDIFF CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  HERTHA BSC vs FC INGOLSTADT, Football, Germany, Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  FC VIITORUL CONSTANTA vs STEAUA BUCURESTI, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.5
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  ALBACETE BALOMPIE vs CA OSASUNA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  ALCORCON AD vs REAL OVIEDO, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.3
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  ELCHE CF vs UD ALMERIA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.16
+Sat Mar 19 11:18:39 CET 2016: New Tip received:
+Event: 121921  FC HOMBURG vs TSV STEINBACH, Football, Germany, Regionalliga Southwest , Tipster: Jeremy Pric, bet on: TSV STEINBACH, no Bet under: 1.7
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  FORTALEZA FC vs DEPORTIVO LA EQUIDAD, Football, Colombia, Apertura I , Tipster: Darijo Beli, bet on: DEPORTIVO LA EQUIDAD, no Bet under: 1.8
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  RED BULL BRASIL SP vs OESTE SP, Football, Brazil, Paulista Serie A1 , Tipster: Darijo Beli, bet on: RED BULL BRASIL SP, no Bet under: 1.7
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  PORTIMONENSE SC vs BENFICA LISBON B, Football, Portugal, Liga Vitalis , Tipster: Darijo Beli, bet on: PORTIMONENSE SC, no Bet under: 1.8
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Soccero, bet on: ODENSE BK, no Bet under: 1.7
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  SV SANDHAUSEN vs FC ST. PAULI, Football, Germany, 2. Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.06
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  PRESTON NORTH END vs QUEENS PARK RANGERS, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  READING FC vs CARDIFF CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  HERTHA BSC vs FC INGOLSTADT, Football, Germany, Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  FC VIITORUL CONSTANTA vs STEAUA BUCURESTI, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.5
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  ALBACETE BALOMPIE vs CA OSASUNA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  ALCORCON AD vs REAL OVIEDO, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.3
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  ELCHE CF vs UD ALMERIA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.16
+Sat Mar 19 11:28:43 CET 2016: New Tip received:
+Event: 121921  FC HOMBURG vs TSV STEINBACH, Football, Germany, Regionalliga Southwest , Tipster: Jeremy Pric, bet on: TSV STEINBACH, no Bet under: 1.7
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  PRESTON NORTH END vs QUEENS PARK RANGERS, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  READING FC vs CARDIFF CITY, Football, England, Championship , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  HERTHA BSC vs FC INGOLSTADT, Football, Germany, Bundesliga , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  FC VIITORUL CONSTANTA vs STEAUA BUCURESTI, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.5
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  ALBACETE BALOMPIE vs CA OSASUNA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  ALCORCON AD vs REAL OVIEDO, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.3
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  ELCHE CF vs UD ALMERIA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.16
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  WATFORD FC vs STOKE CITY, Football, England, Premier League , Tipster: Amar Sidra, bet on: STOKE CITY, no Bet under: 1.7
+Sat Mar 19 15:22:01 CET 2016: New Tip received:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Amar Sidra, bet on: ODENSE BK, no Bet under: 1.7
+Sat Mar 19 15:22:02 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5136324530, reqId=null, betAmount=0.8, betStatus=5, betOdd=2.04, timeOfBet=Fri Mar 18 16:09:05 CET 2016, selection=one]
+Sat Mar 19 15:22:33 CET 2016: Tip processed:
+Event: 121921  WATFORD FC vs STOKE CITY, Football, England, Premier League , Tipster: Amar Sidra, bet on: STOKE CITY, no Bet under: 1.7
+Sat Mar 19 15:22:33 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 1.02, reqId: null, actionStatus: 0
+Sat Mar 19 15:22:33 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5139094000, reqId=null, betAmount=1.6, betStatus=1, betOdd=1.02, timeOfBet=Sat Mar 19 15:22:33 CET 2016, selection=take]
+Sat Mar 19 15:32:36 CET 2016: Tip processed:
+Event: 121921  HOBRO IK vs ODENSE BK, Football, Denmark, SAS Ligaen , Tipster: Amar Sidra, bet on: ODENSE BK, no Bet under: 1.7
+Sat Mar 19 15:32:36 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 0.95, reqId: null, actionStatus: 0
+Sat Mar 19 15:32:36 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5139162194, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.95, timeOfBet=Sat Mar 19 15:32:36 CET 2016, selection=give]
+Sat Mar 19 16:21:39 CET 2016: New Tip received:
+Event: 121921  FC EMPOLI vs US PALERMO, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: FC EMPOLI, no Bet under: 1.9
+Sat Mar 19 16:22:01 CET 2016: Tip processed:
+Event: 121921  FC EMPOLI vs US PALERMO, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: FC EMPOLI, no Bet under: 1.9
+Sat Mar 19 16:22:01 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 21164.02, currentOdd: 0.97, reqId: null, actionStatus: 0
+Sat Mar 19 16:22:01 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24003|1603191121564363, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.97, timeOfBet=Sat Mar 19 16:22:01 CET 2016, selection=give]
+Sat Mar 19 16:53:12 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24004|1603181109209073, reqId=null, betAmount=2.12, betStatus=5, betOdd=0.75, timeOfBet=Fri Mar 18 16:09:23 CET 2016, selection=give]
+Sat Mar 19 17:56:22 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5139094000, reqId=null, betAmount=1.6, betStatus=4, betOdd=1.02, timeOfBet=Sat Mar 19 15:22:33 CET 2016, selection=take]
+Sat Mar 19 17:56:23 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5139162194, reqId=null, betAmount=1.6, betStatus=4, betOdd=0.95, timeOfBet=Sat Mar 19 15:32:36 CET 2016, selection=give]
+Sat Mar 19 20:03:09 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24003|1603191121564363, reqId=null, betAmount=2.12, betStatus=5, betOdd=0.97, timeOfBet=Sat Mar 19 16:22:01 CET 2016, selection=give]
+Sat Mar 19 20:28:16 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5136483879, reqId=null, betAmount=1.6, betStatus=4, betOdd=0.86, timeOfBet=Fri Mar 18 17:31:17 CET 2016, selection=give]
+Sat Mar 19 21:37:15 CET 2016: New Tip received:
+Event: 121921  TENERIFE CD vs REAL ZARAGOZA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.05
+Sat Mar 19 21:38:12 CET 2016: New Tip received:
+Event: 121921  ATHLETIC BILBAO B vs GIMNASTIC DE TARRAGONA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.1
+Sat Mar 19 21:40:19 CET 2016: New Tip received:
+Event: 121921  GIRONA FC vs CD LEGANES, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.02
+Sat Mar 19 21:41:19 CET 2016: New Tip received:
+Event: 121921  RCD MALLORCA vs CD MIRANDES, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.17
+Sat Mar 19 21:42:19 CET 2016: New Tip received:
+Event: 121921  SD PONFERRADINA vs SD HUESCA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.1
+Sat Mar 19 21:43:19 CET 2016: New Tip received:
+Event: 121921  CS UNIVERSITATEA CRAIOVA vs ACS POLI TIMISOARA, Football, Romania, Liga 1,Relegation round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sat Mar 19 21:44:20 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sat Mar 19 21:48:18 CET 2016: New Tip received:
+Event: 121921  CD DAS AVES vs FC PENAFIEL, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sat Mar 19 21:49:17 CET 2016: New Tip received:
+Event: 121921  CD FEIRENSE vs SC FREAMUNDE, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 2.9
+Sat Mar 19 21:50:18 CET 2016: New Tip received:
+Event: 121921  SPORTING FARENSE vs LEIXOES SC, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  GIRONA FC vs CD LEGANES, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.02
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  RCD MALLORCA vs CD MIRANDES, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.17
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  SD PONFERRADINA vs SD HUESCA, Football, Spain, Liga Adelante , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.1
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  CS UNIVERSITATEA CRAIOVA vs ACS POLI TIMISOARA, Football, Romania, Liga 1,Relegation round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  CD DAS AVES vs FC PENAFIEL, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  CD FEIRENSE vs SC FREAMUNDE, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 2.9
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  SPORTING FARENSE vs LEIXOES SC, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  BSG WISMUT GERA vs FC EISENACH, Football, Germany, Oberliga NOFV Sued , Tipster: Soccero, bet on: BSG WISMUT GERA, no Bet under: 1.7
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  OLIMPIK DONETSK vs VOLYN LUTSK, Football, Ukraine, Premier League , Tipster: Soccero, bet on: OLIMPIK DONETSK, no Bet under: 1.9
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  TURIN FC vs JUVENTUS TURIN, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: JUVENTUS TURIN, no Bet under: 1.83
+Sun Mar 20 10:04:48 CET 2016: New Tip received:
+Event: 121921  FROSINONE CALCIO vs AC FIORENTINA, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: ACF FIORENTINA Under +1.75, no Bet under: 1.8
+Sun Mar 20 10:05:16 CET 2016: New Tip received:
+Event: 121921  HELLAS VERONA vs CARPI FC, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: CARPI FC, no Bet under: 2.0
+Sun Mar 20 10:05:37 CET 2016: Tip processed:
+Event: 121921  HELLAS VERONA vs CARPI FC, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: CARPI FC, no Bet under: 2.0
+Sun Mar 20 10:05:37 CET 2016: BetTicket Received:
+minStake: 1.0, maxStake: 1700.0, currentOdd: 1.111, reqId: null, actionStatus: 0
+Sun Mar 20 10:05:37 CET 2016: Bet Placed:
+Bet [id=GB01CF24004|12010218, reqId=null, betAmount=1.0, betStatus=0, betOdd=1.111, timeOfBet=Sun Mar 20 10:05:37 CET 2016, selection=take]
+Sun Mar 20 10:29:23 CET 2016: New Tip received:
+Event: 121921  CS UNIVERSITATEA CRAIOVA vs ACS POLI TIMISOARA, Football, Romania, Liga 1,Relegation round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.25
+Sun Mar 20 10:29:23 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sun Mar 20 10:29:23 CET 2016: New Tip received:
+Event: 121921  CD DAS AVES vs FC PENAFIEL, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  CD FEIRENSE vs SC FREAMUNDE, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 2.9
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  SPORTING FARENSE vs LEIXOES SC, Football, Portugal, Liga Vitalis , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  BSG WISMUT GERA vs FC EISENACH, Football, Germany, Oberliga NOFV Sued , Tipster: Soccero, bet on: BSG WISMUT GERA, no Bet under: 1.7
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  OLIMPIK DONETSK vs VOLYN LUTSK, Football, Ukraine, Premier League , Tipster: Soccero, bet on: OLIMPIK DONETSK, no Bet under: 1.9
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  TURIN FC vs JUVENTUS TURIN, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: JUVENTUS TURIN, no Bet under: 1.83
+Sun Mar 20 10:29:24 CET 2016: New Tip received:
+Event: 121921  FROSINONE CALCIO vs AC FIORENTINA, Football, Italy, Serie A , Tipster: Achille Piecheu, bet on: ACF FIORENTINA Under +1.75, no Bet under: 1.8
+Sun Mar 20 10:39:13 CET 2016: New Tip received:
+Event: 121921  GD CHAVES vs ATLETICO CP, Football, Portugal, Liga Vitalis , Tipster: Jeremy Pric, bet on: GD CHAVES, no Bet under: 1.97
+Sun Mar 20 10:39:21 CET 2016: Tip processed:
+Event: 121921  GD CHAVES vs ATLETICO CP, Football, Portugal, Liga Vitalis , Tipster: Jeremy Pric, bet on: GD CHAVES, no Bet under: 1.97
+Sun Mar 20 10:39:21 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 1058.2, currentOdd: 1.04, reqId: null, actionStatus: 0
+Sun Mar 20 10:39:21 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24003|1603200539151714, reqId=null, betAmount=2.12, betStatus=1, betOdd=1.04, timeOfBet=Sun Mar 20 10:39:21 CET 2016, selection=give]
+Sun Mar 20 10:52:21 CET 2016: New Tip received:
+Event: 121921  SC COVILHA vs FC FAMALICAO, Football, Portugal, Liga Vitalis , Tipster: Jeremy Pric, bet on: FC FAMALICAO, no Bet under: 1.75
+Sun Mar 20 10:52:29 CET 2016: Tip processed:
+Event: 121921  SC COVILHA vs FC FAMALICAO, Football, Portugal, Liga Vitalis , Tipster: Jeremy Pric, bet on: FC FAMALICAO, no Bet under: 1.75
+Sun Mar 20 10:52:29 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 1058.2, currentOdd: 0.82, reqId: null, actionStatus: 0
+Sun Mar 20 10:52:29 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24002|1603200552236754, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.82, timeOfBet=Sun Mar 20 10:52:29 CET 2016, selection=take]
+Sun Mar 20 11:20:19 CET 2016: New Tip received:
+Event: 121921  TURIN FC vs JUVENTUS TURIN, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: JUVENTUS TURIN, no Bet under: 1.8
+Sun Mar 20 11:20:30 CET 2016: Tip processed:
+Event: 121921  TURIN FC vs JUVENTUS TURIN, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: JUVENTUS TURIN, no Bet under: 1.8
+Sun Mar 20 11:20:30 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 12698.41, currentOdd: 0.89, reqId: null, actionStatus: 0
+Sun Mar 20 11:20:30 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24004|1603200620241828, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.89, timeOfBet=Sun Mar 20 11:20:30 CET 2016, selection=give]
+Sun Mar 20 11:57:13 CET 2016: New Tip received:
+Event: 121921  SAMPDORIA GENOA vs AC CHIEVO VERONA, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: SAMPDORIA GENOA, no Bet under: 1.8
+Sun Mar 20 11:57:24 CET 2016: Tip processed:
+Event: 121921  SAMPDORIA GENOA vs AC CHIEVO VERONA, Football, Italy, Serie A , Tipster: Rosario Baron, bet on: SAMPDORIA GENOA, no Bet under: 1.8
+Sun Mar 20 11:57:24 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 0.88, reqId: null, actionStatus: 0
+Sun Mar 20 11:57:24 CET 2016: Bet Placed:
+Bet [id=mgbp0124003|5142057412, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.88, timeOfBet=Sun Mar 20 11:57:24 CET 2016, selection=give]
+Sun Mar 20 13:21:16 CET 2016: New Tip received:
+Event: 121921  FC FREDERICIA vs NAESTVED BK, Football, Denmark, Viasat Sport Divisionen , Tipster: Daniel Larse, bet on: FC FREDERICIA, no Bet under: 1.9
+Sun Mar 20 13:21:23 CET 2016: Tip processed:
+Event: 121921  FC FREDERICIA vs NAESTVED BK, Football, Denmark, Viasat Sport Divisionen , Tipster: Daniel Larse, bet on: FC FREDERICIA, no Bet under: 1.9
+Sun Mar 20 13:21:23 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 598.4, currentOdd: 1.07, reqId: null, actionStatus: 0
+Sun Mar 20 13:21:23 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5142368121, reqId=null, betAmount=1.6, betStatus=1, betOdd=1.07, timeOfBet=Sun Mar 20 13:21:23 CET 2016, selection=give]
+Sun Mar 20 13:24:15 CET 2016: New Tip received:
+Event: 121921  AC MILAN vs LAZIO ROMA, Football, Italy, Serie A , Tipster: Simeone Tassin, bet on: LAZIO ROMA, no Bet under: 1.8
+Sun Mar 20 13:24:27 CET 2016: Tip processed:
+Event: 121921  AC MILAN vs LAZIO ROMA, Football, Italy, Serie A , Tipster: Simeone Tassin, bet on: LAZIO ROMA, no Bet under: 1.8
+Sun Mar 20 13:24:27 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 0.9, reqId: null, actionStatus: 0
+Sun Mar 20 13:24:27 CET 2016: Bet Placed:
+Bet [id=mgbp0124002|5142381838, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.9, timeOfBet=Sun Mar 20 13:24:27 CET 2016, selection=take]
+Sun Mar 20 13:24:39 CET 2016: New Tip received:
+Event: 121921  SAMPDORIA GENOA vs AC CHIEVO VERONA, Football, Italy, Serie A , Tipster: Simeone Tassin, bet on: SAMPDORIA GENOA, no Bet under: 1.8
+Sun Mar 20 13:28:21 CET 2016: New Tip received:
+Event: 121921  HB KOGE vs FC ROSKILDE, Football, Denmark, Viasat Sport Divisionen , Tipster: Daniel Larse, bet on: HB KOGE, no Bet under: 1.7
+Sun Mar 20 13:28:23 CET 2016: New Tip received:
+Event: 121921  UNION SAINT-GILLOISE vs WHITE STAR BRUXELLES, Football, Belgium, EXQI League , Tipster: Ivan Kaci, bet on: WHITE STAR BRUXELLES, no Bet under: 1.7
+Sun Mar 20 13:35:24 CET 2016: New Tip received:
+Event: 121921  COLO COLO BA vs VITORIA DA CONQUISTA BA, Football, Brazil, Baiano, 1 Divisao, Relegation , Tipster: Chris Toma, bet on: VITORIA DA CONQUISTA BA, no Bet under: 2.1
+Sun Mar 20 13:45:18 CET 2016: New Tip received:
+Event: 121921  PANTHRAKIKOS FC KOMOTINI vs ATROMITOS ATHENS, Football, Greece, Super League , Tipster: Christopher Sileno, bet on: PANTHRAKIKOS FC KOMOTINI, no Bet under: 1.8
+Sun Mar 20 13:50:21 CET 2016: New Tip received:
+Event: 121921  PAOK FC vs KALLONI AEL FC, Football, Greece, Super League , Tipster: Christopher Sileno, bet on: PAOK FC, no Bet under: 1.73
+Sun Mar 20 13:50:31 CET 2016: Tip processed:
+Event: 121921  PAOK FC vs KALLONI AEL FC, Football, Greece, Super League , Tipster: Christopher Sileno, bet on: PAOK FC, no Bet under: 1.73
+Sun Mar 20 13:50:31 CET 2016: BetTicket Received:
+minStake: 1.0, maxStake: 334.5, currentOdd: 0.79, reqId: null, actionStatus: 0
+Sun Mar 20 13:50:31 CET 2016: Bet Placed:
+Bet [id=S69BPRM24003|8560366260, reqId=null, betAmount=1.0, betStatus=1, betOdd=0.79, timeOfBet=Sun Mar 20 13:50:31 CET 2016, selection=give]
+Sun Mar 20 13:56:23 CET 2016: New Tip received:
+Event: 121921  ASTERAS TRIPOLIS vs OLYMPIACOS FC, Football, Greece, Super League , Tipster: Christopher Sileno, bet on: Under +2.25, no Bet under: 1.92
+Sun Mar 20 13:56:31 CET 2016: Tip processed:
+Event: 121921  ASTERAS TRIPOLIS vs OLYMPIACOS FC, Football, Greece, Super League , Tipster: Christopher Sileno, bet on: Under +2.25, no Bet under: 1.92
+Sun Mar 20 13:56:31 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 628.0, currentOdd: 1.02, reqId: null, actionStatus: 0
+Sun Mar 20 13:56:31 CET 2016: Bet Placed:
+Bet [id=mgbp0124001|5142516110, reqId=null, betAmount=1.6, betStatus=1, betOdd=1.02, timeOfBet=Sun Mar 20 13:56:31 CET 2016, selection=under]
+Sun Mar 20 15:37:58 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5136337569, reqId=null, betAmount=0.8, betStatus=4, betOdd=1.99, timeOfBet=Fri Mar 18 16:15:20 CET 2016, selection=one]
+Sun Mar 20 15:54:23 CET 2016: New Tip received:
+Event: 121921  FC KRASNODAR vs FC LOKOMOTIV MOSCOW, Football, Russia, Premier League , Tipster: Amar Sidra, bet on: FC LOKOMOTIV MOSCOW, no Bet under: 1.7
+Sun Mar 20 15:54:33 CET 2016: Tip processed:
+Event: 121921  FC KRASNODAR vs FC LOKOMOTIV MOSCOW, Football, Russia, Premier League , Tipster: Amar Sidra, bet on: FC LOKOMOTIV MOSCOW, no Bet under: 1.7
+Sun Mar 20 15:54:33 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 4232.8, currentOdd: 0.92, reqId: null, actionStatus: 0
+Sun Mar 20 15:54:33 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24004|1603201054263152, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.92, timeOfBet=Sun Mar 20 15:54:32 CET 2016, selection=take]
+Sun Mar 20 16:34:31 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5142368121, reqId=null, betAmount=1.6, betStatus=4, betOdd=1.07, timeOfBet=Sun Mar 20 13:21:23 CET 2016, selection=give]
+Sun Mar 20 17:02:00 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24004|1603200620241828, reqId=null, betAmount=2.12, betStatus=4, betOdd=0.89, timeOfBet=Sun Mar 20 11:20:30 CET 2016, selection=give]
+Sun Mar 20 17:02:01 CET 2016: Bet Status changed: Bet [id=mgbp0124003|5142057412, reqId=null, betAmount=1.6, betStatus=5, betOdd=0.88, timeOfBet=Sun Mar 20 11:57:24 CET 2016, selection=give]
+Sun Mar 20 17:54:34 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24002|1603200552236754, reqId=null, betAmount=2.12, betStatus=4, betOdd=0.82, timeOfBet=Sun Mar 20 10:52:29 CET 2016, selection=take]
+Sun Mar 20 18:03:08 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24003|1603200539151714, reqId=null, betAmount=2.12, betStatus=7, betOdd=1.04, timeOfBet=Sun Mar 20 10:39:21 CET 2016, selection=give]
+Sun Mar 20 18:12:11 CET 2016: Bet Status changed: Bet [id=S69BPRM24003|8560366260, reqId=null, betAmount=1.0, betStatus=4, betOdd=0.79, timeOfBet=Sun Mar 20 13:50:31 CET 2016, selection=give]
+Sun Mar 20 18:47:38 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sun Mar 20 18:47:38 CET 2016: New Tip received:
+Event: 121921  COLO COLO BA vs VITORIA DA CONQUISTA BA, Football, Brazil, Baiano, 1 Divisao, Relegation , Tipster: Chris Toma, bet on: VITORIA DA CONQUISTA BA, no Bet under: 2.1
+Sun Mar 20 19:09:15 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sun Mar 20 19:09:15 CET 2016: New Tip received:
+Event: 121921  COLO COLO BA vs VITORIA DA CONQUISTA BA, Football, Brazil, Baiano, 1 Divisao, Relegation , Tipster: Chris Toma, bet on: VITORIA DA CONQUISTA BA, no Bet under: 2.1
+Sun Mar 20 19:09:50 CET 2016: New Tip received:
+Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
+Sun Mar 20 19:09:50 CET 2016: New Tip received:
+Event: 121921  COLO COLO BA vs VITORIA DA CONQUISTA BA, Football, Brazil, Baiano, 1 Divisao, Relegation , Tipster: Chris Toma, bet on: VITORIA DA CONQUISTA BA, no Bet under: 2.1

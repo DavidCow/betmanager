@@ -63,6 +63,7 @@ public class BettingBotDatabase {
 	            " tipJsonString VARCHAR, " +
 	            " eventJsonString TEXT, " +
 	            " recordJsonString VARCHAR, " +
+	            " betTicketJsonString VARCHAR, " +
 	            " selection VARCHAR(255), " +
 	            " timeOfBet BIGINT, " +
 	            " PRIMARY KEY ( id ))"; 
@@ -70,10 +71,10 @@ public class BettingBotDatabase {
 	}
 	
 	public void addBet(Bet bet) throws SQLException{
-		addBet(bet.getId(), bet.getReqId(), bet.getBetAmount(), bet.getBetOdd(), bet.getBetStatus(), bet.getTipJsonString(), bet.getEventJsonString(), bet.getRecordJsonString(), bet.getSelection(), bet.getTimeOfBet());
+		addBet(bet.getId(), bet.getReqId(), bet.getBetAmount(), bet.getBetOdd(), bet.getBetStatus(), bet.getTipJsonString(), bet.getEventJsonString(), bet.getRecordJsonString(), bet.getSelection(), bet.getTimeOfBet(), bet.getBetTicketJsonString());
 	}
 	
-	private void addBet(String id, String reqId, double betAmount, double betOdd, int betStatus, String tipJSsonString, String eventJsonString, String recordJsonString, String selection, long timeOfBet) throws SQLException{
+	private void addBet(String id, String reqId, double betAmount, double betOdd, int betStatus, String tipJSsonString, String eventJsonString, String recordJsonString, String selection, long timeOfBet, String betTicketJsonString) throws SQLException{
 		Statement sT = null;
 		try {
 			sT = db.createStatement();
@@ -81,8 +82,8 @@ public class BettingBotDatabase {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		String addBet = "INSERT INTO bets (id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, selection, timeOfBet)";
-		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ",'" +  tipJSsonString + "','" + eventJsonString + "','" + recordJsonString + "','" +  selection + "'," + timeOfBet + ")";
+		String addBet = "INSERT INTO bets (id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, selection, timeOfBet, betTicketJsonString)";
+		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ",'" +  tipJSsonString + "','" + eventJsonString + "','" + recordJsonString + "','" +  selection + "'," + timeOfBet + ",'" + betTicketJsonString + "')";
 		sT.executeUpdate(addBet);		
 	}
 	
@@ -116,6 +117,7 @@ public class BettingBotDatabase {
 					String recordJsonString = rs.getString("recordJsonString");
 					String selection = rs.getString("selection");
 					long timeOfBet = rs.getLong("timeOfBet");
+					String betTicketJsonString = rs.getString("betTicketJsonString");
 					b.setBetAmount(betAmount);
 					b.setBetOdd(betOdd);
 					b.setBetStatus(betStatus);
@@ -126,6 +128,7 @@ public class BettingBotDatabase {
 					b.setRecordJsonString(recordJsonString);
 					b.setSelection(selection);
 					b.setTimeOfBet(timeOfBet);
+					b.setBetTicketJsonString(betTicketJsonString);
 					bets.add(b);
 				}
 			} catch (SQLException e) {

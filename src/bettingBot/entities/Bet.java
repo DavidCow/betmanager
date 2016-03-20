@@ -15,7 +15,25 @@ public class Bet {
 	private int actionStatus;
 	private String tipJsonString;
 	private long timeOfBet;
+	private String eventJsonString;
+	private String recordJsonString;
+	private String selection;
+	private String betTicketJsonString;
 	
+	/**
+	 * @return the betTicketJsonString
+	 */
+	public String getBetTicketJsonString() {
+		return betTicketJsonString;
+	}
+
+	/**
+	 * @param betTicketJsonString the betTicketJsonString to set
+	 */
+	public void setBetTicketJsonString(String betTicketJsonString) {
+		this.betTicketJsonString = betTicketJsonString;
+	}
+
 	/**
 	 * @return the timeOfBet
 	 */
@@ -85,10 +103,6 @@ public class Bet {
 	public void setSelection(String selection) {
 		this.selection = selection;
 	}
-
-	private String eventJsonString;
-	private String recordJsonString;
-	private String selection;
 	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
