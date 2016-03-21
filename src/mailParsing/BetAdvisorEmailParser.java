@@ -408,7 +408,7 @@ public class BetAdvisorEmailParser {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){

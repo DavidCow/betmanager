@@ -249,9 +249,9 @@ public class BettingBot {
 						if(teamsMatch){
 							
 							// Match Odds tip, get the best matching record and make a bet
-							if(tip.typeOfBet.indexOf("Match Odds") == 0){
+							if(tip.typeOfBet.indexOf("Match Odds") == 0 || tip.typeOfBet.indexOf("Match odds") == 0){
 								String tipTimeType = "";
-								if(tip.typeOfBet.equals("Match Odds")){
+								if(tip.typeOfBet.equals("Match odds")){
 									tipTimeType = "FULL_TIME";
 								}
 								else if(tip.typeOfBet.equals("Match Odds 1st Half")){
