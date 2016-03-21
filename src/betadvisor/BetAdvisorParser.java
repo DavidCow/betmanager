@@ -11,6 +11,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -56,6 +57,7 @@ public class BetAdvisorParser {
 			            	}
 		            		// gameDate
 		            		DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
+		            		format.setTimeZone(TimeZone.getTimeZone("CET"));
 		            		Date gameDate = format.parse(tokens[0]);
 		            		// category
 		            		String category = tokens[1];
