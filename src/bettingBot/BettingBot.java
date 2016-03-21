@@ -9,8 +9,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Properties;
 
 import jayeson.lib.datastructure.PivotType;
@@ -35,6 +37,7 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 100;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
+	private static final int MAX_STAKE = 20;
 	
 	public void run(){
 		
@@ -42,7 +45,7 @@ public class BettingBot {
 		Gson gson = new Gson();
 		
 		// ArrayList which holds Tips, that will not be printed anymore
-		ArrayList<BetAdvisorTip> seenTips = new ArrayList<BetAdvisorTip>();
+		Map<BetAdvisorTip, Integer> seenTips = new HashMap<BetAdvisorTip, Integer>();
 		
 		// Initialize GUI
 		mainFrame.setVisible(true);
@@ -139,11 +142,15 @@ public class BettingBot {
 			try {
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-	
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		// Loop over tips and available events
 		while (true) {		
 			// Get current funds
@@ -161,6 +168,8 @@ public class BettingBot {
 			// If auto reconnection is enabled, it will automatically reconnect to the feed for you
 			cs.waitConnection();
 			Collection<SoccerEvent> events = cs.getAllEvents();
+			if(events.isEmpty())
+				continue;
 			
 			// Get parsed mails
 			List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", numberOfMessagesToCheck);
@@ -193,9 +202,24 @@ public class BettingBot {
 					continue;
 				}
 
-				if(!seenTips.contains(tip)){
+				// Some variables for logging
+				boolean newTip = false;
+				boolean timeFoundAlreadyPrinted = false;
+
+				/* Tip is not in database, we log once that we received it and add it to a List
+				 * So it gets ignored in later prints
+				 */
+				if(!seenTips.containsKey(tip)){
 					mainFrame.addEvent("New Tip received:\n" + tip.toString());
-					seenTips.add(tip);
+					seenTips.put(tip, 0);
+					newTip = true;
+				}
+				else{
+					int v = seenTips.get(tip);
+					if(v < 5){
+						newTip = true;
+						seenTips.put(tip, seenTips.get(tip) + 1);	
+					}
 				}
 				
 				
@@ -229,15 +253,17 @@ public class BettingBot {
 					Date eventStartDate = new Date(event.getLiveState().getStartTime() * 1000);
 					long eventStartUnixTime = eventStartDate.getTime();
 					
-					if(TeamMapping.teamsMatch(eventHost, tipHost) || TeamMapping.teamsMatch(eventGuest, tipGuest)){
-//						System.out.println("Teams Match: " + eventHost + "  " + tipHost);
-					}
-					
 					/* Check if start Time matches 
 					 * 
-					 * Do it with a 5 minute tolerance, because the dates from Eastbridge are sometimes a little inacurate
+					 * Do it with a 5 minute tolerance, because the dates from Eastbridge are sometimes a little inaccurate
 					 */
 					if(Math.abs(tipStartUnixTime - eventStartUnixTime) < 5 * 60 * 1000){
+						/* Log that we found a matching game date */
+						if(newTip && !timeFoundAlreadyPrinted){
+							timeFoundAlreadyPrinted = true;
+							seenTips.put(tip, 5);	
+							mainFrame.addEvent("Matching Game Date found:\n" + eventStartDate.toString());
+						}
 											
 						/* Check if teams match, using different methods */
 						boolean teamsMatch = eventHost.equalsIgnoreCase(tipHost) || eventGuest.equalsIgnoreCase(tipGuest);
@@ -247,6 +273,12 @@ public class BettingBot {
 						
 						/*/ Teams match, get the right record and make a bet */
 						if(teamsMatch){
+							/* Log that we found matching teams */
+							if(newTip){
+								mainFrame.addEvent("Matching Teams found:\n" + 
+								"Tip Host: " + tipHost + " Event Host: " + eventHost + "\n" + 
+								"Tip Guest: " + tipGuest + " Event Guest: " + eventGuest);
+							}
 							
 							// Match Odds tip, get the best matching record and make a bet
 							if(tip.typeOfBet.indexOf("Match Odds") == 0 || tip.typeOfBet.indexOf("Match odds") == 0){
@@ -270,6 +302,11 @@ public class BettingBot {
 								else if(tip.betOn.equalsIgnoreCase("draw"))
 									betOn = "draw";
 								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
+								
 								double bestOdd = 0;
 								String bestCompany = "";
 								String bestMarket = "";
@@ -289,49 +326,70 @@ public class BettingBot {
 										String eventId = record.getEventId();
 										int oddId = record.getOddId();
 										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
-										BetTicket betTicket = BetTicket.fromJson(betTicketString);
-										// Check for best Odds
-										if(betTicket.getCurrentOdd() > bestOdd){
-											bestBetTicket = betTicket;
-											bestOdd = betTicket.getCurrentOdd();
-											bestOddId = oddId;
-											bestCompany = company;
-											bestMarket = market;
-											bestEventId = eventId;
-											bestMinStake = betTicket.getMinStake();
-											bestRecord = record;
-											bestBetTicketJsonString = betTicketString;
-										}										
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											// Check for best Odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}		
+										}									
 									}									
 								}
 								if(bestOdd > 0 && bestOdd > tip.noBetUnder){
-									if(bestMinStake < 20){
+									if(bestMinStake <= MAX_STAKE){
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
-										Bet bet = Bet.fromJson(betString);
-										if(bet.getActionStatus() == 0){
-											System.out.println(bestBetTicket);
-											try {
-												dataBase.addProcessedTip(tip);
-												String tipJsonString = gson.toJson(tip);
-												String eventJsonString = gson.toJson(event);
-												String recordJsonString = gson.toJson(bestRecord);
-												bet.setTipJsonString(tipJsonString);
-												bet.setEventJsonString(eventJsonString);
-												bet.setRecordJsonString(recordJsonString);
-												bet.setSelection(betOn);
-												bet.setTimeOfBet(System.currentTimeMillis());
-												bet.setBetTicketJsonString(bestBetTicketJsonString);
-												dataBase.addBet(bet);
-											} catch (SQLException e) {
-												e.printStackTrace();
-												System.exit(-1);
-											}
-											mainFrame.addEvent("Tip processed:\n" + tip.toString());
-											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());	
-											mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());	
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+											}		
 										}
-									}							
+									}
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}
 								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd <= tip.noBetUnder){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
 							}
 							
 							// Over /Under  tip, get the best matching record and make a bet
@@ -353,6 +411,11 @@ public class BettingBot {
 									betOn = "over";
 								else if(tip.betOn.indexOf("Under") == 0)
 									betOn = "under";
+								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
 								
 								double bestOdd = 0;
 								String bestCompany = "";
@@ -379,50 +442,71 @@ public class BettingBot {
 										String eventId = record.getEventId();
 										int oddId = record.getOddId();
 										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
-										BetTicket betTicket = BetTicket.fromJson(betTicketString);
-										
-										// Check for best odds
-										if(betTicket.getCurrentOdd() > bestOdd){
-											bestBetTicket = betTicket;
-											bestOdd = betTicket.getCurrentOdd();
-											bestOddId = oddId;
-											bestCompany = company;
-											bestMarket = market;
-											bestEventId = eventId;
-											bestMinStake = betTicket.getMinStake();
-											bestRecord = record;
-											bestBetTicketJsonString = betTicketString;
-										}			
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											
+											// Check for best odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}			
+										}		
 									}
 								}
 								if(bestOdd > 0 && bestOdd + 1 > tip.noBetUnder){
-									if(bestMinStake < 20){
+									if(bestMinStake <= MAX_STAKE){
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
-										Bet bet = Bet.fromJson(betString);
-										if(bet.getActionStatus() == 0){
-											System.out.println(bestBetTicket);
-											try {
-												dataBase.addProcessedTip(tip);
-												String tipJsonString = gson.toJson(tip);
-												String eventJsonString = gson.toJson(event);
-												String recordJsonString = gson.toJson(bestRecord);
-												bet.setTipJsonString(tipJsonString);
-												bet.setEventJsonString(eventJsonString);
-												bet.setRecordJsonString(recordJsonString);
-												bet.setSelection(betOn);
-												bet.setTimeOfBet(System.currentTimeMillis());
-												bet.setBetTicketJsonString(bestBetTicketJsonString);
-												dataBase.addBet(bet);
-											} catch (SQLException e) {
-												e.printStackTrace();
-												System.exit(-1);
-											}
-											mainFrame.addEvent("Tip processed:\n" + tip.toString());
-											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
-											mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+											}		
 										}
-									}							
+									}
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}						
 								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd <= tip.noBetUnder){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
 							}		
 							else if(tip.typeOfBet.indexOf("Asian handicap") == 0 || tip.typeOfBet.indexOf("Asian Handicap") == 0){
 								String tipTimeType = "";
@@ -455,6 +539,11 @@ public class BettingBot {
 									}
 								}
 								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
+								
 								double bestOdd = 0;
 								String bestCompany = "";
 								String bestMarket = "";
@@ -484,50 +573,77 @@ public class BettingBot {
 										String eventId = record.getEventId();
 										int oddId = record.getOddId();
 										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
-										BetTicket betTicket = BetTicket.fromJson(betTicketString);
-										
-										// Check for best odds
-										if(betTicket.getCurrentOdd() > bestOdd){
-											bestBetTicket = betTicket;
-											bestOdd = betTicket.getCurrentOdd();
-											bestOddId = oddId;
-											bestCompany = company;
-											bestMarket = market;
-											bestEventId = eventId;
-											bestMinStake = betTicket.getMinStake();
-											bestRecord = record;
-											bestBetTicketJsonString = betTicketString;
-										}		
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											
+											// Check for best odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}			
+										}	
 									}	
 								}
 								if(bestOdd > 0 && bestOdd + 1 > tip.noBetUnder){
-									if(bestMinStake < 20){
+									if(bestMinStake <= MAX_STAKE){
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
-										Bet bet = Bet.fromJson(betString);
-										if(bet.getActionStatus() == 0){
-											System.out.println(bestBetTicket);
-											try {
-												dataBase.addProcessedTip(tip);
-												String tipJsonString = gson.toJson(tip);
-												String eventJsonString = gson.toJson(event);
-												String recordJsonString = gson.toJson(bestRecord);
-												bet.setTipJsonString(tipJsonString);
-												bet.setEventJsonString(eventJsonString);
-												bet.setRecordJsonString(recordJsonString);
-												bet.setSelection(betOn);
-												bet.setTimeOfBet(System.currentTimeMillis());
-												bet.setBetTicketJsonString(bestBetTicketJsonString);
-												dataBase.addBet(bet);
-											} catch (SQLException e) {
-												e.printStackTrace();
-												System.exit(-1);
-											}
-											mainFrame.addEvent("Tip processed:\n" + tip.toString());
-											mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
-											mainFrame.addEvent("Bet Placed:\n" + bet.toString());		
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());		
+											}		
 										}
-									}							
+									}		
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}
 								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd <= tip.noBetUnder){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
+							}
+							else{
+								/* Log that the Bet Type was not found */
+								if(newTip){
+									mainFrame.addEvent("Bet Type not recognized:\n" + tip.typeOfBet);		
+								}
 							}
 						}
 					}
