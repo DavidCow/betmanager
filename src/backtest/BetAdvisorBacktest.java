@@ -80,7 +80,7 @@ public class BetAdvisorBacktest {
 		double layThreshold = 1.1;
 		
 		// Variable for testing worse cases of bestOdds
-		double bestOddsFactor = 0.95;
+		double bestOddsFactor = 1;
 		
 		// Variance calculation
 		List<Double> betEvs = new ArrayList<Double>();
