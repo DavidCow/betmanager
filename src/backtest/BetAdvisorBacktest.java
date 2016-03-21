@@ -82,8 +82,6 @@ public class BetAdvisorBacktest {
 		// Variable for testing worse cases of bestOdds
 		double bestOddsFactor = 1;
 		
-		long numberOfTimeMatches = 0;
-		
 		// Variance calculation
 		List<Double> betEvs = new ArrayList<Double>();
 		List<Double> hedgedEvs = new ArrayList<Double>();
@@ -209,7 +207,6 @@ public class BetAdvisorBacktest {
 				long t1 = historicalDataGameDate.getTime();
 				
 				if(Math.abs(t0 - t1) < 10 * 60 * 1000){
-					numberOfTimeMatches++;
 					// Set the new startJ
 					// it will be the first index j with a date equal to the start of the game of the tipp
 					// because both lists are sorted, the relevant index j for the next tipp can not be lower than for the
@@ -880,8 +877,6 @@ public class BetAdvisorBacktest {
         frame.setContentPane(chartPanel);
         frame.setSize(600, 400);
         frame.setVisible(true);
-        
-        System.out.println(numberOfTimeMatches);
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();
