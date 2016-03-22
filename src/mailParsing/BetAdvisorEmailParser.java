@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 
 import org.jsoup.Jsoup;
 import org.jsoup.examples.HtmlToPlainText;
@@ -67,6 +68,7 @@ public class BetAdvisorEmailParser {
 		 * Format is like: 3rd March 2016 at 20:45
 		 */
 		DateFormat format = new SimpleDateFormat("dd MMMM yyyy 'at' HH:mm", Locale.UK);
+		format.setTimeZone(TimeZone.getTimeZone("CET"));
 		int dateStart = cleanedMail.indexOf("DATE:") + 6;
 		int dateEnd = cleanedMail.indexOf("\n", dateStart);
 		String dateString = cleanedMail.substring(dateStart, dateEnd);
@@ -223,6 +225,7 @@ public class BetAdvisorEmailParser {
 		 * Format is like: 3rd March 2016 at 20:45
 		 */
 		DateFormat format = new SimpleDateFormat("dd MMMM yyyy 'at' HH:mm", Locale.UK);
+		format.setTimeZone(TimeZone.getTimeZone("CET"));
 		int dateStart = cleanedMail.indexOf("DATE:") + 6;
 		int dateEnd = cleanedMail.indexOf("\n", dateStart);
 		String dateString = cleanedMail.substring(dateStart, dateEnd);
@@ -408,7 +411,7 @@ public class BetAdvisorEmailParser {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 100);
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){
