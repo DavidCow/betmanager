@@ -37,7 +37,7 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 100;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 20;
+	private static final int MAX_STAKE = 100;
 	
 	public void run(){
 		
@@ -158,7 +158,7 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 800){
+			if(funds < 14000){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -345,7 +345,8 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && bestOdd > tip.noBetUnder){
 									if(bestMinStake <= MAX_STAKE){
-										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
+										double betAmount = Math.min(MAX_STAKE, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
 											if(bet.getBetStatus() == 1){
@@ -462,7 +463,8 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && bestOdd + 1 > tip.noBetUnder){
 									if(bestMinStake <= MAX_STAKE){
-										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
+										double betAmount = Math.min(MAX_STAKE, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
 											if(bet.getBetStatus() == 1){
@@ -593,7 +595,8 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && bestOdd + 1 > tip.noBetUnder){
 									if(bestMinStake <= MAX_STAKE){
-										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, bestMinStake, true, -1, -1);
+										double betAmount = Math.min(MAX_STAKE, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
 											if(bet.getBetStatus() == 1){
@@ -659,27 +662,29 @@ public class BettingBot {
 				// Update bet status
 				if(bet.getBetStatus() == 1){
 					String betString = BettingApi.getBetStatus(bet.getId());
-					Bet newBet = Bet.fromJson(betString);
-					if(newBet.getBetStatus() != 1){
-						bet.setBetStatus(newBet.getBetStatus());
-						dataBase.updateBet(bet.getId(), newBet.getBetStatus());
-						mainFrame.addEvent("Bet Status changed: " + bet);
-					}
-					else{
-						// Currently invested
-						currentlyInvested += bet.getBetAmount();
-						
-						// Infos about the event
-						SoccerEvent event = null;
-						Record record = null;
-						if(eventClass != null && recordClass != null){
-							event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);	
-							record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);	
+					if(betString != null){
+						Bet newBet = Bet.fromJson(betString);
+						if(newBet.getBetStatus() != 1){
+							bet.setBetStatus(newBet.getBetStatus());
+							dataBase.updateBet(bet.getId(), newBet.getBetStatus());
+							mainFrame.addEvent("Bet Status changed: " + bet);
 						}
-						if(event != null){
-							openBets += event.getHost() + " vs " + event.getGuest() +  "  " + record.getPivotString() + " " + bet.getSelection() + "\n";
-						}
-						openBets += bet.toString() + "\n\n";
+						else{
+							// Currently invested
+							currentlyInvested += bet.getBetAmount();
+							
+							// Infos about the event
+							SoccerEvent event = null;
+							Record record = null;
+							if(eventClass != null && recordClass != null){
+								event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);	
+								record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);	
+							}
+							if(event != null){
+								openBets += event.getHost() + " vs " + event.getGuest() +  "  " + record.getPivotString() + " " + bet.getSelection() + "\n";
+							}
+							openBets += bet.toString() + "\n\n";
+						}		
 					}
 				}
 			}
