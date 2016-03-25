@@ -38,9 +38,20 @@ public class ResultAnalyser {
 	private BettingBotDatabase dataBase = null;	
 	private static Gson gson = new Gson();
 	
+	private static final int numberOfStakes = 5;
+	private List<Double> yieldPerStake;
+	private List<Double> betsPerStake;
+	
+	
 	public ResultAnalyser(){
 		try {
 			dataBase = new BettingBotDatabase();
+			yieldPerStake = new ArrayList<Double>();
+			betsPerStake = new ArrayList<Double>();
+			for(int i = 0; i < numberOfStakes; i++){
+				betsPerStake.add(0.0);
+				yieldPerStake.add(0.0);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(-1);
@@ -144,6 +155,31 @@ public class ResultAnalyser {
 		double oddDifference = 0;
 		double averageLiquidity = 0;
 		int numberOfLiquidityBets = 0;
+		double averageYield = 0;
+		
+		// Needed to check stats for different liquidity levels */
+		double maxMaxStakeAllBets = 0;
+		double minMaxStakeAllBets = Double.MAX_VALUE;
+		
+		for(int i = 0; i < bets.size(); i++){
+			Bet bet = bets.get(i);
+			String betTicketJsonString = bet.getBetTicketJsonString();
+			if(betTicketJsonString != null){
+				BetTicket betTicket = BetTicket.fromJson(betTicketJsonString);
+				double maxStake = betTicket.getMaxStake();
+				if(maxStake > maxMaxStakeAllBets){
+					maxMaxStakeAllBets = maxStake;
+				}
+				if(maxStake < minMaxStakeAllBets){
+					minMaxStakeAllBets = maxStake;
+				}
+			}
+			
+		}
+		
+		double stakeLevel = (maxMaxStakeAllBets - minMaxStakeAllBets) / numberOfStakes;
+		System.out.println("maxStake: " + maxMaxStakeAllBets);
+		System.out.println("minStake: " + minMaxStakeAllBets);
 		
 		for(int i = 0; i < bets.size(); i++){
 			Bet bet = bets.get(i);
@@ -152,8 +188,9 @@ public class ResultAnalyser {
 			
 			BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
 			String betTicketJsonString = bet.getBetTicketJsonString();
+			BetTicket betTicket = null;
 			if(betTicketJsonString != null){
-				BetTicket betTicket = BetTicket.fromJson(betTicketJsonString);
+				betTicket = BetTicket.fromJson(betTicketJsonString);
 				numberOfLiquidityBets++;
 				averageLiquidity += betTicket.getMaxStake();
 			}
@@ -171,6 +208,18 @@ public class ResultAnalyser {
 			
 			oddDifference += odd / tip.bestOdds;
 			
+			int stakeIndex = -1;
+			for(int j = 0; j < numberOfStakes; j++){
+				if(betTicket != null){
+					double maxStake = betTicket.getMaxStake();
+					if(maxStake > minMaxStakeAllBets + (j + 1) * stakeLevel + 0.01)
+						continue;
+					betsPerStake.set(j, betsPerStake.get(j) + 1);
+					stakeIndex = j;
+					break;
+				}
+			}
+			
 			if(bet.getBetStatus() == 1){
 				numberOfRunninngBets++;
 			}
@@ -179,11 +228,17 @@ public class ResultAnalyser {
 				double betProfit = bet.getBetAmount() * odd - bet.getBetAmount();
 				profit += betProfit;
 				profitByBet.add(profit);
+				averageYield += betProfit / bet.getBetAmount();
+				if(stakeIndex != -1)
+					yieldPerStake.set(stakeIndex, yieldPerStake.get(stakeIndex) + betProfit / bet.getBetAmount());
 			}
 			if(bet.getBetStatus() == 5){
 				numberOfLostBets++;
 				profit -= bet.getBetAmount();
 				profitByBet.add(profit);
+				averageYield--;
+				if(stakeIndex != -1)
+					yieldPerStake.set(stakeIndex, yieldPerStake.get(stakeIndex) - 1);
 			}
 			if(bet.getBetStatus() == 6){
 				numberOfCancelledBets++;
@@ -194,6 +249,7 @@ public class ResultAnalyser {
 		}
 	
 		oddDifference /= bets.size();
+		averageYield /= bets.size();
 		averageLiquidity /= numberOfLiquidityBets;
 		
 		System.out.println("numberOfRunninngBets: " + numberOfRunninngBets);
@@ -202,8 +258,22 @@ public class ResultAnalyser {
 		System.out.println("numberOfDrawnBets: " + numberOfDrawnBets);
 		System.out.println("numberOfCancelledBets: " + numberOfCancelledBets);
 		System.out.println("profit: " + profit);
+		System.out.println("average Yield: " + averageYield);
 		System.out.println("average Odd Ratio: " + oddDifference);
 		System.out.println("average Liquidity: " + averageLiquidity + " in " + numberOfLiquidityBets + " bets");
+		
+		System.out.println("Stakes:");
+		for(int i = 0; i < numberOfStakes; i++){
+			double stakeStart = minMaxStakeAllBets + i * stakeLevel;
+			double stakeEnd = stakeStart + stakeLevel;
+			System.out.println(i + ": " + stakeStart + " - " + stakeEnd);
+		
+		}
+		System.out.println("bets per Stake: " + betsPerStake.toString());
+		for(int i = 0; i < numberOfStakes; i++){
+			yieldPerStake.set(i, yieldPerStake.get(i) / Math.max(1, betsPerStake.get(i)));
+		}
+		System.out.println("yiled per Stake: " + yieldPerStake);
 		
 		// Chart
 		XYSeries series = new XYSeries("Profit");
