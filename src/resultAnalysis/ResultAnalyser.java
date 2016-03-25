@@ -135,6 +135,8 @@ public class ResultAnalyser {
 		int numberOfRunninngBets = 0;
 		int numberOfWonBets = 0;
 		int numberOfLostBets = 0;
+		int numberOfCancelledBets = 0;
+		int numberOfDrawnBets = 0;
 		List<Bet> bets = dataBase.getAllBets();
 		Collections.sort(bets, new BetComparator());
 		List<Double> profitByBet = new ArrayList<Double>();
@@ -183,6 +185,12 @@ public class ResultAnalyser {
 				profit -= bet.getBetAmount();
 				profitByBet.add(profit);
 			}
+			if(bet.getBetStatus() == 6){
+				numberOfCancelledBets++;
+			}
+			if(bet.getBetStatus() == 7){
+				numberOfDrawnBets++;
+			}
 		}
 	
 		oddDifference /= bets.size();
@@ -191,6 +199,8 @@ public class ResultAnalyser {
 		System.out.println("numberOfRunninngBets: " + numberOfRunninngBets);
 		System.out.println("numberOfWonBets: " + numberOfWonBets);
 		System.out.println("numberOfLostBets: " + numberOfLostBets);
+		System.out.println("numberOfDrawnBets: " + numberOfDrawnBets);
+		System.out.println("numberOfCancelledBets: " + numberOfCancelledBets);
 		System.out.println("profit: " + profit);
 		System.out.println("average Odd Ratio: " + oddDifference);
 		System.out.println("average Liquidity: " + averageLiquidity + " in " + numberOfLiquidityBets + " bets");
