@@ -1,7 +1,7 @@
 {
   "subscriber" : {
     "__c__" : "jayeson.lib.datafetcher.core.SubscriberConfiguration",
-    "username" : "Bn06JqWl_grp24",
+    "username" : "yU84nXaP_grp24a",
     "password" : "",
     "connectionString" : "ssl://datafeed-01.olesportsresearch.com:61617?connectionTimeout=60000",
     "autoReconnect" : false,

@@ -2,13 +2,14 @@ package blogaBet;
 
 import java.awt.AWTException;
 import java.awt.Desktop;
+import java.awt.HeadlessException;
 import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -19,6 +20,24 @@ import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 
 public class GetMailLink {
+	
+	// Coordinate constants
+	private static final int screenX = 0;
+	private static final int screenY = 0;
+	private static final int screenWidth = 1680;
+	private static final int screenHeight = 1050;
+	
+	// Robot
+	private static Robot robot;
+	static{
+		try {
+			robot = new Robot();
+		} catch (AWTException e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+	}
+	
 
 	public static void openWebpage(URI uri) {
 		Desktop desktop = Desktop.isDesktopSupported() ? Desktop.getDesktop() : null;
@@ -39,21 +58,14 @@ public class GetMailLink {
 		}
 	}
 
-	public static void clickButton(int[] areas, int numberOfAreas) {
+	public static void clickCaptcha(int[] areas, int numberOfAreas) {
 		int x = 865;
 		int y = 225;
-		Robot myRobot = null;
-		try {
-			myRobot = new Robot();
-		} catch (AWTException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		for (int i : areas) {
-			myRobot.mouseMove(x + 400/numberOfAreas*(i%numberOfAreas), y+ 400/numberOfAreas*(i/numberOfAreas));
-			myRobot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-			myRobot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+			robot.mouseMove(x + 400/numberOfAreas*(i%numberOfAreas), y+ 400/numberOfAreas*(i/numberOfAreas));
+			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
@@ -62,9 +74,9 @@ public class GetMailLink {
 			}
 		}
 		
-		myRobot.mouseMove(1190, 650);
-		myRobot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		myRobot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseMove(1190, 650);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		
 		try {
 			Thread.sleep(2500);
@@ -76,98 +88,95 @@ public class GetMailLink {
 
 	}
 
-	public static void clickDetails(){
-		Robot myRobot = null;
-		try {
-			myRobot = new Robot();
-		} catch (AWTException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	//	myRobot.mouseMove(665, 237);
-	//	myRobot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-	//	myRobot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-		
-		myRobot.keyPress(KeyEvent.VK_CONTROL);
-		myRobot.keyPress(KeyEvent.VK_A);
-		myRobot.keyRelease(KeyEvent.VK_A);
-		myRobot.keyPress(KeyEvent.VK_C);
-		myRobot.keyRelease(KeyEvent.VK_C);
-		myRobot.keyRelease(KeyEvent.VK_CONTROL);
+	public static void copyText(){	
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_A);
+		robot.keyRelease(KeyEvent.VK_A);
+		robot.keyPress(KeyEvent.VK_C);
+		robot.keyRelease(KeyEvent.VK_C);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
 	}
 	
-	public static void main(String[] args) {
-
-		/**
-		 * System.setProperty("webdriver.chrome.driver",
-		 * "D:\\chromedriver.exe"); ChromeOptions options = new ChromeOptions();
-		 * // if you like to specify another profile
-		 * options.addArguments("user-data-dir=/root/Downloads/aaa");
-		 * options.addArguments("start-maximized"); DesiredCapabilities
-		 * capabilities = DesiredCapabilities.chrome();
-		 * capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-		 * WebDriver driver = new ChromeDriver(capabilities);
-		 */
-		String url = getMail();
-		// driver.get(url);
-		Robot myRobot = null;
+	public static void clickIAmNotARobot(){
+		int x = screenX + (int)(715.0 / 1680.0 * screenWidth);
+		int y = screenY + (int)(265.0 / 1050.0 * screenHeight);
+		robot.mouseMove(x, y);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+	}
+	
+	public static void downloadImage(){
+		int x0 = screenX + (int)(1120.0 / 1680.0 * screenWidth);
+		int y0 = screenY + (int)(410.0 / 1050.0 * screenHeight);
+		robot.mouseMove(x0, y0);
+		robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
 		try {
-			openWebpage(new URI(url));
-			myRobot = new Robot();
-			Thread.sleep(2000);
-		} catch (AWTException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return;
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.exit(-1);
 		}
-		myRobot.mouseMove(830, 265);
-		myRobot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		myRobot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e2) {
-			// TODO Auto-generated catch block
-			e2.printStackTrace();
-		}
-		myRobot.mouseMove(1120, 410);
-		myRobot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
-		myRobot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		myRobot.mouseMove(1140, 455);
-		myRobot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		myRobot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-
-		try {
-			Thread.sleep(1500);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		// String scriptToExecute = "var performance = window.performance ||
-		// window.mozPerformance || window.msPerformance ||
-		// window.webkitPerformance || {}; var network =
-		// performance.getEntries() || {}; return network;";
-		// String scriptToExecute = " return performance.getEntries()";
-		// String netData =
-		// ((JavascriptExecutor)driver).executeScript(scriptToExecute).toString();
-		// System.out.println(netData);
-
-		myRobot.keyPress(KeyEvent.VK_ENTER);
-		myRobot.keyRelease(KeyEvent.VK_ENTER);
 		
+		int x1 = screenX + (int)(1140.0 / 1680.0 * screenWidth);
+		int y1 = screenY + (int)(455.0 / 1050.0 * screenHeight);
+		robot.mouseMove(x1, y1);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);		
+	}
+	
+	public static void main(String[] args){
+
+		// Open blogabet site
+		String url = getMail();
+		try {
+			openWebpage(new URL(url));
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// Sleep and wait untill the site opens
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+
+		// Click "I'm not a Robot"
+		clickIAmNotARobot();
+		
+		// Sleep
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		
+		// download Image
+		downloadImage();
+		
+		// Sleep
+		try {
+			Thread.sleep(25000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+		
+		// Sleep
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
@@ -175,8 +184,17 @@ public class GetMailLink {
 			e.printStackTrace();
 		}
 		
-		clickDetails();
-
+		// Copy the text into the clipboard
+		copyText();
+		
+		// Save the mail
+		try {
+			String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+			System.out.println(data);
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		} 
 	}
 
 	public static String getMail() {
@@ -188,33 +206,4 @@ public class GetMailLink {
 		String html = myMail.content.substring(start, end);
 		return html;
 	}
-
-	public static void getWebpage(String html) {
-		URL url;
-		InputStream is = null;
-		BufferedReader br;
-		String line;
-
-		try {
-			url = new URL(html);
-			is = url.openStream(); // throws an IOException
-			br = new BufferedReader(new InputStreamReader(is));
-
-			while ((line = br.readLine()) != null) {
-				System.out.println(line);
-			}
-		} catch (MalformedURLException mue) {
-			mue.printStackTrace();
-		} catch (IOException ioe) {
-			ioe.printStackTrace();
-		} finally {
-			try {
-				if (is != null)
-					is.close();
-			} catch (IOException ioe) {
-				// nothing to see here
-			}
-		}
-	}
-
 }

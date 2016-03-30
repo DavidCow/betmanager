@@ -550,3 +550,363 @@ Sun Mar 20 19:09:50 CET 2016: New Tip received:
 Event: 121921  DINAMO BUCURESTI vs CS PANDURII TARGU JIU, Football, Romania, Liga 1, Championship round , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.15
 Sun Mar 20 19:09:50 CET 2016: New Tip received:
 Event: 121921  COLO COLO BA vs VITORIA DA CONQUISTA BA, Football, Brazil, Baiano, 1 Divisao, Relegation , Tipster: Chris Toma, bet on: VITORIA DA CONQUISTA BA, no Bet under: 2.1
+Sun Mar 20 19:23:37 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5136324899, reqId=null, betAmount=1.6, betStatus=4, betOdd=0.8, timeOfBet=Fri Mar 18 16:09:17 CET 2016, selection=give]
+Sun Mar 20 19:31:49 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24004|1603201054263152, reqId=null, betAmount=2.12, betStatus=4, betOdd=0.92, timeOfBet=Sun Mar 20 15:54:32 CET 2016, selection=take]
+Sun Mar 20 20:30:07 CET 2016: Bet Status changed: Bet [id=mgbp0124001|5142516110, reqId=null, betAmount=1.6, betStatus=5, betOdd=1.02, timeOfBet=Sun Mar 20 13:56:31 CET 2016, selection=under]
+Mon Mar 21 09:31:29 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 09:31:29 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 09:31:30 CET 2016: Bet Status changed: Bet [id=mgbp0124002|5142381838, reqId=null, betAmount=1.6, betStatus=4, betOdd=0.9, timeOfBet=Sun Mar 20 13:24:27 CET 2016, selection=take]
+Mon Mar 21 15:02:42 CET 2016: New Tip received:
+Event: 121921  SC FREIBURG vs KARLSRUHER SC, Football, Germany, 2. Bundesliga , Tipster: Amar Sidra, bet on: Over +2.25, no Bet under: 1.7
+Mon Mar 21 15:03:57 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 15:03:57 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 15:03:57 CET 2016: New Tip received:
+Event: 121921  SC FREIBURG vs KARLSRUHER SC, Football, Germany, 2. Bundesliga , Tipster: Amar Sidra, bet on: Over +2.25, no Bet under: 1.7
+Mon Mar 21 15:09:53 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 15:09:53 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 15:09:53 CET 2016: New Tip received:
+Event: 121921  SC FREIBURG vs KARLSRUHER SC, Football, Germany, 2. Bundesliga , Tipster: Amar Sidra, bet on: Over +2.25, no Bet under: 1.7
+Mon Mar 21 15:10:53 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 15:11:32 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 15:11:57 CET 2016: New Tip received:
+Event: 121921  SC FREIBURG vs KARLSRUHER SC, Football, Germany, 2. Bundesliga , Tipster: Amar Sidra, bet on: Over +2.25, no Bet under: 1.7
+Mon Mar 21 15:12:50 CET 2016: Tip processed:
+Event: 121921  SC FREIBURG vs KARLSRUHER SC, Football, Germany, 2. Bundesliga , Tipster: Amar Sidra, bet on: Over +2.25, no Bet under: 1.7
+Mon Mar 21 15:12:50 CET 2016: BetTicket Received:
+minStake: 1.61, maxStake: 2880.0, currentOdd: 0.87, reqId: null, actionStatus: 0
+Mon Mar 21 15:12:50 CET 2016: Bet Placed:
+Bet [id=mgbp0124003|5144954995, reqId=null, betAmount=1.6, betStatus=1, betOdd=0.87, timeOfBet=Mon Mar 21 15:12:50 CET 2016, selection=over]
+Mon Mar 21 16:15:49 CET 2016: New Tip received:
+Event: 121921  US LECCE vs US CATANZARO, Football, Italy, Lega Pro Prima Divisione, Girone C , Tipster: Robert Volka, bet on: Yes, no Bet under: 3.0
+Mon Mar 21 16:46:43 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 17:23:52 CET 2016: New Tip received:
+Event: 121921  FC WOHLEN vs FC SCHAFFHAUSEN, Football, Switzerland, Challenge League , Tipster: Amar Sidra, bet on: FC SCHAFFHAUSEN, no Bet under: 1.8
+Mon Mar 21 17:25:30 CET 2016: Tip processed:
+Event: 121921  FC WOHLEN vs FC SCHAFFHAUSEN, Football, Switzerland, Challenge League , Tipster: Amar Sidra, bet on: FC SCHAFFHAUSEN, no Bet under: 1.8
+Mon Mar 21 17:25:30 CET 2016: BetTicket Received:
+minStake: 2.12, maxStake: 1058.2, currentOdd: 0.96, reqId: null, actionStatus: 0
+Mon Mar 21 17:25:30 CET 2016: Bet Placed:
+Bet [id=CNY888GWQZ24004|1603211225126172, reqId=null, betAmount=2.12, betStatus=1, betOdd=0.96, timeOfBet=Mon Mar 21 17:25:19 CET 2016, selection=take]
+Mon Mar 21 19:30:58 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 19:30:58 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 19:30:58 CET 2016: New Tip received:
+Event: 121921  US LECCE vs US CATANZARO, Football, Italy, Lega Pro Prima Divisione, Girone C , Tipster: Robert Volka, bet on: Yes, no Bet under: 3.0
+Mon Mar 21 19:30:58 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 19:41:27 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 19:41:27 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 19:41:27 CET 2016: New Tip received:
+Event: 121921  US LECCE vs US CATANZARO, Football, Italy, Lega Pro Prima Divisione, Girone C , Tipster: Robert Volka, bet on: Yes, no Bet under: 3.0
+Mon Mar 21 19:41:27 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 19:52:50 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 19:52:50 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 19:52:50 CET 2016: New Tip received:
+Event: 121921  US LECCE vs US CATANZARO, Football, Italy, Lega Pro Prima Divisione, Girone C , Tipster: Robert Volka, bet on: Yes, no Bet under: 3.0
+Mon Mar 21 19:52:50 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:09:06 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:09:06 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:09:06 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:09:51 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:09:51 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:09:51 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:09:58 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:10:19 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:10:19 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:10:19 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:11:58 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:11:58 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:11:58 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:11:58 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:11:58 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:12:00 CET 2016: Min Stake too high: 21.0
+Mon Mar 21 20:13:36 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:13:36 CET 2016: Matching Game Date found:
+Mon Mar 21 21:15:00 CET 2016
+Mon Mar 21 20:13:36 CET 2016: Matching Teams found:
+Tip Host: BOYACA CHICO FC Event Host: Boyaca Chico
+Tip Guest: BOYACA PATRIOTAS Event Guest: Patriotas Fc
+Mon Mar 21 20:13:40 CET 2016: Insufficient Odds
+Mon Mar 21 20:13:40 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:13:40 CET 2016: Matching Game Date found:
+Mon Mar 21 23:30:00 CET 2016
+Mon Mar 21 20:13:40 CET 2016: Matching Teams found:
+Tip Host: ALIANZA PETROLERA Event Host: Alianza Petrolera
+Tip Guest: ATLETICO BUCARAMANGA Event Guest: Atletico Bucaramanga
+Mon Mar 21 20:13:45 CET 2016: Insufficient Odds
+Mon Mar 21 20:13:45 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:13:45 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:13:45 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:13:45 CET 2016: No matching Record found
+Mon Mar 21 20:19:13 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:19:13 CET 2016: Matching Game Date found:
+Mon Mar 21 21:15:00 CET 2016
+Mon Mar 21 20:19:13 CET 2016: Matching Teams found:
+Tip Host: BOYACA CHICO FC Event Host: Boyaca Chico
+Tip Guest: BOYACA PATRIOTAS Event Guest: Patriotas Fc
+Mon Mar 21 20:19:14 CET 2016: Insufficient Odds
+Mon Mar 21 20:19:14 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:19:14 CET 2016: Matching Game Date found:
+Mon Mar 21 23:30:00 CET 2016
+Mon Mar 21 20:19:14 CET 2016: Matching Teams found:
+Tip Host: ALIANZA PETROLERA Event Host: Alianza Petrolera
+Tip Guest: ATLETICO BUCARAMANGA Event Guest: Atletico Bucaramanga
+Mon Mar 21 20:19:16 CET 2016: Insufficient Odds
+Mon Mar 21 20:19:16 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:19:16 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:19:16 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:19:16 CET 2016: No matching Record found
+Mon Mar 21 20:20:19 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:20:19 CET 2016: Matching Game Date found:
+Mon Mar 21 21:15:00 CET 2016
+Mon Mar 21 20:20:19 CET 2016: Matching Teams found:
+Tip Host: BOYACA CHICO FC Event Host: Boyaca Chico
+Tip Guest: BOYACA PATRIOTAS Event Guest: Patriotas Fc
+Mon Mar 21 20:20:25 CET 2016: Insufficient Odds
+Mon Mar 21 20:20:25 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:20:25 CET 2016: Matching Game Date found:
+Mon Mar 21 23:30:00 CET 2016
+Mon Mar 21 20:20:25 CET 2016: Matching Teams found:
+Tip Host: ALIANZA PETROLERA Event Host: Alianza Petrolera
+Tip Guest: ATLETICO BUCARAMANGA Event Guest: Atletico Bucaramanga
+Mon Mar 21 20:20:33 CET 2016: Insufficient Odds
+Mon Mar 21 20:20:33 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:20:33 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:20:33 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:20:34 CET 2016: No matching Record found
+Mon Mar 21 20:21:31 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:21:31 CET 2016: Matching Game Date found:
+Mon Mar 21 21:15:00 CET 2016
+Mon Mar 21 20:21:31 CET 2016: Matching Teams found:
+Tip Host: BOYACA CHICO FC Event Host: Boyaca Chico
+Tip Guest: BOYACA PATRIOTAS Event Guest: Patriotas Fc
+Mon Mar 21 20:23:01 CET 2016: No matching Record found
+Mon Mar 21 20:23:01 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:23:01 CET 2016: Matching Game Date found:
+Mon Mar 21 23:30:00 CET 2016
+Mon Mar 21 20:23:01 CET 2016: Matching Teams found:
+Tip Host: ALIANZA PETROLERA Event Host: Alianza Petrolera
+Tip Guest: ATLETICO BUCARAMANGA Event Guest: Atletico Bucaramanga
+Mon Mar 21 20:23:46 CET 2016: No matching Record found
+Mon Mar 21 20:23:46 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:23:46 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:23:46 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:24:22 CET 2016: Insufficient Odds
+Mon Mar 21 20:53:05 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:53:05 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 20:53:05 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 20:53:05 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 20:53:05 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 20:53:07 CET 2016: Insufficient Odds
+Mon Mar 21 20:53:07 CET 2016: New Tip received:
+Event: 121921  ATLETICO DE RAFAELA vs RACING CLUB, Football, Argentina, Primera Division, Liguilla Pre-Libertadores , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:53:07 CET 2016: New Tip received:
+Event: 121921  CA TIGRE vs NEWELLS OLD BOYS, Football, Argentina, Primera Division, Liguilla Pre-Libertadores , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 20:53:07 CET 2016: New Tip received:
+Event: 121921  FERRO CARRIL OESTE vs CA BROWN DE ADROGUE, Football, Argentina, Primera B Nacional , Tipster: Owen Gart, bet on: Draw, no Bet under: 2.95
+Mon Mar 21 20:53:19 CET 2016: Matching Game Date found:
+Mon Mar 21 21:15:00 CET 2016
+Mon Mar 21 20:53:19 CET 2016: Matching Teams found:
+Tip Host: BOYACA CHICO FC Event Host: Boyaca Chico
+Tip Guest: BOYACA PATRIOTAS Event Guest: Patriotas Fc
+Mon Mar 21 20:53:25 CET 2016: Insufficient Odds
+Mon Mar 21 20:53:25 CET 2016: Matching Game Date found:
+Mon Mar 21 23:30:00 CET 2016
+Mon Mar 21 20:53:25 CET 2016: Matching Teams found:
+Tip Host: ALIANZA PETROLERA Event Host: Alianza Petrolera
+Tip Guest: ATLETICO BUCARAMANGA Event Guest: Atletico Bucaramanga
+Mon Mar 21 20:53:30 CET 2016: Insufficient Odds
+Mon Mar 21 20:53:34 CET 2016: Matching Game Date found:
+Tue Mar 22 01:15:00 CET 2016
+Mon Mar 21 20:53:34 CET 2016: Matching Teams found:
+Tip Host: ATLETICO DE RAFAELA Event Host: Atletico De Rafaela
+Tip Guest: RACING CLUB Event Guest: Racing Club
+Mon Mar 21 20:53:41 CET 2016: Min Stake too high: 21.0
+Mon Mar 21 20:53:41 CET 2016: Matching Game Date found:
+Tue Mar 22 01:15:00 CET 2016
+Mon Mar 21 20:53:41 CET 2016: Matching Teams found:
+Tip Host: CA TIGRE Event Host: Club Atletico Tigre
+Tip Guest: NEWELLS OLD BOYS Event Guest: Newells Old Boys
+Mon Mar 21 20:53:47 CET 2016: Min Stake too high: 21.0
+Mon Mar 21 20:53:47 CET 2016: Matching Game Date found:
+Tue Mar 22 01:05:00 CET 2016
+Mon Mar 21 20:53:47 CET 2016: Matching Teams found:
+Tip Host: FERRO CARRIL OESTE Event Host: Ferro Carril Oeste
+Tip Guest: CA BROWN DE ADROGUE Event Guest: Brown De Adrogue
+Mon Mar 21 20:53:51 CET 2016: Min Stake too high: 21.0
+Mon Mar 21 21:05:43 CET 2016: New Tip received:
+Event: 121921  BOYACA CHICO FC vs BOYACA PATRIOTAS, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 21:05:43 CET 2016: New Tip received:
+Event: 121921  ALIANZA PETROLERA vs ATLETICO BUCARAMANGA, Football, Colombia, Apertura I , Tipster: Gabriel Elia, bet on: Draw, no Bet under: 3.2
+Mon Mar 21 21:05:43 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Mon Mar 21 21:05:43 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Mon Mar 21 21:05:43 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Mon Mar 21 21:05:44 CET 2016: No matching Record found
+Mon Mar 21 21:05:44 CET 2016: New Tip received:
+Event: 121921  ATLETICO DE RAFAELA vs RACING CLUB, Football, Argentina, Primera Division, Liguilla Pre-Libertadores , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 21:05:44 CET 2016: Matching Game Date found:
+Tue Mar 22 01:15:00 CET 2016
+Mon Mar 21 21:05:44 CET 2016: Matching Teams found:
+Tip Host: ATLETICO DE RAFAELA Event Host: Atletico De Rafaela
+Tip Guest: RACING CLUB Event Guest: Racing Club
+Mon Mar 21 21:05:45 CET 2016: No matching Record found
+Mon Mar 21 21:05:45 CET 2016: New Tip received:
+Event: 121921  CA TIGRE vs NEWELLS OLD BOYS, Football, Argentina, Primera Division, Liguilla Pre-Libertadores , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 21:05:45 CET 2016: Matching Game Date found:
+Tue Mar 22 01:15:00 CET 2016
+Mon Mar 21 21:05:45 CET 2016: Matching Teams found:
+Tip Host: CA TIGRE Event Host: Club Atletico Tigre
+Tip Guest: NEWELLS OLD BOYS Event Guest: Newells Old Boys
+Mon Mar 21 21:05:46 CET 2016: No matching Record found
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  FERRO CARRIL OESTE vs CA BROWN DE ADROGUE, Football, Argentina, Primera B Nacional , Tipster: Owen Gart, bet on: Draw, no Bet under: 2.95
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  FK NOVI PAZAR vs FK RED STAR BELGRADE, Football, Serbia, Superliga , Tipster: Owen Gart, bet on: Draw, no Bet under: 4.0
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  FOTBAL FRYDEK MISTEK vs BANIK SOKOLOV, Football, Czech Republic, 1st Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  FOTBAL TRINEC vs 1 SC ZNOJMO, Football, Czech Republic, 1st Division , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.0
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  GREUTHER FURTH II vs FV ILLERTISSEN, Football, Germany, Regionalliga Bavaria , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.3
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  TSG HOFFENHEIM II vs FC KAISERSLAUTERN II, Football, Germany, Regionalliga Southwest , Tipster: Owen Gart, bet on: Draw, no Bet under: 3.4
+Mon Mar 21 21:05:46 CET 2016: Matching Game Date found:
+Tue Mar 22 19:00:00 CET 2016
+Mon Mar 21 21:05:46 CET 2016: Matching Teams found:
+Tip Host: TSG HOFFENHEIM II Event Host: Tsg 1899 Hoffenheim Am
+Tip Guest: FC KAISERSLAUTERN II Event Guest: Kaiserslautern Am
+Mon Mar 21 21:05:46 CET 2016: No matching Record found
+Mon Mar 21 21:05:46 CET 2016: New Tip received:
+Event: 121921  EINTRACHT TRIER vs ASTORIA WALLDORF, Football, Germany, Regionalliga Southwest , Tipster: Owen Gart, bet on: Draw, no Bet under: 4.5
+Mon Mar 21 21:05:46 CET 2016: Matching Game Date found:
+Tue Mar 22 19:00:00 CET 2016
+Mon Mar 21 21:05:46 CET 2016: Matching Teams found:
+Tip Host: EINTRACHT TRIER Event Host: Eintracht Trier
+Tip Guest: ASTORIA WALLDORF Event Guest: Astoria Walldorf
+Mon Mar 21 21:05:47 CET 2016: No matching Record found
+Mon Mar 21 21:05:47 CET 2016: New Tip received:
+Event: 121921  SV WALDHOF MANNHEIM vs BAHLINGER SC, Football, Germany, Regionalliga Southwest , Tipster: Owen Gart, bet on: Draw, no Bet under: 5.0
+Mon Mar 21 21:05:47 CET 2016: Matching Game Date found:
+Tue Mar 22 19:30:00 CET 2016
+Mon Mar 21 21:05:47 CET 2016: Matching Teams found:
+Tip Host: SV WALDHOF MANNHEIM Event Host: Waldhof Mannheim
+Tip Guest: BAHLINGER SC Event Guest: Bahlinger Sc
+Mon Mar 21 21:05:47 CET 2016: No matching Record found
+Tue Mar 22 19:44:20 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Tue Mar 22 19:44:20 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Tue Mar 22 19:44:20 CET 2016: Matching Teams found:
+Tip Host: FC ST MIRREN Event Host: St. Mirren
+Tip Guest: RAITH ROVERS FC Event Guest: Raith Rovers
+Tue Mar 22 19:44:26 CET 2016: No matching Record found
+Tue Mar 22 19:44:26 CET 2016: New Tip received:
+Event: 121921  FINN HARPS FC vs COCKHILL CELTIC, Football, Ireland, EA Sports Cup , Tipster: Amar Sidra, bet on: FINN HARPS FC, no Bet under: 1.7
+Tue Mar 22 19:44:26 CET 2016: New Tip received:
+Event: 121921  SPVGG ELVERSBERG 07 vs HESSEN KASSEL, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.7
+Tue Mar 22 19:44:26 CET 2016: Matching Game Date found:
+Wed Mar 23 19:00:00 CET 2016
+Tue Mar 22 19:44:26 CET 2016: Matching Teams found:
+Tip Host: SPVGG ELVERSBERG 07 Event Host: Sv Elversberg
+Tip Guest: HESSEN KASSEL Event Guest: Hessen Kassel
+Tue Mar 22 19:44:28 CET 2016: Insufficient Odds
+Tue Mar 22 19:44:28 CET 2016: New Tip received:
+Event: 121921  SSV JAHN REGENSBURG vs TSV 1860 MUNICH II, Football, Germany, Regionalliga Bavaria , Tipster: Soccero, bet on: SSV JAHN REGENSBURG, no Bet under: 1.6
+Tue Mar 22 19:44:28 CET 2016: Matching Game Date found:
+Thu Mar 24 19:00:00 CET 2016
+Tue Mar 22 19:44:28 CET 2016: Matching Teams found:
+Tip Host: SSV JAHN REGENSBURG Event Host: Ssv Jahn Regensburg
+Tip Guest: TSV 1860 MUNICH II Event Guest: Tsv 1860 Munchen Am
+Tue Mar 22 19:44:28 CET 2016: No matching Record found
+Tue Mar 22 19:44:29 CET 2016: Bet Status changed: Bet [id=mgbp0124003|5144954995, reqId=null, betAmount=1.6, betStatus=5, betOdd=0.87, timeOfBet=Mon Mar 21 15:12:50 CET 2016, selection=over]
+Tue Mar 22 19:44:29 CET 2016: Bet Status changed: Bet [id=CNY888GWQZ24004|1603211225126172, reqId=null, betAmount=2.12, betStatus=4, betOdd=0.96, timeOfBet=Mon Mar 21 17:25:19 CET 2016, selection=take]
+Tue Mar 22 19:45:28 CET 2016: Matching Game Date found:
+Tue Mar 22 21:00:00 CET 2016
+Tue Mar 22 19:45:28 CET 2016: Matching Teams found:
+Tip Host: FINN HARPS FC Event Host: Finn Harps
+Tip Guest: COCKHILL CELTIC Event Guest: Cockhill Celtic
+Tue Mar 22 19:45:28 CET 2016: No matching Record found
+Tue Mar 22 19:45:39 CET 2016: Tip processed:
+Event: 121921  SPVGG ELVERSBERG 07 vs HESSEN KASSEL, Football, Germany, Regionalliga Southwest , Tipster: Soccero, bet on: SPVGG ELVERSBERG 07, no Bet under: 1.7
+Tue Mar 22 19:45:39 CET 2016: BetTicket Received:
+minStake: 1.0, maxStake: 110.0, currentOdd: 1.76, reqId: null, actionStatus: 0
+Tue Mar 22 19:45:39 CET 2016: Bet Placed:
+Bet [id=S69BPRM24003|8568575344, reqId=null, betAmount=1.0, betStatus=1, betOdd=1.76, timeOfBet=Tue Mar 22 19:45:39 CET 2016, selection=one]
+Tue Mar 22 19:45:46 CET 2016: Tip processed:
+Event: 121921  SSV JAHN REGENSBURG vs TSV 1860 MUNICH II, Football, Germany, Regionalliga Bavaria , Tipster: Soccero, bet on: SSV JAHN REGENSBURG, no Bet under: 1.6
+Tue Mar 22 19:45:46 CET 2016: BetTicket Received:
+minStake: 0.81, maxStake: 160.8, currentOdd: 1.65, reqId: null, actionStatus: 0
+Tue Mar 22 19:45:46 CET 2016: Bet Placed:
+Bet [id=mgbp0124004|5146086124, reqId=null, betAmount=0.8, betStatus=1, betOdd=1.65, timeOfBet=Tue Mar 22 19:45:46 CET 2016, selection=one]
+Tue Mar 22 19:55:57 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0
+Tue Mar 22 19:55:57 CET 2016: Matching Game Date found:
+Tue Mar 22 20:45:00 CET 2016
+Tue Mar 22 20:03:42 CET 2016: New Tip received:
+Event: 121921  FC ST MIRREN vs RAITH ROVERS FC, Football, Scotland, First Division , Tipster: Robert Volka, bet on: RAITH ROVERS FC, no Bet under: 3.0

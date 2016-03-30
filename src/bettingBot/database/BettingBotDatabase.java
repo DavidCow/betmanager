@@ -38,7 +38,7 @@ public class BettingBotDatabase {
 	    
 	    // Tips Table
 		// Contains all the processed tips, not all the tips we received
-	    String createBetAdvisor = "CREATE TABLE IF NOT EXISTS processed_tips " +
+	    String createProcessedTips= "CREATE TABLE IF NOT EXISTS processed_tips " +
 	            "(event VARCHAR(255) NOT NULL, " +
 	            " tipster VARCHAR(255) NOT NULL, " +
 	            " date BIGINT NOT NULL, " +
@@ -51,7 +51,7 @@ public class BettingBotDatabase {
 	            " pivotValue DOUBLE PRECISION, " + 
 	            " pivotBias VARCHAR(255), " + 
 	            " PRIMARY KEY ( event, tipster, date ))"; 
-	    sql.executeUpdate(createBetAdvisor);
+	    sql.executeUpdate(createProcessedTips);
 	    
 	    // Bets Table
 	    String createBets = "CREATE TABLE IF NOT EXISTS bets " +
