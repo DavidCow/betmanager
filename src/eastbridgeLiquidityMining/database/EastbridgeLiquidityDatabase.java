@@ -83,6 +83,44 @@ public class EastbridgeLiquidityDatabase {
 			e.printStackTrace();
 		}
 	}
+	
+	public ResultSet getAllEvents(){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+		String query = "SELECT * from events";
+		ResultSet rS = null;
+		try {
+			rS = sT.executeQuery(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rS;
+	}
+	
+	public ResultSet getRecordsForEvent(int eventId){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+		String query = "SELECT * from records WHERE eventId=" + eventId;
+		ResultSet rS = null;
+		try {
+			rS = sT.executeQuery(query);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rS;	
+	}
 
 	public static void main(String[] args) throws Throwable, SQLException {
 		EastbridgeLiquidityDatabase dataBase = new EastbridgeLiquidityDatabase();
