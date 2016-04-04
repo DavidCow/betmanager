@@ -1,0 +1,741 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-03-19 13:00:00,VLB,CEV Cup (M),Gazprom Surgut - Dinamo Moscow,18.3,WIN,Full Event Home Gazprom Surgut (Match Winner),3:0,Bet365,1.83,10.00,8.30,interfix,2016-03-19 12:52:34
+2,2016-03-19 13:00:00,SOC,Ger. Oberliga,Meiendorfer SV - Buchholz,22.5,WIN,Full Time Excluding Overtime Away (Home Draw Away),0:2,Bet365,2.25,10.00,12.50,interfix,2016-03-19 12:30:27
+3,2016-03-19 15:00:00,SOC,Ukraine,Stal Dniprodzerzhinsk - FC Hoverla Uzhhorod,17,WIN,Full Time Excluding Overtime Home (Home Draw Away),1:0,Marathonbet,1.7,10.00,7.00,interfix,2016-03-19 10:48:13
+4,2016-03-13 13:00:00,SOC,Greece,Chania - Kallithea,0.00,LOST,Full Event Home (1X2),0:1,Sportingbet,1.5,10.00,-10.00,interfix,2016-03-13 12:26:10
+5,2016-03-12 14:30:00,SOC,Belgium,Union La Calamine - Sprimont,17.5,WIN,Full Event Away (1X2),0-1,Unibet,1.75,10.00,7.50,interfix,2016-03-12 13:25:13
+6,2016-03-09 18:00:00,BSK,Balkan League,Kozuv - KB Peja,15.5,WIN,Full Time Including Overtime Home Kozuv (Match Winner),72:67,Bet365,1.55,10.00,5.50,interfix,2016-03-09 16:38:31
+7,2016-03-06 17:00:00,VLB,Livebet,Modena v Padova,15.7,WIN,Padova (Match Winner),1:3,Bet365,1.57,10.00,5.70,interfix,2016-03-06 17:53:52
+8,2016-03-07 20:00:00,BSK,ABA,Zadar - KK Sutjeska,0.00,LOST,Full Event Away (Win),85:83,PINNACLE,1925,10.00,-10.00,interfix,2016-03-06 13:40:03
+9,2016-03-02 13:00:00,SOC,Greece,Panachaiki - Eleysina,19.1,WIN,Full Event Away (1X2),1:4,William Hill,1.91,10.00,9.10,interfix,2016-03-01 13:07:58
+10,2016-02-28 15:15:00,SOC,Greece,Panthrakikos - Pas Giannina,20,WIN,Full Time Excluding Overtime Away (Home Draw Away),2:4,William Hill,2,10.00,10.00,interfix,2016-02-28 15:08:15
+11,2016-02-28 14:00:00,SOC,Cyprus,Nea Salamis - Doxa Katokopias,0.00,LOST,Full Event Home (1X2),0:0,PINNACLE,1684,10.00,-10.00,interfix,2016-02-28 10:32:03
+12,2016-02-27 16:00:00,SOC,Cyprus,Aris - Anorthosis Famagusta,0.00,LOST,Full Event Away (1X2),0:0,Unibet,1.52,10.00,-10.00,interfix,2016-02-27 13:55:54
+13,2016-02-23 16:30:00,BSK,Other,Nilan Bisons - Helsinki Seagulls,17.3,WIN,Full Time Including Overtime Away (Match Winner),72-105,Ladbrokes,1.73,10.00,7.30,interfix,2016-02-23 14:52:35
+14,2016-02-21 13:00:00,SOC,Other,Radnicki Nis - Javor,0.00,LOST,DRAW,2:0,BWIN,2.75,10.00,-10.00,interfix,2016-02-21 12:48:53
+15,2016-02-20 15:00:00,HKY,Belarus,HK Brest - HK Vitebsk,18.5,WIN,HK Vitebsk (1X2-Full Time Excluding Overtime),1:3,Unibet,1.85,10.00,8.50,interfix,2016-02-20 13:31:05
+16,2016-02-20 14:00:00,SOC,Ita. Serie C,Pro Patria-Lumezzane,0.00,LOST,X ( 1X2),1:2,188bet,3.15,10.00,-10.00,interfix,2016-02-20 13:08:08
+17,2016-02-20 14:00:00,SOC,Cyprus,Doxa-Ermis,0.00,LOST,2 ( 1X2),2:1,Sportingbet,2.25,10.00,-10.00,interfix,2016-02-19 12:55:36
+18,2016-02-19 11:00:00,SOC,Georgia,FC Shuqura - FC Samtredia,0.00,LOST,FC Samtredia (1X2-Full Time Excluding Overtime),1:1,TIPICO,2.25,10.00,-10.00,interfix,2016-02-19 09:51:24
+19,2016-02-14 14:00:00,SOC,Livebet,Panserraikos - Kissamikos,22,WIN,Panserraikos (1X2-Full Time Excluding Overtime)(0:0),1:0,Bet365,2.2,10.00,12.00,interfix,2016-02-14 13:58:40
+20,2016-02-13 18:00:00,SOC,Ita. Serie C,PRO Piacenza - Giana Erminio,30,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Bet365,3,10.00,20.00,interfix,2016-02-13 15:11:17
+21,2016-02-12 14:00:00,SOC,Scotland,FC Motherwell U20 - Rangers U20,0.00,LOST,Rangers U20 (1X2-Full Time Excluding Overtime),1-0,SBOBET,1.73,10.00,-10.00,interfix,2016-02-12 12:51:29
+22,2016-02-11 14:00:00,SOC,Other,Siena - Teramo,17,WIN,Siena,1:0,Interwetten,1.7,10.00,7.00,interfix,2016-02-10 16:29:47
+23,2016-02-07 20:00:00,SOC,Belgium,KSC Lokeren - KV Oostende,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,188bet,3.3,10.00,-10.00,interfix,2016-02-07 18:19:48
+24,2016-02-06 20:30:00,SOC,Belgium,Zulte-Waregem - Royal Charleroi SC,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),2-3,Bet365,3.3,10.00,-10.00,interfix,2016-02-06 19:00:20
+25,2016-02-06 15:15:00,SOC,Greece,Levadiakos - Panthrakikos,0.00,LOST,Home (Match),1:1,PINNACLE,1.7,10.00,-10.00,interfix,2016-02-06 15:11:38
+26,2016-02-03 20:00:00,SOC,Spa. Other,Valle de Egues - CD Cortes,33,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Bet365,3.3,10.00,23.00,interfix,2016-02-03 17:44:27
+27,2016-02-02 15:00:00,SOC,Scotland,FC Motherwell U20 - St. Mirren U20,17,WIN,St. Mirren U20 (1X2-Full Time Excluding Overtime),1:2,Bet365,1.7,10.00,7.00,interfix,2016-02-02 13:49:32
+28,2016-01-31 14:00:00,SOC,Livebet,Panachaiki - Kallithea,0.00,LOST,Panachaiki (1X2-Full Time Excluding Overtime)(0:0),0:1,Bet365,1.83,10.00,-10.00,interfix,2016-01-31 13:48:59
+29,2016-01-31 21:30:00,SOC,Venezuela,Llaneros de Guanare - Aragua FC,0.00,LOST,Llaneros de Guanare (1X2-Full Time Excluding Overtime),1:1,William Hill,3.75,10.00,-10.00,interfix,2016-01-31 10:28:10
+30,2016-02-01 01:30:00,SOC,Colombia,Club Deportivo Los Millonarios - Patriotas Tunja,16.7,WIN,Club Deportivo Los Millonarios (1X2-Full Time Excluding Overtime),3:0,Bet365,1.67,10.00,6.70,interfix,2016-01-29 15:56:23
+31,2016-01-27 17:00:00,VLB,CEV Challenge (M),Ethnikos Alexandroupolis - Spartak Ljig,20.7,WIN,Home (Match),3:0,PINNACLE,2.07,10.00,10.70,interfix,2016-01-27 12:22:21
+32,2016-01-25 19:30:00,SOC,Other,Hearts FC U20 - FC Motherwell U20,18,WIN,FC Motherwell U20,0:1,Bet365,1.8,10.00,8.00,interfix,2016-01-25 19:04:59
+33,2016-01-24 18:15:00,SOC,Other,KR Reykjavik - Leiknir,15.8,WIN,Leiknir,1:5,Dafabet,1.58,10.00,5.80,interfix,2016-01-24 17:29:20
+34,2016-01-24 14:00:00,SOC,Greece,Agrotikos Asteras - Panachaiki,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),0:0,Bet365,1.53,10.00,-10.00,interfix,2016-01-24 12:53:20
+35,2016-01-24 14:00:00,SOC,Greece,ASK Olympiakos Volos - Anagennisi Karditsas FC,26,WIN,Anagennisi Karditsas FC (1X2-Full Time Excluding Overtime),0:3,Sportingbet,2.6,10.00,16.00,interfix,2016-01-23 20:17:22
+36,2016-01-23 18:00:00,VLB,Austria,TSV Hartberg W - Sg Mv Hagebau Schuberth Melk W,0.00,LOST,Sg Mv Hagebau Schuberth Melk W (Match Winner-Full Event),3:0,Bet365,1.72,10.00,-10.00,interfix,2016-01-23 16:44:26
+37,2016-01-23 14:00:00,SOC,Ita. Serie B,Cagliari - Ternana,18.9,WIN,Under 2.5 (Match),1-0,PINNACLE,1.89,10.00,8.90,interfix,2016-01-23 13:52:50
+38,2016-01-17 17:30:00,SOC,Ita. Serie C,ASD Martina Franca - Cosenza,10,PUSH,Draw (1X2-Full Time Excluding Overtime),postp.,Bet365,3,10.00,0.00,interfix,2016-01-17 12:37:55
+39,2016-01-16 17:00:00,SOC,Greece,Anagennisi Karditsas FC - GS Apollon Smyrnis,23.6,WIN,GS Apollon Smyrnis (1X2-Full Time Excluding Overtime),1:3,188bet,2.36,10.00,13.60,interfix,2016-01-16 13:20:53
+40,2016-01-14 14:00:00,SOC,Greece,Panionios NFC - Ergotelis,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime),1:0,Ladbrokes,1.65,10.00,-10.00,interfix,2016-01-14 12:54:27
+41,2016-01-11 17:00:00,HKY,Belarus,HK Brest - HK Vitebsk,0.00,LOST,HK Brest (1X2-Full Time Excluding Overtime),4:4,Nordicbet,1.76,10.00,-10.00,interfix,2016-01-11 15:49:47
+42,2016-01-10 15:15:00,SOC,Greece,Panionios - Iraklis,19.2,WIN,Home (Match),1:0,PINNACLE,1.92,10.00,9.20,interfix,2016-01-10 15:06:39
+43,2016-01-10 14:30:00,SOC,Ita. Serie C,Carrarese - Lucchese Libertas,0.00,LOST,Lucchese Libertas (1X2-Full Time Excluding Overtime),1:0,Bet365,3.4,10.00,-10.00,interfix,2016-01-10 13:22:48
+44,2016-01-10 14:30:00,SOC,Ita. Other,San Marino Calcio - Legnano,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1-0,Bet-at-home,2.96,10.00,-10.00,interfix,2016-01-09 22:43:58
+45,2016-01-09 15:15:00,SOC,Greece,Veria - Panthrakikos,0.00,LOST,Away (Match),0:0,PINNACLE,3.03,10.00,-10.00,interfix,2016-01-09 15:01:32
+46,2016-01-09 20:30:00,SOC,Ita. Serie C,Messina - ASD Martina Franca,16.6,WIN,Messina (1X2-Full Time Excluding Overtime),3:0,SBOBET,1.66,10.00,6.60,interfix,2016-01-08 18:02:21
+47,2016-01-06 15:00:00,SOC,Livebet,Aris Limmasol - Olympiakos Nicosia FC,15.7,WIN,Aris Limmasol (1X2-Full Time Excluding Overtime)(1:0),1:0,Bet365,1.57,10.00,5.70,interfix,2016-01-06 14:49:09
+48,2016-01-03 12:15:00,SOC,Por. Other,Feirense - Chaves,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3,10.00,-10.00,interfix,2016-01-03 10:29:56
+49,2015-12-30 18:30:00,HKY,Other,EC Kitzbuhel - EHC Lustenau,0.00,LOST,EC Kitzbuhel 1X2,4-4,Ladbrokes,3.25,10.00,-10.00,interfix,2015-12-30 18:16:51
+50,2015-12-28 12:00:00,HKY,Livebet,HC Riga - SKA-1946,0.00,LOST,SKA-1946 (1X2-Full Time Excluding Overtime)(0:0),1:1,Marathonbet,1.67,10.00,-10.00,interfix,2015-12-28 11:32:50
+51,2015-12-28 19:00:00,HKY,Sweden,Surahammars IF - Kping HC,0.00,LOST,Surahammars IF (1X2-Full Time Excluding Overtime),5-5,Nordicbet,1.86,10.00,-10.00,interfix,2015-12-28 10:34:17
+52,2015-12-27 16:00:00,SOC,Morocco,MCO Oujda - Hassania Agadir,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),2:3,Coral,3,10.00,-10.00,interfix,2015-12-27 14:50:07
+53,2015-12-21 14:00:00,SOC,Greece,Paneleusiniakos - Chania FC,27.5,WIN,Paneleusiniakos (1X2-Full Time Excluding Overtime),3:1,William Hill,2.75,10.00,17.50,interfix,2015-12-21 12:22:49
+54,2015-12-20 12:30:00,SOC,Other,Aharnaikos - Zakynthos,19,WIN,Aharnaikos,1:0,Interwetten,1.9,10.00,9.00,interfix,2015-12-20 12:05:25
+55,2015-12-19 13:00:00,SOC,Greece,Atromitos-Panionios,21.4,WIN,1 ( 1X2),1:0,Dafabet,2.14,10.00,11.40,interfix,2015-12-19 12:30:39
+56,2015-12-16 14:00:00,SOC,Greece,Ergotelis - Panionios NFC,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:2,Coral,2.8,10.00,-10.00,interfix,2015-12-16 12:38:21
+57,2015-12-16 12:00:00,SOC,Other,Novi Pazar - Vojvodina,0.00,LOST,Vojvodina,1:1,TIPICO,2.3,10.00,-10.00,interfix,2015-12-16 11:44:40
+58,2015-12-13 14:00:00,SOC,Ita. Serie C,Savona 1907 FBC - Robur Siena,18.8,WIN,Robur Siena (1X2-Full Time Excluding Overtime),0:3,Dafabet,1.88,10.00,8.80,interfix,2015-12-13 12:46:31
+59,2015-12-11 14:30:00,SOC,Other,Bright Stars FC - Lweza FC,0.00,LOST,Bright Stars FC (1X2-Full Time Excluding Overtime),0:0,William Hill,2.5,10.00,-10.00,interfix,2015-12-11 13:11:46
+60,2015-12-11 11:00:00,SOC,Livebet,FC Guria Lanchkhuti - Kolkheti Poti,0.00,LOST,Kolkheti Poti (1X2-Full Time Excluding Overtime)(1:0),1:1,Unibet,2.5,10.00,-10.00,interfix,2015-12-11 10:18:50
+61,2015-12-06 12:00:00,SOC,Ukraine,Stal Dniprodzerzhynsk - Olimpik Donetsk,17.6,WIN,Home (Match),1:0,PINNACLE,1.76,10.00,7.60,interfix,2015-12-06 11:30:33
+62,2015-12-05 17:00:00,SOC,Africa,Algeria U23 - Nigeria U23,34.8,WIN,Draw (Match),0:0,PINNACLE,3.48,10.00,24.80,interfix,2015-12-05 15:57:14
+63,2015-12-05 09:00:00,SOC,Other,Otelul Galati - Rapid Suceava,18,WIN,Otelul Galati,3:0,BWIN,1.8,10.00,8.00,interfix,2015-12-05 08:56:52
+64,2015-12-03 13:00:00,SOC,Other,Kalloni - Panseraikos,31,WIN,Kalloni,2:1,Unibet,3.1,10.00,21.00,interfix,2015-12-03 12:20:26
+65,2015-12-02 15:15:00,SOC,Greece,Platanias - Apollon Smyrnis,16.9,WIN,Home (Match),3:1,PINNACLE,1.69,10.00,6.90,interfix,2015-12-02 13:56:10
+66,2015-11-29 17:30:00,SOC,Ecuador,Liga de Loja - Deportivo Quito,15,WIN,Liga de Loja (1X2-Full Time Excluding Overtime),1:0,Nordicbet,1.5,10.00,5.00,interfix,2015-11-29 16:24:08
+67,2015-11-29 14:00:00,SOC,Ger. Oberliga,FC Pipinsried - TSV 1865 Dachau,10,PUSH,FC Pipinsried (1X2-Full Time Excluding Overtime),postp.,Bet365,2.55,10.00,0.00,interfix,2015-11-29 11:56:55
+68,2015-11-28 12:00:00,SOC,Bosnia & Herz.,Rudar Prijedor-Sloboda Tuzla,21.5,WIN,2 ( 1X2),0:1,Unibet,2.15,10.00,11.50,interfix,2015-11-28 11:55:03
+69,2015-11-28 09:00:00,VLB,Livebet,Fujian W - Jiangsu W,18,WIN,Fujian W (Match Winner-Full Event),3:1,Bet365,1.8,10.00,8.00,interfix,2015-11-28 08:51:43
+70,2015-11-27 14:00:00,SOC,Other,Arzew - A Bou SaÃ¢da,16,WIN,Arzew,3:2,BWIN,1.6,10.00,6.00,interfix,2015-11-27 13:00:34
+71,2015-11-25 16:30:00,SOC,Russia,FK Baykal Irkutsk - YFK Shinnik Yaroslav,15,WIN,YFK Shinnik Yaroslav (1X2-Full Time Excluding Overtime),0:2,Unibet,1.5,10.00,5.00,interfix,2015-11-25 13:59:49
+72,2015-11-23 18:30:00,SOC,Livebet,Veria FC - Iraklis FC,0.00,LOST,Veria FC (1X2-Full Time Excluding Overtime)(0:0),0:0,TIPICO,1.5,10.00,-10.00,interfix,2015-11-23 18:26:22
+73,2015-11-19 01:30:00,SOC,Colombia,Real Cartagena - Universitario De Popayan,17.5,WIN,Real Cartagena (1X2-Full Time Excluding Overtime),3-1,Unibet,1.75,10.00,7.50,interfix,2015-11-18 09:52:49
+74,2015-11-16 11:00:00,SOC,Belarussia,Dinamo Brest - Naftan Novopolotsk,0.00,LOST,Naftan Novopolotsk (1X2-Full Time Excluding Overtime),1:0,Ladbrokes,1.73,10.00,-10.00,interfix,2015-11-16 08:48:03
+75,2015-11-15 14:00:00,SOC,Greece,Iraklis Psachnon-AE Sparti,17,WIN,2 ( 1X2),0:2,Sportingbet,1.7,10.00,7.00,interfix,2015-11-15 12:52:05
+76,2015-11-15 14:00:00,SOC,Greece,Langadas-Apollon Kryas Vrysis,0.00,LOST,1 ( 1X2),0:0,Bet365,2.25,10.00,-10.00,interfix,2015-11-15 12:48:08
+77,2015-11-15 11:00:00,SOC,Other,Lida - FC Slonim,0.00,LOST,FC Slonim,6:4,William Hill,3,10.00,-10.00,interfix,2015-11-15 10:47:05
+78,2015-11-14 11:00:00,SOC,Other,Poltava - FC Ternopil,16.2,WIN,Poltava,1:0,BWIN,1.62,10.00,6.20,interfix,2015-11-14 09:35:57
+79,2015-11-11 19:30:00,BSK,Livebet,KB Peja - BC Levski Sofia,17,WIN,KB Peja (Match Winner-Full Time Including Overtime),75:68,TIPICO,1.7,10.00,7.00,interfix,2015-11-11 19:24:07
+80,2015-11-11 13:00:00,SOC,Romania,Bucovina Pojorata - FC Braila,0.00,LOST,Bucovina Pojorata (1X2-Full Time Excluding Overtime),0-0,William Hill,2.38,10.00,-10.00,interfix,2015-11-11 11:45:42
+81,2015-11-09 13:00:00,SOC,Czech Rep.,Hradec Kralove U21-Slavia Prague U21,15.5,WIN,2 ( 1X2),1:3,William Hill,1.55,10.00,5.50,interfix,2015-11-09 11:46:27
+82,2015-11-08 12:00:00,SOC,Belarussia,Torpedo Zhodino - Naftan Novopolotsk,0.00,LOST,Torpedo Zhodino (1X2-Full Time Excluding Overtime),3:3,William Hill,1.8,10.00,-10.00,interfix,2015-11-08 10:02:04
+83,2015-11-07 16:30:00,SOC,Other,Renate - Pavia,32.5,WIN,DRAW,0:0,Unibet,3.25,10.00,22.50,interfix,2015-11-07 16:22:11
+84,2015-11-07 12:00:00,SOC,Other,Tammeka - Narva Trans,19.5,WIN,Tammeka,2:1,BWIN,1.95,10.00,9.50,interfix,2015-11-07 09:53:58
+85,2015-11-01 11:00:00,SOC,Livebet,FK Baia Zugdidi - Sapovnela,22.4,WIN,FK Baia Zugdidi (1X2-Full Time Excluding Overtime)(0:1),2:1,Nordicbet,2.24,10.00,12.40,interfix,2015-11-01 10:54:41
+86,2015-10-31 10:00:00,SOC,Lithuania,FK Utenis Utena - Stumbras Kaunas,20,WIN,FK Utenis Utena (1X2-Full Time Excluding Overtime),3:1,Marathonbet,2,10.00,10.00,interfix,2015-10-31 09:58:14
+87,2015-10-31 16:00:00,SOC,Eng. Other,Burscough-Colwyn Bay,18,WIN,1 ( 1X2),1:0,Bet365,1.8,10.00,8.00,interfix,2015-10-30 16:52:14
+88,2015-10-27 16:15:00,SOC,Greece,Anagennisi Karditsas FC - Acharnaikos,23.5,WIN,Acharnaikos (1X2-Full Time Excluding Overtime),0:1,Fonbet,2.35,10.00,13.50,interfix,2015-10-27 13:58:42
+89,2015-10-28 02:00:00,SOC,Colombia,Cortulua CCD Tulua - Boyaca Chico,18,WIN,Cortulua CCD Tulua (1X2-Full Time Excluding Overtime),2:1,TIPICO,1.8,10.00,8.00,interfix,2015-10-27 11:34:37
+90,2015-10-25 16:30:00,VLB,Other,Viteos NUC - TSV DÃ¼dingen,0.00,LOST,TSV DÃ¼dingen ML,3-0,Ladbrokes,3.75,10.00,-10.00,interfix,2015-10-25 15:17:32
+91,2015-10-25 13:30:00,SOC,FYR Macedonia,FK Metalurg Skopje - KF Shkupi Skopje,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3.2,10.00,-10.00,interfix,2015-10-25 12:15:59
+92,2015-10-25 12:00:00,SOC,Belarussia,Kommunalnik Slonim - FC Bereza,21.5,WIN,FC Bereza (1X2-Full Time Excluding Overtime),0:1,Bet365,2.15,10.00,11.50,interfix,2015-10-25 10:45:58
+93,2015-10-24 17:00:00,VLB,Other,Klek Srbijasume Klek - Radnicki Kragujevac,18,WIN,Klek Srbijasume Klek (Match Winner-Full Event),3:2,SBOBET,1.8,10.00,8.00,interfix,2015-10-24 15:56:55
+94,2015-10-24 13:00:00,SOC,Croatia,NK Dugopolje - HNK Cibalia Vinkovci,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Bet365,3.2,10.00,-10.00,interfix,2015-10-24 11:59:09
+95,2015-10-21 12:30:00,SOC,Other,FK Mladost Carev Dvor - FK Velazerimi Kichevo,35,WIN,DRAW,3-3,BWIN,3.5,10.00,25.00,interfix,2015-10-21 11:56:30
+96,2015-10-18 13:00:00,SOC,Other,Aachen B - VfL Leverkusen,22.5,WIN,Aachen B,3:0,Bet365,2.25,10.00,12.50,interfix,2015-10-18 12:47:02
+97,2015-10-18 12:00:00,VLB,Denmark,Amager VK W - Fortuna Odense Volley W,22,WIN,Amager VK W (Match Winner-Full Event),3:0,Bet365,2.2,10.00,12.00,interfix,2015-10-18 11:35:16
+98,2015-10-17 17:00:00,VLB,Austria,SG SVS Post-Wesser Graz,0.00,LOST,2 ( ML),3:0,Ladbrokes,5,10.00,-10.00,interfix,2015-10-17 09:44:51
+99,2015-10-14 15:00:00,SOC,Ita. Other,Novese - ASD Oltrepovoghera,0.00,LOST,ASD Oltrepovoghera (1X2-Full Time Excluding Overtime),2-2,William Hill,2.62,10.00,-10.00,interfix,2015-10-14 14:39:07
+100,2015-10-10 18:00:00,SOC,Belgium,Union Royale La Louviere Centre - KSV Oudenaarde,26,WIN,KSV Oudenaarde (1X2-Full Time Excluding Overtime),2:4,Unibet,2.6,10.00,16.00,interfix,2015-10-10 17:49:31
+101,2015-10-07 13:30:00,SOC,Croatia,NK Hrvatski Dragovoljac - HNK Cibalia Vinkovci,32,WIN,Draw (1X2-Full Time Excluding Overtime),0:0,Bet365,3.2,10.00,22.00,interfix,2015-10-07 12:27:14
+102,2015-10-04 16:00:00,SOC,Livebet,Ethnikos Achnas FC - Ermis Aradippou,0.00,LOST,Ethnikos Achnas FC (1X2-Full Time Excluding Overtime),2:2,Bet365,2.6,10.00,-10.00,interfix,2015-10-04 16:03:30
+103,2015-10-04 15:00:00,HKY,Poland,Orlik Opole - KS Cracovia Krakow,15.5,WIN,KS Cracovia Krakow (1X2-Full Time Excluding Overtime),1:5,Nordicbet,1.55,10.00,5.50,interfix,2015-10-04 14:31:27
+104,2015-10-03 15:30:00,BSK,Switzerland,BBC Monthey - Union Neuchatel,23.8,WIN,Home,64:58 OT,PINNACLE,2.38,10.00,13.80,interfix,2015-10-03 14:56:59
+105,2015-10-03 13:00:00,SOC,Ita. Serie C,Pro Patria - Pordenone,17.5,WIN,Pordenone (1X2-Full Time Excluding Overtime),1:4,MYBET,1.75,10.00,7.50,interfix,2015-10-03 12:14:16
+106,2015-10-03 08:00:00,SOC,Romania,ACS Berceni - CS Rapid Cfr Suceava,0.00,LOST,ACS Berceni (1X2-Full Time Excluding Overtime),1:3,Bet365,1.62,10.00,-10.00,interfix,2015-10-03 07:55:47
+107,2015-10-02 14:30:00,FSL,UEFA Cup,MNK Nacional Zagreb - Lidselmash Lida,0.00,LOST,MNK Nacional Zagreb (1X2-Full Time Excluding Overtime),0:1,Bet365,1.72,10.00,-10.00,interfix,2015-10-02 10:42:22
+108,2015-10-01 13:00:00,SOC,Russia,Znamya Truda OZ - FC Dynamo St. Petersburg,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),3-1,Nordicbet,3.2,10.00,-10.00,interfix,2015-10-01 12:53:39
+109,2015-09-30 14:30:00,SOC,Livebet,FC Illichivets Mariupol - FC Sumy,0.00,LOST,FC Illichivets Mariupol (1X2-Full Time Excluding Overtime),1-1,TIPICO,1.8,10.00,-10.00,interfix,2015-09-30 15:17:40
+110,2015-09-30 12:00:00,SOC,Other,FK Rad Beograd (U19) - NK Domzale (U19),0.00,LOST,FK Rad Beograd (U19),0:1,William Hill,1.6,10.00,-10.00,interfix,2015-09-30 11:51:55
+111,2015-09-27 16:00:00,SOC,Int'l U17,Iceland U17-Denmark U17,0.00,LOST,X ( 1X2),0:2,Sportingbet,3.05,10.00,-10.00,interfix,2015-09-27 15:44:35
+112,2015-09-27 13:00:00,SOC,Livebet,Desna Chernigiv - FC Hirnyk Sport Koms,0.00,LOST,Desna Chernigiv (1X2-Full Time Excluding Overtime),0:2,Bet365,4,10.00,-10.00,interfix,2015-09-27 13:53:06
+113,2015-09-26 00:00:00,SOC,Bolivia,Real Potosi - Sport Boys Warnes,23,WIN,Real Potosi (1X2-Full Time Excluding Overtime),1:0,Bet365,2.3,10.00,13.00,interfix,2015-09-25 15:52:36
+114,2015-09-25 14:00:00,BSK,Friendly,Casa Ted Ankara Koleji - Buyukcekmece Basketbol,40.5,WIN,Buyukcekmece Basketbol (Match Winner-Full Time Including Overtime),68:73,Marathonbet,4.05,10.00,30.50,interfix,2015-09-25 10:51:53
+115,2015-09-22 16:30:00,HKY,Other,Fehervar AV19-Ferencvarosi TC,20.5,WIN,1 ( 1X2),3:0,Bet365,2.05,10.00,10.50,interfix,2015-09-22 12:06:55
+116,2015-09-19 16:00:00,SOC,Other,Ethnikos Achnas - Agia Napa,0.00,LOST,Over 2.5,2:0,Unibet,1.65,10.00,-10.00,interfix,2015-09-19 15:49:27
+117,2015-09-18 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Metalist Kharkiv U21,18.5,WIN,Metalist Kharkiv U21 (1X2-Full Time Excluding Overtime),1-4,188bet,1.85,10.00,8.50,interfix,2015-09-18 09:58:15
+118,2015-09-18 10:00:00,SOC,Other,Hapoel Morassa Ramat Harason - Beitar Kfar Saba Shlomi,16.1,WIN,Beitar Kfar Saba Shlomi 1X2,1:3,Bet365,1.61,10.00,6.10,interfix,2015-09-17 18:12:18
+119,2015-09-13 20:00:00,SOC,Canada,London City - Brantford Galaxy FC,21,WIN,London City (1X2-Full Time Excluding Overtime),1:0,William Hill,2.1,10.00,11.00,interfix,2015-09-13 19:49:46
+120,2015-09-12 12:00:00,SOC,Livebet,Kortedala IF - Assyriska BK,37.5,WIN,Kortedala IF (1X2-Full Time Excluding Overtime),6:2,Bet365,3.75,10.00,27.50,interfix,2015-09-12 12:51:57
+121,2015-09-12 12:00:00,FSL,Other,Progress-Sinara Yekaterinburg,15.7,WIN,2 ( 1X2),1:7,Bet365,1.57,10.00,5.70,interfix,2015-09-12 11:40:50
+122,2015-09-11 17:00:00,SOC,Croatia,NK Hrvatski Dragovoljac - NK Rudes Zagreb,31,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Bet365,3.1,10.00,21.00,interfix,2015-09-11 16:26:01
+123,2015-09-06 23:00:00,SOC,Canada,Waterloo-Atomic FC,0.00,LOST,2 ( 1X2),4:2,Ladbrokes,3.2,10.00,-10.00,interfix,2015-09-06 21:40:53
+124,2015-09-06 15:00:00,SOC,Czech Rep.,SK Sokol Brozany - SK Union 2013 Novy Bydzov,19.5,WIN,SK Sokol Brozany (1X2-Full Time Excluding Overtime),2:0,Bet-at-home,1.95,10.00,9.50,interfix,2015-09-06 14:51:06
+125,2015-09-06 13:00:00,SOC,Other,Bellaria Igea-Ribelle,0.00,LOST,2 ( 1X2),1:1,William Hill,3.5,10.00,-10.00,interfix,2015-09-06 10:34:54
+126,2015-09-06 07:30:00,SOC,Livebet,Wing Yee - Double Flower FA,0.00,LOST,Wing Yee (1X2-Full Time Excluding Overtime),1:2,Bet365,2,10.00,-10.00,interfix,2015-09-06 07:59:39
+127,2015-09-05 15:00:00,SOC,Other,Dinamo Zagreb II - Dugopolje,0.00,LOST,Dugopolje,1:0,William Hill,2.25,10.00,-10.00,interfix,2015-09-05 09:57:56
+128,2015-09-05 18:00:00,SOC,Belgium,Racing Club Mechelen-St Niklaas,0.00,LOST,2 ( 1X2),2:1,Unibet,1.8,10.00,-10.00,interfix,2015-09-04 19:52:53
+129,2015-08-30 15:00:00,SOC,Livebet,Naftovik-Ukrnafta Okhtirka - Helios Kharkiv,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3.1,10.00,-10.00,interfix,2015-08-30 15:09:51
+130,2015-08-29 14:30:00,SOC,FYR Macedonia,Bregalnica Stip - FK Vardar Skopje,18.4,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),0:2,Marathonbet,1.84,10.00,8.40,interfix,2015-08-29 13:22:07
+131,2015-08-29 12:00:00,SOC,Livebet,SV Werder Bremen II - 1.FC Dynamo Dresden,31,WIN,1.FC Dynamo Dresden (1X2-Full Time Excluding Overtime),1:2,TIPICO,3.1,10.00,21.00,interfix,2015-08-29 12:14:40
+132,2015-08-28 14:00:00,SOC,Other,Ural - Terek Grozni,0.00,LOST,Terek Grozni,3:3,TIPICO,1.9,10.00,-10.00,interfix,2015-08-28 13:46:34
+133,2015-08-26 16:30:00,SOC,Belgium,Royal Wallonia Walhain - KV Woluwe Zaventem,0.00,LOST,Royal Wallonia Walhain (1X2-Full Time Excluding Overtime),1-1,Bet-at-home,1.85,10.00,-10.00,interfix,2015-08-26 16:12:47
+134,2015-08-26 14:00:00,SOC,Ukraine,FC Zirka Kirovohrad - FC Ternopil,15,WIN,FC Zirka Kirovohrad (1X2-Full Time Excluding Overtime),6-0,MYBET,1.5,10.00,5.00,interfix,2015-08-26 13:38:26
+135,2015-08-24 15:00:00,SOC,Ita. Other,S.E.F. Sassari Torres 1903 - Lupa Castelli Romani,0.00,LOST,Lupa Castelli Romani (1X2-Full Time Excluding Overtime),1-1,William Hill,1.75,10.00,-10.00,interfix,2015-08-24 09:21:45
+136,2015-08-22 15:00:00,SOC,Serbia,OFK Belgrade - Mladost Lucani,0.00,LOST,OFK Belgrade (1X2-Full Time Excluding Overtime),0:1,TIPICO,1.7,10.00,-10.00,interfix,2015-08-22 14:41:39
+137,2015-08-23 12:30:00,SOC,Belarussia,FC Vitebsk - Dinamo Brest,20.8,WIN,FC Vitebsk (1X2-Full Time Excluding Overtime),2:0,SBOBET,2.08,10.00,10.80,interfix,2015-08-22 09:57:56
+138,2015-08-16 23:00:00,SOC,Canada,Waterloo - London City,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:2,Marathonbet,4.2,10.00,-10.00,interfix,2015-08-16 22:48:55
+139,2015-08-16 22:30:00,SOC,Canada,York Region Shooters - Brantford Galaxy FC,20.5,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime),1-1,William Hill,2.05,10.00,10.50,interfix,2015-08-16 22:12:55
+140,2015-08-16 15:30:00,SOC,Other,Shkupi - Metalurg,0.00,LOST,Shkupi,0:0,William Hill,1.73,10.00,-10.00,interfix,2015-08-16 13:48:47
+141,2015-08-16 13:00:00,SOC,Other,Kruoja - Siauliai,34.5,WIN,Siauliai,2:3,BetSafe,3.45,10.00,24.50,interfix,2015-08-16 11:55:14
+142,2015-08-15 15:00:00,SOC,Montenegro,FK Grbalj Radanovici - FK Iskra,16.7,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),1:2,Bet365,1.67,10.00,6.70,interfix,2015-08-15 14:11:05
+143,2015-08-14 17:00:00,SOC,Livebet,Veria FC - FC PAOK Thessaloniki,0.00,LOST,FC PAOK Thessaloniki (1X2-Full Time Excluding Overtime),2:1,Bet365,4,10.00,-10.00,interfix,2015-08-14 17:51:46
+144,2015-08-14 15:00:00,SOC,Czech Rep.,FK Usti nad Labem - Znojmo,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:2,Unibet,3.3,10.00,-10.00,interfix,2015-08-14 14:10:26
+145,2015-08-13 18:30:00,SOC,Women,Glentoran Belfast United W - FC NSA Sofia W,16.2,WIN,FC NSA Sofia W (1X2-Full Time Excluding Overtime),1:2,Bet365,1.62,10.00,6.20,interfix,2015-08-12 18:01:51
+146,2015-08-12 14:00:00,SOC,Livebet,FK Angusht Nazran - Mashuk Pyatigorsk,0.00,LOST,FK Angusht Nazran (1X2-Full Time Excluding Overtime),0:1,TIPICO,1.85,10.00,-10.00,interfix,2015-08-12 15:03:52
+147,2015-08-12 15:00:00,SOC,Slovakia,Galanta-FC Neded,21,WIN,1 ( 1X2),6-2,Sportingbet,2.1,10.00,11.00,interfix,2015-08-12 14:46:24
+148,2015-08-11 15:00:00,SOC,Other,Konak Belediye - FC Minsk,24.5,WIN,FC Minsk,1:10,BWIN,2.45,10.00,14.50,interfix,2015-08-11 14:53:33
+149,2015-08-10 00:00:00,SOC,Canada,Brantford Galaxy FC - Toronto Croatia,15.3,WIN,Toronto Croatia (1X2-Full Time Excluding Overtime),1:4,William Hill,1.53,10.00,5.30,interfix,2015-08-09 23:33:32
+150,2015-08-10 00:00:00,SOC,Canada,Brantford Galaxy FC - Toronto Croatia,18.5,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),1:4,Ladbrokes,1.85,10.00,8.50,interfix,2015-08-09 23:00:00
+151,2015-08-09 15:00:00,SOC,Other,Mladost Lucani - Vojvodina,0.00,LOST,Mladost Lucani,1-2,Bet365,2.5,10.00,-10.00,interfix,2015-08-09 14:04:32
+152,2015-08-08 16:30:00,SOC,Livebet,FC Vitebsk - FC Belshina Bobruisk,0.00,LOST,FC Belshina Bobruisk (1X2-Full Time Excluding Overtime),1-1,Fonbet,1.83,10.00,-10.00,interfix,2015-08-08 17:25:30
+153,2015-08-08 13:30:00,SOC,Ger. Oberliga,Kehler FV-Karlsruhe II,0.00,LOST,X ( 1X2),0-2,Bet365,3.6,10.00,-10.00,interfix,2015-08-08 13:23:43
+154,2015-08-09 15:30:00,SOC,Bosnia & Herz.,Rudar Prijedor - Olimpik Sarajevo,0.00,LOST,Olimpik Sarajevo (1X2-Full Time Excluding Overtime),0-0,Unibet,3.1,10.00,-10.00,interfix,2015-08-08 12:14:04
+155,2015-08-08 08:30:00,SOC,Slovakia,FC Spartak Trnava II - FK Borcice,0.00,LOST,FK Borcice (1X2-Full Time Excluding Overtime),2:0,Bet365,1.73,10.00,-10.00,interfix,2015-08-07 12:52:14
+156,2015-08-06 14:00:00,SOC,Other,Volyn-D Lutsk - Metalist-D Kharkiv,16.1,WIN,Volyn-D Lutsk,6-2,Bet365,1.61,10.00,6.10,interfix,2015-08-06 12:47:01
+157,2015-08-05 17:00:00,SOC,Lithuania,FK Siauliai - Trakai FK,0.00,LOST,Under 3.5 (Over Under-Full Time Excluding Overtime),3:1,SBOBET,1.58,10.00,-10.00,interfix,2015-08-05 16:56:17
+158,2015-08-04 14:00:00,SOC,Friendly,FK Mladost Carev Dvor - FK Teteks,0.00,LOST,FK Mladost Carev Dvor (1X2-Full Time Excluding Overtime),0:1,William Hill,1.91,10.00,-10.00,interfix,2015-08-04 13:02:42
+159,2015-08-02 20:00:00,SOC,Other,London City - Brampton Lions,0.00,LOST,Brampton Lions,0:0,Ladbrokes,3.2,10.00,-10.00,interfix,2015-08-02 17:49:42
+160,2015-08-02 15:30:00,SOC,Other,Admira II - Oberwart,0.00,LOST,Oberwart,4:1,BWIN,3.3,10.00,-10.00,interfix,2015-08-02 15:22:29
+161,2015-08-01 15:00:00,SOC,Ukraine,FC Sumy - Helios Kharkiv,32,WIN,Draw (1X2-Full Time Excluding Overtime),0:0,William Hill,3.2,10.00,22.00,interfix,2015-08-01 14:48:35
+162,2015-08-01 12:00:00,SOC,Other,TSB Flensburg-Holstein Kiel II,35,WIN,1 ( 1X2),3:0,Unibet,3.5,10.00,25.00,interfix,2015-08-01 11:42:17
+163,2015-08-01 11:00:00,SOC,China,Harbin Yiteng - Shenzhen Ruby,15.5,WIN,Harbin Yiteng (1X2-Full Time Excluding Overtime),2:1,MYBET,1.55,10.00,5.50,interfix,2015-08-01 10:42:45
+164,2015-08-01 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Volyn Lutsk U21,0.00,LOST,Volyn Lutsk U21 (1X2-Full Time Excluding Overtime),1:1,Unibet,3.25,10.00,-10.00,interfix,2015-08-01 09:27:59
+165,2015-07-31 13:00:00,HKY,Friendlies,Dinamo Riga - Sibir Novosibirsk,0.00,LOST,Dinamo Riga (1X2-Full Time Excluding Overtime),2:2,TIPICO,2.3,10.00,-10.00,interfix,2015-07-31 12:47:50
+166,2015-07-31 17:00:00,SOC,Ger. Oberliga,SVN Zweibrucken - FC Hertha Wiesbach,17,WIN,FC Hertha Wiesbach (1X2-Full Time Excluding Overtime),0-4,Bet365,1.7,10.00,7.00,interfix,2015-07-31 05:15:15
+167,2015-07-29 15:30:00,SOC,Friendly,Kerkyra - Pas Giannina,0.00,LOST,Pas Giannina (1X2-First Half),1-0,Bet365,3.4,10.00,-10.00,interfix,2015-07-29 15:25:58
+168,2015-07-26 20:00:00,SOC,Other,London City - Atomic FC,0.00,LOST,Atomic FC,3:1,BWIN,1.87,10.00,-10.00,interfix,2015-07-26 18:53:55
+169,2015-07-26 16:30:00,SOC,Ukraine,PFC Oleksandria - Metalurh Zaporizhya,15.2,WIN,Home (Match),1:0,PINNACLE,1.52,10.00,5.20,interfix,2015-07-26 15:33:39
+170,2015-07-25 13:00:00,SOC,Ger. Oberliga,FC Sand - Feucht,22,WIN,Feucht (1X2-Full Time Excluding Overtime),1:3,William Hill,2.2,10.00,12.00,interfix,2015-07-25 12:47:04
+171,2015-07-24 18:15:00,SOC,Livebet,NK Zavrc - NK Olimpija Ljubljana,0.00,LOST,NK Olimpija Ljubljana (1X2-Full Time Excluding Overtime),0:0,Bet365,2.1,10.00,-10.00,interfix,2015-07-24 19:06:31
+172,2015-07-22 14:00:00,SOC,Livebet,FK Real Pharma Yuzhne - FC Krystal Kherson,0.00,LOST,FK Real Pharma Yuzhne (1X2-Full Time Excluding Overtime),0-0,Bet365,1.57,10.00,-10.00,interfix,2015-07-22 14:51:16
+173,2015-07-19 14:00:00,SOC,Other,Fana - Eidsvold,0.00,LOST,Fana,1:3,BWIN,1.57,10.00,-10.00,interfix,2015-07-19 11:32:19
+174,2015-07-16 13:30:00,SOC,Ukraine,Metalurg Zaporizhya U21 - Zorya Luhansk U21,15.7,WIN,Zorya Luhansk U21 (1X2-Full Time Excluding Overtime),2-5,BETWAY,1.57,10.00,5.70,interfix,2015-07-16 13:02:30
+175,2015-07-18 16:00:00,SOC,Iceland,Stjarnan-Akranes,0.00,LOST,1 ( 1X2),1:1,Unibet,2.1,10.00,-10.00,interfix,2015-07-15 16:39:01
+176,2015-07-12 23:00:00,SOC,Canada,Waterloo - Milton SC,22.5,WIN,Waterloo (1X2-Full Time Excluding Overtime),2:0,William Hill,2.25,10.00,12.50,interfix,2015-07-12 22:48:31
+177,2015-07-12 14:00:00,SOC,Livebet,Arminia Bielefeld - Zbrojovka Brno,17,WIN,FT Home (0:0),1:0,188bet,1.7,10.00,7.00,interfix,2015-07-12 15:50:28
+178,2015-07-11 09:00:00,SOC,Friendly,Zilina-Zlin,0.00,LOST,2 ( 1X2),3:1,Sportingbet,1.95,10.00,-10.00,interfix,2015-07-11 08:55:08
+179,2015-07-02 16:00:00,SOC,Other,Kukesi - Torpedo Zhodino,17,WIN,Kukesi,2:0,William Hill,1.7,10.00,7.00,interfix,2015-07-02 15:52:13
+180,2015-07-01 14:30:00,SOC,Livebet,FK Dziugas Telsiai - Lietava Jonava,15,WIN,Lietava Jonava (1X2-Full Time Excluding Overtime),2-4,188bet,1.5,10.00,5.00,interfix,2015-07-01 15:22:40
+181,2015-06-30 19:00:00,SOC,Europa League,Renova - FC Dacia Chisinau,0.00,LOST,Renova (1X2-Full Time Excluding Overtime),0:1,Ladbrokes,3,10.00,-10.00,interfix,2015-06-30 18:55:57
+182,2015-06-27 13:30:00,SOC,Uzbekistan,Metalourg Bekabad-Qyzylqum Zarashfan,16.2,WIN,1 ( 1X2),4:2,William Hill,1.62,10.00,6.20,interfix,2015-06-27 11:58:11
+183,2015-06-24 15:00:00,SOC,Friendly,Olimpik Donetsk - FC Metalurh Donetsk,17.5,WIN,FC Metalurh Donetsk (1X2-Full Time Excluding Overtime),1:3,Unibet,1.75,10.00,7.50,interfix,2015-06-24 14:55:03
+184,2015-06-21 16:00:00,SOC,Lithuania,Granitas Klaipeda - Stumbras Kaunas,21,WIN,Stumbras Kaunas (1X2-Full Time Excluding Overtime),1:5,TIPICO,2.1,10.00,11.00,interfix,2015-06-21 12:53:17
+185,2015-06-14 14:30:00,SOC,Livebet,Acharnaikos - Kallithea,18,WIN,Kallithea (1X2-Full Time Excluding Overtime),0:2,Bet365,1.8,10.00,8.00,interfix,2015-06-14 15:53:09
+186,2015-06-13 13:00:00,SOC,Livebet,IA Akranes W - HK Vikingur W,0.00,LOST,IA Akranes W (1X2-Full Time Excluding Overtime),0:0,Unibet,1.83,10.00,-10.00,interfix,2015-06-13 13:56:08
+187,2015-06-13 08:15:00,SOC,Czech Rep.,Union Cheb 2001-Sokol Cizova,0.00,LOST,2 ( 1X2),3:2,William Hill,2.5,10.00,-10.00,interfix,2015-06-13 07:50:37
+188,2015-06-08 15:00:00,SOC,Greece,Aiginiakos-Agrotikos Asteras,24.5,WIN,1 ( 1X2),3:0,Unibet,2.45,10.00,14.50,interfix,2015-06-08 10:11:38
+189,2015-06-07 14:30:00,SOC,Other,Iraklis Psachna - Kallithea,0.00,LOST,Kallithea,1:1,BWIN,1.6,10.00,-10.00,interfix,2015-06-07 14:14:54
+190,2015-06-07 14:00:00,SOC,Poland,Zaglebie Sosnowiec-Puszcza Niepolomice,22.5,WIN,X ( 1X2),0:0,Bet365,2.25,10.00,12.50,interfix,2015-06-07 11:38:14
+191,2015-06-08 15:00:00,SOC,Greece,Anagennisi Karditsas-Zakynthos,18.3,WIN,1 ( 1X2),3:1,Sportingbet,1.83,10.00,8.30,interfix,2015-06-07 10:03:05
+192,2015-06-06 14:00:00,SOC,Poland,Dolcan Zabki - GKS 71 Tychy,0.00,LOST,GKS 71 Tychy (1X2-Full Time Excluding Overtime),2:1,Dafabet,1.69,10.00,-10.00,interfix,2015-06-06 13:43:26
+193,2015-06-06 04:00:00,SOC,Livebet,Mali U20 - Uruguay U20,21.5,WIN,Draw (1X2-Full Time Excluding Overtime)(1:1),1:1,TIPICO,2.15,10.00,11.50,interfix,2015-06-06 05:03:27
+194,2015-05-31 14:30:00,SOC,Other,Aharnaikos - Ermionidas,0.00,LOST,Under 2.5,3:1,BWIN,2.45,10.00,-10.00,interfix,2015-05-31 14:12:07
+195,2015-05-30 15:30:00,SOC,Other,PsKov 747 - Solaris,0.00,LOST,Solaris,2:2,BWIN,4.75,10.00,-10.00,interfix,2015-05-30 15:22:45
+196,2015-05-30 14:00:00,SOC,Other,Illichivets - Olimpik,19.5,WIN,Illichivets,4:1,Ladbrokes,1.95,10.00,9.50,interfix,2015-05-30 13:38:52
+197,2015-05-30 15:00:00,SOC,Slovenia,Olimpija Ljubljana-NK Domzale,26,WIN,2 ( 1X2),0:2,Ladbrokes,2.6,10.00,16.00,interfix,2015-05-30 12:21:10
+198,2015-05-31 15:00:00,SOC,Czech Rep.,FK TJ Stechovice - FC Pisek,19.5,WIN,FC Pisek (1X2-Full Time Excluding Overtime),0:3,Bet-at-home,1.95,10.00,9.50,interfix,2015-05-30 08:47:57
+199,2015-05-28 14:00:00,SOC,Other,Zorya-D Lugansk - Vorskla-D Poltava,21,WIN,Vorskla-D Poltava,1-3,MYBET,2.1,10.00,11.00,interfix,2015-05-28 13:52:12
+200,2015-05-27 16:30:00,SOC,Lithuania,FK Siauliai - Kruoja Pakruojis,20,WIN,FK Siauliai (1X2-Full Time Excluding Overtime),1:0,Bet365,2,10.00,10.00,interfix,2015-05-27 11:30:40
+201,2015-05-24 11:00:00,SOC,Livebet,FC Metalist Kharkiv - FC Illichivets Mariupol,0.00,LOST,FC Illichivets Mariupol (1X2-Full Time Excluding Overtime)(0:0),3:1,Unibet,3.45,10.00,-10.00,interfix,2015-05-24 11:15:58
+202,2015-05-24 08:10:00,BSK,Japan,Hamamatsu Higashimikawa Phoenix - Akita Northern Happinets,0.00,LOST,Away,71:69,PINNACLE,1.91,10.00,-10.00,interfix,2015-05-24 07:53:31
+203,2015-05-23 15:30:00,SOC,Montenegro,Mornar - FK Grbalj Radanovici,22,WIN,FK Grbalj Radanovici (1X2-Full Time Excluding Overtime),0:7,Bet365,2.2,10.00,12.00,interfix,2015-05-23 14:10:00
+204,2015-05-23 13:00:00,SOC,Romania,FC Otelul Galati - CFM Universitatea Cluj,23.5,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2:1,Ladbrokes,2.35,10.00,13.50,interfix,2015-05-23 12:58:22
+205,2015-05-22 17:00:00,SOC,Ger. Oberliga,Arminia Hannover - Eintracht Northeim,22.5,WIN,Arminia Hannover (1X2-Full Time Excluding Overtime),5-2,Bet365,2.25,10.00,12.50,interfix,2015-05-22 16:52:58
+206,2015-05-23 15:30:00,SOC,Other,Imotski - Dragovoljac,0.00,LOST,Dragovoljac,0:0,William Hill,2.88,10.00,-10.00,interfix,2015-05-22 14:56:32
+207,2015-05-22 13:00:00,SOC,Georgia,FC Metalurgi Rustavi - FC Torpedo Kutaisi,0.00,LOST,FC Torpedo Kutaisi (1X2-Full Time Excluding Overtime),1-1,William Hill,2.75,10.00,-10.00,interfix,2015-05-22 12:41:57
+208,2015-05-20 11:00:00,SOC,Livebet,Zorya Lugansk U19 - Chernomorets Odessa U19,16.5,WIN,Chernomorets Odessa U19 (1X2-Full Time Excluding Overtime),0-1,Fonbet,1.65,10.00,6.50,interfix,2015-05-20 11:52:40
+209,2015-05-19 14:00:00,SOC,Russia,Dinamo Stavropol - FK Torpedo Armavir,0.00,LOST,FK Torpedo Armavir (1X2-Full Time Excluding Overtime),4:2,Bet365,1.73,10.00,-10.00,interfix,2015-05-19 12:09:24
+210,2015-05-18 14:00:00,SOC,Russia,Alania Vladikavkaz - Terek Groznyi 2,0.00,LOST,Alania Vladikavkaz (1X2-Full Time Excluding Overtime),1:2,TIPICO,2,10.00,-10.00,interfix,2015-05-18 09:03:47
+211,2015-05-17 11:00:00,SOC,Livebet,Olimpik Donetsk - FC Metalist Kharkiv,0.00,LOST,FC Metalist Kharkiv (1X2-Full Time Excluding Overtime)(1:0),2:1,Unibet,2.67,10.00,-10.00,interfix,2015-05-17 11:50:13
+212,2015-05-17 07:00:00,SOC,China,Hebei Zhongji-Wuhan Zall,0.00,LOST,1 ( 1X2),2:3,Sportingbet,1.5,10.00,-10.00,interfix,2015-05-17 05:56:29
+213,2015-05-16 15:00:00,SOC,Other,Bardejov - Sered,0.00,LOST,DRAW,3:2,BWIN,2.75,10.00,-10.00,interfix,2015-05-16 14:45:43
+214,2015-05-16 14:00:00,SOC,Cyprus,Ethnikos Achnas FC - Ayia Napa,20,WIN,Ethnikos Achnas FC (1X2-Full Time Excluding Overtime),3-2,Unibet,2,10.00,10.00,interfix,2015-05-16 13:17:04
+215,2015-05-16 12:00:00,SOC,Ger. Oberliga,Carl Zeiss Jena II-Lokomotive Leipzig,23,WIN,2 ( 1X2),Lokomotive Leipzig,Bet365,2.3,10.00,13.00,interfix,2015-05-16 11:38:36
+216,2015-05-16 11:35:00,SOC,China,Beijing Guoan-Liaoning,0.00,LOST,over (2.5 TOT),2:0,Ladbrokes,1.65,10.00,-10.00,interfix,2015-05-16 06:54:54
+217,2015-05-15 18:45:00,SOC,Ireland,Waterford United - Cabinteely,0.00,LOST,Under 2.5 (Over Under-Full Time Excluding Overtime),3:1,Dafabet,1.63,10.00,-10.00,interfix,2015-05-15 17:52:42
+218,2015-05-17 13:00:00,SOC,Other,VfB HÃ¼ls - SuS Stadtlohn,15.7,WIN,SuS Stadtlohn,1:4,Bet365,1.57,10.00,5.70,interfix,2015-05-15 09:17:30
+219,2015-05-14 13:00:00,HNB,Russia,Lokomotiv-Polet-SKIF Kuban,0.00,LOST,2 ( 1X2),28:28,Sportingbet,2,10.00,-10.00,interfix,2015-05-14 11:04:42
+220,2015-05-13 13:00:00,SOC,Livebet,FC Sioni Bolnisi - FC Dinamo Batumi,28,WIN,FC Sioni Bolnisi (1X2-Full Time Excluding Overtime)(0:0),1-0,Unibet,2.8,10.00,18.00,interfix,2015-05-13 13:59:04
+221,2015-05-10 16:00:00,SOC,Other,Karsiyaka - Boluspor,22.5,WIN,Boluspor,0:5,BWIN,2.25,10.00,12.50,interfix,2015-05-10 15:57:22
+222,2015-05-10 15:30:00,SOC,Spa. Other,Tudelano-Huesca,0.00,LOST,2 ( 1X2),1:0,Bet365,2.25,10.00,-10.00,interfix,2015-05-10 14:54:05
+223,2015-05-10 14:59:00,SOC,Por. Other,Sporting Braga B - Maritimo B,16.1,WIN,Home (Match),1:0,PINNACLE,1.61,10.00,6.10,interfix,2015-05-10 14:49:35
+224,2015-05-10 16:00:00,SOC,Other,Panionios - PAOK Salonika,0.00,LOST,Panionios,0:0,Bet365,1.57,10.00,-10.00,interfix,2015-05-10 13:58:41
+225,2015-05-10 14:29:00,SOC,Hungary,Ferencvarosi - Debrecin VSC,16.5,WIN,Under 2.5 (Match),1:1,PINNACLE,1.65,10.00,6.50,interfix,2015-05-10 13:10:29
+226,2015-05-09 15:30:00,SOC,Ita. Serie C,Ischia Isolaverde-Barletta,18,WIN,1 ( 1X2),3:0,Bet365,1.8,10.00,8.00,interfix,2015-05-09 15:17:45
+227,2015-05-09 15:00:00,SOC,Montenegro,FK Bokelj Kotor - OFK Petrovac,30,WIN,Draw (1X2-Full Time Excluding Overtime),0:0,Bet365,3,10.00,20.00,interfix,2015-05-09 10:24:21
+228,2015-05-09 07:29:00,SOC,China,Nei Mongol Zhongyou - BIT FC,17.1,WIN,Home (Match),3:0,PINNACLE,1.71,10.00,7.10,interfix,2015-05-09 07:22:00
+229,2015-05-07 13:00:00,SOC,Other,Greece U17 - Russia U17,0.00,LOST,Under 2.5,2-2,TIPICO,1.65,10.00,-10.00,interfix,2015-05-07 08:52:01
+230,2015-05-05 14:00:00,SOC,Egypt,Al Asyoty Sport - Wady Degla,0.00,LOST,Wady Degla (1X2-Full Time Excluding Overtime),2-2,Unibet,1.72,10.00,-10.00,interfix,2015-05-05 13:39:38
+231,2015-05-05 14:00:00,SOC,Egypt,Alaab Damanhour - Ittihad El-Shorta,18,WIN,Ittihad El-Shorta (1X2-Full Time Excluding Overtime),0:2,Unibet,1.8,10.00,8.00,interfix,2015-05-05 13:38:05
+232,2015-05-03 15:59:00,SOC,Greece,Veria - Panthrakikos,0.00,LOST,Home (Match),0:1,PINNACLE,2.32,10.00,-10.00,interfix,2015-05-03 15:55:10
+233,2015-05-03 15:00:00,SOC,Bosnia & Herz.,Radnik Bijeljina-Velez Mostar,20,WIN,1 ( 1X2),1:0,William Hill,2,10.00,10.00,interfix,2015-05-03 14:46:45
+234,2015-05-03 13:00:00,SOC,Ita. Serie C,Cosenza - Benevento,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3.2,10.00,-10.00,interfix,2015-05-03 12:44:09
+235,2015-05-03 11:00:00,SOC,Other,Arsenal Tula U21 - Krasnodar (U21),19.5,WIN,Arsenal Tula U21,4:0,BWIN,1.95,10.00,9.50,interfix,2015-05-03 10:53:27
+236,2015-05-03 10:40:00,SOC,Armenia,FC Mika - FC Shirak,0.00,LOST,FC Shirak (1X2-Full Time Excluding Overtime),2:2,William Hill,2,10.00,-10.00,interfix,2015-05-03 07:58:55
+237,2015-05-02 12:59:00,SOC,Ita. Serie B,Catania - Livorno,0.00,LOST,Home (Match),1:1,PINNACLE,1.8,10.00,-10.00,interfix,2015-05-02 10:07:29
+238,2015-04-30 15:30:00,SOC,Russia,FK Tekstilshchik TeleCom Ivanovo - Kolomna,15,WIN,FK Tekstilshchik TeleCom Ivanovo (1X2-Full Time Excluding Overtime),4:1,Bet365,1.5,10.00,5.00,interfix,2015-04-30 12:24:37
+239,2015-04-26 13:00:00,SOC,Ita. Other,Vado FC - ACD Asti Calcio,23.8,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Bet365,2.38,10.00,13.80,interfix,2015-04-26 12:45:38
+240,2015-04-26 14:00:00,SOC,Cyprus,AEL Limassol-Doxa,23,WIN,2 ( 1X2),0:4,Unibet,2.3,10.00,13.00,interfix,2015-04-26 11:45:56
+241,2015-04-26 14:30:00,SOC,Bosnia & Herz.,Mladost Velika Obarska-Slavija Sarajevo,17,WIN,1 ( 1X2),2:1,Sportingbet,1.7,10.00,7.00,interfix,2015-04-26 11:42:28
+242,2015-04-26 11:35:00,SOC,China,Shandong Luneng - Beijing Guoan FC,21.9,WIN,Shandong Luneng (1X2-Full Time Excluding Overtime),3:0,188bet,2.19,10.00,11.90,interfix,2015-04-26 10:51:07
+243,2015-04-25 15:00:00,SOC,Other,Baltika - Sokol,31,WIN,DRAW,1:1,Bet365,3.1,10.00,21.00,interfix,2015-04-25 14:44:02
+244,2015-04-25 14:00:00,SOC,Other,Mladost Lucani - Donji Srem,34,WIN,DRAW,0:0,BWIN,3.4,10.00,24.00,interfix,2015-04-25 13:55:39
+245,2015-04-25 14:00:00,SOC,Hungary,Nyiregyhaza-MTK Budapest,16.7,WIN,under (2.5 TOT),1:1,Bet365,1.67,10.00,6.70,interfix,2015-04-25 13:22:10
+246,2015-04-25 13:30:00,SOC,Other,SV Kickers Pforzheim - Hollenbach,18.3,WIN,Hollenbach,0:3,Bet365,1.83,10.00,8.30,interfix,2015-04-25 13:17:56
+247,2015-04-24 14:00:00,SOC,Romania,CS Concordia Chiajna - CS U Craiova,0.00,LOST,CS U Craiova (1X2-Full Time Excluding Overtime),2:2,TIPICO,2.1,10.00,-10.00,interfix,2015-04-24 13:46:18
+248,2015-04-25 14:15:00,SOC,Greece,Levadiakos - PAE APS Atromitos Athens,17,WIN,Levadiakos (1X2-Full Time Excluding Overtime),2-1,Marathonbet,1.7,10.00,7.00,interfix,2015-04-22 11:20:17
+249,2015-04-22 14:00:00,SOC,FYR Macedonia,FK Teteks - Bregalnica Stip,0.00,LOST,Bregalnica Stip (1X2-Full Time Excluding Overtime),0-0,William Hill,1.65,10.00,-10.00,interfix,2015-04-22 11:14:30
+250,2015-04-19 10:00:00,SOC,Other,Transportes Alcaine - Sevilla,18,WIN,Transportes Alcaine,5 - 3,Unibet,1.8,10.00,8.00,interfix,2015-04-19 08:57:06
+251,2015-04-19 09:00:00,SOC,Ita. Serie C,FC Sudtirol Bolzano - Mantova,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,2.8,10.00,-10.00,interfix,2015-04-19 08:37:05
+252,2015-04-18 12:00:00,SOC,Ger. Oberliga,Askania Bernburg - FC Energie Cottbus II,0.00,LOST,FC Energie Cottbus II (1X2-Full Time Excluding Overtime),2:2,Bet365,2,10.00,-10.00,interfix,2015-04-18 11:44:08
+253,2015-04-18 12:30:00,SOC,Ita. Serie C,Messina - Ischia Isolaverde,27,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Marathonbet,2.7,10.00,17.00,interfix,2015-04-18 09:15:31
+254,2015-04-17 16:00:00,HNB,Other,Komloi BSK-Futoeromu-Balmazujvarosi,0.00,LOST,1 ( 1X2),24:24,Unibet,1.8,10.00,-10.00,interfix,2015-04-17 15:54:41
+255,2015-04-15 15:00:00,SOC,Por. Other,Sporting Braga B - Oriental,17,WIN,Sporting Braga B (1X2-Full Time Excluding Overtime),1:0,Ladbrokes,1.7,10.00,7.00,interfix,2015-04-15 14:56:01
+256,2015-04-11 14:00:00,SOC,Other,Atlantas - Kruoja,18,WIN,Atlantas,3:1,TIPICO,1.8,10.00,8.00,interfix,2015-04-11 13:54:19
+257,2015-04-11 14:00:00,SOC,FYR Macedonia,Bregalnica Stip - FK Pelister,18,WIN,Bregalnica Stip (1X2-Full Time Excluding Overtime),1:0,Marathonbet,1.8,10.00,8.00,interfix,2015-04-11 11:59:18
+258,2015-04-11 11:59:00,SOC,Ger. Regionalliga,St. Pauli Am - SV Meppen,0.00,LOST,Home (Match),0:0,PINNACLE,2.28,10.00,-10.00,interfix,2015-04-11 11:51:47
+259,2015-04-10 17:30:00,SOC,Saudi Arabia,Al Mojzel - Al Feiha,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0-3,TIPICO,3,10.00,-10.00,interfix,2015-04-10 08:07:32
+260,2015-04-09 14:45:00,SOC,Russia,Arsenal Tula-Spartak Moscow,0.00,LOST,2 ( 1X2),1:0,188bet,1.75,10.00,-10.00,interfix,2015-04-09 07:35:39
+261,2015-04-05 14:30:00,SOC,Other,Haladas - Honved,34,WIN,Honved,1:3,Ladbrokes,3.4,10.00,24.00,interfix,2015-04-05 14:27:29
+262,2015-04-04 08:00:00,SOC,Other,Rapid Suceava - Gloria Buzau,0.00,LOST,Rapid Suceava,1:2,TIPICO,1.7,10.00,-10.00,interfix,2015-04-03 21:25:57
+263,2015-04-03 11:00:00,SOC,Livebet,FC Zestafoni - FC Metalurgi Rustavi,15.2,WIN,FC Zestafoni (1X2-Full Time Excluding Overtime)(0:0),2-0,188bet,1.52,10.00,5.20,interfix,2015-04-03 12:57:49
+264,2015-04-02 13:00:00,SOC,Ita. Other,Vado-Acqui US,23.8,WIN,X ( 1X2),1-1,Bet365,2.38,10.00,13.80,interfix,2015-04-01 14:02:38
+265,2015-04-01 10:30:00,SOC,Turkey,Bayrampasa - Trabzon Karadeniz SK,0.00,LOST,Trabzon Karadeniz SK (1X2-Full Time Excluding Overtime),1:1,Nordicbet,2.5,10.00,-10.00,interfix,2015-04-01 10:34:19
+266,2015-03-28 14:00:00,SOC,Other,Cremonese - Como,0.00,LOST,Como,1:0,BWIN,2,10.00,-10.00,interfix,2015-03-28 13:54:59
+267,2015-03-28 13:00:00,SOC,Ger. Oberliga,Askania Bernburg - Lokomotive Leipzig,17.3,WIN,Lokomotive Leipzig (1X2-Full Time Excluding Overtime),0:3,Bet365,1.73,10.00,7.30,interfix,2015-03-28 12:49:36
+268,2015-03-28 13:00:00,SOC,Other,Pierikos - Anagennisi Karditsa,0.00,LOST,DRAW,1:0,BWIN,2.95,10.00,-10.00,interfix,2015-03-28 12:06:01
+269,2015-03-23 13:00:00,SOC,Other,Aharnaikos - Iraklis Psachna,0.00,LOST,Iraklis Psachna,0-0,BWIN,1.85,10.00,-10.00,interfix,2015-03-23 12:04:04
+270,2015-03-23 19:45:00,SOC,Ita. Serie C,ASD Martina Franca - SS Barletta Calcio,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Marathonbet,3.15,10.00,-10.00,interfix,2015-03-22 17:04:56
+271,2015-03-22 14:00:00,SOC,Greece,Anagennisi Karditsas-Larisa,0.00,LOST,2 ( 1X2),1:0,Sportingbet,1.7,10.00,-10.00,interfix,2015-03-22 13:42:16
+272,2015-03-22 12:00:00,VLB,Spain,Vecindario ACE Gran Canaria - VP Madrid,0.00,LOST,Away (Match),3:0,PINNACLE,1.99,10.00,-10.00,interfix,2015-03-22 11:49:52
+273,2015-03-22 10:00:00,SOC,Russia,Gazovik Orenburg - Volgar Astrakhan,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),3:2,188bet,3.3,10.00,-10.00,interfix,2015-03-22 09:45:24
+274,2015-03-21 14:30:00,SOC,Other,Velez Mostar - Sarajevo,0.00,LOST,Sarajevo,2:0,BWIN,1.57,10.00,-10.00,interfix,2015-03-21 14:24:20
+275,2015-03-21 13:30:00,SOC,Serbia,OFK Belgrade - Borac Cacak,17,WIN,OFK Belgrade (1X2-Full Time Excluding Overtime),1:0,MYBET,1.7,10.00,7.00,interfix,2015-03-21 13:04:39
+276,2015-03-21 09:00:00,SOC,Other,Berceni - Braila,0.00,LOST,Braila,0:0,William Hill,2.38,10.00,-10.00,interfix,2015-03-20 17:40:21
+277,2015-03-19 21:00:00,SOC,Colombia,Barranquilla FC - Athletico Junior,0.00,LOST,Athletico Junior (1X2-Full Time Excluding Overtime),2-2,William Hill,1.67,10.00,-10.00,interfix,2015-03-19 09:59:22
+278,2015-03-18 13:30:00,SOC,Serbia,Sindjelic Beograd-Sloga Petrovac na Mlavi,22.5,WIN,1 ( 1X2),3-0,Sportingbet,2.25,10.00,12.50,interfix,2015-03-18 12:57:57
+279,2015-03-15 13:30:00,SOC,Other,SKF Sered - Slovan Bratislava B,17.5,WIN,SKF Sered,3:1,TIPICO,1.75,10.00,7.50,interfix,2015-03-15 13:21:15
+280,2015-03-15 13:30:00,SOC,Other,Varnsdorf - Zizkov,0.00,LOST,Varnsdorf,0:0,TIPICO,1.95,10.00,-10.00,interfix,2015-03-15 12:52:30
+281,2015-03-15 15:00:00,VLB,Other,Nilufer - Bursa B.Sehir Bld,20,WIN,Bursa B.Sehir Bld ML,2:3,TIPICO,2,10.00,10.00,interfix,2015-03-15 08:51:04
+282,2015-03-15 13:30:00,SOC,Bulgaria,PFC Botev Plovdiv 1912 - PFC CSKA Sofia,21.5,WIN,PFC Botev Plovdiv 1912 (1X2-Full Time Excluding Overtime),2:0,Ladbrokes,2.15,10.00,11.50,interfix,2015-03-14 23:54:00
+283,2015-03-14 16:00:00,HNB,Other,IEK Xyni Dikeas - AC Filoxyl Filippos Verias,24,WIN,IEK Xyni Dikeas (1X2-Full Time Excluding Overtime),29:25,Nordicbet,2.4,10.00,14.00,interfix,2015-03-14 15:35:11
+284,2015-03-14 12:45:00,SOC,Malaysia,Sime Darby - Johor Darul Takzim FC,0.00,LOST,Johor Darul Takzim FC (1X2-Full Time Excluding Overtime),1:1,MYBET,1.5,10.00,-10.00,interfix,2015-03-14 12:39:07
+285,2015-03-14 11:00:00,SOC,Livebet,Kolkheti Poti - FC Guria Lanchkhuti,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:1),0:1,Unibet,2.35,10.00,-10.00,interfix,2015-03-14 11:59:07
+286,2015-03-13 23:10:00,SOC,Other,Paraguay U17 - Colombia U17,34,WIN,DRAW 1X2,1:1,Interwetten,3.4,10.00,24.00,interfix,2015-03-13 12:09:19
+287,2015-03-13 19:00:00,HKY,Other,Dijon - Gap,0.00,LOST,Gap 1X2,3:0,TIPICO,1.85,10.00,-10.00,interfix,2015-03-13 11:25:00
+288,2015-03-11 12:00:00,SOC,Ukraine,Hoverla U19-Illichivets U19,21.5,WIN,2 ( 1X2),0-2,Bet365,2.15,10.00,11.50,interfix,2015-03-11 11:13:48
+289,2015-03-10 18:00:00,VLB,CEV Challenge (M),NIS Vojvodina Novi Sad - Galatasaray,19,WIN,NIS Vojvodina Novi Sad (Match Winner-Full Event),3-0,SBOBET,1.9,10.00,9.00,interfix,2015-03-10 08:50:37
+290,2015-03-08 12:00:00,SOC,Greece,Kalloni Lekanopedio FC - Panionios NFC,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Bet365,3,10.00,-10.00,interfix,2015-03-08 12:25:55
+291,2015-03-08 10:30:00,SOC,Ita. Serie C,Cremonese - Feralpisalo,25.5,WIN,Cremonese (1X2-Full Time Excluding Overtime),3:2,Nordicbet,2.55,10.00,15.50,interfix,2015-03-08 11:15:00
+292,2015-03-08 12:30:00,SOC,Slovakia,FK Slavoj Trebisov - MFK Kosice B,0.00,LOST,MFK Kosice B (1X2-Full Time Excluding Overtime),0:0,Bet365,2,10.00,-10.00,interfix,2015-03-07 16:50:40
+293,2015-03-07 10:00:00,SOC,Livebet,Volyn Lutsk U21 - Chernomorets Odessa U21,15.8,WIN,Volyn Lutsk U21 (1X2-Full Time Excluding Overtime),2:1,Fonbet,1.58,10.00,5.80,interfix,2015-03-07 10:54:52
+294,2015-03-07 14:00:00,SOC,Ger. Oberliga,FC Erzgebirge Aue II - Askania Bernburg,18,WIN,FC Erzgebirge Aue II (1X2-Full Time Excluding Overtime),4:0,Bet365,1.8,10.00,8.00,interfix,2015-03-07 08:29:53
+295,2015-03-05 17:00:00,VLB,Czech R.,Aero Odolena Voda - VK Dukla Liberec,25.3,WIN,Aero Odolena Voda (Match Winner-Full Event),3:1,SBOBET,2.53,10.00,15.30,interfix,2015-03-05 09:52:09
+296,2015-03-01 13:00:00,SOC,Ita. Serie C,Catanzaro - Vigor Lamezia,31,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,TIPICO,3.1,10.00,21.00,interfix,2015-03-01 12:56:41
+297,2015-03-01 11:00:00,SOC,Livebet,FC Merani Martvili - FK Spartaki Tskhinvali,0.00,LOST,FC Merani Martvili (1X2-Full Time Excluding Overtime)(0:1),0:2,SBOBET,2.34,10.00,-10.00,interfix,2015-03-01 11:53:23
+298,2015-02-28 17:00:00,VLB,Other,Derdap - Mladi Radnik,17.2,WIN,Mladi Radnik ML,2:3,Bet365,1.72,10.00,7.20,interfix,2015-02-28 13:15:51
+299,2015-02-28 10:00:00,SOC,Livebet,FC Shuqura - FC Guria Lanchkhuti,21.2,WIN,FC Shuqura (1X2-Full Time Excluding Overtime)(0:0),2:0,Unibet,2.12,10.00,11.20,interfix,2015-02-28 10:52:31
+300,2015-02-21 19:00:00,SOC,Other,Lota Schwager - San Felipe,0.00,LOST,San Felipe,2:2,BWIN,1.78,10.00,-10.00,interfix,2015-02-21 16:07:29
+301,2015-02-21 19:00:00,SOC,Colombia,Real Santander - Real Cartagena,30,WIN,Real Cartagena (1X2-Full Time Excluding Overtime),0:1,Bet365,3,10.00,20.00,interfix,2015-02-21 12:38:07
+302,2015-02-22 19:30:00,SOC,Uruguay,Atenas - Danubio,18,WIN,Atenas (1X2-Full Time Excluding Overtime),3:1,William Hill,1.8,10.00,8.00,interfix,2015-02-21 09:51:43
+303,2015-02-17 13:00:00,SOC,Livebet,Cyprus - England,40,WIN,Cyprus (1X2-Full Time Excluding Overtime),2-1,Bet365,4,10.00,30.00,interfix,2015-02-17 13:06:19
+304,2015-02-21 16:00:00,SOC,Croatia,NK Zadar - NK Zagreb,0.00,LOST,NK Zadar (1X2-Full Time Excluding Overtime),0-1,Ladbrokes,1.9,10.00,-10.00,interfix,2015-02-16 19:56:24
+305,2015-02-14 13:30:00,SOC,Ita. Serie C,Lucchese Libertas - SPAL 1907 Ferrara,0.00,LOST,SPAL 1907 Ferrara (1X2-Full Time Excluding Overtime),2:0,Nordicbet,2.55,10.00,-10.00,interfix,2015-02-14 13:14:16
+306,2015-02-14 13:00:00,SOC,Ger. Bundesliga III,Hallescher FC - SpVgg Unterhaching,17.5,WIN,Hallescher FC (1X2-Full Time Excluding Overtime),2:1,Nordicbet,1.75,10.00,7.50,interfix,2015-02-14 12:55:39
+307,2015-02-14 16:00:00,BSK,Other,Brno - BLK Slavia Praha,0.00,LOST,BLK Slavia Praha ML,87:85,Bet-at-home,2.39,10.00,-10.00,interfix,2015-02-13 23:11:45
+308,2015-02-13 19:00:00,SOC,Fra. National,FrÃ©jus - Vendee Lucon Football,10,PUSH,Draw (1X2-Full Time Excluding Overtime),PSTP.,TIPICO,3,10.00,0.00,interfix,2015-02-13 18:50:59
+309,2015-02-11 17:30:00,SOC,Other,Royal Eagles - Vasco da Gama,17,WIN,Royal Eagles,2-0,TIPICO,1.7,10.00,7.00,interfix,2015-02-11 11:40:42
+310,2015-02-15 15:15:00,SOC,Greece,Levadiakos - Veria FC,0.00,LOST,Levadiakos (1X2-Full Time Excluding Overtime),0:2,Bet365,1.62,10.00,-10.00,interfix,2015-02-10 07:31:32
+311,2015-02-08 14:00:00,SOC,Belgium,Geants Athois - KSV Temse,10,PUSH,KSV Temse (1X2-Full Time Excluding Overtime),Postp.,Nordicbet,1.5,10.00,0.00,interfix,2015-02-08 13:46:05
+312,2015-02-08 13:00:00,SOC,Greece,Panachaiki-Episkopi,0.00,LOST,X ( 1X2),1:0,Unibet,6,10.00,-10.00,interfix,2015-02-08 12:53:21
+313,2015-02-07 17:29:00,SOC,Greece,Veria - Atromitos,0.00,LOST,Away (Match),1:1,PINNACLE,1.73,10.00,-10.00,interfix,2015-02-07 15:59:44
+314,2015-02-07 15:15:00,SOC,Other,Ergotelis - OFI Crete,19.5,WIN,Ergotelis,3:2,BWIN,1.95,10.00,9.50,interfix,2015-02-07 14:46:46
+315,2015-02-05 17:29:00,SOC,Greece,Panthrakikos - AEL Kalloni,17.1,WIN,Home (Match),3-2,PINNACLE,1.71,10.00,7.10,interfix,2015-02-05 13:03:56
+316,2015-02-04 13:00:00,SOC,Other,Spartak Trnava - 1. FC Slovacko,21,WIN,Spartak Trnava,10-1,Bet-at-home,2.1,10.00,11.00,interfix,2015-02-04 12:55:50
+317,2015-02-04 11:30:00,HKY,Russia,Stalnye Lisy - Mamonty Yugry Khanty-Mansiysk,0.00,LOST,Mamonty Yugry Khanty-Mansiysk (1X2-Full Time Excluding Overtime),4-1,Nordicbet,2.21,10.00,-10.00,interfix,2015-02-04 09:53:20
+318,2015-02-02 13:00:00,SOC,Greece,Zakynthos-Tirnavos 2005,0.00,LOST,2 ( 1X2),2-0,Sportingbet,4.33,10.00,-10.00,interfix,2015-02-02 12:18:55
+319,2015-02-02 18:00:00,HNB,Champions L,Viborg HK W - Metz Handball Lorraine W,0.00,LOST,Metz Handball Lorraine W (1X2-Full Time Excluding Overtime),27:26,Marathonbet,2.18,10.00,-10.00,interfix,2015-02-02 10:03:35
+320,2015-01-30 15:30:00,HKY,Other,Mogilev - Lida,18.2,WIN,Mogilev 1X2,10:2,Nordicbet,1.82,10.00,8.20,interfix,2015-01-30 14:53:03
+321,2015-01-27 13:00:00,SOC,Greece,OFI Kreta - Panthrakikos,17.5,WIN,OFI Kreta (1X2-Full Time Excluding Overtime),1-0,Sportingbet,1.75,10.00,7.50,interfix,2015-01-27 12:54:21
+322,2015-01-24 15:15:00,SOC,Greece,Kerkyra - Veria FC,17.4,WIN,Kerkyra (1X2-Full Time Excluding Overtime),4-0,Marathonbet,1.74,10.00,7.40,interfix,2015-01-24 15:03:35
+323,2015-01-23 00:15:00,SOC,Brazil,Ceara CE - Guarani de Juazeiro,15.5,WIN,Ceara CE (1X2-Full Time Excluding Overtime),1:0,TIPICO,1.55,10.00,5.50,interfix,2015-01-21 17:35:00
+324,2015-01-21 11:35:00,BSK,China,Fujian Quanzhou Bank - Foshan Longlions,17.5,WIN,Fujian Quanzhou Bank (Match Winner-Full Time Including Overtime),126:116,Marathonbet,1.75,10.00,7.50,interfix,2015-01-21 09:46:52
+325,2015-01-20 17:30:00,SOC,Greece,Panionios-Veria,19,WIN,1 ( 1X2),2-1,Unibet,1.9,10.00,9.00,interfix,2015-01-20 17:26:39
+326,2015-01-17 16:00:00,SOC,Ita. Serie C,Pro Patria-Pavia,16.5,WIN,2 ( 1X2),2:3,Unibet,1.65,10.00,6.50,interfix,2015-01-17 15:24:45
+327,2015-01-16 20:30:00,FSL,Spain,Uruguay Tenerife - Azkar Lugo,17.2,WIN,Azkar Lugo (1X2-Full Time Excluding Overtime),1-6,Bet365,1.72,10.00,7.20,interfix,2015-01-16 12:36:24
+328,2015-01-11 13:00:00,SOC,Ita. Serie C,S.E.F. Sassari Torres 1903 - Pro Patria,16.8,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),4:0,Marathonbet,1.68,10.00,6.80,interfix,2015-01-11 12:43:10
+329,2015-01-09 17:00:00,HKY,Europe,HK FTC Nove Zamky - Ferencvarosi TC,42.5,WIN,Ferencvarosi TC (Match Winner-Full Time Including Overtime),3:4,Bet365,4.25,10.00,32.50,interfix,2015-01-09 15:10:42
+330,2015-01-04 17:00:00,SOC,Other,Leioa - Getafe B,0.00,LOST,Leioa,1:2,BWIN,1.85,10.00,-10.00,interfix,2015-01-04 16:54:31
+331,2015-01-04 16:00:00,SOC,Spa. Other,La Roda - FC Cartagena,0.00,LOST,FC Cartagena (1X2-Full Time Excluding Overtime),2:0,TIPICO,2.85,10.00,-10.00,interfix,2015-01-04 15:51:08
+332,2015-01-03 19:00:00,SOC,Other,Real Aviles - Compostela,0.00,LOST,Real Aviles,0:1,BWIN,1.53,10.00,-10.00,interfix,2015-01-03 18:08:28
+333,2015-01-03 08:00:00,VLB,Other,Bayi - Zhejiang,34,WIN,Zhejiang ML,2:3,Ladbrokes,3.4,10.00,24.00,interfix,2015-01-03 07:53:57
+334,2014-12-23 18:00:00,VLB,Other,Spartak Subotica - Radnicki,18.5,WIN,Radnicki ML,0-3,BWIN,1.85,10.00,8.50,interfix,2014-12-23 17:45:26
+335,2014-12-23 14:30:00,BSK,Latvia,Barons Kvartals - Jurmalas Sports/Fenikss,0.00,LOST,Barons Kvartals (Match Winner-Full Time Including Overtime),67:76,Bet365,1.55,10.00,-10.00,interfix,2014-12-23 14:10:05
+336,2014-12-20 17:00:00,SOC,Cyprus,Agia Napa-Apollon Limassol,15.7,WIN,over (2.5 TOT),2-5,Bet365,1.57,10.00,5.70,interfix,2014-12-20 13:47:07
+337,2014-12-20 11:30:00,SOC,Turkey,Catalca Spor-Manavgat Evrensekispor,0.00,LOST,1 ( 1X2),0:0,Sportingbet,1.73,10.00,-10.00,interfix,2014-12-20 10:53:03
+338,2014-12-17 15:14:00,SOC,Greece,Atromitos - Levadiakos,15.1,WIN,Home (Match),1-0,PINNACLE,1.51,10.00,5.10,interfix,2014-12-17 15:11:13
+339,2014-12-17 15:15:00,SOC,Greece,OFI Kreta - Kalloni Lekanopedio FC,0.00,LOST,OFI Kreta (1X2-Full Time Excluding Overtime),1-1,188bet,1.95,10.00,-10.00,interfix,2014-12-15 11:53:19
+340,2014-12-14 15:00:00,SOC,Spa. Other,Real Betis B - FC Cartagena,22,WIN,Real Betis B (1X2-Full Time Excluding Overtime),2:0,Ladbrokes,2.2,10.00,12.00,interfix,2014-12-14 14:10:31
+341,2014-12-14 13:00:00,SOC,Greece,Panionios NFC - OFI Kreta,17.3,WIN,Panionios NFC (1X2-Full Time Excluding Overtime),2:0,William Hill,1.73,10.00,7.30,interfix,2014-12-13 22:12:49
+342,2014-12-13 14:00:00,SOC,Croatia,NK Osijek - NK Lokomotiva Zagreb,0.00,LOST,NK Osijek (1X2-Full Time Excluding Overtime),0:2,Ladbrokes,2.05,10.00,-10.00,interfix,2014-12-13 13:45:47
+343,2014-12-12 19:30:00,FSL,Spain,Palma-Jaen,20,WIN,1 ( 1X2),4-1,TIPICO,2,10.00,10.00,interfix,2014-12-12 19:07:04
+344,2014-12-07 15:00:00,SOC,Por. Other,Olhanense - CD Trofense,18.3,WIN,Olhanense (1X2-Full Time Excluding Overtime),1:0,Ladbrokes,1.83,10.00,8.30,interfix,2014-12-07 14:57:20
+345,2014-12-07 11:00:00,SOC,Moldova,FC Zimbru Chisinau - FC Dacia Chisinau,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3.75,10.00,-10.00,interfix,2014-12-07 10:42:58
+346,2014-12-07 10:00:00,SOC,Georgia,FC Torpedo Kutaisi - FC Metalurgi Rustavi,0.00,LOST,FC Torpedo Kutaisi (1X2-Full Time Excluding Overtime),0:1,Unibet,2.1,10.00,-10.00,interfix,2014-12-07 09:57:47
+347,2014-12-07 13:30:00,SOC,South Africa,Ajax Cape Town - Supersport United,0.00,LOST,Ajax Cape Town (1X2-Full Time Excluding Overtime),0:0,188bet,1.95,10.00,-10.00,interfix,2014-12-07 09:37:59
+348,2014-12-06 18:00:00,VLB,Austria,SG Supervolley Enns - TSV Sparkasse Hartberg,0.00,LOST,TSV Sparkasse Hartberg (Match Winner-Full Event),3:1,Sportingbet,1.75,10.00,-10.00,interfix,2014-12-06 16:50:40
+349,2014-12-06 15:00:00,SOC,Slovenia,NK Rudar Velenje - NK Zavrc,16.2,WIN,NK Rudar Velenje (1X2-Full Time Excluding Overtime),7:2,Ladbrokes,1.62,10.00,6.20,interfix,2014-12-06 14:49:56
+350,2014-12-06 09:00:00,SOC,Other,Berceni - Unirea Slobozia,0.00,LOST,Unirea Slobozia,0:0,BWIN,1.8,10.00,-10.00,interfix,2014-12-05 22:44:41
+351,2014-12-08 22:10:00,SOC,Argentina,Huracan-Independiente Rivadavia,15.3,WIN,1 ( 1X2),4-0,William Hill,1.53,10.00,5.30,interfix,2014-12-05 11:51:57
+352,2014-12-03 19:00:00,VLB,CEV Challenge (M),Partizan Vizura Beograd - Benfica Lisboa,16.1,WIN,Away (Match),1-3,PINNACLE,1.61,10.00,6.10,interfix,2014-12-03 16:40:52
+353,2014-12-03 13:30:00,SOC,Ita. Other,Calcio Como - US Alessandria 1912,0.00,LOST,US Alessandria 1912 (1X2-Full Time Excluding Overtime),4-0,William Hill,2,10.00,-10.00,interfix,2014-12-03 09:08:28
+354,2014-11-30 15:00:00,SOC,Slovenia,Radomlje - FC Koper,0.00,LOST,FC Koper (1X2-Full Time Excluding Overtime),2:1,Nordicbet,1.5,10.00,-10.00,interfix,2014-11-30 14:55:21
+355,2014-11-30 13:00:00,SOC,Ukraine,Volyn-Illichivets,16,WIN,1 ( 1X2),3:1,Unibet,1.6,10.00,6.00,interfix,2014-11-30 11:58:05
+356,2014-11-30 12:00:00,SOC,Ger. Oberliga,FC Strausberg - FC Neubrandenburg 04,28.8,WIN,FC Strausberg (1X2-Full Time Excluding Overtime),2:1,Bet365,2.88,10.00,18.80,interfix,2014-11-30 11:26:08
+357,2014-11-29 15:30:00,SOC,Qatar,Al-Wakra - Qatar SC,20,WIN,Qatar SC (1X2-Full Time Excluding Overtime),0:7,TIPICO,2,10.00,10.00,interfix,2014-11-29 15:23:32
+358,2014-11-29 16:00:00,SOC,Lithuania,FK Siauliai - Ekranas Panevezys,0.00,LOST,Ekranas Panevezys (1X2-Full Time Excluding Overtime),0:0,Ladbrokes,3,10.00,-10.00,interfix,2014-11-29 14:34:38
+359,2014-11-29 12:00:00,FSL,Spain,InterviÃº Movistar - OPDE Ribera de Navarra,0.00,LOST,OPDE Ribera de Navarra (1X2-Full Time Excluding Overtime),6:2,BetClic,11,10.00,-10.00,interfix,2014-11-29 11:39:07
+360,2014-11-25 20:00:00,SOC,Argentina,Barracas Central - Villa Dalmine,0.00,LOST,Barracas Central (1X2-Full Time Excluding Overtime),1-1,TIPICO,1.55,10.00,-10.00,interfix,2014-11-25 15:02:30
+361,2014-11-23 14:30:00,SOC,Ita. Serie C,Sassari Torres-Sudtirol,0.00,LOST,1 ( 1X2),0:1,Unibet,2.05,10.00,-10.00,interfix,2014-11-23 13:08:41
+362,2014-11-23 20:30:00,SOC,Chile,Santiago Morning-Iberia,17.3,WIN,1 ( 1X2),2:1,Sportingbet,1.73,10.00,7.30,interfix,2014-11-23 10:47:37
+363,2014-11-23 15:00:00,SOC,Moldova,Zimbru-Tiraspol,0.00,LOST,X ( 1X2),3:1,Bet365,3.25,10.00,-10.00,interfix,2014-11-23 10:12:12
+364,2014-11-22 12:00:00,SOC,Bosnia & Herz.,FK Zvijezda Gradacac - Mladost Velika Obarska,15.3,WIN,FK Zvijezda Gradacac (1X2-Full Time Excluding Overtime),3:1,Unibet,1.53,10.00,5.30,interfix,2014-11-22 11:39:03
+365,2014-11-19 18:00:00,HNB,EHF Cup,IFK Kristianstad - HSV Hamburg,15,WIN,HSV Hamburg (1X2-Full Time Excluding Overtime),27:29,Marathonbet,1.5,10.00,5.00,interfix,2014-11-19 17:42:42
+366,2014-11-18 19:45:00,SOC,Eng. Conference,Chorley - Stockport County,0.00,LOST,Stockport County (1X2-Full Time Excluding Overtime),3-0,Ladbrokes,2.45,10.00,-10.00,interfix,2014-11-18 19:18:36
+367,2014-11-18 13:00:00,SOC,Other,Cyprus U21 - Czech Republic U20,16,WIN,Cyprus U21,3-1,BetSafe,1.6,10.00,6.00,interfix,2014-11-18 11:30:00
+368,2014-11-17 11:00:00,SOC,Other,Stal Alchevsk - Dinamo Kiev 2,16.5,WIN,Dinamo Kiev 2 1X2,0-1,Interwetten,1.65,10.00,6.50,interfix,2014-11-17 09:49:50
+369,2014-11-16 21:00:00,SOC,Argentina,Santamarina-Sarmiento,0.00,LOST,1 ( 1X2),0:2,William Hill,2.45,10.00,-10.00,interfix,2014-11-16 19:41:25
+370,2014-11-16 13:00:00,SOC,Ukraine,FC Nyva Ternopil - FC Ternopil,32,WIN,Draw (1X2-Full Time Excluding Overtime),2:2,Unibet,3.2,10.00,22.00,interfix,2014-11-16 12:43:20
+371,2014-11-16 11:00:00,SOC,Other,Hirnyk Kryvyi Rih - Stal Dniprodzerzhynsk,17,WIN,Stal Dniprodzerzhynsk,0:1,BWIN,1.7,10.00,7.00,interfix,2014-11-16 10:47:11
+372,2014-11-15 15:00:00,SOC,Eng. Conference,Lowestoft Town - Tamworth FC,0.00,LOST,Tamworth FC (1X2-Full Time Excluding Overtime),3:2,Ladbrokes,2.55,10.00,-10.00,interfix,2014-11-15 14:46:12
+373,2014-11-15 11:00:00,SOC,Ukraine,MFK Mykolaiv - Bukovyna Chernivtsi,47,WIN,Bukovyna Chernivtsi (1X2-Full Time Excluding Overtime),0:4,MYBET,4.7,10.00,37.00,interfix,2014-11-15 10:11:12
+374,2014-11-16 14:00:00,SOC,Ger. Oberliga,Grohn-Grolland,0.00,LOST,2 ( 1X2),4:2,Bet365,1.85,10.00,-10.00,interfix,2014-11-14 18:29:30
+375,2014-11-13 11:00:00,SOC,Other,Anzhi-2 Makhachkala - Mashuk-KMV,0.00,LOST,DRAW,0-1,BWIN,3.4,10.00,-10.00,interfix,2014-11-13 10:42:16
+376,2014-11-13 12:00:00,SOC,Russia,Angusht-Mitos,0.00,LOST,1 ( 1X2),0-3,Sportingbet,2,10.00,-10.00,interfix,2014-11-13 09:38:02
+377,2014-11-14 13:00:00,SOC,Russia,Tosno - FC Yenisey Krasnoyarsk,17.5,WIN,Tosno (1X2-Full Time Excluding Overtime),3-1,Marathonbet,1.75,10.00,7.50,interfix,2014-11-12 13:37:31
+378,2014-11-09 02:00:00,SOC,New Zealand,Wellington Phoenix FC Reserves - Hamilton Wanderers AFC,16.2,WIN,Wellington Phoenix FC Reserves (1X2-Full Time Excluding Overtime),3:0,William Hill,1.62,10.00,6.20,interfix,2014-11-08 18:45:47
+379,2014-11-08 16:00:00,SOC,Lithuania,Banga Gargzdai - Granitas Klaipeda,20,WIN,Granitas Klaipeda (1X2-Full Time Excluding Overtime),0:6,Nordicbet,2,10.00,10.00,interfix,2014-11-08 14:21:23
+380,2014-11-08 17:30:00,SOC,Greece,Skoda Xanthi FC - OFI Kreta,18.5,WIN,Skoda Xanthi FC (1X2-Full Time Excluding Overtime),2:1,Ladbrokes,1.85,10.00,8.50,interfix,2014-11-08 12:44:58
+381,2014-11-08 12:00:00,SOC,Ukraine,Bukovyna Chernivtsi - FC Nyva Ternopil,0.00,LOST,FC Nyva Ternopil (1X2-Full Time Excluding Overtime),2:0,Unibet,1.7,10.00,-10.00,interfix,2014-11-08 09:56:53
+382,2014-11-09 12:30:00,SOC,Ger. Oberliga,Dynamo Dresden II - SV Schott Jena,27.5,WIN,Dynamo Dresden II (1X2-Full Time Excluding Overtime),5:0,Betsson SB,2.75,10.00,17.50,interfix,2014-11-07 19:12:48
+383,2014-11-07 19:30:00,SOC,Ita. Serie C,Arezzo-Venezia,22,WIN,2 ( 1X2),0-2,Unibet,2.2,10.00,12.00,interfix,2014-11-07 18:17:17
+384,2014-11-09 10:00:00,SOC,Russia,FC Dynamo St. Petersburg - Tosno,16.7,WIN,Tosno (1X2-Full Time Excluding Overtime),1:3,William Hill,1.67,10.00,6.70,interfix,2014-11-06 12:53:28
+385,2014-11-09 13:00:00,SOC,Czech Rep.,SK Slovan Varnsdorf - FC Graffin Vlasim,19,WIN,SK Slovan Varnsdorf (1X2-Full Time Excluding Overtime),2:0,Sportingbet,1.9,10.00,9.00,interfix,2014-11-05 21:32:06
+386,2014-11-05 18:05:00,SOC,Argentina,Tristan Suarez - Deportivo Espanol,20,WIN,Tristan Suarez (1X2-Full Time Excluding Overtime),3-0,William Hill,2,10.00,10.00,interfix,2014-11-05 11:59:40
+387,2014-11-02 15:00:00,SOC,Russia,YFK Shinnik Yaroslav - Anzhi Makhachkala,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0-1,Bet365,3.2,10.00,-10.00,interfix,2014-11-02 12:49:34
+388,2014-11-02 18:30:00,HKY,Austria,EC VSV - EHC Liwest Black Wings Linz,0.00,LOST,EHC Liwest Black Wings Linz (1X2-Full Time Excluding Overtime),"4:4, 5:4 OT",MYBET,2.1,10.00,-10.00,interfix,2014-11-02 11:09:52
+389,2014-11-02 12:00:00,SOC,Livebet,Kruoja Pakruojis - FK Zalgiris Vilnius,28.5,WIN,Draw (1X2-Full Time Excluding Overtime),0:0,Marathonbet,2.85,10.00,18.50,interfix,2014-11-02 10:29:55
+390,2014-11-02 07:34:00,SOC,China,Liaoning Whowin - Shanghai Greenland,0.00,LOST,Away (Match),1:1,PINNACLE,2.18,10.00,-10.00,interfix,2014-11-02 07:30:54
+391,2014-11-01 17:00:00,SOC,Ita. Serie C,Juve Stabia - Lupa Roma,16.5,WIN,Juve Stabia (1X2-Full Time Excluding Overtime),2:0,BETWAY,1.65,10.00,6.50,interfix,2014-11-01 15:44:08
+392,2014-11-01 13:30:00,SOC,Montenegro,FK Bokelj Kotor - FK Mogren Budva,0.00,LOST,FK Mogren Budva (1X2-Full Time Excluding Overtime),5:0,William Hill,2.75,10.00,-10.00,interfix,2014-11-01 12:24:26
+393,2014-11-01 10:00:00,SOC,Kazakhstan,Ordabasy-Shakhter Karagandy,15.7,WIN,1 ( 1X2),3:2,Bet365,1.57,10.00,5.70,interfix,2014-11-01 07:47:04
+394,2014-10-30 14:00:00,SOC,Int'l U17,FYR of Macedonia U17 - Cyprus U17,16.5,WIN,Cyprus U17 (1X2-Full Time Excluding Overtime),1-2,188bet,1.65,10.00,6.50,interfix,2014-10-30 12:48:09
+395,2014-10-29 13:00:00,SOC,Serbia,FK Radnicki 1923 Kragujevac - FK Jagodina,19.1,WIN,FK Jagodina (1X2-Full Time Excluding Overtime),0-3,William Hill,1.91,10.00,9.10,interfix,2014-10-29 11:42:16
+396,2014-10-29 19:30:00,SOC,Other,Casertana - Benevento,18.5,WIN,Casertana,2-1,BWIN,1.85,10.00,8.50,interfix,2014-10-28 17:06:03
+397,2014-10-28 13:00:00,SOC,Other,Chania - Olympiakos Volos,0.00,LOST,Chania,0-0,MYBET,1.55,10.00,-10.00,interfix,2014-10-28 12:00:19
+398,2014-10-27 17:00:00,SOC,Other,Hapoel Jerusalem - Bnei Yehuda,0.00,LOST,Bnei Yehuda,1-1,BWIN,1.53,10.00,-10.00,interfix,2014-10-27 16:47:50
+399,2014-10-26 13:30:00,SOC,Other,Carrarese - Santarcangelo,0.00,LOST,Carrarese,2-2,MYBET,1.7,10.00,-10.00,interfix,2014-10-26 13:04:56
+400,2014-10-26 12:00:00,SOC,Other,Rudar Pljevlja - Sutjeska,0.00,LOST,Rudar Pljevlja,0-0,BWIN,2.3,10.00,-10.00,interfix,2014-10-26 11:56:23
+401,2014-10-26 12:00:00,SOC,Other,Nykopings BIS - Vasalund,17.5,WIN,Nykopings BIS,2-0,MYBET,1.75,10.00,7.50,interfix,2014-10-26 11:49:34
+402,2014-10-26 13:00:00,SOC,Other,Gomel - Naftan,19.5,WIN,Gomel,3:0,BWIN,1.95,10.00,9.50,interfix,2014-10-26 09:28:35
+403,2014-10-25 13:00:00,SOC,Greece,Ethnikos Gazoros-Fokikos,0.00,LOST,1 ( 1X2),1:1,William Hill,1.83,10.00,-10.00,interfix,2014-10-25 12:59:47
+404,2014-10-25 13:00:00,SOC,Other,OSC Bremerhaven - Blumenthaler SV,0.00,LOST,Blumenthaler SV,2:0,William Hill,1.83,10.00,-10.00,interfix,2014-10-25 12:46:28
+405,2014-10-25 17:00:00,VLB,Portugal,Vitoria SC - CA Madalena,15,WIN,CA Madalena (Match Winner-Full Event),0:3,Unibet,1.5,10.00,5.00,interfix,2014-10-25 11:01:33
+406,2014-10-24 18:30:00,FSL,Spain,Levante UD DM - Palma Futsal,0.00,LOST,Palma Futsal (1X2-Full Time Excluding Overtime),3-2,Sportingbet,2,10.00,-10.00,interfix,2014-10-24 15:56:34
+407,2014-10-24 12:00:00,SOC,Moldova,FC Academia UTM Chisinau - Olimpia Balti,22.5,WIN,FC Academia UTM Chisinau (1X2-Full Time Excluding Overtime),5-2,William Hill,2.25,10.00,12.50,interfix,2014-10-24 11:50:50
+408,2014-10-25 14:15:00,SOC,Greece,Levadiakos - Panionios NFC,18.5,WIN,Levadiakos (1X2-Full Time Excluding Overtime),1:0,William Hill,1.85,10.00,8.50,interfix,2014-10-22 21:12:36
+409,2014-10-19 15:15:00,SOC,Other,Veria - Levadiakos,17,WIN,Veria,2:1,BWIN,1.7,10.00,7.00,interfix,2014-10-19 15:03:48
+410,2014-10-19 12:00:00,SOC,Ger. Oberliga,Lokomotive Leipzig-RB Leipzig II,0.00,LOST,2 ( 1X2),1:1,Bet365,2,10.00,-10.00,interfix,2014-10-19 10:43:17
+411,2014-10-19 11:00:00,SOC,Russia,Khimik Dzerzhinsk - Gazovik Orenburg,0.00,LOST,Khimik Dzerzhinsk (1X2-Full Time Excluding Overtime),0:3,Marathonbet,3.9,10.00,-10.00,interfix,2014-10-19 09:45:27
+412,2014-10-18 11:00:00,SOC,Norway,Stabaek II-Grorud,23,WIN,2 ( 1X2),1:3,188bet,2.3,10.00,13.00,interfix,2014-10-18 10:53:51
+413,2014-10-18 12:00:00,SOC,Latvia,FC Jurmala - Spartaks,0.00,LOST,FC Jurmala (1X2-Full Time Excluding Overtime),1:2,Nordicbet,6.15,10.00,-10.00,interfix,2014-10-17 19:06:09
+414,2014-10-14 13:00:00,SOC,FYR Macedonia,Napredok-FK Kozuv Gevgelija,25,WIN,2 ( 1X2),1-5,Bet365,2.5,10.00,15.00,interfix,2014-10-14 11:52:49
+415,2014-10-12 13:00:00,SOC,Ger. Oberliga,Habenhauser FV-Sparta Bremerhaven,62.5,WIN,1 ( 1X2),2:0,Unibet,6.25,10.00,52.50,interfix,2014-10-12 11:51:26
+416,2014-10-11 14:00:00,SOC,Ukraine,FC Sumy - FC Zirka Kirovohrad,0.00,LOST,FC Zirka Kirovohrad (1X2-Full Time Excluding Overtime),1:0,William Hill,2.3,10.00,-10.00,interfix,2014-10-11 13:47:58
+417,2014-10-11 13:00:00,SOC,Ger. Oberliga,FC Bad Kotzting - SpVgg Unterhaching II,0.00,LOST,SpVgg Unterhaching II (1X2-Full Time Excluding Overtime),1:1,William Hill,4.33,10.00,-10.00,interfix,2014-10-11 12:45:39
+418,2014-10-11 12:00:00,SOC,Sweden,IFK Aspudden-Tellus - Varmdo IF,18,WIN,IFK Aspudden-Tellus (1X2-Full Time Excluding Overtime),3:0,BETWAY,1.8,10.00,8.00,interfix,2014-10-11 10:45:40
+419,2014-10-10 16:59:00,SOC,Ger. Regionalliga,Saarbrucken - Kickers Offenbach,32.7,WIN,Draw (Match),1-1,PINNACLE,3.27,10.00,22.70,interfix,2014-10-10 15:59:42
+420,2014-10-11 17:00:00,HNB,Other,RK Rudar Kostolac - RK Spartak Vojput,18.5,WIN,RK Spartak Vojput (1X2-Full Time Excluding Overtime),19:21,Bet365,1.85,10.00,8.50,interfix,2014-10-08 19:51:28
+421,2014-10-05 13:00:00,SOC,Other,VDS Nievenheim - VFB Homberg,0.00,LOST,VDS Nievenheim,1:1,Unibet,2,10.00,-10.00,interfix,2014-10-05 12:52:33
+422,2014-10-05 13:00:00,SOC,FYR Macedonia,Bregalnica Stip - FK Shkendija 79,17.1,WIN,FK Shkendija 79 (1X2-Full Time Excluding Overtime),1:3,Marathonbet,1.71,10.00,7.10,interfix,2014-10-05 12:42:58
+423,2014-10-04 13:00:00,SOC,Other,Osijek - Zadar,18.5,WIN,Osijek,4:1,Interwetten,1.85,10.00,8.50,interfix,2014-10-04 12:41:33
+424,2014-10-04 07:30:00,SOC,China,Changchun Yatai - Tianjin Teda,33,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Bet365,3.3,10.00,23.00,interfix,2014-10-04 07:07:25
+425,2014-10-05 13:00:00,SOC,Ger. Oberliga,Grolland-SV Turkspor Bremen,18,WIN,1 ( 1X2),3:0,William Hill,1.8,10.00,8.00,interfix,2014-10-03 17:19:22
+426,2014-10-03 13:00:00,SOC,Turkey,Nigde Belediyespor-CamlÄ±dere Sekerspor,0.00,LOST,1 ( 1X2),1-1,Sportingbet,1.75,10.00,-10.00,interfix,2014-10-03 12:50:47
+427,2014-10-03 13:30:00,SOC,Czech Rep.,Breclav-Lisen,0.00,LOST,1 ( 1X2),1-1,Bet365,1.62,10.00,-10.00,interfix,2014-10-03 10:44:37
+428,2014-09-29 14:30:00,SOC,Russia,Volga Nyzhnyi Novgorod - Energiya Khabarovsk,24.5,WIN,Volga Nyzhnyi Novgorod (1X2-Full Time Excluding Overtime),6-0,Ladbrokes,2.45,10.00,14.50,interfix,2014-09-29 13:48:22
+429,2014-09-28 10:00:00,SOC,Spa. Other,Real Valladolid B - Real Oviedo,0.00,LOST,Real Oviedo (1X2-Full Time Excluding Overtime),4:3,Marathonbet,2.08,10.00,-10.00,interfix,2014-09-28 09:32:28
+430,2014-09-28 13:30:00,SOC,FYR Macedonia,Bregalnica Stip - FK Pelister,0.00,LOST,Bregalnica Stip (1X2-Full Time Excluding Overtime),0:0,Marathonbet,2.36,10.00,-10.00,interfix,2014-09-27 16:50:14
+431,2014-09-27 13:00:00,SOC,Other,Grbalj Radanovici - Mornar,0.00,LOST,Grbalj Radanovici,1:1,BWIN,1.67,10.00,-10.00,interfix,2014-09-27 12:49:55
+432,2014-09-27 08:00:00,SOC,Other,Farul Constanta - Gloria Buzau,17.5,WIN,Farul Constanta,4:0,BWIN,1.75,10.00,7.50,interfix,2014-09-26 21:54:44
+433,2014-09-23 14:00:00,SOC,Other,Zenit Penza - Vityaz,22.5,WIN,Zenit Penza,2-1,BWIN,2.25,10.00,12.50,interfix,2014-09-23 13:36:23
+434,2014-09-23 11:30:00,HNB,Other,Lokomotiv - Dinamo Astrakhan,21.5,WIN,Lokomotiv 1X2,28-24,BWIN,2.15,10.00,11.50,interfix,2014-09-23 09:51:39
+435,2014-09-22 16:00:00,SOC,Norway,Stromsgodset IF II - Pors Grenland,14.7,WIN,Stromsgodset IF II (1X2-Full Time Excluding Overtime),4-2,Nordicbet,1.47,10.00,4.70,interfix,2014-09-22 13:39:06
+436,2014-09-21 13:00:00,SOC,Other,Mornar - Mogren,26,WIN,Mogren,1:3,MYBET,2.6,10.00,16.00,interfix,2014-09-21 12:15:03
+437,2014-09-20 08:15:00,SOC,Other,Karvina - Zlin,23,WIN,Karvina,2:1,Interwetten,2.3,10.00,13.00,interfix,2014-09-20 07:49:57
+438,2014-09-18 14:30:00,SOC,Lithuania,Ekranas Panevezys - FK Siauliai,25,WIN,FK Siauliai (1X2-Full Time Excluding Overtime),2-3,BETWAY,2.5,10.00,15.00,interfix,2014-09-18 13:33:11
+439,2014-09-20 13:00:00,HNB,Europe,HC Meshkov Brest - HC Croatia Osiguranje Zagreb,0.00,LOST,HC Meshkov Brest (1X2-Full Time Excluding Overtime),28:29,TIPICO,2,10.00,-10.00,interfix,2014-09-18 06:45:07
+440,2014-09-17 14:30:00,SOC,Other,Torpedo Vladimir - Strogino,0.00,LOST,Torpedo Vladimir,0-0,BWIN,2.55,10.00,-10.00,interfix,2014-09-17 14:22:17
+441,2014-09-16 12:00:00,SOC,Georgia,FC Samtredia - FK Spartaki Tskhinvali,19.7,WIN,FC Samtredia (1X2-Full Time Excluding Overtime),3-1,Unibet,1.97,10.00,9.70,interfix,2014-09-16 11:49:10
+442,2014-09-14 16:30:00,HKY,Germany,EC Bad Nauheim - Starbulls Rosenheim,20,WIN,Starbulls Rosenheim (1X2-Full Time Excluding Overtime),3:4,Bet365,2,10.00,10.00,interfix,2014-09-14 16:14:06
+443,2014-09-14 14:00:00,SOC,Luxembourg,AS Jeunesse Esch - UN Kaerjeng 97,16.2,WIN,AS Jeunesse Esch (1X2-Full Time Excluding Overtime),2:0,William Hill,1.62,10.00,6.20,interfix,2014-09-14 13:48:56
+444,2014-09-14 14:30:00,SOC,Tunesia,Sfaxien-Club Africain,0.00,LOST,1 ( 1X2),1:1,William Hill,2.25,10.00,-10.00,interfix,2014-09-14 12:09:57
+445,2014-09-14 13:00:00,SOC,Other,RW Oberhausen II - TV Jahn Hiesfeld,0.00,LOST,RW Oberhausen II,2:3,William Hill,2.1,10.00,-10.00,interfix,2014-09-14 10:59:13
+446,2014-09-14 15:00:00,SOC,Spa. Other,Ferrol-Zamora,0.00,LOST,1 ( 1X2),1:2,Ladbrokes,1.67,10.00,-10.00,interfix,2014-09-13 16:11:44
+447,2014-09-12 12:00:00,SOC,Uzbekistan,Metallurg Bekobod - Nasaf Qarshi,17.5,WIN,Nasaf Qarshi (1X2-Full Time Excluding Overtime),0-2,BetClic,1.75,10.00,7.50,interfix,2014-09-12 11:36:38
+448,2014-09-11 10:00:00,HKY,Other,High1-Sakhalin Sea Lio,0.00,LOST,2 ( 1X2),1-1,TIPICO,1.5,10.00,-10.00,interfix,2014-09-11 08:42:20
+449,2014-09-10 15:30:00,SOC,Ukraine,FC Ternopil - FC Nyva Ternopil,0.00,LOST,FC Nyva Ternopil (1X2-Full Time Excluding Overtime),2-2,Betsson SB,2.09,10.00,-10.00,interfix,2014-09-10 15:08:26
+450,2014-09-07 14:00:00,SOC,Other,Stal Alchevsk - Gelios Kharkiv,16,WIN,Gelios Kharkiv,0:2,Bet-at-home,1.6,10.00,6.00,interfix,2014-09-07 10:58:21
+451,2014-09-07 10:00:00,SOC,Other,Oviedo Moderno-San Gabriel,22,WIN,1 ( 1X2),2:0,William Hill,2.2,10.00,12.00,interfix,2014-09-07 09:57:05
+452,2014-09-06 23:00:00,SOC,Other,Toronto Croatia - London City,0.00,LOST,London City,2:1,BetClic,4.6,10.00,-10.00,interfix,2014-09-06 22:44:36
+453,2014-09-06 08:00:00,SOC,Other,Rapid Suceava - Dorohoi,20,WIN,Rapid Suceava,3:0,William Hill,2,10.00,10.00,interfix,2014-09-05 20:45:53
+454,2014-09-07 13:30:00,SOC,Ger. Oberliga,Turkspor Bremen - Vatan Sport Bremen,17.3,WIN,Vatan Sport Bremen (1X2-Full Time Excluding Overtime),1:7,Bet365,1.73,10.00,7.30,interfix,2014-09-05 07:53:04
+455,2014-09-05 17:30:00,HNB,Other,Alpla Hard - Porto,18.5,WIN,Porto 1X2,25-29,BWIN,1.85,10.00,8.50,interfix,2014-09-04 15:38:59
+456,2014-09-03 15:00:00,SOC,Other,Novy Byzdov - Caslav,0.00,LOST,Caslav,2-0,BWIN,3.4,10.00,-10.00,interfix,2014-09-03 09:05:38
+457,2014-09-01 16:00:00,SOC,Other,Ermis Aradippou - Apollon Limassol,18,WIN,Apollon Limassol,1-3,Interwetten,1.8,10.00,8.00,interfix,2014-09-01 14:08:35
+458,2014-09-01 14:00:00,SOC,Other,FC Sochi - FC Afips,0.00,LOST,FC Sochi,0-3,BWIN,3.3,10.00,-10.00,interfix,2014-09-01 13:30:36
+459,2014-08-31 14:00:00,SOC,Turkey,Kocaelispor-Kirklarelispor,0.00,LOST,1 ( 1X2),2:2,Sportingbet,1.8,10.00,-10.00,interfix,2014-08-31 12:07:43
+460,2014-08-31 13:00:00,SOC,Other,Arminia Hannover - Rotenburger SV,25,WIN,Arminia Hannover,1:0,Bet365,2.5,10.00,15.00,interfix,2014-08-31 09:42:52
+461,2014-08-31 08:30:00,SOC,Other,SFC Opava B - MFK Vyskov,0.00,LOST,SFC Opava B,0:2,BWIN,3.75,10.00,-10.00,interfix,2014-08-31 08:06:23
+462,2014-08-30 14:30:00,SOC,Other,Zvijezda Gradacac - Slavija Sarajevo,0.00,LOST,Zvijezda Gradacac,1:3,Nordicbet,2.45,10.00,-10.00,interfix,2014-08-30 14:06:36
+463,2014-08-30 16:00:00,SOC,Cyprus,Othellos Athienou - Nea Salamis FC,20.6,WIN,Nea Salamis FC (1X2-Full Time Excluding Overtime),0:1,Marathonbet,2.06,10.00,10.60,interfix,2014-08-30 11:49:42
+464,2014-08-29 18:00:00,SOC,Netherlands,Helmond Sport - NEC Nijmegen,22.5,WIN,NEC Nijmegen (1X2-Full Time Excluding Overtime),1-4,Marathonbet,2.25,10.00,12.50,interfix,2014-08-28 11:55:13
+465,2014-08-27 15:30:00,SOC,Montenegro,Berane - FK Mogren Budva,26.8,WIN,FK Mogren Budva (1X2-Full Time Excluding Overtime),0-2,Marathonbet,2.68,10.00,16.80,interfix,2014-08-26 09:35:37
+466,2014-08-24 15:00:00,SOC,FYR Macedonia,FK Turnovo - Bregalnica Stip,19.50,WIN,FK Turnovo (1X2-Full Time Excluding Overtime),2:1,MYBET,1.95,10.00,9.50,interfix,2014-08-24 10:00:47
+467,2014-08-24 17:00:00,SOC,Moldova,Zimbru-Saxan Ceadir Lunga,0.00,LOST,1 ( 1X2),0:0,William Hill,1.91,10.00,-10.00,interfix,2014-08-24 10:00:11
+468,2014-08-23 12:00:00,SOC,Ger. Oberliga,FC Oberlausitz Neugersdorf - Lokomotive Leipzig,0.00,LOST,FC Oberlausitz Neugersdorf (1X2-Full Time Excluding Overtime),0:0,William Hill,2.1,10.00,-10.00,interfix,2014-08-23 08:42:17
+469,2014-08-23 08:00:00,SOC,Other,Albany Creek - North Star,19.8,WIN,Albany Creek,8:2,BetSafe,1.98,10.00,9.80,interfix,2014-08-22 20:12:26
+470,2014-08-24 17:00:00,SOC,Other,Toledo - Rayo Vallecano B,22.4,WIN,Toledo,1:0,Marathonbet,2.24,10.00,12.40,interfix,2014-08-22 16:48:14
+471,2014-08-17 08:30:00,SOC,Other,SFC Opava B - Hlucin,28.8,WIN,Hlucin,0:3,Bet365,2.88,10.00,18.80,interfix,2014-08-17 08:07:13
+472,2014-08-16 18:45:00,SOC,Malta,Balzan Youths - Zebbug Rangers FC,19,WIN,Balzan Youths (1X2-Full Time Excluding Overtime),4:2,Marathonbet,1.9,10.00,9.00,interfix,2014-08-16 16:58:01
+473,2014-08-16 14:00:00,SOC,Ger. Oberliga,Eintracht Northeim - U.L.M. Wolfsburg,26,WIN,U.L.M. Wolfsburg (1X2-Full Time Excluding Overtime),2:3,TIPICO,2.6,10.00,16.00,interfix,2014-08-16 13:46:02
+474,2014-08-15 15:00:00,SOC,Other,Syzran-2003 - Neftekhimik,0.00,LOST,Neftekhimik,3-1,BWIN,2.2,10.00,-10.00,interfix,2014-08-15 13:31:30
+475,2014-08-13 14:30:00,SOC,Romania,CS Viitorul 2010 Buzau - FC Dinamo II Bucuresti,16,WIN,FC Dinamo II Bucuresti (1X2-Full Time Excluding Overtime),1-3,Bet365,1.6,10.00,6.00,interfix,2014-08-13 11:51:33
+476,2014-08-12 14:00:00,SOC,Other,Angusht - Spartak Nalchik,0.00,LOST,Spartak Nalchik,3-2,BWIN,1.91,10.00,-10.00,interfix,2014-08-12 12:48:20
+477,2014-08-10 14:00:00,SOC,Other,CS Fola Esch-Rumelange US,18.3,WIN,1 ( 1X2),7-1,William Hill,1.83,10.00,8.30,interfix,2014-08-10 13:24:58
+478,2014-08-09 13:00:00,SOC,Sweden,Bunkeflo IF - IFK Berga,17.5,WIN,IFK Berga (1X2-Full Time Excluding Overtime),0:3,BETWAY,1.75,10.00,7.50,interfix,2014-08-09 11:29:05
+479,2014-08-08 15:30:00,SOC,Russia,Terek Grozny U21 - Rubin Kazan U21,34,WIN,Rubin Kazan U21 (1X2-Full Time Excluding Overtime),0-1,Fonbet,3.4,10.00,24.00,interfix,2014-08-08 15:19:48
+480,2014-08-06 20:00:00,SOC,Colombia,Valledupar-Junior,23.8,WIN,1 ( 1X2),1-0,William Hill,2.38,10.00,13.80,interfix,2014-08-06 13:36:40
+481,2014-08-06 14:00:00,HKY,Friendlies,Torpedo Nizhny Novgorod - Yugra Khanty Mansyisk,21,WIN,Torpedo Nizhny Novgorod (1X2-Full Time Excluding Overtime),5:2,BetClic,2.1,10.00,11.00,interfix,2014-08-06 12:47:14
+482,2014-08-06 11:45:00,SOC,China,Shanghai Shenhua - Shanghai Shenxin,25,WIN,Shanghai Shenhua (1X2-Full Time Excluding Overtime),4-2,Marathonbet,2.5,10.00,15.00,interfix,2014-08-05 09:08:36
+483,2014-08-02 13:00:00,SOC,Ger. Oberliga,OSC Bremerhaven-Union Bremen,18.5,WIN,1 ( 1X2),6:1,Unibet,1.85,10.00,8.50,interfix,2014-08-02 12:46:45
+484,2014-08-02 13:00:00,HKY,Friendlies,Metallurg Magnitogorsk - Traktor Chelyabinsk,0.00,LOST,Metallurg Magnitogorsk (1X2-Full Time Excluding Overtime),0:4,Unibet,1.95,10.00,-10.00,interfix,2014-08-02 12:25:07
+485,2014-07-28 16:00:00,SOC,Other,FK Teplice U21 - FC MAS Taborsko U21,17.5,WIN,FK Teplice U21,6-0,Sportingbet,1.75,10.00,7.50,interfix,2014-07-28 09:15:57
+486,2014-07-26 12:30:00,SOC,Other,Shenyang Zhongze - BIT Beijing,15.7,WIN,Shenyang Zhongze,2:0,Bet365,1.57,10.00,5.70,interfix,2014-07-26 05:35:33
+487,2014-07-25 16:30:00,SOC,Other,FC Jazz - JJK,0.00,LOST,JJK,1-1,BWIN,1.9,10.00,-10.00,interfix,2014-07-25 14:56:51
+488,2014-07-25 12:00:00,HKY,Other,Belyie Tigry - Yunost Minsk,0.00,LOST,Belyie Tigry 1X2,3-3,BWIN,2.65,10.00,-10.00,interfix,2014-07-25 10:56:53
+489,2014-07-25 16:00:00,SOC,Other,FC Oryol - Metallurg Lipetsk,0.00,LOST,Metallurg Lipetsk,0-0,William Hill,2.2,10.00,-10.00,interfix,2014-07-25 09:37:47
+490,2014-07-25 15:00:00,SOC,Other,Zenit Penza - Podolye,0.00,LOST,Zenit Penza,0-1,BWIN,2.55,10.00,-10.00,interfix,2014-07-25 09:22:39
+491,2014-07-16 15:00:00,SOC,Romania,Rapid Bucharest-CS U Craiova,0.00,LOST,2 ( 1X2),1-0,William Hill,2.1,10.00,-10.00,interfix,2014-07-15 16:37:18
+492,2014-07-14 11:00:00,SOC,Other,Metallurg Novokuznetsk - Dinamo Barnaul,0.00,LOST,Metallurg Novokuznetsk,1-0,Marathonbet,2.1,10.00,-10.00,interfix,2014-07-14 09:07:40
+493,2014-07-12 16:30:00,SOC,Austria,Grun Weiss Micheldorf-SV Allerheiligen,0.00,LOST,2 ( 1X2),2:1,Sportingbet,1.85,10.00,-10.00,interfix,2014-07-11 15:44:10
+494,2014-07-06 12:00:00,SOC,Kazakhstan,Tobol Kostanay-Irtysh,0.00,LOST,1 ( 1X2),1:1,188bet,2.05,10.00,-10.00,interfix,2014-07-06 07:58:29
+495,2014-07-05 16:00:00,SOC,Belarussia,Torpedo Zhodino - Neman Grodno,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,MYBET,3.15,10.00,-10.00,interfix,2014-07-05 10:53:05
+496,2014-07-05 12:00:00,SOC,Thailand,Chiangrai United FC - Singhtarua FC,0.00,LOST,Chiangrai United FC (1X2-Full Time Excluding Overtime),0:0,Marathonbet,1.89,10.00,-10.00,interfix,2014-07-05 06:51:13
+497,2014-06-28 12:00:00,SOC,Kazakhstan,FC Taraz - Tobol Kostanay,32,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,William Hill,3.2,10.00,22.00,interfix,2014-06-28 11:00:07
+498,2014-06-23 15:30:00,SOC,Finland,Kultsu - FC Kuusysi Lahti Akatemia,24.5,WIN,FC Kuusysi Lahti Akatemia (1X2-Full Time Excluding Overtime),1-3,Nordicbet,2.45,10.00,14.50,interfix,2014-06-23 13:31:34
+499,2014-06-21 10:00:00,SOC,Other,AN Giang - Quang Nam,17.5,WIN,AN Giang,5:3,BWIN,1.75,10.00,7.50,interfix,2014-06-21 07:45:45
+500,2014-06-15 11:00:00,SOC,Lithuania,Banga Gargzdai - FK Siauliai,0.00,LOST,Banga Gargzdai (1X2-Full Time Excluding Overtime),1:2,Nordicbet,1.85,10.00,-10.00,interfix,2014-06-14 14:42:09
+501,2014-06-08 16:00:00,SOC,Other,Pelikan Lowicz - Pogon Siedlce,0.00,LOST,Pogon Siedlce,4:1,Nordicbet,2.35,10.00,-10.00,interfix,2014-06-08 14:41:18
+502,2014-06-08 13:00:00,SOC,Other,FC Strausberg - RSV Waltersdorf,45,WIN,DRAW,1:1,BWIN,4.5,10.00,35.00,interfix,2014-06-08 11:20:22
+503,2014-06-08 16:00:00,SOC,Other,Ostrovia Ostrow Wielkopolski - Jarota Jarocin,27.5,WIN,DRAW,0:0,BetSafe,2.75,10.00,17.50,interfix,2014-06-08 09:35:44
+504,2014-06-06 12:45:00,SOC,Yemen,Shab Sana - Sabbab Al-Jeel,22.5,WIN,Sabbab Al-Jeel (1X2-Full Time Excluding Overtime),0-2,Bet365,2.25,10.00,12.50,interfix,2014-06-06 10:40:43
+505,2014-05-31 15:30:00,SOC,Montenegro,FK Celik Niksic - FK Mladost Podgorica,30,WIN,FK Mladost Podgorica (1X2-Full Time Excluding Overtime),0:1,Marathonbet,3,10.00,20.00,interfix,2014-05-30 08:58:19
+506,2014-05-30 15:00:00,SOC,Ukraine,Bukovina Chernovtsy-Dynamo Kiev II,20,WIN,2 ( 1X2),0-1,Bet365,2,10.00,10.00,interfix,2014-05-29 14:42:06
+507,2014-05-25 16:00:00,SOC,Spa. Segunda,Murcia-Zaragoza,0.00,LOST,1 ( 1X2),1:1,TIPICO,2.05,10.00,-10.00,interfix,2014-05-25 15:38:20
+508,2014-05-25 13:15:00,SOC,Ger. Oberliga,Bruhl-Bergisch Gladbach,0.00,LOST,1 ( 1X2),1:1,Unibet,2.25,10.00,-10.00,interfix,2014-05-25 13:04:05
+509,2014-05-25 14:00:00,SOC,Russia,FK Taganrog - FK Mitos Novocherkassk,20.5,WIN,FK Mitos Novocherkassk (1X2-Full Time Excluding Overtime),0:1,Marathonbet,2.05,10.00,10.50,interfix,2014-05-25 10:31:26
+510,2014-05-24 13:00:00,SOC,Kazakhstan,FC Atyrau - Irtysch Pavlodar,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,BETWAY,3.3,10.00,-10.00,interfix,2014-05-24 12:16:11
+511,2014-05-24 11:30:00,SOC,Ger. Regionalliga,ZFC Meuselwitz - SV Babelsberg 03,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Marathonbet,2.45,10.00,-10.00,interfix,2014-05-24 10:51:11
+512,2014-05-24 15:30:00,SOC,Other,SK Spartak Hulin - Slezsky fotbalovy club Opava,0.00,LOST,Slezsky fotbalovy club Opava,1:0,BWIN,1.85,10.00,-10.00,interfix,2014-05-24 09:05:49
+513,2014-05-23 17:00:00,SOC,Ger. Oberliga,VfL Pinneberg - Curslack-Neuengamme,22,WIN,VfL Pinneberg (1X2-Full Time Excluding Overtime),3-1,William Hill,2.2,10.00,12.00,interfix,2014-05-23 12:14:17
+514,2014-05-24 15:30:00,SOC,Montenegro,Grbalj Radanovici-Petrovac,32,WIN,X ( 1X2),1:1,William Hill,3.2,10.00,22.00,interfix,2014-05-23 10:24:25
+515,2014-05-24 15:30:00,SOC,Montenegro,FK Decic Tuzi - FK Zeta Golubovci,23,WIN,FK Zeta Golubovci (1X2-Full Time Excluding Overtime),3:4,William Hill,2.3,10.00,13.00,interfix,2014-05-23 10:16:01
+516,2014-05-24 15:30:00,SOC,Montenegro,FK Mladost Podgorica - FK Buducnost Podgorica,0.00,LOST,FK Mladost Podgorica (1X2-Full Time Excluding Overtime),1:3,William Hill,2.1,10.00,-10.00,interfix,2014-05-23 09:57:52
+517,2014-05-21 17:00:00,SOC,Ger. Regionalliga,TSV Buchbach - 1. FC Nurnberg II,32,WIN,1. FC Nurnberg II (1X2-Full Time Excluding Overtime),0-1,MYBET,3.2,10.00,22.00,interfix,2014-05-21 16:19:49
+518,2014-05-21 16:30:00,SOC,Other,Blekitni Stargard Szczecinski - Ostrovia Ostrow Wielkopolski,23.5,WIN,Blekitni Stargard Szczecinski,2-1,Nordicbet,2.35,10.00,13.50,interfix,2014-05-21 14:48:32
+519,2014-05-18 15:00:00,SOC,Other,Aris Limassol - Nea Salamis,19.00,WIN,Nea Salamis,1:2,BWIN,1.9,10.00,9.00,interfix,2014-05-18 13:11:25
+520,2014-05-18 13:30:00,SOC,Other,Oldenburg - Meppen,39,WIN,Meppen,0:1,Interwetten,3.9,10.00,29.00,interfix,2014-05-18 11:51:35
+521,2014-05-18 13:00:00,SOC,Other,Olimpik - Avangard Kramatorsk,21,WIN,Avangard Kramatorsk,1:3,Bet365,2.1,10.00,11.00,interfix,2014-05-18 09:34:19
+522,2014-05-17 14:00:00,SOC,Other,USC Eugendorf - Seekirchen,0.00,LOST,USC Eugendorf,2:2,Wettpunkt,2.3,10.00,-10.00,interfix,2014-05-17 11:45:37
+523,2014-05-17 12:00:00,SOC,Ger. Regionalliga,Kickers Offenbach - 1.FC Kaiserslautern II,0.00,LOST,1.FC Kaiserslautern II (1X2-Full Time Excluding Overtime),4:3,Dafabet,2.45,10.00,-10.00,interfix,2014-05-17 11:24:28
+524,2014-05-18 13:00:00,SOC,FYR Macedonia,FK Turnovo - Rabotnicki Skopje,17.2,WIN,FK Turnovo (1X2-Full Time Excluding Overtime),1:0,Marathonbet,1.72,10.00,7.20,interfix,2014-05-17 09:01:15
+525,2014-05-18 20:00:00,SOC,Bolivia,Guabira Santa Cruz - Bolivar,0.00,LOST,Bolivar (1X2-Full Time Excluding Overtime),2:1,BETWAY,2.45,10.00,-10.00,interfix,2014-05-16 18:13:21
+526,2014-05-16 15:00:00,SOC,Other,FC Kolomna - Dnepr Smolensk,33,WIN,Dnepr Smolensk,0-3,BWIN,3.3,10.00,23.00,interfix,2014-05-16 13:45:27
+527,2014-05-15 16:00:00,SOC,Other,Vozdovac - Rad,10,PUSH,Rad,postp.,William Hill,2.05,10.00,0.00,interfix,2014-05-14 10:37:29
+528,2014-05-13 15:00:00,SOC,Other,FC Tambov - Podolye,27,WIN,FC Tambov,3-1,Sportingbet,2.7,10.00,17.00,interfix,2014-05-13 11:00:00
+529,2014-05-10 09:15:00,SOC,Other,SK Strakonice 1908 - SK Zapy,18,WIN,SK Zapy,1:7,BWIN,1.8,10.00,8.00,interfix,2014-05-10 07:42:12
+530,2014-05-10 14:30:00,SOC,Montenegro,FK Lovcen Cetinje - FK Celik Niksic,0.00,LOST,FK Lovcen Cetinje (1X2-Full Time Excluding Overtime),1:1,Marathonbet,2.2,10.00,-10.00,interfix,2014-05-09 21:23:58
+531,2014-05-07 14:00:00,SOC,Greece,AO Peukis - PAE Ionikos Nikaias,28,WIN,AO Peukis (1X2-Full Time Excluding Overtime),1-0,Sportingbet,2.8,10.00,18.00,interfix,2014-05-07 13:24:54
+532,2014-05-04 16:00:00,SOC,Other,Lokomotiv Plovdiv - Cherno More,32,WIN,Cherno More,0:2,Interwetten,3.2,10.00,22.00,interfix,2014-05-04 14:58:39
+533,2014-05-04 15:00:00,SOC,Austria,TSV Neumarkt - FC Wacker Innsbruck II,19.1,WIN,TSV Neumarkt (1X2-Full Time Excluding Overtime),3:0,William Hill,1.91,10.00,9.10,interfix,2014-05-04 14:49:46
+534,2014-05-03 14:00:00,SOC,Austria,FC Hard-Seekirchen,23,WIN,1 ( 1X2),3:2,Unibet,2.3,10.00,13.00,interfix,2014-05-03 13:42:32
+535,2014-05-03 17:00:00,SOC,Croatia,NK Osijek - RNK Split,20,WIN,NK Osijek (1X2-Full Time Excluding Overtime),3:1,Coral,2,10.00,10.00,interfix,2014-05-03 11:30:54
+536,2014-05-03 15:00:00,SOC,Serbia,Javor Ivanjica-Vojvodina Novi Sad,20.5,WIN,1 ( 1X2),2:1,TIPICO,2.05,10.00,10.50,interfix,2014-05-03 09:56:18
+537,2014-05-04 16:00:00,SOC,Other,Travnik - NK Zvijezda Gradacac,16,WIN,Travnik,3:1,Bet-at-home,1.6,10.00,6.00,interfix,2014-05-02 18:55:44
+538,2014-05-01 13:00:00,SOC,Austria,FC Hochst - Schwaz,25,WIN,FC Hochst (1X2-Full Time Excluding Overtime),2-1,William Hill,2.5,10.00,15.00,interfix,2014-05-01 12:31:45
+539,2014-05-02 13:00:00,SOC,Russia,FK Torpedo Armavir - FC Energia Volzhsky,0.00,LOST,FK Torpedo Armavir (1X2-Full Time Excluding Overtime),2-2,Marathonbet,1.72,10.00,-10.00,interfix,2014-05-01 07:21:05
+540,2014-04-30 15:00:00,SOC,Greece,Iraklis FC - Kassiopi FC,0.00,LOST,Kassiopi FC (1X2-Full Time Excluding Overtime),1-1,William Hill,2.7,10.00,-10.00,interfix,2014-04-30 14:37:52
+541,2014-04-30 14:30:00,SOC,Russia,FK Spartak Nalchik - FC Ufa,0.00,LOST,FC Ufa (1X2-Full Time Excluding Overtime),0-0,Unibet,2,10.00,-10.00,interfix,2014-04-30 13:24:04
+542,2014-04-27 13:00:00,SOC,Ita. Serie C,Mantova-Spal,19,WIN,1 ( 1X2),1-0,Unibet,1.9,10.00,9.00,interfix,2014-04-27 12:06:34
+543,2014-04-26 16:00:00,SOC,Other,Real Sociedad B - AtlÃ©tico Madrid B,0.00,LOST,AtlÃ©tico Madrid B,1:0,Marathonbet,3.2,10.00,-10.00,interfix,2014-04-26 14:25:05
+544,2014-04-26 14:00:00,SOC,Other,Zirka Kirovograd - FC Sumy,0.00,LOST,Zirka Kirovograd,0:1,Bet365,1.83,10.00,-10.00,interfix,2014-04-26 12:25:27
+545,2014-04-26 13:00:00,SOC,Russia,Mashuk Pyatigorsk - FK Taganrog,22.5,WIN,Mashuk Pyatigorsk (1X2-Full Time Excluding Overtime),1:0,William Hill,2.25,10.00,12.50,interfix,2014-04-26 08:18:39
+546,2014-04-26 09:00:00,SOC,Other,SC Bacau - Rapid Bucharest,16.7,WIN,Rapid Bucharest,1:2,William Hill,1.67,10.00,6.70,interfix,2014-04-25 22:30:35
+547,2014-04-26 16:00:00,SOC,Spa. Segunda,Sanluqueno - Centro de Deportes El Palo,0.00,LOST,Sanluqueno (1X2-Full Time Excluding Overtime),1:1,Ladbrokes,2.25,10.00,-10.00,interfix,2014-04-25 21:07:00
+548,2014-04-26 14:30:00,SOC,Montenegro,FK Mogren Budva - FK Zeta Golubovci,19,WIN,FK Mogren Budva (1X2-Full Time Excluding Overtime),1:0,Marathonbet,1.9,10.00,9.00,interfix,2014-04-25 16:39:40
+549,2014-04-21 15:10:00,HNB,Denmark,SÃ¸nderjyskE - Bjerringbro-Silkeborg,18,WIN,SÃ¸nderjyskE (1X2-Full Time Excluding Overtime),32:28,Coral,1.8,10.00,8.00,interfix,2014-04-21 11:43:04
+550,2014-04-21 15:00:00,SOC,Other,Metallurg Lipetsk - Podolye,0.00,LOST,Metallurg Lipetsk 1X2,1-2,BWIN,2.45,10.00,-10.00,interfix,2014-04-21 10:19:32
+551,2014-04-21 16:00:00,SOC,Other,FC Oryol - Metallurg Vyksa,0.00,LOST,FC Oryol 1X2,0-1,BWIN,1.9,10.00,-10.00,interfix,2014-04-21 10:02:48
+552,2014-04-21 11:00:00,SOC,Russia,FK Spartak Moscow II - FK Sokol Saratov,21,WIN,FK Sokol Saratov (1X2-Full Time Excluding Overtime),0-3,Bet365,2.1,10.00,11.00,interfix,2014-04-21 09:48:34
+553,2014-04-20 17:00:00,SOC,Spa. Other,Lleida-Valencia II,17.5,WIN,1 ( 1X2),1:0,TIPICO,1.75,10.00,7.50,interfix,2014-04-20 16:19:07
+554,2014-04-20 13:00:00,SOC,Other,Terek-2 - Gazprom-Transgaz-Stavropol,32.5,WIN,Gazprom-Transgaz-Stavropol,1:3,William Hill,3.25,10.00,22.50,interfix,2014-04-20 11:26:33
+555,2014-04-20 11:00:00,SOC,Russia,Dagdissel Kaspiysk - SKA Rostov na Donu,21.5,WIN,Dagdissel Kaspiysk (1X2-Full Time Excluding Overtime),2:1,William Hill,2.15,10.00,11.50,interfix,2014-04-20 10:38:07
+556,2014-04-20 18:00:00,SOC,Other,Algeciras - Granada B,0.00,LOST,Algeciras,1:2,MYBET,1.9,10.00,-10.00,interfix,2014-04-20 10:04:10
+557,2014-04-20 12:00:00,BSK,Russia,Energy Ivanovo W - Vologda Chevakata W,0.00,LOST,Energy Ivanovo W (Match Winner-Full Time Including Overtime),62:70,TIPICO,1.85,10.00,-10.00,interfix,2014-04-20 09:47:14
+558,2014-04-20 14:30:00,SOC,Russia,FK Spartak Nalchik - Khimik Dzerzhinsk,0.00,LOST,FK Spartak Nalchik (1X2-Full Time Excluding Overtime),0:0,MYBET,2.05,10.00,-10.00,interfix,2014-04-20 06:42:10
+559,2014-04-19 16:00:00,SOC,Other,Dnepr Mogilev - Neman Grodno,0.00,LOST,DRAW,2:3,Marathonbet,3.2,10.00,-10.00,interfix,2014-04-19 14:35:16
+560,2014-04-19 09:00:00,FSL,Other,Dina Moscow - MFK Tyumen,20,WIN,Dina Moscow (1X2-Full Time Excluding Overtime),4:1,Bet365,2,10.00,10.00,interfix,2014-04-19 08:28:10
+561,2014-04-19 08:30:00,SOC,Other,Hebei Zhongji - Shijiazhuang Yongchang Junhao,0.00,LOST,Shijiazhuang Yongchang Junhao,2:0,10bet,1.83,10.00,-10.00,interfix,2014-04-19 06:52:37
+562,2014-04-16 15:00:00,SOC,Ger. Regionalliga,Kaiserslautern II-Waldhof Mannheim,23,WIN,1 ( 1X2),2-1,188bet,2.3,10.00,13.00,interfix,2014-04-16 14:16:47
+563,2014-04-15 14:00:00,SOC,Other,Gazprom-Transgaz-Stavropol - Dagdizel Kaspiysk,0.00,LOST,Dagdizel Kaspiysk,1-1,BWIN,2.25,10.00,-10.00,interfix,2014-04-15 09:35:01
+564,2014-04-13 14:00:00,SOC,Livebet,Granada B - Cadiz,0.00,LOST,Cadiz (1X2-Full Time Excluding Overtime),3:3,Bet365,2,10.00,-10.00,interfix,2014-04-13 15:39:29
+565,2014-04-13 14:00:00,SOC,Spa. Segunda,La Roda - Guadalajara,0.00,LOST,La Roda (1X2-Full Time Excluding Overtime),0:1,Ladbrokes,2.75,10.00,-10.00,interfix,2014-04-13 13:58:05
+566,2014-04-13 13:00:00,SOC,Ita. Serie C,SS Barletta Calcio - Catanzaro,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:3,MYBET,3.05,10.00,-10.00,interfix,2014-04-13 12:42:19
+567,2014-04-13 13:00:00,SOC,Ita. Serie C,Melfi-Ischia Isolaverde,0.00,LOST,X ( 1X2),1:0,TIPICO,2.8,10.00,-10.00,interfix,2014-04-13 10:11:01
+568,2014-04-13 15:00:00,SOC,Other,Monastir - Gafsa,21,WIN,Monastir,2:0,Marathonbet,2.1,10.00,11.00,interfix,2014-04-13 09:22:50
+569,2014-04-13 17:00:00,SOC,Other,Alcoyano - Villarreal B,17.1,WIN,Alcoyano,3:1,Marathonbet,1.71,10.00,7.10,interfix,2014-04-12 21:23:00
+570,2014-04-12 11:00:00,SOC,Livebet,FS Metta/Lu - FC Jurmala,28,WIN,FC Jurmala (1X2-Full Time Excluding Overtime),2:4,Betsson SB,2.8,10.00,18.00,interfix,2014-04-12 12:22:41
+571,2014-04-12 14:00:00,SOC,Other,RozwÃ³j Katowice - Blekitni Stargard Szczecinski,25.5,WIN,RozwÃ³j Katowice,2:0,Nordicbet,2.55,10.00,15.50,interfix,2014-04-12 12:06:08
+572,2014-04-12 13:00:00,SOC,Other,IFK Aspudden-Tellus - Kvarnsvedens IK,0.00,LOST,Kvarnsvedens IK,1:1,MYBET,2.35,10.00,-10.00,interfix,2014-04-12 11:53:32
+573,2014-04-12 08:00:00,SOC,Romania,Gloria Buzau-CSMS Iasi,0.00,LOST,1 ( 1X2),0:1,William Hill,1.67,10.00,-10.00,interfix,2014-04-12 07:17:01
+574,2014-04-11 16:00:00,SOC,Belarussia,Shakhtyor Soligorsk - Dinamo Minsk,32,WIN,Draw (1X2-Full Time Excluding Overtime),0-0,Bet365,3.2,10.00,22.00,interfix,2014-04-11 15:48:31
+575,2014-04-10 14:00:00,SOC,Other,Krasnodar-2 - Mashuk-KMV,18.70,WIN,Krasnodar-2,2-0,BWIN,1.87,10.00,8.70,interfix,2014-04-10 09:52:02
+576,2014-04-09 16:00:00,SOC,Other,Iraklis - Fostiras,16,WIN,Iraklis,1-0,BWIN,1.6,10.00,6.00,interfix,2014-04-08 12:42:52
+577,2014-04-06 15:00:00,SOC,Other,FC Brest - Gomel,0.00,LOST,Gomel,2:0,Marathonbet,1.95,10.00,-10.00,interfix,2014-04-06 13:08:12
+578,2014-04-06 13:00:00,SOC,Ita. Serie C,FC Sudtirol Bolzano - Savona 1907 FBC,25,WIN,FC Sudtirol Bolzano (1X2-Full Time Excluding Overtime),1:0,MYBET,2.5,10.00,15.00,interfix,2014-04-06 12:52:06
+579,2014-04-06 13:00:00,SOC,Ger. Oberliga,Burghausen II-Schwabmunchen,26.2,WIN,2 ( 1X2),2:3,William Hill,2.62,10.00,16.20,interfix,2014-04-06 12:17:10
+580,2014-04-06 13:00:00,SOC,Ita. Serie C,ASD Martina Franca - SF Aversa Normanna,0.00,LOST,ASD Martina Franca (1X2-Full Time Excluding Overtime),2:2,Unibet,2,10.00,-10.00,interfix,2014-04-06 11:52:08
+581,2014-04-06 13:30:00,SOC,Tunesia,AS Marsa-Sfaxien,0.00,LOST,2 ( 1X2),0:0,TIPICO,2.65,10.00,-10.00,interfix,2014-04-06 07:59:31
+582,2014-04-06 15:30:00,SOC,Other,Slavija Sarajevo - Borac Banja Luka,21.5,WIN,Slavija Sarajevo,2:0,Unibet,2.15,10.00,11.50,interfix,2014-04-05 13:59:09
+583,2014-04-05 17:45:00,HNB,Spain,Esportiu Castelldefels W - Aula Cultural Viveros Herol W,0.00,LOST,Aula Cultural Viveros Herol W (1X2-Full Time Excluding Overtime),29:28,TIPICO,2.2,10.00,-10.00,interfix,2014-04-05 11:48:50
+584,2014-04-05 12:00:00,SOC,Ukraine,Helios-MFK Mykolaiv,10,PUSH,1 ( 1X2),odd error,Sportingbet,2.15,10.00,0.00,interfix,2014-04-05 10:31:32
+585,2014-04-05 11:00:00,SOC,Ukraine,FC Sumy - Bukovyna Chernivtsi,17.5,WIN,FC Sumy (1X2-Full Time Excluding Overtime),3:1,Marathonbet,1.75,10.00,7.50,interfix,2014-04-05 10:01:53
+586,2014-04-05 08:00:00,SOC,Romania,Dunarea Galati-CSMS Iasi,17.3,WIN,2 ( 1X2),0:4,William Hill,1.73,10.00,7.30,interfix,2014-04-05 06:32:59
+587,2014-04-05 13:30:00,SOC,Montenegro,FK Mladost Podgorica - FK Mogren Budva,17,WIN,FK Mladost Podgorica (1X2-Full Time Excluding Overtime),3:1,Marathonbet,1.7,10.00,7.00,interfix,2014-04-04 13:17:48
+588,2014-04-01 17:30:00,SOC,Ger. Regionalliga,Oberhausen-Sportfreunde Lotte,23.4,WIN,2 ( 1X2),0-2,Dafabet,2.34,10.00,13.40,interfix,2014-04-01 16:57:39
+589,2014-03-30 12:00:00,SOC,Ger. Oberliga,Heidenauer SV - FC Einheit Rudolstadt,20,WIN,FC Einheit Rudolstadt (1X2-Full Time Excluding Overtime),0:2,Unibet,2,10.00,10.00,interfix,2014-03-30 11:37:26
+590,2014-03-30 14:00:00,SOC,Other,Lemvig - NordsjÃ¦lland,18.5,WIN,Lemvig,33:29,BWIN,1.85,10.00,8.50,interfix,2014-03-30 11:09:06
+591,2014-03-30 10:00:00,SOC,Spa. Segunda,Leganes - Real Madrid C,0.00,LOST,Leganes (1X2-Full Time Excluding Overtime),0:1,Marathonbet,1.77,10.00,-10.00,interfix,2014-03-30 09:34:57
+592,2014-03-30 13:00:00,SOC,Greece,PAE Ionikos Nikaias - Kissamikos,0.00,LOST,PAE Ionikos Nikaias (1X2-Full Time Excluding Overtime),0:0,William Hill,1.62,10.00,-10.00,interfix,2014-03-30 08:00:25
+593,2014-03-30 11:00:00,SOC,Other,Samud Songkram - Suphanburi FC,21.5,WIN,Suphanburi FC,1:3,BWIN,2.15,10.00,11.50,interfix,2014-03-30 07:33:59
+594,2014-03-30 12:00:00,SOC,Austria,FC Wacker Innsbruck II - WSG Wattens,18.3,WIN,WSG Wattens (1X2-Full Time Excluding Overtime),0:4,William Hill,1.83,10.00,8.30,interfix,2014-03-30 06:23:56
+595,2014-03-29 14:00:00,SOC,Ita. Serie B,Latina Calcio - Carpi FC 1909,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Coral,3,10.00,-10.00,interfix,2014-03-29 13:38:16
+596,2014-03-28 17:05:00,SOC,Kuwait,Al Arabi-Al Qadsia,21.5,WIN,2 ( 1X2),0-1,Unibet,2.15,10.00,11.50,interfix,2014-03-28 16:37:41
+597,2014-03-28 13:30:00,SOC,Cyprus,Olympia Nicosia-Nikos & Sokratis Erimis,0.00,LOST,1 ( 1X2),1-3,Bet365,2.2,10.00,-10.00,interfix,2014-03-28 12:57:40
+598,2014-03-28 12:30:00,SOC,India,Churchill Brothers - Dempo Sports Club,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1-4,BETWAY,3.25,10.00,-10.00,interfix,2014-03-28 12:26:13
+599,2014-03-26 14:00:00,SOC,Other,Alro Slatina - CS Universitatea Craiova,20,WIN,CS Universitatea Craiova,0-1,William Hill,2,10.00,10.00,interfix,2014-03-26 13:30:18
+600,2014-03-22 13:00:00,SOC,Greece,Episkopi FC - Paniliakos F.C.,22.5,WIN,Episkopi FC (1X2-Full Time Excluding Overtime),1:0,William Hill,2.25,10.00,12.50,interfix,2014-03-22 12:38:03
+601,2014-03-22 13:00:00,SOC,Other,Jurmala - Jelgava,24,WIN,Jelgava,1:3,Interwetten,2.4,10.00,14.00,interfix,2014-03-22 12:29:23
+602,2014-03-22 14:00:00,SOC,Other,Ethnikos Achnas - Doxa Katokopia,19.5,WIN,Ethnikos Achnas,3:2,MYBET,1.95,10.00,9.50,interfix,2014-03-22 12:14:32
+603,2014-03-22 13:00:00,SOC,Greece,Fostiras FC - Panegialios FC,0.00,LOST,Fostiras FC (1X2-Full Time Excluding Overtime),0:0,MYBET,2.05,10.00,-10.00,interfix,2014-03-22 12:07:18
+604,2014-03-22 13:00:00,SOC,Greece,Iraklis Psachnon-Kallithea,0.00,LOST,1 ( 1X2),1:1,TIPICO,1.8,10.00,-10.00,interfix,2014-03-22 10:48:40
+605,2014-03-22 17:00:00,HNB,Poland,Stal Mielec-Pogon Szczecin,18,WIN,1 ( 1X2),33-30,TIPICO,1.8,10.00,8.00,interfix,2014-03-22 10:25:10
+606,2014-03-22 16:30:00,HKY,Czech R.,SK Kadan - HC Motor Ceske Budejovice,22,WIN,HC Motor Ceske Budejovice (1X2-Full Time Excluding Overtime),1:2,MYBET,2.2,10.00,12.00,interfix,2014-03-22 10:13:24
+607,2014-03-22 14:30:00,SOC,Bosnia & Herz.,NK Travnik - NK Celik Zenica,16.5,WIN,NK Travnik (1X2-Full Time Excluding Overtime),2:0,Nordicbet,1.65,10.00,6.50,interfix,2014-03-22 09:37:46
+608,2014-03-22 12:00:00,SOC,Other,Zhetysu - Kayrat,0.00,LOST,Kayrat,1:0,BetSafe,2.1,10.00,-10.00,interfix,2014-03-22 07:32:56
+609,2014-03-16 14:00:00,SOC,Other,1. FC Wunstorf - Rotenburger SV,0.00,LOST,1. FC Wunstorf,0:2,MYBET,1.9,10.00,-10.00,interfix,2014-03-16 13:34:00
+610,2014-03-16 14:00:00,SOC,Bosnia & Herz.,Mladost Velika Obarska-FK Sarajevo,20,WIN,2 ( 1X2),0:2,William Hill,2,10.00,10.00,interfix,2014-03-16 13:16:34
+611,2014-03-16 13:00:00,SOC,Other,Asteras Magoulas - Kallithea,0.00,LOST,Kallithea,1:1,Unibet,1.6,10.00,-10.00,interfix,2014-03-16 12:57:22
+612,2014-03-16 13:30:00,SOC,Ita. Serie C,Cuneo - SPAL 1907 Ferrara,29.5,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,MYBET,2.95,10.00,19.50,interfix,2014-03-16 12:40:14
+613,2014-03-16 13:30:00,SOC,Other,Aquila - Perugia,31,WIN,DRAW,0:0,BWIN,3.1,10.00,21.00,interfix,2014-03-16 12:19:43
+614,2014-03-16 13:30:00,SOC,Other,Bloem Celtic - SuperSport United,31,WIN,DRAW,1:1,Dafabet,3.1,10.00,21.00,interfix,2014-03-16 12:05:28
+615,2014-03-16 13:00:00,SOC,Ger. Oberliga,Torgelower SV Greif-Union FÃ¼rstenwalde,22,WIN,2 ( 1X2),1:4,William Hill,2.2,10.00,12.00,interfix,2014-03-16 11:22:18
+616,2014-03-16 13:00:00,SOC,Malta,Gudja United - St George Cospicua,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:2,TIPICO,3.1,10.00,-10.00,interfix,2014-03-16 09:28:16
+617,2014-03-16 09:30:00,SOC,Other,Spartak Trnava B - FC STK 1914 Samorin,0.00,LOST,Spartak Trnava B,1:1,Bet-at-home,1.9,10.00,-10.00,interfix,2014-03-16 08:37:13
+618,2014-03-16 11:00:00,SOC,Other,Arroyo - Ã‰cija,18,WIN,Arroyo,2:1,Interwetten,1.8,10.00,8.00,interfix,2014-03-16 08:07:07
+619,2014-03-16 00:45:00,SOC,Colombia,Club Deportivo La Equidad Seguros - Independiente Santa Fe,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0-2,Nordicbet,3.25,10.00,-10.00,interfix,2014-03-15 22:41:17
+620,2014-03-15 14:00:00,SOC,Other,Leotar - Travnik,18.5,WIN,Travnik,0:2,MYBET,1.85,10.00,8.50,interfix,2014-03-15 13:32:05
+621,2014-03-15 17:00:00,VLB,Greece,Markopoulo-Panaxiakos,20,WIN,2 ( ML),0:3,TIPICO,2,10.00,10.00,interfix,2014-03-15 11:11:29
+622,2014-03-15 09:00:00,SOC,Other,UTA Arad - CS Universitatea Craiova,19.1,WIN,CS Universitatea Craiova,0:1,William Hill,1.91,10.00,9.10,interfix,2014-03-15 08:40:12
+623,2014-03-14 19:00:00,SOC,Fra. Ligue 2,Bastia CA-Troyes,0.00,LOST,2 ( 1X2),1-0,Dafabet,1.87,10.00,-10.00,interfix,2014-03-14 16:07:41
+624,2014-03-16 15:15:00,SOC,Other,Panionios - Levadiakos,16.5,WIN,Panionios,4:2,BWIN,1.65,10.00,6.50,interfix,2014-03-12 17:40:53
+625,2014-03-10 19:30:00,SOC,Fra. Ligue 2,Tours FC - Angers SCO,23.2,WIN,Tours FC (1X2-Full Time Excluding Overtime),2-0,Marathonbet,2.32,10.00,13.20,interfix,2014-03-10 17:13:45
+626,2014-03-10 13:00:00,TNS,ATP Challenger,"Michon, Axel-Rudnev, Valery",19.5,WIN,1 ( ML),2-0,188bet,1.95,10.00,9.50,interfix,2014-03-10 11:44:26
+627,2014-03-10 14:30:00,SOC,Other,1.FC Slovacko U21 - FK Fotbal Trinec U21,16,WIN,1.FC Slovacko U21,3-0,BWIN,1.6,10.00,6.00,interfix,2014-03-10 11:11:27
+628,2014-03-09 12:30:00,SOC,Ita. Serie C,Feralpisalo - ACD Virtus Entella,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:2,EXPEKT,3.1,10.00,-10.00,interfix,2014-03-09 12:10:10
+629,2014-03-09 12:30:00,SOC,Ita. Serie C,Sudtirol-Vicenza,0.00,LOST,X ( 1X2),1:0,William Hill,3.1,10.00,-10.00,interfix,2014-03-09 12:06:06
+630,2014-03-09 10:00:00,SOC,Livebet,FC Guria Lanchkhuti - FC Chikhura Sachkhere,16.1,WIN,FC Guria Lanchkhuti (1X2-Full Time Excluding Overtime)(0:0),2:0,188bet,1.61,10.00,6.10,interfix,2014-03-09 11:07:06
+631,2014-03-09 12:00:00,SOC,Other,Gorno Lisice - Shkendija 79,0.00,LOST,Shkendija 79 (1X2-Full Time Excluding Overtime),2:1,William Hill,2,10.00,-10.00,interfix,2014-03-08 22:40:53
+632,2014-03-09 12:00:00,SOC,Other,Makedonija GjP - FK Napredok,18.5,WIN,Makedonija GjP (1X2-Full Time Excluding Overtime),3:1,Nordicbet,1.85,10.00,8.50,interfix,2014-03-08 22:33:53
+633,2014-03-08 16:00:00,SOC,Serbia,FK Cukaricki Stankom - OFK Belgrade,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Marathonbet,3.45,10.00,-10.00,interfix,2014-03-08 14:51:30
+634,2014-03-08 14:00:00,SOC,Ger. Oberliga,TSG Balingen-Nottingen,20,WIN,2 ( 1X2),1:2,Bet365,2,10.00,10.00,interfix,2014-03-08 13:54:32
+635,2014-03-08 16:00:00,SOC,South Africa,University of Pretoria-Orlando Pirates,0.00,LOST,2 ( 1X2),1:0,188bet,2.1,10.00,-10.00,interfix,2014-03-08 12:45:14
+636,2014-03-08 15:00:00,SOC,Eng. Conference,Forest Green-Cambridge,23,WIN,1 ( 1X2),3-2,Ladbrokes,2.3,10.00,13.00,interfix,2014-03-08 12:39:47
+637,2014-03-08 14:00:00,SOC,Ger. Oberliga,FC Burg - Vatan Sport Bremen,22.5,WIN,Vatan Sport Bremen (1X2-Full Time Excluding Overtime),1:3,William Hill,2.25,10.00,12.50,interfix,2014-03-08 12:07:26
+638,2014-03-08 14:00:00,BSK,Turkey,Mersin Buyuksehir Belediyesi - Olin Edirne Genclik,0.00,LOST,Mersin Buyuksehir Belediyesi (Match Winner-Full Time Including Overtime),77:78,TIPICO,1.55,10.00,-10.00,interfix,2014-03-08 10:34:19
+639,2014-03-07 20:00:00,FSL,Other,FC Benago Zruc nad Sazavou - Kajot Helas Brno,57.5,WIN,Draw (1X2-Full Time Excluding Overtime),1-1,Sportingbet,5.75,10.00,47.50,interfix,2014-03-07 19:38:15
+640,2014-03-05 17:00:00,HNB,Europe,Banik Most W - Iuventa Michalovce W,0.00,LOST,Banik Most W (1X2-Full Time Excluding Overtime),26:31,TIPICO,1.6,10.00,-10.00,interfix,2014-03-05 12:21:27
+641,2014-03-01 18:00:00,FSL,Portugal,Rio Ave - Modicus Sandim,16.5,WIN,Rio Ave (1X2-Full Time Excluding Overtime),4:0,Bet-at-home,1.65,10.00,6.50,interfix,2014-03-01 17:12:59
+642,2014-03-01 12:00:00,SOC,Ger. Regionalliga,1. FC Koln II - KFC Uerdingen 05,0.00,LOST,1. FC Koln II (1X2-Full Time Excluding Overtime),0:0,Marathonbet,2.18,10.00,-10.00,interfix,2014-03-01 11:30:13
+643,2014-02-28 16:00:00,SOC,Greece,Glyfada-Asteras Magoulas,18.5,WIN,2 ( 1X2),0-3,William Hill,1.85,10.00,8.50,interfix,2014-02-28 12:11:11
+644,2014-02-28 16:00:00,HNB,Other,HC Zalau W - HCM Roman W,20,WIN,HC Zalau W (1X2-Full Time Excluding Overtime),22:19,Unibet,2,10.00,10.00,interfix,2014-02-28 10:19:39
+645,2014-02-28 17:00:00,HNB,Other,HC Lovcen Cetinje-RK Vojvodina,15.7,WIN,2 ( 1X2),25:28,Bet365,1.57,10.00,5.70,interfix,2014-02-28 10:14:00
+646,2014-02-28 11:00:00,SOC,Other,Lokomotiv - Skif,24,WIN,Lokomotiv,36:28,BWIN,2.4,10.00,14.00,interfix,2014-02-28 08:36:24
+647,2014-02-28 18:30:00,HNB,Denmark,Nykobing F. Handboldklub W - Skive FH W,17.5,WIN,Skive FH W (1X2-Full Time Excluding Overtime),24-25,Sportingbet,1.75,10.00,7.50,interfix,2014-02-27 21:55:10
+648,2014-02-26 11:30:00,SOC,Turkey,Bandirmaspor-Diarb. B.S.Diskispor,18.3,WIN,1 ( 1X2),3-1,Sportingbet,1.83,10.00,8.30,interfix,2014-02-26 11:08:38
+649,2014-02-25 13:00:00,SOC,Montenegro,Grbalj Radanovici-Rudar Pljevija,28.8,WIN,2 ( 1X2),1-3,William Hill,2.88,10.00,18.80,interfix,2014-02-25 09:59:43
+650,2014-02-25 13:00:00,HKY,Russia,Belye Tigry-Molot Perm,0.00,LOST,2 ( 1X2),4-3,EXPEKT,2.3,10.00,-10.00,interfix,2014-02-25 09:36:26
+651,2014-02-23 17:00:00,VLB,Belgium,Waremme-Axis Shanks Guibertin,0.00,LOST,2 ( ML),3:1,Bet365,1.9,10.00,-10.00,interfix,2014-02-23 15:27:07
+652,2014-02-23 14:00:00,SOC,Ger. Oberliga,Roland Beckum-Rodinghausen,0.00,LOST,2 ( 1X2),1:0,William Hill,2.3,10.00,-10.00,interfix,2014-02-23 12:38:47
+653,2014-02-23 12:00:00,SOC,Other,Radnicki 1923 - Radnicki Nis,0.00,LOST,Radnicki 1923,0:0,Sportingbet,2.85,10.00,-10.00,interfix,2014-02-23 10:23:14
+654,2014-02-23 12:00:00,SOC,Other,Inter Baku - FK Baku,32.5,WIN,DRAW,1:1,BWIN,3.25,10.00,22.50,interfix,2014-02-23 10:13:12
+655,2014-02-23 14:00:00,SOC,Other,FC Vigor Wuitens Hamme - KM Torhout 1992,16,WIN,FC Vigor Wuitens Hamme,3:2,BWIN,1.6,10.00,6.00,interfix,2014-02-23 09:11:41
+656,2014-02-22 16:00:00,VLB,Bulgaria,Pirin Balkanstroy Razlog - Montana,0.00,LOST,Pirin Balkanstroy Razlog (Match Winner-Full Event),1:3,Sportingbet,1.73,10.00,-10.00,interfix,2014-02-22 14:52:37
+657,2014-02-16 13:00:00,SOC,Greece,Tyrnavos 2005 FC - Aiginiakos FC,21,WIN,Aiginiakos FC (1X2-Full Time Excluding Overtime),1:2,EXPEKT,2.1,10.00,11.00,interfix,2014-02-16 12:57:07
+658,2014-02-15 13:30:00,SOC,Ita. Serie C,Castel Rigone - Casertana,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,MYBET,2.95,10.00,-10.00,interfix,2014-02-15 12:20:21
+659,2014-02-15 12:00:00,BSK,Turkey,TED Ankara Kolejliler-Orduspor,18,WIN,2 ( ML),56:75,TIPICO,1.8,10.00,8.00,interfix,2014-02-15 11:34:05
+660,2014-02-15 17:00:00,VLB,Greece,Makedones Axioy W - Iraklis Thessaloniki W,26.2,WIN,Iraklis Thessaloniki W (Match Winner-Full Event),1:3,Ladbrokes,2.62,10.00,16.20,interfix,2014-02-15 11:16:49
+661,2014-02-15 18:00:00,BSK,Croatia,Vrijednosnice OS Darda - KK Duro Dakovic,15.5,WIN,Vrijednosnice OS Darda (Match Winner-Full Time Including Overtime),91:77,Bet-at-home,1.55,10.00,5.50,interfix,2014-02-15 09:39:46
+662,2014-02-15 13:00:00,SOC,Tunesia,Sfaxien-Tozeur,16.7,WIN,1 ( 1X2),1:0,Unibet,1.67,10.00,6.70,interfix,2014-02-15 09:08:31
+663,2014-02-10 13:00:00,SOC,Greece,Glyfada-Acharnaikos,17.3,WIN,2 ( 1X2),0-1,William Hill,1.73,10.00,7.30,interfix,2014-02-10 11:07:18
+664,2014-02-09 16:00:00,FBL,Sweden,Tyreso Trollbacken-KAIS Mora IF,0.00,LOST,2 ( 1X2),10:5,Unibet,2,10.00,-10.00,interfix,2014-02-09 15:50:39
+665,2014-02-09 13:30:00,SOC,Ita. Serie C,Bellaria Igea-Rimini,19.1,WIN,2 ( 1X2),0:1,William Hill,1.91,10.00,9.10,interfix,2014-02-09 13:21:06
+666,2014-02-09 13:30:00,SOC,Other,Pavia - Carrarese,31,WIN,DRAW,1:1,Unibet,3.1,10.00,21.00,interfix,2014-02-09 13:11:34
+667,2014-02-09 13:30:00,SOC,Other,Ascoli - Grosseto,0.00,LOST,DRAW 1X2,0:1,BetClic,3.2,10.00,-10.00,interfix,2014-02-09 13:02:56
+668,2014-02-09 14:00:00,FBL,Norway,Greaker-Sveiva Oldstars,0.00,LOST,1 ( 1X2),3:3,Unibet,1.65,10.00,-10.00,interfix,2014-02-09 12:59:15
+669,2014-02-09 13:00:00,SOC,Greece,Asteras Magoulas - Episkopi FC,25,WIN,Asteras Magoulas (1X2-Full Time Excluding Overtime),3:2,Sportingbet,2.5,10.00,15.00,interfix,2014-02-09 12:37:48
+670,2014-02-09 13:00:00,SOC,Greece,Kallithea-Fostiras,0.00,LOST,1 ( 1X2),1:1,Sportingbet,1.73,10.00,-10.00,interfix,2014-02-09 12:22:57
+671,2014-02-09 15:15:00,SOC,Malta,Zebbug Rangers-Lija Athletic,0.00,LOST,1 ( 1X2),3:3,William Hill,2,10.00,-10.00,interfix,2014-02-09 11:43:30
+672,2014-02-09 12:00:00,SOC,Other,Tarsus Belediye - Mersin Buyuksehir Belediye,17.2,WIN,Mersin Buyuksehir Belediye ML,78:81,Marathonbet,1.72,10.00,7.20,interfix,2014-02-09 11:09:45
+673,2014-02-07 18:30:00,HKY,Germany,Starbulls Rosenheim - SC Riessersee,10,PUSH,Starbulls Rosenheim (1X2-Full Time Excluding Overtime),Aband.,Sportingbet,1.85,10.00,0.00,interfix,2014-02-07 08:47:24
+674,2014-02-02 15:15:00,SOC,Greece,Kallonis-Asteras Tripolis,17,WIN,2 ( 1X2),0:2,Dafabet,1.7,10.00,7.00,interfix,2014-02-02 13:49:51
+675,2014-02-02 13:30:00,SOC,Other,Lecce - Perugia,0.00,LOST,DRAW,3:4,Bet365,3.2,10.00,-10.00,interfix,2014-02-02 12:30:20
+676,2014-02-02 13:30:00,SOC,Ita. Serie C,Alessandria-Real Vicenza VS,0.00,LOST,X ( 1X2),2:0,TIPICO,3.1,10.00,-10.00,interfix,2014-02-02 12:28:45
+677,2014-02-02 13:00:00,SOC,Other,Kavala - Pierikos,18,WIN,Kavala,2:0,BetClic,1.8,10.00,8.00,interfix,2014-02-02 11:37:42
+678,2014-02-01 15:00:00,SOC,Other,OK Varazdin - OK Karlovac,16,WIN,OK Karlovac ML,0:3,BWIN,1.6,10.00,6.00,interfix,2014-02-01 11:34:53
+679,2014-01-26 13:30:00,SOC,Other,Messina - Castel Rigone,21,WIN,Messina,2:0,BWIN,2.1,10.00,11.00,interfix,2014-01-26 13:01:40
+680,2014-01-26 13:00:00,SOC,Greece,Paniliakos F.C. - Kallithea,22.5,WIN,Paniliakos F.C. (1X2-Full Time Excluding Overtime),1:0,Betsson SB,2.25,10.00,12.50,interfix,2014-01-26 12:30:13
+681,2014-01-19 13:00:00,SOC,Malta,Mosta FC - Floriana FC,19,WIN,Mosta FC (1X2-Full Time Excluding Overtime),1:0,BETWAY,1.9,10.00,9.00,interfix,2014-01-19 12:14:05
+682,2014-01-19 11:30:00,SOC,Ita. Serie B,Varese-Novara,32,WIN,X ( 1X2),1:1,William Hill,3.2,10.00,22.00,interfix,2014-01-19 10:53:16
+683,2014-01-14 19:30:00,SOC,Wales,Bala Town-Bangor City,0.00,LOST,X ( 1X2),1-0,Bet365,3.75,10.00,-10.00,interfix,2014-01-14 18:58:30
+684,2014-01-12 13:30:00,SOC,Other,Pro Patria - Pro Vercelli,32.3,WIN,DRAW,0:0,5dimes,3.23,10.00,22.30,interfix,2014-01-12 13:00:52
+685,2014-01-11 15:00:00,SOC,Cyprus,Aris-Kouklion,22,WIN,1 ( 1X2),4:0,TIPICO,2.2,10.00,12.00,interfix,2014-01-11 13:52:30
+686,2014-01-05 11:30:00,SOC,Greece,Kifisia-Pannaxiakos,17,WIN,1 ( 1X2),2:0,Sportingbet,1.7,10.00,7.00,interfix,2014-01-05 08:05:05
+687,2014-01-04 13:00:00,SOC,Tunesia,CA Bizertin-Tozeur,17,WIN,1 ( 1X2),4:0,TIPICO,1.7,10.00,7.00,interfix,2014-01-04 11:25:31
+688,2013-12-21 14:00:00,WTR,Other,Rari Nantes Bogliasco-Rari Nantes Florentia,19,WIN,1 ( 1X2),9:6,Unibet,1.9,10.00,9.00,interfix,2013-12-21 11:28:20
+689,2013-12-20 13:00:00,SOC,Greece,Acharnaikos - Paniliakos F.C.,19.5,WIN,Acharnaikos (1X2-Full Time Excluding Overtime),3-1,Sportingbet,1.95,10.00,9.50,interfix,2013-12-20 11:32:23
+690,2013-12-15 15:00:00,VLB,Germany,Bitterfeld Wolfen-LÃ¼neburg,22,WIN,2 ( ML),2-3,TIPICO,2.2,10.00,12.00,interfix,2013-12-15 11:13:41
+691,2013-12-15 09:00:00,BSK,Other,Lokomotiv Novosybirsk - Triumph Lyubertsy,0.00,LOST,Lokomotiv Novosybirsk ML,66-77,BWIN,1.8,10.00,-10.00,interfix,2013-12-14 21:43:06
+692,2013-12-14 16:00:00,HKY,Czech R.,HC Stadion Litomerice - HC Rebel Havlickuv Brod,22.5,WIN,HC Stadion Litomerice (1X2-Full Time Excluding Overtime),5:3,Sportingbet,2.25,10.00,12.50,interfix,2013-12-14 14:48:16
+693,2013-12-14 14:30:00,SOC,Other,Prestatyn - Bangor City,0.00,LOST,Bangor City,0:0,Interwetten,2.2,10.00,-10.00,interfix,2013-12-14 13:17:01
+694,2013-12-13 17:00:00,HNB,Other,HC Lovcen Cetinje-Brest HC Meshkov,16,WIN,2 ( 1X2),24:30,TIPICO,1.6,10.00,6.00,interfix,2013-12-13 10:51:53
+695,2013-12-08 17:30:00,HKY,Other,Blue Devils Weiden - EHC Bayreuth,18.5,WIN,EHC Bayreuth 1X2,0:3,BWIN,1.85,10.00,8.50,interfix,2013-12-08 16:21:45
+696,2013-12-08 15:15:00,SOC,Other,Panthrakikos - PAS Giannina,0.00,LOST,DRAW,2-0,Marathonbet,3.2,10.00,-10.00,interfix,2013-12-08 14:01:04
+697,2013-12-08 11:00:00,SOC,Moldova,Speranta Crihana Veche-Olimpia Baltis,17.5,WIN,2 ( 1X2),0:2,Unibet,1.75,10.00,7.50,interfix,2013-12-08 05:32:34
+698,2013-12-07 14:00:00,FBL,Sweden,Haninge FBC - Balrog IK,0.00,LOST,Balrog IK (1X2-Full Time Excluding Overtime),10-8,Betsson SB,1.95,10.00,-10.00,interfix,2013-12-07 09:11:42
+699,2013-12-07 14:00:00,WTR,Italy,CN Posillipo Naples - RN Savona,16.5,WIN,CN Posillipo Naples (1X2-Full Time Excluding Overtime),9:8,TIPICO,1.65,10.00,6.50,interfix,2013-12-07 09:09:26
+700,2013-12-01 13:00:00,SOC,Ger. Oberliga,SC Vier-Curslack-Neuengamme,18.3,WIN,2 ( 1X2),0-2,William Hill,1.83,10.00,8.30,interfix,2013-12-01 12:10:12
+701,2013-12-01 11:30:00,SOC,Turkey,Bozuyukspor-Ankaragucu,18,WIN,2 ( 1X2),0:2,Sportingbet,1.8,10.00,8.00,interfix,2013-12-01 11:29:44
+702,2013-11-30 16:00:00,FSL,Other,Ponzio Pescara-Napoli,0.00,LOST,1 ( 1X2),2:3,TIPICO,1.6,10.00,-10.00,interfix,2013-11-30 10:53:30
+703,2013-11-27 12:00:00,SOC,Montenegro,Grbalj Radanovici-Sutjeska,35,WIN,X ( 1X2),2-2,Bet365,3.5,10.00,25.00,interfix,2013-11-27 10:50:23
+704,2013-11-24 15:00:00,SOC,Cyprus,AEK Kouklia - Ethnikos Achnas,20.5,WIN,Ethnikos Achnas,0:2,BWIN,2.05,10.00,10.50,interfix,2013-11-24 13:36:08
+705,2013-11-24 13:30:00,SOC,Ita. Serie C,Feralpisalo - Albinoleffe,0.00,LOST,Albinoleffe (1X2-Full Time Excluding Overtime),2:2,Sportingbet,2.5,10.00,-10.00,interfix,2013-11-24 12:37:22
+706,2013-11-24 13:00:00,SOC,Greece,Aiginiakos-Apollon Kalamarias,20,WIN,1 ( 1X2),2:0,Bet365,2,10.00,10.00,interfix,2013-11-24 12:05:14
+707,2013-11-24 11:30:00,SOC,Livebet,FC Poltava - Bukovyna Chernivtsi,29.5,WIN,FC Poltava (1X2-Full Time Excluding Overtime),2:0,Marathonbet,2.95,10.00,19.50,interfix,2013-11-24 11:32:25
+708,2013-11-24 11:30:00,SOC,Turkey,Inegolspor - Giresunspor,0.00,LOST,Giresunspor,3:1,BetSafe,5.55,10.00,-10.00,interfix,2013-11-24 11:02:37
+709,2013-11-23 12:30:00,SOC,Bulgaria,Pirin Gotse Delchev-Lyubimetz,0.00,LOST,X ( 1X2),5:2,William Hill,3.4,10.00,-10.00,interfix,2013-11-23 11:52:29
+710,2013-11-23 17:00:00,VLB,Greece,Makedones Axioy W - Panathinaikos Athens W,19,WIN,Panathinaikos Athens W (Match Winner-Full Event),1:3,YOUWIN,1.9,10.00,9.00,interfix,2013-11-23 11:21:33
+711,2013-11-23 11:00:00,SOC,Moldova,Veris-FC Milsami Orhei,0.00,LOST,2 ( 1X2),0:0,Bet365,2.2,10.00,-10.00,interfix,2013-11-23 10:39:18
+712,2013-11-23 10:00:00,SOC,Belarussia,Dnepr Mogilev - Belshina Bobruisk,0.00,LOST,Dnepr Mogilev,1:5,188bet,2.02,10.00,-10.00,interfix,2013-11-23 09:49:11
+713,2013-11-22 19:00:00,HKY,Germany,Heilbronner EC - Lausitzer FÃ¼chse,0.00,LOST,Heilbronner EC 1X2,2-4,Wettpunkt,2.1,10.00,-10.00,interfix,2013-11-22 18:43:29
+714,2013-11-20 12:00:00,SOC,Other,Napredok-Teteks,20.5,WIN,2 ( 1X2),1-2,Bet365,2.05,10.00,10.50,interfix,2013-11-20 09:37:42
+715,2013-11-16 13:30:00,VLB,Greece,Iraklis Kifisias - Rethymno,0.00,LOST,Rethymno ML,3:2,TIPICO,1.7,10.00,-10.00,interfix,2013-11-16 12:24:36
+716,2013-11-12 10:00:00,SOC,Russia,Astrakhan - Biolog-Novokubansk,17.5,WIN,Astrakhan,1-0,BetClic,1.75,10.00,7.50,interfix,2013-11-12 09:57:45
+717,2013-11-12 10:00:00,SOC,Russia,Alania-D - Krasnodar-2,18,WIN,Alania-D,1-0,EXPEKT,1.8,10.00,8.00,interfix,2013-11-12 09:55:42
+718,2013-11-10 13:30:00,SOC,Ita. Serie C,Prato-Frosinone,31,WIN,X ( 1X2),3:3,Bet365,3.1,10.00,21.00,interfix,2013-11-10 12:38:09
+719,2013-11-10 11:15:00,SOC,Poland,Termalica BB Nieciecza - GÃ³rnik Leczna,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Marathonbet,3.3,10.00,-10.00,interfix,2013-11-10 10:37:58
+720,2013-11-09 11:00:00,SOC,Lithuania,FK Siauliai - Kruoja Pakruojis,17.5,WIN,Kruoja Pakruojis (1X2-Full Time Excluding Overtime),2:5,BETWAY,1.75,10.00,7.50,interfix,2013-11-09 09:08:02
+721,2013-11-09 15:00:00,SOC,Cyprus,Ethnikos Achnas - Doxa Katokopia,0.00,LOST,Ethnikos Achnas,0:3,Interwetten,2.3,10.00,-10.00,interfix,2013-11-09 08:01:28
+722,2013-11-09 11:30:00,SOC,Ukraine,Poltava - FC Sumy,0.00,LOST,Poltava,1:1,BWIN,2.1,10.00,-10.00,interfix,2013-11-08 15:09:03
+723,2013-11-03 19:00:00,SOC,Croatia,RNK Split - HNK Rijeka,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Bet365,3.3,10.00,-10.00,interfix,2013-11-03 17:50:55
+724,2013-11-03 15:00:00,SOC,Belgium,FC Nieuwkerken St. Niklaas - Standard Wetteren,17.3,WIN,FC Nieuwkerken St. Niklaas (1X2-Full Time Excluding Overtime),1:0,Betsson SB,1.73,10.00,7.30,interfix,2013-11-03 12:14:09
+725,2013-11-03 13:30:00,SOC,Bosnia & Herz.,Radnik Bn - FK Sarajevo,21,WIN,FK Sarajevo (1X2-Full Time Excluding Overtime),1:2,William Hill,2.1,10.00,11.00,interfix,2013-11-03 12:07:25
+726,2013-11-02 12:30:00,SOC,Serbia,Donji Srem - FK Radnicki Nis,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),0:1,Bet365,3.1,10.00,-10.00,interfix,2013-11-02 11:01:25
+727,2013-10-27 13:30:00,SOC,Ita. Serie C,Ischia Isolaverde - Vigor Lamezia,31,WIN,Draw (1X2-Full Time Excluding Overtime),1:1,Betsson SB,3.1,10.00,21.00,interfix,2013-10-27 13:27:33
+728,2013-10-27 13:00:00,SOC,Greece,Anagennisi Giannitsa - Zakynthos,23,WIN,Anagennisi Giannitsa (1X2-Full Time Excluding Overtime),2:0,Betsson SB,2.3,10.00,13.00,interfix,2013-10-27 12:32:06
+729,2013-10-27 11:30:00,SOC,Turkey,Aydinspor Izmir - Gumushanespor,0.00,LOST,Aydinspor Izmir (1X2-Full Time Excluding Overtime),0:1,MYBET,2.25,10.00,-10.00,interfix,2013-10-27 10:57:33
+730,2013-10-27 11:00:00,SOC,Czech Rep.,SK Viktorie Jirny - Stechovice,20,WIN,SK Viktorie Jirny,1:0,Bet365,2,10.00,10.00,interfix,2013-10-27 10:55:49
+731,2013-10-26 17:30:00,FSL,Portugal,Boavista - Povoa Futsal Clube,0.00,LOST,Boavista (1X2-Full Time Excluding Overtime),3:6,BETWAY,2.05,10.00,-10.00,interfix,2013-10-26 16:39:46
+732,2013-10-25 19:00:00,FSL,Spain,FC Barcelona - Elpozo Murcia FS,21,WIN,FC Barcelona (1X2-Full Time Excluding Overtime),2-1,BETWAY,2.1,10.00,11.00,interfix,2013-10-25 15:35:39
+733,2013-10-20 15:15:00,SOC,Greece,OFI Crete-Ergotelis,0.00,LOST,1 ( 1X2),1:1,Coral,1.73,10.00,-10.00,interfix,2013-10-20 08:16:13
+734,2013-10-19 11:30:00,SOC,China,Shenzhen Shangqingyin-Chongqing FC,0.00,LOST,2 ( 1X2),2:1,SBOBET,2.1,10.00,-10.00,interfix,2013-10-19 10:11:04
+735,2013-10-12 15:00:00,VLB,Austria,TSV Hartberg-UVC Graz,17.2,WIN,2 ( ML),1:3,Bet365,1.72,10.00,7.20,interfix,2013-10-12 14:33:38
+736,2013-10-10 14:00:00,SOC,Russia,Metallurg Lipetsk-Avangard Kursk,0.00,LOST,X ( 1X2),2-0,BWIN,3.4,10.00,-10.00,interfix,2013-10-10 11:21:20
+737,2013-10-06 13:00:00,SOC,Other,Pelister Bitola-Vardar Skopje,0.00,LOST,1 ( 1X2),1:2,Bet-at-home,2.3,10.00,-10.00,interfix,2013-10-06 12:01:00
+738,2013-10-06 13:00:00,SOC,Ita. Serie C,Albinoleffe-Pro Vercelli,30,WIN,X ( 1X2),2:2,Bet365,3,10.00,20.00,interfix,2013-10-06 11:58:40
+739,2013-10-05 13:00:00,SOC,Montenegro,Rudar Pljevija-F.K. Zeta Golubovci,0.00,LOST,1 ( 1X2),0:1,William Hill,2.1,10.00,-10.00,interfix,2013-10-05 12:00:42
+740,2013-09-15 14:00:00,SOC,Bulgaria,Lokomotiv Sofia-Beroe,0.00,LOST,X ( 1X2),1:0,Nordicbet,3.2,10.00,-10.00,interfix,2013-09-15 13:03:23

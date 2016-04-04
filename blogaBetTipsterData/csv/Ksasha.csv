@@ -1,0 +1,719 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-03-19 16:00:00,SOC,Croatia,Rijeka - Inter Zapresic,5.78,WIN,Full Event Home -1.75 (AH),4:0,PINNACLE,1925,3.00,2.78,Ksasha,2016-03-19 12:10:27
+2,2016-03-19 10:00:00,SOC,Belarussia,FC Minsk - Shakhtyor Soligorsk,0.00,LOST,Full Time Excluding Overtime Away (Draw No Bet),2:0,Bet365,2.1,3.00,-3.00,Ksasha,2016-03-18 19:39:01
+3,2016-03-17 17:30:00,SOC,Lithuania,Trakai FK - Stumbras Kaunas,0.00,LOST,Full Time Excluding Overtime Home -2.25 (Asian Handicap),3:2 (1:1),188bet,2.11,3.00,-3.00,Ksasha,2016-03-17 13:30:49
+4,2016-03-12 19:30:00,SOC,Spa. Primera,Atletico Madrid - Deportivo La Coruna,5.7,WIN,Full Time Excluding Overtime Home -1.50 (Asian Handicap),3-0,SBOBET,1.9,3.00,2.70,Ksasha,2016-03-12 15:10:03
+5,2016-03-12 15:00:00,SOC,Spa. Primera,Barcelona - Getafe,6.03,WIN,Full Event Home -3.50 (AH),6:0,PINNACLE,2.01,3.00,3.03,Ksasha,2016-03-12 08:21:20
+6,2016-03-11 13:40:00,SOC,UAE,Al Ain - Bani Yas FC,6.18,WIN,Full Time Excluding Overtime Home -1.50 (Asian Handicap),4:2 (3:0),Dafabet,2.06,3.00,3.18,Ksasha,2016-03-11 10:01:59
+7,2016-03-06 15:10:00,SOC,UAE,Al Jazira - Al Ain,6,WIN,Full Time Excluding Overtime Away (Home Draw Away),1:3,Bet365,2,3.00,3.00,Ksasha,2016-03-06 09:03:26
+8,2016-03-04 19:00:00,SOC,Netherlands,ADO Den Haag - FC Twente Enschede,0.00,LOST,Full Event Away +0.00 (AH),2:1,PINNACLE,2.23,3.00,-3.00,Ksasha,2016-03-03 19:35:56
+9,2016-03-02 19:45:00,SOC,Scotland,Dundee United FC - Aberdeen FC,0.00,LOST,Full Time Excluding Overtime Home +0.50 (Asian Handicap),0:1,188bet,1.91,3.00,-3.00,Ksasha,2016-03-02 18:30:50
+10,2016-03-02 20:00:00,SOC,Spa. Primera,Levante - Real Madrid,0.00,LOST,Full Event Home +1.00 (AH),1-3,SBOBET,2.16,3.00,-3.00,Ksasha,2016-03-02 17:02:42
+11,2016-03-02 13:00:00,SOC,Asia,Nasaf Qarshi - Al Ahli Jeddah,6.18,WIN,Full Time Excluding Overtime Home 0 (Asian Handicap),2:1,188bet,2.06,3.00,3.18,Ksasha,2016-03-01 18:59:14
+12,2016-02-28 20:00:00,SOC,Fra. Ligue 1,Olympique Lyonnais - Paris Saint-Germain FC,0.00,LOST,Full Time Excluding Overtime Away -0.75 (Asian Handicap),2:1,Bet365,2049,3.00,-3.00,Ksasha,2016-02-28 08:25:41
+13,2016-02-28 11:00:00,SOC,Spa. Segunda,Leganes - Alaves,5.79,WIN,Full Time Excluding Overtime Home -0.50 (Asian Handicap),2:0,SBOBET,1.93,3.00,2.79,Ksasha,2016-02-28 08:00:43
+14,2016-02-27 17:00:00,SOC,Ita. Serie A,Empoli - AS Roma,6.03,WIN,Full Time Excluding Overtime Away -0.50 (Asian Handicap),1:3,SBOBET,2.01,3.00,3.03,Ksasha,2016-02-27 16:01:42
+15,2016-02-27 09:00:00,SOC,Friendly,Dinamo Brest - FC Granit Mikashevichi,5.78,WIN,Full Time Excluding Overtime Away 0 (Asian Handicap),0:1,Bet365,1925,3.00,2.78,Ksasha,2016-02-27 08:12:56
+16,2016-02-20 17:15:00,SOC,Qatar,Al Arabi - Al-Rayyan,0.00,LOST,Al Arabi +0.75 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,1.98,3.00,-3.00,Ksasha,2016-02-20 10:48:13
+17,2016-02-20 19:00:00,SOC,Fra. Ligue 1,Angers - Montpellier,6.96,WIN,Away -0.25 (Match),2:3,PINNACLE,2.32,3.00,3.96,Ksasha,2016-02-20 08:52:48
+18,2016-02-20 09:00:00,SOC,Friendly,Dinamo Brest - FC Granit Mikashevichi,0.00,LOST,FC Granit Mikashevichi (1X2-Full Time Excluding Overtime),0:0,Bet365,2.25,3.00,-3.00,Ksasha,2016-02-19 19:13:52
+19,2016-02-14 16:15:00,SOC,UAE,Al Shabab Dubai - Al Jazira Abu Dhabi,6.27,WIN,Away 0 (Match),1:2,PINNACLE,2.09,3.00,3.27,Ksasha,2016-02-14 12:18:37
+20,2016-02-06 15:00:00,SOC,Scotland,Saint Johnstone - Aberdeen,6.42,WIN,Away -0.5 (Match),3:4,PINNACLE,2.14,3.00,3.42,Ksasha,2016-02-06 09:47:30
+21,2016-02-06 14:00:00,SOC,Greece,Platanias - Asteras Tripolis,5.85,WIN,Platanias -0.25 (Asian Handicap-Full Time Excluding Overtime),2:0,188bet,1.95,3.00,2.85,Ksasha,2016-02-06 08:33:01
+22,2016-02-02 20:45:00,SOC,Belgium,Racing Genk - Standard Liege,4.41,WIN,Standard Liege +0.25 (Asian Handicap-Full Time Excluding Overtime),1:1,Dafabet,1.94,3.00,1.41,Ksasha,2016-02-02 10:38:15
+23,2016-01-31 20:30:00,SOC,Spa. Primera,Real Madrid - RCD Espanyol,5.82,WIN,Real Madrid -2.5 (Asian Handicap-Full Time Excluding Overtime),6:0,188bet,1.94,3.00,2.82,Ksasha,2016-01-31 10:45:18
+24,2016-01-31 15:00:00,SOC,Belgium,Union St.-Gilloise - Seraing United,0.00,LOST,Union St.-Gilloise -0.75 (Asian Handicap-Full Time Excluding Overtime),1:2,188bet,1.96,3.00,-3.00,Ksasha,2016-01-31 08:57:26
+25,2016-01-30 19:00:00,SOC,Belgium,Sporting Charleroi - KV Mechelen,4.53,WIN,Home -0.75 (Match),3:2,PINNACLE,2.02,3.00,1.53,Ksasha,2016-01-30 08:01:10
+26,2016-01-30 19:00:00,SOC,Fra. Ligue 1,SC Bastia - Lyon,0.00,LOST,Away -0.75 (Match),1:0,PINNACLE,2.02,3.00,-3.00,Ksasha,2016-01-29 19:48:48
+27,2016-01-23 14:00:00,SOC,UAE,Al Shabab - Al Wahda,5.55,WIN,Al Shabab 0 (Asian Handicap-Full Time Excluding Overtime),1-0,SBOBET,1.85,3.00,2.55,Ksasha,2016-01-23 11:23:26
+28,2016-01-20 21:00:00,SOC,Spa. Copa Del Rey,Athletic Bilbao - FC Barcelona,0.00,LOST,Athletic Bilbao +0.25 (Asian Handicap-Full Time Excluding Overtime),1:2,SBOBET,2.13,3.00,-3.00,Ksasha,2016-01-20 15:26:50
+29,2016-01-19 17:00:00,SOC,Friendly,Russia U21 - Latvia U21,4.53,WIN,Latvia U21 +1.25 (Asian Handicap-Full Time Excluding Overtime),2:1,188bet,2.02,3.00,1.53,Ksasha,2016-01-19 11:22:45
+30,2016-01-17 19:30:00,SOC,Spa. Primera,Barcelona - Athletic Bilbao,6.18,WIN,Home -2.25 (Match),6:0,PINNACLE,2.06,3.00,3.18,Ksasha,2016-01-17 13:13:45
+31,2016-01-17 16:00:00,SOC,Int'l Youth,Russia U21 - Tajikistan U21,5.7,WIN,Tajikistan U21 (+2),2:1,SBOBET,1.9,3.00,2.70,Ksasha,2016-01-17 07:59:42
+32,2016-01-17 09:00:00,SOC,Int'l U21,Belarus U21 (n) - Kyrgyzstan U21,5.82,WIN,Away +1 (Match),0:1,PINNACLE,1.94,3.00,2.82,Ksasha,2016-01-17 07:27:31
+33,2016-01-16 15:00:00,SOC,Scotland,Kilmarnock - Inverness,0.00,LOST,Away -0.5 (Match),2:1,PINNACLE,2.1,3.00,-3.00,Ksasha,2016-01-16 12:58:13
+34,2016-01-15 21:30:00,SOC,Por. Superliga,Sporting CP - CD Tondela,0.00,LOST,Sporting CP -2.5 (Asian Handicap-Full Time Excluding Overtime),2:2,SBOBET,2.06,3.00,-3.00,Ksasha,2016-01-15 15:45:57
+35,2016-01-13 20:30:00,SOC,Spa. Copa Del Rey,Celta de Vigo - Cadiz,6.12,WIN,Celta de Vigo -1.5 (Asian Handicap-Full Time Excluding Overtime),2:0,Dafabet,2.04,3.00,3.12,Ksasha,2016-01-13 10:44:23
+36,2016-01-13 17:00:00,SOC,Fra. Other,FC Toulouse - Olympique Marseille,3,PUSH,FC Toulouse 0 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.94,3.00,0.00,Ksasha,2016-01-13 06:37:52
+37,2016-01-10 18:30:00,SOC,Greece,Olympiakos Piraeus FC - Levadiakos,1.5,LOST,Olympiakos Piraeus FC -2.25 (Asian Handicap-Full Time Excluding Overtime),3:1,188bet,2.09,3.00,-1.50,Ksasha,2016-01-10 09:13:09
+38,2016-01-09 15:00:00,SOC,Scotland,East Fife - Berwick Rangers,4.74,WIN,Home -0.75 (Match),1:0,PINNACLE,2.16,3.00,1.74,Ksasha,2016-01-09 08:53:34
+39,2016-01-03 14:15:00,SOC,Qatar,Umm Salal - Al Sadd,5.82,WIN,Umm Salal +0.5 (Asian Handicap-Full Time Excluding Overtime),1:1,Dafabet,1.94,3.00,2.82,Ksasha,2016-01-03 09:57:54
+40,2015-12-31 08:00:00,SOC,Australia,Central Coast Mariners - Wellington Phoenix,6.42,WIN,Home 0 (Match),3:1,PINNACLE,2.14,3.00,3.42,Ksasha,2015-12-30 20:31:01
+41,2015-12-28 19:00:00,SOC,Turkey,Fenerbahce SK - Sivasspor,4.44,WIN,Sivasspor +1.25 (Asian Handicap-Full Time Excluding Overtime),2:1,SBOBET,1.96,3.00,1.44,Ksasha,2015-12-28 16:22:31
+42,2015-12-25 15:30:00,SOC,UAE,Al Wasl Dubai - Al Shabab,3,PUSH,Away 0 (Match),1:1,PINNACLE,1.91,3.00,0.00,Ksasha,2015-12-25 08:46:49
+43,2015-12-20 11:30:00,SOC,Turkey,Kayseri Erciyesspor - Karsiyaka,6.51,WIN,Home -0.25 (Match),2:1,PINNACLE,2.17,3.00,3.51,Ksasha,2015-12-20 08:52:05
+44,2015-12-20 19:45:00,SOC,Ita. Serie A,Inter Milan - Lazio,0.00,LOST,Home -0.75 (Match),1:2,PINNACLE,2,3.00,-3.00,Ksasha,2015-12-20 08:26:28
+45,2015-12-19 14:00:00,SOC,Turkey,Konyaspor - Bursaspor,0.00,LOST,Away 0 (Match),1:0,PINNACLE,2.19,3.00,-3.00,Ksasha,2015-12-19 12:34:03
+46,2015-12-19 15:00:00,SOC,Croatia,NK Dinamo Zagreb - Inter Zapresic,0.00,LOST,NK Dinamo Zagreb -2 (Asian Handicap-Full Time Excluding Overtime),1:0,188bet,1.91,3.00,-3.00,Ksasha,2015-12-19 11:22:11
+47,2015-12-18 20:30:00,SOC,Poland,TS Wisla Krakow - MKS Pogon Szczecin,6.69,WIN,MKS Pogon Szczecin 0 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2.23,3.00,3.69,Ksasha,2015-12-18 09:43:30
+48,2015-12-16 21:00:00,SOC,Fra. Other,Paris Saint-Germain FC - AS St. Etienne,0.00,LOST,Paris Saint-Germain FC -2 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,2.05,3.00,-3.00,Ksasha,2015-12-16 16:24:43
+49,2015-12-15 19:00:00,SOC,Fra. Other,Lorient - Dijon,6.18,WIN,Home -0.75 (Match),3:0,PINNACLE,2.06,3.00,3.18,Ksasha,2015-12-14 18:56:30
+50,2015-12-14 18:30:00,SOC,Romania,Viitorul Constanta - Steaua Bucuresti,0.00,LOST,Home +0.25 (Match),0:1,PINNACLE,1.99,3.00,-3.00,Ksasha,2015-12-14 09:43:16
+51,2015-12-09 19:45:00,SOC,Champions L,KAA Gent - Zenit St. Petersburg,5.91,WIN,Home -0.25 (Match),2:1,PINNACLE,1.97,3.00,2.91,Ksasha,2015-12-09 08:15:58
+52,2015-12-09 20:45:00,SOC,Champions L,AS Roma - BATE Borisov,0.00,LOST,AS Roma -1.5 (Asian Handicap-Full Time Excluding Overtime),0:0,SBOBET,2.06,3.00,-3.00,Ksasha,2015-12-09 07:09:41
+53,2015-12-06 00:30:00,SOC,Argentina,Estudiantes La Plata (n) - Olimpo Bahia Blanca,6.12,WIN,Home -0.75 (Match),4:0,PINNACLE,2.04,3.00,3.12,Ksasha,2015-12-05 16:26:49
+54,2015-12-03 21:00:00,SOC,Spa. Copa Del Rey,Ponferradina - Eibar,5.94,WIN,Ponferradina 0 (Asian Handicap-Full Time Excluding Overtime),3:0,188bet,1.98,3.00,2.94,Ksasha,2015-12-03 08:17:01
+55,2015-12-01 18:00:00,SOC,Ita. Coppa Italia,Torino FC - Cesena,5.82,WIN,Torino FC -1.25 (Asian Handicap-Full Time Excluding Overtime),4:1,188bet,1.94,3.00,2.82,Ksasha,2015-12-01 09:38:58
+56,2015-12-01 19:00:00,SOC,Spa. Copa Del Rey,Reus Deportiu - Atletico Madrid,4.37,WIN,Home +1.25 (Match),1:2,PINNACLE,1.91,3.00,1.37,Ksasha,2015-12-01 07:08:49
+57,2015-11-29 13:00:00,SOC,Ukraine,Volyn Lutsk - FC Metalurh Zaporizhya,6,WIN,Volyn Lutsk (EH 0:2 - Full Time Excluding Overtime),9:1,12BET,2,3.00,3.00,Ksasha,2015-11-29 07:58:34
+58,2015-11-28 18:30:00,SOC,Romania,Viitorul Constanta-CS U Craiova,5.76,WIN,1 (-0.25 AH),4:0,188bet,1.92,3.00,2.76,Ksasha,2015-11-28 15:24:56
+59,2015-11-27 19:30:00,SOC,Romania,SC FC Petrolul Ploiesti - CFR 1907 Cluj,6.15,WIN,SC FC Petrolul Ploiesti 0 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,2.05,3.00,3.15,Ksasha,2015-11-27 12:04:53
+60,2015-11-24 17:00:00,SOC,Champions L,BATE Borisov - Bayer Leverkusen,0.00,LOST,Away -0.75 (Match),1-1,PINNACLE,1.93,3.00,-3.00,Ksasha,2015-11-23 13:24:40
+61,2015-11-22 12:00:00,SOC,Ukraine,Obolon Kiev - FK Hirnyk Kryvyi Rih,6,WIN,FK Hirnyk Kryvyi Rih +0.25 (Asian Handicap-Full Time Excluding Overtime),2:3,Bet365,2,3.00,3.00,Ksasha,2015-11-22 08:36:19
+62,2015-11-14 14:00:00,SOC,Belarussia,FC Gomel - FK Slutsk,6.3,WIN,FK Slutsk (1X2-Full Time Excluding Overtime),0:3,Bet365,2.1,3.00,3.30,Ksasha,2015-11-13 18:36:43
+63,2015-11-13 18:30:00,SOC,Friendly,NK Olimpija Ljubljana - Udinese Calcio,0.00,LOST,NK Olimpija Ljubljana (1X2-Full Time Excluding Overtime),3:3,Bet365,2.05,3.00,-3.00,Ksasha,2015-11-13 08:29:39
+64,2015-11-12 11:00:00,SOC,Belarussia,Naftan Novopolotsk - Dinamo Brest,5.82,WIN,Home -0.75 (Match),3:1,PINNACLE,1.94,3.00,2.82,Ksasha,2015-11-12 09:38:13
+65,2015-11-08 17:00:00,SOC,Fra. Ligue 1,Olympique Marseille - OGC Nice,5.76,WIN,OGC Nice +0.75 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.92,3.00,2.76,Ksasha,2015-11-08 13:08:41
+66,2015-11-08 12:00:00,SOC,Belarussia,FC Gomel - Dinamo Minsk,4.35,WIN,Dinamo Minsk -0.75 (Asian Handicap-Full Time Excluding Overtime),1:2,Bet365,1.9,3.00,1.35,Ksasha,2015-11-08 07:51:04
+67,2015-11-07 20:00:00,SOC,Fra. Ligue 1,FC Lorient - AC Troyes AC,6.39,WIN,FC Lorient -1 (Asian Handicap-Full Time Excluding Overtime),4:1,SBOBET,2.13,3.00,3.39,Ksasha,2015-11-07 15:36:48
+68,2015-11-07 16:30:00,SOC,Russia,Terek Grozny - Spartak Moscow,6.21,WIN,Home -0.25 (Match),2:1,PINNACLE,2.07,3.00,3.21,Ksasha,2015-11-07 06:29:31
+69,2015-11-05 18:00:00,SOC,Europa League,Dinamo Minsk - Villarreal CF,3,PUSH,Villarreal CF -1 (Asian Handicap-Full Time Excluding Overtime),1:2,Bet365,1.98,3.00,0.00,Ksasha,2015-11-04 19:46:44
+70,2015-11-04 19:45:00,SOC,Champions L,FC Barcelona - BATE Borisov,4.5,WIN,FC Barcelona -2.75 (Asian Handicap-Full Time Excluding Overtime),3-0,SBOBET,2,3.00,1.50,Ksasha,2015-11-03 19:18:03
+71,2015-10-31 18:00:00,SOC,Croatia,NK Istra 1961 Pula - NK Zagreb,4.62,WIN,NK Zagreb +0.25 (Asian Handicap-Full Time Excluding Overtime),0:0,Bet365,2.08,3.00,1.62,Ksasha,2015-10-31 15:38:37
+72,2015-10-31 11:00:00,SOC,Belarussia,FC Granit Mikashevichi - FC Minsk,6.6,WIN,FC Granit Mikashevichi (1X2-Full Time Excluding Overtime),2:0,Bet365,2.2,3.00,3.60,Ksasha,2015-10-31 07:58:54
+73,2015-10-31 11:00:00,SOC,Belarussia,FK Slutsk - Neman Grodno,0.00,LOST,FK Slutsk (1X2-Full Time Excluding Overtime),0:0,188bet,1.9,3.00,-3.00,Ksasha,2015-10-31 07:53:12
+74,2015-10-31 11:00:00,SOC,Belarussia,Slavia Mozyr - FC Gomel,6,WIN,Slavia Mozyr -0.5 (Asian Handicap-Full Time Excluding Overtime),3:1,Dafabet,2,3.00,3.00,Ksasha,2015-10-31 07:44:05
+75,2015-10-30 17:00:00,SOC,Ukraine,Zorya Lugansk - Shakhtar Donetsk,6.27,WIN,Away -1.75 (Match),1:7,PINNACLE,2.09,3.00,3.27,Ksasha,2015-10-30 12:45:45
+76,2015-10-28 19:30:00,SOC,Spa. Copa Del Rey,CF Villanovense - FC Barcelona,5.82,WIN,CF Villanovense +2.25 (Asian Handicap-Full Time Excluding Overtime),0:0,188bet,1.94,3.00,2.82,Ksasha,2015-10-28 10:41:49
+77,2015-10-25 22:00:00,SOC,USA,Columbus Crew - D.C. United Washington,0.00,LOST,D.C. United Washington +0.75 (Asian Handicap-Full Time Excluding Overtime),5:0,SBOBET,1.92,3.00,-3.00,Ksasha,2015-10-25 18:35:09
+78,2015-10-25 16:00:00,SOC,Cyprus,Doxa Katokopias - Enosis Neon Paralimni,6.03,WIN,Home -0.5 (Match),2:1,PINNACLE,2.01,3.00,3.03,Ksasha,2015-10-25 12:35:48
+79,2015-10-25 14:30:00,SOC,Belarussia,BATE Borisov - Naftan Novopolotsk,6.06,WIN,Naftan Novopolotsk +1.5 (Asian Handicap-Full Time Excluding Overtime),2:1,188bet,2.02,3.00,3.06,Ksasha,2015-10-25 08:40:24
+80,2015-10-25 11:00:00,SOC,Belarussia,FC Gomel - FC Slutsk,6.54,WIN,Away -0.25 (Match),1:3,PINNACLE,2.18,3.00,3.54,Ksasha,2015-10-25 08:03:34
+81,2015-10-24 15:00:00,SOC,Romania,Voluntari - Petrolul Ploiesti,6.06,WIN,Home 0 (Match),1:0,PINNACLE,2.02,3.00,3.06,Ksasha,2015-10-24 11:23:57
+82,2015-10-23 16:00:00,SOC,Estonia,Tammeka - Sillamae Kalev,0.00,LOST,Tammeka (+0.5),1-4,5dimes,1.93,3.00,-3.00,Ksasha,2015-10-23 10:17:09
+83,2015-10-21 18:45:00,SOC,Champions L,Atletico Madrid - FC Astana,6.12,WIN,Home -2.25 (Match),4-0,PINNACLE,2.04,3.00,3.12,Ksasha,2015-10-20 08:11:43
+84,2015-10-20 18:45:00,SOC,Champions L,BATE Borisov - FC Barcelona,5.82,WIN,FC Barcelona -1.5 (Asian Handicap-Full Time Excluding Overtime),0:2,188bet,1.94,3.00,2.82,Ksasha,2015-10-19 09:22:45
+85,2015-10-18 11:00:00,SOC,Ukraine,Olimpik Donetsk - Metallist Kharkiv,6.27,WIN,Home -0.25 (Match),3:0,PINNACLE,2.09,3.00,3.27,Ksasha,2015-10-18 08:59:19
+86,2015-10-18 14:00:00,SOC,Ukraine,PFC Oleksandria - Volyn Lutsk,0.00,LOST,Away -0.25 (Match),3:1,PINNACLE,2.04,3.00,-3.00,Ksasha,2015-10-18 08:46:25
+87,2015-10-18 16:30:00,SOC,Ukraine,Karpaty Lviv - Vorskla Poltava,0.00,LOST,Home 0 (Match),1:3,PINNACLE,1.94,3.00,-3.00,Ksasha,2015-10-18 08:35:46
+88,2015-10-19 15:30:00,SOC,Belarussia,Dinamo Brest - FC Gomel,0.00,LOST,Dinamo Brest (1X2-Full Time Excluding Overtime),0:4,Bet365,2,3.00,-3.00,Ksasha,2015-10-17 08:06:28
+89,2015-10-11 08:00:00,SOC,Friendly,CSKA Moscow - Mordoviya Saransk,7.11,WIN,Mordoviya Saransk (Draw No Bet-Full Time Excluding Overtime),1:3,Bet365,2.37,3.00,4.11,Ksasha,2015-10-11 06:10:29
+90,2015-10-10 11:00:00,SOC,Friendly,Dynamo Kiev-Stal Dniprodzerzhinsk,0.00,LOST,2 (+0.5 AH),4:0,SBOBET,1.9,3.00,-3.00,Ksasha,2015-10-10 07:42:58
+91,2015-10-09 18:45:00,SOC,UEFA EURO Q,Slovakia - Belarus,0.00,LOST,Slovakia -1 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2.12,3.00,-3.00,Ksasha,2015-10-08 08:23:29
+92,2015-10-04 17:00:00,SOC,Belarussia,Shakhtyor Soligorsk - FC Minsk,0.00,LOST,Away +0.25 (Match),1:0,PINNACLE,2.14,3.00,-3.00,Ksasha,2015-10-04 10:48:37
+93,2015-10-04 12:00:00,SOC,Fra. Ligue 1,AS Monaco - Stade Rennes FC,0.00,LOST,AS Monaco -0.75 (Asian Handicap-Full Time Excluding Overtime),1:1,Dafabet,2.06,3.00,-3.00,Ksasha,2015-10-04 10:22:34
+94,2015-10-04 15:30:00,SOC,Belarussia,FC Gomel - Naftan Novopolotsk,6.15,WIN,Naftan Novopolotsk -0.75 (Asian Handicap-Full Time Excluding Overtime),1:4,Dafabet,2.05,3.00,3.15,Ksasha,2015-10-04 09:25:32
+95,2015-10-01 16:00:00,SOC,Estonia,FC Infonet - JK Tulevik Viljandi,5.88,WIN,JK Tulevik Viljandi +2 (Asian Handicap-Full Time Excluding Overtime),2-1,Dafabet,1.96,3.00,2.88,Ksasha,2015-10-01 07:59:59
+96,2015-10-01 19:05:00,SOC,Europa League,Dinamo Minsk - SK Rapid Wien,6.42,WIN,SK Rapid Wien (1X2-Full Time Excluding Overtime),0:1,5dimes,2.14,3.00,3.42,Ksasha,2015-10-01 06:52:57
+97,2015-09-29 15:00:00,SOC,Other,Minsk U19 - Viitorul U19,5.73,WIN,Home +1.25 (Match),2:2,PINNACLE,1.91,3.00,2.73,Ksasha,2015-09-29 12:13:29
+98,2015-09-29 18:45:00,SOC,Champions L,BATE Borisov - AS Roma,0.00,LOST,Away -0.5 (Match),3-2,PINNACLE,1.92,3.00,-3.00,Ksasha,2015-09-29 06:47:21
+99,2015-09-28 15:30:00,SOC,Belarussia,FC Vitebsk - FC Gomel,3,PUSH,Home -1 (Match),1 - 0,PINNACLE,2,3.00,0.00,Ksasha,2015-09-28 08:46:18
+100,2015-09-27 12:30:00,SOC,Belarussia,FK Slutsk - FC Belshina Bobruisk,3,PUSH,FK Slutsk 0 (Asian Handicap-Full Time Excluding Overtime),0:0,Bet365,2.15,3.00,0.00,Ksasha,2015-09-27 08:19:09
+101,2015-09-26 20:05:00,SOC,Spa. Primera,Eibar - Celta de Vigo,0.00,LOST,Celta de Vigo -0.5 (Asian Handicap-Full Time Excluding Overtime),1-1,SBOBET,2.09,3.00,-3.00,Ksasha,2015-09-26 08:59:36
+102,2015-09-24 17:45:00,SOC,Switzerland,FC Wohlen - FC Biel-Bienne,6.12,WIN,FC Wohlen -0.25 (Asian Handicap-Full Time Excluding Overtime),2:0,5dimes,2.04,3.00,3.12,Ksasha,2015-09-24 14:35:36
+103,2015-09-24 16:00:00,SOC,Russia,FC Tosno - Rostov FK,1.5,LOST,Home -0.25 (Match),0:0,PINNACLE,2.2,3.00,-1.50,Ksasha,2015-09-23 12:16:48
+104,2015-09-23 15:30:00,SOC,Russia,Shinnik Yaroslavl - Kuban Krasnodar,0.00,LOST,Home -0.5 (Match),1:2,PINNACLE,2.06,3.00,-3.00,Ksasha,2015-09-22 18:53:39
+105,2015-09-24 07:00:00,SOC,Russia,Energiya Khabarovsk - FK Rubin Kazan,6.21,WIN,Energiya Khabarovsk (1X2-Full Time Excluding Overtime),2:0,SBOBET,2.07,3.00,3.21,Ksasha,2015-09-22 06:31:23
+106,2015-09-21 14:00:00,SOC,Belarussia,Dinamo Minsk - FC Vitebsk,5.82,WIN,FC Vitebsk +1.5 (Asian Handicap-Full Time Excluding Overtime),0:0,Dafabet,1.94,3.00,2.82,Ksasha,2015-09-21 07:04:02
+107,2015-09-21 00:30:00,SOC,Argentina,San Lorenzo - Racing Club,0.00,LOST,Racing Club +0.25 (Asian Handicap-Full Time Excluding Overtime),2:1,Dafabet,2.04,3.00,-3.00,Ksasha,2015-09-20 14:16:28
+108,2015-09-20 17:00:00,SOC,Croatia,NK Lokomotiva Zagreb - RNK Split,6.24,WIN,NK Lokomotiva Zagreb -0.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.08,3.00,3.24,Ksasha,2015-09-20 11:31:28
+109,2015-09-20 16:30:00,SOC,Belarussia,BATE Borisov - Torpedo Zhodino,4.65,WIN,Away +1.25 (Match),1:0,PINNACLE,2.1,3.00,1.65,Ksasha,2015-09-19 18:18:22
+110,2015-09-20 14:30:00,SOC,Belarussia,FC Gomel - FC Granit Mikashevichi,6.84,WIN,FC Granit Mikashevichi (1X2-Full Time Excluding Overtime),1:2,SBOBET,2.28,3.00,3.84,Ksasha,2015-09-17 19:39:33
+111,2015-09-16 18:45:00,SOC,Champions L,Bayer 04 Leverkusen - BATE Borisov,6.03,WIN,Bayer 04 Leverkusen -1.75 (Asian Handicap-Full Time Excluding Overtime),4:1,SBOBET,2.01,3.00,3.03,Ksasha,2015-09-15 12:34:15
+112,2015-09-11 16:00:00,SOC,Croatia,NK Lokomotiva Zagreb - NK Dinamo Zagreb,6.21,WIN,NK Dinamo Zagreb -1.5 (Asian Handicap-Full Time Excluding Overtime),0:4,Dafabet,2.07,3.00,3.21,Ksasha,2015-09-11 09:10:23
+113,2015-09-08 18:45:00,SOC,UEFA EURO Q,Lithuania - San Marino,0.00,LOST,Lithuania -2.5 (Asian Handicap-Full Time Excluding Overtime),2:1,SBOBET,1.9,3.00,-3.00,Ksasha,2015-09-08 11:13:47
+114,2015-09-06 09:00:00,SOC,Friendly,CSKA Moscow - FC Ufa,6.3,WIN,X2 (Double chance-Full Time Excluding Overtime),0:1,Bet365,2.1,3.00,3.30,Ksasha,2015-09-05 17:22:22
+115,2015-08-30 15:30:00,SOC,Sweden,IF Elfsborg - GIF Sundsvall,0.00,LOST,IF Elfsborg -1.5 (Asian Handicap-Full Time Excluding Overtime),1:2,Dafabet,1.99,3.00,-3.00,Ksasha,2015-08-30 08:24:43
+116,2015-08-31 15:00:00,SOC,Belarussia,Dinamo Minsk - FC Minsk,6.3,WIN,X2 (Double chance-Full Time Excluding Overtime),1:1,Bet365,2.1,3.00,3.30,Ksasha,2015-08-30 07:54:28
+117,2015-08-30 12:00:00,SOC,Belarussia,Neman Grodno - Shakhtyor Soligorsk,5.79,WIN,Away -0.5 (Match),0:1,PINNACLE,1.93,3.00,2.79,Ksasha,2015-08-29 09:09:26
+118,2015-08-30 15:30:00,SOC,Belarussia,FC Gomel - Torpedo Zhodino,5.97,WIN,Torpedo Zhodino -0.5 (Asian Handicap-Full Time Excluding Overtime),0:2,SBOBET,1.99,3.00,2.97,Ksasha,2015-08-29 08:56:48
+119,2015-08-29 11:00:00,SOC,Russia,FK Dinamo Moscow - FC Ufa,0.00,LOST,FC Ufa +0.75 (Asian Handicap-Full Time Excluding Overtime),2:0,Dafabet,2,3.00,-3.00,Ksasha,2015-08-29 07:41:16
+120,2015-08-27 16:00:00,SOC,Europa League,FK Rubin Kazan - Rabotnicki Skopje,4.56,WIN,Rabotnicki Skopje +1.25 (Asian Handicap-Full Time Excluding Overtime),1:0,Dafabet,2.04,3.00,1.56,Ksasha,2015-08-27 09:37:22
+121,2015-08-22 17:00:00,SOC,Serbia,Borac Cacak - Partizan Belgrade,0.00,LOST,Borac Cacak +0.5 (Asian Handicap-Full Time Excluding Overtime),1:3,Bet365,2.1,3.00,-3.00,Ksasha,2015-08-22 07:36:15
+122,2015-08-22 16:00:00,SOC,Ukraine,Helios Kharkiv - FC Hoverla Uzhhorod,6,WIN,Helios Kharkiv (Draw No Bet-Full Time Excluding Overtime),1:0,Bet365,2,3.00,3.00,Ksasha,2015-08-22 07:10:12
+123,2015-08-23 12:30:00,SOC,Belarussia,FC Vitebsk - Dinamo Brest,6.15,WIN,FC Vitebsk 0 (Asian Handicap-Full Time Excluding Overtime),2:0,Dafabet,2.05,3.00,3.15,Ksasha,2015-08-21 06:37:09
+124,2015-08-20 16:00:00,SOC,Europa League,Dinamo Minsk - FC Red Bull Salzburg,6.27,WIN,Dinamo Minsk +0.25 (Asian Handicap-Full Time Excluding Overtime),2:0,SBOBET,2.09,3.00,3.27,Ksasha,2015-08-20 06:53:37
+125,2015-08-18 16:00:00,SOC,Estonia,JK Kalev Sillamae - Paide Linnameeskond,1.5,LOST,Paide Linnameeskond +0.75 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.05,3.00,-1.50,Ksasha,2015-08-18 11:37:50
+126,2015-08-18 18:45:00,SOC,Champions L,Bate Borisov - Partizan Belgrade,0.00,LOST,Away +0.25 (Match),1:0,PINNACLE,2.09,3.00,-3.00,Ksasha,2015-08-18 07:50:32
+127,2015-08-17 18:45:00,SOC,Ireland,Galway United - Drogheda United,3,PUSH,Away 0 (Match),1:1,PINNACLE,2.39,3.00,0.00,Ksasha,2015-08-17 08:14:35
+128,2015-08-16 14:00:00,SOC,Russia,FK Dinamo Moscow - FC Ural Sverdlovsk Oblast Yekaterinburg,1.5,LOST,FC Ural Sverdlovsk Oblast Yekaterinburg +0.75 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,2.01,3.00,-1.50,Ksasha,2015-08-16 07:54:48
+129,2015-08-14 15:30:00,SOC,Belarussia,FC Gomel - BATE Borisov,0.00,LOST,BATE Borisov -1.75 (Asian Handicap-Full Time Excluding Overtime),0:0,5dimes,2.1,3.00,-3.00,Ksasha,2015-08-14 09:49:25
+130,2015-08-14 14:00:00,SOC,Russia,FK Amkar Perm - Anzhi Makhachkala,1.5,LOST,FK Amkar Perm -0.25 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.97,3.00,-1.50,Ksasha,2015-08-13 17:05:13
+131,2015-08-12 15:30:00,SOC,Finland,IFK Mariehamn - FC KooTeePee,0.00,LOST,IFK Mariehamn -1.25 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.98,3.00,-3.00,Ksasha,2015-08-12 12:09:50
+132,2015-08-10 15:30:00,SOC,Belarussia,Shakhtyor Soligorsk - Slavia Mozyr,6.06,WIN,Shakhtyor Soligorsk -1.5 (Asian Handicap-Full Time Excluding Overtime),6:1,Bet365,2.02,3.00,3.06,Ksasha,2015-08-09 11:05:31
+133,2015-08-09 14:30:00,SOC,Belarussia,Neman Grodno - FC Gomel,4.65,WIN,Neman Grodno -0.75 (Asian Handicap-Full Time Excluding Overtime),1-0,Bet365,2.1,3.00,1.65,Ksasha,2015-08-08 07:08:08
+134,2015-08-06 17:15:00,SOC,Other,Dinamo Minsk (n) - FC Zurich,0.00,LOST,Home -0.25 (Match),0:1,PINNACLE,2.07,3.00,-3.00,Ksasha,2015-08-04 19:58:02
+135,2015-08-04 18:45:00,SOC,Champions L,AS Monaco - BSC Young Boys Bern,5.85,WIN,AS Monaco -1.25 (Asian Handicap-Full Time Excluding Overtime),4:0,188bet,1.95,3.00,2.85,Ksasha,2015-08-04 13:20:27
+136,2015-08-01 16:30:00,SOC,Friendly,HJK Helsinki - Liverpool,6.12,WIN,Liverpool -1.5 (Asian Handicap-Full Time Excluding Overtime),0:2,188bet,2.04,3.00,3.12,Ksasha,2015-08-01 08:39:22
+137,2015-07-30 14:45:00,SOC,Europa League,Kairat Almaty - Aberdeen FC,0.00,LOST,Aberdeen FC +0.25 (Asian Handicap-Full Time Excluding Overtime),2:1,188bet,2.13,3.00,-3.00,Ksasha,2015-07-29 13:03:48
+138,2015-07-28 18:30:00,SOC,Champions L,Videoton FC - Bate Borisov,3,PUSH,Home 0 (Match),1:1,PINNACLE,2.14,3.00,0.00,Ksasha,2015-07-28 07:22:34
+139,2015-07-26 13:00:00,SOC,Kazakhstan,Irtysch Pavlodar - Ordabasy Shymkent,5.85,WIN,Irtysch Pavlodar (1X2-Full Time Excluding Overtime),2:0,Bet365,1.95,3.00,2.85,Ksasha,2015-07-24 09:35:42
+140,2015-07-23 21:15:00,SOC,Argentina,Argentinos Juniors - Guarani Antonio Franco,0.00,LOST,Argentinos Juniors -0.75 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.96,3.00,-3.00,Ksasha,2015-07-23 18:11:15
+141,2015-07-19 15:30:00,SOC,Belarussia,Dinamo Minsk - Smolevichy,3,PUSH,Smolevichy +2 (Asian Handicap-Full Time Excluding Overtime),2:0,Bet365,2,3.00,0.00,Ksasha,2015-07-19 11:39:17
+142,2015-07-19 14:30:00,SOC,Belarussia,FC Slonim - Shakhtyor Soligorsk,0.00,LOST,FC Slonim +1.25 (Asian Handicap-Full Time Excluding Overtime),1:10,Bet365,1.9,3.00,-3.00,Ksasha,2015-07-19 11:23:54
+143,2015-07-19 14:00:00,SOC,Kazakhstan,FC Atyrau - Kairat Almaty,3,PUSH,FC Atyrau (Draw No Bet-Full Time Excluding Overtime),0:0,Bet365,2.1,3.00,0.00,Ksasha,2015-07-19 09:44:20
+144,2015-07-16 15:30:00,SOC,Belarussia,FC Baranovichi - Slavia Mozyr,6,WIN,1X (Double chance-Full Time Excluding Overtime),1:1,Bet365,2,3.00,3.00,Ksasha,2015-07-16 10:13:16
+145,2015-07-13 21:00:00,SOC,Argentina,Club AtlÃ©tico Aldosivi - RosÃ¡rio Central,6.75,WIN,RosÃ¡rio Central -0.5 (Asian Handicap-Full Time Excluding Overtime),1:3,188bet,2.25,3.00,3.75,Ksasha,2015-07-13 12:55:52
+146,2015-07-12 00:30:00,SOC,Argentina,Atletico Lanus - AtlÃ©tico de Rafaela,0.00,LOST,AtlÃ©tico de Rafaela +0.5 (Asian Handicap-Full Time Excluding Overtime),3:0,SBOBET,2,3.00,-3.00,Ksasha,2015-07-11 15:01:27
+147,2015-07-12 16:30:00,SOC,Belarussia,Dinamo Brest - Torpedo Zhodino,0.00,LOST,Torpedo Zhodino 0 (Asian Handicap-Full Time Excluding Overtime),2:1,Bet365,2.15,3.00,-3.00,Ksasha,2015-07-11 08:06:20
+148,2015-07-11 12:30:00,SOC,Belarussia,Naftan Novopolotsk - FC Minsk,6.87,WIN,FC Minsk 0 (Asian Handicap-Full Time Excluding Overtime),0:1,5dimes,2.29,3.00,3.87,Ksasha,2015-07-11 07:42:53
+149,2015-07-10 15:30:00,SOC,Belarussia,Slavia Mozyr - BATE Borisov,4.47,WIN,BATE Borisov -1.75 (Asian Handicap-Full Time Excluding Overtime),3:5,Bet365,1.98,3.00,1.47,Ksasha,2015-07-10 09:36:51
+150,2015-07-09 19:15:00,SOC,Other,KR Reykjavik - Cork City,0.00,LOST,Home -0.5 (Match),1-1,PINNACLE,2,3.00,-3.00,Ksasha,2015-07-09 11:08:32
+151,2015-07-08 16:00:00,SOC,Friendly,Vmfd Zalgiris - Dinamo Minsk,7.2,WIN,Vmfd Zalgiris,3-0,Bet365,2.4,3.00,4.20,Ksasha,2015-07-07 20:10:19
+152,2015-07-05 14:30:00,SOC,Belarussia,Dinamo Minsk - FC Gomel,1.5,LOST,Dinamo Minsk -1.25 (Asian Handicap-Full Time Excluding Overtime),1:0,Dafabet,1.96,3.00,-1.50,Ksasha,2015-07-04 14:05:25
+153,2015-07-04 03:00:00,SOC,USA,Seattle Sounders - D.C. United Washington,0.00,LOST,D.C. United Washington +0.5 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,1.96,3.00,-3.00,Ksasha,2015-07-03 16:11:26
+154,2015-07-02 16:00:00,SOC,Europa League,PFC Neftchi Baku - FK Mladost Podgorica,6.24,WIN,FK Mladost Podgorica +0.75 (Asian Handicap-Full Time Excluding Overtime),2:2,188bet,2.08,3.00,3.24,Ksasha,2015-07-02 07:56:51
+155,2015-06-30 11:00:00,SOC,Friendly,CSKA Moscow - FK Fakel Voronezh,5.7,WIN,FK Fakel Voronezh +1.75 (Asian Handicap-Full Time Excluding Overtime),0:1,Bet365,1.9,3.00,2.70,Ksasha,2015-06-30 07:12:23
+156,2015-06-28 23:00:00,SOC,USA,Portland - Seattle,6.21,WIN,Portland (-0.75),4:1,Dafabet,2.07,3.00,3.21,Ksasha,2015-06-28 09:39:25
+157,2015-06-28 13:30:00,SOC,Norway,Viking Stavanger - Sarpsborg 08,6.15,WIN,Viking Stavanger -1 (Asian Handicap-Full Time Excluding Overtime),3:1,SBOBET,2.05,3.00,3.15,Ksasha,2015-06-28 06:07:52
+158,2015-06-28 15:29:00,SOC,Belarussia,Neman Grodno - FC Slutsk,5.88,WIN,Away +0.25 (Match),0:4,PINNACLE,1.96,3.00,2.88,Ksasha,2015-06-26 16:42:23
+159,2015-06-25 17:00:00,SOC,Lithuania,FK Siauliai - Granitas Klaipeda,0.00,LOST,FK Siauliai (1X2-Full Time Excluding Overtime),0:0,Dafabet,2.28,3.00,-3.00,Ksasha,2015-06-25 10:42:25
+160,2015-06-22 16:00:00,SOC,Belarussia,Slavia Mozyr - Dinamo Minsk,6.06,WIN,Dinamo Minsk -0.75 (Asian Handicap-Full Time Excluding Overtime),2:4,Dafabet,2.02,3.00,3.06,Ksasha,2015-06-22 06:16:12
+161,2015-06-21 16:00:00,SOC,Lithuania,Granitas Klaipeda - Stumbras Kaunas,6.15,WIN,Stumbras Kaunas 0 (Asian Handicap-Full Time Excluding Overtime),1:5,SBOBET,2.05,3.00,3.15,Ksasha,2015-06-21 10:20:20
+162,2015-06-21 15:00:00,SOC,Belarussia,FK Slutsk - FC Gomel,3,PUSH,FK Slutsk 0 (Asian Handicap-Full Time Excluding Overtime),0:0,SBOBET,1.9,3.00,0.00,Ksasha,2015-06-21 06:52:41
+163,2015-06-20 20:00:00,SOC,USA,Seattle Sounders - San Jose Earthquakes,6.12,WIN,San Jose Earthquakes +0.5 (Asian Handicap-Full Time Excluding Overtime),0:2,Dafabet,2.04,3.00,3.12,Ksasha,2015-06-20 08:04:43
+164,2015-06-13 15:00:00,SOC,Belarussia,FC Smorgon - Smolevichy,6,WIN,Smolevichy +1 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,2,3.00,3.00,Ksasha,2015-06-13 08:08:42
+165,2015-06-11 18:45:00,SOC,Int'l U21,England U21 - Belarus U21,0.00,LOST,England U21 -2.5 (Asian Handicap-Full Time Excluding Overtime),1:0,188bet,2.08,3.00,-3.00,Ksasha,2015-06-11 10:41:42
+166,2015-06-09 16:00:00,SOC,Int'l U21,Czech Republic U21 - Ukraine U21,6.78,WIN,Czech Republic U21 -0.5 (Asian Handicap-Full Time Excluding Overtime),2-1,Dafabet,2.26,3.00,3.78,Ksasha,2015-06-09 10:29:14
+167,2015-06-07 17:29:00,SOC,Greece,Atromitos - Panathinaikos,6.51,WIN,Home -1.25 (Match),2:0,PINNACLE,2.17,3.00,3.51,Ksasha,2015-06-07 12:13:18
+168,2015-06-07 16:00:00,SOC,Spa. Segunda,Real Valladolid - UD Llagostera,6.57,WIN,UD Llagostera +0.5 (Asian Handicap-Full Time Excluding Overtime),2:4,188bet,2.19,3.00,3.57,Ksasha,2015-06-07 10:15:23
+169,2015-06-05 16:00:00,SOC,Belarussia,Dinamo Brest - Dinamo Minsk,0.00,LOST,Dinamo Minsk -1.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.08,3.00,-3.00,Ksasha,2015-06-05 07:40:11
+170,2015-06-03 12:59:00,SOC,Russia,Tom Tomsk - Ural Sverdlovsk Oblast,0.00,LOST,Home 0 (Match),0-1,PINNACLE,2.24,3.00,-3.00,Ksasha,2015-06-02 20:02:12
+171,2015-05-31 18:59:00,SOC,Argentina,Aldosivi Mar del Plata - Racing Club,0.00,LOST,Home 0 (Match),1:2,PINNACLE,2.13,3.00,-3.00,Ksasha,2015-05-31 11:42:18
+172,2015-05-30 10:29:00,SOC,Russia,Terek Grozny - Ural Sverdlovsk Oblast,0.00,LOST,Home 0 (Match),1:3,PINNACLE,2.39,3.00,-3.00,Ksasha,2015-05-30 06:25:43
+173,2015-05-29 13:59:00,SOC,Ukraine,Volyn Lutsk - Metalurh Donetsk,0.00,LOST,Home -1 (Match),1-1,PINNACLE,2.22,3.00,-3.00,Ksasha,2015-05-29 10:21:14
+174,2015-05-28 18:00:00,SOC,Argentina,Colon de Santa Fe - Club Atletico Acassuso,6,WIN,Club Atletico Acassuso +0.75 (Asian Handicap-Full Time Excluding Overtime),0-0,Bet365,2,3.00,3.00,Ksasha,2015-05-28 10:35:05
+175,2015-05-24 17:00:00,SOC,Ecuador,Universidad Catolica Quito - Emelec Guayaquil,3,PUSH,Universidad Catolica Quito 0 (Asian Handicap-Full Time Excluding Overtime),postp.,Bet365,2,3.00,0.00,Ksasha,2015-05-23 12:12:22
+176,2015-05-23 21:30:00,SOC,Bra. Serie A,CR Vasco da Gama RJ - Internacional RS,0.00,LOST,CR Vasco da Gama RJ -0.75 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,2.09,3.00,-3.00,Ksasha,2015-05-23 10:55:35
+177,2015-05-23 16:30:00,SOC,Spa. Primera,Athletic Bilbao - Villarreal CF,5.85,WIN,Athletic Bilbao -0.75 (Asian Handicap-Full Time Excluding Overtime),4:0,SBOBET,1.95,3.00,2.85,Ksasha,2015-05-23 06:26:22
+178,2015-05-21 18:45:00,SOC,Ita. Other,Salernitana - Teramo,0.00,LOST,Teramo +0.25 (Asian Handicap-Full Time Excluding Overtime),3:1,188bet,1.98,3.00,-3.00,Ksasha,2015-05-21 11:36:37
+179,2015-05-16 16:00:00,SOC,Ita. Serie A,Inter Milan - Juventus,0.00,LOST,Home -0.5 (Match),1:2,PINNACLE,2.24,3.00,-3.00,Ksasha,2015-05-16 05:20:37
+180,2015-05-12 12:00:00,SOC,Friendly,Kazakhstan-Burkina Faso,3,PUSH,1 ( DNB),0:0,Bet365,1.91,3.00,0.00,Ksasha,2015-05-11 20:10:22
+181,2015-05-10 16:29:00,SOC,Ukraine,Dnipro Dnipropetrovsk - Zorya Lugansk,5.76,WIN,Away +1 (Match),0:2,PINNACLE,1.92,3.00,2.76,Ksasha,2015-05-10 10:47:41
+182,2015-05-09 14:59:00,SOC,Israel,Hapoel Kiryat Shmona - Maccabi Petah Tikva,6.93,WIN,Home -1 (Match),2:0,PINNACLE,2.31,3.00,3.93,Ksasha,2015-05-09 11:31:11
+183,2015-05-09 13:00:00,SOC,Turkey,Bursaspor - Kardemir DC Karabukspor,0.00,LOST,X2 (Double chance-Full Time Excluding Overtime),7:1,Bet365,2.15,3.00,-3.00,Ksasha,2015-05-09 07:38:16
+184,2015-05-09 16:00:00,SOC,Ita. Serie A,Juventus - Cagliari,6.18,WIN,Away +1 (Match),1:1,PINNACLE,2.06,3.00,3.18,Ksasha,2015-05-09 07:11:05
+185,2015-05-09 13:30:00,SOC,Ger. Bundesliga I,FC Bayern Munchen - FC Augsburg,6.15,WIN,FC Augsburg +1 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2.05,3.00,3.15,Ksasha,2015-05-09 06:59:03
+186,2015-05-10 13:30:00,SOC,Belarussia,Naftan Novopolotsk - Dinamo Brest,6,WIN,Naftan Novopolotsk (1X2-Full Time Excluding Overtime),1:0,Bet365,2,3.00,3.00,Ksasha,2015-05-08 19:15:04
+187,2015-05-08 13:30:00,SOC,Russia,FC Ural Sverdlovsk Oblast Yekaterinburg - FC Ufa,3,PUSH,FC Ufa 0 (Asian Handicap-Full Time Excluding Overtime),1:1,188bet,2.28,3.00,0.00,Ksasha,2015-05-08 09:55:21
+188,2015-05-09 00:10:00,SOC,Argentina,Estudiantes de la Plata - Temperley,0.00,LOST,Temperley +0.5 (Asian Handicap-Full Time Excluding Overtime),2:1,188bet,1.94,3.00,-3.00,Ksasha,2015-05-08 07:56:20
+189,2015-05-06 16:04:00,SOC,Asia,Persepolis - Bunyodkor Tashkent,1.5,LOST,Home -1.25 (Match),2:1,PINNACLE,2.05,3.00,-1.50,Ksasha,2015-05-06 08:10:45
+190,2015-05-06 10:30:00,SOC,Asia,Becamex Binh Duong FC - Kashiwa Reysol,5.82,WIN,Becamex Binh Duong FC +1.5 (Asian Handicap-Full Time Excluding Overtime),1-0,12BET,1.94,3.00,2.82,Ksasha,2015-05-06 06:39:48
+191,2015-05-04 14:59:00,SOC,Russia,CSKA Moscow - Ural Sverdlovsk Oblast,6.21,WIN,Home -1.5 (Match),3:1,PINNACLE,2.07,3.00,3.21,Ksasha,2015-05-04 07:23:19
+192,2015-05-04 14:00:00,SOC,Ukraine,Dynamo Kiev - FC Hoverla Uzhhorod,5.7,WIN,Dynamo Kiev -2.25 (Asian Handicap-Full Time Excluding Overtime),6:0,Bet365,1.9,3.00,2.70,Ksasha,2015-05-03 19:48:07
+193,2015-05-03 12:00:00,SOC,Belarussia,FC Lida - FC Orsha,6.3,WIN,FC Lida (Draw No Bet-Full Time Excluding Overtime),2:1,Bet365,2.1,3.00,3.30,Ksasha,2015-05-03 09:17:40
+194,2015-05-02 16:00:00,SOC,Spa. Primera,Atletico Madrid - Athletic Bilbao,0.00,LOST,Atletico Madrid -1.5 (Asian Handicap-Full Time Excluding Overtime),0:0,12BET,2.35,3.00,-3.00,Ksasha,2015-05-02 07:27:37
+195,2015-04-29 20:00:00,SOC,Spa. Primera,Villarreal - Atletico Madrid,6.69,WIN,Away -0.5 (Match),0:1,PINNACLE,2.23,3.00,3.69,Ksasha,2015-04-29 12:39:16
+196,2015-04-29 18:45:00,SOC,Ita. Serie A,Sampdoria - Hellas Verona,0.00,LOST,Sampdoria -1 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,2.16,3.00,-3.00,Ksasha,2015-04-29 12:14:41
+197,2015-04-29 17:00:00,SOC,Belarussia,Dinamo Brest - Shakhtyor Soligorsk,6.6,WIN,Shakhtyor Soligorsk (1X2-Full Time Excluding Overtime),1:2,Bet365,2.2,3.00,3.60,Ksasha,2015-04-29 10:37:50
+198,2015-04-28 18:30:00,SOC,Ita. Serie B,Pescara - Pro Vercelli,4.5,WIN,Pescara -0.75 (Asian Handicap-Full Time Excluding Overtime),1:0,12BET,2,3.00,1.50,Ksasha,2015-04-28 10:11:19
+199,2015-04-27 18:45:00,SOC,Spa. Primera,Valencia - Granada,5.91,WIN,Home -1.5 (Match),4:0,PINNACLE,1.97,3.00,2.91,Ksasha,2015-04-26 19:19:14
+200,2015-04-25 13:30:00,SOC,Belarussia,Shakhtyor Soligorsk - Dinamo Minsk,3,PUSH,Dinamo Minsk 0 (Asian Handicap-Full Time Excluding Overtime),0:0,SBOBET,2.05,3.00,0.00,Ksasha,2015-04-24 19:55:30
+201,2015-04-25 13:00:00,SOC,Belarussia,FC Granit Mikashevichi - Dinamo Brest,5.82,WIN,FC Granit Mikashevichi 0 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,1.94,3.00,2.82,Ksasha,2015-04-24 19:33:36
+202,2015-04-24 18:45:00,SOC,Ireland,Derry City - Bohemian FC Dublin,6.33,WIN,Bohemian FC Dublin 0 (Asian Handicap-Full Time Excluding Overtime),1:2,12BET,2.11,3.00,3.33,Ksasha,2015-04-24 08:41:26
+203,2015-04-24 18:00:00,SOC,Fra. Ligue 2,AS Nancy Lorraine - AC Troyes AC,6.24,WIN,AS Nancy Lorraine (1X2-Full Time Excluding Overtime),2:0,SBOBET,2.08,3.00,3.24,Ksasha,2015-04-24 07:47:59
+204,2015-04-22 18:45:00,SOC,Champions L,Real Madrid - Atletico Madrid,0.00,LOST,Away +0.5 (Match),1-0,PINNACLE,2.06,3.00,-3.00,Ksasha,2015-04-22 06:37:40
+205,2015-04-20 18:45:00,SOC,Ireland,Sligo Rovers FC - Bohemian FC Dublin,3,PUSH,Bohemian FC Dublin 0 (Asian Handicap-Full Time Excluding Overtime),0:0,SBOBET,2.14,3.00,0.00,Ksasha,2015-04-20 14:56:01
+206,2015-04-20 16:00:00,SOC,Turkey,Kayserispor - Boluspor,0.00,LOST,Boluspor +1.25 (Asian Handicap-Full Time Excluding Overtime),3:0,12BET,2.19,3.00,-3.00,Ksasha,2015-04-20 13:51:29
+207,2015-04-19 13:00:00,SOC,Cyprus,Nea Salamis FC - AEL Limassol,0.00,LOST,Nea Salamis FC (1X2-Full Time Excluding Overtime),1:1,SBOBET,2.05,3.00,-3.00,Ksasha,2015-04-19 09:08:52
+208,2015-04-19 12:00:00,SOC,Lithuania,Granitas Klaipeda - FK Siauliai,0.00,LOST,Granitas Klaipeda (1X2-Full Time Excluding Overtime),2:2,12BET,2.05,3.00,-3.00,Ksasha,2015-04-19 09:01:12
+209,2015-04-19 14:00:00,SOC,Ukraine,FC Chornomorets Odessa - FC Hoverla Uzhhorod,3,PUSH,FC Hoverla Uzhhorod (Draw No Bet-Full Time Excluding Overtime),1:1,Bet365,2,3.00,0.00,Ksasha,2015-04-19 06:50:11
+210,2015-04-18 13:00:00,SOC,Cyprus,Omonia FC Nicosia - Apollon Limmassol FC,7.2,WIN,Omonia FC Nicosia (1X2-Full Time Excluding Overtime),1:0,188bet,2.4,3.00,4.20,Ksasha,2015-04-18 10:44:18
+211,2015-04-18 13:30:00,SOC,Ger. Bundesliga I,TSG 1899 Hoffenheim - FC Bayern Munchen,0.00,LOST,TSG 1899 Hoffenheim +0.5 (Asian Handicap-Full Time Excluding Overtime),0:2,188bet,2.4,3.00,-3.00,Ksasha,2015-04-18 10:04:52
+212,2015-04-17 19:29:00,SOC,Por. Superliga,Vitoria Guimaraes - Sporting Braga,0.00,LOST,Away -0.5 (Match),1:0,PINNACLE,2.1,3.00,-3.00,Ksasha,2015-04-17 08:05:00
+213,2015-04-15 18:45:00,SOC,Champions L,Paris Saint-Germain FC - FC Barcelona,6.06,WIN,FC Barcelona -0.75 (Asian Handicap-Full Time Excluding Overtime),1:3,SBOBET,2.02,3.00,3.06,Ksasha,2015-04-15 10:22:47
+214,2015-04-15 09:59:00,SOC,Friendly,Ukraine U20 - Belarus U21,5.76,WIN,Home -0.5 (Match),1-0,PINNACLE,1.92,3.00,2.76,Ksasha,2015-04-15 08:58:07
+215,2015-04-16 19:05:00,SOC,Europa League,Sevilla FC - Zenit St. Petersburg,3,PUSH,Home -1 (Match),2-1,PINNACLE,2.28,3.00,0.00,Ksasha,2015-04-13 09:51:35
+216,2015-04-09 18:29:00,SOC,Romania,Steaua Bucuresti - Petrolul Ploiesti,0.00,LOST,Home -1 (Match),0:1,PINNACLE,1.94,3.00,-3.00,Ksasha,2015-04-09 07:40:51
+217,2015-04-08 15:59:00,SOC,Russia,Kuban Krasnodar - Ural Sverdlovsk Oblast,0.00,LOST,Home -1 (Match),0-2,PINNACLE,1.96,3.00,-3.00,Ksasha,2015-04-08 10:28:28
+218,2015-04-08 16:00:00,SOC,Ukraine,Shakhtar Donetsk-Metalist Kharkiv,0.00,LOST,1 (-2.5 AH),1:0,Bet365,2.02,3.00,-3.00,Ksasha,2015-04-08 08:10:50
+219,2015-04-08 11:00:00,SOC,Asia,Becamex Binh Duong FC - Jeonbuk Hyundai Motors FC,0.00,LOST,Jeonbuk Hyundai Motors FC -2.25 (Asian Handicap-Full Time Excluding Overtime),1-1,SBOBET,2.03,3.00,-3.00,Ksasha,2015-04-08 07:39:58
+220,2015-04-08 18:00:00,SOC,Spa. Primera,FC Barcelona - Union Deportiva Almeria,6.06,WIN,FC Barcelona -3.5 (Asian Handicap-Full Time Excluding Overtime),4:0,SBOBET,2.02,3.00,3.06,Ksasha,2015-04-07 19:32:32
+221,2015-04-05 11:30:00,SOC,Russia,PFK Kryliya Sovetov Samara - Volga Nyzhnyi Novgorod,0.00,LOST,PFK Kryliya Sovetov Samara -1.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.02,3.00,-3.00,Ksasha,2015-04-05 11:00:20
+222,2015-04-05 12:00:00,SOC,Azerbaijan,Inter Baku - FK Khazar Lankaran,5.94,WIN,Inter Baku -1.5 (Asian Handicap-Full Time Excluding Overtime),2:0,Bet365,1.98,3.00,2.94,Ksasha,2015-04-05 10:21:25
+223,2015-04-05 11:00:00,SOC,Azerbaijan,FK Baku - FK Karabakh Agdam,0.00,LOST,FK Karabakh Agdam -2.25 (Asian Handicap-Full Time Excluding Overtime),1:1,Bet365,2,3.00,-3.00,Ksasha,2015-04-05 10:13:26
+224,2015-04-04 17:45:00,SOC,Netherlands,FC Twente - PSV Eindhoven,5.97,WIN,PSV Eindhoven -0.5 (Asian Handicap-Full Time Excluding Overtime),0:5,SBOBET,1.99,3.00,2.97,Ksasha,2015-04-04 05:43:00
+225,2015-04-04 09:00:00,SOC,Belarussia,FC Vitebsk - Dinamo Minsk,0.00,LOST,1X (Double chance-Full Time Excluding Overtime),"1:2, 1:3 ET",Bet365,2.1,3.00,-3.00,Ksasha,2015-04-03 20:01:15
+226,2015-04-03 17:30:00,SOC,Fra. Ligue 1,AS Monaco - AS St. Etienne,0.00,LOST,AS Monaco (1X2-Full Time Excluding Overtime),1-1,Bet365,1.95,3.00,-3.00,Ksasha,2015-04-03 06:36:39
+227,2015-03-31 14:00:00,SOC,International,Russia U21 - Sweden U21,6.3,WIN,Sweden U21 (-1),0-2,Bet365,2.1,3.00,3.30,Ksasha,2015-03-31 12:14:07
+228,2015-03-31 18:45:00,SOC,Friendly,Portugal - Cape Verde,6.15,WIN,Cape Verde +1.25 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,2.05,3.00,3.15,Ksasha,2015-03-31 09:42:27
+229,2015-03-30 09:00:00,SOC,Friendly,CSKA Moscow - FK Khimki,6.3,WIN,X2,1-2,Bet365,2.1,3.00,3.30,Ksasha,2015-03-30 07:50:25
+230,2015-03-27 12:00:00,SOC,Friendly,Dynamo Kiev-Vorskla Poltava,6,WIN,2 (+1 AH),1:1,Bet365,2,3.00,3.00,Ksasha,2015-03-27 07:16:07
+231,2015-03-26 19:00:00,SOC,Brazil,Boavista SC - CR Vasco da Gama RJ,3,PUSH,Boavista SC +1 (Asian Handicap-Full Time Excluding Overtime),1-2,SBOBET,1.94,3.00,0.00,Ksasha,2015-03-26 17:27:39
+232,2015-03-24 17:00:00,SOC,Friendly,Molde FK - IL Hodd Ulsteinvik,0.00,LOST,IL Hodd Ulsteinvik +1.25 (Asian Handicap-Full Time Excluding Overtime),3:0,188bet,2.07,3.00,-3.00,Ksasha,2015-03-24 08:41:17
+233,2015-03-22 18:15:00,SOC,Israel,Hapoel Kiryat Shmona-Beitar Jerusalem,6.24,WIN,2 (0 AH),1:2,Bet365,2.08,3.00,3.24,Ksasha,2015-03-22 09:26:15
+234,2015-03-22 18:00:00,SOC,Spa. Primera,Real Sociedad - Cordoba,6.69,WIN,Home -1 (Match),3:1,PINNACLE,2.23,3.00,3.69,Ksasha,2015-03-22 08:40:00
+235,2015-03-22 12:00:00,SOC,Denmark,Silkeborg IF - FC Nordsjaelland,0.00,LOST,FC Nordsjaelland -0.5 (Asian Handicap-Full Time Excluding Overtime),2:2,188bet,2.12,3.00,-3.00,Ksasha,2015-03-22 07:08:58
+236,2015-03-21 16:29:00,SOC,Belarussia,BATE - Neman Grodno,0.00,LOST,Home -1.5 (Match),1:0,PINNACLE,2,3.00,-3.00,Ksasha,2015-03-20 20:25:09
+237,2015-03-20 19:30:00,SOC,Poland,GÃ³rnik Leczna - Slask Wroclaw,3,PUSH,GÃ³rnik Leczna 0 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.97,3.00,0.00,Ksasha,2015-03-20 10:33:24
+238,2015-03-20 23:00:00,SOC,Russia,Arsenal Tula U21-CSKA Moscow U21,0.00,LOST,2 (-0.5 AH),0:0,188bet,1.99,3.00,-3.00,Ksasha,2015-03-20 06:56:27
+239,2015-03-19 20:05:00,SOC,Europa League,AFC Ajax - FC Dnipro Dnipropetrovsk,5.85,WIN,AFC Ajax (1X2-Full Time Excluding Overtime),1-0,Bet365,1.95,3.00,2.85,Ksasha,2015-03-18 20:21:46
+240,2015-03-21 13:29:00,SOC,Russia,Arsenal Tula - CSKA Moscow,5.79,WIN,Away -2 (Match),1:4,PINNACLE,1.93,3.00,2.79,Ksasha,2015-03-18 09:35:06
+241,2015-03-15 16:59:00,SOC,Poland,Legia Warszawa - Wisla Krakow,0.00,LOST,Home -1.5 (Match),2:2,PINNACLE,2.44,3.00,-3.00,Ksasha,2015-03-15 12:07:55
+242,2015-03-15 13:30:00,SOC,Ita. Serie C,Foggia - Messina,6.6,WIN,Foggia -1 (Asian Handicap-Full Time Excluding Overtime),2:0,Bet365,2.2,3.00,3.60,Ksasha,2015-03-15 11:50:28
+243,2015-03-15 12:59:00,SOC,Greece,PAS Giannina - Panetolikos,0.00,LOST,Home -0.5 (Match),0:0,PINNACLE,2.56,3.00,-3.00,Ksasha,2015-03-15 11:33:34
+244,2015-03-14 11:59:00,SOC,Belarussia,Shakhtyor Soligorsk (n) - BATE,3,PUSH,Away 0 (Match),"0:0, 0:1 pen.",PINNACLE,1.98,3.00,0.00,Ksasha,2015-03-14 10:09:47
+245,2015-03-14 13:59:00,SOC,Cyprus,Anorthosis Famagusta - Ermis Aradippou,0.00,LOST,Away +0.5 (Match),3:1,PINNACLE,1.93,3.00,-3.00,Ksasha,2015-03-14 09:31:14
+246,2015-03-14 19:15:00,SOC,Czech Rep.,Jablonec-Sparta Prague,3,PUSH,1 (0 AH),0:0,188bet,2.01,3.00,0.00,Ksasha,2015-03-14 09:13:57
+247,2015-03-14 14:59:00,SOC,Austria,Admira Wacker Modling - Austria Wien,3,PUSH,Home 0 (Match),1:1,PINNACLE,2.27,3.00,0.00,Ksasha,2015-03-14 08:36:31
+248,2015-03-13 17:00:00,SOC,Poland,MKS Cracovia Krakow - Piast Gliwice,0.00,LOST,Piast Gliwice +0.5 (Asian Handicap-Full Time Excluding Overtime),3-1,SBOBET,2.09,3.00,-3.00,Ksasha,2015-03-13 13:04:34
+249,2015-03-13 16:00:00,SOC,Greece,Tirnavos 2005-Lamia,6,WIN,1 ( DNB),2-1,Bet365,2,3.00,3.00,Ksasha,2015-03-13 10:45:47
+250,2015-03-14 00:10:00,SOC,Argentina,Racing Club - Colon de Santa Fe,0.00,LOST,Colon de Santa Fe +0.5 (Asian Handicap-Full Time Excluding Overtime),4:1,SBOBET,2.01,3.00,-3.00,Ksasha,2015-03-13 09:27:16
+251,2015-03-11 14:59:00,SOC,Por. Other,GD Chaves - Clube Oriental Lisboa,0.00,LOST,Home -1 (Match),1-1,PINNACLE,1.98,3.00,-3.00,Ksasha,2015-03-11 08:48:52
+252,2015-03-09 23:10:00,SOC,Argentina,Estudiantes de la Plata - San Lorenzo,6.84,WIN,San Lorenzo 0 (Asian Handicap-Full Time Excluding Overtime),0-2,SBOBET,2.28,3.00,3.84,Ksasha,2015-03-09 11:17:17
+253,2015-03-08 12:59:00,SOC,Russia,Dynamo Moscow - FC Ufa,6.51,WIN,Home -1.5 (Match),3:1,PINNACLE,2.17,3.00,3.51,Ksasha,2015-03-08 10:29:49
+254,2015-03-08 20:15:00,SOC,Argentina,CA River Plate - CA Union Santa Fe,5.76,WIN,CA Union Santa Fe +1 (Asian Handicap-Full Time Excluding Overtime),2:2,SBOBET,1.92,3.00,2.76,Ksasha,2015-03-08 08:18:03
+255,2015-03-08 11:00:00,SOC,Ukraine,Volyn Lutsk - FC Chornomorets Odessa,0.00,LOST,Volyn Lutsk (1X2-Full Time Excluding Overtime),1:1,Bet365,2.3,3.00,-3.00,Ksasha,2015-03-07 18:34:47
+256,2015-03-06 20:59:00,SOC,Argentina,Atletico Huracan - Gimnasia La Plata,1.5,LOST,Away -0.25 (Match),1:1,PINNACLE,2.14,3.00,-1.50,Ksasha,2015-03-06 10:37:19
+257,2015-03-06 19:45:00,SOC,Ita. Serie C,Lecce - Juve Stabia,0.00,LOST,Juve Stabia +0.25 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,2.04,3.00,-3.00,Ksasha,2015-03-06 09:34:59
+258,2015-02-28 00:10:00,SOC,Argentina,Godoy Cruz - Atletico Huracan,5.79,WIN,Godoy Cruz -0.5 (Asian Handicap-Full Time Excluding Overtime),2:1,188bet,1.93,3.00,2.79,Ksasha,2015-02-27 07:06:18
+259,2015-02-23 19:59:00,SOC,Por. Superliga,Boavista - Porto,0.00,LOST,Home +1.5 (Match),0-2,PINNACLE,2.2,3.00,-3.00,Ksasha,2015-02-23 12:49:55
+260,2015-02-21 17:30:00,SOC,Netherlands,ADO Den Haag - FC Zwolle,6.21,WIN,ADO Den Haag -0.25 (Asian Handicap-Full Time Excluding Overtime),3:2,12BET,2.07,3.00,3.21,Ksasha,2015-02-21 12:15:44
+261,2015-02-21 19:00:00,SOC,Fra. Ligue 1,Stade Caen - RC Lens,6.15,WIN,Stade Caen -0.5 (Asian Handicap-Full Time Excluding Overtime),4:1,188bet,2.05,3.00,3.15,Ksasha,2015-02-21 11:31:06
+262,2015-02-21 16:00:00,SOC,Fra. Ligue 1,Paris Saint-Germain FC - FC Toulouse,0.00,LOST,FC Toulouse +1.5 (Asian Handicap-Full Time Excluding Overtime),3-1,188bet,1.95,3.00,-3.00,Ksasha,2015-02-21 10:12:59
+263,2015-02-21 12:00:00,SOC,Turkey,Samsunspor - Kayserispor,5.7,WIN,Samsunspor 0 (Asian Handicap-Full Time Excluding Overtime),2:0,12BET,1.9,3.00,2.70,Ksasha,2015-02-21 09:15:19
+264,2015-02-21 14:00:00,SOC,Cyprus,AEL Limassol - Omonia FC Nicosia,0.00,LOST,AEL Limassol (1X2-Full Time Excluding Overtime),0:1,5dimes,2.07,3.00,-3.00,Ksasha,2015-02-21 08:20:52
+265,2015-02-20 16:59:00,SOC,Poland,Podbeskidzie Bielsko Biala - Cracovia Krakow,3,PUSH,Away 0 (Match),1-1,PINNACLE,2.02,3.00,0.00,Ksasha,2015-02-20 12:01:41
+266,2015-02-20 19:45:00,SOC,Ita. Serie A,Juventus FC - Atalanta Bergamo,0.00,LOST,Juventus FC -2 (Asian Handicap-Full Time Excluding Overtime),2-1,188bet,2.11,3.00,-3.00,Ksasha,2015-02-20 10:12:07
+267,2015-02-19 18:00:00,SOC,Europa League,Torino FC - Athletic Bilbao,0.00,LOST,Torino FC -0.5 (Asian Handicap-Full Time Excluding Overtime),2-2,SBOBET,2.36,3.00,-3.00,Ksasha,2015-02-19 12:34:42
+268,2015-02-17 19:45:00,SOC,Champions L,Paris Saint-Germain FC - Chelsea,3,PUSH,Chelsea 0 (Asian Handicap-Full Time Excluding Overtime),1-1,12BET,2,3.00,0.00,Ksasha,2015-02-16 18:38:20
+269,2015-02-15 18:59:00,SOC,Belgium,Charleroi - KAA Gent,3,PUSH,Home 0 (Match),0:0,PINNACLE,2.52,3.00,0.00,Ksasha,2015-02-15 09:49:19
+270,2015-02-15 16:00:00,SOC,Por. Superliga,FC Penafiel - CS MarÃ­timo Funchal,0.00,LOST,FC Penafiel 0 (Asian Handicap-Full Time Excluding Overtime),3:4,Dafabet,2.28,3.00,-3.00,Ksasha,2015-02-15 09:15:47
+271,2015-02-14 17:30:00,SOC,Greece,Olympiakos Piraeus FC - Ergotelis,6.15,WIN,Olympiakos Piraeus FC -2.5 (Asian Handicap-Full Time Excluding Overtime),3:0,Bet365,2.05,3.00,3.15,Ksasha,2015-02-14 14:43:09
+272,2015-02-14 16:44:00,SOC,Switzerland,Basel - FC Sion,0.00,LOST,Home -1.5 (Match),1:1,PINNACLE,2.32,3.00,-3.00,Ksasha,2015-02-14 14:22:27
+273,2015-02-14 14:00:00,SOC,Turkey,Akhisar Belediye GS - Kayseri Erciyespor,7.08,WIN,Akhisar Belediye GS (1X2-Full Time Excluding Overtime),1:0,Dafabet,2.36,3.00,4.08,Ksasha,2015-02-14 11:37:22
+274,2015-02-13 18:59:00,SOC,Fra. Ligue 2,Auxerre - Troyes,0.00,LOST,Home 0 (Match),0-1,PINNACLE,2.08,3.00,-3.00,Ksasha,2015-02-12 19:55:11
+275,2015-02-11 17:00:00,SOC,Ita. Serie A,AC Parma - Chievo Verona,6.36,WIN,Chievo Verona 0 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,2.12,3.00,3.36,Ksasha,2015-02-11 15:12:15
+276,2015-02-09 18:59:00,SOC,Fra. Ligue 2,Nancy - Brest,7.08,WIN,Home -0.5 (Match),2-1,PINNACLE,2.36,3.00,4.08,Ksasha,2015-02-08 20:20:57
+277,2015-02-08 14:00:00,SOC,Ita. Serie A,Sampdoria - Sassuolo,0.00,LOST,Home -0.75 (Match),1:1,PINNACLE,2.11,3.00,-3.00,Ksasha,2015-02-08 07:38:22
+278,2015-02-07 20:15:00,SOC,Por. Superliga,Moreirense - FC Porto,4.68,WIN,FC Porto -1.75 (Asian Handicap-Full Time Excluding Overtime),0:2,SBOBET,2.12,3.00,1.68,Ksasha,2015-02-07 08:04:32
+279,2015-02-07 19:45:00,SOC,Ita. Serie A,Juventus - AC Milan,6.39,WIN,Home -1.5 (Match),3:1,PINNACLE,2.13,3.00,3.39,Ksasha,2015-02-07 06:49:17
+280,2015-02-05 17:30:00,SOC,Greece,Panthrakikos - Kalloni Lekanopedio FC,0.00,LOST,Kalloni Lekanopedio FC +0.5 (Asian Handicap-Full Time Excluding Overtime),3-2,188bet,2.31,3.00,-3.00,Ksasha,2015-02-05 13:04:26
+281,2015-02-05 17:30:00,SOC,Netherlands,Heracles Almelo - FC Groningen,3,PUSH,FC Groningen 0 (Asian Handicap-Full Time Excluding Overtime),2-2,188bet,1.97,3.00,0.00,Ksasha,2015-02-05 11:58:49
+282,2015-02-01 14:00:00,SOC,Ita. Serie A,Cesena - SS Lazio,6.09,WIN,Cesena +1 (Asian Handicap-Full Time Excluding Overtime),2:1,12BET,2.03,3.00,3.09,Ksasha,2015-02-01 09:51:26
+283,2015-01-30 19:29:00,SOC,Belgium,Club Brugge - Oostende,3,PUSH,Home -2 (Match),2-0,PINNACLE,2.02,3.00,0.00,Ksasha,2015-01-30 12:01:12
+284,2015-01-28 19:45:00,SOC,Por. Cup,Boavista FC - VitÃ³ria GuimarÃ£es,3,PUSH,Boavista FC 0 (Asian Handicap-Full Time Excluding Overtime),2:2,188bet,2.02,3.00,0.00,Ksasha,2015-01-28 11:15:47
+285,2015-01-25 20:00:00,SOC,Fra. Ligue 1,AS St. Etienne - Paris Saint-Germain FC,6.51,WIN,Paris Saint-Germain FC -0.5 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2.17,3.00,3.51,Ksasha,2015-01-25 06:57:57
+286,2015-01-25 13:30:00,SOC,Belgium,Standard Liege - RSC Anderlecht,6.18,WIN,Standard Liege 0 (Asian Handicap-Full Time Excluding Overtime),2-0,188bet,2.06,3.00,3.18,Ksasha,2015-01-25 06:41:46
+287,2015-01-23 19:30:00,SOC,Fra. Ligue 1,OGC Nice - Olympique Marseille,6.18,WIN,OGC Nice +0.25 (Asian Handicap-Full Time Excluding Overtime),2-1,SBOBET,2.06,3.00,3.18,Ksasha,2015-01-23 11:10:40
+288,2015-01-20 18:30:00,SOC,Fra. Coupe De France,US Concarneau - Dijon FCO,6,WIN,1X (Double chance-Full Time Excluding Overtime),0-0,Bet365,2,3.00,3.00,Ksasha,2015-01-20 08:20:00
+289,2015-01-20 17:30:00,SOC,Fra. Coupe De France,Quevilly - SC Bastia,6.15,WIN,1X (Double chance-Full Time Excluding Overtime),0-0,Bet365,2.05,3.00,3.15,Ksasha,2015-01-19 19:50:12
+290,2015-01-18 11:30:00,SOC,Ita. Serie A,SS Lazio - Napoli,6,WIN,Napoli 0 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2,3.00,3.00,Ksasha,2015-01-18 09:33:14
+291,2015-01-17 19:00:00,SOC,Fra. Ligue 1,Stade Caen - Stade de Reims,6.54,WIN,Stade Caen (1X2-Full Time Excluding Overtime),4:1,5dimes,2.18,3.00,3.54,Ksasha,2015-01-17 16:36:30
+292,2015-01-17 17:00:00,SOC,Cyprus,Apoel Nicosia-Othellos Athienou,7.2,WIN,2 (+1.5 AH),1:1,188bet,2.4,3.00,4.20,Ksasha,2015-01-17 15:55:43
+293,2015-01-13 18:15:00,SOC,Por. Cup,Estoril Praia - Gil Vicente,6.18,WIN,Estoril Praia -1.25 (Asian Handicap-Full Time Excluding Overtime),3-0,12BET,2.06,3.00,3.18,Ksasha,2015-01-13 13:31:55
+294,2015-01-12 17:00:00,SOC,Cyprus,Othellos Athienou - Apollon Limmassol FC,5.91,WIN,Othellos Athienou +1 (Asian Handicap-Full Time Excluding Overtime),2-2,12BET,1.97,3.00,2.91,Ksasha,2015-01-12 07:53:40
+295,2015-01-11 15:00:00,SOC,Malta,Naxxar Lions FC - Hibernians FC,0.00,LOST,Hibernians FC -2.5 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,2.02,3.00,-3.00,Ksasha,2015-01-11 10:24:54
+296,2015-01-11 14:00:00,SOC,Ita. Serie A,Fiorentina - Palermo,0.00,LOST,Away +0.5 (Match),4:3,PINNACLE,2.38,3.00,-3.00,Ksasha,2015-01-11 09:39:29
+297,2015-01-09 18:59:00,SOC,Fra. Ligue 2,Angers - Nancy,0.00,LOST,Away 0 (Match),3-1,PINNACLE,2.05,3.00,-3.00,Ksasha,2015-01-09 17:15:09
+298,2015-01-09 19:00:00,SOC,Fra. Ligue 2,Dijon FCO - Tours FC,5.73,WIN,Tours FC +1 (Asian Handicap-Full Time Excluding Overtime),0-3,12BET,1.91,3.00,2.73,Ksasha,2015-01-09 16:55:04
+299,2015-01-07 17:29:00,SOC,Egypt,Arab Contractors - Zamalek,0.00,LOST,Home +0.5 (Match),0-1,PINNACLE,2.12,3.00,-3.00,Ksasha,2015-01-07 12:04:29
+300,2015-01-05 18:00:00,SOC,Turkey,Balikesirspor - Trabzonspor,6.15,WIN,Balikesirspor +0.5 (Asian Handicap-Full Time Excluding Overtime),2-2,12BET,2.05,3.00,3.15,Ksasha,2015-01-05 08:59:25
+301,2014-12-28 13:59:00,SOC,Ita. Serie B,Catania - Carpi,6.81,WIN,Away -0.5 (Match),0:2,PINNACLE,2.27,3.00,3.81,Ksasha,2014-12-27 16:56:38
+302,2014-12-24 14:00:00,SOC,Ita. Serie B,Cittadella - Catania Calcio,6.12,WIN,Cittadella 0 (Asian Handicap-Full Time Excluding Overtime),3-2,188bet,2.04,3.00,3.12,Ksasha,2014-12-23 19:55:10
+303,2014-12-19 17:59:00,SOC,Ita. Serie B,Virtus Lanciano - Carpi,1.5,LOST,Home -0.25 (Match),1-1,PINNACLE,2.03,3.00,-1.50,Ksasha,2014-12-19 08:26:59
+304,2014-12-17 12:00:00,SOC,Greece,Kerkyra - Ergotelis,5.7,WIN,Home -0.5 (Match),3-1,PINNACLE,1.9,3.00,2.70,Ksasha,2014-12-17 10:12:50
+305,2014-12-16 19:00:00,SOC,Ger. Bundesliga I,FC Bayern Munchen - SC Freiburg,0.00,LOST,FC Bayern Munchen -3 (Asian Handicap-Full Time Excluding Overtime),2-0,Dafabet,2.14,3.00,-3.00,Ksasha,2014-12-16 10:38:02
+306,2014-12-14 10:59:00,SOC,Por. Other,Maritimo B - Vitoria Guimaraes B,7.35,WIN,Home -0.5 (Match),3:2,PINNACLE,2.45,3.00,4.35,Ksasha,2014-12-14 08:23:12
+307,2014-12-13 17:00:00,SOC,Ita. Serie A,Palermo - Sassuolo,6,WIN,Palermo (1X2-Full Time Excluding Overtime),2:1,Bet365,2,3.00,3.00,Ksasha,2014-12-13 08:43:07
+308,2014-12-10 19:45:00,SOC,Champions L,Athletic Bilbao - BATE Borisov,5.91,WIN,Athletic Bilbao -1.5 (Asian Handicap-Full Time Excluding Overtime),2-0,Dafabet,1.97,3.00,2.91,Ksasha,2014-12-10 07:38:21
+309,2014-12-06 15:59:00,SOC,Denmark,Odense BK - Aalborg,0.00,LOST,Home -0.5 (Match),1:1,PINNACLE,2.3,3.00,-3.00,Ksasha,2014-12-06 06:58:50
+310,2014-12-04 19:30:00,SOC,Denmark,Esbjerg F.B. - FC Midtjylland,7.5,WIN,Esbjerg F.B. (1X2-Full Time Excluding Overtime),3-0,Bet365,2.5,3.00,4.50,Ksasha,2014-12-03 20:18:27
+311,2014-12-02 16:00:00,SOC,Russia,Arsenal Tula - FC Ufa,6.33,WIN,FC Ufa 0 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,2.11,3.00,3.33,Ksasha,2014-12-02 08:27:12
+312,2014-11-30 14:00:00,SOC,Ita. Serie A,AC Milan - Udinese,0.00,LOST,Away +0.5 (Match),2:0,PINNACLE,2.47,3.00,-3.00,Ksasha,2014-11-30 08:58:47
+313,2014-11-30 12:00:00,SOC,Fra. Ligue 1,Bordeaux - Lille,6.93,WIN,Home -0.5 (Match),1:0,PINNACLE,2.31,3.00,3.93,Ksasha,2014-11-30 08:06:32
+314,2014-11-29 19:00:00,SOC,Spa. Primera,Malaga CF - Real Madrid,0.00,LOST,Real Madrid -1.5 (Asian Handicap-Full Time Excluding Overtime),1:2,SBOBET,2.12,3.00,-3.00,Ksasha,2014-11-29 11:09:24
+315,2014-11-29 11:00:00,SOC,Belarussia,FC Minsk - Dinamo Brest,6.06,WIN,FC Minsk -1 (Asian Handicap-Full Time Excluding Overtime),5:2,12BET,2.02,3.00,3.06,Ksasha,2014-11-29 06:28:52
+316,2014-11-25 17:00:00,SOC,Champions L,BATE Borisov - FC Porto,6.12,WIN,FC Porto -1 (Asian Handicap-Full Time Excluding Overtime),0-3,SBOBET,2.04,3.00,3.12,Ksasha,2014-11-24 20:10:48
+317,2014-11-23 11:00:00,SOC,Belarussia,Dinamo Brest - Neman Grodno,7.5,WIN,Neman Grodno (1X2-Full Time Excluding Overtime),0:1,Bet365,2.5,3.00,4.50,Ksasha,2014-11-22 16:49:05
+318,2014-11-22 11:00:00,SOC,Belarussia,BATE Borisov - FC Gomel,0.00,LOST,FC Gomel +1.5 (Asian Handicap-Full Time Excluding Overtime),4:0,12BET,2.08,3.00,-3.00,Ksasha,2014-11-22 08:59:23
+319,2014-11-21 19:30:00,SOC,Fra. Ligue 1,FC Metz - Paris Saint-Germain FC,3,PUSH,FC Metz +1 (Asian Handicap-Full Time Excluding Overtime),2-3,SBOBET,2.06,3.00,0.00,Ksasha,2014-11-21 06:58:21
+320,2014-11-16 09:00:00,SOC,Friendly,CSKA Moscow - Mordoviya Saransk,9.66,WIN,Mordoviya Saransk (1X2-Full Time Excluding Overtime),1:2,Bet-at-home,3.22,3.00,6.66,Ksasha,2014-11-16 06:59:57
+321,2014-11-14 15:00:00,SOC,Friendly,RCD Espanyol - Olympique Marseille,6.3,WIN,RCD Espanyol (1X2-Full Time Excluding Overtime),2-1,Bet365,2.1,3.00,3.30,Ksasha,2014-11-14 07:57:07
+322,2014-11-16 19:44:00,SOC,UEFA EURO Q,Israel - Bosnia-Herzegovina,5.79,WIN,Home 0 (Match),3:0,PINNACLE,1.93,3.00,2.79,Ksasha,2014-11-13 20:23:14
+323,2014-11-08 13:00:00,SOC,Ukraine,Hirnyk-Sport-Poltava,6.3,WIN,1 ( 1X2),2:1,Bet365,2.1,3.00,3.30,Ksasha,2014-11-08 08:17:35
+324,2014-11-08 11:00:00,SOC,Belarussia,Dnepr Mogilev - FC Minsk,6.6,WIN,FC Minsk (1X2-Full Time Excluding Overtime),0:2,Dafabet,2.2,3.00,3.60,Ksasha,2014-11-08 07:29:47
+325,2014-11-03 17:00:00,SOC,Russia,FK Terek Grozny - FC Ufa,3,PUSH,FK Terek Grozny -1 (Asian Handicap-Full Time Excluding Overtime),1-0,Dafabet,1.97,3.00,0.00,Ksasha,2014-11-02 18:53:38
+326,2014-11-02 13:29:00,SOC,Belgium,Lierse - KAA Gent,3,PUSH,Away -1 (Match),0:1,PINNACLE,2.42,3.00,0.00,Ksasha,2014-11-02 07:37:24
+327,2014-11-01 20:00:00,SOC,Fra. Ligue 1,OGC Nice - Olympique Lyonnais,0.00,LOST,OGC Nice 0 (Asian Handicap-Full Time Excluding Overtime),1:3,5dimes,2.33,3.00,-3.00,Ksasha,2014-11-01 16:57:04
+328,2014-10-31 18:00:00,SOC,Poland,GÃ³rnik Leczna - Lechia Gdansk,3,PUSH,GÃ³rnik Leczna 0 (Asian Handicap-Full Time Excluding Overtime),1-1,Dafabet,1.97,3.00,0.00,Ksasha,2014-10-31 13:15:25
+329,2014-10-30 20:30:00,SOC,Belgium,Mouscron-Peruwelz - Club Brugge KV,6.27,WIN,Club Brugge KV -1 (Asian Handicap-Full Time Excluding Overtime),1-4,SBOBET,2.09,3.00,3.27,Ksasha,2014-10-30 15:33:09
+330,2014-10-27 16:30:00,SOC,Belarussia,Torpedo Zhodino - BATE Borisov,6.75,WIN,1X (Double chance-Full Time Excluding Overtime),2-2,Bet365,2.25,3.00,3.75,Ksasha,2014-10-27 07:39:50
+331,2014-10-27 15:30:00,SOC,Belarussia,Shakhtyor Soligorsk - Dinamo Minsk,0.00,LOST,Shakhtyor Soligorsk (Draw No Bet-Full Time Excluding Overtime),1-2,Bet365,2.5,3.00,-3.00,Ksasha,2014-10-26 20:20:22
+332,2014-10-25 17:59:00,SOC,Romania,Botosani - Rapid Bucuresti,6.42,WIN,Home -1 (Match),3:0,PINNACLE,2.14,3.00,3.42,Ksasha,2014-10-25 16:20:13
+333,2014-10-24 18:29:00,SOC,Fra. Ligue 1,Toulouse - Lens,0.00,LOST,Home -1 (Match),0-2,PINNACLE,1.97,3.00,-3.00,Ksasha,2014-10-24 08:15:55
+334,2014-10-22 18:45:00,SOC,Champions L,Ludogorets Razgrad (n) - Basel,5.82,WIN,Home 0 (Match),1-0,PINNACLE,1.94,3.00,2.82,Ksasha,2014-10-22 13:13:41
+335,2014-10-22 15:59:00,SOC,Europa League,Metalist Kharkiv (n) - Legia Warszawa,0.00,LOST,Home 0 (Match),0-1,PINNACLE,1.94,3.00,-3.00,Ksasha,2014-10-22 12:42:48
+336,2014-10-18 17:59:00,SOC,Fra. Ligue 1,Metz - Rennes,3,PUSH,Away 0 (Match),0:0,PINNACLE,2.27,3.00,0.00,Ksasha,2014-10-18 07:38:11
+337,2014-10-12 12:59:00,SOC,Ita. Serie B,Latina - Bologna,0.00,LOST,Home -0.5 (Match),1:2,PINNACLE,2.4,3.00,-3.00,Ksasha,2014-10-12 06:19:24
+338,2014-10-10 16:30:00,SOC,Friendly,Nimes-Marseille,3,PUSH,1X ( DC),Postp.,Bet365,1.91,3.00,0.00,Ksasha,2014-10-10 06:44:21
+339,2014-10-05 15:00:00,SOC,Fra. Ligue 1,Olympique Lyonnais - OSC Lille,6.18,WIN,Olympique Lyonnais -0.5 (Asian Handicap-Full Time Excluding Overtime),3:0,SBOBET,2.06,3.00,3.18,Ksasha,2014-10-05 07:39:02
+340,2014-10-05 13:00:00,SOC,Belarussia,Dinamo Minsk - Naftan Novopolotsk,0.00,LOST,Naftan Novopolotsk +1 (Asian Handicap-Full Time Excluding Overtime),2:0,Dafabet,2.13,3.00,-3.00,Ksasha,2014-10-04 05:53:16
+341,2014-10-03 15:30:00,SOC,Romania,FC Brasov - CSMS Iasi,6.57,WIN,FC Brasov -0.5 (Asian Handicap-Full Time Excluding Overtime),2-0,188bet,2.19,3.00,3.57,Ksasha,2014-10-03 05:29:17
+342,2014-09-22 15:59:00,SOC,Russia,Torpedo Moscow - Dynamo Moscow,0.00,LOST,Home +1 (Match),1-3,PINNACLE,2.31,3.00,-3.00,Ksasha,2014-09-22 06:59:36
+343,2014-09-21 18:00:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Steaua Bucuresti,7.14,WIN,FC Steaua Bucuresti (1X2-Full Time Excluding Overtime),2:3,Bet365,2.38,3.00,4.14,Ksasha,2014-09-21 12:01:50
+344,2014-09-21 15:30:00,SOC,Romania,Astra Giurgiu - Pandurii Targu-Jiu,0.00,LOST,X2 (Double chance-Full Time Excluding Overtime),2:1,Bet365,2.15,3.00,-3.00,Ksasha,2014-09-21 11:30:54
+345,2014-09-20 12:59:00,SOC,Russia,Kuban Krasnodar - Rubin Kazan,0.00,LOST,Away 0 (Match),2:1,PINNACLE,2.55,3.00,-3.00,Ksasha,2014-09-20 09:30:39
+346,2014-09-20 14:00:00,SOC,Belarussia,Dnepr Mogilev - Dinamo Brest,6.45,WIN,Dnepr Mogilev -0.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.15,3.00,3.45,Ksasha,2014-09-20 08:16:54
+347,2014-09-15 17:59:00,SOC,Romania,Pandurii Targu-Jiu - Petrolul Ploiesti,3,PUSH,Home 0 (Match),1-1,PINNACLE,2.1,3.00,0.00,Ksasha,2014-09-14 20:33:46
+348,2014-09-07 10:00:00,SOC,Friendly,BATE Borisov-Naftan Novopolock,0.00,LOST,X2 ( DC),6:0,Bet365,2.2,3.00,-3.00,Ksasha,2014-09-07 07:38:59
+349,2014-09-06 23:59:00,SOC,Bra. Serie B,Oeste Itapolis - Ceara,7.05,WIN,Home 0 (Match),3:1,PINNACLE,2.35,3.00,4.05,Ksasha,2014-09-06 12:12:34
+350,2014-09-06 12:00:00,SOC,Ukraine,Hirnyk-Sport-Stal Dniprodzerzhinsk,7.5,WIN,2 ( DNB),0:1,Bet365,2.5,3.00,4.50,Ksasha,2014-09-06 07:48:58
+351,2014-09-04 14:00:00,SOC,Friendly,Belarus U21 - Liechtenstein U21,0.00,LOST,Liechtenstein U21 +2.5 (Asian Handicap-Full Time Excluding Overtime),5-0,188bet,2.06,3.00,-3.00,Ksasha,2014-09-04 12:12:56
+352,2014-09-03 15:00:00,SOC,Czech Rep.,FK Viktoria Zizkov - SK Slavia Praha,6.75,WIN,FK Viktoria Zizkov (Draw No Bet-Full Time Excluding Overtime),2-1,Bet365,2.25,3.00,3.75,Ksasha,2014-09-03 08:24:48
+353,2014-09-02 14:30:00,SOC,Hungary,Cegled VSE - Diosgyor VTK,5.7,WIN,Cegled VSE +1.25 (Asian Handicap-Full Time Excluding Overtime),4-1,Bet365,1.9,3.00,2.70,Ksasha,2014-09-02 10:58:25
+354,2014-08-25 16:59:00,SOC,Sweden,Kalmar - Gefle,0.00,LOST,Away +0.5 (Match),2-1,PINNACLE,2.24,3.00,-3.00,Ksasha,2014-08-24 20:18:34
+355,2014-08-24 15:00:00,SOC,Belarussia,FC Slutsk - Dinamo Minsk,7.14,WIN,1X,0:0,Bet365,2.38,3.00,4.14,Ksasha,2014-08-23 20:10:31
+356,2014-08-21 16:59:00,SOC,Europa League,Dinamo Minsk (n) - Nacional da Madeira,0.00,LOST,Away 0 (Match),2-0,PINNACLE,2.14,3.00,-3.00,Ksasha,2014-08-21 10:44:43
+357,2014-08-20 16:30:00,SOC,Colombia,Universitario Popayan - Deportivo Cali,0.00,LOST,1X,1-3,Bet365,2.1,3.00,-3.00,Ksasha,2014-08-20 07:38:41
+358,2014-08-13 15:00:00,SOC,Friendly,Moldova U21-Belarus U21,6,WIN,1 ( DNB),1-0,Bet365,2,3.00,3.00,Ksasha,2014-08-13 07:28:21
+359,2014-08-10 14:00:00,SOC,Friendly,Stuttgart - Hull,0.00,LOST,Stuttgart (-0.75),1-2,SBOBET,2.13,3.00,-3.00,Ksasha,2014-08-10 08:46:03
+360,2014-08-09 15:00:00,SOC,Belarussia,Dnepr Mogilev - FC Brest,0.00,LOST,Dnepr Mogilev,0-1,Bet365,2.25,3.00,-3.00,Ksasha,2014-08-09 08:24:03
+361,2014-08-02 15:30:00,SOC,Belarussia,FC Brest - Naftan,6.45,WIN,Naftan,0:7,Bet365,2.15,3.00,3.45,Ksasha,2014-08-01 15:27:51
+362,2014-07-18 16:30:00,SOC,Belarussia,FC Slutsk - BATE Borisov,0.00,LOST,1X,1-3,Bet365,2.38,3.00,-3.00,Ksasha,2014-07-18 10:52:11
+363,2014-07-06 16:00:00,SOC,Belarussia,Dinamo Minsk - FC Gomel,0.00,LOST,Dinamo Minsk -1.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2.38,3.00,-3.00,Ksasha,2014-07-05 07:51:38
+364,2014-06-30 13:59:00,SOC,Belarussia,FC Slutsk (n) - FC Gomel,6,WIN,Home +0.5 (Match),0-0,PINNACLE,2,3.00,3.00,Ksasha,2014-06-28 06:50:57
+365,2014-06-21 16:00:00,SOC,Belarussia,Torpedo Zhodino - Dnepr Mogilev,3,PUSH,Torpedo Zhodino -1 (Asian Handicap-Full Time Excluding Overtime),2:1,Bet365,2.3,3.00,0.00,Ksasha,2014-06-20 12:17:44
+366,2014-06-21 16:00:00,SOC,Belarussia,Naftan - Neman Grodno,6.63,WIN,Naftan (-0.5),2:0,SBOBET,2.21,3.00,3.63,Ksasha,2014-06-20 12:14:11
+367,2014-06-11 15:00:00,SOC,Belarussia,Torpedo Zhodino - Naftan Novopolotsk,0.00,LOST,Torpedo Zhodino -0.5 (Asian Handicap-Full Time Excluding Overtime),0-1,Bet365,2.2,3.00,-3.00,Ksasha,2014-06-10 20:38:35
+368,2014-06-07 14:00:00,SOC,Friendly,Cameroon - Moldova,0.00,LOST,Cameroon -1.5 (Asian Handicap-Full Time Excluding Overtime),1:0,Bet365,2,3.00,-3.00,Ksasha,2014-06-05 19:23:49
+369,2014-06-01 16:00:00,SOC,Belarussia,Shakhtyor Soligorsk - FC Belshina Bobruisk,6.9,WIN,FC Belshina Bobruisk +1 (Asian Handicap-Full Time Excluding Overtime),1:2,Bet365,2.3,3.00,3.90,Ksasha,2014-05-30 12:28:44
+370,2014-05-15 16:00:00,SOC,Belarussia,Shakhtyor Soligorsk - FC Minsk,0.00,LOST,FC Minsk +0.5 (Asian Handicap-Full Time Excluding Overtime),3-1,Bet365,2.3,3.00,-3.00,Ksasha,2014-05-15 11:48:01
+371,2014-05-15 14:29:00,SOC,Russia,Spartak Moscow - Dynamo Moscow,6.99,WIN,Home 0 (Match),3-2,PINNACLE,2.33,3.00,3.99,Ksasha,2014-05-15 08:47:48
+372,2014-05-10 13:00:00,SOC,Belarussia,FC Brest - Dinamo Minsk,0.00,LOST,Dinamo Minsk (-1.5),2:1,Dafabet,1.92,3.00,-3.00,Ksasha,2014-05-10 08:12:00
+373,2014-05-07 16:00:00,SOC,Belarussia,Neman Grodno - Shakhtyor Soligorsk,7.5,WIN,Neman Grodno (Draw No Bet-Full Time Excluding Overtime),3-0,Bet365,2.5,3.00,4.50,Ksasha,2014-05-06 20:26:35
+374,2014-05-02 14:59:00,SOC,Russia,Rostov FK - Dynamo Moscow,3,PUSH,Away -1 (Match),2-3,PINNACLE,2.62,3.00,0.00,Ksasha,2014-05-02 07:05:24
+375,2014-05-04 14:00:00,SOC,Belarussia,FC Slutsk - FC Brest,5.97,WIN,FC Slutsk (-0.5),1:0,Dafabet,1.99,3.00,2.97,Ksasha,2014-05-02 05:57:23
+376,2014-04-27 16:30:00,SOC,Ukraine,FC Metalurh Donetsk - Dynamo Kiev,8.25,WIN,FC Metalurh Donetsk (Draw No Bet-Full Time Excluding Overtime),2-1,Bet365,2.75,3.00,5.25,Ksasha,2014-04-27 07:29:32
+377,2014-04-27 11:00:00,SOC,Kazakhstan,Tobol - Taraz,4.35,WIN,Tobol (-0.75),1:0,Bet365,1.9,3.00,1.35,Ksasha,2014-04-27 05:30:14
+378,2014-04-27 17:00:00,SOC,Belarussia,FC Brest - BATE Borisov,6.3,WIN,Handicap (1:0) 2,0-4,Bet365,2.1,3.00,3.30,Ksasha,2014-04-25 06:15:31
+379,2014-04-27 14:00:00,SOC,Belarussia,Belshina Bobruisk - FC Slutsk,6.3,WIN,X2,1:2,Bet365,2.1,3.00,3.30,Ksasha,2014-04-25 06:13:49
+380,2014-04-26 15:00:00,SOC,Belarussia,Neman Grodno - Torpedo BelAZ,0.00,LOST,Neman Grodno,0:0,Bet365,2.2,3.00,-3.00,Ksasha,2014-04-25 06:12:39
+381,2014-04-18 12:59:00,SOC,Russia,Amkar Perm - Ural Sverdlovsk Oblast,8.16,WIN,Away 0 (Match),0-2,PINNACLE,2.72,3.00,5.16,Ksasha,2014-04-18 07:35:27
+382,2014-04-18 14:00:00,SOC,Belarussia,Torpedo Zhodino - Dinamo Brest,7.5,WIN,Torpedo Zhodino -1 (Asian Handicap-Full Time Excluding Overtime),2-0,Bet365,2.5,3.00,4.50,Ksasha,2014-04-17 20:04:13
+383,2014-04-12 14:00:00,SOC,Belarussia,Belshina Bobruisk - FC Brest,5.7,WIN,Belshina Bobruisk,7:0,Dafabet,1.9,3.00,2.70,Ksasha,2014-04-10 20:33:59
+384,2014-04-06 14:29:00,SOC,Russia,FC Krasnodar - Rostov FK,0.00,LOST,Home -1 (Match),0:2,PINNACLE,2.38,3.00,-3.00,Ksasha,2014-04-06 06:47:01
+385,2014-04-06 18:00:00,SOC,Spa. Primera,Sevilla - Espanyol,7.23,WIN,Sevilla (-1),4:1,Dafabet,2.41,3.00,4.23,Ksasha,2014-04-05 20:52:40
+386,2014-04-06 20:00:00,SOC,Spa. Primera,Valladolid - Valencia,3,PUSH,Valladolid (+0),0:0,188bet,2.11,3.00,0.00,Ksasha,2014-04-05 20:30:39
+387,2014-04-06 14:00:00,SOC,Belarussia,Dinamo Brest - FC Gomel,0.00,LOST,FC Gomel (1X2-Full Time Excluding Overtime),2:0,12BET,1.93,3.00,-3.00,Ksasha,2014-04-03 20:51:18
+388,2014-03-31 17:59:00,SOC,Romania,Steaua Bucuresti - Botosani,6.78,WIN,Home -2 (Match),4-0,PINNACLE,2.26,3.00,3.78,Ksasha,2014-03-30 20:36:15
+389,2014-03-30 10:00:00,SOC,Ukraine,Dynamo-2 Kyiv - FC Nyva Ternopil,0.00,LOST,Dynamo-2 Kyiv (Draw No Bet-Full Time Excluding Overtime),0:1,Bet365,1.91,3.00,-3.00,Ksasha,2014-03-29 17:14:13
+390,2014-03-29 13:00:00,SOC,Other,MFC Mykolaiv - Titan Armyansk,0.00,LOST,Titan Armyansk (+0),2:1,Unibet,2.45,3.00,-3.00,Ksasha,2014-03-29 07:35:25
+391,2014-03-30 13:00:00,SOC,Belarussia,Neman Grodno - FK Slutsk,0.00,LOST,Neman Grodno -1 (Asian Handicap-Full Time Excluding Overtime),0:1,Bet365,2.5,3.00,-3.00,Ksasha,2014-03-28 19:03:26
+392,2014-03-30 12:00:00,SOC,Belarussia,Dnepr Mogilev - Dinamo Minsk,6.96,WIN,Dinamo Minsk,0:1,SBOBET,2.32,3.00,3.96,Ksasha,2014-03-28 18:40:05
+393,2014-03-29 12:00:00,SOC,Belarussia,Naftan - Torpedo BelAZ,0.00,LOST,Torpedo BelAZ,2:0,SBOBET,2.31,3.00,-3.00,Ksasha,2014-03-28 18:35:29
+394,2014-03-26 16:00:00,SOC,Ukraine,Slavutych Cherkasy - Nyva Ternopil,0.00,LOST,Slavutych Cherkasy,1-1,Bet365,1.91,3.00,-3.00,Ksasha,2014-03-25 10:20:59
+395,2014-03-25 19:00:00,SOC,Spa. Primera,Malaga - Espanyol,6.69,WIN,Espanyol (+0),1-2,SBOBET,2.23,3.00,3.69,Ksasha,2014-03-25 06:16:25
+396,2014-03-23 19:00:00,SOC,Brazil,ParanÃ¡ Clube - Atletico Paranaense,0.00,LOST,ParanÃ¡ Clube (1X2-Full Time Excluding Overtime),0:2,Bet365,1.91,3.00,-3.00,Ksasha,2014-03-23 07:53:24
+397,2014-03-22 17:30:00,SOC,Ukraine,Chernomorets Odessa - Tavriya Symferopol,5.73,WIN,X2,0:0,Bet365,1.91,3.00,2.73,Ksasha,2014-03-22 08:41:24
+398,2014-03-19 11:29:00,SOC,Asia,Beijing Guoan - Central Coast Mariners,0.00,LOST,Away +0.5 (Match),2-1,PINNACLE,2.33,3.00,-3.00,Ksasha,2014-03-18 20:16:52
+399,2014-03-16 17:30:00,SOC,Ukraine,Metalist Kharkiv - Goverla,5.94,WIN,Goverla (+1),1-1,188bet,1.98,3.00,2.94,Ksasha,2014-03-16 09:14:07
+400,2014-03-15 17:30:00,SOC,Ukraine,Dnipro - Sevastopol,0.00,LOST,Handicap (0:2) 2,3:0,Bet365,2.05,3.00,-3.00,Ksasha,2014-03-15 09:14:12
+401,2014-03-15 15:00:00,SOC,Ukraine,Metalurg Donetsk - Illichivets,0.00,LOST,Metalurg Donetsk,1:1,Bet365,1.91,3.00,-3.00,Ksasha,2014-03-15 08:13:30
+402,2014-03-14 13:00:00,SOC,Russia,FC Ural Sverdlovsk Oblast Yekaterinburg - FK Terek Grozny,6.33,WIN,FC Ural Sverdlovsk Oblast Yekaterinburg 0 (Asian Handicap-Full Time Excluding Overtime),2-1,Dafabet,2.11,3.00,3.33,Ksasha,2014-03-14 08:37:53
+403,2014-03-13 11:30:00,SOC,Russia,Tomsk - Tyumen,0.00,LOST,Handicap (0:1) 2,2-1,Bet365,2.75,3.00,-3.00,Ksasha,2014-03-13 06:17:23
+404,2014-03-10 16:00:00,SOC,Russia,Rostov - Kuban,3,PUSH,Rostov (+0),0-0,SBOBET,2.01,3.00,0.00,Ksasha,2014-03-09 20:35:48
+405,2014-03-10 12:29:00,SOC,Russia,Lokomotiv Moscow - Kryliya Sovetov,3,PUSH,Away +1 (Match),2-1,PINNACLE,2.43,3.00,0.00,Ksasha,2014-03-09 20:33:50
+406,2014-03-07 19:44:00,SOC,N Ireland,Glentoran FC - Ballymena United,0.00,LOST,Away 0 (Match),3-0,PINNACLE,2.25,3.00,-3.00,Ksasha,2014-03-07 12:59:18
+407,2014-03-09 11:59:00,SOC,Russia,Anzhi Makhachkala - Rubin Kazan,7.26,WIN,Home -0.5 (Match),1:0,PINNACLE,2.42,3.00,4.26,Ksasha,2014-03-06 08:39:46
+408,2014-03-02 11:00:00,SOC,Spa. Primera,Villarreal - Real Betis,0.00,LOST,Home -1.5 (Match),1:1,PINNACLE,2.18,3.00,-3.00,Ksasha,2014-03-01 20:41:05
+409,2014-02-23 21:30:00,SOC,Brazil,Atletico Paranaense - Arapongas,0.00,LOST,Arapongas (+0.5),3:0,188bet,1.98,10.00,-10.00,Ksasha,2014-02-23 11:26:51
+410,2014-02-20 22:30:00,SOC,Brazil,Atletico PR - Londrina,19.1,WIN,X2,2:2,Bet365,1.91,10.00,9.10,Ksasha,2014-02-20 07:16:22
+411,2014-02-16 16:00:00,SOC,Spa. Primera,Getafe - Real Madrid,24,WIN,Real Madrid (-2),0:3,SBOBET,2.4,10.00,14.00,Ksasha,2014-02-15 20:39:26
+412,2014-02-13 19:00:00,SOC,Brazil,Botafogo - Bonsucesso,0.00,LOST,X2,2:0,Bet365,2.63,10.00,-10.00,Ksasha,2014-02-13 07:44:19
+413,2014-02-11 20:00:00,SOC,Spa. Copa Del Rey,Atletico Madrid - Real Madrid,23.2,WIN,Away -0.5 (Match),0:2,PINNACLE,2.32,10.00,13.20,Ksasha,2014-02-10 20:39:11
+414,2014-02-09 19:00:00,SOC,Brazil,Cruzeiro - America MG,0.00,LOST,X2,2:0,BWIN,2.4,10.00,-10.00,Ksasha,2014-02-08 11:06:20
+415,2014-02-08 19:00:00,SOC,Brazil,Botafogo - Friburguense,24,WIN,X2,0:1,Bet365,2.4,10.00,14.00,Ksasha,2014-02-08 10:11:18
+416,2014-02-08 15:00:00,SOC,Eng. Premier,Chelsea - Newcastle United,22.8,WIN,Home -2 (Match),3:0,PINNACLE,2.28,10.00,12.80,Ksasha,2014-02-08 08:33:31
+417,2014-02-02 21:29:00,SOC,Brazil,Vasco da Gama (n) - Botafogo RJ,10.00,PUSH,Home -1 (Match),1:0,PINNACLE,2.43,10.00,0.00,Ksasha,2014-02-02 07:33:11
+418,2014-02-02 19:00:00,SOC,Brazil,Rio Branco PR - Atletico Paranaense,24,WIN,Rio Branco PR (1X2-Full Time Excluding Overtime),2:1,Bet365,2.4,10.00,14.00,Ksasha,2014-02-02 07:31:52
+419,2014-01-30 16:00:00,SOC,Other,BATE Borisov-MyPa,10.00,PUSH,1 (-1 AH),-0,Bet365,2.02,10.00,0.00,Ksasha,2014-01-30 12:09:17
+420,2014-01-29 21:00:00,SOC,Spa. Copa Del Rey,FC Barcelona - Levante,20.6,WIN,FC Barcelona -3 (Asian Handicap-Full Time Excluding Overtime),5:1,188bet,2.06,10.00,10.60,Ksasha,2014-01-28 20:15:26
+421,2014-01-26 19:00:00,SOC,Brazil,Passo Fundo - Internacional,0.00,LOST,1X,1:2,Bet-at-home,1.99,10.00,-10.00,Ksasha,2014-01-26 09:37:16
+422,2014-01-26 19:45:00,SOC,Ita. Serie A,Fiorentina - Genoa,24,WIN,Genoa (+1),3:3,SBOBET,2.4,10.00,14.00,Ksasha,2014-01-26 09:17:15
+423,2014-01-25 21:30:00,SOC,Brazil,Atletico Paranaense - Operario PR,19.8,WIN,Operario PR (+0.5),1:1,Bet365,1.98,10.00,9.80,Ksasha,2014-01-25 19:31:09
+424,2014-01-23 21:30:00,SOC,Brazil,GrÃªmio - Lajeadense,0.00,LOST,X2,1:2,Bet365,2.75,10.00,-10.00,Ksasha,2014-01-22 19:02:49
+425,2014-01-23 00:00:00,SOC,Brazil,EC Novo Hamburgo - SC Internacional PA,0.00,LOST,1X (Double chance-Full Time Excluding Overtime),1:2,Bet365,1.91,10.00,-10.00,Ksasha,2014-01-22 10:16:11
+426,2014-01-23 01:00:00,SOC,Mexico,Altamira - Monterrey,0.00,LOST,Altamira,1:3,BWIN,2.5,10.00,-10.00,Ksasha,2014-01-21 18:12:38
+427,2014-01-21 21:29:00,SOC,Brazil,Botafogo RJ (n) - Bangu Atletico Clube,23.2,WIN,Away +0.5 (Match),0:0,PINNACLE,2.32,10.00,13.20,Ksasha,2014-01-21 18:05:58
+428,2014-01-19 14:59:00,SOC,Por. Other,Beira Mar - Atletico Clube de Portugal,0.00,LOST,Away 0 (Match),3:2,PINNACLE,2.88,10.00,-10.00,Ksasha,2014-01-19 09:26:20
+429,2014-01-19 18:59:00,SOC,Brazil,Flamengo - Audax Rio,10.00,PUSH,Away +1 (Match),1:0,PINNACLE,1.97,10.00,0.00,Ksasha,2014-01-18 22:34:02
+430,2014-01-17 03:00:00,SOC,Mexico,Delfines Carmen - Pumas UNAM,20.2,WIN,Delfines Carmen 0 (Asian Handicap-Full Time Excluding Overtime),3:2,Bet365,2.02,10.00,10.20,Ksasha,2014-01-16 19:15:37
+431,2014-01-12 17:15:00,SOC,Spa. Segunda,Zaragoza - AlcorcÃ³n,21.6,WIN,Zaragoza,3:1,SBOBET,2.16,10.00,11.60,Ksasha,2014-01-12 10:12:06
+432,2014-01-09 20:30:00,SOC,Spa. Copa Del Rey,Rayo Vallecano - Levante,0.00,LOST,Rayo Vallecano -0.5 (Asian Handicap-Full Time Excluding Overtime),0:0,188bet,2.06,10.00,-10.00,Ksasha,2014-01-08 21:10:59
+433,2014-01-07 19:44:00,SOC,Eng. League One,Shrewsbury Town - Leyton Orient,0.00,LOST,Home 0 (Match),0:2,PINNACLE,2.44,10.00,-10.00,Ksasha,2014-01-07 09:29:41
+434,2014-01-05 13:15:00,SOC,Fra. Coupe De France,Raon L Etape - Bordeaux,20,WIN,Handicap (2:0) 1,1:2,Sportingbet,2,10.00,10.00,Ksasha,2014-01-05 08:00:28
+435,2014-01-04 15:00:00,SOC,Egypt,Semouha - Al Ahly,0.00,LOST,Semouha +0.5 (Asian Handicap-Full Time Excluding Overtime),0:2,12BET,1.96,10.00,-10.00,Ksasha,2014-01-04 08:49:03
+436,2014-01-04 15:00:00,SOC,Israel,Maccabi Petach Tikva - Hapoel Tel-Aviv,0.00,LOST,Maccabi Petach Tikva +0.25 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,2.15,9.00,-9.00,Ksasha,2014-01-04 08:40:00
+437,2014-01-01 15:00:00,SOC,Eng. Premier,Arsenal - Cardiff,0.00,LOST,Cardiff (+1.5),2:0,Dafabet,2.16,10.00,-10.00,Ksasha,2013-12-31 16:10:19
+438,2013-12-28 14:30:00,SOC,International,Palestine - Saudi Arabia,23.8,WIN,1X (Double chance-Full Time Excluding Overtime),0:0,Bet365,2.38,10.00,13.80,Ksasha,2013-12-28 09:13:16
+439,2013-12-26 13:59:00,SOC,Ita. Serie B,Varese - Novara,10.00,PUSH,Home (Match),PSTP,PINNACLE,2.24,10.00,0.00,Ksasha,2013-12-25 21:24:56
+440,2013-12-26 14:00:00,SOC,Ita. Serie B,Latina - Cesena,10.00,PUSH,Cesena (+0),0:0,Dafabet,2.3,10.00,0.00,Ksasha,2013-12-25 21:20:36
+441,2013-12-25 17:00:00,SOC,International,Oman - Bahrain,10.00,PUSH,Bahrain 0 (Asian Handicap-Full Time Excluding Overtime),0:0,12BET,2.16,10.00,0.00,Ksasha,2013-12-25 09:20:17
+442,2013-12-25 14:30:00,SOC,International,Qatar-Palestine,19.8,WIN,2 (+1.5 AH),1:0,188bet,1.98,10.00,9.80,Ksasha,2013-12-25 09:17:47
+443,2013-12-18 20:30:00,SOC,Spa. Copa Del Rey,Real Madrid - CD Olimpic,21.5,WIN,CD Olimpic (+3.5),2:0,Dafabet,2.15,10.00,11.50,Ksasha,2013-12-18 07:37:11
+444,2013-12-18 19:54:00,SOC,Fra. Other,Evian Thonon Gaillard - SC Bastia,20.7,WIN,Home -0.5 (Match),2:1,PINNACLE,2.07,10.00,10.70,Ksasha,2013-12-17 18:06:38
+445,2013-12-16 15:29:00,SOC,Romania,Gaz Metan Medias - Sageata Navodari,0.00,LOST,Home -1.5 (Match),1:2,PINNACLE,2.25,10.00,-10.00,Ksasha,2013-12-16 05:11:49
+446,2013-12-15 16:00:00,SOC,Fra. Ligue 1,OSC Lille - SC Bastia,0.00,LOST,OSC Lille -1.5 (Asian Handicap-Full Time Excluding Overtime),2:1,10bet,2.25,10.00,-10.00,Ksasha,2013-12-15 08:56:34
+447,2013-12-12 18:00:00,SOC,Europa League,Zulte-Waregem - Rubin Kazan,0.00,LOST,Zulte-Waregem,0:2,Bet365,2.35,10.00,-10.00,Ksasha,2013-12-11 20:49:58
+448,2013-12-12 20:05:00,SOC,Europa League,Guimaraes - Lyon,0.00,LOST,Guimaraes,1:2,Bet365,2.38,10.00,-10.00,Ksasha,2013-12-11 20:22:20
+449,2013-12-12 18:00:00,SOC,Europa League,Maccabi Tel Aviv - Bordeaux,10.00,PUSH,Maccabi Tel Aviv (-1),1:0,SBOBET,2.01,10.00,0.00,Ksasha,2013-12-10 18:27:21
+450,2013-12-10 19:45:00,SOC,Champions L,Benfica - Paris Saint Germain,21.7,WIN,Home -0.5 (Match),2:1,PINNACLE,2.17,10.00,11.70,Ksasha,2013-12-10 16:20:22
+451,2013-12-09 19:29:00,SOC,Fra. Coupe De France,Creteil - Metz,22.6,WIN,Home -0.5 (Match),1:0,PINNACLE,2.26,10.00,12.60,Ksasha,2013-12-09 11:05:34
+452,2013-12-07 12:00:00,SOC,Russia,Anzhi - Kuban,0.00,LOST,Kuban,0:0,5dimes,2.31,10.00,-10.00,Ksasha,2013-12-07 09:27:19
+453,2013-12-04 17:00:00,SOC,Denmark,Lyngby BK - FC Kobenhavn,10.00,PUSH,Lyngby BK +1 (Asian Handicap-Full Time Excluding Overtime),1:2,188bet,1.91,10.00,0.00,Ksasha,2013-12-03 20:37:24
+454,2013-12-02 15:59:00,SOC,Ukraine,FC Sevastopol - Dynamo Kyiv,0.00,LOST,Away -1.5,1:2,PINNACLE,2.11,10.00,-10.00,Ksasha,2013-12-02 09:00:36
+455,2013-12-01 10:00:00,SOC,Belarussia,Shakhtyor Soligorsk - Neman Grodno,0.00,LOST,Shakhtyor Soligorsk -1 (Asian Handicap-Full Time Excluding Overtime),1:1,Marathonbet,2.2,10.00,-10.00,Ksasha,2013-11-30 20:12:11
+456,2013-11-24 18:15:00,SOC,Denmark,FC Midtjylland - Brondby I.F.,21.1,WIN,Brondby I.F. 0 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,2.11,10.00,11.10,Ksasha,2013-11-23 22:53:29
+457,2013-11-24 16:00:00,SOC,Fra. Ligue 1,OGC Nice - AS St. Etienne,23,WIN,AS St. Etienne -0.25 (Asian Handicap-Full Time Excluding Overtime),0:1,Dafabet,2.3,10.00,13.00,Ksasha,2013-11-23 22:45:18
+458,2013-11-23 10:00:00,SOC,Belarussia,Dnepr Mogilev - FC Belshina Bobruisk,0.00,LOST,Dnepr Mogilev (1X2-Full Time Excluding Overtime),1:5,Sportingbet,2.2,10.00,-10.00,Ksasha,2013-11-22 20:05:52
+459,2013-11-22 15:00:00,SOC,Russia,FK Zenit St. Petersburg - FK Rostov na Donu,21.6,WIN,FK Rostov na Donu +1.25 (Asian Handicap-Full Time Excluding Overtime),0:2,12BET,2.16,10.00,11.60,Ksasha,2013-11-22 11:42:07
+460,2013-11-23 17:30:00,SOC,Ger. Bundesliga I,Borussia Dortmund - FC Bayern Munchen,20.2,WIN,FC Bayern Munchen (1X2-Full Time Excluding Overtime),0:3,Dafabet,2.02,10.00,10.20,Ksasha,2013-11-20 18:16:36
+461,2013-11-17 14:00:00,SOC,Ukraine,Oleksandria - Titan Armyansk,19.1,WIN,Oleksandria (-1),2:0,Marathonbet,1.91,10.00,9.10,Ksasha,2013-11-16 10:08:49
+462,2013-11-17 11:30:00,SOC,Ukraine,Zirka Kirovograd - Avangard Kramatorsk,21,WIN,X2,1-1,Bet365,2.1,10.00,11.00,Ksasha,2013-11-16 10:07:00
+463,2013-11-16 14:00:00,SOC,Ukraine,Stal Alchevsk - Poltava,0.00,LOST,X2,2:1,Bet365,2.75,10.00,-10.00,Ksasha,2013-11-16 08:40:46
+464,2013-11-16 20:00:00,SOC,Argentina,CA All Boys - Atletico Lanus,0.00,LOST,CA All Boys 0 (Asian Handicap-Full Time Excluding Overtime),2:3,Bet365,2.05,10.00,-10.00,Ksasha,2013-11-15 21:42:22
+465,2013-11-10 19:45:00,SOC,Ita. Serie A,AC Fiorentina - Sampdoria,0.00,LOST,AC Fiorentina -1.5 (Asian Handicap-Full Time Excluding Overtime),2:1,12BET,2.41,10.00,-10.00,Ksasha,2013-11-10 09:57:26
+466,2013-11-09 11:30:00,SOC,Ukraine,Avangard Kramatorsk - Oleksandria,0.00,LOST,Oleksandria,2:2,TIPICO,2.25,10.00,-10.00,Ksasha,2013-11-09 08:32:56
+467,2013-11-07 20:05:00,SOC,Europa League,HNK Rijeka - Olympique Lyonnais,10.00,PUSH,HNK Rijeka (Draw No Bet-Full Time Excluding Overtime),1:1,TIPICO,2.55,10.00,0.00,Ksasha,2013-11-05 21:17:11
+468,2013-11-06 14:00:00,SOC,Ita. Other,Salernitana - Catanzaro,0.00,LOST,Salernitana -0.5 (Asian Handicap-Full Time Excluding Overtime),1:1,12BET,2.14,10.00,-10.00,Ksasha,2013-11-05 20:15:47
+469,2013-11-06 13:00:00,SOC,Ita. Other,Ischia Isolaverde - Frosinone,10.00,PUSH,Ischia Isolaverde (Draw No Bet-Full Time Excluding Overtime),0:0,Betsson SB,2.32,10.00,0.00,Ksasha,2013-11-05 20:11:53
+470,2013-11-04 20:30:00,SOC,Fra. Ligue 2,Stade Brestois 29 - AC Troyes AC,10.00,PUSH,AC Troyes AC 0 (Asian Handicap-Full Time Excluding Overtime),1:1,188bet,1.96,10.00,0.00,Ksasha,2013-11-03 20:54:45
+471,2013-11-03 10:00:00,SOC,Russia,FC Ufa - FK Luch-Energiya Vladivostok,0.00,LOST,FC Ufa -1 (Asian Handicap-Full Time Excluding Overtime),0:0,Marathonbet,2.1,10.00,-10.00,Ksasha,2013-11-03 08:42:42
+472,2013-10-31 11:00:00,SOC,Russia,Zvezda Ryazan - Kuban Krasnodar,21.8,WIN,Zvezda Ryazan (+1),2:2,Marathonbet,2.18,10.00,11.80,Ksasha,2013-10-31 06:22:39
+473,2013-10-31 12:00:00,SOC,Russia,Alania Vladikavkaz - Anzhi,20,WIN,Alania Vladikavkaz,1:0,Bet365,2,10.00,10.00,Ksasha,2013-10-30 13:25:37
+474,2013-10-30 03:00:00,SOC,Russia,Ska Energia Khabarovsk - Volga Novgorod,22.5,WIN,Ska Energia Khabarovsk (+0),2:0,TIPICO,2.25,10.00,12.50,Ksasha,2013-10-29 08:08:44
+475,2013-10-27 14:00:00,SOC,Ita. Serie A,Catania Calcio - Sassuolo,20.2,WIN,X2 (Double chance-Full Time Excluding Overtime),0:0,Unibet,2.02,10.00,10.20,Ksasha,2013-10-26 21:37:58
+476,2013-10-11 18:45:00,SOC,WC Qual.,Wales - Macedonia,0.00,LOST,Macedonia (+0.25),1:0,Bet365,2.1,10.00,-10.00,Ksasha,2013-10-07 20:56:12
+477,2013-10-06 13:59:00,SOC,Ukraine,Dynamo Kyiv - Metalurh Donetsk,22.2,WIN,Home -1.5,9:1,PINNACLE,2.22,10.00,12.20,Ksasha,2013-10-06 08:11:37
+478,2013-10-06 13:00:00,SOC,Ukraine,Sevastopol - Illichivets,0.00,LOST,Sevastopol,0:1,188bet,2.15,10.00,-10.00,Ksasha,2013-10-06 07:53:06
+479,2013-10-06 14:00:00,SOC,Belarussia,Shakhtar Soligorsk-Gomel,0.00,LOST,1 (-1 AH),1:2,Dafabet,1.91,10.00,-10.00,Ksasha,2013-10-05 09:36:34
+480,2013-10-05 12:00:00,SOC,Ukraine,Zirka Kirovograd-Desna,0.00,LOST,1 ( 1X2),0:0,BWIN,1.91,10.00,-10.00,Ksasha,2013-10-05 08:58:14
+481,2013-10-04 18:30:00,SOC,Romania,ACS Poli Timisoara-CSM Brasov,22.8,WIN,2 (+0.75 AH),0:0,Dafabet,2.28,10.00,12.80,Ksasha,2013-10-04 12:43:04
+482,2013-10-04 15:00:00,SOC,Russia,Volga NN-Amkar Perm,19.8,WIN,2 (0 AH),0:2,Dafabet,1.98,10.00,9.80,Ksasha,2013-10-04 08:38:45
+483,2013-10-03 16:00:00,SOC,Europa League,Kuban-Valencia,0.00,LOST,1 (0 AH),0:2,188bet,1.98,10.00,-10.00,Ksasha,2013-10-01 20:08:07
+484,2013-09-29 14:00:00,SOC,Russia,Krasnodar - Rubin Kazan,19.1,WIN,Krasnodar (+0),1;0,Marathonbet,1.91,10.00,9.10,Ksasha,2013-09-28 08:52:02
+485,2013-09-28 18:00:00,SOC,Fra. Ligue 1,Olympique Lyonnais - OSC Lille,10.00,PUSH,OSC Lille 0 (Asian Handicap-Full Time Excluding Overtime),0:0,188bet,2.31,10.00,0.00,Ksasha,2013-09-27 20:40:01
+486,2013-09-30 16:00:00,SOC,Belarussia,Gomel - Neman Grodno,0.00,LOST,Gomel,0:1,EXPEKT,2.25,10.00,-10.00,Ksasha,2013-09-27 19:11:22
+487,2013-09-29 13:00:00,SOC,Belarussia,Dnepr Mogilev-Naftan Novopolock,28,WIN,2 ( DNB),0:2,Unibet,2.8,10.00,18.00,Ksasha,2013-09-27 19:02:55
+488,2013-09-26 20:00:00,SOC,Spa. Primera,Villarreal CF - RCD Espanyol,10.00,PUSH,Villarreal CF -1 (Asian Handicap-Full Time Excluding Overtime),2:1,SBOBET,2.31,10.00,0.00,Ksasha,2013-09-26 10:13:56
+489,2013-09-25 18:45:00,SOC,Ita. Serie A,Lazio - Catania,0.00,LOST,X2,3:1,Bet365,2.4,10.00,-10.00,Ksasha,2013-09-25 11:37:22
+490,2013-09-25 14:00:00,SOC,Ukraine,Slavutych-Tavriya Simferopol,20,WIN,1 ( DNB),3:1,Unibet,2,10.00,10.00,Ksasha,2013-09-24 12:10:40
+491,2013-09-24 18:00:00,SOC,Denmark,Koge - AaB,0.00,LOST,1X,1:2,Bet365,2.25,10.00,-10.00,Ksasha,2013-09-24 06:26:02
+492,2013-09-23 16:00:00,SOC,Norway,Odd Grenland II-Pors Grenland,0.00,LOST,1 (-1.25 AH),1:2,Bet365,2.1,10.00,-10.00,Ksasha,2013-09-23 11:22:31
+493,2013-09-22 15:30:00,SOC,Ger. Bundesliga I,VfB Stuttgart - Eintracht Frankfurt,0.00,LOST,VfB Stuttgart (1X2-Full Time Excluding Overtime),1:1,SBOBET,2.25,10.00,-10.00,Ksasha,2013-09-21 20:55:11
+494,2013-09-22 13:00:00,SOC,Ita. Serie A,Atalanta - Fiorentina,0.00,LOST,Home 0,0:2,PINNACLE,2.28,10.00,-10.00,Ksasha,2013-09-21 20:43:54
+495,2013-09-21 13:00:00,SOC,Ukraine,Zirka Kirovograd - Stal Alchevsk,23.6,WIN,Zirka Kirovograd (+0),1:0,Marathonbet,2.36,10.00,13.60,Ksasha,2013-09-21 08:26:27
+496,2013-09-21 13:00:00,SOC,Ukraine,Naftovik-Ukrnafta - Olimpik,10.00,PUSH,Olimpik (+0),2:2,Marathonbet,2,10.00,0.00,Ksasha,2013-09-21 08:24:46
+497,2013-09-21 10:30:00,SOC,Ukraine,Zakarpattia Uzhhorod - Arsenal Kyiv,23.9,WIN,Zakarpattia Uzhhorod (1X2-Full Time Excluding Overtime),2:0,5dimes,2.39,10.00,13.90,Ksasha,2013-09-21 07:38:37
+498,2013-09-22 16:00:00,SOC,Belarussia,Neman Grodno - Dinamo Minsk,21.6,WIN,Dinamo Minsk (1X2-Full Time Excluding Overtime),0:1,12BET,2.16,10.00,11.60,Ksasha,2013-09-20 21:15:49
+499,2013-09-19 16:59:00,SOC,Europa League,Eintracht Frankfurt - Bordeaux,19.7,WIN,Home -0.5,3:0,PINNACLE,1.97,10.00,9.70,Ksasha,2013-09-18 13:49:26
+500,2013-09-18 14:00:00,SOC,Bulgaria,PFC Marek Dupnitsa - Cherno More,20,WIN,PFC Marek Dupnitsa (+1),0:0,Bet365,2,10.00,10.00,Ksasha,2013-09-18 11:14:25
+501,2013-09-16 18:30:00,SOC,Fra. Ligue 2,Auxerre - Brest,0.00,LOST,Auxerre,0:0,Bet365,2,10.00,-10.00,Ksasha,2013-09-15 18:28:17
+502,2013-09-07 13:00:00,SOC,Belarussia,FC Minsk - FC Polotsk,19,WIN,FC Minsk (-2.75),6:0,Bet365,1.9,10.00,9.00,Ksasha,2013-09-07 09:25:06
+503,2013-09-06 16:00:00,SOC,International,Belarus - Kyrgyzstan,19.6,WIN,Belarus (-1.5),3:1,188bet,1.96,10.00,9.60,Ksasha,2013-09-06 10:12:41
+504,2013-09-05 08:30:00,SOC,Russia,FC Yakutiya - Baykal Irkutsk,0.00,LOST,FC Yakutiya (-1),2:2,Marathonbet,2.25,10.00,-10.00,Ksasha,2013-09-05 06:18:27
+505,2013-09-02 16:00:00,SOC,Norway,Vidar-Viking II,0.00,LOST,2 (-0.75 AH),3:1,188bet,1.92,10.00,-10.00,Ksasha,2013-09-02 13:59:59
+506,2013-09-02 16:00:00,SOC,Norway,Fana-Brann Bergen II,0.00,LOST,2 ( 1X2),5:4,Unibet,2.15,10.00,-10.00,Ksasha,2013-09-02 13:42:50
+507,2013-09-01 13:00:00,SOC,Russia,Mitos-Salyut Energiya Belgorod,0.00,LOST,1 ( DNB),1:3,EXPEKT,2.8,10.00,-10.00,Ksasha,2013-09-01 08:08:58
+508,2013-09-01 10:00:00,SOC,Russia,Irtysh Omsk-Luch Energiya,10.00,PUSH,1 ( DNB),1:1,EXPEKT,2.8,10.00,0.00,Ksasha,2013-09-01 08:08:01
+509,2013-08-29 17:00:00,SOC,Denmark,Vendsyssel F-Midtjylland,21.3,WIN,1 (+1 AH),2:2,12BET,2.13,10.00,11.30,Ksasha,2013-08-29 08:20:55
+510,2013-08-31 14:45:00,SOC,Russia,Terek Grozny - Anzhi,0.00,LOST,Terek Grozny,1:1,Unibet,1.9,10.00,-10.00,Ksasha,2013-08-27 19:15:33
+511,2013-08-26 17:00:00,SOC,Sweden,Brommapojkarna - Mjallby,25,WIN,Brommapojkarna,2:0,MYBET,2.5,10.00,15.00,Ksasha,2013-08-26 08:54:19
+512,2013-08-29 18:30:00,SOC,Europa League,Standard - FC Minsk,10.00,PUSH,Standard (-2),3:1,Marathonbet,1.92,10.00,0.00,Ksasha,2013-08-25 21:29:25
+513,2013-08-20 16:00:00,SOC,Norway,Bossekop - StrÃ¸msgodset 2,20.3,WIN,StrÃ¸msgodset 2 (-0.75),2:5,188bet,2.03,10.00,10.30,Ksasha,2013-08-20 12:46:43
+514,2013-08-19 15:00:00,SOC,Norway,FlekkerÃ¸y-Viking II,10.00,PUSH,2 ( DNB),1:1,EXPEKT,2.25,10.00,0.00,Ksasha,2013-08-19 14:38:58
+515,2013-08-19 16:00:00,SOC,Norway,Fyllingsdalen-Brann Bergen II,10.00,PUSH,2 ( DNB),2:2,Betsson SB,2.65,10.00,0.00,Ksasha,2013-08-19 12:14:29
+516,2013-08-22 00:00:00,SOC,Europa League,FC Minsk-Standard Liege,22.5,WIN,2 (-1 AH),0:2,Bet365,2.25,10.00,12.50,Ksasha,2013-08-15 11:40:35
+517,2013-08-17 14:14:00,SOC,Russia,Zenit St. Petersburg - Anzhi Makhachkala,24.2,WIN,Home -1.5,3:0,PINNACLE,2.42,10.00,14.20,Ksasha,2013-08-15 08:33:39
+518,2013-08-13 22:30:00,SOC,Bra. Serie B,Sport Recife - CearÃ¡,10.00,PUSH,Sport Recife (-1),2:1,188bet,2.13,10.00,0.00,Ksasha,2013-08-13 19:44:59
+519,2013-08-14 17:00:00,SOC,Int'l U21,Iceland U21 - Belarus U21,21.5,WIN,Iceland U21,4:1,BWIN,2.15,10.00,11.50,Ksasha,2013-08-12 10:32:01
+520,2013-08-12 15:00:00,SOC,Belarussia,FC Minsk - Naftan Novopolotsk,22,WIN,X2,1:2,Bet365,2.2,10.00,12.00,Ksasha,2013-08-12 07:01:58
+521,2013-08-11 16:00:00,SOC,Ukraine,Metalurg Donetsk - Arsenal Kiev,0.00,LOST,Arsenal Kiev (+0.5),2:0,188bet,1.91,10.00,-10.00,Ksasha,2013-08-11 08:56:16
+522,2013-08-11 16:59:00,SOC,Norway,Valerenga - Start IK,0.00,LOST,Home -1,1:3,PINNACLE,1.96,10.00,-10.00,Ksasha,2013-08-11 08:11:51
+523,2013-08-10 18:30:00,SOC,Slovenia,Domzale - Zavrc,20.8,WIN,Zavrc (+0.5),1:1,188bet,2.08,10.00,10.80,Ksasha,2013-08-10 10:52:30
+524,2013-08-10 14:59:00,SOC,Other,Dinamo Brest - Dnepr Mogilev,0.00,LOST,Away 0,2:0,PINNACLE,2.11,10.00,-10.00,Ksasha,2013-08-09 07:07:46
+525,2013-08-11 14:00:00,SOC,Belarussia,BATE Borisov - Shakhter Soligorsk,19.5,WIN,BATE Borisov,4:0,Bet365,1.95,10.00,9.50,Ksasha,2013-08-08 20:51:06
+526,2013-08-08 02:00:00,SOC,Mexico,Correcaminos-Monterrey,10.00,PUSH,1 ( DNB),1:1,PaddyPower,2.38,10.00,0.00,Ksasha,2013-08-07 21:18:48
+527,2013-08-07 13:00:00,SOC,Russia,FC Ufa - Torpedo Moscow,0.00,LOST,FC Ufa (-1.5),1:0,Marathonbet,2.56,10.00,-10.00,Ksasha,2013-08-07 06:25:09
+528,2013-08-06 18:00:00,SOC,Fra. Other,Boulogne - Creteil,10.00,PUSH,Creteil (+0),1:1,188bet,1.92,10.00,0.00,Ksasha,2013-08-06 10:42:50
+529,2013-08-06 18:44:00,SOC,Eng. League Cup,Tranmere Rovers - Mansfield Town,0.00,LOST,Away 0,2:0,PINNACLE,2.59,10.00,-10.00,Ksasha,2013-08-06 06:53:09
+530,2013-08-06 18:44:00,SOC,Eng. League Cup,Southend United - Yeovil Town,0.00,LOST,Home 0,0:1,PINNACLE,2.06,10.00,-10.00,Ksasha,2013-08-06 06:51:09
+531,2013-08-06 18:45:00,SOC,Eng. League Cup,Northampton - MK Dons,0.00,LOST,Northampton (+0),1:2,William Hill,2.62,10.00,-10.00,Ksasha,2013-08-06 06:48:28
+532,2013-08-03 11:30:00,SOC,Kazakhstan,Shakhter Karaganda - Akzhaiyk,0.00,LOST,Akzhaiyk (+1.5),4:0,Marathonbet,1.9,4.00,-4.00,Ksasha,2013-08-02 13:45:17
+533,2013-08-04 15:00:00,SOC,Belarussia,Dnepr Mogilev - FC Minsk,0.00,LOST,Dnepr Mogilev,2:2,Bet365,2.5,4.00,-4.00,Ksasha,2013-08-02 11:20:19
+534,2013-08-01 17:30:00,SOC,Europa League,Botev Plovdiv - Stuttgart,20.9,WIN,Botev Plovdiv (+0.75),1:1,188bet,2.09,10.00,10.90,Ksasha,2013-08-01 11:12:28
+535,2013-07-31 16:14:00,SOC,Asia,Manchester City (n) - AC Milan,19.8,WIN,Home -0.5,5-3,PINNACLE,1.98,10.00,9.80,Ksasha,2013-07-31 13:43:32
+536,2013-08-01 19:30:00,SOC,Europa League,Sevilla-Mladost Podgorica,0.00,LOST,1 EH(0:3),3:0,PaddyPower,2.4,10.00,-10.00,Ksasha,2013-07-30 13:25:13
+537,2013-08-01 18:30:00,SOC,Europa League,St. Etienne-FC Milsami Orhei,19.1,WIN,1 EH(0:2),3:0,PaddyPower,1.91,10.00,9.10,Ksasha,2013-07-30 12:37:17
+538,2013-07-28 14:00:00,SOC,Belarussia,Torpedo BelAZ - Zvezda-BGU Minsk,19,WIN,Torpedo BelAZ (-1.75),3:0,Bet365,1.9,10.00,9.00,Ksasha,2013-07-28 10:37:36
+539,2013-07-28 09:30:00,SOC,Russia,Lokomotiv Moscow - CSKA Moscow,0.00,LOST,1X,1:2,Bet365,2,10.00,-10.00,Ksasha,2013-07-27 10:49:41
+540,2013-07-27 12:00:00,SOC,Kazakhstan,Vostok - Shakhter Karaganda,10.00,PUSH,Vostok (+0),0:0,Marathonbet,1.9,10.00,0.00,Ksasha,2013-07-27 08:45:42
+541,2013-07-26 16:00:00,SOC,Russia,Zenit St Petersburg - Kuban Krasnodar,23.5,WIN,X2,1:1,BWIN,2.35,10.00,13.50,Ksasha,2013-07-26 13:21:40
+542,2013-07-25 16:00:00,SOC,Europa League,Aktobe-HÃ¸dd,10.00,PUSH,1 (-2 AH),2:0,Bet365,2.38,10.00,0.00,Ksasha,2013-07-25 11:21:31
+543,2013-07-17 18:45:00,SOC,Champions L,Cliftonville - Celtic,0.00,LOST,Cliftonville (+1.5),0:3,Canbet,2.16,10.00,-10.00,Ksasha,2013-07-17 10:22:13
+544,2013-07-14 02:59:00,SOC,USA,Portland Timbers - LA Galaxy,0.00,LOST,Away 0,1:2,PINNACLE,2.07,10.00,-10.00,Ksasha,2013-07-13 17:59:20
+545,2013-07-14 01:00:00,SOC,USA,FC Dallas - Real Salt Lake,0.00,LOST,FC Dallas,0:3,188bet,2.11,10.00,-10.00,Ksasha,2013-07-13 17:57:05
+546,2013-07-13 23:29:00,SOC,USA,New England Revolution - Houston Dynamo,0.00,LOST,Home -0.5,1:2,PINNACLE,2.07,10.00,-10.00,Ksasha,2013-07-13 17:50:31
+547,2013-07-12 17:00:00,SOC,Ukraine,Tavriya Simferopol-Zorya Lugansk,22.5,WIN,2 ( DNB),0:2,PaddyPower,2.25,10.00,12.50,Ksasha,2013-07-12 08:26:14
+548,2013-07-14 16:00:00,SOC,Belarussia,Dnepr Mogilev - Neman Grodno,0.00,LOST,Neman Grodno (+0),3:1,Marathonbet,2.08,10.00,-10.00,Ksasha,2013-07-12 07:13:36
+549,2013-07-14 18:59:00,SOC,Bra. Serie A,Corinthians - Atletico Mineiro,0.00,LOST,Home -1,0:1,PINNACLE,2.08,10.00,-10.00,Ksasha,2013-07-11 20:04:55
+550,2013-07-10 15:00:00,SOC,Int'l U20,France U20 - Ghana U20,0.00,LOST,Home -1.5,2:1,PINNACLE,2.35,10.00,-10.00,Ksasha,2013-07-10 11:04:52
+551,2013-07-13 08:00:00,SOC,Kazakhstan,Kayrat - Shakhter Karaganda,0.00,LOST,Kayrat,1:1,Bet365,2,10.00,-10.00,Ksasha,2013-07-10 09:54:59
+552,2013-07-09 18:00:00,SOC,Champions L,EB/Streymur - Lusitanos,0.00,LOST,Lusitanos (+1.5),5:1,Marathonbet,2.34,10.00,-10.00,Ksasha,2013-07-07 13:29:09
+553,2013-07-09 19:00:00,SOC,Champions L,Tre Penne - FC Shirak,0.00,LOST,FC Shirak (-2),1:0,Marathonbet,2.04,10.00,-10.00,Ksasha,2013-07-07 13:14:13
+554,2013-07-07 15:30:00,SOC,Finland,Mariehamn - Jaro,10.00,PUSH,Jaro (+0),0:0,188bet,2.13,10.00,0.00,Ksasha,2013-07-07 09:17:14
+555,2013-07-08 16:00:00,SOC,Belarussia,Dinamo Minsk - Shakhter Soligorsk,0.00,LOST,Shakhter Soligorsk,1:1,William Hill,2.4,10.00,-10.00,Ksasha,2013-07-05 12:23:33
+556,2013-07-07 14:00:00,SOC,Belarussia,Torpedo BelAZ - Gomel,26,WIN,Gomel,1:3,Marathonbet,2.6,10.00,16.00,Ksasha,2013-07-05 12:02:17
+557,2013-07-06 15:00:00,SOC,Belarussia,Belshina Bobruisk - Dnepr Mogilev,22,WIN,Belshina Bobruisk,3:1,BWIN,2.2,10.00,12.00,Ksasha,2013-07-05 11:47:19
+558,2013-07-06 15:00:00,SOC,Belarussia,Slavia Mozyr - Naftan Novopolotsk,0.00,LOST,Naftan Novopolotsk,1:1,BWIN,2.7,10.00,-10.00,Ksasha,2013-07-05 11:35:33
+559,2013-07-04 16:00:00,SOC,Europa League,Kruoja-Dynamo Minsk,0.00,LOST,1 (+2 AH),0:3,SBOBET,2.28,10.00,-10.00,Ksasha,2013-07-04 12:07:37
+560,2013-07-03 16:30:00,SOC,Friendly,1860 Munchen-Terek Grozni,0.00,LOST,1 ( DNB),0:3,Marathonbet,1.91,9.00,-9.00,Ksasha,2013-07-03 13:02:08
+561,2013-07-02 17:00:00,SOC,Friendly,Rijeka - NK Celje,10.00,PUSH,Rijeka (-1.5),8:0,Marathonbet,1.91,10.00,0.00,Ksasha,2013-07-02 10:56:16
+562,2013-07-02 13:00:00,SOC,Champions L,FC Shirak - Tre Penne,0.00,LOST,FC Shirak (-3.5),3:0,Marathonbet,2.15,10.00,-10.00,Ksasha,2013-07-01 08:24:52
+563,2013-06-19 16:00:00,SOC,Belarussia,Shakhter Soligorsk - FC Brest,0.00,LOST,FC Brest (+1),5:0,Marathonbet,2.34,10.00,-10.00,Ksasha,2013-06-19 08:57:39
+564,2013-06-15 15:30:00,SOC,Belarussia,Torpedo BelAZ - FC Minsk,24,WIN,Torpedo BelAZ,2:1,Bet365,2.4,10.00,14.00,Ksasha,2013-06-14 10:39:35
+565,2013-06-15 16:30:00,SOC,Belarussia,Gomel - Dnepr Mogilev,21.2,WIN,X2,0:0,Marathonbet,2.12,10.00,11.20,Ksasha,2013-06-14 10:34:07
+566,2013-06-15 15:00:00,SOC,Belarussia,Slavia Mozyr - Neman Grodno,0.00,LOST,Neman Grodno,1:0,Marathonbet,1.95,10.00,-10.00,Ksasha,2013-06-14 10:30:14
+567,2013-06-13 02:29:00,SOC,Other,Portland Timbers - Tampa Bay Rowdies,0.00,LOST,Away +1.5,2:0,PINNACLE,1.91,10.00,-10.00,Ksasha,2013-06-12 18:26:27
+568,2013-06-12 23:30:00,SOC,USA,New England Revolution - Red Bull New York,0.00,LOST,Red Bull New York,4:2,Marathonbet,2.56,10.00,-10.00,Ksasha,2013-06-12 18:23:18
+569,2013-06-07 15:59:00,SOC,WC Qual.,Finland - Belarus,0.00,LOST,Away 0,1:0,PINNACLE,2.32,10.00,-10.00,Ksasha,2013-06-07 07:05:48
+570,2013-05-30 16:00:00,SOC,Belarussia,Naftan Novopolock-Dinamo Brest,0.00,LOST,1 ( 1X2),1:2,SBOBET,2.43,10.00,-10.00,Ksasha,2013-05-30 07:36:58
+571,2013-05-29 18:30:00,SOC,International,Ecuador - Germany,0.00,LOST,1X,2:4,Bet365,2.4,10.00,-10.00,Ksasha,2013-05-27 21:06:46
+572,2013-05-26 09:30:00,SOC,Russia,Dinamo Moscow - Volga Novgorod,19.7,WIN,Volga Novgorod (+1),0:0,Marathonbet,1.97,10.00,9.70,Ksasha,2013-05-25 16:49:05
+573,2013-05-26 09:30:00,SOC,Russia,Amkar - Zenit St Petersburg,10.00,PUSH,Amkar (+0),0:0,Marathonbet,2.34,10.00,0.00,Ksasha,2013-05-25 16:46:48
+574,2013-05-25 14:00:00,SOC,Hungary,Gyori ETO - MTK Budapest,0.00,LOST,MTK Budapest (+0),1:0,Marathonbet,2.04,10.00,-10.00,Ksasha,2013-05-25 08:51:19
+575,2013-05-22 23:00:00,SOC,Argentina,Independiente - Boca Unidos de Corrientes,26.3,WIN,X2,1:1,Bet365,2.63,10.00,16.30,Ksasha,2013-05-21 17:18:08
+576,2013-05-20 15:00:00,SOC,Denmark,Nordsjaelland - Esbjerg,0.00,LOST,Esbjerg (+0),1:0,Marathonbet,1.95,10.00,-10.00,Ksasha,2013-05-19 18:53:07
+577,2013-05-19 13:00:00,SOC,Ita. Serie A,Atalanta - Chievo,0.00,LOST,Atalanta,2:2,Nordicbet,2,10.00,-10.00,Ksasha,2013-05-18 21:31:42
+578,2013-05-19 13:00:00,SOC,Turkey,Genclerbirligi - Bursaspor,0.00,LOST,Genclerbirligi,2:2,Interwetten,2.3,10.00,-10.00,Ksasha,2013-05-18 20:50:46
+579,2013-05-17 19:00:00,SOC,Ireland,Shelbourne - St. Patricks Athletic,23.4,WIN,St. Patricks Athletic (-1.5),0:3,Marathonbet,2.34,10.00,13.40,Ksasha,2013-05-17 11:18:12
+580,2013-05-19 17:30:00,SOC,Romania,Steaua Bucharest - Viitorul Constanta,24.8,WIN,Viitorul Constanta (+0),2:5,Marathonbet,2.48,10.00,14.80,Ksasha,2013-05-15 19:51:16
+581,2013-05-13 18:44:00,SOC,Ita. Serie B,Varese - Crotone,0.00,LOST,Home -1.5,1:1,PINNACLE,2.25,10.00,-10.00,Ksasha,2013-05-13 12:13:30
+582,2013-05-08 18:45:00,SOC,Ita. Serie A,Siena - Fiorentina,0.00,LOST,Home +0.5,0:1,PINNACLE,2.21,10.00,-10.00,Ksasha,2013-05-08 08:28:40
+583,2013-05-08 18:45:00,SOC,Ita. Serie A,Palermo - Udinese,0.00,LOST,Palermo,2:3,Unibet,2.2,10.00,-10.00,Ksasha,2013-05-08 08:22:11
+584,2013-05-08 18:45:00,SOC,Ita. Serie A,Inter - Lazio,25,WIN,Lazio,1:3,Marathonbet,2.5,10.00,15.00,Ksasha,2013-05-08 08:13:42
+585,2013-05-07 18:30:00,SOC,Romania,Gloria Bistrita - Steaua Bucharest,21,WIN,Handicap (2:0) 1,0:1,Bet365,2.1,10.00,11.00,Ksasha,2013-05-06 21:26:54
+586,2013-05-05 15:00:00,SOC,Spa. Primera,Zaragoza - Rayo Vallecano,22.3,WIN,Zaragoza,3:0,Canbet,2.23,10.00,12.30,Ksasha,2013-05-05 11:04:07
+587,2013-05-05 13:00:00,SOC,Ita. Serie A,Catania - Siena,0.00,LOST,Siena (+0),3:0,188bet,2.53,10.00,-10.00,Ksasha,2013-05-05 09:36:25
+588,2013-05-05 18:45:00,SOC,Ita. Serie A,Napoli - Inter,22.2,WIN,Napoli (-1.5),3:1,Marathonbet,2.22,10.00,12.20,Ksasha,2013-05-05 09:33:55
+589,2013-05-04 13:00:00,SOC,Ukraine,Illichivets - Shakhtar Donetsk,20.2,WIN,Illichivets (+1),1:1,Marathonbet,2.02,10.00,10.20,Ksasha,2013-05-04 10:01:44
+590,2013-05-03 14:59:00,SOC,Ukraine,Dnipro Dnipropetrovsk - Zorya Lugansk,21.2,WIN,Away +1.25,1:1,PINNACLE,2.12,10.00,11.20,Ksasha,2013-05-03 12:17:33
+591,2013-04-30 09:59:00,SOC,Asia,Sanfrecce Hiroshima - Beijing Guoan,10.00,PUSH,Away 0,0:0,PINNACLE,2.1,10.00,0.00,Ksasha,2013-04-29 15:51:59
+592,2013-04-28 14:30:00,SOC,Belarussia,FC Slavia Mozyr-Shakhtar Soligorsk,23.8,WIN,2 (-1 AH),0:2,Bet365,2.38,10.00,13.80,Ksasha,2013-04-26 12:16:03
+593,2013-04-27 14:00:00,SOC,Belarussia,BATE Borisov-FC Minsk,10.00,PUSH,2 (+1 AH),2:1,Bet365,2.35,10.00,0.00,Ksasha,2013-04-26 12:14:09
+594,2013-04-26 18:45:00,SOC,Ireland,UCD - Shamrock Rovers,22.5,WIN,UCD (+1),2:0,Canbet,2.25,10.00,12.50,Ksasha,2013-04-26 08:39:40
+595,2013-04-27 14:00:00,SOC,Eng. League Two,Burton - Gillingham,25,WIN,Burton,3:2,EXPEKT,2.5,10.00,15.00,Ksasha,2013-04-25 20:31:47
+596,2013-04-24 16:30:00,SOC,Fra. Ligue 1,Rennes - Troyes,20,WIN,X2,1:2,Bet365,2,10.00,10.00,Ksasha,2013-04-24 13:24:53
+597,2013-04-22 14:59:00,SOC,Ukraine,Arsenal Kyiv - Karpaty Lviv,0.00,LOST,Away 0,4:1,PINNACLE,2.26,10.00,-10.00,Ksasha,2013-04-22 07:36:16
+598,2013-04-21 10:30:00,SOC,Ita. Serie A,Inter Milan - Parma,0.00,LOST,Away 0,1:0,PINNACLE,2.79,10.00,-10.00,Ksasha,2013-04-19 19:14:28
+599,2013-04-21 14:00:00,SOC,Belarussia,BATE Borisov-Dinamo Brest,20.2,WIN,2 (+1.5 AH),3:2,Dafabet,2.02,10.00,10.20,Ksasha,2013-04-19 15:32:27
+600,2013-04-19 22:00:00,SOC,Argentina,Velez Sarsfield-Newells Old Boys,21,WIN,2 ( DNB),1:3,PaddyPower,2.1,10.00,11.00,Ksasha,2013-04-19 10:27:38
+601,2013-04-18 00:59:00,SOC,Argentina,Olimpo Bahia Blanca (n) - Velez Sarsfield,0.00,LOST,Away -1,0:0,PINNACLE,2.44,10.00,-10.00,Ksasha,2013-04-17 07:44:02
+602,2013-04-17 17:00:00,SOC,Ukraine,Arsenal Kiev - Chernomorets Odessa,21,WIN,Chernomorets Odessa,1:2,Interwetten,2.1,10.00,11.00,Ksasha,2013-04-17 06:27:57
+603,2013-04-17 16:15:00,SOC,Denmark,Horsens - Randers,20,WIN,Randers (+0),2:3,William Hill,2,10.00,10.00,Ksasha,2013-04-17 05:55:16
+604,2013-04-17 00:15:00,SOC,Libertadores,Cerro Porteno - Deportes Tolima,0.00,LOST,Deportes Tolima,0:0,EXPEKT,2.5,10.00,-10.00,Ksasha,2013-04-15 17:20:01
+605,2013-04-15 18:45:00,SOC,Ita. Serie A,Lazio - Juventus,20,WIN,Juventus,0:2,Interwetten,2,10.00,10.00,Ksasha,2013-04-15 06:09:00
+606,2013-04-14 16:30:00,SOC,Ukraine,Arsenal Kiev - Metalurg Donetsk,23,WIN,Metalurg Donetsk,0:2,Bet365,2.3,10.00,13.00,Ksasha,2013-04-14 08:30:32
+607,2013-04-14 17:00:00,SOC,Spa. Primera,Zaragoza - Barcelona,0.00,LOST,Zaragoza (+1),0:3,Ladbrokes,1.98,10.00,-10.00,Ksasha,2013-04-14 08:01:58
+608,2013-04-13 15:00:00,SOC,Fra. Ligue 1,Troyes - Paris SG,0.00,LOST,1X,0:1,Bet365,2.25,10.00,-10.00,Ksasha,2013-04-13 11:05:06
+609,2013-04-13 18:00:00,SOC,Fra. Ligue 1,Evian Tg - Rennes,25,WIN,Evian Tg,4:2,Ladbrokes,2.5,10.00,15.00,Ksasha,2013-04-13 11:02:36
+610,2013-04-13 13:30:00,SOC,Ger. Bundesliga I,Bayern Munich - Nurnberg,0.00,LOST,Nurnberg (+2),4:0,Bet365,1.9,10.00,-10.00,Ksasha,2013-04-13 10:03:52
+611,2013-04-13 16:00:00,SOC,Ita. Serie A,Pescara - Siena,21.6,WIN,Away -0.5,2:3,PINNACLE,2.16,10.00,11.60,Ksasha,2013-04-13 09:36:40
+612,2013-04-12 23:00:00,SOC,Chile,Antofagasta - Huachipato,0.00,LOST,Antofagasta,3:3,Bet365,2,10.00,-10.00,Ksasha,2013-04-12 13:50:52
+613,2013-04-12 14:00:00,SOC,Ukraine,Volyn - Illichivets,20,WIN,Illichivets (+0),0:2,188bet,2,10.00,10.00,Ksasha,2013-04-12 07:20:03
+614,2013-04-10 22:45:00,SOC,Libertadores,Real Garcilaso - Cerro Porteno,21.3,WIN,Real Garcilaso (-1.5),5:1,188bet,2.13,10.00,11.30,Ksasha,2013-04-10 11:12:10
+615,2013-04-10 15:59:00,SOC,Denmark,Randers FC - AC Horsens,21.1,WIN,Home -0.5,1:0,PINNACLE,2.11,10.00,11.10,Ksasha,2013-04-10 08:57:36
+616,2013-04-09 11:30:00,SOC,Asia,Guizhou Renhe - Central Coast Mariners,23,WIN,Guizhou Renhe,2:1,Interwetten,2.3,10.00,13.00,Ksasha,2013-04-08 16:18:57
+617,2013-04-07 13:00:00,SOC,Ita. Serie A,Catania - Cagliari,10.00,PUSH,Cagliari (+0),0:0,TIPICO,2.5,10.00,0.00,Ksasha,2013-04-07 10:41:14
+618,2013-04-07 13:00:00,SOC,Ita. Serie A,Udinese - Chievo,20.4,WIN,Udinese (-0.75),3:1,188bet,2.04,10.00,10.40,Ksasha,2013-04-07 08:21:50
+619,2013-04-07 12:00:00,SOC,Denmark,Horsens - Nordsjaelland,21,WIN,Nordsjaelland,0:2,William Hill,2.1,10.00,11.00,Ksasha,2013-04-06 20:26:53
+620,2013-04-06 16:30:00,SOC,Ukraine,Metalist Kharkiv-Volyn,0.00,LOST,1 (-2 AH),1:0,Bet365,2.3,10.00,-10.00,Ksasha,2013-04-06 10:54:24
+621,2013-04-07 19:00:00,SOC,Brazil,Ponte Preta - Palmeiras,0.00,LOST,Ponte Preta,1:2,Interwetten,2,10.00,-10.00,Ksasha,2013-04-06 09:13:58
+622,2013-04-03 00:00:00,SOC,Belarussia,FC Minsk-Torpedo BelAZ,0.00,LOST,2 ( DNB),1:0,Unibet,2.8,10.00,-10.00,Ksasha,2013-04-01 09:55:42
+623,2013-03-31 15:00:00,SOC,Belarussia,BATE Borisov - Dinamo Minsk,10.00,PUSH,Dinamo Minsk (+0),1:1,YOUWIN,2.35,10.00,0.00,Ksasha,2013-03-28 20:41:31
+624,2013-03-30 14:00:00,SOC,Belarussia,Dnepr Mogilyov - Gomel,21,WIN,Dnepr Mogilyov (+0),2:1,YOUWIN,2.1,10.00,11.00,Ksasha,2013-03-28 20:38:16
+625,2013-03-30 15:30:00,SOC,Ukraine,Arsenal Kiev - Tavriya Symferopol,10.00,PUSH,Tavriya Symferopol (+0),1:1,YOUWIN,2,10.00,0.00,Ksasha,2013-03-27 20:01:22
+626,2013-03-23 08:45:00,SOC,Australia,Western Sydney - Sydney FC,23,WIN,X2,1:1,Interwetten,2.3,10.00,13.00,Ksasha,2013-03-22 20:21:38
+627,2013-03-23 06:29:00,SOC,Australia,Melbourne Victory - Perth Glory,19.9,WIN,Away +0.25,2:3,PINNACLE,1.99,10.00,9.90,Ksasha,2013-03-22 20:07:58
+628,2013-03-20 20:30:00,SOC,Colombia,Deportes Quindio - Atletico Huila,21,WIN,Deportes Quindio,3:2,Bet365,2.1,10.00,11.00,Ksasha,2013-03-20 16:59:02
+629,2013-03-17 17:29:00,SOC,Ukraine,Dnipro Dnipropetrovsk - Kryvbas Kryvyi Rih,20.3,WIN,Away +1.5,1:2,PINNACLE,2.03,10.00,10.30,Ksasha,2013-03-17 09:29:07
+630,2013-03-16 17:00:00,SOC,Ita. Serie A,Catania - Udinese,20,WIN,Catania,3:1,Interwetten,2,10.00,10.00,Ksasha,2013-03-15 20:23:46
+631,2013-03-13 02:00:00,SOC,CONCACAF CL,Seattle (USA) - Tigres,20.5,WIN,Seattle (USA) (+0),3:1,Bet365,2.05,10.00,10.50,Ksasha,2013-03-12 08:33:14
+632,2013-03-03 16:29:00,SOC,Ukraine,Chernomorets Odessa - Vorskla Poltava,5,LOST,Away +0.75,1:0,PINNACLE,1.91,10.00,-5.00,Ksasha,2013-03-03 10:26:22
+633,2013-03-03 13:59:00,SOC,Ukraine,Tavriya Simferopol - Karpaty Lviv,20.1,WIN,Away +0.25,0:2,PINNACLE,2.01,10.00,10.10,Ksasha,2013-03-03 10:06:53
+634,2013-03-02 22:30:00,SOC,Colombia,Millonarios - Boyaca Chico,0.00,LOST,X2,2:1,Bet365,2,10.00,-10.00,Ksasha,2013-03-02 09:38:53
+635,2013-03-02 18:29:00,SOC,Chile,Cobresal - Universidad de Chile,0.00,LOST,Home +0.5,1:3,PINNACLE,2.09,10.00,-10.00,Ksasha,2013-03-01 20:43:52
+636,2013-03-03 23:14:00,SOC,Argentina,Boca Juniors - Union Santa Fe,20.7,WIN,Away +1,1:3,PINNACLE,2.07,10.00,10.70,Ksasha,2013-03-01 20:32:47
+637,2013-03-01 16:59:00,SOC,Ukraine,Shakhtar Donetsk - Volyn,0.00,LOST,Away +2.25,4:1,PINNACLE,2.12,10.00,-10.00,Ksasha,2013-03-01 10:26:26
+638,2013-02-24 19:00:00,SOC,Brazil,Internacional - GrÃªmio,22.5,WIN,Internacional,2:1,Bet365,2.25,10.00,12.50,Ksasha,2013-02-23 20:05:47
+639,2013-02-23 23:15:00,SOC,Argentina,Lanus - Velez Sarsfield,21,WIN,Lanus,1:0,Interwetten,2.1,10.00,11.00,Ksasha,2013-02-22 17:32:10
+640,2013-02-21 17:00:00,SOC,Europa League,Rubin Kazan - Atletico Madrid,0.00,LOST,Rubin Kazan (+0),0;1,Bet365,1.98,10.00,-10.00,Ksasha,2013-02-19 15:50:19
+641,2013-02-17 13:29:00,SOC,Belgium,Lokeren - Club Brugge,10,PUSH,Away 0,0:0,PINNACLE,1.92,10.00,0.00,Ksasha,2013-02-17 12:33:50
+642,2013-02-17 18:00:00,SOC,Spa. Primera,Valladolid - Atletico Madrid,19.4,WIN,Atletico Madrid (-0.5),0:3,Ladbrokes,1.94,10.00,9.40,Ksasha,2013-02-17 09:47:50
+643,2013-02-17 21:29:00,SOC,Brazil,Volta Redonda - Fluminense,0.00,LOST,Home +1,1:3,PINNACLE,1.96,10.00,-10.00,Ksasha,2013-02-17 09:35:15
+644,2013-02-16 17:29:00,SOC,Austria,Mattersburg - Sturm Graz,0.00,LOST,Away -0.5,0:0,PINNACLE,2.28,10.00,-10.00,Ksasha,2013-02-16 11:30:05
+645,2013-02-16 14:59:00,SOC,Austria,SV Ried - Wacker Innsbruck,22.5,WIN,Home -1,3:0,PINNACLE,2.25,10.00,12.50,Ksasha,2013-02-16 10:59:07
+646,2013-02-16 12:00:00,SOC,Ger. Bundesliga II,Union Berlin - Ingolstadt 04,0.00,LOST,Home -1,1:1,PINNACLE,2.16,10.00,-10.00,Ksasha,2013-02-16 09:16:47
+647,2013-02-16 14:59:00,SOC,Eng. League Two,Southend United - Northampton Town,21.4,WIN,Away 0,1:2,PINNACLE,2.14,10.00,11.40,Ksasha,2013-02-15 19:45:26
+648,2013-02-16 00:30:00,SOC,Ecuador,LDU Quito - Emelec,0.00,LOST,LDU Quito,1:2,Bet365,2,10.00,-10.00,Ksasha,2013-02-15 12:10:39
+649,2013-02-13 21:30:00,SOC,Brazil,GrÃªmio - Santa Cruz,0.00,LOST,X2,5:0,Bet365,2.5,10.00,-10.00,Ksasha,2013-02-12 07:36:29
+650,2013-02-10 12:59:00,SOC,Greece,Panionios - PAS Giannina,19.4,WIN,Away 0,0:1,PINNACLE,1.94,10.00,9.40,Ksasha,2013-02-10 10:36:19
+651,2013-02-09 18:19:00,SOC,Brazil,Guarani SP - Sao Paulo,0.00,LOST,Home +0.5,1:2,PINNACLE,2.05,10.00,-10.00,Ksasha,2013-02-09 11:33:06
+652,2013-02-05 19:45:00,SOC,Eng. League One,Oldham - Yeovil,10,PUSH,Yeovil (+0),postponed,PINNACLE,2.04,10.00,0.00,Ksasha,2013-02-05 09:17:17
+653,2013-02-05 19:45:00,SOC,Eng. League One,Scunthorpe - Portsmouth,10,PUSH,Scunthorpe (-1),2:1,PINNACLE,1.96,10.00,0.00,Ksasha,2013-02-05 07:18:57
+654,2013-02-03 14:00:00,SOC,Ita. Serie A,Genoa - Lazio,21,WIN,Genoa (+0),3:2,PINNACLE,2.1,10.00,11.00,Ksasha,2013-02-03 11:48:40
+655,2013-02-03 16:00:00,SOC,Cyprus,Anorthosis - Olympiakos Nicosia,20.1,WIN,Olympiakos Nicosia (+1.75),4:3,PINNACLE,2.01,10.00,10.10,Ksasha,2013-02-02 20:13:05
+656,2013-02-03 15:15:00,SOC,Greece,Olympiacos - Atromitos,0.00,LOST,Olympiacos (-1.5),2:3,PINNACLE,1.94,10.00,-10.00,Ksasha,2013-02-02 20:07:46
+657,2013-01-31 23:00:00,SOC,Brazil,Sao Luiz - GrÃªmio,23.8,WIN,1X,4:0,Bet365,2.38,10.00,13.80,Ksasha,2013-01-31 12:00:12
+658,2013-02-02 15:00:00,SOC,Eng. League One,Portsmouth - Colchester,22,WIN,Colchester,2:3,Ladbrokes,2.2,10.00,12.00,Ksasha,2013-01-31 10:20:54
+659,2013-01-31 12:00:00,SOC,Greece,Kerkyra - Levadiakos,23.1,WIN,Levadiakos,0:1,PINNACLE,2.31,10.00,13.10,Ksasha,2013-01-31 09:44:11
+660,2013-01-29 19:45:00,SOC,Eng. League One,Portsmouth - Notts County,25.3,WIN,Notts County (-1),0:2,PINNACLE,2.53,10.00,15.30,Ksasha,2013-01-29 11:47:47
+661,2013-01-27 16:00:00,SOC,Por. Superliga,Vitoria Setubal - Nacional,0.00,LOST,Vitoria Setubal (+0),0:2,Bet365,2.08,10.00,-10.00,Ksasha,2013-01-27 10:49:37
+662,2013-01-27 20:15:00,SOC,Por. Superliga,Estoril - Olhanense,0.00,LOST,Estoril,3:3,Interwetten,1.9,10.00,-10.00,Ksasha,2013-01-27 10:36:51
+663,2013-01-27 19:00:00,SOC,Brazil,Mirassol - Corinthians,0.00,LOST,Mirassol (+0.25),0:1,PINNACLE,2,10.00,-10.00,Ksasha,2013-01-27 09:25:24
+664,2013-01-26 19:00:00,SOC,Brazil,Sao Paulo - Atletico Sorocaba,21,WIN,Atletico Sorocaba (+1.5),2:1,PINNACLE,2.1,10.00,11.00,Ksasha,2013-01-26 10:44:09
+665,2013-01-26 15:15:00,SOC,Greece,Panthrakikos - Olympiacos,0.00,LOST,Olympiacos (-1.5),0:1,PINNACLE,2.33,10.00,-10.00,Ksasha,2013-01-25 21:04:02
+666,2013-01-24 17:00:00,SOC,Friendly,Dnipro Dnjepropetrovsk - Rapid Bucharest,20.2,WIN,Dnipro Dnjepropetrovsk (-1.5),3:1,PINNACLE,2.02,10.00,10.20,Ksasha,2013-01-24 13:55:32
+667,2013-01-24 16:30:00,SOC,Turkey,Eskisehirspor - Antalyaspor,20,WIN,Eskisehirspor,2:1,Interwetten,2,10.00,10.00,Ksasha,2013-01-24 05:38:50
+668,2013-01-23 21:30:00,SOC,Brazil,Guarani - Sao Bernardo,10,PUSH,Sao Bernardo (+0),0:0,YOUWIN,2.53,10.00,0.00,Ksasha,2013-01-23 16:56:18
+669,2013-01-23 21:30:00,SOC,Brazil,Ceramica - Internacional,0.00,LOST,1X,1:2,Bet365,2,10.00,-10.00,Ksasha,2013-01-23 16:49:59
+670,2013-01-23 18:30:00,SOC,Fra. Coupe De France,CA Bastia - Brest,0.00,LOST,CA Bastia (+0),1:3,YOUWIN,2.33,10.00,-10.00,Ksasha,2013-01-23 08:26:32
+671,2013-01-23 19:00:00,SOC,Brazil,Corinthians - Ponte Preta,19.1,WIN,Ponte Preta (+0.5),0:1,PINNACLE,1.91,10.00,9.10,Ksasha,2013-01-23 07:34:24
+672,2013-01-22 18:30:00,SOC,Fra. Coupe De France,Sedan - Lorient,0.00,LOST,Sedan (+0),0:1,PINNACLE,2.2,10.00,-10.00,Ksasha,2013-01-21 21:14:16
+673,2013-01-22 17:00:00,SOC,Fra. Coupe De France,Epinal - Nantes,19.5,WIN,1X,1:1,Bet365,1.95,10.00,9.50,Ksasha,2013-01-21 21:07:03
+674,2013-01-21 20:00:00,SOC,Por. Superliga,Moreirense - Benfica,10,PUSH,Benfica (-2),0:2,PINNACLE,2.25,10.00,0.00,Ksasha,2013-01-21 09:37:18
+675,2013-01-20 19:00:00,SOC,Brazil,Esportivo RS - GrÃªmio,0.00,LOST,1X,0:2,Bet365,2.75,10.00,-10.00,Ksasha,2013-01-20 18:23:33
+676,2013-01-20 19:00:00,SOC,Brazil,Paulista - Corinthians,19.1,WIN,1X,1:1,Bet365,1.91,10.00,9.10,Ksasha,2013-01-20 17:48:37
+677,2013-01-20 20:15:00,SOC,Por. Superliga,Rio Ave - Vitoria Guimaraes,0.00,LOST,Rio Ave,1:3,Interwetten,2,10.00,-10.00,Ksasha,2013-01-20 09:16:08
+678,2013-01-20 14:00:00,SOC,Ita. Serie A,Genoa - Catania,0.00,LOST,Genoa,0:2,PINNACLE,2.36,10.00,-10.00,Ksasha,2013-01-20 08:36:39
+679,2013-01-19 15:45:00,SOC,Wales,Afan Lido - Llanelli,19.3,WIN,Llanelli,0:1,YOUWIN,1.93,10.00,9.30,Ksasha,2013-01-19 11:05:21
+680,2013-01-19 19:00:00,SOC,Belgium,OH Leuven - Lokeren,0.00,LOST,OH Leuven (+0),2:6,PINNACLE,2.13,10.00,-10.00,Ksasha,2013-01-19 09:50:52
+681,2013-01-19 14:30:00,SOC,Ger. Bundesliga I,Bayern Munich - Greuther Furth,0.00,LOST,Bayern Munich (-2.5),2:0,PINNACLE,1.98,10.00,-10.00,Ksasha,2013-01-19 09:11:20
+682,2013-01-19 21:30:00,SOC,Brazil,Linense - Guarani,23,WIN,Linense,2:1,Interwetten,2.3,10.00,13.00,Ksasha,2013-01-19 08:41:51
+683,2013-01-19 19:45:00,SOC,Ita. Serie A,Juventus - Udinese,0.00,LOST,Udinese (+1),4:0,PINNACLE,2.57,10.00,-10.00,Ksasha,2013-01-19 07:56:32
+684,2013-01-18 19:00:00,SOC,Fra. Ligue 2,Nimes - Clermont,0.00,LOST,Clermont (+0),3:0,PINNACLE,2.28,10.00,-10.00,Ksasha,2013-01-18 17:00:46
+685,2013-01-19 14:30:00,SOC,Ger. Bundesliga I,Wolfsburg - Stuttgart,22,WIN,Wolfsburg,2:0,Interwetten,2.2,10.00,12.00,Ksasha,2013-01-18 14:08:19
+686,2013-01-18 19:30:00,SOC,Fra. Ligue 1,Lyon - Evian Tg,0.00,LOST,Lyon (-1.5),0:0,PINNACLE,2.19,10.00,-10.00,Ksasha,2013-01-17 11:17:20
+687,2013-01-16 20:00:00,SOC,Ita. Coppa Italia,Fiorentina - Roma,0.00,LOST,Fiorentina,0:0,Interwetten,2,10.00,-10.00,Ksasha,2013-01-16 10:07:42
+688,2013-01-19 15:00:00,SOC,Eng. League One,Scunthorpe - Portsmouth,10,PUSH,Scunthorpe (-1),postponed,PINNACLE,2.16,10.00,0.00,Ksasha,2013-01-15 20:33:08
+689,2013-01-14 19:30:00,SOC,Fra. Ligue 2,Monaco - Laval,0.00,LOST,Monaco (-1),1:1,Bet365,2.05,10.00,-10.00,Ksasha,2013-01-13 21:42:38
+690,2013-01-14 19:00:00,SOC,Spa. Primera,Getafe - Granada,19.5,WIN,Granada (+0.5),2:2,Bet365,1.95,10.00,9.50,Ksasha,2013-01-13 21:30:26
+691,2013-01-13 15:00:00,SOC,Portugal,SP Covilha - Vitoria Guimaraes B,20,WIN,SP Covilha,2:0,Interwetten,2,10.00,10.00,Ksasha,2013-01-12 21:07:18
+692,2013-01-12 18:00:00,SOC,Por. Superliga,Vitoria Guimaraes - Maritimo,10,PUSH,Maritimo (+0),1:1,PINNACLE,2.04,10.00,0.00,Ksasha,2013-01-12 10:44:17
+693,2013-01-12 15:00:00,SOC,Portugal,Arouca - Portimonense,20,WIN,Arouca,2:0,Interwetten,2,10.00,10.00,Ksasha,2013-01-12 10:24:47
+694,2013-01-12 13:00:00,SOC,Fra. Ligue 2,Auxerre - Caen,19.7,WIN,Caen (+0),1:2,PINNACLE,1.97,10.00,9.70,Ksasha,2013-01-12 10:09:50
+695,2013-01-12 16:00:00,SOC,Cyprus,Olympiakos Nicosia - AEK Larnaca,19,WIN,AEK Larnaca,0:2,Interwetten,1.9,10.00,9.00,Ksasha,2013-01-12 09:34:20
+696,2013-01-12 15:00:00,SOC,Eng. Conference,Lincoln - Newport County,22,WIN,Newport County,2:4,Ladbrokes,2.2,10.00,12.00,Ksasha,2013-01-12 09:15:42
+697,2013-01-12 15:00:00,SOC,Scotland,Dunfermline - Airdrie,0.00,LOST,Dunfermline (-2),1:3,PINNACLE,2.42,10.00,-10.00,Ksasha,2013-01-12 08:40:34
+698,2013-01-13 11:30:00,SOC,Ita. Serie A,Torino - Siena,0.00,LOST,Siena (+0),3:2,PINNACLE,2.51,10.00,-10.00,Ksasha,2013-01-11 19:19:30
+699,2013-01-11 17:00:00,SOC,Turkey,Eskisehirspor - Mersin Idman Yurdu,22.6,WIN,Eskisehirspor (-1.5),3:1,PINNACLE,2.26,10.00,12.60,Ksasha,2013-01-11 11:30:53
+700,2013-01-11 20:00:00,SOC,Fra. Ligue 1,Paris SG - Ajaccio,0.00,LOST,Handicap (0:2) 1,0:0,Ladbrokes,2.45,9.00,-9.00,Ksasha,2013-01-11 06:51:06
+701,2013-01-09 20:30:00,SOC,Spa. Copa Del Rey,Zaragoza - Levante,21,WIN,Zaragoza,2:0,Ladbrokes,2.1,10.00,11.00,Ksasha,2013-01-09 12:41:48
+702,2013-01-09 17:00:00,SOC,Portugal,Maritimo - Rio Ave,20.4,WIN,Rio Ave (+0),0:1,PINNACLE,2.04,10.00,10.40,Ksasha,2013-01-08 19:35:01
+703,2013-01-09 16:00:00,SOC,Cyprus,Anorthosis - Alki Larnaca,34,WIN,X2,1:1,Bet365,3.4,10.00,24.00,Ksasha,2013-01-08 17:54:09
+704,2013-01-08 18:30:00,SOC,Spa. Copa Del Rey,Malaga - Eibar,0.00,LOST,Eibar (+1.5),4:1,PINNACLE,1.93,10.00,-10.00,Ksasha,2013-01-08 15:54:19
+705,2013-01-07 19:45:00,SOC,N Ireland,Cliftonville - Glentoran,19,WIN,Cliftonville,4:1,Interwetten,1.9,10.00,9.00,Ksasha,2013-01-07 11:12:35
+706,2013-01-07 19:45:00,SOC,Ita. Serie C,Latina - Pisa,21,WIN,Latina,1:0,Bet365,2.1,10.00,11.00,Ksasha,2013-01-07 11:00:04
+707,2013-01-06 15:00:00,SOC,Fra. Coupe De France,Lucon - Brest,23,WIN,1X,1:1,Interwetten,2.3,10.00,13.00,Ksasha,2013-01-06 10:13:49
+708,2013-01-06 13:15:00,SOC,Fra. Coupe De France,Lens - Rennes,21.4,WIN,Lens (+0),2:1,YOUWIN,2.14,10.00,11.40,Ksasha,2013-01-06 09:46:57
+709,2013-01-06 11:00:00,SOC,Spa. Primera,Celta Vigo - Valladolid,20,WIN,Celta Vigo,3:1,Interwetten,2,10.00,10.00,Ksasha,2013-01-05 20:01:57
+710,2013-01-05 15:00:00,SOC,Eng. FA Cup,Middlesbrough - Hastings,0.00,LOST,Hastings (+2.25),4:1,Bet365,1.88,10.00,-10.00,Ksasha,2013-01-05 11:34:21
+711,2013-01-05 19:45:00,SOC,Ita. Serie A,Lazio - Cagliari,10,PUSH,Lazio (-1),2:1,PINNACLE,1.99,10.00,0.00,Ksasha,2013-01-05 06:03:12
+712,2013-01-05 15:00:00,SOC,Eng. FA Cup,Macclesfield - Cardiff,19,WIN,Macclesfield (+1),2:1,Bet365,1.9,10.00,9.00,Ksasha,2013-01-03 20:17:01
+713,2013-01-01 13:00:00,SOC,Eng. League Two,Bristol Rovers - Plymouth,0.00,LOST,Plymouth (+0),2:1,William Hill,1.95,10.00,-10.00,Ksasha,2012-12-31 16:21:48
+714,2012-12-30 14:00:00,SOC,Bra. Serie B,Novara - Grosseto,25,WIN,Novara (-1),2:0,PINNACLE,2.5,10.00,15.00,Ksasha,2012-12-30 08:43:00
+715,2012-12-30 14:00:00,SOC,Ita. Serie B,Ternana - Pro Vercelli,25.9,WIN,Ternana (-1),4:2,PINNACLE,2.59,10.00,15.90,Ksasha,2012-12-28 19:48:54
+716,2012-12-29 17:30:00,SOC,Eng. Premier,Arsenal - Newcastle,21.2,WIN,Arsenal (-1.5),7:3,PINNACLE,2.12,10.00,11.20,Ksasha,2012-12-28 19:01:54
+717,2012-12-27 17:00:00,SOC,Belgium,Standard - Beerschot AC,18.8,WIN,Standard (-1.5),3:0,PINNACLE,1.88,10.00,8.80,Ksasha,2012-12-26 19:42:38
+718,2012-12-26 13:30:00,SOC,Belgium,Lokeren - Cercle Brugge,0.00,LOST,X2,3:0,TIPICO,2.2,10.00,-10.00,Ksasha,2012-12-25 19:49:54

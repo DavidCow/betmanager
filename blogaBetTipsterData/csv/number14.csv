@@ -1,0 +1,316 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-03-19 14:30:00,SOC,Poland,Podbeskidzie Bielsko-Biala - KS Gornik Zabrze,1.83,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),8:3,Bet365,1.83,1.00,0.83,number14,2016-03-17 01:43:21
+2,2016-03-19 19:00:00,SOC,Switzerland,FC St. Gallen - BSC Young Boys Bern,1.93,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),6:7,Bet365,1.93,1.00,0.93,number14,2016-03-16 01:12:36
+3,2016-03-19 19:00:00,SOC,Switzerland,FC St. Gallen - BSC Young Boys Bern,0.00,LOST,First Half Over 4.50 (Corners Over/Under),2:1,Bet365,1.8,1.00,-1.00,number14,2016-03-16 01:12:06
+4,2016-03-19 19:00:00,SOC,Fra. Ligue 1,OSC Lille - FC Toulouse,0.00,LOST,First Half Over 4.50 (Corners Over/Under),2:2,Bet365,1.98,1.00,-1.00,number14,2016-03-16 00:22:06
+5,2016-03-19 14:00:00,SOC,Ita. Serie B,AC Perugia - Salernitana,1.95,WIN,First Half Over 4.50 (Corners Over/Under),2:3,Bet365,1.95,1.00,0.95,number14,2016-03-15 19:26:03
+6,2016-03-19 14:00:00,SOC,Ita. Serie B,AC Perugia - Salernitana,1.95,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),3:7,Bet365,1.95,1.00,0.95,number14,2016-03-15 19:25:27
+7,2016-03-13 16:00:00,SOC,Spa. Other,CCD Cerceda - Ribadumia CF,1.00,PUSH,Full Time Excluding Overtime Under 9.00 (Corners Over/Under),7-2,Bet365,1.9,1.00,0.00,number14,2016-03-13 15:16:32
+8,2016-03-13 16:00:00,SOC,Spa. Other,CD Toledo - Real Sociedad B,1.9,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),3-10,Bet365,1.9,1.00,0.90,number14,2016-03-13 15:02:23
+9,2016-03-13 16:00:00,SOC,Spa. Other,CD Toledo - Real Sociedad B,1.9,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),3-10,Bet365,1.9,1.00,0.90,number14,2016-03-13 14:58:56
+10,2016-03-13 12:00:00,SOC,Spa. Other,Las Zocas - CD El Cotillo,2.08,WIN,Full Time Excluding Overtime Under 11.00 (Corners Over/Under),1-2,Bet365,2.08,1.00,1.08,number14,2016-03-13 11:55:28
+11,2016-03-11 02:00:00,SOC,Costa Rica,Deportivo Saprissa - Santos de Guapiles,1.75,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),19-4,Bet365,1.75,1.00,0.75,number14,2016-03-10 04:07:47
+12,2016-03-10 17:00:00,SOC,Denmark,Silkeborg IF - FC Fredericia,0.00,LOST,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),7-2,Bet365,1.9,2.00,-2.00,number14,2016-03-10 04:07:06
+13,2016-03-09 18:30:00,SOC,Ger. Regionalliga,FC St. Pauli II - Hansa L�?¼neburg,0.00,LOST,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),1-3,Bet365,1.95,1.00,-1.00,number14,2016-03-09 00:59:17
+14,2016-03-12 17:30:00,SOC,Austria,SV Ried - SC Rheindorf Altach,1.83,WIN,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),7:3,Bet365,1.83,1.00,0.83,number14,2016-03-09 00:20:38
+15,2016-03-08 19:45:00,SOC,Eng. League One,Shrewsbury Town - Coventry City FC,0.00,LOST,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),5-4,Bet365,1.93,1.00,-1.00,number14,2016-03-08 18:41:40
+16,2016-03-08 19:45:00,SOC,Eng. Championship,Wolverhampton Wanderers - Bristol City FC,0.00,LOST,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),4-8,Bet365,1.83,1.00,-1.00,number14,2016-03-08 18:16:08
+17,2016-03-08 19:45:00,SOC,Scotland,Partick Thistle - Aberdeen FC,1.00,PUSH,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),7-3,Bet365,1.8,1.00,0.00,number14,2016-03-08 16:24:38
+18,2016-03-08 19:45:00,SOC,Scotland,Raith Rovers - Queen of the South,1.88,WIN,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),5-7,Bet365,1.88,1.00,0.88,number14,2016-03-08 16:20:32
+19,2016-03-08 19:45:00,SOC,Scotland,Dumbarton - Alloa Athletic,0.00,LOST,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),1-7,Bet365,1.77,1.00,-1.00,number14,2016-03-08 16:11:29
+20,2016-03-13 17:00:00,SOC,Belgium,KVC Westerlo - Waasland-Beveren,0.00,LOST,First Half Over 4.50 (Corners Over/Under),"1:0, 0:0",Bet365,1.77,1.00,-1.00,number14,2016-03-08 01:10:55
+21,2016-03-13 17:00:00,SOC,Belgium,Oud-Heverlee Leuven - Club Brugge KV,2.05,WIN,First Half Over 5.00 (Corners Over/Under),8,Bet365,2.05,1.00,1.05,number14,2016-03-08 01:08:48
+22,2016-03-13 17:00:00,SOC,Belgium,Zulte-Waregem - Mouscron-Peruwelz,1.8,WIN,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),9,Bet365,1.8,1.00,0.80,number14,2016-03-08 00:46:44
+23,2016-03-11 19:00:00,SOC,Fra. Ligue 2,US Creteil - Evian Thonon Gaillard,1.8,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),11-8,Bet365,1.8,1.00,0.80,number14,2016-03-08 00:02:09
+24,2016-03-11 19:00:00,SOC,Fra. Ligue 2,FC Sochaux - Le Havre AC,1.00,PUSH,Full Time Excluding Overtime Under 9.00 (Corners Over/Under),5-4,Bet365,1.93,1.00,0.00,number14,2016-03-07 23:22:20
+25,2016-03-13 15:00:00,SOC,Denmark,Brondby I.F. - Randers FC,0.00,LOST,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),2:4,Bet365,1.9,1.00,-1.00,number14,2016-03-07 22:47:58
+26,2016-03-13 18:15:00,SOC,Spa. Segunda,Leganes - Tenerife,2,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),10,Bet365,2,1.00,1.00,number14,2016-03-07 20:26:29
+27,2016-03-12 17:00:00,SOC,Spa. Segunda,CD Numancia - Athletic Bilbao B,1.98,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),6:6,Bet365,1.98,1.00,0.98,number14,2016-03-07 20:05:53
+28,2016-03-12 17:00:00,SOC,Spa. Segunda,CD Mirandes - Elche,4,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),15:4,Bet365,2,2.00,2.00,number14,2016-03-07 19:45:31
+29,2016-03-07 20:00:00,SOC,Por. Superliga,Rio Ave - Estoril Praia,0.00,LOST,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),6-1,SBOBET,1.81,1.00,-1.00,number14,2016-03-07 18:19:56
+30,2016-03-07 19:30:00,SOC,Gibraltar,Lions Gibraltar - Lincoln FC,1.93,WIN,Full Time Excluding Overtime Under 12.00 (Corners Over/Under),8,Bet365,1.93,1.00,0.93,number14,2016-03-07 18:15:58
+31,2016-03-07 19:00:00,SOC,Switzerland,FC St. Gallen - Grasshopper Club Z,1.89,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),3-9,188bet,1.89,1.00,0.89,number14,2016-03-07 17:52:43
+32,2016-03-04 13:30:00,SOC,UAE,Dibba AL Fujairah - Al Ahli Dubai,0.00,LOST,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),6-7,Bet365,1.9,1.00,-1.00,number14,2016-03-04 03:48:27
+33,2016-03-04 12:30:00,SOC,Iran,Padideh Mashhad - Malavan,1.83,WIN,Full Time Excluding Overtime Under 8.50 (Corners Over/Under),1-2,Bet365,1.83,1.00,0.83,number14,2016-03-04 03:47:30
+34,2016-03-04 13:00:00,SOC,Other,Al Asalah - That Ras,0.00,LOST,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),8-3,Bet365,1.8,1.00,-1.00,number14,2016-03-04 03:46:32
+35,2016-03-05 15:00:00,SOC,Eng. League One,Crewe Alexandra - Burton Albion,3.66,WIN,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),3:11,Bet365,1.83,2.00,1.66,number14,2016-03-04 03:22:48
+36,2016-03-05 15:00:00,SOC,Eng. League One,Southend United - Chesterfield,0.00,LOST,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),5:4,Bet365,1.8,1.00,-1.00,number14,2016-03-04 03:22:28
+37,2016-03-04 19:00:00,SOC,Fra. Ligue 2,Le Havre AC - Valenciennes FC,0.00,LOST,First Half Under 4.50 (Corners Over/Under),4-1,Bet365,1.85,1.00,-1.00,number14,2016-03-04 03:13:03
+38,2016-03-04 12:30:00,SOC,Iran,Padideh Mashhad - Malavan,3.66,WIN,Full Time Excluding Overtime Under 8.50 (Corners Over/Under),1-2,Bet365,1.83,2.00,1.66,number14,2016-03-04 01:15:20
+39,2016-03-05 17:00:00,SOC,Spa. Segunda,Girona FC - CD Mirandes,4,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),7-7,Bet365,2,2.00,2.00,number14,2016-03-04 00:33:13
+40,2016-03-05 15:00:00,SOC,Por. Other,Farense - Oriental,0.00,LOST,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),4-8,Bet365,1.93,1.00,-1.00,number14,2016-03-04 00:05:46
+41,2016-03-05 14:00:00,SOC,Ita. Serie B,AC Perugia - Ternana,0.00,LOST,First Half Over 4.50 (Corners Over/Under),2-2,Bet365,1.98,2.00,-2.00,number14,2016-03-03 23:36:22
+42,2016-03-05 14:00:00,SOC,Ita. Serie B,Crotone - Ascoli,3.66,WIN,First Half Under 4.50 (Corners Over/Under),2-0,Bet365,1.83,2.00,1.66,number14,2016-03-03 23:35:14
+43,2016-03-05 14:00:00,SOC,Ita. Serie B,AC Perugia - Ternana,5.94,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),10,Bet365,1.98,3.00,2.94,number14,2016-03-03 22:56:42
+44,2016-03-05 12:00:00,SOC,Ukraine,FC Chornomorets Odessa - FC Karpaty Lviv,0.00,LOST,First Half Over 4.50 (Corners Over/Under),4:0,Bet365,1.9,1.00,-1.00,number14,2016-03-03 22:22:52
+45,2016-03-05 12:00:00,SOC,Ukraine,FC Chornomorets Odessa - FC Karpaty Lviv,1.85,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),7:4,Bet365,1.85,1.00,0.85,number14,2016-03-03 22:22:29
+46,2016-03-05 14:30:00,SOC,Ger. Bundesliga I,VfB Stuttgart - TSG 1899 Hoffenheim,3.58,WIN,First Half Home -0.75 (Corner Asian Handicap),6:1,SBOBET,1.79,2.00,1.58,number14,2016-03-03 18:31:33
+47,2016-03-05 14:30:00,SOC,Ger. Bundesliga I,VfB Stuttgart - TSG 1899 Hoffenheim,1.99,WIN,Full Time Excluding Overtime Home -2.00 (Corner Asian Handicap),10:1,SBOBET,1.99,1.00,0.99,number14,2016-03-03 18:28:33
+48,2016-03-05 14:30:00,SOC,Ger. Bundesliga I,VfB Stuttgart - TSG 1899 Hoffenheim,2.07,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),10:1,SBOBET,2.07,1.00,1.07,number14,2016-03-03 18:17:38
+49,2016-03-04 17:30:00,SOC,Ger. Bundesliga II,TSV Fortuna Dusseldorf - Karlsruher SC,0.00,LOST,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),2-3,Bet365,1.85,1.00,-1.00,number14,2016-03-03 17:20:25
+50,2016-03-04 18:00:00,SOC,Turkey,Mersin Idmanyurdu - Sivasspor,1.73,WIN,First Half Under 4.50 (Corners Over/Under),1-2,Bet365,1.73,1.00,0.73,number14,2016-03-03 16:59:05
+51,2016-03-03 19:00:00,SOC,Spa. Primera,Granada CF - Real Sporting de Gijon,1.9,WIN,First Half Under 4.50 (Corners Over/Under),1-1,Bet365,1.9,1.00,0.90,number14,2016-03-03 14:28:30
+52,2016-03-06 17:00:00,SOC,Turkey,Akhisar Belediye GS - Fenerbahce SK,1.8,WIN,Full Time Excluding Overtime Under 9.50 (Corners Over/Under),6,Bet365,1.8,1.00,0.80,number14,2016-03-03 14:12:33
+53,2016-03-05 16:30:00,SOC,Russia,FK Krasnodar - FK Zenit St. Petersburg,1.85,WIN,First Half Under 4.50 (Corners Over/Under),2:2,Bet365,1.85,1.00,0.85,number14,2016-03-03 14:04:51
+54,2016-03-05 14:00:00,SOC,Russia,FK Rubin Kazan - Kuban Krasnodar,1.9,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),12,Bet365,1.9,1.00,0.90,number14,2016-03-03 13:44:35
+55,2016-03-03 13:00:00,SOC,Kenya,Ulinzi Stars - Gor Mahia,1.73,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),13,Bet365,1.73,1.00,0.73,number14,2016-03-02 21:31:39
+56,2016-03-03 13:00:00,SOC,Kenya,Ulinzi Stars - Gor Mahia,1.73,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),13,Bet365,1.73,1.00,0.73,number14,2016-03-02 21:24:37
+57,2016-03-06 11:30:00,SOC,Netherlands,NEC Nijmegen - Heracles Almelo,1.85,WIN,Full Time Excluding Overtime Over 10.00 (Corners Over/Under),8:6,Bet365,1.85,1.00,0.85,number14,2016-03-02 19:35:24
+58,2016-03-04 19:00:00,SOC,Fra. Ligue 2,AC Ajaccio - Paris FC,1.75,WIN,First Half Over 4.00 (Corners Over/Under),6-2,Bet365,1.75,1.00,0.75,number14,2016-03-02 19:10:25
+59,2016-03-05 14:00:00,SOC,Czech Rep.,Bohemians 1905 - FK Teplice,0.00,LOST,Full Time Excluding Overtime Over 11.00 (Corners Over/Under),4,Bet365,1.9,1.00,-1.00,number14,2016-03-02 16:51:20
+60,2016-03-05 14:00:00,SOC,Czech Rep.,Bohemians 1905 - FK Teplice,0.00,LOST,First Half Over 5.00 (Corners Over/Under),1-1,Bet365,1.77,2.00,-2.00,number14,2016-03-02 16:51:04
+61,2016-03-02 19:00:00,SOC,Spa. Other,Santfeliuenc FC - Figueres,0.00,LOST,Full Time Excluding Overtime Under 9.00 (Corners Over/Under),11-2,Bet365,1.88,1.00,-1.00,number14,2016-03-02 02:42:50
+62,2016-03-02 18:00:00,SOC,Ger. Bundesliga III,1. FSV Mainz 05 II - FC Rot-Weiss Erfurt,1.83,WIN,Full Time Excluding Overtime Over 8.50 (Corners Over/Under),7-7,Bet365,1.83,1.00,0.83,number14,2016-03-02 02:23:54
+63,2016-03-02 16:30:00,SOC,Ger. Bundesliga II,Arminia Bielefeld - SC Freiburg,1.83,WIN,Full Time Excluding Overtime Under 9.50 (Corners Over/Under),3-5,Bet365,1.83,1.00,0.83,number14,2016-03-02 02:09:45
+64,2016-03-02 17:30:00,SOC,Netherlands,AZ Alkmaar U19 - AFC Ajax U19,0.00,LOST,Full Time Excluding Overtime Under 11.50 (Corners Over/Under),5-12,Bet365,1.95,1.00,-1.00,number14,2016-03-02 01:46:19
+65,2016-03-05 15:00:00,SOC,Eng. Championship,Sheffield Wednesday FC - Rotherham United FC,1.85,WIN,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),6:2,Bet365,1.85,1.00,0.85,number14,2016-03-01 03:49:11
+66,2016-03-01 16:00:00,SOC,Croatia,NK Slaven Belupo Koprivnica - NK Zagreb,0.00,LOST,Full Time Excluding Overtime Under 9.50 (Corners Over/Under),10-2,Bet365,1.88,1.00,-1.00,number14,2016-03-01 03:46:37
+67,2016-03-02 17:30:00,SOC,Austria,VfB Admira Wacker M,0.00,LOST,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),8-6,Bet365,1.88,1.00,-1.00,number14,2016-03-01 03:46:00
+68,2016-03-02 19:45:00,SOC,Scotland,Celtic FC - Dundee FC,1.93,WIN,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),5-9,Bet365,1.93,1.00,0.93,number14,2016-03-01 03:44:43
+69,2016-03-01 19:45:00,SOC,Scotland,Hearts Of Midlothian FC - Inverness Caledonian Thistle,0.00,LOST,First Half Over 5.00 (Corners Over/Under),2-1,Bet365,2.05,1.00,-1.00,number14,2016-03-01 03:44:19
+70,2016-03-02 19:45:00,SOC,Scotland,Dundee United FC - Aberdeen FC,1.93,WIN,First Half Over 5.00 (Corners Over/Under),3-4,Bet365,1.93,1.00,0.93,number14,2016-03-01 03:43:33
+71,2016-03-02 19:45:00,SOC,Scotland,Dundee United FC - Aberdeen FC,1.9,WIN,Full Time Excluding Overtime Over 10.50 (Corners Over/Under),9-9,Bet365,1.9,1.00,0.90,number14,2016-03-01 03:43:18
+72,2016-03-01 19:30:00,SOC,Ita. Serie B,Pescara - ASD Trapani Calcio,1.8,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),9-4,Bet365,1.8,1.00,0.80,number14,2016-03-01 03:42:36
+73,2016-03-01 19:30:00,SOC,Ita. Serie B,Calcio Como - Lanciano,0.00,LOST,First Half Over 4.50 (Corners Over/Under),2-2,Bet365,1.98,1.00,-1.00,number14,2016-03-01 03:38:09
+74,2016-03-01 19:30:00,SOC,Ita. Serie B,Calcio Como - Lanciano,1.75,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),4-6,Bet365,1.75,1.00,0.75,number14,2016-03-01 03:37:46
+75,2016-03-01 19:30:00,SOC,Ita. Serie B,Salernitana - ACD Virtus Entella,1.95,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),8-2,Bet365,1.95,1.00,0.95,number14,2016-03-01 03:37:01
+76,2016-03-01 19:30:00,SOC,Ita. Serie B,AC Perugia - Latina Calcio,2,WIN,First Half Over 4.50 (Corners Over/Under),5-2,Bet365,2,1.00,1.00,number14,2016-03-01 03:36:29
+77,2016-03-01 19:30:00,SOC,Ita. Serie B,AC Perugia - Latina Calcio,2,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),7-3,Bet365,2,1.00,1.00,number14,2016-03-01 03:36:12
+78,2016-03-02 19:00:00,SOC,Ger. Bundesliga I,Borussia Monchengladbach - VfB Stuttgart,1.85,WIN,Full Time Excluding Overtime Under 9.50 (Corners Over/Under),2-4,Bet365,1.85,1.00,0.85,number14,2016-02-29 23:36:55
+79,2016-03-02 19:00:00,SOC,Ger. Bundesliga I,Borussia Monchengladbach - VfB Stuttgart,1.85,WIN,First Half Under 4.50 (Corners Over/Under),1-1,Bet365,1.85,1.00,0.85,number14,2016-02-29 23:34:37
+80,2016-03-01 19:00:00,SOC,Ger. Bundesliga I,Hannover 96 - VfL Wolfsburg,1.75,WIN,First Half Under 4.50 (Corners Over/Under),0:4,Bet365,1.75,1.00,0.75,number14,2016-02-29 23:33:14
+81,2016-03-01 19:00:00,SOC,Ger. Bundesliga I,FC Ingolstadt 04 - 1. FC Koln,1.00,PUSH,Full Time Excluding Overtime Under 9.00 (Corners Over/Under),7-2,SBOBET,1.9,1.00,0.00,number14,2016-02-29 23:32:28
+82,2016-03-01 19:00:00,SOC,Ger. Bundesliga I,FC Ingolstadt 04 - 1. FC Koln,1.72,WIN,First Half Under 4.50 (Corners Over/Under),3-0,SBOBET,1.72,1.00,0.72,number14,2016-02-29 23:31:50
+83,2016-03-01 21:00:00,SOC,Spa. Primera,U.D. Las Palmas - Getafe,1.95,WIN,Full Time Excluding Overtime Under 9.50 (Corners Over/Under),2-6,Bet365,1.95,1.00,0.95,number14,2016-02-29 23:29:39
+84,2016-03-01 21:00:00,SOC,Spa. Primera,U.D. Las Palmas - Getafe,2.65,WIN,First Half Home (Home Draw Away),2:0,188bet,2.65,1.00,1.65,number14,2016-02-29 23:29:01
+85,2016-03-02 20:00:00,SOC,Spa. Primera,Levante - Real Madrid,1.9,WIN,Full Time Excluding Overtime Away -1.00 (Corner Asian Handicap),3-10,Bet365,1.9,1.00,0.90,number14,2016-02-29 23:27:49
+86,2016-03-02 20:00:00,SOC,Eng. Premier,Manchester United FC - Watford FC,0.00,LOST,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),9-7,Bet365,1.9,1.00,-1.00,number14,2016-02-28 23:51:31
+87,2016-02-26 19:30:00,SOC,Spa. Primera,Eibar - Las Palmas,0.00,LOST,First Half Home -0.25 (AH),0:1,PINNACLE,1952,1.00,-1.00,number14,2016-02-26 13:10:09
+88,2016-02-28 15:00:00,SOC,Other,FC St. Gallen - FC Lugano,19.3,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),9:4,Bet365,1.93,10.00,9.30,number14,2016-02-24 01:56:14
+89,2016-02-27 19:00:00,SOC,Other,KVC Westerlo - Mouscron-Peruwelz,5.94,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),5:11,Bet365,1.98,3.00,2.94,number14,2016-02-24 01:47:15
+90,2016-02-28 16:00:00,SOC,Other,CD Mirandes - Tenerife,1.8,WIN,Full Time Excluding Overtime Over 11.00 (Corners Over/Under),10:5,Bet365,1.8,1.00,0.80,number14,2016-02-24 01:22:58
+91,2016-02-24 12:30:00,SOC,Hong Kong,Yuen Long District Reserves - TSW Pegasus FC Reserves,0.00,LOST,Full Time Excluding Overtime Under 8.50 (Corners Over/Under),4-9,Bet365,1.8,1.00,-1.00,number14,2016-02-24 01:21:57
+92,2016-02-28 16:00:00,SOC,Other,Real Zaragoza - Lugo,9.65,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),6:5,Bet365,1.93,5.00,4.65,number14,2016-02-24 01:21:08
+93,2016-02-27 19:15:00,SOC,Other,Cordoba - Osasuna,9.4,WIN,Full Time Excluding Overtime Under 10.00 (Corners Over/Under),4:3,Bet365,1.88,5.00,4.40,number14,2016-02-24 01:20:22
+94,2016-02-28 16:00:00,SOC,Other,Union Deportiva Almeria - Albacete Balompie,0.00,LOST,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),12:4,Bet365,1.93,3.00,-3.00,number14,2016-02-24 01:18:52
+95,2016-02-27 17:00:00,SOC,Other,SK Sigma Olomouc - FC Viktoria Plzen,9.5,WIN,First Half Over 5.00 (Corners Over/Under),2:7,Bet365,1.9,5.00,4.50,number14,2016-02-24 01:17:17
+96,2016-02-29 17:00:00,SOC,Other,AC Dukla Praha - AC Sparta Praha,5.00,PUSH,First Half Over 5.00 (Corners Over/Under),Postp.,Bet365,1.98,5.00,0.00,number14,2016-02-24 01:15:31
+97,2016-02-27 17:00:00,SOC,Other,Oud-Heverlee Leuven - KV Oostende,0.00,LOST,First Half Over 4.50 (Corners Over/Under),0:2,Bet365,1.75,10.00,-10.00,number14,2016-02-24 01:04:17
+98,2016-02-27 17:00:00,SOC,Other,CD Numancia - Alcorcon,20,WIN,Full Time Excluding Overtime Over 9.50 (Corners Over/Under),6:5,Bet365,2,10.00,10.00,number14,2016-02-23 23:27:35
+99,2016-02-28 11:00:00,SOC,Other,Leganes - Alaves,18.3,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),6:6,Bet365,1.83,10.00,8.30,number14,2016-02-23 23:26:52
+100,2016-02-28 11:00:00,SOC,Other,Leganes - Alaves,18.3,WIN,Full Time Excluding Overtime Over 9.00 (Corners Over/Under),6:6,Bet365,1.83,10.00,8.30,number14,2016-02-23 23:26:19
+101,2016-02-28 18:15:00,SOC,Other,Real Oviedo - Elche,19.3,WIN,Full Time Excluding Overtime Under 11.50 (Corners Over/Under),9:2,Bet365,1.93,10.00,9.30,number14,2016-02-23 23:25:44
+102,2016-02-28 18:15:00,SOC,Other,Real Oviedo - Elche,19.3,WIN,Full Time Excluding Overtime Under 11.50 (Corners Over/Under),9:2,Bet365,1.93,10.00,9.30,number14,2016-02-23 23:25:20
+103,2016-02-23 19:45:00,SOC,Other,Preston North End FC - Charlton Athletic FC,1.88,WIN,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),2-3,Bet365,1.88,1.00,0.88,number14,2016-02-22 23:49:36
+104,2016-02-23 19:45:00,SOC,Other,Sheffield Wednesday FC - Queens Park Rangers FC,0.00,LOST,Full Time Excluding Overtime Under 10.50 (Corners Over/Under),9-4,Bet365,1.85,3.00,-3.00,number14,2016-02-22 23:48:55
+105,2016-02-21 20:30:00,SOC,Spa. Primera,Atletico Madrid - Villarreal CF,0.00,LOST,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),10:2,Bet365,1.9,1.00,-1.00,number14,2016-02-19 01:20:37
+106,2016-02-21 18:00:00,SOC,Ita. Serie A,Frosinone - SS Lazio,0.00,LOST,SS Lazio -3 (Corner Asian Handicap-Full Time Excluding Overtime),6:6,SBOBET,1.89,1.00,-1.00,number14,2016-02-19 00:26:24
+107,2016-02-21 12:30:00,SOC,Ita. Serie B,Salernitana - Crotone,1.9,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),7:3,Bet365,1.9,1.00,0.90,number14,2016-02-19 00:11:37
+108,2016-02-20 15:00:00,SOC,Ita. Serie B,Pro Vercelli - ACD Virtus Entella,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),8:5,Bet365,1.88,3.00,-3.00,number14,2016-02-18 23:52:46
+109,2016-02-20 16:00:00,SOC,Spa. Primera,U.D. Las Palmas - FC Barcelona,1.9,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),3:6,Bet365,1.9,1.00,0.90,number14,2016-02-18 23:28:03
+110,2016-02-20 14:00:00,SOC,Czech Rep.,FC Zbrojovka Brno - SK Sigma Olomouc,9.15,WIN,Over 5 (Corners Over Under-First Half),4:2,Bet365,1.83,5.00,4.15,number14,2016-02-18 01:22:17
+111,2016-02-20 14:00:00,SOC,Czech Rep.,Bohemians 1905 - AC Dukla Praha,5.25,WIN,Over 5 (Corners Over Under-First Half),5:3,Bet365,1.75,3.00,2.25,number14,2016-02-18 01:21:20
+112,2016-02-20 14:00:00,SOC,Czech Rep.,Bohemians 1905 - AC Dukla Praha,5.25,WIN,Over 5 (Corners Over Under-First Half),5:3,Bet365,1.75,3.00,2.25,number14,2016-02-18 01:11:44
+113,2016-02-20 14:00:00,SOC,Czech Rep.,Bohemians 1905 - AC Dukla Praha,1.88,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),10:5,Bet365,1.88,1.00,0.88,number14,2016-02-18 01:07:47
+114,2016-02-19 20:15:00,SOC,Czech Rep.,FC Viktoria Plzen - FK Teplice,5.55,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),8-4,Bet365,1.85,3.00,2.55,number14,2016-02-18 01:02:01
+115,2016-02-21 12:30:00,SOC,Netherlands,De Graafschap - SBV Vitesse,1.77,WIN,Over 4.5 (Corners Over Under-First Half),3:3,Bet365,1.77,1.00,0.77,number14,2016-02-18 00:51:26
+116,2016-02-19 20:30:00,SOC,Belgium,Club Brugge KV - KVC Westerlo,1.77,WIN,Over 4.5 (Corners Over Under-First Half),4-1,Bet365,1.77,1.00,0.77,number14,2016-02-18 00:38:38
+117,2016-02-21 20:00:00,SOC,Belgium,Zulte-Waregem - KV Mechelen,3.66,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),2:3,Bet365,1.83,2.00,1.66,number14,2016-02-18 00:33:01
+118,2016-02-19 20:30:00,SOC,Belgium,Club Brugge KV - KVC Westerlo,1,PUSH,Over 10 (Corners Over Under-Full Time Excluding Overtime),7-3,Bet365,1.88,1.00,0.00,number14,2016-02-18 00:32:21
+119,2016-02-19 20:00:00,SOC,Fra. Ligue 2,Stade Laval - Dijon FCO,0.00,LOST,Over 4.5 (Corners Over Under-First Half),0-1,Bet365,1.98,1.00,-1.00,number14,2016-02-18 00:22:39
+120,2016-02-20 14:00:00,SOC,Fra. Ligue 2,Le Havre AC - US Creteil,0.00,LOST,Under 4.5 (Corners Over Under-First Half),6:1,Bet365,1.83,1.00,-1.00,number14,2016-02-18 00:19:24
+121,2016-02-19 20:00:00,SOC,Fra. Ligue 2,FC Sochaux - RC Lens,5.7,WIN,Under 9 (Corners Over Under-Full Time Excluding Overtime),4-2,Bet365,1.9,3.00,2.70,number14,2016-02-18 00:01:19
+122,2016-02-20 19:30:00,SOC,Romania,FC Dinamo Bucuresti - CS Concordia Chiajna,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),10:5,Bet365,1.88,2.00,-2.00,number14,2016-02-17 23:56:13
+123,2016-02-21 19:30:00,SOC,Romania,CFR 1907 Cluj - AS FCM Targu Mures,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),4-2,Bet365,1.85,1.00,-1.00,number14,2016-02-17 23:50:43
+124,2016-02-21 14:30:00,SOC,Turkey,Akhisar Belediye GS - Istanbul Basaksehir FK,1.9,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),2:6,Bet365,1.9,1.00,0.90,number14,2016-02-17 23:37:45
+125,2016-02-19 19:00:00,SOC,Turkey,Torku Konyaspor - Sivasspor,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),4-7,Bet365,1.85,1.00,-1.00,number14,2016-02-17 23:33:57
+126,2016-02-19 18:30:00,SOC,Ger. Bundesliga II,RB Leipzig - 1. FC Union Berlin,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),4-4,Bet365,1.98,1.00,-1.00,number14,2016-02-17 23:23:08
+127,2016-02-18 18:45:00,SOC,Egypt,El Zamalek - Aswan FC,0.00,LOST,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),7-5,Bet365,1.85,1.00,-1.00,number14,2016-02-17 23:00:44
+128,2016-02-18 18:40:00,SOC,Saudi Arabia,Al-Ittihad - Al-Quadisiya,1.83,WIN,Over 10 (Corners Over Under-Full Time Excluding Overtime),7-5,Bet365,1.83,1.00,0.83,number14,2016-02-17 22:50:46
+129,2016-02-18 12:30:00,SOC,Singapore,Hougang United FC - Home United FC,1.93,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),1-6,Bet365,1.93,1.00,0.93,number14,2016-02-17 17:53:13
+130,2016-02-17 20:45:00,SOC,Eng. Conference,Bradford Park Avenue - FC United of Manchester,1.93,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),6-4,Bet365,1.93,1.00,0.93,number14,2016-02-17 17:15:56
+131,2016-02-17 18:30:00,SOC,Netherlands,GO Ahead Eagles U23 - Fortuna Sittard Reserves,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,1.85,1.00,-1.00,number14,2016-02-17 15:56:04
+132,2016-02-17 17:00:00,SOC,Friendly,Algeria U23 - Palestine U23,1.9,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),6-1,Bet365,1.9,1.00,0.90,number14,2016-02-17 15:32:31
+133,2016-02-17 20:00:00,SOC,Por. Other,FC Penafiel - FC Porto B,0.00,LOST,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),6-8,Bet365,1.95,1.00,-1.00,number14,2016-02-17 15:01:18
+134,2016-02-17 16:00:00,SOC,Por. Other,Olhanense - Varzim SC,1.8,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),1-6,Bet365,1.8,1.00,0.80,number14,2016-02-17 14:52:22
+135,2016-02-17 16:00:00,SOC,Por. Other,Sporting Braga B - Farense,1.9,WIN,Under 11 (Corners Over Under-Full Time Excluding Overtime),5-3,Bet365,1.9,1.00,0.90,number14,2016-02-17 14:19:22
+136,2016-02-20 17:00:00,SOC,Fra. Ligue 1,Paris Saint-Germain FC - Stade de Reims,0.00,LOST,Under 9 (Corners Over Under-Full Time Excluding Overtime),9:5,Bet365,1.83,1.00,-1.00,number14,2016-02-16 14:10:03
+137,2016-02-21 15:30:00,SOC,Ger. Bundesliga I,Bayer 04 Leverkusen - Borussia Dortmund,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),8:1,Bet365,1.73,1.00,-1.00,number14,2016-02-16 14:07:31
+138,2016-02-20 15:30:00,SOC,Ger. Bundesliga I,Borussia Monchengladbach - 1. FC Koln,1.9,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),4:4,Bet365,1.9,1.00,0.90,number14,2016-02-16 14:06:53
+139,2016-02-16 20:45:00,SOC,Eng. League Two,Accrington Stanley - Carlisle United,8.85,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),4-1,Bet365,1.77,5.00,3.85,number14,2016-02-16 00:16:08
+140,2016-02-20 16:00:00,SOC,Eng. League One,Millwall - Peterborough United,9.4,WIN,Over 10.5 (Corners Over Under-Full Time Excluding Overtime),6:7,Bet365,1.88,5.00,4.40,number14,2016-02-16 00:05:54
+141,2016-02-20 16:00:00,SOC,Eng. Championship,Burnley FC - Rotherham United FC,0.00,LOST,Over 10.5 (Corners Over Under-Full Time Excluding Overtime),6:1,Bet365,1.8,1.00,-1.00,number14,2016-02-15 23:56:30
+142,2016-02-20 16:00:00,SOC,Eng. Championship,Preston North End FC - Sheffield Wednesday FC,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),7:5,Bet365,1.8,3.00,-3.00,number14,2016-02-15 23:47:47
+143,2016-02-20 16:00:00,SOC,Scotland,Kilmarnock - Dundee FC,12.11,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),5:5,Bet365,1.73,7.00,5.11,number14,2016-02-15 23:42:24
+144,2016-02-16 20:45:00,SOC,Scotland,Berwick Rangers - Annan Athletic,13.51,WIN,Under 11 (Corners Over Under-Full Time Excluding Overtime),6-3,Bet365,1.93,7.00,6.51,number14,2016-02-15 23:00:50
+145,2016-02-16 20:45:00,SOC,Scotland,Dundee United FC - Motherwell,19,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),8-5,Bet365,1.9,10.00,9.00,number14,2016-02-15 22:43:39
+146,2016-02-16 19:15:00,SOC,Women,Hapoel Petah Tikva W - Maccabi Kishronot Hadera W,0.00,LOST,Over 8 (Corners Over Under-Full Time Excluding Overtime),5-1,Bet365,1.98,5.00,-5.00,number14,2016-02-15 22:36:37
+147,2016-02-16 18:30:00,SOC,Netherlands,GO Ahead Eagles U23 - Fortuna Sittard Reserves,3,PUSH,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),Postp.,Bet365,1.85,3.00,0.00,number14,2016-02-15 22:27:06
+148,2016-02-16 18:30:00,SOC,Netherlands,FC Volendam U23 - Brabant United U23,0.00,LOST,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),3-0,Bet365,1.9,1.00,-1.00,number14,2016-02-15 22:08:50
+149,2016-02-16 18:30:00,SOC,Netherlands,FC Groningen U23 - Almere City FC U23,1.73,WIN,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),8-3,Bet365,1.73,1.00,0.73,number14,2016-02-15 22:03:05
+150,2016-02-15 21:00:00,SOC,Por. Superliga,Rio Ave - Pacos Ferreira,5.79,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),7-8,Bet365,1.93,3.00,2.79,number14,2016-02-15 00:36:11
+151,2016-02-15 20:00:00,SOC,Netherlands,FC Volendam - Helmond Sport,0.00,LOST,Over 10 (Corners Over Under-Full Time Excluding Overtime),7-2,Bet365,1.88,1.00,-1.00,number14,2016-02-15 00:27:54
+152,2016-02-15 20:00:00,SOC,Netherlands,MVV Maastricht - Almere City,9.15,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),2-3,Bet365,1.83,5.00,4.15,number14,2016-02-15 00:10:46
+153,2016-02-15 16:00:00,SOC,Bahrain,Sitra - Busaiteen Club,9.9,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),3-5,Bet365,1.98,5.00,4.90,number14,2016-02-14 23:53:22
+154,2016-02-15 15:30:00,SOC,Azerbaijan,Zira - Ravan Baku,9.25,WIN,Over 8 (Corners Over Under-Full Time Excluding Overtime),7-3,Bet365,1.85,5.00,4.25,number14,2016-02-14 23:44:01
+155,2016-02-14 18:00:00,SOC,Belgium,KVC Westerlo - Standard Liege,9,WIN,Over 4.5 (Corners Over Under-First Half),1-4,Bet365,1.8,5.00,4.00,number14,2016-02-12 20:50:14
+156,2016-02-13 20:00:00,SOC,Belgium,Oud-Heverlee Leuven - KSC Lokeren,1.88,WIN,Over 10 (Corners Over Under-Full Time Excluding Overtime),9:7,Bet365,1.88,1.00,0.88,number14,2016-02-12 20:45:25
+157,2016-02-14 18:00:00,SOC,Belgium,KVC Westerlo - Standard Liege,5.19,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),1-13,Bet365,1.73,3.00,2.19,number14,2016-02-12 20:42:33
+158,2016-02-13 15:00:00,SOC,Ita. Serie B,Calcio Como - Novara,18.3,WIN,Over 9 (Corners Over Under-Full Time Excluding Overtime),7:3,Bet365,1.83,10.00,8.30,number14,2016-02-12 20:28:01
+159,2016-02-13 15:00:00,SOC,Ita. Serie B,Avellino - Bari,5.49,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),7:6,Bet365,1.83,3.00,2.49,number14,2016-02-12 20:24:56
+160,2016-02-10 20:15:00,SOC,Spa. Other,CD Mostoles - Rayo Majadahonda,0.00,LOST,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),5-7,Bet365,1.88,5.00,-5.00,number14,2016-02-10 01:55:55
+161,2016-02-10 20:00:00,SOC,Spa. Other,Gimnastic Torrelavega - Sarinena,0.00,LOST,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),8-1,Bet365,1.9,5.00,-5.00,number14,2016-02-10 01:50:20
+162,2016-02-10 21:00:00,SOC,Spa. Copa Del Rey,Valencia CF - FC Barcelona,13.16,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),3-4,Bet365,1.88,7.00,6.16,number14,2016-02-10 01:47:29
+163,2016-02-10 18:30:00,SOC,South Africa,Orlando Pirates - Mamelodi Sundowns FC,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),4-3,Bet365,1.98,10.00,-10.00,number14,2016-02-10 01:39:27
+164,2016-02-10 15:30:00,SOC,Spa. Other,CF Elche B - CD Atletico Baleares,1.93,WIN,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),2-4,Bet365,1.93,1.00,0.93,number14,2016-02-10 01:35:57
+165,2016-02-10 14:30:00,SOC,Ita. Other,San Marino Calcio - Porto Tolle,6,WIN,Over 9 (Corners Over Under-Full Time Excluding Overtime),2-8,Bet365,2,3.00,3.00,number14,2016-02-10 01:30:16
+166,2016-02-09 18:00:00,SOC,Egypt,Al Ahly Cairo - El Zamalek,18.3,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),3-2,Bet365,1.83,10.00,8.30,number14,2016-02-08 23:33:33
+167,2016-02-07 18:00:00,SOC,Por. Other,Freamunde - FC Porto B,5.4,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),6:2,Bet365,1.8,3.00,2.40,number14,2016-02-07 03:13:22
+168,2016-02-07 12:00:00,SOC,Por. Other,Santa Clara - Desportivo das Aves,17.3,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),4:6,Bet365,1.73,10.00,7.30,number14,2016-02-07 03:08:59
+169,2016-02-07 12:00:00,SOC,Women,Espanyol W - Valencia W,0.00,LOST,Under 9 (Corners Over Under-Full Time Excluding Overtime),5:7,Bet365,1.8,10.00,-10.00,number14,2016-02-07 03:02:51
+170,2016-02-07 14:00:00,SOC,Africa,Guinea - Cote dIvoire,19.8,WIN,Under 4.5 (Corners Over Under-First Half),0:2,Bet365,1.98,10.00,9.80,number14,2016-02-07 02:49:45
+171,2016-02-07 14:00:00,SOC,Africa,Guinea - Cote dIvoire,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),4:4,Bet365,2,10.00,10.00,number14,2016-02-07 02:49:19
+172,2016-02-07 17:30:00,SOC,Africa,Congo DR - Mali,19.8,WIN,Under 4.5 (Corners Over Under-First Half),3,Bet365,1.98,10.00,9.80,number14,2016-02-07 02:48:11
+173,2016-02-07 17:30:00,SOC,Africa,Congo DR - Mali,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),2:4,Bet365,2,10.00,10.00,number14,2016-02-07 02:47:18
+174,2016-02-05 20:30:00,SOC,Spa. Primera,Malaga CF - Getafe,3,PUSH,Under 10 (Corners Over Under-Full Time Excluding Overtime),4-6,SBOBET,1.78,3.00,0.00,number14,2016-02-05 19:03:07
+175,2016-02-05 19:30:00,SOC,Spa. Primera,Malaga - Getafe,1.63,WIN,Home (Match),3:0,PINNACLE,1.63,1.00,0.63,number14,2016-02-05 18:48:28
+176,2016-02-05 20:30:00,SOC,Spa. Primera,Malaga CF - Getafe,4.95,WIN,Malaga CF (1X2-Full Time Excluding Overtime),3:0,188bet,1.65,3.00,1.95,number14,2016-02-05 18:10:38
+177,2016-02-05 20:00:00,SOC,Netherlands,FC Oss / Top Oss - Achilles 29,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),9-4,Bet365,1.9,3.00,-3.00,number14,2016-02-05 15:40:54
+178,2016-02-05 20:00:00,SOC,Netherlands,FC Eindhoven - Ajax Reserves,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),6-5,Bet365,1.9,1.00,-1.00,number14,2016-02-05 15:37:01
+179,2016-02-05 18:00:00,SOC,Turkey,Osmanlispor - Sivasspor,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),6-3,Bet365,1.98,1.00,-1.00,number14,2016-02-05 15:19:20
+180,2016-02-05 17:10:00,SOC,Kuwait,Kazma - Khaitan,0.00,LOST,Under 5.5 (Corners Over Under-First Half),6,Bet365,1.9,5.00,-5.00,number14,2016-02-05 01:53:55
+181,2016-02-05 17:10:00,SOC,Kuwait,Kazma - Khaitan,0.00,LOST,Under 11.5 (Corners Over Under-Full Time Excluding Overtime),11-3,Bet365,1.95,10.00,-10.00,number14,2016-02-05 01:48:47
+182,2016-02-05 15:00:00,SOC,Algeria,OM Arzew - CA Bordj Bou Arreridj,13.86,WIN,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),3-2,Bet365,1.98,7.00,6.86,number14,2016-02-05 01:36:05
+183,2016-02-06 18:00:00,SOC,Spa. Segunda,Real Zaragoza - Leganes,5.85,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),10,Bet365,1.95,3.00,2.85,number14,2016-02-04 18:31:33
+184,2016-02-04 22:00:00,SOC,Costa Rica,AD Municipal Liberia - Belen Siglo XXI,18,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),4-1,Bet365,1.8,10.00,8.00,number14,2016-02-04 16:00:13
+185,2016-02-04 15:00:00,SOC,Africa,Mali - Cote dIvoire,19.8,WIN,Under 4.5 (Corners Over Under-First Half),3-1,Bet365,1.98,10.00,9.80,number14,2016-02-04 13:43:27
+186,2016-02-04 15:00:00,SOC,Africa,Mali - Cote dIvoire,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),3-2,Bet365,2,10.00,10.00,number14,2016-02-04 13:41:59
+187,2016-02-07 13:45:00,SOC,Switzerland,FC St. Gallen - FC Thun,18.8,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),10:3,Bet365,1.88,10.00,8.80,number14,2016-02-03 16:59:38
+188,2016-02-05 20:00:00,SOC,Netherlands,Telstar - MVV Maastricht,5.4,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),4-5,Bet365,1.8,3.00,2.40,number14,2016-02-03 16:51:44
+189,2016-02-07 17:00:00,SOC,Por. Superliga,CF Uniao Madeira - Moreirense,5.85,WIN,Under 5 (Corners Over Under-First Half),1:3,Bet365,1.95,3.00,2.85,number14,2016-02-03 16:31:26
+190,2016-02-07 17:00:00,SOC,Por. Superliga,CF Uniao Madeira - Moreirense,19.5,WIN,Under 5 (Corners Over Under-First Half),1:3,Bet365,1.95,10.00,9.50,number14,2016-02-03 16:31:00
+191,2016-02-07 17:00:00,SOC,Por. Superliga,Pacos Ferreira - Boavista FC,19.8,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),6:1,Bet365,1.98,10.00,9.80,number14,2016-02-03 14:56:05
+192,2016-02-08 22:00:00,SOC,Por. Superliga,SC Braga - Estoril Praia,0.00,LOST,Under 11.5 (Corners Over Under-Full Time Excluding Overtime),10-2,Bet365,1.8,10.00,-10.00,number14,2016-02-03 14:39:06
+193,2016-02-07 16:15:00,SOC,Greece,PAE APS Atromitos Athens - AEK Athens,18,WIN,Under 4.5 (Corners Over Under-First Half),0-4,Bet365,1.8,10.00,8.00,number14,2016-02-03 13:53:45
+194,2016-02-06 14:00:00,SOC,Greece,Platanias - Asteras Tripolis,9.15,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),6:4,Bet365,1.83,5.00,4.15,number14,2016-02-03 13:36:09
+195,2016-02-07 14:00:00,SOC,Greece,Iraklis FC - Pas Giannina,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),6:7,Bet365,1.67,7.00,-7.00,number14,2016-02-03 13:29:10
+196,2016-02-08 18:30:00,SOC,Greece,Panionios NFC - Panaitolikos Agrinio,5.64,WIN,Under 9 (Corners Over Under-Full Time Excluding Overtime),3-1,Bet365,1.88,3.00,2.64,number14,2016-02-03 13:26:20
+197,2016-02-08 18:30:00,SOC,Greece,Panionios NFC - Panaitolikos Agrinio,18.8,WIN,Under 9 (Corners Over Under-Full Time Excluding Overtime),3-1,Bet365,1.88,10.00,8.80,number14,2016-02-03 13:25:12
+198,2016-02-05 18:30:00,SOC,Ger. Bundesliga II,VfL Bochum - SC Freiburg,10.35,WIN,Over 4.5 (Corners Over Under-First Half),1-5,SBOBET,2.07,5.00,5.35,number14,2016-02-03 13:18:40
+199,2016-02-07 13:30:00,SOC,Ger. Bundesliga II,Karlsruher SC - FSV Frankfurt,0.00,LOST,Over 4.5 (Corners Over Under-First Half),1:1,SBOBET,1.92,10.00,-10.00,number14,2016-02-03 13:00:49
+200,2016-02-06 13:00:00,SOC,Ger. Bundesliga II,TSV Fortuna Dusseldorf - 1. FC Heidenheim 1846,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),7,SBOBET,2.05,7.00,-7.00,number14,2016-02-03 12:54:45
+201,2016-02-04 01:00:00,SOC,Bolivia,Bolivar - Real Potosi,18,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),6-1,Bet365,1.8,10.00,8.00,number14,2016-02-03 04:25:35
+202,2016-02-03 20:30:00,SOC,Spa. Other,Merida - Club Rapido de Bouzas,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),11-2,Bet365,1.8,10.00,-10.00,number14,2016-02-03 04:22:23
+203,2016-02-05 20:30:00,SOC,Ita. Serie B,Bari - Crotone,0.00,LOST,Over 4.5 (Corners Over Under-First Half),0-4,Bet365,1.9,7.00,-7.00,number14,2016-02-03 03:06:35
+204,2016-02-06 15:00:00,SOC,Ita. Serie B,AC Perugia - Spezia,0.00,LOST,Over 4.5 (Corners Over Under-First Half),2:1,Bet365,2,10.00,-10.00,number14,2016-02-03 02:50:47
+205,2016-02-03 15:00:00,SOC,Africa,Congo DR - Guinea,18,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),4-1,Bet365,1.8,10.00,8.00,number14,2016-02-03 00:54:25
+206,2016-02-03 12:00:00,SOC,Iran,Malavan - Naft Tehran,19,WIN,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),0-6,Bet365,1.9,10.00,9.00,number14,2016-02-03 00:49:40
+207,2016-02-02 21:00:00,SOC,Eng. Premier,Manchester United FC - Stoke City FC,0.00,LOST,Manchester United FC -2.5 (Corner Asian Handicap-Full Time Excluding Overtime),2-5,Bet365,1.9,5.00,-5.00,number14,2016-02-01 00:16:58
+208,2016-02-02 21:00:00,SOC,Eng. Premier,Manchester United FC - Stoke City FC,0.00,LOST,Manchester United FC -2.5 (Corner Asian Handicap-Full Time Excluding Overtime),2-5,Bet365,1.9,5.00,-5.00,number14,2016-02-01 00:15:28
+209,2016-02-02 21:00:00,SOC,Eng. Premier,Manchester United FC - Stoke City FC,9.5,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),2-5,Bet365,1.9,5.00,4.50,number14,2016-02-01 00:11:36
+210,2016-02-01 19:55:00,SOC,Israel,Beitar Jerusalem - Maccabi Tel-Aviv,1.8,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),6-2,Bet365,1.8,1.00,0.80,number14,2016-02-01 00:04:02
+211,2016-02-01 19:30:00,SOC,Belgium,KV Oostende U21 - Anderlecht U21,0.00,LOST,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),2-5,Bet365,1.83,10.00,-10.00,number14,2016-01-31 23:55:28
+212,2016-01-31 22:00:00,SOC,Other,Deportivo Walter Ferreti - UNAN Managua,1.85,WIN,Over 8 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,1.85,1.00,0.85,number14,2016-01-31 18:33:05
+213,2016-01-31 21:30:00,SOC,Venezuela,Monagas SC - Deportivo Anzoategui,0.00,LOST,Under 9 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,1.8,10.00,-10.00,number14,2016-01-31 18:30:14
+214,2016-01-31 12:15:00,SOC,Por. Other,CD Mafra - Portimonense,0.00,LOST,Under 10 (Corners Over Under-Full Time Excluding Overtime),4:17,Bet365,2,3.00,-3.00,number14,2016-01-30 23:23:35
+215,2016-01-31 12:00:00,SOC,Spa. Other,Real Valladolid B - Cacereno,0.00,LOST,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),5:0,Bet365,1.85,3.00,-3.00,number14,2016-01-30 23:20:22
+216,2016-01-31 12:00:00,SOC,Spa. Other,CD Llosetense - CD Alcoyano,13.3,WIN,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),3:8,Bet365,1.9,7.00,6.30,number14,2016-01-30 23:17:28
+217,2016-01-31 12:00:00,SOC,Women,FC Barcelona W - Oviedo Moderno W,20.5,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,2.05,10.00,10.50,number14,2016-01-30 23:12:37
+218,2016-01-31 10:30:00,SOC,Azerbaijan,FK Khazar Lankaran - Ravan Baku,5.7,WIN,Over 8 (Corners Over Under-Full Time Excluding Overtime),6:10,Bet365,1.9,3.00,2.70,number14,2016-01-30 23:03:37
+219,2016-01-31 16:30:00,SOC,Ger. Bundesliga I,Bayern Munchen - TSG Hoffenheim,3.33,WIN,Home (Match),2:0,PINNACLE,1.11,3.00,0.33,number14,2016-01-30 21:53:49
+220,2016-01-31 11:00:00,SOC,Spa. Primera,Sevilla - Levante,1.47,WIN,Home -0.75 (Match),3:1,PINNACLE,1.47,1.00,0.47,number14,2016-01-30 21:52:40
+221,2016-01-31 19:30:00,SOC,Spa. Primera,Real Madrid - RCD Espanyol,1.89,WIN,Home -2.5 (Match),6:0,PINNACLE,1.89,1.00,0.89,number14,2016-01-30 21:51:12
+222,2016-01-31 19:30:00,SOC,Spa. Primera,Real Madrid - RCD Espanyol,5.55,WIN,Home (Match),6:0,PINNACLE,1.11,5.00,0.55,number14,2016-01-30 21:49:49
+223,2016-01-31 14:30:00,SOC,Corners,VfL Wolfsburg (Corners) - Koln (Corners),0.00,LOST,Home -2.5 (Match),5:5,PINNACLE,1.84,3.00,-3.00,number14,2016-01-30 19:16:50
+224,2016-02-01 19:30:00,SOC,Corners,Deportivo La Coruna (Corners) - Rayo Vallecano (Corners),2.05,WIN,Away +1 (Match),2:2,PINNACLE,2.05,1.00,1.05,number14,2016-01-30 19:11:51
+225,2016-01-31 17:15:00,SOC,Corners,Las Palmas (Corners) - Celta Vigo (Corners),0.00,LOST,Under 9.5 (Match),7:3,PINNACLE,1.77,1.00,-1.00,number14,2016-01-30 19:10:32
+226,2016-01-30 22:00:00,SOC,Brazil,Itapirense SP - Nacional AC SC,0.00,LOST,Under 11 (Corners Over Under-Full Time Excluding Overtime),10:4,Bet365,1.93,7.00,-7.00,number14,2016-01-30 13:55:05
+227,2016-01-31 17:00:00,SOC,Spa. Segunda,Ponferradina - Real Mallorca,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),2:8,Bet365,1.93,7.00,-7.00,number14,2016-01-30 13:50:08
+228,2016-01-31 18:15:00,SOC,Spa. Primera,U.D. Las Palmas - Celta de Vigo,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),7:3,SBOBET,1.7,10.00,-10.00,number14,2016-01-29 04:13:57
+229,2016-01-30 15:30:00,SOC,Ger. Bundesliga I,SV Darmstadt 98 - FC Schalke 04,18.5,WIN,FC Schalke 04 0 (Corner Asian Handicap-Full Time Excluding Overtime),2:9,SBOBET,1.85,10.00,8.50,number14,2016-01-29 04:11:45
+230,2016-01-30 15:30:00,SOC,Ger. Bundesliga I,FC Augsburg - Eintracht Frankfurt,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),4:2,SBOBET,2.01,5.00,-5.00,number14,2016-01-29 03:29:03
+231,2016-01-29 20:30:00,SOC,Other,Lincoln FC - Manchester 62 FC,5.79,WIN,Under 11.5 (Corners Over Under-Full Time Excluding Overtime),5,Bet365,1.93,3.00,2.79,number14,2016-01-29 03:06:33
+232,2016-01-29 20:00:00,SOC,Fra. National,Bastia C.A. - Les Herbiers,3,PUSH,Under 9 (Corners Over Under-Full Time Excluding Overtime),6-3,Bet365,1.9,3.00,0.00,number14,2016-01-29 02:53:04
+233,2016-01-29 20:00:00,SOC,Fra. National,LB Chateauroux - S. Reunis Colmar,5.64,WIN,Over 9 (Corners Over Under-Full Time Excluding Overtime),8-5,Bet365,1.88,3.00,2.64,number14,2016-01-29 02:49:49
+234,2016-01-29 19:30:00,SOC,Women,Ajax Amsterdam W - ADO Den Haag W,18.5,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),6-6,Bet365,1.85,10.00,8.50,number14,2016-01-29 02:41:52
+235,2016-01-29 15:00:00,SOC,Algeria,ASO Chlef - Amal Bou Saada,7,PUSH,Under 9 (Corners Over Under-Full Time Excluding Overtime),9-0,Bet365,1.88,7.00,0.00,number14,2016-01-29 02:21:30
+236,2016-01-29 14:00:00,SOC,Israel,Hapoel Bnei Lod - Hapoel Ashkelon,0.00,LOST,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),5-7,Bet365,1.85,1.00,-1.00,number14,2016-01-29 01:59:49
+237,2016-01-31 17:00:00,SOC,Por. Superliga,Rio Ave - Vitoria Setubal,0.00,LOST,Over 11.5 (Corners Over Under-Full Time Excluding Overtime),5:5,Bet365,2,3.00,-3.00,number14,2016-01-28 02:46:41
+238,2016-01-31 17:00:00,SOC,Por. Superliga,CD Nacional de Madeira - CD Tondela,5.4,WIN,Under 11.5 (Corners Over Under-Full Time Excluding Overtime),3:3,Bet365,1.8,3.00,2.40,number14,2016-01-28 02:42:21
+239,2016-01-30 20:00:00,SOC,Fra. Ligue 1,AC Troyes AC - FC Nantes,18.8,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),6:4,Bet365,1.88,10.00,8.80,number14,2016-01-28 02:28:02
+240,2016-01-28 18:30:00,SOC,Saudi Arabia,Al Ahli Jeddah - Al Taawon Buraidah,0.00,LOST,Over 10.5 (Corners Over Under-Full Time Excluding Overtime),7-2,Bet365,1.95,10.00,-10.00,number14,2016-01-28 02:26:04
+241,2016-01-30 15:00:00,SOC,Ita. Serie B,Calcio Como - Vicenza,20,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),3:8,Bet365,2,10.00,10.00,number14,2016-01-27 04:09:15
+242,2016-01-29 20:30:00,SOC,Ita. Serie B,Avellino - Cagliari,5,PUSH,Over 10 (Corners Over Under-Full Time Excluding Overtime),3-7,Bet365,1.98,5.00,0.00,number14,2016-01-27 04:08:40
+243,2016-01-31 14:30:00,Combo pick,Combo pick,Combo pick,0,LOST,,0,Bet365,3.33,10.00,-10.00,number14,2016-01-27 03:52:11
+,2016-01-27 17:00:00,SOC,Qatar,Al Sailiya - Al Mesaimeer SC,18.8,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),3:5,,1.88,,,,
+,2016-01-31 14:30:00,SOC,Netherlands,Achilles 29 - Go Ahead Eagles,0.00,LOST,Under 5 (Corners Over Under-First Half),1:7,,1.77,,,,
+244,2016-01-31 14:30:00,SOC,Netherlands,Achilles 29 - Go Ahead Eagles,0.00,LOST,Under 5 (Corners Over Under-First Half),1:7,Bet365,1.77,10.00,-10.00,number14,2016-01-27 03:50:32
+245,2016-01-29 20:00:00,SOC,Fra. Ligue 2,Stade Laval - Chamois Niortais FC,0.00,LOST,Over 4.5 (Corners Over Under-First Half),3-1,Bet365,2,10.00,-10.00,number14,2016-01-27 03:26:11
+246,2016-01-30 14:30:00,SOC,Fra. Ligue 2,Le Havre AC - RC Lens,8.65,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),6:3,Bet365,1.73,5.00,3.65,number14,2016-01-27 03:13:49
+247,2016-01-29 20:00:00,SOC,Fra. Ligue 2,FC Sochaux - Bourg-Peronnas,12.6,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),5-1,Bet365,1.8,7.00,5.60,number14,2016-01-27 03:09:10
+248,2016-01-29 20:00:00,SOC,Fra. Ligue 2,Tours FC - AC Ajaccio,7,PUSH,Under 9 (Corners Over Under-Full Time Excluding Overtime),6-3,Bet365,1.88,7.00,0.00,number14,2016-01-27 03:04:39
+249,2016-01-28 03:00:00,SOC,Costa Rica,LD Alajuelense - Limon FC,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),4-0,Bet365,1.73,3.00,-3.00,number14,2016-01-27 02:46:56
+250,2016-01-28 03:00:00,SOC,Costa Rica,Deportivo Saprissa - Deportiva Carmelita,19.3,WIN,Over 10 (Corners Over Under-Full Time Excluding Overtime),7-4,Bet365,1.93,10.00,9.30,number14,2016-01-27 02:44:58
+251,2016-01-27 21:00:00,SOC,Fra. Other,Paris Saint-Germain FC - FC Toulouse,13.72,WIN,Paris Saint-Germain FC -2.5 (Corner Asian Handicap-Full Time Excluding Overtime),7-3,SBOBET,1.96,7.00,6.72,number14,2016-01-27 02:23:25
+252,2016-01-27 14:30:00,SOC,Qatar,Al Ahli - Al-Gharrafa,13.16,WIN,Under 9 (Corners Over Under-Full Time Excluding Overtime),8-0,Bet365,1.88,7.00,6.16,number14,2016-01-27 02:21:58
+253,2016-01-27 17:00:00,Combo pick,Combo pick,Combo pick,24.7408,WIN,,0,Bet365,3.53,7.00,17.74,number14,2016-01-27 02:21:44
+,2016-01-27 14:30:00,SOC,Qatar,Al Ahli - Al-Gharrafa,13.16,WIN,Under 9 (Corners Over Under-Full Time Excluding Overtime),8-0,,1.88,,,,
+,2016-01-27 17:00:00,SOC,Qatar,Al Sailiya - Al Mesaimeer SC,13.16,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),3-5,,1.88,,,,
+254,2016-01-27 17:00:00,SOC,Qatar,Al Sailiya - Al Mesaimeer SC,18.8,WIN,Under 10 (Corners Over Under-Full Time Excluding Overtime),3-5,Bet365,1.88,10.00,8.80,number14,2016-01-27 02:15:53
+255,2016-01-27 11:30:00,SOC,Hong Kong,Metro Gallery Sun Source Resreves - Yuen Long District Reserves,0.00,LOST,Under 8.5 (Corners Over Under-Full Time Excluding Overtime),14,Bet365,2.02,10.00,-10.00,number14,2016-01-27 01:15:59
+256,2016-01-21 17:00:00,SOC,Africa,Cameroon - Ethiopia,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),8-4,Bet365,2,10.00,-10.00,number14,2016-01-21 15:26:57
+257,2016-01-21 20:45:00,SOC,Spa. Other,Lorca Deportiva - CD Atletico Baleares,17.3,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),2-3,Bet365,1.73,10.00,7.30,number14,2016-01-21 00:06:04
+258,2016-01-21 17:00:00,SOC,Africa,Cameroon - Ethiopia,0.00,LOST,Cameroon (1X2-Full Time Excluding Overtime),0:0,Bet365,1.57,1.00,-1.00,number14,2016-01-20 19:17:24
+259,2016-01-21 14:00:00,SOC,Africa,Congo DR - Angola,0.00,LOST,0-1 (Number Of Goals-Full Time Excluding Overtime),4:2,Bet365,2.5,1.00,-1.00,number14,2016-01-20 19:16:24
+260,2016-01-21 14:00:00,SOC,Africa,Congo DR - Angola,15.84,WIN,Under 4.5 (Corners Over Under-First Half),3,Bet365,1.98,8.00,7.84,number14,2016-01-20 19:13:55
+261,2016-01-21 14:00:00,SOC,Africa,Congo DR - Angola,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),4-2,Bet365,2,10.00,10.00,number14,2016-01-20 19:09:05
+262,2016-01-21 17:00:00,SOC,Africa,Cameroon - Ethiopia,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),8-4,Bet365,2,7.00,-7.00,number14,2016-01-20 19:08:10
+263,2016-01-23 15:00:00,SOC,Eng. Premier,Manchester United - Southampton,0.00,LOST,Home 0 (Match),0:1,PINNACLE,1.36,1.00,-1.00,number14,2016-01-20 03:55:39
+264,2016-02-02 19:45:00,SOC,Eng. Premier,West Ham United - Aston Villa,1.38,WIN,Home 0 (Match),2:0,PINNACLE,1.38,1.00,0.38,number14,2016-01-20 03:54:06
+265,2016-02-02 19:45:00,SOC,Eng. Premier,Arsenal - Southampton,0.00,LOST,Home -0.25 (Match),0:0,PINNACLE,1.44,1.00,-1.00,number14,2016-01-20 03:53:06
+266,2016-01-24 13:30:00,SOC,Eng. Premier,Everton - Swansea City,0.00,LOST,Home (Match),1:2,PINNACLE,1.73,1.00,-1.00,number14,2016-01-20 03:52:35
+267,2016-01-20 17:00:00,SOC,Africa,Morocco - Cote dIvoire,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),4,Bet365,2,10.00,10.00,number14,2016-01-20 03:48:42
+268,2016-01-20 14:00:00,SOC,Africa,Rwanda - Gabon,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,2,10.00,-10.00,number14,2016-01-20 03:47:54
+269,2016-01-20 11:30:00,SOC,Hong Kong,Kitchee SC Reserves - Metro Gallery Sun Source Resreves,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),loss,Bet365,1.8,8.00,-8.00,number14,2016-01-20 02:05:18
+270,2016-01-20 13:30:00,SOC,Hong Kong,Eastern AA Reserves - Southern District RSA Reserves,14.4,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,1.8,8.00,6.40,number14,2016-01-20 02:04:26
+271,2016-01-31 19:30:00,SOC,Spa. Primera,Real Madrid - RCD Espanyol,2.24,WIN,Home (Match),6:0,PINNACLE,1.12,2.00,0.24,number14,2016-01-20 00:29:08
+272,2016-01-31 17:30:00,SOC,Ger. Bundesliga I,FC Bayern Munchen - TSG 1899 Hoffenheim,2.22,WIN,FC Bayern Munchen (1X2-Full Time Excluding Overtime),2:0,Bet365,1.11,2.00,0.22,number14,2016-01-20 00:25:15
+273,2016-01-31 20:30:00,SOC,Spa. Primera,Real Madrid - RCD Espanyol,5.4,WIN,Real Madrid (1X2-Full Time Excluding Overtime),6:0,188bet,1.08,5.00,0.40,number14,2016-01-20 00:23:54
+274,2016-01-23 20:00:00,SOC,Fra. Ligue 1,OSC Lille - AC Troyes AC,15.2,WIN,Over 4.5 (Corners Over Under-First Half),6:2,Bet365,1.9,8.00,7.20,number14,2016-01-20 00:18:20
+275,2016-01-24 17:30:00,Combo pick,Combo pick,Combo pick,0,LOST,,0,Bet365,3.8,5.00,-5.00,number14,2016-01-20 00:17:21
+,2016-01-24 17:30:00,SOC,Ita. Serie B,AC Perugia - Pescara,0.00,LOST,Over 4.5 (Corners Over Under-First Half),0:3,,2,,,,
+,2016-01-23 20:00:00,SOC,Fra. Ligue 1,OSC Lille - AC Troyes AC,9.5,WIN,Over 4.5 (Corners Over Under-First Half),6:2,,1.9,,,,
+276,2016-01-23 15:00:00,SOC,Ita. Serie B,Ascoli - Lanciano,0.00,LOST,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),3:10,Bet365,1.73,10.00,-10.00,number14,2016-01-19 23:12:19
+277,2016-01-23 15:00:00,SOC,Ita. Serie B,Pro Vercelli - Spezia,12.6,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),4:5,Bet365,1.8,7.00,5.60,number14,2016-01-19 23:09:52
+278,2016-01-24 17:30:00,SOC,Ita. Serie B,AC Perugia - Pescara,0.00,LOST,Over 4.5 (Corners Over Under-First Half),0:3,Bet365,2,10.00,-10.00,number14,2016-01-19 23:08:33
+279,2016-01-19 20:45:00,SOC,Eng. FA Cup,Yeovil Town - Carlisle United,18.9,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime),10,Unibet,1.89,10.00,8.90,number14,2016-01-19 18:04:04
+280,2016-01-19 02:30:00,SOC,Other,Arnett Gardens - Portmore United,18.3,WIN,Over 8.5 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,1.83,10.00,8.30,number14,2016-01-18 01:57:55
+281,2016-01-15 20:00:00,SOC,Fra. National,FrÃ©jus - Marseille Consolat,17.5,WIN,Under 4.5 (Corners Over Under-First Half),3,Bet365,1.75,10.00,7.50,number14,2016-01-15 16:21:52
+282,2016-01-15 20:00:00,SOC,Netherlands,FC Volendam - NAC Breda,10.00,PUSH,Over 4.5 (Corners Over Under-First Half),0,Bet365,1.77,10.00,0.00,number14,2016-01-14 22:08:31
+283,2016-01-18 20:30:00,SOC,Spa. Primera,Eibar - Granada CF,20,WIN,Eibar (1X2-First Half),1,Bet365,2.5,8.00,12.00,number14,2016-01-14 22:07:27
+284,2016-01-17 14:30:00,SOC,Belgium,KAA Gent - RSC Anderlecht,0.00,LOST,Over 4.5 (Corners Over Under-First Half),3,Bet365,1.75,10.00,-10.00,number14,2016-01-14 22:06:34
+285,2016-01-16 16:00:00,SOC,Scotland,Kilmarnock - Inverness Caledonian Thistle,18,WIN,Under 5 (Corners Over Under-First Half),1,Bet365,1.8,10.00,8.00,number14,2016-01-14 22:05:42
+286,2016-01-16 18:00:00,SOC,Spa. Segunda,Tenerife - Athletic Bilbao B,10.00,PUSH,Under 4.5 (Corners Over Under-First Half),0,Bet365,1.9,10.00,0.00,number14,2016-01-14 22:04:27
+287,2016-01-17 17:00:00,SOC,Spa. Segunda,Lugo - SD Huesca,0.00,LOST,Under 4.5 (Corners Over Under-First Half),6,Bet365,1.77,10.00,-10.00,number14,2016-01-14 22:03:42
+288,2016-01-18 20:30:00,SOC,Ita. Serie B,Crotone - Cagliari,19,WIN,Under 4.5 (Corners Over Under-First Half),1,Bet365,1.9,10.00,9.00,number14,2016-01-14 22:03:05
+289,2016-01-16 15:00:00,SOC,Ita. Serie B,Avellino - Salernitana,0.00,LOST,Over 4.5 (Corners Over Under-First Half),3,Bet365,1.9,10.00,-10.00,number14,2016-01-14 22:02:27
+290,2016-01-16 15:00:00,SOC,Ita. Serie B,Calcio Como - AC Perugia,20,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,2,10.00,10.00,number14,2016-01-14 22:01:20
+291,2016-01-16 15:00:00,SOC,Ita. Serie B,Avellino - Salernitana,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),8,Bet365,1.83,10.00,-10.00,number14,2016-01-14 22:00:30
+292,2016-01-15 20:30:00,SOC,Ita. Serie B,Spezia - Bari,5.49,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,1.83,3.00,2.49,number14,2016-01-14 21:59:34
+293,2016-01-16 21:45:00,SOC,Por. Superliga,Estoril Praia - SL Benfica,15.04,WIN,Under 11 (Corners Over Under-Full Time Excluding Overtime),8,Betsson SB,1.88,8.00,7.04,number14,2016-01-14 21:58:25
+294,2016-01-17 18:30:00,SOC,Greece,Panathinaikos - Panionios NFC,19,WIN,Under 4.5 (Corners Over Under-First Half),4,Bet365,1.9,10.00,9.00,number14,2016-01-14 21:56:55
+295,2016-01-17 16:15:00,SOC,Greece,Asteras Tripolis - Kalloni Lekanopedio FC,0.00,LOST,Under 4.5 (Corners Over Under-First Half),6,Bet365,1.9,10.00,-10.00,number14,2016-01-14 21:56:03
+296,2016-01-16 16:00:00,SOC,Eng. League One,Swindon Town - Crewe Alexandra,0.00,LOST,Under 5 (Corners Over Under-First Half),7,Bet365,1.88,10.00,-10.00,number14,2016-01-14 21:54:53
+297,2016-01-16 16:00:00,SOC,Eng. League Two,AFC Wimbledon - Mansfield Town,0.00,LOST,Over 10.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,1.83,5.00,-5.00,number14,2016-01-14 21:50:53
+298,2016-01-14 16:00:00,SOC,Egypt,El Ismaily Sporting Club - Smouha,20,WIN,Under 9.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,2,10.00,10.00,number14,2016-01-14 14:53:26
+299,2016-01-16 15:00:00,SOC,Ita. Serie B,Calcio Como - AC Perugia,10,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),11,Bet365,2,5.00,5.00,number14,2016-01-13 23:17:56
+300,2016-01-16 18:00:00,SOC,Spa. Segunda,Tenerife - Athletic Bilbao B,0.00,LOST,Under 4.5 (Corners Over Under-First Half),6,Bet365,1.9,8.00,-8.00,number14,2016-01-13 23:17:03
+301,2016-01-17 17:00:00,SOC,Spa. Segunda,Leganes - CD Mirandes,0.00,LOST,Over 5 (Corners Over Under-First Half),4,Bet365,1.98,5.00,-5.00,number14,2016-01-13 23:16:16
+302,2016-01-16 18:00:00,SOC,Belgium,Club Brugge KV - Mouscron-Peruwelz,16.7,WIN,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),10,Bet365,1.67,10.00,6.70,number14,2016-01-13 23:15:09
+303,2016-01-15 20:00:00,SOC,Netherlands,FC Volendam - NAC Breda,0.00,LOST,Over 4.5 (Corners Over Under-First Half),3,Bet365,1.77,5.00,-5.00,number14,2016-01-13 23:14:11
+304,2016-01-17 17:00:00,SOC,Por. Superliga,Rio Ave - Belenenses,18.2,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),14,Betsson SB,1.82,10.00,8.20,number14,2016-01-13 23:04:24
+305,2016-01-17 17:00:00,SOC,Por. Superliga,Rio Ave - Belenenses,18.2,WIN,Over 11 (Corners Over Under-Full Time Excluding Overtime),14,Betsson SB,1.82,10.00,8.20,number14,2016-01-13 23:04:05
+306,2016-01-17 17:00:00,SOC,Spa. Segunda,Leganes - CD Mirandes,10.00,PUSH,Over 10.5 (Corners Over Under-Full Time Excluding Overtime),0,Bet365,1.83,10.00,0.00,number14,2016-01-13 23:02:07
+307,2015-12-26 18:30:00,SOC,Eng. Premier,Newcastle United FC - Everton,18.3,WIN,Newcastle United FC Newcastle United FC (First Team Booking-Full Time Excluding Overtime),1,William Hill,1.83,10.00,8.30,number14,2015-12-23 23:10:48
+308,2015-12-26 16:00:00,SOC,Eng. Premier,Liverpool - Leicester City,5.00,PUSH,Liverpool -1 (Corner Handicap-Full Time Excluding Overtime),1,Bet365,1.95,5.00,0.00,number14,2015-12-23 23:09:11
+309,2015-12-26 20:45:00,SOC,Eng. Premier,Southampton FC - Arsenal,17.3,WIN,Southampton FC Southampton FC (First Team Booking-Full Time Excluding Overtime),1,William Hill,1.73,10.00,7.30,number14,2015-12-23 23:01:17
