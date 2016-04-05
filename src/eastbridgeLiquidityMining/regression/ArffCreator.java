@@ -14,6 +14,7 @@ import java.util.Map;
 
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
+import jayeson.lib.datastructure.SoccerEventLiveState;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
@@ -93,6 +94,7 @@ public class ArffCreator {
 			String eventJsonString = rS.getString("eventJsonString");
 			SoccerEvent event = (SoccerEvent)gson.fromJson(eventJsonString, eventClass);
 			
+			
 			ResultSet rS2 = database.getRecordsForEvent(eventId);
 			List<Record> records = new ArrayList<Record>();
 			List<BetTicket> betTickets = new ArrayList<BetTicket>();
@@ -112,7 +114,14 @@ public class ArffCreator {
 			for(int i = 0; i < records.size(); i++){
 				Record r = records.get(i);
 				BetTicket bt = betTickets.get(i);
-				String key = r.getPivotType().toString() + r.getPivotValue();
+				String selection = null;
+				if(r.getRateEqual() == bt.getCurrentOdd())
+					selection = "equal";
+				else if(r.getRateOver() == bt.getCurrentOdd())
+					selection = "over";
+				else
+					selection = "under";
+				String key = r.getPivotType().toString() + r.getPivotValue() + selection;
 				if(bt.getMaxStake() == 0)
 					continue;
 				if(bestOdds.containsKey(key)){
@@ -139,7 +148,7 @@ public class ArffCreator {
 				vals[6] = data.attribute(6).addStringValue(r.getOddType().toString());
 				vals[7] = data.attribute(7).addStringValue(r.getSource());
 				vals[8] = data.attribute(8).addStringValue(Mappings.league_to_country.get(event.getLeague()));
-				vals[9] = event.getLiveState().getStartTime() * 1000 - timeStamps.get(idx);
+//				vals[9] = event.getLiveState().getStartTime() * 1000 - timeStamps.get(idx);
 				vals[10] = bt.getCurrentOdd();
 				vals[11] = bt.getMaxStake();
 				data.add(new Instance(1.0, vals));
