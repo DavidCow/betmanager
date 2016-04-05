@@ -12,7 +12,7 @@ public class EastbridgeLiquidityDatabase {
 	
 	private String dbName = "EastbridgeLiquidity";
 	private static String userName = "postgres";
-	private static String password = "postgrespass";
+	private static String password = "fischkopf";
 	private static String port = "5433";
 
 	private Connection       db;        // A connection to the database

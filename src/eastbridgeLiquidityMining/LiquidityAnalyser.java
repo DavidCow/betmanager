@@ -6,6 +6,7 @@ import java.io.ObjectInputStream;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import jayeson.lib.datastructure.Record;
@@ -20,10 +21,12 @@ import eastbridgeLiquidityMining.database.EastbridgeLiquidityDatabase;
 public class LiquidityAnalyser {
 
 	private EastbridgeLiquidityDatabase database;
+	private HashSet<String> leagues;
 	
 	public LiquidityAnalyser(){
 		try {
 			database = new EastbridgeLiquidityDatabase();
+			leagues = new HashSet<String>();
 		} catch (Exception e){
 			e.printStackTrace();
 			System.exit(-1);
@@ -62,6 +65,7 @@ public class LiquidityAnalyser {
 			int eventId = rS.getInt("id");
 			String eventJsonString = rS.getString("eventJsonString");
 			SoccerEvent event = (SoccerEvent)gson.fromJson(eventJsonString, eventClass);
+			leagues.add(event.getLeague());
 			
 			ResultSet rS2 = database.getRecordsForEvent(eventId);
 			List<Record> records = new ArrayList<Record>();
@@ -73,6 +77,7 @@ public class LiquidityAnalyser {
 				Record record = (Record)gson.fromJson(recordJsonString, recordClass);
 				betTickets.add(betTicket);
 				records.add(record);
+				System.out.println(rS2.getLong("time"));
 			}
 			// break here
 			System.out.println();
@@ -82,5 +87,7 @@ public class LiquidityAnalyser {
 	public static void main(String[] args) throws JsonSyntaxException, SQLException {
 		LiquidityAnalyser analyser = new LiquidityAnalyser();
 		analyser.iterateAllEvents();
+		for(String s : analyser.leagues)
+			System.out.println(s);
 	}
 }

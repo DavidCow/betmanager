@@ -2,6 +2,7 @@ package eastbridgeLiquidityMining.regression;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -17,11 +18,15 @@ import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
+import weka.core.converters.ArffSaver;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.StringToNominal;
 import bettingBot.entities.BetTicket;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
+import eastbridgeLiquidityMining.Mappings;
 import eastbridgeLiquidityMining.database.EastbridgeLiquidityDatabase;
 
 public class ArffCreator {
@@ -34,7 +39,6 @@ public class ArffCreator {
 		try {
 			database = new EastbridgeLiquidityDatabase();
 			attributes = new FastVector();
-			attributes.addElement(new Attribute("ID"));
 			attributes.addElement(new Attribute("Host", (FastVector) null));
 			attributes.addElement(new Attribute("Guest", (FastVector) null));
 			attributes.addElement(new Attribute("PivotType", (FastVector) null));
@@ -43,6 +47,8 @@ public class ArffCreator {
 			attributes.addElement(new Attribute("Liga", (FastVector) null));
 			attributes.addElement(new Attribute("OddType", (FastVector) null));
 			attributes.addElement(new Attribute("Source", (FastVector) null));
+			attributes.addElement(new Attribute("Country", (FastVector) null));
+			attributes.addElement(new Attribute("TimeBeforeStart"));
 			attributes.addElement(new Attribute("CurrentOdd"));
 			attributes.addElement(new Attribute("MaxStake"));
 			data = new Instances("Records", attributes, 0);
@@ -90,6 +96,7 @@ public class ArffCreator {
 			ResultSet rS2 = database.getRecordsForEvent(eventId);
 			List<Record> records = new ArrayList<Record>();
 			List<BetTicket> betTickets = new ArrayList<BetTicket>();
+			List<Long> timeStamps = new ArrayList<Long>();
 			Map<String, Integer> bestOdds = new HashMap<String, Integer>();
 
 			while(rS2.next()){
@@ -99,12 +106,15 @@ public class ArffCreator {
 				Record record = (Record)gson.fromJson(recordJsonString, recordClass);
 				betTickets.add(betTicket);
 				records.add(record);
+				timeStamps.add(rS2.getLong("time"));
 				
 			}
 			for(int i = 0; i < records.size(); i++){
 				Record r = records.get(i);
 				BetTicket bt = betTickets.get(i);
 				String key = r.getPivotType().toString() + r.getPivotValue();
+				if(bt.getMaxStake() == 0)
+					continue;
 				if(bestOdds.containsKey(key)){
 					int idx = bestOdds.get(key);
 					BetTicket betTicket_currentBest = betTickets.get(idx);
@@ -120,27 +130,51 @@ public class ArffCreator {
 				Record r = records.get(idx);
 				BetTicket bt = betTickets.get(idx);
 				double[] vals = new double[data.numAttributes()];
-				vals[0] = recordCounter;
-				vals[1] = data.attribute(1).addStringValue(event.getHost());
-				vals[2] = data.attribute(2).addStringValue(event.getGuest());
-				vals[3] = data.attribute(3).addStringValue(r.getPivotType().toString());
-				vals[4] = data.attribute(4).addStringValue(r.getPivotBias().toString());
-				vals[5] = data.attribute(5).addStringValue(r.getPivotString());
-				vals[6] = data.attribute(6).addStringValue(event.getLeague());
-				vals[7] = data.attribute(7).addStringValue(r.getOddType().toString());
-				vals[8] = data.attribute(8).addStringValue(r.getSource());
-				vals[9] = bt.getCurrentOdd();
-				vals[10] = bt.getMaxStake();
+				vals[0] = data.attribute(0).addStringValue(event.getHost());
+				vals[1] = data.attribute(1).addStringValue(event.getGuest());
+				vals[2] = data.attribute(2).addStringValue(r.getPivotType().toString());
+				vals[3] = data.attribute(3).addStringValue(r.getPivotBias().toString());
+				vals[4] = data.attribute(4).addStringValue(r.getPivotString());
+				vals[5] = data.attribute(5).addStringValue(event.getLeague());
+				vals[6] = data.attribute(6).addStringValue(r.getOddType().toString());
+				vals[7] = data.attribute(7).addStringValue(r.getSource());
+				vals[8] = data.attribute(8).addStringValue(Mappings.league_to_country.get(event.getLeague()));
+				vals[9] = event.getLiveState().getStartTime() * 1000 - timeStamps.get(idx);
+				vals[10] = bt.getCurrentOdd();
+				vals[11] = bt.getMaxStake();
 				data.add(new Instance(1.0, vals));
 				recordCounter++;
 			}
 		}
+		System.out.println(recordCounter);
 		
+	}
+	
+	private void useStringToNominalFilter(int start, int end){
+		StringToNominal stn=new StringToNominal();
+		stn.setAttributeRange(start + "-" + end);
+		try {
+			stn.setInputFormat(data);
+			data=Filter.useFilter(data,stn);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public static void main(String[] args) throws JsonSyntaxException, SQLException {
 		ArffCreator analyser = new ArffCreator();
 		analyser.iterateAllEvents();
+		analyser.useStringToNominalFilter(1, 9);
 		System.out.println(analyser.data);
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(analyser.data);
+		try {
+			saver.setFile(new File("EastBridge.arff"));
+			saver.writeBatch();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
