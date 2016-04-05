@@ -39,6 +39,7 @@ public class LiquidityAnalyser {
 		Class eventClass = null;
 		File f0 = new File("event.dat");
 		File f1 = new File("record.dat");
+		int num_events = 0;
 		if(f0.isFile() && f0.canRead() && f1.isFile() && f1.canRead()){
 			try{
 				FileInputStream in0 = new FileInputStream(f0);
@@ -65,22 +66,26 @@ public class LiquidityAnalyser {
 			int eventId = rS.getInt("id");
 			String eventJsonString = rS.getString("eventJsonString");
 			SoccerEvent event = (SoccerEvent)gson.fromJson(eventJsonString, eventClass);
-			leagues.add(event.getLeague());
-			
-			ResultSet rS2 = database.getRecordsForEvent(eventId);
-			List<Record> records = new ArrayList<Record>();
-			List<BetTicket> betTickets = new ArrayList<BetTicket>();
-			while(rS2.next()){
-				String betTicketJsonString = rS2.getString("betTicketJsonString");
-				String recordJsonString = rS2.getString("recordJsonString");
-				BetTicket betTicket = (BetTicket)gson.fromJson(betTicketJsonString, BetTicket.class);
-				Record record = (Record)gson.fromJson(recordJsonString, recordClass);
-				betTickets.add(betTicket);
-				records.add(record);
-				System.out.println(rS2.getLong("time"));
-			}
-			// break here
-			System.out.println();
+			String league = event.getLeague();
+			String[] cut_out_specials = league.split(" - ");
+			String[] cut_out_brackets = cut_out_specials[0].split("\\(");
+			leagues.add(cut_out_brackets[0].trim());
+//			leagues.add(league);
+			num_events++;
+			if(num_events%100==0)
+				System.out.println(num_events);
+//			ResultSet rS2 = database.getRecordsForEvent(eventId);
+//			List<Record> records = new ArrayList<Record>();
+//			List<BetTicket> betTickets = new ArrayList<BetTicket>();
+//			while(rS2.next()){
+//				String betTicketJsonString = rS2.getString("betTicketJsonString");
+//				String recordJsonString = rS2.getString("recordJsonString");
+//				BetTicket betTicket = (BetTicket)gson.fromJson(betTicketJsonString, BetTicket.class);
+//				Record record = (Record)gson.fromJson(recordJsonString, recordClass);
+//				betTickets.add(betTicket);
+//				records.add(record);
+////				System.out.println(rS2.getLong("time"));
+//			}
 		}
 	}
 	
@@ -89,5 +94,6 @@ public class LiquidityAnalyser {
 		analyser.iterateAllEvents();
 		for(String s : analyser.leagues)
 			System.out.println(s);
+		System.out.println(analyser.leagues.size());
 	}
 }
