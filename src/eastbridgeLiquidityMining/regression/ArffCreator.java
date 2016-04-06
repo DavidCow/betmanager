@@ -49,7 +49,7 @@ public class ArffCreator {
 			attributes.addElement(new Attribute("OddType", (FastVector) null));
 			attributes.addElement(new Attribute("Source", (FastVector) null));
 			attributes.addElement(new Attribute("Country", (FastVector) null));
-			attributes.addElement(new Attribute("TimeBeforeStart"));
+//			attributes.addElement(new Attribute("TimeBeforeStart"));
 			attributes.addElement(new Attribute("CurrentOdd"));
 			attributes.addElement(new Attribute("MaxStake"));
 			data = new Instances("Records", attributes, 0);
@@ -62,6 +62,7 @@ public class ArffCreator {
 	
 	public void iterateAllEvents() throws JsonSyntaxException, SQLException{
 		int recordCounter = 0;
+		int eventCounter = 0;
 		Gson gson = new Gson();
 		Class recordClass = null;
 		Class eventClass = null;
@@ -90,6 +91,9 @@ public class ArffCreator {
 		}
 		ResultSet rS = database.getAllEvents();
 		while(rS.next()){
+			eventCounter++;
+			if(eventCounter%100 == 0)
+				System.out.println(eventCounter);
 			int eventId = rS.getInt("id");
 			String eventJsonString = rS.getString("eventJsonString");
 			SoccerEvent event = (SoccerEvent)gson.fromJson(eventJsonString, eventClass);
@@ -147,10 +151,10 @@ public class ArffCreator {
 				vals[5] = data.attribute(5).addStringValue(event.getLeague());
 				vals[6] = data.attribute(6).addStringValue(r.getOddType().toString());
 				vals[7] = data.attribute(7).addStringValue(r.getSource());
-				vals[8] = data.attribute(8).addStringValue(Mappings.league_to_country.get(event.getLeague()));
+				vals[8] = data.attribute(8).addStringValue(event.getLeague().split(" ")[0]);
 //				vals[9] = event.getLiveState().getStartTime() * 1000 - timeStamps.get(idx);
-				vals[10] = bt.getCurrentOdd();
-				vals[11] = bt.getMaxStake();
+				vals[9] = bt.getCurrentOdd();
+				vals[10] = bt.getMaxStake();
 				data.add(new Instance(1.0, vals));
 				recordCounter++;
 			}
