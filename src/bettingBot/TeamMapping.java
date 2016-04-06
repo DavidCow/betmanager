@@ -21,6 +21,15 @@ public class TeamMapping {
 		res = Normalizer.normalize(res, Normalizer.Form.NFD);
 		res = deleteUnessential(res); 
 		res = replaceAbrevations(res);
+		res = replaceBetInfos(res);
+		return res;
+	}
+	
+	private static String replaceBetInfos(String team){
+		String res = team;
+		res = res.replaceAll("-", "");
+		res = res.replaceAll("OVER", "");
+		res = res.replace("UNDER", "");
 		return res;
 	}
 	
