@@ -37,7 +37,7 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 100;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 100;
+	private static final int MAX_STAKE = 250;
 	
 	public void run(){
 		
@@ -153,12 +153,13 @@ public class BettingBot {
 		
 		// Loop over tips and available events
 		while (true) {		
+			System.out.println("Running");
 			// Get current funds
 			double funds = BettingApi.getUserCreditAsDouble(-1);
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 14000){
+			if(funds < 5000 && funds != -1){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -252,8 +253,6 @@ public class BettingBot {
 					/* The date when the event starts */
 					Date eventStartDate = new Date(event.getLiveState().getStartTime() * 1000);
 					long eventStartUnixTime = eventStartDate.getTime();
-					
-					tipStartUnixTime = eventStartUnixTime;
 					
 					/* Check if start Time matches 
 					 * 
