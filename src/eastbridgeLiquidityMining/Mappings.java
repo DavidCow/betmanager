@@ -3,6 +3,8 @@ package eastbridgeLiquidityMining;
 import java.util.HashMap;
 import java.util.Map;
 
+import bettingBot.LetterPairSimilarity;
+
 public class Mappings {
 	
 	public static final Map<String,String> league_to_country;
@@ -60,6 +62,65 @@ public class Mappings {
 		league_ranks.put("English Premier League", "1");
 		league_ranks.put("Japan J-league Division 1", "1");
 		league_ranks.put("Norway Tippeligaen", "1");
+		
+	}
+	
+	public static String extractCountryInfo(String s, double threshold){
+		String[] splits = s.split(" ");
+		if(LetterPairSimilarity.compareStrings(splits[0], "Albania") > threshold)
+			return "Albania";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Algeria") > threshold)
+			return "Algeria";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Argentina") > threshold)
+			return "Argentina";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Austria") > threshold)
+			return "Austria";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Australia") > threshold)
+			return "Australia";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Belgium") > threshold)
+			return "Belgium";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Brazil") > threshold)
+			return "Brazil";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Bulgaria") > threshold)
+			return "Bulgaria";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Canada") > threshold)
+			return "Canada";
+		if(LetterPairSimilarity.compareStrings(splits[0], "China") > threshold)
+			return "China";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Croatia") > threshold)
+			return "Croatia";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Czech") > threshold)
+			return "Czech Republic";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Denmark") > threshold)
+			return "Denmark";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Finland") > threshold)
+			return "Finland";
+		if(LetterPairSimilarity.compareStrings(splits[0], "France") > threshold)
+			return "France";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Germany") > threshold)
+			return "Germany";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Greece") > threshold)
+			return "Greece";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Hungary") > threshold)
+			return "Hungary";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Israel") > threshold)
+			return "Israel";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Iran") > threshold)
+			return "Iran";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Italy") > threshold)
+			return "Italy";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Japan") > threshold)
+			return "Japan";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Korea") > threshold)
+			return "Korea";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Finland") > threshold)
+			return "Finland";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Finland") > threshold)
+			return "Finland";
+		if(LetterPairSimilarity.compareStrings(splits[0], "Finland") > threshold)
+			return "Finland";
+		return "";
+		
 		
 	}
 

@@ -11,6 +11,7 @@ import java.util.List;
 
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
+import bettingBot.LetterPairSimilarity;
 import bettingBot.entities.BetTicket;
 
 import com.google.gson.Gson;
@@ -95,5 +96,6 @@ public class LiquidityAnalyser {
 		for(String s : analyser.leagues)
 			System.out.println(s);
 		System.out.println(analyser.leagues.size());
+		System.out.println(LetterPairSimilarity.compareStrings("Czech Republic", "Czech"));
 	}
 }

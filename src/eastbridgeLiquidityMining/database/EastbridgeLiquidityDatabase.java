@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public class EastbridgeLiquidityDatabase {
 	
-	private String dbName = "EastbridgeLiquidity";
+	private String dbName = "EastBridge2";
 	private static String userName = "postgres";
 	private static String password = "fischkopf";
 	private static String port = "5433";
