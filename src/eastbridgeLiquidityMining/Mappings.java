@@ -1,5 +1,10 @@
 package eastbridgeLiquidityMining;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,6 +14,35 @@ public class Mappings {
 	
 	public static final Map<String,String> league_to_country;
 	public static final Map<String,String> league_ranks;
+	public static final Map<String,Float> marktwert;
+	
+	static{
+		marktwert = new HashMap<String, Float>();
+		// Open the file
+		try {
+			FileInputStream fstream = new FileInputStream("marktwerte.txt");
+			BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
+			String strLine;
+
+			//Read File Line By Line
+			while ((strLine = br.readLine()) != null)   {
+				String[] splits = strLine.split("\\t");
+				String value = strLine.replaceAll("(.+)(\\t+)(\\d+\\.?)(\\t*)", "$3");;
+				marktwert.put(splits[0], Float.parseFloat(value));
+			}
+
+			//Close the input stream
+			br.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
 	
 	static{
 		league_to_country = new HashMap<String, String>();
@@ -63,6 +97,13 @@ public class Mappings {
 		league_ranks.put("Japan J-league Division 1", "1");
 		league_ranks.put("Norway Tippeligaen", "1");
 		
+	}
+	
+	public static float getMarktwert(String name){
+		if(!marktwert.containsKey(name))
+			return -1;
+		else
+			return marktwert.get(name);
 	}
 	
 	public static String extractCountryInfo(String s, double threshold){
