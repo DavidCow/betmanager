@@ -1,0 +1,116 @@
+Tottenham Hotspur		312.5	
+Liverpool			366.25		
+Swansea City			115.1		
+Aston Villa			105.25		
+Manchester City			501.75		
+Stoke City			136.25		
+Newcastle United		181.50		
+Sunderland			87.25
+West Ham United			172
+Norwich City			91.75
+Bournemouth			88.8
+Crystal Palace			125.75
+Watford				106.5
+Leicester City			127
+Southampton			206.75
+West Bromwich Albion		101
+Arsenal				440
+Chelsea				489.75
+Manchester United		414.75
+Everton				232.50
+Athletic Bilbao			141.5
+Barcelona			693
+Real Madrid			697.8
+Rayo Vallecano			44.1
+Rcd Espanyol			58
+Sd Eibar			51.6
+Malaga				59
+Levante Ud			50.4
+Getafe Cf			45.4	
+Deportivo La Coruna		58.7
+Las Palmas			30.2
+Sevilla				196.1
+Atletico De Madrid		363
+Villarreal Cf			139.4
+Granada Cf			60.7
+Valencia Cf			243
+Real Betis			52.8
+Real Sociedad			116.1
+Sporting Gijon			52.1
+Celta Vigo			83.1
+Darmstadt 98			24.4
+Fc Koln				62.65
+Augsburg			58.65
+Borussia Monchengladbach	166.65
+Eintracht Frankfurt		76.3
+Tsg 1899 Hoffenheim		84.63
+Bayer 04 Leverkusen		211.1
+Vfl Wolfsburg			183.1
+Hertha Berlin			69.9
+Ingolstadt 04			32.6
+Bayern Munchen			578.55
+Hannover 96			55.98
+Borussia Dortmund		315.65
+Hamburger Sv			59.4
+Fsv Mainz 05			67.63
+Werder Bremen			59.83
+Schalke 04			199.95
+Vfb Stuttgart			73.95
+Ac Milan			187.1
+Bologna				70.9					
+Juventus			397.3
+Palermo				47.4
+Inter Milan			248.3			
+Frosinone			31.8
+Genoa				86.35
+As Roma				264.3
+Chievo				36.65
+Carpi Fc 1909			36.3
+Napoli				303
+Sassuolo			88.1
+Udinese				77.6
+Sampdoria			98.8
+Empoli				65.48
+Lazio				175.9
+Fiorentina			164.6
+Verona				39.85
+Torino				83
+Atalanta			62.75
+Nantes				35
+Ogc Nice			61
+Angers				29
+Sm Caen				34
+Troyes				24
+Guingamp			33
+Stade Rennais			69
+Toulouse			41
+Lorient				49
+Gfc Ajaccio			17
+As Monaco			146
+Reims				42
+Montpellier			39
+Sc Bastia			23
+Lille Osc			64
+Olympique Lyonnais		149
+Olympique De Marseille		127
+As Saint Etienne		83
+Girondins De Bordeaux		79	
+Paris Saint Germain		415
+Genclerbirligi			31
+Kayserispor			38
+Antalyaspor			38
+Akhisar Belediyespor		30
+Mersin Idmanyurdu		19
+Eskisehirspor			24
+Fenerbahce			153
+Sivasspor			25
+Kasimpasa			49
+Galatasaray			102
+Besiktas			118
+Osmanlispor Fk			40
+Istanbul Basaksehir		50
+Konyaspor			29
+Bursaspor			55
+Gaziantepspor			29
+Caykur Rizespor			36
+Trabzonspor			80
