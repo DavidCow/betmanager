@@ -14,6 +14,10 @@ import mailParsing.BetAdvisorTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 import bettingBot.entities.Bet;
+import bettingBot.entities.ExtendedBetInformations;
+
+import com.google.gson.Gson;
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TestGenerator;
 
 public class BettingBotDatabase {
 
@@ -24,6 +28,8 @@ public class BettingBotDatabase {
 
 	private Connection       db;        // A connection to the database
 	private DatabaseMetaData dbmd;      // This is basically info the driver delivers about the DB it just connected to.
+	
+	private static Gson gson = new Gson();
 	
 	public BettingBotDatabase() throws ClassNotFoundException, SQLException{
 		
@@ -196,7 +202,59 @@ public class BettingBotDatabase {
 		return false;
 	}
 	
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	public List<ExtendedBetInformations> getBetsForTip(String event, String tipster, long date){
+		List<ExtendedBetInformations> result = new ArrayList<ExtendedBetInformations>();
+		String selectionString = "SELECT * FROM bets";	
+		try {
+			Statement stmt = db.createStatement();
+			ResultSet rS = null;
+			rS = stmt.executeQuery(selectionString);
+			while(rS.next()){
+				String tipJsonString = rS.getString("tipjsonstring");
+				BetAdvisorTip tip = gson.fromJson(tipJsonString, BetAdvisorTip.class);
+				if(tip.event.equals(event) && tip.tipster.equals(tipster) && tip.date.getTime() == date){
+					String id = rS.getString("id");
+					String reqId = rS.getString("reqid");
+					double betAmount = rS.getDouble("betamount");
+					double betOdd = rS.getDouble("betodd");
+					int betStatus = rS.getInt("betstatus");
+					String eventJsonString = rS.getString("eventJsonString");
+					String recordJsonString = rS.getString("recordjsonstring");
+					String betTicketJsonString = rS.getString("betticketjsonstring");
+					String selection = rS.getString("selection");
+					long timeOfBet = rS.getLong("timeofbet");
+					ExtendedBetInformations betInformations = new ExtendedBetInformations(id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, betTicketJsonString, selection, timeOfBet);
+					result.add(betInformations);
+				}
+			}
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+		return result;
+	}
+	
+	public void testGetBetsForTips(){
+		List<ExtendedBetInformations> result = new ArrayList<ExtendedBetInformations>();
+		String selectionString = "SELECT * FROM processed_tips";	
+		try {
+			Statement stmt = db.createStatement();
+			ResultSet rS = null;
+			rS = stmt.executeQuery(selectionString);	
+			
+			while(rS.next()){
+				String event = rS.getString("event");
+				String tipster = rS.getString("tipster");
+				long date = rS.getLong("date");
+				
+				List<ExtendedBetInformations> informations = getBetsForTip(event, tipster, date);
+				System.out.println();		
+			}			
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+	}
+	
+	public void testAddingTips() throws ClassNotFoundException, SQLException{
 		BettingBotDatabase dataBase = new BettingBotDatabase();
 		GMailReader reader = new GMailReader();
 		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
@@ -210,6 +268,11 @@ public class BettingBotDatabase {
 		}
 		for(int i = 0; i < betInformations.size(); i++){
 			dataBase.addProcessedTip(betInformations.get(i));
-		}
+		}		
+	}
+	
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		BettingBotDatabase database = new BettingBotDatabase();
+		database.testGetBetsForTips();
 	}
 }
