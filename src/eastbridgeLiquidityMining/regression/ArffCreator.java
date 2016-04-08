@@ -65,7 +65,8 @@ public class ArffCreator {
 	
 	public static String getCleanedNames(String name){
 		String s = name.replaceAll("- .*", "");
-		s = s.replaceAll(" \\d{2}:.*", "").trim();
+		s = s.replaceAll(" \\d{2}:.*", "");
+		s = s.replaceAll("\\(.*", "").trim();
 		return s;
 	}
 	
@@ -230,6 +231,15 @@ public class ArffCreator {
 				vals[14] = bt.getMaxStake();
 				data.add(new Instance(1.0, vals));
 				recordCounter++;
+				
+				if(bt.getMaxStake() < 100){
+					System.out.println(host);
+					System.out.println(guest);
+					System.out.println(league);
+					System.out.println(bt.getMaxStake());
+					System.out.println(r.getOddType().toString());
+					System.out.println("****************************************************************");
+				}
 			}
 		}
 		System.out.println(recordCounter);

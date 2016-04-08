@@ -88,7 +88,7 @@ public class LiquidityAnalyser {
 				Record record = (Record)gson.fromJson(recordJsonString, recordClass);
 				betTickets.add(betTicket);
 				records.add(record);
-				if(betTicket.getMaxStake() > 8000){
+				if(betTicket.getMaxStake() < 100){
 					System.out.println(event.getHost());
 					System.out.println(event.getGuest());
 					System.out.println(event.getLeague());
@@ -177,7 +177,7 @@ public class LiquidityAnalyser {
 	
 	public static void main(String[] args) throws JsonSyntaxException, SQLException {
 		LiquidityAnalyser analyser = new LiquidityAnalyser();
-		analyser.getTeamNames();;
+		analyser.iterateAllEvents();
 //		for(String s : analyser.leagues){
 //			System.out.println(s);
 //		}
