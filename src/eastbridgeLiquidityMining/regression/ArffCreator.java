@@ -66,6 +66,7 @@ public class ArffCreator {
 	public static String getCleanedNames(String name){
 		String s = name.replaceAll("- .*", "");
 		s = s.replaceAll(" \\d{2}:.*", "");
+		s = s.replaceAll("(.*)( Am)", "$1");
 		s = s.replaceAll("\\(.*", "").trim();
 		return s;
 	}
@@ -97,7 +98,7 @@ public class ArffCreator {
 		String[] splits = league.split(" ");
 		for(int i = 0; i < splits.length; i++){
 			String s = splits[i];
-			if(s.equalsIgnoreCase("Premier") || s.equalsIgnoreCase("A") || 
+			if(s.equalsIgnoreCase("Premier") || s.equalsIgnoreCase("A") || s.equalsIgnoreCase("Pro") || 
 					s.equalsIgnoreCase("1") || s.equalsIgnoreCase("1st") || 
 					s.equalsIgnoreCase("I") || s.equalsIgnoreCase("Primera") ||
 					s.equalsIgnoreCase("Super") || s.equalsIgnoreCase("Allsvenskan") ||
@@ -106,7 +107,7 @@ public class ArffCreator {
 			if(s.equalsIgnoreCase("2nd") || s.equalsIgnoreCase("B") || 
 					s.equalsIgnoreCase("2") || s.equalsIgnoreCase("Segunda"))
 				return 2;
-			if(s.equalsIgnoreCase("Uefa") || s.contains("World") || s.equalsIgnoreCase("Copa"))
+			if(s.equalsIgnoreCase("Uefa") || s.contains("World") || s.contains("Copa"))
 				return 0;
 			if(s.equalsIgnoreCase("3rd") || s.equalsIgnoreCase("C") || 
 					s.equalsIgnoreCase("3") || s.equalsIgnoreCase("Regional") ||
