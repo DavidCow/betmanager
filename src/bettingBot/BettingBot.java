@@ -154,7 +154,6 @@ public class BettingBot {
 		
 		// Loop over tips and available events
 		while (true) {		
-			System.out.println("Running");
 			// Get current funds
 			double funds = BettingApi.getUserCreditAsDouble(-1);
 			mainFrame.setFunds(funds);

@@ -9,22 +9,21 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gson.Gson;
+
+import bettingBot.entities.Bet;
+import bettingBot.entities.ExtendedBetInformations;
 import mailParsing.BetAdvisorEmailParser;
 import mailParsing.BetAdvisorTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
-import bettingBot.entities.Bet;
-import bettingBot.entities.ExtendedBetInformations;
-
-import com.google.gson.Gson;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.TestGenerator;
 
 public class BettingBotDatabase {
 
 	private String dbName = "BettingBot";
 	private static String userName = "postgres";
 	private static String password = "postgrespass";
-	private static String port = "5433";
+	private static String port = "5432";
 
 	private Connection       db;        // A connection to the database
 	private DatabaseMetaData dbmd;      // This is basically info the driver delivers about the DB it just connected to.
