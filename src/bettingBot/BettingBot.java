@@ -198,6 +198,7 @@ public class BettingBot {
 				if(tipStartUnixTime < System.currentTimeMillis())
 					continue;
 				
+				boolean secondBetForTip = false;
 				double betAmountForTip = 0;
 				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
 				if(dataBase.isTipInDatabase(tip.event, tip.tipster, tip.date.getTime())){
@@ -209,6 +210,7 @@ public class BettingBot {
 					if(betAmountForTip >= MAX_STAKE){
 						continue;
 					}
+					secondBetForTip = true;
 				}
 
 				// Some variables for logging
@@ -365,7 +367,8 @@ public class BettingBot {
 											if(bet.getBetStatus() == 1){
 												System.out.println(bestBetTicket);
 												try {
-													dataBase.addProcessedTip(tip);
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
 													String tipJsonString = gson.toJson(tip);
 													String eventJsonString = gson.toJson(event);
 													String recordJsonString = gson.toJson(bestRecord);
@@ -487,7 +490,8 @@ public class BettingBot {
 											if(bet.getBetStatus() == 1){
 												System.out.println(bestBetTicket);
 												try {
-													dataBase.addProcessedTip(tip);
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
 													String tipJsonString = gson.toJson(tip);
 													String eventJsonString = gson.toJson(event);
 													String recordJsonString = gson.toJson(bestRecord);
@@ -614,7 +618,8 @@ public class BettingBot {
 											if(bet.getBetStatus() == 1){
 												System.out.println(bestBetTicket);
 												try {
-													dataBase.addProcessedTip(tip);
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
 													String tipJsonString = gson.toJson(tip);
 													String eventJsonString = gson.toJson(event);
 													String recordJsonString = gson.toJson(bestRecord);
@@ -750,7 +755,8 @@ public class BettingBot {
 											if(bet.getBetStatus() == 1){
 												System.out.println(bestBetTicket);
 												try {
-													dataBase.addProcessedTip(tip);
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
 													String tipJsonString = gson.toJson(tip);
 													String eventJsonString = gson.toJson(event);
 													String recordJsonString = gson.toJson(bestRecord);
