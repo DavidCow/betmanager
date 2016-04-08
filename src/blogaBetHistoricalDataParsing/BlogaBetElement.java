@@ -5,18 +5,117 @@ import java.util.Date;
 public class BlogaBetElement {
 	
 	private Date gameDate;
+	private Date publicationDate;
 	private String sport;
 	private String competition;
+	private String event;
 	private String tipster;
 	private String selection;
 	private String typeOfBet;
 	private double bestOdds;
 	private String result;
+	private String host;
+	private String guest;
+	
+
+	
+	public BlogaBetElement(Date gameDate, Date publicationDate, String sport,
+			String competition, String event, String tipster, String selection,
+			String typeOfBet, double bestOdds, String result, String host,
+			String guest) {
+		super();
+		this.gameDate = gameDate;
+		this.publicationDate = publicationDate;
+		this.sport = sport;
+		this.competition = competition;
+		this.event = event;
+		this.tipster = tipster;
+		this.selection = selection;
+		this.typeOfBet = typeOfBet;
+		this.bestOdds = bestOdds;
+		this.result = result;
+		this.host = host;
+		this.guest = guest;
+	}
+	
+	
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "BlogaBetElement [gameDate=" + gameDate + ", publicationDate="
+				+ publicationDate + ", sport=" + sport + ", competition="
+				+ competition + ", event=" + event + ", tipster=" + tipster
+				+ ", selection=" + selection + ", typeOfBet=" + typeOfBet
+				+ ", bestOdds=" + bestOdds + ", result=" + result + ", host="
+				+ host + ", guest=" + guest + "]";
+	}
+	
+	
+
+
+	/**
+	 * @return the host
+	 */
+	public String getHost() {
+		return host;
+	}
+
+
+	/**
+	 * @param host the host to set
+	 */
+	public void setHost(String host) {
+		this.host = host;
+	}
+
+
+	/**
+	 * @return the guest
+	 */
+	public String getGuest() {
+		return guest;
+	}
+
+
+	/**
+	 * @param guest the guest to set
+	 */
+	public void setGuest(String guest) {
+		this.guest = guest;
+	}
+
+
+	/**
+	 * @return the event
+	 */
+	public String getEvent() {
+		return event;
+	}
+	/**
+	 * @param event the event to set
+	 */
+	public void setEvent(String event) {
+		this.event = event;
+	}
 	/**
 	 * @return the sport
 	 */
 	public String getSport() {
 		return sport;
+	}
+	/**
+	 * @return the publicationDate
+	 */
+	public Date getPublicationDate() {
+		return publicationDate;
+	}	
+	/**
+	 * @param publicationDate the publicationDate to set
+	 */
+	public void setPublicationDate(Date publicationDate) {
+		this.publicationDate = publicationDate;
 	}
 	/**
 	 * @param sport the sport to set
@@ -95,30 +194,6 @@ public class BlogaBetElement {
 	 */
 	public void setBestOdds(double bestOdds) {
 		this.bestOdds = bestOdds;
-	}
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		return "BlogaBetElement [gameDate=" + gameDate + ", competition="
-				+ competition + ", tipster=" + tipster + ", selection="
-				+ selection + ", typeOfBet=" + typeOfBet + ", bestOdds="
-				+ bestOdds + ", result=" + result + "]";
-	}
-	
-	public BlogaBetElement(Date gameDate, String sport, String competition,
-			String tipster, String selection, String typeOfBet,
-			double bestOdds, String result) {
-		super();
-		this.gameDate = gameDate;
-		this.sport = sport;
-		this.competition = competition;
-		this.tipster = tipster;
-		this.selection = selection;
-		this.typeOfBet = typeOfBet;
-		this.bestOdds = bestOdds;
-		this.result = result;
 	}
 	
 	/**
