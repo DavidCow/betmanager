@@ -16,13 +16,18 @@ public class BlogaBetElement {
 	private String result;
 	private String host;
 	private String guest;
+	private double pivotValue;
+	private String tipTeam;
 	
 
 	
+	
+
+
 	public BlogaBetElement(Date gameDate, Date publicationDate, String sport,
 			String competition, String event, String tipster, String selection,
 			String typeOfBet, double bestOdds, String result, String host,
-			String guest) {
+			String guest, double pivotValue, String tipTeam) {
 		super();
 		this.gameDate = gameDate;
 		this.publicationDate = publicationDate;
@@ -36,9 +41,12 @@ public class BlogaBetElement {
 		this.result = result;
 		this.host = host;
 		this.guest = guest;
+		this.pivotValue = pivotValue;
+		this.tipTeam = tipTeam;
 	}
+
 	
-	
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
@@ -49,11 +57,37 @@ public class BlogaBetElement {
 				+ competition + ", event=" + event + ", tipster=" + tipster
 				+ ", selection=" + selection + ", typeOfBet=" + typeOfBet
 				+ ", bestOdds=" + bestOdds + ", result=" + result + ", host="
-				+ host + ", guest=" + guest + "]";
+				+ host + ", guest=" + guest + ", pivotValue=" + pivotValue
+				+ ", tipTeam=" + tipTeam + "]";
 	}
 	
-	
+	/**
+	 * @return the tipTeam
+	 */
+	public String getTipTeam() {
+		return tipTeam;
+	}
 
+	/**
+	 * @param tipTeam the tipTeam to set
+	 */
+	public void setTipTeam(String tipTeam) {
+		this.tipTeam = tipTeam;
+	}
+
+	/**
+	 * @return the pivotValue
+	 */
+	public double getPivotValue() {
+		return pivotValue;
+	}
+
+	/**
+	 * @param pivotValue the pivotValue to set
+	 */
+	public void setPivotValue(double pivotValue) {
+		this.pivotValue = pivotValue;
+	}
 
 	/**
 	 * @return the host
@@ -62,14 +96,12 @@ public class BlogaBetElement {
 		return host;
 	}
 
-
 	/**
 	 * @param host the host to set
 	 */
 	public void setHost(String host) {
 		this.host = host;
 	}
-
 
 	/**
 	 * @return the guest
@@ -78,14 +110,12 @@ public class BlogaBetElement {
 		return guest;
 	}
 
-
 	/**
 	 * @param guest the guest to set
 	 */
 	public void setGuest(String guest) {
 		this.guest = guest;
 	}
-
 
 	/**
 	 * @return the event

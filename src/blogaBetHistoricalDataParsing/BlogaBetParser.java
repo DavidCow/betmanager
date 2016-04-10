@@ -1,6 +1,9 @@
 package blogaBetHistoricalDataParsing;
 
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -16,6 +19,8 @@ import java.util.TimeZone;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+
+import bettingBot.TeamMapping;
 
 
 public class BlogaBetParser {
@@ -67,8 +72,6 @@ public class BlogaBetParser {
 		            		String tipster = tokens[13];
 		            		// selection
 		            		String selection = tokens[7];
-		            		// type of bet
-		            		String typeOfBet = "TYPE OF BET";
 		            		// bestOdds
 		            		double bestOdds = Double.parseDouble(tokens[10]);
 		            		// result
@@ -77,8 +80,13 @@ public class BlogaBetParser {
 		            		// Create element
 		            		String host = parseHostFromEvent(event);
 		            		String guest = parseGuestFromEvent(event);
-		            		
-		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest);
+		            		// type of bet
+		            		String typeOfBet = parsetypeOfBetFromPick(selection, host, guest);
+		            		// pivot value
+		            		double pivotvalue = parsePivotValue(selection, typeOfBet, host, guest);
+		            		// tip
+		            		String tipTeam = parseTipTeam(selection, typeOfBet, host, guest);
+		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest, pivotvalue, tipTeam);
 		            		res.add(element);
            		
 		            	}catch(Exception e){
@@ -92,6 +100,314 @@ public class BlogaBetParser {
 		    }
 		});		
 		Collections.sort(res, new BlogaBetComparator());
+		return res;
+	}
+	
+	public static String parsetypeOfBetFromPick(String pick, String host, String guest){
+		String res = "UNKNOWN";
+		String upperPick = pick.toUpperCase();
+		String upperHost = host.toUpperCase();
+		String upperGuest = guest.toUpperCase();
+		
+		if(upperPick.contains("(AH)")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains("ASIAN HANDICAP")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains(" AH)")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains("HANDICAP")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains("HOME +") || upperPick.contains("HOME -") || upperPick.contains("HOME 0")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains("AWAY +") || upperPick.contains("AWAY -") || upperPick.contains("AWAY 0")){
+			res = "Asian Handicap";
+		}
+		else if(upperPick.contains("O/U")){
+			if(upperPick.contains("CORNER")){
+				res = "Over Under Corner";		
+			}
+			else if(upperPick.contains("BOOKINGS")){
+				res = "Over Under Bookings";	
+			}
+			else if(upperPick.contains("HOME") || upperPick.contains("AWAY") || upperPick.contains(upperHost) || upperPick.contains(upperGuest)){
+				res = "Over Under Team";		
+			}
+			else{
+				res = "Over Under";			
+			}
+		}
+		else if(upperPick.contains("OVER ")){
+			if(upperPick.contains("CORNER")){
+				res = "Over Under Corner";		
+			}
+			else if(upperPick.contains("BOOKINGS")){
+				res = "Over Under Bookings";	
+			}
+			else if(upperPick.contains("HOME") || upperPick.contains("AWAY") || upperPick.contains(upperHost) || upperPick.contains(upperGuest)){
+				res = "Over Under Team";		
+			}
+			else{
+				res = "Over Under";			
+			}	
+		}
+		else if(upperPick.contains("OVER(?!TIME)")){
+			if(upperPick.contains("CORNER")){
+				res = "Over Under Corner";		
+			}
+			else if(upperPick.contains("BOOKINGS")){
+				res = "Over Under Bookings";	
+			}
+			else if(upperPick.contains("HOME") || upperPick.contains("AWAY") || upperPick.contains(upperHost) || upperPick.contains(upperGuest)){
+				res = "Over Under Team";		
+			}
+			else{
+				res = "Over Under";			
+			}
+		}
+		else if(upperPick.contains("UNDER")){
+			if(upperPick.contains("CORNER")){
+				res = "Over Under Corner";		
+			}
+			else if(upperPick.contains("BOOKINGS")){
+				res = "Over Under Bookings";	
+			}
+			else if(upperPick.contains("HOME") || upperPick.contains("AWAY") || upperPick.contains(upperHost) || upperPick.contains(upperGuest)){
+				res = "Over Under Team";		
+			}
+			else{
+				res = "Over Under";			
+			}
+		}
+		else if(upperPick.contains("1X2")){
+			res = "Match Odds";
+		}
+		else if(upperPick.equalsIgnoreCase("DRAW")){
+			res = "Match Odds";
+		}
+		else if(upperPick.equalsIgnoreCase("HOME") || upperPick.equalsIgnoreCase("AWAY")){
+			res = "Match Odds";
+		}
+		else if(upperPick.equalsIgnoreCase("HOME (MATCH)") || upperPick.equalsIgnoreCase("AWAY (MATCH)") || upperPick.equalsIgnoreCase("DRAW (MATCH)")){
+			res = "Match Odds";
+		}
+		else if(upperPick.indexOf("FT HOME") == 0 || upperPick.indexOf("FT AWAY") == 0 || upperPick.indexOf("FT DRAW") == 0){
+			res = "Match Odds";
+		}
+		else if(TeamMapping.teamsMatch(upperPick, upperHost) || TeamMapping.teamsMatch(upperPick, upperGuest)){
+			if(upperPick.contains("(-") || upperPick.contains("(+")){
+				res = "Asian Handicap";
+			}
+			else{
+				res = "Match Odds";		
+			}
+		}
+		else{
+			res = "INVALID";
+		}
+		
+		// halftime
+		if(upperPick.indexOf("HT ") == 0){
+			res += " Half Time";
+		}
+		if(upperPick.contains("HALF TIME")){
+			res += " Half Time";
+		}
+		if(upperPick.contains("HALF)")){
+			res += " Half Time";
+		}
+		if(upperPick.contains("FIRST HALF")){
+			res += " Half Time";
+		}
+		if(upperPick.contains("HALFTIME")){
+			res += " Half Time";
+		}
+	
+		return res;
+	}
+	
+	public static double parsePivotValue(String selection, String typeOfBet, String host, String guest){
+		String upperSelection = selection.toUpperCase();
+		String upperHost = host.toUpperCase();
+		String upperGuest = guest.toUpperCase();
+		double pivotValue = -10;
+		
+		if(typeOfBet.indexOf("Match Odds") == 0){
+			return 0;
+		}
+		if(typeOfBet.indexOf("Over Under") == 0){
+			try{
+				int startIndex = upperSelection.indexOf("OVER ");
+				int overUnderIndex = upperSelection.indexOf("OVER UNDER");
+				if(startIndex != -1 && startIndex != overUnderIndex){
+					startIndex += 5;
+					int endIndex = upperSelection.indexOf(" ", startIndex);
+					if(endIndex != -1){
+						String pivotValueString = upperSelection.substring(startIndex, endIndex);
+						pivotValue = Double.parseDouble(pivotValueString);
+					}
+					else{
+						String pivotValueString = upperSelection.substring(startIndex);
+						pivotValue = Double.parseDouble(pivotValueString);	
+					}
+				}
+				else{
+					startIndex = upperSelection.indexOf("UNDER ");
+					if(startIndex != -1){
+						startIndex += 6;
+						int endIndex = upperSelection.indexOf(" ", startIndex);
+						if(endIndex != -1){
+							String pivotValueString = upperSelection.substring(startIndex, endIndex);
+							pivotValue = Double.parseDouble(pivotValueString);
+						}
+						else{
+							String pivotValueString = upperSelection.substring(startIndex);
+							pivotValue = Double.parseDouble(pivotValueString);	
+						}
+					}	
+				}
+			}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+		if(typeOfBet.indexOf("Asian Handicap") == 0){
+			if(upperSelection.contains(" 0 ")){
+				pivotValue = 0;
+			}
+			else{
+				int startIndex = upperSelection.indexOf("+");
+				if(startIndex != -1){
+					startIndex += 1;
+					int endIndex = upperSelection.indexOf(" ", startIndex);
+					if(endIndex != -1){
+						String pivotValueString = upperSelection.substring(startIndex, endIndex);
+						pivotValue = Double.parseDouble(pivotValueString);
+						return pivotValue;
+					}
+					else{
+						endIndex = upperSelection.indexOf(")", startIndex);
+						if(endIndex != -1){
+							String pivotValueString = upperSelection.substring(startIndex, endIndex);
+							pivotValue = Double.parseDouble(pivotValueString);
+							return pivotValue;
+						}	
+					}
+				}
+				else{
+					startIndex = upperSelection.indexOf("-");
+					if(startIndex != -1){
+						startIndex += 1;
+						int endIndex = upperSelection.indexOf(" ", startIndex);
+						if(endIndex != -1){
+							String pivotValueString = upperSelection.substring(startIndex, endIndex);
+							pivotValue = Double.parseDouble(pivotValueString);
+							return pivotValue;
+						}
+						else{
+							endIndex = upperSelection.indexOf(")", startIndex);
+							if(endIndex != -1){
+								String pivotValueString = upperSelection.substring(startIndex, endIndex);
+								pivotValue = Double.parseDouble(pivotValueString);
+								return pivotValue;
+							}	
+						}
+					}					
+				}
+			}			
+		}
+	
+		if(pivotValue > 10){
+			pivotValue = -10;
+		}
+		return pivotValue;
+	}
+	
+	public static String parseTipTeam(String selection, String typeOfBet, String host, String guest){
+		String res = "INVALID";
+		String upperSelection = selection.toUpperCase();
+		String upperHost = host.toUpperCase();
+		String upperGuest = guest.toUpperCase();
+		
+		if(typeOfBet.equals("Match Odds")){
+			if(upperSelection.indexOf("DRAW") != -1){
+				res = "Draw";
+			}
+			if(upperSelection.indexOf(" X ") != -1){
+				res = "Draw";
+			}
+			else if(upperSelection.indexOf("HOME") != -1){
+				res = host;
+			}
+			else if(upperSelection.indexOf("GUEST") != -1){
+				res = guest;
+			}
+			else if(upperSelection.indexOf("AWAY") != -1){
+				res = guest;
+			}
+			else if(upperSelection.indexOf(upperHost) != -1){
+				res = host;
+			}
+			else if(upperSelection.indexOf(upperGuest) != -1){
+				res = guest;
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperHost)){
+				res = host;
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperGuest)){
+				res = guest;
+			}
+		}
+		if(typeOfBet.equals("Over Under")){
+			upperSelection = upperSelection.replaceAll("OVERTIME", "");
+			upperSelection = upperSelection.replaceAll("OVER/UNDER", "");
+			upperSelection = upperSelection.replaceAll("OVER UNDER", "");
+			int overIndex = upperSelection.indexOf("OVER");
+			int underIndex = upperSelection.indexOf("UNDER");
+			
+			if(overIndex != -1 && underIndex == -1)
+				res = "Over";
+			else if(overIndex == -1 && underIndex != -1)
+				res = "Under";		
+		}
+		if(typeOfBet.equals("Asian Handicap")){
+			if(upperSelection.indexOf("HOME") != -1){
+				res = host;
+			}
+			else if(upperSelection.indexOf("GUEST") != -1){
+				res = guest;
+			}
+			else if(upperSelection.indexOf("AWAY") != -1){
+				res = guest;
+			}
+			else if(upperSelection.indexOf(" 1") != -1){
+				res = host;
+			}
+			else if(upperSelection.indexOf(" 2") != -1){
+				res = guest;
+			}
+			else if(upperSelection.indexOf(upperHost) != -1){
+				res = host;
+			}
+			else if(upperSelection.indexOf(upperGuest) != -1){
+				res = guest;
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperHost)){
+				res = host;
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperGuest)){
+				res = guest;
+			}
+		}
+		if(typeOfBet.equals("Asian Handicap")){
+			if(res.equals("INVALID")){
+				System.out.println();
+			}
+		}
 		return res;
 	}
 	
@@ -111,6 +427,63 @@ public class BlogaBetParser {
 		BlogaBetParser parser = new BlogaBetParser();
 		List<BlogaBetElement> l = parser.parseSheets("blogaBetTipsterData/csv");
 		Collections.sort(l, new BlogaBetComparator());
+		int numberOfValid = 0;
+		int numberOfInvalid = 0;
+		int numberOfAsianHandicap = 0;
+		int numberOfMatchOdds = 0;
+		int numberOfOverUnder = 0;
+		int numberOfOverUnderTeam = 0;
+		int numberOfOverUnderCorner = 0;
+		int numberOfOverUnderBookings = 0;
+		int numberOfIncorrectPivotValues = 0;
+		for(int i = 0; i < l.size(); i++){
+			BlogaBetElement e = l.get(i);
+			if(e.getTypeOfBet().equals("INVALID")){
+				numberOfInvalid++;
+			}
+			else{
+				numberOfValid++;
+			}
+			if(e.getTypeOfBet().equals("Over Under")){
+				numberOfAsianHandicap++;
+				if(e.getPivotValue() == -10){
+					numberOfIncorrectPivotValues++;
+				}
+			}
+			if(e.getTypeOfBet().equals("Match Odds")){
+				numberOfMatchOdds++;
+			}
+			if(e.getTypeOfBet().equals("Over Under")){
+				numberOfOverUnder++;
+			}
+			if(e.getTypeOfBet().equals("Over Under Team")){
+				numberOfOverUnderTeam++;
+			}
+			if(e.getTypeOfBet().equals("Over Under Corner")){
+				numberOfOverUnderCorner++;
+			}
+			if(e.getTypeOfBet().equals("Over Under Bookings")){
+				numberOfOverUnderBookings++;
+			}
+		}
+		System.out.println("Valid: " + numberOfValid);
+		System.out.println("INVALID: " + numberOfInvalid);
+		System.out.println("Asian Handicap: " + numberOfAsianHandicap);
+		System.out.println("Match Odds: " + numberOfMatchOdds);
+		System.out.println("Over Under: " + numberOfOverUnder);
+		System.out.println("Over Under Team: " + numberOfOverUnderTeam);
+		System.out.println("Over Under Corner: " + numberOfOverUnderCorner);
+		System.out.println("Over Under Bookings: " + numberOfOverUnderBookings);
+		System.out.println("numberOfIncorrectPivotValues: " + numberOfIncorrectPivotValues);
+		
+		File f = new File("blogaBetParsing.txt");
+		BufferedWriter writer = new BufferedWriter(new FileWriter(f));
+		for(int i = 0; i < l.size(); i++){
+			BlogaBetElement e = l.get(i);
+			if(!e.getTypeOfBet().contains(" Half Time")){
+				writer.write(e.getSelection() + "\n");
+			}
+		}
 		int b = 12;
 	}
 }

@@ -39,8 +39,8 @@ public class BlogaBetBacktest {
 
 	public void runBacktest() throws IOException{
 		
-		bestOddsFactor = 1;
-		double oddsratio = 0;
+		double bestOddsFactor = 1;
+		double oddsRatio = 0;
 		
 		
 		BlogaBetParser parser = new BlogaBetParser();
@@ -120,6 +120,10 @@ public class BlogaBetBacktest {
 			if(!tipp.getTypeOfBet().equals("Match Odds") && !tipp.getTypeOfBet().equals("Over Under") && !tipp.getTypeOfBet().equals("Asian Handicap")){
 				continue;
 			}
+			double pivot = tipp.getPivotValue();
+			if(pivot == -10){
+				continue;
+			}
 			checkedTipps++;
 			double suggestedOdds = tipp.getBestOdds();
 			
@@ -174,6 +178,7 @@ public class BlogaBetBacktest {
 						startJ = j;
 					}
 					if(TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest)){
+						availableBets.add(historicalDataElement);
 						
 						if(tipp.getTypeOfBet().equals("Match Odds")){
 							if(tippTeam.equalsIgnoreCase("Draw")){
@@ -184,12 +189,10 @@ public class BlogaBetBacktest {
 							}
 							else if(tippTeam.equalsIgnoreCase(blogaBetGuest) || TeamMapping.teamsMatch(tippTeam, blogaBetGuest)){
 								tippIndex = 1;
-							}		
+							}	
 						}
 						if(tipp.getTypeOfBet().equals("Over Under")){
-							int totalStart = tipp.getSelection().lastIndexOf("+") + 1;
-							String totalString = tipp.getSelection().substring(totalStart);
-							double total = Double.parseDouble(totalString);
+							double total = tipp.getPivotValue();
 							List<TotalElement> l = historicalDataElement.getTotalList();
 							if(!l.isEmpty()){
 								boolean totalOk = false;
@@ -200,7 +203,6 @@ public class BlogaBetBacktest {
 									}
 								}
 								if(totalOk){
-									availableBets.add(historicalDataElement);
 									if(tippTeam.indexOf("Over") == 0){
 										tippIndex = 0;
 									}
@@ -211,9 +213,7 @@ public class BlogaBetBacktest {
 							}
 						}
 						if(tipp.getTypeOfBet().equals("Asian Handicap")){
-							double pivot = tipp.getPivotValue();
-							if(pivot == -10)
-								continue;
+							pivot = tipp.getPivotValue();
 							List<HdpElement> l = historicalDataElement.getHdpList();
 							if(!l.isEmpty()){
 								boolean pivotOk = false;
@@ -242,6 +242,12 @@ public class BlogaBetBacktest {
 			double bestOdds = 0;
 			
 			for(int j = 0; j < availableBets.size(); j++){
+				if(j == 0){
+					numberOfMatches++;
+				}
+				if(tippIndex == -1 && tipp.getTypeOfBet().equals("Match Odds")){
+					System.out.println();
+				}
 				HistoricalDataElement historicalElement = availableBets.get(j);
 				
 				// ONE_TWO
@@ -278,9 +284,7 @@ public class BlogaBetBacktest {
 					for(int oddIndex = 0; oddIndex < totalOdds.size(); oddIndex++){
 						TotalElement totalElement = totalOdds.get(oddIndex);
 						
-						int totalStart = tipp.getSelection().lastIndexOf("+") + 1;
-						String totalString = tipp.getSelection().substring(totalStart);
-						double total = Double.parseDouble(totalString);
+						double total = tipp.getPivotValue();
 						
 						if(totalElement.getTotal() == total){
 							Date oddsDate = new Date(totalElement.getTime());
@@ -301,32 +305,23 @@ public class BlogaBetBacktest {
 				}
 				
 				// Asian handicap
-				if(tipp.getTypeOfBet().equals("Asian handicap")){
+				if(tipp.getTypeOfBet().equals("Asian Handicap")){
 					List<HdpElement> hdpOdds = historicalElement.getHdpList();
 
 					double odds = 0;
 					for(int oddIndex = 0; oddIndex < hdpOdds.size(); oddIndex++){
 						HdpElement totalElement = hdpOdds.get(oddIndex);
+						pivot = tipp.getPivotValue();
 						
-						int pivotStart = tipp.getSelection().lastIndexOf("-") + 1;
-						if(pivotStart != 0){
-							try{
-								String pivotString = tipp.getSelection().substring(pivotStart);
-								double pivot = Double.parseDouble(pivotString);
-								
-								if(totalElement.getPivot() == pivot){
-									Date oddsDate = new Date(totalElement.getTime());
-									if(oddsDate.before(tippPublishedDate)){
-										if(tippIndex == 0){
-											odds = 1 + totalElement.getHost();
-										}
-										else if(tippIndex == 1){
-											odds = 1 + totalElement.getGuest();
-										}
-									}
-								}		
-							}catch(Exception e){
-								
+						if(totalElement.getPivot() == pivot){
+							Date oddsDate = new Date(totalElement.getTime());
+							if(oddsDate.before(tippPublishedDate)){
+								if(tippIndex == 0){
+									odds = 1 + totalElement.getHost();
+								}
+								else if(tippIndex == 1){
+									odds = 1 + totalElement.getGuest();
+								}
 							}
 						}
 					}	
@@ -342,293 +337,44 @@ public class BlogaBetBacktest {
 					bestOdds = tipp.getBestOdds();
 				
 				bestOdds *= bestOddsFactor;
-				oddsRatio += bestOdds / tipp.getOdds();
+				oddsRatio += bestOdds / tipp.getBestOdds();
 				if(tipp.getTypeOfBet().equals("Match Odds")){
-					// Check "lay" movement
-					double firstLay = 0;
-					double lastLay = 0;
-					List<OneTwoElement> oneTwoOdds = bestSource.getOneTwoList();
-					for(int oddIndex = 0; oddIndex < oneTwoOdds.size(); oddIndex++){
-						OneTwoElement oneTwoElement = oneTwoOdds.get(oddIndex);
-						Date oddsDate = new Date(oneTwoElement.getTime());
-
-						if(oddsDate.before(tippPublishedDate)){
-							if(tippIndex == 0){
-								firstLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getTwo());
-								lastLay = firstLay;
-							}
-							else if(tippIndex == 1){
-								firstLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getOne());
-								lastLay = firstLay;
-							}
-							else if(tippIndex == 2){
-								firstLay = 0.5 * (oneTwoElement.getOne() + oneTwoElement.getTwo());
-								lastLay = firstLay;
-							}
-						}
-						else{
-							if(oddIndex != 0 && oddIndex == oneTwoOdds.size() -1){
-								if(tippIndex == 0){
-									lastLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getTwo());
-								}
-								else if(tippIndex == 1){
-									lastLay = 0.5 * (oneTwoElement.getDraw() + oneTwoElement.getOne());
-								}
-								else if(tippIndex == 2){
-									lastLay = 0.5 * (oneTwoElement.getOne() + oneTwoElement.getTwo());
-								}						
-							}
-						}
-					}
-					double layMovement = lastLay / firstLay;
-					averageLayMovement += layMovement;
-					numberOfLays++;
-					
-					if(layMovement > 1){
-						numberOfTakenLays++;
-						takenLayMovement += layMovement;
-					}
-					
-					if(layMovement > layThreshold){
-						numberOfTakenLaysThreshold++;
-						takenLayMovementThreshold += layMovement;
-					}
-					if(bestOdds > 10){
-						System.out.println();
-					}
 					double take = 100;
-					numberOfAllBets++;
-					numberOfAllBetsMatchOdds++;
-					if(tipp.getProfit() < 0){
-						evAllPossibleBetsTaken -= take;
-						evAllPossibleBetsTakenMatchOdds -= take;
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
 						betEvs.add(-take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * lastLay - take;
-							hedgedEvs.add(lEv);
-							evLayed += take * lastLay - take;
-							evLayed -= take;
-						}
+						profit -= take;
 					}
-					else{
-						evAllPossibleBetsTaken += take * bestOdds - take;
-						evAllPossibleBetsTakenMatchOdds  += take * bestOdds - take;
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
 						betEvs.add(take * bestOdds - take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * bestOdds - take;
-							hedgedEvs.add(lEv);
-							evLayed -= take;
-							evLayed += take * bestOdds - take;
-						}
-					}
-					
-					if(bestOdds >= suggestedOdds){
-						numberOfGoodBets++;
-						if(tipp.getProfit() < 0){
-							evOnlyGoodOddsTaken -= take;
-						}
-						else{
-							evOnlyGoodOddsTaken += take * bestOdds - take;
-						}
-					}
-					if(bestOdds >= suggestedOdds * threshold){
-						numberOfThresholdBets++;
-						if(tipp.getProfit() < 0){
-							evThresholdOddsTaken -= take;
-						}
-						else{
-							evThresholdOddsTaken += take * bestOdds - take;
-						}					
+						profit += take * bestOdds - take;					
 					}
 					if(bestOdds < suggestedOdds){
 						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
 					}		
 				}
-				if(tipp.getTypeOfBet().equals("Over / Under")){	
-					// Check "lay" movement
-					double firstLay = 0;
-					double lastLay = 0;
-					List<TotalElement> totalOdds = bestSource.getTotalList();
-					for(int oddIndex = 0; oddIndex < totalOdds.size(); oddIndex++){
-						TotalElement totalElement = totalOdds.get(oddIndex);
-						Date oddsDate = new Date(totalElement.getTime());
-
-						if(oddsDate.before(tippPublishedDate)){
-							if(tippIndex == 0){
-								firstLay = 1 + totalElement.getUnder();
-								lastLay = firstLay;
-							}
-							else if(tippIndex == 1){
-								firstLay = 1 + totalElement.getOver();
-								lastLay = firstLay;
-							}
-						}
-						else{
-							if(oddIndex != 0 && oddIndex == totalOdds.size() -1){
-								if(tippIndex == 0){
-									lastLay = 1 + totalElement.getUnder();
-								}
-								else if(tippIndex == 1){
-									lastLay = 1 + totalElement.getOver();
-								}							
-							}
-						}
-					}
-					double layMovement = lastLay / firstLay;
-					averageLayMovement += layMovement;
-					numberOfLays++;
-					
-					if(layMovement > 1){
-						numberOfTakenLays++;
-						takenLayMovement += layMovement;
-					}
-					
-					if(layMovement > layThreshold){
-						numberOfTakenLaysThreshold++;
-						takenLayMovementThreshold += layMovement;
-					}
-					
+				if(tipp.getTypeOfBet().equals("Over Under")){	
 					double take = 100;
-					numberOfAllBets++;
-					numberOfAllBetsOverUnder++;
-					if(tipp.getProfit() < 0){
-						evAllPossibleBetsTaken -= take;
-						evAllPossibleBetsTakenOverUnder -= take;
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
 						betEvs.add(-take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * lastLay - take;
-							hedgedEvs.add(lEv);
-							evLayed += take * lastLay - take;
-							evLayed -= take;
-						}
+						profit -= take;
 					}
-					else{
-						evAllPossibleBetsTaken += take * bestOdds - take;
-						evAllPossibleBetsTakenOverUnder  += take * bestOdds - take;
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
 						betEvs.add(take * bestOdds - take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * bestOdds - take;
-							hedgedEvs.add(lEv);
-							evLayed -= take;
-							evLayed += take * bestOdds - take;
-						}
-					}
-					
-					if(bestOdds >= suggestedOdds){
-						numberOfGoodBets++;
-						if(tipp.getProfit() < 0){
-							evOnlyGoodOddsTaken -= take;
-						}
-						else{
-							evOnlyGoodOddsTaken += take * bestOdds - take;
-						}
-					}
-					if(bestOdds >= suggestedOdds * threshold){
-						numberOfThresholdBets++;
-						if(tipp.getProfit() < 0){
-							evThresholdOddsTaken -= take;
-						}
-						else{
-							evThresholdOddsTaken += take * bestOdds - take;
-						}					
+						profit += take * bestOdds - take;					
 					}
 					if(bestOdds < suggestedOdds){
 						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
 					}						
 				}
-				if(tipp.getTypeOfBet().equals("Asian handicap")){
-					// Check "lay" movement
-					double firstLay = 0;
-					double lastLay = 0;
-					List<HdpElement> hdpOdds = bestSource.getHdpList();
-					for(int oddIndex = 0; oddIndex < hdpOdds.size(); oddIndex++){
-						HdpElement hdpElement = hdpOdds.get(oddIndex);
-						Date oddsDate = new Date(hdpElement.getTime());
-
-						if(oddsDate.before(tippPublishedDate)){
-							if(tippIndex == 0){
-								firstLay = 1 + hdpElement.getGuest();
-								lastLay = firstLay;
-							}
-							else if(tippIndex == 1){
-								firstLay = 1 + hdpElement.getHost();
-								lastLay = firstLay;
-							}
-						}
-						else{
-							if(oddIndex != 0 && oddIndex == hdpOdds.size() -1){
-								if(tippIndex == 0){
-									lastLay = 1 + hdpElement.getGuest();
-								}
-								else if(tippIndex == 1){
-									lastLay = 1 + hdpElement.getHost();
-								}							
-							}
-						}
-					}
-					double layMovement = lastLay / firstLay;
-					averageLayMovement += layMovement;
-					numberOfLays++;
-					
-					if(layMovement > 1){
-						numberOfTakenLays++;
-						takenLayMovement += layMovement;
-					}
-					
-					if(layMovement > layThreshold){
-						numberOfTakenLaysThreshold++;
-						takenLayMovementThreshold += layMovement;
-					}
-					
+				if(tipp.getTypeOfBet().equals("Asian Handicap")){
 					double take = 100;
-					numberOfAllBets++;
-					numberOfAllBetsHdp++;
-					if(tipp.getProfit() < 0){
-						evAllPossibleBetsTaken -= take;
-						evAllPossibleBetsTakenHdp -= take;
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
 						betEvs.add(-take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * lastLay - take;
-							hedgedEvs.add(lEv);
-							evLayed += take * lastLay - take;
-							evLayed -= take;
-						}
+						profit -= take;
 					}
-					else{
-						evAllPossibleBetsTaken += take * bestOdds - take;
-						evAllPossibleBetsTakenHdp  += take * bestOdds - take;
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
 						betEvs.add(take * bestOdds - take);
-						if(layMovement > layThreshold){
-							double lEv = -take;
-							lEv += take * bestOdds - take;
-							hedgedEvs.add(lEv);
-							evLayed += take * bestOdds - take;
-							evLayed -= take;
-						}
-					}
-					
-					if(bestOdds >= suggestedOdds){
-						numberOfGoodBets++;
-						if(tipp.getProfit() < 0){
-							evOnlyGoodOddsTaken -= take;
-						}
-						else{
-							evOnlyGoodOddsTaken += take * bestOdds - take;
-						}
-					}
-					if(bestOdds >= suggestedOdds * threshold){
-						numberOfThresholdBets++;
-						if(tipp.getProfit() < 0){
-							evThresholdOddsTaken -= take;
-						}
-						else{
-							evThresholdOddsTaken += take * bestOdds - take;
-						}					
+						profit += take * bestOdds - take;					
 					}
 					if(bestOdds < suggestedOdds){
 						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
@@ -637,12 +383,14 @@ public class BlogaBetBacktest {
 			}			
 		}
 		averageYield /= numberOfMatches;
+		averageYield = profit / oddsFound;
 
 		System.out.println();
-		System.out.println("Matches: " + numberOfMatches);
-		System.out.println("Percentage of matched Bets: " + numberOfMatches * 100.0 / checkedTipps);
+//		System.out.println("Matches: " + numberOfMatches);
+		System.out.println("Percentage of matched Bets: " + oddsFound * 100.0 / checkedTipps);
 		System.out.println("Profit: " + profit);
 		System.out.println("Yield: " + averageYield);
+		System.out.println("Number Of Odds Found: " + oddsFound);
 		
 		System.out.println();
 		double[] bEv = new double[betEvs.size()];
@@ -659,14 +407,22 @@ public class BlogaBetBacktest {
 		System.out.println("Significance level of < 2: " + significance / 2);
 		significance = test.tTest(3, bEv);
 		System.out.println("Significance level of < 3: " + significance / 2);
-		significance = test.tTest(4, bEv);
-		System.out.println("Significance level of < 4: " + significance / 2);
-		significance = test.tTest(5, bEv);
-		System.out.println("Significance level of < 5: " + significance / 2);
-		significance = test.tTest(6, bEv);
-		System.out.println("Significance level of < 6: " + significance / 2);
-		significance = test.tTest(7, bEv);
-		System.out.println("Significance level of < 7: " + significance / 2);
+		if(averageYield > 4){
+			significance = test.tTest(4, bEv);
+			System.out.println("Significance level of < 4: " + significance / 2);
+		}
+		if(averageYield > 5){
+			significance = test.tTest(5, bEv);
+			System.out.println("Significance level of < 5: " + significance / 2);
+		}
+		if(averageYield > 6){
+			significance = test.tTest(6, bEv);
+			System.out.println("Significance level of < 6: " + significance / 2);
+		}
+		if(averageYield > 7){
+			significance = test.tTest(7, bEv);
+			System.out.println("Significance level of < 7: " + significance / 2);
+		}
 		System.out.println();
 		
 		// Chart
