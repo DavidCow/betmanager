@@ -23,6 +23,8 @@ import java.util.TimeZone;
 
 import javax.swing.JFrame;
 
+import jayeson.lib.datastructure.PivotType;
+
 import org.apache.commons.math3.stat.inference.TTest;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -389,6 +391,11 @@ public class BetAdvisorBacktest {
 			HistoricalDataElement bestSource = null;
 			double bestOdds = 0;
 			
+			// Liquidity Stuff
+			PivotType liquidityPivotType = null;
+			double liquidityPivotValue = 0;
+			String liquidityPivotBias = null;
+			
 			for(int j = 0; j < availableBets.size(); j++){
 				HistoricalDataElement historicalElement = availableBets.get(j);
 				
@@ -467,9 +474,15 @@ public class BetAdvisorBacktest {
 									if(oddsDate.before(tippPublishedDate)){
 										if(tippIndex == 0){
 											odds = 1 + totalElement.getHost();
+											if(odds > bestOdds){
+												liquidityPivotBias = totalElement.getBias();
+											}
 										}
 										else if(tippIndex == 1){
 											odds = 1 + totalElement.getGuest();
+											if(odds > bestOdds){
+												liquidityPivotBias = totalElement.getBias();
+											}
 										}
 									}
 								}		
@@ -487,6 +500,34 @@ public class BetAdvisorBacktest {
 			if(bestOdds != 0){
 				if(bestOdds > tipp.getOdds())
 					bestOdds = tipp.getOdds();
+				
+				if(tipp.getTypeOfBet().equals("Match Odds")){
+					liquidityPivotType = PivotType.ONE_TWO;
+					liquidityPivotBias = "NEUTRAL";
+				}
+				if(tipp.getTypeOfBet().equals("Over / Under")){
+					liquidityPivotType = PivotType.TOTAL;
+					int totalStart = tipp.getSelection().lastIndexOf("+") + 1;
+					String totalString = tipp.getSelection().substring(totalStart);
+					liquidityPivotValue = Double.parseDouble(totalString);
+					liquidityPivotBias = "NEUTRAL";
+				}
+				if(tipp.getTypeOfBet().equals("Asian handicap")){
+					liquidityPivotType = PivotType.HDP;
+					int pivotStart = tipp.getSelection().lastIndexOf("-") + 1;
+					if(pivotStart != 0){
+						try{
+							String pivotString = tipp.getSelection().substring(pivotStart);
+							liquidityPivotValue = Double.parseDouble(pivotString);
+						}catch(Exception e){
+							
+						}
+					}
+				}
+				
+				//////
+				///// Calculate Liquidity HERE
+				//// use liquidityPivotValue, liquidityPivotBias, liquidityPivotType
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / tipp.getOdds();
