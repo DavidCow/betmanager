@@ -17,6 +17,9 @@ import java.util.Map;
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
 import jayeson.lib.datastructure.SoccerEventLiveState;
+import weka.classifiers.Classifier;
+import weka.classifiers.meta.ClassificationViaRegression;
+import weka.classifiers.trees.REPTree;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
@@ -296,17 +299,41 @@ public class ArffCreator2 {
 //			e.printStackTrace();
 //		}
 		
-		ArffReader arff;
+//		ArffReader arff;
+//		try {
+//			BufferedReader reader = new BufferedReader(new FileReader("EastBridge4Backtest.arff"));
+//			arff = new ArffReader(reader);
+//			Instances data = arff.getStructure();
+//			HashSet<String> set = new HashSet<String>();
+//			Attribute leagues = data.attribute("Liga");
+//			for(int i = 0; i < leagues.numValues(); i++)
+//				set.add(leagues.value(i));
+//			System.out.println();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("EastBridge4Backtest.arff"));
-			arff = new ArffReader(reader);
-			Instances data = arff.getStructure();
-			HashSet<String> set = new HashSet<String>();
-			Attribute leagues = data.attribute("Liga");
-			for(int i = 0; i < leagues.numValues(); i++)
-				set.add(leagues.value(i));
-			System.out.println();
-		} catch (IOException e) {
+			BufferedReader reader = new BufferedReader(new FileReader("EastBridge4BackTest.arff"));
+			ArffReader arff = new ArffReader(reader);
+			Instances struct = arff.getStructure();
+			struct.setClassIndex(struct.numAttributes()-1);
+			REPTree cls = (REPTree) weka.core.SerializationHelper.read("reptree2.model");
+
+			Instance instance = new Instance(9);
+			instance.setValue(struct.attribute(0), "HDP");
+			instance.setValue(struct.attribute(1), "HOST");
+			instance.setValue(struct.attribute(2), "Italy Serie A");
+			instance.setValue(struct.attribute(3), "PIN");
+			instance.setValue(struct.attribute(4), "take");
+			instance.setValue(struct.attribute(5), 0.7);
+			instance.setValue(struct.attribute(6), 14);
+			instance.setValue(struct.attribute(7), 1.68);
+			instance.setDataset(struct);
+			
+			double x = cls.classifyInstance(instance);
+			System.out.println(x);
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
