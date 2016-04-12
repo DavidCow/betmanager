@@ -17,14 +17,15 @@ import java.io.ObjectOutputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.TimeZone;
 import java.util.TreeSet;
 
 import javax.swing.JFrame;
-
-import jayeson.lib.datastructure.PivotType;
 
 import org.apache.commons.math3.stat.inference.TTest;
 import org.jfree.chart.ChartFactory;
@@ -97,6 +98,10 @@ public class BetAdvisorBacktest {
 		double oddsRatio = 0;
 		
 		// Liquidity Calculation
+		double evAllPossibleBetsTakenMaxLiquidity = 0;
+		List<Double> betEvsMaxLiquidity = new ArrayList<Double>();
+		List<Double> betLiquidities = new ArrayList<Double>();
+		List<String> liquidityTipsters = new ArrayList<String>(); 
 		RepTreeModel repTreeModel = new RepTreeModel("EastBridge5BackTest.arff", "reptree3.model");
 		double averageLiquidity = 0;
 		int numberOfLiquidityCalculations = 0;
@@ -238,82 +243,7 @@ public class BetAdvisorBacktest {
 					matches++;
 					
 					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
-					if(betAdvisorHost.equalsIgnoreCase(historicalDataHost) || betAdvisorGuest.equalsIgnoreCase(historicalDataGuest)){
-						teams.add(historicalDataHost);
-						teams.add(historicalDataGuest);
-						leagues.add(historicalDataLeague);
-						availableBets.add(historicalDataElement);
-						if(tipp.getTypeOfBet().equals("Match Odds")){
-							if(tippTeam.equalsIgnoreCase("Draw")){
-								tippIndex = 2;
-							}
-							else if(tippTeam.equalsIgnoreCase(betAdvisorHost)){
-								tippIndex = 0;
-							}
-							else if(tippTeam.equalsIgnoreCase(betAdvisorGuest)){
-								tippIndex = 1;
-							}		
-						}
-						if(tipp.getTypeOfBet().equals("Over / Under")){
-							int totalStart = tipp.getSelection().lastIndexOf("+");
-							if(totalStart == -1)
-								return;
-							totalStart++;							
-							String totalString = tipp.getSelection().substring(totalStart);
-							double total = Double.parseDouble(totalString);
-							
-							List<TotalElement> l = historicalDataElement.getTotalList();
-							if(!l.isEmpty()){
-								boolean totalOk = false;
-								for(int t = 0; t < l.size(); t++){
-									if(l.get(t).getTotal() == total){
-										totalOk = true;
-										break;
-									}
-								}
-								if(totalOk){
-									availableBets.add(historicalDataElement);
-									if(tippTeam.indexOf("Over") == 0){
-										tippIndex = 0;
-									}
-									else if(tippTeam.indexOf("Under") == 0){
-										tippIndex = 1;
-									}
-								}
-							}
-						}
-						if(tipp.getTypeOfBet().equals("Asian handicap")){
-							int pivotStart = tipp.getSelection().lastIndexOf("-");
-							if(pivotStart != -1){
-								try{
-									pivotStart++;
-									String pivotString = tipp.getSelection().substring(pivotStart);
-									double pivot = Double.parseDouble(pivotString);
-									List<HdpElement> l = historicalDataElement.getHdpList();
-									if(!l.isEmpty()){
-										boolean pivotOk = false;
-										for(int t = 0; t < l.size(); t++){
-											if(l.get(t).getPivot() == pivot){
-												pivotOk = true;
-												break;
-											}
-										}
-										if(pivotOk){
-											if(tippTeam.indexOf(betAdvisorHost) != -1){
-												tippIndex = 0;
-											}
-											else if(tippTeam.indexOf(betAdvisorGuest) != -1){
-												tippIndex = 1;
-											}
-										}
-									}			
-								}catch(Exception e){
-//									e.printStackTrace();
-								}
-							}
-						}
-					}
-					else if(TeamMapping.teamsMatch(historicalDataHost, betAdvisorHost) || TeamMapping.teamsMatch(historicalDataGuest, betAdvisorGuest)){
+					if(TeamMapping.teamsMatch(historicalDataHost, betAdvisorHost) || TeamMapping.teamsMatch(historicalDataGuest, betAdvisorGuest)){
 						teams.add(historicalDataHost);
 						teams.add(historicalDataGuest);
 						leagues.add(historicalDataLeague);
@@ -408,11 +338,6 @@ public class BetAdvisorBacktest {
 			HistoricalDataElement bestSource = null;
 			double bestOdds = 0;
 			
-			// Liquidity Stuff
-			PivotType liquidityPivotType = null;
-			double liquidityPivotValue = 0;
-			String liquidityPivotBias = null;
-			
 			for(int j = 0; j < availableBets.size(); j++){
 				HistoricalDataElement historicalElement = availableBets.get(j);
 				
@@ -491,15 +416,9 @@ public class BetAdvisorBacktest {
 									if(oddsDate.before(tippPublishedDate)){
 										if(tippIndex == 0){
 											odds = 1 + totalElement.getHost();
-											if(odds > bestOdds){
-												liquidityPivotBias = totalElement.getBias();
-											}
 										}
 										else if(tippIndex == 1){
 											odds = 1 + totalElement.getGuest();
-											if(odds > bestOdds){
-												liquidityPivotBias = totalElement.getBias();
-											}
 										}
 									}
 								}		
@@ -515,10 +434,12 @@ public class BetAdvisorBacktest {
 				}
 			}
 			if(bestOdds != 0){
+				
 				if(bestOdds > tipp.getOdds())
 					bestOdds = tipp.getOdds();
-				double liquidity = 0;
 				
+				// Calculate Liquidity
+				double liquidity = 0;			
 				Instance record = repTreeModel.createWekaInstance(bestSource, tipp, bestOdds);
 				if(record != null){
 					try {
@@ -529,7 +450,7 @@ public class BetAdvisorBacktest {
 						e.printStackTrace();
 					}
 				}
-				double take = liquidity;
+				double take = 100;
 				
 				
 				bestOdds *= bestOddsFactor;
@@ -597,6 +518,13 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken -= take;
 						evAllPossibleBetsTakenMatchOdds -= take;
 						betEvs.add(-take);
+						
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * lastLay - take;
@@ -609,6 +537,12 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken += take * bestOdds - take;
 						evAllPossibleBetsTakenMatchOdds  += take * bestOdds - take;
 						betEvs.add(take * bestOdds - take);
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * bestOdds - take;
@@ -690,6 +624,12 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken -= take;
 						evAllPossibleBetsTakenOverUnder -= take;
 						betEvs.add(-take);
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * lastLay - take;
@@ -702,6 +642,12 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken += take * bestOdds - take;
 						evAllPossibleBetsTakenOverUnder  += take * bestOdds - take;
 						betEvs.add(take * bestOdds - take);
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * bestOdds - take;
@@ -783,6 +729,12 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken -= take;
 						evAllPossibleBetsTakenHdp -= take;
 						betEvs.add(-take);
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * lastLay - take;
@@ -795,6 +747,12 @@ public class BetAdvisorBacktest {
 						evAllPossibleBetsTaken += take * bestOdds - take;
 						evAllPossibleBetsTakenHdp  += take * bestOdds - take;
 						betEvs.add(take * bestOdds - take);
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						if(layMovement > layThreshold){
 							double lEv = -take;
 							lEv += take * bestOdds - take;
@@ -914,9 +872,112 @@ public class BetAdvisorBacktest {
 //		System.out.println(leagues.size());
 		
 		// Liquidity
+		System.out.println();
 		averageLiquidity /= numberOfLiquidityCalculations;
 		System.out.println("Number Of Calculated Liquidities: " +  numberOfLiquidityCalculations);
 		System.out.println("Average Liquidity: " + averageLiquidity);
+		System.out.println("Profit for Max Stake: " + evAllPossibleBetsTakenMaxLiquidity);
+		
+		double minLiquidity = Double.POSITIVE_INFINITY;
+		double maxLiquidity = Double.NEGATIVE_INFINITY;
+		for(int i = 0; i < betLiquidities.size(); i++){
+			Double l = betLiquidities.get(i);
+			maxLiquidity = Math.max(maxLiquidity, l);
+			minLiquidity = Math.min(minLiquidity, l);
+		}
+		
+		int numberOfStakes = 10;
+		double[] yieldByStake = new double[numberOfStakes];
+		int[] numberOfBetsByStake = new int[numberOfStakes];
+		
+		double stakeLevel = (maxLiquidity - minLiquidity) / numberOfStakes;
+		System.out.println("maxStake: " + maxLiquidity);
+		System.out.println("minStake: " + minLiquidity);
+		
+		for(int i = 0; i < betLiquidities.size(); i++){
+			int stakeIndex = -1;
+			for(int j = 0; j < numberOfStakes; j++){
+				double maxStake = betLiquidities.get(i);
+				if(maxStake > minLiquidity + (j + 1) * stakeLevel + 0.01)
+					continue;
+				numberOfBetsByStake[j]++;
+				stakeIndex = j;
+				break;
+			}
+			double l = betLiquidities.get(i);
+			double ev = betEvsMaxLiquidity.get(i);
+			double p = ev / l;
+			yieldByStake[stakeIndex] += p;
+		}
+		
+		for(int i = 0; i < yieldByStake.length; i++){
+			yieldByStake[i] /= Math.max(1, numberOfBetsByStake[i]);
+		}
+		System.out.println("Stakes:");
+		for(int i = 0; i < numberOfStakes; i++){
+			double stakeStart = minLiquidity + i * stakeLevel;
+			double stakeEnd = stakeStart + stakeLevel;
+			System.out.println(i + ": " + stakeStart + " - " + stakeEnd);
+		
+		}
+		System.out.println("bets per Stake: " + Arrays.toString(numberOfBetsByStake));
+		for(int i = 0; i < yieldByStake.length; i++){
+			System.out.println(yieldByStake[i]);
+		}
+		
+		// By Tipster
+		Map<String, Double> liquidityByTipster = new HashMap<String, Double>();
+		Map<String, Double> profitByTipster = new HashMap<String, Double>();
+		Map<String, Double> numberOfBestByTipster = new HashMap<String, Double>();
+		Map<String, Double> yieldByTipster = new HashMap<String, Double>();
+		
+		for(int i = 0; i < betEvsMaxLiquidity.size(); i++){
+			double p = betEvsMaxLiquidity.get(i);
+			double l = betLiquidities.get(i);
+			double y = p / l;
+			String tipster = liquidityTipsters.get(i);
+			if(numberOfBestByTipster.containsKey(tipster)){
+				numberOfBestByTipster.put(tipster, numberOfBestByTipster.get(tipster) + 1.0);
+			}
+			else{
+				numberOfBestByTipster.put(tipster, 1.0);
+			}
+			if(liquidityByTipster.containsKey(tipster)){
+				liquidityByTipster.put(tipster, liquidityByTipster.get(tipster) + l);
+			}
+			else{
+				liquidityByTipster.put(tipster, l);
+			}
+			if(profitByTipster.containsKey(tipster)){
+				profitByTipster.put(tipster, profitByTipster.get(tipster) + p);
+			}
+			else{
+				profitByTipster.put(tipster, p);
+			}
+			if(yieldByTipster.containsKey(tipster)){
+				yieldByTipster.put(tipster, yieldByTipster.get(tipster) + y);
+			}
+			else{
+				yieldByTipster.put(tipster, y);
+			}
+		}
+		
+		for(String tipster : liquidityByTipster.keySet()){
+			liquidityByTipster.put(tipster, liquidityByTipster.get(tipster) / numberOfBestByTipster.get(tipster));
+		}
+		for(String tipster : yieldByTipster.keySet()){
+			yieldByTipster.put(tipster, yieldByTipster.get(tipster) / numberOfBestByTipster.get(tipster));
+		}
+		
+		System.out.println();
+		System.out.println("TIPSTERS:");
+		for(String tipster : numberOfBestByTipster.keySet()){
+			double n = numberOfBestByTipster.get(tipster);
+			double y = yieldByTipster.get(tipster);
+			double p = profitByTipster.get(tipster);
+			double l = liquidityByTipster.get(tipster);
+			System.out.println(tipster + " - number of bets: " + n + ", profit: " + p + ", yield: " + y  + ", roi: " + p / n + ", average liquidity: " + l);
+		}
 		
 		// Chart
 		XYSeries series = new XYSeries("Profit");
@@ -932,6 +993,21 @@ public class BetAdvisorBacktest {
         frame.setContentPane(chartPanel);
         frame.setSize(600, 400);
         frame.setVisible(true);
+        
+		// Chart Max Liquidity
+		XYSeries seriesMax = new XYSeries("Profit Max Stake");
+		XYDataset xyDatasetMax = new XYSeriesCollection(seriesMax);
+		double totalProfitMax = 0;
+		for(int i = 0; i < betEvsMaxLiquidity.size(); i++){
+			seriesMax.add(i, totalProfitMax);
+			totalProfitMax += betEvsMaxLiquidity.get(i);
+		}
+		final JFreeChart chartMax = ChartFactory.createXYLineChart("Profit", "Bets", "Profit", xyDatasetMax);
+        final ChartPanel chartPanelMax = new ChartPanel(chartMax);
+        JFrame frameMax = new JFrame("Backtest Max Stake");
+        frameMax.setContentPane(chartPanelMax);
+        frameMax.setSize(600, 400);
+        frameMax.setVisible(true);
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();
