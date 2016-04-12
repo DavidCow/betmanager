@@ -1,3 +1,4 @@
+package backtest;
 
 import historicalData.HdpElement;
 import historicalData.HistoricalDataElement;
@@ -61,6 +62,7 @@ public class BetAdvisorBacktest {
 	public BetAdvisorBacktest(String arff_path, String model_path){
 		ArffReader arff;
 		model_leagues = new TreeSet<String>();
+		model_sources = new TreeSet<String>();
 		try {
 			cls = (REPTree) weka.core.SerializationHelper.read(model_path);
 			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
