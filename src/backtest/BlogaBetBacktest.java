@@ -337,7 +337,7 @@ public class BlogaBetBacktest {
 					bestOdds = tipp.getBestOdds();
 				
 				bestOdds *= bestOddsFactor;
-				oddsRatio += bestOdds / tipp.getBestOdds();
+				oddsRatio += bestOdds / suggestedOdds;
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					double take = 100;
 					if(tipp.getResult().equalsIgnoreCase("LOST")){
@@ -382,7 +382,8 @@ public class BlogaBetBacktest {
 				}
 			}			
 		}
-		averageYield /= numberOfMatches;
+		averageYield /= oddsFound;
+		oddsRatio /= oddsFound;
 		averageYield = profit / oddsFound;
 
 		System.out.println();
@@ -391,6 +392,7 @@ public class BlogaBetBacktest {
 		System.out.println("Profit: " + profit);
 		System.out.println("Yield: " + averageYield);
 		System.out.println("Number Of Odds Found: " + oddsFound);
+		System.out.println("Odds Ratio: " + oddsRatio);
 		
 		System.out.println();
 		double[] bEv = new double[betEvs.size()];

@@ -8,11 +8,9 @@ import historicalData.TotalElement;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -20,7 +18,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
 import java.util.TimeZone;
 import java.util.TreeSet;
@@ -37,69 +34,14 @@ import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
-import eastbridgeLiquidityMining.regression.ArffCreator2;
-import weka.classifiers.Classifier;
-import weka.classifiers.trees.REPTree;
-import weka.core.Attribute;
 import weka.core.Instance;
-import weka.core.Instances;
-import weka.core.converters.ArffLoader.ArffReader;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
 import bettingBot.TeamMapping;
+import eastbridgeLiquidityMining.regression.ArffCreator;
+import eastbridgeLiquidityMining.regression.RepTreeModel;
 
 public class BetAdvisorBacktest {
-	
-	TreeSet<String> model_leagues;
-	TreeSet<String> model_sources;
-	Instances attribute_structure;
-	REPTree cls;
-
-	public BetAdvisorBacktest(){
-		
-	}
-	
-	public BetAdvisorBacktest(String arff_path, String model_path){
-		ArffReader arff;
-		model_leagues = new TreeSet<String>();
-		model_sources = new TreeSet<String>();
-		try {
-			cls = (REPTree) weka.core.SerializationHelper.read(model_path);
-			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
-			arff = new ArffReader(reader);
-			attribute_structure = arff.getStructure();
-			attribute_structure.setClassIndex(attribute_structure.numAttributes() - 1);
-			Attribute leagues = attribute_structure.attribute("Liga");
-			for(int i = 0; i < leagues.numValues(); i++)
-				model_leagues.add(leagues.value(i));
-			Attribute sources = attribute_structure.attribute("Source");
-			for(int i = 0; i < sources.numValues(); i++)
-				model_sources.add(sources.value(i));
-			System.out.println();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
-	private Instance createWekaInstance(String league, String source, String selection, PivotType pivotType, 
-			double pivotValue, String pivotBias, long timebeforestart, double bestOdd){
-		Instance instance = new Instance(attribute_structure.numAttributes());
-		instance.setValue(attribute_structure.attribute(0), pivotType.toString());
-		instance.setValue(attribute_structure.attribute(1), pivotBias);
-		instance.setValue(attribute_structure.attribute(2), league);
-		instance.setValue(attribute_structure.attribute(3), source);
-		try{
-			instance.setValue(attribute_structure.attribute(4), selection);
-		}catch(Exception e){
-			e.printStackTrace();
-		}
-		instance.setValue(attribute_structure.attribute(5), pivotValue);
-		instance.setValue(attribute_structure.attribute(6), timebeforestart);
-		instance.setValue(attribute_structure.attribute(7), bestOdd);
-		instance.setDataset(attribute_structure);
-		return instance;		
-	}
 	
 	public void runBacktest() throws IOException{
 
@@ -155,6 +97,7 @@ public class BetAdvisorBacktest {
 		double oddsRatio = 0;
 		
 		// Liquidity Calculation
+		RepTreeModel repTreeModel = new RepTreeModel("EastBridge5BackTest.arff", "reptree3.model");
 		double averageLiquidity = 0;
 		int numberOfLiquidityCalculations = 0;
 		
@@ -283,7 +226,7 @@ public class BetAdvisorBacktest {
 					}
 					
 					String betAdvisorLeague = tipp.getLeague();
-					String historicalDataLeague = ArffCreator2.getCleanedNames(historicalDataElement.getLeague());
+					String historicalDataLeague = ArffCreator.getCleanedNames(historicalDataElement.getLeague());
 
 					//System.out.println(betAdvisorLeague + " , " + historicalDataLeague);
 					
@@ -602,28 +545,23 @@ public class BetAdvisorBacktest {
 				//////
 				///// Calculate Liquidity HERE
 				//// use liquidityPivotValue, liquidityPivotBias, liquidityPivotType
-				String league = ArffCreator2.getCleanedNames(bestSource.getLeague());
+				String league = ArffCreator.getCleanedNames(bestSource.getLeague());
 				String source = bestSource.getSource();
 				long timebeforestart = (tipp.getGameDate().getTime() - tipp.getPublicationDate().getTime())/3600000;
-				boolean checkLiquidity = true;
 				double liquidity = 0;
-				
-				if(!model_leagues.contains(league) || !model_sources.contains(source))
-					checkLiquidity = false;
 				
 				String selection = "";
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					if(tipp.getSelection().equalsIgnoreCase("draw"))
 						selection = "draw";
 					else{
-						checkLiquidity = false;
 						String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
 						String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
 						
 						if(tipp.getSelection().equals(h))
-							selection = "host";	
+							selection = "one";	
 						if(tipp.getSelection().equals(g))
-							selection = "guest";
+							selection = "two";
 					}		
 				}
 				if(tipp.getTypeOfBet().equals("Over / Under")){
@@ -639,11 +577,11 @@ public class BetAdvisorBacktest {
 						selection = "give";	
 				}
 				
-				if(checkLiquidity){
-					Instance record = createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
-							liquidityPivotBias, timebeforestart, bestOdds);
+				Instance record = repTreeModel.createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
+						liquidityPivotBias, timebeforestart, bestOdds);
+				if(record != null){
 					try {
-						liquidity = cls.classifyInstance(record);
+						liquidity = repTreeModel.classifyInstance(record);
 						averageLiquidity += liquidity;
 						numberOfLiquidityCalculations++;
 					} catch (Exception e) {
@@ -1031,9 +969,9 @@ public class BetAdvisorBacktest {
 		System.out.println("Odds Ratio: " + oddsRatio);
 		
 		//print teams and leagues
-		for(String s : leagues)
-			System.out.println(s);
-		System.out.println(leagues.size());
+//		for(String s : leagues)
+//			System.out.println(s);
+//		System.out.println(leagues.size());
 		
 		// Liquidity
 		averageLiquidity /= numberOfLiquidityCalculations;
@@ -1056,7 +994,7 @@ public class BetAdvisorBacktest {
         frame.setVisible(true);
 	}
 	public static void main(String[] args) throws IOException {
-		BetAdvisorBacktest backTest = new BetAdvisorBacktest("EastBridge4BackTest.arff", "reptree2.model");
+		BetAdvisorBacktest backTest = new BetAdvisorBacktest();
 		backTest.runBacktest();
 	}
 }
