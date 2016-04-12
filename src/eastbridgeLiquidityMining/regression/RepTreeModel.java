@@ -4,6 +4,7 @@ import historicalData.HistoricalDataElement;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.HashMap;
 import java.util.TreeSet;
 
 import jayeson.lib.datastructure.PivotType;
@@ -14,6 +15,8 @@ import weka.core.Instances;
 import weka.core.converters.ArffLoader.ArffReader;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
+import bettingBot.LeagueMapping;
+import bettingBot.LetterPairSimilarity;
 
 public class RepTreeModel {
 	
@@ -21,11 +24,13 @@ public class RepTreeModel {
 	private TreeSet<String> model_sources;
 	private Instances attribute_structure;
 	private REPTree cls;
+	private HashMap<String,String> league_mapping;
 
 	public RepTreeModel(String arff_path, String model_path){
 		ArffReader arff;
 		model_leagues = new TreeSet<String>();
 		model_sources = new TreeSet<String>();
+		league_mapping = new HashMap<String, String>();
 		try {
 			cls = (REPTree) weka.core.SerializationHelper.read(model_path);
 			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
@@ -125,14 +130,45 @@ public class RepTreeModel {
 		return instance;
 	}
 	
+	private void addLeagueMapping(String league){
+		if(!league_mapping.containsKey(league)){
+			if(model_leagues.contains(league))
+				league_mapping.put(league, league);
+			else{
+				boolean foundMapping = false;
+				for(String modelLeague : model_leagues){
+					if(LeagueMapping.leaguesMatch(league, modelLeague)){
+						league_mapping.put(league, modelLeague);
+						foundMapping = true;
+						break;
+					}		
+				}
+				if(!foundMapping)
+					league_mapping.put(league, "");
+			}
+		}
+	}
+	
 	public Instance createWekaInstance(String league, String source, String selection, PivotType pivotType, 
 			double pivotValue, String pivotBias, long timebeforestart, double bestOdd){
 		try{
 			Instance instance = new Instance(attribute_structure.numAttributes());
 			instance.setValue(attribute_structure.attribute(0), pivotType.toString());
 			instance.setValue(attribute_structure.attribute(1), pivotBias);
-			instance.setValue(attribute_structure.attribute(2), league);
-			instance.setValue(attribute_structure.attribute(3), source);
+			
+			//set league as missing value if there is no mapping to the model
+			addLeagueMapping(league);
+			String mapped_league = league_mapping.get(league);
+			if(mapped_league.equalsIgnoreCase(""))
+				instance.setValue(attribute_structure.attribute(2), null);
+			else
+				instance.setValue(attribute_structure.attribute(2), mapped_league);	
+			
+			if(model_sources.contains(source))
+				instance.setValue(attribute_structure.attribute(3), source);
+			else
+				instance.setValue(attribute_structure.attribute(3), Instance.missingValue());
+			
 			instance.setValue(attribute_structure.attribute(4), selection);
 			instance.setValue(attribute_structure.attribute(5), pivotValue);
 			instance.setValue(attribute_structure.attribute(6), timebeforestart);
