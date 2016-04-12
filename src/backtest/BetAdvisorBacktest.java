@@ -517,75 +517,15 @@ public class BetAdvisorBacktest {
 			if(bestOdds != 0){
 				if(bestOdds > tipp.getOdds())
 					bestOdds = tipp.getOdds();
-				
-				if(tipp.getTypeOfBet().equals("Match Odds")){
-					liquidityPivotType = PivotType.ONE_TWO;
-					liquidityPivotBias = "NEUTRAL";
-				}
-				if(tipp.getTypeOfBet().equals("Over / Under")){
-					liquidityPivotType = PivotType.TOTAL;
-					int totalStart = tipp.getSelection().lastIndexOf("+") + 1;
-					String totalString = tipp.getSelection().substring(totalStart);
-					liquidityPivotValue = Double.parseDouble(totalString);
-					liquidityPivotBias = "NEUTRAL";
-				}
-				if(tipp.getTypeOfBet().equals("Asian handicap")){
-					liquidityPivotType = PivotType.HDP;
-					int pivotStart = tipp.getSelection().lastIndexOf("-") + 1;
-					if(pivotStart != 0){
-						try{
-							String pivotString = tipp.getSelection().substring(pivotStart);
-							liquidityPivotValue = Double.parseDouble(pivotString);
-						}catch(Exception e){
-							
-						}
-					}
-				}
-								
-				//////
-				///// Calculate Liquidity HERE
-				//// use liquidityPivotValue, liquidityPivotBias, liquidityPivotType
-				String league = ArffCreator.getCleanedNames(bestSource.getLeague());
-				String source = bestSource.getSource();
-				long timebeforestart = (tipp.getGameDate().getTime() - tipp.getPublicationDate().getTime())/3600000;
 				double liquidity = 0;
 				
-				String selection = "";
-				if(tipp.getTypeOfBet().equals("Match Odds")){
-					if(tipp.getSelection().equalsIgnoreCase("draw"))
-						selection = "draw";
-					else{
-						String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
-						String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
-						
-						if(tipp.getSelection().equals(h))
-							selection = "one";	
-						if(tipp.getSelection().equals(g))
-							selection = "two";
-					}		
-				}
-				if(tipp.getTypeOfBet().equals("Over / Under")){
-					if(tipp.getSelection().indexOf("Over") == 0)
-						selection = "over";
-					if(tipp.getSelection().indexOf("Under") == 0)
-						selection = "under";	
-				}
-				if(tipp.getTypeOfBet().equals("Asian handicap")){
-					if(tipp.getSelection().indexOf("+") != -1)
-						selection = "take";
-					else
-						selection = "give";	
-				}
-				
-				Instance record = repTreeModel.createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
-						liquidityPivotBias, timebeforestart, bestOdds);
+				Instance record = repTreeModel.createWekaInstance(bestSource, tipp, bestOdds);
 				if(record != null){
 					try {
 						liquidity = repTreeModel.classifyInstance(record);
 						averageLiquidity += liquidity;
 						numberOfLiquidityCalculations++;
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
