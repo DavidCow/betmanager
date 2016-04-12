@@ -85,14 +85,14 @@ public class BetAdvisorBacktest {
 	private Instance createWekaInstance(String league, String source, String selection, PivotType pivotType, 
 			double pivotValue, String pivotBias, long timebeforestart, double bestOdd){
 		Instance instance = new Instance(attribute_structure.numAttributes());
-		instance.setValue(0, pivotType.toString());
-		instance.setValue(1, pivotBias);
-		instance.setValue(2, league);
-		instance.setValue(3, source);
-		instance.setValue(4, selection);
-		instance.setValue(5, pivotValue);
-		instance.setValue(6, timebeforestart);
-		instance.setValue(7, bestOdd);
+		instance.setValue(attribute_structure.attribute(0), pivotType.toString());
+		instance.setValue(attribute_structure.attribute(1), pivotBias);
+		instance.setValue(attribute_structure.attribute(2), league);
+		instance.setValue(attribute_structure.attribute(3), source);
+		instance.setValue(attribute_structure.attribute(4), selection);
+		instance.setValue(attribute_structure.attribute(5), pivotValue);
+		instance.setValue(attribute_structure.attribute(6), timebeforestart);
+		instance.setValue(attribute_structure.attribute(7), bestOdd);
 		instance.setDataset(attribute_structure);
 		return instance;		
 	}
