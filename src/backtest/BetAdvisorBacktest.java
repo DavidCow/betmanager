@@ -102,7 +102,7 @@ public class BetAdvisorBacktest {
 		List<Double> betEvsMaxLiquidity = new ArrayList<Double>();
 		List<Double> betLiquidities = new ArrayList<Double>();
 		List<String> liquidityTipsters = new ArrayList<String>(); 
-		RepTreeModel repTreeModel = new RepTreeModel("EastBridge5BackTest.arff", "reptree3.model");
+		RepTreeModel repTreeModel = new RepTreeModel("EastBridge6BackTest.arff", "reptree6.model");
 		double averageLiquidity = 0;
 		int numberOfLiquidityCalculations = 0;
 		
@@ -451,6 +451,9 @@ public class BetAdvisorBacktest {
 					}
 				}
 				double take = 100;
+				if(liquidity > 13000){
+					System.out.println();
+				}
 				
 				
 				bestOdds *= bestOddsFactor;
