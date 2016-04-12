@@ -39,6 +39,7 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 import eastbridgeLiquidityMining.regression.ArffCreator2;
 import weka.classifiers.Classifier;
+import weka.classifiers.trees.REPTree;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
@@ -52,7 +53,7 @@ public class BetAdvisorBacktest {
 	TreeSet<String> model_leagues;
 	TreeSet<String> model_sources;
 	Instances attribute_structure;
-	Classifier cls;
+	REPTree cls;
 
 	public BetAdvisorBacktest(){
 		
@@ -62,10 +63,11 @@ public class BetAdvisorBacktest {
 		ArffReader arff;
 		model_leagues = new TreeSet<String>();
 		try {
-			cls = (Classifier) weka.core.SerializationHelper.read(model_path);
+			cls = (REPTree) weka.core.SerializationHelper.read(model_path);
 			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
 			arff = new ArffReader(reader);
 			attribute_structure = arff.getStructure();
+			attribute_structure.setClassIndex(attribute_structure.numAttributes() - 1);
 			Attribute leagues = attribute_structure.attribute("Liga");
 			for(int i = 0; i < leagues.numValues(); i++)
 				model_leagues.add(leagues.value(i));
@@ -1008,7 +1010,7 @@ public class BetAdvisorBacktest {
         frame.setVisible(true);
 	}
 	public static void main(String[] args) throws IOException {
-		BetAdvisorBacktest backTest = new BetAdvisorBacktest();
+		BetAdvisorBacktest backTest = new BetAdvisorBacktest("EastBridge4BackTest.arff", "reptree2.model");
 		backTest.runBacktest();
 	}
 }
