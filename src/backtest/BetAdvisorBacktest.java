@@ -1,4 +1,3 @@
-package backtest;
 
 import historicalData.HdpElement;
 import historicalData.HistoricalDataElement;
@@ -589,7 +588,7 @@ public class BetAdvisorBacktest {
 						}
 					}
 				}
-				
+								
 				//////
 				///// Calculate Liquidity HERE
 				//// use liquidityPivotValue, liquidityPivotBias, liquidityPivotType
