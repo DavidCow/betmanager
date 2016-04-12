@@ -1,5 +1,7 @@
 package eastbridgeLiquidityMining.regression;
 
+import historicalData.HistoricalDataElement;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.TreeSet;
@@ -10,6 +12,8 @@ import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader.ArffReader;
+import betadvisor.BetAdvisorElement;
+import betadvisor.BetAdvisorParser;
 
 public class RepTreeModel {
 	
@@ -39,6 +43,86 @@ public class RepTreeModel {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
+	}
+	
+	public Instance createWekaInstance(HistoricalDataElement bestSource, BetAdvisorElement tip, double bestOdd){
+		Instance instance = null;
+		String league = ArffCreator.getCleanedNames(bestSource.getLeague());
+		String source = bestSource.getSource();
+		long timebeforestart = (tip.getGameDate().getTime() - tip.getPublicationDate().getTime())/3600000;
+		String selection = "";
+		PivotType pivotType = null;
+		double pivotValue = Double.NEGATIVE_INFINITY;
+		String pivotBias = "";
+		String host = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
+		String guest = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
+		if(tip.getTypeOfBet().equals("Match Odds")){
+			pivotBias = "NEUTRAL";
+			pivotType = PivotType.ONE_TWO;
+			if(tip.getSelection().equalsIgnoreCase("draw"))
+				selection = "draw";
+			else{
+				String h = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
+				String g = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
+				
+				if(tip.getSelection().equals(h))
+					selection = "one";	
+				if(tip.getSelection().equals(g))
+					selection = "two";
+			}		
+		}
+		if(tip.getTypeOfBet().equals("Over / Under")){
+			pivotType = PivotType.TOTAL;
+			if(tip.getSelection().indexOf("Over") == 0)
+				selection = "over";
+			if(tip.getSelection().indexOf("Under") == 0)
+				selection = "under";	
+			int totalStart = tip.getSelection().lastIndexOf("+") + 1;
+			String totalString = tip.getSelection().substring(totalStart);
+			pivotValue = Double.parseDouble(totalString);
+			pivotBias = "NEUTRAL";
+		}
+		if(tip.getTypeOfBet().equals("Asian handicap")){
+			pivotType = PivotType.HDP;
+			if(tip.getSelection().indexOf("+") != -1)
+				selection = "take";
+			else
+				selection = "give";	
+			int pivotStart = tip.getSelection().lastIndexOf("-") + 1;
+			if(pivotStart != -1){
+				try{
+					String pivotString = tip.getSelection().substring(pivotStart);
+					pivotValue = Double.parseDouble(pivotString);
+					if(tip.getSelection().contains(host)){
+						pivotBias = "HOST";
+					}
+					else if(tip.getSelection().contains(guest)){
+						pivotBias = "GUEST";
+					}
+				}catch(Exception e){
+					
+				}
+			}
+			else{
+				pivotStart = tip.getSelection().lastIndexOf("+") + 1;
+				if(pivotStart != -1){
+					try{
+						String pivotString = tip.getSelection().substring(pivotStart);
+						pivotValue = Double.parseDouble(pivotString);
+						if(tip.getSelection().contains(host)){
+							pivotBias = "GUEST";
+						}
+						else if(tip.getSelection().contains(guest)){
+							pivotBias = "HOST";
+						}
+					}catch(Exception e){
+						
+					}		
+				}
+			}
+		}
+		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, bestOdd);
+		return instance;
 	}
 	
 	public Instance createWekaInstance(String league, String source, String selection, PivotType pivotType, 
