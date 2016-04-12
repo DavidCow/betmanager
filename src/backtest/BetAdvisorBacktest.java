@@ -8,9 +8,11 @@ import historicalData.TotalElement;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -18,8 +20,10 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
 import java.util.TimeZone;
+import java.util.TreeSet;
 
 import javax.swing.JFrame;
 
@@ -33,18 +37,67 @@ import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
+import eastbridgeLiquidityMining.regression.ArffCreator2;
+import weka.classifiers.Classifier;
+import weka.core.Attribute;
+import weka.core.Instance;
+import weka.core.Instances;
+import weka.core.converters.ArffLoader.ArffReader;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
 import bettingBot.TeamMapping;
 
 public class BetAdvisorBacktest {
+	
+	TreeSet<String> model_leagues;
+	TreeSet<String> model_sources;
+	Instances attribute_structure;
+	Classifier cls;
 
 	public BetAdvisorBacktest(){
 		
 	}
 	
+	public BetAdvisorBacktest(String arff_path, String model_path){
+		ArffReader arff;
+		model_leagues = new TreeSet<String>();
+		try {
+			cls = (Classifier) weka.core.SerializationHelper.read(model_path);
+			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
+			arff = new ArffReader(reader);
+			attribute_structure = arff.getStructure();
+			Attribute leagues = attribute_structure.attribute("Liga");
+			for(int i = 0; i < leagues.numValues(); i++)
+				model_leagues.add(leagues.value(i));
+			Attribute sources = attribute_structure.attribute("Source");
+			for(int i = 0; i < sources.numValues(); i++)
+				model_sources.add(sources.value(i));
+			System.out.println();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private Instance createWekaInstance(String league, String source, String selection, PivotType pivotType, 
+			double pivotValue, String pivotBias, long timebeforestart, double bestOdd){
+		Instance instance = new Instance(attribute_structure.numAttributes());
+		instance.setValue(0, pivotType.toString());
+		instance.setValue(1, pivotBias);
+		instance.setValue(2, league);
+		instance.setValue(3, source);
+		instance.setValue(4, selection);
+		instance.setValue(5, pivotValue);
+		instance.setValue(6, timebeforestart);
+		instance.setValue(7, bestOdd);
+		instance.setDataset(attribute_structure);
+		return instance;		
+	}
+	
 	public void runBacktest() throws IOException{
 
+		TreeSet<String> teams = new TreeSet<String>();
+		TreeSet<String> leagues = new TreeSet<String>();
 		/* Variables for the results */
 		double checkedTipps = 0;
 		
@@ -219,7 +272,8 @@ public class BetAdvisorBacktest {
 					}
 					
 					String betAdvisorLeague = tipp.getLeague();
-					String historicalDataLeague = historicalDataElement.getLeague();
+					String historicalDataLeague = ArffCreator2.getCleanedNames(historicalDataElement.getLeague());
+
 					//System.out.println(betAdvisorLeague + " , " + historicalDataLeague);
 					
 					betAdvisorHost = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
@@ -231,6 +285,9 @@ public class BetAdvisorBacktest {
 					
 					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
 					if(betAdvisorHost.equalsIgnoreCase(historicalDataHost) || betAdvisorGuest.equalsIgnoreCase(historicalDataGuest)){
+						teams.add(historicalDataHost);
+						teams.add(historicalDataGuest);
+						leagues.add(historicalDataLeague);
 						availableBets.add(historicalDataElement);
 						if(tipp.getTypeOfBet().equals("Match Odds")){
 							if(tippTeam.equalsIgnoreCase("Draw")){
@@ -303,6 +360,9 @@ public class BetAdvisorBacktest {
 						}
 					}
 					else if(TeamMapping.teamsMatch(historicalDataHost, betAdvisorHost) || TeamMapping.teamsMatch(historicalDataGuest, betAdvisorGuest)){
+						teams.add(historicalDataHost);
+						teams.add(historicalDataGuest);
+						leagues.add(historicalDataLeague);
 						availableBets.add(historicalDataElement);
 						if(tipp.getTypeOfBet().equals("Match Odds")){
 							if(tippTeam.equalsIgnoreCase("Draw")){
@@ -371,6 +431,9 @@ public class BetAdvisorBacktest {
 					}
 					else if(betAdvisorLeague.equals("International Friendly Games") && tipp.getTypeOfBet().equals("Match Odds")){
 						if(betAdvisorHost.equalsIgnoreCase(historicalDataGuest)){
+							teams.add(historicalDataHost);
+							teams.add(historicalDataGuest);
+							leagues.add(historicalDataLeague);
 							availableBets.add(historicalDataElement);
 							if(tippTeam.equalsIgnoreCase("Draw")){
 								tippIndex = 2;
@@ -528,6 +591,26 @@ public class BetAdvisorBacktest {
 				//////
 				///// Calculate Liquidity HERE
 				//// use liquidityPivotValue, liquidityPivotBias, liquidityPivotType
+				String league = ArffCreator2.getCleanedNames(bestSource.getLeague());
+				String source = bestSource.getSource();
+				long timebeforestart = (tipp.getGameDate().getTime() - tipp.getPublicationDate().getTime())/3600000;
+				
+				if(!model_leagues.contains(league) || !model_sources.contains(source))
+					//TODO skip record
+					System.out.println();
+				
+				Instance record = createWekaInstance(league, source, tipp.getSelection(), liquidityPivotType, liquidityPivotValue,
+						liquidityPivotBias, timebeforestart, bestOdds);
+				
+				double liquidity = 100;
+				try {
+					liquidity = cls.classifyInstance(record);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / tipp.getOdds();
@@ -903,6 +986,11 @@ public class BetAdvisorBacktest {
 		// Odds ratio
 		oddsRatio /= numberOfAllBets;
 		System.out.println("Odds Ratio: " + oddsRatio);
+		
+		//print teams and leagues
+		for(String s : leagues)
+			System.out.println(s);
+		System.out.println(leagues.size());
 		
 		// Chart
 		XYSeries series = new XYSeries("Profit");
