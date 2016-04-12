@@ -602,7 +602,41 @@ public class BetAdvisorBacktest {
 					//TODO skip record
 					System.out.println();
 				
-				Instance record = createWekaInstance(league, source, tipp.getSelection(), liquidityPivotType, liquidityPivotValue,
+				String selection = "";
+				if(tipp.getTypeOfBet().equals("Match Odds")){
+					if(tipp.getSelection().equalsIgnoreCase("draw"))
+						selection = "draw";
+					
+					String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
+					String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
+					
+					if(tipp.getSelection().equals(h))
+						selection = "host";	
+					if(tipp.getSelection().equals(g))
+						selection = "guest";		
+				}
+				if(tipp.getTypeOfBet().equals("Over / Under")){
+					if(tipp.getSelection().equalsIgnoreCase("over"))
+						selection = "over";
+					if(tipp.getSelection().equalsIgnoreCase("under"))
+						selection = "under";
+					
+					String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
+					String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
+					
+					if(tipp.getSelection().equals(h))
+						selection = "host";	
+					if(tipp.getSelection().equals(g))
+						selection = "guest";		
+				}
+				if(tipp.getTypeOfBet().equals("Asian handicap")){
+					if(tipp.getSelection().indexOf("+") != -1)
+						selection = "take";
+					else
+						selection = "give";	
+				}
+				
+				Instance record = createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
 						liquidityPivotBias, timebeforestart, bestOdds);
 				
 				double liquidity = 100;
