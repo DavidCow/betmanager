@@ -52,7 +52,7 @@ public class RepTreeModel {
 		long timebeforestart = (tip.getGameDate().getTime() - tip.getPublicationDate().getTime())/3600000;
 		String selection = "";
 		PivotType pivotType = null;
-		double pivotValue = Double.NEGATIVE_INFINITY;
+		double pivotValue = Instance.missingValue();
 		String pivotBias = "";
 		String host = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
 		String guest = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
