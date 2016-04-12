@@ -1036,6 +1036,7 @@ public class BetAdvisorBacktest {
 		
 		// Liquidity
 		averageLiquidity /= numberOfLiquidityCalculations;
+		System.out.println("Number Of Calculated Liquidities: " +  numberOfLiquidityCalculations);
 		System.out.println("Average Liquidity: " + averageLiquidity);
 		
 		// Chart
