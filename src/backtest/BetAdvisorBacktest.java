@@ -606,7 +606,7 @@ public class BetAdvisorBacktest {
 				String source = bestSource.getSource();
 				long timebeforestart = (tipp.getGameDate().getTime() - tipp.getPublicationDate().getTime())/3600000;
 				boolean checkLiquidity = true;
-				double liquidity = 100;
+				double liquidity = 0;
 				
 				if(!model_leagues.contains(league) || !model_sources.contains(source))
 					checkLiquidity = false;
@@ -651,7 +651,7 @@ public class BetAdvisorBacktest {
 						e.printStackTrace();
 					}
 				}
-				
+				double take = liquidity;
 				
 				
 				bestOdds *= bestOddsFactor;
@@ -709,9 +709,12 @@ public class BetAdvisorBacktest {
 					if(bestOdds > 10){
 						System.out.println();
 					}
-					double take = 100;
 					numberOfAllBets++;
 					numberOfAllBetsMatchOdds++;
+					if(take > 0){
+						int a = 12;
+						int b = a;
+					}
 					if(tipp.getProfit() < 0){
 						evAllPossibleBetsTaken -= take;
 						evAllPossibleBetsTakenMatchOdds -= take;
@@ -803,7 +806,6 @@ public class BetAdvisorBacktest {
 						takenLayMovementThreshold += layMovement;
 					}
 					
-					double take = 100;
 					numberOfAllBets++;
 					numberOfAllBetsOverUnder++;
 					if(tipp.getProfit() < 0){
@@ -897,7 +899,6 @@ public class BetAdvisorBacktest {
 						takenLayMovementThreshold += layMovement;
 					}
 					
-					double take = 100;
 					numberOfAllBets++;
 					numberOfAllBetsHdp++;
 					if(tipp.getProfit() < 0){
