@@ -80,7 +80,14 @@ public class ArffCreator {
 	}
 	
 	private boolean isWomenLeague(String league){
-		if(league.contains("Woman") || league.contains("Womans") || league.contains("(w)"))
+		if(league.contains("Women") || league.contains("Womens") || league.contains("(w)"))
+			return true;
+		else
+			return false;
+	}
+	
+	public static boolean isULeague(String league){
+		if(league.matches(".*U\\d{2}.*"))
 			return true;
 		else
 			return false;
@@ -261,17 +268,17 @@ public class ArffCreator {
 	
 	public static void main(String[] args) throws JsonSyntaxException, SQLException {
 		ArffCreator analyser = new ArffCreator();
-		analyser.iterateAllEvents();
-		analyser.useStringToNominalFilter(1, 11);
-		System.out.println(analyser.data);
-		ArffSaver saver = new ArffSaver();
-		saver.setInstances(analyser.data);
-		try {
-			saver.setFile(new File("EastBridge.arff"));
-			saver.writeBatch();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		analyser.iterateAllEvents();
+//		analyser.useStringToNominalFilter(1, 11);
+//		System.out.println(analyser.data);
+//		ArffSaver saver = new ArffSaver();
+//		saver.setInstances(analyser.data);
+//		try {
+//			saver.setFile(new File("EastBridge.arff"));
+//			saver.writeBatch();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 }
