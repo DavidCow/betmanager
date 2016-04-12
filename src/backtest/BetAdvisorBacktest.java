@@ -89,7 +89,11 @@ public class BetAdvisorBacktest {
 		instance.setValue(attribute_structure.attribute(1), pivotBias);
 		instance.setValue(attribute_structure.attribute(2), league);
 		instance.setValue(attribute_structure.attribute(3), source);
-		instance.setValue(attribute_structure.attribute(4), selection);
+		try{
+			instance.setValue(attribute_structure.attribute(4), selection);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 		instance.setValue(attribute_structure.attribute(5), pivotValue);
 		instance.setValue(attribute_structure.attribute(6), timebeforestart);
 		instance.setValue(attribute_structure.attribute(7), bestOdd);
@@ -149,6 +153,10 @@ public class BetAdvisorBacktest {
 		
 		// Odds Ratio
 		double oddsRatio = 0;
+		
+		// Liquidity Calculation
+		double averageLiquidity = 0;
+		int numberOfLiquidityCalculations = 0;
 		
 		// We set the start and endIndex of considered tipps, according to the historical data that we have
 		int startI = 0;
@@ -597,37 +605,32 @@ public class BetAdvisorBacktest {
 				String league = ArffCreator2.getCleanedNames(bestSource.getLeague());
 				String source = bestSource.getSource();
 				long timebeforestart = (tipp.getGameDate().getTime() - tipp.getPublicationDate().getTime())/3600000;
+				boolean checkLiquidity = true;
+				double liquidity = 100;
 				
 				if(!model_leagues.contains(league) || !model_sources.contains(source))
-					//TODO skip record
-					System.out.println();
+					checkLiquidity = false;
 				
 				String selection = "";
 				if(tipp.getTypeOfBet().equals("Match Odds")){
 					if(tipp.getSelection().equalsIgnoreCase("draw"))
 						selection = "draw";
-					
-					String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
-					String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
-					
-					if(tipp.getSelection().equals(h))
-						selection = "host";	
-					if(tipp.getSelection().equals(g))
-						selection = "guest";		
+					else{
+						checkLiquidity = false;
+						String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
+						String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
+						
+						if(tipp.getSelection().equals(h))
+							selection = "host";	
+						if(tipp.getSelection().equals(g))
+							selection = "guest";
+					}		
 				}
 				if(tipp.getTypeOfBet().equals("Over / Under")){
-					if(tipp.getSelection().equalsIgnoreCase("over"))
+					if(tipp.getSelection().indexOf("Over") == 0)
 						selection = "over";
-					if(tipp.getSelection().equalsIgnoreCase("under"))
-						selection = "under";
-					
-					String h = BetAdvisorParser.parseHostFromEvent(tipp.getEvent());
-					String g = BetAdvisorParser.parseGuestFromEvent(tipp.getEvent());
-					
-					if(tipp.getSelection().equals(h))
-						selection = "host";	
-					if(tipp.getSelection().equals(g))
-						selection = "guest";		
+					if(tipp.getSelection().indexOf("Under") == 0)
+						selection = "under";	
 				}
 				if(tipp.getTypeOfBet().equals("Asian handicap")){
 					if(tipp.getSelection().indexOf("+") != -1)
@@ -636,15 +639,17 @@ public class BetAdvisorBacktest {
 						selection = "give";	
 				}
 				
-				Instance record = createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
-						liquidityPivotBias, timebeforestart, bestOdds);
-				
-				double liquidity = 100;
-				try {
-					liquidity = cls.classifyInstance(record);
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+				if(checkLiquidity){
+					Instance record = createWekaInstance(league, source, selection, liquidityPivotType, liquidityPivotValue,
+							liquidityPivotBias, timebeforestart, bestOdds);
+					try {
+						liquidity = cls.classifyInstance(record);
+						averageLiquidity += liquidity;
+						numberOfLiquidityCalculations++;
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 				
 				
@@ -1028,6 +1033,10 @@ public class BetAdvisorBacktest {
 		for(String s : leagues)
 			System.out.println(s);
 		System.out.println(leagues.size());
+		
+		// Liquidity
+		averageLiquidity /= numberOfLiquidityCalculations;
+		System.out.println("Average Liquidity: " + averageLiquidity);
 		
 		// Chart
 		XYSeries series = new XYSeries("Profit");
