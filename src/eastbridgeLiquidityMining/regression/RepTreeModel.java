@@ -106,7 +106,7 @@ public class RepTreeModel {
 						pivotBias = "GUEST";
 					}
 				}catch(Exception e){
-					
+					e.printStackTrace();
 				}
 			}
 			else{
@@ -126,6 +126,9 @@ public class RepTreeModel {
 					}		
 				}
 			}
+		}
+		if(selection.isEmpty()){
+			System.out.println();
 		}
 		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, bestOdd);
 		return instance;
@@ -160,9 +163,10 @@ public class RepTreeModel {
 			addLeagueMapping(league);
 			String mapped_league = league_mapping.get(league);
 			if(mapped_league.equalsIgnoreCase(""))
-				return null;
-			else
+				instance.setValue(attribute_structure.attribute(2), Instance.missingValue());
+			else{
 				instance.setValue(attribute_structure.attribute(2), mapped_league);	
+			}
 			
 			if(model_sources.contains(source))
 				instance.setValue(attribute_structure.attribute(3), source);
