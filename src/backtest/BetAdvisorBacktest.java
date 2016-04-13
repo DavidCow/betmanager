@@ -102,7 +102,7 @@ public class BetAdvisorBacktest {
 		List<Double> betEvsMaxLiquidity = new ArrayList<Double>();
 		List<Double> betLiquidities = new ArrayList<Double>();
 		List<String> liquidityTipsters = new ArrayList<String>(); 
-		RepTreeModel repTreeModel = new RepTreeModel("EastBridge6BackTest.arff", "reptree6.model");
+		RepTreeModel repTreeModel = new RepTreeModel("EastBridge6BackTest.arff", "bagging.model");
 		double averageLiquidity = 0;
 		int numberOfLiquidityCalculations = 0;
 		
