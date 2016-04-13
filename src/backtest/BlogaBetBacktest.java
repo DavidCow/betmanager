@@ -109,33 +109,33 @@ public class BlogaBetBacktest {
             objectOutputStream.close();
 		}
 
-		if(historicalDataFileEarly.exists()){
-            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly);
-            BufferedInputStream br = new BufferedInputStream(fileInput);
-            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
-            try {
-				historicalDataList.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
-			} catch (ClassNotFoundException e) {
-				e.printStackTrace();
-				System.exit(-1);
-			}
-            objectInputStream.close();
-            System.out.println("Historical data loaded from ObjectStream");
-		}
-		else{
-			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
-			List<HistoricalDataElement> historicalDataListEarly = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full");
-			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
-			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
-			System.out.println("Historical Early data loaded from CSV");
-            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
-            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
-            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
-            objectOutputStream.writeObject(historicalDataListEarly);
-            objectOutputStream.close();
-            historicalDataList.addAll(historicalDataListEarly);
-		}
-		Collections.sort(historicalDataList, new HistoricalDataComparator());
+//		if(historicalDataFileEarly.exists()){
+//            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly);
+//            BufferedInputStream br = new BufferedInputStream(fileInput);
+//            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+//            try {
+//				historicalDataList.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+//			} catch (ClassNotFoundException e) {
+//				e.printStackTrace();
+//				System.exit(-1);
+//			}
+//            objectInputStream.close();
+//            System.out.println("Historical data loaded from ObjectStream");
+//		}
+//		else{
+//			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+//			List<HistoricalDataElement> historicalDataListEarly = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full");
+//			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
+//			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
+//			System.out.println("Historical Early data loaded from CSV");
+//            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
+//            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+//            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+//            objectOutputStream.writeObject(historicalDataListEarly);
+//            objectOutputStream.close();
+//            historicalDataList.addAll(historicalDataListEarly);
+//		}
+//		Collections.sort(historicalDataList, new HistoricalDataComparator());
 		
 		// We dont have to loop over all historical data for every tipp, sonce some historical data will be
 		// From games before the tipp
