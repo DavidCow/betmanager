@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.TreeSet;
 
 import jayeson.lib.datastructure.PivotType;
+import weka.classifiers.meta.Bagging;
 import weka.classifiers.trees.REPTree;
 import weka.core.Attribute;
 import weka.core.Instance;
@@ -23,7 +24,7 @@ public class RepTreeModel {
 	private TreeSet<String> model_leagues;
 	private TreeSet<String> model_sources;
 	private Instances attribute_structure;
-	private REPTree cls;
+	private Bagging cls;
 	private HashMap<String,String> league_mapping;
 
 	public RepTreeModel(String arff_path, String model_path){
@@ -32,7 +33,7 @@ public class RepTreeModel {
 		model_sources = new TreeSet<String>();
 		league_mapping = new HashMap<String, String>();
 		try {
-			cls = (REPTree) weka.core.SerializationHelper.read(model_path);
+			cls = (Bagging) weka.core.SerializationHelper.read(model_path);
 			BufferedReader reader = new BufferedReader(new FileReader(arff_path));
 			arff = new ArffReader(reader);
 			attribute_structure = arff.getStructure();
@@ -156,11 +157,10 @@ public class RepTreeModel {
 			instance.setValue(attribute_structure.attribute(0), pivotType.toString());
 			instance.setValue(attribute_structure.attribute(1), pivotBias);
 			
-			//set league as missing value if there is no mapping to the model
 			addLeagueMapping(league);
 			String mapped_league = league_mapping.get(league);
 			if(mapped_league.equalsIgnoreCase(""))
-				instance.setValue(attribute_structure.attribute(2), null);
+				return null;
 			else
 				instance.setValue(attribute_structure.attribute(2), mapped_league);	
 			
