@@ -1,6 +1,7 @@
 package backtest;
 
 import historicalData.HdpElement;
+import historicalData.HistoricalDataComparator;
 import historicalData.HistoricalDataElement;
 import historicalData.HistoricalDataParser;
 import historicalData.OneTwoElement;
@@ -81,6 +82,7 @@ public class BlogaBetBacktest {
 		//Try to load the historical data from an object stream or load it flom csv files otherwise
 		List<HistoricalDataElement> historicalDataList = null;
 		File historicalDataFile = new File("allFullHistoricalData.dat");
+		File historicalDataFileEarly = new File("allFullHistoricalDataEarly.dat");
 		if(historicalDataFile.exists()){
             FileInputStream fileInput = new FileInputStream(historicalDataFile);
             BufferedInputStream br = new BufferedInputStream(fileInput);
@@ -106,6 +108,34 @@ public class BlogaBetBacktest {
             objectOutputStream.writeObject(historicalDataList);
             objectOutputStream.close();
 		}
+
+		if(historicalDataFileEarly.exists()){
+            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+				historicalDataList.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            System.out.println("Historical data loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> historicalDataListEarly = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full");
+			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
+			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
+			System.out.println("Historical Early data loaded from CSV");
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(historicalDataListEarly);
+            objectOutputStream.close();
+            historicalDataList.addAll(historicalDataListEarly);
+		}
+		Collections.sort(historicalDataList, new HistoricalDataComparator());
 		
 		// We dont have to loop over all historical data for every tipp, sonce some historical data will be
 		// From games before the tipp
@@ -335,6 +365,9 @@ public class BlogaBetBacktest {
 				oddsFound++;
 				if(bestOdds > tipp.getBestOdds())
 					bestOdds = tipp.getBestOdds();
+				
+				//TODO
+				//CALCULATE LIQUIDITY
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / suggestedOdds;
