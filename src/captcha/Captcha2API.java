@@ -44,7 +44,7 @@ public class Captcha2API {
 		CloseableHttpResponse response = httpClient.execute(uploadFile);
 		HttpEntity responseEntity = response.getEntity();
 		String uploadStatusString = convertStreamToString(responseEntity.getContent());
-		String idString = "INVALIID";
+		String idString = "INVALID";
 		if(uploadStatusString.indexOf("OK") == 0){
 			int startId = uploadStatusString.indexOf("|") + 1;
 			if(startId == 3){
