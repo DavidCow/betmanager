@@ -7,8 +7,6 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 
-import javafx.util.Pair;
-
 public class ScreenScraping {
 	
 	public static int getRed(int color){
@@ -52,9 +50,7 @@ public class ScreenScraping {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new Point(x, y);
-		
-		
+		return new Point(x, y);		
 	}
 
 	public static void main(String[] args) {

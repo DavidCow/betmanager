@@ -5,7 +5,9 @@ import java.awt.Desktop;
 import java.awt.Point;
 import java.awt.Robot;
 import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
@@ -20,8 +22,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import javafx.util.Pair;
-
 import javax.imageio.ImageIO;
 
 import mailParsing.GMailReader;
@@ -34,8 +34,8 @@ public class GetMailLink {
 	// Coordinate constants
 	private static final int screenX = 0;
 	private static final int screenY = 0;
-	private static final int screenWidth = 1920;
-	private static final int screenHeight = 1080;
+	private static final int screenWidth = 1680;
+	private static final int screenHeight = 1050;
 	
 	// Download folder
 	private static final String downloadFolder = "C:\\Users\\Patryk\\Desktop";
@@ -127,7 +127,7 @@ public class GetMailLink {
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
 	
-	public static void downloadImage(){
+	public static void saveImage(){
 		int x0 = screenX + (int)(1120.0 / 1680.0 * screenWidth);
 		int y0 = screenY + (int)(410.0 / 1050.0 * screenHeight);
 		robot.mouseMove(x0, y0);
@@ -141,7 +141,7 @@ public class GetMailLink {
 		}
 		
 		int x1 = screenX + (int)(1140.0 / 1680.0 * screenWidth);
-		int y1 = screenY + (int)(455.0 / 1050.0 * screenHeight);
+		int y1 = screenY + (int)(480.0 / 1050.0 * screenHeight);
 		robot.mouseMove(x1, y1);
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -152,9 +152,17 @@ public class GetMailLink {
 			e.printStackTrace();
 			System.exit(-1);
 		}
-
-		robot.keyPress(KeyEvent.VK_ENTER);
-		robot.keyRelease(KeyEvent.VK_ENTER);		
+		
+		BufferedImage image = getBufferedImageFromClipboard();
+		if(image != null){
+			File f = new File("payload.jpg");
+			try {
+				ImageIO.write(image, "jpg", f);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public static void activateWebsite(){
@@ -165,28 +173,11 @@ public class GetMailLink {
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);		
 	}
 	
-	private static String getLastDownloadedFilPath(){
-	    File uploadDirectory = new File(downloadFolder);
-	    File[] downloadedFiles = uploadDirectory.listFiles();
-
-	    Arrays.sort(downloadedFiles, new Comparator<File>() {
-	        @Override
-	        public int compare(File fileOne, File fileTwo) {
-	            return Long.valueOf(fileOne.lastModified()).compareTo(fileTwo.lastModified());
-	        }
-	    });
-
-	    for (File file : downloadedFiles) {
-	        if (file.isFile() && System.currentTimeMillis() - file.lastModified() < 10000) {
-	            return file.getAbsolutePath();
-	        }
-	    }	
-	    return "";
-	}
-	
 	public static void getBlogabetTip() {
 		// Open blogabet site
-		String url = getMail();
+		List<ParsedTextMail> mails = getBlogaBetTips(20);
+		ParsedTextMail mailToCheck = mails.get(mails.size() - 1);
+		String url = parseTipLinkFromMail(mailToCheck);
 		try {
 			openWebpage(new URL(url));
 		} catch (MalformedURLException e) {
@@ -214,7 +205,7 @@ public class GetMailLink {
 		}
 
 		// download Image
-		downloadImage();
+		saveImage();
 
 		// Sleep
 		try {
@@ -225,7 +216,7 @@ public class GetMailLink {
 		}
 
 		// Upload and crack Captcha if there was one
-		String filePath = getLastDownloadedFilPath();
+		String filePath = "payload.jpg";
 		if (!filePath.isEmpty()) {
 			System.out.println("Cracking Captcha");
 			BufferedImage img = null;
@@ -291,17 +282,55 @@ public class GetMailLink {
 		}
 	}
 	
-	public static void main(String[] args){
-		getBlogabetTip();
+	public static List<ParsedTextMail> getBlogaBetTips(int numberOfMailsToCheck){
+		GMailReader myMailReader = new GMailReader();
+		List<ParsedTextMail> mailList = myMailReader.read("blogabet", numberOfMailsToCheck);
+		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
+		for(int i = 0; i < mailList.size(); i++){
+			if(mailList.get(i).subject.contains("New pick from")){
+				result.add(mailList.get(i));
+			}
+		}
+		return result;
+	}
+	
+	public static String parseTipLinkFromMail(ParsedTextMail mail){
+		int start = mail.content.indexOf("URL in a new browser window: https") + 29;
+		int end = mail.content.indexOf("</p>", start + 31);
+		String html = mail.content.substring(start, end);
+		return html;	
 	}
 
 	public static String getMail() {
 		GMailReader myMailReader = new GMailReader();
 		List<ParsedTextMail> myMailList = myMailReader.read("logabet", 20);
-		ParsedTextMail myMail = myMailList.get(myMailList.size() - 4);
+		ParsedTextMail myMail = myMailList.get(myMailList.size() - 2);
 		int start = myMail.content.indexOf("URL in a new browser window: https") + 29;
 		int end = myMail.content.indexOf("</p>", start + 31);
 		String html = myMail.content.substring(start, end);
 		return html;
+	}
+	
+	public static BufferedImage getBufferedImageFromClipboard(){
+		//create clipboard object
+        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        try {
+            //Get data from clipboard and assign it to an image.
+            //clipboard.getData() returns an object, so we need to cast it to a BufferdImage.
+            BufferedImage image = (BufferedImage)clipboard.getData(DataFlavor.imageFlavor);
+            return image;
+        }
+        //getData throws this.
+        catch(UnsupportedFlavorException ufe) {
+            ufe.printStackTrace();
+        }       
+        catch(IOException ioe) {
+            ioe.printStackTrace();
+        }	
+        return null;
+	}
+	
+	public static void main(String[] args){
+		getBlogabetTip();
 	}
 }
