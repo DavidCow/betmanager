@@ -1,6 +1,7 @@
 package captcha;
 
 import java.awt.AWTException;
+import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -22,7 +23,7 @@ public class ScreenScraping {
 		return color & 0x000000FF;
 	}
 	
-	public static Pair<Integer, Integer> getImNotRobotBoxCoordinates(){
+	public static Point getImNotRobotBoxCoordinates(){
 		int x = -1;
 		int y = -1;
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
@@ -51,7 +52,7 @@ public class ScreenScraping {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return new Pair<Integer, Integer>(x, y);
+		return new Point(x, y);
 		
 		
 	}
