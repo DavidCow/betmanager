@@ -19,19 +19,22 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+import javafx.util.Pair;
+
 import javax.imageio.ImageIO;
 
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 import captcha.Captcha2API;
+import captcha.ScreenScraping;
 
 public class GetMailLink {
 	
 	// Coordinate constants
 	private static final int screenX = 0;
 	private static final int screenY = 0;
-	private static final int screenWidth = 1680;
-	private static final int screenHeight = 1050;
+	private static final int screenWidth = 1920;
+	private static final int screenHeight = 1080;
 	
 	// Download folder
 	private static final String downloadFolder = "C:\\Users\\Patryk\\Desktop";
@@ -115,9 +118,10 @@ public class GetMailLink {
 	}
 	
 	public static void clickIAmNotARobot(){
-		int x = screenX + (int)(715.0 / 1680.0 * screenWidth);
-		int y = screenY + (int)(265.0 / 1050.0 * screenHeight);
-		robot.mouseMove(x, y);
+//		int x = screenX + (int)(715.0 / 1680.0 * screenWidth);
+//		int y = screenY + (int)(265.0 / 1050.0 * screenHeight);
+		Pair<Integer,Integer> coordinates = ScreenScraping.getImNotRobotBoxCoordinates();
+		robot.mouseMove(coordinates.getKey(), coordinates.getValue());
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
