@@ -2,6 +2,7 @@ package blogaBet;
 
 import java.awt.AWTException;
 import java.awt.Desktop;
+import java.awt.Point;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
@@ -120,8 +121,8 @@ public class GetMailLink {
 	public static void clickIAmNotARobot(){
 //		int x = screenX + (int)(715.0 / 1680.0 * screenWidth);
 //		int y = screenY + (int)(265.0 / 1050.0 * screenHeight);
-		Pair<Integer,Integer> coordinates = ScreenScraping.getImNotRobotBoxCoordinates();
-		robot.mouseMove(coordinates.getKey(), coordinates.getValue());
+		Point coordinates = ScreenScraping.getImNotRobotBoxCoordinates();
+		robot.mouseMove(coordinates.x, coordinates.y);
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
@@ -297,7 +298,7 @@ public class GetMailLink {
 	public static String getMail() {
 		GMailReader myMailReader = new GMailReader();
 		List<ParsedTextMail> myMailList = myMailReader.read("logabet", 20);
-		ParsedTextMail myMail = myMailList.get(myMailList.size() - 3);
+		ParsedTextMail myMail = myMailList.get(myMailList.size() - 4);
 		int start = myMail.content.indexOf("URL in a new browser window: https") + 29;
 		int end = myMail.content.indexOf("</p>", start + 31);
 		String html = myMail.content.substring(start, end);
