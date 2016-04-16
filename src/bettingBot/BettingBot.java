@@ -310,6 +310,12 @@ public class BettingBot {
 									betOn = "one";
 								else if(tip.betOn.equalsIgnoreCase(tip.guest))
 									betOn = "two";
+								else if(TeamMapping.teamsMatch(tip.betOn, tip.host) && !TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+									betOn = "one";
+								}
+								else if(!TeamMapping.teamsMatch(tip.betOn, tip.host) && TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+									betOn = "two";
+								}
 								else if(tip.betOn.equalsIgnoreCase("draw"))
 									betOn = "draw";
 								
@@ -682,6 +688,22 @@ public class BettingBot {
 									}
 								}
 								else if(tip.betOn.equals(tip.guest)){
+									if(tip.pivotBias.equals("GUEST")){
+										betOn = "give";
+									}
+									if(tip.pivotBias.equals("HOST")){
+										betOn = "take";
+									}
+								}
+								else if(TeamMapping.teamsMatch(tip.betOn, tip.host) && !TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+									if(tip.pivotBias.equals("HOST")){
+										betOn = "give";
+									}
+									if(tip.pivotBias.equals("GUEST")){
+										betOn = "take";
+									}
+								}
+								else if(!TeamMapping.teamsMatch(tip.betOn, tip.host) && TeamMapping.teamsMatch(tip.betOn, tip.guest)){
 									if(tip.pivotBias.equals("GUEST")){
 										betOn = "give";
 									}
