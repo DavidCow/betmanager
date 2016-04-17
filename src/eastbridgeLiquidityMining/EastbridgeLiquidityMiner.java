@@ -5,8 +5,9 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.sql.SQLException;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import jayeson.lib.datastructure.PivotType;
@@ -146,11 +147,20 @@ public class EastbridgeLiquidityMiner {
 			long time = System.currentTimeMillis();
 			
 			/* Iterate over currently available events */
-			for (SoccerEvent event : events) {					
+			for (SoccerEvent event : events) {		
+				String host = event.getHost();
+				if(host.indexOf("No.of Corners") != -1){
+					continue;
+				}
+				if(host.indexOf("Total Bookings") != -1){
+					continue;
+				}
+
 				String eventJsonString = gson.toJson(event);
 				int eventId = database.addEvent(time, eventJsonString);	
-				
 				Collection<Record> records = event.getRecords();	
+				Map<String, Double> bestOdds = new HashMap<String, Double>();
+				Map<String, Record> bestRecords = new HashMap<String, Record>();
 				for(Record record : records){
 					String company = record.getSource().toLowerCase();
 					String market = record.getOddType().toString().toLowerCase();
@@ -158,36 +168,162 @@ public class EastbridgeLiquidityMiner {
 					int oddId = record.getOddId();
 					
 					String recordJsonString = gson.toJson(record);
+					long recordTime = System.currentTimeMillis();
+					long eventStartTime = event.getLiveState().getStartTime();
 					
 					if(record.getPivotType() == PivotType.HDP){
-						String betTicketJsonString = BettingApi.getBetTicket(company, "give", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
-						betTicketJsonString = BettingApi.getBetTicket(company, "take", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
+						//give == Over
+						double odds = record.getRateOver();
+						String pivotType = record.getPivotType().toString();
+						String selection = "give";
+						String key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
+						odds = record.getRateOver();
+						pivotType = record.getPivotType().toString();
+						// take == under
+						selection = "take";
+						key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
 					}
 					if(record.getPivotType() == PivotType.TOTAL){
-						String betTicketJsonString = BettingApi.getBetTicket(company, "under", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
-						betTicketJsonString = BettingApi.getBetTicket(company, "over", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);				
+						//over == Over
+						double odds = record.getRateOver();
+						String pivotType = record.getPivotType().toString();
+						String selection = "over";
+						String key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
+						odds = record.getRateOver();
+						pivotType = record.getPivotType().toString();
+						// take == under
+						selection = "under";
+						key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
 					}
 					if(record.getPivotType() == PivotType.ONE_TWO){
-						String betTicketJsonString = BettingApi.getBetTicket(company, "one", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
-						betTicketJsonString = BettingApi.getBetTicket(company, "two", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
-						betTicketJsonString = BettingApi.getBetTicket(company, "draw", market, recordEventId, oddId, -1, -1);
-						database.addRecord(time, recordJsonString, betTicketJsonString, eventId);
+						//over == Over
+						double odds = record.getRateOver();
+						String pivotType = record.getPivotType().toString();
+						String selection = "one";
+						String key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
+						odds = record.getRateOver();
+						pivotType = record.getPivotType().toString();
+						// take == under
+						selection = "two";
+						key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
+						odds = record.getRateOver();
+						pivotType = record.getPivotType().toString();
+						// take == under
+						selection = "draw";
+						key = pivotType + record.getPivotValue() + selection;
+						if(bestOdds.containsKey(key)){
+							double bOdds = bestOdds.get(key);
+							if(odds > bOdds){
+								bestOdds.put(key, odds);
+								bestRecords.put(key, record);
+							}
+						}
+						else{
+							bestOdds.put(key, odds);
+							bestRecords.put(key, record);			
+						}
 					}
 				}
-			}		
-			
-			try {
-				Thread.sleep(10 * 60 * 1000);
-		} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+					
+				for(String key : bestRecords.keySet()){
+					String selection = "INVALID";
+					if(key.indexOf("give") != -1)
+						selection = "give";
+					if(key.indexOf("take") != -1)
+						selection = "take";
+					if(key.indexOf("over") != -1)
+						selection = "over";
+					if(key.indexOf("under") != -1)
+						selection = "under";
+					if(key.indexOf("one") != -1)
+						selection = "one";
+					if(key.indexOf("two") != -1)
+						selection = "two";
+					if(key.indexOf("draw") != -1)
+						selection = "draw";
+					if(selection.equals("INVALID")){
+						throw new RuntimeException();
+					}
+					Record record = bestRecords.get(key);
+					String recordJsonString = gson.toJson(record);
+					String company = record.getSource().toLowerCase();
+					String market = record.getOddType().toString().toLowerCase();
+					String recordEventId = record.getEventId();
+					int oddId = record.getOddId();
+					String betTicketJsonString = BettingApi.getBetTicket(company, selection, market, recordEventId, oddId, -1, -1);
+					long eventStartTime = event.getLiveState().getStartTime();
+					long recordTime = System.currentTimeMillis();
+					database.addRecord(recordTime, recordJsonString, betTicketJsonString, eventId, eventStartTime, selection);
+					System.out.println();
+				}			
+			}	
+			System.out.println("Iteration done!");
 		}
 	}
 	

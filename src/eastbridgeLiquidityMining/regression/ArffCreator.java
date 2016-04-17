@@ -256,15 +256,14 @@ public class ArffCreator {
 //					System.out.println();
 				recordCounter++;
 				
-//				if(betTicket.getMaxStake() < 100){
-//					System.out.println(host);
-//					System.out.println(guest);
-//					System.out.println(league);
-//					System.out.println(betTicket.getMaxStake());
-//					System.out.println(record.getOddType().toString());
-//					System.out.println("****************************************************************");
-//				}
-				
+				if(betTicket.getMaxStake() > 10000){
+					System.out.println(host);
+					System.out.println(guest);
+					System.out.println(league);
+					System.out.println(betTicket.getMaxStake());
+					System.out.println(record.getOddType().toString());
+					System.out.println("****************************************************************");
+				}
 			}
 
 		}
@@ -292,7 +291,7 @@ public class ArffCreator {
 		ArffSaver saver = new ArffSaver();
 		saver.setInstances(analyser.data);
 		try {
-			saver.setFile(new File("EastBridge5.arff"));
+			saver.setFile(new File("EastBridge7.arff"));
 			saver.writeBatch();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

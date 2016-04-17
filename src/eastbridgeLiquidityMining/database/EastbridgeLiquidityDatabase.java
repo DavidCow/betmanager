@@ -10,9 +10,9 @@ import java.sql.Statement;
 
 public class EastbridgeLiquidityDatabase {
 	
-	private String dbName = "EastBridge2";
+	private String dbName = "EastBridgeLiquidity";
 	private static String userName = "postgres";
-	private static String password = "fischkopf";
+	private static String password = "postgrespass";
 	private static String port = "5433";
 
 	private Connection       db;        // A connection to the database
@@ -43,6 +43,8 @@ public class EastbridgeLiquidityDatabase {
 	            " recordJsonString TEXT NOT NULL, " +
 	            " betTicketJsonString TEXT NOT NULL, " +
 	            " eventId INTEGER, " + 
+	            " eventStartTime BIGINT, " + 
+	            " selection VARCHAR, " + 
 	            " FOREIGN KEY ( eventId ) REFERENCES events (id) ON DELETE CASCADE, " + 
 	            " PRIMARY KEY ( id ))"; 
 	    sql.executeUpdate(createRecords);	    
@@ -66,7 +68,7 @@ public class EastbridgeLiquidityDatabase {
 		return id;
 	}
 	
-	public void addRecord(long time, String recordJsonString, String betTicketJsonString, int eventId){
+	public void addRecord(long time, String recordJsonString, String betTicketJsonString, int eventId, long eventStartTime, String selection){
 		Statement sT = null;
 		try {
 			sT = db.createStatement();
@@ -74,8 +76,8 @@ public class EastbridgeLiquidityDatabase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String inserString = "INSERT INTO records(id, time, recordJsonString, betTicketJsonString, eventId) VALUES(DEFAULT, " + time
-				+ ",'" + recordJsonString + "','" + betTicketJsonString + "'," + eventId + ")";
+		String inserString = "INSERT INTO records(id, time, recordJsonString, betTicketJsonString, eventId, eventStartTime, selection) VALUES(DEFAULT, " + time
+				+ ",'" + recordJsonString + "','" + betTicketJsonString + "'," + eventId + "," + eventStartTime + ",'" + selection + "')";
 		try {
 			sT.execute(inserString);
 		} catch (SQLException e) {

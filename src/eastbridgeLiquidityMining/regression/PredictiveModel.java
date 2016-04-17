@@ -9,7 +9,6 @@ import java.util.TreeSet;
 
 import jayeson.lib.datastructure.PivotType;
 import weka.classifiers.meta.Bagging;
-import weka.classifiers.trees.REPTree;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
@@ -17,9 +16,9 @@ import weka.core.converters.ArffLoader.ArffReader;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
 import bettingBot.LeagueMapping;
-import bettingBot.LetterPairSimilarity;
+import blogaBetHistoricalDataParsing.BlogaBetElement;
 
-public class RepTreeModel {
+public class PredictiveModel {
 	
 	private TreeSet<String> model_leagues;
 	private TreeSet<String> model_sources;
@@ -27,7 +26,7 @@ public class RepTreeModel {
 	private Bagging cls;
 	private HashMap<String,String> league_mapping;
 
-	public RepTreeModel(String arff_path, String model_path){
+	public PredictiveModel(String arff_path, String model_path){
 		ArffReader arff;
 		model_leagues = new TreeSet<String>();
 		model_sources = new TreeSet<String>();
@@ -51,6 +50,56 @@ public class RepTreeModel {
 		}		
 	}
 	
+	public Instance createWekaInstance(HistoricalDataElement bestSource, BlogaBetElement tip, double bestOdd){
+		Instance instance = null;
+		String league = ArffCreator.getCleanedNames(bestSource.getLeague());
+		String source = bestSource.getSource();
+		long timebeforestart = (tip.getGameDate().getTime() - tip.getPublicationDate().getTime())/3600000;
+		String selection = "";
+		PivotType pivotType = null;
+		double pivotValue = Instance.missingValue();
+		String pivotBias = tip.getPivotBias();
+		String host = tip.getHost();
+		String guest = tip.getGuest();
+		if(tip.getTypeOfBet().indexOf("Match Odds") == 0){
+			pivotBias = "NEUTRAL";
+			pivotType = PivotType.ONE_TWO;
+			if(tip.getTipTeam().equalsIgnoreCase("Draw"))
+				selection = "draw";
+			else{
+				String h = tip.getHost();
+				String g = tip.getGuest();
+				
+				if(tip.getTipTeam().equals(h))
+					selection = "one";	
+				if(tip.getTipTeam().equals(g))
+					selection = "two";
+			}		
+		}
+		if(tip.getTypeOfBet().indexOf("Over Under") == 0){
+			pivotType = PivotType.TOTAL;
+			if(tip.getTipTeam().toUpperCase().indexOf("OVER") != -1)
+				selection = "over";
+			if(tip.getTipTeam().toUpperCase().indexOf("UNDER") != -1)
+				selection = "under";	
+			pivotValue = tip.getPivotValue();
+			pivotBias = "NEUTRAL";
+		}
+		if(tip.getTypeOfBet().indexOf("Asian Handicap") == 0){
+			pivotType = PivotType.HDP;
+			if(tip.getSelection().indexOf("+") != -1)
+				selection = "take";
+			else
+				selection = "give";	
+			pivotValue = tip.getPivotValue();
+		}
+		if(selection.isEmpty()){
+			System.out.println();
+		}
+		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, bestOdd);
+		return instance;				
+	}
+	
 	public Instance createWekaInstance(HistoricalDataElement bestSource, BetAdvisorElement tip, double bestOdd){
 		Instance instance = null;
 		String league = ArffCreator.getCleanedNames(bestSource.getLeague());
@@ -62,47 +111,53 @@ public class RepTreeModel {
 		String pivotBias = "";
 		String host = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
 		String guest = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
-		if(tip.getTypeOfBet().equals("Match Odds")){
+		if(tip.getTypeOfBet().indexOf("Match Odds") == 0){
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replaceAll(" Half time", "");
 			pivotBias = "NEUTRAL";
 			pivotType = PivotType.ONE_TWO;
-			if(tip.getSelection().equalsIgnoreCase("draw"))
+			if(selectionString.equalsIgnoreCase("draw"))
 				selection = "draw";
 			else{
 				String h = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
 				String g = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
 				
-				if(tip.getSelection().equals(h))
+				if(selectionString.equals(h))
 					selection = "one";	
-				if(tip.getSelection().equals(g))
+				if(selectionString.equals(g))
 					selection = "two";
 			}		
 		}
-		if(tip.getTypeOfBet().equals("Over / Under")){
+		if(tip.getTypeOfBet().indexOf("Over / Under") == 0){
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replaceAll(" Half time", "");
 			pivotType = PivotType.TOTAL;
-			if(tip.getSelection().indexOf("Over") == 0)
+			if(selectionString.indexOf("Over") == 0)
 				selection = "over";
-			if(tip.getSelection().indexOf("Under") == 0)
+			if(selectionString.indexOf("Under") == 0)
 				selection = "under";	
-			int totalStart = tip.getSelection().lastIndexOf("+") + 1;
-			String totalString = tip.getSelection().substring(totalStart);
+			int totalStart = selectionString.lastIndexOf("+") + 1;
+			String totalString = selectionString.substring(totalStart);
 			pivotValue = Double.parseDouble(totalString);
 			pivotBias = "NEUTRAL";
 		}
-		if(tip.getTypeOfBet().equals("Asian handicap")){
+		if(tip.getTypeOfBet().indexOf("Asian handicap") == 0 || tip.getTypeOfBet().indexOf("Asian Handicap") == 0){
 			pivotType = PivotType.HDP;
 			if(tip.getSelection().indexOf("+") != -1)
 				selection = "take";
 			else
 				selection = "give";	
-			int pivotStart = tip.getSelection().lastIndexOf("-") + 1;
-			if(pivotStart != -1){
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replace(" Half time", "");
+			int pivotStart = selectionString.lastIndexOf("-") + 1;
+			if(pivotStart != 0){
 				try{
-					String pivotString = tip.getSelection().substring(pivotStart);
+					String pivotString = selectionString.substring(pivotStart);
 					pivotValue = Double.parseDouble(pivotString);
-					if(tip.getSelection().contains(host)){
+					if(selectionString.contains(host)){
 						pivotBias = "HOST";
 					}
-					else if(tip.getSelection().contains(guest)){
+					else if(selectionString.contains(guest)){
 						pivotBias = "GUEST";
 					}
 				}catch(Exception e){
@@ -110,10 +165,10 @@ public class RepTreeModel {
 				}
 			}
 			else{
-				pivotStart = tip.getSelection().lastIndexOf("+") + 1;
+				pivotStart = selectionString.lastIndexOf("+") + 1;
 				if(pivotStart != -1){
 					try{
-						String pivotString = tip.getSelection().substring(pivotStart);
+						String pivotString = selectionString.substring(pivotStart);
 						pivotValue = Double.parseDouble(pivotString);
 						if(tip.getSelection().contains(host)){
 							pivotBias = "GUEST";
@@ -158,7 +213,10 @@ public class RepTreeModel {
 		try{
 			Instance instance = new Instance(attribute_structure.numAttributes());
 			instance.setValue(attribute_structure.attribute(0), pivotType.toString());
-			instance.setValue(attribute_structure.attribute(1), pivotBias);
+			if(pivotBias.equals("?"))
+				instance.setValue(attribute_structure.attribute(1), Instance.missingValue());
+			else
+				instance.setValue(attribute_structure.attribute(1), pivotBias);
 			
 			addLeagueMapping(league);
 			String mapped_league = league_mapping.get(league);
