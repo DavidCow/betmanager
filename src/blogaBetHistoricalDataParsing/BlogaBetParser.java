@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DateFormat;
+import java.text.Normalizer;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -71,7 +72,7 @@ public class BlogaBetParser {
 		            		// tipster
 		            		String tipster = tokens[13];
 		            		// selection
-		            		String selection = tokens[7];
+		            		String selection = Normalizer.normalize(tokens[7], Normalizer.Form.NFD);
 		            		// bestOdds
 		            		double bestOdds = Double.parseDouble(tokens[10]);
 		            		// result
@@ -86,7 +87,10 @@ public class BlogaBetParser {
 		            		double pivotvalue = parsePivotValue(selection, typeOfBet, host, guest);
 		            		// tip
 		            		String tipTeam = parseTipTeam(selection, typeOfBet, host, guest);
-		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest, pivotvalue, tipTeam);
+		            		// pivot Bias
+		            		String pivotBias = parsePivotBias(selection, typeOfBet, host, guest, pivotvalue);
+		            		
+		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest, pivotvalue, tipTeam, pivotBias);
 		            		res.add(element);
            		
 		            	}catch(Exception e){
@@ -230,6 +234,89 @@ public class BlogaBetParser {
 		return res;
 	}
 	
+	public static String parsePivotBias(String selection, String typeOfBet, String host, String guest, double pivotValue){
+		String res = "NEUTRAL";
+		if(typeOfBet.equals("Asian Handicap") && pivotValue != 0){
+			res = "?";
+			String upperSelection = selection.toUpperCase();
+			String upperHost = host.toUpperCase();
+			String upperGuest = guest.toUpperCase();
+			if(upperSelection.indexOf("HOME") != -1){
+				if(upperSelection.contains("+")){
+					res = "GUEST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "HOST";
+				}
+			}
+			else if(upperSelection.indexOf("GUEST") != -1){
+				if(upperSelection.contains("+")){
+					res = "HOST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "GUEST";
+				}
+			}
+			else if(upperSelection.indexOf("AWAY") != -1){
+				if(upperSelection.contains("+")){
+					res = "HOST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "GUEST";
+				}
+			}
+			else if(upperSelection.indexOf(" 1") != -1){
+				if(upperSelection.contains("+")){
+					res = "GUEST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "HOST";
+				}
+			}
+			else if(upperSelection.indexOf(" 2") != -1){
+				if(upperSelection.contains("+")){
+					res = "HOST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "GUEST";
+				}
+			}
+			else if(upperSelection.indexOf(upperHost) != -1){
+				if(upperSelection.contains("+")){
+					res = "GUEST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "HOST";
+				}
+			}
+			else if(upperSelection.indexOf(upperGuest) != -1){
+				if(upperSelection.contains("+")){
+					res = "HOST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "GUEST";
+				}
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperHost)){
+				if(upperSelection.contains("+")){
+					res = "GUEST";
+				}
+				else if(upperSelection.contains("-")){
+					res = "HOST";
+				}
+			}
+			else if(TeamMapping.teamsMatch(upperSelection, upperGuest)){
+				if(upperSelection.contains("+")){
+					res = "host";
+				}
+				else if(upperSelection.contains("-")){
+					res = "guest";
+				}
+			}			
+		}
+		return res;
+	}
+	
 	public static double parsePivotValue(String selection, String typeOfBet, String host, String guest){
 		String upperSelection = selection.toUpperCase();
 		String upperHost = host.toUpperCase();
@@ -333,7 +420,7 @@ public class BlogaBetParser {
 		String upperHost = host.toUpperCase();
 		String upperGuest = guest.toUpperCase();
 		
-		if(typeOfBet.equals("Match Odds")){
+		if(typeOfBet.indexOf("Match Odds") == 0){
 			if(upperSelection.indexOf("DRAW") != -1){
 				res = "Draw";
 			}
@@ -362,7 +449,7 @@ public class BlogaBetParser {
 				res = guest;
 			}
 		}
-		if(typeOfBet.equals("Over Under")){
+		if(typeOfBet.indexOf("Over Under") == 0){
 			upperSelection = upperSelection.replaceAll("OVERTIME", "");
 			upperSelection = upperSelection.replaceAll("OVER/UNDER", "");
 			upperSelection = upperSelection.replaceAll("OVER UNDER", "");
@@ -374,7 +461,7 @@ public class BlogaBetParser {
 			else if(overIndex == -1 && underIndex != -1)
 				res = "Under";		
 		}
-		if(typeOfBet.equals("Asian Handicap")){
+		if(typeOfBet.indexOf("Asian Handicap") == 0){
 			if(upperSelection.indexOf("HOME") != -1){
 				res = host;
 			}
@@ -403,7 +490,7 @@ public class BlogaBetParser {
 				res = guest;
 			}
 		}
-		if(typeOfBet.equals("Asian Handicap")){
+		if(typeOfBet.indexOf("Asian Handicap") == 0){
 			if(res.equals("INVALID")){
 				System.out.println();
 			}
@@ -480,7 +567,7 @@ public class BlogaBetParser {
 		BufferedWriter writer = new BufferedWriter(new FileWriter(f));
 		for(int i = 0; i < l.size(); i++){
 			BlogaBetElement e = l.get(i);
-			if(!e.getTypeOfBet().contains(" Half Time")){
+			if(!e.getTypeOfBet().equals("INVALID")){
 				writer.write(e.getSelection() + "\n");
 			}
 		}

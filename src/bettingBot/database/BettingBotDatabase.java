@@ -20,7 +20,7 @@ import mailParsing.ParsedTextMail;
 
 public class BettingBotDatabase {
 
-	private String dbName = "BettingBot";
+	private String dbName = "BettingBotNew";
 	private static String userName = "postgres";
 	private static String password = "postgrespass";
 	private static String port = "5432";

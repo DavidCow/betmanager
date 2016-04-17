@@ -135,8 +135,6 @@ public class GetMailLink {
 	}
 	
 	public static void saveImage(){
-//		int x0 = screenX + (int)(1120.0 / 1680.0 * screenWidth);
-//		int y0 = screenY + (int)(410.0 / 1050.0 * screenHeight);
 		Point p = ScreenScraping.getCaptchaClickPoint();
 		int x0 = p.x;
 		int y0 = p.y;
@@ -173,30 +171,6 @@ public class GetMailLink {
 		} catch (Exception e){
 			e.printStackTrace();
 		} 
-		
-//		int x1 = screenX + (int)(1140.0 / 1680.0 * screenWidth);
-//		int y1 = screenY + (int)(480.0 / 1050.0 * screenHeight);
-//		robot.mouseMove(x1, y1);
-//		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-//		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-//
-//		try {
-//			Thread.sleep(2000);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//			System.exit(-1);
-//		}
-//		
-//		BufferedImage image = getBufferedImageFromClipboard();
-//		if(image != null){
-//			File f = new File("payload.jpg");
-//			try {
-//				ImageIO.write(image, "jpg", f);
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-//		}
 	}
 	
 	public static void activateWebsite(){
@@ -294,6 +268,12 @@ public class GetMailLink {
 			}
 		}		
 
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		activateWebsite();
 		// Sleep
 		try {

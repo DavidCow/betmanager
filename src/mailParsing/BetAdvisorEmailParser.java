@@ -298,12 +298,23 @@ public class BetAdvisorEmailParser {
 			betOn = betOn.replaceAll(" Half Time", "");
 			result.betOn = betOn;			
 		}
+		else if(typeOfBet.indexOf("Over / Under Team") == 0){
+			int betOnEnd = cleanedMail.indexOf("\n", betOnStart) - 1;
+			String betOn = cleanedMail.substring(betOnStart, betOnEnd);	
+			if(betOn.indexOf("Over") != -1){
+				betOn = "Over";
+			}
+			else if(betOn.indexOf("Under") != -1){
+				betOn = "Under";
+			}
+			result.betOn = betOn;			
+		}
 		else{
 			int betOnEnd = cleanedMail.indexOf("\n", betOnStart) - 1;
 			String betOn = cleanedMail.substring(betOnStart, betOnEnd);		
 			result.betOn = betOn;		
 		}
-		
+			
 		/* Parse pivot value */
 		if(typeOfBet.indexOf("Over / Under") == 0){
 			int pivotValueStart = cleanedMail.indexOf("+", betOnStart) + 1;
@@ -311,6 +322,16 @@ public class BetAdvisorEmailParser {
 			String pivotValueString = cleanedMail.substring(pivotValueStart, pivotValueEnd);
 			double pivotValue = Double.parseDouble(pivotValueString);
 			result.pivotValue = pivotValue;
+			
+			// Parse "pivot bias" for Over / Under Team
+			if(typeOfBet.indexOf("Team") != -1){
+				if(betOnLine.indexOf(host) != -1){
+					result.pivotBias = host;
+				}
+				else if(betOnLine.indexOf(guest) != -1){
+					result.pivotBias = guest;
+				}
+			}
 		}
 		else if(typeOfBet.indexOf("Asian handicap") == 0){
 			int pivotValueStart = betOnLine.indexOf("+");
@@ -411,7 +432,7 @@ public class BetAdvisorEmailParser {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 100);
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){

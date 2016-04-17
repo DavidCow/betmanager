@@ -18,16 +18,14 @@ public class BlogaBetElement {
 	private String guest;
 	private double pivotValue;
 	private String tipTeam;
+	private String pivotBias;
 	
 
 	
-	
-
-
 	public BlogaBetElement(Date gameDate, Date publicationDate, String sport,
 			String competition, String event, String tipster, String selection,
 			String typeOfBet, double bestOdds, String result, String host,
-			String guest, double pivotValue, String tipTeam) {
+			String guest, double pivotValue, String tipTeam, String pivotBias) {
 		super();
 		this.gameDate = gameDate;
 		this.publicationDate = publicationDate;
@@ -43,8 +41,9 @@ public class BlogaBetElement {
 		this.guest = guest;
 		this.pivotValue = pivotValue;
 		this.tipTeam = tipTeam;
+		this.pivotBias = pivotBias;
 	}
-
+	
 	
 
 	/* (non-Javadoc)
@@ -58,9 +57,31 @@ public class BlogaBetElement {
 				+ ", selection=" + selection + ", typeOfBet=" + typeOfBet
 				+ ", bestOdds=" + bestOdds + ", result=" + result + ", host="
 				+ host + ", guest=" + guest + ", pivotValue=" + pivotValue
-				+ ", tipTeam=" + tipTeam + "]";
+				+ ", tipTeam=" + tipTeam + ", pivotBias=" + pivotBias + "]";
 	}
 	
+	
+
+
+
+	/**
+	 * @return the pivotBias
+	 */
+	public String getPivotBias() {
+		return pivotBias;
+	}
+
+
+
+	/**
+	 * @param pivotBias the pivotBias to set
+	 */
+	public void setPivotBias(String pivotBias) {
+		this.pivotBias = pivotBias;
+	}
+
+
+
 	/**
 	 * @return the tipTeam
 	 */
