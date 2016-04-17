@@ -66,9 +66,10 @@ public class Captcha2API {
 			// optional default is GET
 			con.setRequestMethod("GET");
 			String captchaResultString = convertStreamToString(con.getInputStream());
-			if(captchaResultString.equals("CAPCHA_NOT_READY")){
+			
+			while(captchaResultString.equals("CAPCHA_NOT_READY")){
 				try {
-					Thread.sleep(10000);
+					Thread.sleep(3000);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 					System.exit(-1);
