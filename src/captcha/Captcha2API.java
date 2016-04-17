@@ -26,6 +26,8 @@ public class Captcha2API {
 	}
 	
 	public static List<Integer> breakCaptcha(String captchaImagePath) throws ClientProtocolException, IOException{
+		String captchaQuestion = ScreenScraping.getCaptchaSelectionString();
+		
 		List<Integer> res = new ArrayList<Integer>();
 		
 		// Upload captcha

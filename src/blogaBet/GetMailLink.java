@@ -78,8 +78,9 @@ public class GetMailLink {
 		int x = p.x;
 		int y = p.y;
 		
-		int numRows = 3;
-		int numCols = 3;
+		int numCells = ScreenScraping.getNumberOfCells();
+		int numRows = numCells;
+		int numCols = numCells;
 		int w = ScreenScraping.getCaptchaWidth();
 		int cellWidth = ScreenScraping.getCaptchaWidth() / numCols;
 		int cellHeight = ScreenScraping.getCaptchaWidth() / numRows;
@@ -208,7 +209,7 @@ public class GetMailLink {
 	
 	public static void getBlogabetTip() {
 		// Open blogabet site
-		List<ParsedTextMail> mails = getBlogaBetTips(20);
+		List<ParsedTextMail> mails = getBlogaBetTips(50);
 		ParsedTextMail mailToCheck = mails.get(mails.size() - 1);
 		String url = parseTipLinkFromMail(mailToCheck);
 		try {

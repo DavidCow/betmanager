@@ -1,11 +1,20 @@
 package captcha;
 
 import java.awt.AWTException;
+import java.awt.Graphics2D;
+import java.awt.Image;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+import net.sourceforge.tess4j.Tesseract;
+import net.sourceforge.tess4j.TesseractException;
 
 public class ScreenScraping {
 	
@@ -18,6 +27,11 @@ public class ScreenScraping {
 			System.out.println("PROGRAM WILL EXIT");
 			System.exit(-1);
 		}
+	}
+	
+	private static Tesseract tesseract = new Tesseract();
+	static{
+		tesseract.setLanguage("deu");
 	}
 	
 	public static int getRed(int color){
@@ -616,18 +630,414 @@ public class ScreenScraping {
 		}		
 		return null;		
 	}
+	
+	public static String getCaptchaSelectionString(){
+		// Colors of the blue box on the top
+		final int boxRed = 74;
+		final int boxGreen = 144;
+		final int boxBlue = 226;
+		
+		// How much the colors can differ
+		final int colorTolerance = 5;
+		
+		// The minimum width and height of the box
+		final int minWidth = 250;
+		final int minHeight = 80;
+		
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		
+		int resX0 = -1;
+		int resY0 = -1;
+		
+		int resX1 = -1;
+		int resY1 = -1;
+		
+		int resX2 = -1;
+		int resY2 = -1;
+	
+		
+		// Get Upper Left Corner
+		for(int x = 0; x < width; x++){
+			if(x > width - minWidth)
+				continue;
+			
+			boolean breakX = false;
+			
+			for(int y = 0; y < height; y++){
+				if(y > height - minHeight)
+					continue;
+				
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(Math.abs(red - boxRed) <= colorTolerance && Math.abs(green - boxGreen) <= colorTolerance && Math.abs(blue - boxBlue) <= colorTolerance){
+					boolean xOk = true;
+					for(int x2 = x; x2 < x + minWidth; x2++){
+						int indexInner = y * width + x2;
+						int redInner = getRed(dataBuffInt[indexInner]);
+						int greenInner = getGreen(dataBuffInt[indexInner]);
+						int blueInner = getBlue(dataBuffInt[indexInner]);
+						if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+								Math.abs(greenInner - boxGreen) <= colorTolerance && 
+									Math.abs(blueInner - boxBlue) <= colorTolerance)){
+							xOk = false;
+							break;
+						}
+					}
+					if(xOk){
+						boolean yOk = true;
+						for(int y2 = y; y2 < y + minHeight; y2++){
+							int indexInner = y2 * width + x;
+							int redInner = getRed(dataBuffInt[indexInner]);
+							int greenInner = getGreen(dataBuffInt[indexInner]);
+							int blueInner = getBlue(dataBuffInt[indexInner]);
+							if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+									Math.abs(greenInner - boxGreen) <= colorTolerance && 
+										Math.abs(blueInner - boxBlue) <= colorTolerance)){
+								yOk = false;
+								break;
+							}
+						}
+						if(yOk){
+							resX0 = x;
+							resY0 = y;
+							breakX = true;
+							break;
+						}
+					}
+				}		
+			}
+			if(breakX)
+				break;
+		}
+		
+		// Get Upper Right Corner
+		for(int x = width - 1; x >= 0; x--){
+			boolean breakX = false;
+			
+			if(x <= minWidth)
+				continue;
+			
+			for(int y = 0; y < height; y++){
+				if(y > height - minHeight)
+					continue;
+				
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(Math.abs(red - boxRed) <= colorTolerance && Math.abs(green - boxGreen) <= colorTolerance && Math.abs(blue - boxBlue) <= colorTolerance){
+					boolean xOk = true;
+					for(int x2 = x; x2 >= x - minWidth; x2--){
+						int indexInner = y * width + x2;
+						int redInner = getRed(dataBuffInt[indexInner]);
+						int greenInner = getGreen(dataBuffInt[indexInner]);
+						int blueInner = getBlue(dataBuffInt[indexInner]);
+						if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+								Math.abs(greenInner - boxGreen) <= colorTolerance && 
+									Math.abs(blueInner - boxBlue) <= colorTolerance)){
+							xOk = false;
+							break;
+						}
+					}
+					if(xOk){
+						boolean yOk = true;
+						for(int y2 = y; y2 < y + minHeight; y2++){
+							int indexInner = y2 * width + x;
+							int redInner = getRed(dataBuffInt[indexInner]);
+							int greenInner = getGreen(dataBuffInt[indexInner]);
+							int blueInner = getBlue(dataBuffInt[indexInner]);
+							if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+									Math.abs(greenInner - boxGreen) <= colorTolerance && 
+										Math.abs(blueInner - boxBlue) <= colorTolerance)){
+								yOk = false;
+								break;
+							}
+						}
+						if(yOk){
+							resX1 = x;
+							resY1 = y;
+							breakX = true;
+							break;
+						}
+					}
+				}	
+			}
+			if(breakX)
+				break;
+		}
+		
+		// Get Bottom Left Corner
+		for(int x = 0; x < width; x++){
+			if(x > width - minWidth)
+				continue;
+			
+			boolean breakX = false;
+			
+			for(int y = height - 1; y >= 0; y--){
+				if(y <= minHeight)
+					continue;
+				
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(Math.abs(red - boxRed) <= colorTolerance && Math.abs(green - boxGreen) <= colorTolerance && Math.abs(blue - boxBlue) <= colorTolerance){
+					boolean xOk = true;
+					for(int x2 = x; x2 < x + minWidth; x2++){
+						int indexInner = y * width + x2;
+						int redInner = getRed(dataBuffInt[indexInner]);
+						int greenInner = getGreen(dataBuffInt[indexInner]);
+						int blueInner = getBlue(dataBuffInt[indexInner]);
+						if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+								Math.abs(greenInner - boxGreen) <= colorTolerance && 
+									Math.abs(blueInner - boxBlue) <= colorTolerance)){
+							xOk = false;
+							break;
+						}
+					}
+					if(xOk){
+						boolean yOk = true;
+						for(int y2 = y; y2 > y - minHeight; y2--){
+							int indexInner = y2 * width + x;
+							int redInner = getRed(dataBuffInt[indexInner]);
+							int greenInner = getGreen(dataBuffInt[indexInner]);
+							int blueInner = getBlue(dataBuffInt[indexInner]);
+							if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+									Math.abs(greenInner - boxGreen) <= colorTolerance && 
+										Math.abs(blueInner - boxBlue) <= colorTolerance)){
+								yOk = false;
+								break;
+							}
+						}
+						if(yOk){
+							resX2 = x;
+							resY2 = y;
+							breakX = true;
+							break;
+						}
+					}
+				}		
+			}
+			if(breakX)
+				break;
+		}
+		
+		if(resX0 != -1 && resX1 != -1 && resX2 != -1){
+			int w = resX1 - resX0 - 10;
+			int h = resY2 - resY0 - 10;
+			BufferedImage img2 = capture.getSubimage(resX0 + 5, resY0 + 5, w, h);
+			Image img3 = img2.getScaledInstance(w * 10, h * 10, Image.SCALE_DEFAULT);
+		    BufferedImage img4 = new BufferedImage(w * 10, h * 10, BufferedImage.TYPE_INT_ARGB);
+
+		    Graphics2D g2d = img4.createGraphics();
+		    g2d.drawImage(img3, 0, 0, null);
+		    g2d.dispose();
+			    
+			String res = "";
+			try {
+				res = tesseract.doOCR(img4);
+			} catch (TesseractException e1) {
+				e1.printStackTrace();
+			}
+			
+			File f = new File("sub.png");
+			try {
+				ImageIO.write(img2, "png", f);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			System.out.println(res);
+			return res;
+		}	
+		return null;
+	}
+	
+	public static int getNumberOfCells(){
+		// Colors of the blue box on the top
+		final int boxRed = 74;
+		final int boxGreen = 144;
+		final int boxBlue = 226;
+		
+		// How much the colors can differ
+		final int colorTolerance = 5;
+		
+		// The minimum width and height of the box
+		final int minWidth = 250;
+		final int minHeight = 80;
+		
+		// Bottom Left Corder
+		int resX0 = -1;
+		int resY0 = -1;
+		// Upper Right
+		int resX1 = -1;
+		int resY1 = -1;
+		
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		
+		// Bottom Left Corner of blue box
+		for(int x = 0; x < width; x++){
+			if(x > width - minWidth)
+				continue;
+			
+			boolean breakX = false;
+			
+			for(int y = height -1; y >= 0; y--){
+				if(y <= minHeight)
+					continue;
+				
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(Math.abs(red - boxRed) <= colorTolerance && Math.abs(green - boxGreen) <= colorTolerance && Math.abs(blue - boxBlue) <= colorTolerance){
+					boolean xOk = true;
+					for(int x2 = x; x2 < x + minWidth; x2++){
+						int indexInner = y * width + x2;
+						int redInner = getRed(dataBuffInt[indexInner]);
+						int greenInner = getGreen(dataBuffInt[indexInner]);
+						int blueInner = getBlue(dataBuffInt[indexInner]);
+						if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+								Math.abs(greenInner - boxGreen) <= colorTolerance && 
+									Math.abs(blueInner - boxBlue) <= colorTolerance)){
+							xOk = false;
+							break;
+						}
+					}
+					if(xOk){
+						boolean yOk = true;
+						for(int y2 = y; y2 > y - minHeight; y2--){
+							int indexInner = y2 * width + x;
+							int redInner = getRed(dataBuffInt[indexInner]);
+							int greenInner = getGreen(dataBuffInt[indexInner]);
+							int blueInner = getBlue(dataBuffInt[indexInner]);
+							if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+									Math.abs(greenInner - boxGreen) <= colorTolerance && 
+										Math.abs(blueInner - boxBlue) <= colorTolerance)){
+								yOk = false;
+								break;
+							}
+						}
+						if(yOk){
+							resX0 = x;
+							resY0 = y;
+							breakX = true;
+							break;
+						}
+					}
+				}			
+			}
+			if(breakX)
+				break;
+		}
+		
+		// Get Upper Right Corner
+		for(int x = width - 1; x >= 0; x--){
+			boolean breakX = false;
+			
+			if(x <= minWidth)
+				continue;
+			
+			for(int y = 0; y < height; y++){
+				if(y > height - minHeight)
+					continue;
+				
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(Math.abs(red - boxRed) <= colorTolerance && Math.abs(green - boxGreen) <= colorTolerance && Math.abs(blue - boxBlue) <= colorTolerance){
+					boolean xOk = true;
+					for(int x2 = x; x2 >= x - minWidth; x2--){
+						int indexInner = y * width + x2;
+						int redInner = getRed(dataBuffInt[indexInner]);
+						int greenInner = getGreen(dataBuffInt[indexInner]);
+						int blueInner = getBlue(dataBuffInt[indexInner]);
+						if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+								Math.abs(greenInner - boxGreen) <= colorTolerance && 
+									Math.abs(blueInner - boxBlue) <= colorTolerance)){
+							xOk = false;
+							break;
+						}
+					}
+					if(xOk){
+						boolean yOk = true;
+						for(int y2 = y; y2 < y + minHeight; y2++){
+							int indexInner = y2 * width + x;
+							int redInner = getRed(dataBuffInt[indexInner]);
+							int greenInner = getGreen(dataBuffInt[indexInner]);
+							int blueInner = getBlue(dataBuffInt[indexInner]);
+							if(!(Math.abs(redInner - boxRed) <= colorTolerance && 
+									Math.abs(greenInner - boxGreen) <= colorTolerance && 
+										Math.abs(blueInner - boxBlue) <= colorTolerance)){
+								yOk = false;
+								break;
+							}
+						}
+						if(yOk){
+							resX1 = x;
+							resY1 = y;
+							breakX = true;
+							break;
+						}
+					}
+				}	
+			}
+			if(breakX)
+				break;
+		}	
+		
+		if(resX0 != -1 && resX1 != -1){
+			int numLines = 0;
+			int minHeightLine = 300;
+			int startX = resX0 + 10;
+			int endX = resX1 - 10;
+			int startY = resY0 + 20;
+			
+			for(int x = startX; x < endX; x++){
+				boolean xOk = true;
+				for(int y = startY; y < startY + minHeightLine; y++){
+					int index = y * width + x;
+					int red = getRed(dataBuffInt[index]);
+					int green = getGreen(dataBuffInt[index]);
+					int blue = getBlue(dataBuffInt[index]);
+					if(!(red > 245 && green > 245 && blue > 245)){
+						xOk = false;
+						break;
+					}
+				}
+				if(xOk){
+					numLines++;
+					x = Math.min(endX, x + 20);
+				}
+			}
+			System.out.println("Cells: " +  (numLines + 1));
+			return numLines + 1;
+		}		
+		return 0;
+	}
 
 	public static void main(String[] args) {
-		boolean c = isCaptchaWindow();
-		Point p = getCaptchaClickPoint();
-		int w = getCaptchaWidth();
-		Point p2 = getCaptchaUpperLeftCorner();
-		Point p3 = getOkCorrdinates();
-		System.out.println(c);
-		System.out.println(p);
-		System.out.println(w);
-		System.out.println(p2);
-		System.out.println(p3);
+		getCaptchaSelectionString();
+//		boolean c = isCaptchaWindow();
+//		Point p = getCaptchaClickPoint();
+//		int w = getCaptchaWidth();
+//		Point p2 = getCaptchaUpperLeftCorner();
+//		Point p3 = getOkCorrdinates();
+//		System.out.println(c);
+//		System.out.println(p);
+//		System.out.println(w);
+//		System.out.println(p2);
+//		System.out.println(p3);
 	}
 
 }
