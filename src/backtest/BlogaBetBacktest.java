@@ -16,9 +16,12 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.swing.JFrame;
 
@@ -26,22 +29,23 @@ import org.apache.commons.math3.stat.inference.TTest;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
-import betadvisor.BetAdvisorElement;
+import weka.core.Instance;
 import bettingBot.TeamMapping;
 import blogaBetHistoricalDataParsing.BlogaBetComparator;
 import blogaBetHistoricalDataParsing.BlogaBetElement;
 import blogaBetHistoricalDataParsing.BlogaBetParser;
+import eastbridgeLiquidityMining.regression.PredictiveModel;
 
 public class BlogaBetBacktest {
 
 	public void runBacktest() throws IOException{
 		
-		double bestOddsFactor = 1;
-		double oddsRatio = 0;
 		
 		
 		BlogaBetParser parser = new BlogaBetParser();
@@ -50,10 +54,47 @@ public class BlogaBetBacktest {
 		
 		// Result variables
 		double profit = 0;
-		int numberOfMatches = 0;
 		double averageYield = 0;
 		int checkedTipps = 0;
+		int goodOddsFound = 0;
+		
+		// Odds statistics
+		double averageSuggestedOdds = 0;
+		double averageRealOdds = 0;
+		double averageSuggestedOddsMatchOdds = 0;
+		double averageRealOddsMatchOdds = 0;
+		double averageSuggestedOddsAsianHandicap = 0;
+		double averageRealOddsAsianHandicap = 0;
+		double averageSuggestedOddsOverUnder = 0;
+		double averageRealOddsOverUnder = 0;
+		
+		double bestOddsFactor = 1;
+		List<Double> realOddsList = new ArrayList<Double>();
+		List<Double> suggestedOddsList = new ArrayList<Double>();
+		List<Double> realOddsListMatchOdds = new ArrayList<Double>();
+		List<Double> suggestedOddsListMatchOdds = new ArrayList<Double>();
+		List<Double> realOddsListAsianHandicap = new ArrayList<Double>();
+		List<Double> suggestedOddsListAsianHandicap = new ArrayList<Double>();
+		List<Double> realOddsListOverUnder = new ArrayList<Double>();
+		List<Double> suggestedOddsListOverUnder = new ArrayList<Double>();
+
+		double oddsRatio = 0;	
 		int oddsFound = 0;
+		double oddsRatioMatchOdds = 0;
+		int oddsFoundMatchOdds = 0;
+		double oddsRatioAsianHandicap = 0;
+		int oddsFoundAsianHandicap = 0;
+		double oddsRatioOverUnder = 0;
+		int oddsFoundOverUnder = 0;
+		
+		// Liquidity Calculation
+		double evAllPossibleBetsTakenMaxLiquidity = 0;
+		List<Double> betEvsMaxLiquidity = new ArrayList<Double>();
+		List<Double> betLiquidities = new ArrayList<Double>();
+		List<String> liquidityTipsters = new ArrayList<String>(); 
+		PredictiveModel repTreeModel = new PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		double averageLiquidity = 0;
+		int numberOfLiquidityCalculations = 0;
 		
 		List<Double> betEvs = new ArrayList<Double>();
 		
@@ -80,62 +121,177 @@ public class BlogaBetBacktest {
 		}
 		
 		//Try to load the historical data from an object stream or load it flom csv files otherwise
-		List<HistoricalDataElement> historicalDataList = null;
-		File historicalDataFile = new File("allFullHistoricalData.dat");
-		File historicalDataFileEarly = new File("allFullHistoricalDataEarly.dat");
-		if(historicalDataFile.exists()){
-            FileInputStream fileInput = new FileInputStream(historicalDataFile);
+
+		//Full
+		List<HistoricalDataElement> historicalDataList_Full = new ArrayList<HistoricalDataElement>();
+		File historicalDataFilePending = new File("allFullHistoricalData_Pending.dat");
+		File historicalDataFileEarly = new File("allFullHistoricalData_Early.dat");
+		File historicalDataFileLive = new File("allFullHistoricalData_Live.dat");
+		
+		// Half time
+		List<HistoricalDataElement> historicalDataList_Half = new ArrayList<HistoricalDataElement>();
+		File historicalDataFilePending_Half = new File("allHalfHistoricalData_Pending.dat");
+		File historicalDataFileEarly_Half = new File("allHalfHistoricalData_Early.dat");
+		
+		// Read Full Time Bets
+		
+		// Pending
+		if(historicalDataFilePending.exists()){
+			List<HistoricalDataElement> historicalDataList_Pending = new ArrayList<HistoricalDataElement>();
+            FileInputStream fileInput = new FileInputStream(historicalDataFilePending);
             BufferedInputStream br = new BufferedInputStream(fileInput);
             ObjectInputStream objectInputStream = new ObjectInputStream(br);	
             try {
-				historicalDataList = (List<HistoricalDataElement>)objectInputStream.readObject();
+    			historicalDataList_Pending.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 				System.exit(-1);
 			}
             objectInputStream.close();
-            System.out.println("Historical data loaded from ObjectStream");
+            historicalDataList_Full.addAll(historicalDataList_Pending);
+            System.out.println("Historical data pending full loaded from ObjectStream");
 		}
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
-			historicalDataList = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full");
-			historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full"));
-			historicalDataList.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full"));	
-			System.out.println("Historical data loaded from CSV");
-            FileOutputStream fileOutput = new FileOutputStream(historicalDataFile);
+			List<HistoricalDataElement> historicalDataList_Pending = new ArrayList<HistoricalDataElement>();
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full"));
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full"));
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full"));
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFilePending);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
-            objectOutputStream.writeObject(historicalDataList);
+            objectOutputStream.writeObject(historicalDataList_Pending);
             objectOutputStream.close();
+			historicalDataList_Full.addAll(historicalDataList_Pending);
+			System.out.println("Historical data pending full loaded from CSV");
 		}
 
-//		if(historicalDataFileEarly.exists()){
-//            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly);
-//            BufferedInputStream br = new BufferedInputStream(fileInput);
-//            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
-//            try {
-//				historicalDataList.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
-//			} catch (ClassNotFoundException e) {
-//				e.printStackTrace();
-//				System.exit(-1);
-//			}
-//            objectInputStream.close();
-//            System.out.println("Historical data loaded from ObjectStream");
-//		}
-//		else{
-//			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
-//			List<HistoricalDataElement> historicalDataListEarly = historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full");
-//			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
-//			historicalDataListEarly.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
-//			System.out.println("Historical Early data loaded from CSV");
-//            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
-//            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
-//            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
-//            objectOutputStream.writeObject(historicalDataListEarly);
-//            objectOutputStream.close();
-//            historicalDataList.addAll(historicalDataListEarly);
-//		}
-//		Collections.sort(historicalDataList, new HistoricalDataComparator());
+		
+		// Early
+		if(historicalDataFileEarly.exists()){
+            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly);
+            List<HistoricalDataElement> historicalDataList_Early = new ArrayList<HistoricalDataElement>();
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+            	historicalDataList_Early.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            historicalDataList_Full.addAll(historicalDataList_Early);
+            System.out.println("Historical data early full loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> historicalDataList_Early = new ArrayList<HistoricalDataElement>();
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full"));
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(historicalDataList_Early);
+            objectOutputStream.close();
+            historicalDataList_Full.addAll(historicalDataList_Early);
+			System.out.println("Historical data early full loaded from CSV");
+		}
+		
+		//Live 
+		if(historicalDataFileLive.exists()){
+            FileInputStream fileInput = new FileInputStream(historicalDataFileLive);
+            List<HistoricalDataElement> historicalDataList_Live = new ArrayList<HistoricalDataElement>();
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+            	historicalDataList_Live.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            historicalDataList_Full.addAll(historicalDataList_Live);
+            System.out.println("Historical data live full loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> historicalDataList_Live = new ArrayList<HistoricalDataElement>();
+			historicalDataList_Live.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\live", "Full"));
+//			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\live_2015", "Full"));
+//			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\live_2016", "Full"));	
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileLive);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(historicalDataList_Live);
+            objectOutputStream.close();
+            historicalDataList_Full.addAll(historicalDataList_Live);
+			System.out.println("Historical data early full loaded from CSV");
+		}		
+		
+		Collections.sort(historicalDataList_Full, new HistoricalDataComparator());
+		
+		
+		// Read half Time Bets
+		if(historicalDataFilePending_Half.exists()){
+			List<HistoricalDataElement> HistoricalDataList_Pending_Half = new ArrayList<HistoricalDataElement>();
+            FileInputStream fileInput = new FileInputStream(historicalDataFilePending_Half);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+            	HistoricalDataList_Pending_Half.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            historicalDataList_Half.addAll(HistoricalDataList_Pending_Half);
+            System.out.println("Historical data pending half loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> HistoricalDataList_Pending_Half = new ArrayList<HistoricalDataElement>();
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending_half", "Half"));
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_half_2015", "Half"));
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_half_2016", "Half"));	
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFilePending_Half);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(HistoricalDataList_Pending_Half);
+            objectOutputStream.close();
+            historicalDataList_Half.addAll(HistoricalDataList_Pending_Half);
+			System.out.println("Historical Pending Halfdata loaded from CSV");
+		}
+		if(historicalDataFileEarly_Half.exists()){
+			List<HistoricalDataElement> historicalDataList_Early_Half = new ArrayList<HistoricalDataElement>();
+            FileInputStream fileInput = new FileInputStream(historicalDataFileEarly_Half);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+            	historicalDataList_Early_Half.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            historicalDataList_Half.addAll(historicalDataList_Early_Half);
+            System.out.println("Historical data early half loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> HistoricalDataList_Early_Half = new ArrayList<HistoricalDataElement>();
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early_half", "Half"));
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_half_2015", "Half"));
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_half_2016", "Half"));	
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly_Half);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(HistoricalDataList_Early_Half);
+            objectOutputStream.close();
+            historicalDataList_Half.addAll(HistoricalDataList_Early_Half);
+			System.out.println("Historical data early half loaded from CSV");
+		}
+		Collections.sort(historicalDataList_Half, new HistoricalDataComparator());
 		
 		// We dont have to loop over all historical data for every tipp, sonce some historical data will be
 		// From games before the tipp
@@ -148,6 +304,9 @@ public class BlogaBetBacktest {
 			
 			BlogaBetElement tipp = blogaBetList.get(i);
 			if(!tipp.getTypeOfBet().equals("Match Odds") && !tipp.getTypeOfBet().equals("Over Under") && !tipp.getTypeOfBet().equals("Asian Handicap")){
+				continue;
+			}
+			if(!tipp.getSport().equals("SOC")){
 				continue;
 			}
 			double pivot = tipp.getPivotValue();
@@ -175,9 +334,9 @@ public class BlogaBetBacktest {
 			List<HistoricalDataElement> availableBets = new ArrayList<HistoricalDataElement>();
 			
 			/* Itterate over games and find the markets that match the tipp */
-			for(int j = startJ; j < historicalDataList.size(); j++){
+			for(int j = startJ; j < historicalDataList_Full.size(); j++){
 				
-				HistoricalDataElement historicalDataElement = historicalDataList.get(j);
+				HistoricalDataElement historicalDataElement = historicalDataList_Full.get(j);
 				Date historicalDataGameDate = historicalDataElement.getStartDate();
 				String s1 = historicalDataGameDate.toGMTString();
 				
@@ -272,9 +431,7 @@ public class BlogaBetBacktest {
 			double bestOdds = 0;
 			
 			for(int j = 0; j < availableBets.size(); j++){
-				if(j == 0){
-					numberOfMatches++;
-				}
+				
 				if(tippIndex == -1 && tipp.getTypeOfBet().equals("Match Odds")){
 					System.out.println();
 				}
@@ -362,70 +519,550 @@ public class BlogaBetBacktest {
 				}
 			}
 			if(bestOdds != 0){
+				if(bestOdds > 0.90 * tipp.getBestOdds()){
+					goodOddsFound++;
+				}
+				else{
+					continue;
+				}
+				if(tipp.getBestOdds() > bestOdds * 1.5){
+					System.out.println();
+				}
+				realOddsList.add(bestOdds);
+				suggestedOddsList.add(tipp.getBestOdds());
+				averageSuggestedOdds += tipp.getBestOdds();
+				averageRealOdds += bestOdds;
+				
+				if(tipp.getTypeOfBet().equals("Match Odds")){
+					averageSuggestedOddsMatchOdds += tipp.getBestOdds();
+					averageRealOddsMatchOdds += bestOdds;
+					oddsRatioMatchOdds += bestOdds / tipp.getBestOdds();
+					oddsFoundMatchOdds++;
+					realOddsListMatchOdds.add(bestOdds);
+					suggestedOddsListMatchOdds.add(tipp.getBestOdds());
+				}
+				if(tipp.getTypeOfBet().equals("Asian Handicap")){
+					averageSuggestedOddsAsianHandicap += tipp.getBestOdds();
+					averageRealOddsAsianHandicap += bestOdds;
+					oddsRatioAsianHandicap += bestOdds / tipp.getBestOdds();
+					oddsFoundAsianHandicap++;
+					realOddsListAsianHandicap.add(bestOdds);
+					suggestedOddsListAsianHandicap.add(tipp.getBestOdds());
+				}
+				if(tipp.getTypeOfBet().equals("Over Under")){
+					averageSuggestedOddsOverUnder += tipp.getBestOdds();
+					averageRealOddsOverUnder += bestOdds;
+					oddsRatioOverUnder += bestOdds / tipp.getBestOdds();
+					oddsFoundOverUnder++;
+					realOddsListOverUnder.add(bestOdds);
+					suggestedOddsListOverUnder.add(tipp.getBestOdds());
+				}
+				
 				oddsFound++;
 				if(bestOdds > tipp.getBestOdds())
 					bestOdds = tipp.getBestOdds();
 				
-				//TODO
-				//CALCULATE LIQUIDITY
+				double liquidity = 0;			
+				Instance record = repTreeModel.createWekaInstance(bestSource, tipp, bestOdds);
+				if(record != null){
+					try {
+						liquidity = repTreeModel.classifyInstance(record);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
+				if(liquidity != 0){
+					numberOfLiquidityCalculations++;
+					averageLiquidity += liquidity;
+				}
+				double take = 100;
+				if(liquidity > 13000){
+					System.out.println();
+				}
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / suggestedOdds;
 				if(tipp.getTypeOfBet().equals("Match Odds")){
-					double take = 100;
+					take = 100;
 					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						betEvs.add(-take);
 						profit -= take;
 					}
 					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						betEvs.add(take * bestOdds - take);
 						profit += take * bestOdds - take;					
+					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
 					}
 					if(bestOdds < suggestedOdds){
 						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
 					}		
 				}
 				if(tipp.getTypeOfBet().equals("Over Under")){	
-					double take = 100;
 					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						betEvs.add(-take);
 						profit -= take;
 					}
 					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						betEvs.add(take * bestOdds - take);
 						profit += take * bestOdds - take;					
 					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
+					}
 					if(bestOdds < suggestedOdds){
-						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
+//						System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
 					}						
 				}
 				if(tipp.getTypeOfBet().equals("Asian Handicap")){
-					double take = 100;
 					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
 						betEvs.add(-take);
 						profit -= take;
 					}
 					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
 						betEvs.add(take * bestOdds - take);
 						profit += take * bestOdds - take;					
 					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
+					}
 					if(bestOdds < suggestedOdds){
-						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
+//						System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
 					}						
 				}
 			}			
 		}
+		// We dont have to loop over all historical data for every tipp, sonce some historical data will be
+		// From games before the tipp
+		startJ = 0;
+		startJSet = false;
+	
+		/* Itterate over Tipps */
+		for(int i = startI; i < endI; i++){
+			startJSet = false;
+			
+			BlogaBetElement tipp = blogaBetList.get(i);
+			if(!tipp.getTypeOfBet().equals("Match Odds Half Time") && !tipp.getTypeOfBet().equals("Over Under Half Time") && !tipp.getTypeOfBet().equals("Asian Handicap Half Time")){
+				continue;
+			}
+			if(!tipp.getSport().equals("SOC")){
+				continue;
+			}
+			double pivot = tipp.getPivotValue();
+			if(pivot == -10){
+				continue;
+			}
+			checkedTipps++;
+			double suggestedOdds = tipp.getBestOdds();
+			
+			int matches = 0;
+			int hostMatches = 0;
+			String blogaBetHost = tipp.getHost();
+			String blogaBetGuest = tipp.getGuest();
+			
+			String historicalDataHost = "";
+			String historicalDataGuest = "";
+			
+			Date blogaBetGameDate = tipp.getGameDate();
+			String s0 = blogaBetGameDate.toGMTString();
+			
+			/* The index of the tipp */
+			String tippTeam = tipp.getTipTeam();
+			int tippIndex = -1;
+			
+			List<HistoricalDataElement> availableBets = new ArrayList<HistoricalDataElement>();
+			
+			/* Itterate over games and find the markets that match the tipp */
+			for(int j = startJ; j < historicalDataList_Half.size(); j++){
+				
+				HistoricalDataElement historicalDataElement = historicalDataList_Half.get(j);
+				Date historicalDataGameDate = historicalDataElement.getStartDate();
+				String s1 = historicalDataGameDate.toGMTString();
+				
+				historicalDataHost = historicalDataElement.getHost();
+				historicalDataGuest = historicalDataElement.getGuest();
+				
+				// We can break the inner loop if the start Time of the match of the historical
+				// data element is later than that of the startTime of the tipped game
+				// because both lists are sorted
+				// We can break the inner loop if the start Time of the match of the historical
+				// data element is later than that of the startTime of the tipped game
+				// because both lists are sorted		
+				
+				long t0 = blogaBetGameDate.getTime();
+				long t1 = historicalDataGameDate.getTime();
+				
+				if(t1 > t0 + 60 * 60 * 1000){
+					break;
+				}	
+				
+				if(Math.abs(t0 - t1) < 10 * 60 * 1000){
+					// Set the new startJ
+					// it will be the first index j with a date equal to the start of the game of the tipp
+					// because both lists are sorted, the relevant index j for the next tipp can not be lower than for the
+					// current tipp
+					if(!startJSet){
+						startJSet = true;
+						startJ = j;
+					}
+					if(TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest)){
+						availableBets.add(historicalDataElement);
+						
+						if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
+							if(tippTeam.equalsIgnoreCase("Draw")){
+								tippIndex = 2;
+							}
+							else if(tippTeam.equalsIgnoreCase(blogaBetHost) || TeamMapping.teamsMatch(tippTeam, blogaBetHost)){
+								tippIndex = 0;
+							}
+							else if(tippTeam.equalsIgnoreCase(blogaBetGuest) || TeamMapping.teamsMatch(tippTeam, blogaBetGuest)){
+								tippIndex = 1;
+							}	
+						}
+						if(tipp.getTypeOfBet().equals("Over Under Half Time")){
+							double total = tipp.getPivotValue();
+							List<TotalElement> l = historicalDataElement.getTotalList();
+							if(!l.isEmpty()){
+								boolean totalOk = false;
+								for(int t = 0; t < l.size(); t++){
+									if(l.get(t).getTotal() == total){
+										totalOk = true;
+										break;
+									}
+								}
+								if(totalOk){
+									if(tippTeam.indexOf("Over") == 0){
+										tippIndex = 0;
+									}
+									else if(tippTeam.indexOf("Under") == 0){
+										tippIndex = 1;
+									}
+								}
+							}
+						}
+						if(tipp.getTypeOfBet().equals("Asian Handicap Half Time")){
+							pivot = tipp.getPivotValue();
+							List<HdpElement> l = historicalDataElement.getHdpList();
+							if(!l.isEmpty()){
+								boolean pivotOk = false;
+								for(int t = 0; t < l.size(); t++){
+									if(l.get(t).getPivot() == pivot){
+										pivotOk = true;
+										break;
+									}
+								}
+								if(pivotOk){											
+									if(tippTeam.indexOf(blogaBetHost) != -1){
+										tippIndex = 0;
+									}
+									else if(tippTeam.indexOf(blogaBetGuest) != -1){
+										tippIndex = 1;
+									}
+								}
+							}			
+						}
+					}
+				}
+			}
+			/* Make the bet with the best Odds available at the time */
+			Date tippPublishedDate = tipp.getPublicationDate();
+			HistoricalDataElement bestSource = null;
+			double bestOdds = 0;
+			
+			for(int j = 0; j < availableBets.size(); j++){
+				
+				if(tippIndex == -1 && tipp.getTypeOfBet().equals("Match Odds Half Time")){
+					System.out.println();
+				}
+				HistoricalDataElement historicalElement = availableBets.get(j);
+				
+				// ONE_TWO
+				if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
+					List<OneTwoElement> oneTwoOdds = historicalElement.getOneTwoList();
+
+					double odds = 0;
+					for(int oddIndex = 0; oddIndex < oneTwoOdds.size(); oddIndex++){
+						OneTwoElement oneTwoElement = oneTwoOdds.get(oddIndex);
+						Date oddsDate = new Date(oneTwoElement.getTime());
+						if(oddsDate.before(tippPublishedDate)){
+							if(tippIndex == 0){
+								odds = oneTwoElement.getOne();
+							}
+							else if(tippIndex == 1){
+								odds = oneTwoElement.getTwo();
+							}
+							else if(tippIndex == 2){
+								odds = oneTwoElement.getDraw();
+							}
+						}
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}	
+				}
+				
+				// OVER / UNDER
+				if(tipp.getTypeOfBet().equals("Over Under Half Time")){
+					List<TotalElement> totalOdds = historicalElement.getTotalList();
+
+					double odds = 0;
+					for(int oddIndex = 0; oddIndex < totalOdds.size(); oddIndex++){
+						TotalElement totalElement = totalOdds.get(oddIndex);
+						
+						double total = tipp.getPivotValue();
+						
+						if(totalElement.getTotal() == total){
+							Date oddsDate = new Date(totalElement.getTime());
+							if(oddsDate.before(tippPublishedDate)){
+								if(tippIndex == 0){
+									odds = 1 + totalElement.getOver();
+								}
+								else if(tippIndex == 1){
+									odds = 1 + totalElement.getUnder();
+								}
+							}
+						}
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}	
+				}
+				
+				// Asian handicap
+				if(tipp.getTypeOfBet().equals("Asian Handicap Half Time")){
+					List<HdpElement> hdpOdds = historicalElement.getHdpList();
+
+					double odds = 0;
+					for(int oddIndex = 0; oddIndex < hdpOdds.size(); oddIndex++){
+						HdpElement totalElement = hdpOdds.get(oddIndex);
+						pivot = tipp.getPivotValue();
+						
+						if(totalElement.getPivot() == pivot){
+							Date oddsDate = new Date(totalElement.getTime());
+							if(oddsDate.before(tippPublishedDate)){
+								if(tippIndex == 0){
+									odds = 1 + totalElement.getHost();
+								}
+								else if(tippIndex == 1){
+									odds = 1 + totalElement.getGuest();
+								}
+							}
+						}
+					}	
+					if(odds > bestOdds){
+						bestOdds = odds;
+						bestSource = historicalElement;
+					}
+				}
+			}
+			if(bestOdds != 0){
+				if(bestOdds < 0.90 * tipp.getBestOdds())
+					continue;
+				oddsFound++;
+				if(bestOdds > tipp.getBestOdds())
+					bestOdds = tipp.getBestOdds();
+				
+				double liquidity = 0;			
+				Instance record = repTreeModel.createWekaInstance(bestSource, tipp, bestOdds);
+				if(record != null){
+					try {
+						liquidity = repTreeModel.classifyInstance(record);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
+				if(liquidity != 0){
+					numberOfLiquidityCalculations++;
+					averageLiquidity += liquidity;
+				}
+				double take = 100;
+				if(liquidity > 13000){
+					System.out.println();
+				}
+				
+				bestOdds *= bestOddsFactor;
+				oddsRatio += bestOdds / suggestedOdds;
+				if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
+					take = 100;
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
+						betEvs.add(-take);
+						profit -= take;
+					}
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
+						betEvs.add(take * bestOdds - take);
+						profit += take * bestOdds - take;					
+					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
+						betEvs.add(0.0);
+					}
+					if(bestOdds < suggestedOdds){
+						//System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
+					}		
+				}
+				if(tipp.getTypeOfBet().equals("Over Under Half Time")){	
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
+						betEvs.add(-take);
+						profit -= take;
+					}
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
+						betEvs.add(take * bestOdds - take);
+						profit += take * bestOdds - take;					
+					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
+						betEvs.add(0.0);
+					}
+					if(bestOdds < suggestedOdds){
+//								System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
+					}						
+				}
+				if(tipp.getTypeOfBet().equals("Asian Handicap Half Time")){
+					if(tipp.getResult().equalsIgnoreCase("LOST")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity -= liquidity;
+							betEvsMaxLiquidity.add(-liquidity);
+						}
+						betEvs.add(-take);
+						profit -= take;
+					}
+					else if(tipp.getResult().equalsIgnoreCase("WIN")){
+						if(liquidity > 0){
+							betLiquidities.add(liquidity);
+							liquidityTipsters.add(tipp.getTipster());
+							evAllPossibleBetsTakenMaxLiquidity += liquidity * bestOdds - liquidity;
+							betEvsMaxLiquidity.add(liquidity * bestOdds - liquidity);
+						}
+						betEvs.add(take * bestOdds - take);
+						profit += take * bestOdds - take;					
+					}
+					else{
+						betLiquidities.add(liquidity);
+						liquidityTipsters.add(tipp.getTipster());
+						betEvsMaxLiquidity.add(0.0);
+						betEvs.add(0.0);
+					}
+					if(bestOdds < suggestedOdds){
+//								System.out.println("Suggested Odds: " +  suggestedOdds + " real Odds: " + bestOdds);
+					}						
+				}
+			}			
+		}
+	
 		averageYield /= oddsFound;
-		oddsRatio /= oddsFound;
 		averageYield = profit / oddsFound;
 
 		System.out.println();
-//		System.out.println("Matches: " + numberOfMatches);
+        System.out.println("Number of Tips: " + checkedTipps);
+		System.out.println("Number of Odds Found: " + oddsFound);
+		System.out.println("Number of good Odds: " + goodOddsFound);
 		System.out.println("Percentage of matched Bets: " + oddsFound * 100.0 / checkedTipps);
+		System.out.println("Percentage of good Odds: " + goodOddsFound * 100.0 / oddsFound);
 		System.out.println("Profit: " + profit);
 		System.out.println("Yield: " + averageYield);
-		System.out.println("Number Of Odds Found: " + oddsFound);
+		
+        // Odds
+		averageSuggestedOdds /= oddsFound;
+		averageRealOdds /= oddsFound;
+		averageSuggestedOddsMatchOdds /= oddsFound;
+		averageRealOddsMatchOdds /= oddsFound;
+		averageSuggestedOddsAsianHandicap /= oddsFound;
+		averageRealOddsAsianHandicap /= oddsFound;
+		averageSuggestedOddsOverUnder /= oddsFound;
+		averageRealOddsOverUnder /= oddsFound;
+		System.out.println("Average suggested Odds: " + averageSuggestedOdds);
+		System.out.println("Average real Odds: " + averageRealOdds);
+		System.out.println("Average suggested Odds MatchOdds: " + averageSuggestedOddsMatchOdds);
+		System.out.println("Average real Odds MatchOdds: " + averageRealOddsMatchOdds);
+		System.out.println("Average suggested Odds Asian Handicap: " + averageSuggestedOddsAsianHandicap);
+		System.out.println("Average real Odds Asian Handicap: " + averageRealOddsAsianHandicap);
+		System.out.println("Average suggested Odds Over Under: " + averageSuggestedOddsOverUnder);
+		System.out.println("Average real Odds Over Under: " + averageRealOddsOverUnder);
+		
+		oddsRatio /= oddsFound;
+        oddsRatioMatchOdds /= oddsFoundMatchOdds;
+        oddsRatioAsianHandicap /= oddsFoundAsianHandicap;
+        oddsRatioOverUnder /= oddsFoundOverUnder;
+        System.out.println();
 		System.out.println("Odds Ratio: " + oddsRatio);
+		System.out.println("Odds Ratio Match Odds: " + oddsRatioMatchOdds);
+		System.out.println("Odds Ratio Asian Handicap: " + oddsRatioAsianHandicap);
+		System.out.println("Odds Ratio Over Under: " + oddsRatioOverUnder);
 		
 		System.out.println();
 		double[] bEv = new double[betEvs.size()];
@@ -460,6 +1097,114 @@ public class BlogaBetBacktest {
 		}
 		System.out.println();
 		
+		// Liquidity
+		System.out.println();
+		averageLiquidity /= numberOfLiquidityCalculations;
+		System.out.println("Number Of Calculated Liquidities: " +  numberOfLiquidityCalculations);
+		System.out.println("Average Liquidity: " + averageLiquidity);
+		System.out.println("Profit for Max Stake: " + evAllPossibleBetsTakenMaxLiquidity);
+		
+		double minLiquidity = Double.POSITIVE_INFINITY;
+		double maxLiquidity = Double.NEGATIVE_INFINITY;
+		for(int i = 0; i < betLiquidities.size(); i++){
+			Double l = betLiquidities.get(i);
+			maxLiquidity = Math.max(maxLiquidity, l);
+			minLiquidity = Math.min(minLiquidity, l);
+		}
+		
+		int numberOfStakes = 10;
+		double[] yieldByStake = new double[numberOfStakes];
+		int[] numberOfBetsByStake = new int[numberOfStakes];
+		
+		double stakeLevel = (maxLiquidity - minLiquidity) / numberOfStakes;
+		System.out.println("maxStake: " + maxLiquidity);
+		System.out.println("minStake: " + minLiquidity);
+		
+		for(int i = 0; i < betLiquidities.size(); i++){
+			int stakeIndex = -1;
+			for(int j = 0; j < numberOfStakes; j++){
+				double maxStake = betLiquidities.get(i);
+				if(maxStake > minLiquidity + (j + 1) * stakeLevel + 0.01)
+					continue;
+				numberOfBetsByStake[j]++;
+				stakeIndex = j;
+				break;
+			}
+			double l = betLiquidities.get(i);
+			double ev = betEvsMaxLiquidity.get(i);
+			double p = ev / l;
+			yieldByStake[stakeIndex] += p;
+		}
+		
+		for(int i = 0; i < yieldByStake.length; i++){
+			yieldByStake[i] /= Math.max(1, numberOfBetsByStake[i]);
+		}
+		System.out.println("Stakes:");
+		for(int i = 0; i < numberOfStakes; i++){
+			double stakeStart = minLiquidity + i * stakeLevel;
+			double stakeEnd = stakeStart + stakeLevel;
+			System.out.println(i + ": " + stakeStart + " - " + stakeEnd);
+		
+		}
+		System.out.println("bets per Stake: " + Arrays.toString(numberOfBetsByStake));
+		for(int i = 0; i < yieldByStake.length; i++){
+			System.out.println(yieldByStake[i]);
+		}
+		
+		// By Tipster
+		Map<String, Double> liquidityByTipster = new HashMap<String, Double>();
+		Map<String, Double> profitByTipster = new HashMap<String, Double>();
+		Map<String, Double> numberOfBestByTipster = new HashMap<String, Double>();
+		Map<String, Double> yieldByTipster = new HashMap<String, Double>();
+		
+		for(int i = 0; i < betEvsMaxLiquidity.size(); i++){
+			double p = betEvsMaxLiquidity.get(i);
+			double l = betLiquidities.get(i);
+			double y = p / l;
+			String tipster = liquidityTipsters.get(i);
+			if(numberOfBestByTipster.containsKey(tipster)){
+				numberOfBestByTipster.put(tipster, numberOfBestByTipster.get(tipster) + 1.0);
+			}
+			else{
+				numberOfBestByTipster.put(tipster, 1.0);
+			}
+			if(liquidityByTipster.containsKey(tipster)){
+				liquidityByTipster.put(tipster, liquidityByTipster.get(tipster) + l);
+			}
+			else{
+				liquidityByTipster.put(tipster, l);
+			}
+			if(profitByTipster.containsKey(tipster)){
+				profitByTipster.put(tipster, profitByTipster.get(tipster) + p);
+			}
+			else{
+				profitByTipster.put(tipster, p);
+			}
+			if(yieldByTipster.containsKey(tipster)){
+				yieldByTipster.put(tipster, yieldByTipster.get(tipster) + y);
+			}
+			else{
+				yieldByTipster.put(tipster, y);
+			}
+		}
+		
+		for(String tipster : liquidityByTipster.keySet()){
+			liquidityByTipster.put(tipster, liquidityByTipster.get(tipster) / numberOfBestByTipster.get(tipster));
+		}
+		for(String tipster : yieldByTipster.keySet()){
+			yieldByTipster.put(tipster, yieldByTipster.get(tipster) / numberOfBestByTipster.get(tipster));
+		}
+		
+		System.out.println();
+		System.out.println("TIPSTERS:");
+		for(String tipster : numberOfBestByTipster.keySet()){
+			double n = numberOfBestByTipster.get(tipster);
+			double y = yieldByTipster.get(tipster);
+			double p = profitByTipster.get(tipster);
+			double l = liquidityByTipster.get(tipster);
+			System.out.println(tipster + " - number of bets: " + n + ", profit: " + p + ", yield: " + y  + ", roi: " + p / n + ", average liquidity: " + l);
+		}
+		
 		// Chart
 		XYSeries series = new XYSeries("Profit");
 		XYDataset xyDataset = new XYSeriesCollection(series);
@@ -474,6 +1219,98 @@ public class BlogaBetBacktest {
         frame.setContentPane(chartPanel);
         frame.setSize(600, 400);
         frame.setVisible(true);
+        
+		// Chart Max Liquidity
+		XYSeries seriesMax = new XYSeries("Profit Max Stake");
+		XYDataset xyDatasetMax = new XYSeriesCollection(seriesMax);
+		double totalProfitMax = 0;
+		for(int i = 0; i < betEvsMaxLiquidity.size(); i++){
+			seriesMax.add(i, totalProfitMax);
+			totalProfitMax += betEvsMaxLiquidity.get(i);
+		}
+		final JFreeChart chartMax = ChartFactory.createXYLineChart("Profit", "Bets", "Profit", xyDatasetMax);
+        final ChartPanel chartPanelMax = new ChartPanel(chartMax);
+        JFrame frameMax = new JFrame("Backtest Max Stake");
+        frameMax.setContentPane(chartPanelMax);
+        frameMax.setSize(600, 400);
+        frameMax.setVisible(true);
+        
+		// Chart Odds
+        final String series1 = "Real Odds";
+        final String series2 = "Tipster Odds";
+        
+        // create the dataset...
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        
+        for(int i = 0; i < realOddsList.size(); i++){
+            dataset.addValue(realOddsList.get(i), series1, i + "");
+            dataset.addValue(suggestedOddsList.get(i), series2, i + "");
+            
+            if(i != 0 && i % 100 == 0){
+                // create the chart...
+                final JFreeChart chartOdds = ChartFactory.createBarChart(
+                    "Odds Comparison",         	// chart title
+                    "Tip",                    	// domain axis label
+                    "Odds",                  	// range axis label
+                    dataset,                  	// data
+                    PlotOrientation.VERTICAL, 	// orientation
+                    true,                     	// include legend
+                    true,                     	// tooltips?
+                    false                     	// URLs?
+                );
+
+                JFrame oddsChart = new JFrame();
+                ChartPanel chartPanelOdds = new ChartPanel(chartOdds);
+                oddsChart.setContentPane(chartPanelOdds);
+                oddsChart.setVisible(true);	
+                oddsChart.setSize(600, 400);
+                dataset = new DefaultCategoryDataset();
+            }
+            if(i == realOddsList.size() - 1){
+                final JFreeChart chartOdds = ChartFactory.createBarChart(
+                        "Odds Comparison",         	// chart title
+                        "Tip",                    	// domain axis label
+                        "Odds",                  	// range axis label
+                        dataset,                  	// data
+                        PlotOrientation.VERTICAL, 	// orientation
+                        true,                     	// include legend
+                        true,                     	// tooltips?
+                        false                     	// URLs?
+                );
+
+                JFrame oddsChart = new JFrame();
+                ChartPanel chartPanelOdds = new ChartPanel(chartOdds);
+                oddsChart.setContentPane(chartPanelOdds);
+                oddsChart.setVisible(true);	          	
+            }
+        }
+        
+        dataset = new DefaultCategoryDataset();
+        for(int i = 0; i < realOddsListMatchOdds.size(); i++){
+            dataset.addValue(realOddsListMatchOdds.get(i), series1, i + "");
+            dataset.addValue(suggestedOddsListMatchOdds.get(i), series2, i + "");
+            
+            if(i != 0 && i % 100 == 0){
+                // create the chart...
+                final JFreeChart chartOdds = ChartFactory.createBarChart(
+                    "Odds Comparison Match Odds",         	// chart title
+                    "Tip",                    		// domain axis label
+                    "Odds",                  		// range axis label
+                    dataset,                  		// data
+                    PlotOrientation.VERTICAL, 		// orientation
+                    true,                     		// include legend
+                    true,                     		// tooltips?
+                    false                     		// URLs?
+                );
+
+                JFrame oddsChart = new JFrame();
+                ChartPanel chartPanelOdds = new ChartPanel(chartOdds);
+                oddsChart.setContentPane(chartPanelOdds);
+                oddsChart.setVisible(true);	
+                oddsChart.setSize(600, 400);
+                dataset = new DefaultCategoryDataset();
+            }
+        }
 	}
 	
 	public static void main(String[] args) throws IOException {
