@@ -26,7 +26,7 @@ public class Captcha2API {
 	}
 	
 	public static List<Integer> breakCaptcha(String captchaImagePath) throws ClientProtocolException, IOException{
-//		String captchaQuestion = ScreenScraping.getCaptchaSelectionString();
+		String captchaQuestion = ScreenScraping.getCaptchaTaskString();
 		
 		List<Integer> res = new ArrayList<Integer>();
 		
@@ -37,6 +37,7 @@ public class Captcha2API {
 		MultipartEntityBuilder builder = MultipartEntityBuilder.create();
 		builder.addTextBody("key", appKey, ContentType.TEXT_PLAIN);
 		builder.addTextBody("recaptcha", "1", ContentType.TEXT_PLAIN);
+		builder.addTextBody("textinstructions", captchaQuestion, ContentType.TEXT_PLAIN);
 		builder.addBinaryBody("file", new File(captchaImagePath), ContentType.APPLICATION_OCTET_STREAM, "file");
 		HttpEntity multipart = builder.build();
 
