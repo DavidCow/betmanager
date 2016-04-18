@@ -7,6 +7,9 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -593,16 +596,51 @@ public class ScreenScraping {
 		}		
 		return 0;
 	}
+	
+	public static String getCaptchaTaskString(){
+		Point upperLeft = getCaptchaBlueBoxUpperLeft();
+		Point bottomRight = getCaptchaBlueBoxBottomRight();
+		int x = (bottomRight.x - upperLeft.x)/2 + upperLeft.x;
+		int y = (bottomRight.y - upperLeft.y)/2 + upperLeft.y;
+		robot.mouseMove(x, y);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);	
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_A);
+		robot.keyRelease(KeyEvent.VK_A);
+		robot.keyPress(KeyEvent.VK_C);
+		robot.keyRelease(KeyEvent.VK_C);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			String taskString = (String) Toolkit.getDefaultToolkit()
+					.getSystemClipboard().getData(DataFlavor.stringFlavor);
+			taskString = taskString.replaceAll("\\..*", "");
+			return taskString;
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		
+		return "";		
+	}
 
 	public static void main(String[] args) {
-		Point p0 = getCaptchaBlueBoxUpperLeft();
-		Point p1 = getCaptchaBlueBoxUpperRight();
-		Point p2 = getCaptchaBlueBoxBottomLeft();
-		Point p3 = getCaptchaBlueBoxBottomRight();
-		System.out.println(p0);
-		System.out.println(p1);
-		System.out.println(p2);
-		System.out.println(p3);
+//		Point p0 = getCaptchaBlueBoxUpperLeft();
+//		Point p1 = getCaptchaBlueBoxUpperRight();
+//		Point p2 = getCaptchaBlueBoxBottomLeft();
+//		Point p3 = getCaptchaBlueBoxBottomRight();
+//		System.out.println(p0);
+//		System.out.println(p1);
+//		System.out.println(p2);
+//		System.out.println(p3);
+		String s = getCaptchaTaskString();
+		System.out.println(s);
 	}
 
 }
