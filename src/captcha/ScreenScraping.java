@@ -380,7 +380,7 @@ public class ScreenScraping {
 		
 		int resX0 = -1;
 		int resY0 = -1;
-		Point p0 = getCaptchaBlueBoxUpperLeft();
+		Point p0 = getCaptchaBlueBoxBottomLeft();
 		if(p0 != null){
 			resX0 = p0.x;
 			resY0 = p0.y;
@@ -390,7 +390,7 @@ public class ScreenScraping {
 
 		Point p1 = getCaptchaBlueBoxUpperRight();
 		if(p1 != null){
-			resX1 = p0.x;
+			resX1 = p1.x;
 		}
 		
 		// Get Bottom Line
@@ -402,7 +402,7 @@ public class ScreenScraping {
 		int bottomGreen = 206;
 		int bottomBlue = 206;
 		
-		for(int y = resY0; y < height; y++){
+		for(int y = resY0 + 10; y < resY0 + height; y++){
 			boolean xOk = true;
 			for(int x = startX; x < endX; x++){
 				int index = y * width + x;
@@ -631,6 +631,17 @@ public class ScreenScraping {
 	}
 
 	public static void main(String[] args) {
+		Point p0 = getCaptchaBlueBoxUpperLeft();
+		Point p1 = getCaptchaBlueBoxUpperRight();
+		Point p2 = getCaptchaBlueBoxBottomLeft();
+		Point p3 = getCaptchaBlueBoxBottomRight();
+		Point p4 = getCaptchaClickPoint();
+		int c = getNumberOfCells();
+		System.out.println(p0);
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p3);
+		System.out.println(p4);
 //		Point p0 = getCaptchaBlueBoxUpperLeft();
 //		Point p1 = getCaptchaBlueBoxUpperRight();
 //		Point p2 = getCaptchaBlueBoxBottomLeft();
@@ -639,8 +650,9 @@ public class ScreenScraping {
 //		System.out.println(p1);
 //		System.out.println(p2);
 //		System.out.println(p3);
-		String s = getCaptchaTaskString();
-		System.out.println(s);
+		//String s = getCaptchaTaskString();
+		//System.out.println(s);
+		System.out.println(c);
 	}
 
 }
