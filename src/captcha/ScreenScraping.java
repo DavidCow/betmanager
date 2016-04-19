@@ -16,9 +16,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import net.sourceforge.tess4j.Tesseract;
-import net.sourceforge.tess4j.TesseractException;
-
 public class ScreenScraping {
 	
 	// Colors of the blue boxes
@@ -37,10 +34,6 @@ public class ScreenScraping {
 		}
 	}
 	
-	private static Tesseract tesseract = new Tesseract();
-	static{
-		tesseract.setLanguage("deu");
-	}
 	
 	private static int getRed(int color){
 		return (color >> 16) & 0x000000FF;
@@ -349,7 +342,7 @@ public class ScreenScraping {
 	public static boolean isCaptchaWindow(){	
 		Point p0 = getCaptchaBlueBoxUpperLeft();
 		Point p1 = getCaptchaBlueBoxBottomRight();
-		if(p0.x != -1 && p1.x != -1)
+		if(p0 != null && p1 != null && p0.x != -1 && p1.x != -1)
 			return true;
 		return false;
 	}
@@ -502,46 +495,7 @@ public class ScreenScraping {
 		}		
 		return null;		
 	}
-	
-	public static String getCaptchaSelectionString(){
-		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
-		BufferedImage capture = robot.createScreenCapture(screenRect);
-		int width = capture.getWidth();
-		int height = capture.getHeight();
-		
-		Point p0 = getCaptchaBlueBoxUpperLeft();
-		Point p1 = getCaptchaBlueBoxUpperRight();
-		Point p2 = getCaptchaBlueBoxBottomLeft();
-		
-		if(p0 != null && p1 != null && p2 != null){
-			int w = p1.x - p0.x - 10;
-			int h = p2.y - p0.y - 10;
-			BufferedImage img2 = capture.getSubimage(p0.x + 5, p0.y + 5, w, h);
-			Image img3 = img2.getScaledInstance(w * 10, h * 10, Image.SCALE_DEFAULT);
-		    BufferedImage img4 = new BufferedImage(w * 10, h * 10, BufferedImage.TYPE_INT_ARGB);
 
-		    Graphics2D g2d = img4.createGraphics();
-		    g2d.drawImage(img3, 0, 0, null);
-		    g2d.dispose();
-			    
-			String res = "";
-			try {
-				res = tesseract.doOCR(img4);
-			} catch (TesseractException e1) {
-				e1.printStackTrace();
-			}
-			
-			File f = new File("sub.png");
-			try {
-				ImageIO.write(img2, "png", f);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			System.out.println(res);
-			return res;
-		}	
-		return null;
-	}
 	
 	public static int getNumberOfCells(){	
 		// Bottom Left Corner
@@ -614,7 +568,6 @@ public class ScreenScraping {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {

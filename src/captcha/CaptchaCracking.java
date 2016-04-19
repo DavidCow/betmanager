@@ -1,8 +1,7 @@
-package blogaBet;
+package captcha;
 
 import java.awt.AWTException;
 import java.awt.Desktop;
-import java.awt.HeadlessException;
 import java.awt.Point;
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -25,19 +24,13 @@ import javax.imageio.ImageIO;
 
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
-import captcha.Captcha2API;
-import captcha.ScreenScraping;
 
-public class GetMailLink {
-	
+public class CaptchaCracking {
 	// Coordinate constants
 	private static final int screenX = 0;
 	private static final int screenY = 0;
 	private static final int screenWidth = 1680;
 	private static final int screenHeight = 1050;
-	
-	// Download folder
-	private static final String downloadFolder = "C:\\Users\\Patryk\\Desktop";
 	
 	// Robot
 	private static Robot robot;
@@ -72,8 +65,6 @@ public class GetMailLink {
 
 	public static void clickCaptcha(List<Integer> clickIndexes, int width, int height) {
 		System.out.println("Clicking Captcha");
-//		int x = screenX + (int)(745.0 / 1680.0 * screenWidth);
-//		int y = screenY + (int)(225.0 / 1050.0 * screenHeight);
 		Point p = ScreenScraping.getCaptchaUpperLeftCorner();
 		int x = p.x;
 		int y = p.y;
@@ -81,9 +72,9 @@ public class GetMailLink {
 		int numCells = ScreenScraping.getNumberOfCells();
 		int numRows = numCells;
 		int numCols = numCells;
-		int w = ScreenScraping.getCaptchaWidth();
-		int cellWidth = ScreenScraping.getCaptchaWidth() / numCols;
-		int cellHeight = ScreenScraping.getCaptchaWidth() / numRows;
+		
+		int cellWidth = width / numCols;
+		int cellHeight = height / numRows;
 
 		for (int i : clickIndexes) {
 			int col = (i - 1) % numCols;
@@ -98,16 +89,13 @@ public class GetMailLink {
 			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 		
 		Point okP = ScreenScraping.getOkCorrdinates();
-//		int okX = screenX + (int)(1070.0 / 1680.0 * screenWidth);
-//		int okY = screenY + (int)(650.0 / 1050.0 * screenHeight);
 		int okX = okP.x;
 		int okY = okP.y;
 		
@@ -126,8 +114,6 @@ public class GetMailLink {
 	}
 	
 	public static void clickIAmNotARobot(){
-//		int x = screenX + (int)(715.0 / 1680.0 * screenWidth);
-//		int y = screenY + (int)(265.0 / 1050.0 * screenHeight);
 		Point coordinates = ScreenScraping.getImNotRobotBoxCoordinates();
 		robot.mouseMove(coordinates.x, coordinates.y);
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
@@ -183,17 +169,16 @@ public class GetMailLink {
 	
 	public static void getBlogabetTip() {
 		// Open blogabet site
-		List<ParsedTextMail> mails = getBlogaBetTips(50);
+		List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(50);
 		ParsedTextMail mailToCheck = mails.get(mails.size() - 1);
-		String url = parseTipLinkFromMail(mailToCheck);
+		String url = MailFetching.parseTipLinkFromMail(mailToCheck);
 		try {
 			openWebpage(new URL(url));
 		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		// Sleep and wait untill the site opens
+		// Sleep and wait until the site opens
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -231,47 +216,35 @@ public class GetMailLink {
 
 				// Upload and crack Captcha if there was one
 				String filePath = "payload.jpg";
-				if (!filePath.isEmpty()) {
-					System.out.println("Cracking Captcha");
-					BufferedImage img = null;
-					try {
-						img = ImageIO.read(new File(filePath));
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
+				
+				// Get Captcha task
+				String captchaTask = ScreenScraping.getCaptchaTaskString();
 
-//					int width = img.getWidth();
-//					int height = img.getHeight();
-					
-					int width = 390;
-					int height = 390;
-
-					List<Integer> clickIndexes = null;
-					try {
-						clickIndexes = Captcha2API.breakCaptcha(filePath);
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
-					System.out.println(clickIndexes);
-					clickCaptcha(clickIndexes, width, height);
-				} else {
-					System.out.println("No Captcha");
-				}
-
-				// Sleep
+				List<Integer> clickIndexes = null;
 				try {
-					Thread.sleep(5000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+					clickIndexes = Captcha2API.breakCaptcha(filePath, captchaTask);
+				} catch (IOException e) {
 					e.printStackTrace();
-				}				
+				}
+				System.out.println(clickIndexes);
+				
+				int width = ScreenScraping.getCaptchaWidth();
+				int height = ScreenScraping.getCaptchaWidth();
+				clickCaptcha(clickIndexes, width, height);
+			} else {
+				System.out.println("No Captcha");
+			}
+			// Sleep
+			try {
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();		
 			}
 		}		
 
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		activateWebsite();
@@ -279,7 +252,6 @@ public class GetMailLink {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -295,42 +267,12 @@ public class GetMailLink {
 
 		// Save the mail
 		try {
-			String data = (String) Toolkit.getDefaultToolkit()
-					.getSystemClipboard().getData(DataFlavor.stringFlavor);
+			String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 			System.out.println(data);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(-1);
 		}
-	}
-	
-	public static List<ParsedTextMail> getBlogaBetTips(int numberOfMailsToCheck){
-		GMailReader myMailReader = new GMailReader();
-		List<ParsedTextMail> mailList = myMailReader.read("blogabet", numberOfMailsToCheck);
-		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
-		for(int i = 0; i < mailList.size(); i++){
-			if(mailList.get(i).subject.contains("New pick from")){
-				result.add(mailList.get(i));
-			}
-		}
-		return result;
-	}
-	
-	public static String parseTipLinkFromMail(ParsedTextMail mail){
-		int start = mail.content.indexOf("URL in a new browser window: https") + 29;
-		int end = mail.content.indexOf("</p>", start + 31);
-		String html = mail.content.substring(start, end);
-		return html;	
-	}
-
-	public static String getMail() {
-		GMailReader myMailReader = new GMailReader();
-		List<ParsedTextMail> myMailList = myMailReader.read("logabet", 20);
-		ParsedTextMail myMail = myMailList.get(myMailList.size() - 2);
-		int start = myMail.content.indexOf("URL in a new browser window: https") + 29;
-		int end = myMail.content.indexOf("</p>", start + 31);
-		String html = myMail.content.substring(start, end);
-		return html;
 	}
 	
 	public static BufferedImage getBufferedImageFromUrl(String urlString){
@@ -344,26 +286,7 @@ public class GetMailLink {
 		return image;
 	}
 	
-	public static BufferedImage getBufferedImageFromClipboard(){
-		//create clipboard object
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-        try {
-            //Get data from clipboard and assign it to an image.
-            //clipboard.getData() returns an object, so we need to cast it to a BufferdImage.
-            BufferedImage image = (BufferedImage)clipboard.getData(DataFlavor.imageFlavor);
-            return image;
-        }
-        //getData throws this.
-        catch(UnsupportedFlavorException ufe) {
-            ufe.printStackTrace();
-        }       
-        catch(IOException ioe) {
-            ioe.printStackTrace();
-        }	
-        return null;
-	}
-	
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		getBlogabetTip();
 	}
 }
