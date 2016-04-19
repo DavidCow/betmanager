@@ -45,9 +45,9 @@ public class BlogaBetEmailParser {
 				tip.pivotBias = tip.selection;
 			else
 				tip.pivotBias = oppositeString(tip.selection);
-			System.out.println(tip.pivotValue);
-			System.out.println(tip.pivotBias);
-			System.out.println(tip.selection);
+//			System.out.println(tip.pivotValue);
+//			System.out.println(tip.pivotBias);
+//			System.out.println(tip.selection);
 		}
 		else if(lines[5].contains("(1X2)")){
 			tip.pivotType = "Match Odds";
@@ -112,7 +112,6 @@ public class BlogaBetEmailParser {
 					.getSystemClipboard().getData(DataFlavor.stringFlavor);
 			ParsedTextMail mail = new ParsedTextMail();
 			mail.content = data;
-			System.out.println(data);
 			parseEmail(mail);
 		} catch (Exception e) {
 			e.printStackTrace();
