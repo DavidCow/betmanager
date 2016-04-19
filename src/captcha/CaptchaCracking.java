@@ -5,24 +5,28 @@ import java.awt.Desktop;
 import java.awt.Point;
 import java.awt.Robot;
 import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.imageio.ImageIO;
 
-import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 
 public class CaptchaCracking {
@@ -167,111 +171,183 @@ public class CaptchaCracking {
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);		
 	}
 	
-	public static void getBlogabetTip() {
-		// Open blogabet site
-		List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(50);
-		ParsedTextMail mailToCheck = mails.get(mails.size() - 1);
-		String url = MailFetching.parseTipLinkFromMail(mailToCheck);
-		try {
-			openWebpage(new URL(url));
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-
-		// Sleep and wait until the site opens
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-			System.exit(-1);
-		}
+	public static void getBlogabetTips() {
 		
-		if(ScreenScraping.isImNotARobotWindow()){
-			System.out.println("I am not a Robot");
-			
-			// Click "I'm not a Robot"
-			clickIAmNotARobot();
-
-			// Sleep
-			try {
-				Thread.sleep(2000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
+		// Get Sets to see which Mails were already cracked
+		Set<String> crackedCaptchas = null;
+		File crackedCaptchaSetFile = new File("crackedCaptchas.dat");
+		if(crackedCaptchaSetFile.exists()){
+			try{
+	            FileInputStream fileInput = new FileInputStream(crackedCaptchaSetFile);
+	            BufferedInputStream br = new BufferedInputStream(fileInput);
+	            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+	            try {
+	            	crackedCaptchas = (Set<String>)objectInputStream.readObject();
+				} catch (ClassNotFoundException e) {
+					e.printStackTrace();
+					System.exit(-1);
+				}
+	            objectInputStream.close();		
+			}catch(Exception e){
+				System.out.println("UNABLE TO LOAD CRACKD CAPTCHA SET\nPROGRAM WILL EXIT NOW!");
 				System.exit(-1);
 			}
-			
-			if(ScreenScraping.isCaptchaWindow()){
-				System.out.println("Captcha");
-				
-				// download Image
-				saveImage();
+		}
+		else{
+			crackedCaptchas = new HashSet<String>();
+		}
 
-				// Sleep
+		while(true){
+			// Open blogabet site
+			List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(30);
+
+			for(int i = 0; i < mails.size(); i++){
+				ParsedTextMail mailToCheck = mails.get(i);
+				String key = mailToCheck.content + mailToCheck.subject + mailToCheck.receivedDate;
+				if(crackedCaptchas.contains(key)){
+					System.out.println("Mail with subject: " + mailToCheck.subject + " already processed");
+					continue;
+				}
+
+				String url = MailFetching.parseTipLinkFromMail(mailToCheck);
+				try {
+					openWebpage(new URL(url));
+				} catch (MalformedURLException e) {
+					e.printStackTrace();
+				}
+		
+				// Sleep and wait until the site opens
 				try {
 					Thread.sleep(5000);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.exit(-1);
 				}
-
-				// Upload and crack Captcha if there was one
-				String filePath = "payload.jpg";
 				
-				// Get Captcha task
-				String captchaTask = ScreenScraping.getCaptchaTaskString();
-
-				List<Integer> clickIndexes = null;
+				int numberOfTries = 0;
+				while(numberOfTries < 3){
+					numberOfTries++;
+					if(ScreenScraping.isImNotARobotWindow()){
+						System.out.println("I am not a Robot");
+						
+						// Click "I'm not a Robot"
+						clickIAmNotARobot();
+			
+						// Sleep
+						try {
+							Thread.sleep(2000);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+							System.exit(-1);
+						}
+					}
+						
+					if(ScreenScraping.isCaptchaWindow()){
+						System.out.println("Captcha");
+						
+						// download Image
+						saveImage();
+		
+						// Sleep
+						try {
+							Thread.sleep(5000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+		
+						// Upload and crack Captcha if there was one
+						String filePath = "payload.jpg";
+						
+						// Get Captcha task
+						String captchaTask = ScreenScraping.getCaptchaTaskString();
+		
+						List<Integer> clickIndexes = null;
+						try {
+							for(int j = 0; j < 3; j++){
+								clickIndexes = Captcha2API.breakCaptcha(filePath, captchaTask);
+								if(clickIndexes != null)
+									break;
+							}
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+						System.out.println(clickIndexes);
+						
+						int width = ScreenScraping.getCaptchaWidth();
+						int height = ScreenScraping.getCaptchaWidth();
+						clickCaptcha(clickIndexes, width, height);
+						numberOfTries++;
+					} 
+					else{
+							System.out.println("No Captcha");
+						}
+					// Sleep
+					try {
+						Thread.sleep(5000);
+					} catch (InterruptedException e) {
+						e.printStackTrace();		
+					}
+				}		
+			
 				try {
-					clickIndexes = Captcha2API.breakCaptcha(filePath, captchaTask);
-				} catch (IOException e) {
+					Thread.sleep(3000);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+
+				activateWebsite();
+				// Sleep
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				System.out.println(clickIndexes);
-				
-				int width = ScreenScraping.getCaptchaWidth();
-				int height = ScreenScraping.getCaptchaWidth();
-				clickCaptcha(clickIndexes, width, height);
-			} else {
-				System.out.println("No Captcha");
+		
+				if(!ScreenScraping.isImNotARobotWindow() && !ScreenScraping.isCaptchaWindow()){
+					// Copy the text into the clipboard
+					copyText();
+					// Sleep
+					try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+			
+					// Save the mail
+					try {
+						String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+						System.out.println(data);
+						
+						// Everything went ok, we save this mail as cracked
+						crackedCaptchas.add(key);
+					} catch (Exception e) {
+						e.printStackTrace();
+						System.exit(-1);
+					}		
+				}			
 			}
-			// Sleep
+			
+			// Save Set of cracked Captchas
+			try{
+				FileOutputStream fileOutput = new FileOutputStream(crackedCaptchaSetFile);
+	            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+	            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+	            objectOutputStream.writeObject(crackedCaptchas);
+	            objectOutputStream.close();
+			}
+            catch(Exception e){
+            	e.printStackTrace();
+            }
+            
+			// Sleep at end of infinite Loop
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(60000);
 			} catch (InterruptedException e) {
-				e.printStackTrace();		
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-		}		
-
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
-		}
-		activateWebsite();
-		// Sleep
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
-		// Copy the text into the clipboard
-		copyText();
-		// Sleep
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		// Save the mail
-		try {
-			String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
-			System.out.println(data);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(-1);
 		}
 	}
 	
@@ -287,6 +363,6 @@ public class CaptchaCracking {
 	}
 	
 	public static void main(String[] args) {
-		getBlogabetTip();
+		getBlogabetTips();
 	}
 }

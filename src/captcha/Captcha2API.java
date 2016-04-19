@@ -24,7 +24,7 @@ import org.apache.http.impl.client.HttpClients;
 public class Captcha2API {
 	private static final String appKey = "3daa8e8a39f8a5a48065ce00c1e20234";
 	private static final String url_2Captcha = "http://2captcha.com/in.php";
-	private static final boolean accuracyFeature = true;
+	private static final boolean accuracyFeature = false;
 	
 	private static String convertStreamToString(java.io.InputStream is) {
 	    java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
