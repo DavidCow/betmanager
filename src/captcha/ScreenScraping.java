@@ -554,30 +554,32 @@ public class ScreenScraping {
 	public static String getCaptchaTaskString(){
 		Point upperLeft = getCaptchaBlueBoxUpperLeft();
 		Point bottomRight = getCaptchaBlueBoxBottomRight();
-		int x = (bottomRight.x - upperLeft.x)/2 + upperLeft.x;
-		int y = (bottomRight.y - upperLeft.y)/2 + upperLeft.y;
-		robot.mouseMove(x, y);
-		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);	
-		robot.keyPress(KeyEvent.VK_CONTROL);
-		robot.keyPress(KeyEvent.VK_A);
-		robot.keyRelease(KeyEvent.VK_A);
-		robot.keyPress(KeyEvent.VK_C);
-		robot.keyRelease(KeyEvent.VK_C);
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		try {
-			String taskString = (String) Toolkit.getDefaultToolkit()
-					.getSystemClipboard().getData(DataFlavor.stringFlavor);
-			taskString = taskString.replaceAll("\\..*", "");
-			return taskString;
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(-1);
+		if(upperLeft != null && bottomRight != null){
+			int x = (bottomRight.x - upperLeft.x)/2 + upperLeft.x;
+			int y = (bottomRight.y - upperLeft.y)/2 + upperLeft.y;
+			robot.mouseMove(x, y);
+			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);	
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_A);
+			robot.keyRelease(KeyEvent.VK_A);
+			robot.keyPress(KeyEvent.VK_C);
+			robot.keyRelease(KeyEvent.VK_C);
+			robot.keyRelease(KeyEvent.VK_CONTROL);
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			try {
+				String taskString = (String) Toolkit.getDefaultToolkit()
+						.getSystemClipboard().getData(DataFlavor.stringFlavor);
+				taskString = taskString.replaceAll("\\..*", "");
+				return taskString;
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}		
 		}
 		
 		return "";		
