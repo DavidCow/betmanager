@@ -27,6 +27,7 @@ import java.util.Set;
 
 import javax.imageio.ImageIO;
 
+import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 
 public class CaptchaCracking {
@@ -196,6 +197,9 @@ public class CaptchaCracking {
 		else{
 			crackedCaptchas = new HashSet<String>();
 		}
+		
+		// GMailReader for sending the tips to our mail account
+		GMailReader mailReader = new GMailReader();
 
 		while(true){
 			// Open blogabet site
@@ -319,6 +323,7 @@ public class CaptchaCracking {
 					try {
 						String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 						System.out.println(data);
+						mailReader.sendMail("patrykhopner@gmail.com", "BlogaBetTips", data);
 						
 						// Everything went ok, we save this mail as cracked
 						crackedCaptchas.add(key);
