@@ -584,19 +584,36 @@ public class ScreenScraping {
 		
 		return "";		
 	}
+	
+	public static boolean isTipWindow(){
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		for(int i = 0; i < dataBuffInt.length; i++){
+			if(getRed(dataBuffInt[i])==140 && getGreen(dataBuffInt[i])==51 && getBlue(dataBuffInt[i])==51)
+				if(getRed(dataBuffInt[i+1])==51 && getGreen(dataBuffInt[i+1])==51 && getBlue(dataBuffInt[i+1])==51)
+					if(getRed(dataBuffInt[i+8])==51 && getGreen(dataBuffInt[i+8])==51 && getBlue(dataBuffInt[i+8])==51)
+						if(getRed(dataBuffInt[i+9])==51 && getGreen(dataBuffInt[i+9])==140 && getBlue(dataBuffInt[i+9])==210)
+							return true;
+				
+		}
+		return false;
+	}
 
 	public static void main(String[] args) {
-		Point p0 = getCaptchaBlueBoxUpperLeft();
-		Point p1 = getCaptchaBlueBoxUpperRight();
-		Point p2 = getCaptchaBlueBoxBottomLeft();
-		Point p3 = getCaptchaBlueBoxBottomRight();
-		Point p4 = getCaptchaClickPoint();
-		int c = getNumberOfCells();
-		System.out.println(p0);
-		System.out.println(p1);
-		System.out.println(p2);
-		System.out.println(p3);
-		System.out.println(p4);
+//		Point p0 = getCaptchaBlueBoxUpperLeft();
+//		Point p1 = getCaptchaBlueBoxUpperRight();
+//		Point p2 = getCaptchaBlueBoxBottomLeft();
+//		Point p3 = getCaptchaBlueBoxBottomRight();
+//		Point p4 = getCaptchaClickPoint();
+//		int c = getNumberOfCells();
+//		System.out.println(p0);
+//		System.out.println(p1);
+//		System.out.println(p2);
+//		System.out.println(p3);
+//		System.out.println(p4);
 //		Point p0 = getCaptchaBlueBoxUpperLeft();
 //		Point p1 = getCaptchaBlueBoxUpperRight();
 //		Point p2 = getCaptchaBlueBoxBottomLeft();
@@ -607,7 +624,7 @@ public class ScreenScraping {
 //		System.out.println(p3);
 		//String s = getCaptchaTaskString();
 		//System.out.println(s);
-		System.out.println(c);
+		System.out.println(isTipWindow());
 	}
 
 }
