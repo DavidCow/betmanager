@@ -304,7 +304,7 @@ public class CaptchaCracking {
 					e.printStackTrace();
 				}
 		
-				if(!ScreenScraping.isImNotARobotWindow() && !ScreenScraping.isCaptchaWindow()){
+				if(ScreenScraping.isTipWindow()){
 					// Copy the text into the clipboard
 					copyText();
 					// Sleep
@@ -340,10 +340,20 @@ public class CaptchaCracking {
             catch(Exception e){
             	e.printStackTrace();
             }
+			
+			// Close chrome
+			Runtime rt = Runtime.getRuntime();
+
+			try {
+				rt.exec("taskkill /F /IM chrome.exe");
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
             
 			// Sleep at end of infinite Loop
 			try {
-				Thread.sleep(60000);
+				Thread.sleep(120000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
