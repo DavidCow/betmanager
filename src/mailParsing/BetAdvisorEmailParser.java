@@ -402,7 +402,7 @@ public class BetAdvisorEmailParser {
 		result.bestOdds = bestOdds;
 		
 		/* Parse no bet under */
-		int noBetUnderStart = cleanedMail.indexOf("NO BET UNDER: ") + 14;
+		int noBetUnderStart = cleanedMail.toUpperCase().indexOf("NO BET UNDER: ") + 14;
 		int noBetUnderEnd = cleanedMail.indexOf("\n", noBetUnderStart) - 1;
 		String noBetUnderString = cleanedMail.substring(noBetUnderStart, noBetUnderEnd);
 		double noBetUnder = Double.parseDouble(noBetUnderString);
@@ -432,7 +432,7 @@ public class BetAdvisorEmailParser {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){
