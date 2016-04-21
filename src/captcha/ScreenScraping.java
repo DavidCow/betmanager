@@ -592,10 +592,10 @@ public class ScreenScraping {
 		int height = capture.getHeight();
 		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
 		for(int i = 0; i < dataBuffInt.length; i++){
-			if(getRed(dataBuffInt[i])==140 && getGreen(dataBuffInt[i])==51 && getBlue(dataBuffInt[i])==51)
-				if(getRed(dataBuffInt[i+1])==51 && getGreen(dataBuffInt[i+1])==51 && getBlue(dataBuffInt[i+1])==51)
-					if(getRed(dataBuffInt[i+8])==51 && getGreen(dataBuffInt[i+8])==51 && getBlue(dataBuffInt[i+8])==51)
-						if(getRed(dataBuffInt[i+9])==51 && getGreen(dataBuffInt[i+9])==140 && getBlue(dataBuffInt[i+9])==210)
+			if(getRed(dataBuffInt[i])==172 && getGreen(dataBuffInt[i])==242 && getBlue(dataBuffInt[i])==246)
+				if(getRed(dataBuffInt[i+1])==251 && getGreen(dataBuffInt[i+1])==255 && getBlue(dataBuffInt[i+1])==253)
+					if(getRed(dataBuffInt[i+2])==243 && getGreen(dataBuffInt[i+2])==244 && getBlue(dataBuffInt[i+2])==225)
+						if(getRed(dataBuffInt[i+3])==145 && getGreen(dataBuffInt[i+3])==218 && getBlue(dataBuffInt[i+3])==202)
 							return true;
 				
 		}
