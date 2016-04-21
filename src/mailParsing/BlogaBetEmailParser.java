@@ -1,11 +1,10 @@
 package mailParsing;
 
-import java.awt.Toolkit;
-import java.awt.datatransfer.DataFlavor;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
@@ -129,17 +128,22 @@ public class BlogaBetEmailParser {
 	
 
 	public static void main(String[] args) {
-		try {
-			String data = (String) Toolkit.getDefaultToolkit()
-					.getSystemClipboard().getData(DataFlavor.stringFlavor);
-			ParsedTextMail mail = new ParsedTextMail();
-			mail.content = data;
-			parseEmail(mail);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(-1);
+//		try {
+//			String data = (String) Toolkit.getDefaultToolkit()
+//					.getSystemClipboard().getData(DataFlavor.stringFlavor);
+//			ParsedTextMail mail = new ParsedTextMail();
+//			mail.content = data;
+//			parseEmail(mail);
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			System.exit(-1);
+//		}
+		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 100);
+		for(int i = 0; i < mails.size(); i++){
+			ParsedTextMail mail = mails.get(i);
+			System.out.println(mail.subject);
 		}
 
 	}
-
 }
