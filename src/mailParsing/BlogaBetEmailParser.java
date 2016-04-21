@@ -40,7 +40,11 @@ public class BlogaBetEmailParser {
 			tip.pivotType = "Asian handicap";
 			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s.{1})(\\d+\\.\\d*)(.*@.*)", "$2"));
 			String bias = lines[5].replaceAll("(.*)(\\s.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim();
-			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+//			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
+				tip.selection = "HOME";
+			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
+				tip.selection = "AWAY";
 			if(bias.equalsIgnoreCase("-"))
 				tip.pivotBias = tip.selection;
 			else
@@ -51,15 +55,33 @@ public class BlogaBetEmailParser {
 		}
 		else if(lines[5].contains("(1X2)")){
 			tip.pivotType = "Match Odds";
-			tip.selection = lines[5].replaceAll("(.*)(\\s.+\\s+)(\\(.*)", "$2").trim().toUpperCase();
+//			tip.selection = lines[5].replaceAll("(.*)(\\s.+\\s+)(\\(.*)", "$2").trim().toUpperCase();
+			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
+				tip.selection = "HOME";
+			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
+				tip.selection = "AWAY";
+			else if(lines[5].contains("Draw") || lines[5].contains("DRAW") || lines[5].contains("draw"))
+				tip.selection = "DRAW";
 			System.out.println(tip.selection);
 		}
 		else if(lines[5].contains("(O/U)")){
 			tip.pivotType = "Over / Under";
 			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*)(\\s\\d+\\.\\d*)(.*@.*)", "$2"));
-			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+//			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
+				tip.selection = "OVER";
+			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
+				tip.selection = "UNDER";
 			System.out.println(tip.pivotValue);
 			System.out.println(tip.selection);
+		}
+		else if(lines[5].contains("(Corners O/U)")){
+			tip.pivotType = "Over / Under Corners";
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*)(\\s\\d+\\.\\d*)(.*@.*)", "$2"));
+			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
+				tip.selection = "OVER";
+			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
+				tip.selection = "UNDER";
 		}
 		
 		//parse odds
