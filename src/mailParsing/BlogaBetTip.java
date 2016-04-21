@@ -15,6 +15,7 @@ public class BlogaBetTip {
 	public String sport;
 	public String country;
 	public Date startDate;
+	public Date receivedDate;
 	public String tipster;
 	public String selection;
 

@@ -25,58 +25,106 @@ public class BlogaBetEmailParser {
 		//parse tipster
 		tip.tipster = lines[1];
 		
-		//parse host
-		tip.host = lines[4].replaceAll("-.*", "").trim();
+		//parse host and guest
+		if(lines[4].contains(" - ")){
+			tip.host = lines[4].replaceAll("-.*", "").trim();
+			tip.guest = lines[4].replaceAll(".*-\\s?", "").trim();
+		}
+		else{
+			tip.host = lines[4].replaceAll("\\sv\\s.*", "").trim();
+			tip.guest = lines[4].replaceAll(".*\\sv\\s", "").trim();
+		}
 		
-		//parse guest
-		tip.guest = lines[4].replaceAll(".*-\\s?", "").trim();
+		//replace selected team name with home or guest
+		if(lines[5].contains(tip.host))
+			lines[5] = lines[5].replace(tip.host, "Home");
+		if(lines[5].contains(tip.guest))
+			lines[5] = lines[5].replace(tip.guest, "Away");
 		
 		/*Parse pivot type, value and bias
 		 * Check type first, then parse value and bias
 		 * 
 		 */
-		if(lines[5].contains("(AH)")){
-			tip.pivotType = "Asian handicap";
-			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s.{1})(\\d+\\.\\d*)(.*@.*)", "$2"));
-			String bias = lines[5].replaceAll("(.*)(\\s.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim();
-//			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+		if(lines[5].contains("(AH)") || lines[5].contains("Asian")){
+			//check asian handicap variant
+			if(lines[5].contains("1st Half"))
+				tip.pivotType = "Asian handicap 1st Half";
+			else if(lines[5].contains("Alternative"))
+				tip.pivotType = "Asian handicap Alternative";
+			else
+				tip.pivotType = "Asian handicap";
+			
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
+			
 			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
 				tip.selection = "HOME";
 			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
 				tip.selection = "AWAY";
-			if(bias.equalsIgnoreCase("-"))
-				tip.pivotBias = tip.selection;
-			else
-				tip.pivotBias = oppositeString(tip.selection);
-//			System.out.println(tip.pivotValue);
-//			System.out.println(tip.pivotBias);
-//			System.out.println(tip.selection);
+			
+			if(tip.pivotValue>0){
+				String bias = lines[5].replaceAll("(.*)(\\s.{1})(\\d+\\.\\d*)(.*@.*)", "$2").trim();
+				if(bias.equalsIgnoreCase("-"))
+					tip.pivotBias = tip.selection;
+				else
+					tip.pivotBias = oppositeString(tip.selection);
+			}
 		}
 		else if(lines[5].contains("(1X2)")){
 			tip.pivotType = "Match Odds";
-//			tip.selection = lines[5].replaceAll("(.*)(\\s.+\\s+)(\\(.*)", "$2").trim().toUpperCase();
 			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
 				tip.selection = "HOME";
 			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
 				tip.selection = "AWAY";
 			else if(lines[5].contains("Draw") || lines[5].contains("DRAW") || lines[5].contains("draw"))
 				tip.selection = "DRAW";
-			System.out.println(tip.selection);
 		}
-		else if(lines[5].contains("(O/U)")){
-			tip.pivotType = "Over / Under";
-			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*)(\\s\\d+\\.\\d*)(.*@.*)", "$2"));
-//			tip.selection = lines[5].replaceAll("(.*)(\\s.*\\s)(\\d+\\.\\d*)(.*@.*)", "$2").trim().toUpperCase();
+		else if(lines[5].contains("O/U")){
+			//check over under variants
+			if(lines[5].contains("Team")){
+				tip.pivotType = "Over / Under Team";
+				if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
+					tip.pivotBias = "HOME";
+				else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
+					tip.pivotBias = "AWAY";
+			}
+			else if(lines[5].contains("Corners")){
+				tip.pivotType = "Over / Under Corners";
+			}
+			else
+				tip.pivotType = "Over / Under";
+			
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
 			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
 				tip.selection = "OVER";
 			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
 				tip.selection = "UNDER";
-			System.out.println(tip.pivotValue);
-			System.out.println(tip.selection);
 		}
 		else if(lines[5].contains("(Corners O/U)")){
 			tip.pivotType = "Over / Under Corners";
-			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*)(\\s\\d+\\.\\d*)(.*@.*)", "$2"));
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
+			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
+				tip.selection = "OVER";
+			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
+				tip.selection = "UNDER";
+		}
+		else if(lines[5].contains("(DNB)")){
+			tip.pivotType = "DNB";
+			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
+				tip.selection = "HOME";
+			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
+				tip.selection = "AWAY";
+		}
+		else if(lines[5].contains("Match Goals")){
+			tip.pivotType = "Match Goals";
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
+			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
+				tip.selection = "OVER";
+			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
+				tip.selection = "UNDER";
+		}
+		else if(lines[5].contains("Goal Line")){
+			tip.pivotType = "Goal Line";
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
 			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
 				tip.selection = "OVER";
 			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
@@ -95,17 +143,13 @@ public class BlogaBetEmailParser {
 			tip.source = lineSixSplits[2];
 		else 
 			tip.source = lineSixSplits[1];
-		System.out.println(tip.stake);
-		System.out.println(tip.source);
-		System.out.println(tip.odds);
 		
 		//parse sport
 		tip.sport = lines[7].replaceAll("\\s?/.*", "").trim();
 		
 		//parse country
 		tip.country = lines[7].replaceAll("(.*/)(.*)(/.*)", "$2").trim();
-		System.out.println(tip.sport);
-		System.out.println(tip.country);
+
 		/* Parse date 
 		 * 
 		 * The timezone is CET
@@ -119,15 +163,19 @@ public class BlogaBetEmailParser {
 			date = format.parse(dateString);
 		} catch (ParseException e) {
 			e.printStackTrace();
-			System.exit(-1); // Exit and debug it, rather than working with wrong values
+//			System.exit(-1); // Exit and debug it, rather than working with wrong values
 		}
 		tip.startDate = date;
-		System.out.println(tip.startDate.toString());
+		
+		//parse received date
+		tip.receivedDate = mail.receivedDate;
 		return tip;
 	}
 	
 
 	public static void main(String[] args) {
+//		String a = "Cacereno 0 (1st Half Asian Handicap) (1-1) @ 3.7";
+//		System.out.println(a.replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
 //		try {
 //			String data = (String) Toolkit.getDefaultToolkit()
 //					.getSystemClipboard().getData(DataFlavor.stringFlavor);
@@ -139,10 +187,29 @@ public class BlogaBetEmailParser {
 //			System.exit(-1);
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
-		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 100);
-		for(int i = 0; i < mails.size(); i++){
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 200);
+		for(int i = 191; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
-			System.out.println(mail.subject);
+			try{
+				BlogaBetTip tip = parseEmail(mail);
+			System.out.println("Mail " + i);
+			System.out.println("Host: " + tip.host);
+			System.out.println("Guest: " + tip.guest);
+			System.out.println("Type: " + tip.pivotType);
+			System.out.println("Pvalue: " + tip.pivotValue);
+			if(tip.pivotType.equalsIgnoreCase("Asian handicap"))
+				System.out.println("Pbias: " + tip.pivotBias);
+			System.out.println("Odd: " + tip.odds);
+			if(tip.selection == null)
+				throw new RuntimeException("selection is null");
+			System.out.println("Selection: " + tip.selection);
+			System.out.println("Source: " + tip.source);
+			System.out.println("*****************************************************");
+			}
+			catch (Exception e){
+				e.printStackTrace();
+				System.out.println(mail.content);
+			}
 		}
 
 	}
