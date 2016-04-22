@@ -45,12 +45,14 @@ public class BlogaBetEmailParser {
 		 * Check type first, then parse value and bias
 		 * 
 		 */
-		if(lines[5].contains("(AH)") || lines[5].contains("Asian")){
-			//check asian handicap variant
+		if(lines[5].contains("(AH)") || lines[5].contains("Asian") || lines[5].contains("1X2 HC")){
+			//check handicap variant
 			if(lines[5].contains("1st Half"))
 				tip.pivotType = "Asian handicap 1st Half";
 			else if(lines[5].contains("Alternative"))
 				tip.pivotType = "Asian handicap Alternative";
+			else if(lines[5].contains("1X2 HC"))
+				tip.pivotType = "1X2 HC";
 			else
 				tip.pivotType = "Asian handicap";
 			
@@ -69,13 +71,13 @@ public class BlogaBetEmailParser {
 					tip.pivotBias = oppositeString(tip.selection);
 			}
 		}
-		else if(lines[5].contains("(1X2)")){
+		else if(lines[5].contains("1X2") || lines[5].contains("(Win)")){
 			tip.pivotType = "Match Odds";
 			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
 				tip.selection = "HOME";
 			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
 				tip.selection = "AWAY";
-			else if(lines[5].contains("Draw") || lines[5].contains("DRAW") || lines[5].contains("draw"))
+			else if(lines[5].contains("Draw") || lines[5].contains("DRAW") || lines[5].contains("draw") || lines[5].contains("X"))
 				tip.selection = "DRAW";
 		}
 		else if(lines[5].contains("O/U")){
@@ -99,13 +101,12 @@ public class BlogaBetEmailParser {
 			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
 				tip.selection = "UNDER";
 		}
-		else if(lines[5].contains("(Corners O/U)")){
-			tip.pivotType = "Over / Under Corners";
-			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
-			if(lines[5].contains("Over") || lines[5].contains("OVER") || lines[5].contains("over"))
-				tip.selection = "OVER";
-			else if(lines[5].contains("Under") || lines[5].contains("UNDER") || lines[5].contains("under")) 
-				tip.selection = "UNDER";
+		else if(lines[5].contains("Double Chance")){
+			tip.pivotType = "Double Chance";
+			if(lines[5].contains("X1") || lines[5].contains("1X"))
+				tip.selection = "X1";
+			else if(lines[5].contains("X2") || lines[5].contains("2X")) 
+				tip.selection = "X2";
 		}
 		else if(lines[5].contains("(DNB)")){
 			tip.pivotType = "DNB";
@@ -187,8 +188,8 @@ public class BlogaBetEmailParser {
 //			System.exit(-1);
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
-		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 200);
-		for(int i = 191; i < mails.size(); i++){
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 1000);
+		for(int i = 0; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
 			try{
 				BlogaBetTip tip = parseEmail(mail);
