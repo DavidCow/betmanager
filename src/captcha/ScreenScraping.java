@@ -601,6 +601,36 @@ public class ScreenScraping {
 		}
 		return false;
 	}
+	
+	public static Point getShowMoreDetailButton(){
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		for(int i = 0; i < dataBuffInt.length; i++){
+			if(getRed(dataBuffInt[i])==210 && getGreen(dataBuffInt[i])==140 && getBlue(dataBuffInt[i])==51)
+				if(getRed(dataBuffInt[i+1])==51 && getGreen(dataBuffInt[i+1])==51 && getBlue(dataBuffInt[i+1])==51)
+					if(getRed(dataBuffInt[i+5])==140 && getGreen(dataBuffInt[i+5])==204 && getBlue(dataBuffInt[i+5])==255)
+						if(getRed(dataBuffInt[i+6])==255 && getGreen(dataBuffInt[i+6])==255 && getBlue(dataBuffInt[i+6])==255)
+							if(getRed(dataBuffInt[i+7])==204 && getGreen(dataBuffInt[i+7])==140 && getBlue(dataBuffInt[i+7])==51){
+								int x = (i % width)+6;
+								int y = (i / width)+4;
+								return new Point(x,y);
+							}
+								
+				
+		}
+		return null;
+	}
+	
+	public static boolean isComboBetTip(){
+		if(getShowMoreDetailButton() == null)
+			return false;
+		else
+			return true;
+	}
+	
 
 	public static void main(String[] args) {
 //		Point p0 = getCaptchaBlueBoxUpperLeft();
@@ -624,7 +654,7 @@ public class ScreenScraping {
 //		System.out.println(p3);
 		//String s = getCaptchaTaskString();
 		//System.out.println(s);
-		System.out.println(isTipWindow());
+		System.out.println(getShowMoreDetailButton().x);
 	}
 
 }

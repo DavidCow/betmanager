@@ -125,6 +125,13 @@ public class CaptchaCracking {
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
 	
+	public static void clickShowDetails(){
+		Point coordinates = ScreenScraping.getShowMoreDetailButton();
+		robot.mouseMove(coordinates.x, coordinates.y);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+	}
+	
 	public static void saveImage(){
 		Point p = ScreenScraping.getCaptchaClickPoint();
 		int x0 = p.x;
@@ -309,6 +316,18 @@ public class CaptchaCracking {
 				}
 		
 				if(ScreenScraping.isTipWindow()){
+					
+					//click show details first if its combo bet tip
+					if(ScreenScraping.isComboBetTip()){
+						clickShowDetails();
+						// Sleep
+						try {
+							Thread.sleep(2000);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+						}
+					}
+					
 					// Copy the text into the clipboard
 					copyText();
 					// Sleep
