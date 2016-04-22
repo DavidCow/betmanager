@@ -311,7 +311,6 @@ public class ScreenScraping {
 		int width = capture.getWidth();
 		int height = capture.getHeight();
 		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
-		System.out.println(dataBuffInt.length);
 		for(int i = 0; i < dataBuffInt.length; i++){
 			if(getRed(dataBuffInt[i])==232 && getGreen(dataBuffInt[i])==232 && getBlue(dataBuffInt[i])==232){
 				if(getRed(dataBuffInt[i+1])==203 && getGreen(dataBuffInt[i+1])==203 && getBlue(dataBuffInt[i+1])==203){
@@ -545,7 +544,6 @@ public class ScreenScraping {
 					x = Math.min(endX, x + 20);
 				}
 			}
-			System.out.println("Cells: " +  (numLines + 1));
 			return numLines + 1;
 		}		
 		return 0;

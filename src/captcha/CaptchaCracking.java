@@ -206,11 +206,11 @@ public class CaptchaCracking {
 		}
 		
 		// GMailReader for sending the tips to our mail account
-		GMailReader mailReader = new GMailReader();
+		GMailReader mailReader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
 
 		while(true){
 			// Open blogabet site
-			List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(30);
+			List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(500);
 
 			for(int i = 0; i < mails.size(); i++){
 				ParsedTextMail mailToCheck = mails.get(i);
@@ -237,6 +237,9 @@ public class CaptchaCracking {
 				
 				int numberOfTries = 0;
 				while(numberOfTries < 3){
+					if(ScreenScraping.isTipWindow()){
+						break;
+					}
 					numberOfTries++;
 					if(ScreenScraping.isImNotARobotWindow()){
 						System.out.println("I am not a Robot");
@@ -246,7 +249,7 @@ public class CaptchaCracking {
 			
 						// Sleep
 						try {
-							Thread.sleep(2000);
+							Thread.sleep(3000);
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 							System.exit(-1);
@@ -261,7 +264,7 @@ public class CaptchaCracking {
 		
 						// Sleep
 						try {
-							Thread.sleep(5000);
+							Thread.sleep(3000);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -290,9 +293,6 @@ public class CaptchaCracking {
 						clickCaptcha(clickIndexes, width, height);
 						numberOfTries++;
 					} 
-					else{
-							System.out.println("No Captcha");
-						}
 					// Sleep
 					try {
 						Thread.sleep(5000);
@@ -307,7 +307,6 @@ public class CaptchaCracking {
 					e1.printStackTrace();
 				}
 
-				activateWebsite();
 				// Sleep
 				try {
 					Thread.sleep(1000);
@@ -328,6 +327,7 @@ public class CaptchaCracking {
 						}
 					}
 					
+					activateWebsite();
 					// Copy the text into the clipboard
 					copyText();
 					// Sleep
