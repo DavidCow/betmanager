@@ -17,6 +17,11 @@ public class BlogaBetEmailParser {
 			return "HOME";
 	}
 	
+//	private static List<BlogaBetTip> parseComboBetTip(ParsedTextMail mail){
+//		String content = mail.content;
+//		
+//	}
+	
 	public static BlogaBetTip parseEmail(ParsedTextMail mail){
 		String s = mail.content;
 		BlogaBetTip tip = new BlogaBetTip();
@@ -30,10 +35,11 @@ public class BlogaBetEmailParser {
 			tip.host = lines[4].replaceAll("-.*", "").trim();
 			tip.guest = lines[4].replaceAll(".*-\\s?", "").trim();
 		}
-		else{
+		else {
 			tip.host = lines[4].replaceAll("\\sv\\s.*", "").trim();
 			tip.guest = lines[4].replaceAll(".*\\sv\\s", "").trim();
 		}
+
 		
 		//replace selected team name with home or guest
 		if(lines[5].contains(tip.host))
@@ -164,12 +170,42 @@ public class BlogaBetEmailParser {
 			date = format.parse(dateString);
 		} catch (ParseException e) {
 			e.printStackTrace();
-//			System.exit(-1); // Exit and debug it, rather than working with wrong values
+			System.exit(-1); // Exit and debug it, rather than working with wrong values
 		}
 		tip.startDate = date;
 		
 		//parse received date
 		tip.receivedDate = mail.receivedDate;
+		
+		//parse publish date
+		DateFormat publish_date_format = new SimpleDateFormat("EEE, MMM dd, yyyy, HH:mm", Locale.UK);
+		format.setTimeZone(TimeZone.getTimeZone("CET"));
+		String publishdateString = lines[3].replaceFirst(".*:\\s", "").trim();
+		
+		// Remove the suffix of the day 
+		// There is nothing in the java standard library to do this more elegantly
+		publishdateString = publishdateString.replaceAll("st", ""); // as in 1st
+		publishdateString = publishdateString.replaceAll("nd", ""); // as in 2nd
+		publishdateString = publishdateString.replaceAll("rd", ""); // as in 3rd
+		publishdateString = publishdateString.replaceAll("th", ""); // as in 4th
+		Date publishDate = null;
+		try {
+			publishDate = publish_date_format.parse(publishdateString);
+			tip.publishDate = publishDate;
+		} catch (ParseException e) {
+			e.printStackTrace();
+			System.exit(-1); // Exit and debug it, rather than working with wrong values
+		}
+		
+		//throw parsing error exception
+		if(tip.selection == null)
+			throw new RuntimeException("no selection");
+		if(tip.pivotType == null)
+			throw new RuntimeException("no pivottype");
+		if(tip.odds <= 0)
+			throw new RuntimeException("odd < 0");
+
+		
 		return tip;
 	}
 	
@@ -189,7 +225,7 @@ public class BlogaBetEmailParser {
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
 		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 1000);
-		for(int i = 0; i < mails.size(); i++){
+		for(int i = 25; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
 			try{
 				BlogaBetTip tip = parseEmail(mail);
