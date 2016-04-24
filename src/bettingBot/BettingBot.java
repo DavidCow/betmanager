@@ -21,6 +21,7 @@ import jayeson.lib.datastructure.SoccerEvent;
 import jayeson.lib.recordfetcher.DeltaCrawlerSession;
 import mailParsing.BetAdvisorEmailParser;
 import mailParsing.BetAdvisorTip;
+import mailParsing.BlogaBetTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 import bettingBot.database.BettingBotDatabase;
@@ -38,7 +39,7 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 100;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 250;
+	private static final int MAX_STAKE = 100;
 	
 	public void run(){
 		
@@ -47,6 +48,7 @@ public class BettingBot {
 		
 		// ArrayList which holds Tips, that will not be printed anymore
 		Map<BetAdvisorTip, Integer> seenTips = new HashMap<BetAdvisorTip, Integer>();
+		Map<BlogaBetTip, Integer> seenTipsBlogaBet = new HashMap<BlogaBetTip, Integer>();
 		
 		// Initialize GUI
 		mainFrame.setVisible(true);
@@ -75,7 +77,8 @@ public class BettingBot {
 		cs.connect();	
 
 		// Initialize mail parsing
-		GMailReader reader = new GMailReader();
+		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
+		GMailReader readerBlogaBet = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
 		
 		/* Initialize Classes for JSon deserialisation */
 		Class eventClass = null;
@@ -182,7 +185,7 @@ public class BettingBot {
 			}
 				
 			/* Iterate over all tips */
-			for(int t = 0; t < tips.size(); t++){
+			for(int t = 0; t < t; t++){
 				
 				BetAdvisorTip tip = tips.get(t);
 				
@@ -201,7 +204,7 @@ public class BettingBot {
 				boolean secondBetForTip = false;
 				double betAmountForTip = 0;
 				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
-				if(dataBase.isTipInDatabase(tip.event, tip.tipster, tip.date.getTime())){
+				if(dataBase.isTipInDatabase(tip)){
 					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.date.getTime());
 					for(int b = 0; b < betInformations.size(); b++){
 						double betAmount = betInformations.get(b).getBetAmount();
@@ -829,10 +832,130 @@ public class BettingBot {
 				}				
 			}
 			
+			// BlogaBet
+			// Get parsed mails
+			List<ParsedTextMail> mailsBlogaBet = readerBlogaBet.read("vicentbet90@gmail.com.com", numberOfMessagesToCheck);
+			List<BlogaBetTip> tipsBlogaBet = new ArrayList<BlogaBetTip>();
+			for(ParsedTextMail mail : mailsBlogaBet){
+				if(mail.subject.indexOf("Tip subscription") != -1){
+					tips.add(BetAdvisorEmailParser.parseTip(mail));
+				}
+			}
+				
+			/* Iterate over all tips */
+			for(int t = 0; t < tipsBlogaBet.size(); t++){
+				BlogaBetTip tip = tipsBlogaBet.get(t);
+				
+				/* The teams of this tip */
+				String tipHost = tip.host;
+				String tipGuest = tip.guest;
+				
+				/* The date when the game is starting */
+				Date tipStartDate = tip.startDate;		
+				long tipStartUnixTime = tipStartDate.getTime();
+				
+				/* We can not bet on events from the past */
+				if(tipStartUnixTime < System.currentTimeMillis())
+					continue;
+				
+				boolean secondBetForTip = false;
+				double betAmountForTip = 0;
+				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
+				if(dataBase.isTipInDatabase(tip)){
+					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.startDate.getTime());
+					for(int b = 0; b < betInformations.size(); b++){
+						double betAmount = betInformations.get(b).getBetAmount();
+						betAmountForTip += betAmount;
+					}
+					if(betAmountForTip >= MAX_STAKE){
+						continue;
+					}
+					secondBetForTip = true;
+				}
+
+				// Some variables for logging
+				boolean newTip = false;
+				boolean timeFoundAlreadyPrinted = false;
+
+				/* Tip is not in database, we log once that we received it and add it to a List
+				 * So it gets ignored in later prints
+				 */
+				if(!seenTips.containsKey(tip)){
+					mainFrame.addEvent("New Tip received:\n" + tip.toString());
+					seenTipsBlogaBet.put(tip, 0);
+					newTip = true;
+				}
+				else{
+					int v = seenTips.get(tip);
+					if(v < 5){
+						newTip = true;
+						seenTipsBlogaBet.put(tip, seenTips.get(tip) + 1);	
+					}
+				}
+				
+				
+				/* Inner loop: iterate over currently available events */
+				for (SoccerEvent event : events) {	
+					
+					Collection<Record> records = event.getRecords();	
+					/* If there are no records for this event, we can not bet on it */
+					if (records.size() == 0) 
+						continue;
+					
+					/* Get some event variables */
+					String eventHost = event.getHost();
+					String eventGuest = event.getGuest();
+					
+					/* We do not bet on number of corners */
+					if(eventHost.indexOf("No.of Corners") != -1)
+						continue;
+					if(eventGuest.indexOf("No.of Corners") != -1)
+						continue;
+					/* We do not bet on the nth corner */
+					if(eventHost.indexOf(" Corner") != -1)
+						continue;
+					if(eventGuest.indexOf(" Corner") != -1)
+						continue;
+					/* We do not bet on "Home Team" */
+					if(eventHost.indexOf("Home Team") == 0)
+						continue;
+										
+					/* The date when the event starts */
+					Date eventStartDate = new Date(event.getLiveState().getStartTime() * 1000);
+					long eventStartUnixTime = eventStartDate.getTime();
+					
+					/* Check if start Time matches 
+					 * 
+					 * Do it with a 5 minute tolerance, because the dates from Eastbridge are sometimes a little inaccurate
+					 */
+					if(Math.abs(tipStartUnixTime - eventStartUnixTime) < 5 * 60 * 1000){
+						/* Log that we found a matching game date */
+						if(newTip && !timeFoundAlreadyPrinted){
+							timeFoundAlreadyPrinted = true;
+							seenTipsBlogaBet.put(tip, 5);	
+							mainFrame.addEvent("Matching Game Date found:\n" + eventStartDate.toString());
+						}
+											
+						/* Check if teams match, using different methods */
+						boolean teamsMatch = eventHost.equalsIgnoreCase(tipHost) || eventGuest.equalsIgnoreCase(tipGuest);
+						
+						if(!teamsMatch)
+							teamsMatch = TeamMapping.teamsMatch(eventHost, tipHost) || TeamMapping.teamsMatch(eventGuest, tipGuest);
+						
+						/*/ Teams match, get the right record and make a bet */
+						if(teamsMatch){
+							/* Log that we found matching teams */		
+							System.out.println("Teams Match!");
+						}
+					}
+				}
+			}
+			
 			// Get open Bets
-			List<Bet> bets = dataBase.getAllBets();
 			String openBets = "Running bets:\n";
 			double currentlyInvested = 0;
+			
+			List<Bet> bets = dataBase.getAllBets();
 			for(int b = 0; b < bets.size(); b++){
 				Bet bet = bets.get(b);
 				// Update bet status
