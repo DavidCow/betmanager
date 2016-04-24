@@ -9,21 +9,22 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.gson.Gson;
-
-import bettingBot.entities.Bet;
-import bettingBot.entities.ExtendedBetInformations;
 import mailParsing.BetAdvisorEmailParser;
 import mailParsing.BetAdvisorTip;
+import mailParsing.BlogaBetTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
+import bettingBot.entities.Bet;
+import bettingBot.entities.ExtendedBetInformations;
+
+import com.google.gson.Gson;
 
 public class BettingBotDatabase {
 
-	private String dbName = "BettingBotNew";
+	private String dbName = "BettingBot2";
 	private static String userName = "postgres";
 	private static String password = "postgrespass";
-	private static String port = "5432";
+	private static String port = "5433";
 
 	private Connection       db;        // A connection to the database
 	private DatabaseMetaData dbmd;      // This is basically info the driver delivers about the DB it just connected to.
@@ -57,6 +58,23 @@ public class BettingBotDatabase {
 	            " pivotBias VARCHAR(255), " + 
 	            " PRIMARY KEY ( event, tipster, date ))"; 
 	    sql.executeUpdate(createProcessedTips);
+	    
+	    // Tips Table for BlogaBet
+		// Contains all the processed tips, not all the tips we received
+	    String createProcessedTipsBlogaBet= "CREATE TABLE IF NOT EXISTS processed_tips_blogabet " +
+	            "(event VARCHAR(255) NOT NULL, " +
+	            " tipster VARCHAR(255) NOT NULL, " +
+	            " date BIGINT NOT NULL, " +
+	            " host VARCHAR(255), " + 
+	            " guest VARCHAR(255), " + 
+	            " typeOfBet VARCHAR(255), " + 
+	            " betOn VARCHAR(255), " + 
+	            " bestOdds DOUBLE PRECISION, " + 
+	            " noBetUnder DOUBLE PRECISION, " + 
+	            " pivotValue DOUBLE PRECISION, " + 
+	            " pivotBias VARCHAR(255), " + 
+	            " PRIMARY KEY ( event, tipster, date ))"; 
+	    sql.executeUpdate(createProcessedTipsBlogaBet);
 	    
 	    // Bets Table
 	    String createBets = "CREATE TABLE IF NOT EXISTS bets " +
@@ -162,6 +180,12 @@ public class BettingBotDatabase {
 		}
 	}
 	
+	public void addProcessedTip(BlogaBetTip tip) throws SQLException{
+		addProcessedTipBlogaBet(tip.event, tip.tipster, tip.startDate.getTime(), 
+		                   tip.host, tip.guest, tip.typeOfBet, tip.selection, 
+		                   tip.odds, 0, tip.pivotValue, tip.pivotBias);
+	}
+	
 	public void addProcessedTip(BetAdvisorTip tip) throws SQLException{
 		addProcessedTip(tip.event, tip.tipster, tip.date.getTime(), 
 		                   tip.host, tip.guest, tip.typeOfBet, tip.betOn, 
@@ -184,7 +208,48 @@ public class BettingBotDatabase {
 		sT.executeUpdate(addBetInformations);
 	}
 	
-	public boolean isTipInDatabase(String event, String tipster, long date) {
+	private void addProcessedTipBlogaBet(String event, String tipster, long date, String host, String guest, String typeofBet, 
+            String betOn, double bestOdds, double noBetUnder, double pivotValue, String pivotBias) throws SQLException
+	{
+	Statement sT = null;
+	try {
+	sT = db.createStatement();
+	} catch (SQLException e1) {
+	// TODO Auto-generated catch block
+	e1.printStackTrace();
+	}
+	String addBetInformations = "INSERT INTO processed_tips_blogabet (event, tipster, date, host, guest, typeOfBet, betOn, bestOdds, noBetUnder, pivotValue, pivotBias)";
+	addBetInformations += "VALUES ('" + event + "','" + tipster + "'," + date + ",'" + host + "','" + guest + "','" + typeofBet +
+	      "','" + betOn + "'," + bestOdds + "," + noBetUnder + "," + pivotValue + ",'" + pivotBias + "')";
+	sT.executeUpdate(addBetInformations);
+	}
+	
+	public boolean isTipInDatabase(BetAdvisorTip tip){
+		return isTipInDatabase(tip.event, tip.tipster, tip.date.getTime()); 
+	}
+	
+	public boolean isTipInDatabase(BlogaBetTip tip){
+		return isTipInDatabaseBlogaBet(tip.event, tip.tipster, tip.startDate.getTime()); 
+	}
+	
+	private boolean isTipInDatabase(String event, String tipster, long date) {
+		try {
+			Statement stmt = db.createStatement();
+			ResultSet result = null;
+			result = stmt.executeQuery("SELECT date FROM processed_tips WHERE event='" + event + "' AND tipster='" + tipster + "' AND date=" + date);
+			if (!result.isBeforeFirst()) {
+				return false;
+			} else {
+				return true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		return false;
+	}
+	
+	private boolean isTipInDatabaseBlogaBet(String event, String tipster, long date) {
 		try {
 			Statement stmt = db.createStatement();
 			ResultSet result = null;
@@ -255,7 +320,7 @@ public class BettingBotDatabase {
 	
 	public void testAddingTips() throws ClassNotFoundException, SQLException{
 		BettingBotDatabase dataBase = new BettingBotDatabase();
-		GMailReader reader = new GMailReader();
+		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
 		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
 		List<BetAdvisorTip> betInformations = new ArrayList<BetAdvisorTip>();
 		for(ParsedTextMail mail : mails){
