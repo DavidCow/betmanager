@@ -186,7 +186,7 @@ public class BlogaBetEmailParser {
 			int minsEnd = publishdateString.indexOf(" min");
 			String minsString = publishdateString.substring(0, minsEnd);
 			int minsAgo = Integer.parseInt(minsString);
-			long publishedTime = System.currentTimeMillis() - minsAgo * 60 * 1000;
+			long publishedTime = mail.receivedDate.getTime() - minsAgo * 60 * 1000;
 			Date publishDate = new Date(publishedTime);
 			tip.publishDate = publishDate;
 		}
@@ -194,7 +194,7 @@ public class BlogaBetEmailParser {
 			int secsEnd = publishdateString.indexOf(" sec");
 			String secsString = publishdateString.substring(0, secsEnd);
 			int secsAgo = Integer.parseInt(secsString);
-			long publishedTime = System.currentTimeMillis() - secsAgo * 1000;
+			long publishedTime = mail.receivedDate.getTime() - secsAgo * 1000;
 			Date publishDate = new Date(publishedTime);	
 			tip.publishDate = publishDate;
 		}
