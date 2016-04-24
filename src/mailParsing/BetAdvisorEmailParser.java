@@ -408,9 +408,15 @@ public class BetAdvisorEmailParser {
 		double noBetUnder = Double.parseDouble(noBetUnderString);
 		result.noBetUnder = noBetUnder;
 		
-		if(typeOfBet.indexOf("1st Half") != -1){
-				System.out.println();
-		}
+		/* Parse take */
+		int stakeLineStart = cleanedMail.indexOf("Stake: ");
+		int stakeLineEnd = Math.max(cleanedMail.indexOf("\n", stakeLineStart), cleanedMail.length());
+		String stakeLine = cleanedMail.substring(stakeLineStart, stakeLineEnd);
+		int stakeStart = stakeLine.indexOf("(") + 1;
+		int stakeEnd = stakeLine.indexOf(" units", stakeStart);
+		String stakeString = stakeLine.substring(stakeStart, stakeEnd);
+		double stake = Double.parseDouble(stakeString);
+		result.take = stake;
 		
 		return result;
 	}
@@ -432,7 +438,7 @@ public class BetAdvisorEmailParser {
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){

@@ -3,6 +3,7 @@ package mailParsing;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -53,9 +54,9 @@ public class BlogaBetEmailParser {
 		 */
 		if(lines[5].contains("(AH)") || lines[5].contains("Asian") || lines[5].contains("1X2 HC")){
 			//check handicap variant
-			if(lines[5].contains("1st Half"))
-				tip.pivotType = "Asian handicap 1st Half";
-			else if(lines[5].contains("Alternative"))
+//			if(lines[5].contains("1st Half"))
+//				tip.pivotType = "Asian handicap 1st Half";
+			if(lines[5].contains("Alternative"))
 				tip.pivotType = "Asian handicap Alternative";
 			else if(lines[5].contains("1X2 HC"))
 				tip.pivotType = "1X2 HC";
@@ -169,8 +170,7 @@ public class BlogaBetEmailParser {
 		try {
 			date = format.parse(dateString);
 		} catch (ParseException e) {
-			e.printStackTrace();
-			System.exit(-1); // Exit and debug it, rather than working with wrong values
+
 		}
 		tip.startDate = date;
 		
@@ -182,29 +182,61 @@ public class BlogaBetEmailParser {
 		format.setTimeZone(TimeZone.getTimeZone("CET"));
 		String publishdateString = lines[3].replaceFirst(".*:\\s", "").trim();
 		
-		// Remove the suffix of the day 
-		// There is nothing in the java standard library to do this more elegantly
-		publishdateString = publishdateString.replaceAll("st", ""); // as in 1st
-		publishdateString = publishdateString.replaceAll("nd", ""); // as in 2nd
-		publishdateString = publishdateString.replaceAll("rd", ""); // as in 3rd
-		publishdateString = publishdateString.replaceAll("th", ""); // as in 4th
-		Date publishDate = null;
-		try {
-			publishDate = publish_date_format.parse(publishdateString);
+		if(publishdateString.contains("min ago") || publishdateString.contains("mins ago")){
+			int minsEnd = publishdateString.indexOf(" min");
+			String minsString = publishdateString.substring(0, minsEnd);
+			int minsAgo = Integer.parseInt(minsString);
+			long publishedTime = System.currentTimeMillis() - minsAgo * 60 * 1000;
+			Date publishDate = new Date(publishedTime);
 			tip.publishDate = publishDate;
-		} catch (ParseException e) {
-			e.printStackTrace();
-			System.exit(-1); // Exit and debug it, rather than working with wrong values
+		}
+		else if(publishdateString.contains("sec ago") || publishdateString.contains("secs ago")){
+			int secsEnd = publishdateString.indexOf(" sec");
+			String secsString = publishdateString.substring(0, secsEnd);
+			int secsAgo = Integer.parseInt(secsString);
+			long publishedTime = System.currentTimeMillis() - secsAgo * 1000;
+			Date publishDate = new Date(publishedTime);	
+			tip.publishDate = publishDate;
+		}
+		else{
+			// Remove the suffix of the day 
+			// There is nothing in the java standard library to do this more elegantly
+			publishdateString = publishdateString.replaceAll("st", ""); // as in 1st
+			publishdateString = publishdateString.replaceAll("nd", ""); // as in 2nd
+			publishdateString = publishdateString.replaceAll("rd", ""); // as in 3rd
+			publishdateString = publishdateString.replaceAll("th", ""); // as in 4th
+			Date publishDate = null;
+			try {
+				publishDate = publish_date_format.parse(publishdateString);
+				tip.publishDate = publishDate;
+			} catch (ParseException e) {
+				
+			}		
 		}
 		
+		// Parse half time
+		String halfTimeLine = lines[5].toUpperCase();
+		if(halfTimeLine.contains("HALF")){
+			tip.pivotType += " 1st Half";
+		}
+		
+		// full
+		tip.fullContent = s;
+		
+		// event
+		tip.event = tip.host + " - " + tip.guest;
+		
 		//throw parsing error exception
+		if(tip.startDate == null)
+			throw new RuntimeException("no start date");
+		if(tip.publishDate == null)
+			throw new RuntimeException("no publish date");
 		if(tip.selection == null)
 			throw new RuntimeException("no selection");
 		if(tip.pivotType == null)
 			throw new RuntimeException("no pivottype");
 		if(tip.odds <= 0)
 			throw new RuntimeException("odd < 0");
-
 		
 		return tip;
 	}
@@ -224,30 +256,32 @@ public class BlogaBetEmailParser {
 //			System.exit(-1);
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
-		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 1000);
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 100);
+		List<BlogaBetTip> tips = new ArrayList<BlogaBetTip>();
 		for(int i = 25; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
 			try{
 				BlogaBetTip tip = parseEmail(mail);
-			System.out.println("Mail " + i);
-			System.out.println("Host: " + tip.host);
-			System.out.println("Guest: " + tip.guest);
-			System.out.println("Type: " + tip.pivotType);
-			System.out.println("Pvalue: " + tip.pivotValue);
-			if(tip.pivotType.equalsIgnoreCase("Asian handicap"))
-				System.out.println("Pbias: " + tip.pivotBias);
-			System.out.println("Odd: " + tip.odds);
-			if(tip.selection == null)
-				throw new RuntimeException("selection is null");
-			System.out.println("Selection: " + tip.selection);
-			System.out.println("Source: " + tip.source);
-			System.out.println("*****************************************************");
+				System.out.println("Mail " + i);
+				System.out.println("Host: " + tip.host);
+				System.out.println("Guest: " + tip.guest);
+				System.out.println("Type: " + tip.pivotType);
+				System.out.println("Pvalue: " + tip.pivotValue);
+				if(tip.pivotType.equalsIgnoreCase("Asian handicap"))
+					System.out.println("Pbias: " + tip.pivotBias);
+				System.out.println("Odd: " + tip.odds);
+				if(tip.selection == null)
+					throw new RuntimeException("selection is null");
+				System.out.println("Selection: " + tip.selection);
+				System.out.println("Source: " + tip.source);
+				System.out.println("*****************************************************");
+				tips.add(tip);
 			}
 			catch (Exception e){
 				e.printStackTrace();
 				System.out.println(mail.content);
 			}
 		}
-
+		System.out.println();
 	}
 }

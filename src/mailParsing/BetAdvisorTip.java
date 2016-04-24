@@ -20,6 +20,7 @@ public class BetAdvisorTip {
 	public String betOn;
 	public double bestOdds;
 	public double noBetUnder;
+	public double take;
 	public Date date;
 	public double pivotValue;
 	public String pivotBias;

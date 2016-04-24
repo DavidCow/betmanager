@@ -8,6 +8,7 @@ public class BlogaBetTip {
 	public String guest;
 	public String pivotBias;
 	public String pivotType;
+	public String event;
 	public double pivotValue;
 	public double odds;
 	public String stake;
@@ -19,5 +20,7 @@ public class BlogaBetTip {
 	public Date publishDate;
 	public String tipster;
 	public String selection;
+	public String typeOfBet;
+	public String fullContent;
 
 }
