@@ -4,6 +4,13 @@ import java.util.Date;
 
 public class BlogaBetTip {
 	
+	@Override
+	public String toString(){
+		String res = "";
+		res += "Event: " + event + ", Tipster: " + tipster + ", bet on: " + selection + ", no Bet under: " + odds * 0.95;
+		return res;		
+	}
+	
 	public String host;
 	public String guest;
 	public String pivotBias;
@@ -20,7 +27,6 @@ public class BlogaBetTip {
 	public Date publishDate;
 	public String tipster;
 	public String selection;
-	public String typeOfBet;
 	public String fullContent;
 
 }

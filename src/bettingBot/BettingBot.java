@@ -21,6 +21,7 @@ import jayeson.lib.datastructure.SoccerEvent;
 import jayeson.lib.recordfetcher.DeltaCrawlerSession;
 import mailParsing.BetAdvisorEmailParser;
 import mailParsing.BetAdvisorTip;
+import mailParsing.BlogaBetEmailParser;
 import mailParsing.BlogaBetTip;
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
@@ -31,15 +32,16 @@ import bettingBot.entities.ExtendedBetInformations;
 import bettingBot.gui.BettingBotFrame;
 
 import com.google.gson.Gson;
+import com.google.protobuf.TextFormat.ParseException;
 
 import eastbridge.BettingApi;
 
 public class BettingBot {
 	
-	private static final int numberOfMessagesToCheck = 100;
+	private static final int numberOfMessagesToCheck = 20;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 100;
+	private static final int MAX_STAKE = 50;
 	
 	public void run(){
 		
@@ -150,7 +152,7 @@ public class BettingBot {
 			}
 		}
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(1);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -162,7 +164,7 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 5000 && funds != -1){
+			if(funds < 55000 && funds != -1){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -205,15 +207,16 @@ public class BettingBot {
 				double betAmountForTip = 0;
 				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
 				if(dataBase.isTipInDatabase(tip)){
-					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.date.getTime());
-					for(int b = 0; b < betInformations.size(); b++){
-						double betAmount = betInformations.get(b).getBetAmount();
-						betAmountForTip += betAmount;
-					}
-					if(betAmountForTip >= MAX_STAKE){
-						continue;
-					}
-					secondBetForTip = true;
+					continue;
+//					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.date.getTime());
+//					for(int b = 0; b < betInformations.size(); b++){
+//						double betAmount = betInformations.get(b).getBetAmount();
+//						betAmountForTip += betAmount;
+//					}
+//					if(betAmountForTip >= MAX_STAKE){
+//						continue;
+//					}
+//					secondBetForTip = true;
 				}
 
 				// Some variables for logging
@@ -834,11 +837,13 @@ public class BettingBot {
 			
 			// BlogaBet
 			// Get parsed mails
-			List<ParsedTextMail> mailsBlogaBet = readerBlogaBet.read("vicentbet90@gmail.com.com", numberOfMessagesToCheck);
+			List<ParsedTextMail> mailsBlogaBet = readerBlogaBet.read("vicentbet90@gmail.com", numberOfMessagesToCheck);
 			List<BlogaBetTip> tipsBlogaBet = new ArrayList<BlogaBetTip>();
 			for(ParsedTextMail mail : mailsBlogaBet){
-				if(mail.subject.indexOf("Tip subscription") != -1){
-					tips.add(BetAdvisorEmailParser.parseTip(mail));
+				try{
+					tipsBlogaBet.add(BlogaBetEmailParser.parseEmail(mail));
+				} catch(RuntimeException e){
+					
 				}
 			}
 				
@@ -862,15 +867,16 @@ public class BettingBot {
 				double betAmountForTip = 0;
 				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
 				if(dataBase.isTipInDatabase(tip)){
-					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.startDate.getTime());
-					for(int b = 0; b < betInformations.size(); b++){
-						double betAmount = betInformations.get(b).getBetAmount();
-						betAmountForTip += betAmount;
-					}
-					if(betAmountForTip >= MAX_STAKE){
-						continue;
-					}
-					secondBetForTip = true;
+					continue;
+//					List<ExtendedBetInformations> betInformations = dataBase.getBetsForTip(tip.event, tip.tipster, tip.startDate.getTime());
+//					for(int b = 0; b < betInformations.size(); b++){
+//						double betAmount = betInformations.get(b).getBetAmount();
+//						betAmountForTip += betAmount;
+//					}
+//					if(betAmountForTip >= MAX_STAKE){
+//						continue;
+//					}
+//					secondBetForTip = true;
 				}
 
 				// Some variables for logging
@@ -880,13 +886,13 @@ public class BettingBot {
 				/* Tip is not in database, we log once that we received it and add it to a List
 				 * So it gets ignored in later prints
 				 */
-				if(!seenTips.containsKey(tip)){
+				if(!seenTipsBlogaBet.containsKey(tip)){
 					mainFrame.addEvent("New Tip received:\n" + tip.toString());
 					seenTipsBlogaBet.put(tip, 0);
 					newTip = true;
 				}
 				else{
-					int v = seenTips.get(tip);
+					int v = seenTipsBlogaBet.get(tip);
 					if(v < 5){
 						newTip = true;
 						seenTipsBlogaBet.put(tip, seenTips.get(tip) + 1);	
@@ -944,11 +950,405 @@ public class BettingBot {
 						
 						/*/ Teams match, get the right record and make a bet */
 						if(teamsMatch){
-							/* Log that we found matching teams */		
-							System.out.println("Teams Match!");
+							/* Log that we found matching teams */
+							if(newTip){
+								mainFrame.addEvent("Matching Teams found:\n" + 
+								"Tip Host: " + tipHost + " Event Host: " + eventHost + "\n" + 
+								"Tip Guest: " + tipGuest + " Event Guest: " + eventGuest);
+							}
+							
+							// Match Odds tip, get the best matching record and make a bet
+							if(tip.pivotType.equalsIgnoreCase("Match Odds") || tip.pivotType.equalsIgnoreCase("Match Odds 1st Half")){
+								String tipTimeType = "";
+								if(tip.pivotType.equalsIgnoreCase("Match odds")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.pivotType.equalsIgnoreCase("Match Odds 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
+								String betOn = "INVALID";
+								if(tip.selection.equalsIgnoreCase("HOME"))
+									betOn = "one";
+								else if(tip.selection.equalsIgnoreCase("AWAY"))
+									betOn = "two";
+								else if(tip.selection.equalsIgnoreCase("DRAW"))
+									betOn = "draw";
+								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
+								
+								double bestOdd = 0;
+								String bestCompany = "";
+								String bestMarket = "";
+								String bestEventId = "";
+								int bestOddId = 0;
+								double bestMinStake = 0;
+								BetTicket bestBetTicket = null;
+								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
+								
+								for(Record record : records){
+																	
+									if(record.getPivotType() == PivotType.ONE_TWO && record.getTimeType().name().equals(tipTimeType)){
+										// Get bet ticket
+										String company = record.getSource().toLowerCase();
+										String market = record.getOddType().toString().toLowerCase();
+										String eventId = record.getEventId();
+										int oddId = record.getOddId();
+										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											// Check for best Odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}		
+										}									
+									}									
+								}
+								if(bestOdd > 0 && bestOdd > tip.odds * 0.95){
+									if(bestMinStake <= MAX_STAKE){
+										if(betAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										}
+										double stakeLeftForTip = MAX_STAKE - betAmountForTip;
+										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBetBlogaBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());	
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+											}		
+										}
+									}
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}
+								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd <= tip.odds * 0.95){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
+							}
+							
+							// Over /Under  tip, get the best matching record and make a bet
+							else if(tip.pivotType.equalsIgnoreCase("Over / Under") || tip.pivotType.equalsIgnoreCase("Over / Under 1st Half")){
+								String tipTimeType = "";
+								if(tip.pivotType.equalsIgnoreCase("Over / Under")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.pivotType.equalsIgnoreCase("Over / Under 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
+								String betOn = "INVALID";
+								if(tip.selection.indexOf("OVER") == 0)
+									betOn = "over";
+								else if(tip.selection.indexOf("UNDER") == 0)
+									betOn = "under";
+								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
+								
+								double bestOdd = 0;
+								String bestCompany = "";
+								String bestMarket = "";
+								String bestEventId = "";
+								int bestOddId = 0;
+								double bestMinStake = 0;
+								BetTicket bestBetTicket = null;
+								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
+								
+								for(Record record : records){
+									
+									// Check if the tip and the record have the same pivot value
+									double tipPivotValue = tip.pivotValue;
+									double recordPivotValue = record.getPivotValue();
+									if(tipPivotValue != recordPivotValue)
+										continue;								
+									
+									if(record.getPivotType() == PivotType.TOTAL && record.getTimeType().name().equals(tipTimeType)){
+										// Get bet ticket
+										String company = record.getSource().toLowerCase();
+										String market = record.getOddType().toString().toLowerCase();
+										String eventId = record.getEventId();
+										int oddId = record.getOddId();
+										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											
+											// Check for best odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}			
+										}		
+									}
+								}
+								if(bestOdd > 0 && bestOdd + 1 > tip.odds * 0.95){
+									if(bestMinStake <= MAX_STAKE){
+										if(betAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										}
+										double stakeLeftForTip = MAX_STAKE - betAmountForTip;
+										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBetBlogaBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());	
+											}		
+										}
+									}
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}						
+								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd + 1 <= tip.odds * 0.95){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
+							}	
+							else if(tip.pivotType.equalsIgnoreCase("Asian handicap") || tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half")){
+								String tipTimeType = "";
+								if(tip.pivotType.equalsIgnoreCase("Asian handicap")){
+									tipTimeType = "FULL_TIME";
+								}
+								else if(tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								if(tipTimeType.isEmpty()){
+									System.out.println("WRONG TIME TYPE");
+									System.exit(-1);
+								}
+								
+								String betOn = "INVALID";
+								if(tip.selection.equals("HOME")){
+									if(tip.pivotBias.equals("HOME")){
+										betOn = "give";
+									}
+									if(tip.pivotBias.equals("AWAY")){
+										betOn = "take";
+									}
+								}
+								else if(tip.selection.equals("AWAY")){
+									if(tip.pivotBias.equals("AWAY")){
+										betOn = "give";
+									}
+									if(tip.pivotBias.equals("HOME")){
+										betOn = "take";
+									}
+								}
+								
+								if(betOn.equals("INVALID")){
+									System.out.println("INVALID SELECTION");
+									System.exit(-1);
+								}
+								
+								double bestOdd = 0;
+								String bestCompany = "";
+								String bestMarket = "";
+								String bestEventId = "";
+								int bestOddId = 0;
+								double bestMinStake = 0;
+								BetTicket bestBetTicket = null;
+								Record bestRecord = null;
+								String bestBetTicketJsonString = "";
+								
+								for(Record record : records){
+									// Check if the tip and the record have the same pivot value
+									double tipPivotValue = tip.pivotValue;
+									double recordPivotValue = record.getPivotValue();
+									if(tipPivotValue != recordPivotValue)
+										continue;	
+																							
+									if(record.getPivotType() == PivotType.HDP && record.getTimeType().name().equals(tipTimeType)){
+										String tipPivotBias = tip.pivotBias;
+										if(tipPivotBias.equals("HOME")){
+											tipPivotBias = "HOST";
+										}
+										else if(tipPivotBias.equals("AWAY")){
+											tipPivotBias = "GUEST";
+										}
+										String recordPivotBias = record.getPivotBias().name();
+										if(!tipPivotBias.equalsIgnoreCase(recordPivotBias))
+											continue;
+										
+										// Get bet ticket
+										String company = record.getSource().toLowerCase();
+										String market = record.getOddType().toString().toLowerCase();
+										String eventId = record.getEventId();
+										int oddId = record.getOddId();
+										String betTicketString = BettingApi.getBetTicket(company, betOn, market, eventId, oddId, -1, -1);
+										if(betTicketString != null){
+											BetTicket betTicket = BetTicket.fromJson(betTicketString);
+											
+											// Check for best odds
+											if(betTicket.getCurrentOdd() > bestOdd){
+												bestBetTicket = betTicket;
+												bestOdd = betTicket.getCurrentOdd();
+												bestOddId = oddId;
+												bestCompany = company;
+												bestMarket = market;
+												bestEventId = eventId;
+												bestMinStake = betTicket.getMinStake();
+												bestRecord = record;
+												bestBetTicketJsonString = betTicketString;
+											}			
+										}	
+									}	
+								}
+								if(bestOdd > 0 && bestOdd + 1 > tip.odds * 0.95){
+									if(bestMinStake <= MAX_STAKE){
+										if(betAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										}
+										double stakeLeftForTip = MAX_STAKE - betAmountForTip;
+										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
+										if(betString != null){
+											Bet bet = Bet.fromJson(betString);
+											if(bet.getBetStatus() == 1){
+												System.out.println(bestBetTicket);
+												try {
+													if(!secondBetForTip)
+														dataBase.addProcessedTip(tip);
+													String tipJsonString = gson.toJson(tip);
+													String eventJsonString = gson.toJson(event);
+													String recordJsonString = gson.toJson(bestRecord);
+													bet.setTipJsonString(tipJsonString);
+													bet.setEventJsonString(eventJsonString);
+													bet.setRecordJsonString(recordJsonString);
+													bet.setSelection(betOn);
+													bet.setTimeOfBet(System.currentTimeMillis());
+													bet.setBetTicketJsonString(bestBetTicketJsonString);
+													dataBase.addBetBlogaBet(bet);
+												} catch (SQLException e) {
+													e.printStackTrace();
+													System.exit(-1);
+												}
+												mainFrame.addEvent("Tip processed:\n" + tip.toString());
+												mainFrame.addEvent("BetTicket Received:\n" + bestBetTicket.toString());		
+												mainFrame.addEvent("Bet Placed:\n" + bet.toString());		
+											}		
+										}
+									}		
+									else{
+										/* Log */
+										if(newTip){
+											mainFrame.addEvent("Min Stake too high: " + bestMinStake);
+										}
+									}
+								}	
+								else{
+									/* Log */
+									if(newTip){
+										if(bestOdd == 0){
+											mainFrame.addEvent("No matching Record found");
+										}
+										else if(bestOdd + 1 <= tip.odds * 0.95){
+											mainFrame.addEvent("Insufficient Odds");
+										}	
+									}
+								}
+							}
+							else{
+								/* Log that the Bet Type was not found */
+								if(newTip){
+									mainFrame.addEvent("Bet Type not recognized:\n" + tip.pivotType);		
+								}
+							}
 						}
 					}
-				}
+				}				
 			}
 			
 			// Get open Bets
@@ -987,6 +1387,40 @@ public class BettingBot {
 					}
 				}
 			}
+			
+			List<Bet> betsBlogaBet = dataBase.getAllBetsBlogaBet();
+			for(int b = 0; b < betsBlogaBet.size(); b++){
+				Bet bet = betsBlogaBet.get(b);
+				// Update bet status
+				if(bet.getBetStatus() == 1){
+					String betString = BettingApi.getBetStatus(bet.getId());
+					if(betString != null){
+						Bet newBet = Bet.fromJson(betString);
+						if(newBet.getBetStatus() != 1){
+							bet.setBetStatus(newBet.getBetStatus());
+							dataBase.updateBet(bet.getId(), newBet.getBetStatus());
+							mainFrame.addEvent("Bet Status changed: " + bet);
+						}
+						else{
+							// Currently invested
+							currentlyInvested += bet.getBetAmount();
+							
+							// Infos about the event
+							SoccerEvent event = null;
+							Record record = null;
+							if(eventClass != null && recordClass != null){
+								event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);	
+								record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);	
+							}
+							if(event != null){
+								openBets += event.getHost() + " vs " + event.getGuest() +  "  " + record.getPivotString() + " " + bet.getSelection() + "\n";
+							}
+							openBets += bet.toString() + "\n\n";
+						}		
+					}
+				}
+			}
+			
 			mainFrame.setBets(openBets);
 			mainFrame.setInvested(currentlyInvested);
 			

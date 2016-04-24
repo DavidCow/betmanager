@@ -13,6 +13,7 @@ import javax.mail.NoSuchProviderException;
 import javax.mail.Part;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
+import javax.mail.Store;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -43,8 +44,11 @@ public class GMailReader {
 		}
 	}
 	
+	
+	
 	private String userName;
 	private String passWord;
+	
 	public GMailReader(String userName, String passWord){
 		this.userName = userName;
 		this.passWord = passWord;
@@ -52,13 +56,13 @@ public class GMailReader {
 	
 	public List<ParsedTextMail> read(String from, int numberOfLastMessages) {
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
-        Properties props = System.getProperties();
-        props.setProperty("mail.store.protocol", "gimap");
-
         try {
-            Session session = Session.getDefaultInstance(props, null);
-            GmailStore store = (GmailStore) session.getStore("gimap");
-            store.connect("imap.gmail.com", userName, passWord);
+	        Properties props = new Properties();
+	        props.put("mail.gimap.store.protocol", "imap");
+	        props.put("mail.gimap.ssl.trust", "*");
+	        Session session = Session.getInstance(props);
+	        GmailStore store = (GmailStore) session.getStore("gimap");
+	        store.connect("imap.gmail.com", userName, passWord);
             GmailFolder inbox = (GmailFolder) store.getFolder("[Gmail]/All Mail");
             inbox.open(Folder.READ_ONLY);
             Message[] messages = inbox.search(new GmailRawSearchTerm("from:(" + from + ")"));
@@ -112,13 +116,12 @@ public class GMailReader {
 	
 	public List<ParsedTextMail> read(String from) {
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
-        Properties props = System.getProperties();
-        props.setProperty("mail.store.protocol", "gimap");
-
         try {
-            Session session = Session.getDefaultInstance(props, null);
-            GmailStore store = (GmailStore) session.getStore("gimap");
-            store.connect("imap.gmail.com", userName, passWord);
+        	Properties props = new Properties();
+	        props.put("mail.gimap.store.protocol", "imap");
+	        props.put("mail.gimap.ssl.trust", "*");
+	        Session session = Session.getInstance(props);
+	        GmailStore store = (GmailStore) session.getStore("gimap");
             GmailFolder inbox = (GmailFolder) store.getFolder("[Gmail]/All Mail");
             inbox.open(Folder.READ_ONLY);
             Message[] messages = inbox.search(new GmailRawSearchTerm("from:(" + from + ")"));
@@ -168,13 +171,12 @@ public class GMailReader {
 	
 	public List<ParsedTextMail> read() {
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
-        Properties props = System.getProperties();
-        props.setProperty("mail.store.protocol", "gimap");
-
         try {
-            Session session = Session.getDefaultInstance(props, null);
-            GmailStore store = (GmailStore) session.getStore("gimap");
-            store.connect("imap.gmail.com", userName, passWord);
+        	Properties props = new Properties();
+	        props.put("mail.gimap.store.protocol", "imap");
+	        props.put("mail.gimap.ssl.trust", "*");
+	        Session session = Session.getInstance(props);
+	        GmailStore store = (GmailStore) session.getStore("gimap");
             GmailFolder inbox = (GmailFolder) store.getFolder("[Gmail]/All Mail");
             inbox.open(Folder.READ_ONLY);
             Message[] messages = inbox.getMessages();
@@ -253,9 +255,20 @@ public class GMailReader {
 	}
 	
 	public static void main(String[] args){
+		// Initialize Properties for Data Crawle
+		Properties systemProps = System.getProperties();
+		// setup key stores for secure connections
+		systemProps.put("javax.net.ssl.trustStore", "conf/client.ts");
+		systemProps.put("javax.net.ssl.keyStore", "conf/client.ks");
+		systemProps.put("javax.net.ssl.trustStorePassword", "password");
+		systemProps.put("javax.net.ssl.keyStorePassword", "password");
+		//setup the configuration file
+		systemProps.put("deltaCrawlerSessionConfigurationFile", "conf/deltaCrawlerSession.json");
+		
 		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
+		GMailReader reader2 = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
 		long startTime = System.currentTimeMillis();
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 10);
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 100);
 		System.out.println("time: " + (System.currentTimeMillis() - startTime));
 	}
 }

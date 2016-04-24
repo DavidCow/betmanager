@@ -13,7 +13,7 @@ public class BlogaBetEmailParser {
 	
 	private static String oppositeString(String s){
 		if(s.equalsIgnoreCase("HOME"))
-			return "GUEST";
+			return "AWAY";
 		else
 			return "HOME";
 	}
@@ -24,7 +24,7 @@ public class BlogaBetEmailParser {
 //	}
 	
 	public static BlogaBetTip parseEmail(ParsedTextMail mail){
-		String s = mail.content;
+		String s = mail.content.replaceAll("\r", "");
 		BlogaBetTip tip = new BlogaBetTip();
 		String[] lines = s.split("\n");
 		

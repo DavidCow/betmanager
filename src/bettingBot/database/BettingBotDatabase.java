@@ -91,6 +91,22 @@ public class BettingBotDatabase {
 	            " timeOfBet BIGINT, " +
 	            " PRIMARY KEY ( id ))"; 
 	    sql.executeUpdate(createBets);
+	    
+	    // Bets Table
+	    String createBetsBlogaBet = "CREATE TABLE IF NOT EXISTS bets_blogabet " +
+	            "(id VARCHAR(255) NOT NULL, " +
+	            " reqId VARCHAR(255), " +
+	            " betAmount DOUBLE PRECISION, " + 
+	            " betOdd DOUBLE PRECISION, " + 
+	            " betStatus INTEGER, " + 
+	            " tipJsonString VARCHAR, " +
+	            " eventJsonString TEXT, " +
+	            " recordJsonString VARCHAR, " +
+	            " betTicketJsonString VARCHAR, " +
+	            " selection VARCHAR(255), " +
+	            " timeOfBet BIGINT, " +
+	            " PRIMARY KEY ( id ))"; 
+	    sql.executeUpdate(createBetsBlogaBet);
 	}
 	
 	public void addBet(Bet bet) throws SQLException{
@@ -106,6 +122,23 @@ public class BettingBotDatabase {
 			e1.printStackTrace();
 		}
 		String addBet = "INSERT INTO bets (id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, selection, timeOfBet, betTicketJsonString)";
+		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ",'" +  tipJSsonString + "','" + eventJsonString + "','" + recordJsonString + "','" +  selection + "'," + timeOfBet + ",'" + betTicketJsonString + "')";
+		sT.executeUpdate(addBet);		
+	}
+	
+	public void addBetBlogaBet(Bet bet) throws SQLException{
+		addBetBlogaBet(bet.getId(), bet.getReqId(), bet.getBetAmount(), bet.getBetOdd(), bet.getBetStatus(), bet.getTipJsonString(), bet.getEventJsonString(), bet.getRecordJsonString(), bet.getSelection(), bet.getTimeOfBet(), bet.getBetTicketJsonString());
+	}
+	
+	private void addBetBlogaBet(String id, String reqId, double betAmount, double betOdd, int betStatus, String tipJSsonString, String eventJsonString, String recordJsonString, String selection, long timeOfBet, String betTicketJsonString) throws SQLException{
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		String addBet = "INSERT INTO bets_blogabet (id, reqId, betAmount, betOdd, betStatus, tipJsonString, eventJsonString, recordJsonString, selection, timeOfBet, betTicketJsonString)";
 		addBet += "VALUES ('" + id + "','" + reqId + "'," + betAmount + "," + betOdd + "," + betStatus + ",'" +  tipJSsonString + "','" + eventJsonString + "','" + recordJsonString + "','" +  selection + "'," + timeOfBet + ",'" + betTicketJsonString + "')";
 		sT.executeUpdate(addBet);		
 	}
@@ -158,8 +191,59 @@ public class BettingBotDatabase {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+		}	
+		return bets;
+	}
+	
+	public List<Bet> getAllBetsBlogaBet(){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
 		}
-		
+		ResultSet rs = null;
+		try {
+			rs = sT.executeQuery("SELECT * FROM bets_blogabet");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}	
+	
+		List<Bet> bets = new ArrayList<Bet>();
+		if(rs != null){
+			try {
+				while(rs.next()){
+					Bet b = new Bet();
+					String id = rs.getString("id");
+					String reqId = rs.getString("reqId");
+					double betAmount = rs.getDouble("betAmount");
+					double betOdd = rs.getDouble("betOdd");
+					int betStatus = rs.getInt("betStatus");
+					String tipJsonString = rs.getString("tipJsonString");
+					String eventJsonString = rs.getString("eventJsonString");
+					String recordJsonString = rs.getString("recordJsonString");
+					String selection = rs.getString("selection");
+					long timeOfBet = rs.getLong("timeOfBet");
+					String betTicketJsonString = rs.getString("betTicketJsonString");
+					b.setBetAmount(betAmount);
+					b.setBetOdd(betOdd);
+					b.setBetStatus(betStatus);
+					b.setId(id);
+					b.setReqId(reqId);
+					b.setTipJsonString(tipJsonString);
+					b.setEventJsonString(eventJsonString);
+					b.setRecordJsonString(recordJsonString);
+					b.setSelection(selection);
+					b.setTimeOfBet(timeOfBet);
+					b.setBetTicketJsonString(betTicketJsonString);
+					bets.add(b);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}	
 		return bets;
 	}
 	
@@ -180,9 +264,26 @@ public class BettingBotDatabase {
 		}
 	}
 	
+	public void updateBetBlogaBet(String id, int betStatus){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		String updateBet = "UPDATE bets_blogabet set betStatus=" + betStatus + " WHERE id='" + id + "'";
+		try {
+			sT.executeUpdate(updateBet);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	public void addProcessedTip(BlogaBetTip tip) throws SQLException{
 		addProcessedTipBlogaBet(tip.event, tip.tipster, tip.startDate.getTime(), 
-		                   tip.host, tip.guest, tip.typeOfBet, tip.selection, 
+		                   tip.host, tip.guest, tip.pivotType, tip.selection, 
 		                   tip.odds, 0, tip.pivotValue, tip.pivotBias);
 	}
 	
@@ -253,7 +354,7 @@ public class BettingBotDatabase {
 		try {
 			Statement stmt = db.createStatement();
 			ResultSet result = null;
-			result = stmt.executeQuery("SELECT date FROM processed_tips WHERE event='" + event + "' AND tipster='" + tipster + "' AND date=" + date);
+			result = stmt.executeQuery("SELECT date FROM processed_tips_blogabet WHERE event='" + event + "' AND tipster='" + tipster + "' AND date=" + date);
 			if (!result.isBeforeFirst()) {
 				return false;
 			} else {
