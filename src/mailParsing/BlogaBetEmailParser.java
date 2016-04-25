@@ -143,7 +143,8 @@ public class BlogaBetEmailParser {
 		tip.odds = Double.parseDouble(lines[5].replaceAll(".*@", "").trim());
 		
 		//parse units
-		tip.stake = lines[6].replaceAll("(\\d+/\\d+)(.*)", "$1");
+		double numUnits = Double.parseDouble(lines[6].replaceAll("(\\d+)(/.*)", "$1"));
+		tip.stake = numUnits/10.0;
 		
 		//parse source
 		String[] lineSixSplits = lines[6].split(" ");
@@ -243,8 +244,8 @@ public class BlogaBetEmailParser {
 	
 
 	public static void main(String[] args) {
-//		String a = "Cacereno 0 (1st Half Asian Handicap) (1-1) @ 3.7";
-//		System.out.println(a.replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
+//		String a = "10/10 LIVE Bet365  -1.00  4:0 (2:0)";
+//		System.out.println(a.replaceAll("(\\d+/)(\\d+)", "$1"));
 //		try {
 //			String data = (String) Toolkit.getDefaultToolkit()
 //					.getSystemClipboard().getData(DataFlavor.stringFlavor);
@@ -274,6 +275,7 @@ public class BlogaBetEmailParser {
 					throw new RuntimeException("selection is null");
 				System.out.println("Selection: " + tip.selection);
 				System.out.println("Source: " + tip.source);
+				System.out.println("Stake: " + tip.stake);
 				System.out.println("*****************************************************");
 				tips.add(tip);
 			}

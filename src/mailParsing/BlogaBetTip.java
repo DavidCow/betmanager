@@ -18,7 +18,7 @@ public class BlogaBetTip {
 	public String event;
 	public double pivotValue;
 	public double odds;
-	public String stake;
+	public double stake;
 	public String source;
 	public String sport;
 	public String country;
