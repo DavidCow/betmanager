@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.TreeSet;
 
 import jayeson.lib.datastructure.PivotType;
+import mailParsing.BetAdvisorTip;
 import weka.classifiers.meta.Bagging;
 import weka.core.Attribute;
 import weka.core.Instance;
@@ -186,6 +187,95 @@ public class PredictiveModel {
 			System.out.println();
 		}
 		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, bestOdd);
+		return instance;
+	}
+	
+	public Instance createWekaInstance(BetAdvisorElement tip){
+		Instance instance = null;
+		String league = ArffCreator.getCleanedNames(tip.getLeague());
+		String source = "";
+		long timebeforestart = (tip.getGameDate().getTime() - tip.getGameDate().getTime())/3600000;
+		String selection = "";
+		PivotType pivotType = null;
+		double pivotValue = Instance.missingValue();
+		String pivotBias = "?";
+		String host = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
+		String guest = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
+		if(tip.getTypeOfBet().indexOf("Match Odds") == 0){
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replaceAll(" Half time", "");
+			pivotBias = "NEUTRAL";
+			pivotType = PivotType.ONE_TWO;
+			if(selectionString.equalsIgnoreCase("draw"))
+				selection = "draw";
+			else{
+				String h = BetAdvisorParser.parseHostFromEvent(tip.getEvent());
+				String g = BetAdvisorParser.parseGuestFromEvent(tip.getEvent());
+				
+				if(selectionString.equals(h))
+					selection = "one";	
+				if(selectionString.equals(g))
+					selection = "two";
+			}		
+		}
+		if(tip.getTypeOfBet().indexOf("Over / Under") == 0){
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replaceAll(" Half time", "");
+			pivotType = PivotType.TOTAL;
+			if(selectionString.indexOf("Over") == 0)
+				selection = "over";
+			if(selectionString.indexOf("Under") == 0)
+				selection = "under";	
+			int totalStart = selectionString.lastIndexOf("+") + 1;
+			String totalString = selectionString.substring(totalStart);
+			pivotValue = Double.parseDouble(totalString);
+			pivotBias = "NEUTRAL";
+		}
+		if(tip.getTypeOfBet().indexOf("Asian handicap") == 0 || tip.getTypeOfBet().indexOf("Asian Handicap") == 0){
+			pivotType = PivotType.HDP;
+			if(tip.getSelection().indexOf("+") != -1)
+				selection = "take";
+			else
+				selection = "give";	
+			String selectionString = tip.getSelection();
+			selectionString = selectionString.replace(" Half time", "");
+			int pivotStart = selectionString.lastIndexOf("-") + 1;
+			if(pivotStart != 0){
+				try{
+					String pivotString = selectionString.substring(pivotStart);
+					pivotValue = Double.parseDouble(pivotString);
+					if(selectionString.contains(host)){
+						pivotBias = "HOST";
+					}
+					else if(selectionString.contains(guest)){
+						pivotBias = "GUEST";
+					}
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+			else{
+				pivotStart = selectionString.lastIndexOf("+") + 1;
+				if(pivotStart != -1){
+					try{
+						String pivotString = selectionString.substring(pivotStart);
+						pivotValue = Double.parseDouble(pivotString);
+						if(tip.getSelection().contains(host)){
+							pivotBias = "GUEST";
+						}
+						else if(tip.getSelection().contains(guest)){
+							pivotBias = "HOST";
+						}
+					}catch(Exception e){
+						
+					}		
+				}
+			}
+		}
+		if(selection.isEmpty()){
+			System.out.println();
+		}
+		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, tip.getOdds());
 		return instance;
 	}
 	
