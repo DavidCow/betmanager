@@ -595,6 +595,11 @@ public class ScreenScraping {
 					if(getRed(dataBuffInt[i+2])==243 && getGreen(dataBuffInt[i+2])==244 && getBlue(dataBuffInt[i+2])==225)
 						if(getRed(dataBuffInt[i+3])==145 && getGreen(dataBuffInt[i+3])==218 && getBlue(dataBuffInt[i+3])==202)
 							return true;
+			if(getRed(dataBuffInt[i])==140 && getGreen(dataBuffInt[i])==51 && getBlue(dataBuffInt[i])==51)
+				if(getRed(dataBuffInt[i+5])==51 && getGreen(dataBuffInt[i+5])==51 && getBlue(dataBuffInt[i+5])==51)
+					if(getRed(dataBuffInt[i+9])==51 && getGreen(dataBuffInt[i+9])==140 && getBlue(dataBuffInt[i+9])==210)
+						if(getRed(dataBuffInt[i+10])==255 && getGreen(dataBuffInt[i+10])==255 && getBlue(dataBuffInt[i+10])==255)
+							return true;
 				
 		}
 		return false;
@@ -652,7 +657,7 @@ public class ScreenScraping {
 //		System.out.println(p3);
 		//String s = getCaptchaTaskString();
 		//System.out.println(s);
-		System.out.println(getShowMoreDetailButton().x);
+		System.out.println(isTipWindow());
 	}
 
 }
