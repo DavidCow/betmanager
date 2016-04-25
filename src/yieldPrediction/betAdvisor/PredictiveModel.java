@@ -84,11 +84,15 @@ public class PredictiveModel {
 		}		
 	}
 	
-	public Instance createWekaInstance(String tipster, String typeOfBet, double odds){
+	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity){
 		Instance instance = new Instance(attribute_structure.numAttributes());
 		instance.setValue(attribute_structure.attribute(0), tipster);
 		instance.setValue(attribute_structure.attribute(1), typeOfBet);
 		instance.setValue(attribute_structure.attribute(2), odds);
+		if(liquidity > 0)
+			instance.setValue(attribute_structure.attribute(3), liquidity);
+		else
+			instance.setValue(attribute_structure.attribute(3), Instance.missingValue());
 		return instance;
 	}
 	
@@ -119,24 +123,41 @@ public class PredictiveModel {
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
 		double m = 0;
 		// Create each record
 		for(int i = 0; i < betAdvisorList.size(); i++){
-			BetAdvisorElement element = betAdvisorList.get(i);
-			String tipster = element.getTipster();
-			String typeOfBet = element.getTypeOfBet();
-			typeOfBet = typeOfBet.toUpperCase();
-			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-			double odds = element.getOdds();
-			if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-				odds++;
-			
-			Instance record = model.createWekaInstance(tipster, typeOfBet, odds);
-			double yield = model.predictYield(record, 1.1);
-			double winPercent = model.predictWinPercent(record);
-			//System.out.println("yield: " + yield);
-			System.out.println("winPercent: " + winPercent);
-			m = Math.max(m, winPercent);
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+					odds++;
+				
+				Instance record2 = liquidityModel.createWekaInstance(element);
+				if(record2 == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record2);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+				double yield = model.predictYield(record, 1.1);
+				double winPercent = model.predictWinPercent(record);
+				//System.out.println("yield: " + yield);
+				System.out.println("winPercent: " + winPercent);
+				m = Math.max(m, winPercent);
+			}catch(Exception e){
+				
+			}
 		}		
 		System.out.println("Max: " + m);
 	}

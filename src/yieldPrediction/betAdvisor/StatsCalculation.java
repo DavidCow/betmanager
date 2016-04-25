@@ -29,28 +29,45 @@ public class StatsCalculation {
 			BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 			List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 			
+			// Liquidity Model
+			eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+			
 			// Create each record
 			for(int i = 0; i < betAdvisorList.size(); i++){
-				BetAdvisorElement element = betAdvisorList.get(i);
-				String tipster = element.getTipster();
-				String typeOfBet = element.getTypeOfBet();
-				typeOfBet = typeOfBet.toUpperCase();
-				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-				double odds = element.getOdds();
-				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-					odds++;
-				
-				Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds);
-				int cluster = prediction.predictCluster(record);
-				numberOfBets[cluster]++;
-				double p = -element.getTake();
-				if(element.getProfit() == 0)
-					p = 0;
-				if(element.getProfit() > 0)
-					p = element.getTake() * element.getOdds() * oddsRatio - element.getTake();
-				res[cluster] += p;
-				totalTake[cluster] += element.getTake();
-				System.out.println(cluster);
+				try{
+					BetAdvisorElement element = betAdvisorList.get(i);
+					String tipster = element.getTipster();
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.toUpperCase();
+					typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+					double odds = element.getOdds();
+					if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+						odds++;
+					
+					Instance record2 = liquidityModel.createWekaInstance(element);
+					if(record2 == null)
+						continue;
+					double liquidity = -1;
+					try {
+						liquidity = liquidityModel.classifyInstance(record2);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+					
+					Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+					int cluster = prediction.predictCluster(record);
+					numberOfBets[cluster]++;
+					double p = -element.getTake();
+					if(element.getProfit() == 0)
+						p = 0;
+					if(element.getProfit() > 0)
+						p = element.getTake() * element.getOdds() * oddsRatio - element.getTake();
+					res[cluster] += p;
+					totalTake[cluster] += element.getTake();
+					System.out.println(cluster);
+				} catch(Exception e){
+					
+				}
 			}		
 			
 			for(int i = 0; i < numberOfClusters; i++){
@@ -73,31 +90,48 @@ public class StatsCalculation {
 		// Model
 		ClusterPrediction prediction = new ClusterPrediction("Yield.arff", "yieldCluster.model");
 		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
 		// Load historical Data
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 		
 		// Create each record
 		for(int i = 0; i < betAdvisorList.size(); i++){
-			BetAdvisorElement element = betAdvisorList.get(i);
-			String tipster = element.getTipster();
-			String typeOfBet = element.getTypeOfBet();
-			typeOfBet = typeOfBet.toUpperCase();
-			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-			double odds = element.getOdds();
-			if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-				odds++;
-			
-			Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds);
-			int cluster = prediction.predictCluster(record);
-			numberOfBets[cluster]++;
-			double w = 0;
-			if(element.getProfit() == 0)
-				w = 0.5;
-			if(element.getProfit() > 0)
-				w = 1;
-			wins[cluster] += w;
-			System.out.println(cluster);
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+					odds++;
+				
+				Instance record2 = liquidityModel.createWekaInstance(element);
+				if(record2 == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record2);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+				int cluster = prediction.predictCluster(record);
+				numberOfBets[cluster]++;
+				double w = 0;
+				if(element.getProfit() == 0)
+					w = 0.5;
+				if(element.getProfit() > 0)
+					w = 1;
+				wins[cluster] += w;
+				System.out.println(cluster);
+			} catch(Exception e){
+				
+			}
 		}		
 		
 		for(int i = 0; i < numberOfClusters; i++){

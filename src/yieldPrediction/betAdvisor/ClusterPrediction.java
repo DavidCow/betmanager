@@ -30,11 +30,15 @@ public class ClusterPrediction {
 		}		
 	}
 	
-	public Instance createWekaInstance(String tipster, String typeOfBet, double odds){
+	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity){
 		Instance instance = new Instance(attribute_structure.numAttributes());
 		instance.setValue(attribute_structure.attribute(0), tipster);
 		instance.setValue(attribute_structure.attribute(1), typeOfBet);
 		instance.setValue(attribute_structure.attribute(2), odds);
+		if(liquidity > 0)
+			instance.setValue(attribute_structure.attribute(3), liquidity);
+		else
+			instance.setValue(attribute_structure.attribute(3), Instance.missingValue());
 		return instance;
 	}
 	

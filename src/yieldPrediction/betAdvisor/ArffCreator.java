@@ -24,6 +24,7 @@ public class ArffCreator {
 		attributes.addElement(new Attribute("Tipster", (FastVector) null));
 		attributes.addElement(new Attribute("TypeOfBet", (FastVector) null));
 		attributes.addElement(new Attribute("Odds"));
+		attributes.addElement(new Attribute("Liquidity"));
 	}
 	
 	private void useStringToNominalFilter(int start, int end){
@@ -44,22 +45,42 @@ public class ArffCreator {
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
 		// Create each record
 		for(int i = 0; i < betAdvisorList.size(); i++){
-			BetAdvisorElement element = betAdvisorList.get(i);
-			String tipster = element.getTipster();
-			String typeOfBet = element.getTypeOfBet();
-			typeOfBet = typeOfBet.toUpperCase();
-			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-			double odds = element.getOdds();
-			if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-				odds++;
-			
-			double[] vals = new double[data.numAttributes()];
-			vals[0] = data.attribute(0).addStringValue(tipster);
-			vals[1] = data.attribute(1).addStringValue(typeOfBet);
-			vals[2] = odds;
-			data.add(new Instance(1.0, vals));
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+					odds++;
+				Instance record = liquidityModel.createWekaInstance(element);
+				if(record == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				double[] vals = new double[data.numAttributes()];
+				vals[0] = data.attribute(0).addStringValue(tipster);
+				vals[1] = data.attribute(1).addStringValue(typeOfBet);
+				vals[2] = odds;
+				if(liquidity > 0)
+					vals[3] = liquidity;
+				else
+					vals[3] = Instance.missingValue();
+				data.add(new Instance(1.0, vals));
+			}catch(Exception e){
+				e.printStackTrace();
+			}
 		}
 	}
 	
