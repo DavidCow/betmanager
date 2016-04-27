@@ -178,11 +178,20 @@ public class BettingBot {
 				continue;
 			
 			// Get parsed mails
-			List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", numberOfMessagesToCheck);
+			List<ParsedTextMail> mails = new ArrayList<ParsedTextMail>();
+			try{
+				mails = reader.read("noreply@betadvisor.com", numberOfMessagesToCheck);
+			} catch(Exception e){
+				e.printStackTrace();
+			}
 			List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 			for(ParsedTextMail mail : mails){
 				if(mail.subject.indexOf("Tip subscription") != -1){
-					tips.add(BetAdvisorEmailParser.parseTip(mail));
+					try{
+						tips.add(BetAdvisorEmailParser.parseTip(mail));
+					} catch(Exception e){
+						e.printStackTrace();
+					}
 				}
 			}
 				
@@ -837,13 +846,18 @@ public class BettingBot {
 			
 			// BlogaBet
 			// Get parsed mails
-			List<ParsedTextMail> mailsBlogaBet = readerBlogaBet.read("vicentbet90@gmail.com", numberOfMessagesToCheck);
+			List<ParsedTextMail> mailsBlogaBet = new ArrayList<ParsedTextMail>();
+			try{
+				mailsBlogaBet = readerBlogaBet.read("vicentbet90@gmail.com", numberOfMessagesToCheck);
+			} catch(Exception e){
+				e.printStackTrace();
+			}
 			List<BlogaBetTip> tipsBlogaBet = new ArrayList<BlogaBetTip>();
 			for(ParsedTextMail mail : mailsBlogaBet){
 				try{
 					tipsBlogaBet.add(BlogaBetEmailParser.parseEmail(mail));
 				} catch(RuntimeException e){
-					
+					e.printStackTrace();
 				}
 			}
 				
@@ -1197,7 +1211,7 @@ public class BettingBot {
 									}
 								}
 							}	
-							else if(tip.pivotType.equalsIgnoreCase("Asian handicap") || tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half")){
+							else if((tip.pivotType.equalsIgnoreCase("Asian handicap") || tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half")) && tip.pivotValue != 0){
 								String tipTimeType = "";
 								if(tip.pivotType.equalsIgnoreCase("Asian handicap")){
 									tipTimeType = "FULL_TIME";
