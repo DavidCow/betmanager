@@ -117,11 +117,12 @@ public class GMailReader {
 	public List<ParsedTextMail> read(String from) {
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
         try {
-        	Properties props = new Properties();
+	        Properties props = new Properties();
 	        props.put("mail.gimap.store.protocol", "imap");
 	        props.put("mail.gimap.ssl.trust", "*");
 	        Session session = Session.getInstance(props);
 	        GmailStore store = (GmailStore) session.getStore("gimap");
+	        store.connect("imap.gmail.com", userName, passWord);
             GmailFolder inbox = (GmailFolder) store.getFolder("[Gmail]/All Mail");
             inbox.open(Folder.READ_ONLY);
             Message[] messages = inbox.search(new GmailRawSearchTerm("from:(" + from + ")"));

@@ -213,7 +213,7 @@ public class BetAdvisorEmailParser {
 		
 		/* Parse Tipster */
 		int tipsterStart = cleanedMail.indexOf("Tipster:") + 9;
-		int tipsterEnd = cleanedMail.indexOf("\n", tipsterStart) - 1;
+		int tipsterEnd = cleanedMail.indexOf("\n", tipsterStart);
 		String tipster = cleanedMail.substring(tipsterStart, tipsterEnd);
 		result.tipster = tipster;
 		if(debug)
@@ -435,20 +435,33 @@ public class BetAdvisorEmailParser {
 		return plain;
 	}
 	
+	public static String parseLigueFromEvent(String event){
+		int startIndex = event.lastIndexOf(",") + 1;
+		String league = event.substring(startIndex);
+		return league;
+	}
 	
 	public static void main(String[] args) {
 		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
-		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com", 50);
+		List<ParsedTextMail> mails = reader.read("noreply@betadvisor.com");
 		List<BetAdvisorTip> tips = new ArrayList<BetAdvisorTip>();
 		List<BetAdvisorResult> results = new ArrayList<BetAdvisorResult>();
 		for(ParsedTextMail mail : mails){
 			if(mail.subject.indexOf("Tip subscription") != -1){
 				tips.add(BetAdvisorEmailParser.parseTip(mail));
+				String l = parseLigueFromEvent(tips.get(tips.size() - 1).event);
+				System.out.println(l);
 			}
 			if(mail.subject.indexOf("Tip result") != -1){
 				results.add(BetAdvisorEmailParser.parseResult(mail));
 			}
 		}
+		double stake = 0;
+		for(int i = 0; i < tips.size(); i++){
+			stake += tips.get(i).take;
+		}
+		stake /= tips.size();
+		System.out.println(stake);
 		int kek = 12;
 		int b = kek;
 	}

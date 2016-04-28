@@ -26,6 +26,7 @@ public class BetAdvisorTip {
 	public String pivotBias;
 	public Date receivedDate;
 	public String fullContent;
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
@@ -51,11 +52,14 @@ public class BetAdvisorTip {
 		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result
 				+ ((receivedDate == null) ? 0 : receivedDate.hashCode());
+		temp = Double.doubleToLongBits(take);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + ((tipster == null) ? 0 : tipster.hashCode());
 		result = prime * result
 				+ ((typeOfBet == null) ? 0 : typeOfBet.hashCode());
 		return result;
 	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
@@ -116,6 +120,9 @@ public class BetAdvisorTip {
 			if (other.receivedDate != null)
 				return false;
 		} else if (!receivedDate.equals(other.receivedDate))
+			return false;
+		if (Double.doubleToLongBits(take) != Double
+				.doubleToLongBits(other.take))
 			return false;
 		if (tipster == null) {
 			if (other.tipster != null)

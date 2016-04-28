@@ -21,7 +21,7 @@ import com.google.gson.Gson;
 
 public class BettingBotDatabase {
 
-	private String dbName = "BettingBot2";
+	private String dbName = "BettingBot3";
 	private static String userName = "postgres";
 	private static String password = "postgrespass";
 	private static String port = "5433";
@@ -279,6 +279,23 @@ public class BettingBotDatabase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	public void deleteBet(String id){
+		Statement sT = null;
+		try {
+			sT = db.createStatement();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		String deleteBet = "DELETE FROM bets WHERE id='" + id + "'";
+		try {
+			sT.executeUpdate(deleteBet);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 	}
 	
 	public void addProcessedTip(BlogaBetTip tip) throws SQLException{

@@ -257,7 +257,7 @@ public class BlogaBetEmailParser {
 //			System.exit(-1);
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
-		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 100);
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com");
 		List<BlogaBetTip> tips = new ArrayList<BlogaBetTip>();
 		for(int i = 25; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
@@ -284,6 +284,11 @@ public class BlogaBetEmailParser {
 				System.out.println(mail.content);
 			}
 		}
-		System.out.println();
+		double stake = 0;
+		for(int i = 0; i < tips.size(); i++){
+			stake += tips.get(i).stake;
+		}
+		stake /= tips.size();
+		System.out.println(stake);
 	}
 }

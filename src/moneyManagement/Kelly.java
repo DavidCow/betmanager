@@ -42,8 +42,9 @@ public class Kelly {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		double take = element.getTake();
 		
-		Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+		Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
 		double winPercent = model.predictWinPercent(record);
 		double brP = brPercent(element.getOdds(), winPercent);
 		return brP;
