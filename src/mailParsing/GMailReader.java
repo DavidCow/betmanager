@@ -106,10 +106,8 @@ public class GMailReader {
 
         } catch (NoSuchProviderException e) {
             e.printStackTrace();
-            System.exit(1);
         } catch (MessagingException e) {
             e.printStackTrace();
-            System.exit(2);
         }
         return result;
 	}
@@ -162,10 +160,8 @@ public class GMailReader {
 
         } catch (NoSuchProviderException e) {
             e.printStackTrace();
-            System.exit(1);
         } catch (MessagingException e) {
             e.printStackTrace();
-            System.exit(2);
         }
         return result;
 	}
@@ -217,10 +213,8 @@ public class GMailReader {
 
         } catch (NoSuchProviderException e) {
             e.printStackTrace();
-            System.exit(1);
         } catch (MessagingException e) {
             e.printStackTrace();
-            System.exit(2);
         }
         return result;
 	}
