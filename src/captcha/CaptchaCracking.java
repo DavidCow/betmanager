@@ -21,6 +21,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -34,8 +35,8 @@ public class CaptchaCracking {
 	// Coordinate constants
 	private static final int screenX = 0;
 	private static final int screenY = 0;
-	private static final int screenWidth = 1680;
-	private static final int screenHeight = 1050;
+	private static final int screenWidth = 1280;
+	private static final int screenHeight = 1024;
 	
 	// Robot
 	private static Robot robot;
@@ -101,12 +102,14 @@ public class CaptchaCracking {
 		}
 		
 		Point okP = ScreenScraping.getOkCorrdinates();
-		int okX = okP.x;
-		int okY = okP.y;
-		
-		robot.mouseMove(okX, okY);
-		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		if(okP != null){
+			int okX = okP.x;
+			int okY = okP.y;
+			
+			robot.mouseMove(okX, okY);
+			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+		}
 	}
 
 	public static void copyText(){	
@@ -209,16 +212,20 @@ public class CaptchaCracking {
 		GMailReader mailReader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
 
 		while(true){
+			// Sysout Date to see if everything runs ok on server
+			System.out.println(new Date());
 			// Open blogabet site
-			List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(500);
+			List<ParsedTextMail> mails = MailFetching.getBlogaBetTips(20);
 
 			for(int i = 0; i < mails.size(); i++){
 				ParsedTextMail mailToCheck = mails.get(i);
-				String key = mailToCheck.content + mailToCheck.subject + mailToCheck.receivedDate;
+				String key = mailToCheck.subject + mailToCheck.receivedDate;
 				if(crackedCaptchas.contains(key)){
 					System.out.println("Mail with subject: " + mailToCheck.subject + " already processed");
 					continue;
 				}
+				
+				System.out.println("Mail with subject: " + mailToCheck.subject + " received!");
 
 				String url = MailFetching.parseTipLinkFromMail(mailToCheck);
 				try {
@@ -236,7 +243,7 @@ public class CaptchaCracking {
 				}
 				
 				int numberOfTries = 0;
-				while(numberOfTries < 3){
+				while(numberOfTries < 3 && (ScreenScraping.isImNotARobotWindow() || ScreenScraping.isCaptchaWindow())){
 					if(ScreenScraping.isTipWindow()){
 						break;
 					}
@@ -342,10 +349,15 @@ public class CaptchaCracking {
 					try {
 						String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 						System.out.println(data);
-						mailReader.sendMail("patrykhopner@gmail.com", "BlogaBetTips", data);
+						try{
+							mailReader.sendMail("blogabetCaptcha@gmail.com", "BlogaBetTips", data);
+							
+							// Everything went ok, we save this mail as cracked
+							crackedCaptchas.add(key);
+						} catch(Exception e){
+							e.printStackTrace();
+						}
 						
-						// Everything went ok, we save this mail as cracked
-						crackedCaptchas.add(key);
 					} catch (Exception e) {
 						e.printStackTrace();
 						System.exit(-1);
@@ -366,18 +378,18 @@ public class CaptchaCracking {
             }
 			
 			// Close chrome
-			Runtime rt = Runtime.getRuntime();
-
-			try {
-				rt.exec("taskkill /F /IM chrome.exe");
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
+//			Runtime rt = Runtime.getRuntime();
+//
+//			try {
+//				rt.exec("taskkill /F /IM chrome.exe");
+//			} catch (IOException e1) {
+//				// TODO Auto-generated catch block
+//				e1.printStackTrace();
+//			}
             
 			// Sleep at end of infinite Loop
 			try {
-				Thread.sleep(120000);
+				Thread.sleep(60000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
