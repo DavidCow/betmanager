@@ -25,6 +25,7 @@ public class ArffCreator {
 		attributes.addElement(new Attribute("TypeOfBet", (FastVector) null));
 		attributes.addElement(new Attribute("Odds"));
 		attributes.addElement(new Attribute("Liquidity"));
+		attributes.addElement(new Attribute("Take"));
 	}
 	
 	private void useStringToNominalFilter(int start, int end){
@@ -77,6 +78,7 @@ public class ArffCreator {
 					vals[3] = liquidity;
 				else
 					vals[3] = Instance.missingValue();
+				vals[4] = element.getTake();
 				data.add(new Instance(1.0, vals));
 			}catch(Exception e){
 				e.printStackTrace();

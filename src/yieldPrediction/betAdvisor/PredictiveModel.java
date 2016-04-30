@@ -84,7 +84,7 @@ public class PredictiveModel {
 		}		
 	}
 	
-	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity){
+	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity, double take){
 		Instance instance = new Instance(attribute_structure.numAttributes());
 		instance.setValue(attribute_structure.attribute(0), tipster);
 		instance.setValue(attribute_structure.attribute(1), typeOfBet);
@@ -93,6 +93,7 @@ public class PredictiveModel {
 			instance.setValue(attribute_structure.attribute(3), liquidity);
 		else
 			instance.setValue(attribute_structure.attribute(3), Instance.missingValue());
+		instance.setValue(attribute_structure.attribute(4), take);
 		return instance;
 	}
 	
@@ -148,11 +149,12 @@ public class PredictiveModel {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				double take = element.getTake();
 				
-				Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity);
-				double yield = model.predictYield(record, 1.1);
+				Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
+				double yield = model.predictYield(record, 1);
 				double winPercent = model.predictWinPercent(record);
-				//System.out.println("yield: " + yield);
+				System.out.println("yield: " + yield);
 				System.out.println("winPercent: " + winPercent);
 				m = Math.max(m, winPercent);
 			}catch(Exception e){

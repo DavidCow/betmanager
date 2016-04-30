@@ -30,7 +30,7 @@ public class ClusterPrediction {
 		}		
 	}
 	
-	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity){
+	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity, double take){
 		Instance instance = new Instance(attribute_structure.numAttributes());
 		instance.setValue(attribute_structure.attribute(0), tipster);
 		instance.setValue(attribute_structure.attribute(1), typeOfBet);
@@ -39,6 +39,7 @@ public class ClusterPrediction {
 			instance.setValue(attribute_structure.attribute(3), liquidity);
 		else
 			instance.setValue(attribute_structure.attribute(3), Instance.missingValue());
+		instance.setValue(attribute_structure.attribute(4), take);
 		return instance;
 	}
 	

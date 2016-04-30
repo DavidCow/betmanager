@@ -52,9 +52,10 @@ public class StatsCalculation {
 						liquidity = liquidityModel.classifyInstance(record2);
 					} catch (Exception e) {
 						e.printStackTrace();
-					}
+					}				
+					double take = element.getTake();
 					
-					Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+					Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
 					int cluster = prediction.predictCluster(record);
 					numberOfBets[cluster]++;
 					double p = -element.getTake();
@@ -118,8 +119,9 @@ public class StatsCalculation {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				double take = element.getTake();
 				
-				Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity);
+				Instance record = prediction.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
 				int cluster = prediction.predictCluster(record);
 				numberOfBets[cluster]++;
 				double w = 0;
