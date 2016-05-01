@@ -72,12 +72,17 @@ public class CaptchaCracking {
 	public static void clickCaptcha(List<Integer> clickIndexes, int width, int height) {
 		System.out.println("Clicking Captcha");
 		Point p = ScreenScraping.getCaptchaUpperLeftCorner();
+		
+		if(p == null)
+			return;
 		int x = p.x;
 		int y = p.y;
 		
-		int numCells = ScreenScraping.getNumberOfCells();
-		int numRows = numCells;
-		int numCols = numCells;
+		int numRows = ScreenScraping.getNumberOfRows();
+		int numCols = ScreenScraping.getNumberOfColumns();
+		
+		if(numRows < 1 || numCols < 1)
+			return;
 		
 		int cellWidth = width / numCols;
 		int cellHeight = height / numRows;
@@ -102,14 +107,15 @@ public class CaptchaCracking {
 		}
 		
 		Point okP = ScreenScraping.getOkCorrdinates();
-		if(okP != null){
-			int okX = okP.x;
-			int okY = okP.y;
-			
-			robot.mouseMove(okX, okY);
-			robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-			robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-		}
+		if(okP == null)
+			return;
+		int okX = okP.x;
+		int okY = okP.y;
+		
+		robot.mouseMove(okX, okY);
+		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+
 	}
 
 	public static void copyText(){	
@@ -123,6 +129,8 @@ public class CaptchaCracking {
 	
 	public static void clickIAmNotARobot(){
 		Point coordinates = ScreenScraping.getImNotRobotBoxCoordinates();
+		if(coordinates == null)
+			return;
 		robot.mouseMove(coordinates.x, coordinates.y);
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -130,13 +138,17 @@ public class CaptchaCracking {
 	
 	public static void clickShowDetails(){
 		Point coordinates = ScreenScraping.getShowMoreDetailButton();
+		if(coordinates == null)
+			return;
 		robot.mouseMove(coordinates.x, coordinates.y);
 		robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
 	
-	public static void saveImage(){
+	public static void saveImage() throws Exception{
 		Point p = ScreenScraping.getCaptchaClickPoint();
+		if(p == null)
+			return;
 		int x0 = p.x;
 		int y0 = p.y;
 		
@@ -157,21 +169,16 @@ public class CaptchaCracking {
 			System.exit(-1);
 		}
 		
-		try {
-			String urlString = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
-			BufferedImage image = getBufferedImageFromUrl(urlString);
-			if(image != null){
-				File f = new File("payload.jpg");
-				try {
-					ImageIO.write(image, "jpg", f);
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-			
-		} catch (Exception e){
-			e.printStackTrace();
-		} 
+
+		String urlString = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+		BufferedImage image = getBufferedImageFromUrl(urlString);
+		if(image != null){
+			File f = new File("payload.jpg");
+			ImageIO.write(image, "jpg", f);
+		}
+		else{
+			throw new RuntimeException();
+		}
 	}
 	
 	public static void activateWebsite(){
@@ -232,6 +239,7 @@ public class CaptchaCracking {
 					openWebpage(new URL(url));
 				} catch (MalformedURLException e) {
 					e.printStackTrace();
+					continue;
 				}
 		
 				// Sleep and wait until the site opens
@@ -267,14 +275,19 @@ public class CaptchaCracking {
 						System.out.println("Captcha");
 						
 						// download Image
-						saveImage();
+						try{
+							saveImage();
+						}catch(Exception e){
+							e.printStackTrace();
+							continue;
+						}
 		
 						// Sleep
 						try {
 							Thread.sleep(3000);
 						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
+							System.exit(-1);
 						}
 		
 						// Upload and crack Captcha if there was one
@@ -296,9 +309,9 @@ public class CaptchaCracking {
 						System.out.println(clickIndexes);
 						
 						int width = ScreenScraping.getCaptchaWidth();
-						int height = ScreenScraping.getCaptchaWidth();
-						clickCaptcha(clickIndexes, width, height);
-						numberOfTries++;
+						int height = ScreenScraping.getCaptchaHeight();
+						if(width > 1 && height > 1)
+							clickCaptcha(clickIndexes, width, height);
 					} 
 					// Sleep
 					try {
@@ -312,13 +325,7 @@ public class CaptchaCracking {
 					Thread.sleep(3000);
 				} catch (InterruptedException e1) {
 					e1.printStackTrace();
-				}
-
-				// Sleep
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
+					
 				}
 		
 				if(ScreenScraping.isTipWindow()){

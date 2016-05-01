@@ -377,12 +377,18 @@ public class ScreenScraping {
 			resX0 = p0.x;
 			resY0 = p0.y;
 		}
+		else{
+			return null;
+		}
 		
 		int resX1 = -1;
 
 		Point p1 = getCaptchaBlueBoxUpperRight();
 		if(p1 != null){
 			resX1 = p1.x;
+		}
+		else{
+			return null;
 		}
 		
 		// Get Bottom Line
@@ -427,6 +433,70 @@ public class ScreenScraping {
 		Point p1 = getCaptchaBlueBoxUpperRight();
 		if(p0 != null && p1 != null){
 			return p1.x - p0.x;
+		}
+		return -1;
+	}
+	
+	public static int getCaptchaHeight(){
+		// How much the colors can differ
+		final int colorTolerance = 5;
+		
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		
+		int resX0 = -1;
+		int resY0 = -1;
+		Point p0 = getCaptchaBlueBoxBottomLeft();
+		if(p0 != null){
+			resX0 = p0.x;
+			resY0 = p0.y;
+		}
+		else{
+			return -1;
+		}
+		
+		int resX1 = -1;
+
+		Point p1 = getCaptchaBlueBoxUpperRight();
+		if(p1 != null){
+			resX1 = p1.x;
+		}
+		else{
+			return -1;
+		}
+		
+		// Get Bottom Line
+		int bottomY = -1;
+		int startX = resX0 + 10;
+		int endX = resX1 - 10;
+		
+		int bottomRed = 223;
+		int bottomGreen = 223;
+		int bottomBlue = 223;
+		
+		for(int y = resY0 + 10; y < resY0 + height; y++){
+			boolean xOk = true;
+			for(int x = startX; x < endX; x++){
+				int index = y * width + x;
+				int red = getRed(dataBuffInt[index]);
+				int green = getGreen(dataBuffInt[index]);
+				int blue = getBlue(dataBuffInt[index]);
+				if(!(Math.abs(red - bottomRed) <= colorTolerance && Math.abs(green - bottomGreen) <= colorTolerance && Math.abs(blue - bottomBlue) <= colorTolerance)){		
+					xOk = false;
+					break;
+				}
+			}
+			if(xOk){
+				bottomY = y;
+				break;
+			}
+		}
+		
+		if(resX0 != -1 && resX1 != -1 && bottomY != -1){
+			return bottomY - resY0 - 20;
 		}
 		return -1;
 	}
@@ -496,7 +566,7 @@ public class ScreenScraping {
 	}
 
 	
-	public static int getNumberOfCells(){	
+	public static int getNumberOfColumns(){	
 		// Bottom Left Corner
 		int resX0 = -1;
 		int resY0 = -1;
@@ -505,6 +575,9 @@ public class ScreenScraping {
 			resX0 = p0.x;
 			resY0 = p0.y;
 		}
+		else{
+			return -1;
+		}
 
 		// Upper Right
 		int resX1 = -1;
@@ -512,6 +585,9 @@ public class ScreenScraping {
 		Point p1 = getCaptchaBlueBoxUpperRight();
 		if(p1 != null){
 			resX1 = p1.x;
+		}
+		else{
+			return -1;
 		}
 		
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
@@ -546,7 +622,70 @@ public class ScreenScraping {
 			}
 			return numLines + 1;
 		}		
-		return 0;
+		return -1;
+	}
+	
+	public static int getNumberOfRows(){	
+		// Bottom Left Corner
+		int resX0 = -1;
+		int resY0 = -1;
+		Point p0 = getCaptchaBlueBoxBottomLeft();
+		if(p0 != null){
+			resX0 = p0.x;
+			resY0 = p0.y;
+		}
+		else{
+			return -1;
+		}
+
+		// Upper Right
+		int resX1 = -1;
+
+		Point p1 = getCaptchaBlueBoxUpperRight();
+		if(p1 != null){
+			resX1 = p1.x;
+		}
+		else{
+			return -1;
+		}
+		
+		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		BufferedImage capture = robot.createScreenCapture(screenRect);
+		int width = capture.getWidth();
+		int height = capture.getHeight();
+		int[] dataBuffInt = capture.getRGB(0, 0, width, height, null, 0, width);
+		
+			
+		if(resX0 != -1 && resX1 != -1){
+			int h = getCaptchaHeight();
+			if(h != -1){
+				int numLines = 0;
+				int minWidthLine = 200;
+				int startX = resX0 + 10;
+				int startY = resY0 + 20;
+				int endY = startY + h - 40;
+				
+				for(int y = startY; y < endY; y++){
+					boolean yOk = true;
+					for(int x = startX; x < startX + minWidthLine; x++){
+						int index = y * width + x;
+						int red = getRed(dataBuffInt[index]);
+						int green = getGreen(dataBuffInt[index]);
+						int blue = getBlue(dataBuffInt[index]);
+						if(!(red > 245 && green > 245 && blue > 245)){
+							yOk = false;
+							break;
+						}
+					}
+					if(yOk){
+						numLines++;
+						y = Math.min(endY, y + 20);
+					}
+				}
+				return numLines + 1;		
+			}
+		}		
+		return -1;
 	}
 	
 	public static String getCaptchaTaskString(){
@@ -570,8 +709,7 @@ public class ScreenScraping {
 				e.printStackTrace();
 			}
 			try {
-				String taskString = (String) Toolkit.getDefaultToolkit()
-						.getSystemClipboard().getData(DataFlavor.stringFlavor);
+				String taskString = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 				taskString = taskString.replaceAll("\\..*", "");
 				return taskString;
 			} catch (Exception e) {
@@ -641,7 +779,11 @@ public class ScreenScraping {
 //		Point p2 = getCaptchaBlueBoxBottomLeft();
 //		Point p3 = getCaptchaBlueBoxBottomRight();
 //		Point p4 = getCaptchaClickPoint();
-//		int c = getNumberOfCells();
+		getCaptchaClickPoint();
+		int c = getNumberOfColumns();
+		int r = getNumberOfRows();
+		int w = getCaptchaWidth();
+		int h = getCaptchaHeight();
 //		System.out.println(p0);
 //		System.out.println(p1);
 //		System.out.println(p2);
