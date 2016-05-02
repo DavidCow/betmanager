@@ -11,7 +11,12 @@ public class MailFetching {
 	private static GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
 		
 	public static List<ParsedTextMail> getBlogaBetTips(int numberOfMailsToCheck){
-		List<ParsedTextMail> mailList = reader.read("blogabet", numberOfMailsToCheck);
+		List<ParsedTextMail> mailList = new ArrayList<>();
+		try{
+			mailList = reader.read("blogabet", numberOfMailsToCheck);
+		} catch(Exception e){
+			e.printStackTrace();
+		}
 		List<ParsedTextMail> result = new ArrayList<ParsedTextMail>();
 		for(int i = 0; i < mailList.size(); i++){
 			if(mailList.get(i).subject.contains("New pick from")){
