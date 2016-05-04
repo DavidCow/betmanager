@@ -1956,6 +1956,7 @@ public class BetAdvisorBacktest {
         BufferedOutputStream br = new BufferedOutputStream(fileOutput);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(bets);
+        objectOutputStream.close();
         fileOutput = new FileOutputStream(betAdvisorBackTestRecordPath);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
