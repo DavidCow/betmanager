@@ -4,7 +4,9 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
@@ -12,7 +14,7 @@ import betadvisor.BetAdvisorParser;
 
 public class StatsCalculation {
 
-	private static final int numberOfClusters = 50;
+	private static final int numberOfClusters = 15;
 	
 	public static void calculateYields() throws Exception{
 		double oddsRatio = 1;
@@ -82,6 +84,67 @@ public class StatsCalculation {
             objectOutputStream.close();
 			oddsRatio -= 0.01;
 		}		
+	}
+	
+	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{	
+		double[] res = new double[numberOfClusters];
+		double[] totalTake = new double[numberOfClusters];
+		int[] numberOfBets = new int[numberOfClusters];
+		
+		// Model
+		ClusterPredictionEM prediction = new ClusterPredictionEM("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		
+		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		// Create each record
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+					odds++;
+				
+				Instance record2 = liquidityModel.createWekaInstance(element);
+				if(record2 == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record2);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}				
+		
+				Instance record = prediction.createWekaInstance(typeOfBet, odds, liquidity);
+				int cluster = prediction.predictCluster(record);
+				numberOfBets[cluster]++;
+				double p = -1;
+				if(element.getProfit() == 0)
+					p = 0;
+				if(element.getProfit() > 0)
+					p = element.getOdds() * oddsRatio - 1;
+				res[cluster] += p;
+				totalTake[cluster]++;
+//				System.out.println(cluster);
+			} catch(Exception e){
+				
+			}
+		}		
+		
+		for(int i = 0; i < numberOfClusters; i++){
+			res[i] /= totalTake[i];
+		}	
+		
+		Map<Integer, Double> map = new HashMap<Integer, Double>();
+		for(int i = 0; i < numberOfClusters; i++){
+			map.put(i, res[i]);
+		}
+		return map;	
 	}
 	
 	public static void calculateWinPercent() throws Exception{

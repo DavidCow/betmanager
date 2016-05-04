@@ -16,8 +16,9 @@ import betadvisor.BetAdvisorParser;
 
 public class ArffCreator {
 
-	private Instances data = new Instances("Records", attributes, 0);;
+	private Instances data = new Instances("Records", attributes_noTipster, 0);;
 	public static FastVector attributes = new FastVector();
+	public static FastVector attributes_noTipster = new FastVector();
 	
 	static{
 		attributes = new FastVector();
@@ -26,6 +27,11 @@ public class ArffCreator {
 		attributes.addElement(new Attribute("Odds"));
 		attributes.addElement(new Attribute("Liquidity"));
 		attributes.addElement(new Attribute("Take"));
+		
+		attributes_noTipster = new FastVector();
+		attributes_noTipster.addElement(new Attribute("TypeOfBet", (FastVector) null));
+		attributes_noTipster.addElement(new Attribute("Odds"));
+		attributes_noTipster.addElement(new Attribute("Liquidity"));
 	}
 	
 	private void useStringToNominalFilter(int start, int end){
@@ -86,15 +92,59 @@ public class ArffCreator {
 		}
 	}
 	
+	public void createWithoutTipsterInformation() throws IOException{
+		
+		// Load historical Data
+		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
+		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		// Create each record
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				Instance record = liquidityModel.createWekaInstance(element);
+				if(record == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				double[] vals = new double[data.numAttributes()];
+				vals[0] = data.attribute(0).addStringValue(typeOfBet);
+				vals[1] = odds;
+				if(liquidity > 0)
+					vals[2] = liquidity;
+				else
+					vals[2] = Instance.missingValue();
+				data.add(new Instance(1.0, vals));
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	
+	
 	public static void main(String[] args) throws IOException {
 		ArffCreator analyser = new ArffCreator();
-		analyser.create();
-		analyser.useStringToNominalFilter(1, 2);
+		analyser.createWithoutTipsterInformation();
+		analyser.useStringToNominalFilter(1, 1);
 		System.out.println(analyser.data);
 		ArffSaver saver = new ArffSaver();
 		saver.setInstances(analyser.data);
 		try {
-			saver.setFile(new File("Yield.arff"));
+			saver.setFile(new File("Yield_noTipster.arff"));
 			saver.writeBatch();
 		} catch (IOException e) {
 			e.printStackTrace();

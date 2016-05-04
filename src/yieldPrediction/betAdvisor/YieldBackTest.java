@@ -1,0 +1,72 @@
+package yieldPrediction.betAdvisor;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import betadvisor.BetAdvisorElement;
+import betadvisor.BetAdvisorParser;
+import javafx.util.Pair;
+
+public class YieldBackTest {
+	
+	/**
+	 * group all tipster data by tipster name
+	 * @return
+	 * @throws Exception
+	 */
+	private static Map<String, List<BetAdvisorElement>> groupTipsterDate() throws Exception{
+		Map<String, List<BetAdvisorElement>> result = new HashMap<String, List<BetAdvisorElement>>(); 
+		
+		// Load historical Data
+		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
+		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		for(BetAdvisorElement be : betAdvisorList){
+			String tipster = be.getTipster();
+			if(result.containsKey(tipster)){
+				result.get(tipster).add(be);
+			}
+			else{
+				List<BetAdvisorElement> array = new ArrayList<BetAdvisorElement>();
+				array.add(be);
+				result.put(tipster, array);
+			}
+		}
+		return result;
+	}
+	
+	/**
+	 * splits all data into test and training sets given split percentage
+	 * @param splitPercentage
+	 * @return
+	 * @throws Exception
+	 */
+	public static Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> splitTipsterData(double splitPercentage) throws Exception{
+		ArrayList<BetAdvisorElement> trainingSet = new ArrayList<BetAdvisorElement>();
+		ArrayList<BetAdvisorElement> testSet = new ArrayList<BetAdvisorElement>();
+		
+		Map<String, List<BetAdvisorElement>> tipsterMap = groupTipsterDate();
+		for(String tipster : tipsterMap.keySet()){
+			List<BetAdvisorElement> list = tipsterMap.get(tipster);
+			int listSize = list.size();
+			int splitIndex = (int) (listSize * splitPercentage);
+			trainingSet.addAll(list.subList(0, splitIndex));
+			testSet.addAll(list.subList(splitIndex, listSize));
+		}
+			
+		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> res = new Pair<List<BetAdvisorElement>, List<BetAdvisorElement>>(trainingSet, testSet);
+		return res;
+	}
+
+	public static void main(String[] args) throws Exception {
+		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
+		Map<Integer, Double> map = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
+		for(Integer i : map.keySet())
+			System.out.println(i + " " + map.get(i));
+
+	}
+
+}

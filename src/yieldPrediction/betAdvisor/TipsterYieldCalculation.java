@@ -13,19 +13,18 @@ import betadvisor.BetAdvisorParser;
 
 public class TipsterYieldCalculation {
 
-	public static Map<String, TipsterStats> createTipsterStats() throws Exception {
+	public static Map<String, TipsterStats> createTipsterStats(List<BetAdvisorElement> betAdvisorList) throws Exception {
 		HashMap<String, Double> winningsMap = new HashMap<String, Double>();
 		HashMap<String, Double> counterMap = new HashMap<String, Double>();
 		HashMap<String, TreeMap<Double, Double>> stake_frequency = new HashMap<String, TreeMap<Double,Double>>();
 		HashMap<String, TreeMap<Double, Double>> stake_winnings = new HashMap<String, TreeMap<Double,Double>>();
-		// Load historical Data
-		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
-		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 
 		// iterate
 		for (BetAdvisorElement element : betAdvisorList) {
 			String tipster = element.getTipster();
 			double odds = element.getOdds();
+			if(odds < 1)
+				System.out.println("NO");
 			double profit = element.getProfit();
 			double stake = element.getTake();
 			String type = element.getTypeOfBet().replaceAll(" 1ST HALF", "");
@@ -84,11 +83,5 @@ public class TipsterYieldCalculation {
 		return result;
 	}
 
-	public static void main(String[] args) throws Exception {
-		Map<String, TipsterStats> map = createTipsterStats();
-		for (String s : map.keySet())
-			System.out.println(map.get(s).toString());
-
-	}
 
 }
