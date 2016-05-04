@@ -153,6 +153,7 @@ public class BetAdvisorBacktest {
 		List<HistoricalDataElement> historicalDataList_Half = new ArrayList<HistoricalDataElement>();
 		File historicalDataFilePending_Half = new File("allHalfHistoricalData_Pending.dat");
 		File historicalDataFileEarly_Half = new File("allHalfHistoricalData_Early.dat");
+		File historicalDataFileLive_Half = new File("allHalfHistoricalData_Live.dat");
 		
 		// Read Full Time Bets
 		
@@ -175,9 +176,9 @@ public class BetAdvisorBacktest {
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
 			List<HistoricalDataElement> historicalDataList_Pending = new ArrayList<HistoricalDataElement>();
-			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending", "Full"));
-			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2015", "Full"));
-			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_2016", "Full"));
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\pending", "Full"));
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\pending_2015", "Full"));
+			historicalDataList_Pending.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\pending_2016", "Full"));
             FileOutputStream fileOutput = new FileOutputStream(historicalDataFilePending);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
@@ -207,9 +208,9 @@ public class BetAdvisorBacktest {
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
 			List<HistoricalDataElement> historicalDataList_Early = new ArrayList<HistoricalDataElement>();
-			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early", "Full"));
-			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2015", "Full"));
-			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_2016", "Full"));	
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\early", "Full"));
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_2015", "Full"));
+			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_2016", "Full"));	
             FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
@@ -238,22 +239,24 @@ public class BetAdvisorBacktest {
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
 			List<HistoricalDataElement> historicalDataList_Live = new ArrayList<HistoricalDataElement>();
-			historicalDataList_Live.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\live", "Full"));
-//			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\live_2015", "Full"));
-//			historicalDataList_Early.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\live_2016", "Full"));	
+			historicalDataList_Live.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\live", "Full"));
+			historicalDataList_Live.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\live_2015", "Full"));
+			historicalDataList_Live.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\live_2016", "Full"));	
             FileOutputStream fileOutput = new FileOutputStream(historicalDataFileLive);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
             objectOutputStream.writeObject(historicalDataList_Live);
             objectOutputStream.close();
             historicalDataList_Full.addAll(historicalDataList_Live);
-			System.out.println("Historical data early full loaded from CSV");
+			System.out.println("Historical data live full loaded from CSV");
 		}		
 		
 		Collections.sort(historicalDataList_Full, new HistoricalDataComparator());
 		
 		
 		// Read half Time Bets
+		
+		// Pending
 		if(historicalDataFilePending_Half.exists()){
 			List<HistoricalDataElement> HistoricalDataList_Pending_Half = new ArrayList<HistoricalDataElement>();
             FileInputStream fileInput = new FileInputStream(historicalDataFilePending_Half);
@@ -272,9 +275,9 @@ public class BetAdvisorBacktest {
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
 			List<HistoricalDataElement> HistoricalDataList_Pending_Half = new ArrayList<HistoricalDataElement>();
-			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\pending_half", "Half"));
-			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_half_2015", "Half"));
-			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\pending_half_2016", "Half"));	
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\pending_half", "Half"));
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\pending_half_2015", "Half"));
+			HistoricalDataList_Pending_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\pending_half_2016", "Half"));	
             FileOutputStream fileOutput = new FileOutputStream(historicalDataFilePending_Half);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
@@ -283,6 +286,8 @@ public class BetAdvisorBacktest {
             historicalDataList_Half.addAll(HistoricalDataList_Pending_Half);
 			System.out.println("Historical Pending Halfdata loaded from CSV");
 		}
+		
+		// Early
 		if(historicalDataFileEarly_Half.exists()){
 			List<HistoricalDataElement> historicalDataList_Early_Half = new ArrayList<HistoricalDataElement>();
             FileInputStream fileInput = new FileInputStream(historicalDataFileEarly_Half);
@@ -301,9 +306,9 @@ public class BetAdvisorBacktest {
 		else{
 			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
 			List<HistoricalDataElement> HistoricalDataList_Early_Half = new ArrayList<HistoricalDataElement>();
-			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Patryk\\Desktop\\early_half", "Half"));
-			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_half_2015", "Half"));
-			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Patryk\\Desktop\\early_half_2016", "Half"));	
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\early_half", "Half"));
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_half_2015", "Half"));
+			HistoricalDataList_Early_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_half_2016", "Half"));	
             FileOutputStream fileOutput = new FileOutputStream(historicalDataFileEarly_Half);
             BufferedOutputStream br = new BufferedOutputStream(fileOutput);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
@@ -312,6 +317,38 @@ public class BetAdvisorBacktest {
             historicalDataList_Half.addAll(HistoricalDataList_Early_Half);
 			System.out.println("Historical data early half loaded from CSV");
 		}
+		
+		// Live
+		if(historicalDataFileLive_Half.exists()){
+			List<HistoricalDataElement> historicalDataList_Live_Half = new ArrayList<HistoricalDataElement>();
+            FileInputStream fileInput = new FileInputStream(historicalDataFileLive_Half);
+            BufferedInputStream br = new BufferedInputStream(fileInput);
+            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+            try {
+            	historicalDataList_Live_Half.addAll((List<HistoricalDataElement>)objectInputStream.readObject());
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				System.exit(-1);
+			}
+            objectInputStream.close();
+            historicalDataList_Half.addAll(historicalDataList_Live_Half);
+            System.out.println("Historical data live half loaded from ObjectStream");
+		}
+		else{
+			HistoricalDataParser historicalDataParser = new HistoricalDataParser();
+			List<HistoricalDataElement> HistoricalDataList_Live_Half = new ArrayList<HistoricalDataElement>();
+			HistoricalDataList_Live_Half.addAll(historicalDataParser.parseFilesInFolder("C:\\Users\\Administrator\\Desktop\\early_half", "Half"));
+			HistoricalDataList_Live_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_half_2015", "Half"));
+			HistoricalDataList_Live_Half.addAll(historicalDataParser.parseFilesInFolderJayeson("C:\\Users\\Administrator\\Desktop\\early_half_2016", "Half"));	
+            FileOutputStream fileOutput = new FileOutputStream(historicalDataFileLive_Half);
+            BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+            objectOutputStream.writeObject(HistoricalDataList_Live_Half);
+            objectOutputStream.close();
+            historicalDataList_Half.addAll(HistoricalDataList_Live_Half);
+			System.out.println("Historical data live half loaded from CSV");
+		}
+		
 		Collections.sort(historicalDataList_Half, new HistoricalDataComparator());
 		
 		/* Needed for comparison of Dates */
