@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
 import javafx.util.Pair;
@@ -60,12 +61,62 @@ public class YieldBackTest {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> res = new Pair<List<BetAdvisorElement>, List<BetAdvisorElement>>(trainingSet, testSet);
 		return res;
 	}
+	
+	public static void runFlatYieldTest(List<BetAdvisorElement> data, Map<Integer, Double> avgYieldMap, double oddsratio) throws Exception{
+		double result = 0;
+		double numBets = 0;
+		double resultFiltered = 0;
+		double numBetsFiltered = 0;
+		
+		//load models
+		ClusterPredictionEM em = new ClusterPredictionEM("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		for(BetAdvisorElement element : data){
+			double odds = element.getOdds() * oddsratio;
+			double profit = element.getProfit();
+			String typeOfBet = element.getTypeOfBet();
+			typeOfBet = typeOfBet.toUpperCase();
+			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+			double p = 0;
+			if(profit > 0)
+				p = odds - 1;
+			else if(profit < 0)
+				p = -1;
+			result += p;
+			numBets++;
+			
+			//filter -ev bets
+			Instance record2 = liquidityModel.createWekaInstance(element);
+			if(record2 == null)
+				continue;
+			double liquidity = -1;
+			try {
+				liquidity = liquidityModel.classifyInstance(record2);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}	
+			Instance i = em.createWekaInstance(typeOfBet, element.getOdds(), liquidity);
+			int cluster = em.predictCluster(i);
+			double clusterAvgYield = avgYieldMap.get(cluster);
+			if(clusterAvgYield > 0){
+				resultFiltered += p;
+				numBetsFiltered++;
+			}
+		}
+		System.out.println("Total Flat Winnings: " + result);
+		System.out.println("Total Flat Winnings Filtered: " + resultFiltered);
+		System.out.println("Yield per Bet: " + result/numBets);
+		System.out.println("Yield per Bet Filtered: " + resultFiltered/numBetsFiltered);
+	}
 
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
+		
 		Map<Integer, Double> map = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
-		for(Integer i : map.keySet())
-			System.out.println(i + " " + map.get(i));
+		runFlatYieldTest(pair.getValue(), map, 0.98);
+//		for(Integer i : map.keySet())
+//			System.out.println(i + " " + map.get(i));
 
 	}
 
