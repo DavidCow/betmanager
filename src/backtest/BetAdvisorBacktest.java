@@ -46,6 +46,10 @@ import eastbridgeLiquidityMining.regression.PredictiveModel;
 
 public class BetAdvisorBacktest {
 	
+	public static final String betAdvisorBackTestPath = "betAdvisorBackTestBets.dat";
+	public static final String betAdvisorBackTestRecordPath = "betAdvisorBackTestRecords.dat";
+	public static final String betAdvisorBackTestLiquidityPath = "betAdvisorBackTestLiquidities.dat";
+	
 	public void runBacktest() throws IOException{
 
 		TreeSet<String> teams = new TreeSet<String>();
@@ -96,6 +100,14 @@ public class BetAdvisorBacktest {
 		
 		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		// This list holds all the bets, that we have done in the backtest
+		List<BetAdvisorElement> bets = new ArrayList<BetAdvisorElement>();
+		// This list holds all the records for bets, that we have done in the backtest
+		List<HistoricalDataElement> records = new ArrayList<HistoricalDataElement>();
+		// This list holds all the liquidities for the bets, the indexes correspond to the bets that they were calculated for
+		List<Double> liquidities = new ArrayList<Double>();
+		
 		
 		// Odds Ratio
 		double oddsRatio = 0;
@@ -640,7 +652,11 @@ public class BetAdvisorBacktest {
 						e.printStackTrace();
 					}
 				}
-				double take = 100;			
+				double take = 100;		
+				
+				bets.add(tipp);
+				records.add(bestSource);
+				liquidities.add(liquidity);
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / tipp.getOdds();
@@ -1897,6 +1913,22 @@ public class BetAdvisorBacktest {
         frameMax.setContentPane(chartPanelMax);
         frameMax.setSize(600, 400);
         frameMax.setVisible(true);
+        
+        // Save result lists
+        FileOutputStream fileOutput = new FileOutputStream(betAdvisorBackTestPath);
+        BufferedOutputStream br = new BufferedOutputStream(fileOutput);
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(bets);
+        fileOutput = new FileOutputStream(betAdvisorBackTestRecordPath);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(records);
+        objectOutputStream.close();
+        fileOutput = new FileOutputStream(betAdvisorBackTestLiquidityPath);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(liquidities);
+        objectOutputStream.close();
 	}
 	public static void main(String[] args) throws IOException {
 		BetAdvisorBacktest backTest = new BetAdvisorBacktest();
