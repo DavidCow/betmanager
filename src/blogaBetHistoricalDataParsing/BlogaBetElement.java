@@ -4,6 +4,10 @@ import java.util.Date;
 
 public class BlogaBetElement implements java.io.Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Date gameDate;
 	private Date publicationDate;
 	private String sport;
