@@ -8,7 +8,7 @@ import java.util.Date;
  *
  * Class containing the data of one Row of the betadvisor historical tipster data
  */
-public class BetAdvisorElement {
+public class BetAdvisorElement implements java.io.Serializable {
 	private Date gameDate;
 	private String category;
 	private String league;

@@ -2,7 +2,7 @@ package blogaBetHistoricalDataParsing;
 
 import java.util.Date;
 
-public class BlogaBetElement {
+public class BlogaBetElement implements java.io.Serializable {
 	
 	private Date gameDate;
 	private Date publicationDate;
