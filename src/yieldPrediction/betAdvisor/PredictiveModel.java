@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.List;
 
+import javafx.util.Pair;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
 import weka.clusterers.SimpleKMeans;
@@ -118,11 +119,14 @@ public class PredictiveModel {
 		return winPercent[cluster];
 	}
 	
-	public static void test() throws Exception{
+	public static void test(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{
+		
+		double normalProfit = 0;
+		double normalBets = 0;
+		double filteredProfit = 0;
+		double filteredBets = 0;
+		
 		PredictiveModel model = new PredictiveModel("Yield.arff", "yieldCluster.model");
-		// Load historical Data
-		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
-		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 		
 		// Liquidity Model
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
@@ -136,9 +140,9 @@ public class PredictiveModel {
 				String typeOfBet = element.getTypeOfBet();
 				typeOfBet = typeOfBet.toUpperCase();
 				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-				double odds = element.getOdds();
-				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-					odds++;
+				double odds = element.getOdds() * oddsRatio;
+				//if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
+				//	odds++;
 				
 				Instance record2 = liquidityModel.createWekaInstance(element);
 				if(record2 == null)
@@ -152,19 +156,45 @@ public class PredictiveModel {
 				double take = element.getTake();
 				
 				Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
-				double yield = model.predictYield(record, 1);
+				double yield = model.predictYield(record, oddsRatio);
 				double winPercent = model.predictWinPercent(record);
-				System.out.println("yield: " + yield);
-				System.out.println("winPercent: " + winPercent);
+//				System.out.println("yield: " + yield);
+//				System.out.println("winPercent: " + winPercent);
+				
+				if(element.getProfit() > 0){
+					normalProfit += 100 * odds - 100;
+					normalBets++;
+					if(yield > 0){
+						filteredProfit += 100 * odds - 100;
+						filteredBets++;
+					}	
+				}
+				else if(element.getProfit() < 0){
+					normalProfit -= 100;
+					normalBets++;
+					if(yield > 0){
+						filteredProfit -= 100;
+						filteredBets++;
+					}		
+				}
+				
 				m = Math.max(m, winPercent);
 			}catch(Exception e){
 				
 			}
 		}		
 		System.out.println("Max: " + m);
+		System.out.println("Profit: " + normalProfit);
+		System.out.println("Yield: " + normalProfit / normalBets);
+		System.out.println("Bets: " + normalBets);
+		System.out.println("Filtered Profit: " + filteredProfit);
+		System.out.println("Filtered Yield: " + filteredProfit / filteredBets);
+		System.out.println("Filtered Bets: " + filteredBets);
 	}
 	
 	public static void main(String[] args) throws Exception {
-		test();
+		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
+		StatsCalculation.calculateYields(pair.getKey(), 0.98);
+		test(pair.getValue(), 0.98);
 	}
 }
