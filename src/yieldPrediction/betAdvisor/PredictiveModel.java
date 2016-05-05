@@ -194,7 +194,7 @@ public class PredictiveModel {
 	
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
-		StatsCalculation.calculateYields(pair.getKey(), 0.98);
-		test(pair.getValue(), 0.98);
+		StatsCalculation.calculateYields(pair.getKey(), 0.96);
+		test(pair.getValue(), 0.96);
 	}
 }
