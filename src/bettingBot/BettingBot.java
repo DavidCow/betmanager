@@ -696,42 +696,41 @@ public class BettingBot {
 								}
 								
 								String betOn = "INVALID";
-								if(tip.betOn.equals(tip.host)){
-									if(tip.pivotBias.equals("HOST")){
-										betOn = "give";
-									}
-									if(tip.pivotBias.equals("GUEST")){
-										betOn = "take";
-									}
-								}
-								else if(tip.betOn.equals(tip.guest)){
-									if(tip.pivotBias.equals("GUEST")){
-										betOn = "give";
-									}
-									if(tip.pivotBias.equals("HOST")){
-										betOn = "take";
-									}
-								}
-								else if(TeamMapping.teamsMatch(tip.betOn, tip.host) && !TeamMapping.teamsMatch(tip.betOn, tip.guest)){
-									if(tip.pivotBias.equals("HOST")){
-										betOn = "give";
-									}
-									if(tip.pivotBias.equals("GUEST")){
-										betOn = "take";
-									}
-								}
-								else if(!TeamMapping.teamsMatch(tip.betOn, tip.host) && TeamMapping.teamsMatch(tip.betOn, tip.guest)){
-									if(tip.pivotBias.equals("GUEST")){
-										betOn = "give";
-									}
-									if(tip.pivotBias.equals("HOST")){
-										betOn = "take";
-									}
-								}
 								
-								if(betOn.equals("INVALID")){
-									System.out.println("INVALID SELECTION");
-									System.exit(-1);
+								// We will handle pivot value of 0 (DNB) separately 
+								if(tip.pivotValue != 0){
+									if(tip.betOn.equals(tip.host)){
+										if(tip.pivotBias.equals("HOST")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("GUEST")){
+											betOn = "take";
+										}
+									}
+									else if(tip.betOn.equals(tip.guest)){
+										if(tip.pivotBias.equals("GUEST")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("HOST")){
+											betOn = "take";
+										}
+									}
+									else if(TeamMapping.teamsMatch(tip.betOn, tip.host) && !TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+										if(tip.pivotBias.equals("HOST")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("GUEST")){
+											betOn = "take";
+										}
+									}
+									else if(!TeamMapping.teamsMatch(tip.betOn, tip.host) && TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+										if(tip.pivotBias.equals("GUEST")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("HOST")){
+											betOn = "take";
+										}
+									}
 								}
 								
 								double bestOdd = 0;
@@ -754,7 +753,48 @@ public class BettingBot {
 									if(record.getPivotType() == PivotType.HDP && record.getTimeType().name().equals(tipTimeType)){
 										String tipPivotBias = tip.pivotBias;
 										String recordPivotBias = record.getPivotBias().name();
-										if(!tipPivotBias.equalsIgnoreCase(recordPivotBias))
+										
+										// Extra case for DNB
+										if(tip.pivotValue == 0){
+											if(tip.betOn.equals(tip.host)){
+												if(recordPivotBias.equals("HOST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "take";
+												}
+											}
+											else if(tip.betOn.equals(tip.guest)){
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("HOST")){
+													betOn = "take";
+												}
+											}
+											else if(TeamMapping.teamsMatch(tip.betOn, tip.host) && !TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+												if(recordPivotBias.equals("HOST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "take";
+												}
+											}
+											else if(!TeamMapping.teamsMatch(tip.betOn, tip.host) && TeamMapping.teamsMatch(tip.betOn, tip.guest)){
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("HOST")){
+													betOn = "take";
+												}
+											}							
+										}
+										if(betOn.equals("INVALID")){
+											System.out.println("INVALID SELECTION");
+											System.exit(-1);
+										}
+										
+										if(!(tipPivotBias.equalsIgnoreCase(recordPivotBias) || tip.pivotValue == 0))
 											continue;
 										
 										// Get bet ticket
@@ -1213,7 +1253,7 @@ public class BettingBot {
 									}
 								}
 							}	
-							else if((tip.pivotType.equalsIgnoreCase("Asian handicap") || tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half")) && tip.pivotValue != 0){
+							else if((tip.pivotType.equalsIgnoreCase("Asian handicap") || tip.pivotType.equalsIgnoreCase("Asian handicap 1st Half"))){
 								String tipTimeType = "";
 								if(tip.pivotType.equalsIgnoreCase("Asian handicap")){
 									tipTimeType = "FULL_TIME";
@@ -1227,26 +1267,23 @@ public class BettingBot {
 								}
 								
 								String betOn = "INVALID";
-								if(tip.selection.equals("HOME")){
-									if(tip.pivotBias.equals("HOME")){
-										betOn = "give";
+								if(tip.pivotValue != 0){
+									if(tip.selection.equals("HOME")){
+										if(tip.pivotBias.equals("HOME")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("AWAY")){
+											betOn = "take";
+										}
 									}
-									if(tip.pivotBias.equals("AWAY")){
-										betOn = "take";
+									else if(tip.selection.equals("AWAY")){
+										if(tip.pivotBias.equals("AWAY")){
+											betOn = "give";
+										}
+										if(tip.pivotBias.equals("HOME")){
+											betOn = "take";
+										}
 									}
-								}
-								else if(tip.selection.equals("AWAY")){
-									if(tip.pivotBias.equals("AWAY")){
-										betOn = "give";
-									}
-									if(tip.pivotBias.equals("HOME")){
-										betOn = "take";
-									}
-								}
-								
-								if(betOn.equals("INVALID")){
-									System.out.println("INVALID SELECTION");
-									System.exit(-1);
 								}
 								
 								double bestOdd = 0;
@@ -1268,14 +1305,42 @@ public class BettingBot {
 																							
 									if(record.getPivotType() == PivotType.HDP && record.getTimeType().name().equals(tipTimeType)){
 										String tipPivotBias = tip.pivotBias;
-										if(tipPivotBias.equals("HOME")){
-											tipPivotBias = "HOST";
-										}
-										else if(tipPivotBias.equals("AWAY")){
-											tipPivotBias = "GUEST";
-										}
 										String recordPivotBias = record.getPivotBias().name();
-										if(!tipPivotBias.equalsIgnoreCase(recordPivotBias))
+										
+										if(tip.pivotValue != 0){
+											if(tipPivotBias.equals("HOME")){
+												tipPivotBias = "HOST";
+											}
+											else if(tipPivotBias.equals("AWAY")){
+												tipPivotBias = "GUEST";
+											}
+										}
+										
+										// Extra case for DNB
+										if(tip.pivotValue == 0){
+											if(tip.selection.equals("HOME")){
+												if(recordPivotBias.equals("HOST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "take";
+												}
+											}
+											else if(tip.selection.equals("AWAY")){
+												if(recordPivotBias.equals("GUEST")){
+													betOn = "give";
+												}
+												if(recordPivotBias.equals("HOST")){
+													betOn = "take";
+												}
+											}						
+										}
+										if(betOn.equals("INVALID")){
+											System.out.println("INVALID SELECTION");
+											System.exit(-1);
+										}
+
+										if(!(tip.pivotValue == 0 || tipPivotBias.equalsIgnoreCase(recordPivotBias)))
 											continue;
 										
 										// Get bet ticket
