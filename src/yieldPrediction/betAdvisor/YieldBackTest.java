@@ -62,7 +62,7 @@ public class YieldBackTest {
 		return res;
 	}
 	
-	public static void runFlatYieldTest(List<BetAdvisorElement> data, Map<Integer, Double> avgYieldMap, double oddsratio) throws Exception{
+	public static void runFlatYieldTest(List<BetAdvisorElement> data, Map<Integer, Double> avgYieldMap, Map<String, TipsterStats> tipsterStats, double oddsratio) throws Exception{
 		double result = 0;
 		double numBets = 0;
 		double resultFiltered = 0;
@@ -75,6 +75,7 @@ public class YieldBackTest {
 		for(BetAdvisorElement element : data){
 			double odds = element.getOdds() * oddsratio;
 			double profit = element.getProfit();
+			String tipster = element.getTipster();
 			String typeOfBet = element.getTypeOfBet();
 			typeOfBet = typeOfBet.toUpperCase();
 			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
@@ -99,11 +100,20 @@ public class YieldBackTest {
 			Instance i = em.createWekaInstance(typeOfBet, element.getOdds(), liquidity);
 			int cluster = em.predictCluster(i);
 			double clusterAvgYield = avgYieldMap.get(cluster);
-			if(clusterAvgYield > 0){
+			double tipsterAvgYield = tipsterStats.get(tipster).avgYield;
+			
+			//calculate linear combination of both avg yield estimates
+			double combinedAvgYield = 0.5 * clusterAvgYield + 0.5 * tipsterAvgYield;
+			if(combinedAvgYield > 0){
 				resultFiltered += p;
 				numBetsFiltered++;
 			}
+			else{
+				System.out.println(tipster);
+			}
 		}
+		System.out.println("Num Bets: " + numBets);
+		System.out.println("Num Bets Filtered: " + numBetsFiltered);
 		System.out.println("Total Flat Winnings: " + result);
 		System.out.println("Total Flat Winnings Filtered: " + resultFiltered);
 		System.out.println("Yield per Bet: " + result/numBets);
@@ -113,8 +123,9 @@ public class YieldBackTest {
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
 		
-		Map<Integer, Double> map = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
-		runFlatYieldTest(pair.getValue(), map, 0.98);
+		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
+		Map<String, TipsterStats> tipsterStatsMap = TipsterYieldCalculation.createTipsterStats(pair.getKey());
+		runFlatYieldTest(pair.getValue(), yieldMap, tipsterStatsMap, 0.98);
 //		for(Integer i : map.keySet())
 //			System.out.println(i + " " + map.get(i));
 

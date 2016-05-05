@@ -107,8 +107,6 @@ public class StatsCalculation {
 				typeOfBet = typeOfBet.toUpperCase();
 				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
 				double odds = element.getOdds();
-				if(!typeOfBet.equalsIgnoreCase("MATCH ODDS"))
-					odds++;
 				
 				Instance record2 = liquidityModel.createWekaInstance(element);
 				if(record2 == null)
