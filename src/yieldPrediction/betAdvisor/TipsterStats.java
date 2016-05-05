@@ -11,6 +11,10 @@ public class TipsterStats {
 	Map<Double, Double> avgYield_stakes;
 //	Map<String, Integer> type_frequency;
 	Map<Double, Double> stake_frequency;
+	double minStake;
+	double maxStake;
+	double avgStake;
+	double maxStakeDeviation;
 	
 	public TipsterStats(String name, double numBets, double yield, Map<Double, Double> stakes_yield, Map<Double, Double> stake_freq) {
 		this.tipster = name;
@@ -18,6 +22,10 @@ public class TipsterStats {
 		this.avgYield = yield;
 		this.avgYield_stakes = stakes_yield;
 		this.stake_frequency = stake_freq;
+		this.minStake = (double) stakes_yield.keySet().toArray()[0];
+		this.maxStake = (double) stakes_yield.keySet().toArray()[stakes_yield.size()-1];
+		this.avgStake = calculateAvgStake();
+		this.maxStakeDeviation = Math.max(Math.abs(minStake - avgStake), Math.abs(maxStake - avgStake));
 	}
 	
 	private double calculateAvgStake(){
@@ -26,6 +34,10 @@ public class TipsterStats {
 			total += d * stake_frequency.get(d);
 		}
 		return total/numBets;
+	}
+	
+	public double calculateNormalizedStakeDeviation(double stake){
+		return (stake - avgStake)/maxStakeDeviation;
 	}
 	
 	public String toString(){

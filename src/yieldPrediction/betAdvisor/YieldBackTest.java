@@ -103,7 +103,7 @@ public class YieldBackTest {
 			double tipsterAvgYield = tipsterStats.get(tipster).avgYield;
 			
 			//calculate linear combination of both avg yield estimates
-			double combinedAvgYield = 0.5 * clusterAvgYield + 0.5 * tipsterAvgYield;
+			double combinedAvgYield = 1 * clusterAvgYield + 0 * tipsterAvgYield;
 			if(combinedAvgYield > 0){
 				resultFiltered += p;
 				numBetsFiltered++;
@@ -123,8 +123,8 @@ public class YieldBackTest {
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
 		
-		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
 		Map<String, TipsterStats> tipsterStatsMap = TipsterYieldCalculation.createTipsterStats(pair.getKey());
+		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
 		runFlatYieldTest(pair.getValue(), yieldMap, tipsterStatsMap, 0.98);
 //		for(Integer i : map.keySet())
 //			System.out.println(i + " " + map.get(i));
