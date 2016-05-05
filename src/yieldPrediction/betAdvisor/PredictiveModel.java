@@ -167,7 +167,6 @@ public class PredictiveModel {
 				
 				if(element.getProfit() > 0){
 					normalProfit += 100 * odds - 100;
-					normalBets++;
 					if(yield > 0){
 						filteredProfit += 100 * odds - 100;
 						filteredBets++;
@@ -175,12 +174,12 @@ public class PredictiveModel {
 				}
 				else if(element.getProfit() < 0){
 					normalProfit -= 100;
-					normalBets++;
 					if(yield > 0){
 						filteredProfit -= 100;
 						filteredBets++;
 					}		
 				}
+				normalBets++;
 				
 				//m = Math.max(m, winPercent);
 			}catch(Exception e){
@@ -198,8 +197,8 @@ public class PredictiveModel {
 	
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
-		StatsCalculation.calculateYields(pair.getKey(), 0.96);
+		StatsCalculation.calculateYields(pair.getKey(), 0.98);
 		loadYields();
-		test(pair.getValue(), 0.96);
+		test(pair.getValue(), 0.98);
 	}
 }

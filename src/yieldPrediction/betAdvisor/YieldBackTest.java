@@ -79,13 +79,6 @@ public class YieldBackTest {
 			String typeOfBet = element.getTypeOfBet();
 			typeOfBet = typeOfBet.toUpperCase();
 			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
-			double p = 0;
-			if(profit > 0)
-				p = odds - 1;
-			else if(profit < 0)
-				p = -1;
-			result += p;
-			numBets++;
 			
 			//filter -ev bets
 			Instance record2 = liquidityModel.createWekaInstance(element);
@@ -97,6 +90,13 @@ public class YieldBackTest {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}	
+			double p = 0;
+			if(profit > 0)
+				p = odds - 1;
+			else if(profit < 0)
+				p = -1;
+			result += p;
+			numBets++;
 			Instance i = em.createWekaInstance(typeOfBet, element.getOdds(), liquidity);
 			int cluster = em.predictCluster(i);
 			double clusterAvgYield = avgYieldMap.get(cluster);
@@ -122,10 +122,9 @@ public class YieldBackTest {
 
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
-		StatsCalculation.calculateYields(pair.getKey(), 1);
-		//Map<String, TipsterStats> tipsterStatsMap = TipsterYieldCalculation.createTipsterStats(pair.getKey());
-		//Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.99);
-		//runFlatYieldTest(pair.getValue(), yieldMap, tipsterStatsMap, 0.99);
+		Map<String, TipsterStats> tipsterStatsMap = TipsterYieldCalculation.createTipsterStats(pair.getKey());
+		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(pair.getKey(), 0.98);
+		runFlatYieldTest(pair.getValue(), yieldMap, tipsterStatsMap, 0.98);
 //		for(Integer i : map.keySet())
 //			System.out.println(i + " " + map.get(i));
 
