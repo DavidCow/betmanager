@@ -18,6 +18,7 @@ import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
 import jayeson.lib.recordfetcher.DeltaCrawlerSession;
 import mailParsing.BetAdvisorTip;
+import mailParsing.BlogaBetTip;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -153,6 +154,8 @@ public class ResultAnalyser {
 		int numberOfDrawnBets = 0;
 		List<Bet> bets = dataBase.getAllBets();
 		Collections.sort(bets, new BetComparator());
+		List<Bet> betsBlogaBet = dataBase.getAllBetsBlogaBet();
+		Collections.sort(betsBlogaBet, new BetComparator());
 		List<Double> profitByBet = new ArrayList<Double>();
 		double profit = 0;
 		double oddDifference = 0;
@@ -177,8 +180,22 @@ public class ResultAnalyser {
 				if(maxStake < minMaxStakeAllBets){
 					minMaxStakeAllBets = maxStake;
 				}
-			}
-			
+			}			
+		}
+		
+		for(int i = 0; i < betsBlogaBet.size(); i++){
+			Bet bet = bets.get(i);
+			String betTicketJsonString = bet.getBetTicketJsonString();
+			if(betTicketJsonString != null){
+				BetTicket betTicket = BetTicket.fromJson(betTicketJsonString);
+				double maxStake = betTicket.getMaxStake();
+				if(maxStake > maxMaxStakeAllBets){
+					maxMaxStakeAllBets = maxStake;
+				}
+				if(maxStake < minMaxStakeAllBets){
+					minMaxStakeAllBets = maxStake;
+				}
+			}			
 		}
 		
 		double stakeLevel = (maxMaxStakeAllBets - minMaxStakeAllBets) / numberOfStakes;
@@ -211,6 +228,92 @@ public class ResultAnalyser {
 			}
 			
 			oddDifference += odd / tip.bestOdds;
+			
+			int stakeIndex = -1;
+			for(int j = 0; j < numberOfStakes; j++){
+				if(betTicket != null){
+					double maxStake = betTicket.getMaxStake();
+					if(maxStake > minMaxStakeAllBets + (j + 1) * stakeLevel + 0.01)
+						continue;
+					betsPerStake.set(j, betsPerStake.get(j) + 1);
+					stakeIndex = j;
+					if(bet.getBetStatus() != 1){
+						finishedBetsPerStake.set(j, finishedBetsPerStake.get(j) + 1);
+					}
+					break;
+				}
+			}
+			
+			if(bet.getBetStatus() == 1){
+				numberOfRunninngBets++;
+			}
+			if(bet.getBetStatus() == 4){
+				numberOfWonBets++;
+				double betProfit = bet.getBetAmount() * odd - bet.getBetAmount();
+				profit += betProfit;
+				if(betTicket != null)
+					profitForAlwaysMaxStake += betTicket.getMaxStake() * odd - betTicket.getMaxStake();
+				profitByBet.add(profit);
+				averageYield += betProfit / bet.getBetAmount();
+				if(stakeIndex != -1)
+					yieldPerStake.set(stakeIndex, yieldPerStake.get(stakeIndex) + betProfit / bet.getBetAmount());
+			}
+			if(bet.getBetStatus() == 5){
+				numberOfLostBets++;
+				profit -= bet.getBetAmount();
+				if(betTicket != null)
+					profitForAlwaysMaxStake -= betTicket.getMaxStake();
+				profitByBet.add(profit);
+				averageYield--;
+				if(stakeIndex != -1)
+					yieldPerStake.set(stakeIndex, yieldPerStake.get(stakeIndex) - 1);
+			}
+			if(bet.getBetStatus() == 6){
+				numberOfCancelledBets++;
+			}
+			if(bet.getBetStatus() == 7){
+				numberOfDrawnBets++;
+			}
+		}
+		
+		for(int i = 0; i < betsBlogaBet.size(); i++){
+			Bet bet = bets.get(i);
+			Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+			SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+			
+			String tipJsonString = bet.getTipJsonString();
+			int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+			int stakeEnd = tipJsonString.indexOf("\"", startStake);
+			String stakeString = tipJsonString.substring(startStake, stakeEnd);
+			int splitPoint = stakeString.indexOf("/");
+			if(splitPoint != -1){
+				String a = stakeString.substring(0, splitPoint);
+				String b = stakeString.substring(splitPoint + 1);
+				double stake = Double.parseDouble(a) / Double.parseDouble(b);
+				tipJsonString = tipJsonString.replace(stakeString, stake + "");
+			}
+			
+			BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+			String betTicketJsonString = bet.getBetTicketJsonString();
+			BetTicket betTicket = null;
+			if(betTicketJsonString != null){
+				betTicket = BetTicket.fromJson(betTicketJsonString);
+				numberOfLiquidityBets++;
+				averageLiquidity += betTicket.getMaxStake();
+			}
+			
+			double odd = 0;
+			if(record.getPivotType() == PivotType.HDP){
+				odd = bet.getBetOdd() + 1;
+			}
+			else if(record.getPivotType() == PivotType.TOTAL){
+				odd = bet.getBetOdd() + 1;
+			}
+			else{
+				odd = bet.getBetOdd();
+			}
+			
+			oddDifference += odd / tip.odds;
 			
 			int stakeIndex = -1;
 			for(int j = 0; j < numberOfStakes; j++){
