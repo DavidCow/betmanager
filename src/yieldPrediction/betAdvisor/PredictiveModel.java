@@ -37,15 +37,17 @@ public class PredictiveModel {
 		 };
 	
 	private static double[][] yields = new double[fileNames.length][];
-	static{
+	private static void loadYields(){
 		for(int i = 0; i < fileNames.length; i++){
             try {
 				File f = new File(fileNames[i]);
-	            FileInputStream fileInput = new FileInputStream(f);
-	            BufferedInputStream br = new BufferedInputStream(fileInput);
-	            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
-    			yields[i] = (double[])objectInputStream.readObject();
-    			objectInputStream.close();
+				if(f.exists()){
+		            FileInputStream fileInput = new FileInputStream(f);
+		            BufferedInputStream br = new BufferedInputStream(fileInput);
+		            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+	    			yields[i] = (double[])objectInputStream.readObject();
+	    			objectInputStream.close();
+				}
             }catch(Exception e){
             	e.printStackTrace();
             	System.exit(-1);
@@ -55,14 +57,16 @@ public class PredictiveModel {
 	
 	private static final String winPercentFileName = "winPercentModel_50.dat";
 	private static double[] winPercent;
-	static{
+	private static void loadWinProbs(){
         try {
 			File f = new File(winPercentFileName);
-            FileInputStream fileInput = new FileInputStream(f);
-            BufferedInputStream br = new BufferedInputStream(fileInput);
-            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
-            winPercent = (double[])objectInputStream.readObject();
-            objectInputStream.close();
+			if(f.exists()){
+	            FileInputStream fileInput = new FileInputStream(f);
+	            BufferedInputStream br = new BufferedInputStream(fileInput);
+	            ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+	            winPercent = (double[])objectInputStream.readObject();
+	            objectInputStream.close();
+			}
         }catch(Exception e){
         	e.printStackTrace();
         	System.exit(-1);
@@ -157,7 +161,7 @@ public class PredictiveModel {
 				
 				Instance record = model.createWekaInstance(tipster, typeOfBet, odds, liquidity, take);
 				double yield = model.predictYield(record, oddsRatio);
-				double winPercent = model.predictWinPercent(record);
+//				double winPercent = model.predictWinPercent(record);
 //				System.out.println("yield: " + yield);
 //				System.out.println("winPercent: " + winPercent);
 				
@@ -178,12 +182,12 @@ public class PredictiveModel {
 					}		
 				}
 				
-				m = Math.max(m, winPercent);
+				//m = Math.max(m, winPercent);
 			}catch(Exception e){
 				
 			}
 		}		
-		System.out.println("Max: " + m);
+		//System.out.println("Max: " + m);
 		System.out.println("Profit: " + normalProfit);
 		System.out.println("Yield: " + normalProfit / normalBets);
 		System.out.println("Bets: " + normalBets);
@@ -195,6 +199,7 @@ public class PredictiveModel {
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
 		StatsCalculation.calculateYields(pair.getKey(), 0.96);
+		loadYields();
 		test(pair.getValue(), 0.96);
 	}
 }
