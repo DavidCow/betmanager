@@ -212,6 +212,8 @@ public class BettingBot {
 				/* We can not bet on events from the past */
 				if(tipStartUnixTime < System.currentTimeMillis())
 					continue;
+				if(tip.bestOdds > 15)
+					continue;
 				
 				boolean secondBetForTip = false;
 				double betAmountForTip = 0;
@@ -917,6 +919,8 @@ public class BettingBot {
 				
 				/* We can not bet on events from the past */
 				if(tipStartUnixTime < System.currentTimeMillis())
+					continue;
+				if(tip.odds > 15)
 					continue;
 				
 				boolean secondBetForTip = false;
