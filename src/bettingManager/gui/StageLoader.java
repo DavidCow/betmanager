@@ -13,9 +13,9 @@ public class StageLoader extends Application {
 	
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/bettingManager/gui/Main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/bettingManager/gui/layout/Main.fxml"));
         Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("/bettingManager/gui/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/bettingManager/gui/layout/style.css").toExternalForm());
         primaryStage.setTitle("First test");
         primaryStage.setScene(scene);
         primaryStage.show();
