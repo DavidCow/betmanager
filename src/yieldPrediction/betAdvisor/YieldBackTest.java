@@ -69,7 +69,7 @@ public class YieldBackTest {
 		double numBetsFiltered = 0;
 		
 		//load models
-		ClusterPredictionEM em = new ClusterPredictionEM("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
 		
 		for(BetAdvisorElement element : data){

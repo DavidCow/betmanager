@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import weka.clusterers.Clusterer;
 import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
@@ -22,7 +23,7 @@ public class StatsCalculation {
 		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Model
-		ClusterPrediction prediction = new ClusterPrediction("Yield.arff", "yieldCluster.model");
+		ClusterPredictionKmeans prediction = new ClusterPredictionKmeans("Yield.arff", "yieldCluster.model");
 		
 		// Liquidity Model
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
@@ -76,13 +77,13 @@ public class StatsCalculation {
 		oddsRatio -= 0.01;	
 	}
 	
-	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{	
+	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio, String arffPath, String modelPath) throws Exception{	
 		double[] res = new double[numberOfClusters];
 		double[] totalTake = new double[numberOfClusters];
 		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Model
-		ClusterPredictionEM prediction = new ClusterPredictionEM("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		ClusterPrediction prediction = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
 		
 		
 		// Liquidity Model
@@ -140,7 +141,7 @@ public class StatsCalculation {
 		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Model
-		ClusterPrediction prediction = new ClusterPrediction("Yield.arff", "yieldCluster.model");
+		ClusterPredictionKmeans prediction = new ClusterPredictionKmeans("Yield.arff", "yieldCluster.model");
 		
 		// Liquidity Model
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
