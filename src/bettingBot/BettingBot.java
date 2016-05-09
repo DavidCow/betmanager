@@ -300,6 +300,8 @@ public class BettingBot {
 						
 						if(!teamsMatch)
 							teamsMatch = TeamMapping.teamsMatch(eventHost, tipHost) || TeamMapping.teamsMatch(eventGuest, tipGuest);
+						if(!teamsMatch)
+							teamsMatch = TeamMapping.teamsMatch(eventHost, tipHost, eventGuest, tipGuest);
 						
 						/*/ Teams match, get the right record and make a bet */
 						if(teamsMatch){
@@ -884,6 +886,8 @@ public class BettingBot {
 									mainFrame.addEvent("Bet Type not recognized:\n" + tip.typeOfBet);		
 								}
 							}
+							// Match found, we dont look at additional events
+							break;
 						}
 					}
 				}				
@@ -1008,6 +1012,8 @@ public class BettingBot {
 						
 						if(!teamsMatch)
 							teamsMatch = TeamMapping.teamsMatch(eventHost, tipHost) || TeamMapping.teamsMatch(eventGuest, tipGuest);
+						if(!teamsMatch)
+							teamsMatch = TeamMapping.teamsMatch(eventHost, tipHost, eventGuest, tipGuest);
 						
 						/*/ Teams match, get the right record and make a bet */
 						if(teamsMatch){
@@ -1432,6 +1438,8 @@ public class BettingBot {
 									mainFrame.addEvent("Bet Type not recognized:\n" + tip.pivotType);		
 								}
 							}
+							// Match found, we dont look at additional events
+							break;
 						}
 					}
 				}				

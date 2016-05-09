@@ -4,7 +4,7 @@ import java.util.Date;
 
 import com.google.gson.Gson;
 
-public class Bet {
+public class Bet implements java.io.Serializable {
 
 	private String actionMessage;
 	private String id;
