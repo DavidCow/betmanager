@@ -59,8 +59,6 @@ public class TeamMapping {
 		String t1 = postProcess(home1);
 		String t2 = postProcess(guest0);
 		String t3 = postProcess(guest1);
-		if(t0.equalsIgnoreCase(t1))
-			return true;
 		
 		double similarity0 = LetterPairSimilarity.compareStrings(t0, t1);		
 		double similarity1 = LetterPairSimilarity.compareStrings(t2, t3);	
