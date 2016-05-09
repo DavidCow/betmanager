@@ -456,9 +456,15 @@ public class BetAdvisorEmailParser {
 				results.add(BetAdvisorEmailParser.parseResult(mail));
 			}
 		}
+		int dnb = 0;
 		double stake = 0;
 		for(int i = 0; i < tips.size(); i++){
 			stake += tips.get(i).take;
+			if(tips.get(i).typeOfBet.contains("Asian")){
+				if(tips.get(i).pivotValue == 0){
+					dnb++;
+				}
+			}
 		}
 		stake /= tips.size();
 		System.out.println(stake);

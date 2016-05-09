@@ -286,9 +286,15 @@ public class BlogaBetEmailParser {
 				System.out.println(mail.content);
 			}
 		}
+		int dnb = 0;
 		double stake = 0;
 		for(int i = 0; i < tips.size(); i++){
 			stake += tips.get(i).stake;
+			if(tips.get(i).pivotType.contains("Asian")){
+				if(tips.get(i).pivotValue == 0){
+					dnb++;
+				}
+			}
 		}
 		stake /= tips.size();
 		System.out.println(stake);

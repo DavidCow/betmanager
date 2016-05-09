@@ -2,7 +2,7 @@ package mailParsing;
 
 import java.util.Date;
 
-public class BlogaBetTip {
+public class BlogaBetTip implements java.io.Serializable {
 	
 	@Override
 	public String toString(){
