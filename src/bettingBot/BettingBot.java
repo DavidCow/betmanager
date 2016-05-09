@@ -39,7 +39,7 @@ import eastbridge.BettingApi;
 
 public class BettingBot {
 	
-	private static final int numberOfMessagesToCheck = 20;
+	private static final int numberOfMessagesToCheck = 30;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
 	private static final int MAX_STAKE = 1500;
@@ -79,6 +79,8 @@ public class BettingBot {
 		DeltaCrawlerSession cs = new DeltaCrawlerSession();
 		// this will enable auto reconnection for your record fetcher in case of connection failure
 		cs.connect();	
+		
+		cs.waitConnection();
 
 		// Initialize mail parsing
 		GMailReader reader = new GMailReader("vicentbet90@gmail.com", "bmw735tdi2");
@@ -166,7 +168,7 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 30000 && funds != -1){
+			if(funds < 45000 && funds != -1){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -198,7 +200,7 @@ public class BettingBot {
 			}
 				
 			/* Iterate over all tips */
-			for(int t = 0; t < t; t++){
+			for(int t = 0; t < tips.size(); t++){
 				
 				BetAdvisorTip tip = tips.get(t);
 				
@@ -210,8 +212,11 @@ public class BettingBot {
 				Date tipStartDate = tip.date;		
 				long tipStartUnixTime = tipStartDate.getTime();
 				
-				/* We can not bet on events from the past */
-				if(tipStartUnixTime < System.currentTimeMillis())
+				/* We can not bet on events that are too far in the past
+				 * It is possible that they are in the past though for livebets
+				 * Therefore we subtract 120 minutes from the current time for the check
+				 */
+				if(tipStartUnixTime < System.currentTimeMillis() - 120 * 60 * 1000)
 					continue;
 				if(tip.bestOdds > 15)
 					continue;
@@ -922,8 +927,11 @@ public class BettingBot {
 				Date tipStartDate = tip.startDate;		
 				long tipStartUnixTime = tipStartDate.getTime();
 				
-				/* We can not bet on events from the past */
-				if(tipStartUnixTime < System.currentTimeMillis())
+				/* We can not bet on events that are too far in the past
+				 * It is possible that they are in the past though for livebets
+				 * Therefore we subtract 120 minutes from the current time for the check
+				 */
+				if(tipStartUnixTime < System.currentTimeMillis() - 120 * 60 * 1000)
 					continue;
 				if(tip.odds > 15)
 					continue;
