@@ -116,7 +116,8 @@ public class BlogaBetEmailParser {
 				tip.selection = "X2";
 		}
 		else if(lines[5].contains("(DNB)")){
-			tip.pivotType = "DNB";
+			tip.pivotType = "Asian handicap";
+			tip.pivotValue = 0;
 			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
 				tip.selection = "HOME";
 			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
@@ -263,6 +264,7 @@ public class BlogaBetEmailParser {
 			ParsedTextMail mail = mails.get(i);
 			try{
 				BlogaBetTip tip = parseEmail(mail);
+				System.out.println(mail.content);
 				System.out.println("Mail " + i);
 				System.out.println("Host: " + tip.host);
 				System.out.println("Guest: " + tip.guest);
