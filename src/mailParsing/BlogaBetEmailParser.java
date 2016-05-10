@@ -123,6 +123,14 @@ public class BlogaBetEmailParser {
 			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
 				tip.selection = "AWAY";
 		}
+		else if(lines[5].contains("(Draw No Bet)")){
+			tip.pivotType = "Asian handicap";
+			tip.pivotValue = 0;
+			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
+				tip.selection = "HOME";
+			else if(lines[5].contains("Away") || lines[5].contains("AWAY") || lines[5].contains("away")) 
+				tip.selection = "AWAY";
+		}
 		else if(lines[5].contains("Match Goals")){
 			tip.pivotType = "Match Goals";
 			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
@@ -260,7 +268,7 @@ public class BlogaBetEmailParser {
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
 		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com");
 		List<BlogaBetTip> tips = new ArrayList<BlogaBetTip>();
-		for(int i = 25; i < mails.size(); i++){
+		for(int i = 0; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
 			try{
 				BlogaBetTip tip = parseEmail(mail);
