@@ -25,6 +25,204 @@
 
 <tbody>
 <tr style="background:#FFFFFF">
+	<td>2016-03-30 01:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>VENEZUELA vs CHILE</td>
+	<td>1-4 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -0.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>45.50</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-29 18:20:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-29 22:30:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>COLOMBIA vs ECUADOR</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ECUADOR +1.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-29 18:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-27 19:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD UNIVERSIDAD CATOLICA vs INDEPENDIENTE DEL VALLE</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-27 12:50:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-15 23:30:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>INDEPENDIENTE DEL VALLE vs FBC MELGAR</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE DEL VALLE -1.25</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-15 18:49:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-13 18:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>SD AUCAS vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SD AUCAS +0.50</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-13 11:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-12 21:45:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>CD RIVER PLATE ECUADOR vs INDEPENDIENTE DEL VALLE</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE DEL VALLE +0</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.00</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-12 09:09:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-03 01:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>GREMIO RS vs LIGA DEP UNIVERSITARIA QUITO</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>GREMIO RS -1.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>71.40</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-02 19:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-01 21:15:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>FBC MELGAR vs INDEPENDIENTE DEL VALLE</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>INDEPENDIENTE DEL VALLE +0.25</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>57.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-03-01 19:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-26 01:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB SPORT EMELEC vs DVO TACHIRA</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB SPORT EMELEC -1.25</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>77.60</td>
+	<td>Win</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-02-25 09:13:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-21 17:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>MUSHUC RUNA vs CD UNIVERSIDAD CATOLICA</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>CD UNIVERSIDAD CATOLICA +0</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>70</td>
+	<td>-70.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-02-21 11:59:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-17 22:00:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>FUERZA AMARILLA S.C. vs MUSHUC RUNA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FUERZA AMARILLA S.C. -0.50</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>50</td>
+	<td>-50.00</td>
+	<td>Lost</td>
+			<td>Jorge Aragundy</td>
+		<td>Football</td>
+		<td>2016-02-17 08:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
 	<td>2016-02-06 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -42,7 +240,7 @@
 		<td>Football</td>
 		<td>2016-02-05 21:22:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-12-12 21:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -60,7 +258,7 @@
 		<td>Football</td>
 		<td>2015-12-12 17:45:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-11-22 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -78,7 +276,7 @@
 		<td>Football</td>
 		<td>2015-11-21 18:00:08</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-11-17 22:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -96,7 +294,7 @@
 		<td>Football</td>
 		<td>2015-11-17 19:18:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-11-14 01:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -114,7 +312,7 @@
 		<td>Football</td>
 		<td>2015-11-12 18:20:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-11-13 00:30:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -132,7 +330,7 @@
 		<td>Football</td>
 		<td>2015-11-12 18:19:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-11-12 22:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -150,7 +348,7 @@
 		<td>Football</td>
 		<td>2015-11-12 18:18:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-10-14 04:15:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -168,7 +366,7 @@
 		<td>Football</td>
 		<td>2015-10-13 09:45:10</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-10-14 03:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -186,7 +384,7 @@
 		<td>Football</td>
 		<td>2015-10-13 09:45:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-10-14 01:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -204,7 +402,7 @@
 		<td>Football</td>
 		<td>2015-10-13 09:44:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-09-27 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -222,7 +420,7 @@
 		<td>Football</td>
 		<td>2015-09-26 17:09:25</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-09-26 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -240,7 +438,7 @@
 		<td>Football</td>
 		<td>2015-09-26 17:06:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-09-13 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -258,7 +456,7 @@
 		<td>Football</td>
 		<td>2015-09-13 16:35:11</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-08-30 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -276,7 +474,7 @@
 		<td>Football</td>
 		<td>2015-08-29 16:08:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-08-02 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -294,7 +492,7 @@
 		<td>Football</td>
 		<td>2015-08-02 19:13:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-08-02 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -312,7 +510,7 @@
 		<td>Football</td>
 		<td>2015-08-02 19:11:54</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-07-30 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -330,7 +528,7 @@
 		<td>Football</td>
 		<td>2015-07-29 08:40:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-07-30 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -348,7 +546,7 @@
 		<td>Football</td>
 		<td>2015-07-29 08:36:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-07-26 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -366,7 +564,7 @@
 		<td>Football</td>
 		<td>2015-07-25 16:16:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-07-25 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -384,7 +582,7 @@
 		<td>Football</td>
 		<td>2015-07-25 16:15:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-07-19 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -402,7 +600,7 @@
 		<td>Football</td>
 		<td>2015-07-18 15:30:26</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-07-19 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -420,7 +618,7 @@
 		<td>Football</td>
 		<td>2015-07-18 15:27:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-07-18 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -438,7 +636,7 @@
 		<td>Football</td>
 		<td>2015-07-18 15:28:11</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-07-05 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -456,7 +654,7 @@
 		<td>Football</td>
 		<td>2015-07-04 16:08:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-07-04 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -474,7 +672,7 @@
 		<td>Football</td>
 		<td>2015-07-04 16:03:17</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-06-16 01:30:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -492,7 +690,7 @@
 		<td>Football</td>
 		<td>2015-06-15 16:10:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-06-15 23:00:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -510,7 +708,7 @@
 		<td>Football</td>
 		<td>2015-06-15 16:09:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-05-10 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -528,7 +726,7 @@
 		<td>Football</td>
 		<td>2015-05-09 08:53:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-05-09 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -546,7 +744,7 @@
 		<td>Football</td>
 		<td>2015-05-09 08:45:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-05-03 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -564,7 +762,7 @@
 		<td>Football</td>
 		<td>2015-05-02 15:50:23</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-05-02 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -582,7 +780,7 @@
 		<td>Football</td>
 		<td>2015-05-02 15:50:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-04-26 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -600,7 +798,7 @@
 		<td>Football</td>
 		<td>2015-04-26 16:57:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-04-26 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -618,7 +816,7 @@
 		<td>Football</td>
 		<td>2015-04-26 16:52:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-04-18 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -636,7 +834,7 @@
 		<td>Football</td>
 		<td>2015-04-18 11:05:07</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-03-29 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -654,7 +852,7 @@
 		<td>Football</td>
 		<td>2015-03-29 08:13:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-03-29 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -672,7 +870,7 @@
 		<td>Football</td>
 		<td>2015-03-29 08:11:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-03-01 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -690,7 +888,7 @@
 		<td>Football</td>
 		<td>2015-02-28 14:21:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-02-28 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -708,7 +906,7 @@
 		<td>Football</td>
 		<td>2015-02-28 14:27:14</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-02-28 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -726,7 +924,7 @@
 		<td>Football</td>
 		<td>2015-02-28 14:23:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-02-21 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -744,7 +942,7 @@
 		<td>Football</td>
 		<td>2015-02-21 20:22:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-02-21 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -762,7 +960,7 @@
 		<td>Football</td>
 		<td>2015-02-21 20:24:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-02-21 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -780,7 +978,7 @@
 		<td>Football</td>
 		<td>2015-02-21 20:18:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2015-02-14 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -798,7 +996,7 @@
 		<td>Football</td>
 		<td>2015-02-13 12:47:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2015-02-01 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -816,7 +1014,7 @@
 		<td>Football</td>
 		<td>2015-02-01 13:25:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-12-14 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -834,7 +1032,7 @@
 		<td>Football</td>
 		<td>2014-12-14 13:14:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-12-14 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -852,7 +1050,7 @@
 		<td>Football</td>
 		<td>2014-12-14 13:13:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-12-07 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -870,7 +1068,7 @@
 		<td>Football</td>
 		<td>2014-12-07 10:40:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-12-07 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -888,7 +1086,7 @@
 		<td>Football</td>
 		<td>2014-12-06 13:35:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-12-06 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -906,7 +1104,7 @@
 		<td>Football</td>
 		<td>2014-12-06 13:35:07</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-11-19 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -924,7 +1122,7 @@
 		<td>Football</td>
 		<td>2014-11-19 12:43:01</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-11-16 16:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -942,7 +1140,7 @@
 		<td>Football</td>
 		<td>2014-11-16 11:17:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-11-06 01:07:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -960,7 +1158,7 @@
 		<td>Football</td>
 		<td>2014-11-05 13:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-11-06 01:00:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -978,7 +1176,7 @@
 		<td>Football</td>
 		<td>2014-11-05 13:17:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-11-06 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -996,7 +1194,7 @@
 		<td>Football</td>
 		<td>2014-11-05 13:16:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-11-02 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1014,7 +1212,7 @@
 		<td>Football</td>
 		<td>2014-11-02 12:38:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-11-02 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1032,7 +1230,7 @@
 		<td>Football</td>
 		<td>2014-11-02 12:41:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-11-01 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1050,7 +1248,7 @@
 		<td>Football</td>
 		<td>2014-11-01 12:25:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-10-26 22:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1068,7 +1266,7 @@
 		<td>Football</td>
 		<td>2014-10-26 21:16:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-10-26 22:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -1086,7 +1284,7 @@
 		<td>Football</td>
 		<td>2014-10-26 21:10:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-10-26 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1104,7 +1302,7 @@
 		<td>Football</td>
 		<td>2014-10-26 16:30:08</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-10-26 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1122,7 +1320,7 @@
 		<td>Football</td>
 		<td>2014-10-26 16:28:11</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-10-26 01:30:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -1140,7 +1338,7 @@
 		<td>Football</td>
 		<td>2014-10-25 15:02:09</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-10-25 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -1158,7 +1356,7 @@
 		<td>Football</td>
 		<td>2014-10-25 15:02:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-10-11 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1176,7 +1374,7 @@
 		<td>Football</td>
 		<td>2014-10-10 13:50:08</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-10-11 01:30:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -1194,7 +1392,7 @@
 		<td>Football</td>
 		<td>2014-10-10 13:56:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-10-05 20:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1212,7 +1410,7 @@
 		<td>Football</td>
 		<td>2014-10-05 13:34:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-09-28 23:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -1230,7 +1428,7 @@
 		<td>Football</td>
 		<td>2014-09-28 13:21:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-09-28 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1248,7 +1446,7 @@
 		<td>Football</td>
 		<td>2014-09-27 14:15:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-09-27 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1266,7 +1464,7 @@
 		<td>Football</td>
 		<td>2014-09-27 14:15:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-09-22 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1284,7 +1482,7 @@
 		<td>Football</td>
 		<td>2014-09-21 16:30:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-09-21 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1302,7 +1500,7 @@
 		<td>Football</td>
 		<td>2014-09-21 16:31:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-08-31 20:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1320,7 +1518,7 @@
 		<td>Football</td>
 		<td>2014-08-31 07:50:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-08-22 00:30:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -1338,7 +1536,7 @@
 		<td>Football</td>
 		<td>2014-08-21 18:43:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-08-09 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -1356,7 +1554,7 @@
 		<td>Football</td>
 		<td>2014-08-09 13:00:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-08-03 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1374,7 +1572,7 @@
 		<td>Football</td>
 		<td>2014-08-03 13:50:09</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-08-03 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1392,7 +1590,7 @@
 		<td>Football</td>
 		<td>2014-08-03 13:50:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-07-31 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1410,7 +1608,7 @@
 		<td>Football</td>
 		<td>2014-07-30 13:01:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-07-31 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1428,7 +1626,7 @@
 		<td>Football</td>
 		<td>2014-07-30 13:00:09</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-07-31 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1446,7 +1644,7 @@
 		<td>Football</td>
 		<td>2014-07-30 13:00:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-07-19 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1464,7 +1662,7 @@
 		<td>Football</td>
 		<td>2014-07-19 12:09:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-07-05 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1482,7 +1680,7 @@
 		<td>Football</td>
 		<td>2014-07-05 10:27:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-07-05 18:00:00</td>
 	<td>World Cup</td>
 	<td>World Cup</td>
@@ -1500,7 +1698,7 @@
 		<td>Football</td>
 		<td>2014-07-04 21:07:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-07-05 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1518,7 +1716,7 @@
 		<td>Football</td>
 		<td>2014-07-04 20:40:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-05-11 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1536,7 +1734,7 @@
 		<td>Football</td>
 		<td>2014-05-11 14:10:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-05-11 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1554,7 +1752,7 @@
 		<td>Football</td>
 		<td>2014-05-10 14:18:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-05-10 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1572,7 +1770,7 @@
 		<td>Football</td>
 		<td>2014-05-10 14:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-05-04 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1590,7 +1788,7 @@
 		<td>Football</td>
 		<td>2014-05-03 12:00:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-04-27 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1608,7 +1806,7 @@
 		<td>Football</td>
 		<td>2014-04-27 13:08:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-04-26 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1626,7 +1824,7 @@
 		<td>Football</td>
 		<td>2014-04-26 13:47:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-04-26 21:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1644,7 +1842,7 @@
 		<td>Football</td>
 		<td>2014-04-26 13:47:01</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-04-13 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1662,7 +1860,7 @@
 		<td>Football</td>
 		<td>2014-04-13 13:26:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-03-29 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1680,7 +1878,7 @@
 		<td>Football</td>
 		<td>2014-03-29 19:47:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-03-15 22:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1698,7 +1896,7 @@
 		<td>Football</td>
 		<td>2014-03-15 11:28:12</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-03-15 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1716,7 +1914,7 @@
 		<td>Football</td>
 		<td>2014-03-15 11:28:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-03-15 20:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1734,7 +1932,7 @@
 		<td>Football</td>
 		<td>2014-03-15 11:28:19</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-03-09 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1752,7 +1950,7 @@
 		<td>Football</td>
 		<td>2014-03-09 11:40:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-03-08 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1770,7 +1968,7 @@
 		<td>Football</td>
 		<td>2014-03-08 11:13:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-03-08 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1788,7 +1986,7 @@
 		<td>Football</td>
 		<td>2014-03-07 20:48:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-22 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1806,7 +2004,7 @@
 		<td>Football</td>
 		<td>2014-02-22 13:14:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-02-22 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1824,7 +2022,7 @@
 		<td>Football</td>
 		<td>2014-02-22 13:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-22 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1842,7 +2040,7 @@
 		<td>Football</td>
 		<td>2014-02-22 13:08:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-02-22 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1860,7 +2058,7 @@
 		<td>Football</td>
 		<td>2014-02-22 00:02:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-22 01:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1878,7 +2076,7 @@
 		<td>Football</td>
 		<td>2014-02-21 23:20:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-02-22 01:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1896,7 +2094,7 @@
 		<td>Football</td>
 		<td>2014-02-21 23:14:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-16 00:30:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -1914,7 +2112,7 @@
 		<td>Football</td>
 		<td>2014-02-15 12:33:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-02-10 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1932,7 +2130,7 @@
 		<td>Football</td>
 		<td>2014-02-09 12:08:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-10 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1950,7 +2148,7 @@
 		<td>Football</td>
 		<td>2014-02-09 12:03:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2014-02-09 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1968,7 +2166,7 @@
 		<td>Football</td>
 		<td>2014-02-09 11:59:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2014-02-08 21:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -1986,7 +2184,7 @@
 		<td>Football</td>
 		<td>2014-02-08 12:38:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-12-01 22:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2004,7 +2202,7 @@
 		<td>Football</td>
 		<td>2013-12-01 12:33:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-12-01 22:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -2022,7 +2220,7 @@
 		<td>Football</td>
 		<td>2013-12-01 12:32:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-12-01 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2040,7 +2238,7 @@
 		<td>Football</td>
 		<td>2013-12-01 12:34:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-11-24 22:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2058,7 +2256,7 @@
 		<td>Football</td>
 		<td>2013-11-24 13:07:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-11-23 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2076,7 +2274,7 @@
 		<td>Football</td>
 		<td>2013-11-23 11:38:07</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-11-21 00:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification, AFC CONMEBOL Playoffs</td>
@@ -2094,7 +2292,7 @@
 		<td>Football</td>
 		<td>2013-11-20 08:02:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-11-20 03:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -2112,7 +2310,7 @@
 		<td>Football</td>
 		<td>2013-11-19 23:41:01</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-11-20 02:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -2130,7 +2328,7 @@
 		<td>Football</td>
 		<td>2013-11-19 23:38:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-11-03 22:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2148,7 +2346,7 @@
 		<td>Football</td>
 		<td>2013-11-03 11:55:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-10-27 22:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2166,7 +2364,7 @@
 		<td>Football</td>
 		<td>2013-10-27 13:26:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-10-26 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2184,7 +2382,7 @@
 		<td>Football</td>
 		<td>2013-10-26 13:58:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-10-16 01:30:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -2202,7 +2400,7 @@
 		<td>Football</td>
 		<td>2013-10-15 14:38:10</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-10-16 01:30:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -2220,7 +2418,7 @@
 		<td>Football</td>
 		<td>2013-10-15 14:38:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-10-12 01:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -2238,7 +2436,7 @@
 		<td>Football</td>
 		<td>2013-10-11 12:49:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-10-11 23:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -2256,7 +2454,7 @@
 		<td>Football</td>
 		<td>2013-10-11 12:51:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-10-11 23:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -2274,7 +2472,7 @@
 		<td>Football</td>
 		<td>2013-10-11 12:49:13</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-09-29 23:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -2292,7 +2490,7 @@
 		<td>Football</td>
 		<td>2013-09-29 12:16:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-09-29 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2310,7 +2508,7 @@
 		<td>Football</td>
 		<td>2013-09-29 12:12:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-09-28 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2328,7 +2526,7 @@
 		<td>Football</td>
 		<td>2013-09-28 13:29:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-09-28 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2346,7 +2544,7 @@
 		<td>Football</td>
 		<td>2013-09-28 13:26:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-09-22 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2364,7 +2562,7 @@
 		<td>Football</td>
 		<td>2013-09-22 12:54:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-09-19 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2382,7 +2580,7 @@
 		<td>Football</td>
 		<td>2013-09-18 23:46:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-09-19 01:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -2400,7 +2598,7 @@
 		<td>Football</td>
 		<td>2013-09-18 23:43:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-09-14 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2418,7 +2616,7 @@
 		<td>Football</td>
 		<td>2013-09-13 13:57:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-08-10 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2436,7 +2634,7 @@
 		<td>Football</td>
 		<td>2013-08-10 14:28:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-07-21 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2454,7 +2652,7 @@
 		<td>Football</td>
 		<td>2013-07-21 14:06:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-07-18 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2472,7 +2670,7 @@
 		<td>Football</td>
 		<td>2013-07-17 14:21:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-07-17 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -2490,7 +2688,7 @@
 		<td>Football</td>
 		<td>2013-07-17 14:21:52</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-05-26 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2508,7 +2706,7 @@
 		<td>Football</td>
 		<td>2013-05-26 10:14:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-05-24 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2526,7 +2724,7 @@
 		<td>Football</td>
 		<td>2013-05-24 00:51:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-05-24 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2544,7 +2742,7 @@
 		<td>Football</td>
 		<td>2013-05-24 00:49:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-05-12 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2562,7 +2760,7 @@
 		<td>Football</td>
 		<td>2013-05-11 10:52:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-05-12 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2580,7 +2778,7 @@
 		<td>Football</td>
 		<td>2013-05-11 10:55:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-05-09 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2598,7 +2796,7 @@
 		<td>Football</td>
 		<td>2013-05-08 11:15:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-05-02 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2616,7 +2814,7 @@
 		<td>Football</td>
 		<td>2013-04-30 13:31:21</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-05-01 03:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2634,7 +2832,7 @@
 		<td>Football</td>
 		<td>2013-04-30 13:30:10</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-04-28 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2652,7 +2850,7 @@
 		<td>Football</td>
 		<td>2013-04-28 11:35:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-04-14 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2670,7 +2868,7 @@
 		<td>Football</td>
 		<td>2013-04-14 11:34:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-04-14 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2688,7 +2886,7 @@
 		<td>Football</td>
 		<td>2013-04-14 11:39:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-04-03 04:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2706,7 +2904,7 @@
 		<td>Football</td>
 		<td>2013-04-02 22:55:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-03-30 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2724,7 +2922,7 @@
 		<td>Football</td>
 		<td>2013-03-30 10:35:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-03-21 22:30:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -2742,7 +2940,7 @@
 		<td>Football</td>
 		<td>2013-03-21 10:00:21</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-03-14 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2760,7 +2958,7 @@
 		<td>Football</td>
 		<td>2013-03-13 22:34:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-03-11 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2778,7 +2976,7 @@
 		<td>Football</td>
 		<td>2013-03-11 08:44:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-03-10 22:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2796,7 +2994,7 @@
 		<td>Football</td>
 		<td>2013-03-10 10:27:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-03-10 20:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2814,7 +3012,7 @@
 		<td>Football</td>
 		<td>2013-03-10 10:21:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-03-09 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2832,7 +3030,7 @@
 		<td>Football</td>
 		<td>2013-03-09 12:24:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-03-06 03:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2850,7 +3048,7 @@
 		<td>Football</td>
 		<td>2013-03-05 09:43:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-03-05 23:15:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2868,7 +3066,7 @@
 		<td>Football</td>
 		<td>2013-03-05 09:40:09</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-03-04 00:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2886,7 +3084,7 @@
 		<td>Football</td>
 		<td>2013-03-03 10:38:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-02-27 23:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -2904,7 +3102,7 @@
 		<td>Football</td>
 		<td>2013-02-27 11:58:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-02-24 00:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2922,7 +3120,7 @@
 		<td>Football</td>
 		<td>2013-02-23 08:12:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-02-24 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2940,7 +3138,7 @@
 		<td>Football</td>
 		<td>2013-02-23 08:10:10</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-02-18 00:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -2958,7 +3156,7 @@
 		<td>Football</td>
 		<td>2013-02-17 10:11:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2013-02-09 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -2976,7 +3174,7 @@
 		<td>Football</td>
 		<td>2013-02-08 22:27:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2013-02-07 01:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -2994,7 +3192,7 @@
 		<td>Football</td>
 		<td>2013-02-06 09:36:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-30 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3012,7 +3210,7 @@
 		<td>Football</td>
 		<td>2012-08-29 23:58:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-30 00:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -3030,7 +3228,7 @@
 		<td>Football</td>
 		<td>2012-08-29 22:15:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-29 00:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -3048,7 +3246,7 @@
 		<td>Football</td>
 		<td>2012-08-28 09:11:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-26 20:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -3066,7 +3264,7 @@
 		<td>Football</td>
 		<td>2012-08-26 11:30:10</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-25 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3084,7 +3282,7 @@
 		<td>Football</td>
 		<td>2012-08-24 11:38:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-25 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3102,7 +3300,7 @@
 		<td>Football</td>
 		<td>2012-08-24 11:38:18</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-19 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3120,7 +3318,7 @@
 		<td>Football</td>
 		<td>2012-08-19 10:31:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-19 20:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3138,7 +3336,7 @@
 		<td>Football</td>
 		<td>2012-08-19 10:30:10</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-11 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3156,7 +3354,7 @@
 		<td>Football</td>
 		<td>2012-08-11 20:54:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-05 20:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3174,7 +3372,7 @@
 		<td>Football</td>
 		<td>2012-08-05 10:38:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-05 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3192,7 +3390,7 @@
 		<td>Football</td>
 		<td>2012-08-05 10:36:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-05 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3210,7 +3408,7 @@
 		<td>Football</td>
 		<td>2012-08-04 13:58:29</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-08-05 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3228,7 +3426,7 @@
 		<td>Football</td>
 		<td>2012-08-04 13:57:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-08-02 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3246,7 +3444,7 @@
 		<td>Football</td>
 		<td>2012-07-31 23:37:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-30 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3264,7 +3462,7 @@
 		<td>Football</td>
 		<td>2012-07-29 09:45:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-29 20:45:00</td>
 	<td>International</td>
 	<td>Olympic Tournament Men</td>
@@ -3282,7 +3480,7 @@
 		<td>Football</td>
 		<td>2012-07-29 11:09:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-26 02:30:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -3300,7 +3498,7 @@
 		<td>Football</td>
 		<td>2012-07-25 21:32:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-26 02:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3318,7 +3516,7 @@
 		<td>Football</td>
 		<td>2012-07-24 22:57:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-26 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3336,7 +3534,7 @@
 		<td>Football</td>
 		<td>2012-07-24 22:57:15</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-15 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3354,7 +3552,7 @@
 		<td>Football</td>
 		<td>2012-07-14 09:58:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-14 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3372,7 +3570,7 @@
 		<td>Football</td>
 		<td>2012-07-13 23:21:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-14 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -3390,7 +3588,7 @@
 		<td>Football</td>
 		<td>2012-07-13 23:18:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-08 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3408,7 +3606,7 @@
 		<td>Football</td>
 		<td>2012-07-06 22:17:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-07 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3426,7 +3624,7 @@
 		<td>Football</td>
 		<td>2012-07-06 22:21:16</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-07-01 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3444,7 +3642,7 @@
 		<td>Football</td>
 		<td>2012-07-01 11:25:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-07-01 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3462,7 +3660,7 @@
 		<td>Football</td>
 		<td>2012-06-29 22:04:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-28 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -3480,7 +3678,7 @@
 		<td>Football</td>
 		<td>2012-06-27 11:55:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-24 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -3498,7 +3696,7 @@
 		<td>Football</td>
 		<td>2012-06-24 10:25:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-24 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3516,7 +3714,7 @@
 		<td>Football</td>
 		<td>2012-06-23 21:59:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-23 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera B Nacional</td>
@@ -3534,7 +3732,7 @@
 		<td>Football</td>
 		<td>2012-06-23 10:36:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-19 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3552,7 +3750,7 @@
 		<td>Football</td>
 		<td>2012-06-18 09:14:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-17 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3570,7 +3768,7 @@
 		<td>Football</td>
 		<td>2012-06-16 12:05:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-17 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3588,7 +3786,7 @@
 		<td>Football</td>
 		<td>2012-06-17 10:49:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-16 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3606,7 +3804,7 @@
 		<td>Football</td>
 		<td>2012-06-16 10:31:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-14 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3624,7 +3822,7 @@
 		<td>Football</td>
 		<td>2012-06-14 12:12:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-14 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3642,7 +3840,7 @@
 		<td>Football</td>
 		<td>2012-06-12 10:34:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-12 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3660,7 +3858,7 @@
 		<td>Football</td>
 		<td>2012-06-12 11:05:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-10 23:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -3678,7 +3876,7 @@
 		<td>Football</td>
 		<td>2012-06-10 09:04:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-10 22:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -3696,7 +3894,7 @@
 		<td>Football</td>
 		<td>2012-06-09 12:35:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-09 20:45:00</td>
 	<td>International</td>
 	<td>Euro Cup</td>
@@ -3714,7 +3912,7 @@
 		<td>Football</td>
 		<td>2012-06-09 12:40:07</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-09 19:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -3732,7 +3930,7 @@
 		<td>Football</td>
 		<td>2012-06-09 12:32:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-06-03 00:30:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -3750,7 +3948,7 @@
 		<td>Football</td>
 		<td>2012-06-02 12:12:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-06-02 22:10:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -3768,7 +3966,7 @@
 		<td>Football</td>
 		<td>2012-06-02 12:09:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-24 03:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3786,7 +3984,7 @@
 		<td>Football</td>
 		<td>2012-05-22 22:31:12</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-24 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3804,7 +4002,7 @@
 		<td>Football</td>
 		<td>2012-05-23 10:22:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-24 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3822,7 +4020,7 @@
 		<td>Football</td>
 		<td>2012-05-23 10:20:07</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-24 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3840,7 +4038,7 @@
 		<td>Football</td>
 		<td>2012-05-22 22:31:29</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-24 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3858,7 +4056,7 @@
 		<td>Football</td>
 		<td>2012-05-22 22:31:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-20 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3876,7 +4074,7 @@
 		<td>Football</td>
 		<td>2012-05-18 21:18:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-19 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3894,7 +4092,7 @@
 		<td>Football</td>
 		<td>2012-05-18 21:20:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-17 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3912,7 +4110,7 @@
 		<td>Football</td>
 		<td>2012-05-16 11:52:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-17 00:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -3930,7 +4128,7 @@
 		<td>Football</td>
 		<td>2012-05-16 11:54:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-13 02:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -3948,7 +4146,7 @@
 		<td>Football</td>
 		<td>2012-05-11 11:24:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-13 01:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -3966,7 +4164,7 @@
 		<td>Football</td>
 		<td>2012-05-11 11:24:15</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-07 00:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -3984,7 +4182,7 @@
 		<td>Football</td>
 		<td>2012-05-06 10:23:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-06 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4002,7 +4200,7 @@
 		<td>Football</td>
 		<td>2012-05-05 10:17:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-06 22:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4020,7 +4218,7 @@
 		<td>Football</td>
 		<td>2012-05-06 10:25:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-05-06 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4038,7 +4236,7 @@
 		<td>Football</td>
 		<td>2012-05-06 10:19:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-05-02 02:15:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4056,7 +4254,7 @@
 		<td>Football</td>
 		<td>2012-05-01 09:40:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-29 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4074,7 +4272,7 @@
 		<td>Football</td>
 		<td>2012-04-29 11:01:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-29 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4092,7 +4290,7 @@
 		<td>Football</td>
 		<td>2012-04-28 11:35:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-22 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4110,7 +4308,7 @@
 		<td>Football</td>
 		<td>2012-04-22 10:01:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-22 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4128,7 +4326,7 @@
 		<td>Football</td>
 		<td>2012-04-21 10:47:12</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-22 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4146,7 +4344,7 @@
 		<td>Football</td>
 		<td>2012-04-22 10:06:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-21 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4164,7 +4362,7 @@
 		<td>Football</td>
 		<td>2012-04-20 23:00:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-21 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4182,7 +4380,7 @@
 		<td>Football</td>
 		<td>2012-04-20 22:34:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-14 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4200,7 +4398,7 @@
 		<td>Football</td>
 		<td>2012-04-13 10:15:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-08 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4218,7 +4416,7 @@
 		<td>Football</td>
 		<td>2012-04-07 10:03:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-08 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4236,7 +4434,7 @@
 		<td>Football</td>
 		<td>2012-04-08 08:52:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-04-05 00:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4254,7 +4452,7 @@
 		<td>Football</td>
 		<td>2012-04-03 08:48:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-04-04 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4272,7 +4470,7 @@
 		<td>Football</td>
 		<td>2012-04-04 10:11:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-29 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4290,7 +4488,7 @@
 		<td>Football</td>
 		<td>2012-03-28 21:35:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-29 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4308,7 +4506,7 @@
 		<td>Football</td>
 		<td>2012-03-28 21:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-29 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4326,7 +4524,7 @@
 		<td>Football</td>
 		<td>2012-03-28 21:09:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-29 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4344,7 +4542,7 @@
 		<td>Football</td>
 		<td>2012-03-28 09:11:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-25 04:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4362,7 +4560,7 @@
 		<td>Football</td>
 		<td>2012-03-24 09:10:06</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-25 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4380,7 +4578,7 @@
 		<td>Football</td>
 		<td>2012-03-24 09:08:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-24 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4398,7 +4596,7 @@
 		<td>Football</td>
 		<td>2012-03-23 09:07:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-24 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4416,7 +4614,7 @@
 		<td>Football</td>
 		<td>2012-03-23 08:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-22 23:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4434,7 +4632,7 @@
 		<td>Football</td>
 		<td>2012-03-22 09:03:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-21 00:15:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4452,7 +4650,7 @@
 		<td>Football</td>
 		<td>2012-03-19 20:44:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-18 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4470,7 +4668,7 @@
 		<td>Football</td>
 		<td>2012-03-17 09:55:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-18 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4488,7 +4686,7 @@
 		<td>Football</td>
 		<td>2012-03-18 08:26:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-18 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4506,7 +4704,7 @@
 		<td>Football</td>
 		<td>2012-03-18 08:23:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-18 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4524,7 +4722,7 @@
 		<td>Football</td>
 		<td>2012-03-17 09:57:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-16 02:00:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4542,7 +4740,7 @@
 		<td>Football</td>
 		<td>2012-03-15 19:50:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-16 02:00:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4560,7 +4758,7 @@
 		<td>Football</td>
 		<td>2012-03-15 19:46:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-13 01:35:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4578,7 +4776,7 @@
 		<td>Football</td>
 		<td>2012-03-12 08:10:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-11 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4596,7 +4794,7 @@
 		<td>Football</td>
 		<td>2012-03-11 07:46:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-11 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4614,7 +4812,7 @@
 		<td>Football</td>
 		<td>2012-03-10 08:46:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-10 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4632,7 +4830,7 @@
 		<td>Football</td>
 		<td>2012-03-09 09:23:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-08 23:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4650,7 +4848,7 @@
 		<td>Football</td>
 		<td>2012-03-08 08:12:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-07 23:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4668,7 +4866,7 @@
 		<td>Football</td>
 		<td>2012-03-07 11:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-04 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4686,7 +4884,7 @@
 		<td>Football</td>
 		<td>2012-03-04 09:23:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-03-04 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4704,7 +4902,7 @@
 		<td>Football</td>
 		<td>2012-03-04 09:28:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-03-04 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4722,7 +4920,7 @@
 		<td>Football</td>
 		<td>2012-03-03 08:24:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-26 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4740,7 +4938,7 @@
 		<td>Football</td>
 		<td>2012-02-25 23:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-26 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4758,7 +4956,7 @@
 		<td>Football</td>
 		<td>2012-02-25 23:11:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-25 20:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4776,7 +4974,7 @@
 		<td>Football</td>
 		<td>2012-02-25 07:32:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-23 02:00:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4794,7 +4992,7 @@
 		<td>Football</td>
 		<td>2012-02-22 19:45:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-22 01:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4812,7 +5010,7 @@
 		<td>Football</td>
 		<td>2012-02-21 20:31:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-19 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4830,7 +5028,7 @@
 		<td>Football</td>
 		<td>2012-02-19 08:01:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-19 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4848,7 +5046,7 @@
 		<td>Football</td>
 		<td>2012-02-19 08:29:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-15 03:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4866,7 +5064,7 @@
 		<td>Football</td>
 		<td>2012-02-14 09:28:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-14 23:00:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -4884,7 +5082,7 @@
 		<td>Football</td>
 		<td>2012-02-14 20:20:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-12 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4902,7 +5100,7 @@
 		<td>Football</td>
 		<td>2012-02-12 06:53:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-12 17:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4920,7 +5118,7 @@
 		<td>Football</td>
 		<td>2012-02-12 01:18:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-12 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division, Clausura</td>
@@ -4938,7 +5136,7 @@
 		<td>Football</td>
 		<td>2012-02-11 09:14:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-11 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4956,7 +5154,7 @@
 		<td>Football</td>
 		<td>2012-02-10 08:21:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-05 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4974,7 +5172,7 @@
 		<td>Football</td>
 		<td>2012-02-05 18:49:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-05 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -4992,7 +5190,7 @@
 		<td>Football</td>
 		<td>2012-02-04 09:54:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-05 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -5010,7 +5208,7 @@
 		<td>Football</td>
 		<td>2012-02-04 09:52:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-04 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Primera Etapa</td>
@@ -5028,7 +5226,7 @@
 		<td>Football</td>
 		<td>2012-02-03 09:48:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-02-01 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -5046,7 +5244,7 @@
 		<td>Football</td>
 		<td>2012-01-30 19:42:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-02-01 00:00:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -5064,7 +5262,7 @@
 		<td>Football</td>
 		<td>2012-01-30 19:16:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-01-30 02:10:00</td>
 	<td>Argentina</td>
 	<td>Copa Torneo de Verano</td>
@@ -5082,7 +5280,7 @@
 		<td>Football</td>
 		<td>2012-01-29 20:26:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2012-01-30 02:10:00</td>
 	<td>Argentina</td>
 	<td>Copa Torneo de Verano</td>
@@ -5100,7 +5298,7 @@
 		<td>Football</td>
 		<td>2012-01-29 20:21:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2012-01-25 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -5118,7 +5316,7 @@
 		<td>Football</td>
 		<td>2012-01-24 07:41:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-20 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Playoffs</td>
@@ -5136,7 +5334,7 @@
 		<td>Football</td>
 		<td>2011-12-19 07:31:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-17 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Playoffs</td>
@@ -5154,7 +5352,7 @@
 		<td>Football</td>
 		<td>2011-12-17 07:15:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-11 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A, Playoffs</td>
@@ -5172,7 +5370,7 @@
 		<td>Football</td>
 		<td>2011-12-10 08:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-09 01:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5190,7 +5388,7 @@
 		<td>Football</td>
 		<td>2011-12-08 19:01:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-08 23:05:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5208,7 +5406,7 @@
 		<td>Football</td>
 		<td>2011-12-08 09:28:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-04 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5226,7 +5424,7 @@
 		<td>Football</td>
 		<td>2011-12-04 20:59:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-04 22:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5244,7 +5442,7 @@
 		<td>Football</td>
 		<td>2011-12-04 20:22:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-04 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5262,7 +5460,7 @@
 		<td>Football</td>
 		<td>2011-12-04 11:10:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-04 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5280,7 +5478,7 @@
 		<td>Football</td>
 		<td>2011-12-04 11:01:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-04 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5298,7 +5496,7 @@
 		<td>Football</td>
 		<td>2011-12-04 10:47:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-02 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5316,7 +5514,7 @@
 		<td>Football</td>
 		<td>2011-12-01 17:08:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-01 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5334,7 +5532,7 @@
 		<td>Football</td>
 		<td>2011-11-30 19:52:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-12-01 00:50:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5352,7 +5550,7 @@
 		<td>Football</td>
 		<td>2011-11-30 20:28:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-12-01 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5370,7 +5568,7 @@
 		<td>Football</td>
 		<td>2011-11-30 19:25:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-27 22:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5388,7 +5586,7 @@
 		<td>Football</td>
 		<td>2011-11-27 10:12:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-27 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5406,7 +5604,7 @@
 		<td>Football</td>
 		<td>2011-11-27 10:40:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-27 17:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5424,7 +5622,7 @@
 		<td>Football</td>
 		<td>2011-11-27 10:10:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-24 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5442,7 +5640,7 @@
 		<td>Football</td>
 		<td>2011-11-23 08:43:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-22 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5460,7 +5658,7 @@
 		<td>Football</td>
 		<td>2011-11-22 07:42:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-20 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5478,7 +5676,7 @@
 		<td>Football</td>
 		<td>2011-11-20 09:16:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-19 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5496,7 +5694,7 @@
 		<td>Football</td>
 		<td>2011-11-19 09:41:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-19 19:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5514,7 +5712,7 @@
 		<td>Football</td>
 		<td>2011-11-19 09:37:14</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-17 23:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5532,7 +5730,7 @@
 		<td>Football</td>
 		<td>2011-11-17 20:04:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-16 02:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5550,7 +5748,7 @@
 		<td>Football</td>
 		<td>2011-11-15 07:15:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-16 02:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5568,7 +5766,7 @@
 		<td>Football</td>
 		<td>2011-11-15 07:13:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-16 00:30:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5586,7 +5784,7 @@
 		<td>Football</td>
 		<td>2011-11-14 22:06:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-15 22:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5604,7 +5802,7 @@
 		<td>Football</td>
 		<td>2011-11-15 19:45:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-12 01:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5622,7 +5820,7 @@
 		<td>Football</td>
 		<td>2011-11-11 22:03:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-12 01:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5640,7 +5838,7 @@
 		<td>Football</td>
 		<td>2011-11-11 08:56:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-11 23:00:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5658,7 +5856,7 @@
 		<td>Football</td>
 		<td>2011-11-11 09:38:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-08 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5676,7 +5874,7 @@
 		<td>Football</td>
 		<td>2011-11-07 09:30:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-11-05 21:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5694,7 +5892,7 @@
 		<td>Football</td>
 		<td>2011-11-05 10:31:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-11-03 23:30:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5712,7 +5910,7 @@
 		<td>Football</td>
 		<td>2011-11-03 07:56:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-30 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5730,7 +5928,7 @@
 		<td>Football</td>
 		<td>2011-10-30 04:48:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-27 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5748,7 +5946,7 @@
 		<td>Football</td>
 		<td>2011-10-26 11:35:10</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-27 00:05:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5766,7 +5964,7 @@
 		<td>Football</td>
 		<td>2011-10-26 10:55:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-26 22:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -5784,7 +5982,7 @@
 		<td>Football</td>
 		<td>2011-10-26 11:13:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-26 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5802,7 +6000,7 @@
 		<td>Football</td>
 		<td>2011-10-26 10:37:07</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-23 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5820,7 +6018,7 @@
 		<td>Football</td>
 		<td>2011-10-23 10:41:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-21 00:15:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5838,7 +6036,7 @@
 		<td>Football</td>
 		<td>2011-10-19 09:58:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-20 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5856,7 +6054,7 @@
 		<td>Football</td>
 		<td>2011-10-19 09:35:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-20 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5874,7 +6072,7 @@
 		<td>Football</td>
 		<td>2011-10-19 08:58:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-16 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5892,7 +6090,7 @@
 		<td>Football</td>
 		<td>2011-10-16 17:05:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-16 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5910,7 +6108,7 @@
 		<td>Football</td>
 		<td>2011-10-16 11:36:38</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-16 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -5928,7 +6126,7 @@
 		<td>Football</td>
 		<td>2011-10-15 14:24:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-12 00:45:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5946,7 +6144,7 @@
 		<td>Football</td>
 		<td>2011-10-11 19:14:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-07 23:05:00</td>
 	<td>International</td>
 	<td>World Cup Qualification</td>
@@ -5964,7 +6162,7 @@
 		<td>Football</td>
 		<td>2011-10-07 12:15:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-06 02:50:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -5982,7 +6180,7 @@
 		<td>Football</td>
 		<td>2011-10-05 08:42:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-02 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6000,7 +6198,7 @@
 		<td>Football</td>
 		<td>2011-10-02 08:11:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-10-01 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6018,7 +6216,7 @@
 		<td>Football</td>
 		<td>2011-10-01 09:34:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-10-01 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6036,7 +6234,7 @@
 		<td>Football</td>
 		<td>2011-10-01 09:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-27 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6054,7 +6252,7 @@
 		<td>Football</td>
 		<td>2011-09-26 21:23:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-25 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6072,7 +6270,7 @@
 		<td>Football</td>
 		<td>2011-09-25 10:31:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-25 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6090,7 +6288,7 @@
 		<td>Football</td>
 		<td>2011-09-25 11:38:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-25 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6108,7 +6306,7 @@
 		<td>Football</td>
 		<td>2011-09-25 09:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-25 19:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6126,7 +6324,7 @@
 		<td>Football</td>
 		<td>2011-09-25 09:15:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-22 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6144,7 +6342,7 @@
 		<td>Football</td>
 		<td>2011-09-21 12:23:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-18 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6162,7 +6360,7 @@
 		<td>Football</td>
 		<td>2011-09-18 11:03:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-18 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6180,7 +6378,7 @@
 		<td>Football</td>
 		<td>2011-09-18 12:09:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-18 18:45:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6198,7 +6396,7 @@
 		<td>Football</td>
 		<td>2011-09-18 11:46:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-18 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6216,7 +6414,7 @@
 		<td>Football</td>
 		<td>2011-09-17 10:37:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-18 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6234,7 +6432,7 @@
 		<td>Football</td>
 		<td>2011-09-17 10:35:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-17 22:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6252,7 +6450,7 @@
 		<td>Football</td>
 		<td>2011-09-17 11:05:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-11 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6270,7 +6468,7 @@
 		<td>Football</td>
 		<td>2011-09-11 20:03:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-11 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6288,7 +6486,7 @@
 		<td>Football</td>
 		<td>2011-09-10 23:19:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-10 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6306,7 +6504,7 @@
 		<td>Football</td>
 		<td>2011-09-09 22:26:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-03 03:15:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -6324,7 +6522,7 @@
 		<td>Football</td>
 		<td>2011-09-02 08:14:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-09-03 02:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6342,7 +6540,7 @@
 		<td>Football</td>
 		<td>2011-09-02 09:04:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-09-02 23:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -6360,7 +6558,7 @@
 		<td>Football</td>
 		<td>2011-09-02 07:20:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-28 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6378,7 +6576,7 @@
 		<td>Football</td>
 		<td>2011-08-28 15:31:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-28 02:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6396,7 +6594,7 @@
 		<td>Football</td>
 		<td>2011-08-27 22:41:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-25 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6414,7 +6612,7 @@
 		<td>Football</td>
 		<td>2011-08-24 21:46:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-25 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6432,7 +6630,7 @@
 		<td>Football</td>
 		<td>2011-08-24 21:42:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-25 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6450,7 +6648,7 @@
 		<td>Football</td>
 		<td>2011-08-24 11:31:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-24 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6468,7 +6666,7 @@
 		<td>Football</td>
 		<td>2011-08-24 11:45:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-24 03:45:00</td>
 	<td>International Clubs</td>
 	<td>Copa Sudamericana</td>
@@ -6486,7 +6684,7 @@
 		<td>Football</td>
 		<td>2011-08-23 23:06:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-20 23:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6504,7 +6702,7 @@
 		<td>Football</td>
 		<td>2011-08-20 11:10:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-20 22:05:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6522,7 +6720,7 @@
 		<td>Football</td>
 		<td>2011-08-20 11:38:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-14 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6540,7 +6738,7 @@
 		<td>Football</td>
 		<td>2011-08-14 08:03:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-14 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6558,7 +6756,7 @@
 		<td>Football</td>
 		<td>2011-08-13 20:54:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-11 00:00:00</td>
 	<td>International Youth</td>
 	<td>U20 World Cup</td>
@@ -6576,7 +6774,7 @@
 		<td>Football</td>
 		<td>2011-08-10 09:40:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-07 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6594,7 +6792,7 @@
 		<td>Football</td>
 		<td>2011-08-07 11:03:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-07 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6612,7 +6810,7 @@
 		<td>Football</td>
 		<td>2011-08-07 11:01:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-07 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6630,7 +6828,7 @@
 		<td>Football</td>
 		<td>2011-08-07 11:14:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-08-07 00:00:00</td>
 	<td>International Youth</td>
 	<td>U20 World Cup</td>
@@ -6648,7 +6846,7 @@
 		<td>Football</td>
 		<td>2011-08-06 08:25:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-08-05 03:00:00</td>
 	<td>International Youth</td>
 	<td>U20 World Cup</td>
@@ -6666,7 +6864,7 @@
 		<td>Football</td>
 		<td>2011-08-04 21:55:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-07-28 02:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6684,7 +6882,7 @@
 		<td>Football</td>
 		<td>2011-07-27 12:47:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-07-28 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6702,7 +6900,7 @@
 		<td>Football</td>
 		<td>2011-07-27 13:00:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-07-23 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6720,7 +6918,7 @@
 		<td>Football</td>
 		<td>2011-07-23 12:37:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-07-23 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6738,7 +6936,7 @@
 		<td>Football</td>
 		<td>2011-07-23 12:23:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-07-17 00:15:00</td>
 	<td>International</td>
 	<td>Copa America, Final Round</td>
@@ -6756,7 +6954,7 @@
 		<td>Football</td>
 		<td>2011-07-16 22:06:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-07-17 00:15:00</td>
 	<td>International</td>
 	<td>Copa America, Final Round</td>
@@ -6774,7 +6972,7 @@
 		<td>Football</td>
 		<td>2011-07-16 22:03:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-07-09 23:30:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -6792,7 +6990,7 @@
 		<td>Football</td>
 		<td>2011-07-09 10:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-07-09 23:30:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -6810,7 +7008,7 @@
 		<td>Football</td>
 		<td>2011-07-09 10:12:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-07-09 21:00:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -6828,7 +7026,7 @@
 		<td>Football</td>
 		<td>2011-07-09 09:54:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-07-09 00:15:00</td>
 	<td>International</td>
 	<td>Copa America</td>
@@ -6846,7 +7044,7 @@
 		<td>Football</td>
 		<td>2011-07-08 09:53:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-06-25 23:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -6864,7 +7062,7 @@
 		<td>Football</td>
 		<td>2011-06-25 17:26:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-06-22 19:30:00</td>
 	<td>Argentina</td>
 	<td>Primera Division Relegation Promotion Playoffs</td>
@@ -6882,7 +7080,7 @@
 		<td>Football</td>
 		<td>2011-06-22 08:06:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-06-19 19:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6900,7 +7098,7 @@
 		<td>Football</td>
 		<td>2011-06-19 05:05:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-06-18 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -6918,7 +7116,7 @@
 		<td>Football</td>
 		<td>2011-06-18 08:33:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-06-18 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6936,7 +7134,7 @@
 		<td>Football</td>
 		<td>2011-06-18 10:36:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-06-18 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6954,7 +7152,7 @@
 		<td>Football</td>
 		<td>2011-06-18 10:28:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-06-18 20:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -6972,7 +7170,7 @@
 		<td>Football</td>
 		<td>2011-06-18 09:51:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-06-16 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -6990,7 +7188,7 @@
 		<td>Football</td>
 		<td>2011-06-15 10:10:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-06-16 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7008,7 +7206,7 @@
 		<td>Football</td>
 		<td>2011-06-15 08:59:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-28 23:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7026,7 +7224,7 @@
 		<td>Football</td>
 		<td>2011-05-28 11:27:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-28 22:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -7044,7 +7242,7 @@
 		<td>Football</td>
 		<td>2011-05-28 10:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-28 22:00:00</td>
 	<td>International</td>
 	<td>International Friendly Games</td>
@@ -7062,7 +7260,7 @@
 		<td>Football</td>
 		<td>2011-05-28 10:08:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-26 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7080,7 +7278,7 @@
 		<td>Football</td>
 		<td>2011-05-26 00:47:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-23 01:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7098,7 +7296,7 @@
 		<td>Football</td>
 		<td>2011-05-22 21:45:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-19 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7116,7 +7314,7 @@
 		<td>Football</td>
 		<td>2011-05-18 21:53:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-15 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7134,7 +7332,7 @@
 		<td>Football</td>
 		<td>2011-05-15 11:09:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-14 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7152,7 +7350,7 @@
 		<td>Football</td>
 		<td>2011-05-14 10:29:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-14 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7170,7 +7368,7 @@
 		<td>Football</td>
 		<td>2011-05-14 10:06:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-05 19:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7188,7 +7386,7 @@
 		<td>Football</td>
 		<td>2011-05-05 09:10:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-05 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7206,7 +7404,7 @@
 		<td>Football</td>
 		<td>2011-05-05 00:17:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-01 22:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7224,7 +7422,7 @@
 		<td>Football</td>
 		<td>2011-05-01 11:39:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-01 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7242,7 +7440,7 @@
 		<td>Football</td>
 		<td>2011-05-01 10:48:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-01 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7260,7 +7458,7 @@
 		<td>Football</td>
 		<td>2011-05-01 10:30:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-05-01 17:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7278,7 +7476,7 @@
 		<td>Football</td>
 		<td>2011-05-01 09:58:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-05-01 01:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7296,7 +7494,7 @@
 		<td>Football</td>
 		<td>2011-04-30 09:39:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-27 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7314,7 +7512,7 @@
 		<td>Football</td>
 		<td>2011-04-26 09:36:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-24 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7332,7 +7530,7 @@
 		<td>Football</td>
 		<td>2011-04-24 11:14:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-24 18:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7350,7 +7548,7 @@
 		<td>Football</td>
 		<td>2011-04-24 10:30:07</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-17 19:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7368,7 +7566,7 @@
 		<td>Football</td>
 		<td>2011-04-16 02:11:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-15 01:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7386,7 +7584,7 @@
 		<td>Football</td>
 		<td>2011-04-13 23:17:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-14 02:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7404,7 +7602,7 @@
 		<td>Football</td>
 		<td>2011-04-13 22:22:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-10 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7422,7 +7620,7 @@
 		<td>Football</td>
 		<td>2011-04-09 22:06:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-10 02:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7440,7 +7638,7 @@
 		<td>Football</td>
 		<td>2011-04-09 22:01:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-10 02:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7458,7 +7656,7 @@
 		<td>Football</td>
 		<td>2011-04-09 20:51:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-07 02:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7476,7 +7674,7 @@
 		<td>Football</td>
 		<td>2011-04-06 23:21:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-04-07 00:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7494,7 +7692,7 @@
 		<td>Football</td>
 		<td>2011-04-06 22:18:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-04-03 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7512,7 +7710,7 @@
 		<td>Football</td>
 		<td>2011-04-03 11:01:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-24 02:40:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7530,7 +7728,7 @@
 		<td>Football</td>
 		<td>2011-03-23 20:07:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-21 00:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7548,7 +7746,7 @@
 		<td>Football</td>
 		<td>2011-03-20 08:28:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-16 03:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7566,7 +7764,7 @@
 		<td>Football</td>
 		<td>2011-03-15 23:26:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-13 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7584,7 +7782,7 @@
 		<td>Football</td>
 		<td>2011-03-13 18:22:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-13 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7602,7 +7800,7 @@
 		<td>Football</td>
 		<td>2011-03-13 07:45:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-13 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7620,7 +7818,7 @@
 		<td>Football</td>
 		<td>2011-03-13 07:05:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-12 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7638,7 +7836,7 @@
 		<td>Football</td>
 		<td>2011-03-11 21:55:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-12 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7656,7 +7854,7 @@
 		<td>Football</td>
 		<td>2011-03-11 20:30:06</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-10 23:15:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7674,7 +7872,7 @@
 		<td>Football</td>
 		<td>2011-03-09 22:01:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-10 02:15:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7692,7 +7890,7 @@
 		<td>Football</td>
 		<td>2011-03-09 21:10:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-09 23:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7710,7 +7908,7 @@
 		<td>Football</td>
 		<td>2011-03-09 20:48:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-06 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7728,7 +7926,7 @@
 		<td>Football</td>
 		<td>2011-03-05 09:55:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-05 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7746,7 +7944,7 @@
 		<td>Football</td>
 		<td>2011-03-05 10:11:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-05 20:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7764,7 +7962,7 @@
 		<td>Football</td>
 		<td>2011-03-05 10:05:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-04 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7782,7 +7980,7 @@
 		<td>Football</td>
 		<td>2011-03-03 19:45:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-04 02:30:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7800,7 +7998,7 @@
 		<td>Football</td>
 		<td>2011-03-03 19:23:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-03-03 01:50:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -7818,7 +8016,7 @@
 		<td>Football</td>
 		<td>2011-03-02 20:52:09</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-03-03 01:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7836,7 +8034,7 @@
 		<td>Football</td>
 		<td>2011-03-02 19:49:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-02-27 19:10:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7854,7 +8052,7 @@
 		<td>Football</td>
 		<td>2011-02-27 10:24:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-02-27 17:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7872,7 +8070,7 @@
 		<td>Football</td>
 		<td>2011-02-27 08:17:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-02-27 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7890,7 +8088,7 @@
 		<td>Football</td>
 		<td>2011-02-26 09:16:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-02-26 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7908,7 +8106,7 @@
 		<td>Football</td>
 		<td>2011-02-26 09:53:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-02-26 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7926,7 +8124,7 @@
 		<td>Football</td>
 		<td>2011-02-26 08:08:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-02-12 01:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -7944,7 +8142,7 @@
 		<td>Football</td>
 		<td>2011-02-11 08:26:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-02-06 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7962,7 +8160,7 @@
 		<td>Football</td>
 		<td>2011-02-05 08:36:05</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-02-05 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7980,7 +8178,7 @@
 		<td>Football</td>
 		<td>2011-02-05 08:34:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-02-05 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -7998,7 +8196,7 @@
 		<td>Football</td>
 		<td>2011-02-05 08:25:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-02-02 01:45:00</td>
 	<td>Copa Libertadores</td>
 	<td>Copa Libertadores</td>
@@ -8016,7 +8214,7 @@
 		<td>Football</td>
 		<td>2011-02-01 20:20:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-01-30 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8034,7 +8232,7 @@
 		<td>Football</td>
 		<td>2011-01-29 09:22:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-01-29 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8052,7 +8250,7 @@
 		<td>Football</td>
 		<td>2011-01-29 09:20:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2011-01-29 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8070,7 +8268,7 @@
 		<td>Football</td>
 		<td>2011-01-29 09:19:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2011-01-29 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8088,7 +8286,7 @@
 		<td>Football</td>
 		<td>2011-01-29 09:15:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-12-06 01:15:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8106,7 +8304,7 @@
 		<td>Football</td>
 		<td>2010-12-05 08:39:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-12-05 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8124,7 +8322,7 @@
 		<td>Football</td>
 		<td>2010-12-05 08:02:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-12-05 23:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8142,7 +8340,7 @@
 		<td>Football</td>
 		<td>2010-12-05 07:59:02</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-12-05 17:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8160,7 +8358,7 @@
 		<td>Football</td>
 		<td>2010-12-05 08:05:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-27 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8178,7 +8376,7 @@
 		<td>Football</td>
 		<td>2010-11-27 10:18:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-27 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8196,7 +8394,7 @@
 		<td>Football</td>
 		<td>2010-11-27 10:15:05</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-20 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8214,7 +8412,7 @@
 		<td>Football</td>
 		<td>2010-11-20 08:14:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-14 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8232,7 +8430,7 @@
 		<td>Football</td>
 		<td>2010-11-14 08:59:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-14 23:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8250,7 +8448,7 @@
 		<td>Football</td>
 		<td>2010-11-14 08:56:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-14 21:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8268,7 +8466,7 @@
 		<td>Football</td>
 		<td>2010-11-14 09:06:04</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-14 00:10:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8286,7 +8484,7 @@
 		<td>Football</td>
 		<td>2010-11-13 10:43:52</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-13 22:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8304,7 +8502,7 @@
 		<td>Football</td>
 		<td>2010-11-13 10:42:22</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-13 21:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8322,7 +8520,7 @@
 		<td>Football</td>
 		<td>2010-11-13 10:42:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-07 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8340,7 +8538,7 @@
 		<td>Football</td>
 		<td>2010-11-07 09:03:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-07 18:00:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8358,7 +8556,7 @@
 		<td>Football</td>
 		<td>2010-11-07 08:58:03</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-06 20:20:00</td>
 	<td>Argentina</td>
 	<td>Primera Division</td>
@@ -8376,7 +8574,7 @@
 		<td>Football</td>
 		<td>2010-11-06 09:03:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-11-06 18:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8394,7 +8592,7 @@
 		<td>Football</td>
 		<td>2010-11-06 08:36:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-11-06 00:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8412,7 +8610,7 @@
 		<td>Football</td>
 		<td>2010-11-05 21:54:03</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-10-31 01:00:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8430,7 +8628,7 @@
 		<td>Football</td>
 		<td>2010-10-30 10:52:04</td>
 	</tr>
-<tr style="background:#DEDEDE">
+<tr style="background:#FFFFFF">
 	<td>2010-10-31 00:30:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>
@@ -8448,7 +8646,7 @@
 		<td>Football</td>
 		<td>2010-10-30 12:31:02</td>
 	</tr>
-<tr style="background:#FFFFFF">
+<tr style="background:#DEDEDE">
 	<td>2010-10-30 22:25:00</td>
 	<td>Ecuador</td>
 	<td>Serie A</td>

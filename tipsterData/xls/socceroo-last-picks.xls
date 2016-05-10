@@ -1,0 +1,7049 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-05-08 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs EINTRACHT BRAUNSCHWEIG</td>
+	<td>2-3 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>104.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-04 20:03:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-08 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs FSV FRANKFURT</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FSV FRANKFURT</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-02 16:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-08 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs MSV DUISBURG</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MSV DUISBURG +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-02 16:43:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-07 21:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>OLYMPIQUE LYON vs AS MONACO</td>
+	<td>6-1 (4-1)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE LYON</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-03 13:55:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-07 18:00:00</td>
+	<td>Spain</td>
+	<td>Segunda B Group III</td>
+	<td>CF VILLANOVENSE vs MARBELLA FC</td>
+	<td>4-2 </td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-07 11:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1899 HOFFENHEIM</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-04 20:04:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-07 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC COLOGNE vs WERDER BREMEN</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-04 20:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-07 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>NORWICH CITY vs MANCHESTER UNITED</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MANCHESTER UNITED</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-02 23:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-07 13:30:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs FC MAGDEBURG</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC MAGDEBURG</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-06 10:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-05 01:15:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>CERRO PORTENO vs CLUB LIBERTAD ASUNCION</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CLUB LIBERTAD ASUNCION -1.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-04 15:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-04 17:00:00</td>
+	<td>International Clubs</td>
+	<td>AFC Champions League, Group A</td>
+	<td>FOOLAD MOBARAKE SEPAHAN vs AL ITTIHAD</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AL ITTIHAD</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-03 19:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-03 12:00:00</td>
+	<td>International Clubs</td>
+	<td>AFC Champions League, Group G</td>
+	<td>MELBOURNE VICTORY vs GAMBA OSAKA</td>
+	<td>2-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE VICTORY -1.00</td>
+	<td>2.11</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-02 11:25:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-01 22:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>BOLIVAR LA PAZ vs THE STRONGEST</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>THE STRONGEST +0</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-01 11:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-01 18:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>SOGNDAL IL vs ROSENBORG BK</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ROSENBORG BK -1.00</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-01 11:51:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-01 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs SAMPDORIA GENOA</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>US PALERMO</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-05-01 11:53:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs MONCHENGLADBACH</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +3.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-29 10:22:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-30 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs FC INGOLSTADT</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>1899 HOFFENHEIM</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-28 15:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-30 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFL OSNABRUCK vs WERDER BREMEN II</td>
+	<td>3-1 (3-0)</td>
+	<td>Match Odds</td>
+	<td>VFL OSNABRUCK</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>94.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-28 15:47:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-30 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>BV CLOPPENBURG vs GOSLARER SC</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>GOSLARER SC +0</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-28 15:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-29 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>FSV LUCKENWALDE vs FSV OPTIK RATHENOW</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FSV LUCKENWALDE</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-29 14:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-29 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs FORTUNA DUSSELDORF</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FORTUNA DUSSELDORF</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-26 14:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-26 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>TSV 1860 MUNICH II vs SPVGG BAYREUTH</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG BAYREUTH +0.50</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-26 14:30:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-25 01:30:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>DEPORTIVO CAPIATA vs CLUB LIBERTAD ASUNCION</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CLUB LIBERTAD ASUNCION</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-24 21:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-24 18:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>ODDS BK vs LILLESTROM SK</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ODDS BK</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-20 10:34:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-22 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs ENERGIE COTTBUS</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ENERGIE COTTBUS +0</td>
+	<td>2.74</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>139.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-22 10:54:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-22 19:00:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>FALKENBERGS FF vs IFK NORRKOPING</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>IFK NORRKOPING</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-19 09:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-22 11:45:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs MELBOURNE CITY FC</td>
+	<td>4-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ADELAIDE UNITED FC</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-21 15:18:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-21 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>HERTHA BSC BERLIN II vs FC SCHONBERG 95</td>
+	<td>3-0 (2-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-21 15:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-20 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>GENOA FC vs INTER MILAN</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>INTER MILAN</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-20 10:16:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-20 20:00:00</td>
+	<td>International Clubs</td>
+	<td>CAF Champions League, Qualification</td>
+	<td>ES SAHEL vs ENYIMBA</td>
+	<td>6-4 </td>
+	<td>European handicap</td>
+	<td>ES SAHEL -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-20 09:54:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-20 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC AARAU vs NEUCHATEL XAMAX FC</td>
+	<td>2-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC AARAU</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-20 11:14:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-19 20:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>BAYERN MUNICH vs WERDER BREMEN</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-18 09:15:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-19 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>BERLINER AK 07 vs CARL ZEISS JENA</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BERLINER AK 07 -1.00</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-19 09:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-18 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>EINTRACHT BRAUNSCHWEIG vs SC FREIBURG</td>
+	<td>2-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-18 12:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-18 19:00:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>IF ELFSBORG vs MALMO FF</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-18 12:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-17 15:00:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC BIEL-BIENNE vs FC AARAU</td>
+	<td>1-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC AARAU</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-14 13:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-16 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC WOHLEN vs FC WIL 1900</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC WIL 1900 -0.25</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-13 09:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-15 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>GERMANIA HALBERSTADT vs BERLINER AK 07</td>
+	<td>0-6 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BERLINER AK 07 -1.00</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>86.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-15 12:18:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-15 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SV WEHEN WIESBADEN vs ERZGEBIRGE AUE</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-13 15:56:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-15 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>RB LEIPZIG vs SV SANDHAUSEN</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RB LEIPZIG -1.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-13 16:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-15 02:45:00</td>
+	<td>Copa Libertadores</td>
+	<td>Copa Libertadores</td>
+	<td>CLUB NACIONAL DE FOOTBALL vs CA ROSARIO CENTRAL</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-14 13:40:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-13 18:30:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC LUGANO vs FC BASEL</td>
+	<td>1-4 (0-4)</td>
+	<td>Asian handicap</td>
+	<td>FC BASEL -1.00</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-11 15:35:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-13 18:15:00</td>
+	<td>Germany</td>
+	<td>Bayernliga North</td>
+	<td>BAYERN HOF vs VFB EICHSTATT</td>
+	<td>1-3 </td>
+	<td>Match Odds</td>
+	<td>BAYERN HOF</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-13 16:43:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-11 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs RB LEIPZIG</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>RB LEIPZIG</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-04-11 10:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-29 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>BV CLOPPENBURG vs HAMBURGER SV II</td>
+	<td>0-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HAMBURGER SV II</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-28 22:17:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-29 18:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>ESTONIA vs SERBIA</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SERBIA</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-28 16:12:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-28 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>EINTRACHT NORDERSTEDT vs SV DROCHTERSEN/ASSEL</td>
+	<td>3-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>EINTRACHT NORDERSTEDT</td>
+	<td>2.39</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>139.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-27 21:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-27 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>FC KAISERSLAUTERN II vs EINTRACHT TRIER</td>
+	<td>3-0 </td>
+	<td>Match Odds</td>
+	<td>EINTRACHT TRIER</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-26 21:24:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-27 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SC FREIBURG II vs SV SPIELBERG</td>
+	<td>5-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG II</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-26 21:22:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-26 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>BV CLOPPENBURG vs VFV HILDESHEIM</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFV HILDESHEIM +0</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-23 15:50:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-24 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ROT-WEISS ESSEN vs SC VERL</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ROT-WEISS ESSEN -0.25</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-24 08:20:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-24 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>RODINGHAUSEN vs RW OBERHAUSEN</td>
+	<td>1-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RW OBERHAUSEN +0</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-23 08:45:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-24 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>SSV JAHN REGENSBURG vs TSV 1860 MUNICH II</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SSV JAHN REGENSBURG</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-22 18:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-23 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG ELVERSBERG 07 vs HESSEN KASSEL</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SPVGG ELVERSBERG 07</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-22 14:30:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-23 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG NECKARELZ vs FC HOMBURG</td>
+	<td>2-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC HOMBURG +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-23 08:49:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-22 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>RW ERFURT vs 1 FC COLOGNE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>1 FC COLOGNE</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-22 15:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-20 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs BORUSSIA DORTMUND</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 08:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-20 14:00:00</td>
+	<td>Germany</td>
+	<td>Oberliga NOFV Sued</td>
+	<td>BSG WISMUT GERA vs FC EISENACH</td>
+	<td>4-0 </td>
+	<td>Match Odds</td>
+	<td>BSG WISMUT GERA</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-20 00:09:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-20 13:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>BERLINER AK 07 vs FC OBERLAUSITZ NEUGERSDORF</td>
+	<td>4-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>BERLINER AK 07</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-18 16:04:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-20 13:00:00</td>
+	<td>Ukraine</td>
+	<td>Premier League</td>
+	<td>OLIMPIK DONETSK vs VOLYN LUTSK</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OLIMPIK DONETSK</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-20 00:11:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-20 02:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>FC DALLAS vs MONTREAL IMPACT</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-20 00:18:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-19 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs HANNOVER 96</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT FRANKFURT -0.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-14 09:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-19 16:00:00</td>
+	<td>Denmark</td>
+	<td>SAS Ligaen</td>
+	<td>HOBRO IK vs ODENSE BK</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ODENSE BK</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-18 22:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-19 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG NECKARELZ vs EINTRACHT TRIER</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>EINTRACHT TRIER -1.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 16:58:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-19 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SV WALDHOF MANNHEIM</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 16:37:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-19 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG ELVERSBERG 07 +0</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 15:57:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-19 13:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>TSG NEUSTRELITZ vs FSV ZWICKAU</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FSV ZWICKAU</td>
+	<td>1.85</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 17:41:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-18 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs VFL OSNABRUCK</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL OSNABRUCK +0</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 17:21:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-18 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC PADERBORN vs MSV DUISBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SC PADERBORN</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-18 11:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-17 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>TOTTENHAM HOTSPUR vs BORUSSIA DORTMUND</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BORUSSIA DORTMUND</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 08:31:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-17 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>BAYER LEVERKUSEN vs VILLARREAL CF</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VILLARREAL CF +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-17 11:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-15 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MANCHESTER CITY vs FC DYNAMO KIEV</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-15 19:37:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-13 17:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs TOTTENHAM HOTSPUR</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>TOTTENHAM HOTSPUR -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-13 11:34:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-13 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs SC FREIBURG</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-07 22:05:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>MONCHENGLADBACH vs EINTRACHT FRANKFURT</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH -1.00</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>94.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-12 09:49:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs 1 FC COLOGNE</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>1 FC COLOGNE</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>110.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-07 16:40:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-12 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>HOLSTEIN KIEL vs ERZGEBIRGE AUE</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0</td>
+	<td>2.52</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 23:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-12 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>EINTRACHT TRIER vs FC HOMBURG</td>
+	<td>3-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>EINTRACHT TRIER</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 16:39:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-12 11:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>PERTH GLORY FC vs CENTRAL COAST MARINERS FC</td>
+	<td>4-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>PERTH GLORY FC -1.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 21:58:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-12 05:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>SANFRECCE HIROSHIMA vs SHONAN BELLMARE</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SANFRECCE HIROSHIMA -1.00</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 10:33:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-11 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ROT-WEISS ESSEN vs BORUSSIA M'GLADBACH II</td>
+	<td>3-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA M'GLADBACH II +0</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-11 10:19:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-11 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>TSG HOFFENHEIM II vs SPVGG NECKARELZ</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TSG HOFFENHEIM II -1.00</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 16:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-11 09:40:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>ADELAIDE UNITED FC vs MELBOURNE CITY FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-10 22:05:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-10 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>VILLARREAL CF vs BAYER LEVERKUSEN</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VILLARREAL CF +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-05 10:43:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-09 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>FC ST. PAULI II vs LUNEBURGER SK HANSA</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LUNEBURGER SK HANSA +0</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-09 18:28:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-09 16:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>VITORIA GUIMARAES B vs UD OLIVEIRENSE</td>
+	<td>4-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>VITORIA GUIMARAES B</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-09 12:43:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-09 15:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>BENFICA LISBON B vs SC COVILHA</td>
+	<td>2-2 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SC COVILHA -0.25</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-09 09:10:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-08 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>REAL MADRID vs AS ROMA</td>
+	<td>2-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-08 10:11:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-08 20:00:00</td>
+	<td>England</td>
+	<td>FA Cup</td>
+	<td>HULL CITY vs ARSENAL FC</td>
+	<td>0-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ARSENAL FC</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-08 10:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-07 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC CHIASSO vs FC WIL 1900</td>
+	<td>1-1 (0-0)</td>
+	<td>Draw no bet</td>
+	<td>FC WIL 1900</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-06 21:10:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-06 18:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KONYASPOR vs TRABZONSPOR</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>KONYASPOR +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-01 13:47:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-06 16:00:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>YOUNG BOYS BERN vs FC LUZERN</td>
+	<td>5-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>YOUNG BOYS BERN</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 20:40:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-06 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs CHEMNITZER FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CHEMNITZER FC +0</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 21:39:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-06 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG NECKARELZ vs SV WALDHOF MANNHEIM</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SV WALDHOF MANNHEIM -1.00</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 13:44:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-06 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs ARMINIA BIELEFELD</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VFL BOCHUM</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 20:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-05 14:00:00</td>
+	<td>Germany</td>
+	<td>Oberliga NOFV Nord</td>
+	<td>1. FC NEUBRANDENBURG 04 vs FC HERTHA 03 Z.</td>
+	<td>0-4 </td>
+	<td>European handicap</td>
+	<td>FC HERTHA 03 Z. -1.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-05 12:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-05 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>WACKER BURGHAUSEN vs BAYERN MUNICH II</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>WACKER BURGHAUSEN +0</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 19:54:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-04 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>FC KAISERSLAUTERN II vs SPVGG ELVERSBERG 07</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SPVGG ELVERSBERG 07</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 13:52:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-04 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs SV SANDHAUSEN</td>
+	<td>3-2 (2-1)</td>
+	<td>Match Odds</td>
+	<td>1860 MUNICH</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-03 20:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-02 21:00:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>LEVANTE UD vs REAL MADRID</td>
+	<td>1-3 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-02 14:09:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-02 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WEST HAM UNITED vs TOTTENHAM HOTSPUR</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>TOTTENHAM HOTSPUR</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-02 08:48:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-02 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>SC WIEDENBRUCK vs ALEMANNIA AACHEN</td>
+	<td>0-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ALEMANNIA AACHEN</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-29 22:21:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-02 18:30:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ENERGIE COTTBUS vs ERZGEBIRGE AUE</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-01 20:08:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-02 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>ARMINIA BIELEFELD vs SC FREIBURG</td>
+	<td>1-4 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>SC FREIBURG +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-29 22:52:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-01 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs VFL WOLFSBURG</td>
+	<td>0-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VFL WOLFSBURG</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>67.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-01 09:27:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-01 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>RODINGHAUSEN vs SF LOTTE</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SF LOTTE -0.25</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>69.60</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-01 10:04:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-01 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs 1 FC NUREMBERG</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>1 FC NUREMBERG</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-29 23:01:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-01 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FORTUNA DUSSELDORF vs VFL BOCHUM</td>
+	<td>1-3 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +0</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-29 22:56:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-03-01 13:00:00</td>
+	<td>International Clubs</td>
+	<td>AFC Champions League, Group E</td>
+	<td>JIANGSU GUOXIN-SAINTY FC vs JEONBUK HYUNDAI</td>
+	<td>3-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>JEONBUK HYUNDAI -0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-03-01 09:19:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-28 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BORUSSIA DORTMUND vs 1899 HOFFENHEIM</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>1899 HOFFENHEIM +2.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-26 17:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-28 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC AUGSBURG vs MONCHENGLADBACH</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH +0</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-22 15:47:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-28 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ALEMANNIA AACHEN vs BORUSSIA DORTMUND II</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ALEMANNIA AACHEN -0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-26 09:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-27 16:30:00</td>
+	<td>Israel</td>
+	<td>Premier League</td>
+	<td>MACCABI NETANYA vs MACCABI HAIFA</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>MACCABI HAIFA -1.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-27 09:16:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-27 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SV WEHEN WIESBADEN vs VFL OSNABRUCK</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VFL OSNABRUCK +0</td>
+	<td>2.16</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>116.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-27 10:32:20</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-27 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG ELVERSBERG 07 vs ASTORIA WALLDORF</td>
+	<td>2-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG ELVERSBERG 07 -1.00</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>108.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-26 16:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-27 14:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>ISCHIA ISOLAVERDE vs US LECCE</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>US LECCE</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-25 14:42:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-27 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs SYDNEY FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE VICTORY</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-25 13:50:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-26 20:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>FLORIDSDORFER AC vs WACKER INNSBRUCK</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WACKER INNSBRUCK -2.00</td>
+	<td>5.90</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-24 23:19:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-26 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>PARIS FC 98 vs AJ AUXERRE</td>
+	<td>2-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AJ AUXERRE +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-26 09:00:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-26 18:30:00</td>
+	<td>Austria</td>
+	<td>ADEG Erste Liga</td>
+	<td>KSV 1919 vs SC AUSTRIA LUSTENAU</td>
+	<td>2-4 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>SC AUSTRIA LUSTENAU +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-25 13:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-26 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC PADERBORN vs RB LEIPZIG</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RB LEIPZIG</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-22 15:37:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-24 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>DERBY COUNTY vs BLACKBURN ROVERS</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DERBY COUNTY</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-24 14:54:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-22 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC AMKAR PERM vs FC SHAKHTER SOLIGORSK</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SHAKHTER SOLIGORSK +0</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-22 13:30:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-21 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs SC FREIBURG</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>129.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-18 19:37:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-20 22:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>DC UNITED vs MONTREAL IMPACT</td>
+	<td>1-4 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>MONTREAL IMPACT +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.45</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-20 15:14:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-20 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYERN MUNICH vs SV DARMSTADT 98</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>BAYERN MUNICH -2.50</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-19 22:43:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-20 15:00:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone B</td>
+	<td>TUTTOCUOIO vs SC PISA</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SC PISA</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-20 09:05:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-20 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FORTUNA DUSSELDORF II vs TSV STEINBACH</td>
+	<td>1-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TSV STEINBACH +0.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-20 09:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-20 12:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>1 FC COLOGNE II vs FC VIKTORIA COLOGNE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC VIKTORIA COLOGNE</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-19 12:50:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-19 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>FC WEGBERG-BEECK vs BORUSSIA M'GLADBACH II</td>
+	<td>2-6 (1-3)</td>
+	<td>European handicap</td>
+	<td>BORUSSIA M'GLADBACH II -1.00</td>
+	<td>4.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>332.50</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-19 08:49:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-19 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>RB LEIPZIG vs FC UNION BERLIN</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>RB LEIPZIG -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-18 19:34:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-18 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC AUGSBURG vs LIVERPOOL FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>LIVERPOOL FC -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-16 14:32:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-18 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC MIDTJYLLAND vs MANCHESTER UNITED</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER UNITED -1.00</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-18 17:10:34</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-18 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>BORUSSIA DORTMUND vs FC PORTO</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-18 09:04:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-17 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AS ROMA vs REAL MADRID</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-16 09:59:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-17 16:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Vitalis</td>
+	<td>CLUBE ORIENTAL DE LISBOA vs CD FEIRENSE</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CD FEIRENSE</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-17 08:36:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-16 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>BENFICA LISBON vs ZENIT ST PETERSBURG</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BENFICA LISBON</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-16 09:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-15 22:30:00</td>
+	<td>Brazil</td>
+	<td>Campeonato Carioca</td>
+	<td>VOLTA REDONDA RJ vs PORTUGUESA RJ</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VOLTA REDONDA RJ -1.00</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-15 14:27:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-14 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs MONCHENGLADBACH</td>
+	<td>3-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>MONCHENGLADBACH -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-14 12:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-14 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>DYNAMO DRESDEN vs WERDER BREMEN II</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>DYNAMO DRESDEN -1.00</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-10 08:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-14 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs 1860 MUNICH</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>1860 MUNICH</td>
+	<td>3.70</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-11 15:12:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC CHIASSO vs FC AARAU</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC AARAU</td>
+	<td>2.62</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>153.90</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-11 18:58:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs LILLE OSC</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-12 09:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-13 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFB STUTTGART vs HERTHA BSC</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.67</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-11 14:16:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-13 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs MELBOURNE VICTORY</td>
+	<td>2-2 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE VICTORY +0</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-10 08:33:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-12 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FSV MAINZ 05 vs FC SCHALKE 04</td>
+	<td>2-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-09 14:13:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-12 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC ST. PAULI vs RB LEIPZIG</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RB LEIPZIG -0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-11 14:15:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-11 02:36:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>MEXICO vs SENEGAL</td>
+	<td>2-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MEXICO -1.50</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>101.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-10 17:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-10 19:00:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>1 FC HEIDENHEIM vs HERTHA BSC</td>
+	<td>2-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>HERTHA BSC</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>106.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-08 10:07:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-09 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>MILTON KEYNES DONS vs MIDDLESBROUGH FC</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MIDDLESBROUGH FC</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-09 19:05:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-09 18:20:00</td>
+	<td>International Clubs</td>
+	<td>AFC Champions League, Qualification</td>
+	<td>AL ITTIHAD vs AL WEHDAT JOR</td>
+	<td>2-1 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>AL ITTIHAD -1.50</td>
+	<td>2.04</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-09 16:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-08 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC WIL 1900 vs FC SCHAFFHAUSEN</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC WIL 1900</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-05 15:01:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-07 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>SV MEPPEN vs VFB OLDENBURG</td>
+	<td>1-5 (1-3)</td>
+	<td>Asian handicap</td>
+	<td>VFB OLDENBURG +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>101.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-05 16:15:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-07 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>HALLESCHER FC vs DYNAMO DRESDEN</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DYNAMO DRESDEN -0.25</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-03 15:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 20:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>CA NACIONAL POTOSI vs THE STRONGEST</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>THE STRONGEST</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-06 13:31:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>BAYER LEVERKUSEN vs BAYERN MUNICH</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>4.27</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>196.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-06 13:28:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 17:45:00</td>
+	<td>Switzerland</td>
+	<td>Challenge League</td>
+	<td>FC AARAU vs FC BIEL-BIENNE</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC AARAU</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-03 16:06:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 17:30:00</td>
+	<td>Italy</td>
+	<td>Lega Pro Prima Divisione, Girone C</td>
+	<td>US LECCE vs AC MARTINA</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>US LECCE -1.50</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-06 10:32:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HERTHA BSC vs BORUSSIA DORTMUND</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-01 13:04:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-06 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>EINTRACHT FRANKFURT vs VFB STUTTGART</td>
+	<td>2-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>VFB STUTTGART +0</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-01 13:03:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-06 07:15:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>BRISBANE ROAR FC vs CENTRAL COAST MARINERS FC</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>BRISBANE ROAR FC -1.50</td>
+	<td>2.23</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>123.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-01 13:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 19:30:00</td>
+	<td>Germany</td>
+	<td>Oberliga Hamburg</td>
+	<td>FC SUDERELBE vs VFL PINNEBERG</td>
+	<td>2-0 </td>
+	<td>Asian handicap</td>
+	<td>FC SUDERELBE -1.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-05 15:31:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-05 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>VFL BOCHUM vs SC FREIBURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFL BOCHUM +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-01 13:01:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-05 17:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>CHEMNITZER FC vs FC MAGDEBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.33</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-05 15:57:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-04 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>BRONDBY IF vs FC LOKOMOTIV MOSCOW</td>
+	<td>2-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC LOKOMOTIV MOSCOW</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-04 11:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>US PALERMO vs AC MILAN</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AC MILAN</td>
+	<td>1.97</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>97.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-03 09:25:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 20:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WATFORD FC vs CHELSEA FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CHELSEA FC -0.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-03 09:05:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-03 20:45:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>HELLAS VERONA vs ATALANTA BERGAMASCA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>HELLAS VERONA</td>
+	<td>2.49</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>149.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-02 14:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-02-03 15:00:00</td>
+	<td>International</td>
+	<td>African Nations Championship, Knockout stage</td>
+	<td>DR CONGO vs GUINEA</td>
+	<td>6-5 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>DR CONGO +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-03 09:09:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-02-02 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>NK MARIBOR vs KSV 1919</td>
+	<td>4-1 (3-0)</td>
+	<td>Asian handicap</td>
+	<td>NK MARIBOR -1.00</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-02-02 10:59:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 21:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>USA vs ICELAND</td>
+	<td>3-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>USA -1.25</td>
+	<td>2.61</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-31 20:42:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 14:00:00</td>
+	<td>International</td>
+	<td>African Nations Championship, Knockout stage</td>
+	<td>TUNISIA vs MALI</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>TUNISIA</td>
+	<td>2.34</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-30 11:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-31 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>FC VIKTORIA COLOGNE vs FC KRAY</td>
+	<td>2-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC VIKTORIA COLOGNE -2.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-29 23:47:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-31 12:30:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>AC CHIEVO VERONA vs JUVENTUS TURIN</td>
+	<td>0-4 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>JUVENTUS TURIN -1.00</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>109.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-29 23:40:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>WOKING FC vs BARROW FC</td>
+	<td>2-2 (2-2)</td>
+	<td>Match Odds</td>
+	<td>WOKING FC</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-30 10:54:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 16:00:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>EASTLEIGH FC vs WREXHAM FC</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>EASTLEIGH FC +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-30 10:52:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-30 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>LEYTON ORIENT vs CAMBRIDGE UNITED FC</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>LEYTON ORIENT</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-29 23:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-30 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FC MAGDEBURG vs WERDER BREMEN II</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC MAGDEBURG</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-29 23:33:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-29 01:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>CLUB JORGE WILSTERMANN vs BLOOMING</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CLUB JORGE WILSTERMANN -1.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-28 17:13:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-29 01:00:00</td>
+	<td>Bolivia</td>
+	<td>Liga Profesional Boliviano, Clausura</td>
+	<td>THE STRONGEST vs CLUB PETROLERO</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>THE STRONGEST -2.00</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-28 17:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-28 21:00:00</td>
+	<td>Spain</td>
+	<td>Copa del Rey</td>
+	<td>LAS PALMAS UD vs VALENCIA CF</td>
+	<td>0-1 (0-1)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-28 17:24:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-28 17:00:00</td>
+	<td>Qatar</td>
+	<td>Stars League</td>
+	<td>AL WAKRA SC vs SADD SC</td>
+	<td>3-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SADD SC</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-27 21:49:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-27 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SC WESTFALIA 04 HERNE vs KFC UERDINGEN 05</td>
+	<td>0-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>KFC UERDINGEN 05 -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-27 17:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-27 02:10:00</td>
+	<td>Argentina</td>
+	<td>Copa Torneo de Verano</td>
+	<td>RIVER PLATE vs CA SAN LORENZO</td>
+	<td>3-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>CA SAN LORENZO</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-25 23:26:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 21:00:00</td>
+	<td>Italy</td>
+	<td>Coppa Italia</td>
+	<td>ALESSANDRIA CALCIO vs AC MILAN</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AC MILAN -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-26 19:19:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-26 15:00:00</td>
+	<td>International</td>
+	<td>African Nations Championship, Group C</td>
+	<td>NIGER vs TUNISIA</td>
+	<td>0-5 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>TUNISIA -1.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-25 21:39:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-26 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE VICTORY vs SYDNEY FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MELBOURNE VICTORY</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-25 21:25:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-25 09:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>MELBOURNE CITY FC vs WELLINGTON PHOENIX FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>MELBOURNE CITY FC -1.00</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-23 13:41:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-24 20:30:00</td>
+	<td>Spain</td>
+	<td>Liga BBVA</td>
+	<td>BETIS SEVILLA vs REAL MADRID</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>REAL MADRID -1.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-23 13:45:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-24 17:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC UNION BERLIN vs BORUSSIA DORTMUND</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC UNION BERLIN</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-24 12:37:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-23 17:00:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>PARIS ST GERMAIN vs SCO ANGERS</td>
+	<td>5-1 (2-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +1.00 Half time</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-23 13:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-23 14:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SV GRODIG vs ARMINIA BIELEFELD</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ARMINIA BIELEFELD</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-23 14:00:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-01-22 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>STUTTGARTER KICKERS vs ERZGEBIRGE AUE</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>ERZGEBIRGE AUE +0</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-21 14:52:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-01-22 14:00:00</td>
+	<td>International</td>
+	<td>African Nations Championship, Group C</td>
+	<td>TUNISIA vs NIGERIA</td>
+	<td>1-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2016-01-22 11:35:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-16 11:00:00</td>
+	<td>International Youth</td>
+	<td>U17 European Championship Women</td>
+	<td>LATVIA vs KAZAKHSTAN</td>
+	<td></td>
+	<td>Match Odds</td>
+	<td>KAZAKHSTAN</td>
+	<td>3.90</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-13 11:34:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-14 04:15:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>PERU vs CHILE</td>
+	<td>3-4 (2-3)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-12 12:07:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-13 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>ITALY vs NORWAY</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ITALY</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-13 12:21:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-13 13:00:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>SOUTH KOREA vs JAMAICA</td>
+	<td>3-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SOUTH KOREA</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-12 08:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-12 20:15:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>EINTRACHT TRIER vs OFFENBACHER KICKERS</td>
+	<td>6-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>OFFENBACHER KICKERS +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-12 10:30:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-12 19:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>SWEDEN vs BELGIUM</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BELGIUM</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>72.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-12 10:32:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-10 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>CROATIA vs BULGARIA</td>
+	<td>3-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>CROATIA -1.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-08 13:07:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-10 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>ASTORIA WALLDORF vs 1 FC SAARBRUCKEN</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>1 FC SAARBRUCKEN</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-09 08:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-09 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SLOVAKIA vs BELARUS</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SLOVAKIA -1.00</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-08 13:04:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-08 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SCOTLAND vs POLAND</td>
+	<td>2-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-07 09:26:10</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-05 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>MSV DUISBURG vs SC PADERBORN</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>SC PADERBORN -0.25</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-05 11:49:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-04 14:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga, Women</td>
+	<td>TSG 1899 HOFFENHEIM vs BAYER LEVERKUSEN</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BAYER LEVERKUSEN -1.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-02 18:17:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 23:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>TORONTO FC vs PHILADELPHIA UNION</td>
+	<td>3-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TORONTO FC -1.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-03 20:58:51</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-03 18:30:00</td>
+	<td>Ukraine</td>
+	<td>Premier League</td>
+	<td>FC METALURG ZAPORIZHYA vs OLIMPIK DONETSK</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>OLIMPIK DONETSK</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-02 18:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-03 16:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>IBV VESTMANNAEYJAR vs IA AKRANES</td>
+	<td>1-2 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.92</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-02 23:10:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-03 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>HANSA ROSTOCK vs DYNAMO DRESDEN</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>DYNAMO DRESDEN</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-01 15:48:23</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-01 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PAOK FC vs BORUSSIA DORTMUND</td>
+	<td>1-1 (1-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-01 15:38:41</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-10-01 19:00:00</td>
+	<td>Qatar</td>
+	<td>Stars League</td>
+	<td>AL ARABI DOHA SC vs AL GHARAFA SC</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>AL ARABI DOHA SC -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-10-01 15:12:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-10-01 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>CF OS BELENENSES vs AC FIORENTINA</td>
+	<td>0-4 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AC FIORENTINA</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-28 22:02:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-30 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MONCHENGLADBACH vs MANCHESTER CITY</td>
+	<td>1-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MANCHESTER CITY -1.00</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-28 22:31:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MACCABI TEL AVIV vs FC DYNAMO KIEV</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC DYNAMO KIEV -1.00</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-29 10:19:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-29 20:45:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>FC BATE BORISOV vs AS ROMA</td>
+	<td>3-2 (3-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-28 22:06:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-27 01:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>NEW ENGLAND REVOLUTION vs PHILADELPHIA UNION</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>NEW ENGLAND REVOLUTION -1.00</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-24 15:52:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 16:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>IA AKRANES vs VALUR REYKJAVIK</td>
+	<td>1-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-26 12:13:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-26 16:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>STJARNAN GARDABAE vs KEFLAVIK IF</td>
+	<td>7-0 (3-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-26 12:10:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-26 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SPVGG NECKARELZ vs BAHLINGER SC</td>
+	<td>3-1 (2-1)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>2.19</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-26 11:19:19</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-26 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FC MAGDEBURG vs ENERGIE COTTBUS</td>
+	<td>2-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC MAGDEBURG -0.25</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-24 21:22:15</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-25 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC COLOGNE vs FC INGOLSTADT</td>
+	<td>1-1 (1-1)</td>
+	<td>Over / Under</td>
+	<td>Under +1.00</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-24 15:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-24 02:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>MONTREAL IMPACT vs CHICAGO FIRE</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MONTREAL IMPACT</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-21 17:25:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1899 HOFFENHEIM vs BORUSSIA DORTMUND</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-21 11:27:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-23 20:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs VFB STUTTGART</td>
+	<td>1-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>VFB STUTTGART</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-21 11:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-23 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs FC UNION BERLIN</td>
+	<td>3-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN +0</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-23 08:59:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-22 17:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>KARLSRUHER SC vs FORTUNA DUSSELDORF</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FORTUNA DUSSELDORF +0</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-21 11:14:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HAMBURGER SV vs EINTRACHT FRANKFURT</td>
+	<td>0-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.09</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-17 09:26:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-19 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>SG SONNENHOF GROSSASPACH vs CHEMNITZER FC</td>
+	<td>4-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CHEMNITZER FC +0</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-17 15:31:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-19 13:45:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>CHELSEA FC vs ARSENAL FC</td>
+	<td></td>
+	<td>Asian handicap</td>
+	<td>ARSENAL FC -1.00</td>
+	<td>2.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-16 18:17:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-17 21:05:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>ATHLETIC BILBAO vs FC AUGSBURG</td>
+	<td>3-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ATHLETIC BILBAO -1.00</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-17 09:24:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-15 19:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>THROTTUR REYKJAVIK vs HAUKAR HAFNARFJORDUR</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>THROTTUR REYKJAVIK</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-15 11:18:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-15 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFB STUTTGART II vs FSV MAINZ 05 II</td>
+	<td>1-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-15 13:53:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-12 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>HANNOVER 96 vs BORUSSIA DORTMUND</td>
+	<td>2-4 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>BORUSSIA DORTMUND -1.00</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>73.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-10 22:59:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-11 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>STUTTGARTER KICKERS vs FC MAGDEBURG</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>STUTTGARTER KICKERS</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>95.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-10 18:10:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-11 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SV SANDHAUSEN vs VFL BOCHUM</td>
+	<td>1-1 (1-1)</td>
+	<td>Draw no bet</td>
+	<td>VFL BOCHUM</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-10 08:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-08 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>BELARUS vs LUXEMBOURG</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BELARUS -1.50</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-07 21:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-08 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ALEMANNIA AACHEN vs FC SCHALKE 04 II</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ALEMANNIA AACHEN</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-07 16:06:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-08 18:30:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ICELAND vs NORTHERN IRELAND</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>ICELAND -1.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-08 10:12:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-07 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>SCOTLAND vs GERMANY</td>
+	<td>2-3 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>GERMANY -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-07 13:55:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-06 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>ETSV WEICHE FLENSBURG vs EINTRACHT BRAUNSCHWEIG II</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ETSV WEICHE FLENSBURG</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-06 11:03:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-06 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>TSV SCHILKSEE vs FC ST. PAULI II</td>
+	<td>1-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>FC ST. PAULI II</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-06 10:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-06 04:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>SEATTLE SOUNDERS vs TORONTO FC</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SEATTLE SOUNDERS</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-05 20:22:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-06 01:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>NEW ENGLAND REVOLUTION vs ORLANDO CITY SC</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>NEW ENGLAND REVOLUTION -1.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-05 20:20:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-05 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ROT WEISS AHLEN vs 1 FC COLOGNE II</td>
+	<td>2-3 (2-1)</td>
+	<td>Asian handicap</td>
+	<td>1 FC COLOGNE II +0.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-05 09:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-04 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>ROT-WEISS ESSEN vs FC WEGBERG-BEECK</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ROT-WEISS ESSEN -2.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-03 14:11:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-04 19:00:00</td>
+	<td>Germany</td>
+	<td>Oberliga Baden Wuerttemberg</td>
+	<td>TSG BALINGEN vs FC NOTTINGEN</td>
+	<td>0-1 </td>
+	<td>Match Odds</td>
+	<td>FC NOTTINGEN</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>33.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-04 11:53:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-04 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>BV CLOPPENBURG vs HANNOVER 96 II</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HANNOVER 96 II</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-03 16:30:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-04 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Bavaria</td>
+	<td>SPVGG BAYREUTH vs SCHWEINFURT 05</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SPVGG BAYREUTH</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-03 16:33:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-04 17:00:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>LATVIA vs BELGIUM</td>
+	<td>0-2 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>BELGIUM -1.50</td>
+	<td>1.96</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>96.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-03 14:02:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-03 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SSV JAHN REGENSBURG vs BAYERN MUNICH</td>
+	<td>3-1 (3-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>5.10</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-03 17:03:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-09-02 18:45:00</td>
+	<td>International Youth</td>
+	<td>U21 Euro Qualification</td>
+	<td>ESTONIA vs SPAIN</td>
+	<td>0-2 (0-0)</td>
+	<td>European handicap</td>
+	<td>SPAIN -2.00</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-01 20:27:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-09-01 20:15:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>SG WATTENSCHEID 09 vs ROT-WEISS ESSEN</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>ROT-WEISS ESSEN</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-09-01 14:44:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-28 20:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>VFL WOLFSBURG vs FC SCHALKE 04</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FC SCHALKE 04 +0.50</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-27 12:56:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-28 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>SV WALDHOF MANNHEIM vs FC KAISERSLAUTERN II</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SV WALDHOF MANNHEIM</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-28 14:05:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-28 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC FREIBURG vs SV SANDHAUSEN</td>
+	<td>4-1 (3-0)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-28 14:10:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-28 18:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs RB LEIPZIG</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-27 21:43:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-27 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>VFB AUERBACH vs BFC DYNAMO</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>BFC DYNAMO -0.50</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-26 09:42:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-26 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>OFFENBACHER KICKERS vs WORMATIA WORMS</td>
+	<td>4-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>OFFENBACHER KICKERS +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-26 10:16:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-26 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Southwest</td>
+	<td>BAHLINGER SC vs SPVGG ELVERSBERG 07</td>
+	<td>1-2 (1-2)</td>
+	<td>Asian handicap</td>
+	<td>SPVGG ELVERSBERG 07 -1.50</td>
+	<td>2.22</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-26 09:53:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-08 15:30:00</td>
+	<td>Germany</td>
+	<td>DFB Pokal</td>
+	<td>MSV DUISBURG vs FC SCHALKE 04</td>
+	<td>0-5 (0-3)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>79.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-05 16:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-05 19:30:00</td>
+	<td>Germany</td>
+	<td>Bayernliga South</td>
+	<td>VFR GARCHING vs SV ERLBACH</td>
+	<td>3-0 </td>
+	<td>Match Odds</td>
+	<td>VFR GARCHING</td>
+	<td>1.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>44.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-05 12:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-05 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SC BRUHL SG vs KFC UERDINGEN 05</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>KFC UERDINGEN 05</td>
+	<td>1.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>50.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-05 12:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-05 18:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga Northeast</td>
+	<td>CARL ZEISS JENA vs FC SCHONBERG 95</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CARL ZEISS JENA -1.00</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-03 10:52:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-04 20:15:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>AJAX AMSTERDAM vs SK RAPID VIENNA</td>
+	<td>2-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AJAX AMSTERDAM</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-04 11:30:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>TSV HAVELSE vs VFB LUBECK</td>
+	<td>5-3 (3-2)</td>
+	<td>Asian handicap</td>
+	<td>VFB LUBECK +0</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-02 10:48:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-02 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>HALLESCHER FC vs HOLSTEIN KIEL</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HOLSTEIN KIEL -1.00</td>
+	<td>6.40</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>216.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-08-01 18:20:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-02 01:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>NEW ENGLAND REVOLUTION vs TORONTO FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>NEW ENGLAND REVOLUTION -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-30 10:01:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-01 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>CHEMNITZER FC vs HANSA ROSTOCK</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CHEMNITZER FC</td>
+	<td>1.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-31 22:19:18</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-08-01 14:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga West</td>
+	<td>FC WEGBERG-BEECK vs RODINGHAUSEN</td>
+	<td>0-5 (0-2)</td>
+	<td>Match Odds</td>
+	<td>RODINGHAUSEN</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-31 17:24:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-08-01 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FORTUNA COLOGNE vs VFR AALEN</td>
+	<td>1-1 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>VFR AALEN +0</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-29 14:49:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-31 19:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FSV MAINZ 05 II vs FC MAGDEBURG</td>
+	<td>2-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>2.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>185.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-30 13:26:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-29 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>UMF SELFOSS vs VIKINGUR OLAFSVIK</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>VIKINGUR OLAFSVIK -0.25</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 22:15:13</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-29 19:30:00</td>
+	<td>Germany</td>
+	<td>Regionalliga North</td>
+	<td>VFB LUBECK vs FC ST. PAULI II</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>VFB LUBECK</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>82.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 20:24:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-28 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VIKTORIA ASCHAFFENBURG vs SV DARMSTADT 98</td>
+	<td>1-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SV DARMSTADT 98 -1.25</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 12:24:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-28 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SV WILHELMSHAVEN vs WERDER BREMEN</td>
+	<td>0-7 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +4.50</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 12:17:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-28 18:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>ADMIRA WACKER vs ESKISEHIRSPOR</td>
+	<td>0-4 (0-3)</td>
+	<td>Match Odds</td>
+	<td>ESKISEHIRSPOR</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>112.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 11:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-28 17:00:00</td>
+	<td>Poland</td>
+	<td>Puchar Polski</td>
+	<td>NADWISLAN GORA vs KGHM ZAGLEBIE LUBIN</td>
+	<td>0-3 (0-1)</td>
+	<td>European handicap</td>
+	<td>KGHM ZAGLEBIE LUBIN -1.00</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>66.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-28 09:32:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-27 17:00:00</td>
+	<td>Russia</td>
+	<td>1st Division</td>
+	<td>TORPEDO ARMAVIR vs FC SOKOL SARATOV</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>TORPEDO ARMAVIR</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-27 11:57:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-26 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC WINTERTHUR vs VFB STUTTGART</td>
+	<td>1-4 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-26 11:32:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-26 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FC UNION BERLIN vs FORTUNA DUSSELDORF</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-26 11:47:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-26 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>SC PADERBORN vs VFL BOCHUM</td>
+	<td>0-1 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-25 11:40:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-25 15:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs RB LEIPZIG</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RB LEIPZIG</td>
+	<td>2.02</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>102.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-22 17:14:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-25 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>DYNAMO DRESDEN vs VFB STUTTGART II</td>
+	<td>4-1 (2-0)</td>
+	<td>European handicap</td>
+	<td>DYNAMO DRESDEN -1.00</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-23 21:38:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-25 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>VFR AALEN vs CHEMNITZER FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CHEMNITZER FC +0</td>
+	<td>2.06</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-23 20:47:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-24 20:30:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>FC MAGDEBURG vs RW ERFURT</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under</td>
+	<td>Over +2.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-22 14:48:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-22 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VFB GARTENSTADT vs SV WALDHOF MANNHEIM</td>
+	<td>0-6 (0-5)</td>
+	<td>Asian handicap</td>
+	<td>SV WALDHOF MANNHEIM -1.50</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>77.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-22 17:12:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-21 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>LILLESTROM SK vs 1899 HOFFENHEIM</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-21 16:34:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-21 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>KSV BAUNATAL vs HESSEN KASSEL</td>
+	<td>0-3 (0-2)</td>
+	<td>Asian handicap</td>
+	<td>HESSEN KASSEL -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-21 16:52:19</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-20 22:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>LEIKNIR REYKJAVIK vs VALUR REYKJAVIK</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>VALUR REYKJAVIK</td>
+	<td>1.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>75.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-20 14:26:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-20 18:00:00</td>
+	<td>Poland</td>
+	<td>Ekstraklasa</td>
+	<td>GKS PIAST GLIWICE vs TERMALICA BRUK-BET NIECIECZA</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TERMALICA BRUK-BET NIECIECZA +0</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-20 14:44:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-17 20:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VFL BOCHUM vs BORUSSIA DORTMUND</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.25</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-17 14:03:13</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-17 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>VFC PLAUEN vs VFB AUERBACH</td>
+	<td>1-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>VFB AUERBACH +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-16 22:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-16 20:00:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>ALIANZA ATLETICO vs ALIANZA LIMA</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>ALIANZA ATLETICO -0.25</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-16 11:24:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-16 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>EINTRACHT NORDERSTEDT vs VFR NEUMUNSTER</td>
+	<td>5-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>EINTRACHT NORDERSTEDT</td>
+	<td>1.67</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>67.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-16 10:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-16 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC EINTRACHT RHEINE vs SF LOTTE</td>
+	<td>0-5 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SF LOTTE -1.00</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>88.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-16 13:08:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-15 20:45:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>TIPTON TOWN FC vs RUSHALL OLYMPIC</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>RUSHALL OLYMPIC -1.00</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-15 16:54:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-15 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Champions League</td>
+	<td>MALMO FF vs VMFD ZALGIRIS</td>
+	<td>0-0 (0-0)</td>
+	<td>Both team to score</td>
+	<td>Yes</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-14 22:10:16</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-14 20:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>LIMERICK 37 FC vs MILTON KEYNES DONS</td>
+	<td>1-1 (0-1)</td>
+	<td>European handicap</td>
+	<td>MILTON KEYNES DONS -4.00</td>
+	<td>4.33</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-14 14:38:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-14 20:00:00</td>
+	<td>Ukraine</td>
+	<td>Supercup</td>
+	<td>FC DYNAMO KIEV vs FC SHAKHTAR DONETSK</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FC DYNAMO KIEV -0.25</td>
+	<td>1.90</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-14 10:23:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-14 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SV JOSKO RIED vs GALATASARAY ISTANBUL</td>
+	<td>2-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>GALATASARAY ISTANBUL</td>
+	<td>1.53</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>53.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-14 12:26:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-14 19:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>BV CLOPPENBURG vs SF LOTTE</td>
+	<td>1-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>SF LOTTE</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-14 09:44:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-13 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>UMF SELFOSS vs THROTTUR REYKJAVIK</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>THROTTUR REYKJAVIK</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-13 18:31:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-13 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>HALLESCHER FC vs FC UNION BERLIN</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC UNION BERLIN +0</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-13 16:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-12 22:30:00</td>
+	<td>Colombia</td>
+	<td>Apertura II</td>
+	<td>AGUILAS DORADAS vs ATLETICO NACIONAL MEDELLIN</td>
+	<td>0-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ATLETICO NACIONAL MEDELLIN -1.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-12 12:16:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-12 20:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>FRANCE vs GREECE</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.36</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-12 17:12:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-12 20:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>FRANCE vs GREECE</td>
+	<td>2-0 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Under +0.50</td>
+	<td>6.00</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-12 14:16:38</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-12 18:30:00</td>
+	<td>International Clubs</td>
+	<td>CAF Confederations Cup, Group B</td>
+	<td>STADE MALIEN DE BAMAKO vs AL AHLY CAIRO</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>STADE MALIEN DE BAMAKO</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-11 16:24:35</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-12 15:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>HAMBURGER SV II vs ROT-WEISS ESSEN</td>
+	<td>1-2 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>ROT-WEISS ESSEN +0</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-12 09:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-11 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>MSV DUISBURG vs VFL BOCHUM</td>
+	<td>1-2 (0-2)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>80.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-11 10:22:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-11 15:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>YOUNG BOYS BERN vs VFB STUTTGART</td>
+	<td>4-1 (3-1)</td>
+	<td>Over / Under</td>
+	<td>Over +3.00</td>
+	<td>1.93</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>93.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-11 12:13:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-11 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SSV MARKRANSTADT vs CARL ZEISS JENA</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>CARL ZEISS JENA -1.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>100.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-11 10:47:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-10 20:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SSV JAHN REGENSBURG vs FC AUGSBURG</td>
+	<td>1-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC AUGSBURG -1.00</td>
+	<td>1.87</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>87.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-10 15:06:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-10 20:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK INTER ZAPRESIC vs HNK RIJEKA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>HNK RIJEKA</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-09 21:20:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-09 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK RABOTNICKI SKOPJE vs FC FLORA TALLINN</td>
+	<td>2-0 (0-0)</td>
+	<td>European handicap</td>
+	<td>FK RABOTNICKI SKOPJE -1.00</td>
+	<td>4.75</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-09 11:35:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-09 19:30:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>ZRINJSKI MOSTAR vs SHIRAK GYUMRI FC</td>
+	<td>2-1 (0-0)</td>
+	<td>European handicap</td>
+	<td>ZRINJSKI MOSTAR -1.00</td>
+	<td>3.40</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-07 15:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-09 18:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FC TSKHINVALI vs FC BOTOSANI</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC BOTOSANI</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-09 11:31:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-09 18:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>UKRAINE vs FRANCE</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FRANCE</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-08 21:11:57</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-08 20:00:00</td>
+	<td>Romania</td>
+	<td>Super Cup</td>
+	<td>STEAUA BUCURESTI vs FCM TARGU MURES</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>STEAUA BUCURESTI</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-07 08:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-08 18:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SOUTHAMPTON FC vs RB LEIPZIG</td>
+	<td>4-5 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>RB LEIPZIG +0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>64.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-08 14:02:11</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-08 17:30:00</td>
+	<td>Finland</td>
+	<td>Ykkonen</td>
+	<td>EIF vs JJK JYVASKYLA</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>JJK JYVASKYLA</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-08 13:50:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-08 02:50:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie B</td>
+	<td>CEARA CE vs BOTAFOGO RJ</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>BOTAFOGO RJ +0</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-07 22:55:46</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-07 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>BI/BOLUNGARVIK vs HAUKAR HAFNARFJORDUR</td>
+	<td>2-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>HAUKAR HAFNARFJORDUR</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-07 12:29:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-07 20:45:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>GERMANY vs SPAIN</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SPAIN</td>
+	<td>2.42</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>28.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-07 08:38:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-07 20:45:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>GERMANY vs SPAIN</td>
+	<td>0-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>SPAIN +0</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>60.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-06 09:52:22</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-06 20:00:00</td>
+	<td>International Youth</td>
+	<td>U19 European Championship</td>
+	<td>AUSTRIA vs FRANCE</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FRANCE</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>51.60</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-06 09:37:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-06 19:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>NK CELJE vs FC COPENHAGEN</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC COPENHAGEN</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-06 10:40:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-06 19:00:00</td>
+	<td>Sweden</td>
+	<td>Div 1</td>
+	<td>KRISTIANSTADS FF vs LANDSKRONA BOIS</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>LANDSKRONA BOIS</td>
+	<td>1.74</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>74.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-06 11:03:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-06 05:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>PORTLAND TIMBERS vs SAN JOSE EARTHQUAKES</td>
+	<td>1-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Under +2.50</td>
+	<td>1.88</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>52.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-05 22:44:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-05 23:30:00</td>
+	<td>Brazil</td>
+	<td>Brasilero Serie A</td>
+	<td>INTERNACIONAL RS vs ATLETICO MINEIRO MG</td>
+	<td>1-3 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>INTERNACIONAL RS +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-05 20:55:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-05 18:00:00</td>
+	<td>Norway</td>
+	<td>Adeccoligaen</td>
+	<td>RANHEIM IL vs AASANE FOTBALL</td>
+	<td>3-2 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>RANHEIM IL -1.00</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-05 15:49:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-05 04:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>LA GALAXY vs TORONTO FC</td>
+	<td>4-0 (2-0)</td>
+	<td>Asian handicap</td>
+	<td>LA GALAXY -0.75</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>81.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-04 14:22:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-05 01:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>COLUMBUS CREW vs NY RED BULLS</td>
+	<td>2-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>COLUMBUS CREW -0.25</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>86.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-04 14:25:28</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-04 16:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>RW ERFURT vs SCHWEINFURT 05</td>
+	<td>5-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>RW ERFURT</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>83.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-04 14:28:12</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-04 05:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>SEATTLE SOUNDERS vs WASHINGTON DC UTD</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>WASHINGTON DC UTD</td>
+	<td>4.04</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-04 02:03:21</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-04 05:00:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>SEATTLE SOUNDERS vs WASHINGTON DC UTD</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>WASHINGTON DC UTD +0.50</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-04 02:03:18</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-02 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>HAUKAR HAFNARFJORDUR vs THROTTUR REYKJAVIK</td>
+	<td>1-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>THROTTUR REYKJAVIK</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>54.60</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-01 10:08:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-02 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>FRAM REYKJAVIK vs HK KOPAVOGS</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FRAM REYKJAVIK</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-01 10:03:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-02 20:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>GO AHEAD EAGLES vs FERENCVAROSI TC</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FERENCVAROSI TC</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-30 11:30:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-07-02 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>TRAKAI FK vs HB TORSHAVN</td>
+	<td>3-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>TRAKAI FK -1.00</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>50.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-02 09:36:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-07-02 01:00:00</td>
+	<td>International</td>
+	<td>Euro Cup Women, Final Round</td>
+	<td>JAPAN vs ENGLAND</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>JAPAN</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>69.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-07-01 09:19:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-30 21:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>FK RENOVA vs FC DACIA CHISINAU</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC DACIA CHISINAU</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>28.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-29 20:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-30 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>SWEDEN vs PORTUGAL</td>
+	<td>4-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>PORTUGAL</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-29 15:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-30 19:00:00</td>
+	<td>European cups</td>
+	<td>UEFA Europa League</td>
+	<td>PROGRES NIEDERCORN vs SHAMROCK ROVERS FC</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SHAMROCK ROVERS FC</td>
+	<td>1.99</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-29 23:31:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-30 18:30:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>CHEMNITZER FC vs TSG NEUSTRELITZ</td>
+	<td>3-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>CHEMNITZER FC -1.00</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>30.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-30 15:40:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-30 01:30:00</td>
+	<td>International</td>
+	<td>Copa America, Final Round</td>
+	<td>CHILE vs PERU</td>
+	<td>2-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +6.00</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-29 14:00:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-29 22:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>KEFLAVIK IF vs STJARNAN GARDABAE</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>STJARNAN GARDABAE</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>91.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-27 12:45:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-28 22:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>NEW YORK CITY FC vs NY RED BULLS</td>
+	<td>1-3 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>36.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-28 20:56:27</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-28 22:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR</td>
+	<td>1-3 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>FH HAFNARFJORDUR -0.50</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>48.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-28 18:18:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-28 22:00:00</td>
+	<td>Iceland</td>
+	<td>Iceland</td>
+	<td>FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FH HAFNARFJORDUR</td>
+	<td>1.77</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>30.80</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-28 14:40:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-28 20:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>VALERENGA IF vs BODO/GLIMT</td>
+	<td>1-2 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +3.50</td>
+	<td>2.03</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-28 14:18:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-28 15:30:00</td>
+	<td>International Clubs</td>
+	<td>CAF Champions League, Group A</td>
+	<td>TP MAZEMBE vs AL HILAL</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>TP MAZEMBE -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-28 14:09:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-27 18:00:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>PORTUGAL vs GERMANY</td>
+	<td>5-0 (3-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-27 12:48:11</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-27 15:30:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>IK START vs AALESUNDS FK</td>
+	<td>3-1 (2-1)</td>
+	<td>Match Odds</td>
+	<td>AALESUNDS FK</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-27 13:01:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-27 01:30:00</td>
+	<td>International</td>
+	<td>Euro Cup Women, Final Round</td>
+	<td>CHINA vs USA</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>USA -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-26 20:08:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-26 22:00:00</td>
+	<td>International</td>
+	<td>Euro Cup Women, Final Round</td>
+	<td>GERMANY vs FRANCE</td>
+	<td>6-5 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.64</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>158.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-26 20:12:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-26 15:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>SSV JAHN REGENSBURG vs 1860 MUNICH</td>
+	<td>1-2 (0-1)</td>
+	<td>Draw no bet</td>
+	<td>SSV JAHN REGENSBURG</td>
+	<td>6.50</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-26 09:48:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-25 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity First Division</td>
+	<td>WATERFORD UNITED FC vs ATHLONE TOWN AFC</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>WATERFORD UNITED FC</td>
+	<td>3.90</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-25 11:46:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-25 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>ROVANIEMI PALLOSEURA vs FC INTER TURKU</td>
+	<td>1-1 (1-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-25 10:48:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-25 14:00:00</td>
+	<td>International Clubs</td>
+	<td>Club Friendly Games</td>
+	<td>FC NORDSJALLAND vs AIK</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>AIK</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-25 10:15:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-23 21:15:00</td>
+	<td>Iceland</td>
+	<td>1 deild</td>
+	<td>UMF GRINDAVIK vs HK KOPAVOGS</td>
+	<td>2-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>UMF GRINDAVIK</td>
+	<td>1.72</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>72.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-23 17:08:14</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-23 20:45:00</td>
+	<td>International Youth</td>
+	<td>U21 European Championship</td>
+	<td>DENMARK vs SERBIA</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>DENMARK +0</td>
+	<td>1.71</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>71.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-23 11:14:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-16 01:30:00</td>
+	<td>International</td>
+	<td>Copa America</td>
+	<td>CHILE vs MEXICO</td>
+	<td>3-3 (2-2)</td>
+	<td>Asian handicap</td>
+	<td>CHILE -1.00</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-15 15:02:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-14 03:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>MALI vs GERMANY</td>
+	<td>5-4 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>GERMANY -1.00</td>
+	<td>1.79</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-13 11:15:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-13 18:00:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>FINLAND vs HUNGARY</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>HUNGARY +0</td>
+	<td>2.17</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>117.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-11 08:24:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>CROATIA vs ITALY</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>42.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-12 14:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-12 20:45:00</td>
+	<td>Ireland</td>
+	<td>Airtricity Premier Division</td>
+	<td>SLIGO ROVERS FC vs DUNDALK FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>DUNDALK FC -1.00</td>
+	<td>2.13</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-12 14:11:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-12 20:45:00</td>
+	<td>International</td>
+	<td>Euro Cup</td>
+	<td>WALES vs BELGIUM</td>
+	<td>1-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>BELGIUM</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-11 08:20:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-11 02:00:00</td>
+	<td>International</td>
+	<td>World Cup Qualification</td>
+	<td>CURACAO vs CUBA</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>CURACAO -0.25</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-50.00</td>
+	<td>Half lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-10 17:04:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-10 20:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>GERMANY vs USA</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>USA</td>
+	<td>5.50</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>90.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-08 11:52:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-10 20:45:00</td>
+	<td>International</td>
+	<td>International Friendly Games</td>
+	<td>GERMANY vs USA</td>
+	<td>1-2 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>USA +1.50</td>
+	<td>1.82</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>49.20</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-08 11:51:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-09 19:00:00</td>
+	<td>World Cup</td>
+	<td>World Cup</td>
+	<td>FRANCE vs ENGLAND</td>
+	<td>1-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>FRANCE -0.75</td>
+	<td>1.83</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>33.20</td>
+	<td>Half win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-09 16:28:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-08 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC KTP vs IFK MARIEHAMN</td>
+	<td>0-2 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>IFK MARIEHAMN -0.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-08 16:00:29</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-07 14:00:00</td>
+	<td>Germany</td>
+	<td>Oberliga NOFV Sued</td>
+	<td>ASKANIA BERNBURG vs SSV MARKRANSTADT</td>
+	<td>1-4 </td>
+	<td>Match Odds</td>
+	<td>SSV MARKRANSTADT</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-07 12:42:32</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-07 14:00:00</td>
+	<td>Germany</td>
+	<td>Oberliga NOFV Sued</td>
+	<td>LOKOMOTIVE LEIPZIG vs FC EISENACH</td>
+	<td>1-0 </td>
+	<td>Match Odds</td>
+	<td>LOKOMOTIVE LEIPZIG</td>
+	<td>1.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>40.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-07 12:39:20</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-07 03:00:00</td>
+	<td>International</td>
+	<td>Womens WC</td>
+	<td>NEW ZEALAND vs NETHERLANDS</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>NETHERLANDS</td>
+	<td>1.85</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>85.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-04 21:14:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-07 01:30:00</td>
+	<td>USA</td>
+	<td>Major League Soccer</td>
+	<td>COLUMBUS CREW vs MONTREAL IMPACT</td>
+	<td>1-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>COLUMBUS CREW</td>
+	<td>1.73</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-04 21:02:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-06 18:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>SANDEFJORD FOTBALL vs ODDS BK</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ODDS BK</td>
+	<td>1.76</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>76.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-04 21:08:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-03 20:30:00</td>
+	<td>Austria</td>
+	<td>ÖFB Stiegl Cup</td>
+	<td>FK AUSTRIA VIENNA vs RB SALZBURG</td>
+	<td>0-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>RB SALZBURG -1.00</td>
+	<td>1.86</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-02 17:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-03 18:00:00</td>
+	<td>Norway</td>
+	<td>NM Cup</td>
+	<td>SENJA FK vs STABAEK FOTBALL</td>
+	<td>1-3 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>STABAEK FOTBALL -2.00</td>
+	<td>1.78</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>0.00</td>
+	<td>Void</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-03 16:37:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-03 17:30:00</td>
+	<td>Russia</td>
+	<td>Premier League, Relegation Promotion</td>
+	<td>FK TOSNO vs FC ROSTOV</td>
+	<td>0-1 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>FK TOSNO +0</td>
+	<td>2.84</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-03 09:13:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-02 20:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs HOLSTEIN KIEL</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-02 10:22:07</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-02 20:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>1860 MUNICH vs HOLSTEIN KIEL</td>
+	<td>2-1 (0-1)</td>
+	<td>Over / Under 1st Half</td>
+	<td>Under +0.50 Half time</td>
+	<td>2.62</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-02 10:22:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-02 03:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>MYANMAR vs UKRAINE</td>
+	<td>0-6 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MYANMAR</td>
+	<td>13.75</td>
+	<td>
+		</td>
+	<td>20</td>
+	<td>-20.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-01 20:09:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-06-02 03:00:00</td>
+	<td>International Youth</td>
+	<td>U20 World Cup</td>
+	<td>MYANMAR vs UKRAINE</td>
+	<td>0-6 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MYANMAR +2.00</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>80</td>
+	<td>-80.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-01 20:06:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-06-01 19:00:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>KARLSRUHER SC vs HAMBURGER SV</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>Draw</td>
+	<td>3.35</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>141.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-06-01 11:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-31 16:00:00</td>
+	<td>Scotland</td>
+	<td>Premiership, Relegation</td>
+	<td>MOTHERWELL FC vs RANGERS FC</td>
+	<td>3-0 (0-0)</td>
+	<td>Over / Under</td>
+	<td>Over +2.50</td>
+	<td>1.84</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>84.00</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-05-31 10:27:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-29 17:30:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HJK HELSINKI vs KUOPIO PS</td>
+	<td>1-1 (1-1)</td>
+	<td>Asian handicap</td>
+	<td>HJK HELSINKI -1.50</td>
+	<td>1.91</td>
+	<td>
+		</td>
+	<td>60</td>
+	<td>-60.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-05-29 16:12:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2015-05-28 20:45:00</td>
+	<td>Scotland</td>
+	<td>Premiership, Relegation</td>
+	<td>RANGERS FC vs MOTHERWELL FC</td>
+	<td>1-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>RANGERS FC</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>-40.00</td>
+	<td>Lost</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-05-28 09:22:08</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2015-05-27 19:00:00</td>
+	<td>Germany</td>
+	<td>Regionalliga, Promotion Playoffs</td>
+	<td>1 FC SAARBRUCKEN vs FC KICKERS WURZBURG</td>
+	<td>0-1 (0-1)</td>
+	<td>Asian handicap</td>
+	<td>FC KICKERS WURZBURG +0</td>
+	<td>1.81</td>
+	<td>
+		</td>
+	<td>40</td>
+	<td>32.40</td>
+	<td>Win</td>
+			<td>Socceroo</td>
+		<td>Football</td>
+		<td>2015-05-27 16:42:09</td>
+	</tr>
+</tbody>
+
+</table>

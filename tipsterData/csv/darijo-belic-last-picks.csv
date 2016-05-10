@@ -1,4 +1,67 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-08 22:30:00,Peru,"Primera Division, Apertura",COMERCIANTES UNIDOS vs ALIANZA LIMA,2-1 (0-1),Match Odds,COMERCIANTES UNIDOS,2.28,,100,128.00,Win,Darijo Belic,Football,2016-05-06 20:36:01
+2016-05-08 20:00:00,Spain,Liga Adelante,CD LEGANES vs NUMANCIA CD,2-2 (0-1),Match Odds,CD LEGANES,1.60,,100,-100.00,Lost,Darijo Belic,Football,2016-05-06 20:37:02
+2016-05-08 19:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",ARSENAL DE SARANDI vs CA ROSARIO CENTRAL,1-0 (1-0),Match Odds,ARSENAL DE SARANDI,2.53,,100,153.00,Win,Darijo Belic,Football,2016-05-06 20:40:02
+2016-05-08 17:00:00,England,"Skrill South, Playoffs",EBBSFLEET UNITED vs WHITEHAWK,4-4 (1-1),Match Odds,EBBSFLEET UNITED,1.70,,100,-100.00,Lost,Darijo Belic,Football,2016-05-06 20:41:03
+2016-05-07 18:00:00,Iceland,1 deild,LEIKNIR REYKJAVIK vs THOR AKUREYRI,2-0 (0-0),Match Odds,LEIKNIR REYKJAVIK,1.83,,100,83.00,Win,Darijo Belic,Football,2016-05-06 20:34:02
+2016-05-07 15:30:00,Turkey,Bank Asya 1. Lig,SAMSUNSPOR vs MALATYA BLD SPOR,0-0 (0-0),Match Odds,SAMSUNSPOR,1.85,,100,-100.00,Lost,Darijo Belic,Football,2016-05-06 20:39:02
+2016-04-30 20:30:00,Belgium,Jupiler Pro League,KV KORTRIJK vs STANDARD LIEGE,1-0 (0-0),Match Odds,KV KORTRIJK,1.85,,100,85.00,Win,Darijo Belic,Football,2016-04-30 19:14:02
+2016-04-29 20:00:00,Netherlands,Jupiler League,ACHILLES '29 vs VVV VENLO,1-3 (0-2),Asian handicap,VVV VENLO -1.00,1.82,,100,82.00,Win,Darijo Belic,Football,2016-04-28 17:01:02
+2016-04-29 01:00:00,Colombia,Apertura I,ATLETICO BUCARAMANGA vs DEPORTIVO CALI,1-1 (1-1),Asian handicap,DEPORTIVO CALI +0,1.93,,100,0.00,Void,Darijo Belic,Football,2016-04-28 17:03:03
+2016-04-29 00:15:00,Brazil,Copa do Brasil,SPORT RECIFE PE vs APARECIDENSE GO,1-2 (1-1),Match Odds,SPORT RECIFE PE,1.85,,100,-100.00,Lost,Darijo Belic,Football,2016-04-28 16:59:01
+2016-04-16 15:00:00,Sweden,Div 1,CARLSTAD UNITED vs UMEAA FC,3-2 (1-2),Match Odds,UMEAA FC,1.97,,100,-100.00,Lost,Darijo Belic,Football,2016-04-16 01:27:02
+2016-04-14 22:00:00,Colombia,"Copa Colombia, Group H",DEPORTES QUINDIO vs DEPORTES PEREIRA,2-0 (0-0),Match Odds,DEPORTES QUINDIO,1.88,,100,88.00,Win,Darijo Belic,Football,2016-04-14 15:43:02
+2016-04-14 18:00:00,Norway,NM Cup,ARENDAL FK vs VINDBJART,2-2 (1-1),Match Odds,ARENDAL FK,1.85,,100,-100.00,Lost,Darijo Belic,Football,2016-04-14 15:43:05
+2016-04-10 17:00:00,Portugal,Liga Vitalis,GD CHAVES vs ACADEMICO VISEU,2-1 (1-1),Asian handicap,GD CHAVES -1.00,1.86,,100,0.00,Void,Darijo Belic,Football,2016-04-09 00:34:04
+2016-04-10 15:30:00,Norway,Eliteserien,SK BRANN vs BODO/GLIMT,1-0 (1-0),Match Odds,SK BRANN,1.85,,100,85.00,Win,Darijo Belic,Football,2016-04-04 16:51:02
+2016-04-09 23:15:00,Bolivia,"Liga Profesional Boliviano, Clausura",CA NACIONAL POTOSI vs SPORT BOYS,4-1 (3-0),Match Odds,CA NACIONAL POTOSI,2.00,,100,100.00,Win,Darijo Belic,Football,2016-04-09 00:31:03
+2016-04-09 09:00:00,Australia,"NPL, Western Australia",BALCATTA vs ARMADALE SC,1-3,Match Odds,BALCATTA,1.75,,100,-100.00,Lost,Darijo Belic,Football,2016-04-09 00:30:03
+2016-04-09 03:00:00,Ecuador,"Serie A, Primera Etapa",FUERZA AMARILLA S.C. vs CD RIVER PLATE ECUADOR,0-2 (0-0),Match Odds,FUERZA AMARILLA S.C.,2.05,,100,-100.00,Lost,Darijo Belic,Football,2016-04-09 00:33:03
+2016-04-05 17:30:00,Croatia,Croatia Cup,NK SLAVEN BELUPO vs HNK RIJEKA,3-0 (1-0),Asian handicap,NK SLAVEN BELUPO +0.50,1.98,,100,98.00,Win,Darijo Belic,Football,2016-04-04 16:48:02
+2016-04-05 00:05:00,Argentina,Primera B Nacional,DEFENSORES DE BELGRANO vs CA PLATENSE,3-1 (3-1),Match Odds,DEFENSORES DE BELGRANO,2.00,Bwin,100,100.00,Win,Darijo Belic,Football,2016-04-04 16:50:02
+2016-04-04 20:45:00,England,Skrill South,WEALDSTONE FC vs HEMEL HEMPSTEAD,0-0 (0-0),Match Odds,WEALDSTONE FC,2.10,,100,-100.00,Lost,Darijo Belic,Football,2016-04-04 16:52:05
+2016-04-04 20:45:00,England Amateur,"Southern Football League, Premier Division",REDDITCH UNITED vs DUNSTABLE TOWN FC,0-0,Asian handicap,REDDITCH UNITED -1.00,2.08,,100,-100.00,Lost,Darijo Belic,Football,2016-04-04 16:49:02
+2016-04-04 20:30:00,Italy,"Lega Pro Prima Divisione, Girone C",US FOGGIA vs CATANIA CALCIO,3-0 (1-0),Match Odds,US FOGGIA,1.80,,100,80.00,Win,Darijo Belic,Football,2016-04-04 16:47:02
+2016-03-26 20:45:00,Ireland,Airtricity First Division,ATHLONE TOWN AFC vs LIMERICK FC,0-5 (0-2),Match Odds 1st Half,LIMERICK FC Half time,1.70,,100,70.00,Win,Darijo Belic,Football,2016-03-24 00:09:01
+2016-03-24 14:00:00,International Youth,U21 Euro Qualification,MACEDONIA vs ICELAND,0-0 (0-0),Match Odds,MACEDONIA,2.30,,100,-100.00,Lost,Darijo Belic,Football,2016-03-24 00:12:01
+2016-03-24 01:45:00,Brazil,Catarinense,METROPOLITANO SC vs JOINVILLE SC,2-2 (1-0),Match Odds,JOINVILLE SC,2.10,,100,-100.00,Lost,Darijo Belic,Football,2016-03-24 00:06:02
+2016-03-24 01:00:00,Colombia,Apertura I,INDEPENDIENTE SANTA FE vs CLUB ATLETICO JUNIOR,3-2 (1-1),Match Odds,INDEPENDIENTE SANTA FE,1.80,Bwin,100,80.00,Win,Darijo Belic,Football,2016-03-23 00:01:02
+2016-03-23 18:00:00,International Youth,U21 Euro Qualification,MALTA vs MONTENEGRO,0-1 (0-1),Match Odds,MONTENEGRO,1.90,,100,90.00,Win,Darijo Belic,Football,2016-03-23 00:02:01
+2016-03-20 12:15:00,Portugal,Liga Vitalis,PORTIMONENSE SC vs BENFICA LISBON B,1-0 (0-0),Match Odds,PORTIMONENSE SC,1.95,,100,95.00,Win,Darijo Belic,Football,2016-03-18 17:18:01
+2016-03-20 00:00:00,USA,Major League Soccer,NY RED BULLS vs HOUSTON DYNAMO,4-3 (1-2),Match Odds,NY RED BULLS,1.90,,100,90.00,Win,Darijo Belic,Football,2016-03-16 23:29:04
+2016-03-19 23:30:00,Colombia,Apertura I,FORTALEZA FC vs DEPORTIVO LA EQUIDAD,0-1 (0-1),Match Odds,DEPORTIVO LA EQUIDAD,2.10,,100,110.00,Win,Darijo Belic,Football,2016-03-18 17:10:02
+2016-03-19 20:30:00,Brazil,Paulista Serie A1,RED BULL BRASIL SP vs OESTE SP,2-3 (1-1),Match Odds,RED BULL BRASIL SP,1.83,,100,-100.00,Lost,Darijo Belic,Football,2016-03-18 17:15:03
+2016-03-19 18:00:00,Norway,Eliteserien,ROSENBORG BK vs STROMSGODSET,1-0 (1-0),Match Odds,ROSENBORG BK,1.90,,100,90.00,Win,Darijo Belic,Football,2016-03-16 23:27:03
+2016-03-19 14:00:00,Greece,Super League,SKODA XANTHI FC vs LEVADIAKOS FC,2-2 (1-0),Match Odds,SKODA XANTHI FC,1.75,Bwin,100,-100.00,Lost,Darijo Belic,Football,2016-03-16 23:25:02
+2016-03-18 20:30:00,Belgium,EXQI League,AS EUPEN vs KSV ROESELARE,4-0 (2-0),Match Odds,AS EUPEN,1.75,,100,75.00,Win,Darijo Belic,Football,2016-03-18 17:13:02
+2016-03-18 20:00:00,France,National,US ORLEANS 45 vs ETOILE FREJUS SAINT-RAPHAEL,1-0 (0-0),Match Odds,US ORLEANS 45,1.67,,100,67.00,Win,Darijo Belic,Football,2016-03-18 17:16:03
+2016-03-18 17:00:00,Croatia,1. HNL,NK OSIJEK vs NK ZAGREB,2-0 (1-0),Match Odds,NK OSIJEK,1.75,,100,75.00,Win,Darijo Belic,Football,2016-03-16 23:26:02
+2016-03-17 00:30:00,Colombia,"Copa Postobon, Group F",BOYACA CHICO FC vs LLANEROS FC,0-0 (0-0),Match Odds,BOYACA CHICO FC,1.91,Bwin,100,-100.00,Lost,Darijo Belic,Football,2016-03-16 23:29:02
+2016-03-14 19:30:00,Romania,"Liga 1, Championship round",ASA TARGU MURES vs DINAMO BUCURESTI,0-0 (0-0),Match Odds,DINAMO BUCURESTI,1.70,,100,-100.00,Lost,Darijo Belic,Football,2016-03-10 19:31:02
+2016-03-13 17:00:00,Spain,Segunda B Group III,LLEIDA ESPORTIU vs BARCELONA B FC,2-0,Match Odds,BARCELONA B FC,3.00,,100,-100.00,Lost,Darijo Belic,Football,2016-03-10 19:28:08
+2016-03-13 17:00:00,Spain,Segunda B Group III,HERCULES CF vs VALENCIA CF MESTALLA,1-0,Match Odds,HERCULES CF,2.00,,100,100.00,Win,Darijo Belic,Football,2016-03-10 19:28:02
+2016-03-13 12:00:00,Spain,Segunda B Group III,CP CACERENO vs CD LEALTAD,1-0 (1-0),Match Odds,CP CACERENO,2.60,,100,160.00,Win,Darijo Belic,Football,2016-03-10 19:25:01
+2016-03-12 18:30:00,Spain,Segunda B Group III,CD SAN ROQUE vs CADIZ CF,1-3,Match Odds,CADIZ CF,1.90,,100,90.00,Win,Darijo Belic,Football,2016-03-10 19:27:02
+2016-03-12 14:00:00,Germany,Regionalliga Southwest,TSV STEINBACH vs SC FREIBURG II,2-1 (1-0),Match Odds,TSV STEINBACH,2.21,,100,121.00,Win,Darijo Belic,Football,2016-03-10 19:24:03
+2016-03-11 02:00:00,Colombia,"Copa Postobon, Group E",AMERICA DE CALI vs CLUB CORTULUA,4-2 (1-1),Match Odds,AMERICA DE CALI,2.10,Bwin,100,110.00,Win,Darijo Belic,Football,2016-03-10 19:30:01
+2016-03-07 18:00:00,Croatia,1. HNL,RNK SPLIT vs NK ISTRA 1961,1-1 (1-0),Asian handicap,RNK SPLIT -1.00,1.82,,100,-100.00,Lost,Darijo Belic,Football,2016-03-03 23:42:04
+2016-03-06 17:15:00,Peru,"Primera Division, Apertura",INTI GAS AYACUCHO vs ALIANZA ATLETICO,1-0 (0-0),Match Odds,INTI GAS AYACUCHO,2.05,,100,105.00,Win,Darijo Belic,Football,2016-03-03 23:40:04
+2016-03-06 17:00:00,Croatia,1. HNL,HNK RIJEKA vs NK OSIJEK,2-1 (0-0),Asian handicap,HNK RIJEKA -1.50,1.87,,100,-100.00,Lost,Darijo Belic,Football,2016-03-03 23:42:01
+2016-03-06 14:00:00,Germany,Regionalliga Southwest,SPVGG NECKARELZ vs SV WALDHOF MANNHEIM,0-1 (0-0),Asian handicap,SV WALDHOF MANNHEIM -1.00,1.77,,100,0.00,Void,Darijo Belic,Football,2016-03-03 23:39:02
+2016-03-05 21:00:00,Argentina,Primera B Nacional,JUVENTUD UNIDA GUALEGUAYCHU vs GUILLERMO BROWN,2-1 (1-0),Match Odds,JUVENTUD UNIDA GUALEGUAYCHU,2.36,,100,136.00,Win,Darijo Belic,Football,2016-03-03 23:37:05
+2016-03-05 02:00:00,Peru,"Primera Division, Apertura",JUAN AURICH DE CHICLAYO vs REAL GARCILASO,2-2 (1-1),Match Odds,JUAN AURICH DE CHICLAYO,1.75,,100,-100.00,Lost,Darijo Belic,Football,2016-03-03 23:36:05
+2016-03-04 19:30:00,Germany,Regionalliga North,FC ST. PAULI II vs TSV SCHILKSEE,3-1 (2-1),Asian handicap,FC ST. PAULI II -1.00,1.85,,100,85.00,Win,Darijo Belic,Football,2016-03-03 23:41:01
+2016-02-28 22:00:00,Peru,"Primera Division, Apertura",CC DEPORTIVO MUNICIPAL vs UNIVERSITARIO DE DEPORTES,1-4 (0-2),Match Odds,UNIVERSITARIO DE DEPORTES,2.75,,100,175.00,Win,Darijo Belic,Football,2016-02-26 22:44:07
+2016-02-28 18:00:00,Ecuador,"Serie A, Primera Etapa",SD AUCAS vs MUSHUC RUNA,1-1 (0-0),Match Odds,SD AUCAS,1.62,,100,-100.00,Lost,Darijo Belic,Football,2016-02-26 22:49:02
+2016-02-28 08:00:00,Australia,Victoria Premier League,HEIDELBERG UNITED vs MELBOURNE KNIGHTS,6-1,Match Odds,HEIDELBERG UNITED,2.17,,100,117.00,Win,Darijo Belic,Football,2016-02-26 00:56:02
+2016-02-28 03:30:00,Mexico,"Primera Division, Clausura",MONARCAS MORELIA vs GALLOS BLANCOS QUERETARO,1-1 (0-1),Match Odds,MONARCAS MORELIA,1.85,,100,-100.00,Lost,Darijo Belic,Football,2016-02-26 00:58:05
+2016-02-28 01:45:00,Peru,"Primera Division, Apertura",ALIANZA LIMA vs SPORTING CRISTAL,2-4 (0-2),Match Odds,ALIANZA LIMA,2.15,,100,-100.00,Lost,Darijo Belic,Football,2016-02-26 22:51:02
+2016-02-27 14:35:00,India,I-League,MUMBAI FC vs SPORTING CLUBE DE GOA,2-2 (1-1),Match Odds,MUMBAI FC,2.00,Bwin,100,-100.00,Lost,Darijo Belic,Football,2016-02-26 22:45:05
+2016-02-27 14:00:00,Serbia,Superliga,FK NOVI PAZAR vs FK BORAC CACAK,0-0 (0-0),Match Odds,FK NOVI PAZAR,2.10,,100,-100.00,Lost,Darijo Belic,Football,2016-02-26 00:57:02
+2016-02-27 09:00:00,Australia,Brisbane Premier League,LOGAN LIGHTNING vs IPSWICH KNIGHTS,1-0,Match Odds,LOGAN LIGHTNING,1.80,,100,80.00,Win,Darijo Belic,Football,2016-02-26 22:52:01
+2016-02-25 20:00:00,Brazil,Campeonato Carioca,PORTUGUESA RJ vs BONSUCESSO,3-1 (2-1),Match Odds,PORTUGUESA RJ,1.85,,100,85.00,Win,Darijo Belic,Football,2016-02-25 01:30:02
+2016-02-25 16:00:00,International Clubs,Club Friendly Games,STROMSGODSET vs FC SHAKHTER SOLIGORSK,2-0 (0-0),Match Odds,STROMSGODSET,1.90,,100,90.00,Win,Darijo Belic,Football,2016-02-25 01:32:02
+2016-02-20 16:00:00,England,Skrill South,CONCORD RANGERS vs GOSPORT BOROUGH,0-0 (0-0),Match Odds,GOSPORT BOROUGH,2.20,,100,-100.00,Lost,Darijo Belic,Football,2016-02-18 22:04:02
 2016-02-09 23:00:00,Brazil,Mineiro,TRICORDIANO MG vs GUARANI MG,3-0 (1-0),Draw no bet,GUARANI MG,2.12,,100,-100.00,Lost,Darijo Belic,Football,2016-02-08 23:52:06
 2016-02-09 21:30:00,Peru,"Primera Division, Apertura",DEFENSOR LA BOCANA vs INTI GAS AYACUCHO,1-1 (1-0),Match Odds,DEFENSOR LA BOCANA,1.95,,100,-100.00,Lost,Darijo Belic,Football,2016-02-08 23:50:02
 2016-02-06 23:30:00,Colombia,Apertura I,BOYACA PATRIOTAS vs ATLETICO BUCARAMANGA,3-3 (1-2),Match Odds,BOYACA PATRIOTAS,1.73,,100,-100.00,Lost,Darijo Belic,Football,2016-02-03 23:00:05

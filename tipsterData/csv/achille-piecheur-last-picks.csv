@@ -1,4 +1,183 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-09 21:00:00,Portugal,Liga Sagres,GD ESTORIL PRAIA vs FC AROUCA,1-1 (0-1),Asian handicap,GD ESTORIL PRAIA -0.50,2.11,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-09 09:27:04
+2016-05-08 20:45:00,Italy,Serie A,HELLAS VERONA vs JUVENTUS TURIN,2-1 (1-0),Asian handicap,JUVENTUS TURIN -0.75,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-08 17:34:01
+2016-05-08 14:30:00,Netherlands,Eredivisie,PEC ZWOLLE vs PSV EINDHOVEN,1-3 (0-2),Asian Handicap 1st Half,PSV EINDHOVEN -0.50 Half time,1.87,,100,87.00,Win,Achille Piecheur,Football,2016-05-08 10:57:04
+2016-05-08 12:30:00,Italy,Serie A,AS ROMA vs AC CHIEVO VERONA,3-0 (2-0),Asian Handicap 1st Half,AS ROMA -0.75 Half time,1.88,,100,88.00,Win,Achille Piecheur,Football,2016-05-08 10:19:17
+2016-05-07 20:45:00,Italy,Serie A,BOLOGNA FC vs AC MILAN,0-1 (0-1),Asian handicap,AC MILAN -0.50,2.09,,100,109.00,Win,Achille Piecheur,Football,2016-05-07 16:58:01
+2016-05-07 15:00:00,Italy,Serie B,TERNANA CALCIO vs AC CESENA,1-1 (1-1),Match Odds,AC CESENA,2.14,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-07 10:27:02
+2016-05-07 15:00:00,Italy,Serie B,NOVARA CALCIO vs ASCOLI,2-0 (1-0),Match Odds 1st Half,NOVARA CALCIO Half time,2.25,,100,125.00,Win,Achille Piecheur,Football,2016-05-07 10:06:05
+2016-05-06 20:30:00,Italy,Serie B,FC BARI 1908 vs CAGLIARI CALCIO,0-3 (0-1),Match Odds,Draw,3.00,,50,-50.00,Lost,Achille Piecheur,Football,2016-05-06 10:36:02
+2016-05-05 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs VILLARREAL CF,3-0 (1-0),Asian handicap,LIVERPOOL FC -0.50,1.76,,100,76.00,Win,Achille Piecheur,Football,2016-05-05 16:17:01
+2016-05-04 20:45:00,European cups,UEFA Champions League,REAL MADRID vs MANCHESTER CITY,1-0 (1-0),Match Odds 1st Half,REAL MADRID Half time,2.04,,100,104.00,Win,Achille Piecheur,Football,2016-05-04 11:52:02
+2016-05-03 12:00:00,International Clubs,"AFC Champions League, Group G",MELBOURNE VICTORY vs GAMBA OSAKA,2-1 (2-0),Match Odds 1st Half,MELBOURNE VICTORY Half time,1.96,,100,96.00,Win,Achille Piecheur,Football,2016-05-03 09:05:03
+2016-05-02 20:30:00,Italy,Serie B,AC CESENA vs PRO VERCELLI,2-1 (1-0),Over / Under,Over +2.50,2.01,,100,101.00,Win,Achille Piecheur,Football,2016-05-02 11:41:01
+2016-05-02 15:30:00,England,Championship,BRIGHTON & HOVE ALBION FC vs DERBY COUNTY,1-1 (0-0),Asian handicap,BRIGHTON & HOVE ALBION FC -0.75,1.86,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-01 18:46:02
+2016-05-01 14:30:00,Netherlands,Eredivisie,PSV EINDHOVEN vs CAMBUUR LEEUWARDEN,6-2 (3-2),Asian Handicap 1st Half,PSV EINDHOVEN -1.50 Half time,1.98,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-01 11:42:02
+2016-05-01 12:30:00,Italy,Serie A,JUVENTUS TURIN vs CARPI FC,2-0 (1-0),Asian handicap,JUVENTUS TURIN -1.50,1.84,,100,84.00,Win,Achille Piecheur,Football,2016-05-01 07:34:02
+2016-04-30 19:30:00,Portugal,Liga Sagres,FC PORTO vs SPORTING CP,1-3 (1-2),Asian handicap,FC PORTO +0.25,1.79,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-30 18:02:02
+2016-04-30 16:00:00,England,Premier League,NEWCASTLE UNITED vs CRYSTAL PALACE,1-0 (0-0),Match Odds,NEWCASTLE UNITED,1.96,,100,96.00,Win,Achille Piecheur,Football,2016-04-30 12:25:02
+2016-04-30 12:15:00,Portugal,Liga Vitalis,SC OLHANENSE vs SC FREAMUNDE,3-2 (1-1),Match Odds,SC FREAMUNDE,2.20,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-30 09:37:02
+2016-04-29 20:45:00,England,Championship,BIRMINGHAM CITY vs MIDDLESBROUGH FC,2-2 (1-1),Asian handicap,MIDDLESBROUGH FC -1.00,2.07,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-29 09:51:03
+2016-04-29 20:30:00,Spain,Liga BBVA,SPORTING GIJON vs SD EIBAR,2-0 (1-0),Asian handicap,SPORTING GIJON -0.75,1.89,,100,89.00,Win,Achille Piecheur,Football,2016-04-29 14:42:03
+2016-04-29 12:15:00,Australia,Victoria Premier League,AVONDALE HEIGHTS SC vs SOUTH MELBOURNE,0-2,Over / Under,Over +3.00,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-29 10:54:02
+2016-04-29 02:45:00,Copa Libertadores,Copa Libertadores,CERRO PORTENO vs BOCA JUNIORS,1-2 (0-1),Match Odds,BOCA JUNIORS,2.26,,100,126.00,Win,Achille Piecheur,Football,2016-04-28 09:34:02
+2016-04-28 21:05:00,European cups,UEFA Europa League,VILLARREAL CF vs LIVERPOOL FC,1-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2016-04-28 09:41:02
+2016-04-28 16:00:00,Russia,Premier League,FC URAL YEKATERINBURG vs CSKA MOSCOW,0-3 (0-1),Asian handicap,CSKA MOSCOW -1.00,1.90,,100,90.00,Win,Achille Piecheur,Football,2016-04-28 14:10:01
+2016-04-25 20:30:00,Spain,Liga BBVA,CELTA DE VIGO vs GRANADA CF,2-1 (1-0),Asian handicap,GRANADA CF +0.50,2.53,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-25 10:39:05
+2016-04-25 20:30:00,Italy,Serie B,NOVARA CALCIO vs PERUGIA,2-2 (1-1),Asian handicap,NOVARA CALCIO -0.50,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-25 10:20:02
+2016-04-25 17:00:00,Italy,Serie A,HELLAS VERONA vs AC MILAN,2-1 (0-1),Asian handicap,AC MILAN -1.50,3.05,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-25 09:59:01
+2016-04-24 23:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",RACING CLUB vs CA INDEPENDIENTE,0-0 (0-0),Over / Under,Over +2.75,2.47,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 17:08:02
+2016-04-24 21:30:00,Portugal,Liga Sagres,RIO AVE FC vs BENFICA LISBON,0-1 (0-0),Asian handicap,BENFICA LISBON -1.50,2.40,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 17:25:03
+2016-04-24 21:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",BOCA JUNIORS vs CA RIVER PLATE,0-0 (0-0),Match Odds,BOCA JUNIORS,2.09,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 17:04:03
+2016-04-24 20:45:00,Italy,Serie A,ACF FIORENTINA vs JUVENTUS TURIN,1-2 (0-1),Match Odds,JUVENTUS TURIN,2.15,,100,115.00,Win,Achille Piecheur,Football,2016-04-24 09:35:02
+2016-04-24 20:30:00,Spain,Liga BBVA,VILLARREAL CF vs REAL SOCIEDAD,0-0 (0-0),Asian handicap,VILLARREAL CF -1.00,2.36,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 18:40:03
+2016-04-24 18:30:00,Russia,Premier League,FC ROSTOV vs ZENIT ST PETERSBURG,3-0 (1-0),Asian handicap,ZENIT ST PETERSBURG -0.50,2.23,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 15:57:03
+2016-04-24 18:00:00,Netherlands,KNVB beker,FEYENOORD ROTTERDAM vs FC UTRECHT,2-1 (1-0),Asian handicap,FEYENOORD ROTTERDAM -0.75,2.14,,100,57.00,Half win,Achille Piecheur,Football,2016-04-24 15:55:04
+2016-04-24 16:00:00,Spain,Liga BBVA,SEVILLA FC vs BETIS SEVILLA,2-0 (0-0),Asian handicap,SEVILLA FC -1.50,2.33,,100,133.00,Win,Achille Piecheur,Football,2016-04-24 14:53:03
+2016-04-24 15:05:00,England,Premier League,SUNDERLAND AFC vs ARSENAL FC,0-0 (0-0),Asian handicap,SUNDERLAND AFC +0.75,2.11,,100,111.00,Win,Achille Piecheur,Football,2016-04-24 11:06:01
+2016-04-24 15:00:00,Italy,Serie A,BOLOGNA FC vs GENOA FC,2-0 (1-0),Over / Under,Over +2.50,2.25,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-24 10:43:01
+2016-04-23 21:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",GODOY CRUZ A.T. vs SAN MARTIN DE SAN JUAN,1-0 (0-0),Over / Under,Over +2.50,2.11,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-23 18:05:03
+2016-04-23 21:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA SAN LORENZO vs CA HURACAN,1-0 (0-0),Over / Under,Over +2.50,1.96,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-23 17:06:03
+2016-04-23 20:30:00,Spain,Liga BBVA,FC BARCELONA vs SPORTING GIJON,6-0 (1-0),Asian Handicap 1st Half,FC BARCELONA -1.50 Half time,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-23 09:55:02
+2016-04-23 16:00:00,Spain,Liga BBVA,RAYO VALLECANO vs REAL MADRID,2-3 (2-1),Asian handicap,REAL MADRID -1.50,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-23 09:59:05
+2016-04-23 16:00:00,England,Championship,MIDDLESBROUGH FC vs IPSWICH TOWN,0-0 (0-0),Asian Handicap 1st Half,MIDDLESBROUGH FC -0.50 Half time,1.89,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-23 09:53:02
+2016-04-23 16:00:00,England,Championship,CHARLTON ATHLETIC vs BRIGHTON & HOVE ALBION FC,1-3 (0-1),Asian handicap,BRIGHTON & HOVE ALBION FC -1.00,1.84,,100,84.00,Win,Achille Piecheur,Football,2016-04-22 10:02:02
+2016-04-22 20:45:00,England,Championship,PRESTON NORTH END vs BURNLEY FC,0-1 (0-1),Asian handicap,BURNLEY FC -0.50,2.17,,100,117.00,Win,Achille Piecheur,Football,2016-04-21 09:48:02
+2016-04-22 11:45:00,Australia,Hyundai A-League,ADELAIDE UNITED FC vs MELBOURNE CITY FC,4-1 (0-0),Asian handicap,MELBOURNE CITY FC +0.50,1.93,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-22 09:32:02
+2016-04-21 20:45:00,England,Premier League,ARSENAL FC vs WEST BROMWICH ALBION,2-0 (2-0),Asian handicap,ARSENAL FC -1.50,1.81,,100,81.00,Win,Achille Piecheur,Football,2016-04-21 10:02:03
+2016-04-20 20:45:00,Italy,Serie A,JUVENTUS TURIN vs LAZIO ROMA,3-0 (1-0),Asian handicap,JUVENTUS TURIN -1.00,2.00,,100,100.00,Win,Achille Piecheur,Football,2016-04-20 09:31:06
+2016-04-20 20:45:00,Italy,Serie A,GENOA FC vs INTER MILAN,1-0 (0-0),Match Odds,INTER MILAN,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-20 09:29:02
+2016-04-20 20:45:00,Netherlands,Eredivisie,SC HEERENVEEN vs AJAX AMSTERDAM,0-2 (0-0),Asian handicap,AJAX AMSTERDAM -1.00,2.07,,100,107.00,Win,Achille Piecheur,Football,2016-04-19 08:21:54
+2016-04-19 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs QUEENS PARK RANGERS,4-0 (1-0),Asian handicap,BRIGHTON & HOVE ALBION FC -1.00,2.05,,100,105.00,Win,Achille Piecheur,Football,2016-04-19 08:18:03
+2016-04-18 22:00:00,Portugal,Liga Sagres,BENFICA LISBON vs VITORIA SETUBAL,2-1 (2-1),Asian Handicap 1st Half,BENFICA LISBON -1.50 Half time,2.60,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-18 09:12:02
+2016-04-18 20:30:00,Italy,Serie B,AC CESENA vs FC CROTONE,2-1 (2-0),Match Odds,AC CESENA,2.34,,100,134.00,Win,Achille Piecheur,Football,2016-04-18 09:09:02
+2016-04-17 22:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",VELEZ SARSFIELD vs CA INDEPENDIENTE,0-2 (0-1),Over / Under,Over +2.50,2.29,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 17:02:34
+2016-04-17 22:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA TEMPERLEY vs QUILMES AC,2-0 (0-0),Over / Under,Over +2.50,2.38,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 17:02:02
+2016-04-17 22:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",SAN MARTIN DE SAN JUAN vs ESTUDIANTES DE LA PLATA,0-2 (0-0),Over / Under,Over +2.75,2.66,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 17:00:20
+2016-04-17 20:45:00,Italy,Serie A,SAMPDORIA GENOA vs AC MILAN,0-1 (0-0),Asian handicap,AC MILAN -0.50,2.29,,100,129.00,Win,Achille Piecheur,Football,2016-04-17 16:59:04
+2016-04-17 20:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA SAN LORENZO vs CA ROSARIO CENTRAL,2-1 (1-1),Over / Under,Over +2.50,2.25,,100,125.00,Win,Achille Piecheur,Football,2016-04-17 14:24:23
+2016-04-17 20:30:00,Spain,Liga BBVA,FC BARCELONA vs VALENCIA CF,1-2 (0-2),Asian Handicap 1st Half,FC BARCELONA -1.00 Half time,1.83,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 09:28:04
+2016-04-17 18:00:00,Italy,Serie A,LAZIO ROMA vs FC EMPOLI,2-0 (2-0),Over / Under,Over +3.50,2.83,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 14:24:01
+2016-04-17 17:00:00,Portugal,Liga Vitalis,ATLETICO CP vs PORTIMONENSE SC,2-2 (1-0),Asian handicap,PORTIMONENSE SC -0.75,2.41,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 14:21:04
+2016-04-17 16:00:00,Portugal,Liga Vitalis,FC PORTO B vs CD FEIRENSE,2-0 (2-0),Asian handicap,CD FEIRENSE +0.25,2.24,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 09:30:02
+2016-04-17 15:00:00,Italy,Serie A,HELLAS VERONA vs FROSINONE CALCIO,1-2 (0-1),Asian handicap,FROSINONE CALCIO +0.50,2.40,,100,140.00,Win,Achille Piecheur,Football,2016-04-17 11:32:02
+2016-04-17 15:00:00,Italy,Serie A,JUVENTUS TURIN vs US PALERMO,4-0 (1-0),Asian Handicap 1st Half,JUVENTUS TURIN -1.00 Half time,2.13,,100,0.00,Void,Achille Piecheur,Football,2016-04-17 09:23:02
+2016-04-17 13:30:00,Germany,2. Bundesliga,GREUTHER FURTH vs FORTUNA DUSSELDORF,3-1 (3-1),Asian handicap,FORTUNA DUSSELDORF +0.25,1.81,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 10:17:02
+2016-04-17 12:30:00,Italy,Serie A,ATALANTA BERGAMASCA vs AS ROMA,3-3 (2-2),Asian handicap,AS ROMA -0.50,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 09:22:02
+2016-04-17 12:30:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs FC UTRECHT,2-2 (0-0),Asian Handicap 1st Half,AJAX AMSTERDAM -0.50 Half time,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-17 09:17:04
+2016-04-17 12:15:00,Portugal,Liga Vitalis,GD CHAVES vs GIL VICENTE FC,4-0 (0-0),Match Odds,GD CHAVES,1.80,,100,80.00,Win,Achille Piecheur,Football,2016-04-16 16:59:02
+2016-04-17 01:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",RACING CLUB vs ARGENTINOS JRS,2-2 (1-2),Over / Under,Over +2.50,1.91,,100,91.00,Win,Achille Piecheur,Football,2016-04-16 21:19:02
+2016-04-16 23:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",UNION DE SANTA FE vs CA TIGRE,1-0 (1-0),Over / Under,Over +2.50,2.07,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 21:14:24
+2016-04-16 23:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",BOCA JUNIORS vs CA ALDOSIVI,4-1 (1-1),Asian Handicap 1st Half,BOCA JUNIORS -0.50 Half time,2.17,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 21:14:02
+2016-04-16 20:00:00,France,Ligue 1,TROYES AC vs STADE REIMS,2-1 (0-0),Asian handicap,STADE REIMS -0.75,1.89,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 09:27:03
+2016-04-16 18:30:00,Russia,Premier League,ZENIT ST PETERSBURG vs FC SPARTAK MOSCOW,5-2 (1-2),Asian handicap,ZENIT ST PETERSBURG -0.75,1.85,,100,85.00,Win,Achille Piecheur,Football,2016-04-16 11:06:02
+2016-04-16 18:00:00,Norway,Eliteserien,ROSENBORG BK vs SK BRANN,3-0 (1-0),Asian Handicap 1st Half,ROSENBORG BK -0.75 Half time,2.08,,100,54.00,Half win,Achille Piecheur,Football,2016-04-16 15:59:02
+2016-04-16 17:00:00,France,Ligue 1,PARIS ST GERMAIN vs SM CAEN,6-0 (2-0),Asian Handicap 1st Half,PARIS ST GERMAIN -0.75 Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2016-04-16 15:56:01
+2016-04-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs SWANSEA CITY,3-0 (1-0),Match Odds,NEWCASTLE UNITED,2.37,,100,137.00,Win,Achille Piecheur,Football,2016-04-16 14:52:06
+2016-04-16 16:00:00,Spain,Liga BBVA,GETAFE CF vs REAL MADRID,1-5 (0-2),Asian Handicap 1st Half,REAL MADRID -0.75 Half time,1.81,,100,81.00,Win,Achille Piecheur,Football,2016-04-16 10:58:03
+2016-04-16 16:00:00,England,Premier League,MANCHESTER UNITED vs ASTON VILLA,1-0 (1-0),Asian handicap,MANCHESTER UNITED -1.50,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 10:46:02
+2016-04-16 16:00:00,England,Championship,BIRMINGHAM CITY vs BURNLEY FC,1-2 (0-1),Asian handicap,BURNLEY FC -0.50,2.10,,100,110.00,Win,Achille Piecheur,Football,2016-04-16 09:20:01
+2016-04-16 15:00:00,Italy,Serie B,NOVARA CALCIO vs AS LIVORNO,2-1 (1-0),Match Odds,NOVARA CALCIO,1.99,,100,99.00,Win,Achille Piecheur,Football,2016-04-16 10:26:02
+2016-04-16 13:30:00,England,Championship,BOLTON WANDERERS vs MIDDLESBROUGH FC,1-2 (0-0),Asian Handicap 1st Half,MIDDLESBROUGH FC -0.50 Half time,1.89,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 09:58:10
+2016-04-16 02:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",GIMNASIA Y ESGRIMA vs GODOY CRUZ A.T.,2-2 (2-1),Over / Under,Over +2.75,2.61,,100,161.00,Win,Achille Piecheur,Football,2016-04-15 14:41:03
+2016-04-15 21:00:00,Italy,Serie B,PESCARA CALCIO vs AC CESENA,1-0 (0-0),Over / Under,Over +2.50,2.01,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-15 15:35:04
+2016-04-15 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs FULHAM FC,5-0 (2-0),Asian Handicap 1st Half,BRIGHTON & HOVE ALBION FC -0.50 Half time,2.25,,100,125.00,Win,Achille Piecheur,Football,2016-04-15 10:02:02
+2016-04-15 20:30:00,France,Ligue 1,OLYMPIQUE LYON vs OGC NICE,1-1 (0-1),Asian Handicap 1st Half,OLYMPIQUE LYON -0.50 Half time,2.16,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-15 14:22:06
+2016-04-15 20:30:00,Germany,Bundesliga,HANNOVER 96 vs MONCHENGLADBACH,2-0 (0-0),Asian handicap,MONCHENGLADBACH -0.75,1.92,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-15 10:05:02
+2016-04-15 20:00:00,Netherlands,Eredivisie,DE GRAAFSCHAP vs FC TWENTE ENSCHEDE,1-1 (0-1),Match Odds,DE GRAAFSCHAP,2.60,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-15 18:07:02
+2016-04-15 20:00:00,France,Ligue 2,TOURS FC vs OLYMPIQUE NIMES,1-2 (1-1),Over / Under,Over +2.50,2.38,,100,138.00,Win,Achille Piecheur,Football,2016-04-15 17:22:02
+2016-04-15 18:30:00,Germany,2. Bundesliga,MSV DUISBURG vs 1860 MUNICH,2-1 (0-0),Match Odds,MSV DUISBURG,2.46,,100,146.00,Win,Achille Piecheur,Football,2016-04-15 15:25:02
+2016-04-15 11:35:00,Australia,Hyundai A-League,BRISBANE ROAR FC vs MELBOURNE VICTORY,2-1 (0-0),Asian handicap,MELBOURNE VICTORY +0.50,1.81,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-14 11:08:02
+2016-04-14 21:05:00,European cups,UEFA Europa League,SPARTA PRAGUE vs VILLARREAL CF,2-4 (0-3),Over / Under 1st Half,Under +1.00 Half time,1.90,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-14 12:48:02
+2016-04-14 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs BORUSSIA DORTMUND,4-3 (0-2),Asian handicap,LIVERPOOL FC +0.25,1.83,,100,83.00,Win,Achille Piecheur,Football,2016-04-14 09:53:05
+2016-04-14 18:00:00,Romania,Cupa Ligii,DINAMO BUCURESTI vs CS CONCORDIA CHIAJNA,1-1 (1-0),Asian Handicap 1st Half,DINAMO BUCURESTI -0.50 Half time,2.01,,100,101.00,Win,Achille Piecheur,Football,2016-04-14 17:18:01
+2016-04-13 18:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs SC FREAMUNDE,2-1 (0-1),Match Odds,SC FREAMUNDE,2.61,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-13 10:24:01
+2016-04-13 17:00:00,Portugal,Liga Vitalis,SPORTING BRAGA B vs FC FAMALICAO,2-0 (0-0),Match Odds,FC FAMALICAO,2.29,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-13 10:23:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,PORTIMONENSE SC vs VITORIA GUIMARAES B,3-1 (2-0),Match Odds 1st Half,PORTIMONENSE SC Half time,2.23,,100,123.00,Win,Achille Piecheur,Football,2016-04-13 10:14:24
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CD DAS AVES vs GD CHAVES,2-1 (1-0),Match Odds,GD CHAVES,2.49,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-13 10:14:01
+2016-04-11 20:45:00,England,Championship,NOTTINGHAM FOREST vs BRIGHTON & HOVE ALBION FC,1-2 (0-1),Match Odds,BRIGHTON & HOVE ALBION FC,2.25,,100,125.00,Win,Achille Piecheur,Football,2016-04-11 09:10:02
+2016-04-11 20:30:00,France,Ligue 2,AS NANCY vs US CRETEIL,1-0 (0-0),Over / Under,Over +2.50,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-11 09:12:03
+2016-04-11 17:00:00,Russia,Premier League,FC KRYLIYA SOVETOV SAMARA vs FC LOKOMOTIV MOSCOW,0-0 (0-0),Over / Under,Over +2.00,1.93,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-11 09:15:03
+2016-04-10 23:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA ROSARIO CENTRAL vs VELEZ SARSFIELD,2-3 (1-1),Over / Under,Over +2.50,2.06,,100,106.00,Win,Achille Piecheur,Football,2016-04-10 17:46:03
+2016-04-10 21:00:00,France,Ligue 1,OLYMPIQUE MARSEILLE vs FC GIRONDINS BORDEAUX,0-0 (0-0),Match Odds,OLYMPIQUE MARSEILLE,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 17:34:05
+2016-04-10 20:45:00,Italy,Serie A,US PALERMO vs LAZIO ROMA,0-3 (0-2),Asian handicap,US PALERMO +0.25,1.98,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 14:21:02
+2016-04-10 18:00:00,Greece,Super League,PANTHRAKIKOS FC KOMOTINI vs IRAKLIS 1908,0-3 (0-1),Both team to score,Yes,1.87,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 14:52:02
+2016-04-10 17:00:00,Portugal,Liga Vitalis,SC FREAMUNDE vs CLUBE ORIENTAL DE LISBOA,0-0 (0-0),Asian Handicap 1st Half,SC FREAMUNDE -0.50 Half time,2.01,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 14:37:04
+2016-04-10 17:00:00,Portugal,Liga Vitalis,GD CHAVES vs ACADEMICO VISEU,2-1 (1-1),Asian Handicap 1st Half,GD CHAVES -0.50 Half time,2.02,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 14:34:02
+2016-04-10 17:00:00,France,Ligue 1,OGC NICE vs STADE RENNES,3-0 (2-0),Over / Under,Over +2.50,2.07,,100,107.00,Win,Achille Piecheur,Football,2016-04-10 14:14:02
+2016-04-10 13:30:00,Germany,2. Bundesliga,1 FC NUREMBERG vs MSV DUISBURG,1-2 (0-1),Asian Handicap 1st Half,1 FC NUREMBERG -0.50 Half time,2.11,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 10:03:03
+2016-04-10 12:30:00,Italy,Serie A,FC EMPOLI vs AC FIORENTINA,2-0 (1-0),Both team to score,Yes,1.80,Bwin,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 10:11:01
+2016-04-10 12:00:00,Spain,Liga BBVA,SPORTING GIJON vs CELTA DE VIGO,0-1 (0-0),Asian handicap,SPORTING GIJON +0.25,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-10 10:08:03
+2016-04-09 18:00:00,Italy,Serie A,AC CHIEVO VERONA vs CARPI FC,1-0 (0-0),Asian handicap,CARPI FC +0.50,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-09 09:07:02
+2016-04-09 16:00:00,England,Championship,MIDDLESBROUGH FC vs PRESTON NORTH END,1-0 (1-0),Asian Handicap 1st Half,MIDDLESBROUGH FC -0.50 Half time,2.20,,100,120.00,Win,Achille Piecheur,Football,2016-04-09 14:22:27
+2016-04-09 13:30:00,England,Championship,BURNLEY FC vs LEEDS UNITED,1-0 (1-0),Asian Handicap 1st Half,BURNLEY FC -0.50 Half time,2.18,,100,118.00,Win,Achille Piecheur,Football,2016-04-09 08:59:02
+2016-04-09 12:30:00,Russia,Premier League,CSKA MOSCOW vs FC MORDOVIA SARANSK,7-1 (5-0),Match Odds 1st Half,CSKA MOSCOW Half time,1.80,,100,80.00,Win,Achille Piecheur,Football,2016-04-09 09:05:02
+2016-04-09 11:30:00,Australia,Hyundai A-League,MELBOURNE VICTORY vs BRISBANE ROAR FC,0-0 (0-0),Asian handicap,BRISBANE ROAR FC -0.50,2.06,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-09 08:50:03
+2016-04-08 20:30:00,Spain,Liga BBVA,GRANADA CF vs MALAGA CF,0-0 (0-0),Asian handicap,GRANADA CF -0.25,1.99,,100,-50.00,Half lost,Achille Piecheur,Football,2016-04-08 10:33:04
+2016-04-08 11:40:00,Australia,Hyundai A-League,MELBOURNE CITY FC vs ADELAIDE UNITED FC,0-2 (0-2),Over / Under,Over +3.25,1.95,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-08 09:41:02
+2016-04-07 21:05:00,European cups,UEFA Europa League,ATHLETIC BILBAO vs SEVILLA FC,1-2 (0-0),Asian handicap,ATHLETIC BILBAO -0.50,2.18,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-07 09:41:03
+2016-04-06 20:45:00,European cups,UEFA Champions League,PARIS ST GERMAIN vs MANCHESTER CITY,2-2 (1-1),Asian handicap,PARIS ST GERMAIN -0.75,1.93,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-06 09:58:02
+2016-04-04 20:30:00,Italy,Serie B,FC BARI 1908 vs AC CESENA,0-0 (0-0),Over / Under Team,FC BARI 1908 Over +1.25,1.94,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-04 11:04:03
+2016-04-04 20:15:00,Germany,2. Bundesliga,GREUTHER FURTH vs SC FREIBURG,2-3 (1-2),Asian handicap,SC FREIBURG -0.50,2.32,,100,132.00,Win,Achille Piecheur,Football,2016-04-04 11:06:07
+2016-04-03 17:30:00,Italy,Serie B,NOVARA CALCIO vs SPORTIVA SALERNITANA,1-1 (0-0),Over / Under Team,NOVARA CALCIO Over +1.50,1.84,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-03 11:52:06
+2016-04-02 20:45:00,Italy,Serie A,JUVENTUS TURIN vs FC EMPOLI,1-0 (1-0),Match Odds 1st Half,JUVENTUS TURIN Half time,1.80,,100,80.00,Win,Achille Piecheur,Football,2016-04-02 11:10:03
+2016-04-01 20:30:00,Spain,Liga BBVA,RAYO VALLECANO vs GETAFE CF,2-0 (1-0),Asian handicap,RAYO VALLECANO -0.50,1.94,,100,94.00,Win,Achille Piecheur,Football,2016-04-01 09:16:02
+2016-04-01 10:40:00,Australia,Hyundai A-League,WESTERN SYDNEY vs CENTRAL COAST MARINERS FC,4-1 (2-1),Asian handicap,WESTERN SYDNEY -1.50,1.89,,100,89.00,Win,Achille Piecheur,Football,2016-04-01 09:11:01
+2016-03-28 10:30:00,Australia,Hyundai A-League,MELBOURNE CITY FC vs WELLINGTON PHOENIX FC,3-0 (1-0),Match Odds 1st Half,MELBOURNE CITY FC Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2016-03-27 09:57:02
+2016-03-26 15:00:00,Italy,Serie B,SPEZIA CALCIO vs TRAPANI CALCIO,1-2 (1-0),Over / Under,Over +2.50,2.19,,100,119.00,Win,Achille Piecheur,Football,2016-03-26 12:32:01
+2016-03-20 15:00:00,Italy,Serie A,HELLAS VERONA vs CARPI FC,1-2 (0-1),Asian handicap,CARPI FC +0.25,2.10,,100,110.00,Win,Achille Piecheur,Football,2016-03-20 10:05:02
+2016-03-20 15:00:00,Italy,Serie A,FROSINONE CALCIO vs AC FIORENTINA,0-0 (0-0),Over / Under Team,ACF FIORENTINA Under +1.75,1.89,,100,89.00,Win,Achille Piecheur,Football,2016-03-20 09:51:02
+2016-03-20 15:00:00,Italy,Serie A,TURIN FC vs JUVENTUS TURIN,1-4 (0-2),Match Odds,JUVENTUS TURIN,1.91,,100,91.00,Win,Achille Piecheur,Football,2016-03-20 09:13:03
+2016-03-19 15:00:00,Italy,Serie B,NOVARA CALCIO vs FC BARI 1908,1-2 (1-0),Over / Under,Over +2.50,2.30,Bwin,100,130.00,Win,Achille Piecheur,Football,2016-03-19 12:05:04
+2016-03-16 20:45:00,European cups,UEFA Champions League,BAYERN MUNICH vs JUVENTUS TURIN,2-2 (0-2),Over / Under Team,JUVENTUS TURIN Over +0.50,1.91,,100,91.00,Win,Achille Piecheur,Football,2016-03-16 11:45:04
+2016-03-14 20:30:00,Italy,Serie B,CAGLIARI CALCIO vs PERUGIA,0-2 (0-1),Asian handicap,CAGLIARI CALCIO -0.75,1.87,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-14 11:06:01
+2016-03-13 20:30:00,Spain,Liga BBVA,LAS PALMAS UD vs REAL MADRID,1-2 (0-1),Asian Handicap 1st Half,REAL MADRID -0.50 Half time,1.95,,100,95.00,Win,Achille Piecheur,Football,2016-03-13 12:44:03
+2016-03-13 16:45:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs NEC NIJMEGEN,2-2 (1-1),Asian handicap,AJAX AMSTERDAM -1.50,1.81,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-13 12:43:05
+2016-03-12 16:00:00,Spain,Liga BBVA,FC BARCELONA vs GETAFE CF,6-0 (4-0),Asian Handicap 1st Half,FC BARCELONA -1.50 Half time,1.95,,100,95.00,Win,Achille Piecheur,Football,2016-03-12 14:49:01
+2016-03-11 20:45:00,Italy,Serie A,JUVENTUS TURIN vs US SASSUOLO,1-0 (1-0),Asian Handicap 1st Half,JUVENTUS TURIN -0.50 Half time,1.93,,100,93.00,Win,Achille Piecheur,Football,2016-03-11 11:54:01
+2016-03-10 21:05:00,European cups,UEFA Europa League,VILLARREAL CF vs BAYER LEVERKUSEN,2-0 (1-0),Match Odds,VILLARREAL CF,2.15,,100,115.00,Win,Achille Piecheur,Football,2016-03-10 14:34:02
+2016-03-10 19:00:00,European cups,UEFA Europa League,FENERBAHCE vs SPORTING BRAGA,1-0 (0-0),Match Odds,FENERBAHCE,1.84,,100,84.00,Win,Achille Piecheur,Football,2016-03-10 14:35:06
+2016-03-08 20:45:00,England,Championship,ROTHERHAM UNITED vs MIDDLESBROUGH FC,1-0 (0-0),Match Odds,MIDDLESBROUGH FC,1.87,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-08 17:17:03
+2016-03-06 15:00:00,Italy,Serie A,ATALANTA BERGAMASCA vs JUVENTUS TURIN,0-2 (0-1),Over / Under Team,JUVENTUS TURIN Over +1.50,1.85,,100,85.00,Win,Achille Piecheur,Football,2016-03-06 10:14:08
+2016-03-06 14:30:00,Netherlands,Eredivisie,WILLEM II TILBURG vs AJAX AMSTERDAM,0-4 (0-1),Over / Under 1st Half Team,AJAX AMSTERDAM Over +0.50,1.89,,100,89.00,Win,Achille Piecheur,Football,2016-03-06 12:03:03
+2016-03-05 16:00:00,Spain,Liga BBVA,REAL MADRID vs CELTA DE VIGO,7-1 (1-0),Asian Handicap 1st Half,REAL MADRID -0.75 Half time,2.04,,100,52.00,Half win,Achille Piecheur,Football,2016-03-05 10:08:03
+2016-03-05 15:00:00,Italy,Serie B,NOVARA CALCIO vs VICENZA CALCIO,4-0 (0-0),Match Odds,NOVARA CALCIO,1.86,,100,86.00,Win,Achille Piecheur,Football,2016-03-05 12:02:05
+2016-03-05 12:15:00,Portugal,Liga Vitalis,GD CHAVES vs VITORIA GUIMARAES B,1-1 (1-0),Asian Handicap 1st Half,GD CHAVES -0.50 Half time,2.01,,100,101.00,Win,Achille Piecheur,Football,2016-03-05 10:04:02
+2016-03-05 09:30:00,Australia,Hyundai A-League,MELBOURNE CITY FC vs SYDNEY FC,3-0 (1-0),Match Odds 1st Half,MELBOURNE CITY FC Half time,2.56,,100,156.00,Win,Achille Piecheur,Football,2016-03-04 15:48:03
+2016-03-05 09:00:00,Australia,Brisbane Premier League,MITCHELTON FC vs QUEENSLAND LIONS,1-4,Match Odds 1st Half,QUEENSLAND LIONS Half time,2.30,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-04 20:45:02
+2016-03-05 07:15:00,Australia,Hyundai A-League,WELLINGTON PHOENIX FC vs ADELAIDE UNITED FC,0-4 (0-2),Match Odds,ADELAIDE UNITED FC,2.22,,100,122.00,Win,Achille Piecheur,Football,2016-03-04 20:40:02
+2016-03-04 19:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs ATLETICO CP,1-2 (0-0),Match Odds,CD FEIRENSE,1.83,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-04 09:17:01
+2016-03-04 10:30:00,Australia,Victoria Premier League,PORT MELBOURNE SHARKS vs SOUTH MELBOURNE,0-2,Over / Under,Over +4.50,4.00,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-03 22:22:02
+2016-03-03 23:30:00,Copa Libertadores,Copa Libertadores,BOCA JUNIORS vs RACING CLUB,0-0 (0-0),Match Odds,BOCA JUNIORS,2.05,Bwin,100,-100.00,Lost,Achille Piecheur,Football,2016-03-03 17:01:03
+2016-03-03 20:45:00,England,Championship,BIRMINGHAM CITY vs HULL CITY,1-0 (1-0),Over / Under 1st Half,Under +0.50 Half time,2.56,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-03 16:42:05
+2016-03-02 21:00:00,Spain,Liga BBVA,LEVANTE UD vs REAL MADRID,1-3 (1-2),Asian handicap,REAL MADRID -1.50,2.33,,100,133.00,Win,Achille Piecheur,Football,2016-03-02 16:03:05
+2016-03-02 20:45:00,Italy,Coppa Italia,INTER MILAN vs JUVENTUS TURIN,6-5 (1-0),Over / Under 1st Half,Under +0.50 Half time,2.63,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-02 16:07:02
+2016-03-02 20:45:00,England,Premier League,WEST HAM UNITED vs TOTTENHAM HOTSPUR,1-0 (1-0),Match Odds,TOTTENHAM HOTSPUR,1.95,,100,-100.00,Lost,Achille Piecheur,Football,2016-03-02 16:05:03
+2016-02-28 20:45:00,Italy,Serie A,JUVENTUS TURIN vs INTER MILAN,2-0 (0-0),Asian handicap,JUVENTUS TURIN -1.00,2.11,,100,111.00,Win,Achille Piecheur,Football,2016-02-28 10:56:01
+2016-02-28 17:00:00,France,Ligue 1,AS SAINT ETIENNE vs SM CAEN,1-2 (0-0),Match Odds,AS SAINT ETIENNE,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-28 10:53:05
+2016-02-28 16:45:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs AZ ALKMAAR,4-1 (2-0),Match Odds,AJAX AMSTERDAM,1.80,,100,80.00,Win,Achille Piecheur,Football,2016-02-28 13:04:04
+2016-02-27 16:00:00,Spain,Liga BBVA,REAL MADRID vs ATLETICO MADRID,0-1 (0-0),Asian handicap,REAL MADRID -0.50,2.01,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-27 12:19:04
+2016-02-27 07:15:00,Australia,Hyundai A-League,ADELAIDE UNITED FC vs BRISBANE ROAR FC,3-0 (1-0),Over / Under 1st Half Team,ADELAIDE UNITED FC Over +0.50,1.88,,100,88.00,Win,Achille Piecheur,Football,2016-02-26 16:50:02
+2016-02-25 21:05:00,European cups,UEFA Europa League,OLYMPIACOS FC vs RSC ANDERLECHT,1-0 (1-0),Over / Under 1st Half Team,OLYMPIACOS FC Over +0.50,1.81,,100,81.00,Win,Achille Piecheur,Football,2016-02-25 12:03:04
+2016-02-24 20:45:00,European cups,UEFA Champions League,PSV EINDHOVEN vs ATLETICO MADRID,0-0 (0-0),Over / Under 1st Half Team,ATLETICO MADRID Under +0.50,1.84,,100,84.00,Win,Achille Piecheur,Football,2016-02-24 14:28:06
+2016-02-24 18:00:00,European cups,UEFA Europa League,SPORTING BRAGA vs FC SION,2-2 (1-2),Asian handicap,FC SION +1.00,1.83,,100,83.00,Win,Achille Piecheur,Football,2016-02-24 16:58:02
+2016-02-23 20:45:00,European cups,UEFA Champions League,ARSENAL FC vs FC BARCELONA,0-2 (0-0),Asian handicap,FC BARCELONA -0.50,1.81,,100,81.00,Win,Achille Piecheur,Football,2016-02-23 14:12:07
+2016-02-21 23:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",GODOY CRUZ A.T. vs COLON DE SANTA FE,4-1 (1-1),Over / Under,Over +2.50,2.64,,100,164.00,Win,Achille Piecheur,Football,2016-02-21 18:09:06
+2016-02-21 21:00:00,France,Ligue 1,LILLE OSC vs OLYMPIQUE LYON,1-0 (1-0),Match Odds,Draw,3.17,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-21 17:41:02
+2016-02-21 19:15:00,Portugal,Liga Sagres,FC PORTO vs MOREIRENSE FC,3-2 (1-2),Over / Under 1st Half Team,FC PORTO Over +1.00,1.95,,100,0.00,Void,Achille Piecheur,Football,2016-02-21 17:19:02
+2016-02-21 16:00:00,Spain,Liga BBVA,MALAGA CF vs REAL MADRID,1-1 (0-1),Asian handicap,REAL MADRID -0.75,1.98,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-21 10:11:06
+2016-02-21 16:00:00,Portugal,Liga Vitalis,FC PORTO B vs ATLETICO CP,1-0 (0-0),Over / Under,Over +2.50,1.86,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-21 09:48:01
+2016-02-21 14:30:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs SBV EXCELSIOR,3-0 (1-0),Asian Handicap 1st Half,AJAX AMSTERDAM -1.00 Half time,2.32,,100,0.00,Void,Achille Piecheur,Football,2016-02-21 09:45:02
+2016-02-20 15:00:00,Italy,Serie B,NOVARA CALCIO vs TERNANA CALCIO,1-2 (0-1),Match Odds,NOVARA CALCIO,1.92,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-20 11:11:06
+2016-02-20 15:00:00,Italy,Serie B,CAGLIARI CALCIO vs PESCARA CALCIO,2-1 (0-1),Over / Under 1st Half Team,CAGLIARI CALCIO Over +0.50,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-20 10:56:05
+2016-02-19 20:45:00,Italy,Serie A,BOLOGNA FC vs JUVENTUS TURIN,0-0 (0-0),Asian handicap,JUVENTUS TURIN -0.75,1.81,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-19 11:10:02
+2016-02-18 19:00:00,European cups,UEFA Europa League,SEVILLA FC vs MOLDE FK,3-0 (1-0),Asian Handicap 1st Half,SEVILLA FC -1.00 Half time,1.97,,100,0.00,Void,Achille Piecheur,Football,2016-02-18 17:03:05
+2016-02-18 19:00:00,European cups,UEFA Europa League,BORUSSIA DORTMUND vs FC PORTO,2-0 (1-0),Over / Under,Over +2.50,1.83,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-18 16:29:02
+2016-02-17 20:45:00,European cups,UEFA Champions League,AS ROMA vs REAL MADRID,0-2 (0-0),Asian handicap,REAL MADRID -0.50,1.84,,100,84.00,Win,Achille Piecheur,Football,2016-02-17 09:46:02
+2016-02-17 16:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs CD FEIRENSE,0-2 (0-0),Asian handicap,CD FEIRENSE -0.50,2.05,,100,105.00,Win,Achille Piecheur,Football,2016-02-17 10:35:02
+2016-02-14 23:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",GIMNASIA Y ESGRIMA vs CA PATRONATO PARANA,3-2 (1-1),Asian handicap,CA PATRONATO PARANA +0.25,1.99,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-14 17:07:02
+2016-02-14 20:30:00,Spain,Liga BBVA,FC BARCELONA vs CELTA DE VIGO,6-1 (1-1),Over / Under 1st Half Team,FC BARCELONA Over +1.50,1.88,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-14 17:53:02
+2016-02-14 12:30:00,Italy,Serie A,AC MILAN vs GENOA FC,2-1 (1-0),Asian handicap,AC MILAN -0.75,1.90,,100,45.00,Half win,Achille Piecheur,Football,2016-02-14 10:02:02
 2016-02-13 20:45:00,Italy,Serie A,JUVENTUS TURIN vs SSC NAPOLI,1-0 (0-0),Match Odds,JUVENTUS TURIN,2.21,,100,121.00,Win,Achille Piecheur,Football,2016-02-13 17:43:02
 2016-02-13 16:00:00,England,Premier League,BOURNEMOUTH AFC vs STOKE CITY,1-3 (0-1),Match Odds,BOURNEMOUTH AFC,1.96,,100,-100.00,Lost,Achille Piecheur,Football,2016-02-13 15:00:05
 2016-02-13 16:00:00,Portugal,Liga Vitalis,FC PORTO B vs FC FAMALICAO,1-2 (1-1),Over / Under,Over +2.50,1.87,,100,87.00,Win,Achille Piecheur,Football,2016-02-13 13:01:03

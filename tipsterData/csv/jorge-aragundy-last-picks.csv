@@ -1,4 +1,15 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-03-30 01:30:00,International,World Cup Qualification,VENEZUELA vs CHILE,1-4 (1-1),Asian handicap,CHILE -0.50,1.91,,50,45.50,Win,Jorge Aragundy,Football,2016-03-29 18:20:02
+2016-03-29 22:30:00,International,World Cup Qualification,COLOMBIA vs ECUADOR,3-1 (1-0),Asian handicap,ECUADOR +1.00,1.77,,50,-50.00,Lost,Jorge Aragundy,Football,2016-03-29 18:21:02
+2016-03-27 19:00:00,Ecuador,"Serie A, Primera Etapa",CD UNIVERSIDAD CATOLICA vs INDEPENDIENTE DEL VALLE,0-0 (0-0),Over / Under,Over +2.25,1.91,,50,-50.00,Lost,Jorge Aragundy,Football,2016-03-27 12:50:04
+2016-03-15 23:30:00,Copa Libertadores,Copa Libertadores,INDEPENDIENTE DEL VALLE vs FBC MELGAR,2-0 (1-0),Asian handicap,INDEPENDIENTE DEL VALLE -1.25,1.96,,60,57.60,Win,Jorge Aragundy,Football,2016-03-15 18:49:03
+2016-03-13 18:00:00,Ecuador,"Serie A, Primera Etapa",SD AUCAS vs LIGA DEP UNIVERSITARIA QUITO,0-1 (0-1),Asian handicap,SD AUCAS +0.50,1.97,,50,-50.00,Lost,Jorge Aragundy,Football,2016-03-13 11:37:02
+2016-03-12 21:45:00,Ecuador,"Serie A, Primera Etapa",CD RIVER PLATE ECUADOR vs INDEPENDIENTE DEL VALLE,0-1 (0-0),Asian handicap,INDEPENDIENTE DEL VALLE +0,1.85,,60,51.00,Win,Jorge Aragundy,Football,2016-03-12 09:09:01
+2016-03-03 01:45:00,Copa Libertadores,Copa Libertadores,GREMIO RS vs LIGA DEP UNIVERSITARIA QUITO,4-0 (2-0),Asian handicap,GREMIO RS -1.00,2.02,,70,71.40,Win,Jorge Aragundy,Football,2016-03-02 19:09:02
+2016-03-01 21:15:00,Copa Libertadores,Copa Libertadores,FBC MELGAR vs INDEPENDIENTE DEL VALLE,0-1 (0-1),Asian handicap,INDEPENDIENTE DEL VALLE +0.25,1.72,,80,57.60,Win,Jorge Aragundy,Football,2016-03-01 19:11:02
+2016-02-26 01:45:00,Copa Libertadores,Copa Libertadores,CLUB SPORT EMELEC vs DVO TACHIRA,2-0 (0-0),Asian handicap,CLUB SPORT EMELEC -1.25,1.97,,80,77.60,Win,Jorge Aragundy,Football,2016-02-25 09:13:02
+2016-02-21 17:30:00,Ecuador,"Serie A, Primera Etapa",MUSHUC RUNA vs CD UNIVERSIDAD CATOLICA,2-1 (1-0),Asian handicap,CD UNIVERSIDAD CATOLICA +0,1.77,,70,-70.00,Lost,Jorge Aragundy,Football,2016-02-21 11:59:06
+2016-02-17 22:00:00,Ecuador,"Serie A, Primera Etapa",FUERZA AMARILLA S.C. vs MUSHUC RUNA,0-0 (0-0),Asian handicap,FUERZA AMARILLA S.C. -0.50,1.98,,50,-50.00,Lost,Jorge Aragundy,Football,2016-02-17 08:51:02
 2016-02-06 01:30:00,Ecuador,"Serie A, Primera Etapa",CLUB SPORT EMELEC vs CD UNIVERSIDAD CATOLICA,2-2 (1-1),Asian handicap,CD UNIVERSIDAD CATOLICA +1.00,1.96,,60,57.60,Win,Jorge Aragundy,Football,2016-02-05 21:22:03
 2015-12-12 21:30:00,Ecuador,Serie A,CD RIVER PLATE ECUADOR vs LIGA DE LOJA,2-1 (2-0),Asian handicap,CD RIVER PLATE ECUADOR -1.00,2.01,,60,0.00,Void,Jorge Aragundy,Football,2015-12-12 17:45:02
 2015-11-22 01:00:00,Ecuador,Serie A,CD UNIVERSIDAD CATOLICA vs INDEPENDIENTE DEL VALLE,2-1 (1-1),Over / Under,Over +2.50,2.15,,60,69.00,Win,Jorge Aragundy,Football,2015-11-21 18:00:08

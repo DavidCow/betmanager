@@ -1,4 +1,528 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-09 19:00:00,Egypt,Premier League,ISMAILY SC vs ENPPI CLUB,2-2 (1-1),Match Odds,Draw,3.06,,100,206.00,Win,Sony Luiz,Football,2016-05-09 09:16:02
+2016-05-09 17:00:00,Finland,Veikkausliiga,FC INTER TURKU vs IFK MARIEHAMN,0-2 (0-1),Match Odds,Draw,3.27,,100,-100.00,Lost,Sony Luiz,Football,2016-05-09 12:45:03
+2016-05-09 17:00:00,Finland,Veikkausliiga,HIFK vs ROVANIEMI PALLOSEURA,1-1 (1-0),Match Odds,Draw,3.30,,100,230.00,Win,Sony Luiz,Football,2016-05-09 12:45:01
+2016-05-09 17:00:00,Finland,Veikkausliiga,FC LAHTI vs SEINAJOEN JK,3-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-09 09:17:02
+2016-05-08 21:00:00,Colombia,Apertura I,BOYACA CHICO FC vs DEPORTIVO LA EQUIDAD,3-4 (2-1),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 10:26:01
+2016-05-08 20:30:00,Argentina,Primera B Nacional,JUVENTUD UNIDA GUALEGUAYCHU vs CLUB ATLETICO LOS ANDES,1-3 (1-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 09:13:01
+2016-05-08 20:00:00,Spain,Liga Adelante,CORDOBA CF vs GIRONA FC,1-0 (0-0),Match Odds,Draw,3.19,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 10:24:04
+2016-05-08 20:00:00,Egypt,Premier League,ITTIHAD EL-SHORTA vs AL MOKAWLOON AL ARAB,2-2 (2-0),Match Odds,Draw,2.85,,100,185.00,Win,Sony Luiz,Football,2016-05-08 09:19:02
+2016-05-08 19:15:00,Argentina,Primera B Nacional,JUVENTUD UNIDA S.L. vs NUEVA CHICAGO,2-1 (0-0),Match Odds,Draw,3.08,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 18:02:02
+2016-05-08 17:45:00,Egypt,Premier League,PETROJET FC vs AL ITTIHAD AL SAKANDARY,3-1 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 09:20:10
+2016-05-08 17:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs VARZIM SC,0-2 (0-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 15:24:02
+2016-05-08 17:00:00,Portugal,Liga Vitalis,CD MAFRA vs ACADEMICO VISEU,1-1 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-05-08 15:23:01
+2016-05-08 17:00:00,Portugal,Liga Sagres,CD NACIONAL vs CF OS BELENENSES,2-2 (1-0),Match Odds,Draw,3.50,,100,250.00,Win,Sony Luiz,Football,2016-05-08 15:22:04
+2016-05-08 17:00:00,Croatia,1. HNL,NK ISTRA 1961 vs RNK SPLIT,0-0 (0-0),Match Odds,Draw,3.36,,100,236.00,Win,Sony Luiz,Football,2016-05-08 10:19:05
+2016-05-08 17:00:00,Portugal,Liga Sagres,BOAVISTA FC vs CF UNIAO MADEIRA,1-0 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-05-08 09:25:02
+2016-05-08 12:15:00,Portugal,Liga Vitalis,PORTIMONENSE SC vs GD CHAVES,1-1 (0-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-05-08 10:15:03
+2016-05-07 21:00:00,France,Ligue 1,SC BASTIA vs SCO ANGERS,1-0 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-05-07 10:15:03
+2016-05-07 16:00:00,England,Premier League,SUNDERLAND AFC vs CHELSEA FC,3-2 (1-2),Match Odds,CHELSEA FC,2.55,,100,-100.00,Lost,Sony Luiz,Football,2016-05-07 10:13:13
+2016-05-07 15:00:00,Italy,Serie B,SPORTIVA SALERNITANA vs FC MODENA,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-05-07 10:02:05
+2016-05-07 15:00:00,Italy,Serie B,VICENZA CALCIO vs VIRTUS ENTELLA,2-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-07 09:54:06
+2016-05-07 13:45:00,England,Premier League,NORWICH CITY vs MANCHESTER UNITED,0-1 (0-0),Match Odds,MANCHESTER UNITED,1.88,,100,88.00,Win,Sony Luiz,Football,2016-05-07 10:11:05
+2016-05-06 20:45:00,France,Ligue 2,PARIS FC 98 vs VALENCIENNES FC,1-4 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 10:21:03
+2016-05-06 20:45:00,France,Ligue 2,RED STAR FC vs DIJON FCO,3-2 (2-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 10:54:02
+2016-05-06 20:45:00,France,Ligue 2,AC AJACCIO vs FC SOCHAUX,0-2 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 10:18:03
+2016-05-06 20:30:00,Italy,Serie B,FC BARI 1908 vs CAGLIARI CALCIO,0-3 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 10:16:02
+2016-05-06 20:00:00,France,National,US ORLEANS 45 vs GS CONSOLAT MARSEILLE,3-2 (1-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 12:28:01
+2016-05-06 20:00:00,France,National,DUNKERQUE vs VENDEE LUCON,5-1 (3-0),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 12:33:02
+2016-05-06 20:00:00,France,National,SEDAN-ARDENNES vs FC CHAMBLY,3-0 (2-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 12:29:03
+2016-05-06 20:00:00,France,National,LES HERBIERS vs US BOULOGNE COTE D OPALE,3-3 (0-1),Match Odds,Draw,3.14,,100,214.00,Win,Sony Luiz,Football,2016-05-06 12:31:01
+2016-05-06 20:00:00,France,National,ETOILE FREJUS SAINT-RAPHAEL vs COLMAR,1-1 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-05-06 12:34:04
+2016-05-06 20:00:00,France,National,ASM BELFORT vs US AVRANCHES,1-4 (1-1),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-05-06 07:42:02
+2016-05-05 19:00:00,Egypt,Premier League,ENPPI CLUB vs EL DAKLYEH,0-1 (0-0),Match Odds,Draw,3.20,,90,-90.00,Lost,Sony Luiz,Football,2016-05-05 09:35:02
+2016-05-04 15:45:00,Egypt,Premier League,WADI DEGLA SC vs SMOUHA SC,1-1 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-05-04 12:02:02
+2016-05-03 17:00:00,Serbia,Jelen Superliga Relegation,FK NOVI PAZAR vs FK JAVOR MATIS,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-03 11:19:02
+2016-05-03 09:00:00,Japan,J.League 2,TOKYO VERDY vs MONTEDIO YAMAGATA,0-1 (0-0),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-05-03 07:42:01
+2016-05-03 07:00:00,Japan,J.League 2,GIRAVANZ KITAKYUSHU vs V-VAREN NAGASAKI,2-2 (1-1),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-05-03 04:36:05
+2016-05-03 06:00:00,Japan,J.League 2,YOKOHAMA FC vs FAGIANO OKAYAMA,0-2 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-03 04:32:06
+2016-05-03 06:00:00,Japan,J.League 2,MATSUMOTO YAMAGA FC vs CEREZO OSAKA,0-1 (0-1),Match Odds,Draw,3.24,,100,-100.00,Lost,Sony Luiz,Football,2016-05-03 04:31:01
+2016-05-03 02:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA TEMPERLEY vs ATLETICO TUCUMAN,1-1 (1-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-05-02 11:20:02
+2016-05-02 16:00:00,Russia,1st Division,FC SOKOL SARATOV vs FC GAZOVIK ORENBURG,0-2 (0-2),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-05-02 13:35:01
+2016-05-02 15:00:00,Russia,Russian Cup,CSKA MOSCOW vs ZENIT ST PETERSBURG,1-4 (1-1),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-05-02 13:32:02
+2016-05-01 20:00:00,Egypt,Premier League,AL MOKAWLOON AL ARAB vs ENPPI CLUB,0-3 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-01 11:27:04
+2016-05-01 19:00:00,Czech Republic,1st Division,BOHEMIANS 1905 vs SK SLAVIA PRAGUE,0-0 (0-0),Match Odds,Draw,3.32,,100,232.00,Win,Sony Luiz,Football,2016-05-01 11:27:01
+2016-05-01 17:45:00,Egypt,Premier League,ASWAN FC vs AL MASRY CLUB,1-1 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-05-01 13:30:03
+2016-05-01 17:30:00,Italy,Serie B,COMO CALCIO vs TERNANA CALCIO,1-2 (1-1),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-05-01 11:25:03
+2016-05-01 17:00:00,Portugal,Liga Sagres,MOREIRENSE FC vs BOAVISTA FC,1-1 (1-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-05-01 08:56:01
+2016-05-01 15:45:00,Egypt,Premier League,EL DAKLYEH vs MISR LEL MAKASA,1-3 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-05-01 11:24:03
+2016-05-01 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",SAVONA FBC vs AC PISTOIESE,1-0 (0-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-05-01 09:23:08
+2016-05-01 13:00:00,Denmark,SAS Ligaen,FC NORDSJALLAND vs RANDERS FC,2-2 (0-1),Match Odds,Draw,3.45,,100,245.00,Win,Sony Luiz,Football,2016-05-01 11:22:05
+2016-05-01 11:00:00,Russia,Premier League,FC UFA vs FC RUBIN KAZAN,1-1 (1-1),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-05-01 09:21:05
+2016-05-01 01:00:00,Argentina,Primera B Nacional,CLUB ATLETICO PARANA vs CA ALL BOYS,2-2 (0-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-30 10:07:06
+2016-04-30 20:30:00,Argentina,Primera B Nacional,DEPORTIVO ARMENIO vs TRISTAN SUAREZ,2-1 (2-0),Match Odds,Draw,3.35,,100,-100.00,Lost,Sony Luiz,Football,2016-04-30 14:03:02
+2016-04-30 20:00:00,Belgium,EXQI League,LOMMEL UNITED vs CERCLE BRUGGE KSV,0-2 (0-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-04-30 09:47:02
+2016-04-30 17:00:00,Portugal,Liga Vitalis,ATLETICO CP vs CD SANTA CLARA,0-1 (0-0),Match Odds,Draw,3.10,Bwin,100,-100.00,Lost,Sony Luiz,Football,2016-04-30 15:50:02
+2016-04-30 15:00:00,Italy,Serie B,LATINA CALCIO vs SPEZIA CALCIO,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-04-30 13:59:04
+2016-04-30 15:00:00,Italy,Serie B,PERUGIA vs FC BARI 1908,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-30 14:00:02
+2016-04-30 15:00:00,Italy,Serie B,ASCOLI vs SPORTIVA SALERNITANA,2-2 (2-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-30 09:48:04
+2016-04-30 02:05:00,Argentina,Primera B Nacional,INDEPENDIENTE RIVADAVIA vs BOCA UNIDOS,0-0 (0-0),Match Odds,Draw,3.04,,100,204.00,Win,Sony Luiz,Football,2016-04-29 10:21:02
+2016-04-30 02:00:00,Argentina,Primera B Nacional,INSTITUTO AC CORDOBA vs JUVENTUD UNIDA S.L.,0-2 (0-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 19:09:02
+2016-04-29 21:00:00,France,National,LB CHATEAUROUX vs US ORLEANS 45,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-29 20:00:04
+2016-04-29 20:30:00,Argentina,Primera B Nacional,NUEVA CHICAGO vs CLUB VILLA DALMINE,6-4 (2-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 19:08:03
+2016-04-29 20:30:00,Argentina,Primera B Nacional,CLUB ATLETICO LOS ANDES vs GUILLERMO BROWN,1-3 (0-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 19:07:02
+2016-04-29 20:00:00,France,National,CA BASTIA vs SC AMIENS,1-1 (1-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-29 11:10:04
+2016-04-29 20:00:00,France,Ligue 2,TOURS FC vs CHAMOIS NIORT FC,1-2 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 11:10:02
+2016-04-29 20:00:00,France,Ligue 2,STADE BREST vs EVIAN TG FC,0-2 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 10:25:01
+2016-04-29 17:30:00,Finland,Veikkausliiga,FC ILVES vs IFK MARIEHAMN,0-1 (0-1),Match Odds,Draw,3.50,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 11:09:01
+2016-04-29 16:00:00,Ukraine,Premier League,VOLYN LUTSK vs FC OLEKSANDRIA,0-0 (0-0),Match Odds,Draw,3.25,,100,225.00,Win,Sony Luiz,Football,2016-04-29 11:08:02
+2016-04-29 16:00:00,Ukraine,Persha Liga,FC NAFTOVYK-UKRNAFTA vs FC ILLICHIVEC MARIUPOL,1-0 (1-0),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 11:07:02
+2016-04-29 16:00:00,Ukraine,Persha Liga,FC TERNOPIL vs GIRNIK-SPORT,1-1 (0-1),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-04-29 11:06:07
+2016-04-29 16:00:00,Ukraine,Persha Liga,DESNA CHERNIGOV vs OBOLON-BROVAR KIEV,0-2 (0-1),Match Odds,Draw,3.40,,100,-100.00,Lost,Sony Luiz,Football,2016-04-29 11:05:01
+2016-04-29 12:30:00,Japan,J.League 2,THESPAKUSATSU vs TOKYO VERDY,2-2 (1-2),Match Odds,Draw,3.07,,100,207.00,Win,Sony Luiz,Football,2016-04-29 10:19:03
+2016-04-24 19:30:00,Egypt,Premier League,ENPPI CLUB vs EL-ENTAG EL-HARBY,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-24 15:59:02
+2016-04-24 18:00:00,Italy,"Lega Pro, Girone A",AC RENATE vs BASSANO VIRTUS,1-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 15:55:08
+2016-04-24 18:00:00,Italy,"Lega Pro, Girone A",AC FERALPI SALO vs AS CITTADELLA,1-2 (0-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 15:55:02
+2016-04-24 17:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs VARZIM SC,2-0 (1-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 15:54:02
+2016-04-24 17:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs LEIXOES SC,0-1 (0-0),Match Odds,Draw,3.33,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 15:52:04
+2016-04-24 17:00:00,Portugal,Liga Vitalis,SC FREAMUNDE vs FC FAMALICAO,0-0 (0-0),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-04-24 15:51:02
+2016-04-24 17:00:00,Egypt,Premier League,MISR LEL MAKASA vs AL MOKAWLOON AL ARAB,0-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 15:50:03
+2016-04-24 15:00:00,Italy,Serie B,SPORTIVA SALERNITANA vs AS LIVORNO,3-1 (2-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 11:33:02
+2016-04-24 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",COSENZA CALCIO vs US FOGGIA,1-0 (0-0),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 11:31:01
+2016-04-24 15:00:00,Croatia,1. HNL,HNK HAJDUK SPLIT vs HNK RIJEKA,1-2 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 11:01:03
+2016-04-24 12:15:00,Portugal,Liga Vitalis,CD MAFRA vs GD CHAVES,0-1 (0-1),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-04-24 09:55:02
+2016-04-23 18:00:00,Italy,Serie B,VICENZA CALCIO vs SPEZIA CALCIO,0-3 (0-2),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-04-23 10:04:02
+2016-04-23 17:30:00,Egypt,Premier League,AL MASRY CLUB vs WADI DEGLA SC,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-23 10:48:03
+2016-04-23 17:00:00,Italy,"Lega Pro Prima Divisione, Girone B",AC PRATO vs SANTARCANGELO CALCIO,3-3 (1-2),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-23 10:46:03
+2016-04-23 17:00:00,Italy,"Lega Pro Prima Divisione, Girone B",MACERATESE vs SC PISA,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-23 10:43:07
+2016-04-23 17:00:00,Italy,"Lega Pro Prima Divisione, Girone B",LUCCHESE LIBERTAS vs TUTTOCUOIO,2-0 (2-0),Match Odds,Draw,2.95,,100,-100.00,Lost,Sony Luiz,Football,2016-04-23 10:42:02
+2016-04-23 16:00:00,England,Premier League,BOURNEMOUTH AFC vs CHELSEA FC,1-4 (1-2),Match Odds,CHELSEA FC,2.45,,100,145.00,Win,Sony Luiz,Football,2016-04-23 10:53:02
+2016-04-23 07:00:00,Japan,J.League 2,TOKYO VERDY vs MITO HOLLYHOCK,0-3 (0-1),Match Odds,Draw,3.19,,100,-100.00,Lost,Sony Luiz,Football,2016-04-23 04:47:02
+2016-04-23 06:00:00,Japan,J.League 2,RENOFA YAMAGUCHI vs JEF UNITED ICHIHARA CHIBA,4-2 (3-1),Match Odds,Draw,3.34,,100,-100.00,Lost,Sony Luiz,Football,2016-04-23 04:46:02
+2016-04-23 06:00:00,Japan,J.League 2,MACHIDA ZELVIA vs V-VAREN NAGASAKI,1-0 (0-0),Asian handicap,MACHIDA ZELVIA -0.25,2.02,,100,102.00,Win,Sony Luiz,Football,2016-04-23 04:43:03
+2016-04-23 02:30:00,Argentina,Primera B Nacional,INDEPENDIENTE RIVADAVIA vs ESTUDIANTES SAN LUIS,2-1 (2-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 20:22:02
+2016-04-23 01:05:00,Argentina,Primera B Nacional,CA PLATENSE vs VILLA SAN CARLOS,2-2 (1-2),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-04-22 20:24:01
+2016-04-23 00:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",ATLETICO DE RAFAELA vs CA PATRONATO PARANA,3-1 (0-1),Match Odds,Draw,3.41,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 20:20:03
+2016-04-22 20:30:00,Argentina,Primera B Nacional,TALLERES DE REMEDIOS DE ESCALADA vs BARRACAS CENTRAL,1-1 (0-0),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-04-22 14:50:02
+2016-04-22 20:00:00,France,National,CA BASTIA vs US AVRANCHES,1-1 (0-1),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-04-22 15:07:02
+2016-04-22 20:00:00,France,National,ASM BELFORT vs GS CONSOLAT MARSEILLE,0-1 (0-0),Match Odds,Draw,3.06,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 15:05:02
+2016-04-22 20:00:00,France,National,DUNKERQUE vs LB CHATEAUROUX,1-1 (1-0),Match Odds,Draw,3.21,,100,221.00,Win,Sony Luiz,Football,2016-04-22 15:03:01
+2016-04-22 20:00:00,France,National,AS BEZIERS vs FC CHAMBLY,1-3 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 15:01:03
+2016-04-22 20:00:00,France,Ligue 2,OLYMPIQUE NIMES vs RC LENS,4-2 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 14:59:02
+2016-04-22 20:00:00,France,Ligue 2,EVIAN TG FC vs AC HAVRE,1-1 (1-0),Match Odds,Draw,3.12,,100,212.00,Win,Sony Luiz,Football,2016-04-22 14:57:01
+2016-04-22 19:00:00,France,National,LES HERBIERS vs COLMAR,2-1 (1-1),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-04-22 14:56:02
+2016-04-22 18:00:00,Algeria,Ligue 1,MOULOUDIA CLUB D'ALGER vs UNION SPORTIVE MéDINA D'ALGER,2-2 (0-1),Match Odds,Draw,3.00,,80,160.00,Win,Sony Luiz,Football,2016-04-22 14:48:02
+2016-04-19 20:45:00,England,Championship,BURNLEY FC vs MIDDLESBROUGH FC,1-1 (0-0),Match Odds,Draw,3.16,,100,216.00,Win,Sony Luiz,Football,2016-04-19 12:33:04
+2016-04-19 20:30:00,Italy,Serie B,SPORTIVA SALERNITANA vs VICENZA CALCIO,0-0 (0-0),Match Odds,Draw,3.27,,100,227.00,Win,Sony Luiz,Football,2016-04-19 12:29:03
+2016-04-19 20:30:00,Italy,Serie B,ASCOLI vs FC BARI 1908,0-1 (0-1),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-04-19 12:28:02
+2016-04-19 20:30:00,Italy,Serie B,FC MODENA vs PERUGIA,3-0 (2-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-19 12:26:02
+2016-04-19 20:00:00,Croatia,1. HNL,HNK RIJEKA vs NK DINAMO ZAGREB,0-0 (0-0),Match Odds,Draw,3.13,,100,213.00,Win,Sony Luiz,Football,2016-04-19 12:31:03
+2016-04-17 21:00:00,Argentina,Primera B Nacional,ESTUDIANTES SAN LUIS vs BOCA UNIDOS,0-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 14:55:02
+2016-04-17 18:00:00,Greece,Super League,PANIONIOS ATHENS vs ATROMITOS ATHENS,0-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:09:03
+2016-04-17 18:00:00,Greece,Super League,IRAKLIS 1908 vs PANAITOLIKOS,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-17 10:07:03
+2016-04-17 17:00:00,Spain,Liga Adelante,ALCORCON AD vs CD LEGANES,2-0 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:04:05
+2016-04-17 17:00:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs FC PACOS FERREIRA,3-4 (2-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 14:51:02
+2016-04-17 17:00:00,Portugal,Liga Vitalis,LEIXOES SC vs SC FREAMUNDE,0-2 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:19:13
+2016-04-17 17:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs SPORTING FARENSE,1-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:01:02
+2016-04-17 15:00:00,Croatia,1. HNL,NK SLAVEN BELUPO vs HNK HAJDUK SPLIT,0-0 (0-0),Match Odds,Draw,3.23,,100,223.00,Win,Sony Luiz,Football,2016-04-17 10:18:04
+2016-04-17 14:00:00,Finland,Veikkausliiga,PS KEMI KINGS vs IFK MARIEHAMN,1-2 (0-1),Match Odds,Draw,3.28,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:15:05
+2016-04-17 14:00:00,France,Ligue 1,FC NANTES vs MONTPELLIER HSC,0-2 (0-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:12:03
+2016-04-17 13:30:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs 1 FC KAISERSLAUTERN,0-1 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:11:03
+2016-04-17 13:30:00,Russia,Premier League,FC UFA vs FC ANZHI MAKHACHKALA,2-0 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-17 10:00:03
+2016-04-17 01:30:00,USA,Major League Soccer,COLUMBUS CREW vs NEW YORK CITY FC,3-2 (1-1),Match Odds,NEW YORK CITY FC,6.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:15:06
+2016-04-17 01:00:00,Argentina,Primera B Nacional,CLUB ATLETICO PARANA vs CD SANTAMARINA TANDIL,1-1 (1-0),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-04-16 09:57:04
+2016-04-16 23:30:00,Argentina,Primera B Nacional,ESTUDIANTES BA vs CLUB ATLETICO FENIX,1-2 (1-1),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 17:10:03
+2016-04-16 20:45:00,Italy,Serie A,INTER MILAN vs SSC NAPOLI,2-0 (2-0),Match Odds,Draw,3.35,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 18:07:02
+2016-04-16 20:30:00,Argentina,Primera B Nacional,DEPORTIVO ARMENIO vs ALMIRANTE BROWN,0-0 (0-0),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-04-16 17:09:02
+2016-04-16 19:30:00,Portugal,Liga Sagres,GD ESTORIL PRAIA vs BOAVISTA FC,1-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 09:58:38
+2016-04-16 18:30:00,England,Premier League,CHELSEA FC vs MANCHESTER CITY,0-3 (0-1),Match Odds,CHELSEA FC,2.80,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:14:03
+2016-04-16 18:15:00,Argentina,Primera B Nacional,DEPORTIVO RIESTRA vs CLUB ATLETICO ATLANTA,0-2 (0-1),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:28:05
+2016-04-16 17:30:00,Italy,"Lega Pro Prima Divisione, Girone C",PAGANESE CALCIO vs MATERA FC,4-0 (2-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:28:02
+2016-04-16 16:00:00,Denmark,SAS Ligaen,AGF AARHUS vs RANDERS FC,0-2 (0-0),Match Odds,Draw,3.33,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:15:02
+2016-04-16 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",CARRARESE CALCIO vs MACERATESE,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-16 11:21:04
+2016-04-16 15:00:00,Italy,Serie A,BOLOGNA FC vs TURIN FC,0-1 (0-0),Match Odds,Draw,3.16,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 11:12:01
+2016-04-16 14:00:00,France,Ligue 2,AC HAVRE vs AS NANCY,1-3 (1-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-04-16 09:58:05
+2016-04-15 20:35:00,Argentina,Primera B Nacional,CRUCERO DEL NORTE vs CA CHACARITA JUNIORS,1-1 (0-1),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-15 10:51:05
+2016-04-15 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs EVIAN TG FC,2-1 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-15 10:53:11
+2016-04-15 16:00:00,Egypt,Premier League,WADI DEGLA SC vs MISR LEL MAKASA,1-0 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-15 10:49:03
+2016-04-13 21:00:00,England,Premier League,CRYSTAL PALACE vs EVERTON FC,0-0 (0-0),Match Odds,Draw,3.30,,100,230.00,Win,Sony Luiz,Football,2016-04-13 11:38:03
+2016-04-13 19:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs VARZIM SC,1-0 (1-0),Match Odds,Draw,3.16,,100,-100.00,Lost,Sony Luiz,Football,2016-04-13 11:19:01
+2016-04-13 18:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs SC FREAMUNDE,2-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-13 11:17:02
+2016-04-13 17:30:00,Romania,Cupa Ligii,AFC ASTRA GIURGIU vs STEAUA BUCURESTI,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-13 11:21:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CD DAS AVES vs GD CHAVES,2-1 (1-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-04-13 11:42:01
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CD MAFRA vs FC PENAFIEL,0-0 (0-0),Match Odds,Draw,3.30,,100,230.00,Win,Sony Luiz,Football,2016-04-13 11:33:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs SC OLHANENSE,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-13 11:15:02
+2016-04-13 16:00:00,Turkey,Bank Asya 1. Lig,ALTINORDU vs BALIKESIRSPOR,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-04-13 11:23:01
+2016-04-12 02:05:00,Argentina,Primera B Nacional,CD SANTAMARINA TANDIL vs GIMNASIA JUJUY,2-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-11 15:42:02
+2016-04-11 20:30:00,Italy,Serie B,BRESCIA CALCIO vs PERUGIA,2-2 (1-2),Match Odds,Draw,3.17,,100,217.00,Win,Sony Luiz,Football,2016-04-11 15:45:03
+2016-04-11 20:00:00,Italy,"Lega Pro Prima Divisione, Girone C",COSENZA CALCIO vs BENEVENTO CALCIO,1-1 (1-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-11 15:43:02
+2016-04-10 19:00:00,Colombia,Apertura I,DEPORTIVO LA EQUIDAD vs RIONEGRO AGUILAS,2-3 (1-2),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-04-10 12:45:02
+2016-04-10 18:00:00,Greece,Super League,ASTERAS TRIPOLIS vs PANATHINAIKOS ATHENS,0-0 (0-0),Match Odds,Draw,3.26,,100,226.00,Win,Sony Luiz,Football,2016-04-10 12:58:03
+2016-04-10 17:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-10 13:01:17
+2016-04-10 16:30:00,Romania,"Liga 1,Relegation round",ACS POLI TIMISOARA vs CS VOLUNTARI,2-1 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-10 12:59:13
+2016-04-10 16:00:00,Serbia,Superliga,FK RAD BELGRADE vs FK RADNICKI NIS,2-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-10 13:01:07
+2016-04-10 15:00:00,Italy,"Lega Pro, Girone A",AC REGGIANA vs AS CITTADELLA,2-2 (0-1),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-10 12:59:02
+2016-04-10 14:00:00,Italy,"Lega Pro Prima Divisione, Girone C",ISCHIA ISOLAVERDE vs SS MONOPOLI 1966,1-2 (1-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-04-10 12:58:11
+2016-04-09 19:30:00,Romania,"Liga 1, Championship round",FC VIITORUL CONSTANTA vs AFC ASTRA GIURGIU,1-3 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:24:06
+2016-04-09 17:30:00,Italy,"Lega Pro, Girone A",US CREMONESE vs FC SUDTIROL,2-1 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:08:05
+2016-04-09 17:15:00,Portugal,Liga Vitalis,SC OLHANENSE vs PORTIMONENSE SC,0-1 (0-1),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:12:04
+2016-04-09 16:30:00,Italy,"Lega Pro Prima Divisione, Girone B",LUPA ROMA vs US AREZZO,3-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:22:01
+2016-04-09 16:00:00,England,Premier League,SWANSEA CITY vs CHELSEA FC,1-0 (1-0),Match Odds,CHELSEA FC,2.29,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:27:01
+2016-04-09 15:00:00,Italy,Serie B,TERNANA CALCIO vs FC CROTONE,1-2 (0-1),Match Odds,Draw,2.99,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:06:01
+2016-04-09 15:00:00,Italy,Serie B,FC MODENA vs TRAPANI CALCIO,1-4 (1-0),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:04:08
+2016-04-09 15:00:00,Italy,Serie B,VIRTUS LANCIANO vs VIRTUS ENTELLA,1-2 (1-2),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 11:03:04
+2016-04-09 14:00:00,France,Ligue 2,CLERMONT FOOT vs DIJON FCO,2-3 (1-0),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 10:58:01
+2016-04-09 13:00:00,Germany,2. Bundesliga,SV SANDHAUSEN vs ARMINIA BIELEFELD,1-4 (1-1),Match Odds,Draw,3.02,,100,-100.00,Lost,Sony Luiz,Football,2016-04-09 10:59:04
+2016-04-08 20:00:00,France,National,ASM BELFORT vs US BOULOGNE COTE D OPALE,1-2 (1-2),Match Odds,Draw,2.88,,100,-100.00,Lost,Sony Luiz,Football,2016-04-08 18:09:03
+2016-04-08 20:00:00,France,National,US AVRANCHES vs VENDEE LUCON,1-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-08 18:07:02
+2016-04-08 20:00:00,France,National,SC AMIENS vs SEDAN-ARDENNES,1-1 (1-0),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-04-08 18:03:06
+2016-04-08 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs FC SOCHAUX,1-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-08 14:47:02
+2016-04-08 20:00:00,France,Ligue 2,STADE BREST vs AC HAVRE,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-08 14:46:03
+2016-04-08 20:00:00,France,Ligue 2,EVIAN TG FC vs TOURS FC,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-08 14:43:01
+2016-04-08 20:00:00,France,Ligue 2,CHAMOIS NIORT FC vs RC LENS,0-1 (0-0),Match Odds,Draw,3.03,,100,-100.00,Lost,Sony Luiz,Football,2016-04-08 14:41:01
+2016-04-08 20:00:00,France,Ligue 2,AC AJACCIO vs RED STAR FC,1-2 (1-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-04-08 14:40:03
+2016-04-08 18:00:00,Poland,I Liga,OLIMPIA GRUDZIADZ vs WISLA PLOCK SA,1-1 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-08 14:49:01
+2016-04-08 18:00:00,Croatia,1. HNL,NK OSIJEK vs RNK SPLIT,0-0 (0-0),Match Odds,Draw,3.13,,100,213.00,Win,Sony Luiz,Football,2016-04-08 14:38:04
+2016-04-07 19:30:00,Egypt,Premier League,WADI DEGLA SC vs ITTIHAD EL-SHORTA,2-1 (0-1),Match Odds,Draw,3.04,,100,-100.00,Lost,Sony Luiz,Football,2016-04-07 15:00:02
+2016-04-07 17:00:00,Egypt,Premier League,AL MOQAWLOON AL ARAB vs PETROJET FC,2-2 (0-2),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-04-07 14:58:03
+2016-04-06 18:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs FC FAMALICAO,1-0 (0-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-04-06 12:40:06
+2016-04-06 18:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs FC PENAFIEL,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-06 12:39:01
+2016-04-06 17:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs BENFICA LISBON B,1-3 (0-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-06 12:38:02
+2016-04-06 17:00:00,Portugal,Liga Vitalis,SPORTING BRAGA B vs SC OLHANENSE,0-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-06 12:37:02
+2016-04-06 16:00:00,Serbia,Superliga,FK RADNICKI NIS vs FK VOJVODINA,0-3 (0-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-06 12:35:01
+2016-04-06 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs FC PORTO B,2-1 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-06 12:32:04
+2016-04-05 03:00:00,Argentina,Primera B Nacional,CENTRAL CORDOBA SDE vs JUVENTUD UNIDA GUALEGUAYCHU,3-3 (1-2),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-04-04 16:06:02
+2016-04-05 02:05:00,Argentina,Primera B Nacional,INSTITUTO AC CORDOBA vs CA CHACARITA JUNIORS,0-3 (0-1),Match Odds,Draw,3.16,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 16:04:04
+2016-04-04 20:00:00,Italy,"Lega Pro, Girone A",AC PAVIA vs ALESSANDRIA CALCIO,0-2 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 15:58:02
+2016-04-04 19:30:00,Romania,"Liga 1, Championship round",FC VIITORUL CONSTANTA vs DINAMO BUCURESTI,1-2 (1-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 15:52:08
+2016-04-04 18:30:00,Russia,Premier League,FC DINAMO MOSCOW vs FC KRASNODAR,1-4 (1-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 15:45:04
+2016-04-04 18:00:00,Russia,Premier League,FC MORDOVIA SARANSK vs FC KRYLIYA SOVETOV SAMARA,1-2 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 15:34:01
+2016-04-04 17:00:00,Romania,"Liga 1,Relegation round",FC BOTOSANI vs ACS POLI TIMISOARA,6-1 (1-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-04 15:50:05
+2016-04-03 21:05:00,Argentina,Primera B Nacional,CLUB ATLETICO LOS ANDES vs CA TALLERES,1-2 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 19:19:02
+2016-04-03 19:00:00,Croatia,1. HNL,RNK SPLIT vs HNK HAJDUK SPLIT,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-03 15:00:04
+2016-04-03 18:30:00,Russia,Premier League,ZENIT ST PETERSBURG vs CSKA MOSCOW,2-0 (0-0),Match Odds,Draw,3.47,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 15:01:07
+2016-04-03 18:00:00,Greece,Super League,PANIONIOS ATHENS vs PAOK FC,3-1 (1-0),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 14:58:05
+2016-04-03 18:00:00,Greece,Super League,LEVADIAKOS FC vs PAS GIANNINA FC,1-1 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-04-03 14:57:02
+2016-04-03 18:00:00,Greece,Super League,IRAKLIS 1908 vs ASTERAS TRIPOLIS,0-1 (0-1),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 09:40:03
+2016-04-03 17:00:00,Romania,"Liga 1,Relegation round",CS MUNICIPAL STUDENTESC IASI vs CS UNIVERSITATEA CRAIOVA,3-0 (2-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 15:59:02
+2016-04-03 17:00:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs VITORIA SETUBAL,2-2 (2-0),Match Odds,Draw,3.15,,100,215.00,Win,Sony Luiz,Football,2016-04-03 14:56:02
+2016-04-03 17:00:00,France,Ligue 1,SC BASTIA vs OLYMPIQUE MARSEILLE,2-1 (0-0),Match Odds,Draw,3.28,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 14:54:03
+2016-04-03 14:00:00,France,Ligue 1,FC NANTES vs LILLE OSC,0-3 (0-1),Match Odds,Draw,2.98,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 09:38:02
+2016-04-03 09:00:00,Japan,J.League 2,KYOTO SANGA FC vs MONTEDIO YAMAGATA,3-2 (2-1),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 04:24:02
+2016-04-03 09:00:00,Japan,J.League 2,EHIME FC vs GIRAVANZ KITAKYUSHU,2-1 (1-0),Match Odds,Draw,3.21,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 04:22:05
+2016-04-03 06:00:00,Japan,J.League 2,ZWIEGEN KANAZAWA vs YOKOHAMA FC,1-2 (1-2),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 04:21:02
+2016-04-03 06:00:00,Japan,J.League 2,V-VAREN NAGASAKI vs MATSUMOTO YAMAGA FC,1-1 (1-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-03 04:19:02
+2016-04-03 06:00:00,Japan,J.League 2,MACHIDA ZELVIA vs CONSADOLE SAPPORO,2-0 (1-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-03 04:17:01
+2016-04-03 06:00:00,Japan,J.League 2,FAGIANO OKAYAMA vs TOKYO VERDY,1-1 (0-0),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-04-03 04:16:02
+2016-04-02 20:00:00,France,Ligue 1,EA GUINGAMP vs MONTPELLIER HSC,2-2 (1-1),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-04-02 18:26:05
+2016-04-02 20:00:00,France,Ligue 1,GAZELEC AJACCIO vs AS SAINT ETIENNE,0-2 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 18:25:02
+2016-04-02 20:00:00,Egypt,Premier League,ENPPI CLUB vs WADI DEGLA SC,0-2 (0-0),Match Odds,Draw,3.03,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 17:03:02
+2016-04-02 18:30:00,Hungary,NB I,BEKESCSABAI ELORE SE vs DIOSGYORI VTK,0-0 (0-0),Match Odds,Draw,3.25,,100,225.00,Win,Sony Luiz,Football,2016-04-02 17:01:02
+2016-04-02 18:30:00,Russia,Premier League,FC ROSTOV vs FC SPARTAK MOSCOW,2-0 (2-0),Match Odds,Draw,3.23,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 17:02:01
+2016-04-02 18:30:00,Hungary,NB I,BUDAPEST HONVED FC vs VIDEOTON FC,2-1 (1-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 16:37:01
+2016-04-02 18:00:00,Spain,Liga Adelante,RCD MALLORCA vs CD LEGANES,3-0 (0-0),Match Odds,Draw,3.06,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 16:09:02
+2016-04-02 18:00:00,Italy,Serie A,CARPI FC vs US SASSUOLO,1-3 (1-2),Match Odds,Draw,3.24,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 16:07:02
+2016-04-02 17:45:00,Egypt,Premier League,PETROJET FC vs EL-ENTAG EL-HARBY,3-1 (1-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 16:04:04
+2016-04-02 17:00:00,Portugal,Liga Vitalis,ATLETICO CP vs CD MAFRA,1-1 (0-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-02 15:20:02
+2016-04-02 17:00:00,Algeria,Ligue 1,USM BLIDA vs CS CONSTANTINE,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-02 15:16:02
+2016-04-02 17:00:00,Algeria,Ligue 1,ASM ORAN vs MO BEJAIA,1-5 (1-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:37:03
+2016-04-02 16:00:00,Russia,Premier League,FC KUBAN KRASNODAR vs FC AMKAR PERM,1-1 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-02 13:17:03
+2016-04-02 15:45:00,Egypt,Premier League,GHAZL EL MAHALLAH vs AL MOQAWLOON AL ARAB,0-1 (0-1),Match Odds,Draw,2.99,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:15:03
+2016-04-02 15:45:00,Egypt,Premier League,TALAEA EL GAISH vs EL DAKLYEH,2-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:13:05
+2016-04-02 15:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs CS VOLUNTARI,1-2 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:12:02
+2016-04-02 15:00:00,Italy,Serie B,VICENZA CALCIO vs AS LIVORNO,2-0 (1-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:10:02
+2016-04-02 15:00:00,Italy,Serie B,PRO VERCELLI vs FC MODENA,1-1 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-04-02 13:08:05
+2016-04-02 15:00:00,Italy,Serie B,LATINA CALCIO vs AS AVELLINO,3-0 (2-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-02 13:06:05
+2016-04-02 14:00:00,Germany,3.Liga,VFL OSNABRUCK vs FC KICKERS WURZBURG,1-1 (1-1),Match Odds,Draw,3.30,,100,230.00,Win,Sony Luiz,Football,2016-04-02 12:48:03
+2016-04-02 14:00:00,France,Ligue 2,DIJON FCO vs AS NANCY,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-02 12:41:03
+2016-04-01 20:00:00,France,Ligue 2,RC LENS vs AJ AUXERRE,3-0 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:52:03
+2016-04-01 20:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-04-01 17:55:01
+2016-04-01 20:00:00,France,Ligue 2,VALENCIENNES FC vs EVIAN TG FC,1-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:54:02
+2016-04-01 20:00:00,France,Ligue 2,TOURS FC vs STADE BREST,2-1 (0-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:52:26
+2016-04-01 20:00:00,France,Ligue 2,US CRETEIL vs CLERMONT FOOT,0-3 (0-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:50:03
+2016-04-01 20:00:00,France,Ligue 2,BOURG PERONNAS vs AC AJACCIO,3-0 (0-0),Match Odds,Draw,3.13,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:49:04
+2016-04-01 19:30:00,Romania,"Liga 1, Championship round",DINAMO BUCURESTI vs AFC ASTRA GIURGIU,1-4 (1-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-04-01 17:48:01
+2016-03-31 19:30:00,Romania,"Liga 1, Championship round",ASA TARGU MURES vs FC VIITORUL CONSTANTA,1-1 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-03-31 12:26:03
+2016-03-30 22:00:00,Ecuador,"Serie A, Primera Etapa",SD AUCAS vs INDEPENDIENTE DEL VALLE,1-0 (1-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-30 16:16:02
+2016-03-30 17:30:00,Romania,"Liga 1,Relegation round",CS CONCORDIA CHIAJNA vs CS MUNICIPAL STUDENTESC IASI,1-1 (1-1),Match Odds,Draw,3.09,,100,209.00,Win,Sony Luiz,Football,2016-03-30 16:13:02
+2016-03-30 15:00:00,Romania,"Liga 1,Relegation round",CS VOLUNTARI vs CFR CLUJ,1-0 (0-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-30 10:24:01
+2016-03-29 19:00:00,International,"Africa Cup of Nations, Qualification, Group M",SOUTH AFRICA vs CAMEROON,0-0 (0-0),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-03-29 15:43:04
+2016-03-29 17:00:00,International,World Cup Qualification,UNITED ARAB EMIRATES vs SAUDI ARABIA,1-1 (0-1),Match Odds,Draw,3.39,,100,239.00,Win,Sony Luiz,Football,2016-03-29 15:42:04
+2016-03-29 17:00:00,International,"Africa Cup of Nations, Qualification, Group A",TOGO vs TUNISIA,0-0 (0-0),Match Odds,Draw,3.16,,100,216.00,Win,Sony Luiz,Football,2016-03-29 15:41:01
+2016-03-27 21:00:00,Argentina,Primera B Nacional,JUVENTUD UNIDA GUALEGUAYCHU vs JUVENTUD UNIDA S.L.,1-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:52:02
+2016-03-27 21:00:00,Argentina,Primera B Nacional,ESTUDIANTES SAN LUIS vs GIMNASIA JUJUY,0-1 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:50:01
+2016-03-27 18:00:00,Argentina,Primera B Nacional,CSD FLANDRIA vs ESTUDIANTES BA,1-0 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:49:02
+2016-03-27 17:00:00,Spain,Liga Adelante,CD MIRANDES vs REAL VALLADOLID,4-1 (2-0),Match Odds,Draw,3.26,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:47:07
+2016-03-27 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs ALCORCON AD,4-0 (3-0),Match Odds,Draw,3.27,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:47:05
+2016-03-27 16:00:00,Argentina,Primera B Nacional,DEPORTIVO ARMENIO vs DEPORTIVO RIESTRA,0-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:45:02
+2016-03-27 15:00:00,Serbia,Superliga,FK MLADOST LUCANI vs FK CUKARICKI STANKOM,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-27 11:44:01
+2016-03-26 21:05:00,Argentina,Primera B Nacional,CA ALL BOYS vs NUEVA CHICAGO,5-2 (2-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 16:10:13
+2016-03-26 20:00:00,Argentina,Primera B Nacional,COMUNICACIONES vs CLUB ATLETICO FENIX,0-1 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 16:10:11
+2016-03-26 20:00:00,Argentina,Primera B Nacional,INDEPENDIENTE RIVADAVIA vs CLUB ALMAGRO,1-2 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 16:10:06
+2016-03-26 19:00:00,Argentina,Primera B Nacional,ALMIRANTE BROWN vs VILLA SAN CARLOS,1-1 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-26 16:08:06
+2016-03-26 18:00:00,Italy,Serie B,BRESCIA CALCIO vs NOVARA CALCIO,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-26 16:08:02
+2016-03-26 18:00:00,International,"Africa Cup of Nations, Qualification, Group F",CAPE VERDE vs MOROCCO,0-1 (0-1),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 16:07:04
+2016-03-26 17:05:00,Argentina,Primera B Nacional,CA PLATENSE vs DEPORTIVO MORON,3-1 (2-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 15:31:02
+2016-03-26 16:00:00,Portugal,Liga Vitalis,FC FAMALICAO vs PORTIMONENSE SC,1-1 (0-1),Match Odds,Draw,3.23,,100,223.00,Win,Sony Luiz,Football,2016-03-26 14:39:02
+2016-03-26 16:00:00,Portugal,Liga Vitalis,LEIXOES SC vs ACADEMICO VISEU,1-1 (1-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-26 08:36:01
+2016-03-26 15:00:00,Italy,Serie B,VIRTUS LANCIANO vs PERUGIA,0-1 (0-0),Match Odds,Draw,3.02,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:35:08
+2016-03-26 15:00:00,Italy,Serie B,TERNANA CALCIO vs PESCARA CALCIO,1-0 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:35:03
+2016-03-26 15:00:00,Italy,Serie B,FC MODENA vs CAGLIARI CALCIO,1-2 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:33:05
+2016-03-26 15:00:00,Italy,Serie B,COMO CALCIO vs VIRTUS ENTELLA,1-1 (0-1),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-03-26 08:33:01
+2016-03-26 15:00:00,Italy,Serie B,AS AVELLINO vs FC CROTONE,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-03-26 08:32:02
+2016-03-26 15:00:00,Italy,Serie B,ASCOLI vs VICENZA CALCIO,1-2 (1-2),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:31:02
+2016-03-26 15:00:00,Argentina,Primera B Nacional,UAI URQUIZA vs BARRACAS CENTRAL,0-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:30:05
+2016-03-26 14:30:00,Italy,"Lega Pro Prima Divisione, Girone C",COSENZA CALCIO vs US LECCE,3-4 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:30:02
+2016-03-26 13:30:00,International,"Africa Cup of Nations, Qualification, Group J",SEYCHELLES vs LESOTHO,2-0 (1-0),Match Odds,Draw,2.96,,100,-100.00,Lost,Sony Luiz,Football,2016-03-26 08:06:02
+2016-03-26 02:06:00,International,"World Cup Qualification, CONCACAF 4th round",EL SALVADOR vs HONDURAS,2-2 (1-1),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-25 10:54:04
+2016-03-26 01:00:00,World Cup,"International, World Cup Qualification, CONCACAF 4th round, Gr.2",JAMAICA vs COSTA RICA,1-1 (1-0),Match Odds,Draw,3.06,,100,206.00,Win,Sony Luiz,Football,2016-03-25 10:53:04
+2016-03-26 01:00:00,World Cup,"International, World Cup Qualification, CONCACAF 4th round, Gr.2",HAITI vs PANAMA,0-0 (0-0),Match Odds,Draw,3.25,,100,225.00,Win,Sony Luiz,Football,2016-03-25 10:52:03
+2016-03-25 20:45:00,International,International Friendly Games,IRELAND vs SWITZERLAND,1-0 (1-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-25 10:51:02
+2016-03-25 18:30:00,France,National,ASM BELFORT vs LES HERBIERS,1-0 (1-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-03-25 10:47:02
+2016-03-25 18:30:00,France,National,COLMAR vs US BOULOGNE COTE D OPALE,0-1 (0-1),Match Odds,Draw,3.21,,100,-100.00,Lost,Sony Luiz,Football,2016-03-25 10:46:01
+2016-03-25 18:00:00,Algeria,Ligue 1,CS CONSTANTINE vs JS SAOURA,1-1 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-25 10:44:01
+2016-03-25 16:00:00,England,Skrill Premier,GATESHEAD FC vs MACCLESFIELD TOWN,0-3 (0-2),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-03-25 10:41:01
+2016-03-25 14:00:00,International,"Africa Cup of Nations, Qualification, Group L",SWAZILAND vs ZIMBABWE,1-1 (1-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-25 10:39:02
+2016-03-23 20:30:00,Italy,"Lega Pro Prima Divisione, Girone B",TUTTOCUOIO vs AC ANCONA,1-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-23 14:49:02
+2016-03-23 20:30:00,Italy,"Lega Pro Prima Divisione, Girone B",AC PISTOIESE vs PONTEDERA,1-3 (1-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-23 14:47:02
+2016-03-23 20:30:00,Italy,"Lega Pro, Girone A",CALCIO PADOVA vs US CREMONESE,2-1 (2-1),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-03-23 14:45:05
+2016-03-23 17:00:00,International,"Africa Cup of Nations, Qualification, Group E",GUINEA-BISSAU vs KENYA,1-0 (1-0),Match Odds,Draw,2.93,,100,-100.00,Lost,Sony Luiz,Football,2016-03-23 14:44:04
+2016-03-23 15:30:00,International,"Africa Cup of Nations, Qualification, Group G",CHAD vs TANZANIA,0-1 (0-1),Match Odds,Draw,2.95,,100,-100.00,Lost,Sony Luiz,Football,2016-03-23 14:25:01
+2016-03-21 00:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",ATLETICO LANUS vs BOCA JUNIORS,2-0 (2-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 18:10:01
+2016-03-21 00:00:00,Argentina,Primera B Nacional,INSTITUTO AC CORDOBA vs CA ALL BOYS,4-1 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 18:09:04
+2016-03-20 23:00:00,Argentina,Primera B Nacional,CLUB ATLETICO PARANA vs BOCA UNIDOS,0-2 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 18:08:02
+2016-03-20 21:15:00,Colombia,Apertura I,INDEPENDIENTE MEDELLIN vs ATLETICO NACIONAL MEDELLIN,1-1 (1-0),Match Odds,Draw,3.19,,100,219.00,Win,Sony Luiz,Football,2016-03-20 18:07:05
+2016-03-20 20:30:00,Argentina,Primera B Nacional,JUVENTUD UNIDA S.L. vs GUILLERMO BROWN,3-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 18:07:02
+2016-03-20 20:00:00,Argentina,Primera B Nacional,ESTUDIANTES BA vs CA PLATENSE,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-20 15:53:04
+2016-03-20 20:00:00,Argentina,Primera B Nacional,CLUB ATLETICO ACASSUSO vs ALMIRANTE BROWN,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-20 15:53:02
+2016-03-20 20:00:00,Argentina,Primera B Nacional,CRUCERO DEL NORTE vs CD SANTAMARINA TANDIL,3-1 (1-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 18:06:02
+2016-03-20 17:30:00,Italy,Serie B,FC CROTONE vs PESCARA CALCIO,4-2 (3-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 15:55:03
+2016-03-20 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs SD HUESCA,2-1 (1-0),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 15:48:03
+2016-03-20 17:00:00,Spain,Liga Adelante,GIRONA FC vs CD LEGANES,1-1 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-03-20 15:48:01
+2016-03-20 17:00:00,Spain,Liga Adelante,ATHLETIC BILBAO B vs GIMNASTIC DE TARRAGONA,0-4 (0-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 15:43:03
+2016-03-20 16:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs SC FREAMUNDE,0-2 (0-0),Match Odds,Draw,3.02,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:35:02
+2016-03-20 16:00:00,Portugal,Liga Vitalis,SC COVILHA vs FC FAMALICAO,0-1 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:27:02
+2016-03-20 16:00:00,Portugal,Liga Vitalis,SPORTING BRAGA B vs VARZIM SC,0-2 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:25:02
+2016-03-20 15:00:00,Argentina,Primera B Nacional,CLUB ATLETICO LOS ANDES vs INDEPENDIENTE RIVADAVIA,1-0 (0-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:21:02
+2016-03-20 14:30:00,Italy,"Lega Pro Prima Divisione, Girone C",AKRAGAS vs CATANIA CALCIO,3-2 (2-0),Match Odds,Draw,3.41,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:17:02
+2016-03-20 14:00:00,Italy,"Lega Pro Prima Divisione, Girone B",LUPA ROMA vs ROBUR SIENA,3-0 (2-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 12:19:02
+2016-03-20 12:30:00,Turkey,Turkcell Super Lig,KONYASPOR vs BASAKSEHIR FK,1-1 (1-0),Match Odds,Draw,3.17,,100,217.00,Win,Sony Luiz,Football,2016-03-20 10:43:03
+2016-03-20 12:30:00,Italy,Serie A,ATALANTA BERGAMASCA vs BOLOGNA FC,2-0 (2-0),Match Odds,Draw,3.24,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 10:40:04
+2016-03-20 12:00:00,Spain,Liga Adelante,TENERIFE CD vs REAL ZARAGOZA,0-0 (0-0),Match Odds,Draw,3.16,,100,216.00,Win,Sony Luiz,Football,2016-03-20 10:38:08
+2016-03-20 05:00:00,Japan,J.League 2,SHIMIZU S-PULSE vs CONSADOLE SAPPORO,0-2 (0-2),Match Odds,Draw,3.60,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 01:58:01
+2016-03-20 05:00:00,Japan,J.League 2,MITO HOLLYHOCK vs FAGIANO OKAYAMA,2-3 (0-0),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-03-20 01:56:14
+2016-03-19 22:05:00,Spain,Liga BBVA,BETIS SEVILLA vs MALAGA CF,0-1 (0-0),Match Odds,Draw,3.27,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 16:10:01
+2016-03-19 20:30:00,Italy,"Lega Pro Prima Divisione, Girone B",SANTARCANGELO CALCIO vs AC ANCONA,0-2 (0-1),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 15:07:03
+2016-03-19 20:30:00,Italy,"Lega Pro Prima Divisione, Girone C",JUVE STABIA vs MATERA FC,1-1 (0-1),Match Odds,Draw,3.02,,100,202.00,Win,Sony Luiz,Football,2016-03-19 15:10:01
+2016-03-19 20:00:00,France,Ligue 1,SCO ANGERS vs FC LORIENT,5-1 (3-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 16:08:02
+2016-03-19 20:00:00,Argentina,Primera B Nacional,NUEVA CHICAGO vs CA TALLERES,1-1 (0-1),Match Odds,Draw,3.06,,100,206.00,Win,Sony Luiz,Football,2016-03-19 15:03:02
+2016-03-19 18:00:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs CA OSASUNA,3-1 (2-1),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 16:06:12
+2016-03-19 16:15:00,Greece,Super League,VEROIA FC vs PLATANIAS FC,0-1 (0-1),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:41:04
+2016-03-19 16:00:00,England,Skrill Premier,BOREHAM WOOD vs MACCLESFIELD TOWN,0-0 (0-0),Match Odds,Draw,3.27,,100,227.00,Win,Sony Luiz,Football,2016-03-19 10:39:03
+2016-03-19 15:00:00,Slovenia,PrvaLiga,NK CELJE vs NK DOMZALE,1-2 (1-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:37:02
+2016-03-19 15:00:00,Italy,Serie B,VIRTUS LANCIANO vs AC CESENA,2-0 (1-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:35:03
+2016-03-19 15:00:00,Czech Republic,1st Division,FC ZBROJOVKA BRNO vs DUKLA PRAGUE,3-0 (2-0),Match Odds,Draw,3.24,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:33:04
+2016-03-19 14:00:00,Serbia,Superliga,OFK BELGRADE vs FK VOJVODINA,1-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:30:04
+2016-03-19 13:00:00,Germany,2. Bundesliga,SV SANDHAUSEN vs FC ST. PAULI,0-2 (0-2),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:28:04
+2016-03-19 13:00:00,Germany,2. Bundesliga,FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN,4-3 (3-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:26:02
+2016-03-19 13:00:00,Bulgaria,A PFG,PFC SLAVIA SOFIA vs LEVSKI SOFIA,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-19 10:24:02
+2016-03-19 12:30:00,Russia,Premier League,FC UFA vs FC DINAMO MOSCOW,0-1 (0-1),Match Odds,Draw,3.01,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 10:11:17
+2016-03-19 06:00:00,Japan,League 1,NAGOYA GRAMPUS vs VEGALTA SENDAI,2-1 (1-0),Match Odds,Draw,3.56,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 03:17:02
+2016-03-19 06:00:00,Japan,League 1,NIIGATA ALBIREX vs KASHIWA REYSOL,2-2 (1-0),Match Odds,Draw,3.54,,100,254.00,Win,Sony Luiz,Football,2016-03-19 03:14:02
+2016-03-19 05:00:00,Japan,League 1,YOKOHAMA F MARINOS vs SAGAN TOSU,2-1 (1-0),Match Odds,Draw,3.55,,100,-100.00,Lost,Sony Luiz,Football,2016-03-19 03:10:02
+2016-03-19 04:30:00,Mexico,"Primera Division, Clausura",CLUB TIJUANA vs DEPORTIVO TOLUCA,0-0 (0-0),Match Odds,Draw,3.40,,100,240.00,Win,Sony Luiz,Football,2016-03-19 03:07:02
+2016-03-18 20:30:00,Italy,Serie B,VIRTUS ENTELLA vs SPEZIA CALCIO,2-2 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-18 12:10:02
+2016-03-18 20:00:00,France,Ligue 2,AJ AUXERRE vs BOURG PERONNAS,1-2 (0-0),Match Odds,Draw,3.42,,100,-100.00,Lost,Sony Luiz,Football,2016-03-18 17:12:03
+2016-03-18 20:00:00,France,Ligue 2,AC AJACCIO vs CHAMOIS NIORT FC,2-0 (0-0),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-03-18 17:09:04
+2016-03-18 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs VALENCIENNES FC,0-3 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-18 12:08:02
+2016-03-18 20:00:00,France,Ligue 2,EVIAN TG FC vs FC SOCHAUX,0-0 (0-0),Match Odds,Draw,2.95,,100,195.00,Win,Sony Luiz,Football,2016-03-18 12:07:02
+2016-03-16 21:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-16 12:12:03
+2016-03-16 16:30:00,Russia,1st Division,VOLGA NIZHNY NOVGOROD vs FC BALTIKA KALININGRAD,0-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-16 12:11:01
+2016-03-16 16:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs CD MAFRA,0-1 (0-0),Match Odds,Draw,2.97,,100,-100.00,Lost,Sony Luiz,Football,2016-03-16 12:10:02
+2016-03-16 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs GIL VICENTE FC,0-0 (0-0),Match Odds,Draw,3.15,,100,215.00,Win,Sony Luiz,Football,2016-03-16 12:09:01
+2016-03-16 16:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs CD DAS AVES,2-0 (0-0),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-03-16 12:06:02
+2016-03-15 20:45:00,England,Skrill Premier,EASTLEIGH FC vs BROMLEY FC,2-0 (2-0),Over / Under,Over +2.50,1.83,,100,-100.00,Lost,Sony Luiz,Football,2016-03-15 15:23:03
+2016-03-15 20:45:00,England,Skrill South,HEMEL HEMPSTEAD vs CHELMSFORD CITY,1-1 (0-1),Over / Under,Over +3.00,1.97,,100,-100.00,Lost,Sony Luiz,Football,2016-03-15 15:21:02
+2016-03-15 20:45:00,England,Skrill South,WESTON SUPER MARE FC vs MAIDSTONE UNITED,1-2 (0-1),Over / Under,Under +2.50,2.05,,100,-100.00,Lost,Sony Luiz,Football,2016-03-15 15:19:02
+2016-03-15 20:45:00,England,Skrill Premier,GUISELEY FC vs GRIMSBY TOWN,2-2 (1-1),Over / Under,Under +2.50,1.85,,100,-100.00,Lost,Sony Luiz,Football,2016-03-15 15:17:03
+2016-03-15 19:00:00,Egypt,Premier League,AL MOQAWLOON AL ARAB vs TALAEA EL GAISH,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-15 11:50:04
+2016-03-15 14:00:00,Egypt,Premier League,ASWAN FC vs PETROJET FC,2-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-15 11:49:01
+2016-03-13 17:30:00,Italy,Serie B,VICENZA CALCIO vs TRAPANI CALCIO,1-2 (1-2),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 16:17:02
+2016-03-13 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs RCD MALLORCA,3-0 (1-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 15:21:10
+2016-03-13 17:00:00,Spain,Liga Adelante,SD HUESCA vs ALCORCON AD,1-0 (1-0),Match Odds,Draw,3.08,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 03:25:02
+2016-03-13 16:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs FC FAMALICAO,2-2 (1-1),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-13 12:00:02
+2016-03-13 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs SC FREAMUNDE,2-1 (2-0),Match Odds,Draw,2.88,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 03:19:02
+2016-03-13 15:00:00,Italy,"Lega Pro, Girone A",BASSANO VIRTUS vs PORDENONE,1-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 12:05:04
+2016-03-13 15:00:00,Italy,Serie A,GENOA FC vs TURIN FC,3-2 (2-2),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 09:14:01
+2016-03-13 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",SANTARCANGELO CALCIO vs AQUILA,2-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 09:12:01
+2016-03-13 15:00:00,Italy,"Lega Pro, Girone A",AC LUMEZZANE vs US CREMONESE,2-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 03:12:01
+2016-03-13 14:00:00,Greece,Super League,ATROMITOS ATHENS vs ASTERAS TRIPOLIS,2-1 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 00:57:02
+2016-03-13 12:00:00,Spain,Liga Adelante,CA OSASUNA vs CD ALAVES,3-1 (3-1),Match Odds,Draw,3.09,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 00:56:02
+2016-03-13 08:00:00,Japan,J.League 2,ZWIEGEN KANAZAWA vs MITO HOLLYHOCK,0-0 (0-0),Match Odds,Draw,3.07,,100,207.00,Win,Sony Luiz,Football,2016-03-13 00:55:02
+2016-03-13 08:00:00,Japan,J.League 2,ROASSO KUMAMOTO vs TOKYO VERDY,1-0 (1-0),Match Odds,Draw,3.06,,100,-100.00,Lost,Sony Luiz,Football,2016-03-13 00:54:01
+2016-03-13 08:00:00,Japan,J.League 2,KAMATAMARE SANUKI vs V-VAREN NAGASAKI,2-2 (0-2),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-12 19:11:02
+2016-03-13 05:00:00,Japan,J.League 2,TOKUSHIMA VORTIS vs MONTEDIO YAMAGATA,2-2 (0-2),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-12 19:08:02
+2016-03-13 05:00:00,Japan,J.League 2,FAGIANO OKAYAMA vs KYOTO SANGA FC,2-2 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-12 18:38:05
+2016-03-13 00:00:00,Argentina,Primera B Nacional,CLUB ATLETICO PARANA vs GIMNASIA JUJUY,0-0 (0-0),Match Odds,Draw,3.02,,100,202.00,Win,Sony Luiz,Football,2016-03-12 18:37:03
+2016-03-12 23:05:00,Argentina,Primera B Nacional,CA ALL BOYS vs FERRO CARRIL OESTE,1-1 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-12 17:18:03
+2016-03-12 21:45:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA BANFIELD vs CA INDEPENDIENTE,1-3 (1-2),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 17:02:05
+2016-03-12 20:30:00,Italy,"Lega Pro, Girone A",GIANA ERMINIO vs AC MANTOVA,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-12 16:17:01
+2016-03-12 20:00:00,France,Ligue 1,GAZELEC AJACCIO vs SM CAEN,1-0 (0-0),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 16:06:02
+2016-03-12 20:00:00,France,Ligue 1,SC BASTIA vs LILLE OSC,1-2 (0-1),Match Odds,Draw,2.96,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 16:05:04
+2016-03-12 19:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CLUB OLIMPO vs CA BELGRANO,2-0 (0-0),Match Odds,Draw,3.03,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 16:04:03
+2016-03-12 18:00:00,Spain,Liga Adelante,UD ALMERIA vs GIRONA FC,1-0 (1-0),Match Odds,Draw,3.17,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 16:02:02
+2016-03-12 18:00:00,Algeria,Ligue 1,JS SAOURA vs JS KABYLIE,3-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 15:14:04
+2016-03-12 17:30:00,Russia,Premier League,FC ROSTOV vs CSKA MOSCOW,2-0 (1-0),Match Odds,Draw,3.40,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 15:13:02
+2016-03-12 17:30:00,Italy,"Lega Pro Prima Divisione, Girone B",LUCCHESE LIBERTAS vs RIMINI CALCIO,2-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 13:29:02
+2016-03-12 16:15:00,Greece,Super League,KALLONI AEL FC vs PAS GIANNINA FC,0-2 (0-1),Match Odds,Draw,3.31,,80,-80.00,Lost,Sony Luiz,Football,2016-03-12 11:05:01
+2016-03-12 16:00:00,Algeria,Ligue 1,RC RELIZANE vs NA HUSSEIN DEY,1-3 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 11:00:02
+2016-03-12 15:00:00,Italy,Serie B,TERNANA CALCIO vs LATINA CALCIO,0-0 (0-0),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-03-12 10:24:03
+2016-03-12 15:00:00,Italy,Serie B,COMO CALCIO vs AC CESENA,1-3 (1-0),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 10:19:05
+2016-03-12 15:00:00,Italy,Serie B,ASCOLI vs AS AVELLINO,3-4 (3-2),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 10:17:01
+2016-03-12 15:00:00,Italy,"Lega Pro, Girone A",UC ALBINOLEFFE vs CUNEO,2-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 09:54:03
+2016-03-12 15:00:00,Croatia,1. HNL,NK SLAVEN BELUPO vs RNK SPLIT,0-1 (0-0),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 09:52:04
+2016-03-12 14:00:00,Serbia,Superliga,FK JAGODINA vs FK RADNICKI NIS,1-2 (0-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 09:50:05
+2016-03-12 14:00:00,Germany,3.Liga,CHEMNITZER FC vs FC KICKERS WURZBURG,0-1 (0-1),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-12 09:47:03
+2016-03-11 20:30:00,Italy,Serie B,BRESCIA CALCIO vs FC CROTONE,3-0 (1-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 04:16:01
+2016-03-11 20:00:00,France,Ligue 2,US CRETEIL vs EVIAN TG FC,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-03-11 15:12:06
+2016-03-11 20:00:00,France,Ligue 2,CHAMOIS NIORT FC vs PARIS FC 98,2-1 (0-1),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:28:01
+2016-03-11 20:00:00,France,Ligue 2,FC METZ vs AC AJACCIO,3-2 (1-2),Match Odds,Draw,3.13,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:27:08
+2016-03-11 20:00:00,France,National,LES HERBIERS vs AS BEZIERS,3-1 (1-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:19:02
+2016-03-11 20:00:00,France,National,ETOILE FREJUS SAINT-RAPHAEL vs DUNKERQUE,0-2 (0-2),Match Odds,Draw,2.98,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 04:12:02
+2016-03-11 20:00:00,France,National,FC CHAMBLY vs CA BASTIA,2-2 (1-2),Match Odds,Draw,2.99,,100,199.00,Win,Sony Luiz,Football,2016-03-11 04:10:01
+2016-03-11 20:00:00,France,Ligue 2,VALENCIENNES FC vs STADE BREST,0-1 (0-0),Match Odds,Draw,3.02,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 04:07:02
+2016-03-11 19:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs CS MUNICIPAL STUDENTESC IASI,1-2 (0-2),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:27:02
+2016-03-11 19:00:00,Slovenia,PrvaLiga,NK ZAVRC vs NK DOMZALE,0-1 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:23:12
+2016-03-11 14:00:00,Israel,National League,HAPOEL PETACH TIKVA vs HAPOEL RAMAT GAN,2-1 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-03-11 10:11:04
+2016-03-09 20:45:00,European cups,UEFA Champions League,CHELSEA FC vs PARIS ST GERMAIN,1-2 (1-1),Match Odds,CHELSEA FC,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-03-09 12:31:02
+2016-03-09 18:30:00,France,Ligue 1,SC BASTIA vs FC NANTES,0-0 (0-0),Match Odds,Draw,3.04,,100,204.00,Win,Sony Luiz,Football,2016-03-09 09:00:02
+2016-03-09 17:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs PORTIMONENSE SC,1-1 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-09 09:04:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs SPORTING BRAGA B,0-0 (0-0),Match Odds,Draw,3.22,,100,222.00,Win,Sony Luiz,Football,2016-03-09 12:29:01
+2016-03-09 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs GD CHAVES,1-0 (1-0),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-03-09 12:27:03
+2016-03-09 16:00:00,Portugal,Liga Vitalis,LEIXOES SC vs CD FEIRENSE,0-1 (0-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-09 12:26:01
+2016-03-09 16:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs GIL VICENTE FC,1-0 (1-0),Match Odds,Draw,3.08,,100,-100.00,Lost,Sony Luiz,Football,2016-03-09 09:03:02
+2016-03-08 19:00:00,Egypt,Premier League,TALAEA EL GAISH vs EL-ENTAG EL-HARBY,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-08 09:25:01
+2016-03-08 16:00:00,Algeria,Ligue 1,USM BLIDA vs ES SETIF,2-1 (1-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-03-08 09:27:02
+2016-03-08 13:45:00,Egypt,Premier League,GHAZL EL MAHALLAH vs ASWAN FC,0-1 (0-0),Match Odds,Draw,2.75,,100,-100.00,Lost,Sony Luiz,Football,2016-03-08 09:24:01
+2016-03-07 23:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA TIGRE vs ATLETICO TUCUMAN,5-0 (4-0),Match Odds,Draw,3.22,,50,-50.00,Lost,Sony Luiz,Football,2016-03-07 11:13:02
+2016-03-07 20:00:00,Italy,"Lega Pro Prima Divisione, Girone C",MATERA FC vs COSENZA CALCIO,1-0 (1-0),Match Odds,Draw,3.00,,50,-50.00,Lost,Sony Luiz,Football,2016-03-07 11:12:03
+2016-03-07 19:00:00,Egypt,Premier League,ENPPI CLUB vs SMOUHA SC,0-1 (0-1),Match Odds,Draw,3.03,,50,-50.00,Lost,Sony Luiz,Football,2016-03-07 11:11:02
+2016-03-06 17:30:00,Italy,Serie B,FC MODENA vs AS LIVORNO,1-0 (1-0),Match Odds,Draw,3.07,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 14:07:04
+2016-03-06 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs NUMANCIA CD,1-0 (0-0),Match Odds,Draw,3.22,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 14:09:04
+2016-03-06 17:00:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs CF OS BELENENSES,0-0 (0-0),Match Odds,Draw,3.31,,50,115.50,Win,Sony Luiz,Football,2016-03-06 14:06:04
+2016-03-06 17:00:00,Portugal,Liga Sagres,BOAVISTA FC vs CD NACIONAL,0-1 (0-1),Match Odds,Draw,3.17,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 13:57:04
+2016-03-06 17:00:00,Portugal,Liga Sagres,CD TONDELA vs FC AROUCA,0-1 (0-0),Match Odds,Draw,3.29,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 14:04:03
+2016-03-06 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",JUVE STABIA vs AKRAGAS,3-1 (1-1),Match Odds,Draw,3.10,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 13:55:06
+2016-03-06 15:00:00,Italy,"Lega Pro, Girone A",AC MANTOVA vs CALCIO PADOVA,1-3 (0-2),Match Odds,Draw,3.00,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 09:21:02
+2016-03-06 12:30:00,Turkey,Bank Asya 1. Lig,GAZIANTEP BLD SPOR vs SAMSUNSPOR,2-1 (0-0),Match Odds,Draw,3.28,,50,-50.00,Lost,Sony Luiz,Football,2016-03-06 09:19:03
+2016-03-05 20:15:00,Spain,Liga Adelante,CD LUGO vs CA OSASUNA,2-0 (0-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 16:12:34
+2016-03-05 20:00:00,France,Ligue 1,SC BASTIA vs FC LORIENT,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-05 16:09:09
+2016-03-05 20:00:00,France,Ligue 1,SCO ANGERS vs AS SAINT ETIENNE,0-0 (0-0),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-03-05 14:30:02
+2016-03-05 17:30:00,Italy,"Lega Pro Prima Divisione, Girone B",AC PRATO vs TERAMO CALCIO,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-03-05 16:05:02
+2016-03-05 16:00:00,Portugal,Liga Vitalis,ACADEMICO VISEU vs FC PENAFIEL,0-2 (0-2),Match Odds,Draw,3.09,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:52:07
+2016-03-05 16:00:00,Israel,Premier League,MACCABI PETACH TIKVA vs HAPOEL TEL AVIV,1-1 (1-1),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-05 11:51:03
+2016-03-05 16:00:00,England,Championship,PRESTON NORTH END vs BRIGHTON & HOVE ALBION FC,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-03-05 11:50:02
+2016-03-05 16:00:00,Portugal,Liga Vitalis,CD DAS AVES vs SC FREAMUNDE,1-1 (1-0),Match Odds,Draw,2.93,,100,193.00,Win,Sony Luiz,Football,2016-03-05 11:46:02
+2016-03-05 15:00:00,Italy,Serie B,VIRTUS ENTELLA vs FC BARI 1908,2-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:48:03
+2016-03-05 15:00:00,Italy,Serie B,VIRTUS LANCIANO vs BRESCIA CALCIO,1-0 (1-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 13:53:07
+2016-03-05 15:00:00,Italy,Serie B,AS AVELLINO vs SPEZIA CALCIO,0-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:44:01
+2016-03-05 15:00:00,Italy,"Lega Pro, Girone A",US CREMONESE vs AC REGGIANA,2-1 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:42:08
+2016-03-05 14:00:00,France,Ligue 2,TOURS FC vs FC SOCHAUX,1-0 (0-0),Match Odds,Draw,3.06,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:38:04
+2016-03-05 12:30:00,Russia,Premier League,FC KRYLIYA SOVETOV SAMARA vs FC ROSTOV,0-1 (0-1),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-03-05 11:07:03
+2016-03-04 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs RC LENS,1-1 (0-1),Match Odds,Draw,3.02,,100,202.00,Win,Sony Luiz,Football,2016-03-04 08:43:03
+2016-03-04 20:00:00,France,Ligue 2,EVIAN TG FC vs DIJON FCO,1-2 (0-2),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-03-04 08:42:01
+2016-03-01 20:30:00,Italy,Serie B,VICENZA CALCIO vs PRO VERCELLI,1-1 (1-1),Match Odds,Draw,3.17,,100,217.00,Win,Sony Luiz,Football,2016-03-01 08:47:03
+2016-03-01 20:30:00,Italy,Serie B,SPORTIVA SALERNITANA vs VIRTUS ENTELLA,2-2 (1-1),Match Odds,Draw,3.12,,100,212.00,Win,Sony Luiz,Football,2016-03-01 08:45:02
+2016-03-01 20:30:00,Italy,Serie B,AS LIVORNO vs FC CROTONE,0-0 (0-0),Match Odds,Draw,3.12,,100,212.00,Win,Sony Luiz,Football,2016-03-01 08:44:02
+2016-03-01 20:30:00,Italy,Serie B,COMO CALCIO vs VIRTUS LANCIANO,1-1 (1-0),Match Odds,Draw,3.22,,100,222.00,Win,Sony Luiz,Football,2016-03-01 08:42:01
+2016-03-01 20:30:00,Italy,Serie B,ASCOLI vs FC MODENA,2-1 (1-1),Match Odds,Draw,3.07,,100,-100.00,Lost,Sony Luiz,Football,2016-03-01 08:40:02
+2016-03-01 20:00:00,Germany,Bundesliga,FC INGOLSTADT vs 1 FC COLOGNE,1-1 (1-0),Match Odds,Draw,3.17,,100,217.00,Win,Sony Luiz,Football,2016-03-01 08:38:02
+2016-03-01 19:00:00,Germany,3.Liga,HALLESCHER FC vs FC KICKERS WURZBURG,1-3 (0-1),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-03-01 08:35:02
+2016-03-01 19:00:00,Egypt,Premier League,EL DAKLYEH vs ISMAILY SC,0-1 (0-0),Match Odds,Draw,2.96,,100,-100.00,Lost,Sony Luiz,Football,2016-03-01 08:22:03
+2016-03-01 16:15:00,Egypt,Premier League,SMOUHA SC vs MISR LEL MAKASA,4-3 (2-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-03-01 08:25:01
+2016-03-01 16:15:00,Egypt,Premier League,AL MASRY CLUB vs ENPPI CLUB,4-0 (3-0),Match Odds,Draw,2.96,,100,-100.00,Lost,Sony Luiz,Football,2016-03-01 08:19:02
+2016-03-01 01:30:00,Argentina,Primera B Nacional,INDEPENDIENTE RIVADAVIA vs INSTITUTO AC CORDOBA,0-3 (0-0),Match Odds,Draw,2.98,,100,-100.00,Lost,Sony Luiz,Football,2016-02-29 16:34:05
+2016-03-01 01:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA TEMPERLEY vs CA TIGRE,2-0 (2-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-29 16:25:02
+2016-03-01 01:05:00,Argentina,Primera B Nacional,CD SANTAMARINA TANDIL vs FERRO CARRIL OESTE,2-0 (1-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-02-29 16:24:03
+2016-02-26 20:00:00,France,Ligue 2,VALENCIENNES FC vs FC SOCHAUX,2-2 (1-1),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-02-26 11:35:02
+2016-02-26 20:00:00,France,Ligue 2,PARIS FC 98 vs AJ AUXERRE,2-2 (0-1),Match Odds,Draw,3.15,,100,215.00,Win,Sony Luiz,Football,2016-02-26 11:32:02
+2016-02-26 20:00:00,France,Ligue 2,CHAMOIS NIORT FC vs AC HAVRE,0-0 (0-0),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-02-26 11:30:05
+2016-02-26 20:00:00,France,Ligue 2,US CRETEIL vs STADE LAVALLOIS MFC,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-02-26 11:28:04
+2016-02-26 20:00:00,France,Ligue 2,AC AJACCIO vs AS NANCY,2-1 (1-1),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-02-26 11:26:02
+2016-02-24 18:00:00,Italy,"Coppa Italia Lega Pro, Final Round",ROBUR SIENA vs US FOGGIA,5-2 (1-1),Match Odds,Draw,3.20,,50,-50.00,Lost,Sony Luiz,Football,2016-02-24 16:44:01
+2016-02-24 01:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA ALDOSIVI vs ESTUDIANTES DE LA PLATA,1-2 (0-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-02-23 18:11:12
+2016-02-23 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs BAYERN MUNICH,2-2 (0-1),Match Odds,Draw,3.28,,100,228.00,Win,Sony Luiz,Football,2016-02-23 18:08:05
+2016-02-23 16:00:00,Algeria,Ligue 1,MO BEJAIA vs UNION SPORTIVE MéDINA D'ALGER,0-1 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-23 10:55:04
+2016-02-22 18:30:00,Greece,Super League,VEROIA FC vs PANIONIOS ATHENS,1-1 (1-0),Match Odds,Draw,2.90,,100,190.00,Win,Sony Luiz,Football,2016-02-22 13:29:02
+2016-02-22 00:00:00,Argentina,Primera B Nacional,CENTRAL CORDOBA SDE vs CD SANTAMARINA TANDIL,1-0 (1-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 17:28:05
+2016-02-21 23:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",GODOY CRUZ A.T. vs COLON DE SANTA FE,4-1 (1-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 17:58:06
+2016-02-21 23:00:00,Colombia,Apertura I,BOYACA CHICO FC vs RIONEGRO AGUILAS,0-2 (0-0),Match Odds,Draw,3.09,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 17:27:02
+2016-02-21 21:00:00,France,Ligue 1,LILLE OSC vs OLYMPIQUE LYON,1-0 (1-0),Match Odds,Draw,3.18,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 17:56:08
+2016-02-21 18:45:00,Egypt,Premier League,WADI DEGLA SC vs ENPPI CLUB,2-3 (0-1),Match Odds,Draw,2.97,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 15:59:02
+2016-02-21 17:00:00,Portugal,Liga Sagres,VITORIA SETUBAL vs CD NACIONAL,1-1 (0-1),Match Odds,Draw,3.32,,100,232.00,Win,Sony Luiz,Football,2016-02-21 15:20:05
+2016-02-21 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs LEIXOES SC,1-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 12:00:01
+2016-02-21 16:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs VARZIM SC,0-1 (0-1),Match Odds,Draw,3.17,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:59:02
+2016-02-21 16:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs CD SANTA CLARA,1-0 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:57:02
+2016-02-21 16:00:00,Portugal,Liga Vitalis,ACADEMICO VISEU vs FC FAMALICAO,0-1 (0-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:54:08
+2016-02-21 16:00:00,Egypt,Premier League,TALAEA EL GAISH vs ISMAILY SC,1-2 (1-1),Match Odds,Draw,3.09,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:42:03
+2016-02-21 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",US CATANZARO vs CATANIA CALCIO,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-21 11:41:02
+2016-02-21 15:00:00,Italy,"Lega Pro, Girone A",CALCIO PADOVA vs AS CITTADELLA,0-1 (0-0),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:38:04
+2016-02-21 15:00:00,Italy,"Lega Pro, Girone A",AC MANTOVA vs CUNEO,2-0 (1-0),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:36:04
+2016-02-21 14:30:00,Turkey,Turkcell Super Lig,AKHISAR BLD SPOR vs BASAKSEHIR FK,0-0 (0-0),Match Odds,Draw,3.30,,100,230.00,Win,Sony Luiz,Football,2016-02-21 11:22:06
+2016-02-21 14:00:00,Germany,3.Liga,RW ERFURT vs FC KICKERS WURZBURG,1-0 (0-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-02-21 11:22:02
+2016-02-20 21:45:00,Portugal,Liga Sagres,ACADEMICA COIMBRA vs RIO AVE FC,0-2 (0-1),Match Odds,Draw,3.20,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 18:02:02
+2016-02-20 21:15:00,Colombia,Apertura I,DEPORTIVO LA EQUIDAD vs INDEPENDIENTE MEDELLIN,2-2 (0-1),Match Odds,Draw,3.16,,50,108.00,Win,Sony Luiz,Football,2016-02-20 17:31:05
+2016-02-20 21:05:00,Argentina,Primera B Nacional,CSD FLANDRIA vs CA PLATENSE,1-0 (0-0),Match Odds,Draw,2.88,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 17:30:02
+2016-02-20 21:05:00,Argentina,Primera B Nacional,CLUB ATLETICO LOS ANDES vs GIMNASIA JUJUY,1-0 (0-0),Match Odds,Draw,2.90,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 16:41:02
+2016-02-20 20:30:00,Italy,"Lega Pro, Girone A",US CREMONESE vs PORDENONE,0-2 (0-2),Match Odds,Draw,3.00,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 16:29:02
+2016-02-20 20:15:00,Spain,Liga Adelante,SD PONFERRADINA vs CORDOBA CF,1-3 (0-2),Match Odds,Draw,3.20,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 16:25:02
+2016-02-20 20:00:00,France,Ligue 1,SCO ANGERS vs MONTPELLIER HSC,2-3 (0-3),Match Odds,Draw,3.05,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 16:22:01
+2016-02-20 18:00:00,Spain,Liga Adelante,CD LUGO vs CD LEGANES,1-2 (1-1),Match Odds,Draw,3.07,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 15:23:03
+2016-02-20 17:30:00,Italy,"Lega Pro Prima Divisione, Girone C",US LECCE vs US FOGGIA,3-1 (1-0),Match Odds,Draw,3.00,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 15:22:01
+2016-02-20 17:30:00,Czech Republic,1st Division,FC SLOVAN LIBEREC vs FK BAUMIT JABLONEC,3-2 (2-0),Match Odds,Draw,3.25,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 14:52:02
+2016-02-20 17:00:00,Croatia,1. HNL,NK ISTRA 1961 vs NK INTER ZAPRESIC,1-2 (0-2),Match Odds,Draw,3.33,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 14:51:02
+2016-02-20 16:00:00,England,FA Cup,READING FC vs WEST BROMWICH ALBION,3-1 (0-0),Match Odds,Draw,3.20,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:25:05
+2016-02-20 16:00:00,England,Championship,BOLTON WANDERERS vs QUEENS PARK RANGERS,1-1 (0-0),Match Odds,Draw,3.35,,50,117.50,Win,Sony Luiz,Football,2016-02-20 11:22:09
+2016-02-20 15:00:00,Italy,Serie B,PRO VERCELLI vs VIRTUS ENTELLA,2-3 (2-0),Match Odds,Draw,2.88,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:19:02
+2016-02-20 15:00:00,Italy,Serie B,FC MODENA vs BRESCIA CALCIO,1-0 (0-0),Match Odds,Draw,3.25,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:13:02
+2016-02-20 15:00:00,Italy,Serie B,AS LIVORNO vs AC CESENA,1-1 (1-0),Match Odds,Draw,3.10,,50,99.75,Win,Sony Luiz,Football,2016-02-20 11:10:05
+2016-02-20 15:00:00,Italy,Serie B,ASCOLI vs COMO CALCIO,1-0 (0-0),Match Odds,Draw,3.02,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:07:08
+2016-02-20 14:00:00,Italy,"Lega Pro Prima Divisione, Girone B",SAVONA FBC vs AQUILA,1-2 (0-1),Match Odds,Draw,3.00,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:06:05
+2016-02-20 14:00:00,Germany,3.Liga,HANSA ROSTOCK vs ERZGEBIRGE AUE,0-2 (0-1),Match Odds,Draw,3.10,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 11:03:03
+2016-02-20 13:30:00,England,Championship,CARDIFF CITY vs BRIGHTON & HOVE ALBION FC,4-1 (3-0),Match Odds,Draw,3.25,,50,-50.00,Lost,Sony Luiz,Football,2016-02-20 10:59:07
+2016-02-19 21:30:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs GD ESTORIL PRAIA,1-1 (1-0),Match Odds,Draw,3.03,,100,203.00,Win,Sony Luiz,Football,2016-02-19 10:30:03
+2016-02-19 20:00:00,France,National,US BOULOGNE COTE D OPALE vs GS CONSOLAT MARSEILLE,0-2 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-02-19 10:29:02
+2016-02-19 20:00:00,France,National,AS BEZIERS vs US ORLEANS 45,0-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-02-19 10:27:02
+2016-02-19 20:00:00,France,Ligue 2,FC SOCHAUX vs RC LENS,0-0 (0-0),Match Odds,Draw,3.04,,100,204.00,Win,Sony Luiz,Football,2016-02-19 10:25:03
+2016-02-19 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs DIJON FCO,2-2 (0-2),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-19 10:23:03
+2016-02-19 20:00:00,France,Ligue 2,STADE BREST vs RED STAR FC,0-1 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-19 10:22:04
+2016-02-19 20:00:00,France,Ligue 2,AJ AUXERRE vs AC AJACCIO,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Sony Luiz,Football,2016-02-19 10:21:01
+2016-02-19 19:00:00,Germany,3.Liga,STUTTGARTER KICKERS vs HOLSTEIN KIEL,0-0 (0-0),Match Odds,Draw,3.33,,100,233.00,Win,Sony Luiz,Football,2016-02-19 10:17:02
+2016-02-19 18:00:00,Poland,Ekstraklasa,JAGIELLONIA BIALYSTOK vs WKS SLASK WROCLAW,2-1 (1-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-02-19 10:14:05
+2016-02-18 23:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",COLON DE SANTA FE vs CA BELGRANO,3-0 (3-0),Match Odds,Draw,3.13,,50,-50.00,Lost,Sony Luiz,Football,2016-02-18 17:23:02
+2016-02-18 13:30:00,Egypt,Premier League,MISR LEL MAKASA vs AL MASRY CLUB,2-2 (1-1),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-18 06:40:02
+2016-02-18 01:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CA SARMIENTO vs GIMNASIA Y ESGRIMA,1-3 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 14:40:02
+2016-02-17 21:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",NEWELL'S OLD BOYS vs RACING CLUB,5-0 (2-0),Match Odds,Draw,3.03,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 12:11:02
+2016-02-17 18:45:00,Egypt,Premier League,TALAEA EL GAISH vs WADI DEGLA SC,0-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 12:09:02
+2016-02-17 18:30:00,Greece,Super League,LEVADIAKOS FC vs ATROMITOS ATHENS,1-1 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-17 12:07:02
+2016-02-17 17:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs GD CHAVES,2-2 (1-1),Match Odds,Draw,3.20,,100,220.00,Win,Sony Luiz,Football,2016-02-17 14:36:04
+2016-02-17 17:00:00,Portugal,Liga Vitalis,BENFICA LISBON B vs CD DAS AVES,2-1 (1-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 14:35:02
+2016-02-17 16:00:00,Portugal,Liga Vitalis,LEIXOES SC vs SPORTING LISBON B,3-1 (2-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 14:33:06
+2016-02-17 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs VARZIM SC,1-1 (1-0),Match Odds,Draw,3.02,,100,202.00,Win,Sony Luiz,Football,2016-02-17 12:05:02
+2016-02-17 13:30:00,Egypt,Premier League,PETROJET FC vs SMOUHA SC,3-1 (1-1),Match Odds,Draw,2.82,,100,-100.00,Lost,Sony Luiz,Football,2016-02-17 12:03:04
+2016-02-17 01:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",ARGENTINOS JRS vs VELEZ SARSFIELD,0-3 (0-2),Match Odds,Draw,3.05,,100,-100.00,Lost,Sony Luiz,Football,2016-02-16 15:15:02
+2016-02-16 23:15:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",CLUB OLIMPO vs CA SAN LORENZO,0-2 (0-1),Match Odds,Draw,3.06,,100,-100.00,Lost,Sony Luiz,Football,2016-02-16 15:13:02
+2016-02-16 13:30:00,Egypt,Premier League,AL ITTIHAD AL SAKANDARY vs EL-ENTAG EL-HARBY,1-2 (0-1),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-16 12:29:02
+2016-02-16 01:05:00,Argentina,Primera B Nacional,CLUB ALMAGRO vs CLUB ATLETICO LOS ANDES,1-2 (1-0),Match Odds,Draw,3.10,,50,-50.00,Lost,Sony Luiz,Football,2016-02-15 16:12:02
+2016-02-15 21:00:00,Portugal,Liga Sagres,RIO AVE FC vs FC PACOS FERREIRA,1-1 (0-1),Match Odds,Draw,3.45,,50,122.50,Win,Sony Luiz,Football,2016-02-15 16:10:03
+2016-02-15 20:45:00,England,Skrill South,WEALDSTONE FC vs OXFORD CITY,2-2 (1-1),Match Odds,Draw,3.50,,50,118.75,Win,Sony Luiz,Football,2016-02-15 16:08:02
+2016-02-15 20:15:00,Germany,2. Bundesliga,1 FC NUREMBERG vs VFL BOCHUM,1-1 (0-0),Match Odds,Draw,3.50,,50,125.00,Win,Sony Luiz,Football,2016-02-15 16:06:02
+2016-02-15 20:00:00,Netherlands,Jupiler League,FC DEN BOSCH vs ACHILLES '29,1-2 (0-1),Match Odds,Draw,4.62,,50,-50.00,Lost,Sony Luiz,Football,2016-02-15 17:39:07
+2016-02-15 20:00:00,Netherlands,Jupiler League,FC EMMEN vs NAC BREDA,1-0 (0-0),Match Odds,Draw,4.00,,50,-50.00,Lost,Sony Luiz,Football,2016-02-15 16:04:02
+2016-02-15 19:55:00,Israel,Premier League,BEITAR JERUSALEM vs MACCABI HAIFA,3-0 (1-0),Match Odds,Draw,3.05,,50,-50.00,Lost,Sony Luiz,Football,2016-02-15 16:02:02
+2016-02-15 19:45:00,Switzerland,Challenge League,FC BIEL-BIENNE vs FC WINTERTHUR,0-1 (0-1),Match Odds,Draw,3.80,,50,-50.00,Lost,Sony Luiz,Football,2016-02-15 15:57:05
+2016-02-15 19:00:00,Turkey,Turkcell Super Lig,TRABZONSPOR vs KAYSERISPOR,2-1 (2-0),Match Odds,Draw,3.42,,100,-100.00,Lost,Sony Luiz,Football,2016-02-15 15:55:21
+2016-02-15 18:30:00,Greece,Super League,SKODA XANTHI FC vs ASTERAS TRIPOLIS,0-0 (0-0),Match Odds,Draw,3.15,,100,215.00,Win,Sony Luiz,Football,2016-02-15 15:53:09
+2016-02-14 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs ALBACETE BALOMPIE,2-0 (0-0),Match Odds,Draw,3.26,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 09:35:02
+2016-02-14 17:00:00,Spain,Liga Adelante,SD HUESCA vs GIRONA FC,0-1 (0-1),Match Odds,Draw,3.15,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 09:33:01
+2016-02-14 17:00:00,France,Ligue 1,AS SAINT ETIENNE vs AS MONACO,1-1 (0-0),Match Odds,Draw,3.15,,100,215.00,Win,Sony Luiz,Football,2016-02-14 09:30:07
+2016-02-14 16:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs LEIXOES SC,1-0 (1-0),Match Odds,Draw,3.11,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 08:54:04
+2016-02-14 15:00:00,Turkey,Bank Asya 1. Lig,GIRESUNSPOR vs GOZTEPESPOR,3-1 (1-0),Match Odds,Draw,3.22,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 08:52:02
+2016-02-14 15:00:00,Italy,"Lega Pro Prima Divisione, Girone C",AC MARTINA vs SS MONOPOLI 1966,2-2 (1-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-14 08:50:02
+2016-02-14 15:00:00,Italy,"Lega Pro Prima Divisione, Girone B",RIMINI CALCIO vs ROBUR SIENA,2-0 (1-0),Match Odds,Draw,3.14,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 08:48:02
+2016-02-14 15:00:00,Croatia,1. HNL,NK INTER ZAPRESIC vs RNK SPLIT,1-1 (1-0),Match Odds,Draw,3.05,,100,205.00,Win,Sony Luiz,Football,2016-02-14 08:46:04
+2016-02-14 12:30:00,Turkey,Turkcell Super Lig,GAZIANTEPSPOR vs AKHISAR BLD SPOR,0-1 (0-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 08:44:02
+2016-02-14 12:15:00,Portugal,Liga Vitalis,CD FEIRENSE vs PORTIMONENSE SC,2-1 (0-1),Match Odds,Draw,3.20,,100,-100.00,Lost,Sony Luiz,Football,2016-02-14 08:42:02
 2016-02-13 21:00:00,Argentina,Primera B Nacional,TRISTAN SUAREZ vs COMUNICACIONES,2-1 (2-0),Match Odds,Draw,2.90,,100,-100.00,Lost,Sony Luiz,Football,2016-02-13 18:32:04
 2016-02-13 21:00:00,Argentina,Primera B Nacional,DEPORTIVO ARMENIO vs DEPORTIVO MORON,0-2 (0-2),Match Odds,Draw,3.00,,100,-100.00,Lost,Sony Luiz,Football,2016-02-13 17:48:02
 2016-02-13 20:30:00,Italy,"Lega Pro Prima Divisione, Girone C",CATANIA CALCIO vs US LECCE,0-0 (0-0),Match Odds,Draw,3.00,,100,200.00,Win,Sony Luiz,Football,2016-02-13 17:06:02

@@ -1,4 +1,293 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-09 01:00:00,Colombia,Apertura I,ATLETICO BUCARAMANGA vs ENVIGADO FC,0-1 (0-1),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-08 09:05:03
+2016-05-09 00:00:00,Colombia,Apertura I,DEPORTES TOLIMA vs INDEPENDIENTE SANTA FE,2-2 (1-1),Match Odds,Draw,3.20,,20,44.00,Win,Gabriel Elias,Football,2016-05-08 09:04:04
+2016-05-08 23:00:00,Colombia,Apertura I,RIONEGRO AGUILAS vs DEPORTIVO PASTO,1-1 (0-1),Match Odds,Draw,3.50,,20,50.00,Win,Gabriel Elias,Football,2016-05-08 09:04:01
+2016-05-08 21:00:00,Colombia,Apertura I,BOYACA CHICO FC vs DEPORTIVO LA EQUIDAD,3-4 (2-1),Match Odds,Draw,3.18,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-08 09:03:02
+2016-05-08 20:00:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs RCD MALLORCA,1-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-08 09:00:03
+2016-05-08 17:00:00,Portugal,Liga Sagres,BOAVISTA FC vs CF UNIAO MADEIRA,1-0 (1-0),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-08 09:02:04
+2016-05-08 17:00:00,Portugal,Liga Vitalis,CD MAFRA vs ACADEMICO VISEU,1-1 (0-0),Match Odds,Draw,3.00,,30,60.00,Win,Gabriel Elias,Football,2016-05-08 09:01:02
+2016-05-08 13:00:00,Ukraine,Premier League,OLIMPIK DONETSK vs STAL DNEPRODZERZHINSK,0-2 (0-2),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-08 09:02:02
+2016-05-08 12:00:00,Spain,Liga Adelante,CD ALAVES vs REAL VALLADOLID,2-1 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-08 08:59:01
+2016-05-07 23:00:00,Colombia,Apertura I,JAGUARES D. CORDOBA vs ALIANZA PETROLERA,2-1 (1-0),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-07 13:17:02
+2016-05-07 21:00:00,Colombia,Apertura I,FORTALEZA FC vs BOYACA PATRIOTAS,3-2 (0-0),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-07 13:16:06
+2016-05-07 18:00:00,Spain,Liga Adelante,CA OSASUNA vs SD PONFERRADINA,0-0 (0-0),Match Odds,Draw,3.58,,60,154.80,Win,Gabriel Elias,Football,2016-05-07 13:15:04
+2016-05-07 18:00:00,Spain,Liga Adelante,CD LUGO vs ALCORCON AD,1-2 (1-1),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-07 13:15:01
+2016-05-07 18:00:00,Norway,Eliteserien,STROMSGODSET vs LILLESTROM SK,3-1 (1-0),Match Odds,STROMSGODSET IF,1.80,,60,48.00,Win,Gabriel Elias,Football,2016-05-07 13:14:02
+2016-05-02 18:30:00,Germany,2. Bundesliga,KARLSRUHER SC vs SV SANDHAUSEN,3-0 (0-0),Match Odds,Draw,3.62,,30,-30.00,Lost,Gabriel Elias,Football,2016-05-01 08:27:02
+2016-05-01 20:15:00,Colombia,Apertura I,BOYACA PATRIOTAS vs DEPORTES TOLIMA,2-1 (2-0),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-01 08:26:04
+2016-05-01 19:15:00,Spain,Liga Adelante,SD PONFERRADINA vs REAL ZARAGOZA,1-1 (0-0),Match Odds,Draw,3.21,,60,132.60,Win,Gabriel Elias,Football,2016-05-01 08:24:02
+2016-05-01 17:00:00,Romania,"Liga 1,Relegation round",CS UNIVERSITATEA CRAIOVA vs CS CONCORDIA CHIAJNA,2-0 (2-0),Match Odds,Draw,3.57,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-01 08:25:07
+2016-05-01 17:00:00,Portugal,Liga Sagres,MOREIRENSE FC vs BOAVISTA FC,1-1 (1-1),Match Odds,Draw,3.10,,20,42.00,Win,Gabriel Elias,Football,2016-05-01 08:25:01
+2016-05-01 00:00:00,Colombia,Apertura I,ENVIGADO FC vs MILLONARIOS FC,2-0 (1-0),Match Odds,Draw,3.25,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-30 08:33:04
+2016-04-30 22:15:00,Colombia,Apertura I,DEPORTIVO LA EQUIDAD vs CD ONCE CALDAS,3-2 (1-1),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-30 08:32:04
+2016-04-30 20:15:00,Spain,Liga Adelante,RCD MALLORCA vs CD ALAVES,0-0 (0-0),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2016-04-30 08:32:01
+2016-04-30 18:00:00,Spain,Liga Adelante,NUMANCIA CD vs UD ALMERIA,2-0 (1-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-30 08:30:06
+2016-04-30 18:00:00,Spain,Liga Adelante,ALCORCON AD vs CA OSASUNA,0-1 (0-1),Match Odds,Draw,3.23,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-30 08:30:03
+2016-04-30 17:00:00,Portugal,Liga Vitalis,VARZIM SC vs CD MAFRA,0-3 (0-2),Match Odds,Draw,3.20,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-30 08:25:04
+2016-04-30 17:00:00,Portugal,Liga Vitalis,ACADEMICO VISEU vs CD FEIRENSE,0-5 (0-2),Match Odds,Draw,3.20,Bwin,30,-30.00,Lost,Gabriel Elias,Football,2016-04-30 08:25:01
+2016-04-30 16:00:00,England,Championship,SHEFFIELD WEDNESDAY vs CARDIFF CITY,3-0 (0-0),Match Odds,Draw,3.60,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-30 08:26:02
+2016-04-30 15:30:00,Germany,Bundesliga,SV DARMSTADT 98 vs EINTRACHT FRANKFURT,1-2 (1-0),Match Odds,Draw,3.28,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-30 08:29:02
+2016-04-30 12:15:00,Portugal,Liga Vitalis,SC OLHANENSE vs SC FREAMUNDE,3-2 (1-1),Match Odds,Draw,3.22,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-30 08:24:02
+2016-04-29 19:00:00,Romania,"Liga 1,Relegation round",FC BOTOSANI vs CS VOLUNTARI,4-2 (2-1),Match Odds,Draw,3.31,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-29 06:27:02
+2016-04-28 01:00:00,Colombia,Apertura I,ALIANZA PETROLERA vs DEPORTIVO PASTO,2-2 (1-0),Match Odds,Draw,3.15,,20,43.00,Win,Gabriel Elias,Football,2016-04-26 21:39:01
+2016-04-27 03:00:00,Colombia,Apertura I,BOYACA CHICO FC vs ENVIGADO FC,1-1 (1-1),Match Odds,Draw,3.07,,20,41.40,Win,Gabriel Elias,Football,2016-04-26 21:35:02
+2016-04-25 16:30:00,Romania,"Liga 1,Relegation round",CS VOLUNTARI vs CS UNIVERSITATEA CRAIOVA,0-2 (0-1),Match Odds,Draw,3.24,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-25 06:24:02
+2016-04-24 19:30:00,Romania,"Liga 1, Championship round",CS PANDURII TARGU JIU vs DINAMO BUCURESTI,0-0 (0-0),Match Odds,Draw,3.36,,60,141.60,Win,Gabriel Elias,Football,2016-04-24 08:23:06
+2016-04-24 19:15:00,Spain,Liga Adelante,REAL ZARAGOZA vs ALCORCON AD,3-1 (2-1),Match Odds,Draw,3.27,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-24 08:17:03
+2016-04-24 17:00:00,Romania,"Liga 1,Relegation round",CFR CLUJ vs CS MUNICIPAL STUDENTESC IASI,0-0 (0-0),Match Odds,Draw,3.28,,60,136.80,Win,Gabriel Elias,Football,2016-04-24 08:23:02
+2016-04-24 17:00:00,Portugal,Liga Vitalis,SC FREAMUNDE vs FC FAMALICAO,0-0 (0-0),Match Odds,Draw,3.10,,30,63.00,Win,Gabriel Elias,Football,2016-04-24 08:20:03
+2016-04-24 17:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs VARZIM SC,2-0 (1-0),Match Odds,Draw,3.23,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-24 08:19:03
+2016-04-24 17:00:00,Spain,Liga Adelante,CD LUGO vs RCD MALLORCA,2-1 (1-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-24 08:16:02
+2016-04-24 15:30:00,Germany,Bundesliga,MONCHENGLADBACH vs 1899 HOFFENHEIM,3-1 (2-0),Match Odds,MONCHENGLADBACH,1.72,,30,21.60,Win,Gabriel Elias,Football,2016-04-24 08:22:02
+2016-04-24 13:30:00,Germany,2. Bundesliga,SV SANDHAUSEN vs FSV FRANKFURT,1-0 (0-0),Match Odds,Draw,3.30,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-24 08:20:05
+2016-04-24 12:15:00,Portugal,Liga Vitalis,CD MAFRA vs GD CHAVES,0-1 (0-1),Match Odds,Draw,3.05,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-24 08:18:02
+2016-04-24 02:00:00,Colombia,Apertura I,ATLETICO BUCARAMANGA vs MILLONARIOS FC,1-1 (0-0),Match Odds,Draw,3.23,,20,44.60,Win,Gabriel Elias,Football,2016-04-23 00:05:02
+2016-04-24 00:00:00,Colombia,Apertura I,CLUB CORTULUA vs ATLETICO NACIONAL MEDELLIN,2-0 (1-0),Match Odds,Draw,3.65,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-23 00:04:01
+2016-04-23 22:00:00,Colombia,Apertura I,BOYACA PATRIOTAS vs JAGUARES D. CORDOBA,2-0 (0-0),Match Odds,Draw,4.50,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-23 00:03:02
+2016-04-23 20:15:00,Spain,Liga Adelante,CD ALAVES vs ELCHE CF,0-0 (0-0),Match Odds,Draw,3.21,,60,132.60,Win,Gabriel Elias,Football,2016-04-23 00:01:02
+2016-04-23 17:00:00,Romania,"Liga 1,Relegation round",ACS POLI TIMISOARA vs CS CONCORDIA CHIAJNA,1-3 (0-0),Match Odds,Draw,3.24,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-22 23:58:03
+2016-04-23 16:00:00,England,Championship,BLACKBURN ROVERS vs BRISTOL CITY,2-2 (1-0),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2016-04-22 23:59:02
+2016-04-23 15:30:00,Germany,Bundesliga,1 FC COLOGNE vs SV DARMSTADT 98,4-1 (2-1),Match Odds,Draw,3.50,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-23 00:02:02
+2016-04-23 13:00:00,Germany,2. Bundesliga,1 FC NUREMBERG vs FC UNION BERLIN,6-2 (0-2),Match Odds,1 FC NUREMBERG,1.90,,40,36.00,Win,Gabriel Elias,Football,2016-04-23 00:00:03
+2016-04-23 02:45:00,Colombia,Apertura I,ENVIGADO FC vs CD ONCE CALDAS,0-1 (0-0),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-22 16:26:07
+2016-04-22 20:45:00,England,Championship,PRESTON NORTH END vs BURNLEY FC,0-1 (0-1),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-22 16:26:05
+2016-04-22 19:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs FC BOTOSANI,0-4 (0-3),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-22 16:25:02
+2016-04-19 21:00:00,England,Championship,READING FC vs HULL CITY,1-2 (1-1),Match Odds,Draw,3.51,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-19 07:17:02
+2016-04-19 20:45:00,England,Championship,NOTTINGHAM FOREST vs BLACKBURN ROVERS,1-1 (1-1),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-04-19 07:16:02
+2016-04-19 20:45:00,England,Championship,LEEDS UNITED vs WOLVERHAMPTON WANDERERS,2-1 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-19 07:15:05
+2016-04-19 20:45:00,England,Championship,BURNLEY FC vs MIDDLESBROUGH FC,1-1 (0-0),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2016-04-19 07:15:02
+2016-04-19 20:45:00,England,Championship,BIRMINGHAM CITY vs PRESTON NORTH END,2-2 (1-0),Match Odds,Draw,3.31,,60,138.60,Win,Gabriel Elias,Football,2016-04-19 07:14:01
+2016-04-17 19:30:00,Romania,"Liga 1, Championship round",DINAMO BUCURESTI vs ASA TARGU MURES,1-0 (0-0),Match Odds,Draw,3.60,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:24:03
+2016-04-17 19:15:00,Spain,Liga Adelante,RCD MALLORCA vs CA OSASUNA,1-1 (1-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-04-17 11:23:04
+2016-04-17 17:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs CD SANTA CLARA,2-1 (0-1),Match Odds,Draw,3.26,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-17 11:26:07
+2016-04-17 17:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs SPORTING FARENSE,1-0 (0-0),Match Odds,Draw,3.20,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-17 11:26:04
+2016-04-17 17:00:00,Portugal,Liga Vitalis,LEIXOES SC vs SC FREAMUNDE,0-2 (0-1),Match Odds,Draw,3.20,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-17 11:25:06
+2016-04-17 17:00:00,Romania,"Liga 1,Relegation round",CS VOLUNTARI vs CS CONCORDIA CHIAJNA,1-2 (0-1),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:23:09
+2016-04-17 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs UD ALMERIA,1-3 (0-2),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:21:04
+2016-04-17 17:00:00,Spain,Liga Adelante,ALCORCON AD vs CD LEGANES,2-0 (1-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:20:07
+2016-04-17 15:30:00,Norway,Eliteserien,BODO/GLIMT vs MOLDE FK,1-2 (1-0),Match Odds,MOLDE FK,1.85,,60,51.00,Win,Gabriel Elias,Football,2016-04-17 11:23:07
+2016-04-17 13:30:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs 1 FC KAISERSLAUTERN,0-1 (0-0),Match Odds,Draw,3.21,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-17 11:25:02
+2016-04-16 19:30:00,Romania,"Liga 1, Championship round",AFC ASTRA GIURGIU vs STEAUA BUCURESTI,2-0 (1-0),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:16:03
+2016-04-16 18:00:00,Spain,Liga Adelante,GIRONA FC vs CD ALAVES,1-0 (1-0),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:12:04
+2016-04-16 18:00:00,Spain,Liga Adelante,ELCHE CF vs CD LUGO,2-0 (1-0),Match Odds,Draw,3.42,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:12:02
+2016-04-16 17:00:00,Romania,"Liga 1,Relegation round",CFR CLUJ vs FC BOTOSANI,6-0 (4-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:15:02
+2016-04-16 16:00:00,England,Championship,ROTHERHAM UNITED vs NOTTINGHAM FOREST,0-0 (0-0),Match Odds,Draw,3.33,,60,139.80,Win,Gabriel Elias,Football,2016-04-16 08:11:02
+2016-04-16 16:00:00,England,Championship,CARDIFF CITY vs QUEENS PARK RANGERS,0-0 (0-0),Match Odds,Draw,3.60,,60,156.00,Win,Gabriel Elias,Football,2016-04-16 08:10:04
+2016-04-16 16:00:00,England,Championship,BLACKBURN ROVERS vs HUDDERSFIELD TOWN,0-2 (0-1),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:10:02
+2016-04-16 16:00:00,England,Championship,BIRMINGHAM CITY vs BURNLEY FC,1-2 (0-1),Match Odds,Draw,3.56,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:09:02
+2016-04-16 15:30:00,Germany,Bundesliga,SV DARMSTADT 98 vs FC INGOLSTADT,2-0 (0-0),Match Odds,Draw,3.40,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-16 08:14:02
+2016-04-16 15:30:00,Germany,Bundesliga,FC AUGSBURG vs VFB STUTTGART,1-0 (1-0),Match Odds,VFB STUTTGART,2.91,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:13:02
+2016-04-15 20:30:00,Germany,Bundesliga,HANNOVER 96 vs MONCHENGLADBACH,2-0 (0-0),Match Odds,MONCHENGLADBACH,1.69,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-14 22:35:02
+2016-04-15 19:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs CS UNIVERSITATEA CRAIOVA,1-0 (0-0),Match Odds,Draw,3.19,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-14 22:34:02
+2016-04-13 19:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs VARZIM SC,1-0 (1-0),Match Odds,Draw,3.19,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-12 22:29:02
+2016-04-13 18:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs SC FREAMUNDE,2-1 (0-1),Match Odds,Draw,3.17,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-12 22:28:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,SPORTING BRAGA B vs FC FAMALICAO,2-0 (0-0),Match Odds,Draw,3.13,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-12 22:27:01
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs SC OLHANENSE,0-0 (0-0),Match Odds,Draw,3.23,,30,66.90,Win,Gabriel Elias,Football,2016-04-12 22:26:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CD MAFRA vs FC PENAFIEL,0-0 (0-0),Match Odds,Draw,3.30,,30,69.00,Win,Gabriel Elias,Football,2016-04-12 22:25:02
+2016-04-13 17:00:00,Portugal,Liga Vitalis,CD DAS AVES vs GD CHAVES,2-1 (1-0),Match Odds,Draw,3.10,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-12 22:24:02
+2016-04-11 19:00:00,Sweden,Allsvenskan,AIK vs IFK GOTHENBURG,3-3 (1-1),Match Odds,Draw,3.35,,20,47.00,Win,Gabriel Elias,Football,2016-04-10 21:51:02
+2016-04-11 17:00:00,Romania,"Liga 1,Relegation round",FC BOTOSANI vs CS MUNICIPAL STUDENTESC IASI,0-0 (0-0),Match Odds,Draw,3.34,,60,140.40,Win,Gabriel Elias,Football,2016-04-10 21:50:02
+2016-04-10 19:30:00,Romania,"Liga 1, Championship round",STEAUA BUCURESTI vs DINAMO BUCURESTI,1-1 (1-0),Match Odds,Draw,3.73,,60,163.80,Win,Gabriel Elias,Football,2016-04-09 23:36:02
+2016-04-10 19:15:00,Spain,Liga Adelante,CA OSASUNA vs ELCHE CF,0-0 (0-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-04-09 23:31:04
+2016-04-10 17:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs CD MAFRA,1-0 (1-0),Match Odds,Draw,3.12,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-09 23:43:01
+2016-04-10 17:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.10,,30,63.00,Win,Gabriel Elias,Football,2016-04-09 23:40:02
+2016-04-10 17:00:00,Portugal,Liga Vitalis,LEIXOES SC vs CD SANTA CLARA,2-2 (0-1),Match Odds,Draw,3.18,,30,65.40,Win,Gabriel Elias,Football,2016-04-09 23:39:06
+2016-04-10 17:00:00,Portugal,Liga Vitalis,ATLETICO CP vs SPORTING BRAGA B,1-2 (1-1),Match Odds,Draw,3.12,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-09 23:39:02
+2016-04-10 17:00:00,Spain,Liga Adelante,CD ALAVES vs TENERIFE CD,2-2 (1-1),Match Odds,Draw,3.26,,60,135.60,Win,Gabriel Elias,Football,2016-04-09 23:31:02
+2016-04-10 16:30:00,Romania,"Liga 1,Relegation round",ACS POLI TIMISOARA vs CS VOLUNTARI,2-1 (0-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-09 23:32:04
+2016-04-10 15:30:00,Germany,Bundesliga,FC SCHALKE 04 vs BORUSSIA DORTMUND,2-2 (0-0),Match Odds,BORUSSIA DORTMUND,1.78,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-09 23:38:02
+2016-04-10 13:30:00,Germany,2. Bundesliga,1 FC KAISERSLAUTERN vs KARLSRUHER SC,0-0 (0-0),Match Odds,Draw,3.30,,40,92.00,Win,Gabriel Elias,Football,2016-04-09 23:37:02
+2016-04-09 19:30:00,Romania,"Liga 1, Championship round",FC VIITORUL CONSTANTA vs AFC ASTRA GIURGIU,1-3 (0-1),Match Odds,Draw,3.26,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-08 23:12:01
+2016-04-09 18:00:00,Spain,Liga Adelante,UD ALMERIA vs ALCORCON AD,1-1 (1-1),Match Odds,Draw,3.17,,60,130.20,Win,Gabriel Elias,Football,2016-04-08 23:14:02
+2016-04-09 17:15:00,Portugal,Liga Vitalis,SC OLHANENSE vs PORTIMONENSE SC,0-1 (0-1),Match Odds,Draw,3.07,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-08 23:16:01
+2016-04-09 16:00:00,England,Championship,WOLVERHAMPTON WANDERERS vs BLACKBURN ROVERS,0-0 (0-0),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2016-04-08 23:09:09
+2016-04-09 16:00:00,England,Championship,READING FC vs BIRMINGHAM CITY,0-2 (0-2),Match Odds,Draw,3.61,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-08 23:09:05
+2016-04-09 16:00:00,England,Championship,MIDDLESBROUGH FC vs PRESTON NORTH END,1-0 (1-0),Match Odds,Draw,4.00,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-08 23:07:15
+2016-04-09 16:00:00,England,Championship,HUDDERSFIELD TOWN vs HULL CITY,2-2 (1-0),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2016-04-08 23:07:02
+2016-04-09 14:00:00,Romania,"Liga 1,Relegation round",CS UNIVERSITATEA CRAIOVA vs CFR CLUJ,1-1 (1-0),Match Odds,Draw,3.23,,60,133.80,Win,Gabriel Elias,Football,2016-04-08 23:11:04
+2016-04-09 13:00:00,Germany,2. Bundesliga,SV SANDHAUSEN vs ARMINIA BIELEFELD,1-4 (1-1),Match Odds,Draw,3.06,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-08 23:15:02
+2016-04-08 20:30:00,Spain,Liga BBVA,GRANADA CF vs MALAGA CF,0-0 (0-0),Match Odds,Draw,3.38,,20,47.60,Win,Gabriel Elias,Football,2016-04-07 22:22:01
+2016-04-08 19:30:00,Romania,"Liga 1,Relegation round",CS CONCORDIA CHIAJNA vs FC PETROLUL PLOIESTI,1-1 (0-0),Match Odds,Draw,2.92,,60,115.20,Win,Gabriel Elias,Football,2016-04-07 22:21:01
+2016-04-07 21:05:00,European cups,UEFA Europa League,SPORTING BRAGA vs FC SHAKHTAR DONETSK,1-2 (0-1),Match Odds,Draw,3.34,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-07 06:21:04
+2016-04-07 19:00:00,Sweden,Allsvenskan,GIF SUNDSVALL vs GEFLE IF,1-2 (1-0),Match Odds,Draw,3.56,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-07 06:14:02
+2016-04-06 18:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs FC FAMALICAO,1-0 (0-0),Match Odds,Draw,3.14,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-06 06:25:02
+2016-04-06 18:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs FC PENAFIEL,0-0 (0-0),Match Odds,Draw,3.11,,30,63.30,Win,Gabriel Elias,Football,2016-04-06 06:24:02
+2016-04-06 17:00:00,Portugal,Liga Vitalis,SPORTING BRAGA B vs SC OLHANENSE,0-1 (0-0),Match Odds,Draw,3.14,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-06 06:23:02
+2016-04-06 17:00:00,Portugal,Liga Vitalis,PORTIMONENSE SC vs SC FREAMUNDE,0-0 (0-0),Match Odds,Draw,3.27,,30,68.10,Win,Gabriel Elias,Football,2016-04-06 06:21:02
+2016-04-06 17:00:00,Portugal,Liga Vitalis,SC COVILHA vs LEIXOES SC,0-0 (0-0),Match Odds,Draw,3.30,,30,69.00,Win,Gabriel Elias,Football,2016-04-06 06:20:02
+2016-04-06 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs FC PORTO B,2-1 (1-0),Match Odds,Draw,3.20,,30,-30.00,Lost,Gabriel Elias,Football,2016-04-06 06:19:01
+2016-04-05 21:00:00,England,Championship,READING FC vs NOTTINGHAM FOREST,2-1 (0-1),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-04 21:08:02
+2016-04-05 20:45:00,England,Championship,SHEFFIELD WEDNESDAY vs BLACKBURN ROVERS,2-1 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-04 21:09:02
+2016-04-05 20:45:00,England,Championship,MILTON KEYNES DONS vs WOLVERHAMPTON WANDERERS,1-2 (1-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-04 21:07:06
+2016-04-05 20:45:00,England,Championship,LEEDS UNITED vs QUEENS PARK RANGERS,1-1 (0-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-04-04 21:07:02
+2016-04-05 20:45:00,England,Championship,DERBY COUNTY vs HULL CITY,4-0 (2-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-04 21:06:06
+2016-04-05 20:45:00,England,Championship,BIRMINGHAM CITY vs BRIGHTON & HOVE ALBION FC,1-2 (1-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-04 21:06:02
+2016-04-05 17:30:00,Romania,"Liga 1, Championship round",AFC ASTRA GIURGIU vs CS PANDURII TARGU JIU,0-0 (0-0),Match Odds,Draw,3.62,,60,157.20,Win,Gabriel Elias,Football,2016-04-04 21:04:02
+2016-04-04 19:30:00,Romania,"Liga 1, Championship round",FC VIITORUL CONSTANTA vs DINAMO BUCURESTI,1-2 (1-1),Match Odds,Draw,3.27,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-03 20:55:02
+2016-04-04 17:00:00,Romania,"Liga 1,Relegation round",FC BOTOSANI vs ACS POLI TIMISOARA,6-1 (1-1),Match Odds,Draw,3.31,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-03 20:54:01
+2016-04-03 19:15:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs CD ALAVES,0-1 (0-0),Match Odds,Draw,3.13,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-02 22:47:05
+2016-04-03 18:15:00,Spain,Liga BBVA,SD EIBAR vs VILLARREAL CF,1-2 (1-1),Match Odds,Draw,3.24,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-02 22:48:01
+2016-04-03 18:00:00,Greece,Super League,IRAKLIS 1908 vs ASTERAS TRIPOLIS,0-1 (0-1),Match Odds,Draw,3.09,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-02 22:49:02
+2016-04-03 17:30:00,Sweden,Allsvenskan,OREBRO SK vs DJURGARDENS IF,0-2 (0-1),Match Odds,Draw,3.35,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-02 22:53:03
+2016-04-03 17:00:00,Spain,Liga Adelante,TENERIFE CD vs CD LUGO,1-0 (0-0),Match Odds,Draw,3.34,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-02 22:47:02
+2016-04-03 17:00:00,Spain,Liga Adelante,NUMANCIA CD vs SD HUESCA,3-2 (1-1),Match Odds,Draw,3.35,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-02 22:46:04
+2016-04-03 17:00:00,Spain,Liga Adelante,GIRONA FC vs CA OSASUNA,0-0 (0-0),Match Odds,Draw,3.48,,60,148.80,Win,Gabriel Elias,Football,2016-04-02 22:46:02
+2016-04-03 16:00:00,Ukraine,Premier League,GOVERLA-UZHGOROD vs OLIMPIK DONETSK,0-2 (0-1),Match Odds,Draw,3.10,,20,-20.00,Lost,Gabriel Elias,Football,2016-04-02 22:51:02
+2016-04-03 15:00:00,Sweden,Allsvenskan,GEFLE IF vs HELSINGBORGS IF,1-1 (0-1),Match Odds,Draw,3.28,,20,45.60,Win,Gabriel Elias,Football,2016-04-02 22:52:02
+2016-04-03 13:00:00,Ukraine,Premier League,VOLYN LUTSK vs CHERNOMORETS ODESSA,1-1 (0-1),Match Odds,Draw,3.10,,20,42.00,Win,Gabriel Elias,Football,2016-04-02 22:50:02
+2016-04-02 18:00:00,Spain,Liga Adelante,RCD MALLORCA vs CD LEGANES,3-0 (0-0),Match Odds,Draw,3.13,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:08:03
+2016-04-02 18:00:00,Spain,Liga Adelante,ELCHE CF vs REAL ZARAGOZA,2-1 (1-1),Match Odds,Draw,3.19,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:07:02
+2016-04-02 18:00:00,Spain,Liga Adelante,ALCORCON AD vs CD MIRANDES,1-0 (0-0),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:06:02
+2016-04-02 16:00:00,England,Championship,ROTHERHAM UNITED vs LEEDS UNITED,2-1 (1-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:04:01
+2016-04-02 16:00:00,England,Championship,HUDDERSFIELD TOWN vs SHEFFIELD WEDNESDAY,0-1 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:03:02
+2016-04-02 16:00:00,England,Championship,CHARLTON ATHLETIC vs BIRMINGHAM CITY,2-1 (1-1),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:02:03
+2016-04-02 16:00:00,England,Championship,CARDIFF CITY vs DERBY COUNTY,2-1 (1-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:01:03
+2016-04-02 15:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs CS VOLUNTARI,1-2 (0-1),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 23:05:02
+2016-04-02 13:30:00,England,Championship,BRIGHTON & HOVE ALBION FC vs BURNLEY FC,2-2 (2-1),Match Odds,Draw,3.13,,60,127.80,Win,Gabriel Elias,Football,2016-04-01 23:00:03
+2016-04-02 13:30:00,England,Championship,BLACKBURN ROVERS vs PRESTON NORTH END,1-2 (1-2),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 22:59:04
+2016-04-01 20:45:00,England,Championship,QUEENS PARK RANGERS vs MIDDLESBROUGH FC,2-3 (1-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 06:40:02
+2016-04-01 20:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.10,,30,63.00,Win,Gabriel Elias,Football,2016-04-01 06:38:01
+2016-04-01 19:30:00,Romania,"Liga 1, Championship round",DINAMO BUCURESTI vs AFC ASTRA GIURGIU,1-4 (1-2),Match Odds,Draw,3.23,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-01 06:37:02
+2016-04-01 18:30:00,Germany,2. Bundesliga,MSV DUISBURG vs 1 FC HEIDENHEIM,0-2 (0-1),Match Odds,Draw,3.33,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-01 06:35:02
+2016-03-26 18:00:00,Spain,Liga Adelante,CA OSASUNA vs TENERIFE CD,0-0 (0-0),Match Odds,Draw,3.39,,60,143.40,Win,Gabriel Elias,Football,2016-03-26 09:29:02
+2016-03-26 18:00:00,Spain,Liga Adelante,CD LEGANES vs ELCHE CF,0-0 (0-0),Match Odds,Draw,3.63,,60,157.80,Win,Gabriel Elias,Football,2016-03-26 09:28:03
+2016-03-26 18:00:00,Spain,Liga Adelante,GIMNASTIC DE TARRAGONA vs NUMANCIA CD,1-0 (0-0),Match Odds,Draw,3.36,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-26 09:27:06
+2016-03-26 17:00:00,Portugal,Liga Vitalis,CD DAS AVES vs VARZIM SC,2-2 (2-1),Match Odds,Draw,3.00,,30,60.00,Win,Gabriel Elias,Football,2016-03-26 09:27:04
+2016-03-26 16:00:00,Portugal,Liga Vitalis,LEIXOES SC vs ACADEMICO VISEU,1-1 (1-0),Match Odds,Draw,3.10,,30,63.00,Win,Gabriel Elias,Football,2016-03-26 09:26:01
+2016-03-26 16:00:00,Portugal,Liga Vitalis,SC FREAMUNDE vs SC COVILHA,1-0 (0-0),Match Odds,Draw,3.23,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-26 09:25:05
+2016-03-26 16:00:00,Portugal,Liga Vitalis,FC FAMALICAO vs PORTIMONENSE SC,1-1 (0-1),Match Odds,Draw,3.11,,30,63.30,Win,Gabriel Elias,Football,2016-03-26 09:25:02
+2016-03-21 23:30:00,Colombia,Apertura I,ALIANZA PETROLERA vs ATLETICO BUCARAMANGA,3-6 (2-2),Match Odds,Draw,3.33,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-21 06:32:02
+2016-03-21 21:15:00,Colombia,Apertura I,BOYACA CHICO FC vs BOYACA PATRIOTAS,1-0 (1-0),Match Odds,Draw,3.10,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-21 06:31:02
+2016-03-20 19:30:00,Romania,"Liga 1, Championship round",DINAMO BUCURESTI vs CS PANDURII TARGU JIU,1-1 (1-0),Match Odds,Draw,3.23,,60,133.80,Win,Gabriel Elias,Football,2016-03-19 21:44:02
+2016-03-20 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs SD HUESCA,2-1 (1-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 21:41:04
+2016-03-20 17:00:00,Spain,Liga Adelante,RCD MALLORCA vs CD MIRANDES,1-1 (1-1),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-03-19 21:41:02
+2016-03-20 17:00:00,Spain,Liga Adelante,GIRONA FC vs CD LEGANES,1-1 (0-0),Match Odds,Draw,3.15,,60,129.00,Win,Gabriel Elias,Football,2016-03-19 21:39:02
+2016-03-20 17:00:00,Spain,Liga Adelante,ATHLETIC BILBAO B vs GIMNASTIC DE TARRAGONA,0-4 (0-1),Match Odds,Draw,3.22,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 21:38:01
+2016-03-20 16:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs LEIXOES SC,3-0 (0-0),Match Odds,Draw,3.10,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-19 21:50:02
+2016-03-20 16:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs SC FREAMUNDE,0-2 (0-0),Match Odds,Draw,3.00,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-19 21:49:01
+2016-03-20 16:00:00,Portugal,Liga Vitalis,CD DAS AVES vs FC PENAFIEL,0-1 (0-1),Match Odds,Draw,3.10,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-19 21:48:02
+2016-03-20 14:00:00,Romania,"Liga 1,Relegation round",CS UNIVERSITATEA CRAIOVA vs ACS POLI TIMISOARA,1-0 (0-0),Match Odds,Draw,3.38,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 21:43:02
+2016-03-20 12:00:00,Spain,Liga Adelante,TENERIFE CD vs REAL ZARAGOZA,0-0 (0-0),Match Odds,Draw,3.17,,60,130.20,Win,Gabriel Elias,Football,2016-03-19 21:37:02
+2016-03-19 20:15:00,Spain,Liga Adelante,ELCHE CF vs UD ALMERIA,0-0 (0-0),Match Odds,Draw,3.28,,60,136.80,Win,Gabriel Elias,Football,2016-03-19 10:51:03
+2016-03-19 19:30:00,Romania,"Liga 1, Championship round",FC VIITORUL CONSTANTA vs STEAUA BUCURESTI,1-3 (0-2),Match Odds,Draw,3.66,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:49:04
+2016-03-19 18:00:00,Spain,Liga Adelante,ALCORCON AD vs REAL OVIEDO,1-0 (0-0),Match Odds,Draw,3.41,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:50:06
+2016-03-19 18:00:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs CA OSASUNA,3-1 (2-1),Match Odds,Draw,3.19,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:50:02
+2016-03-19 16:00:00,England,Championship,READING FC vs CARDIFF CITY,1-1 (1-0),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2016-03-19 10:47:04
+2016-03-19 16:00:00,England,Championship,PRESTON NORTH END vs QUEENS PARK RANGERS,1-1 (0-1),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2016-03-19 10:46:04
+2016-03-19 16:00:00,England,Championship,MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC,1-2 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:46:01
+2016-03-19 15:30:00,Germany,Bundesliga,HERTHA BSC vs FC INGOLSTADT,2-1 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:48:03
+2016-03-19 13:00:00,Germany,2. Bundesliga,SV SANDHAUSEN vs FC ST. PAULI,0-2 (0-2),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:45:03
+2016-03-19 13:00:00,Germany,2. Bundesliga,FORTUNA DUSSELDORF vs 1 FC KAISERSLAUTERN,4-3 (3-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-19 10:44:03
+2016-03-18 20:45:00,England,Championship,MIDDLESBROUGH FC vs HULL CITY,1-0 (0-0),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-18 06:02:02
+2016-03-18 19:30:00,Romania,"Liga 1, Championship round",AFC ASTRA GIURGIU vs ASA TARGU MURES,1-0 (0-0),Match Odds,Draw,3.83,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-18 06:01:01
+2016-03-18 17:00:00,Romania,"Liga 1,Relegation round",CS MUNICIPAL STUDENTESC IASI vs CS VOLUNTARI,0-1 (0-1),Match Odds,Draw,3.60,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-18 06:00:02
+2016-03-16 21:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs CD FEIRENSE,0-0 (0-0),Match Odds,Draw,3.12,,20,42.40,Win,Gabriel Elias,Football,2016-03-16 06:10:04
+2016-03-16 18:30:00,Spain,Liga Adelante,SD HUESCA vs RCD MALLORCA,1-2 (0-2),Match Odds,Draw,3.32,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-16 06:05:01
+2016-03-16 16:00:00,Portugal,Liga Vitalis,VITORIA GUIMARAES B vs CD DAS AVES,2-0 (0-0),Match Odds,Draw,3.13,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-16 06:10:01
+2016-03-16 16:00:00,Portugal,Liga Vitalis,VARZIM SC vs SPORTING LISBON B,2-1 (1-0),Match Odds,Draw,3.28,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-16 06:08:04
+2016-03-16 16:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs SPORTING BRAGA B,0-0 (0-0),Match Odds,Draw,3.41,,20,48.20,Win,Gabriel Elias,Football,2016-03-16 06:08:02
+2016-03-16 16:00:00,Portugal,Liga Vitalis,CLUBE ORIENTAL DE LISBOA vs CD MAFRA,0-1 (0-0),Match Odds,Draw,3.00,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-16 06:07:01
+2016-03-16 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs GIL VICENTE FC,0-0 (0-0),Match Odds,Draw,3.12,,20,42.40,Win,Gabriel Elias,Football,2016-03-16 06:06:01
+2016-03-15 20:45:00,England,Championship,IPSWICH TOWN vs BLACKBURN ROVERS,2-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-15 07:09:03
+2016-03-15 20:45:00,England,Championship,HULL CITY vs NOTTINGHAM FOREST,1-1 (0-1),Match Odds,Draw,4.05,,60,183.00,Win,Gabriel Elias,Football,2016-03-15 07:08:02
+2016-03-15 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs READING FC,1-0 (1-0),Match Odds,Draw,3.54,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-15 07:06:02
+2016-03-14 19:30:00,Romania,"Liga 1, Championship round",ASA TARGU MURES vs DINAMO BUCURESTI,0-0 (0-0),Match Odds,Draw,3.60,,60,156.00,Win,Gabriel Elias,Football,2016-03-14 06:30:02
+2016-03-14 17:00:00,Romania,"Liga 1,Relegation round",CS CONCORDIA CHIAJNA vs CS UNIVERSITATEA CRAIOVA,1-0 (1-0),Match Odds,Draw,3.28,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-14 06:29:02
+2016-03-13 18:00:00,Norway,Eliteserien,STROMSGODSET vs SK BRANN,2-2 (2-1),Match Odds,STROMSGODSET,1.65,,100,-100.00,Lost,Gabriel Elias,Football,2016-03-13 10:12:02
+2016-03-13 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs RCD MALLORCA,3-0 (1-0),Match Odds,Draw,3.17,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-13 10:14:03
+2016-03-13 17:00:00,Spain,Liga Adelante,SD HUESCA vs ALCORCON AD,1-0 (1-0),Match Odds,Draw,3.09,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-13 10:13:03
+2016-03-13 17:00:00,Spain,Liga Adelante,GIMNASTIC DE TARRAGONA vs SD PONFERRADINA,1-1 (0-1),Match Odds,Draw,3.42,,60,145.20,Win,Gabriel Elias,Football,2016-03-13 10:12:07
+2016-03-13 17:00:00,Romania,"Liga 1,Relegation round",ACS POLI TIMISOARA vs CFR CLUJ,2-2 (2-0),Match Odds,Draw,3.14,,60,128.40,Win,Gabriel Elias,Football,2016-03-13 10:10:04
+2016-03-13 16:00:00,Portugal,Liga Vitalis,SPORTING FARENSE vs FC FAMALICAO,2-2 (1-1),Match Odds,Draw,3.05,,30,61.50,Win,Gabriel Elias,Football,2016-03-13 10:16:04
+2016-03-13 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs SC FREAMUNDE,2-1 (2-0),Match Odds,Draw,2.90,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-13 10:15:03
+2016-03-13 14:15:00,England,Championship,WOLVERHAMPTON WANDERERS vs BIRMINGHAM CITY,0-0 (0-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-03-13 10:10:02
+2016-03-13 13:30:00,Germany,2. Bundesliga,KARLSRUHER SC vs 1 FC HEIDENHEIM,0-0 (0-0),Match Odds,Draw,3.24,,60,134.40,Win,Gabriel Elias,Football,2016-03-13 10:08:06
+2016-03-13 12:00:00,Spain,Liga Adelante,CA OSASUNA vs CD ALAVES,3-1 (3-1),Match Odds,Draw,3.08,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-13 10:09:02
+2016-03-12 19:30:00,Romania,"Liga 1, Championship round",CS PANDURII TARGU JIU vs FC VIITORUL CONSTANTA,1-1 (0-0),Match Odds,Draw,3.44,,60,146.40,Win,Gabriel Elias,Football,2016-03-12 16:23:02
+2016-03-12 18:00:00,Spain,Liga Adelante,NUMANCIA CD vs ATHLETIC BILBAO B,3-2 (1-1),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 16:22:02
+2016-03-12 18:00:00,Spain,Liga Adelante,CD MIRANDES vs ELCHE CF,1-2 (1-0),Match Odds,Draw,3.34,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:29:01
+2016-03-12 18:00:00,Spain,Liga Adelante,UD ALMERIA vs GIRONA FC,1-0 (1-0),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:28:06
+2016-03-12 17:00:00,Romania,"Liga 1,Relegation round",CS VOLUNTARI vs FC BOTOSANI,1-1 (0-0),Match Odds,Draw,3.18,,60,130.80,Win,Gabriel Elias,Football,2016-03-12 08:28:02
+2016-03-12 16:00:00,England,Championship,ROTHERHAM UNITED vs DERBY COUNTY,3-3 (0-0),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2016-03-12 08:27:02
+2016-03-12 16:00:00,England,Championship,NOTTINGHAM FOREST vs SHEFFIELD WEDNESDAY,0-3 (0-1),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:26:01
+2016-03-12 16:00:00,England,Championship,HUDDERSFIELD TOWN vs BURNLEY FC,1-3 (1-3),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:25:04
+2016-03-12 16:00:00,England,Championship,CARDIFF CITY vs IPSWICH TOWN,1-0 (1-0),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:25:02
+2016-03-12 16:00:00,England,Championship,BOLTON WANDERERS vs PRESTON NORTH END,1-2 (1-0),Match Odds,Draw,3.29,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:24:02
+2016-03-12 13:30:00,England,Championship,BLACKBURN ROVERS vs LEEDS UNITED,1-2 (0-1),Match Odds,Draw,3.60,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:23:02
+2016-03-12 13:00:00,Germany,2. Bundesliga,SV SANDHAUSEN vs FORTUNA DUSSELDORF,1-0 (0-0),Match Odds,Draw,3.24,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-12 08:22:02
+2016-03-11 19:30:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs CS MUNICIPAL STUDENTESC IASI,1-2 (0-2),Match Odds,Draw,3.11,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-11 06:19:02
+2016-03-11 18:30:00,Germany,2. Bundesliga,GREUTHER FURTH vs EINTRACHT BRAUNSCHWEIG,3-0 (1-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-11 06:18:02
+2016-03-09 17:00:00,Portugal,Liga Vitalis,CD SANTA CLARA vs PORTIMONENSE SC,1-1 (0-0),Match Odds,Draw,3.02,,30,60.60,Win,Gabriel Elias,Football,2016-03-09 06:24:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,VARZIM SC vs ACADEMICO VISEU,2-1 (1-1),Match Odds,Draw,3.35,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:23:01
+2016-03-09 16:00:00,Portugal,Liga Vitalis,FC PENAFIEL vs GIL VICENTE FC,1-0 (1-0),Match Odds,Draw,3.07,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:22:04
+2016-03-09 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs GD CHAVES,1-0 (1-0),Match Odds,Draw,3.25,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:22:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,LEIXOES SC vs CD FEIRENSE,0-1 (0-0),Match Odds,Draw,3.10,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:21:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,SC FREAMUNDE vs SPORTING FARENSE,3-0 (2-0),Match Odds,Draw,3.45,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:20:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,FC FAMALICAO vs CD MAFRA,4-1 (3-0),Match Odds,Draw,3.40,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:19:02
+2016-03-09 16:00:00,Portugal,Liga Vitalis,ATLETICO CP vs SPORTING LISBON B,1-3 (1-1),Match Odds,Draw,3.21,,30,-30.00,Lost,Gabriel Elias,Football,2016-03-09 06:18:02
+2016-03-08 20:45:00,England,Championship,WOLVERHAMPTON WANDERERS vs BRISTOL CITY,2-1 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:23:04
+2016-03-08 20:45:00,England,Championship,ROTHERHAM UNITED vs MIDDLESBROUGH FC,1-0 (0-0),Match Odds,Draw,3.57,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:23:02
+2016-03-08 20:45:00,England,Championship,QUEENS PARK RANGERS vs DERBY COUNTY,2-0 (1-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:21:03
+2016-03-08 20:45:00,England,Championship,NOTTINGHAM FOREST vs PRESTON NORTH END,1-0 (1-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:21:01
+2016-03-08 20:45:00,England,Championship,HUDDERSFIELD TOWN vs READING FC,3-1 (0-0),Match Odds,Draw,3.52,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:20:02
+2016-03-08 20:45:00,England,Championship,CARDIFF CITY vs LEEDS UNITED,0-2 (0-1),Match Odds,Draw,3.61,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:19:02
+2016-03-08 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs SHEFFIELD WEDNESDAY,0-0 (0-0),Match Odds,Draw,3.50,,60,150.00,Win,Gabriel Elias,Football,2016-03-08 06:18:04
+2016-03-08 20:45:00,England,Championship,BLACKBURN ROVERS vs BIRMINGHAM CITY,2-0 (2-0),Match Odds,Draw,3.45,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-08 06:18:02
+2016-03-07 02:00:00,Colombia,Apertura I,DEPORTIVO CALI vs CD ONCE CALDAS,1-0 (0-0),Match Odds,Draw,3.25,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-06 09:51:02
+2016-03-06 20:00:00,Colombia,Apertura I,RIONEGRO AGUILAS vs CLUB ATLETICO JUNIOR,2-1 (2-0),Match Odds,Draw,3.17,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-06 09:50:05
+2016-03-06 19:15:00,Spain,Liga Adelante,ALBACETE BALOMPIE vs CD LEGANES,0-3 (0-2),Match Odds,Draw,3.43,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-06 09:48:02
+2016-03-06 17:30:00,Germany,Bundesliga,HAMBURGER SV vs HERTHA BSC,2-0 (0-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-06 09:47:05
+2016-03-06 17:00:00,Spain,Liga Adelante,TENERIFE CD vs UD ALMERIA,0-0 (0-0),Match Odds,Draw,3.35,,60,141.00,Win,Gabriel Elias,Football,2016-03-06 09:47:02
+2016-03-06 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs NUMANCIA CD,1-0 (0-0),Match Odds,Draw,3.22,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-06 09:46:03
+2016-03-06 17:00:00,Spain,Liga Adelante,ALCORCON AD vs GIMNASTIC DE TARRAGONA,1-1 (0-0),Match Odds,Draw,3.57,,60,154.20,Win,Gabriel Elias,Football,2016-03-06 09:45:08
+2016-03-06 17:00:00,Portugal,Liga Sagres,BOAVISTA FC vs CD NACIONAL,0-1 (0-1),Match Odds,Draw,3.17,,20,-20.00,Lost,Gabriel Elias,Football,2016-03-06 09:45:02
+2016-03-06 13:30:00,Germany,2. Bundesliga,1 FC HEIDENHEIM vs FC ST. PAULI,2-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-06 09:44:05
+2016-03-06 12:00:00,Spain,Liga Adelante,CD ALAVES vs REAL ZARAGOZA,0-0 (0-0),Match Odds,Draw,3.28,,60,136.80,Win,Gabriel Elias,Football,2016-03-06 09:43:04
+2016-03-05 20:15:00,Spain,Liga Adelante,CD LUGO vs CA OSASUNA,2-0 (0-0),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:33:04
+2016-03-05 18:00:00,Spain,Liga Adelante,RCD MALLORCA vs REAL OVIEDO,1-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:32:06
+2016-03-05 18:00:00,Spain,Liga Adelante,ATHLETIC BILBAO B vs CORDOBA CF,1-2 (0-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:32:02
+2016-03-05 16:00:00,England,Championship,PRESTON NORTH END vs BRIGHTON & HOVE ALBION FC,0-0 (0-0),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2016-03-05 10:12:02
+2016-03-05 16:00:00,England,Championship,MILTON KEYNES DONS vs QUEENS PARK RANGERS,2-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:11:06
+2016-03-05 16:00:00,England,Championship,IPSWICH TOWN vs NOTTINGHAM FOREST,1-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:10:03
+2016-03-05 15:30:00,Germany,Bundesliga,EINTRACHT FRANKFURT vs FC INGOLSTADT,1-1 (0-1),Match Odds,Draw,3.26,,60,135.60,Win,Gabriel Elias,Football,2016-03-05 10:34:04
+2016-03-05 13:30:00,England,Championship,BURNLEY FC vs BLACKBURN ROVERS,1-0 (1-0),Match Odds,Draw,3.41,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:09:02
+2016-03-05 13:00:00,Germany,2. Bundesliga,FC UNION BERLIN vs FSV FRANKFURT,4-0 (3-0),Match Odds,FSV FRANKFURT,4.54,,40,-40.00,Lost,Gabriel Elias,Football,2016-03-05 10:35:01
+2016-03-05 13:00:00,England,Championship,BRISTOL CITY vs CARDIFF CITY,0-2 (0-1),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-05 10:08:07
+2016-03-03 20:45:00,England,Championship,BIRMINGHAM CITY vs HULL CITY,1-0 (1-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-03 06:19:02
+2016-03-03 20:15:00,Germany,2. Bundesliga,FC ST. PAULI vs EINTRACHT BRAUNSCHWEIG,1-0 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-03 06:18:02
+2016-03-01 20:45:00,England,Championship,BLACKBURN ROVERS vs MIDDLESBROUGH FC,2-1 (0-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-02-29 21:43:02
+2016-03-01 20:00:00,Germany,Bundesliga,FC INGOLSTADT vs 1 FC COLOGNE,1-1 (1-0),Match Odds,Draw,3.19,,60,131.40,Win,Gabriel Elias,Football,2016-02-29 21:41:02
+2016-03-01 20:00:00,Germany,Bundesliga,HANNOVER 96 vs VFL WOLFSBURG,0-4 (0-1),Asian handicap,HANNOVER 96 +0.50,2.07,,40,-40.00,Lost,Gabriel Elias,Football,2016-02-29 21:40:03
+2016-02-26 20:45:00,England,Championship,HULL CITY vs SHEFFIELD WEDNESDAY,0-0 (0-0),Match Odds,Draw,3.62,,20,52.40,Win,Gabriel Elias,Football,2016-02-26 05:49:02
+2016-02-26 20:30:00,Germany,Bundesliga,1 FC COLOGNE vs HERTHA BSC,0-1 (0-1),Match Odds,Draw,3.36,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-26 05:47:02
+2016-02-21 01:45:00,Colombia,Apertura I,CLUB ATLETICO JUNIOR vs DEPORTIVO PASTO,2-2 (2-0),Match Odds,Draw,4.83,,20,76.60,Win,Gabriel Elias,Football,2016-02-20 20:27:05
+2016-02-20 23:30:00,Colombia,Apertura I,CD ONCE CALDAS vs DEPORTES TOLIMA,3-2 (1-1),Match Odds,Draw,3.35,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-20 17:23:03
+2016-02-20 23:00:00,Colombia,Apertura I,DEPORTIVO CALI vs ATLETICO HUILA,5-1 (3-1),Match Odds,Draw,3.73,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-20 17:22:06
+2016-02-20 21:15:00,Colombia,Apertura I,DEPORTIVO LA EQUIDAD vs INDEPENDIENTE MEDELLIN,2-2 (0-1),Match Odds,Draw,3.17,,20,43.40,Win,Gabriel Elias,Football,2016-02-20 17:21:01
+2016-02-20 20:30:00,Spain,Liga BBVA,BETIS SEVILLA vs SPORTING GIJON,1-1 (0-0),Match Odds,Draw,3.47,,20,49.40,Win,Gabriel Elias,Football,2016-02-20 17:19:03
+2016-02-20 20:15:00,Spain,Liga Adelante,SD PONFERRADINA vs CORDOBA CF,1-3 (0-2),Match Odds,Draw,3.20,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-20 17:17:06
+2016-02-20 18:30:00,Greece,Super League,IRAKLIS 1908 vs AEK ATHENS FC,1-1 (0-0),Match Odds,Draw,3.23,,20,44.60,Win,Gabriel Elias,Football,2016-02-20 17:16:02
+2016-02-20 18:15:00,Spain,Liga BBVA,ESPANYOL BARCELONA vs DEPORTIVO LA CORUNA,1-0 (0-0),Match Odds,Draw,3.34,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-20 11:23:06
+2016-02-20 18:00:00,Spain,Liga Adelante,RCD MALLORCA vs GIMNASTIC DE TARRAGONA,2-2 (0-2),Match Odds,Draw,3.31,,100,231.00,Win,Gabriel Elias,Football,2016-02-20 11:21:05
+2016-02-20 18:00:00,Spain,Liga Adelante,CD LUGO vs CD LEGANES,1-2 (1-1),Match Odds,Draw,3.11,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-20 11:20:01
+2016-02-20 17:00:00,Romania,Liga 1,CS MUNICIPAL STUDENTESC IASI vs ACS POLI TIMISOARA,1-1 (0-0),Match Odds,Draw,3.75,,60,165.00,Win,Gabriel Elias,Football,2016-02-20 11:18:06
+2016-02-20 16:00:00,England,Championship,PRESTON NORTH END vs SHEFFIELD WEDNESDAY,1-0 (0-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-20 11:16:04
+2016-02-20 16:00:00,England,Championship,MILTON KEYNES DONS vs BRISTOL CITY,0-2 (0-1),Match Odds,Draw,3.30,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-20 11:15:05
+2016-02-20 15:30:00,Germany,Bundesliga,FC INGOLSTADT vs WERDER BREMEN,2-0 (1-0),Match Odds,WERDER BREMEN,3.72,,60,-60.00,Lost,Gabriel Elias,Football,2016-02-20 11:14:02
+2016-02-20 13:30:00,England,Championship,CARDIFF CITY vs BRIGHTON & HOVE ALBION FC,4-1 (3-0),Match Odds,Draw,3.25,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-20 11:12:06
+2016-02-20 13:00:00,Germany,2. Bundesliga,KARLSRUHER SC vs EINTRACHT BRAUNSCHWEIG,2-2 (1-1),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-02-20 11:12:02
+2016-02-20 13:00:00,Germany,2. Bundesliga,1 FC KAISERSLAUTERN vs 1 FC HEIDENHEIM,2-2 (0-1),Match Odds,Draw,3.34,,60,140.40,Win,Gabriel Elias,Football,2016-02-20 11:10:09
+2016-02-19 21:30:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs GD ESTORIL PRAIA,1-1 (1-0),Match Odds,Draw,3.10,,20,42.00,Win,Gabriel Elias,Football,2016-02-19 06:16:02
+2016-02-16 20:45:00,England,Championship,BLACKBURN ROVERS vs FULHAM FC,3-0 (1-0),Match Odds,Draw,3.42,,50,-50.00,Lost,Gabriel Elias,Football,2016-02-16 07:32:02
+2016-02-16 20:45:00,England,Championship,HULL CITY vs BRIGHTON & HOVE ALBION FC,0-0 (0-0),Match Odds,Draw,3.50,,50,125.00,Win,Gabriel Elias,Football,2016-02-16 07:31:02
+2016-02-15 20:45:00,England,Championship,LEEDS UNITED vs MIDDLESBROUGH FC,0-0 (0-0),Match Odds,Draw,3.40,,100,240.00,Win,Gabriel Elias,Football,2016-02-14 21:00:02
+2016-02-15 18:30:00,Greece,Super League,SKODA XANTHI FC vs ASTERAS TRIPOLIS,0-0 (0-0),Match Odds,Draw,3.30,,20,46.00,Win,Gabriel Elias,Football,2016-02-14 20:59:02
+2016-02-14 19:15:00,Spain,Liga Adelante,NUMANCIA CD vs RCD MALLORCA,2-0 (1-0),Match Odds,Draw,3.32,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-14 10:49:04
+2016-02-14 17:00:00,Spain,Liga Adelante,REAL OVIEDO vs TENERIFE CD,1-0 (1-0),Match Odds,Draw,3.27,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-14 10:47:07
+2016-02-14 17:00:00,Spain,Liga Adelante,CD LEGANES vs CA OSASUNA,2-0 (1-0),Match Odds,Draw,3.34,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-14 10:46:05
+2016-02-14 17:00:00,Spain,Liga Adelante,SD HUESCA vs GIRONA FC,0-1 (0-1),Match Odds,Draw,3.13,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-14 10:45:05
+2016-02-14 15:30:00,Romania,Liga 1,ACS POLI TIMISOARA vs CS VOLUNTARI,1-2 (0-0),Match Odds,Draw,3.27,,60,-60.00,Lost,Gabriel Elias,Football,2016-02-14 10:44:09
+2016-02-13 22:00:00,Colombia,Apertura I,CLUB CORTULUA vs ATLETICO HUILA,0-3 (0-2),Match Odds,Draw,3.22,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-13 18:45:02
 2016-02-13 20:15:00,Spain,Liga Adelante,CD MIRANDES vs CD ALAVES,0-0 (0-0),Match Odds,Draw,3.20,,100,220.00,Win,Gabriel Elias,Football,2016-02-13 18:43:01
 2016-02-13 20:00:00,Colombia,Apertura I,FORTALEZA FC vs DEPORTES TOLIMA,2-1 (1-0),Match Odds,Draw,3.15,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-13 18:44:02
 2016-02-13 18:15:00,Spain,Liga BBVA,VILLARREAL CF vs MALAGA CF,1-0 (1-0),Match Odds,Draw,3.40,,20,-20.00,Lost,Gabriel Elias,Football,2016-02-13 14:46:03
@@ -10,6 +299,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-02-13 16:00:00,England,Championship,WOLVERHAMPTON WANDERERS vs PRESTON NORTH END,1-2 (0-1),Match Odds,Draw,3.25,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-13 09:19:05
 2016-02-13 16:00:00,England,Championship,READING FC vs BURNLEY FC,0-0 (0-0),Match Odds,Draw,3.30,,100,230.00,Win,Gabriel Elias,Football,2016-02-13 09:19:02
 2016-02-13 16:00:00,England,Championship,CHARLTON ATHLETIC vs CARDIFF CITY,0-0 (0-0),Match Odds,Draw,3.50,,100,250.00,Win,Gabriel Elias,Football,2016-02-13 09:18:05
+2016-02-13 16:00:00,England,Championship,BLACKBURN ROVERS vs HULL CITY,0-2 (0-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-13 09:17:05
 2016-02-13 13:00:00,Germany,2. Bundesliga,1 FC HEIDENHEIM vs SV SANDHAUSEN,1-1 (1-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2016-02-13 09:16:01
 2016-02-13 13:00:00,Germany,2. Bundesliga,MSV DUISBURG vs KARLSRUHER SC,0-1 (0-1),Match Odds,Draw,3.40,,40,-40.00,Lost,Gabriel Elias,Football,2016-02-13 09:15:07
 2016-02-12 19:30:00,Romania,Liga 1,ASA TARGU MURES vs CS PANDURII TARGU JIU,0-1 (0-1),Match Odds,Draw,3.13,,100,-100.00,Lost,Gabriel Elias,Football,2016-02-12 06:20:01

@@ -1,0 +1,1577 @@
+
+
+<table>
+
+<thead>
+
+<tr style="background:black;color:white">
+	<th>Date</th>
+	<th>Category</th>
+	<th>League</th>
+	<th>Event</th>
+	<th>Event result</th>
+	<th>Type of bet</th>
+	<th>Selection</th>
+	<th>Odds</th>
+	<th>Bookmaker</th>
+	<th>Stake (in units)</th>
+	<th>Profit</th>
+	<th>Result</th>
+			<th>Tipster</th>
+		<th>Sport</th>
+		<th>Publication date</th>
+	</tr>
+</thead>
+
+<tbody>
+<tr style="background:#FFFFFF">
+	<td>2016-05-09 17:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>HIFK vs ROVANIEMI PALLOSEURA</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>ROVANIEMI PALLOSEURA</td>
+	<td>2.77</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-09 12:47:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-09 17:00:00</td>
+	<td>Finland</td>
+	<td>Veikkausliiga</td>
+	<td>FC INTER TURKU vs IFK MARIEHAMN</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>IFK MARIEHAMN</td>
+	<td>3.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>244.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-09 12:29:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-08 20:30:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>DEFENSOR LA BOCANA vs SPORTING CRISTAL</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SPORTING CRISTAL</td>
+	<td>2.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-08 15:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-08 20:00:00</td>
+	<td>Spain</td>
+	<td>Liga Adelante</td>
+	<td>CORDOBA CF vs GIRONA FC</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>GIRONA FC</td>
+	<td>3.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-08 14:47:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-08 18:30:00</td>
+	<td>Ecuador</td>
+	<td>Serie A, Primera Etapa</td>
+	<td>LIGA DEP UNIVERSITARIA QUITO vs BARCELONA GUAYAQUIL</td>
+	<td>2-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BARCELONA GUAYAQUIL</td>
+	<td>4.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-08 13:49:12</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-07 21:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>FORTALEZA FC vs BOYACA PATRIOTAS</td>
+	<td>3-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BOYACA PATRIOTAS</td>
+	<td>2.91</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-07 02:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-07 18:30:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC RUBIN KAZAN vs FC KRASNODAR</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC KRASNODAR</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-07 02:55:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-07 17:00:00</td>
+	<td>Morocco</td>
+	<td>Botola Pro</td>
+	<td>KAC KENITRA vs AS FAR RABAT</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AS FAR RABAT</td>
+	<td>3.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>255.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-07 04:56:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-07 17:00:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>MAS TABORSKO vs 1 SC ZNOJMO</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>1 SC ZNOJMO</td>
+	<td>2.08</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-07 02:51:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-04 12:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>VENTFORET KOFU vs KASHIWA REYSOL</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>KASHIWA REYSOL</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>118.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-04 04:36:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-04 07:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>AVISPA FUKUOKA vs OMIYA ARDIJA</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>OMIYA ARDIJA</td>
+	<td>2.55</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>155.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-04 04:34:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-03 02:05:00</td>
+	<td>Argentina</td>
+	<td>Primera B Nacional</td>
+	<td>DOUGLAS HAIG vs CA TALLERES</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CA TALLERES</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-02 21:11:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-03 00:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>CA TIGRE vs ATLETICO LANUS</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO LANUS</td>
+	<td>2.14</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>114.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-01 06:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-02 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KASIMPASA vs OSMANLISPOR FK</td>
+	<td>1-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>OSMANLISPOR FK</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-01 05:57:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-02 19:00:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>KALMAR FF vs OREBRO SK</td>
+	<td>3-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>OREBRO SK</td>
+	<td>3.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-01 05:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-05-01 13:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>SWANSEA CITY vs LIVERPOOL FC</td>
+	<td>3-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>LIVERPOOL FC</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-05-01 05:48:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-05-01 00:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>ENVIGADO FC vs MILLONARIOS FC</td>
+	<td>2-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>MILLONARIOS FC</td>
+	<td>2.27</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 07:17:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-30 19:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>FC PORTO vs SPORTING CP</td>
+	<td>1-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>SPORTING CP</td>
+	<td>2.47</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>147.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 07:15:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-30 18:00:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>MOLDE FK vs AALESUNDS FK</td>
+	<td>1-0 (0-0)</td>
+	<td>Asian handicap</td>
+	<td>MOLDE FK -1.50</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 07:11:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-30 17:00:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>CF OS BELENENSES vs FC PACOS FERREIRA</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>FC PACOS FERREIRA</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>180.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 07:03:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-30 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>WEST BROMWICH ALBION vs WEST HAM UNITED</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>WEST HAM UNITED</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 07:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-30 14:00:00</td>
+	<td>Germany</td>
+	<td>3.Liga</td>
+	<td>ENERGIE COTTBUS vs FC KICKERS WURZBURG</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>FC KICKERS WURZBURG</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-30 06:56:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-27 01:10:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>GENERAL DIAZ vs SOL DE AMERICA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>SOL DE AMERICA</td>
+	<td>2.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-26 23:52:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-24 20:00:00</td>
+	<td>Chile</td>
+	<td>Primera Division, Clausura</td>
+	<td>COBRESAL vs O'HIGGINS FC</td>
+	<td>2-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>O'HIGGINS FC</td>
+	<td>2.29</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>129.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-24 14:11:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-24 11:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>SHONAN BELLMARE vs OMIYA ARDIJA</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>OMIYA ARDIJA</td>
+	<td>3.01</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>201.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-21 17:44:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-24 07:00:00</td>
+	<td>South Korea</td>
+	<td>K-League Classic</td>
+	<td>ULSAN HYUNDAI vs FC SEOUL</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC SEOUL</td>
+	<td>2.44</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>144.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 12:21:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-24 03:30:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Clausura</td>
+	<td>ATLAS vs LEON</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>LEON</td>
+	<td>2.25</td>
+	<td>
+	Bwin	</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 12:19:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-24 03:00:00</td>
+	<td>Peru</td>
+	<td>Primera Division, Apertura</td>
+	<td>UNIVERSIDAD CESAR VALLEJO vs UNIVERSITARIO DE DEPORTES</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>UNIVERSITARIO DE DEPORTES</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>230.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 12:14:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-24 02:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>ATLETICO BUCARAMANGA vs MILLONARIOS FC</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MILLONARIOS FC</td>
+	<td>2.54</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 12:11:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-24 01:45:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>GIMNASIA Y ESGRIMA vs ESTUDIANTES DE LA PLATA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ESTUDIANTES DE LA PLATA</td>
+	<td>3.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 12:06:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-23 18:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC SCHALKE 04 vs BAYER LEVERKUSEN</td>
+	<td>2-3 (2-0)</td>
+	<td>Match Odds</td>
+	<td>BAYER LEVERKUSEN</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 11:45:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-23 16:00:00</td>
+	<td>England</td>
+	<td>League One</td>
+	<td>PETERBOROUGH UNITED vs SCUNTHORPE UNITED</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>SCUNTHORPE UNITED</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 11:39:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-23 15:30:00</td>
+	<td>Norway</td>
+	<td>Eliteserien</td>
+	<td>STROMSGODSET vs BODO/GLIMT</td>
+	<td>2-0 (1-0)</td>
+	<td>Asian handicap</td>
+	<td>STROMSGODSET IF -1.50</td>
+	<td>2.18</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>118.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-23 11:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-20 19:45:00</td>
+	<td>Switzerland</td>
+	<td>Axpo Super League</td>
+	<td>FC ST. GALLEN vs FC SION</td>
+	<td>2-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC SION</td>
+	<td>2.07</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-20 18:39:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-20 19:00:00</td>
+	<td>Denmark</td>
+	<td>Viasat Sport Divisionen</td>
+	<td>VENDSYSSEL FF vs AC HORSENS</td>
+	<td>0-3 (0-2)</td>
+	<td>Match Odds</td>
+	<td>AC HORSENS</td>
+	<td>2.88</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>188.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-20 17:58:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-14 16:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>KARSIYAKA vs GIRESUNSPOR</td>
+	<td>2-1 (2-0)</td>
+	<td>Match Odds</td>
+	<td>GIRESUNSPOR</td>
+	<td>2.21</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-12 07:46:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-13 16:00:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>ALTINORDU vs BALIKESIRSPOR</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>BALIKESIRSPOR</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-12 07:45:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-12 17:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>BOLUSPOR vs ADANASPOR</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>ADANASPOR</td>
+	<td>2.36</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>136.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-12 07:43:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-11 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>NOTTINGHAM FOREST vs BRIGHTON & HOVE ALBION FC</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BRIGHTON & HOVE ALBION FC</td>
+	<td>2.15</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>115.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-11 14:54:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-11 17:00:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC KRYLIYA SOVETOV SAMARA vs FC LOKOMOTIV MOSCOW</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC LOKOMOTIV MOSCOW</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-11 14:52:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-10 20:45:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>CA BANFIELD vs ATLETICO LANUS</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ATLETICO LANUS</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-10 10:42:10</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-10 17:30:00</td>
+	<td>Sweden</td>
+	<td>Allsvenskan</td>
+	<td>KALMAR FF vs IF ELFSBORG</td>
+	<td>3-2 (3-0)</td>
+	<td>Match Odds</td>
+	<td>IF ELFSBORG</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-10 10:28:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-10 17:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>1 FC COLOGNE vs BAYER LEVERKUSEN</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>BAYER LEVERKUSEN</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-10 10:26:09</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-10 12:00:00</td>
+	<td>Japan</td>
+	<td>League 1</td>
+	<td>KASHIWA REYSOL vs FC TOKYO</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC TOKYO</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-10 10:23:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 19:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1, Championship round</td>
+	<td>FC VIITORUL CONSTANTA vs AFC ASTRA GIURGIU</td>
+	<td>1-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AFC ASTRA GIURGIU</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:17:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-09 17:00:00</td>
+	<td>Czech Republic</td>
+	<td>1st Division</td>
+	<td>FC BANIK OSTRAVA vs 1 FC SLOVACKO</td>
+	<td>2-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>1 FC SLOVACKO</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:13:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>YEOVIL TOWN vs EXETER CITY</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>EXETER CITY</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:11:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-09 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>NEWPORT COUNTY vs CAMBRIDGE UNITED FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CAMBRIDGE UNITED FC</td>
+	<td>2.95</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>195.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:10:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 16:00:00</td>
+	<td>England</td>
+	<td>League Two</td>
+	<td>LUTON TOWN vs ACCRINGTON STANLEY</td>
+	<td>0-2 (0-0)</td>
+	<td>Match Odds</td>
+	<td>ACCRINGTON STANLEY</td>
+	<td>2.43</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>143.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:08:04</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-09 16:00:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BRISTOL CITY vs SHEFFIELD WEDNESDAY</td>
+	<td>4-1 (3-0)</td>
+	<td>Match Odds</td>
+	<td>SHEFFIELD WEDNESDAY</td>
+	<td>2.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:04:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 16:00:00</td>
+	<td>England</td>
+	<td>Premier League</td>
+	<td>ASTON VILLA vs BOURNEMOUTH AFC</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>BOURNEMOUTH AFC</td>
+	<td>2.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>125.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:02:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-09 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie B</td>
+	<td>FC MODENA vs TRAPANI CALCIO</td>
+	<td>1-4 (1-0)</td>
+	<td>Match Odds</td>
+	<td>TRAPANI CALCIO</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>200.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 14:00:06</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 09:00:00</td>
+	<td>South Korea</td>
+	<td>K-League Classic</td>
+	<td>INCHEON UNITED FC vs SEONGNAM ILHWA</td>
+	<td>2-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>SEONGNAM ILHWA</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 05:38:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-09 07:00:00</td>
+	<td>South Korea</td>
+	<td>K-League Classic</td>
+	<td>GWANGJU FC vs ULSAN HYUNDAI</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ULSAN HYUNDAI</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 05:36:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-09 06:00:00</td>
+	<td>Japan</td>
+	<td>J.League 2</td>
+	<td>MONTEDIO YAMAGATA vs MACHIDA ZELVIA</td>
+	<td>0-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>MACHIDA ZELVIA</td>
+	<td>3.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>230.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-09 04:36:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-08 21:30:00</td>
+	<td>Portugal</td>
+	<td>Liga Sagres</td>
+	<td>BOAVISTA FC vs FC AROUCA</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC AROUCA</td>
+	<td>3.25</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 08:03:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-08 20:30:00</td>
+	<td>France</td>
+	<td>Ligue 1</td>
+	<td>MONTPELLIER HSC vs OLYMPIQUE LYON</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>OLYMPIQUE LYON</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 08:00:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-08 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC OSS vs ALMERE CITY FC</td>
+	<td>1-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ALMERE CITY FC</td>
+	<td>2.05</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>105.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 07:58:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-08 20:00:00</td>
+	<td>Netherlands</td>
+	<td>Jupiler League</td>
+	<td>FC DORDRECHT vs JONG PSV EINDHOVEN</td>
+	<td>4-0 (1-0)</td>
+	<td>Match Odds</td>
+	<td>JONG PSV EINDHOVEN</td>
+	<td>3.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 07:57:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-08 20:00:00</td>
+	<td>France</td>
+	<td>Ligue 2</td>
+	<td>STADE BREST vs AC HAVRE</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>AC HAVRE</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 07:54:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-08 18:00:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC ANZHI MAKHACHKALA vs FC ROSTOV</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>FC ROSTOV</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-08 07:46:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-07 01:30:00</td>
+	<td>Venezuela</td>
+	<td>Primera Division, Apertura</td>
+	<td>MONAGAS SC vs ZAMORA FC</td>
+	<td>0-3 (0-1)</td>
+	<td>Match Odds</td>
+	<td>ZAMORA FC</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-06 21:08:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-06 23:00:00</td>
+	<td>Costa Rica</td>
+	<td>Primera Division, Campeonato Verano</td>
+	<td>PEREZ ZELEDON vs DEPORTIVO SAPRISSA</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>DEPORTIVO SAPRISSA</td>
+	<td>1.80</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-06 21:05:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-06 01:10:00</td>
+	<td>Paraguay</td>
+	<td>Primera Division</td>
+	<td>RIVER PLATE ASUNCION vs SOL DE AMERICA</td>
+	<td>1-1 (0-1)</td>
+	<td>Match Odds</td>
+	<td>SOL DE AMERICA</td>
+	<td>1.65</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-05 20:42:05</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-05 20:45:00</td>
+	<td>England</td>
+	<td>Skrill Premier</td>
+	<td>ALTRINCHAM FC vs DOVER ATHLETIC</td>
+	<td>1-2 (1-0)</td>
+	<td>Match Odds</td>
+	<td>DOVER ATHLETIC</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-05 19:41:06</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-05 20:45:00</td>
+	<td>England</td>
+	<td>Championship</td>
+	<td>BIRMINGHAM CITY vs BRIGHTON & HOVE ALBION FC</td>
+	<td>1-2 (1-1)</td>
+	<td>Match Odds</td>
+	<td>BRIGHTON & HOVE ALBION FC</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-05 19:40:04</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-04 20:15:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>GREUTHER FURTH vs SC FREIBURG</td>
+	<td>2-3 (1-2)</td>
+	<td>Match Odds</td>
+	<td>SC FREIBURG</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>145.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-04 05:32:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-04 19:00:00</td>
+	<td>Turkey</td>
+	<td>Turkcell Super Lig</td>
+	<td>KASIMPASA vs BESIKTAS JK</td>
+	<td>2-1 (1-1)</td>
+	<td>Match Odds</td>
+	<td>BESIKTAS JK</td>
+	<td>1.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-04 05:30:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-04 18:30:00</td>
+	<td>Russia</td>
+	<td>Premier League</td>
+	<td>FC DINAMO MOSCOW vs FC KRASNODAR</td>
+	<td>1-4 (1-1)</td>
+	<td>Match Odds</td>
+	<td>FC KRASNODAR</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-04 05:28:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-04 01:00:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>CA SARMIENTO vs CA INDEPENDIENTE</td>
+	<td>0-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CA INDEPENDIENTE</td>
+	<td>1.94</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 19:49:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-04 00:30:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>VELEZ SARSFIELD vs GODOY CRUZ A.T.</td>
+	<td>1-4 (1-0)</td>
+	<td>Match Odds</td>
+	<td>GODOY CRUZ A.T.</td>
+	<td>3.00</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>200.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 19:46:07</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-03 21:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>CD ONCE CALDAS vs MILLONARIOS FC</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>MILLONARIOS FC</td>
+	<td>3.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>210.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 19:45:23</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-03 21:00:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>PALMEIRAS SP vs CORINTHIANS SP</td>
+	<td>1-0 (0-0)</td>
+	<td>Match Odds</td>
+	<td>CORINTHIANS SP</td>
+	<td>2.38</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 19:41:03</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-03 19:00:00</td>
+	<td>Colombia</td>
+	<td>Apertura I</td>
+	<td>FORTALEZA FC vs CLUB ATLETICO JUNIOR</td>
+	<td>1-2 (1-2)</td>
+	<td>Match Odds</td>
+	<td>CLUB ATLETICO JUNIOR</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 17:51:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-03 15:00:00</td>
+	<td>Austria</td>
+	<td>tipp3-Bundesliga</td>
+	<td>SK RAPID VIENNA vs RB SALZBURG</td>
+	<td>1-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>RB SALZBURG</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 04:06:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-03 15:00:00</td>
+	<td>Italy</td>
+	<td>Serie A</td>
+	<td>LAZIO ROMA vs AS ROMA</td>
+	<td>1-4 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AS ROMA</td>
+	<td>2.20</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>120.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 04:04:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-03 13:30:00</td>
+	<td>Germany</td>
+	<td>2. Bundesliga</td>
+	<td>FSV FRANKFURT vs 1 FC NUREMBERG</td>
+	<td>0-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>1 FC NUREMBERG</td>
+	<td>1.98</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>98.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 04:01:05</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-03 12:30:00</td>
+	<td>Turkey</td>
+	<td>Bank Asya 1. Lig</td>
+	<td>BOLUSPOR vs KARDEMIR KARABUKSPOR</td>
+	<td>0-1 (0-0)</td>
+	<td>Match Odds</td>
+	<td>KARDEMIR KARABUKSPOR</td>
+	<td>2.45</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>145.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 03:59:02</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-03 05:00:00</td>
+	<td>Mexico</td>
+	<td>Primera Division, Clausura</td>
+	<td>JAGUARES DE CHIAPAS vs AMERICA DE MEXICO</td>
+	<td>0-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>AMERICA DE MEXICO</td>
+	<td>2.30</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>130.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-03 03:56:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-02 20:45:00</td>
+	<td>Netherlands</td>
+	<td>Eredivisie</td>
+	<td>WILLEM II TILBURG vs FC TWENTE ENSCHEDE</td>
+	<td>2-3 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC TWENTE ENSCHEDE</td>
+	<td>2.75</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>175.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 19:43:03</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-02 15:30:00</td>
+	<td>Romania</td>
+	<td>Liga 1,Relegation round</td>
+	<td>FC PETROLUL PLOIESTI vs CS VOLUNTARI</td>
+	<td>1-2 (0-1)</td>
+	<td>Match Odds</td>
+	<td>CS VOLUNTARI</td>
+	<td>2.70</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>170.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 03:10:01</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-02 15:30:00</td>
+	<td>Germany</td>
+	<td>Bundesliga</td>
+	<td>FC INGOLSTADT vs FC SCHALKE 04</td>
+	<td>3-0 (2-0)</td>
+	<td>Match Odds</td>
+	<td>FC SCHALKE 04</td>
+	<td>2.60</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 03:06:08</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-02 15:00:00</td>
+	<td>Croatia</td>
+	<td>1. HNL</td>
+	<td>NK ISTRA 1961 vs NK LOKOMOTIVA ZAGREB</td>
+	<td>0-3 (0-0)</td>
+	<td>Match Odds</td>
+	<td>NK LOKOMOTIVA ZAGREB</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>140.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 00:55:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-04-02 10:30:00</td>
+	<td>Australia</td>
+	<td>Hyundai A-League</td>
+	<td>SYDNEY FC vs ADELAIDE UNITED FC</td>
+	<td>0-2 (0-2)</td>
+	<td>Match Odds</td>
+	<td>ADELAIDE UNITED FC</td>
+	<td>2.50</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>150.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 00:52:01</td>
+	</tr>
+<tr style="background:#FFFFFF">
+	<td>2016-04-02 02:15:00</td>
+	<td>Argentina</td>
+	<td>Primera Division, Liguilla Pre-Libertadores</td>
+	<td>CA TEMPERLEY vs ESTUDIANTES DE LA PLATA</td>
+	<td>1-3 (1-1)</td>
+	<td>Match Odds</td>
+	<td>ESTUDIANTES DE LA PLATA</td>
+	<td>2.10</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>110.00</td>
+	<td>Win</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-04-02 00:50:02</td>
+	</tr>
+<tr style="background:#DEDEDE">
+	<td>2016-03-31 00:30:00</td>
+	<td>Brazil</td>
+	<td>Paulista Serie A1</td>
+	<td>CAPIVARIANO SP vs SAO BENTO SP</td>
+	<td>1-1 (1-0)</td>
+	<td>Match Odds</td>
+	<td>SAO BENTO SP</td>
+	<td>2.40</td>
+	<td>
+		</td>
+	<td>100</td>
+	<td>-100.00</td>
+	<td>Lost</td>
+			<td>El Dorado</td>
+		<td>Football</td>
+		<td>2016-03-30 23:27:01</td>
+	</tr>
+</tbody>
+
+</table>

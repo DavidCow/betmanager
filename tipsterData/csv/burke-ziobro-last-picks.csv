@@ -1,234 +1,258 @@
-Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
-2016-02-13 18:00:00,Poland,Ekstraklasa,KS CRACOVIA vs KS GORNIK ZABRZE,3-0 (3-0),Draw no bet,KS GORNIK ZABRZE,3.25,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-13 09:57:02
-2016-02-13 15:30:00,Poland,Ekstraklasa,GORNIK LECZNA vs GKS PIAST GLIWICE,0-0 (0-0),Match Odds,GKS PIAST GLIWICE,2.55,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-13 09:52:02
-2016-02-11 20:45:00,Italy,Serie A,LAZIO ROMA vs HELLAS VERONA,5-2 (1-0),Match Odds,Draw,4.70,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-11 10:58:06
-2016-02-10 21:00:00,Spain,Copa del Rey,VALENCIA CF vs FC BARCELONA,1-1 (1-0),Asian handicap,FC BARCELONA -1.50,3.10,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-10 10:00:03
-2016-02-09 20:45:00,England,League Two,OXFORD UNITED vs MANSFIELD TOWN,2-2 (1-1),Draw no bet,MANSFIELD TOWN,5.00,,40,0.00,Void,Burke Ziobro,Football,2016-02-09 11:15:03
-2016-02-07 21:00:00,France,Ligue 1,OLYMPIQUE MARSEILLE vs PARIS ST GERMAIN,1-2 (1-1),Asian handicap,PARIS ST GERMAIN -1.00,2.52,,80,0.00,Void,Burke Ziobro,Football,2016-02-07 15:35:05
-2016-02-07 14:30:00,England,Premier League,BOURNEMOUTH AFC vs ARSENAL FC,0-2 (0-2),Asian handicap,ARSENAL FC -1.00,2.69,,80,135.20,Win,Burke Ziobro,Football,2016-02-07 11:29:04
-2016-02-06 18:30:00,Austria,tipp3-Bundesliga,SK RAPID VIENNA vs WOLFSBERGER AC,3-0 (0-0),Asian handicap,WOLFSBERGER AC +0.75,2.46,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-06 10:44:02
-2016-02-06 18:30:00,England,Premier League,SOUTHAMPTON FC vs WEST HAM UNITED,1-0 (1-0),Asian handicap,WEST HAM UNITED +0.25,2.66,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-05 20:56:02
-2016-02-06 13:45:00,England,Premier League,MANCHESTER CITY vs LEICESTER CITY,1-3 (0-1),Asian handicap,LEICESTER CITY +0.50,2.48,,80,118.40,Win,Burke Ziobro,Football,2016-02-05 20:57:02
-2016-02-03 19:00:00,France,Ligue 1,EA GUINGAMP vs TROYES AC,4-0 (1-0),Match Odds,Draw,4.12,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-03 12:26:04
-2016-02-03 19:00:00,France,Ligue 1,STADE REIMS vs SCO ANGERS,2-1 (1-1),Match Odds,SCO ANGERS,3.38,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-03 12:12:14
-2016-02-02 21:00:00,England,Premier League,MANCHESTER UNITED vs STOKE CITY,3-0 (2-0),Asian handicap,STOKE CITY +0.25,2.94,,80,-80.00,Lost,Burke Ziobro,Football,2016-02-02 09:35:02
-2016-01-31 15:00:00,Italy,Serie A,SSC NAPOLI vs FC EMPOLI,5-1 (2-1),Asian handicap,FC EMPOLI +1.00,3.10,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-31 11:01:02
-2016-01-31 12:00:00,Spain,Liga BBVA,SEVILLA FC vs LEVANTE UD,3-1 (1-0),Match Odds,Draw,5.00,,40,-40.00,Lost,Burke Ziobro,Football,2016-01-31 10:22:07
-2016-01-30 20:00:00,France,Ligue 1,TROYES AC vs FC NANTES,0-1 (0-1),Asian handicap,TROYES AC -0.25,2.80,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-30 11:02:07
-2016-01-26 21:00:00,France,Coupe de la Ligue,LILLE OSC vs FC GIRONDINS BORDEAUX,5-1 (3-1),Asian handicap,FC GIRONDINS BORDEAUX +0,2.64,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-26 10:01:03
-2016-01-24 12:00:00,Spain,Liga BBVA,ATHLETIC BILBAO vs SD EIBAR,5-2 (3-1),Asian handicap,SD EIBAR +0,3.80,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-22 12:27:04
-2016-01-23 20:00:00,France,Ligue 1,LILLE OSC vs TROYES AC,1-3 (1-0),Draw no bet,TROYES AC,6.50,,40,220.00,Win,Burke Ziobro,Football,2016-01-22 12:51:02
-2016-01-23 18:30:00,Germany,Bundesliga,MONCHENGLADBACH vs BORUSSIA DORTMUND,1-3 (0-1),Asian handicap,MONCHENGLADBACH +0,3.35,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-22 11:53:04
-2016-01-23 17:00:00,France,Ligue 1,PARIS ST GERMAIN vs SCO ANGERS,5-1 (2-0),Match Odds,Draw,8.03,,40,-40.00,Lost,Burke Ziobro,Football,2016-01-22 11:50:02
-2016-01-20 20:45:00,Italy,Coppa Italia,LAZIO ROMA vs JUVENTUS TURIN,0-1 (0-0),Match Odds,JUVENTUS TURIN,2.49,,80,119.20,Win,Burke Ziobro,Football,2016-01-20 16:38:03
-2016-01-20 14:30:00,International Clubs,Club Friendly Games,BOLOGNA FC vs FC CHIASSO,0-0 (0-0),Draw no bet,FC CHIASSO,5.50,,40,0.00,Void,Burke Ziobro,Football,2016-01-20 09:47:05
-2016-01-17 15:00:00,Italy,Serie A,BOLOGNA FC vs LAZIO ROMA,2-2 (2-0),Asian handicap,BOLOGNA FC +0,2.88,,80,0.00,Void,Burke Ziobro,Football,2016-01-17 12:15:04
-2016-01-16 20:45:00,Italy,Serie A,SSC NAPOLI vs US SASSUOLO,3-1 (2-1),Asian handicap,US SASSUOLO +0.25,5.00,,40,-40.00,Lost,Burke Ziobro,Football,2016-01-15 21:58:02
-2016-01-16 20:00:00,France,Ligue 1,TROYES AC vs STADE RENNES,2-4 (2-3),Match Odds,Draw,3.40,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-15 22:00:07
-2016-01-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs WEST HAM UNITED,2-1 (2-0),Asian handicap,WEST HAM UNITED -1.00,5.00,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-15 22:03:02
-2016-01-13 21:00:00,England,Premier League,TOTTENHAM HOTSPUR vs LEICESTER CITY,0-1 (0-0),Match Odds,Draw,3.96,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-13 09:48:02
-2016-01-13 20:30:00,Spain,Copa del Rey,CELTA DE VIGO vs CADIZ CF,2-0 (1-0),Draw no bet,CADIZ CF,9.00,,40,-40.00,Lost,Burke Ziobro,Football,2016-01-13 09:20:02
-2016-01-13 16:15:00,Greece,Greece Cup,AEK ATHENS FC vs LEVADIAKOS FC,2-0 (1-0),Draw no bet,LEVADIAKOS FC,5.50,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-12 08:54:02
-2016-01-12 20:45:00,England,Premier League,BOURNEMOUTH AFC vs WEST HAM UNITED,1-3 (1-0),Asian handicap,WEST HAM UNITED +0,2.75,,80,140.00,Win,Burke Ziobro,Football,2016-01-11 13:08:02
-2016-01-12 20:45:00,England,Premier League,NEWCASTLE UNITED vs MANCHESTER UNITED,3-3 (1-2),Asian handicap,NEWCASTLE UNITED +0.25,2.66,,80,66.40,Half win,Burke Ziobro,Football,2016-01-11 12:38:04
-2016-01-10 17:00:00,England,FA Cup,TOTTENHAM HOTSPUR vs LEICESTER CITY,2-2 (1-1),Asian handicap,LEICESTER CITY +0.25,2.98,,80,79.20,Half win,Burke Ziobro,Football,2016-01-10 11:12:07
-2016-01-10 12:30:00,Italy,Serie A,INTER MILAN vs US SASSUOLO,0-1 (0-0),Match Odds,Draw,4.06,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-09 10:35:02
-2016-01-09 20:00:00,France,Ligue 1,AS MONACO vs GAZELEC AJACCIO,2-2 (0-2),Match Odds,Draw,3.92,,80,233.60,Win,Burke Ziobro,Football,2016-01-09 10:29:07
-2016-01-08 16:30:00,International Clubs,Club Friendly Games,TALLINNA FC LEVADIA vs JK SILLAMAE KALEV,0-3 (0-1),Match Odds,Draw,4.50,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-08 10:31:02
-2016-01-04 20:30:00,Spain,Liga BBVA,SPORTING GIJON vs GETAFE CF,1-2 (1-0),Match Odds,Draw,3.30,,80,-80.00,Lost,Burke Ziobro,Football,2016-01-04 10:31:04
-2016-01-03 16:00:00,France,Coupe de France,CHANTILLY vs EA GUINGAMP,0-4 (0-0),Match Odds,Draw,9.00,,40,-40.00,Lost,Burke Ziobro,Football,2016-01-03 12:30:07
-2015-12-30 18:15:00,Spain,Liga BBVA,SEVILLA FC vs ESPANYOL BARCELONA,2-0 (2-0),Match Odds,Draw,4.98,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-30 10:30:05
-2015-12-26 20:45:00,England,Premier League,SOUTHAMPTON FC vs ARSENAL FC,4-0 (1-0),Asian handicap,ARSENAL FC -0.75,2.57,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-26 10:15:02
-2015-12-26 16:00:00,England,Premier League,LIVERPOOL FC vs LEICESTER CITY,1-0 (0-0),Asian handicap,LEICESTER CITY +0,3.06,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-24 09:31:02
-2015-12-20 16:15:00,Greece,Super League,PANAITOLIKOS vs IRAKLIS 1908,2-0 (1-0),Match Odds,IRAKLIS 1908,3.33,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-20 09:46:02
-2015-12-19 16:00:00,England,Premier League,EVERTON FC vs LEICESTER CITY,2-3 (1-1),Asian handicap,LEICESTER CITY -1.00,6.40,,80,0.00,Void,Burke Ziobro,Football,2015-12-18 10:05:07
-2015-12-18 20:30:00,Poland,Ekstraklasa,WISLA KRAKOW SA vs MKS POGON SZCZECIN,0-1 (0-1),Match Odds,MKS POGON SZCZECIN,3.74,,80,219.20,Win,Burke Ziobro,Football,2015-12-16 15:00:03
-2015-12-18 18:00:00,Poland,Ekstraklasa,KGHM ZAGLEBIE LUBIN vs KS GORNIK ZABRZE,2-4 (2-2),Asian handicap,KS GORNIK ZABRZE +0,3.49,,80,199.20,Win,Burke Ziobro,Football,2015-12-16 09:45:01
-2015-12-15 20:45:00,England,FA Cup,HARTLEPOOL UNITED vs SALFORD CITY,0-0 (0-0),Asian handicap,SALFORD CITY +0,3.80,,80,0.00,Void,Burke Ziobro,Football,2015-12-15 08:17:02
-2015-12-13 17:00:00,France,Ligue 1,OLYMPIQUE MARSEILLE vs GAZELEC AJACCIO,1-1 (1-1),Asian handicap,GAZELEC AJACCIO +0,6.00,,80,0.00,Void,Burke Ziobro,Football,2015-12-13 09:58:01
-2015-12-12 18:30:00,England,Premier League,BOURNEMOUTH AFC vs MANCHESTER UNITED,2-1 (1-1),Match Odds,Draw,3.40,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-12 11:31:06
-2015-12-12 18:30:00,Germany,Bundesliga,BAYER LEVERKUSEN vs MONCHENGLADBACH,5-0 (1-0),Match Odds,MONCHENGLADBACH,3.80,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-11 09:30:03
-2015-12-07 20:30:00,Spain,Liga BBVA,ESPANYOL BARCELONA vs LEVANTE UD,1-1 (0-1),Match Odds,Draw,3.47,,80,197.60,Win,Burke Ziobro,Football,2015-12-07 10:00:05
-2015-12-05 17:00:00,France,Ligue 1,OLYMPIQUE LYON vs SCO ANGERS,0-2 (0-1),Draw no bet,SCO ANGERS,5.50,,80,360.00,Win,Burke Ziobro,Football,2015-12-04 12:33:05
-2015-12-05 16:00:00,Poland,I Liga,ZAWISZA BYDGOSZCZ vs ZAGLEBIE SOSNOWIEC SA,6-1 (4-1),Match Odds,ZAGLEBIE SOSNOWIEC SA,3.10,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-04 12:11:02
-2015-12-05 16:00:00,England,Premier League,SWANSEA CITY vs LEICESTER CITY,0-3 (0-2),Asian handicap,LEICESTER CITY -1.00,4.25,,80,260.00,Win,Burke Ziobro,Football,2015-12-04 12:10:04
-2015-12-05 15:30:00,Germany,Bundesliga,MONCHENGLADBACH vs BAYERN MUNICH,3-1 (0-0),Draw no bet,MONCHENGLADBACH,8.00,,40,280.00,Win,Burke Ziobro,Football,2015-12-04 10:00:05
-2015-12-03 21:00:00,Spain,Copa del Rey,SD HUESCA vs VILLARREAL CF,3-2 (1-0),Asian handicap,VILLARREAL CF -1.00,2.82,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-03 10:02:02
-2015-12-01 20:30:00,Poland,Ekstraklasa,KS GORNIK ZABRZE vs GKS PIAST GLIWICE,5-2 (1-2),Asian handicap,GKS PIAST GLIWICE -1.00,3.70,,80,-80.00,Lost,Burke Ziobro,Football,2015-12-01 10:00:03
-2015-12-01 19:00:00,Austria,tipp3-Bundesliga,RB SALZBURG vs WOLFSBERGER AC,1-1 (0-1),Match Odds,Draw,9.91,,40,356.40,Win,Burke Ziobro,Football,2015-12-01 14:01:01
-2015-11-28 18:00:00,Italy,Serie A,TURIN FC vs BOLOGNA FC,2-0 (0-0),Match Odds,Draw,3.83,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-28 11:03:04
-2015-11-28 15:30:00,Germany,Bundesliga,1899 HOFFENHEIM vs MONCHENGLADBACH,3-3 (2-1),Asian handicap,MONCHENGLADBACH -0.75,2.76,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-27 10:00:03
-2015-11-26 21:05:00,European cups,UEFA Europa League,MOLDE FK vs FENERBAHCE,0-2 (0-0),Asian handicap,MOLDE FK +0,2.85,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-25 10:00:02
-2015-11-25 16:00:00,European cups,UEFA Champions League,FC ASTANA vs BENFICA LISBON,2-2 (2-1),Asian handicap,FC ASTANA +0,3.37,,80,0.00,Void,Burke Ziobro,Football,2015-11-25 08:30:03
-2015-11-22 15:00:00,Italy,Serie A,GENOA FC vs US SASSUOLO,2-1 (0-0),Match Odds,Draw,3.47,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-22 11:15:07
-2015-11-22 14:00:00,France,Ligue 1,SC BASTIA vs GAZELEC AJACCIO,1-2 (1-1),Asian handicap,GAZELEC AJACCIO +0,2.77,,80,141.60,Win,Burke Ziobro,Football,2015-11-21 10:06:12
-2015-11-21 16:00:00,England,Premier League,CHELSEA FC vs NORWICH CITY,1-0 (0-0),Match Odds,Draw,4.89,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-21 09:02:12
-2015-11-20 20:30:00,Poland,Ekstraklasa,KS GORNIK ZABRZE vs WISLA KRAKOW SA,1-1 (0-1),Match Odds,Draw,3.53,,80,202.40,Win,Burke Ziobro,Football,2015-11-20 10:02:43
-2015-11-20 18:00:00,Poland,Ekstraklasa,TERMALICA BRUK-BET NIECIECZA vs GKS PIAST GLIWICE,3-5 (2-3),Asian handicap,GKS PIAST GLIWICE -0.75,2.97,,80,157.60,Win,Burke Ziobro,Football,2015-11-20 10:02:04
-2015-11-17 13:00:00,International,World Cup Qualification,HONG KONG vs CHINA,0-0 (0-0),Match Odds,Draw,5.63,,80,370.40,Win,Burke Ziobro,Football,2015-11-17 11:01:07
-2015-11-14 01:00:00,International,World Cup Qualification,ARGENTINA vs BRAZIL,1-1 (1-0),Asian handicap,BRAZIL -1.00,5.50,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-10 11:30:10
-2015-11-13 20:45:00,International,"Euro Cup Qualification, Playoffs",BOSNIA & HERZEGOVINA vs IRELAND,1-1 (0-0),Asian handicap,BOSNIA & HERZEGOVINA -1.00,3.07,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-12 09:45:14
-2015-11-12 22:00:00,International,World Cup Qualification,ECUADOR vs URUGUAY,2-1 (1-0),Asian handicap,URUGUAY +0,3.33,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-10 11:37:04
-2015-11-11 16:00:00,International,International Friendly Games,JORDAN vs MALTA,2-0,Asian handicap,JORDAN -1.00,2.65,,80,132.00,Win,Burke Ziobro,Football,2015-11-11 11:16:03
-2015-11-08 17:00:00,England,Premier League,ARSENAL FC vs TOTTENHAM HOTSPUR,1-1 (0-1),Asian handicap,TOTTENHAM HOTSPUR +0.25,2.89,,80,75.60,Half win,Burke Ziobro,Football,2015-11-08 10:16:02
-2015-11-08 16:00:00,Spain,Liga BBVA,FC BARCELONA vs VILLARREAL CF,3-0 (0-0),Asian handicap,VILLARREAL CF +1.25,2.52,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-08 10:17:25
-2015-11-08 15:00:00,Italy,Serie A,FC EMPOLI vs JUVENTUS TURIN,1-3 (1-2),Match Odds,Draw,3.53,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-08 12:08:15
-2015-11-07 20:30:00,Poland,Ekstraklasa,JAGIELLONIA BIALYSTOK vs GKS PIAST GLIWICE,0-2 (0-1),Match Odds,GKS PIAST GLIWICE,3.20,,80,176.00,Win,Burke Ziobro,Football,2015-11-07 11:00:18
-2015-11-07 16:00:00,Spain,Liga BBVA,CELTA DE VIGO vs VALENCIA CF,1-5 (1-2),Match Odds,Draw,3.90,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-07 11:11:18
-2015-11-06 20:30:00,Poland,I Liga,ARKA GDYNIA 1929 vs MKS DOLCAN ZABKI,3-2 (1-2),Asian handicap,MKS DOLCAN ZABKI -1.00,6.10,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-05 10:30:45
-2015-11-05 19:00:00,European cups,UEFA Europa League,FC RUBIN KAZAN vs LIVERPOOL FC,0-1 (0-0),Match Odds,Draw,3.63,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-05 10:30:04
-2015-11-05 19:00:00,European cups,UEFA Europa League,FC VIKTORIA PLZEN vs SK RAPID VIENNA,1-2 (0-1),Asian handicap,SK RAPID VIENNA +0,3.03,,80,162.40,Win,Burke Ziobro,Football,2015-11-05 10:07:17
-2015-11-05 19:00:00,European cups,UEFA Europa League,CELTIC FC vs MOLDE FK,1-2 (1-2),Asian handicap,MOLDE FK +0,3.80,,80,224.00,Win,Burke Ziobro,Football,2015-11-05 10:00:31
-2015-11-03 20:45:00,European cups,UEFA Champions League,FC SHAKHTAR DONETSK vs MALMO FF,4-0 (1-0),Match Odds,Draw,5.55,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-03 10:45:16
-2015-11-03 20:45:00,European cups,UEFA Champions League,MANCHESTER UNITED vs CSKA MOSCOW,1-0 (0-0),Asian handicap,CSKA MOSCOW +0,4.50,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-02 09:32:02
-2015-11-03 16:00:00,European cups,UEFA Champions League,FC ASTANA vs ATLETICO MADRID,0-0 (0-0),Asian handicap,ATLETICO MADRID -2.00,3.10,,80,-80.00,Lost,Burke Ziobro,Football,2015-11-03 10:47:05
-2015-11-02 19:00:00,Italy,Serie A,AC CHIEVO VERONA vs SAMPDORIA GENOA,1-1 (1-1),Asian handicap,SAMPDORIA GENOA +0,2.89,,80,0.00,Void,Burke Ziobro,Football,2015-11-02 09:30:26
-2015-11-01 18:00:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs STROMSGODSET,1-2 (0-2),Asian Handicap 1st Half,STROMSGODSET -1.00 Half time,2.60,,80,128.00,Win,Burke Ziobro,Football,2015-10-31 16:17:36
-2015-11-01 18:00:00,Belgium,Jupiler Pro League,RSC ANDERLECHT vs ROYAL MOUSCRON,2-0 (0-0),Asian handicap,ROYAL MOUSCRON +1.00,3.55,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-31 12:27:05
-2015-11-01 18:00:00,Norway,Eliteserien,MOLDE FK vs VIKING FK,4-1 (1-0),Asian handicap,VIKING FK +0,3.80,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-31 12:24:04
-2015-11-01 15:00:00,Italy,Serie A,UDINESE CALCIO vs US SASSUOLO,0-0 (0-0),Asian handicap,US SASSUOLO -0.25,2.87,,80,-40.00,Half lost,Burke Ziobro,Football,2015-10-31 16:15:28
-2015-10-28 20:45:00,Italy,Serie A,US SASSUOLO vs JUVENTUS TURIN,1-0 (1-0),Asian handicap,US SASSUOLO +0.25,2.85,,80,148.00,Win,Burke Ziobro,Football,2015-10-28 10:04:08
-2015-10-28 20:30:00,Austria,ÖFB Stiegl Cup,SK RAPID VIENNA vs AUSTRIA SALZBURG,5-1 (2-0),Match Odds,Draw,7.75,,40,-40.00,Lost,Burke Ziobro,Football,2015-10-28 12:00:46
-2015-10-25 15:05:00,England,Premier League,MANCHESTER UTD vs MANCHESTER CITY,0-0 (0-0),Asian handicap,MANCHESTER CITY -1.00,4.50,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-25 10:00:20
-2015-10-24 20:00:00,France,Ligue 1,GAZELEC AJACCIO vs OGC NICE,3-1 (3-1),Asian handicap,OGC NICE -0.75,2.47,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-24 12:47:03
-2015-10-24 19:30:00,Romania,Liga 1,ASA TARGU MURES vs AFC ASTRA GIURGIU,3-1 (2-0),Match Odds,AFC ASTRA GIURGIU,3.25,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-24 12:35:40
-2015-10-24 15:30:00,Germany,Bundesliga,SV DARMSTADT 98 vs VFL WOLFSBURG,0-1 (0-0),Match Odds,Draw,3.75,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-24 13:46:40
-2015-10-22 19:00:00,European cups,UEFA Europa League,DNIPRO DNIPROPETROVSK vs AS SAINT ETIENNE,0-1 (0-1),Match Odds,DNIPRO DNIPROPETROVSK,2.12,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-22 10:02:06
-2015-10-22 19:00:00,European cups,UEFA Europa League,LAZIO ROMA vs ROSENBORG BK,3-1 (1-0),Asian handicap,ROSENBORG BK +1.00,2.02,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-22 10:00:09
-2015-10-21 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs MONCHENGLADBACH,0-0 (0-0),Asian handicap,MONCHENGLADBACH +1.00,2.23,,80,98.40,Win,Burke Ziobro,Football,2015-10-21 11:00:07
-2015-10-19 18:00:00,Poland,Ekstraklasa,MKS POGON SZCZECIN vs KGHM ZAGLEBIE LUBIN,0-0 (0-0),Match Odds,Draw,3.27,,80,181.60,Win,Burke Ziobro,Football,2015-10-19 12:16:17
-2015-10-18 20:00:00,Norway,Eliteserien,TROMSO IL vs VIKING FK,3-1 (1-1),Match Odds,VIKING FK,2.75,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-18 11:33:14
-2015-10-18 18:00:00,Norway,Eliteserien,ROSENBORG BK vs BODO/GLIMT,1-1 (0-0),Asian handicap,BODO/GLIMT +0.25,6.00,,80,200.00,Half win,Burke Ziobro,Football,2015-10-18 10:20:25
-2015-10-18 15:00:00,Croatia,1. HNL,NK SLAVEN BELUPO vs HNK HAJDUK SPLIT,0-1 (0-1),Asian handicap,HNK HAJDUK SPLIT -1.25,4.10,,80,-40.00,Half lost,Burke Ziobro,Football,2015-10-18 10:55:04
-2015-10-18 14:30:00,Belgium,Jupiler Pro League,CLUB BRUGGE vs KV OOSTENDE,1-0 (1-0),Asian handicap,KV OOSTENDE +0.50,2.63,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-18 09:46:03
-2015-10-17 16:00:00,England,Premier League,CRYSTAL PALACE vs WEST HAM UTD,1-3 (1-1),Asian handicap,WEST HAM UTD +0,3.28,,80,182.40,Win,Burke Ziobro,Football,2015-10-17 11:02:07
-2015-10-17 15:30:00,Poland,Ekstraklasa,TS PODBESKIDZIE BIELSKO-BIALA vs GKS PIAST GLIWICE,2-2 (1-1),Asian handicap,GKS PIAST GLIWICE -0.75,3.06,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-16 11:01:19
-2015-10-16 18:00:00,Denmark,SAS Ligaen,FC MIDTJYLLAND vs RANDERS FC,2-1 (1-0),Asian handicap,FC MIDTJYLLAND -1.00,2.86,,80,0.00,Void,Burke Ziobro,Football,2015-10-16 10:15:02
-2015-10-13 20:45:00,International,Euro Cup,BULGARIA vs AZERBAIJAN,2-0 (1-0),Match Odds,Draw,3.80,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-13 16:00:06
-2015-10-11 18:00:00,Sweden,Div 1,HUDDINGE IF vs VASTERAS SK,1-0 (1-0),Match Odds,Draw,4.00,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-11 13:05:10
-2015-10-11 17:00:00,Sweden,Div 1,IK BRAGE vs NYKOPING BIS,3-0 (3-0),Match Odds,Draw,3.75,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-11 13:02:20
-2015-10-11 15:30:00,England,League Two,NOTTS COUNTY vs PLYMOUTH ARGYLE,0-2 (0-1),Match Odds,Draw,3.58,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-11 13:00:14
-2015-10-10 20:45:00,International,Euro Cup,BOSNIA & HERZEGOVINA vs WALES,2-0 (0-0),Asian handicap,WALES +0,3.25,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-09 13:30:05
-2015-10-08 20:45:00,International,Euro Cup,ALBANIA vs SERBIA,0-2 (0-0),Match Odds,SERBIA,2.80,,80,144.00,Win,Burke Ziobro,Football,2015-10-08 14:58:04
-2015-10-04 17:00:00,England,Premier League,ARSENAL FC vs MANCHESTER UTD,3-0 (3-0),Asian handicap,MANCHESTER UTD +0,2.86,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-03 09:16:03
-2015-10-03 16:00:00,England,Premier League,NORWICH CITY vs LEICESTER CITY,1-2 (0-1),Match Odds,Draw,3.63,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-03 09:00:07
-2015-10-03 15:30:00,Poland,Ekstraklasa,TERMALICA BRUK-BET NIECIECZA vs GORNIK LECZNA,1-1 (1-1),Asian handicap,TERMALICA BRUK-BET NIECIECZA -0.75,2.52,,80,-80.00,Lost,Burke Ziobro,Football,2015-10-03 09:06:08
-2015-10-02 18:00:00,Poland,Ekstraklasa,RUCH CHORZOW vs MKS POGON SZCZECIN,0-2 (0-2),Match Odds,MKS POGON SZCZECIN,2.78,,80,142.40,Win,Burke Ziobro,Football,2015-10-01 13:31:02
-2015-10-01 21:05:00,European cups,UEFA Europa League,CELTIC FC vs FENERBAHCE,2-2 (2-1),Match Odds,Draw,3.40,,80,192.00,Win,Burke Ziobro,Football,2015-10-01 11:02:20
-2015-10-01 21:05:00,European cups,UEFA Europa League,CLUB BRUGGE vs FC MIDTJYLLAND,1-3 (0-0),Asian handicap,FC MIDTJYLLAND +0,3.27,,80,181.60,Win,Burke Ziobro,Football,2015-10-01 09:02:07
-2015-09-26 15:30:00,Germany,Bundesliga,VFB STUTTGART vs MONCHENGLADBACH,1-3 (1-2),Asian handicap,MONCHENGLADBACH +0,2.53,,80,122.40,Win,Burke Ziobro,Football,2015-09-26 11:17:04
-2015-09-26 13:45:00,England,Premier League,TOTTENHAM HOTSPUR vs MANCHESTER CITY,4-1 (1-1),Match Odds,MANCHESTER CITY,1.90,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-26 11:40:06
-2015-09-25 20:30:00,Poland,Ekstraklasa,WKS SLASK WROCLAW vs GKS PIAST GLIWICE,1-2 (0-1),Asian handicap,GKS PIAST GLIWICE +0,2.54,,80,123.20,Win,Burke Ziobro,Football,2015-09-25 10:00:07
-2015-09-23 21:00:00,France,Ligue 1,TOULOUSE FC vs OLYMPIQUE MARSEILLE,1-1 (0-0),Match Odds,OLYMPIQUE MARSEILLE,2.56,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-23 00:29:02
-2015-09-22 20:45:00,England,Carling Cup,SUNDERLAND AFC vs MANCHESTER CITY,1-4 (0-4),Asian handicap,MANCHESTER CITY -1.75,2.76,,80,140.80,Win,Burke Ziobro,Football,2015-09-22 13:00:07
-2015-09-20 17:30:00,Sweden,Allsvenskan,IFK NORRKOPING vs GIF SUNDSVALL,5-1 (1-0),Asian handicap,GIF SUNDSVALL +0.75,2.89,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-20 11:30:16
-2015-09-20 13:30:00,Germany,2. Bundesliga,FC UNION BERLIN vs GREUTHER FURTH,1-2 (1-0),Asian handicap,FC UNION BERLIN -1.00,4.10,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-20 10:01:05
-2015-09-19 18:30:00,England,Premier League,MANCHESTER CITY vs WEST HAM UTD,1-2 (1-2),Draw no bet,WEST HAM UTD,9.00,,80,640.00,Win,Burke Ziobro,Football,2015-09-18 10:01:08
-2015-09-17 21:05:00,European cups,UEFA Europa League,AS SAINT ETIENNE vs ROSENBORG BK,2-2 (1-1),Asian handicap,ROSENBORG BK +0.25,2.70,,80,68.00,Half win,Burke Ziobro,Football,2015-09-17 13:06:07
-2015-09-15 20:45:00,European cups,UEFA Champions League,VFL WOLFSBURG vs CSKA MOSCOW,1-0 (1-0),Match Odds,Draw,3.90,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-15 18:38:06
-2015-09-14 21:00:00,England,Premier League,WEST HAM UTD vs NEWCASTLE UTD,2-0 (1-0),Match Odds,Draw,3.55,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-14 19:14:02
-2015-09-13 15:30:00,Poland,Ekstraklasa,MKS POGON SZCZECIN vs GKS PIAST GLIWICE,3-1 (1-1),Asian handicap,GKS PIAST GLIWICE -0.25,3.00,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-12 09:33:14
-2015-09-13 14:30:00,Belgium,Jupiler Pro League,STANDARD LIEGE vs SPORTING LOKEREN,0-1 (0-0),Asian handicap,STANDARD LIEGE -1.00,2.58,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-13 11:55:10
-2015-09-12 19:45:00,Netherlands,Eredivisie,FC TWENTE ENSCHEDE vs AJAX AMSTERDAM,2-2 (1-0),Asian handicap,AJAX AMSTERDAM -1.00,2.48,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-12 11:53:13
-2015-09-12 16:00:00,England,Premier League,NORWICH CITY vs BOURNEMOUTH AFC,3-1 (1-0),Asian handicap,BOURNEMOUTH AFC -0.25,2.73,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-12 09:27:10
-2015-09-11 20:30:00,Germany,Bundesliga,MONCHENGLADBACH vs HAMBURGER SV,0-3 (0-2),Match Odds,Draw,4.14,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-11 09:58:12
-2015-09-11 19:00:00,Norway,Eliteserien,STROMSGODSET vs HAUGESUND FK,5-0 (4-0),Asian handicap,HAUGESUND FK +0,5.00,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-11 09:03:05
-2015-09-07 20:45:00,International,Euro Cup,SCOTLAND vs GERMANY,2-3 (2-2),Asian Handicap 1st Half,GERMANY -0.50 Half time,2.04,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-07 12:38:03
-2015-09-06 18:00:00,International,Euro Cup,NORWAY vs CROATIA,2-0 (0-0),Match Odds,Draw,3.40,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-06 09:15:04
-2015-09-06 15:00:00,Sweden,Div 1,NYKOPING BIS vs HUDDINGE IF,2-0 (1-0),Match Odds,Draw,5.50,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-06 09:23:02
-2015-09-05 20:45:00,International,Euro Cup,SPAIN vs SLOVAKIA,2-0 (2-0),Asian handicap,SLOVAKIA +1.00,3.10,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-05 09:29:09
-2015-09-05 16:00:00,Sweden,Div 1,AKROPOLIS IF vs DALKURD FF,0-1 (0-0),Match Odds,Draw,3.60,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-05 09:42:09
-2015-09-05 16:00:00,Iceland,1 deild,VIKINGUR OLAFSVIK vs KA AKUREYRI,0-0 (0-0),Match Odds,VIKINGUR OLAFSVIK,2.37,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-05 09:36:03
-2015-09-04 20:45:00,International,Euro Cup,DENMARK vs ALBANIA,0-0 (0-0),Match Odds,Draw,3.77,,80,221.60,Win,Burke Ziobro,Football,2015-09-04 09:20:06
-2015-09-04 20:45:00,International,Euro Cup,GERMANY vs POLAND,3-1 (2-1),Asian handicap,POLAND +1.00,2.85,,80,-80.00,Lost,Burke Ziobro,Football,2015-09-04 09:14:03
-2015-09-04 17:00:00,International Youth,U21 Euro Qualification,LATVIA vs BELGIUM,0-2 (0-2),Asian handicap,BELGIUM -2.00,3.18,,80,0.00,Void,Burke Ziobro,Football,2015-09-04 09:27:02
-2015-09-03 20:45:00,International,Euro Cup,BULGARIA vs NORWAY,0-1 (0-0),Asian handicap,NORWAY -0.25,2.96,,80,156.80,Win,Burke Ziobro,Football,2015-09-03 09:23:04
-2015-09-03 20:45:00,International,Euro Cup,NETHERLANDS vs ICELAND,0-1 (0-0),Asian handicap,ICELAND +1.00,2.69,,80,135.20,Win,Burke Ziobro,Football,2015-09-03 09:17:03
-2015-08-30 20:00:00,Norway,Eliteserien,TROMSO IL vs ROSENBORG BK,1-1 (1-1),Asian handicap,ROSENBORG BK -2.00,4.25,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-30 09:47:07
-2015-08-30 19:00:00,Russia,Premier League,FC KUBAN KRASNODAR vs CSKA MOSCOW,0-1 (0-0),Asian handicap,CSKA MOSCOW -2.00,6.00,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-30 10:27:02
-2015-08-29 16:00:00,England,Premier League,BOURNEMOUTH AFC vs LEICESTER CITY,1-1 (1-0),Match Odds,Draw,3.65,,100,265.00,Win,Burke Ziobro,Football,2015-08-29 11:09:04
-2015-08-29 15:30:00,Poland,Ekstraklasa,GKS PIAST GLIWICE vs GORNIK LECZNA,3-0 (2-0),Asian handicap,GKS PIAST GLIWICE -1.00,3.03,,100,203.00,Win,Burke Ziobro,Football,2015-08-29 11:01:08
-2015-08-27 20:30:00,European cups,UEFA Europa League,RB SALZBURG vs FC DINAMO MINSK,4-3 (1-0),Match Odds,Draw,5.21,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-27 09:35:07
-2015-08-27 20:30:00,European cups,UEFA Europa League,STANDARD LIEGE vs MOLDE FK,3-1 (1-1),Asian handicap,MOLDE FK +0.25,2.72,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-27 09:18:04
-2015-08-27 20:00:00,European cups,UEFA Europa League,AZ ALKMAAR vs AFC ASTRA GIURGIU,2-0 (0-0),Match Odds,Draw,3.90,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-27 09:10:04
-2015-08-26 20:45:00,European cups,UEFA Champions League,CLUB BRUGGE vs MANCHESTER UTD,0-4 (0-1),Asian handicap,MANCHESTER UTD -1.00,2.67,,80,133.60,Win,Burke Ziobro,Football,2015-08-25 09:35:04
-2015-08-25 20:45:00,European cups,UEFA Champions League,FC SHAKHTAR DONETSK vs SK RAPID VIENNA,2-2 (2-2),Asian handicap,FC SHAKHTAR DONETSK -1.25,2.53,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-25 09:28:07
-2015-08-23 18:00:00,Belgium,Jupiler Pro League,STANDARD LIEGE vs KV OOSTENDE,1-2 (1-1),Asian handicap,KV OOSTENDE +0,3.08,,100,208.00,Win,Burke Ziobro,Football,2015-08-23 11:31:03
-2015-08-23 18:00:00,Norway,Eliteserien,HAUGESUND FK vs BODO/GLIMT,2-4 (1-2),Asian handicap,BODO/GLIMT +0,2.78,,100,178.00,Win,Burke Ziobro,Football,2015-08-23 11:20:12
-2015-08-23 15:30:00,Poland,Ekstraklasa,KKS LECH POZNAN vs GKS PIAST GLIWICE,0-1 (0-1),Asian handicap,GKS PIAST GLIWICE +0.50,2.53,,100,153.00,Win,Burke Ziobro,Football,2015-08-23 11:14:09
-2015-08-22 20:30:00,Belgium,Jupiler Pro League,ROYAL CHARLEROI SC vs KVC WESTERLO,0-0 (0-0),Match Odds,Draw,4.50,,100,350.00,Win,Burke Ziobro,Football,2015-08-22 09:10:05
-2015-08-22 18:00:00,Poland,Ekstraklasa,WKS SLASK WROCLAW vs TS PODBESKIDZIE BIELSKO-BIALA,1-1 (1-0),Match Odds,Draw,3.87,,100,287.00,Win,Burke Ziobro,Football,2015-08-22 09:49:02
-2015-08-21 20:45:00,England,Championship,BIRMINGHAM CITY vs DERBY COUNTY,1-1 (1-0),Match Odds,Draw,3.40,,60,144.00,Win,Burke Ziobro,Football,2015-08-21 10:52:07
-2015-08-20 20:00:00,European cups,UEFA Europa League,STEAUA BUCURESTI vs ROSENBORG BK,0-3 (0-0),Asian handicap,ROSENBORG BK +0,2.61,,80,128.80,Win,Burke Ziobro,Football,2015-08-19 16:37:05
-2015-08-20 19:00:00,European cups,UEFA Europa League,FC SLOVAN LIBEREC vs HNK HAJDUK SPLIT,1-0 (0-0),Draw no bet,HNK HAJDUK SPLIT,3.25,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-20 16:08:05
-2015-08-17 22:00:00,Spain,Supercup,FC BARCELONA vs ATHLETIC BILBAO,1-1 (1-0),Draw no bet,ATHLETIC BILBAO,10.00,,20,0.00,Void,Burke Ziobro,Football,2015-08-17 09:13:03
-2015-08-16 18:00:00,Norway,Eliteserien,TROMSO IL vs SANDEFJORD FOTBALL,1-1 (0-1),Match Odds,Draw,4.21,,100,321.00,Win,Burke Ziobro,Football,2015-08-16 09:30:16
-2015-08-16 17:30:00,Germany,Bundesliga,VFB STUTTGART vs 1 FC COLOGNE,1-3 (0-0),Match Odds,Draw,3.59,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-16 09:48:03
-2015-08-16 14:30:00,England,Premier League,CRYSTAL PALACE vs ARSENAL FC,1-2 (1-1),Match Odds,Draw,4.03,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-16 10:35:04
-2015-08-15 20:30:00,Poland,Ekstraklasa,GKS PIAST GLIWICE vs LEGIA WARSAW,2-1 (1-1),Asian handicap,LEGIA WARSAW -1.00,2.47,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-15 11:05:12
-2015-08-15 19:45:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs WILLEM II TILBURG,3-0 (1-0),Asian handicap,AJAX AMSTERDAM -2.00,2.85,,100,185.00,Win,Burke Ziobro,Football,2015-08-15 11:15:14
-2015-08-15 18:00:00,Norway,Eliteserien,VIKING FK vs BODO/GLIMT,2-1 (0-0),Asian handicap,BODO/GLIMT +0,4.00,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-15 09:06:02
-2015-08-14 20:00:00,Netherlands,Eredivisie,VITESSE ARNHEM vs RODA JC KERKRADE,3-0 (1-0),Asian handicap,RODA JC KERKRADE +0,5.00,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-14 14:27:02
-2015-08-14 18:00:00,Poland,Ekstraklasa,KORONA KIELCE SA vs KS CRACOVIA,0-3 (0-2),Match Odds,Draw,3.32,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-14 10:06:26
-2015-08-13 19:45:00,Switzerland,Axpo Super League,FC VADUZ vs GRASSHOPPER CLUB ZURICH,3-3 (1-2),Asian handicap,GRASSHOPPER CLUB ZURICH -1.00,2.64,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-13 08:32:02
-2015-08-12 19:00:00,Poland,Puchar Polski,ZAGLEBIE SOSNOWIEC SA vs KS GORNIK ZABRZE,3-1 (0-1),Match Odds,ZAGLEBIE SOSNOWIEC SA,2.98,,60,118.80,Win,Burke Ziobro,Football,2015-08-12 16:34:07
-2015-08-11 20:45:00,International Clubs,UEFA Super Cup,FC BARCELONA vs SEVILLA FC,4-4 (3-1),Asian handicap,SEVILLA FC +1.00,2.71,,100,171.00,Win,Burke Ziobro,Football,2015-08-11 09:09:02
-2015-08-11 19:30:00,Sweden,Superettan,GAIS vs IFK VARNAMO,1-3 (0-2),Match Odds,Draw,3.70,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-11 09:32:06
-2015-08-09 20:00:00,Norway,Eliteserien,ODDS BK vs MOLDE FK,2-2 (0-2),Match Odds,Draw,3.60,,100,260.00,Win,Burke Ziobro,Football,2015-08-09 08:07:02
-2015-08-09 14:30:00,Germany,DFB Pokal,CARL ZEISS JENA vs HAMBURGER SV,2-2 (1-0),Asian handicap,HAMBURGER SV -2.00,3.20,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-09 07:59:02
-2015-08-09 14:30:00,England,Premier League,NEWCASTLE UTD vs SOUTHAMPTON FC,2-2 (1-1),Match Odds,SOUTHAMPTON FC,2.70,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-09 07:55:03
-2015-08-08 20:00:00,Switzerland,Axpo Super League,FC LUZERN vs FC BASEL,1-3 (1-2),Asian handicap,FC BASEL -1.00,3.20,,100,220.00,Win,Burke Ziobro,Football,2015-08-08 08:49:02
-2015-08-08 18:00:00,Poland,Ekstraklasa,MKS POGON SZCZECIN vs GORNIK LECZNA,0-0 (0-0),Match Odds,Draw,3.39,,100,239.00,Win,Burke Ziobro,Football,2015-08-08 08:57:02
-2015-08-08 15:30:00,Germany,DFB Pokal,SF LOTTE vs BAYER LEVERKUSEN,0-3 (0-1),Asian handicap,BAYER LEVERKUSEN -3.00,3.00,,100,0.00,Void,Burke Ziobro,Football,2015-08-08 08:38:03
-2015-08-07 20:30:00,Poland,Ekstraklasa,TERMALICA BRUK-BET NIECIECZA vs KGHM ZAGLEBIE LUBIN,1-0 (1-0),Match Odds,Draw,3.35,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-06 13:21:02
-2015-08-06 20:00:00,European cups,UEFA Europa League,VITESSE ARNHEM vs SOUTHAMPTON FC,0-2 (0-1),Match Odds,SOUTHAMPTON FC,2.29,,100,129.00,Win,Burke Ziobro,Football,2015-08-06 11:46:04
-2015-08-06 20:00:00,European cups,UEFA Europa League,AFC ASTRA GIURGIU vs WEST HAM UTD,2-1 (2-1),Match Odds,WEST HAM UTD,2.90,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-06 10:29:02
-2015-08-04 20:15:00,European cups,UEFA Champions League,AJAX AMSTERDAM vs SK RAPID VIENNA,2-3 (0-2),Asian handicap,AJAX AMSTERDAM -1.00,2.53,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-04 10:08:03
-2015-08-03 19:05:00,Sweden,Allsvenskan,GIF SUNDSVALL vs HAMMARBY IF,3-0 (0-0),Match Odds,Draw,3.50,,80,-80.00,Lost,Burke Ziobro,Football,2015-08-03 10:06:02
-2015-08-03 18:30:00,Austria,ADEG Erste Liga,WACKER INNSBRUCK vs LASK LINZ,1-2 (1-1),Asian handicap,WACKER INNSBRUCK +0,2.40,,100,-100.00,Lost,Burke Ziobro,Football,2015-08-03 09:30:05
-2015-07-28 20:30:00,European cups,UEFA Champions League,VIDEOTON FC vs FC BATE BORISOV,1-1 (0-0),Match Odds,FC BATE BORISOV,2.77,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-27 07:59:02
-2015-07-26 15:30:00,Poland,Ekstraklasa,JAGIELLONIA BIALYSTOK vs TERMALICA BRUK-BET NIECIECZA,2-0 (1-0),Asian handicap,JAGIELLONIA BIALYSTOK -1.00,3.12,,100,212.00,Win,Burke Ziobro,Football,2015-07-25 10:38:13
-2015-07-25 15:00:00,Finland,Veikkausliiga,HJK HELSINKI vs FC KTP,2-1 (1-0),Asian handicap,FC KTP +1.00,2.83,,100,0.00,Void,Burke Ziobro,Football,2015-07-25 10:07:02
-2015-07-24 20:30:00,Poland,Ekstraklasa,KS CRACOVIA vs WISLA KRAKOW SA,1-1 (1-1),Match Odds,Draw,3.40,,100,240.00,Win,Burke Ziobro,Football,2015-07-24 15:17:02
-2015-07-24 20:00:00,Denmark,SAS Ligaen,SONDERJYSKE vs FC MIDTJYLLAND,1-2 (0-1),Match Odds,Draw,3.35,,80,-80.00,Lost,Burke Ziobro,Football,2015-07-24 15:34:19
-2015-07-24 18:00:00,Poland,Ekstraklasa,RUCH CHORZOW vs GKS PIAST GLIWICE,2-0 (0-0),Asian handicap,GKS PIAST GLIWICE +0,2.13,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-24 15:22:11
-2015-07-18 18:00:00,Norway,Eliteserien,MOLDE FK vs BODO/GLIMT,1-2 (1-2),Asian handicap,BODO/GLIMT +1.00,3.55,,80,204.00,Win,Burke Ziobro,Football,2015-07-18 09:19:03
-2015-07-17 20:30:00,Poland,Ekstraklasa,KS LECHIA GDANSK vs KS CRACOVIA,0-1 (0-1),Match Odds,Draw,3.58,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-17 10:53:03
-2015-07-17 18:00:00,Poland,Ekstraklasa,WISLA KRAKOW SA vs KS GORNIK ZABRZE,1-1 (1-1),Match Odds,Draw,3.50,,100,250.00,Win,Burke Ziobro,Football,2015-07-17 10:42:03
-2015-07-16 20:30:00,European cups,UEFA Europa League,WKS SLASK WROCLAW vs IFK GOTHENBURG,0-0 (0-0),Match Odds,Draw,3.40,,100,240.00,Win,Burke Ziobro,Football,2015-07-16 19:17:02
-2015-07-16 19:45:00,European cups,UEFA Europa League,FC VADUZ vs NOMME KALJU FC,3-1 (1-0),Asian handicap,NOMME KALJU FC +1.00,2.88,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-16 17:33:02
-2015-07-16 19:00:00,European cups,UEFA Europa League,APOLLON LIMASSOL FC vs TRAKAI FK,4-0 (1-0),Asian handicap,TRAKAI FK +1.00,2.43,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-16 17:25:03
-2015-07-14 21:00:00,European cups,UEFA Champions League,FK SARAJEVO vs KKS LECH POZNAN,0-2 (0-1),Asian handicap,KKS LECH POZNAN -1.00,3.16,,100,216.00,Win,Burke Ziobro,Football,2015-07-13 22:19:02
-2015-07-14 20:30:00,European cups,UEFA Champions League,NK MARIBOR vs FC ASTANA,1-0 (1-0),Asian handicap,NK MARIBOR -0.75,2.08,,100,54.00,Half win,Burke Ziobro,Football,2015-07-13 22:58:03
-2015-07-14 17:30:00,European cups,UEFA Champions League,FK VENTSPILS vs HJK HELSINKI,1-3 (0-0),Match Odds,Draw,3.23,,100,-100.00,Lost,Burke Ziobro,Football,2015-07-13 22:44:02
-2015-07-09 16:00:00,European cups,UEFA Europa League,FC KAIRAT ALMATY vs FK RED STAR BELGRADE,2-1 (1-0),Match Odds,FK RED STAR BELGRADE,2.54,,80,-80.00,Lost,Burke Ziobro,Football,2015-07-08 19:53:07
-2015-07-05 18:00:00,Norway,Eliteserien,ODDS BK vs VALERENGA IF,1-2 (0-1),Match Odds,Draw,4.00,,80,-80.00,Lost,Burke Ziobro,Football,2015-07-05 00:32:12
-2015-07-05 15:30:00,Norway,Eliteserien,STROMSGODSET vs VIKING FK,4-1 (2-1),Match Odds,Draw,3.86,,80,-80.00,Lost,Burke Ziobro,Football,2015-07-05 00:29:02
-2015-07-04 22:00:00,International,"Copa America, Final Round",CHILE vs ARGENTINA,4-1 (0-0),Match Odds,Draw,3.50,,100,250.00,Win,Burke Ziobro,Football,2015-07-03 16:21:02
-2015-07-01 20:00:00,European cups,UEFA Champions League,B36 TORSHAVN vs THE NEW SAINTS FC,1-2 (1-1),Asian handicap,THE NEW SAINTS FC -1.00,3.10,,80,0.00,Void,Burke Ziobro,Football,2015-07-01 12:49:06
-2015-07-01 01:30:00,International,"Copa America, Final Round",ARGENTINA vs PARAGUAY,6-1 (2-1),Match Odds,Draw,4.40,,100,-100.00,Lost,Burke Ziobro,Football,2015-06-29 15:51:02
-2015-06-16 20:45:00,International,International Friendly Games,POLAND vs GREECE,0-0 (0-0),Asian handicap,POLAND -1.50,3.55,,100,-100.00,Lost,Burke Ziobro,Football,2015-06-15 18:25:06
-2015-06-15 01:00:00,International,World Cup Qualification,SAINT LUCIA vs ANTIGUA AND BARBUDA,1-4 (0-0),Asian handicap,SAINT LUCIA +0.50,3.35,,60,-60.00,Lost,Burke Ziobro,Football,2015-06-14 17:52:03
-2015-06-13 20:45:00,International,Euro Cup,FAROE ISLANDS vs GREECE,2-1 (1-0),Asian handicap,FAROE ISLANDS +0,6.10,,100,510.00,Win,Burke Ziobro,Football,2015-06-12 18:56:43
-2015-06-13 18:00:00,International,Euro Cup,POLAND vs GEORGIA,4-0 (0-0),Asian handicap,POLAND -2.00,2.68,,100,168.00,Win,Burke Ziobro,Football,2015-06-13 15:12:05
-2015-06-13 18:00:00,International,Euro Cup,FINLAND vs HUNGARY,0-1 (0-0),Asian handicap,HUNGARY -0.25,2.82,,100,182.00,Win,Burke Ziobro,Football,2015-06-12 18:50:07
-2015-06-12 20:45:00,International,Euro Cup,BOSNIA & HERZEGOVINA vs ISRAEL,3-1 (2-1),Match Odds,Draw,4.33,,100,-100.00,Lost,Burke Ziobro,Football,2015-06-12 18:37:03
-2015-06-10 19:00:00,Sweden,Superettan,DEGERFORS IF vs ATHLETIC UNITED,3-1 (2-1),Match Odds,Draw,3.81,,60,-60.00,Lost,Burke Ziobro,Football,2015-06-07 23:44:04
-2015-06-10 09:30:00,International Youth,U20 World Cup,UKRAINE vs SENEGAL,2-4 (0-0),Asian handicap,UKRAINE -1.00,3.25,,80,-80.00,Lost,Burke Ziobro,Football,2015-06-07 23:35:03
-2015-06-08 18:00:00,International,International Friendly Games,EGYPT vs MALAWI,2-1 (1-0),Match Odds,Draw,4.35,,80,-80.00,Lost,Burke Ziobro,Football,2015-06-07 16:13:04
-2015-06-07 21:00:00,International,International Friendly Games,FRANCE vs BELGIUM,3-4 (0-2),Asian handicap,BELGIUM +0,3.06,,100,206.00,Win,Burke Ziobro,Football,2015-06-07 10:34:04
-2015-06-07 20:00:00,Spain,Liga Adelante,NUMANCIA CD vs TENERIFE CD,3-3 (1-1),Match Odds,Draw,3.74,,80,219.20,Win,Burke Ziobro,Football,2015-06-07 10:39:03
-2015-06-07 14:00:00,Russia,"Premier League, Relegation Promotion",FC URAL YEKATERINBURG vs FC TOM TOMSK,0-0 (0-0),Match Odds,Draw,3.40,,80,192.00,Win,Burke Ziobro,Football,2015-06-06 11:09:03
-2015-06-07 03:00:00,International,Womens WC,NEW ZEALAND vs NETHERLANDS,0-1 (0-1),Over / Under 1st Half,Over +1.00 Half time,1.93,,100,0.00,Void,Burke Ziobro,Football,2015-06-06 10:50:04
-2015-06-06 14:45:00,International,International Friendly Games,MALAYSIA vs HONG KONG,0-0 (0-0),Match Odds,Draw,3.63,,80,210.40,Win,Burke Ziobro,Football,2015-06-06 10:17:03
-2015-06-05 20:30:00,International,International Friendly Games,NETHERLANDS vs USA,3-4 (1-1),Asian handicap,USA +0,5.00,,80,320.00,Win,Burke Ziobro,Football,2015-06-04 17:55:06
-2015-06-05 09:00:00,International Youth,U20 World Cup,MYANMAR vs NEW ZEALAND,1-5 (1-1),Asian handicap,MYANMAR +0.50,3.80,,60,-60.00,Lost,Burke Ziobro,Football,2015-06-04 18:16:03
-2015-06-01 19:05:00,Sweden,Allsvenskan,IFK GOTHENBURG vs DJURGARDENS IF,0-0 (0-0),Match Odds,Draw,3.99,,80,239.20,Win,Burke Ziobro,Football,2015-06-01 07:03:05
-2015-06-01 19:00:00,Norway,Adeccoligaen,SK BRANN vs FOLLO,2-1 (0-0),Match Odds,Draw,4.75,,80,-80.00,Lost,Burke Ziobro,Football,2015-06-01 07:07:03
-2015-05-31 20:45:00,Italy,Serie A,INTER MILAN vs FC EMPOLI,4-3 (0-0),Match Odds,Draw,4.75,,80,-80.00,Lost,Burke Ziobro,Football,2015-05-30 23:45:04
-2015-05-31 15:30:00,Poland,"Ekstraklasa, Championship Round",JAGIELLONIA BIALYSTOK vs KS GORNIK ZABRZE,3-2 (2-1),Asian handicap,JAGIELLONIA BIALYSTOK -1.00,2.68,,100,0.00,Void,Burke Ziobro,Football,2015-05-30 23:32:06
-2015-05-24 20:45:00,Italy,Serie A,AC MILAN vs TURIN FC,3-0 (1-0),Match Odds,Draw,3.46,,100,-100.00,Lost,Burke Ziobro,Football,2015-05-23 17:55:04
-2015-05-24 16:00:00,England,Premier League,ARSENAL FC vs WEST BROMWICH ALBION,4-1 (4-0),Over / Under,Under +3.00,1.86,,100,-100.00,Lost,Burke Ziobro,Football,2015-05-23 17:29:02
-2015-05-23 20:30:00,Poland,"Ekstraklasa, Championship Round",JAGIELLONIA BIALYSTOK vs WISLA KRAKOW SA,2-1 (0-1),Asian handicap,JAGIELLONIA BIALYSTOK +0,1.94,,100,94.00,Win,Burke Ziobro,Football,2015-05-23 11:32:04
-2015-05-23 15:30:00,Poland,"Ekstraklasa, Championship Round",WKS SLASK WROCLAW vs KS GORNIK ZABRZE,1-1 (0-0),Match Odds,Draw,3.92,,100,292.00,Win,Burke Ziobro,Football,2015-05-23 11:25:08
-2015-05-20 20:30:00,Poland,"Ekstraklasa, Championship Round",WISLA KRAKOW SA vs MKS POGON SZCZECIN,2-2 (1-0),Asian handicap,WISLA KRAKOW SA -0.75,1.98,,80,-80.00,Lost,Burke Ziobro,Football,2015-05-20 14:18:08
+   Date     Category    League      Event   Event resulType of bet Selection    Odds     Bookmaker Stake (in u  Profit     Result     Tipster     Sport   Publication
+2016-05-08 Poland     EkstraklasaLEGIA WARSA4-0 (2-0)  Match Odds Draw       4.48                           80-80.00     Lost       Burke ZiobrFootball   2016-05-08 
+2016-05-07 Poland     EkstraklasaGORNIK LECZ0-0 (0-0)  Match Odds Draw       3.40                           80192.00     Win        Burke ZiobrFootball   2016-05-06 
+2016-04-17 Poland     EkstraklasaWISLA KRAKO3-1 (2-1)  Match Odds Draw       3.97                           80-80.00     Lost       Burke ZiobrFootball   2016-04-15 
+2016-04-16 Norway     EliteserienROSENBORG B3-0 (1-0)  Match Odds Draw       5.50                           40-40.00     Lost       Burke ZiobrFootball   2016-04-15 
+2016-04-10 France     Ligue 1    OGC NICE vs3-0 (2-0)  Over / UndeOver +3.00 2.92                           800.00       Void       Burke ZiobrFootball   2016-04-10 
+2016-04-10 England    Premier LeaSUNDERLAND 0-2 (0-0)  Match Odds LEICESTER C2.15                           8092.00      Win        Burke ZiobrFootball   2016-04-10 
+2016-04-10 Italy      Serie A    FC EMPOLI v2-0 (1-0)  Match Odds Draw       3.39                           80-80.00     Lost       Burke ZiobrFootball   2016-04-10 
+2016-04-09 Italy      Serie A    AC MILAN vs1-2 (1-1)  Asian handiJUVENTUS TU3.20                           800.00       Void       Burke ZiobrFootball   2016-04-08 
+2016-04-09 Poland     EkstraklasaKORONA KIEL2-1 (1-1)  Match Odds Draw       3.38                           80-80.00     Lost       Burke ZiobrFootball   2016-04-08 
+2016-04-08 France     Ligue 1    MONTPELLIER0-2 (0-2)  Asian handiOLYMPIQUE L2.98                           80158.40     Win        Burke ZiobrFootball   2016-04-08 
+2016-04-05 European cuUEFA ChampiFC BARCELON2-1 (0-1)  Match Odds Draw       4.21                           80-80.00     Lost       Burke ZiobrFootball   2016-04-05 
+2016-04-02 Spain      Liga BBVA  FC BARCELON1-2 (0-0)  Match Odds Draw       4.77                           80-80.00     Lost       Burke ZiobrFootball   2016-04-01 
+2016-04-01 Poland     EkstraklasaKS GORNIK Z1-1 (1-0)  Match Odds Draw       3.40                           80192.00     Win        Burke ZiobrFootball   2016-04-01 
+2016-03-20 France     Ligue 1    PARIS ST GE0-2 (0-0)  Match Odds Draw       5.20                           40-40.00     Lost       Burke ZiobrFootball   2016-03-18 
+2016-03-20 NetherlandsEredivisie PSV EINDHOV0-2 (0-1)  Asian handiAJAX AMSTER2.78                           80142.40     Win        Burke ZiobrFootball   2016-03-18 
+2016-03-19 England    Premier LeaCHELSEA FC 2-2 (1-1)  Asian handiWEST HAM UN3.35                           800.00       Void       Burke ZiobrFootball   2016-03-18 
+2016-03-16 European cuUEFA ChampiFC BARCELON3-1 (1-0)  Match Odds Draw       7.00                           40-40.00     Lost       Burke ZiobrFootball   2016-03-15 
+2016-03-11 Italy      Serie A    JUVENTUS TU1-0 (1-0)  Draw no betUS SASSUOLO9.00                           40-40.00     Lost       Burke ZiobrFootball   2016-03-11 
+2016-03-06 Poland     EkstraklasaKKS LECH PO2-1 (1-1)  Asian handiKS CRACOVIA2.82                           80-80.00     Lost       Burke ZiobrFootball   2016-03-05 
+2016-03-03 Spain      Liga BBVA  RAYO VALLEC1-5 (0-2)  Asian handiRAYO VALLEC3.00                           80-80.00     Lost       Burke ZiobrFootball   2016-03-03 
+2016-03-02 Spain      Liga BBVA  MALAGA CF v1-2 (1-1)  Asian handiVALENCIA CF2.88                           80150.40     Win        Burke ZiobrFootball   2016-03-02 
+2016-02-14 Poland     EkstraklasaKKS LECH PO5-2 (2-1)  Asian handiTERMALICA B5.00                           40-40.00     Lost       Burke ZiobrFootball   2016-02-14 
+2016-02-14 Italy      Serie A    UDINESE CAL0-1 (0-0)  Match Odds Draw       3.30                           80-80.00     Lost       Burke ZiobrFootball   2016-02-14 
+2016-02-14 England    Premier LeaARSENAL FC 2-1 (0-1)  Draw no betLEICESTER C3.50                           80-80.00     Lost       Burke ZiobrFootball   2016-02-14 
+2016-02-13 Poland     EkstraklasaKS CRACOVIA3-0 (3-0)  Draw no betKS GORNIK Z3.25                           80-80.00     Lost       Burke ZiobrFootball   2016-02-13 
+2016-02-13 Poland     EkstraklasaGORNIK LECZ0-0 (0-0)  Match Odds GKS PIAST G2.55                           80-80.00     Lost       Burke ZiobrFootball   2016-02-13 
+2016-02-11 Italy      Serie A    LAZIO ROMA 5-2 (1-0)  Match Odds Draw       4.70                           80-80.00     Lost       Burke ZiobrFootball   2016-02-11 
+2016-02-10 Spain      Copa del ReVALENCIA CF1-1 (1-0)  Asian handiFC BARCELON3.10                           80-80.00     Lost       Burke ZiobrFootball   2016-02-10 
+2016-02-09 England    League Two OXFORD UNIT2-2 (1-1)  Draw no betMANSFIELD T5.00                           400.00       Void       Burke ZiobrFootball   2016-02-09 
+2016-02-07 France     Ligue 1    OLYMPIQUE M1-2 (1-1)  Asian handiPARIS ST GE2.52                           800.00       Void       Burke ZiobrFootball   2016-02-07 
+2016-02-07 England    Premier LeaBOURNEMOUTH0-2 (0-2)  Asian handiARSENAL FC 2.69                           80135.20     Win        Burke ZiobrFootball   2016-02-07 
+2016-02-06 Austria    tipp3-BundeSK RAPID VI3-0 (0-0)  Asian handiWOLFSBERGER2.46                           80-80.00     Lost       Burke ZiobrFootball   2016-02-06 
+2016-02-06 England    Premier LeaSOUTHAMPTON1-0 (1-0)  Asian handiWEST HAM UN2.66                           80-80.00     Lost       Burke ZiobrFootball   2016-02-05 
+2016-02-06 England    Premier LeaMANCHESTER 1-3 (0-1)  Asian handiLEICESTER C2.48                           80118.40     Win        Burke ZiobrFootball   2016-02-05 
+2016-02-03 France     Ligue 1    EA GUINGAMP4-0 (1-0)  Match Odds Draw       4.12                           80-80.00     Lost       Burke ZiobrFootball   2016-02-03 
+2016-02-03 France     Ligue 1    STADE REIMS2-1 (1-1)  Match Odds SCO ANGERS 3.38                           80-80.00     Lost       Burke ZiobrFootball   2016-02-03 
+2016-02-02 England    Premier LeaMANCHESTER 3-0 (2-0)  Asian handiSTOKE CITY 2.94                           80-80.00     Lost       Burke ZiobrFootball   2016-02-02 
+2016-01-31 Italy      Serie A    SSC NAPOLI 5-1 (2-1)  Asian handiFC EMPOLI +3.10                           80-80.00     Lost       Burke ZiobrFootball   2016-01-31 
+2016-01-31 Spain      Liga BBVA  SEVILLA FC 3-1 (1-0)  Match Odds Draw       5.00                           40-40.00     Lost       Burke ZiobrFootball   2016-01-31 
+2016-01-30 France     Ligue 1    TROYES AC v0-1 (0-1)  Asian handiTROYES AC -2.80                           80-80.00     Lost       Burke ZiobrFootball   2016-01-30 
+2016-01-26 France     Coupe de laLILLE OSC v5-1 (3-1)  Asian handiFC GIRONDIN2.64                           80-80.00     Lost       Burke ZiobrFootball   2016-01-26 
+2016-01-24 Spain      Liga BBVA  ATHLETIC BI5-2 (3-1)  Asian handiSD EIBAR +03.80                           80-80.00     Lost       Burke ZiobrFootball   2016-01-22 
+2016-01-23 France     Ligue 1    LILLE OSC v1-3 (1-0)  Draw no betTROYES AC  6.50                           40220.00     Win        Burke ZiobrFootball   2016-01-22 
+2016-01-23 Germany    Bundesliga MONCHENGLAD1-3 (0-1)  Asian handiMONCHENGLAD3.35                           80-80.00     Lost       Burke ZiobrFootball   2016-01-22 
+2016-01-23 France     Ligue 1    PARIS ST GE5-1 (2-0)  Match Odds Draw       8.03                           40-40.00     Lost       Burke ZiobrFootball   2016-01-22 
+2016-01-20 Italy      Coppa ItaliLAZIO ROMA 0-1 (0-0)  Match Odds JUVENTUS TU2.49                           80119.20     Win        Burke ZiobrFootball   2016-01-20 
+2016-01-20 InternationClub FriendBOLOGNA FC 0-0 (0-0)  Draw no betFC CHIASSO 5.50                           400.00       Void       Burke ZiobrFootball   2016-01-20 
+2016-01-17 Italy      Serie A    BOLOGNA FC 2-2 (2-0)  Asian handiBOLOGNA FC 2.88                           800.00       Void       Burke ZiobrFootball   2016-01-17 
+2016-01-16 Italy      Serie A    SSC NAPOLI 3-1 (2-1)  Asian handiUS SASSUOLO5.00                           40-40.00     Lost       Burke ZiobrFootball   2016-01-15 
+2016-01-16 France     Ligue 1    TROYES AC v2-4 (2-3)  Match Odds Draw       3.40                           80-80.00     Lost       Burke ZiobrFootball   2016-01-15 
+2016-01-16 England    Premier LeaNEWCASTLE U2-1 (2-0)  Asian handiWEST HAM UN5.00                           80-80.00     Lost       Burke ZiobrFootball   2016-01-15 
+2016-01-13 England    Premier LeaTOTTENHAM H0-1 (0-0)  Match Odds Draw       3.96                           80-80.00     Lost       Burke ZiobrFootball   2016-01-13 
+2016-01-13 Spain      Copa del ReCELTA DE VI2-0 (1-0)  Draw no betCADIZ CF   9.00                           40-40.00     Lost       Burke ZiobrFootball   2016-01-13 
+2016-01-13 Greece     Greece Cup AEK ATHENS 2-0 (1-0)  Draw no betLEVADIAKOS 5.50                           80-80.00     Lost       Burke ZiobrFootball   2016-01-12 
+2016-01-12 England    Premier LeaBOURNEMOUTH1-3 (1-0)  Asian handiWEST HAM UN2.75                           80140.00     Win        Burke ZiobrFootball   2016-01-11 
+2016-01-12 England    Premier LeaNEWCASTLE U3-3 (1-2)  Asian handiNEWCASTLE U2.66                           8066.40      Half win   Burke ZiobrFootball   2016-01-11 
+2016-01-10 England    FA Cup     TOTTENHAM H2-2 (1-1)  Asian handiLEICESTER C2.98                           8079.20      Half win   Burke ZiobrFootball   2016-01-10 
+2016-01-10 Italy      Serie A    INTER MILAN0-1 (0-0)  Match Odds Draw       4.06                           80-80.00     Lost       Burke ZiobrFootball   2016-01-09 
+2016-01-09 France     Ligue 1    AS MONACO v2-2 (0-2)  Match Odds Draw       3.92                           80233.60     Win        Burke ZiobrFootball   2016-01-09 
+2016-01-08 InternationClub FriendTALLINNA FC0-3 (0-1)  Match Odds Draw       4.50                           80-80.00     Lost       Burke ZiobrFootball   2016-01-08 
+2016-01-04 Spain      Liga BBVA  SPORTING GI1-2 (1-0)  Match Odds Draw       3.30                           80-80.00     Lost       Burke ZiobrFootball   2016-01-04 
+2016-01-03 France     Coupe de FrCHANTILLY v0-4 (0-0)  Match Odds Draw       9.00                           40-40.00     Lost       Burke ZiobrFootball   2016-01-03 
+2015-12-30 Spain      Liga BBVA  SEVILLA FC 2-0 (2-0)  Match Odds Draw       4.98                           80-80.00     Lost       Burke ZiobrFootball   2015-12-30 
+2015-12-26 England    Premier LeaSOUTHAMPTON4-0 (1-0)  Asian handiARSENAL FC 2.57                           80-80.00     Lost       Burke ZiobrFootball   2015-12-26 
+2015-12-26 England    Premier LeaLIVERPOOL F1-0 (0-0)  Asian handiLEICESTER C3.06                           80-80.00     Lost       Burke ZiobrFootball   2015-12-24 
+2015-12-20 Greece     Super LeaguPANAITOLIKO2-0 (1-0)  Match Odds IRAKLIS 1903.33                           80-80.00     Lost       Burke ZiobrFootball   2015-12-20 
+2015-12-19 England    Premier LeaEVERTON FC 2-3 (1-1)  Asian handiLEICESTER C6.40                           800.00       Void       Burke ZiobrFootball   2015-12-18 
+2015-12-18 Poland     EkstraklasaWISLA KRAKO0-1 (0-1)  Match Odds MKS POGON S3.74                           80219.20     Win        Burke ZiobrFootball   2015-12-16 
+2015-12-18 Poland     EkstraklasaKGHM ZAGLEB2-4 (2-2)  Asian handiKS GORNIK Z3.49                           80199.20     Win        Burke ZiobrFootball   2015-12-16 
+2015-12-15 England    FA Cup     HARTLEPOOL 0-0 (0-0)  Asian handiSALFORD CIT3.80                           800.00       Void       Burke ZiobrFootball   2015-12-15 
+2015-12-13 France     Ligue 1    OLYMPIQUE M1-1 (1-1)  Asian handiGAZELEC AJA6.00                           800.00       Void       Burke ZiobrFootball   2015-12-13 
+2015-12-12 England    Premier LeaBOURNEMOUTH2-1 (1-1)  Match Odds Draw       3.40                           80-80.00     Lost       Burke ZiobrFootball   2015-12-12 
+2015-12-12 Germany    Bundesliga BAYER LEVER5-0 (1-0)  Match Odds MONCHENGLAD3.80                           80-80.00     Lost       Burke ZiobrFootball   2015-12-11 
+2015-12-07 Spain      Liga BBVA  ESPANYOL BA1-1 (0-1)  Match Odds Draw       3.47                           80197.60     Win        Burke ZiobrFootball   2015-12-07 
+2015-12-05 France     Ligue 1    OLYMPIQUE L0-2 (0-1)  Draw no betSCO ANGERS 5.50                           80360.00     Win        Burke ZiobrFootball   2015-12-04 
+2015-12-05 Poland     I Liga     ZAWISZA BYD6-1 (4-1)  Match Odds ZAGLEBIE SO3.10                           80-80.00     Lost       Burke ZiobrFootball   2015-12-04 
+2015-12-05 England    Premier LeaSWANSEA CIT0-3 (0-2)  Asian handiLEICESTER C4.25                           80260.00     Win        Burke ZiobrFootball   2015-12-04 
+2015-12-05 Germany    Bundesliga MONCHENGLAD3-1 (0-0)  Draw no betMONCHENGLAD8.00                           40280.00     Win        Burke ZiobrFootball   2015-12-04 
+2015-12-03 Spain      Copa del ReSD HUESCA v3-2 (1-0)  Asian handiVILLARREAL 2.82                           80-80.00     Lost       Burke ZiobrFootball   2015-12-03 
+2015-12-01 Poland     EkstraklasaKS GORNIK Z5-2 (1-2)  Asian handiGKS PIAST G3.70                           80-80.00     Lost       Burke ZiobrFootball   2015-12-01 
+2015-12-01 Austria    tipp3-BundeRB SALZBURG1-1 (0-1)  Match Odds Draw       9.91                           40356.40     Win        Burke ZiobrFootball   2015-12-01 
+2015-11-28 Italy      Serie A    TURIN FC vs2-0 (0-0)  Match Odds Draw       3.83                           80-80.00     Lost       Burke ZiobrFootball   2015-11-28 
+2015-11-28 Germany    Bundesliga 1899 HOFFEN3-3 (2-1)  Asian handiMONCHENGLAD2.76                           80-80.00     Lost       Burke ZiobrFootball   2015-11-27 
+2015-11-26 European cuUEFA EuropaMOLDE FK vs0-2 (0-0)  Asian handiMOLDE FK +02.85                           80-80.00     Lost       Burke ZiobrFootball   2015-11-25 
+2015-11-25 European cuUEFA ChampiFC ASTANA v2-2 (2-1)  Asian handiFC ASTANA +3.37                           800.00       Void       Burke ZiobrFootball   2015-11-25 
+2015-11-22 Italy      Serie A    GENOA FC vs2-1 (0-0)  Match Odds Draw       3.47                           80-80.00     Lost       Burke ZiobrFootball   2015-11-22 
+2015-11-22 France     Ligue 1    SC BASTIA v1-2 (1-1)  Asian handiGAZELEC AJA2.77                           80141.60     Win        Burke ZiobrFootball   2015-11-21 
+2015-11-21 England    Premier LeaCHELSEA FC 1-0 (0-0)  Match Odds Draw       4.89                           80-80.00     Lost       Burke ZiobrFootball   2015-11-21 
+2015-11-20 Poland     EkstraklasaKS GORNIK Z1-1 (0-1)  Match Odds Draw       3.53                           80202.40     Win        Burke ZiobrFootball   2015-11-20 
+2015-11-20 Poland     EkstraklasaTERMALICA B3-5 (2-3)  Asian handiGKS PIAST G2.97                           80157.60     Win        Burke ZiobrFootball   2015-11-20 
+2015-11-17 InternationWorld Cup QHONG KONG v0-0 (0-0)  Match Odds Draw       5.63                           80370.40     Win        Burke ZiobrFootball   2015-11-17 
+2015-11-14 InternationWorld Cup QARGENTINA v1-1 (1-0)  Asian handiBRAZIL -1.05.50                           80-80.00     Lost       Burke ZiobrFootball   2015-11-10 
+2015-11-13 InternationEuro Cup QuBOSNIA & HE1-1 (0-0)  Asian handiBOSNIA & HE3.07                           80-80.00     Lost       Burke ZiobrFootball   2015-11-12 
+2015-11-12 InternationWorld Cup QECUADOR vs 2-1 (1-0)  Asian handiURUGUAY +0 3.33                           80-80.00     Lost       Burke ZiobrFootball   2015-11-10 
+2015-11-11 InternationInternationJORDAN vs M2-0        Asian handiJORDAN -1.02.65                           80132.00     Win        Burke ZiobrFootball   2015-11-11 
+2015-11-08 England    Premier LeaARSENAL FC 1-1 (0-1)  Asian handiTOTTENHAM H2.89                           8075.60      Half win   Burke ZiobrFootball   2015-11-08 
+2015-11-08 Spain      Liga BBVA  FC BARCELON3-0 (0-0)  Asian handiVILLARREAL 2.52                           80-80.00     Lost       Burke ZiobrFootball   2015-11-08 
+2015-11-08 Italy      Serie A    FC EMPOLI v1-3 (1-2)  Match Odds Draw       3.53                           80-80.00     Lost       Burke ZiobrFootball   2015-11-08 
+2015-11-07 Poland     EkstraklasaJAGIELLONIA0-2 (0-1)  Match Odds GKS PIAST G3.20                           80176.00     Win        Burke ZiobrFootball   2015-11-07 
+2015-11-07 Spain      Liga BBVA  CELTA DE VI1-5 (1-2)  Match Odds Draw       3.90                           80-80.00     Lost       Burke ZiobrFootball   2015-11-07 
+2015-11-06 Poland     I Liga     ARKA GDYNIA3-2 (1-2)  Asian handiMKS DOLCAN 6.10                           80-80.00     Lost       Burke ZiobrFootball   2015-11-05 
+2015-11-05 European cuUEFA EuropaFC RUBIN KA0-1 (0-0)  Match Odds Draw       3.63                           80-80.00     Lost       Burke ZiobrFootball   2015-11-05 
+2015-11-05 European cuUEFA EuropaFC VIKTORIA1-2 (0-1)  Asian handiSK RAPID VI3.03                           80162.40     Win        Burke ZiobrFootball   2015-11-05 
+2015-11-05 European cuUEFA EuropaCELTIC FC v1-2 (1-2)  Asian handiMOLDE FK +03.80                           80224.00     Win        Burke ZiobrFootball   2015-11-05 
+2015-11-03 European cuUEFA ChampiFC SHAKHTAR4-0 (1-0)  Match Odds Draw       5.55                           80-80.00     Lost       Burke ZiobrFootball   2015-11-03 
+2015-11-03 European cuUEFA ChampiMANCHESTER 1-0 (0-0)  Asian handiCSKA MOSCOW4.50                           80-80.00     Lost       Burke ZiobrFootball   2015-11-02 
+2015-11-03 European cuUEFA ChampiFC ASTANA v0-0 (0-0)  Asian handiATLETICO MA3.10                           80-80.00     Lost       Burke ZiobrFootball   2015-11-03 
+2015-11-02 Italy      Serie A    AC CHIEVO V1-1 (1-1)  Asian handiSAMPDORIA G2.89                           800.00       Void       Burke ZiobrFootball   2015-11-02 
+2015-11-01 Norway     EliteserienSANDEFJORD 1-2 (0-2)  Asian HandiSTROMSGODSE2.60                           80128.00     Win        Burke ZiobrFootball   2015-10-31 
+2015-11-01 Belgium    Jupiler ProRSC ANDERLE2-0 (0-0)  Asian handiROYAL MOUSC3.55                           80-80.00     Lost       Burke ZiobrFootball   2015-10-31 
+2015-11-01 Norway     EliteserienMOLDE FK vs4-1 (1-0)  Asian handiVIKING FK +3.80                           80-80.00     Lost       Burke ZiobrFootball   2015-10-31 
+2015-11-01 Italy      Serie A    UDINESE CAL0-0 (0-0)  Asian handiUS SASSUOLO2.87                           80-40.00     Half lost  Burke ZiobrFootball   2015-10-31 
+2015-10-28 Italy      Serie A    US SASSUOLO1-0 (1-0)  Asian handiUS SASSUOLO2.85                           80148.00     Win        Burke ZiobrFootball   2015-10-28 
+2015-10-28 Austria    ÖFB StieglSK RAPID VI5-1 (2-0)  Match Odds Draw       7.75                           40-40.00     Lost       Burke ZiobrFootball   2015-10-28 
+2015-10-25 England    Premier LeaMANCHESTER 0-0 (0-0)  Asian handiMANCHESTER 4.50                           80-80.00     Lost       Burke ZiobrFootball   2015-10-25 
+2015-10-24 France     Ligue 1    GAZELEC AJA3-1 (3-1)  Asian handiOGC NICE -02.47                           80-80.00     Lost       Burke ZiobrFootball   2015-10-24 
+2015-10-24 Romania    Liga 1     ASA TARGU M3-1 (2-0)  Match Odds AFC ASTRA G3.25                           80-80.00     Lost       Burke ZiobrFootball   2015-10-24 
+2015-10-24 Germany    Bundesliga SV DARMSTAD0-1 (0-0)  Match Odds Draw       3.75                           80-80.00     Lost       Burke ZiobrFootball   2015-10-24 
+2015-10-22 European cuUEFA EuropaDNIPRO DNIP0-1 (0-1)  Match Odds DNIPRO DNIP2.12                           80-80.00     Lost       Burke ZiobrFootball   2015-10-22 
+2015-10-22 European cuUEFA EuropaLAZIO ROMA 3-1 (1-0)  Asian handiROSENBORG B2.02                           80-80.00     Lost       Burke ZiobrFootball   2015-10-22 
+2015-10-21 European cuUEFA ChampiJUVENTUS TU0-0 (0-0)  Asian handiMONCHENGLAD2.23                           8098.40      Win        Burke ZiobrFootball   2015-10-21 
+2015-10-19 Poland     EkstraklasaMKS POGON S0-0 (0-0)  Match Odds Draw       3.27                           80181.60     Win        Burke ZiobrFootball   2015-10-19 
+2015-10-18 Norway     EliteserienTROMSO IL v3-1 (1-1)  Match Odds VIKING FK  2.75                           80-80.00     Lost       Burke ZiobrFootball   2015-10-18 
+2015-10-18 Norway     EliteserienROSENBORG B1-1 (0-0)  Asian handiBODO/GLIMT 6.00                           80200.00     Half win   Burke ZiobrFootball   2015-10-18 
+2015-10-18 Croatia    1. HNL     NK SLAVEN B0-1 (0-1)  Asian handiHNK HAJDUK 4.10                           80-40.00     Half lost  Burke ZiobrFootball   2015-10-18 
+2015-10-18 Belgium    Jupiler ProCLUB BRUGGE1-0 (1-0)  Asian handiKV OOSTENDE2.63                           80-80.00     Lost       Burke ZiobrFootball   2015-10-18 
+2015-10-17 England    Premier LeaCRYSTAL PAL1-3 (1-1)  Asian handiWEST HAM UT3.28                           80182.40     Win        Burke ZiobrFootball   2015-10-17 
+2015-10-17 Poland     EkstraklasaTS PODBESKI2-2 (1-1)  Asian handiGKS PIAST G3.06                           80-80.00     Lost       Burke ZiobrFootball   2015-10-16 
+2015-10-16 Denmark    SAS Ligaen FC MIDTJYLL2-1 (1-0)  Asian handiFC MIDTJYLL2.86                           800.00       Void       Burke ZiobrFootball   2015-10-16 
+2015-10-13 InternationEuro Cup   BULGARIA vs2-0 (1-0)  Match Odds Draw       3.80                           80-80.00     Lost       Burke ZiobrFootball   2015-10-13 
+2015-10-11 Sweden     Div 1      HUDDINGE IF1-0 (1-0)  Match Odds Draw       4.00                           80-80.00     Lost       Burke ZiobrFootball   2015-10-11 
+2015-10-11 Sweden     Div 1      IK BRAGE vs3-0 (3-0)  Match Odds Draw       3.75                           80-80.00     Lost       Burke ZiobrFootball   2015-10-11 
+2015-10-11 England    League Two NOTTS COUNT0-2 (0-1)  Match Odds Draw       3.58                           80-80.00     Lost       Burke ZiobrFootball   2015-10-11 
+2015-10-10 InternationEuro Cup   BOSNIA & HE2-0 (0-0)  Asian handiWALES +0   3.25                           80-80.00     Lost       Burke ZiobrFootball   2015-10-09 
+2015-10-08 InternationEuro Cup   ALBANIA vs 0-2 (0-0)  Match Odds SERBIA     2.80                           80144.00     Win        Burke ZiobrFootball   2015-10-08 
+2015-10-04 England    Premier LeaARSENAL FC 3-0 (3-0)  Asian handiMANCHESTER 2.86                           80-80.00     Lost       Burke ZiobrFootball   2015-10-03 
+2015-10-03 England    Premier LeaNORWICH CIT1-2 (0-1)  Match Odds Draw       3.63                           80-80.00     Lost       Burke ZiobrFootball   2015-10-03 
+2015-10-03 Poland     EkstraklasaTERMALICA B1-1 (1-1)  Asian handiTERMALICA B2.52                           80-80.00     Lost       Burke ZiobrFootball   2015-10-03 
+2015-10-02 Poland     EkstraklasaRUCH CHORZO0-2 (0-2)  Match Odds MKS POGON S2.78                           80142.40     Win        Burke ZiobrFootball   2015-10-01 
+2015-10-01 European cuUEFA EuropaCELTIC FC v2-2 (2-1)  Match Odds Draw       3.40                           80192.00     Win        Burke ZiobrFootball   2015-10-01 
+2015-10-01 European cuUEFA EuropaCLUB BRUGGE1-3 (0-0)  Asian handiFC MIDTJYLL3.27                           80181.60     Win        Burke ZiobrFootball   2015-10-01 
+2015-09-26 Germany    Bundesliga VFB STUTTGA1-3 (1-2)  Asian handiMONCHENGLAD2.53                           80122.40     Win        Burke ZiobrFootball   2015-09-26 
+2015-09-26 England    Premier LeaTOTTENHAM H4-1 (1-1)  Match Odds MANCHESTER 1.90                           80-80.00     Lost       Burke ZiobrFootball   2015-09-26 
+2015-09-25 Poland     EkstraklasaWKS SLASK W1-2 (0-1)  Asian handiGKS PIAST G2.54                           80123.20     Win        Burke ZiobrFootball   2015-09-25 
+2015-09-23 France     Ligue 1    TOULOUSE FC1-1 (0-0)  Match Odds OLYMPIQUE M2.56                           80-80.00     Lost       Burke ZiobrFootball   2015-09-23 
+2015-09-22 England    Carling CupSUNDERLAND 1-4 (0-4)  Asian handiMANCHESTER 2.76                           80140.80     Win        Burke ZiobrFootball   2015-09-22 
+2015-09-20 Sweden     AllsvenskanIFK NORRKOP5-1 (1-0)  Asian handiGIF SUNDSVA2.89                           80-80.00     Lost       Burke ZiobrFootball   2015-09-20 
+2015-09-20 Germany    2. BundesliFC UNION BE1-2 (1-0)  Asian handiFC UNION BE4.10                           80-80.00     Lost       Burke ZiobrFootball   2015-09-20 
+2015-09-19 England    Premier LeaMANCHESTER 1-2 (1-2)  Draw no betWEST HAM UT9.00                           80640.00     Win        Burke ZiobrFootball   2015-09-18 
+2015-09-17 European cuUEFA EuropaAS SAINT ET2-2 (1-1)  Asian handiROSENBORG B2.70                           8068.00      Half win   Burke ZiobrFootball   2015-09-17 
+2015-09-15 European cuUEFA ChampiVFL WOLFSBU1-0 (1-0)  Match Odds Draw       3.90                           80-80.00     Lost       Burke ZiobrFootball   2015-09-15 
+2015-09-14 England    Premier LeaWEST HAM UT2-0 (1-0)  Match Odds Draw       3.55                           80-80.00     Lost       Burke ZiobrFootball   2015-09-14 
+2015-09-13 Poland     EkstraklasaMKS POGON S3-1 (1-1)  Asian handiGKS PIAST G3.00                           80-80.00     Lost       Burke ZiobrFootball   2015-09-12 
+2015-09-13 Belgium    Jupiler ProSTANDARD LI0-1 (0-0)  Asian handiSTANDARD LI2.58                           80-80.00     Lost       Burke ZiobrFootball   2015-09-13 
+2015-09-12 NetherlandsEredivisie FC TWENTE E2-2 (1-0)  Asian handiAJAX AMSTER2.48                           80-80.00     Lost       Burke ZiobrFootball   2015-09-12 
+2015-09-12 England    Premier LeaNORWICH CIT3-1 (1-0)  Asian handiBOURNEMOUTH2.73                           80-80.00     Lost       Burke ZiobrFootball   2015-09-12 
+2015-09-11 Germany    Bundesliga MONCHENGLAD0-3 (0-2)  Match Odds Draw       4.14                           80-80.00     Lost       Burke ZiobrFootball   2015-09-11 
+2015-09-11 Norway     EliteserienSTROMSGODSE5-0 (4-0)  Asian handiHAUGESUND F5.00                           80-80.00     Lost       Burke ZiobrFootball   2015-09-11 
+2015-09-07 InternationEuro Cup   SCOTLAND vs2-3 (2-2)  Asian HandiGERMANY -0.2.04                           80-80.00     Lost       Burke ZiobrFootball   2015-09-07 
+2015-09-06 InternationEuro Cup   NORWAY vs C2-0 (0-0)  Match Odds Draw       3.40                           80-80.00     Lost       Burke ZiobrFootball   2015-09-06 
+2015-09-06 Sweden     Div 1      NYKOPING BI2-0 (1-0)  Match Odds Draw       5.50                           80-80.00     Lost       Burke ZiobrFootball   2015-09-06 
+2015-09-05 InternationEuro Cup   SPAIN vs SL2-0 (2-0)  Asian handiSLOVAKIA +13.10                           80-80.00     Lost       Burke ZiobrFootball   2015-09-05 
+2015-09-05 Sweden     Div 1      AKROPOLIS I0-1 (0-0)  Match Odds Draw       3.60                           80-80.00     Lost       Burke ZiobrFootball   2015-09-05 
+2015-09-05 Iceland    1 deild    VIKINGUR OL0-0 (0-0)  Match Odds VIKINGUR OL2.37                           80-80.00     Lost       Burke ZiobrFootball   2015-09-05 
+2015-09-04 InternationEuro Cup   DENMARK vs 0-0 (0-0)  Match Odds Draw       3.77                           80221.60     Win        Burke ZiobrFootball   2015-09-04 
+2015-09-04 InternationEuro Cup   GERMANY vs 3-1 (2-1)  Asian handiPOLAND +1.02.85                           80-80.00     Lost       Burke ZiobrFootball   2015-09-04 
+2015-09-04 InternationU21 Euro QuLATVIA vs B0-2 (0-2)  Asian handiBELGIUM -2.3.18                           800.00       Void       Burke ZiobrFootball   2015-09-04 
+2015-09-03 InternationEuro Cup   BULGARIA vs0-1 (0-0)  Asian handiNORWAY -0.22.96                           80156.80     Win        Burke ZiobrFootball   2015-09-03 
+2015-09-03 InternationEuro Cup   NETHERLANDS0-1 (0-0)  Asian handiICELAND +1.2.69                           80135.20     Win        Burke ZiobrFootball   2015-09-03 
+2015-08-30 Norway     EliteserienTROMSO IL v1-1 (1-1)  Asian handiROSENBORG B4.25                          100-100.00    Lost       Burke ZiobrFootball   2015-08-30 
+2015-08-30 Russia     Premier LeaFC KUBAN KR0-1 (0-0)  Asian handiCSKA MOSCOW6.00                          100-100.00    Lost       Burke ZiobrFootball   2015-08-30 
+2015-08-29 England    Premier LeaBOURNEMOUTH1-1 (1-0)  Match Odds Draw       3.65                          100265.00     Win        Burke ZiobrFootball   2015-08-29 
+2015-08-29 Poland     EkstraklasaGKS PIAST G3-0 (2-0)  Asian handiGKS PIAST G3.03                          100203.00     Win        Burke ZiobrFootball   2015-08-29 
+2015-08-27 European cuUEFA EuropaRB SALZBURG4-3 (1-0)  Match Odds Draw       5.21                           80-80.00     Lost       Burke ZiobrFootball   2015-08-27 
+2015-08-27 European cuUEFA EuropaSTANDARD LI3-1 (1-1)  Asian handiMOLDE FK +02.72                           80-80.00     Lost       Burke ZiobrFootball   2015-08-27 
+2015-08-27 European cuUEFA EuropaAZ ALKMAAR 2-0 (0-0)  Match Odds Draw       3.90                           80-80.00     Lost       Burke ZiobrFootball   2015-08-27 
+2015-08-26 European cuUEFA ChampiCLUB BRUGGE0-4 (0-1)  Asian handiMANCHESTER 2.67                           80133.60     Win        Burke ZiobrFootball   2015-08-25 
+2015-08-25 European cuUEFA ChampiFC SHAKHTAR2-2 (2-2)  Asian handiFC SHAKHTAR2.53                           80-80.00     Lost       Burke ZiobrFootball   2015-08-25 
+2015-08-23 Belgium    Jupiler ProSTANDARD LI1-2 (1-1)  Asian handiKV OOSTENDE3.08                          100208.00     Win        Burke ZiobrFootball   2015-08-23 
+2015-08-23 Norway     EliteserienHAUGESUND F2-4 (1-2)  Asian handiBODO/GLIMT 2.78                          100178.00     Win        Burke ZiobrFootball   2015-08-23 
+2015-08-23 Poland     EkstraklasaKKS LECH PO0-1 (0-1)  Asian handiGKS PIAST G2.53                          100153.00     Win        Burke ZiobrFootball   2015-08-23 
+2015-08-22 Belgium    Jupiler ProROYAL CHARL0-0 (0-0)  Match Odds Draw       4.50                          100350.00     Win        Burke ZiobrFootball   2015-08-22 
+2015-08-22 Poland     EkstraklasaWKS SLASK W1-1 (1-0)  Match Odds Draw       3.87                          100287.00     Win        Burke ZiobrFootball   2015-08-22 
+2015-08-21 England    ChampionshiBIRMINGHAM 1-1 (1-0)  Match Odds Draw       3.40                           60144.00     Win        Burke ZiobrFootball   2015-08-21 
+2015-08-20 European cuUEFA EuropaSTEAUA BUCU0-3 (0-0)  Asian handiROSENBORG B2.61                           80128.80     Win        Burke ZiobrFootball   2015-08-19 
+2015-08-20 European cuUEFA EuropaFC SLOVAN L1-0 (0-0)  Draw no betHNK HAJDUK 3.25                           80-80.00     Lost       Burke ZiobrFootball   2015-08-20 
+2015-08-17 Spain      Supercup   FC BARCELON1-1 (1-0)  Draw no betATHLETIC BI10.00                          200.00       Void       Burke ZiobrFootball   2015-08-17 
+2015-08-16 Norway     EliteserienTROMSO IL v1-1 (0-1)  Match Odds Draw       4.21                          100321.00     Win        Burke ZiobrFootball   2015-08-16 
+2015-08-16 Germany    Bundesliga VFB STUTTGA1-3 (0-0)  Match Odds Draw       3.59                          100-100.00    Lost       Burke ZiobrFootball   2015-08-16 
+2015-08-16 England    Premier LeaCRYSTAL PAL1-2 (1-1)  Match Odds Draw       4.03                           80-80.00     Lost       Burke ZiobrFootball   2015-08-16 
+2015-08-15 Poland     EkstraklasaGKS PIAST G2-1 (1-1)  Asian handiLEGIA WARSA2.47                          100-100.00    Lost       Burke ZiobrFootball   2015-08-15 
+2015-08-15 NetherlandsEredivisie AJAX AMSTER3-0 (1-0)  Asian handiAJAX AMSTER2.85                          100185.00     Win        Burke ZiobrFootball   2015-08-15 
+2015-08-15 Norway     EliteserienVIKING FK v2-1 (0-0)  Asian handiBODO/GLIMT 4.00                          100-100.00    Lost       Burke ZiobrFootball   2015-08-15 
+2015-08-14 NetherlandsEredivisie VITESSE ARN3-0 (1-0)  Asian handiRODA JC KER5.00                           80-80.00     Lost       Burke ZiobrFootball   2015-08-14 
+2015-08-14 Poland     EkstraklasaKORONA KIEL0-3 (0-2)  Match Odds Draw       3.32                          100-100.00    Lost       Burke ZiobrFootball   2015-08-14 
+2015-08-13 SwitzerlandAxpo Super FC VADUZ vs3-3 (1-2)  Asian handiGRASSHOPPER2.64                          100-100.00    Lost       Burke ZiobrFootball   2015-08-13 
+2015-08-12 Poland     Puchar PolsZAGLEBIE SO3-1 (0-1)  Match Odds ZAGLEBIE SO2.98                           60118.80     Win        Burke ZiobrFootball   2015-08-12 
+2015-08-11 InternationUEFA Super FC BARCELON4-4 (3-1)  Asian handiSEVILLA FC 2.71                          100171.00     Win        Burke ZiobrFootball   2015-08-11 
+2015-08-11 Sweden     Superettan GAIS vs IFK1-3 (0-2)  Match Odds Draw       3.70                           80-80.00     Lost       Burke ZiobrFootball   2015-08-11 
+2015-08-09 Norway     EliteserienODDS BK vs 2-2 (0-2)  Match Odds Draw       3.60                          100260.00     Win        Burke ZiobrFootball   2015-08-09 
+2015-08-09 Germany    DFB Pokal  CARL ZEISS 2-2 (1-0)  Asian handiHAMBURGER S3.20                          100-100.00    Lost       Burke ZiobrFootball   2015-08-09 
+2015-08-09 England    Premier LeaNEWCASTLE U2-2 (1-1)  Match Odds SOUTHAMPTON2.70                          100-100.00    Lost       Burke ZiobrFootball   2015-08-09 
+2015-08-08 SwitzerlandAxpo Super FC LUZERN v1-3 (1-2)  Asian handiFC BASEL -13.20                          100220.00     Win        Burke ZiobrFootball   2015-08-08 
+2015-08-08 Poland     EkstraklasaMKS POGON S0-0 (0-0)  Match Odds Draw       3.39                          100239.00     Win        Burke ZiobrFootball   2015-08-08 
+2015-08-08 Germany    DFB Pokal  SF LOTTE vs0-3 (0-1)  Asian handiBAYER LEVER3.00                          1000.00       Void       Burke ZiobrFootball   2015-08-08 
+2015-08-07 Poland     EkstraklasaTERMALICA B1-0 (1-0)  Match Odds Draw       3.35                          100-100.00    Lost       Burke ZiobrFootball   2015-08-06 
+2015-08-06 European cuUEFA EuropaVITESSE ARN0-2 (0-1)  Match Odds SOUTHAMPTON2.29                          100129.00     Win        Burke ZiobrFootball   2015-08-06 
+2015-08-06 European cuUEFA EuropaAFC ASTRA G2-1 (2-1)  Match Odds WEST HAM UT2.90                          100-100.00    Lost       Burke ZiobrFootball   2015-08-06 
+2015-08-04 European cuUEFA ChampiAJAX AMSTER2-3 (0-2)  Asian handiAJAX AMSTER2.53                          100-100.00    Lost       Burke ZiobrFootball   2015-08-04 
+2015-08-03 Sweden     AllsvenskanGIF SUNDSVA3-0 (0-0)  Match Odds Draw       3.50                           80-80.00     Lost       Burke ZiobrFootball   2015-08-03 
+2015-08-03 Austria    ADEG Erste WACKER INNS1-2 (1-1)  Asian handiWACKER INNS2.40                          100-100.00    Lost       Burke ZiobrFootball   2015-08-03 
+2015-07-28 European cuUEFA ChampiVIDEOTON FC1-1 (0-0)  Match Odds FC BATE BOR2.77                          100-100.00    Lost       Burke ZiobrFootball   2015-07-27 
+2015-07-26 Poland     EkstraklasaJAGIELLONIA2-0 (1-0)  Asian handiJAGIELLONIA3.12                          100212.00     Win        Burke ZiobrFootball   2015-07-25 
+2015-07-25 Finland    VeikkausliiHJK HELSINK2-1 (1-0)  Asian handiFC KTP +1.02.83                          1000.00       Void       Burke ZiobrFootball   2015-07-25 
+2015-07-24 Poland     EkstraklasaKS CRACOVIA1-1 (1-1)  Match Odds Draw       3.40                          100240.00     Win        Burke ZiobrFootball   2015-07-24 
+2015-07-24 Denmark    SAS Ligaen SONDERJYSKE1-2 (0-1)  Match Odds Draw       3.35                           80-80.00     Lost       Burke ZiobrFootball   2015-07-24 
+2015-07-24 Poland     EkstraklasaRUCH CHORZO2-0 (0-0)  Asian handiGKS PIAST G2.13                          100-100.00    Lost       Burke ZiobrFootball   2015-07-24 
+2015-07-18 Norway     EliteserienMOLDE FK vs1-2 (1-2)  Asian handiBODO/GLIMT 3.55                           80204.00     Win        Burke ZiobrFootball   2015-07-18 
+2015-07-17 Poland     EkstraklasaKS LECHIA G0-1 (0-1)  Match Odds Draw       3.58                          100-100.00    Lost       Burke ZiobrFootball   2015-07-17 
+2015-07-17 Poland     EkstraklasaWISLA KRAKO1-1 (1-1)  Match Odds Draw       3.50                          100250.00     Win        Burke ZiobrFootball   2015-07-17 
+2015-07-16 European cuUEFA EuropaWKS SLASK W0-0 (0-0)  Match Odds Draw       3.40                          100240.00     Win        Burke ZiobrFootball   2015-07-16 
+2015-07-16 European cuUEFA EuropaFC VADUZ vs3-1 (1-0)  Asian handiNOMME KALJU2.88                          100-100.00    Lost       Burke ZiobrFootball   2015-07-16 
+2015-07-16 European cuUEFA EuropaAPOLLON LIM4-0 (1-0)  Asian handiTRAKAI FK +2.43                          100-100.00    Lost       Burke ZiobrFootball   2015-07-16 
+2015-07-14 European cuUEFA ChampiFK SARAJEVO0-2 (0-1)  Asian handiKKS LECH PO3.16                          100216.00     Win        Burke ZiobrFootball   2015-07-13 
+2015-07-14 European cuUEFA ChampiNK MARIBOR 1-0 (1-0)  Asian handiNK MARIBOR 2.08                          10054.00      Half win   Burke ZiobrFootball   2015-07-13 
+2015-07-14 European cuUEFA ChampiFK VENTSPIL1-3 (0-0)  Match Odds Draw       3.23                          100-100.00    Lost       Burke ZiobrFootball   2015-07-13 
+2015-07-09 European cuUEFA EuropaFC KAIRAT A2-1 (1-0)  Match Odds FK RED STAR2.54                           80-80.00     Lost       Burke ZiobrFootball   2015-07-08 
+2015-07-05 Norway     EliteserienODDS BK vs 1-2 (0-1)  Match Odds Draw       4.00                           80-80.00     Lost       Burke ZiobrFootball   2015-07-05 
+2015-07-05 Norway     EliteserienSTROMSGODSE4-1 (2-1)  Match Odds Draw       3.86                           80-80.00     Lost       Burke ZiobrFootball   2015-07-05 
+2015-07-04 InternationCopa AmericCHILE vs AR4-1 (0-0)  Match Odds Draw       3.50                          100250.00     Win        Burke ZiobrFootball   2015-07-03 
+2015-07-01 European cuUEFA ChampiB36 TORSHAV1-2 (1-1)  Asian handiTHE NEW SAI3.10                           800.00       Void       Burke ZiobrFootball   2015-07-01 
+2015-07-01 InternationCopa AmericARGENTINA v6-1 (2-1)  Match Odds Draw       4.40                          100-100.00    Lost       Burke ZiobrFootball   2015-06-29 
+2015-06-16 InternationInternationPOLAND vs G0-0 (0-0)  Asian handiPOLAND -1.53.55                          100-100.00    Lost       Burke ZiobrFootball   2015-06-15 
+2015-06-15 InternationWorld Cup QSAINT LUCIA1-4 (0-0)  Asian handiSAINT LUCIA3.35                           60-60.00     Lost       Burke ZiobrFootball   2015-06-14 
+2015-06-13 InternationEuro Cup   FAROE ISLAN2-1 (1-0)  Asian handiFAROE ISLAN6.10                          100510.00     Win        Burke ZiobrFootball   2015-06-12 
+2015-06-13 InternationEuro Cup   POLAND vs G4-0 (0-0)  Asian handiPOLAND -2.02.68                          100168.00     Win        Burke ZiobrFootball   2015-06-13 
+2015-06-13 InternationEuro Cup   FINLAND vs 0-1 (0-0)  Asian handiHUNGARY -0.2.82                          100182.00     Win        Burke ZiobrFootball   2015-06-12 
+2015-06-12 InternationEuro Cup   BOSNIA & HE3-1 (2-1)  Match Odds Draw       4.33                          100-100.00    Lost       Burke ZiobrFootball   2015-06-12 
+2015-06-10 Sweden     Superettan DEGERFORS I3-1 (2-1)  Match Odds Draw       3.81                           60-60.00     Lost       Burke ZiobrFootball   2015-06-07 
+2015-06-10 InternationU20 World CUKRAINE vs 2-4 (0-0)  Asian handiUKRAINE -1.3.25                           80-80.00     Lost       Burke ZiobrFootball   2015-06-07 
+2015-06-08 InternationInternationEGYPT vs MA2-1 (1-0)  Match Odds Draw       4.35                           80-80.00     Lost       Burke ZiobrFootball   2015-06-07 
+2015-06-07 InternationInternationFRANCE vs B3-4 (0-2)  Asian handiBELGIUM +0 3.06                          100206.00     Win        Burke ZiobrFootball   2015-06-07 
+2015-06-07 Spain      Liga AdelanNUMANCIA CD3-3 (1-1)  Match Odds Draw       3.74                           80219.20     Win        Burke ZiobrFootball   2015-06-07 
+2015-06-07 Russia     Premier LeaFC URAL YEK0-0 (0-0)  Match Odds Draw       3.40                           80192.00     Win        Burke ZiobrFootball   2015-06-06 
+2015-06-07 InternationWomens WC  NEW ZEALAND0-1 (0-1)  Over / UndeOver +1.00 1.93                          1000.00       Void       Burke ZiobrFootball   2015-06-06 
+2015-06-06 InternationInternationMALAYSIA vs0-0 (0-0)  Match Odds Draw       3.63                           80210.40     Win        Burke ZiobrFootball   2015-06-06 
+2015-06-05 InternationInternationNETHERLANDS3-4 (1-1)  Asian handiUSA +0     5.00                           80320.00     Win        Burke ZiobrFootball   2015-06-04 
+2015-06-05 InternationU20 World CMYANMAR vs 1-5 (1-1)  Asian handiMYANMAR +0.3.80                           60-60.00     Lost       Burke ZiobrFootball   2015-06-04 
+2015-06-01 Sweden     AllsvenskanIFK GOTHENB0-0 (0-0)  Match Odds Draw       3.99                           80239.20     Win        Burke ZiobrFootball   2015-06-01 
+2015-06-01 Norway     AdeccoligaeSK BRANN vs2-1 (0-0)  Match Odds Draw       4.75                           80-80.00     Lost       Burke ZiobrFootball   2015-06-01 
+2015-05-31 Italy      Serie A    INTER MILAN4-3 (0-0)  Match Odds Draw       4.75                           80-80.00     Lost       Burke ZiobrFootball   2015-05-30 
+2015-05-31 Poland     EkstraklasaJAGIELLONIA3-2 (2-1)  Asian handiJAGIELLONIA2.68                          1000.00       Void       Burke ZiobrFootball   2015-05-30 
+2015-05-24 Italy      Serie A    AC MILAN vs3-0 (1-0)  Match Odds Draw       3.46                          100-100.00    Lost       Burke ZiobrFootball   2015-05-23 
+2015-05-24 England    Premier LeaARSENAL FC 4-1 (4-0)  Over / UndeUnder +3.001.86                          100-100.00    Lost       Burke ZiobrFootball   2015-05-23 
+2015-05-23 Poland     EkstraklasaJAGIELLONIA2-1 (0-1)  Asian handiJAGIELLONIA1.94                          10094.00      Win        Burke ZiobrFootball   2015-05-23 
+2015-05-23 Poland     EkstraklasaWKS SLASK W1-1 (0-0)  Match Odds Draw       3.92                          100292.00     Win        Burke ZiobrFootball   2015-05-23 
+2015-05-20 Poland     EkstraklasaWISLA KRAKO2-2 (1-0)  Asian handiWISLA KRAKO1.98                           80-80.00     Lost       Burke ZiobrFootball   2015-05-20 
