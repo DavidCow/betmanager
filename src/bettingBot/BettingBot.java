@@ -1500,7 +1500,7 @@ public class BettingBot {
 						Bet newBet = Bet.fromJson(betString);
 						if(newBet.getBetStatus() != 1){
 							bet.setBetStatus(newBet.getBetStatus());
-							dataBase.updateBet(bet.getId(), newBet.getBetStatus());
+							dataBase.updateBetBlogaBet(bet.getId(), newBet.getBetStatus());
 							mainFrame.addEvent("Bet Status changed: " + bet);
 						}
 						else{
