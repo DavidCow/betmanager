@@ -15,15 +15,17 @@ import betadvisor.BetAdvisorParser;
 
 public class StatsCalculation {
 
-	private static final int numberOfClusters = 50;
 	
 	public static void calculateYields(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{
-		double[] res = new double[numberOfClusters];
-		double[] totalTake = new double[numberOfClusters];
-		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Model
 		ClusterPredictionKmeans prediction = new ClusterPredictionKmeans("Yield.arff", "yieldCluster.model");
+		
+		//initialize result arrays
+		int numberOfClusters = prediction.getNumberOfClusters();
+		double[] res = new double[numberOfClusters];
+		double[] totalTake = new double[numberOfClusters];
+		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Liquidity Model
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
@@ -77,13 +79,15 @@ public class StatsCalculation {
 		oddsRatio -= 0.01;	
 	}
 	
-	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{	
+	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{			
+		// Model
+		ClusterPrediction prediction = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		
+		//initialize result arrays
+		int numberOfClusters = prediction.getNumberOfClusters();
 		double[] res = new double[numberOfClusters];
 		double[] totalTake = new double[numberOfClusters];
 		int[] numberOfBets = new int[numberOfClusters];
-		
-		// Model
-		ClusterPrediction prediction = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
 		
 		
 		// Liquidity Model
@@ -136,12 +140,131 @@ public class StatsCalculation {
 		return map;	
 	}
 	
-	public static void calculateWinPercent() throws Exception{
-		double[] wins = new double[numberOfClusters];
-		int[] numberOfBets = new int[numberOfClusters];
+	public static Map<String, Map<Integer, Double>> calculateYieldsNoTipsterSeparatedTypes(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{			
+		// Model
+		ClusterPrediction prediction1X2 = new ClusterPrediction("yield_1X2_EM.arff", "yield_1X2_EM.model");
+		ClusterPrediction predictionAH = new ClusterPrediction("yield_AH_EM.arff", "yield_AH_EM.model");
+		ClusterPrediction predictionOU = new ClusterPrediction("yield_OU_EM.arff", "yield_OU_EM.model");
 		
+		//initialize result arrays
+		int numberOfClusters1X2 = prediction1X2.getNumberOfClusters();
+		double[] res1X2 = new double[numberOfClusters1X2];
+		double[] totalTake1X2 = new double[numberOfClusters1X2];
+		int[] numberOfBets1X2 = new int[numberOfClusters1X2];
+		
+		int numberOfClustersAH = predictionAH.getNumberOfClusters();
+		double[] resAH = new double[numberOfClustersAH];
+		double[] totalTakeAH = new double[numberOfClustersAH];
+		int[] numberOfBetsAH = new int[numberOfClustersAH];
+		
+		int numberOfClustersOU = predictionOU.getNumberOfClusters();
+		double[] resOU = new double[numberOfClustersOU];
+		double[] totalTakeOU = new double[numberOfClustersOU];
+		int[] numberOfBetsOU = new int[numberOfClustersOU];
+		
+		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		// Create each record
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			try{
+				BetAdvisorElement element = betAdvisorList.get(i);
+				String tipster = element.getTipster();
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				double odds = element.getOdds();
+				
+				Instance record2 = liquidityModel.createWekaInstance(element);
+				if(record2 == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record2);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}				
+		
+				if(typeOfBet.equalsIgnoreCase("ASIAN HANDICAP")){
+					Instance record = predictionAH.createWekaInstance(odds, liquidity);
+					int cluster = predictionAH.predictCluster(record);
+					numberOfBetsAH[cluster]++;
+					double p = -1;
+					if(element.getProfit() == 0)
+						p = 0;
+					if(element.getProfit() > 0)
+						p = element.getOdds() * oddsRatio - 1;
+					resAH[cluster] += p;
+					totalTakeAH[cluster]++;
+				}
+				else if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+					Instance record = prediction1X2.createWekaInstance(odds, liquidity);
+					int cluster = prediction1X2.predictCluster(record);
+					numberOfBets1X2[cluster]++;
+					double p = -1;
+					if(element.getProfit() == 0)
+						p = 0;
+					if(element.getProfit() > 0)
+						p = element.getOdds() * oddsRatio - 1;
+					res1X2[cluster] += p;
+					totalTake1X2[cluster]++;
+				}
+				else if(typeOfBet.equalsIgnoreCase("OVER / UNDER")){
+					Instance record = predictionOU.createWekaInstance(odds, liquidity);
+					int cluster = predictionOU.predictCluster(record);
+					numberOfBetsOU[cluster]++;
+					double p = -1;
+					if(element.getProfit() == 0)
+						p = 0;
+					if(element.getProfit() > 0)
+						p = element.getOdds() * oddsRatio - 1;
+					resOU[cluster] += p;
+					totalTakeOU[cluster]++;
+				}
+//				System.out.println(cluster);
+			} catch(Exception e){
+				
+			}
+		}		
+		
+		for(int i = 0; i < numberOfClusters1X2; i++){
+			res1X2[i] /= totalTake1X2[i];
+		}	
+		for(int i = 0; i < numberOfClustersAH; i++){
+			resAH[i] /= totalTakeAH[i];
+		}	
+		for(int i = 0; i < numberOfClustersOU; i++){
+			resOU[i] /= totalTakeOU[i];
+		}	
+		
+		Map<Integer, Double> map1X2 = new HashMap<Integer, Double>();
+		for(int i = 0; i < numberOfClusters1X2; i++){
+			map1X2.put(i, res1X2[i]);
+		}
+		Map<Integer, Double> mapAH = new HashMap<Integer, Double>();
+		for(int i = 0; i < numberOfClustersAH; i++){
+			mapAH.put(i, resAH[i]);
+		}
+		Map<Integer, Double> mapOU = new HashMap<Integer, Double>();
+		for(int i = 0; i < numberOfClustersOU; i++){
+			mapOU.put(i, resOU[i]);
+		}
+
+		Map<String, Map<Integer, Double>> map = new HashMap<String, Map<Integer,Double>>();
+		map.put("MATCH ODDS", map1X2);
+		map.put("ASIAN HANDICAP", mapAH);
+		map.put("OVER / UNDER", mapOU);
+		return map;	
+	}
+	
+	public static void calculateWinPercent() throws Exception{		
 		// Model
 		ClusterPredictionKmeans prediction = new ClusterPredictionKmeans("Yield.arff", "yieldCluster.model");
+		
+		int numberOfClusters = prediction.getNumberOfClusters();
+		double[] wins = new double[numberOfClusters];
+		int[] numberOfBets = new int[numberOfClusters];
 		
 		// Liquidity Model
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
