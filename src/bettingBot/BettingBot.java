@@ -935,9 +935,17 @@ public class BettingBot {
 					continue;
 				if(tip.odds > 15)
 					continue;
+				if(tip.tipster.equalsIgnoreCase("BrandonPark") && tip.stake < 1)
+					continue;
+				
+				double stakeForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.blogaBetPercent(tip.stake));
+				if(tip.tipster.equalsIgnoreCase("onlydraw1")){
+					stakeForTip = Math.min(MAX_STAKE, 100);
+				}
 				
 				boolean secondBetForTip = false;
-				double betAmountForTip = 0;
+				double alreadyBetAmountForTip = 0;
+				
 				/* Check if we have a new tip  or if we have not bet as much as we wanted yet*/
 				if(dataBase.isTipInDatabase(tip)){
 					continue;
@@ -1097,11 +1105,11 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && bestOdd > tip.odds * 0.95){
 									if(bestMinStake <= MAX_STAKE * 1.5){
-										if(betAmountForTip > 0){
-											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										if(alreadyBetAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
-										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.blogaBetPercent(tip.stake)) - betAmountForTip;
-										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
+										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
@@ -1220,11 +1228,11 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && (bestOdd + 1) > tip.odds * 0.95){
 									if(bestMinStake <= MAX_STAKE * 1.5){
-										if(betAmountForTip > 0){
-											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										if(alreadyBetAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
-										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.blogaBetPercent(tip.stake)) - betAmountForTip;
-										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
+										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
@@ -1388,11 +1396,11 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && (bestOdd + 1) > tip.odds * 0.95){
 									if(bestMinStake <= MAX_STAKE * 1.5){
-										if(betAmountForTip > 0){
-											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
+										if(alreadyBetAmountForTip > 0){
+											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
-										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.blogaBetPercent(tip.stake)) - betAmountForTip;
-										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
+										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
+										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
