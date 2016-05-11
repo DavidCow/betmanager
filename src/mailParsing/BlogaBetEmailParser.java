@@ -63,7 +63,7 @@ public class BlogaBetEmailParser {
 			else
 				tip.pivotType = "Asian handicap";
 			
-			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*@.*)", "$2").trim());
+			tip.pivotValue = Double.parseDouble(lines[5].replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*\\(.*)(.*@.*)", "$2").trim());
 			
 			if(lines[5].contains("Home") || lines[5].contains("HOME") || lines[5].contains("home"))
 				tip.selection = "HOME";
@@ -253,8 +253,8 @@ public class BlogaBetEmailParser {
 	
 
 	public static void main(String[] args) {
-//		String a = "10/10 LIVE Bet365  -1.00  4:0 (2:0)";
-//		System.out.println(a.replaceAll("(\\d+/)(\\d+)", "$1"));
+		String a = "Full Event Away +0.50 (AH) (0 - 0) @ 1.87";
+		System.out.println(a.replaceAll("(.*\\s\\D?)(\\d+\\.?\\d*\\s)(.*\\(.*)(.*@.*)", "$2").trim());
 //		try {
 //			String data = (String) Toolkit.getDefaultToolkit()
 //					.getSystemClipboard().getData(DataFlavor.stringFlavor);
