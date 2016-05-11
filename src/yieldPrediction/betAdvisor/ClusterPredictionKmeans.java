@@ -30,6 +30,10 @@ public class ClusterPredictionKmeans {
 		}		
 	}
 	
+	public int getNumberOfClusters() throws Exception{
+		return model.numberOfClusters();
+	}
+	
 	public Instance createWekaInstance(String tipster, String typeOfBet, double odds, double liquidity, double take){
 		Instance instance = new Instance(attribute_structure.numAttributes());
 		instance.setValue(attribute_structure.attribute(0), tipster);
