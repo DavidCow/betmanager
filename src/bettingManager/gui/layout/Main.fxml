@@ -1,194 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="360.0" minWidth="600.0" prefHeight="798.0"
-	prefWidth="1087.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="bettingManager.gui.MainController">
-	<children>
-		<VBox prefHeight="200.0" prefWidth="100.0"
-			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-			<children>
-				<VBox prefHeight="254.0" prefWidth="1057.0">
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.MainController">
+   <top>
+				<VBox prefHeight="234.0" prefWidth="1087.0" BorderPane.alignment="CENTER">
 					<children>
-						<Label text="REPORTS">
-							<font>
-								<Font name="System Bold" size="36.0" />
-							</font>
-						</Label>
-						<Separator prefWidth="200.0">
-							<VBox.margin>
-								<Insets bottom="5.0" top="5.0" />
-							</VBox.margin>
-						</Separator>
-						<HBox minHeight="124.0" minWidth="1057.0" prefHeight="124.0"
-							prefWidth="1057.0">
-							<children>
-
-								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
-								<fx:include fx:id="checkbox1Controller" source="Checkbox1.fxml" />
-								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
-
-								<Separator orientation="VERTICAL" prefHeight="200.0">
-									<HBox.margin>
-										<Insets left="5.0" right="5.0" />
-									</HBox.margin>
-								</Separator>
-
-								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
-								<fx:include fx:id="optionsController" source="Options.fxml" />
-								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
-
-								<Separator orientation="VERTICAL" prefHeight="200.0" />
-								
-								<!-- INCLUDE SITE -->
-								<fx:include fx:id="siteController" source="Site.fxml" />
-								<!-- INCLUDE SITE -->
-								
-								<Separator orientation="VERTICAL" prefHeight="200.0" />
-								
-								<!-- INCLUDE AVERAGE ODDS -->
-								<fx:include fx:id="averageOddsController" source="AverageOdds.fxml" />
-								<!-- INCLUDE AVERAGE ODDS -->
-								
-								<Separator orientation="VERTICAL" prefHeight="200.0">
-									<HBox.margin>
-										<Insets left="5.0" right="5.0" />
-									</HBox.margin>
-								</Separator>
-								
-								<!-- INCLUDE KoB -->
-								<fx:include fx:id="KoBController" source="KoB.fxml" />
-								<!-- INCLUDE KoB-->
-								
-								<Separator orientation="VERTICAL" prefHeight="200.0">
-									<HBox.margin>
-										<Insets left="5.0" right="5.0" />
-									</HBox.margin>
-								</Separator>
-								
-								<!-- INCLUDE Liquidity -->
-								<fx:include fx:id="LiqduidityController" source="Liquidity.fxml" />
-								<!-- INCLUDE Liquidity-->
-								
-							</children>
-						</HBox>
-						<Separator prefWidth="200.0">
-							<VBox.margin>
-								<Insets bottom="5.0" top="5.0" />
-							</VBox.margin>
-						</Separator>
-						<Label text="Data">
+						<Label alignment="CENTER" text="Reports">
 							<font>
 								<Font name="System Bold" size="27.0" />
 							</font>
-							<VBox.margin>
-								<Insets left="10.0" right="10.0" />
-							</VBox.margin>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
 						</Label>
-						<Separator prefHeight="0.0" prefWidth="1057.0">
-							<VBox.margin>
-								<Insets bottom="5.0" top="5.0" />
-							</VBox.margin>
-						</Separator>
-						<Label text="Active Filters: ">
+						<HBox fx:id="hboxAllFilters" minHeight="114.0" minWidth="1057.0" prefHeight="126.0" prefWidth="1087.0">
+							<children>
+
+      								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
+								<fx:include fx:id="checkbox1Controller" source="Checkbox1.fxml" />
+								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
+
+      								<Separator orientation="VERTICAL" prefHeight="200.0">
+									<HBox.margin>
+										<Insets left="15.0" right="15.0" />
+									</HBox.margin>
+								</Separator>
+
+      								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
+								<fx:include fx:id="optionsController" source="Options.fxml" />
+								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
+
+      								<Separator orientation="VERTICAL" prefHeight="200.0">
+                     <HBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </HBox.margin>
+                  </Separator>
+								
+      								<!-- INCLUDE SITE -->
+								<fx:include fx:id="siteController" source="Site.fxml" />
+								<!-- INCLUDE SITE -->
+								
+      								<Separator orientation="VERTICAL" prefHeight="200.0">
+                     <HBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </HBox.margin>
+                  </Separator>
+								
+      								<!-- INCLUDE AVERAGE ODDS -->
+								<fx:include fx:id="averageOddsController" source="AverageOdds.fxml" />
+								<!-- INCLUDE AVERAGE ODDS -->
+								
+      								<Separator orientation="VERTICAL" prefHeight="200.0">
+									<HBox.margin>
+										<Insets left="15.0" right="15.0" />
+									</HBox.margin>
+								</Separator>
+								
+      								<!-- INCLUDE KoB -->
+								<fx:include fx:id="KoBController" source="KoB.fxml" />
+								<!-- INCLUDE KoB-->
+								
+      								<Separator orientation="VERTICAL" prefHeight="200.0">
+									<HBox.margin>
+										<Insets left="15.0" right="15.0" />
+									</HBox.margin>
+								</Separator>
+								
+      								<!-- INCLUDE Liquidity -->
+								<fx:include fx:id="LiqduidityController" source="Liquidity.fxml" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0">
+                     <HBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </HBox.margin>
+                  </Separator>
+								<!-- INCLUDE Liquidity-->
+								
+      							</children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+						</HBox>
+            <HBox fx:id="hboxActiveFilters" prefHeight="26.0" prefWidth="1087.0">
+               <children>
+						<Label prefHeight="24.0" prefWidth="73.0" text="Active Filters: ">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+						</Label>
+               </children>
+            </HBox>
+						<Label prefHeight="37.0" prefWidth="49.0" text="Data">
 							<font>
-								<Font size="14.0" />
+								<Font name="System Bold" size="22.0" />
 							</font>
 							<VBox.margin>
-								<Insets left="10.0" right="10.0" />
+								<Insets left="10.0" />
 							</VBox.margin>
 						</Label>
-						<Separator prefWidth="200.0" />
 					</children>
-					<VBox.margin>
-						<Insets bottom="5.0" top="5.0" />
-					</VBox.margin>
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
 				</VBox>
-				<SplitPane dividerPositions="0.5" orientation="VERTICAL"
-					prefHeight="496.0" prefWidth="1057.0">
+   </top>
+   <bottom>
+      <HBox fx:id="mainLayoutBottom" prefHeight="30.0" prefWidth="1087.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="26.0" prefWidth="774.0" text="Ready">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Label layoutX="27.0" layoutY="17.0" prefHeight="26.0" prefWidth="774.0" text="Betting Manager 1.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <center>
+				<SplitPane dividerPositions="0.7361111111111112" orientation="VERTICAL" BorderPane.alignment="CENTER">
 					<items>
-						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0"
-							prefWidth="160.0">
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
 							<children>
-								<TabPane layoutX="109.0" layoutY="14.0" prefHeight="200.0"
-									prefWidth="200.0" tabClosingPolicy="UNAVAILABLE"
-									AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="40.0"
-									AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+								<TabPane layoutX="109.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 									<tabs>
 										<Tab text="Kind Of Bet">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
-										<Tab text="Average Lidquitdy">
+										<Tab text="Average Liquidity">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
 										<Tab text="Tipster Name">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
 										<Tab text="Day/Week">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
 										<Tab text="Monthly">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
 										<Tab text="Graph">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0"
-													prefHeight="180.0" prefWidth="200.0" />
+												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
 											</content>
 										</Tab>
 									</tabs>
 								</TabPane>
-								<Label layoutY="6.0" prefHeight="44.0" prefWidth="40.0"
-									rotate="-90.0" text="Stats">
-									<padding>
-										<Insets bottom="5.0" left="5.0" right="5.0" top="-5.0" />
-									</padding>
-									<font>
-										<Font size="14.0" />
-									</font>
-								</Label>
+                  <Button fx:id="buttonStats" layoutX="-14.0" layoutY="19.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="73.0" rotate="-90.0" text="Stats">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="-5.0" />
+                     </padding>
+                  </Button>
 							</children>
 						</AnchorPane>
-						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0"
-							prefWidth="160.0" />
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="399.0" prefWidth="1085.0" />
 					</items>
 				</SplitPane>
-			</children>
-		</VBox>
-	</children>
-	<padding>
-		<Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
-	</padding>
-</AnchorPane>
+   </center>
+</BorderPane>

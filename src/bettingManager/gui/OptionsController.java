@@ -37,7 +37,9 @@ public class OptionsController {
 		
 		//TODO: Maybe use MenuItem instead of entire new window for better visuals
 		Stage dateRangePopup = new Stage();
-		dateRangePopup.setScene(new Scene(FXMLLoader.load(getClass().getResource("/bettingManager/gui/layout/Options_DateRange.fxml"))));
+		Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/bettingManager/gui/layout/Options_DateRange.fxml")));
+		scene.getStylesheets().add(getClass().getResource("/bettingManager/gui/layout/style.css").toExternalForm());
+		dateRangePopup.setScene(scene);
 		dateRangePopup.show();
 	}
 

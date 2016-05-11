@@ -9,7 +9,7 @@
 
 <VBox layoutX="428.0" layoutY="10.0" prefHeight="100.0" prefWidth="217.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.LiquidityController">
 	<children>
-		<Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="219.0" text="Liquidity" />
+		<Label alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="25.0" prefWidth="217.0" text="Liquidity" />
 		<GridPane>
 			<columnConstraints>
 				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
