@@ -168,7 +168,7 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 45000 && funds != -1){
+			if(funds < 30000 && funds != -1){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -968,7 +968,7 @@ public class BettingBot {
 					int v = seenTipsBlogaBet.get(tip);
 					if(v < 5){
 						newTip = true;
-						seenTipsBlogaBet.put(tip, seenTips.get(tip) + 1);	
+						seenTipsBlogaBet.put(tip, seenTipsBlogaBet.get(tip) + 1);	
 					}
 				}
 				
