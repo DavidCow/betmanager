@@ -90,7 +90,7 @@ public class YieldBackTest {
 		double numBetsFiltered = 0;
 		
 		//load models
-		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "em_seed50.model");
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
 		
 		for(BetAdvisorElement element : data){
@@ -164,6 +164,11 @@ public class YieldBackTest {
 			String typeOfBet = element.getTypeOfBet();
 			typeOfBet = typeOfBet.toUpperCase();
 			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+			
+			if(!activeTipsters.contains(tipster)){
+				System.out.println(tipster);
+				continue;
+			}
 			
 			//filter -ev bets
 			Instance record2 = liquidityModel.createWekaInstance(element);

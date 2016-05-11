@@ -81,7 +81,7 @@ public class StatsCalculation {
 	
 	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{			
 		// Model
-		ClusterPrediction prediction = new ClusterPrediction("Yield_noTipster.arff", "yieldNoTipsterEM.model");
+		ClusterPrediction prediction = new ClusterPrediction("Yield_noTipster.arff", "em_seed50.model");
 		
 		//initialize result arrays
 		int numberOfClusters = prediction.getNumberOfClusters();

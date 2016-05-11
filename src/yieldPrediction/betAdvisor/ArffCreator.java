@@ -2,7 +2,9 @@ package yieldPrediction.betAdvisor;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import weka.core.Attribute;
 import weka.core.FastVector;
@@ -32,6 +34,22 @@ public class ArffCreator {
 		attributes_noTipster.addElement(new Attribute("TypeOfBet", (FastVector) null));
 		attributes_noTipster.addElement(new Attribute("Odds"));
 		attributes_noTipster.addElement(new Attribute("Liquidity"));
+	}
+	
+	private static Set<String> activeTipsters = new HashSet<String>(); 
+	static{
+		activeTipsters.add("Chris Tomas");
+		activeTipsters.add("Gabriel Elias");
+		activeTipsters.add("Jorge Aragundy");
+		activeTipsters.add("Ivan Kacic");
+		activeTipsters.add("Owen Garth");
+		activeTipsters.add("Rosario Barone");
+		activeTipsters.add("Don Sorensen");
+		activeTipsters.add("Amar Sidran");
+		activeTipsters.add("Robert Volkan");
+		activeTipsters.add("Simeone Tassini");
+		activeTipsters.add("Daniel Larsen");
+		activeTipsters.add("Darijo Belic");
 	}
 	
 	private void useStringToNominalFilter(int start, int end){
@@ -106,6 +124,8 @@ public class ArffCreator {
 			try{
 				BetAdvisorElement element = betAdvisorList.get(i);
 				String tipster = element.getTipster();
+				if(!activeTipsters.contains(tipster))
+					continue;
 				String typeOfBet = element.getTypeOfBet();
 				typeOfBet = typeOfBet.toUpperCase();
 				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
@@ -144,7 +164,7 @@ public class ArffCreator {
 		ArffSaver saver = new ArffSaver();
 		saver.setInstances(analyser.data);
 		try {
-			saver.setFile(new File("Yield_noTipster.arff"));
+			saver.setFile(new File("Yield_activeTipster.arff"));
 			saver.writeBatch();
 		} catch (IOException e) {
 			e.printStackTrace();
