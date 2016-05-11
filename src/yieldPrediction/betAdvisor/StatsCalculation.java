@@ -77,7 +77,7 @@ public class StatsCalculation {
 		oddsRatio -= 0.01;	
 	}
 	
-	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio, String arffPath, String modelPath) throws Exception{	
+	public static Map<Integer, Double> calculateYieldsNoTipster(List<BetAdvisorElement> betAdvisorList, double oddsRatio) throws Exception{	
 		double[] res = new double[numberOfClusters];
 		double[] totalTake = new double[numberOfClusters];
 		int[] numberOfBets = new int[numberOfClusters];

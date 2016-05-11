@@ -1,17 +1,34 @@
 package yieldPrediction.betAdvisor;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
+import javafx.util.Pair;
 import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
-import javafx.util.Pair;
 
 public class YieldBackTest {
+	
+	private static Set<String> activeTipsters = new HashSet<String>(); 
+	static{
+		activeTipsters.add("Chris Tomas");
+		activeTipsters.add("Gabriel Elias");
+		activeTipsters.add("Jorge Aragundy");
+		activeTipsters.add("Ivan Kacic");
+		activeTipsters.add("Owen Garth");
+		activeTipsters.add("Rosario Barone");
+		activeTipsters.add("Don Sorensen");
+		activeTipsters.add("Amar Sidran");
+		activeTipsters.add("Robert Volkan");
+		activeTipsters.add("Simeone Tassini");
+		activeTipsters.add("Daniel Larsen");
+		activeTipsters.add("Darijo Belic");
+	}
 	
 	/**
 	 * group all tipster data by tipster name
@@ -51,6 +68,10 @@ public class YieldBackTest {
 		
 		Map<String, List<BetAdvisorElement>> tipsterMap = groupTipsterDate();
 		for(String tipster : tipsterMap.keySet()){
+			if(!activeTipsters.contains(tipster)){
+				System.out.println(tipster);
+				continue;
+			}
 			List<BetAdvisorElement> list = tipsterMap.get(tipster);
 			int listSize = list.size();
 			int splitIndex = (int) (listSize * splitPercentage);
@@ -76,6 +97,10 @@ public class YieldBackTest {
 			double odds = element.getOdds() * oddsratio;
 			double profit = element.getProfit();
 			String tipster = element.getTipster();
+			if(!activeTipsters.contains(tipster)){
+				System.out.println(tipster);
+				continue;
+			}
 			String typeOfBet = element.getTypeOfBet();
 			typeOfBet = typeOfBet.toUpperCase();
 			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
