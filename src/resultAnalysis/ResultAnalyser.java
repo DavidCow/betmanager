@@ -39,7 +39,7 @@ public class ResultAnalyser {
 	private BettingBotDatabase dataBase = null;	
 	private static Gson gson = new Gson();
 	
-	private static final int numberOfStakes = 5;
+	private static final int numberOfStakes = 10;
 	private List<Double> yieldPerStake;
 	private List<Double> betsPerStake;
 	private List<Double> finishedBetsPerStake;
@@ -277,7 +277,8 @@ public class ResultAnalyser {
 		}
 		
 		for(int i = 0; i < betsBlogaBet.size(); i++){
-			Bet bet = bets.get(i);
+			Bet bet = betsBlogaBet.get(i);
+			System.out.println(bet.getBetStatus());
 			Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
 			SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
 			
@@ -362,8 +363,8 @@ public class ResultAnalyser {
 			}
 		}
 	
-		oddDifference /= bets.size();
-		averageYield /= bets.size();
+		oddDifference /= bets.size() + betsBlogaBet.size();
+		averageYield /= bets.size() + betsBlogaBet.size();
 		averageLiquidity /= numberOfLiquidityBets;
 		
 		System.out.println("numberOfRunninngBets: " + numberOfRunninngBets);
