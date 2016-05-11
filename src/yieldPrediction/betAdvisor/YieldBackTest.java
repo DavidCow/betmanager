@@ -144,6 +144,82 @@ public class YieldBackTest {
 		System.out.println("Yield per Bet: " + result/numBets);
 		System.out.println("Yield per Bet Filtered: " + resultFiltered/numBetsFiltered);
 	}
+	
+	public static void runFlatYieldTestSeparatedTypes(List<BetAdvisorElement> data, Map<String, Map<Integer, Double>> avgYieldMap, Map<String, TipsterStats> tipsterStats, double oddsratio) throws Exception{
+		double result = 0;
+		double numBets = 0;
+		double resultFiltered = 0;
+		double numBetsFiltered = 0;
+		
+		//load models
+		ClusterPrediction prediction1X2 = new ClusterPrediction("yield_1X2_EM.arff", "yield_1X2_EM.model");
+		ClusterPrediction predictionAH = new ClusterPrediction("yield_AH_EM.arff", "yield_AH_EM.model");
+		ClusterPrediction predictionOU = new ClusterPrediction("yield_OU_EM.arff", "yield_OU_EM.model");
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		for(BetAdvisorElement element : data){
+			double odds = element.getOdds() * oddsratio;
+			double profit = element.getProfit();
+			String tipster = element.getTipster();
+			String typeOfBet = element.getTypeOfBet();
+			typeOfBet = typeOfBet.toUpperCase();
+			typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+			
+			//filter -ev bets
+			Instance record2 = liquidityModel.createWekaInstance(element);
+			if(record2 == null)
+				continue;
+			double liquidity = -1;
+			try {
+				liquidity = liquidityModel.classifyInstance(record2);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}	
+			double p = 0;
+			if(profit > 0)
+				p = odds - 1;
+			else if(profit < 0)
+				p = -1;
+			result += p;
+			numBets++;
+			
+			double clusterAvgYield = 0;
+			if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+				Instance i = prediction1X2.createWekaInstance(element.getOdds(), liquidity);
+				int cluster = prediction1X2.predictCluster(i);
+				clusterAvgYield = avgYieldMap.get("MATCH ODDS").get(cluster);
+			}
+			else if(typeOfBet.equalsIgnoreCase("ASIAN HANDICAP")){
+				Instance i = predictionAH.createWekaInstance(element.getOdds(), liquidity);
+				int cluster = predictionAH.predictCluster(i);
+				clusterAvgYield = avgYieldMap.get("ASIAN HANDICAP").get(cluster);
+			}
+			else if(typeOfBet.equalsIgnoreCase("OVER / UNDER")){
+				Instance i = predictionOU.createWekaInstance(element.getOdds(), liquidity);
+				int cluster = predictionOU.predictCluster(i);
+				clusterAvgYield = avgYieldMap.get("OVER / UNDER").get(cluster);
+			}
+			else
+				continue;
+			double tipsterAvgYield = tipsterStats.get(tipster).avgYield;
+			
+			//calculate linear combination of both avg yield estimates
+			double combinedAvgYield = 1 * clusterAvgYield + 0 * tipsterAvgYield;
+			if(combinedAvgYield > 0){
+				resultFiltered += p;
+				numBetsFiltered++;
+			}
+			else{
+				System.out.println(tipster);
+			}
+		}
+		System.out.println("Num Bets: " + numBets);
+		System.out.println("Num Bets Filtered: " + numBetsFiltered);
+		System.out.println("Total Flat Winnings: " + result);
+		System.out.println("Total Flat Winnings Filtered: " + resultFiltered);
+		System.out.println("Yield per Bet: " + result/numBets);
+		System.out.println("Yield per Bet Filtered: " + resultFiltered/numBetsFiltered);
+	}
 
 	public static void main(String[] args) throws Exception {
 		Pair<List<BetAdvisorElement>, List<BetAdvisorElement>> pair = YieldBackTest.splitTipsterData(0.7);
