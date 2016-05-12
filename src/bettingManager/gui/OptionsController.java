@@ -7,9 +7,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
+import javafx.scene.control.MenuButton;
+import javafx.scene.control.MenuItem;
 
 /**
  * 2nd item of filters
@@ -22,25 +21,35 @@ public class OptionsController {
 	/**
 	 * Buttons
 	 */
-	@FXML private Button dateRangeButton;
+	@FXML private MenuButton dateRangeButton;
 	@FXML private Button tipstersButton;
 	@FXML private Button moreFiltersButton;
 	@FXML private Button clearAllButton;
 	@FXML private Button refreshButton;
 	
+	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
 	}
 	
+	/**
+	 * 
+	 * @param event
+	 * @throws IOException
+	 */
+	@FXML
 	public void handleDateRangeButton(ActionEvent event) throws IOException {
 		System.out.println("date range button clicked");
+//		/**
+//		 * Set up Date Range button
+//		 */
+//		Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/bettingManager/gui/layout/Options_DateRange.fxml")));
+//		scene.getStylesheets().add(getClass().getResource("/bettingManager/gui/layout/style.css").toExternalForm());
+//		
+//		final MenuItem dateRangeWindow = new MenuItem();
+//		dateRangeWindow.setGraphic(scene.getRoot());
+//		((MenuButton) event.getSource()).getItems().setAll(dateRangeWindow);
 		
-		//TODO: Maybe use MenuItem instead of entire new window for better visuals
-		Stage dateRangePopup = new Stage();
-		Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/bettingManager/gui/layout/Options_DateRange.fxml")));
-		scene.getStylesheets().add(getClass().getResource("/bettingManager/gui/layout/style.css").toExternalForm());
-		dateRangePopup.setScene(scene);
-		dateRangePopup.show();
 	}
 
 	public void handleTipstersButton(ActionEvent event) {

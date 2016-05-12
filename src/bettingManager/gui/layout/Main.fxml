@@ -18,7 +18,7 @@
    <top>
 				<VBox prefHeight="234.0" prefWidth="1087.0" BorderPane.alignment="CENTER">
 					<children>
-            <HBox prefHeight="27.0" prefWidth="1087.0">
+            <HBox fx:id="hboxMainTop" prefHeight="27.0" prefWidth="1087.0">
                <children>
       						<Label alignment="CENTER" prefHeight="39.0" prefWidth="121.0" text="Reports">
       							<font>
