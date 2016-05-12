@@ -193,6 +193,9 @@ public class BlogaBetParser {
 		else if(upperPick.equalsIgnoreCase("DRAW")){
 			res = "Match Odds";
 		}
+		else if(upperPick.equalsIgnoreCase("Draw (Match)")){
+			res = "Match Odds";
+		}
 		else if(upperPick.equalsIgnoreCase("HOME") || upperPick.equalsIgnoreCase("AWAY")){
 			res = "Match Odds";
 		}
