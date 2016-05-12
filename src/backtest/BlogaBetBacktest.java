@@ -377,6 +377,9 @@ public class BlogaBetBacktest {
 			if(tipp.getTypeOfBet().equals("Over Under")){
 				checkedTippsOverUnder++;
 			}
+			if(tipp.getBestOdds() > 15){
+				continue;
+			}
 			
 			double suggestedOdds = tipp.getBestOdds();
 			
@@ -428,7 +431,11 @@ public class BlogaBetBacktest {
 						startJSet = true;
 						startJ = j;
 					}
-					if(TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest)){
+					boolean teamsMatch = TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest);
+					if(!teamsMatch)
+						teamsMatch =TeamMapping.teamsMatch(historicalDataHost, blogaBetHost, historicalDataGuest, blogaBetGuest);
+					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
+					if(teamsMatch){
 						availableBets.add(historicalDataElement);
 						
 						if(tipp.getTypeOfBet().equals("Match Odds")){
@@ -587,9 +594,9 @@ public class BlogaBetBacktest {
 				if(bestOdds > 0.90 * tipp.getBestOdds()){
 					goodOddsFound++;
 				}
-//				else{
-//					continue;
-//				}
+				else{
+					continue;
+				}
 			
 				if(tipp.getBestOdds() > bestOdds * 1.5){
 					System.out.println();
@@ -761,6 +768,9 @@ public class BlogaBetBacktest {
 			if(pivot == -10){
 				continue;
 			}
+			if(tipp.getBestOdds() > 15){
+				continue;
+			}
 			
 			if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
 				checkedTippsMatchOdds++;
@@ -824,7 +834,11 @@ public class BlogaBetBacktest {
 						startJSet = true;
 						startJ = j;
 					}
-					if(TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest)){
+					boolean teamsMatch = TeamMapping.teamsMatch(historicalDataHost, blogaBetHost) || TeamMapping.teamsMatch(historicalDataGuest, blogaBetGuest);
+					if(!teamsMatch)
+						teamsMatch =TeamMapping.teamsMatch(historicalDataHost, blogaBetHost, historicalDataGuest, blogaBetGuest);
+					//System.out.println(betAdvisorHost + " , " + historicalDataHost);	
+					if(teamsMatch){
 						availableBets.add(historicalDataElement);
 						
 						if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
@@ -983,9 +997,9 @@ public class BlogaBetBacktest {
 				if(bestOdds > 0.90 * tipp.getBestOdds()){
 					goodOddsFound++;
 				}
-//				else{
-//					continue;
-//				}
+				else{
+					continue;
+				}
 				if(tipp.getBestOdds() > bestOdds * 1.5){
 					System.out.println();
 				}
