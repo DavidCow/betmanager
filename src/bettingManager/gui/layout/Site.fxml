@@ -29,10 +29,13 @@
 								<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 								<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 								<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 							</rowConstraints>
 							<children>
-								<CheckBox mnemonicParsing="false" text="BetAdvisor" />
-								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" text="Blogabet" GridPane.rowIndex="1" />
+								<CheckBox fx:id="siteCheckboxBetAdvisor" mnemonicParsing="false" onAction="#handleSiteCheckbox" text="BetAdvisor" />
+								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleSiteCheckbox" text="Blogabet" GridPane.rowIndex="1" />
+                        <CheckBox layoutX="10.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleSiteCheckbox" text="Site 3" GridPane.rowIndex="2" />
+                        <CheckBox mnemonicParsing="false" onAction="#handleSiteCheckbox" text="Site 4" GridPane.rowIndex="3" />
 							</children>
 						</GridPane>
 					</children>

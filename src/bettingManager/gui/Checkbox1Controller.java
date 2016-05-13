@@ -60,8 +60,11 @@ public class Checkbox1Controller{
 			}
 		}
 
-		System.out.println("State changed: " + checkboxGroup1state);
-
+		System.out.println("State changed: " + getCheckboxState());
+	}
+	
+	public int getCheckboxState() {
+		return checkboxGroup1state;
 	}
 	
 	public void init(MainController mainC) {
