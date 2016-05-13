@@ -32,11 +32,11 @@
 								<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 							</rowConstraints>
 							<children>
-								<CheckBox mnemonicParsing="false" text="Asian Handicap" />
-								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" text="Final score" GridPane.rowIndex="2" />
-								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" text="X Result" GridPane.rowIndex="1" />
-								<CheckBox mnemonicParsing="false" text="Over - Under" GridPane.columnIndex="1" />
-								<CheckBox mnemonicParsing="false" text="1 2 Result" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+								<CheckBox mnemonicParsing="false" onAction="#handleKoBCheckbox" text="Asian Handicap" />
+								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleKoBCheckbox" text="Final score" GridPane.rowIndex="2" />
+								<CheckBox layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleKoBCheckbox" text="X Result" GridPane.rowIndex="1" />
+								<CheckBox mnemonicParsing="false" onAction="#handleKoBCheckbox" text="Over - Under" GridPane.columnIndex="1" />
+								<CheckBox mnemonicParsing="false" onAction="#handleKoBCheckbox" text="1 2 Result" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 							</children>
 						</GridPane>
 					</children>
