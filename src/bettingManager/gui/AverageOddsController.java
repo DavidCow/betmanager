@@ -13,6 +13,10 @@ public class AverageOddsController {
 	@FXML private TextField betweenTextField;
 	@FXML private TextField andTextField;
 	
+	@FXML
+	public void initialize() {
+	}
+	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
 	}

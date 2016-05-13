@@ -21,6 +21,7 @@ public class StageLoader extends Application {
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource(MAIN_FXML));
         Scene scene = new Scene(root);
+        scene.setRoot(root);
         scene.getStylesheets().add(getClass().getResource(MAIN_CSS).toExternalForm());
         primaryStage.setTitle(WINDOW_TITLE);
         primaryStage.setScene(scene);

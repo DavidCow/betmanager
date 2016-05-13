@@ -34,7 +34,7 @@
 							<children>
 
       								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
-								<fx:include fx:id="checkbox1Controller" source="Checkbox1.fxml" />
+								<fx:include fx:id="checkbox1" source="Checkbox1.fxml" />
 								<!-- INCLUDE CHECKEBOX GROUP 1 HISTORICAL / REAL -->
 
       								<Separator orientation="VERTICAL" prefHeight="200.0">
@@ -44,7 +44,7 @@
 								</Separator>
 
       								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
-								<fx:include fx:id="optionsController" source="Options.fxml" />
+								<fx:include fx:id="options" source="Options.fxml" />
 								<!-- INCLUDE OPTIONS (DATE RANGE, TIPSTERS,..) -->
 
       								<Separator orientation="VERTICAL" prefHeight="200.0">
@@ -54,7 +54,7 @@
                   </Separator>
 								
       								<!-- INCLUDE SITE -->
-								<fx:include fx:id="siteController" source="Site.fxml" />
+								<fx:include fx:id="site" source="Site.fxml" />
 								<!-- INCLUDE SITE -->
 								
       								<Separator orientation="VERTICAL" prefHeight="200.0">
@@ -64,7 +64,7 @@
                   </Separator>
 								
       								<!-- INCLUDE AVERAGE ODDS -->
-								<fx:include fx:id="averageOddsController" source="AverageOdds.fxml" />
+								<fx:include fx:id="averageOdds" source="AverageOdds.fxml" />
 								<!-- INCLUDE AVERAGE ODDS -->
 								
       								<Separator orientation="VERTICAL" prefHeight="200.0">
@@ -74,7 +74,7 @@
 								</Separator>
 								
       								<!-- INCLUDE KoB -->
-								<fx:include fx:id="KoBController" source="KoB.fxml" />
+								<fx:include fx:id="koB" source="KoB.fxml" />
 								<!-- INCLUDE KoB-->
 								
       								<Separator orientation="VERTICAL" prefHeight="200.0">
@@ -84,7 +84,7 @@
 								</Separator>
 								
       								<!-- INCLUDE Liquidity -->
-								<fx:include fx:id="LiqduidityController" source="Liquidity.fxml" />
+								<fx:include fx:id="liquidity" source="Liquidity.fxml" />
                   <Separator orientation="VERTICAL" prefHeight="200.0">
                      <HBox.margin>
                         <Insets left="15.0" right="15.0" />

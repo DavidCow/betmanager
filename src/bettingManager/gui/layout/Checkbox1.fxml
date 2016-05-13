@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.Checkbox1Controller">
+<VBox fx:id="checkbox1root" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.Checkbox1Controller">
    <children>
       <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="157.0" text="Data" textAlignment="RIGHT" />
       <GridPane prefHeight="100.0" prefWidth="157.0">
