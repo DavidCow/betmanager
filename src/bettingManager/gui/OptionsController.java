@@ -72,7 +72,6 @@ public class OptionsController extends Observable{
 
 	public void handleTipstersButton(ActionEvent event) {
 		System.out.println("tipsters button clicked");
-		
 	}
 	
 	public void handleMoreFiltersButton(ActionEvent event) {
