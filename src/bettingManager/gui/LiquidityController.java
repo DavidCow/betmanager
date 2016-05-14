@@ -130,6 +130,17 @@ public class LiquidityController extends Observable{
 		setChanged();
 		notifyObservers(new ObservableMessage(LIQUIDITY_ID, oddsData));
 	}
+	
+	
+	public void updateSettings(FilterSettingsContainer filters) {
+		if (filters.getOddsDataAverageOdds() == null) return;
+		
+		this.oddsData = filters.getOddsDataLiquidity();
+		greaterThanTF.setText(""+oddsData.getGreaterThan());
+		lessThanTF.setText(""+oddsData.getLessThan());
+		betweenTF.setText(""+oddsData.getBetween());
+		andTF.setText(""+oddsData.getAnd());
+	}
 }
 
 

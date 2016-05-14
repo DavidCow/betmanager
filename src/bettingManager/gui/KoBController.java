@@ -43,4 +43,14 @@ public class KoBController extends Observable{
 		setChanged();
 		notifyObservers(new ObservableMessage(KOB_ID, checkedKoB));
 	}
+	
+	public void updateSettings(FilterSettingsContainer filters) {
+		if (filters.getKoBList() == null) return;
+		this.checkedKoB = filters.getKoBList();
+		for (Node cb : koBGrid.getChildren()) {
+			if (filters.getKoBList().contains( ((CheckBox)cb).getText() )){
+				((CheckBox)cb).setSelected(true);
+			}
+		}
+	}
 }

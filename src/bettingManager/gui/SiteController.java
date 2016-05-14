@@ -46,4 +46,16 @@ public class SiteController extends Observable{
 		setChanged();
 		notifyObservers(new ObservableMessage(SITE_ID, checkedSites));
 	}
+	
+	public void updateSettings(FilterSettingsContainer filters) {
+		if (filters.getSitesList() == null) return;
+		this.checkedSites = filters.getSitesList();
+		
+		for (Node cb : siteGrid.getChildren()) {
+			if (filters.getSitesList().contains( ((CheckBox)cb).getText() )){
+				((CheckBox)cb).setSelected(true);
+			}
+		}
+	}
+	
 }

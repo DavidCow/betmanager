@@ -25,6 +25,7 @@ public class StageLoader extends Application {
         scene.getStylesheets().add(getClass().getResource(MAIN_CSS).toExternalForm());
         primaryStage.setTitle(WINDOW_TITLE);
         primaryStage.setScene(scene);
+        primaryStage.setMaximized(true);
         primaryStage.show();
     }
     

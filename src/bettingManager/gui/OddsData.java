@@ -31,6 +31,10 @@ public class OddsData {
 		this.and = and;
 	}
 	
-	
+	@Override
+	public String toString() {
+		System.out.println("Greater:"+ getGreaterThan() + " Less than:"+ getLessThan() + " Between"+getBetween()+" And" + getAnd());
+		return "";
+	}
 	
 }

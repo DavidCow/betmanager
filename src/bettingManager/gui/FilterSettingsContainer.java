@@ -89,4 +89,17 @@ public class FilterSettingsContainer {
 		this.oddsDataLiquidity = oddsDataLiquidity;
 	}
 	
+	@Override
+	public String toString() {
+		System.out.println("--------------------------------------");
+		System.out.println("FilterSettingsContainer:");
+		System.out.println("DataState:"+getDataState());
+//		System.out.println("");
+		System.out.println("Sites:"+getSitesList());
+		System.out.println("AverageOdds:"+getOddsDataAverageOdds());
+		System.out.println("KoB:"+getKoBList());
+		System.out.println("Liquidity:"+getOddsDataLiquidity());
+		return "--------------------------------------";
+	}
+	
 }

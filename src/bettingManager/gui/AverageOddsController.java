@@ -149,4 +149,14 @@ public class AverageOddsController extends Observable{
 		notifyObservers(new ObservableMessage(AVERAGEODDS_ID, oddsData));
 	}
 	
+	public void updateSettings(FilterSettingsContainer filters) {
+		if (filters.getOddsDataAverageOdds() == null) return;
+		
+		this.oddsData = filters.getOddsDataAverageOdds();
+		greaterThanTextField.setText(""+oddsData.getGreaterThan());
+		lessThanTextField.setText(""+oddsData.getLessThan());
+		betweenTextField.setText(""+oddsData.getBetween());
+		andTextField.setText(""+oddsData.getAnd());
+	}
+	
 }
