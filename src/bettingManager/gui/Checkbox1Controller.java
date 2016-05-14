@@ -83,7 +83,6 @@ public class Checkbox1Controller extends Observable{
 
 	public void updateSettings(FilterSettingsContainer filters) {
 		checkboxGroup1state = filters.getDataState();
-		System.out.println(filters.getDataState());
 		if (filters.getDataState() == CHECKBOX_GROUP1_BOTH) {
 			checkboxGroup1historic.setSelected(true);
 			checkboxGroup1real.setSelected(true);

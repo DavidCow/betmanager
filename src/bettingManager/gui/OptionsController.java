@@ -5,11 +5,9 @@ import java.util.Observable;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CustomMenuItem;
 import javafx.scene.control.MenuButton;
-import javafx.scene.control.MenuItem;
 
 /**
  * 2nd item of filters
@@ -29,12 +27,29 @@ public class OptionsController extends Observable{
 	@FXML private Button clearAllButton;
 	@FXML private Button refreshButton;
 	
+	@FXML private CustomMenuItem customMenuItemDateRange;
+	
+	@FXML OptionsDateRangeController optionsDateRangeController;
+	
 	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
 		this.addObserver(mainC);
+		
+		/*
+		 * Subcontroller
+		 */
+		optionsDateRangeController.init(mainC, this);
+		
+		customMenuItemDateRange.setHideOnClick(false);
 	}
 	
+	
+	public OptionsDateRangeController getOptionsDateRangeController() {
+		return optionsDateRangeController;
+	}
+
+
 	/**
 	 * 
 	 * @param event
@@ -75,7 +90,11 @@ public class OptionsController extends Observable{
 		System.out.println("refresh button clicked");
 		
 	}
-	
+
+	public void hideWindow() {
+		customMenuItemDateRange.setHideOnClick(true);
+	}
+
 	private void notifyMainController() {
 		setChanged();
 		notifyObservers(new ObservableMessage(OPTIONS_ID, null)); //TODO: NOT YET DECIDED, notifyMainController has to be called still

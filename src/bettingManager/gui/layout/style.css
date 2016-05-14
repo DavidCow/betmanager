@@ -20,6 +20,10 @@ linear-gradient(to bottom, derive(-fx-base,+50%), derive(-fx-base,-40%), derive(
 -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
 -fx-color: -fx-hover-base;
 }
+
+.button:pressed {
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 10, 0.75, 1, 0);
+}
  
 .table-view {
 -fx-table-cell-border-color:derive(-fx-base,+10%);

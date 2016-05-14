@@ -21,6 +21,7 @@ public class MainController implements Observer{
 	@FXML KoBController koBController;
 	@FXML LiquidityController liquidityController;
 	
+	
 	/**
 	 * All filter options
 	 */
@@ -65,6 +66,8 @@ public class MainController implements Observer{
 		averageOddsController.init(this);
 		koBController.init(this);
 		liquidityController.init(this);
+		
+		
 		
 		updateSettingsControllers();
 	}
