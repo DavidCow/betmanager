@@ -1,13 +1,16 @@
 package bettingManager.gui;
 
+import java.util.Observable;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 
-public class LiquidityController {
+public class LiquidityController extends Observable{
 	private MainController mainC;
+	public static int LIQUIDITY_ID = 5;
 	
 	@FXML private TextField greaterThanTF;
 	@FXML private TextField lessThanTF;
@@ -31,6 +34,7 @@ public class LiquidityController {
 	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
+		this.addObserver(mainC);
 	}
 	
 	public void handleGreaterThanLiq(KeyEvent event) {
@@ -113,12 +117,18 @@ public class LiquidityController {
 	        {
 	            System.out.println("Textfield out focus");
 	            saveOddsData();
+	            notifyMainController();
 //	            System.out.println("1::: "+oddsData.getGreaterThan());
 //	            System.out.println("2::: "+oddsData.getLessThan());
 //	            System.out.println("3::: "+oddsData.getBetween());
 //	            System.out.println("4::: "+oddsData.getAnd());
 	        }
 	    }
+	}
+	
+	private void notifyMainController() {
+		setChanged();
+		notifyObservers(new ObservableMessage(LIQUIDITY_ID, oddsData));
 	}
 }
 

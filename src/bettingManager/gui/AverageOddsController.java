@@ -1,5 +1,7 @@
 package bettingManager.gui;
 
+import java.util.Observable;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -12,9 +14,9 @@ import javafx.scene.input.KeyEvent;
  * @author David
  *
  */
-public class AverageOddsController {
+public class AverageOddsController extends Observable{
 	private MainController mainC;
-	
+	public static int AVERAGEODDS_ID = 3;
 	
 	@FXML private TextField greaterThanTextField;
 	@FXML private TextField lessThanTextField;
@@ -38,6 +40,7 @@ public class AverageOddsController {
 	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
+		this.addObserver(mainC);
 	}
 	
 	public void handleGreaterThan(KeyEvent event) {
@@ -132,12 +135,18 @@ public class AverageOddsController {
 	        {
 	            System.out.println("Textfield out focus");
 	            saveOddsData();
+	            notifyMainController();
 //	            System.out.println("1::: "+oddsData.getGreaterThan());
 //	            System.out.println("2::: "+oddsData.getLessThan());
 //	            System.out.println("3::: "+oddsData.getBetween());
 //	            System.out.println("4::: "+oddsData.getAnd());
 	        }
 	    }
+	}
+	
+	private void notifyMainController() {
+		setChanged();
+		notifyObservers(new ObservableMessage(AVERAGEODDS_ID, oddsData));
 	}
 	
 }

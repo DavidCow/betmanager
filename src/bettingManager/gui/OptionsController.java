@@ -1,6 +1,7 @@
 package bettingManager.gui;
 
 import java.io.IOException;
+import java.util.Observable;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,8 +16,9 @@ import javafx.scene.control.MenuItem;
  * @author David
  *
  */
-public class OptionsController {
+public class OptionsController extends Observable{
 	private MainController mainC;
+	public static int OPTIONS_ID = 1;
 	
 	/**
 	 * Buttons
@@ -30,6 +32,7 @@ public class OptionsController {
 	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
+		this.addObserver(mainC);
 	}
 	
 	/**
@@ -70,6 +73,11 @@ public class OptionsController {
 	public void handleRefreshButton(ActionEvent event) {
 		System.out.println("refresh button clicked");
 		
+	}
+	
+	private void notifyMainController() {
+		setChanged();
+		notifyObservers(new ObservableMessage(OPTIONS_ID, null)); //TODO: NOT YET DECIDED, notifyMainController has to be called still
 	}
 	
 }

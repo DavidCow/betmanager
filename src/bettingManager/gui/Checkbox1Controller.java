@@ -1,5 +1,7 @@
 package bettingManager.gui;
 
+import java.util.Observable;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
@@ -9,9 +11,10 @@ import javafx.scene.control.CheckBox;
  * @author David
  *
  */
-public class Checkbox1Controller{
+public class Checkbox1Controller extends Observable{
 
 	private MainController mainC;
+	public static int CHECKBOX1_ID = 0;
 	
 	/**
 	 * Group 1 Checkboxes Historic / Real
@@ -59,8 +62,14 @@ public class Checkbox1Controller{
 				checkboxGroup1state = CHECKBOX_GROUP1_REAL;
 			}
 		}
-
+		
 		System.out.println("State changed: " + getCheckboxState());
+		notifyMainController();
+	}
+	
+	private void notifyMainController() {
+		setChanged();
+		notifyObservers(new ObservableMessage(CHECKBOX1_ID, getCheckboxState()));
 	}
 	
 	public int getCheckboxState() {
@@ -69,7 +78,9 @@ public class Checkbox1Controller{
 	
 	public void init(MainController mainC) {
 		this.mainC = mainC;
+		this.addObserver(mainC);
 	}
+
 
 	
 }

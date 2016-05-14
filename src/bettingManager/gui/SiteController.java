@@ -2,6 +2,7 @@ package bettingManager.gui;
 
 
 import java.util.ArrayList;
+import java.util.Observable;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -9,8 +10,11 @@ import javafx.scene.Node;
 import javafx.scene.control.CheckBox;
 import javafx.scene.layout.GridPane;
 
-public class SiteController {
+public class SiteController extends Observable{
 	private MainController mainC;
+	public static int SITE_ID = 2;
+	
+	
 	private ArrayList<String> checkedSites;
 	
 	@FXML
@@ -18,6 +22,7 @@ public class SiteController {
 
 	public void init(MainController mainC) {
 		this.mainC = mainC;
+		this.addObserver(mainC);
 	}
 
 	@FXML
@@ -30,9 +35,15 @@ public class SiteController {
 			}
 		}
 		System.out.println(checkedSites);
+		notifyMainController();
 	}
 	
 	public ArrayList<String> getCheckedSites() {
 		return checkedSites;
+	}
+	
+	private void notifyMainController() {
+		setChanged();
+		notifyObservers(new ObservableMessage(SITE_ID, checkedSites));
 	}
 }
