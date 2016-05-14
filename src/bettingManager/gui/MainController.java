@@ -66,7 +66,10 @@ public class MainController implements Observer{
 		koBController.init(this);
 		liquidityController.init(this);
 		
-		
+		updateSettingsControllers();
+	}
+
+	public void updateSettingsControllers() {
 		/*
 		 * Update the views according to last FilterSettingsContainer
 		 */
@@ -77,7 +80,7 @@ public class MainController implements Observer{
 		koBController.updateSettings(allFilters);
 		liquidityController.updateSettings(allFilters);
 	}
-
+	
 	/**
 	 * Controllers notifie MainController
 	 */
@@ -110,6 +113,11 @@ public class MainController implements Observer{
 		 */
 		String json = gson.toJson(allFilters);
 		prefs.put(PREFS_ALLFILTERS, json);
+	}
+	
+	public void clearFilters() {
+		this.allFilters = new FilterSettingsContainer();
+		updateSettingsControllers();
 	}
 	
 	

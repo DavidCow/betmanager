@@ -11,7 +11,7 @@ public class FilterSettingsContainer {
 	/**
 	 * Historic / Real, both
 	 */
-	private int dataState = -1;
+	private int dataState = Checkbox1Controller.CHECKBOX_GROUP1_HISTORIC;
 	
 	/**
 	 * More
@@ -21,23 +21,23 @@ public class FilterSettingsContainer {
 	/**
 	 * Site
 	 */
-	private ArrayList<String> sitesList;
+	private ArrayList<String> sitesList = new ArrayList<String>();
 	
 	/**
 	 * Average odds
 	 */
-	private OddsData oddsDataAverageOdds;
+	private OddsData oddsDataAverageOdds = new OddsData();
 	
 	/**
 	 * KoB
 	 */
-	private ArrayList<String> koBList;
+	private ArrayList<String> koBList = new ArrayList<String>();
 	
 	
 	/**
 	 * Liquidity
 	 */
-	private OddsData oddsDataLiquidity;
+	private OddsData oddsDataLiquidity = new OddsData();
 
 
 	public int getDataState() {

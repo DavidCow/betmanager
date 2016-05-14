@@ -67,6 +67,7 @@ public class OptionsController extends Observable{
 	
 	public void handleClearAllButton(ActionEvent event) {
 		System.out.println("clear all button clicked");
+		mainC.clearFilters();
 		
 	}
 	

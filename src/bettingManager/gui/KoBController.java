@@ -50,6 +50,8 @@ public class KoBController extends Observable{
 		for (Node cb : koBGrid.getChildren()) {
 			if (filters.getKoBList().contains( ((CheckBox)cb).getText() )){
 				((CheckBox)cb).setSelected(true);
+			} else {
+				((CheckBox)cb).setSelected(false);
 			}
 		}
 	}

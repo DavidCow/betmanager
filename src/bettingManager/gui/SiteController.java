@@ -54,6 +54,8 @@ public class SiteController extends Observable{
 		for (Node cb : siteGrid.getChildren()) {
 			if (filters.getSitesList().contains( ((CheckBox)cb).getText() )){
 				((CheckBox)cb).setSelected(true);
+			} else {
+				((CheckBox)cb).setSelected(false);
 			}
 		}
 	}
