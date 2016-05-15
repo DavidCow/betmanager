@@ -1,5 +1,7 @@
 package bettingManager.gui;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Observable;
 
 import javafx.collections.FXCollections;
@@ -8,6 +10,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.HBox;
@@ -18,6 +21,17 @@ public class OptionsDateRangeController extends Observable{
 	public static int OPTIONS_DATERANGE_ID = 7;
 	
 	private OptionsController optionsController;
+	
+	String[] monthNames = {"January", 
+			"February", 
+			"March", 
+			"April", 
+			"May", 
+			"June", 
+			"July", 
+			"August",
+			"September", 
+			"October", "November", "December"};
 	
 	/**
 	 * Radio buttons
@@ -62,6 +76,14 @@ public class OptionsDateRangeController extends Observable{
 	@FXML private ChoiceBox<String> betweenMinuteChoiceBox1;
 	@FXML private ChoiceBox<String> betweenMinuteChoiceBox2;
 	
+	/**
+	 * Month month, Month year population
+	 */
+	@FXML private ComboBox<String> monthMonth;
+	@FXML private ComboBox<String> monthYear;
+	
+	
+	private DateRangeMessage msg;
 	
 	/**
 	 * Initialize
@@ -72,6 +94,8 @@ public class OptionsDateRangeController extends Observable{
 		this.mainC = mainC;
 		this.addObserver(mainC);
 		this.optionsController = opt;
+		
+		this.msg = new DateRangeMessage();
 	}
 	
 	@FXML public void initialize() {
@@ -99,6 +123,8 @@ public class OptionsDateRangeController extends Observable{
 		populateChoicebox(afterMinuteChoiceBox, 0, 59, 10);
 		populateChoicebox(betweenMinuteChoiceBox1, 0, 59, 10);
 		populateChoicebox(betweenMinuteChoiceBox2, 0, 59, 10);
+		
+		populateMonthYear();
 	}
 	
 	public void handleMonth(ActionEvent event) {
@@ -144,7 +170,58 @@ public class OptionsDateRangeController extends Observable{
 	@FXML
 	public void handleDateRangeOkButton(ActionEvent event){
 		System.out.println("Date Range OK");
-//		optionsController.hideWindow();
+		/**
+		 * Check which RadioButton is selected 
+		 */
+		HBox hbox = null;
+		for(int i=0; i<hboxes.length; i+=1) {
+			if (!hboxes[i].isDisabled()) {
+				hbox = hboxes[i];
+			}
+		}
+		
+		if (hbox == null) {
+			System.out.println("Nothing has been selected, return.");
+			return;
+		}
+
+		if (hbox.equals(hboxMonth)) {
+			System.out.println("HboxMonth");
+			msg.setState(DateRangeMessage.MONTH);
+			
+			Calendar now = Calendar.getInstance();
+			Date date = new Date();
+			now.setTime(date);
+			now.set(Calendar.MONTH, theNumberOfMonth(monthMonth.getValue()));
+			now.set(Calendar.YEAR, Integer.parseInt(monthYear.getValue()));
+			date = now.getTime();
+			System.out.println(date);
+			msg.setD1(date);
+		} else if (hbox.equals(hboxDay)) {
+			System.out.println("HboxDay");
+		} else if (hbox.equals(hboxBefore)) {
+			System.out.println("HboxBefore");
+		} else if (hbox.equals(hboxAfter)) {
+			System.out.println("HboxAfter");
+		} else if (hbox.equals(hboxBetween)) {
+			System.out.println("HboxBetween");
+		} else if (hbox.equals(hboxLast)) {
+			System.out.println("HboxLast");
+		}
+		notifyMainController();
+	}
+	
+	public String theMonth(int month){
+	    return monthNames[month];
+	}
+	
+	public int theNumberOfMonth(String month) {
+		for(int i=0; i<monthNames.length; i+=1) {
+			if (monthNames[i].contentEquals(month)) {
+				return i;
+			}
+		}
+		return -1;
 	}
 	
 	/**
@@ -162,6 +239,19 @@ public class OptionsDateRangeController extends Observable{
 			}
 		}
 		choiceBox.setItems(list);
+	}
+	
+	private void populateMonthYear() {
+		ObservableList<String> list = FXCollections.observableArrayList(monthNames);
+		monthMonth.setItems(list);
+		
+		int start = 2000;
+		int end = 2016;
+		list = FXCollections.observableArrayList();
+		for(int i=start; i<=end; i+=1) {
+			list.add(""+i);
+		}
+		monthYear.setItems(list);
 	}
 	
 	private void notifyMainController() {

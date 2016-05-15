@@ -39,8 +39,8 @@
             <RadioButton fx:id="dateRangeBetween" mnemonicParsing="false" onAction="#handleBetween" text="Between" GridPane.rowIndex="4" />
             <HBox fx:id="hboxMonth" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
                <children>
-                  <ComboBox prefWidth="150.0" promptText="January" />
-                  <ComboBox layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="20XX" />
+                  <ComboBox fx:id="monthMonth" prefWidth="150.0" promptText="Month" />
+                  <ComboBox fx:id="monthYear" layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="Year" />
                </children>
             </HBox>
             <HBox fx:id="hboxDay" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">

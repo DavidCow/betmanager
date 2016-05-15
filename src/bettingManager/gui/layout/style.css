@@ -5,6 +5,17 @@
 -fx-control-inner-background:  rgb(110, 110, 110);
 }
  
+ .choice-box .menu-item:focused {
+  -fx-background-color: orange; 
+}
+
+.choice-box .context-menu {
+    -fx-background-color: lightgrey;
+}
+
+.choice-box .label {
+     -fx-text-fill: white; 
+}
  
 .menu-bar {
 -fx-background-color: linear-gradient(to bottom, -fx-base, derive(-fx-base,30%));
