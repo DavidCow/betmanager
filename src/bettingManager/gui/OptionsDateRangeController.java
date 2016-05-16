@@ -1,5 +1,8 @@
 package bettingManager.gui;
 
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Observable;
@@ -11,6 +14,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.HBox;
@@ -78,11 +82,16 @@ public class OptionsDateRangeController extends Observable{
 	@FXML private ChoiceBox<String> betweenMinuteChoiceBox2;
 	
 	/**
-	 * Month month, Month year population
+	 * Month
 	 */
 	@FXML private ComboBox<String> monthMonth;
 	@FXML private ComboBox<String> monthYear;
 	
+	/**
+	 * Day
+	 */
+	@FXML private DatePicker datePickerDay; 
+	@FXML private DatePicker datePickerBefore; 
 	
 	private DateRangeMessage msg;
 	
@@ -209,9 +218,28 @@ public class OptionsDateRangeController extends Observable{
 		} else if (hbox.equals(hboxDay)) {
 			System.out.println("HboxDay");
 			msg.setState(DateRangeMessage.DAY);
+			
+			LocalDate localDate = datePickerDay.getValue();
+			Instant instant = Instant.from(localDate.atStartOfDay(ZoneId.systemDefault()));
+			Date date = Date.from(instant);
+			msg.setD1(date);
 		} else if (hbox.equals(hboxBefore)) {
 			System.out.println("HboxBefore");
 			msg.setState(DateRangeMessage.BEFORE);
+			
+			//Get date from DatePicker
+			Calendar now = Calendar.getInstance();
+			LocalDate localDate = datePickerBefore.getValue();
+			Instant instant = Instant.from(localDate.atStartOfDay(ZoneId.systemDefault()));
+			Date date = Date.from(instant);
+
+			//Set hour and minute
+			now.setTime(date);
+			now.set(Calendar.HOUR, Integer.parseInt(beforeHourChoiceBox.getValue()));
+			now.set(Calendar.MINUTE, Integer.parseInt(beforeMinuteChoiceBox.getValue()));
+			date = now.getTime();
+			System.out.println(date);
+			msg.setD1(date);
 		} else if (hbox.equals(hboxAfter)) {
 			System.out.println("HboxAfter");
 			msg.setState(DateRangeMessage.AFTER);

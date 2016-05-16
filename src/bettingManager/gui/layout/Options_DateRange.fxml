@@ -45,14 +45,14 @@
             </HBox>
             <HBox fx:id="hboxDay" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <DatePicker prefHeight="25.0" prefWidth="201.0" />
+                  <DatePicker fx:id="datePickerDay" prefHeight="25.0" prefWidth="201.0" />
                </children>
             </HBox>
             <HBox fx:id="hboxBefore" alignment="CENTER" prefHeight="52.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
                   <ChoiceBox fx:id="beforeHourChoiceBox" prefHeight="25.0" prefWidth="33.0" />
                   <ChoiceBox fx:id="beforeMinuteChoiceBox" layoutX="10.0" layoutY="20.0" prefHeight="25.0" prefWidth="35.0" />
-                  <DatePicker />
+                  <DatePicker fx:id="datePickerBefore" />
                </children>
             </HBox>
             <HBox fx:id="hboxAfter" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
