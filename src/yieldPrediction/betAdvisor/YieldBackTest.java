@@ -237,7 +237,9 @@ public class YieldBackTest {
 		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
 		
 		// Predict cluster
-		Instance i = em.createWekaInstance(tip.typeOfBet, tip.bestOdds, betTicket.getMaxStake());
+		String typeOfBet = tip.typeOfBet.replace(" 1st Half", "");
+		typeOfBet = typeOfBet.toUpperCase();
+		Instance i = em.createWekaInstance(typeOfBet, tip.bestOdds, betTicket.getMaxStake());
 		int cluster = em.predictCluster(i);
 
 		// Calculate average yield
