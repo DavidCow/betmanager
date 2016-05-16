@@ -77,7 +77,7 @@ public class MainController implements Observer{
 		 * Update the views according to last FilterSettingsContainer
 		 */
 		checkbox1Controller.updateSettings(allFilters);
-		//optionsController.updateSettings(allFilters);
+		optionsController.updateSettings(allFilters);		//Updates DateRange as well
 		siteController.updateSettings(allFilters);
 		averageOddsController.updateSettings(allFilters);
 		koBController.updateSettings(allFilters);
@@ -108,6 +108,9 @@ public class MainController implements Observer{
 		} else if (o instanceof LiquidityController) {
 			System.out.println("LiquidityContr has sent something");
 			allFilters.setOddsDataLiquidity((OddsData)argMsg.getMsg());
+		} else if (o instanceof OptionsDateRangeController) {
+			System.out.println("OptionsDateRangeContr has sent something");
+			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
 		}
 		System.out.println(allFilters);
 		

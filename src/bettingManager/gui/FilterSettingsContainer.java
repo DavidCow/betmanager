@@ -39,6 +39,21 @@ public class FilterSettingsContainer {
 	 */
 	private OddsData oddsDataLiquidity = new OddsData();
 
+	/**
+	 * DateRange
+	 * @return
+	 */
+	private DateRangeMessage dateRangeMessage = new DateRangeMessage();
+	
+	public DateRangeMessage getDateRangeMessage() {
+		return dateRangeMessage;
+	}
+
+
+	public void setDateRangeMessage(DateRangeMessage dateRangeMessage) {
+		this.dateRangeMessage = dateRangeMessage;
+	}
+
 
 	public int getDataState() {
 		return dataState;

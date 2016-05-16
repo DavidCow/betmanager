@@ -98,5 +98,10 @@ public class OptionsController extends Observable{
 		setChanged();
 		notifyObservers(new ObservableMessage(OPTIONS_ID, null)); //TODO: NOT YET DECIDED, notifyMainController has to be called still
 	}
+
+
+	public void updateSettings(FilterSettingsContainer allFilters) {
+		optionsDateRangeController.updateSettings(allFilters);
+	}
 	
 }

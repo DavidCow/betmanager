@@ -44,6 +44,7 @@ public class OptionsDateRangeController extends Observable{
 	@FXML private RadioButton dateRangeBetween;
 	@FXML private RadioButton dateRangeLast;
 	
+	private RadioButton[] radioButtons;
 	/**
 	 * Hboxes
 	 */
@@ -105,6 +106,14 @@ public class OptionsDateRangeController extends Observable{
 		dateRangeAfter.setToggleGroup(toggleGroup);
 		dateRangeBetween.setToggleGroup(toggleGroup);
 		dateRangeLast.setToggleGroup(toggleGroup);
+		
+		radioButtons = new RadioButton[6];
+		radioButtons[0] = dateRangeMonth;
+		radioButtons[1] = dateRangeDay;
+		radioButtons[2] = dateRangeBefore;
+		radioButtons[3] = dateRangeAfter;
+		radioButtons[4] = dateRangeBetween;
+		radioButtons[5] = dateRangeLast;
 		
 		hboxes = new HBox[6];
 		hboxes[0] = hboxMonth;
@@ -199,14 +208,19 @@ public class OptionsDateRangeController extends Observable{
 			msg.setD1(date);
 		} else if (hbox.equals(hboxDay)) {
 			System.out.println("HboxDay");
+			msg.setState(DateRangeMessage.DAY);
 		} else if (hbox.equals(hboxBefore)) {
 			System.out.println("HboxBefore");
+			msg.setState(DateRangeMessage.BEFORE);
 		} else if (hbox.equals(hboxAfter)) {
 			System.out.println("HboxAfter");
+			msg.setState(DateRangeMessage.AFTER);
 		} else if (hbox.equals(hboxBetween)) {
 			System.out.println("HboxBetween");
+			msg.setState(DateRangeMessage.BETWEEN);
 		} else if (hbox.equals(hboxLast)) {
 			System.out.println("HboxLast");
+			msg.setState(DateRangeMessage.LAST);
 		}
 		notifyMainController();
 	}
@@ -256,6 +270,14 @@ public class OptionsDateRangeController extends Observable{
 	
 	private void notifyMainController() {
 		setChanged();
-		notifyObservers(new ObservableMessage(OPTIONS_DATERANGE_ID, null)); 
+		notifyObservers(new ObservableMessage(OPTIONS_DATERANGE_ID, msg)); 
+	}
+	
+	public void updateSettings(FilterSettingsContainer filters) {
+		this.msg = filters.getDateRangeMessage();
+		if (this.msg == null) return;
+		
+		disableNonSelectedRows(hboxes[this.msg.getState()]);
+		radioButtons[this.msg.getState()].setSelected(true);
 	}
 }
