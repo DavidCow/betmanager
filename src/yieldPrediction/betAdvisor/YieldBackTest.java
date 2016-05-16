@@ -8,9 +8,11 @@ import java.util.Map;
 import java.util.Set;
 
 import javafx.util.Pair;
+import mailParsing.BetAdvisorTip;
 import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
+import bettingBot.entities.BetTicket;
 
 public class YieldBackTest {
 	
@@ -90,7 +92,7 @@ public class YieldBackTest {
 		double numBetsFiltered = 0;
 		
 		//load models
-		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "em_seed50.model");
+		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "em_seed100.model");
 		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
 		
 		for(BetAdvisorElement element : data){
@@ -129,7 +131,7 @@ public class YieldBackTest {
 			
 			//calculate linear combination of both avg yield estimates
 			double combinedAvgYield = 1 * clusterAvgYield + 0 * tipsterAvgYield;
-			if(combinedAvgYield > 0){
+			if(combinedAvgYield > 0.01){
 				resultFiltered += p;
 				numBetsFiltered++;
 			}
@@ -224,6 +226,30 @@ public class YieldBackTest {
 		System.out.println("Total Flat Winnings Filtered: " + resultFiltered);
 		System.out.println("Yield per Bet: " + result/numBets);
 		System.out.println("Yield per Bet Filtered: " + resultFiltered/numBetsFiltered);
+	}
+	
+	public static double predictYield(BetAdvisorTip tip, BetTicket betTicket) throws Exception{
+		//load models
+		ClusterPrediction em = new ClusterPrediction("Yield_noTipster.arff", "em_seed100.model");	
+		
+		// Load historical Data
+		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
+		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		// Predict cluster
+		Instance i = em.createWekaInstance(tip.typeOfBet, tip.bestOdds, betTicket.getMaxStake());
+		int cluster = em.predictCluster(i);
+
+		// Calculate average yield
+		double betOdds = betTicket.getCurrentOdd();
+		if(tip.typeOfBet.indexOf("Over / Under") == 0 || tip.typeOfBet.indexOf("Asian handicap") == 0 || tip.typeOfBet.indexOf("Asian Handicap") == 0){
+			betOdds++;
+		}
+		double oddsRatio = Math.min(1,  betOdds / tip.bestOdds);
+		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(betAdvisorList, oddsRatio);
+		
+		double yield = yieldMap.get(cluster);
+		return yield;
 	}
 
 	public static void main(String[] args) throws Exception {

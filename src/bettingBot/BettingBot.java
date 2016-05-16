@@ -15,6 +15,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Properties;
 
+import yieldPrediction.betAdvisor.YieldBackTest;
 import jayeson.lib.datastructure.PivotType;
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
@@ -39,7 +40,7 @@ import eastbridge.BettingApi;
 
 public class BettingBot {
 	
-	private static final int numberOfMessagesToCheck = 30;
+	private static final int numberOfMessagesToCheck = 20;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
 	private static final int MAX_STAKE = 1500;
@@ -168,7 +169,7 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 30000 && funds != -1){
+			if(funds < 40000 && funds != -1){
 				System.out.println("INSUFFICIENT FUNDS");
 				System.exit(-1);
 			}
@@ -391,6 +392,14 @@ public class BettingBot {
 										if(betAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -514,6 +523,14 @@ public class BettingBot {
 										if(betAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -643,6 +660,14 @@ public class BettingBot {
 								}
 								if(bestOdd > 0 && bestOdd + 1 > tip.noBetUnder && (bestOdd + 1) > tip.bestOdds * 0.95){
 									if(bestMinStake <= MAX_STAKE){
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -836,6 +861,14 @@ public class BettingBot {
 										if(betAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + betAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);

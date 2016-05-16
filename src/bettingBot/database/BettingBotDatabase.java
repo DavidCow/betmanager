@@ -21,7 +21,7 @@ import com.google.gson.Gson;
 
 public class BettingBotDatabase {
 
-	private String dbName = "BettingBot3";
+	private String dbName = "BettingBot5";
 	private static String userName = "postgres";
 	private static String password = "postgrespass";
 	private static String port = "5433";
