@@ -2,32 +2,23 @@ package bettingManager.gui;
 
 import java.util.Observable;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.CustomMenuItem;
-
-public class OptionsTipstersController extends Observable{
+public class OptionsAddAliasesController extends Observable{
 	private MainController mainC;
-	public static int OPTIONS_TIPSTERS_ID = 8;
+	public static int OPTIONS_ADDALIASES_ID = 9;
 	
 	private OptionsController optionsController;
-	
-	@FXML OptionsAddAliasesController optionsAddAliasesController;
-	
-	@FXML CustomMenuItem customMenuItemAddAliases;
+	private OptionsTipstersController optionsTipstersController;
 	
 	/**
 	 * Initialize
 	 * @param mainC
 	 * @param opt
 	 */
-	public void init(MainController mainC, OptionsController opt) {
+	public void init(MainController mainC, OptionsController opt, OptionsTipstersController optT) {
 		this.mainC = mainC;
 		this.addObserver(mainC);
 		this.optionsController = opt;
-		optionsAddAliasesController.init(mainC, opt, this);
-		
-		customMenuItemAddAliases.setHideOnClick(false);
-		
+		this.optionsTipstersController = optT;
 //		this.msg = new DateRangeMessage();
 	}
 	
@@ -36,7 +27,7 @@ public class OptionsTipstersController extends Observable{
 	 */
 	private void notifyMainController() {
 		setChanged();
-		notifyObservers(new ObservableMessage(OPTIONS_TIPSTERS_ID, null)); 
+		notifyObservers(new ObservableMessage(OPTIONS_ADDALIASES_ID, null)); 
 	}
 	
 	/**
