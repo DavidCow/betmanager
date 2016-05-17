@@ -59,7 +59,7 @@
                <children>
                   <ChoiceBox fx:id="afterHourChoiceBox" prefHeight="25.0" prefWidth="33.0" />
                   <ChoiceBox fx:id="afterMinuteChoiceBox" prefHeight="25.0" prefWidth="35.0" />
-                  <DatePicker />
+                  <DatePicker fx:id="datePickerAfter" />
                </children>
             </HBox>
             <HBox fx:id="hboxBetween" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
@@ -72,14 +72,14 @@
                                  <children>
                                     <ChoiceBox fx:id="betweenHourChoiceBox1" prefHeight="25.0" prefWidth="33.0" />
                                     <ChoiceBox fx:id="betweenMinuteChoiceBox1" prefHeight="25.0" prefWidth="35.0" />
-                                    <DatePicker />
+                                    <DatePicker fx:id="datePickerBetween1" />
                                  </children>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <ChoiceBox fx:id="betweenHourChoiceBox2" prefHeight="25.0" prefWidth="33.0" />
                                     <ChoiceBox fx:id="betweenMinuteChoiceBox2" prefHeight="25.0" prefWidth="35.0" />
-                                    <DatePicker />
+                                    <DatePicker fx:id="datePickerBetween2" />
                                  </children>
                               </HBox>
                            </children>
@@ -90,7 +90,7 @@
             </HBox>
             <HBox fx:id="hboxLast" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <children>
-                  <TextField />
+                  <TextField fx:id="lastTextField" />
                   <ComboBox prefWidth="150.0" promptText="Tips" />
                </children>
             </HBox>

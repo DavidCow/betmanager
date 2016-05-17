@@ -16,6 +16,7 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.HBox;
 
@@ -88,10 +89,18 @@ public class OptionsDateRangeController extends Observable{
 	@FXML private ComboBox<String> monthYear;
 	
 	/**
-	 * Day
+	 * Day, Before, After, Between
 	 */
 	@FXML private DatePicker datePickerDay; 
 	@FXML private DatePicker datePickerBefore; 
+	@FXML private DatePicker datePickerAfter; 
+	@FXML private DatePicker datePickerBetween1; 
+	@FXML private DatePicker datePickerBetween2; 
+	
+	/**
+	 * Last "Tips"
+	 */
+	@FXML private TextField lastTextField;
 	
 	private DateRangeMessage msg;
 	
@@ -207,50 +216,101 @@ public class OptionsDateRangeController extends Observable{
 			System.out.println("HboxMonth");
 			msg.setState(DateRangeMessage.MONTH);
 			
-			Calendar now = Calendar.getInstance();
-			Date date = new Date();
-			now.setTime(date);
-			now.set(Calendar.MONTH, theNumberOfMonth(monthMonth.getValue()));
-			now.set(Calendar.YEAR, Integer.parseInt(monthYear.getValue()));
-			date = now.getTime();
+			Date date = get2CalendarValuesDate(Calendar.MONTH, Calendar.YEAR, theNumberOfMonth(monthMonth.getValue()), Integer.parseInt(monthYear.getValue()));
 			System.out.println(date);
 			msg.setD1(date);
 		} else if (hbox.equals(hboxDay)) {
 			System.out.println("HboxDay");
 			msg.setState(DateRangeMessage.DAY);
 			
-			LocalDate localDate = datePickerDay.getValue();
-			Instant instant = Instant.from(localDate.atStartOfDay(ZoneId.systemDefault()));
-			Date date = Date.from(instant);
+			//Get date from DatePicker
+			Date date = convertLocalDateToDate(datePickerDay.getValue());
+
 			msg.setD1(date);
+			System.out.println(date);
 		} else if (hbox.equals(hboxBefore)) {
 			System.out.println("HboxBefore");
 			msg.setState(DateRangeMessage.BEFORE);
 			
 			//Get date from DatePicker
-			Calendar now = Calendar.getInstance();
-			LocalDate localDate = datePickerBefore.getValue();
-			Instant instant = Instant.from(localDate.atStartOfDay(ZoneId.systemDefault()));
-			Date date = Date.from(instant);
+			Date date = convertLocalDateToDate(datePickerBefore.getValue());
 
 			//Set hour and minute
-			now.setTime(date);
-			now.set(Calendar.HOUR, Integer.parseInt(beforeHourChoiceBox.getValue()));
-			now.set(Calendar.MINUTE, Integer.parseInt(beforeMinuteChoiceBox.getValue()));
-			date = now.getTime();
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, Integer.parseInt(beforeHourChoiceBox.getValue()), Integer.parseInt(beforeMinuteChoiceBox.getValue()), date);
+			
 			System.out.println(date);
 			msg.setD1(date);
 		} else if (hbox.equals(hboxAfter)) {
 			System.out.println("HboxAfter");
 			msg.setState(DateRangeMessage.AFTER);
+			
+			//Get date from DatePicker
+			Date date = convertLocalDateToDate(datePickerAfter.getValue());
+			
+			//Set hour and minute
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, Integer.parseInt(afterHourChoiceBox.getValue()), Integer.parseInt(afterMinuteChoiceBox.getValue()), date);
+			
+			System.out.println(date);
+			msg.setD1(date);
 		} else if (hbox.equals(hboxBetween)) {
 			System.out.println("HboxBetween");
 			msg.setState(DateRangeMessage.BETWEEN);
+
+			//Get date from DatePicker Between
+			Date date = convertLocalDateToDate(datePickerBetween1.getValue());
+			
+			//Set hour and minute
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, Integer.parseInt(betweenHourChoiceBox1.getValue()), Integer.parseInt(betweenMinuteChoiceBox1.getValue()), date);
+			msg.setD1(date);
+			
+			//Get date from DatePicker And
+			date = convertLocalDateToDate(datePickerBetween2.getValue());
+			
+			//Set hour and minute
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, Integer.parseInt(betweenHourChoiceBox2.getValue()), Integer.parseInt(betweenMinuteChoiceBox2.getValue()), date);
+			msg.setD2(date);
+			
+			System.out.println(msg.getD1());
+			System.out.println(msg.getD2());
 		} else if (hbox.equals(hboxLast)) {
 			System.out.println("HboxLast");
 			msg.setState(DateRangeMessage.LAST);
+			
+			msg.setLast_state(DateRangeMessage.LAST_STATE_TIPS);
+			msg.setLast_state_value(Integer.parseInt(lastTextField.getText()));
+			System.out.println(msg.getLast_state_value());
 		}
 		notifyMainController();
+	}
+	
+	/**
+	 * Change 2 values, e.g. month and year, hour and minute, etc.
+	 * @return
+	 */
+	private Date get2CalendarValuesDate(int date1, int date2, int value1, int value2) {
+		Calendar now = Calendar.getInstance();
+		Date date = new Date();
+		now.setTime(date);
+		now.set(date1, value1);
+		now.set(date2, value2);
+		date = now.getTime();
+		return date;
+	}
+
+	private Date get2CalendarValuesDate(int date1, int date2, int value1, int value2, Date date) {
+		Calendar now = Calendar.getInstance();
+		now.setTime(date);
+		now.set(date1, value1);
+		now.set(date2, value2);
+		date = now.getTime();
+		return date;
+	}
+	
+	
+	private Date convertLocalDateToDate(LocalDate ld) {
+		Instant instant = Instant.from(ld.atStartOfDay(ZoneId.systemDefault()));
+		Date date = Date.from(instant);
+		return date;
 	}
 	
 	public String theMonth(int month){

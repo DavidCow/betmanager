@@ -13,7 +13,7 @@ public class DateRangeMessage {
 	public static final int BETWEEN = 4;
 	public static final int LAST = 5;
 	
-	public final int LAST_STATE_TIPS = 100;
+	public static final int LAST_STATE_TIPS = 100;
 	
 	/**
 	 * States
