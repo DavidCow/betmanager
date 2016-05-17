@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.CustomMenuItem?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.control.RadioButton?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
@@ -31,7 +25,6 @@
       		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
       	</rowConstraints>
       	<children>
-            <Button fx:id="tipstersButton" mnemonicParsing="false" onAction="#handleTipstersButton" prefHeight="25.0" prefWidth="107.0" text="Tipsters" GridPane.rowIndex="1" />
             <Button fx:id="moreFiltersButton" mnemonicParsing="false" onAction="#handleMoreFiltersButton" prefHeight="25.0" prefWidth="108.0" text="More Filters" GridPane.rowIndex="2" />
             <Button fx:id="clearAllButton" mnemonicParsing="false" onAction="#handleClearAllButton" prefHeight="25.0" prefWidth="100.0" text="Clear All" GridPane.columnIndex="2" />
             <Button fx:id="refreshButton" mnemonicParsing="false" onAction="#handleRefreshButton" prefHeight="25.0" prefWidth="106.0" text="Refresh" GridPane.columnIndex="2" GridPane.rowIndex="1" />
@@ -40,6 +33,15 @@
                   <CustomMenuItem fx:id="customMenuItemDateRange" mnemonicParsing="false" text="Unspecified Action">
                      <content>
                     	<fx:include fx:id="optionsDateRange" source="Options_DateRange.fxml" />
+                     </content>
+                  </CustomMenuItem>
+               </items>
+            </MenuButton>
+            <MenuButton fx:id="tipstersButton" accessibleHelp="Testtst" alignment="CENTER" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleTipstersButton" popupSide="RIGHT" prefHeight="26.0" prefWidth="106.0" text="Tipsters" GridPane.rowIndex="1">
+               <items>
+                  <CustomMenuItem fx:id="customMenuItemDateRange2" mnemonicParsing="false" text="Unspecified Action">
+                     <content>
+                    	<fx:include fx:id="optionsTipsters" source="Options_Tipsters.fxml" />
                      </content>
                   </CustomMenuItem>
                </items>

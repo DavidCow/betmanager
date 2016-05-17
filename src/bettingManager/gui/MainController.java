@@ -11,6 +11,10 @@ import javafx.fxml.FXML;
 
 public class MainController implements Observer{
 
+	public static final int UPDATE_MODE_ALL = 0;
+	public static final int UPDATE_MODE_NOCHECKBOX1_NO_SITES = 1;
+	
+	
 	/**
 	 * Filter controllers
 	 */
@@ -69,16 +73,19 @@ public class MainController implements Observer{
 		
 		
 		
-		updateSettingsControllers();
+		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 	}
 
-	public void updateSettingsControllers() {
+	public void updateSettingsControllers(int updateMode) {
 		/*
 		 * Update the views according to last FilterSettingsContainer
 		 */
-		checkbox1Controller.updateSettings(allFilters);
+		if (updateMode == MainController.UPDATE_MODE_ALL) {
+			checkbox1Controller.updateSettings(allFilters);
+			siteController.updateSettings(allFilters);
+		}
 		optionsController.updateSettings(allFilters);		//Updates DateRange as well
-		siteController.updateSettings(allFilters);
+		//siteController
 		averageOddsController.updateSettings(allFilters);
 		koBController.updateSettings(allFilters);
 		liquidityController.updateSettings(allFilters);
@@ -113,7 +120,13 @@ public class MainController implements Observer{
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
 		}
 		System.out.println(allFilters);
-		
+		saveFilters();
+	}
+	
+	/**
+	 * Save filters in preferences as Json string
+	 */
+	public void saveFilters() {
 		/**
 		 * Save in preferences
 		 */
@@ -122,8 +135,13 @@ public class MainController implements Observer{
 	}
 	
 	public void clearFilters() {
+		FilterSettingsContainer old = this.allFilters;
 		this.allFilters = new FilterSettingsContainer();
-		updateSettingsControllers();
+		//Don't clear Data and Site (Requested by stakeholder)
+		this.allFilters.setDataState(old.getDataState());
+		this.allFilters.setSitesList(old.getSitesList());
+		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1_NO_SITES);
+		saveFilters();
 	}
 	
 	

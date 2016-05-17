@@ -22,14 +22,16 @@ public class OptionsController extends Observable{
 	 * Buttons
 	 */
 	@FXML private MenuButton dateRangeButton;
-	@FXML private Button tipstersButton;
+	@FXML private MenuButton tipstersButton;
 	@FXML private Button moreFiltersButton;
 	@FXML private Button clearAllButton;
 	@FXML private Button refreshButton;
 	
-	@FXML private CustomMenuItem customMenuItemDateRange;
+	@FXML private CustomMenuItem customMenuItemDateRange;  //DateRange
+	@FXML private CustomMenuItem customMenuItemDateRange2; //Tipsters
 	
 	@FXML OptionsDateRangeController optionsDateRangeController;
+	@FXML OptionsTipstersController optionsTipstersController;
 	
 	
 	public void init(MainController mainC) {
@@ -40,8 +42,10 @@ public class OptionsController extends Observable{
 		 * Subcontroller
 		 */
 		optionsDateRangeController.init(mainC, this);
+		optionsTipstersController.init(mainC, this);
 		
 		customMenuItemDateRange.setHideOnClick(false);
+		customMenuItemDateRange2.setHideOnClick(false);
 	}
 	
 	
@@ -91,7 +95,7 @@ public class OptionsController extends Observable{
 	}
 
 	public void hideWindow() {
-		customMenuItemDateRange.setHideOnClick(true);
+//		customMenuItemDateRange.setHideOnClick(true);
 	}
 
 	private void notifyMainController() {
@@ -102,6 +106,7 @@ public class OptionsController extends Observable{
 
 	public void updateSettings(FilterSettingsContainer allFilters) {
 		optionsDateRangeController.updateSettings(allFilters);
+		optionsTipstersController.updateSettings(allFilters);
 	}
 	
 }
