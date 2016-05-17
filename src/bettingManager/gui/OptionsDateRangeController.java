@@ -343,24 +343,35 @@ public class OptionsDateRangeController extends Observable{
 		choiceBox.setItems(list);
 	}
 	
+	/**
+	 * Populate the Years Dropdown field
+	 */
 	private void populateMonthYear() {
 		ObservableList<String> list = FXCollections.observableArrayList(monthNames);
 		monthMonth.setItems(list);
 		
-		int start = 2000;
-		int end = 2016;
+		int start = 2006; 							//STARTYEAR
+		Calendar now = Calendar.getInstance();
+		int end = now.get(Calendar.YEAR);			//ENDYEAR (current year
 		list = FXCollections.observableArrayList();
-		for(int i=start; i<=end; i+=1) {
+		for(int i=end; i>=start; i-=1) {
 			list.add(""+i);
 		}
 		monthYear.setItems(list);
 	}
 	
+	/**
+	 * Notify MainController with the current msg
+	 */
 	private void notifyMainController() {
 		setChanged();
 		notifyObservers(new ObservableMessage(OPTIONS_DATERANGE_ID, msg)); 
 	}
 	
+	/**
+	 * Select the last used RadioButton
+	 * @param filters
+	 */
 	public void updateSettings(FilterSettingsContainer filters) {
 		this.msg = filters.getDateRangeMessage();
 		if (this.msg == null) return;
