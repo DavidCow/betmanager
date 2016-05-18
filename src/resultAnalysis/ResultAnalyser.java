@@ -227,7 +227,7 @@ public class ResultAnalyser {
 				odd = bet.getBetOdd();
 			}
 			
-			oddDifference += odd / tip.bestOdds;
+			oddDifference += odd / Math.max(1, tip.bestOdds);
 			
 			int stakeIndex = -1;
 			for(int j = 0; j < numberOfStakes; j++){
@@ -276,7 +276,7 @@ public class ResultAnalyser {
 			}
 		}
 		
-		for(int i = 0; i < betsBlogaBet.size(); i++){
+		for(int i = 0; i < 0; i++){
 			Bet bet = betsBlogaBet.get(i);
 			System.out.println(bet.getBetStatus());
 			Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
@@ -314,7 +314,7 @@ public class ResultAnalyser {
 				odd = bet.getBetOdd();
 			}
 			
-			oddDifference += odd / tip.odds;
+			oddDifference += odd / Math.max(1, tip.odds);
 			
 			int stakeIndex = -1;
 			for(int j = 0; j < numberOfStakes; j++){
