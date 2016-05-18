@@ -8,8 +8,10 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 
 import javax.swing.JFrame;
 
@@ -158,6 +160,7 @@ public class ResultAnalyser {
 		Collections.sort(betsBlogaBet, new BetComparator());
 		List<Double> profitByBet = new ArrayList<Double>();
 		double profit = 0;
+		double runningInvestments = 0;
 		double oddDifference = 0;
 		double averageLiquidity = 0;
 		int numberOfLiquidityBets = 0;
@@ -202,12 +205,23 @@ public class ResultAnalyser {
 		System.out.println("maxStake: " + maxMaxStakeAllBets);
 		System.out.println("minStake: " + minMaxStakeAllBets);
 		
+		double turnOver = 0;
+		
+		Set<String> processedTipsBetAdvisor = new HashSet<String>();
 		for(int i = 0; i < bets.size(); i++){
 			Bet bet = bets.get(i);
 			Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
 			SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
 			
 			BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+			String key = tip.tipster + tip.event + tip.date.toString();
+			if(processedTipsBetAdvisor.contains(key))
+				continue;
+			processedTipsBetAdvisor.add(key);
+			
+			turnOver += bet.getBetAmount();
+			
+			
 			String betTicketJsonString = bet.getBetTicketJsonString();
 			BetTicket betTicket = null;
 			if(betTicketJsonString != null){
@@ -246,6 +260,7 @@ public class ResultAnalyser {
 			
 			if(bet.getBetStatus() == 1){
 				numberOfRunninngBets++;
+				runningInvestments += bet.getBetAmount();
 			}
 			if(bet.getBetStatus() == 4){
 				numberOfWonBets++;
@@ -281,6 +296,7 @@ public class ResultAnalyser {
 			System.out.println(bet.getBetStatus());
 			Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
 			SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+			turnOver += bet.getBetAmount();
 			
 			String tipJsonString = bet.getTipJsonString();
 			int startStake = tipJsonString.indexOf("\"stake\"") + 9;
@@ -333,6 +349,7 @@ public class ResultAnalyser {
 			
 			if(bet.getBetStatus() == 1){
 				numberOfRunninngBets++;
+				runningInvestments += bet.getBetAmount();
 			}
 			if(bet.getBetStatus() == 4){
 				numberOfWonBets++;
@@ -359,6 +376,17 @@ public class ResultAnalyser {
 				numberOfCancelledBets++;
 			}
 			if(bet.getBetStatus() == 7){
+				if(record.getPivotType() == PivotType.HDP){
+					if(record.getPivotValue() == 0.5){
+						System.out.println();
+					}
+					if(record.getPivotValue() == 0.25){
+						System.out.println();
+					}
+					if(record.getPivotValue() == 0.75){
+						System.out.println();
+					}
+				}
 				numberOfDrawnBets++;
 			}
 		}
@@ -367,7 +395,9 @@ public class ResultAnalyser {
 		averageYield /= bets.size() + betsBlogaBet.size();
 		averageLiquidity /= numberOfLiquidityBets;
 		
+		System.out.println("turnover: " + turnOver);
 		System.out.println("numberOfRunninngBets: " + numberOfRunninngBets);
+		System.out.println("running Investments: " + runningInvestments);
 		System.out.println("numberOfWonBets: " + numberOfWonBets);
 		System.out.println("numberOfLostBets: " + numberOfLostBets);
 		System.out.println("numberOfDrawnBets: " + numberOfDrawnBets);
