@@ -25,6 +25,11 @@ public class MainController implements Observer{
 	@FXML KoBController koBController;
 	@FXML LiquidityController liquidityController;
 	
+	/**
+	 * Table controller
+	 */
+	@FXML TableKindOfBetController tableKindOfBetController;
+	
 	
 	/**
 	 * All filter options
@@ -71,7 +76,7 @@ public class MainController implements Observer{
 		koBController.init(this);
 		liquidityController.init(this);
 		
-		
+		tableKindOfBetController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 	}
@@ -119,6 +124,7 @@ public class MainController implements Observer{
 			System.out.println("OptionsDateRangeContr has sent something");
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
 		}
+		//ADD Tipsters
 		System.out.println(allFilters);
 		saveFilters();
 	}
