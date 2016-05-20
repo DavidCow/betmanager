@@ -52,6 +52,36 @@ public class ArffCreator {
 		activeTipsters.add("Darijo Belic");
 	}
 	
+	private static Set<String> activeTipstersBlogaBet = new HashSet<String>(); 
+	static{
+		activeTipsters.add("Adirondack");
+		activeTipsters.add("batigol");
+		activeTipsters.add("Borja");
+		activeTipsters.add("Brazzookka");
+		activeTipsters.add("LupoAlberto81");
+		activeTipsters.add("onlydraw1");
+		activeTipsters.add("rooney27");
+		activeTipsters.add("Tsubasa10");
+		activeTipsters.add("Mrbetting85");
+		activeTipsters.add("anniruby");
+		activeTipsters.add("atpkokkinakis");
+		activeTipsters.add("Ksasha");
+		activeTipsters.add("BrandonPark");
+		activeTipsters.add("bettingspaintips");
+		activeTipsters.add("BierBaron192");
+		activeTipsters.add("XLNC");
+		activeTipsters.add("claptone");
+		activeTipsters.add("Taivo");
+		activeTipsters.add("atpkokkinakis");
+		activeTipsters.add("Brasil");
+		activeTipsters.add("Kneipe");
+		activeTipsters.add("bobic");
+		activeTipsters.add("Editor");
+		activeTipsters.add("atpkokkinakis");
+		activeTipsters.add("inittowinit");
+		activeTipsters.add("stefaan10");
+	}
+	
 	private void useStringToNominalFilter(int start, int end){
 		StringToNominal stn = new StringToNominal();
 		stn.setAttributeRange(start + "-" + end);
