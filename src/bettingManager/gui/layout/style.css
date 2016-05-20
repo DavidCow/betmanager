@@ -185,6 +185,11 @@ linear-gradient(to bottom, derive(-fx-base,+50%), derive(-fx-base,-40%), derive(
 	  -fx-text-fill: black;
 }
 
+/* labels of filters */
+#activeFiltersLab {
+	-fx-font-weight: bold;
+}
+
 
 #optionsVbox {
     -fx-background-radius: 5,4,3,5;

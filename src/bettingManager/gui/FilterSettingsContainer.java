@@ -138,9 +138,11 @@ public class FilterSettingsContainer {
 	
 	private String getSitesString() {
 		String siteLabel = "";
-		for(String s:getSitesList()) {
-			siteLabel += s;
-			siteLabel += ", ";
+		for(int i=0; i<getSitesList().size(); i+=1) {
+			siteLabel += getSitesList().get(i);
+			if(i < getSitesList().size()-1) {
+				siteLabel += ", ";
+			}
 		}
 		return siteLabel;
 	}

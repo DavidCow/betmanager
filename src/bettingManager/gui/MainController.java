@@ -85,6 +85,7 @@ public class MainController implements Observer{
 		tableKindOfBetController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
+		updateFilterLabel();
 	}
 
 	public void updateSettingsControllers(int updateMode) {

@@ -102,8 +102,11 @@
 						</HBox>
             <HBox fx:id="hboxActiveFilters" prefHeight="26.0" prefWidth="1087.0">
                <children>
-                  <Label layoutX="20.0" layoutY="10.0" prefHeight="24.0" prefWidth="76.0" text="Active Filters: " />
-						<Label fx:id="activeFiltersLabel" prefHeight="24.0" prefWidth="994.0">
+                  <Label id="activeFiltersLab" layoutX="20.0" layoutY="10.0" prefHeight="24.0" prefWidth="116.0" text="Active Filters: ">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></Label>
+						<Label fx:id="activeFiltersLabel" prefHeight="24.0" prefWidth="936.0">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>

@@ -68,10 +68,13 @@ public class DateRangeMessage {
 	
 	public String getAllFiltersLabel() {
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(d1);
-
-		String timeString = hourOrMinuteString(cal.get(Calendar.HOUR_OF_DAY)) + ":" + hourOrMinuteString(cal.get(Calendar.MINUTE));
-		String d1String = cal.get(Calendar.DAY_OF_MONTH) + " " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
+		String timeString = "";
+		String d1String = "";
+		if (d1 != null) {
+			cal.setTime(d1);
+			timeString = hourOrMinuteString(cal.get(Calendar.HOUR_OF_DAY)) + ":" + hourOrMinuteString(cal.get(Calendar.MINUTE));
+			d1String = cal.get(Calendar.DAY_OF_MONTH) + " " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
+		}
 		
 		if (state == MONTH) {
 			return "Month: " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
