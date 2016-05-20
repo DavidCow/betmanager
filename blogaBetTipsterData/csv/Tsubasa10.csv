@@ -1,0 +1,316 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-05-18 10:00:00,SOC,Japan,Kashiwa Reysol - Albirex Niigata,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away),1:2 (0:0),Dafabet,2,5.00,-5.00,Tsubasa10,2016-05-18 08:02:13
+2,2016-05-18 10:00:00,SOC,Japan,Ventforet Kofu - Vissel Kobe,7.12,WIN,Full Time Excluding Overtime Under 2.5 (Over/Under),0:2 (0:0),SBOBET,1.78,4.00,3.12,Tsubasa10,2016-05-18 07:54:42
+3,2016-05-13 10:00:00,SOC,Japan,Gamba Osaka - Jubilo Iwata,9.9,WIN,Full Time Excluding Overtime Home -0.50 (Asian Handicap),2:1 (1:1),SBOBET,1.98,5.00,4.90,Tsubasa10,2016-05-13 08:15:30
+4,2016-05-07 04:00:00,SOC,Japan,Mito Hollyhock - Giravanz Kitakyushu,2.00,PUSH,Full Event Away +0.00 (AH),1:1,PINNACLE,2.59,2.00,0.00,Tsubasa10,2016-05-06 11:42:40
+5,2016-05-07 04:00:00,SOC,Japan,Mito Holly Rock - Giravanz Kitakyushu,3.64,WIN,Full Time Excluding Overtime Away +0.50 (Asian Handicap),1:1,188bet,1.82,2.00,1.64,Tsubasa10,2016-05-06 11:42:20
+6,2016-05-08 09:00:00,SOC,Japan,FC Gifu - Shimizu,5.00,PUSH,Full Event Away (DNB),1:1,Bet365,1.8,5.00,0.00,Tsubasa10,2016-05-05 07:41:55
+7,2016-05-03 10:30:00,SOC,Livebet,Urawa Red Diamonds - Pohang Steelers,3.68,WIN,Full Event Under 2.5 (O/U) (0-0),1:1 (0:0),PINNACLE,1.84,2.00,1.68,Tsubasa10,2016-05-03 10:34:37
+8,2016-05-03 10:00:00,SOC,Asia,Melbourne Victory - Gamba Osaka,2.00,PUSH,Full Event Home -1.00 (AH),2:1 (2:0),PINNACLE,1806,2.00,0.00,Tsubasa10,2016-05-02 18:42:54
+9,2016-05-04 07:00:00,SOC,Japan,Vissel Kobe - Jubilo Iwata,0.00,LOST,Full Time Excluding Overtime Away +0.50 (Asian Handicap),4:1 (1:1),SBOBET,1.87,3.00,-3.00,Tsubasa10,2016-05-02 14:00:47
+10,2016-04-29 07:00:00,SOC,Livebet,Cerezo Osaka - Kyoto Sanga,0.00,LOST,Full Event Home -0.50 (AH) (0-1),0:2 (0:1),PINNACLE,1813,3.00,-3.00,Tsubasa10,2016-04-29 07:57:13
+11,2016-04-29 04:00:00,SOC,Japan,Gamba Osaka - Kawasaki Frontale,0.00,LOST,Full Event Home +0.00 (AH),0-1,PINNACLE,1763,3.00,-3.00,Tsubasa10,2016-04-28 09:20:58
+12,2016-04-23 04:00:00,SOC,Livebet,Consadole Sapporo - Cerezo Osaka,1.00,PUSH,Rest of 1st Half Away 0 (Asian Handicap) (0:0),1:0 (0:0),SBOBET,1.7,1.00,0.00,Tsubasa10,2016-04-23 04:17:39
+13,2016-04-23 04:00:00,SOC,Japan,Consadole Sapporo - Cerezo Osaka,0.00,LOST,Full Time Excluding Overtime Away -0.25 (Asian Handicap),1:0,SBOBET,2.02,2.00,-2.00,Tsubasa10,2016-04-22 17:04:08
+14,2016-04-23 04:00:00,SOC,Japan,Consadole Sapporo - Cerezo Osaka,0.00,LOST,Full Time Excluding Overtime Over 2.0 (Over/Under),1:0,Dafabet,1.87,2.00,-2.00,Tsubasa10,2016-04-22 17:03:49
+15,2016-04-23 05:00:00,SOC,Japan,Tokyo Verdy 1969 - Mito Holly Rock,0.00,LOST,Full Time Excluding Overtime Home 0 (Asian Handicap),0:3,SBOBET,1.84,3.00,-3.00,Tsubasa10,2016-04-22 10:48:58
+16,2016-04-20 10:00:00,SOC,Asia,Sydney FC - Urawa Red Diamonds,1.00,PUSH,Full Time Excluding Overtime Away 0 (Asian Handicap),0:0 (0:0),SBOBET,1.88,1.00,0.00,Tsubasa10,2016-04-20 09:30:51
+17,2016-04-20 10:30:00,SOC,Japan,Yokohama F Marinos - Sagan Tosu,0.00,LOST,Full Time Excluding Overtime Away +0.25 (Asian Handicap),1:0 (1:0),Bet365,1.85,3.00,-3.00,Tsubasa10,2016-04-20 08:32:36
+18,2016-04-20 10:00:00,SOC,Japan,Vissel Kobe - Omiya Ardija,0.00,LOST,Full Time Excluding Overtime Over 2.5 (Over/Under),1:1 (0:1),SBOBET,1.86,2.00,-2.00,Tsubasa10,2016-04-20 08:00:54
+19,2016-04-20 10:00:00,SOC,Japan,Vissel Kobe - Omiya Ardija,0.00,LOST,Full Time Excluding Overtime Home -0.50 (Asian Handicap),1:1 (0:1),SBOBET,1.86,3.00,-3.00,Tsubasa10,2016-04-20 08:00:21
+20,2016-04-17 07:00:00,SOC,Livebet,Urawa Red Diamonds Women v Speranza Takatsuki Women,0.00,LOST,Urawa Red Diamonds Women -0.5 (Asian Handicap In-Play) (0-1),0:3,Bet365,1.8,1.00,-1.00,Tsubasa10,2016-04-17 05:02:08
+21,2016-04-17 04:00:00,SOC,Livebet,Tokushima Vortis - Renofa Yamaguchi,1.43,WIN,Rest of Match Home +0.25 (Asian Handicap) (1:1),1:1,SBOBET,1.85,1.00,0.43,Tsubasa10,2016-04-17 04:59:00
+22,2016-04-16 05:00:00,SOC,Livebet,Urawa Red Diamonds - Vegalta Sendai,3.78,WIN,Full Event Home -0.50 (AH) (1-1),3:1,PINNACLE,1892,2.00,1.78,Tsubasa10,2016-04-16 06:26:27
+23,2016-04-16 05:00:00,SOC,Livebet,Urawa Red Diamonds - Vegalta Sendai,3.68,WIN,Full Event Home -0.75 (AH) (0-0),3:1,PINNACLE,1.84,2.00,1.68,Tsubasa10,2016-04-16 06:10:38
+24,2016-04-15 10:00:00,SOC,Livebet,Gamba Osaka - Kashiwa Reysol,3.68,WIN,Full Time Excluding Overtime Over 0.5 (Over/Under) (0:0),0:1 (0:0),SBOBET,1.84,2.00,1.68,Tsubasa10,2016-04-15 11:29:39
+25,2016-04-17 05:00:00,SOC,Japan,Montedio Yamagata - Consadole Sapporo,2.00,PUSH,Full Time Excluding Overtime Away 0 (Asian Handicap),1:1,188bet,1.82,2.00,0.00,Tsubasa10,2016-04-14 16:17:38
+26,2016-04-16 04:00:00,SOC,Japan,Avispa Fukuoka - Nagoya Grampus Eight,3.00,PUSH,Full Time Excluding Overtime Away 0 (Asian Handicap),postp.,188bet,1.9,3.00,0.00,Tsubasa10,2016-04-13 08:10:22
+27,2016-04-10 05:00:00,SOC,Japan,Ventforet Kofu - Shonan Bellmare,0.00,LOST,Full Event Away +0.00 (AH),3:1,PINNACLE,1943,2.00,-2.00,Tsubasa10,2016-04-09 17:13:36
+28,2016-04-09 09:30:00,SOC,Livebet,Shimizu S-Pulse - Cerezo Osaka,5.97,WIN,Full Event Away +0.00 (AH) (0-0),0:2,PINNACLE,1.99,3.00,2.97,Tsubasa10,2016-04-09 10:28:10
+29,2016-04-09 07:00:00,SOC,Japan,JEF United Ichihara - Zweigen Kanazawa,0.00,LOST,Full Event Over 2 (O/U),1:0,PINNACLE,1833,2.00,-2.00,Tsubasa10,2016-04-08 09:44:04
+30,2016-04-09 07:00:00,SOC,Japan,Jef United Ichihara Chiba - Zweigen Kanazawa,2.94,WIN,Full Time Excluding Overtime Home -0.75 (Asian Handicap),1:0,SBOBET,1.94,2.00,0.94,Tsubasa10,2016-04-08 09:43:54
+31,2016-04-06 10:00:00,SOC,Livebet,Becamex Binh Duong - Jeonbuk Hyundai Motors,0.00,LOST,Full Event Away -1.50 (AH) (1-0),3:2 (2:2),PINNACLE,1877,3.00,-3.00,Tsubasa10,2016-04-06 10:18:05
+32,2016-04-06 10:30:00,SOC,Japan,Yokohama F Marinos - Kashiwa Reysol,5.76,WIN,Full Time Excluding Overtime Away +0.25 (Asian Handicap),1-3,188bet,1.92,3.00,2.76,Tsubasa10,2016-04-06 08:39:27
+33,2016-04-06 10:00:00,SOC,Japan,Albirex Niigata - Kawasaki Frontale,0.00,LOST,Full Time Excluding Overtime Home 0 (Asian Handicap),0:5 (0:3),SBOBET,2.09,3.00,-3.00,Tsubasa10,2016-04-06 07:51:44
+34,2016-04-05 10:30:00,SOC,Livebet,FC Seoul - Shandong Luneng,0.00,LOST,Full Event Over 1.5 (O/U) (0-0),0:0 (0:0),PINNACLE,2.09,2.00,-2.00,Tsubasa10,2016-04-05 11:17:40
+35,2016-04-03 07:00:00,SOC,Livebet,Cerezo Osaka - Jef United Ichihara Chiba,2,WIN,Rest of Match Home -0.50 (Asian Handicap) (0-0),2:1,SBOBET,2,1.00,1.00,Tsubasa10,2016-04-03 07:33:15
+36,2016-04-03 07:00:00,SOC,Livebet,Cerezo Osaka - Jef United Ichihara Chiba,1.83,WIN,Full Time Excluding Overtime Over 1.75 (Over/Under) (0-0),2:1,Bet365,1825,1.00,0.83,Tsubasa10,2016-04-03 07:29:42
+37,2016-04-02 05:00:00,SOC,Livebet,Avispa Fukuoka - Albirex Niigata,0.00,LOST,Full Time Excluding Overtime Over 1.5 (Over/Under) (0-1),0:1,SBOBET,1.82,2.00,-2.00,Tsubasa10,2016-04-02 06:26:33
+38,2016-04-01 10:30:00,SOC,Livebet,Sanfrecce Hiroshima - Vegalta Sendai,3.66,WIN,Rest of Match Home -0.75 (Asian Handicap) (0-0),3:0 (0:0),SBOBET,1.83,2.00,1.66,Tsubasa10,2016-04-01 10:53:22
+39,2016-04-02 07:00:00,SOC,Japan,Omiya Ardija - Jubilo Iwata,2.00,PUSH,Full Event Home +0.00 (AH),1:1,PINNACLE,1847,2.00,0.00,Tsubasa10,2016-03-30 08:59:01
+40,2016-03-27 06:00:00,SOC,Livebet,Kawasaki Frontale - Avispa Fukuoka,1.88,WIN,Rest of Match Away +0.50 (Asian Handicap) (0-0),0:1,SBOBET,1.88,1.00,0.88,Tsubasa10,2016-03-27 07:14:28
+41,2016-03-27 05:00:00,SOC,Japan,Vissel Kobe - Kashima Antlers,3.9,WIN,Full Time Excluding Overtime Home +0.25 (Asian Handicap),4-1,SBOBET,1.95,2.00,1.90,Tsubasa10,2016-03-27 04:50:28
+42,2016-03-27 06:00:00,SOC,Japan,Kashiwa Reysol - Vegalta Sendai,0.00,LOST,Full Time Excluding Overtime Over 2.5 (Over/Under),0-1,SBOBET,1.92,2.00,-2.00,Tsubasa10,2016-03-27 04:43:16
+43,2016-03-27 06:00:00,SOC,Japan,Kashiwa Reysol - Vegalta Sendai,4.04,WIN,Full Time Excluding Overtime Away +0.25 (Asian Handicap),0-1,SBOBET,2.02,2.00,2.04,Tsubasa10,2016-03-27 04:41:52
+44,2016-03-26 07:00:00,SOC,Livebet,Yokohama FC - Ehime FC,2.00,PUSH,Rest of Match Away 0 (Asian Handicap) (0-0),0:0,SBOBET,1.83,2.00,0.00,Tsubasa10,2016-03-26 07:28:37
+45,2016-03-26 04:00:00,SOC,Japan,Matsumoto Yamaga FC - Renofa Yamaguchi,1,LOST,Full Time Excluding Overtime Home -0.25 (Asian Handicap),3:3,SBOBET,1.9,2.00,-1.00,Tsubasa10,2016-03-25 11:50:10
+46,2016-03-23 10:00:00,SOC,Japan,Jubilo Iwata - Vissel Kobe,5.7,WIN,Full Time Excluding Overtime Away 0 (Asian Handicap),1:2 (1:1),SBOBET,1.9,3.00,2.70,Tsubasa10,2016-03-23 08:02:12
+47,2016-03-20 07:00:00,SOC,Livebet,Ehime FC v FC Gifu,0.00,LOST,Ehime FC or Draw (Double Chance) (0-1),0:3,Bet365,2,1.00,-1.00,Tsubasa10,2016-03-20 08:07:10
+48,2016-03-20 05:00:00,SOC,Livebet,FC Tokyo U23 v FC Ryukyu,1.85,WIN,FC Ryukyu 0 (Asian Handicap In-Play) (0-0),2:3,Bet365,1.85,1.00,0.85,Tsubasa10,2016-03-20 05:14:34
+49,2016-03-19 05:00:00,SOC,Japan,Albirex Niigata - Kashiwa Reysol,2.81,WIN,Full Event Away +0.25 (AH),2:2,PINNACLE,1806,2.00,0.81,Tsubasa10,2016-03-18 19:39:14
+50,2016-03-20 04:00:00,SOC,Japan,Montedio Yamagata - Cerezo Osaka,3.44,WIN,Full Time Excluding Overtime Away 0 (Asian Handicap),0-1,SBOBET,1.72,2.00,1.44,Tsubasa10,2016-03-18 18:05:39
+51,2016-03-20 04:00:00,SOC,Japan,Shimizu S-pulse - Consadole Sapporo,0.00,LOST,Full Time Excluding Overtime Home -0.50 (Asian Handicap),0-2,SBOBET,2.01,3.00,-3.00,Tsubasa10,2016-03-17 14:16:36
+52,2016-03-12 09:30:00,SOC,Livebet,Kashiwa Reysol - Jubilo Iwata,4.4,WIN,Full Time Excluding Overtime Over 2.50 (Over/Under),2:2,SBOBET,2.2,2.00,2.40,Tsubasa10,2016-03-12 10:26:23
+53,2016-03-12 05:00:00,SOC,Livebet,Vegalta Sendai - Kashima Antlers,0.00,LOST,Full Time Excluding Overtime Over 1.50 (Over/Under),1:0,SBOBET,1.9,1.00,-1.00,Tsubasa10,2016-03-12 06:32:47
+54,2016-03-11 10:00:00,SOC,Japan,Gamba Osaka - Omiya Ardija,1,LOST,Full Time Excluding Overtime Away +0.75 (Asian Handicap),2:1 (0:0),SBOBET,1.83,2.00,-1.00,Tsubasa10,2016-03-11 08:32:08
+55,2016-03-13 07:00:00,SOC,Japan,Roasso Kumamoto - Tokyo Verdy 1969,0.00,LOST,Full Time Excluding Overtime Away 0 (Asian Handicap),1:0,SBOBET,1.95,2.00,-2.00,Tsubasa10,2016-03-10 15:30:15
+56,2016-03-13 06:00:00,SOC,Japan,Jef United Ichihara Chiba - Yokohama FC,4.53,WIN,Full Time Excluding Overtime Home -0.75 (Asian Handicap),1:0,SBOBET,2.02,3.00,1.53,Tsubasa10,2016-03-10 08:34:53
+57,2016-03-09 10:35:00,SOC,Livebet,Australia (W) - China (W),1.88,WIN,Full Time Excluding Overtime Over 1.50 (Over/Under),1:1,SBOBET,1.88,1.00,0.88,Tsubasa10,2016-03-09 12:04:02
+58,2016-03-06 06:00:00,SOC,Livebet,Nagoya Grampus Eight - Sanfrecce Hiroshima,0.5,LOST,Rest of Match Away -0.25 (Asian Handicap),1:1,SBOBET,2.11,1.00,-0.50,Tsubasa10,2016-03-06 07:27:21
+59,2016-03-06 05:00:00,SOC,Livebet,ThespaKusatsu Gunma - Zweigen Kanazawa,1.8,WIN,Rest of Match Home 0 (Asian Handicap),2:1,SBOBET,1.8,1.00,0.80,Tsubasa10,2016-03-06 05:22:04
+60,2016-03-05 10:00:00,SOC,Livebet,Avispa Fukuoka - Yokohama F Marinos,3.48,WIN,Full Time Excluding Overtime Under 3.25 (Over/Under) (1:0),1:1,SBOBET,1.74,2.00,1.48,Tsubasa10,2016-03-05 10:12:53
+61,2016-03-05 07:00:00,SOC,Livebet,Omiya Ardija - Kashiwa Reysol,0.00,LOST,Full Time Excluding Overtime Over 2.50 (Over/Under) (2:0),2:0,SBOBET,1.86,1.00,-1.00,Tsubasa10,2016-03-05 08:34:37
+62,2016-03-06 05:00:00,SOC,Japan,Urawa Red Diamonds - Jubilo Iwata,0.00,LOST,Full Event Home -1.00 (AH),1:2,PINNACLE,1709,2.00,-2.00,Tsubasa10,2016-03-04 20:31:30
+63,2016-03-01 07:30:00,SOC,Asia,Shandong Luneng - Buriram United FC,3.8,WIN,Full Time Excluding Overtime Home -1.00 (Asian Handicap),3:0,SBOBET,1.9,2.00,1.80,Tsubasa10,2016-03-01 06:47:31
+64,2016-02-27 06:00:00,SOC,Japan,Kashiwa Reysol - Urawa Red Diamonds,1.81,WIN,Full Time Excluding Overtime Away -0.25 (Asian Handicap),1:2,SBOBET,1.81,1.00,0.81,Tsubasa10,2016-02-27 04:27:59
+65,2016-02-27 09:30:00,SOC,Japan,Yokohama F.Marinos - Vegalta Sendai,3.68,WIN,Full Event Away +0.75 (AH),0:1,PINNACLE,1.84,2.00,1.68,Tsubasa10,2016-02-26 10:52:37
+66,2016-02-27 06:00:00,SOC,Japan,Kashiwa Reysol - Urawa Red Diamonds,5.75,WIN,Full Event Away -0.25 (AH),1:2,PINNACLE,1917,3.00,2.75,Tsubasa10,2016-02-25 14:11:17
+67,2016-02-27 06:00:00,SOC,Other,Shonan Bellmare - Albirex Niigata,5.49,WIN,Full Time Excluding Overtime Away +0.25 (Asian Handicap),1:2,Dafabet,1.83,3.00,2.49,Tsubasa10,2016-02-24 13:19:19
+68,2016-02-21 04:30:00,SOC,Other,FC Gifu - Vissel Kobe,0.00,LOST,Over 2.5,0:1,Dafabet,1.91,2.00,-2.00,Tsubasa10,2016-02-20 20:53:47
+69,2016-02-09 11:30:00,SOC,Livebet,FC Tokyo - Chonburi FC,0.00,LOST,Chonburi FC +2 (Asian Handicap-Rest of Match)(2:0),9-0,SBOBET,2.01,2.00,-2.00,Tsubasa10,2016-02-09 10:44:42
+70,2016-02-04 05:00:00,SOC,Livebet,Kashima Antlers - Jef United Ichihara Chiba,0.00,LOST,FT Home -0.75 (0:0),0-1,188bet,1.81,1.00,-1.00,Tsubasa10,2016-02-04 05:27:49
+71,2016-02-04 03:00:00,SOC,Friendly,Avispa Fukuoka - Roasso Kumamoto,1,LOST,Avispa Fukuoka -0.25 (Asian Handicap-Full Time Excluding Overtime),0-0,SBOBET,1.9,2.00,-1.00,Tsubasa10,2016-02-03 14:16:22
+72,2016-02-04 06:00:00,SOC,Japan,Kashima Antlers-JEF United,0.00,LOST,1 ( 1X2),0-1,Bet365,1.91,4.00,-4.00,Tsubasa10,2016-02-03 12:04:25
+73,2016-02-03 02:00:00,SOC,Livebet,Giravanz Kitakyushu - Jubilo Iwata,1.4,WIN,HT Home +0.25 (0:0),0-0,188bet,1.8,1.00,0.40,Tsubasa10,2016-02-03 02:31:48
+74,2016-02-02 03:00:00,SOC,Friendly,Jef United Ichihara Chiba - Avispa Fukuoka,0.00,LOST,Avispa Fukuoka 0 (Asian Handicap-Full Time Excluding Overtime),5-1,SBOBET,2.13,2.00,-2.00,Tsubasa10,2016-02-01 11:02:56
+75,2016-01-30 14:45:00,SOC,Int'l U23,Korea Republic U23 - Japan U23,3.7,WIN,Away 0 (Match),2-3,PINNACLE,1.85,2.00,1.70,Tsubasa10,2016-01-28 08:56:44
+76,2016-01-27 07:00:00,SOC,Other,Consadole Sapporo - FC Tokyo,3.44,WIN,FC Tokyo 0.0AH,1-2,SBOBET,1.72,2.00,1.44,Tsubasa10,2016-01-27 06:28:04
+77,2015-12-29 07:05:00,SOC,Livebet,Gamba Osaka - Sanfrecce Hiroshima,5.7,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(1:0),3-0,SBOBET,1.9,3.00,2.70,Tsubasa10,2015-12-29 07:35:30
+78,2015-12-29 04:05:00,SOC,Japan,Urawa Red Diamonds (n) - Kashiwa Reysol,0.00,LOST,Home -0.5 (Match),0-0,PINNACLE,1.81,2.00,-2.00,Tsubasa10,2015-12-28 18:41:46
+79,2015-12-16 10:30:00,SOC,International,Sanfrecce Hiroshima - River Plate,5.76,WIN,Away -0.5 (Match),0-1,PINNACLE,1.92,3.00,2.76,Tsubasa10,2015-12-16 09:54:52
+80,2015-11-29 06:30:00,SOC,Japan,Avispa Fukuoka - V-Varen Nagasaki,2.17,WIN,Home -0.25 (Match),1-0,PINNACLE,2.17,1.00,1.17,Tsubasa10,2015-11-29 06:22:13
+81,2015-11-29 07:30:00,SOC,Japan,Avispa Fukuoka - V-Varen Nagasaki,5.43,WIN,Avispa Fukuoka 0 (Asian Handicap-Full Time Excluding Overtime),1-0,188bet,1.81,3.00,2.43,Tsubasa10,2015-11-29 05:51:32
+82,2015-11-22 05:30:00,SOC,Livebet,Gamba Osaka - Montedio Yamagata,5.91,WIN,Gamba Osaka -0.5 (Asian Handicap-Rest of Match)(0:0),4-0,SBOBET,1.97,3.00,2.91,Tsubasa10,2015-11-22 05:43:37
+83,2015-11-23 06:00:00,SOC,Japan,FC Gifu - Avispa Fukuoka,5.37,WIN,Avispa Fukuoka -0.5 (Asian Handicap-Full Time Excluding Overtime),1-4,188bet,1.79,3.00,2.37,Tsubasa10,2015-11-21 08:52:31
+84,2015-11-23 05:00:00,SOC,Japan,FC Gifu - Avispa Fukuoka,2.5,WIN,Away -1 (Match),1-4,PINNACLE,2.5,1.00,1.50,Tsubasa10,2015-11-21 08:43:43
+85,2015-11-23 06:00:00,SOC,Japan,Roasso Kumamoto - Fagiano Okayama,3.6,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),1-1,Bet365,1.8,2.00,1.60,Tsubasa10,2015-11-19 10:10:00
+86,2015-11-23 06:00:00,SOC,Japan,Yokohama FC - ThespaKusatsu Gunma,5.55,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),1-0,Bet365,1.85,3.00,2.55,Tsubasa10,2015-11-19 08:33:46
+87,2015-11-14 08:00:00,SOC,Japan,Omiya Ardija - Oita Trinita,5.52,WIN,Omiya Ardija -0.5 (Asian Handicap-Full Time Excluding Overtime),3-2,SBOBET,1.84,3.00,2.52,Tsubasa10,2015-11-13 11:45:14
+88,2015-11-14 07:00:00,SOC,Japan,Omiya Ardija - Oita Trinita,1.00,PUSH,Home -1 (Match),3-2,PINNACLE,2.58,1.00,0.00,Tsubasa10,2015-11-13 11:44:55
+89,2015-11-08 11:00:00,SOC,Livebet,ThespaKusatsu Gunma - Avispa Fukuoka,5.64,WIN,Avispa Fukuoka -0.25 (Asian Handicap-Rest of Match)(0:0),0-4,SBOBET,1.88,3.00,2.64,Tsubasa10,2015-11-08 10:25:43
+90,2015-11-07 06:00:00,SOC,Japan,Kashiwa Reysol - FC Tokyo,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),0-1,188bet,1.87,2.00,-2.00,Tsubasa10,2015-11-06 19:27:42
+91,2015-11-01 05:00:00,SOC,Japan,Avispa Fukuoka - Yokohama FC,4.9,WIN,Home -1 (Match),4-0,PINNACLE,2.45,2.00,2.90,Tsubasa10,2015-10-31 14:24:19
+92,2015-11-01 06:00:00,SOC,Japan,Avispa Fukuoka - Yokohama FC,3.58,WIN,Avispa Fukuoka -0.5 (Asian Handicap-Full Time Excluding Overtime),4-0,188bet,1.79,2.00,1.58,Tsubasa10,2015-10-31 14:23:24
+93,2015-11-01 05:00:00,SOC,Japan,Mito Holly Rock - ThespaKusatsu Gunma,0.00,LOST,Mito Holly Rock -0.5 (Asian Handicap-Full Time Excluding Overtime),0-0,188bet,1.89,2.00,-2.00,Tsubasa10,2015-10-31 12:40:31
+94,2015-10-31 04:05:00,SOC,Japan,Kashima Antlers - Gamba Osaka,0.00,LOST,Gamba Osaka 0 (Asian Handicap-Full Time Excluding Overtime),3-0,188bet,2.05,3.00,-3.00,Tsubasa10,2015-10-30 16:39:00
+95,2015-10-24 05:00:00,SOC,Livebet,Shonan Bellmare - Kashima Antlers,7.84,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2-1,188bet,1.96,4.00,3.84,Tsubasa10,2015-10-24 05:07:28
+96,2015-10-21 10:00:00,SOC,Livebet,Gamba Osaka - Guangzhou Evergrande,0.00,LOST,Gamba Osaka (1X2-Full Time Excluding Overtime)(0:0),0-0,SBOBET,9.75,1.00,-1.00,Tsubasa10,2015-10-21 11:46:02
+97,2015-10-21 10:00:00,SOC,Livebet,Gamba Osaka - Guangzhou Evergrande,0.00,LOST,Over 0.5 (Over Under-Full Time Excluding Overtime)(0:0),0-0,188bet,1.89,3.00,-3.00,Tsubasa10,2015-10-21 11:34:42
+98,2015-10-17 05:00:00,SOC,Japan,Gamba Osaka - Urawa Red Diamonds,0.00,LOST,Urawa Red Diamonds 0 (Asian Handicap-Full Time Excluding Overtime),2-1,SBOBET,1.86,2.00,-2.00,Tsubasa10,2015-10-16 15:50:01
+99,2015-10-17 10:00:00,SOC,Japan,Montedio Yamagata - Ventforet Kofu,5.61,WIN,Ventforet Kofu +0.25 (Asian Handicap-Full Time Excluding Overtime),0-1,188bet,1.87,3.00,2.61,Tsubasa10,2015-10-16 08:25:07
+100,2015-10-14 10:00:00,SOC,Livebet,Sagan Tosu - Consadole Sapporo,0.00,LOST,Sagan Tosu -0.75 (Asian Handicap-Rest of Match)(0:0),0-0,SBOBET,2.01,4.00,-4.00,Tsubasa10,2015-10-14 10:17:04
+101,2015-10-13 13:30:00,SOC,Friendly,Iran - Japan,0.00,LOST,Away 0 (1st Half),1-0,PINNACLE,1.85,2.00,-2.00,Tsubasa10,2015-10-13 13:07:13
+102,2015-10-11 05:00:00,SOC,Livebet,Kashima Antlers - Vissel Kobe,3.8,WIN,Kashima Antlers -0.5 (Asian Handicap-Rest of Match)(1:1),4-1,SBOBET,1.9,2.00,1.80,Tsubasa10,2015-10-11 05:53:12
+103,2015-10-10 07:00:00,SOC,Japan,Avispa Fukuoka - JEF United Ichihara,4.24,WIN,Home 0 (Match),1-0,PINNACLE,2.12,2.00,2.24,Tsubasa10,2015-10-10 05:32:32
+104,2015-10-07 10:00:00,SOC,Japan,Albirex Niigata - Gamba Osaka,7.68,WIN,Home 0 (Match),2-1,PINNACLE,1.92,4.00,3.68,Tsubasa10,2015-10-07 07:53:18
+105,2015-10-03 07:00:00,SOC,Livebet,Urawa Red Diamonds - Sagan Tosu,0.00,LOST,Urawa Red Diamonds -0.5 (Asian Handicap-Rest of Match)(1:1),1-1,SBOBET,1.92,3.00,-3.00,Tsubasa10,2015-10-03 08:18:56
+106,2015-10-03 05:00:00,SOC,Japan,Vegalta Sendai - Yokohama F.Marinos,0.00,LOST,Home +0.25 (Match),1-3,PINNACLE,2.08,2.00,-2.00,Tsubasa10,2015-10-02 11:38:23
+107,2015-09-27 07:00:00,SOC,Japan,Zwegen Kanazawa - Roasso Kumamoto,2.00,PUSH,2(0),1-1,PINNACLE,1.9,2.00,0.00,Tsubasa10,2015-09-27 05:04:42
+108,2015-09-26 06:00:00,SOC,Japan,Sagan Tosu-Ventforet Kofu,3.6,WIN,under (2.5 TOT),0-1,Bet365,1.8,2.00,1.60,Tsubasa10,2015-09-24 12:09:55
+109,2015-09-23 08:30:00,SOC,Japan,Machida Zelvia - J. League U22,0.00,LOST,J. League U22 (1X2-Full Time Excluding Overtime),1-0,Bet365,9,1.00,-1.00,Tsubasa10,2015-09-22 13:18:22
+110,2015-09-23 08:30:00,SOC,Japan,Machida Zelvia - J. League U22,1.9,WIN,J. League U22 +1.5 (Asian Handicap-Full Time Excluding Overtime),1-0,188bet,1.9,1.00,0.90,Tsubasa10,2015-09-22 13:17:52
+111,2015-09-23 04:00:00,SOC,Japan,Roasso Kumamoto - Avispa Fukuoka,5.94,WIN,Avispa Fukuoka 0 (Asian Handicap-Full Time Excluding Overtime),0-1,188bet,1.98,3.00,2.94,Tsubasa10,2015-09-22 10:51:53
+112,2015-09-20 05:00:00,SOC,Japan,Matsumoto Yamaga FC - Gamba Osaka,0.00,LOST,Gamba Osaka -0.75 (Asian Handicap-Full Time Excluding Overtime),1-1,188bet,1.99,3.00,-3.00,Tsubasa10,2015-09-19 16:51:51
+113,2015-09-19 10:00:00,SOC,Livebet,Sanfrecce Hiroshima - Sagan Tosu,0.00,LOST,Sanfrecce Hiroshima -0.75 (Asian Handicap-Rest of Match)(0:0),0-0,SBOBET,2.02,3.00,-3.00,Tsubasa10,2015-09-19 10:34:12
+114,2015-09-19 10:00:00,SOC,Japan,Shimizu S-Pulse - Urawa Red Diamonds,6.09,WIN,Away -0.75 (Match),1-4,PINNACLE,2.03,3.00,3.09,Tsubasa10,2015-09-19 09:03:51
+115,2015-09-19 10:00:00,SOC,Japan,Vissel Kobe (n) - Albirex Niigata,0.00,LOST,Home -0.25 (Match),1-2,PINNACLE,1.92,2.00,-2.00,Tsubasa10,2015-09-18 14:11:26
+116,2015-09-16 10:00:00,SOC,Livebet,Gamba Osaka - Jeonbuk Hyundai Motors FC,4.14,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:1),3-2,188bet,2.07,2.00,2.14,Tsubasa10,2015-09-16 11:31:39
+117,2015-09-15 12:00:00,SOC,Livebet,Guangzhou Evergrande - Kashiwa Reysol,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(1:1),1-1,SBOBET,1.88,1.00,-1.00,Tsubasa10,2015-09-15 12:59:07
+118,2015-09-13 09:00:00,SOC,Japan,Kamatamare Sanuki - Avispa Fukuoka,3.66,WIN,Avispa Fukuoka 0 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,1.83,2.00,1.66,Tsubasa10,2015-09-13 08:48:33
+119,2015-09-12 10:00:00,SOC,Japan,Albirex Niigata - Yokohama F.Marinos,2.00,PUSH,Home 0 (Match),1-1,PINNACLE,2.07,2.00,0.00,Tsubasa10,2015-09-12 08:03:50
+120,2015-09-12 10:00:00,SOC,Japan,Montedio Yamagata - Sanfrecce Hiroshima,8.68,WIN,Sanfrecce Hiroshima -0.75 (Asian Handicap-Full Time Excluding Overtime),1-3,188bet,2.17,4.00,4.68,Tsubasa10,2015-09-12 07:11:36
+121,2015-09-09 10:00:00,SOC,Japan,Vissel Kobe - AC Nagano Parceiro,3.6,WIN,Over 2.5 (Match),5-0,PINNACLE,1.8,2.00,1.60,Tsubasa10,2015-09-09 09:54:37
+122,2015-09-09 10:00:00,SOC,Japan,Shimizu-Fujieda MYFC,1.81,WIN,2 (+2 AH),2-4,188bet,1.81,1.00,0.81,Tsubasa10,2015-09-09 09:33:38
+123,2015-09-09 10:00:00,SOC,Japan,Shimizu-Fujieda MYFC,5.73,WIN,2 (+2 AH),2-4,188bet,1.91,3.00,2.73,Tsubasa10,2015-09-09 09:26:15
+124,2015-09-06 09:30:00,SOC,Japan,Kashima Antlers - FC Tokyo,0.00,LOST,Over 10 (Corners Over Under-Full Time Excluding Overtime),8,Dafabet,1.93,2.00,-2.00,Tsubasa10,2015-09-06 08:28:03
+125,2015-09-05 09:00:00,SOC,Japan,Jubilo Iwata - Avispa Fukuoka,2.52,WIN,Away 0 (Match),0-1,PINNACLE,2.52,1.00,1.52,Tsubasa10,2015-09-05 08:27:20
+126,2015-09-05 09:00:00,SOC,Japan,Jubilo Iwata - Avispa Fukuoka,1.75,WIN,Away +0.5 (Match),0-1,PINNACLE,1.75,1.00,0.75,Tsubasa10,2015-09-05 08:26:59
+127,2015-09-05 09:00:00,SOC,Other,Jubilo Iwata-Avispa Fukuoka,9.8,WIN,2 (+0.5 AH),0-1,SBOBET,1.96,5.00,4.80,Tsubasa10,2015-09-05 08:17:36
+128,2015-09-05 07:00:00,SOC,Other,Matsumoto Yamaga-Zweigen Kanazawa,1.87,WIN,1 (-0.5 AH),2-1,Dafabet,1.87,1.00,0.87,Tsubasa10,2015-09-05 06:51:23
+129,2015-08-30 09:00:00,SOC,Other,Yokohama FC-Tonan Maebashi,2,WIN,2 (+4 AH),3-0,Bet365,2,1.00,1.00,Tsubasa10,2015-08-30 08:59:17
+130,2015-08-29 09:00:00,SOC,Japan,Shimizu S-Pulse - FC Tokyo,0.00,LOST,Over 2.5 (Match),1-1,PINNACLE,1.85,4.00,-4.00,Tsubasa10,2015-08-27 08:20:36
+131,2015-08-20 08:00:00,SOC,Livebet,Uzbekistan U19 W - Japan U19 W,4.08,WIN,Under 8.25 (Over Under-Full Time Excluding Overtime),0-6,SBOBET,2.04,2.00,2.08,Tsubasa10,2015-08-20 08:34:31
+132,2015-08-20 10:00:00,SOC,Japan,Kashiwa Reysol - Matsumoto Yamaga FC,7.68,WIN,Kashiwa Reysol -0.75 (Asian Handicap-Full Time Excluding Overtime),2-0,188bet,1.92,4.00,3.68,Tsubasa10,2015-08-20 08:02:30
+133,2015-08-22 10:00:00,Combo pick,Combo pick,Combo pick,5.6,WIN,,0,Bet365,2.24,4.00,1.60,Tsubasa10,2015-08-19 18:16:18
+,2015-08-22 10:00:00,SOC,Japan,Albirex Niigata - Sanfrecce Hiroshima,5.6,WIN,Sanfrecce Hiroshima +0.5 (Asian Handicap-Full Time Excluding Overtime),0-2,,1.4,,,,
+,2015-08-22 10:00:00,SOC,Japan,Gamba Osaka - Shimizu S-pulse,4.00,PUSH,Over 1 (Over Under-First Half),1-0,,1.6,,,,
+134,2015-08-16 09:00:00,SOC,Livebet,Urawa Red Diamonds - Shonan Bellmare,4.56,WIN,Urawa Red Diamonds -0.5 (Asian Handicap-Rest of Match)(0:0),1-0,188bet,2.28,2.00,2.56,Tsubasa10,2015-08-16 10:18:20
+135,2015-08-16 09:00:00,SOC,Livebet,Matsumoto Yamaga FC - Nagoya Grampus Eight,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:1),0-1,SBOBET,1.95,2.00,-2.00,Tsubasa10,2015-08-16 09:58:29
+136,2015-08-15 20:35:44,SOC,Outrights,J League 2015,0.00,LOST,Urawa Red Diamonds (Winner-Full Event),nope,SBOBET,14,1.00,-1.00,Tsubasa10,2015-08-15 20:35:44
+137,2015-08-15 10:00:00,SOC,Japan,Roasso Kumamoto - Giravanz Kitakyushu,6.6,WIN,Giravanz Kitakyushu 0 (Asian Handicap-Full Time Excluding Overtime),0-1,188bet,2.2,3.00,3.60,Tsubasa10,2015-08-14 10:17:38
+138,2015-08-12 10:00:00,SOC,Japan,Sanfrecce Hiroshima - Kashima Antlers,0.00,LOST,Home -0.25 (Match),0-1,PINNACLE,1.92,1.00,-1.00,Tsubasa10,2015-08-12 08:32:40
+139,2015-08-11 10:00:00,SOC,International,Gamba Osaka - CA River Plate,5.4,WIN,CA River Plate 0 (Asian Handicap-Full Time Excluding Overtime),0-3,SBOBET,1.8,3.00,2.40,Tsubasa10,2015-08-11 09:06:32
+140,2015-08-10 21:00:00,SOC,Other,Gamba Osaka - River Plate,8.16,WIN,River Plate -0.25,0-3,PINNACLE,2.04,4.00,4.16,Tsubasa10,2015-08-10 19:15:28
+141,2015-08-12 10:00:00,SOC,Japan,Albirex Niigata - Urawa Red Diamonds,1.86,WIN,Urawa Red Diamonds -0.25 (Asian Handicap-Full Time Excluding Overtime),1-2,SBOBET,1.86,1.00,0.86,Tsubasa10,2015-08-10 12:51:25
+142,2015-08-12 10:00:00,SOC,Japan,Shimizu S-Pulse - Shonan Bellmare,1.9,WIN,Over 2.5 (Match),1-2,PINNACLE,1.9,1.00,0.90,Tsubasa10,2015-08-10 11:16:20
+143,2015-08-12 10:00:00,SOC,Japan,Shimizu S-pulse - Shonan Bellmare,5.97,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),1-2,SBOBET,1.99,3.00,2.97,Tsubasa10,2015-08-10 09:09:41
+144,2015-08-12 10:00:00,SOC,Japan,Albirex Niigata - Urawa Red Diamonds,7.68,WIN,Urawa Red Diamonds -0.25 (Asian Handicap-Full Time Excluding Overtime),1-2,SBOBET,1.92,4.00,3.68,Tsubasa10,2015-08-10 09:06:13
+145,2015-08-12 10:00:00,SOC,Japan,Sanfrecce Hiroshima - Kashima Antlers,0.00,LOST,Sanfrecce Hiroshima -0.25 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,2.12,5.00,-5.00,Tsubasa10,2015-08-10 09:03:43
+146,2015-08-08 10:00:00,SOC,Japan,Omiya Ardija - Tochigi SC,0.5,LOST,Omiya Ardija -1.25 (Asian Handicap-Full Time Excluding Overtime),1-0,SBOBET,2.21,1.00,-0.50,Tsubasa10,2015-08-06 17:48:34
+147,2015-08-08 10:00:00,SOC,Japan,Omiya Ardija - Tochigi SC,6.00,PUSH,Omiya Ardija -1 (Asian Handicap-Full Time Excluding Overtime),1-0,SBOBET,1.93,6.00,0.00,Tsubasa10,2015-08-06 17:42:46
+148,2015-08-08 10:00:00,SOC,Japan,Fagiano Okayama - Giravanz Kitakyushu,5.97,WIN,Giravanz Kitakyushu +0.25 (Asian Handicap-Full Time Excluding Overtime),0-1,188bet,1.99,3.00,2.97,Tsubasa10,2015-08-06 17:30:45
+149,2015-08-02 13:15:00,SOC,Livebet,Eintracht Frankfurt - FC Tokyo,3.00,PUSH,Eintracht Frankfurt -1 (Asian Handicap-Rest of Match)(2:2),3-2,SBOBET,1.98,3.00,0.00,Tsubasa10,2015-08-02 14:22:17
+150,2015-08-02 10:20:00,SOC,Livebet,Democratic Peoples Republic of Korea - Japan,3.84,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(0:1),2-1,SBOBET,1.92,2.00,1.84,Tsubasa10,2015-08-02 11:51:06
+151,2015-08-01 09:00:00,SOC,Japan,Avispa Fukuoka - Oita Trinita,3.00,PUSH,Avispa Fukuoka 0 (Asian Handicap-Full Time Excluding Overtime),1-1,188bet,1.99,3.00,0.00,Tsubasa10,2015-07-31 20:47:51
+152,2015-07-29 10:00:00,SOC,Japan,Albirex Niigata - Gamba Osaka,7.00,PUSH,Gamba Osaka 0 (Asian Handicap-Full Time Excluding Overtime),2-2,SBOBET,1.88,7.00,0.00,Tsubasa10,2015-07-29 09:30:41
+153,2015-07-29 10:00:00,SOC,Japan,Urawa Red Diamonds - Ventforet Kofu,0.00,LOST,Urawa Red Diamonds -1 (Asian Handicap-Full Time Excluding Overtime),1-1,188bet,2,5.00,-5.00,Tsubasa10,2015-07-29 09:15:33
+154,2015-07-29 10:00:00,SOC,Japan,Matsumoto Yamaga FC - Kawasaki Frontale,5.61,WIN,Kawasaki Frontale -0.5 (Asian Handicap-Full Time Excluding Overtime),1-3,188bet,1.87,3.00,2.61,Tsubasa10,2015-07-28 12:14:19
+155,2015-07-26 09:00:00,SOC,Livebet,Avispa Fukuoka - V-Varen Nagasaki,3.01,WIN,Avispa Fukuoka +0.25 (Asian Handicap-Rest of Match)(0:0),0-0,188bet,2.01,2.00,1.01,Tsubasa10,2015-07-26 09:24:05
+156,2015-07-26 09:00:00,Combo pick,Combo pick,Combo pick,0,LOST,,0,Bet365,1.96,5.00,-5.00,Tsubasa10,2015-07-25 21:11:10
+,2015-07-26 09:00:00,SOC,Japan,Omiya Ardija - FC Gifu,7.25,WIN,Omiya Ardija -0.5 (Asian Handicap-Full Time Excluding Overtime),5-0,,1.45,,,,
+,2015-07-26 05:00:00,SOC,Japan,Consadole Sapporo - Ehime FC,0.00,LOST,Consadole Sapporo 0 (Asian Handicap-Full Time Excluding Overtime),0-1,,1.35,,,,
+157,2015-07-26 09:00:00,SOC,Japan,Omiya Ardija - FC Gifu,7.02,WIN,Home -1.5 (Match),5-0,PINNACLE,2.34,3.00,4.02,Tsubasa10,2015-07-25 19:56:29
+158,2015-07-25 10:00:00,Combo pick,Combo pick,Combo pick,10875,WIN,,0,Bet365,2.18,5.00,5.88,Tsubasa10,2015-07-24 10:38:25
+,2015-07-25 10:00:00,SOC,Japan,Sanfrecce Hiroshima - Yokohama F Marinos,7.25,WIN,Sanfrecce Hiroshima 0 (Asian Handicap-Full Time Excluding Overtime),2-0,,1.45,,,,
+,2015-07-25 10:00:00,SOC,Japan,Kawasaki Frontale - Shimizu S-pulse,7.5,WIN,Over 1 (Over Under-First Half),HT: 1-2,,1.5,,,,
+159,2015-07-25 10:00:00,SOC,Japan,Sanfrecce Hiroshima - Yokohama F.Marinos,10.4,WIN,Home -0.5 (Match),2-0,PINNACLE,2.08,5.00,5.40,Tsubasa10,2015-07-24 10:26:22
+160,2015-07-22 10:00:00,SOC,Japan,Gamba Osaka-Sagan Tosu,0.00,LOST,1 (-1 AH),1-1,Dafabet,2.28,6.00,-6.00,Tsubasa10,2015-07-22 08:27:43
+161,2015-07-22 10:00:00,Combo pick,Combo pick,Combo pick,9.75,WIN,,0,Bet365,1.95,5.00,4.75,Tsubasa10,2015-07-22 08:12:17
+,2015-07-22 10:00:00,SOC,Japan,Omiya Ardija-Yokohama FC,7.5,WIN,1 (-0.5 AH),3-0,,1.5,,,,
+,2015-07-22 10:00:00,SOC,Japan,Kyoto-Avispa Fukuoka,6.5,WIN,2 (+1 AH),1-2,,1.3,,,,
+162,2015-07-22 10:00:00,SOC,Japan,Tokushima Vortis-Oita Trinita,5.79,WIN,1 (0 AH),1-0,188bet,1.93,3.00,2.79,Tsubasa10,2015-07-21 10:37:26
+163,2015-07-22 10:00:00,SOC,Japan,Omiya Ardija - Yokohama FC,5.91,WIN,Home -1 (Match),3-0,PINNACLE,1.97,3.00,2.91,Tsubasa10,2015-07-21 10:01:31
+164,2015-07-19 09:00:00,SOC,Livebet,Matsumoto Yamaga FC - Kashima Antlers,0.00,LOST,Kashima Antlers -0.75 (Asian Handicap-Rest of Match)(2:0),0-2,SBOBET,1.96,10.00,-10.00,Tsubasa10,2015-07-19 09:58:36
+165,2015-07-19 09:00:00,SOC,Livebet,Matsumoto Yamaga FC - Kashima Antlers,0.00,LOST,Kashima Antlers (1X2-Full Time Excluding Overtime)(1:0),0-2,SBOBET,2.73,1.00,-1.00,Tsubasa10,2015-07-19 09:28:16
+166,2015-07-18 09:00:00,SOC,Livebet,Giravanz Kitakyushu - Tokyo Verdy 1969,0.00,LOST,Over 1.5 (Over Under-Full Time Excluding Overtime)(0:1),0-1,188bet,2.01,1.00,-1.00,Tsubasa10,2015-07-18 10:31:43
+167,2015-07-18 09:00:00,SOC,Livebet,Fagiano Okayama FC - Tokushima Vortis,3.78,WIN,FT Away +0.25 (0:0),0-3,188bet,1.89,2.00,1.78,Tsubasa10,2015-07-18 10:09:33
+168,2015-07-18 05:00:00,SOC,Livebet,Consadole Sapporo - Kamatamare Sanuki,0.5,LOST,Consadole Sapporo -0.25 (Asian Handicap-Rest of Match)(0:1),0-1,188bet,2.08,1.00,-0.50,Tsubasa10,2015-07-18 06:32:18
+169,2015-07-19 09:00:00,SOC,Japan,Matsumoto Yamaga - Kashima Antlers,0.00,LOST,Away -0.75 (Match),0-2,PINNACLE,2,7.00,-7.00,Tsubasa10,2015-07-16 14:16:37
+170,2015-07-15 10:00:00,SOC,Livebet,Kashima Antlers - Shimizu S-pulse,0.00,LOST,Over 0.75 (Over Under-Full Time Excluding Overtime)(0:0),0-0,SBOBET,1.72,5.00,-5.00,Tsubasa10,2015-07-15 11:30:07
+171,2015-07-15 10:00:00,SOC,Livebet,FC Tokyo - Albirex Niigata,0.00,LOST,Under 3.25 (Over Under-Full Time Excluding Overtime)(1:0),3-1,SBOBET,1.91,1.00,-1.00,Tsubasa10,2015-07-15 10:13:36
+172,2015-07-15 10:00:00,SOC,Japan,Yokohama F.Marinos - Kashiwa Reysol,0.00,LOST,Home -0.25 (Match),0-1,PINNACLE,1.92,2.00,-2.00,Tsubasa10,2015-07-15 07:40:41
+173,2015-07-12 09:00:00,SOC,Livebet,Mito Holly Rock - Avispa Fukuoka,4,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(0:1),2-2,SBOBET,2,2.00,2.00,Tsubasa10,2015-07-12 10:31:23
+174,2015-07-12 09:00:00,SOC,Japan,FC Gifu - Yokohama FC,0.00,LOST,Over 2.5 (Match),0-1,PINNACLE,2.3,1.00,-1.00,Tsubasa10,2015-07-12 07:38:48
+175,2015-07-11 09:30:00,SOC,Japan,Kawasaki Frontale - FC Tokyo,6.12,WIN,Home -0.5 (Match),2-0,PINNACLE,2.04,3.00,3.12,Tsubasa10,2015-07-11 09:09:56
+176,2015-07-11 10:00:00,SOC,Japan,Gamba Osaka-Ventforet Kofu,2.5,LOST,1 (-1.25 AH),2-1,188bet,2.06,5.00,-2.50,Tsubasa10,2015-07-09 11:46:37
+177,2015-07-07 10:00:00,SOC,Friendly,Kawasaki Frontale - Borussia Dortmund,1.94,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),0-6,Dafabet,1.94,1.00,0.94,Tsubasa10,2015-07-06 20:00:25
+178,2015-07-08 10:00:00,SOC,Japan,FC Gifu-Tokyo Verdy,1.5,LOST,over (2.25 TOT),0-2,188bet,2.03,3.00,-1.50,Tsubasa10,2015-07-06 19:56:47
+179,2015-07-05 23:00:00,SOC,Women,USA (w) - Japan (w),0.00,LOST,Away +0.5 (Match),5-2,PINNACLE,2.18,1.00,-1.00,Tsubasa10,2015-07-05 19:17:55
+180,2015-07-05 12:27:08,SOC,Outrights,AFC Champions League 2015,3.5,WIN,Guangzhou Evergrande (Winner-Full Event),Yep,188bet,3.5,1.00,2.50,Tsubasa10,2015-07-05 12:27:08
+181,2015-06-29 10:00:00,SOC,Livebet,Consadole Sapporo - Oita Trinita,2.01,WIN,Consadole Sapporo -0.5 (Asian Handicap-Rest of Match)(0:1),1-1,SBOBET,2.01,1.00,1.01,Tsubasa10,2015-06-29 10:22:20
+182,2015-06-28 09:00:00,SOC,Livebet,Omiya Ardija - Tokyo Verdy 1969,0.00,LOST,Omiya Ardija -0.5 (Asian Handicap-Rest of Match)(0:1),0-2,SBOBET,1.98,3.00,-3.00,Tsubasa10,2015-06-28 10:16:17
+183,2015-06-27 10:00:00,SOC,Livebet,Montedio Yamagata - Gamba Osaka,6.21,WIN,Gamba Osaka -0.5 (Asian Handicap-Rest of Match)(0:0),1-3,188bet,2.07,3.00,3.21,Tsubasa10,2015-06-27 11:09:02
+184,2015-06-23 10:00:00,SOC,Livebet,Kashiwa Reysol - Gamba Osaka,0.00,LOST,Gamba Osaka -0.5 (Asian Handicap-Rest of Match)(1:0),1-0,188bet,2.16,1.00,-1.00,Tsubasa10,2015-06-23 10:29:08
+185,2015-06-24 01:59:00,SOC,Women,Japan (w) - Netherlands (w),3.64,WIN,Home -0.5 (Match),2-1,PINNACLE,1.82,2.00,1.64,Tsubasa10,2015-06-21 21:11:33
+186,2015-06-21 09:00:00,SOC,Japan,Yokohama FC-Omiya Ardija,5.91,WIN,2 (-0.5 AH),0-3,SBOBET,1.97,3.00,2.91,Tsubasa10,2015-06-21 08:44:35
+187,2015-06-20 07:00:00,SOC,Japan,Nagoya Grampus - Kashiwa Reysol,0.00,LOST,Away 0 (Match),1-0,PINNACLE,1.94,1.00,-1.00,Tsubasa10,2015-06-19 18:31:11
+188,2015-06-20 07:00:00,SOC,Japan,Nagoya Grampus Eight-Kashiwa Reysol,0.00,LOST,2 (0 AH),1-0,SBOBET,1.97,5.00,-5.00,Tsubasa10,2015-06-19 10:57:09
+189,2015-06-20 07:00:00,Combo pick,Combo pick,Combo pick,7.6,WIN,,0,188bet,2.54,5.00,2.60,Tsubasa10,2015-06-19 10:12:37
+,2015-06-20 07:00:00,SOC,Japan,Sanfrecce Hiroshima - Montedio Yamagata,7.6,WIN,Sanfrecce Hiroshima (1X2-Full Time Excluding Overtime),5-1,,1.52,,,,
+,2015-06-20 07:00:00,SOC,Japan,Kawasaki Frontale - Matsumoto Yamaga FC,5.00,PUSH,Over 1 (Over Under-First Half),1-0,,1.67,,,,
+190,2015-06-20 07:00:00,SOC,Japan,Yokohama F.Marinos - Kashima Antlers,5.67,WIN,Away 0 (Match),0-3,PINNACLE,1.89,3.00,2.67,Tsubasa10,2015-06-19 09:41:46
+191,2015-06-14 10:00:00,SOC,Livebet,Jef United Ichihara Chiba - Avispa Fukuoka,1.00,PUSH,Avispa Fukuoka 0 (Asian Handicap-Rest of Match)(2:2),2-2,Bet365,3,1.00,0.00,Tsubasa10,2015-06-14 11:43:55
+192,2015-06-14 07:00:00,SOC,Livebet,Ehime FC - Tokyo Verdy 1969,3.58,WIN,Ehime FC 0 (Asian Handicap-Rest of Match)(1:1),2-1,188bet,1.79,2.00,1.58,Tsubasa10,2015-06-14 08:26:05
+193,2015-06-14 07:00:00,SOC,Livebet,Zweigen Kanazawa - Oita Trinita,0.00,LOST,Zweigen Kanazawa 0 (Asian Handicap-Rest of Match)(1:0),1-1,188bet,1.77,1.00,-1.00,Tsubasa10,2015-06-14 07:52:26
+194,2015-06-11 10:00:00,SOC,Friendly,Japan - Iraq,4.5,WIN,Japan -0.75 (Asian Handicap-First Half),3-0,188bet,2.25,2.00,2.50,Tsubasa10,2015-06-11 08:59:09
+195,2015-06-07 07:00:00,SOC,Livebet,Gamba Osaka - Vissel Kobe,0.00,LOST,Gamba Osaka (1X2-Full Time Excluding Overtime)(0:0),0-0,SBOBET,2.78,1.00,-1.00,Tsubasa10,2015-06-07 08:31:16
+196,2015-06-07 07:00:00,SOC,Japan,Gamba Osaka - Vissel Kobe,0.00,LOST,Home -0.75 (Match),0-0,PINNACLE,1.86,5.00,-5.00,Tsubasa10,2015-06-05 19:04:24
+197,2015-06-03 10:00:00,SOC,Livebet,Sanfrecce Hiroshima - Ventforet Kofu,1.94,WIN,Sanfrecce Hiroshima -0.75 (Asian Handicap-Rest of Match)(0:0),2-0,SBOBET,1.94,1.00,0.94,Tsubasa10,2015-06-03 10:21:46
+198,2015-06-03 09:59:00,SOC,Japan,Kashiwa Reysol - Urawa Red Diamonds,1.84,WIN,Over 1 (1st Half),2-1,PINNACLE,1.84,1.00,0.84,Tsubasa10,2015-06-02 14:10:25
+199,2015-06-03 10:00:00,SOC,Japan,Kashiwa Reysol - Urawa Red Diamonds,3.72,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),3-3,SBOBET,1.86,2.00,1.72,Tsubasa10,2015-06-02 14:09:40
+200,2015-06-07 07:00:00,SOC,Japan,Ventforet Kofu - Yokohama F Marinos,5.7,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),1-1,Bet365,1.9,3.00,2.70,Tsubasa10,2015-06-02 13:20:58
+201,2015-05-31 06:00:00,SOC,Livebet,Omiya Ardija - Avispa Fukuoka,1.98,WIN,FT Home -0.75 (0:0),2-0,188bet,1.98,1.00,0.98,Tsubasa10,2015-05-31 07:35:45
+202,2015-05-30 09:00:00,SOC,Livebet,Yokohama Marinos - Gamba Osaka,9.9,WIN,FT Away 0 (1:0),1-1,188bet,1.98,5.00,4.90,Tsubasa10,2015-05-30 11:25:07
+203,2015-05-30 09:59:00,SOC,Japan,Yokohama F.Marinos - Gamba Osaka,3.00,PUSH,Away 0 (Match),1-1,PINNACLE,1.93,3.00,0.00,Tsubasa10,2015-05-30 09:53:02
+204,2015-05-31 04:00:00,SOC,Japan,Kamatamare Sanuki-Okayama,3.48,WIN,2 (0 AH),0-1,Dafabet,1.74,2.00,1.48,Tsubasa10,2015-05-28 12:31:13
+205,2015-05-31 06:00:00,SOC,Japan,Giravanz Kitakyushu-Oita Trinita,0.00,LOST,2 (0 AH),2-1,Dafabet,1.91,3.00,-3.00,Tsubasa10,2015-05-28 12:26:48
+206,2015-05-31 09:00:00,SOC,Japan,FC Gifu-Mito Hollyhock,3.00,PUSH,2 (0 AH),1-1,SBOBET,1.93,3.00,0.00,Tsubasa10,2015-05-28 12:20:10
+207,2015-05-27 09:59:00,SOC,Japan,Vissel Kobe - Shimizu S-Pulse,0.00,LOST,Home -0.75 (Match),1-2,PINNACLE,1.82,7.00,-7.00,Tsubasa10,2015-05-27 08:37:53
+208,2015-05-27 10:00:00,SOC,Japan,Sanfrecce Hiroshima-FC Tokyo,4.4,WIN,2 (+0.25 AH),1-1,188bet,1.93,3.00,1.40,Tsubasa10,2015-05-27 08:06:37
+209,2015-05-23 09:59:00,SOC,Japan,Sanfrecce Hiroshima - Albirex Niigata,11.7,WIN,Home (Match),4-2,PINNACLE,1.95,6.00,5.70,Tsubasa10,2015-05-23 08:15:54
+210,2015-05-23 05:00:00,SOC,Livebet,Montedio Yamagata - Vissel Kobe,4,WIN,Vissel Kobe 0 (Asian Handicap-Rest of Match)(0:0),0-1,188bet,2,2.00,2.00,Tsubasa10,2015-05-23 05:12:19
+211,2015-05-23 05:00:00,SOC,Japan,Montedio Yamagata-Vissel Kobe,3.74,WIN,2 (0 AH),0-1,Dafabet,1.87,2.00,1.74,Tsubasa10,2015-05-23 04:45:33
+212,2015-05-21 11:13:22,SOC,Outrights,AFC Champions League 2015,0.00,LOST,Gamba Osaka (Winner-Full Event),Nope,188bet,15,1.00,-1.00,Tsubasa10,2015-05-21 11:13:22
+213,2015-05-20 10:00:00,SOC,Japan,Shimizu S-pulse - Nagoya Grampus Eight,4.38,WIN,Over 2.75 (Over Under-Full Time Excluding Overtime),1-2,188bet,1.92,3.00,1.38,Tsubasa10,2015-05-20 06:19:36
+214,2015-05-16 05:00:00,SOC,Livebet,Albirex Niigata - Vegalta Sendai,6.27,WIN,Vegalta Sendai +0.25 (Asian Handicap-Rest of Match)(0:0),0-3,188bet,2.09,3.00,3.27,Tsubasa10,2015-05-16 05:06:19
+215,2015-05-16 06:29:00,SOC,Japan,Urawa Red Diamonds - FC Tokyo,9.05,WIN,Over 2 (Match),4-1,PINNACLE,1.81,5.00,4.05,Tsubasa10,2015-05-15 22:16:01
+216,2015-05-14 10:00:00,SOC,Japan,Kashiwa Reysol - Shonan Bellmare,0.00,LOST,Kashiwa Reysol -0.5 (Asian Handicap-Full Time Excluding Overtime),0-0,188bet,2.05,2.00,-2.00,Tsubasa10,2015-05-13 06:24:07
+217,2015-05-10 07:00:00,SOC,Livebet,FC Tokyo - Kashima Antlers,1.85,WIN,Kashima Antlers 0 (Asian Handicap-Rest of 1st Half)(0:0),0-1,SBOBET,1.85,1.00,0.85,Tsubasa10,2015-05-10 07:18:09
+218,2015-05-10 04:00:00,SOC,Livebet,Nagoya Grampus Eight - Kawasaki Frontale,1.84,WIN,Kawasaki Frontale 0 (Asian Handicap-Rest of Match)(0:0),0-1,SBOBET,1.84,1.00,0.84,Tsubasa10,2015-05-10 04:47:16
+219,2015-05-09 04:00:00,SOC,Livebet,Consadole Sapporo - Roasso Kumamoto,2.01,WIN,FT Home -0.5 (0:2),2-3,188bet,2.01,1.00,1.01,Tsubasa10,2015-05-09 06:11:21
+220,2015-05-10 07:00:00,SOC,Japan,Vissel Kobe - Shimizu S-Pulse,0.00,LOST,Home -0.5 (Match),1-2,PINNACLE,1.94,3.00,-3.00,Tsubasa10,2015-05-08 09:19:53
+221,2015-05-09 07:00:00,SOC,Japan,Giravanz Kitakyushu-Cerezo Osaka,4.16,WIN,over (2.5 TOT),0-3,188bet,2.08,2.00,2.16,Tsubasa10,2015-05-08 06:02:10
+222,2015-05-06 10:15:00,SOC,Livebet,Gamba Osaka - Seongnam Ilhwa Chunma,5.64,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:1),2-1,188bet,1.88,3.00,2.64,Tsubasa10,2015-05-06 11:50:29
+223,2015-05-06 06:00:00,SOC,Japan,Kawasaki Frontale - Sanfrecce Hiroshima,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),0-1,SBOBET,1.84,5.00,-5.00,Tsubasa10,2015-05-06 05:44:44
+224,2015-05-06 05:00:00,SOC,Livebet,Albirex Niigata - Montedio Yamagata,2.9,WIN,Under 2.25 (Over Under-Full Time Excluding Overtime)(0:0),1-1,188bet,1.9,2.00,0.90,Tsubasa10,2015-05-06 05:16:34
+225,2015-05-06 10:15:00,SOC,Asia,Gamba Osaka - Seongnam Ilhwa Chunma,13.02,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2-1,188bet,1.86,7.00,6.02,Tsubasa10,2015-05-05 14:13:43
+226,2015-05-05 11:00:00,SOC,Livebet,Kashima Antlers - FC Seoul,4.42,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime)(2:2),2-3,188bet,2.21,2.00,2.42,Tsubasa10,2015-05-05 12:41:54
+227,2015-05-05 08:59:00,SOC,Asia,Brisbane Roar (n) - Urawa Red Diamonds,0.00,LOST,Under 2.5 (Match),1-2,PINNACLE,2.2,2.00,-2.00,Tsubasa10,2015-05-05 08:40:06
+228,2015-05-05 10:59:00,SOC,Asia,Kashima Antlers - FC Seoul,0.00,LOST,Home -0.5 (Match),2-3,PINNACLE,2.06,2.00,-2.00,Tsubasa10,2015-05-05 06:51:38
+229,2015-05-06 05:00:00,Combo pick,Combo pick,Combo pick,0,LOST,,0,Bet365,1.99,5.00,-5.00,Tsubasa10,2015-05-04 20:59:19
+,2015-05-05 20:30:00,SOC,Peru,Sporting Cristal Lima - Union Comercio,0.00,LOST,Sporting Cristal Lima (1X2-Full Time Excluding Overtime),1-1,,1.53,,,,
+,2015-05-06 05:00:00,SOC,Japan,Albirex Niigata - Montedio Yamagata,5.00,PUSH,Albirex Niigata 0 (Asian Handicap-Full Time Excluding Overtime),1-1,,1.3,,,,
+230,2015-05-03 03:01:00,SOC,Livebet,V Varen Nagasaki - Fagiano Okayama FC,2.23,WIN,FT Away 0 (2:1),2-2,188bet,2.23,1.00,1.23,Tsubasa10,2015-05-03 05:20:12
+231,2015-05-03 04:00:00,SOC,Japan,V-Varen Nagasaki - Fagiano Okayama,3.86,WIN,Fagiano Okayama +0.5 (Asian Handicap-Full Time Excluding Overtime),2-2,188bet,1.93,2.00,1.86,Tsubasa10,2015-05-02 18:35:02
+232,2015-05-02 09:00:00,SOC,Livebet,Sagan Tosu - Vissel Kobe,6.09,WIN,FT Away 0 (1:0),1-1,188bet,2.03,3.00,3.09,Tsubasa10,2015-05-02 10:11:55
+233,2015-05-02 06:00:00,SOC,Livebet,Kashiwa Reysol - Shimizu S Pulse,0.00,LOST,FT Home (0:0),0-0,188bet,2.75,1.00,-1.00,Tsubasa10,2015-05-02 08:36:20
+234,2015-05-02 05:00:00,SOC,Livebet,Urawa Red Diamonds - Gamba Osaka,3.00,PUSH,Urawa Red Diamonds 0 (Asian Handicap-Rest of 1st Half)(0:0),0-0,188bet,1.78,3.00,0.00,Tsubasa10,2015-05-02 05:35:49
+235,2015-05-02 04:00:00,SOC,Livebet,Nagoya Grampus Eight - Shonan Bellmare,1.00,PUSH,Over 3 (Over Under-Full Time Excluding Overtime)(2:0),3-0,188bet,1.95,1.00,0.00,Tsubasa10,2015-05-02 05:20:52
+236,2015-05-02 07:00:00,SOC,Japan,FC Tokyo - Kawasaki Frontale,3.84,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2-1,Dafabet,1.92,2.00,1.84,Tsubasa10,2015-05-01 12:02:26
+237,2015-05-02 07:00:00,SOC,Japan,Kashiwa Reysol - Shimizu S-pulse,0.00,LOST,Kashiwa Reysol -0.75 (Asian Handicap-Full Time Excluding Overtime),0-0,188bet,1.92,5.00,-5.00,Tsubasa10,2015-04-30 13:48:20
+238,2015-04-29 05:00:00,SOC,Japan,Kawasaki Frontale - Kashiwa Reysol,5.76,WIN,Over 2.75 (Over Under-Full Time Excluding Overtime),1-4,188bet,1.92,3.00,2.76,Tsubasa10,2015-04-26 13:30:54
+239,2015-04-26 03:01:00,SOC,Livebet,Avispa Fukuoka - FC Gifu,4.08,WIN,FT Home -0.5 (0:1),2-2,188bet,2.04,2.00,2.08,Tsubasa10,2015-04-26 04:45:44
+240,2015-04-26 04:00:00,SOC,Livebet,Yokohama FC - Tokushima Vortis,3.07,WIN,Tokushima Vortis +0.25 (Asian Handicap-Rest of Match)(0:0),1-1,SBOBET,2.07,2.00,1.07,Tsubasa10,2015-04-26 04:19:13
+241,2015-04-25 10:00:00,SOC,Livebet,Kawasaki Frontale - Ventforet Kofu,6.15,WIN,Kawasaki Frontale -0.75 (Asian Handicap-Rest of Match)(1:0),3-0,Bet365,2.05,3.00,3.15,Tsubasa10,2015-04-25 10:42:17
+242,2015-04-25 04:59:00,SOC,Japan,Matsumoto Yamaga - Vegalta Sendai,2.00,PUSH,Home 0 (1st Half),0-0,PINNACLE,1.93,2.00,0.00,Tsubasa10,2015-04-25 04:40:58
+243,2015-04-26 03:59:00,SOC,Japan,Avispa Fukuoka - FC Gifu,0.00,LOST,Home (Match),2-2,PINNACLE,2.03,3.00,-3.00,Tsubasa10,2015-04-24 07:02:12
+244,2015-04-25 04:59:00,SOC,Japan,Sanfrecce Hiroshima - Shimizu S-Pulse,0.00,LOST,Over 2.5 (Match),2-0,PINNACLE,1.83,3.00,-3.00,Tsubasa10,2015-04-23 15:00:45
+245,2015-04-26 05:00:00,SOC,Japan,Kyoto-Giravanz Kitakyushu,3.46,WIN,1 (0 AH),2-0,Dafabet,1.73,2.00,1.46,Tsubasa10,2015-04-23 11:30:55
+246,2015-04-26 04:59:00,SOC,Japan,Gamba Osaka - Albirex Niigata,7.35,WIN,Home -0.75 (Match),2-1,PINNACLE,1.94,5.00,2.35,Tsubasa10,2015-04-23 10:07:20
+247,2015-04-22 10:00:00,SOC,Livebet,Shimizu S-pulse - Vegalta Sendai,3.00,PUSH,Vegalta Sendai 0 (Asian Handicap-Rest of Match)(2:1),2-1,188bet,1.82,3.00,0.00,Tsubasa10,2015-04-22 11:39:46
+248,2015-04-22 10:00:00,SOC,Livebet,FC Tokyo - Sagan Tosu,0.00,LOST,Sagan Tosu +0.25 (Asian Handicap-Rest of Match)(1:0),2-0,188bet,1.8,2.00,-2.00,Tsubasa10,2015-04-22 11:11:04
+249,2015-04-22 10:00:00,SOC,Livebet,Vissel Kobe - Kawasaki Frontale,1.00,PUSH,Vissel Kobe 0 (Asian Handicap-Rest of 1st Half)(0:0),0-0,188bet,1.79,1.00,0.00,Tsubasa10,2015-04-22 10:13:58
+250,2015-05-03 04:00:00,Combo pick,Combo pick,Combo pick,0,LOST,,0,Bet365,16.35,1.00,-1.00,Tsubasa10,2015-04-21 22:51:34
+,2015-04-26 07:00:00,SOC,Japan,Jef United Ichihara Chiba - Jubilo Iwata,0.00,LOST,Jef United Ichihara Chiba (Draw No Bet-Full Time Excluding Overtime),0-2,,1.8,,,,
+,2015-04-26 07:00:00,SOC,Japan,Omiya Ardija - Mito Holly Rock,1.73,WIN,Omiya Ardija (1X2-Full Time Excluding Overtime),2-1,,1.73,,,,
+,2015-05-03 04:00:00,SOC,Japan,Avispa Fukuoka - Cerezo Osaka,1.00,PUSH,Cerezo Osaka (1X2-Full Time Excluding Overtime),bet365..,,5.25,,,,
+251,2015-05-03 04:00:00,SOC,Japan,Avispa Fukuoka - Cerezo Osaka,10.00,PUSH,Cerezo Osaka (1X2-Full Time Excluding Overtime),bet365...,Bet365,5.25,10.00,0.00,Tsubasa10,2015-04-21 20:17:07
+252,2015-04-19 04:00:00,SOC,Japan,FC Gifu - Tochigi SC,1.79,WIN,Tochigi SC 0 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,1.79,1.00,0.79,Tsubasa10,2015-04-18 19:07:38
+253,2015-04-19 03:59:00,SOC,Japan,FC Gifu - Tochigi SC,0.00,LOST,Over 0.75 (1st Half),0-0,PINNACLE,1.74,2.00,-2.00,Tsubasa10,2015-04-18 18:53:23
+254,2015-04-18 05:00:00,SOC,Livebet,Montedio Yamagata - Matsumoto Yamaga FC,1.45,WIN,Matsumoto Yamaga FC +0.25 (Asian Handicap-Rest of Match)(0:0),0-0,188bet,1.9,1.00,0.45,Tsubasa10,2015-04-18 05:33:38
+255,2015-04-18 09:59:00,SOC,Japan,Nagoya Grampus - Shimizu S-Pulse,3.52,WIN,Over 1 (1st Half),2-0,PINNACLE,1.76,2.00,1.52,Tsubasa10,2015-04-16 17:25:19
+256,2015-04-16 10:00:00,SOC,Livebet,Kashiwa Reysol - Kashima Antlers,1.47,WIN,Over 0.75 (Over Under-First Half)(0:0),0-1,188bet,1.93,1.00,0.47,Tsubasa10,2015-04-16 10:21:32
+257,2015-04-16 09:59:00,SOC,Japan,Kashiwa Reysol - Kashima Antlers,11.58,WIN,Over 2.5 (Match),1-3,PINNACLE,1.93,6.00,5.58,Tsubasa10,2015-04-15 07:22:42
+258,2015-04-18 09:59:00,SOC,Japan,Nagoya Grampus - Shimizu S-Pulse,10,WIN,Over 2.75 (Match),3-1,PINNACLE,2,5.00,5.00,Tsubasa10,2015-04-13 12:53:40
+259,2015-04-18 05:00:00,SOC,Japan,Ventforet Kofu-Sagan Tosu,5.49,WIN,2 (0 AH),0-3,SBOBET,1.83,3.00,2.49,Tsubasa10,2015-04-13 12:48:05
+260,2015-04-12 08:00:00,SOC,Livebet,Kawasaki Frontale - Urawa Red Diamonds,12,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(1:0),1-1,Bet365,4,3.00,9.00,Tsubasa10,2015-04-12 09:48:25
+261,2015-04-12 05:00:00,SOC,Livebet,Nagoya Grampus Eight - Sanfrecce Hiroshima,0.00,LOST,Sanfrecce Hiroshima 0 (Asian Handicap-Rest of Match)(0:0),2-0,SBOBET,2.13,3.00,-3.00,Tsubasa10,2015-04-12 05:13:52
+262,2015-04-11 07:00:00,SOC,Livebet,Cerezo Osaka - Zweigen Kanazawa,0.00,LOST,Cerezo Osaka -0.5 (Asian Handicap-Rest of Match)(0:1),0-2,SBOBET,1.94,5.00,-5.00,Tsubasa10,2015-04-11 07:51:16
+263,2015-04-11 07:00:00,SOC,Livebet,Cerezo Osaka - Zweigen Kanazawa,0.00,LOST,Cerezo Osaka -0.5 (Asian Handicap-Rest of Match)(0:0),0-2,SBOBET,2.04,2.00,-2.00,Tsubasa10,2015-04-11 07:40:34
+264,2015-04-11 05:00:00,SOC,Livebet,Jef United Ichihara Chiba - Omiya Ardija,2.00,PUSH,HT Away 0 (0:0),0-0,188bet,2.36,2.00,0.00,Tsubasa10,2015-04-11 06:44:30
+265,2015-04-11 07:00:00,SOC,Japan,Cerezo Osaka - Zweigen Kanazawa,0.00,LOST,Home over 1.5 (Match),0-2,PINNACLE,1.79,3.00,-3.00,Tsubasa10,2015-04-11 06:23:59
+266,2015-04-11 03:01:00,SOC,Livebet,Tochigi SC - Giravanz Kitakyushu,0.00,LOST,FT Home 0 (2:3),2-4,188bet,2.17,1.00,-1.00,Tsubasa10,2015-04-11 05:48:37
+267,2015-04-11 04:00:00,SOC,Livebet,Kyoto Purple Sanga - V Varen Nagasaki,0.00,LOST,FT Home 0 (0:2),1-4,188bet,1.83,2.00,-2.00,Tsubasa10,2015-04-11 05:46:34
+268,2015-04-11 07:00:00,SOC,Japan,Tokyo Verdy 1969 - FC Gifu,0.00,LOST,X2 (Double chance-Full Time Excluding Overtime),4-3,Bet365,2.75,1.00,-1.00,Tsubasa10,2015-04-09 00:53:13
+269,2015-04-11 07:00:00,SOC,Japan,Tokyo Verdy 1969 - FC Gifu,0.00,LOST,FC Gifu (Draw No Bet-Full Time Excluding Overtime),4-3,Bet365,6,1.00,-1.00,Tsubasa10,2015-04-09 00:36:19
+270,2015-04-12 05:59:00,SOC,Japan,Shimizu S-Pulse - Gamba Osaka,2.00,PUSH,Away -1 (Match),2-3,PINNACLE,2.75,2.00,0.00,Tsubasa10,2015-04-08 22:00:14
+271,2015-04-12 07:00:00,Combo pick,Combo pick,Combo pick,20.72,WIN,,0,Bet365,2.07,10.00,10.72,Tsubasa10,2015-04-08 21:57:41
+,2015-04-12 06:00:00,SOC,Japan,Shimizu S-pulse - Gamba Osaka,14,WIN,Gamba Osaka 0 (Asian Handicap-Full Time Excluding Overtime),2-3,,1.4,,,,
+,2015-04-12 07:00:00,SOC,Japan,Vissel Kobe - Ventforet Kofu,14.8,WIN,Vissel Kobe +0.25 (Asian Handicap-Full Time Excluding Overtime),4-1,,1.48,,,,
+272,2015-04-12 07:00:00,SOC,Japan,Vissel Kobe - Ventforet Kofu,6.92,WIN,Vissel Kobe 0 (Asian Handicap-Full Time Excluding Overtime),4-1,Dafabet,1.73,4.00,2.92,Tsubasa10,2015-04-08 21:56:13
+273,2015-04-08 11:00:00,SOC,Livebet,Shandong Luneng - Kashiwa Reysol,19.2,WIN,Kashiwa Reysol 0 (Asian Handicap-Rest of Match)(4:3),4-4,SBOBET,1.92,10.00,9.20,Tsubasa10,2015-04-08 12:32:53
+274,2015-04-08 11:00:00,SOC,Livebet,Becamex Binh Duong FC - Jeonbuk Hyundai Motors FC,0.00,LOST,Jeonbuk Hyundai Motors FC -0.75 (Asian Handicap-Rest of Match)(0:1),1-1,188bet,1.93,5.00,-5.00,Tsubasa10,2015-04-08 12:14:37
+275,2015-04-08 11:00:00,SOC,Livebet,Shandong Luneng - Kashiwa Reysol,8.2,WIN,Kashiwa Reysol 0 (Asian Handicap-Rest of Match)(4:3),4-4,SBOBET,2.05,4.00,4.20,Tsubasa10,2015-04-08 12:09:24
+276,2015-04-08 11:00:00,SOC,Livebet,Shandong Luneng - Kashiwa Reysol,6.00,PUSH,Kashiwa Reysol 0 (Asian Handicap-Rest of Match)(0:0),4-4,188bet,2.04,6.00,0.00,Tsubasa10,2015-04-08 11:02:39
+277,2015-04-08 10:00:00,SOC,Livebet,Shimizu S-pulse - Kawasaki Frontale,0.00,LOST,Over 0.5 (Over Under-First Half),0-0,188bet,1.87,3.00,-3.00,Tsubasa10,2015-04-08 10:27:38
+278,2015-04-07 11:00:00,SOC,Livebet,Buriram FC - Gamba Osaka,3.00,PUSH,Buriram FC 0 (Asian Handicap-Rest of 1st Half)(0:0),1-1,188bet,2.06,3.00,0.00,Tsubasa10,2015-04-07 11:08:07
+279,2015-04-07 10:00:00,SOC,Livebet,Kashima Antlers - Guangzhou Evergrande,0.00,LOST,Guangzhou Evergrande -0.5 (Asian Handicap-Rest of Match)(1:0),2-1,188bet,2.44,1.00,-1.00,Tsubasa10,2015-04-07 10:40:16
+280,2015-04-07 10:00:00,SOC,Livebet,Kashima Antlers - Guangzhou Evergrande,6.92,WIN,Over 0.5 (Over Under-First Half)(0:0),1-0,Bet365,1.73,4.00,2.92,Tsubasa10,2015-04-07 10:17:33
+281,2015-04-07 10:00:00,SOC,Livebet,Kashima Antlers - Guangzhou Evergrande,0.00,LOST,Guangzhou Evergrande 0 (Asian Handicap-Rest of Match)(0:0),2-1,188bet,1.84,3.00,-3.00,Tsubasa10,2015-04-07 10:04:47
+282,2015-04-07 11:00:00,SOC,Asia,Buriram United-Gamba Osaka,0.00,LOST,1 (+0.25 AH),1-2,188bet,1.87,2.00,-2.00,Tsubasa10,2015-04-07 08:11:51
+283,2015-04-12 07:00:00,SOC,Japan,Vissel Kobe - Ventforet Kofu,7.26,WIN,Vissel Kobe (1X2-Full Time Excluding Overtime),4-1,SBOBET,2.42,3.00,4.26,Tsubasa10,2015-04-06 14:40:06
+284,2015-04-12 06:00:00,SOC,Japan,Shimizu-Gamba Osaka,19.7,WIN,2 ( 1X2),2-3,188bet,1.97,10.00,9.70,Tsubasa10,2015-04-06 13:56:07
+285,2015-04-05 03:00:00,SOC,Livebet,FC Gifu - Cerezo Osaka,11.75,WIN,Cerezo Osaka -0.5 (Asian Handicap-Rest of Match)(0:0),2-0,188bet,2.35,5.00,6.75,Tsubasa10,2015-04-05 05:15:51
+286,2015-04-04 09:59:00,SOC,Japan,Kashiwa Reysol - Yokohama F.Marinos,0.00,LOST,Home 0 (Match),1-2,PINNACLE,1.94,5.00,-5.00,Tsubasa10,2015-04-04 08:18:54
+287,2015-04-04 04:00:00,SOC,Livebet,Montedio Yamagata - Shonan Bellmare,9.9,WIN,Shonan Bellmare -0.25 (Asian Handicap-Rest of Match)(0:0),1-2,SBOBET,1.98,5.00,4.90,Tsubasa10,2015-04-04 05:12:34
+288,2015-04-05 04:00:00,SOC,Japan,FC Gifu-Cerezo Osaka,0.00,LOST,over (3.5 TOT),0-2,Bet365,3.75,5.00,-5.00,Tsubasa10,2015-04-03 19:33:07
+289,2015-04-05 04:59:00,SOC,Japan,Kyoto Sanga - JEF United Ichihara,5.00,PUSH,Over 2 (Match),0-2,PINNACLE,1.83,5.00,0.00,Tsubasa10,2015-04-03 19:23:20
+290,2015-04-05 07:00:00,SOC,Japan,Omiya Ardija - Roasso Kumamoto,9.05,WIN,Home -0.5 (Match),2-0,PINNACLE,1.81,5.00,4.05,Tsubasa10,2015-04-03 19:11:06
+291,2015-04-05 03:00:00,SOC,Japan,FC Gifu - Cerezo Osaka,9.25,WIN,Cerezo Osaka -0.75 (Asian Handicap-Full Time Excluding Overtime),2-0,Dafabet,1.85,5.00,4.25,Tsubasa10,2015-04-03 16:31:27
+292,2015-04-05 04:00:00,SOC,Japan,Yokohama FC - Jubilo Iwata,9.2,WIN,Over 0.75 (Over Under-First Half),2-1,SBOBET,1.84,5.00,4.20,Tsubasa10,2015-04-03 16:24:17
+293,2015-04-05 07:00:00,SOC,Japan,Tokushima Vortis-Okayama,8.95,WIN,2 (0 AH),1-2,188bet,1.79,5.00,3.95,Tsubasa10,2015-04-03 16:19:23
+294,2015-04-04 09:59:00,SOC,Japan,Kashiwa Reysol - Yokohama F.Marinos,0.00,LOST,Home 0 (Match),1-2,PINNACLE,1.82,5.00,-5.00,Tsubasa10,2015-04-02 19:08:59
+295,2015-04-04 09:00:00,SOC,Japan,Kashiwa Reysol - Yokohama F Marinos,0.00,LOST,Over 9.5 (Corners Over Under-Full Time Excluding Overtime),9,Bet365,1.83,5.00,-5.00,Tsubasa10,2015-04-02 18:50:23
+296,2015-04-04 07:00:00,SOC,Japan,FC Tokyo - Ventforet Kofu,2.5,LOST,Home over 1.25 (Match),1-0,PINNACLE,1.97,5.00,-2.50,Tsubasa10,2015-04-02 18:43:03
+297,2015-04-02 18:41:09,SOC,Outrights,J League 2015,0.00,LOST,Gamba Osaka (Winner-Full Event),nop,SBOBET,4.8,5.00,-5.00,Tsubasa10,2015-04-02 18:41:09
+298,2015-04-02 18:40:54,SOC,Outrights,J League 2015,0.00,LOST,Urawa Red Diamonds (Winner-Full Event),nop,SBOBET,3.1,5.00,-5.00,Tsubasa10,2015-04-02 18:40:54

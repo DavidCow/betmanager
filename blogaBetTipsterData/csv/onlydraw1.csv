@@ -1,0 +1,637 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-05-19 17:00:00,SOC,Turkey,Genclerbirligi - Eskisehirspor,0.00,LOST,Full Event Draw (1X2),3:1 (2:1),PINNACLE,3.67,10.00,-10.00,onlydraw1,2016-05-19 11:13:58
+2,2016-05-19 17:00:00,SOC,Turkey,Sivasspor - Fenerbahce,37.3,WIN,Full Event Draw (1X2),2:2 (2:1),PINNACLE,3.73,10.00,27.30,onlydraw1,2016-05-19 11:13:44
+3,2016-05-15 16:00:00,SOC,Poland,Piast Gliwice - Zaglebie Lubin,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.59,10.00,-10.00,onlydraw1,2016-05-15 09:18:20
+4,2016-05-15 16:00:00,SOC,Poland,Cracovia Krakow - Lechia Gdansk,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.53,10.00,-10.00,onlydraw1,2016-05-15 09:17:57
+5,2016-05-15 17:00:00,SOC,Spa. Segunda,UE Llagostera - Cordoba,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-05-15 09:17:38
+6,2016-05-15 15:00:00,SOC,Spa. Segunda,Elche - Girona,31.8,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.18,10.00,21.80,onlydraw1,2016-05-15 09:17:23
+7,2016-05-15 16:00:00,SOC,Ita. Serie A,Empoli - Torino,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.7,10.00,-10.00,onlydraw1,2016-05-15 09:16:57
+8,2016-05-15 13:00:00,SOC,Sweden,Orebro - Elfsborg,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.76,10.00,-10.00,onlydraw1,2016-05-15 09:14:57
+9,2016-05-14 18:45:00,SOC,Ita. Serie A,AC Milan - AS Roma,0.00,LOST,Full Event Draw (1X2),1-3,PINNACLE,3.73,10.00,-10.00,onlydraw1,2016-05-14 09:54:41
+10,2016-05-14 19:00:00,SOC,Fra. Ligue 1,Caen - Bordeaux,0.00,LOST,Full Event Draw (1X2),1-0,PINNACLE,3.51,10.00,-10.00,onlydraw1,2016-05-14 09:54:14
+11,2016-05-14 19:00:00,SOC,Fra. Ligue 1,Lorient - Gazelec Ajaccio,0.00,LOST,Full Event Draw (1X2),1-0,PINNACLE,3.56,10.00,-10.00,onlydraw1,2016-05-14 09:54:02
+12,2016-05-14 13:30:00,SOC,Poland,Podbeskidzie Bielsko Biala - Wisla Krakow,0.00,LOST,Full Event Draw (1X2),3:4,PINNACLE,3.67,10.00,-10.00,onlydraw1,2016-05-14 09:53:14
+13,2016-05-14 13:30:00,SOC,Poland,LKS Nieciecza - Gornik Zabrze,35.3,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.53,10.00,25.30,onlydraw1,2016-05-14 09:53:04
+14,2016-05-14 13:30:00,SOC,Czech Rep.,FK Jablonec - FK Pribram,31.6,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.16,10.00,21.60,onlydraw1,2016-05-14 09:52:36
+15,2016-05-12 17:00:00,SOC,Norway,Hodd - Sandefjord,0.00,LOST,Full Event Draw (1X2),1:3 (0:0),PINNACLE,3.53,10.00,-10.00,onlydraw1,2016-05-12 14:37:24
+16,2016-05-12 17:00:00,SOC,Norway,Stabaek - Viking,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.54,10.00,-10.00,onlydraw1,2016-05-12 14:36:54
+17,2016-05-10 19:00:00,SOC,Ireland,Longford Town - Wexford Youths,0.00,LOST,Full Event Draw (1X2),2:4 (1:2),PINNACLE,3.6,10.00,-10.00,onlydraw1,2016-05-10 16:40:58
+18,2016-05-10 18:45:00,SOC,Ireland,Galway FC - St Patricks Athletic,0.00,LOST,Full Event Draw (1X2),0:3 (0:1),PINNACLE,3.12,10.00,-10.00,onlydraw1,2016-05-10 16:40:48
+19,2016-05-08 13:00:00,SOC,Ita. Serie A,Atalanta - Udinese,34.5,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.45,10.00,24.50,onlydraw1,2016-05-08 09:06:21
+20,2016-05-08 13:30:00,SOC,Poland,Pogon Szczecin - Zaglebie Lubin,0.00,LOST,Full Event Draw (1X2),1:3,PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-05-08 09:06:03
+21,2016-05-09 15:00:00,SOC,Finland,Lahti - Seinajoen JK,0.00,LOST,Full Event Draw (1X2),3:0 (1:0),PINNACLE,3.05,10.00,-10.00,onlydraw1,2016-05-08 09:05:43
+22,2016-05-09 15:00:00,SOC,Finland,HIFK Helsinki - RoPS Rovaniemi,32.4,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.24,10.00,22.40,onlydraw1,2016-05-08 09:05:29
+23,2016-05-08 16:00:00,SOC,Belgium,KAA Gent - Club Brugge,0.00,LOST,Full Event Draw (1X2),1:4,PINNACLE,3.42,10.00,-10.00,onlydraw1,2016-05-08 09:05:13
+24,2016-05-08 11:00:00,SOC,Denmark,Viborg - Aalborg,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.55,10.00,-10.00,onlydraw1,2016-05-08 09:04:42
+25,2016-05-07 18:00:00,SOC,Switzerland,FC Zurich - Basel,0.00,LOST,Full Event Draw (1X2),2:3,PINNACLE,3.59,10.00,-10.00,onlydraw1,2016-05-07 08:35:41
+26,2016-05-07 14:00:00,SOC,Eng. Premier,Sunderland - Chelsea,0.00,LOST,Full Event Draw (1X2),3:2,PINNACLE,3.49,10.00,-10.00,onlydraw1,2016-05-07 08:35:17
+27,2016-05-07 16:30:00,SOC,Russia,Rubin Kazan - FC Krasnodar,35.1,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.51,10.00,25.10,onlydraw1,2016-05-07 08:34:48
+28,2016-05-07 16:00:00,SOC,Poland,Gornik Leczna - Gornik Zabrze,34.4,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.44,10.00,24.40,onlydraw1,2016-05-07 08:34:14
+29,2016-05-07 13:00:00,SOC,Finland,PS Kemi Kings (n) - Ilves Tampere,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-05-07 08:33:06
+30,2016-05-07 13:30:00,SOC,Czech Rep.,Banik Ostrava - Bohemians 1905,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.5,10.00,-10.00,onlydraw1,2016-05-07 08:32:24
+31,2016-05-06 18:45:00,SOC,Fra. Ligue 2,Red Star Saint Ouen - Dijon,0.00,LOST,Full Event Draw (1X2),3:2 (2:1),PINNACLE,3.29,10.00,-10.00,onlydraw1,2016-05-06 13:19:41
+32,2016-05-06 18:45:00,SOC,Fra. Ligue 2,Auxerre - Le Havre,0.00,LOST,Full Event Draw (1X2),1:3 (1:1),PINNACLE,3.34,10.00,-10.00,onlydraw1,2016-05-06 13:19:25
+33,2016-05-06 18:45:00,SOC,Fra. Ligue 2,Ajaccio - Sochaux,0.00,LOST,Full Event Draw (1X2),0:2 (0:1),PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-05-06 13:19:16
+34,2016-05-02 17:00:00,SOC,Turkey,Kasimpasa - Osmanlispor,33.7,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,3.37,10.00,23.70,onlydraw1,2016-05-02 13:19:24
+35,2016-05-02 17:00:00,SOC,Denmark,Esbjerg - Odense BK,0.00,LOST,Full Event Draw (1X2),0:2 (0:1),PINNACLE,3.55,10.00,-10.00,onlydraw1,2016-05-02 13:18:37
+36,2016-05-02 18:30:00,SOC,Fra. Ligue 2,Valenciennes - Nancy,0.00,LOST,Full Event Draw (1X2),1:0 (1:0),PINNACLE,3.19,10.00,-10.00,onlydraw1,2016-05-02 13:18:28
+37,2016-05-01 11:45:00,SOC,Switzerland,Thun - FC Zurich,0.00,LOST,Full Event Draw (1X2),4:0,PINNACLE,3.55,10.00,-10.00,onlydraw1,2016-05-01 07:11:36
+38,2016-05-01 17:00:00,SOC,Czech Rep.,Bohemians 1905 - Slavia Praha,33.1,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.31,10.00,23.10,onlydraw1,2016-05-01 07:11:07
+39,2016-05-01 15:00:00,SOC,Fra. Ligue 1,Angers - Marseille,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-05-01 07:10:38
+40,2016-05-01 17:15:00,SOC,Spa. Segunda,Ponferradina - Real Zaragoza,32.1,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.21,10.00,22.10,onlydraw1,2016-05-01 07:10:19
+41,2016-05-01 15:00:00,SOC,Por. Superliga,Moreirense - Boavista,30.1,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.01,10.00,20.10,onlydraw1,2016-05-01 07:09:42
+42,2016-05-01 16:00:00,SOC,Turkey,Antalyaspor - Konyaspor,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.32,10.00,-10.00,onlydraw1,2016-05-01 07:09:28
+43,2016-04-29 18:30:00,SOC,Poland,Ruch Chorzow - Cracovia Krakow,0.00,LOST,Full Event Draw (1X2),0:1 (0:1),PINNACLE,3.5,10.00,-10.00,onlydraw1,2016-04-29 14:04:46
+44,2016-04-29 16:00:00,SOC,Poland,Gornik Zabrze - Slask Wroclaw,0.00,LOST,Full Event Draw (1X2),2:1 (1:0),PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-04-29 14:04:35
+45,2016-04-29 18:00:00,SOC,Fra. Ligue 2,Tours - Chamois Niortais,0.00,LOST,Full Event Draw (1X2),1:2 (1:0),PINNACLE,3.19,10.00,-10.00,onlydraw1,2016-04-29 14:04:19
+46,2016-04-29 18:00:00,SOC,Fra. Ligue 2,Laval - Clermont Foot,31,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.1,10.00,21.00,onlydraw1,2016-04-29 14:04:06
+47,2016-04-29 15:30:00,SOC,Finland,PK-35 Vantaa - Seinajoen JK,33,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.3,10.00,23.00,onlydraw1,2016-04-29 14:03:49
+48,2016-04-29 15:30:00,SOC,Finland,Ilves Tampere - IFK Mariehamn,0.00,LOST,Full Event Draw (1X2),0:1 (0:1),PINNACLE,3.2,10.00,-10.00,onlydraw1,2016-04-29 14:03:40
+49,2016-04-28 17:00:00,SOC,Sweden,Helsingborgs - AIK Solna,0.00,LOST,Full Event Draw (1X2),2:1 (1:1),PINNACLE,3.73,10.00,-10.00,onlydraw1,2016-04-28 13:27:51
+50,2016-04-24 10:30:00,SOC,Turkey,Mersin Idman Yurdu - Eskisehirspor,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.27,10.00,-10.00,onlydraw1,2016-04-24 10:21:16
+51,2016-04-24 15:00:00,SOC,Por. Other,Clube Oriental Lisboa - Leixoes,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-04-24 10:20:51
+52,2016-04-24 16:15:00,SOC,Spa. Primera,Getafe - Valencia,36.6,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.66,10.00,26.60,onlydraw1,2016-04-24 10:20:06
+53,2016-04-24 18:45:00,SOC,Ita. Serie A,Fiorentina - Juventus,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-04-24 10:19:52
+54,2016-04-24 13:00:00,SOC,Ita. Serie A,Sampdoria - Lazio,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.42,10.00,-10.00,onlydraw1,2016-04-24 10:19:40
+55,2016-04-24 10:30:00,SOC,Ita. Serie A,Frosinone - Palermo,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-04-24 10:19:23
+56,2016-04-23 18:00:00,SOC,Belgium,Sint-Truidense - Sporting Lokeren,32.9,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.29,10.00,22.90,onlydraw1,2016-04-23 09:59:24
+57,2016-04-23 19:45:00,SOC,Por. Superliga,Pacos de Ferreira - Sporting Braga,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.51,10.00,-10.00,onlydraw1,2016-04-23 09:58:29
+58,2016-04-23 18:30:00,SOC,Poland,Pogon Szczecin - Lech Poznan,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-04-23 09:56:54
+59,2016-04-23 16:00:00,SOC,Poland,Podbeskidzie Bielsko Biala - Slask Wroclaw,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-04-23 09:56:42
+60,2016-04-23 15:30:00,SOC,Fra. Ligue 1,Toulouse - Lyon,0.00,LOST,Full Event Draw (1X2),2-3,PINNACLE,3.7,10.00,-10.00,onlydraw1,2016-04-23 09:56:23
+61,2016-04-23 14:00:00,SOC,Sweden,Gefle - Ostersunds FK,35.4,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.54,10.00,25.40,onlydraw1,2016-04-23 09:55:58
+62,2016-04-22 18:45:00,SOC,Eng. Championship,Preston North End - Burnley,0.00,LOST,Full Event Draw (1X2),0:1 (0:1),PINNACLE,3.5,10.00,-10.00,onlydraw1,2016-04-22 14:12:21
+63,2016-04-22 18:45:00,SOC,Ireland,Waterford United - Drogheda United,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.63,10.00,-10.00,onlydraw1,2016-04-22 14:11:24
+64,2016-04-22 19:00:00,SOC,Ireland,Shamrock Rovers - Dundalk,0.00,LOST,Full Event Draw (1X2),0:2 (0:1),PINNACLE,3.27,10.00,-10.00,onlydraw1,2016-04-22 14:10:27
+65,2016-04-22 18:00:00,SOC,Fra. National,ASM Belfort - Marseille Consolat,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-04-22 14:08:50
+66,2016-04-22 18:00:00,SOC,Fra. Ligue 2,Nimes - Lens,0.00,LOST,Full Event Draw (1X2),4:2 (1:0),PINNACLE,3.13,10.00,-10.00,onlydraw1,2016-04-22 14:08:00
+67,2016-04-22 18:00:00,SOC,Fra. Ligue 2,Evian Thonon Gaillard - Le Havre,30.7,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.07,10.00,20.70,onlydraw1,2016-04-22 14:07:47
+68,2016-04-20 18:15:00,SOC,Turkey,Konyaspor - Fenerbahce,0.00,LOST,Full Event Draw (1X2),0:3 (0:2),PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-04-20 13:25:04
+69,2016-04-20 15:45:00,SOC,Turkey,Caykur Rizespor - Galatasaray,0.00,LOST,Full Event Draw (1X2),1:3 (0:1),PINNACLE,3.52,10.00,-10.00,onlydraw1,2016-04-20 13:24:54
+70,2016-04-20 18:30:00,SOC,Switzerland,Luzern - Young Boys,0.00,LOST,Full Event Draw (1X2),2:3 (1:2),PINNACLE,3.68,10.00,-10.00,onlydraw1,2016-04-20 13:24:31
+71,2016-04-20 16:00:00,SOC,Poland,Gornik Leczna - Wisla Krakow,0.00,LOST,Full Event Draw (1X2),0:3 (0:0),PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-04-20 13:23:42
+72,2016-04-20 17:00:00,SOC,Norway,Stabaek - Stromsgodset,0.00,LOST,Full Event Draw (1X2),0:1 (0:1),PINNACLE,3.58,10.00,-10.00,onlydraw1,2016-04-20 13:23:19
+73,2016-04-20 18:45:00,SOC,Spa. Primera,Sporting Gijon - Sevilla,0.00,LOST,Full Event Draw (1X2),2:1 (1:1),PINNACLE,3.66,10.00,-10.00,onlydraw1,2016-04-20 13:22:49
+74,2016-04-19 18:45:00,SOC,Eng. League One,Burton Albion - Wigan Athletic,33.5,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,3.35,10.00,23.50,onlydraw1,2016-04-19 13:57:38
+75,2016-04-19 18:45:00,SOC,Eng. League One,Coventry City - Bradford City,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.33,10.00,-10.00,onlydraw1,2016-04-19 13:56:51
+76,2016-04-19 19:00:00,SOC,Eng. Championship,Bolton Wanderers - Charlton Athletic,35.9,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.59,10.00,25.90,onlydraw1,2016-04-19 13:56:28
+77,2016-04-19 18:45:00,SOC,Eng. Championship,Bristol City - Derby County,0.00,LOST,Full Event Draw (1X2),2:3 (2:1),PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-04-19 13:56:03
+78,2016-04-19 18:45:00,SOC,Eng. Championship,Burnley - Middlesbrough,32.1,WIN,Full Event Draw (1X2),1:1 (0:0),PINNACLE,3.21,10.00,22.10,onlydraw1,2016-04-19 13:55:51
+79,2016-04-19 18:45:00,SOC,Eng. Championship,Brentford - Cardiff City,0.00,LOST,Full Event Draw (1X2),2:1 (0:0),PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-04-19 13:55:38
+80,2016-04-17 18:45:00,SOC,Ita. Serie A,Sampdoria - AC Milan,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-04-17 09:05:03
+81,2016-04-17 15:00:00,SOC,Por. Other,Leixoes - Freamunde,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-04-17 09:04:24
+82,2016-04-17 16:00:00,SOC,Norway,Aalesund FK - Viking,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.52,10.00,-10.00,onlydraw1,2016-04-17 09:03:40
+83,2016-04-17 16:15:00,SOC,Spa. Primera,Rayo Vallecano - Villarreal,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.55,10.00,-10.00,onlydraw1,2016-04-17 09:02:55
+84,2016-04-17 11:00:00,SOC,Denmark,Odense BK - Viborg,0.00,LOST,Full Event Draw (1X2),5:1,PINNACLE,3.16,10.00,-10.00,onlydraw1,2016-04-17 09:01:57
+85,2016-04-17 20:45:00,SOC,Argentina,San Martin San Juan - Estudiantes La Plata,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-04-17 09:01:31
+86,2016-04-16 15:15:00,SOC,Por. Superliga,FC Arouca - Rio Ave,32.5,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.25,10.00,22.50,onlydraw1,2016-04-16 09:26:41
+87,2016-04-16 18:30:00,SOC,Poland,Piast Gliwice - Cracovia Krakow,34.7,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.47,10.00,24.70,onlydraw1,2016-04-16 09:26:01
+88,2016-04-16 18:30:00,SOC,Spa. Primera,Eibar - Real Sociedad,0.00,LOST,Full Event Draw (1X2),2-1,PINNACLE,3.27,10.00,-10.00,onlydraw1,2016-04-16 09:25:27
+89,2016-04-16 18:00:00,SOC,Fra. Ligue 1,SC Bastia - Saint Etienne,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.2,10.00,-10.00,onlydraw1,2016-04-16 09:24:23
+90,2016-04-16 18:00:00,SOC,Fra. Ligue 1,Lorient - Toulouse,34.7,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.47,10.00,24.70,onlydraw1,2016-04-16 09:24:08
+91,2016-04-16 15:00:00,SOC,Czech Rep.,Sigma Olomouc - Slavia Praha,33.5,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.35,10.00,23.50,onlydraw1,2016-04-16 09:23:00
+92,2016-04-15 18:00:00,SOC,Fra. National,US Avranches - Amiens,0.00,LOST,Full Event Draw (1X2),0:2 (0:1),PINNACLE,3.12,10.00,-10.00,onlydraw1,2016-04-15 14:24:39
+93,2016-04-15 18:00:00,SOC,Fra. National,Etoile Frejus Saint Raphael - CS Sedan Ardennes,29.4,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,2.94,10.00,19.40,onlydraw1,2016-04-15 14:24:08
+94,2016-04-15 18:00:00,SOC,Fra. National,Boulogne - USL Dunkerque,0.00,LOST,Full Event Draw (1X2),1:2 (0:2),PINNACLE,3.06,10.00,-10.00,onlydraw1,2016-04-15 14:23:21
+95,2016-04-15 18:00:00,SOC,Fra. National,SAS Epinal - Vendee Les Herbiers,0.00,LOST,Full Event Draw (1X2),2:1 (1:0),PINNACLE,3.18,10.00,-10.00,onlydraw1,2016-04-15 14:22:20
+96,2016-04-15 18:00:00,SOC,Fra. National,FC Chambly - US Orleans,0.00,LOST,Full Event Draw (1X2),1:2 (0:1),PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-04-15 14:21:56
+97,2016-04-15 18:00:00,SOC,Fra. Ligue 2,Valenciennes - Clermont Foot,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.08,10.00,-10.00,onlydraw1,2016-04-15 14:17:18
+98,2016-04-15 18:00:00,SOC,Fra. Ligue 2,Bourg en Bresse Peronnas 01 - Metz,0.00,LOST,Full Event Draw (1X2),0:3 (0:2),PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-04-15 14:16:40
+99,2016-04-12 16:00:00,SOC,Turkey,Gaziantep Buyuksehir Belediyespor - Kardemir Karabukspor,29.9,WIN,Full Event Draw (1X2),1:1 (0:1),PINNACLE,2.99,10.00,19.90,onlydraw1,2016-04-12 13:39:11
+100,2016-04-12 15:30:00,SOC,Turkey,Boluspor - Adanaspor,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-04-12 13:38:38
+101,2016-04-12 18:45:00,SOC,Eng. Conference,Kidderminster Harriers - Halifax Town,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.52,10.00,-10.00,onlydraw1,2016-04-12 13:36:46
+102,2016-04-12 18:45:00,SOC,Eng. Conference,Macclesfield Town - Dover Athletic,33.9,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.39,10.00,23.90,onlydraw1,2016-04-12 13:35:56
+103,2016-04-11 17:00:00,SOC,Sweden,AIK Solna - IFK Goteborg,32.4,WIN,Full Event Draw (1X2),3:3 (1:1),PINNACLE,3.24,10.00,22.40,onlydraw1,2016-04-11 14:11:52
+104,2016-04-11 18:00:00,SOC,Netherlands,Jong PSV Eindhoven (n) - Den Bosch,0.00,LOST,Full Event Draw (1X2),2:1 (1:0),PINNACLE,3.59,10.00,-10.00,onlydraw1,2016-04-11 14:11:35
+105,2016-04-11 18:00:00,SOC,Netherlands,Fortuna Sittard - MVV Maastricht,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.57,10.00,-10.00,onlydraw1,2016-04-11 14:11:16
+106,2016-04-10 16:00:00,SOC,Norway,Tromso - Stromsgodset,0.00,LOST,Full Event Draw (1X2),2:0 (1:0),PINNACLE,3.59,10.00,-10.00,onlydraw1,2016-04-10 09:43:55
+107,2016-04-10 10:00:00,SOC,Spa. Primera,Sporting Gijon - Celta Vigo,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.49,10.00,-10.00,onlydraw1,2016-04-10 09:42:54
+108,2016-04-10 14:00:00,SOC,Denmark,Randers FC - FC Copenhagen,32.7,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.27,10.00,22.70,onlydraw1,2016-04-10 09:41:06
+109,2016-04-10 18:45:00,SOC,Ita. Serie A,Palermo - Lazio,0.00,LOST,Full Event Draw (1X2),0-3,PINNACLE,3.56,10.00,-10.00,onlydraw1,2016-04-10 09:40:10
+110,2016-04-10 10:30:00,SOC,Ita. Serie A,Empoli - Fiorentina,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.41,10.00,-10.00,onlydraw1,2016-04-10 09:39:54
+111,2016-04-10 15:30:00,SOC,Sweden,Falkenbergs - Ostersunds FK,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.47,10.00,-10.00,onlydraw1,2016-04-10 09:38:57
+112,2016-04-09 15:15:00,SOC,Por. Other,Olhanense - Portimonense,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,2.94,10.00,-10.00,onlydraw1,2016-04-09 07:19:56
+113,2016-04-09 14:00:00,SOC,Eng. Premier,Watford - Everton,34.6,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.46,10.00,24.60,onlydraw1,2016-04-09 07:18:44
+114,2016-04-09 14:00:00,SOC,Eng. Premier,Swansea City - Chelsea,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-04-09 07:18:31
+115,2016-04-09 16:00:00,SOC,Poland,Gornik Leczna - Lech Poznan,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.15,10.00,-10.00,onlydraw1,2016-04-09 07:17:54
+116,2016-04-09 15:00:00,SOC,Czech Rep.,Banik Ostrava - Slovacko,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.63,10.00,-10.00,onlydraw1,2016-04-09 07:17:05
+117,2016-04-08 18:00:00,SOC,Fra. National,US Avranches - Vendee Lucon,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,2.98,10.00,-10.00,onlydraw1,2016-04-08 14:20:57
+118,2016-04-08 18:00:00,SOC,Fra. National,CA Bastia - Marseille Consolat,30.8,WIN,Full Event Draw (1X2),1:1 (0:0),PINNACLE,3.08,10.00,20.80,onlydraw1,2016-04-08 14:20:38
+119,2016-04-08 18:00:00,SOC,Fra. Ligue 2,Laval - Sochaux,0.00,LOST,Full Event Draw (1X2),1:2 (0:1),PINNACLE,2.9,10.00,-10.00,onlydraw1,2016-04-08 14:20:16
+120,2016-04-08 18:00:00,SOC,Fra. Ligue 2,Brest - Le Havre,29.7,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,2.97,10.00,19.70,onlydraw1,2016-04-08 14:20:00
+121,2016-04-08 18:00:00,SOC,Fra. Ligue 2,Auxerre - Metz,0.00,LOST,Full Event Draw (1X2),4:0 (1:0),PINNACLE,3.25,10.00,-10.00,onlydraw1,2016-04-08 14:19:41
+122,2016-04-08 18:00:00,SOC,Fra. Ligue 2,Chamois Niortais - Lens,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,3.01,10.00,-10.00,onlydraw1,2016-04-08 14:19:28
+123,2016-04-06 16:00:00,SOC,Por. Other,Santa Clara - Famalicao,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.06,10.00,-10.00,onlydraw1,2016-04-06 13:56:59
+124,2016-04-06 15:00:00,SOC,Por. Other,Sporting Lisbon B - GD Chaves,0.00,LOST,Full Event Draw (1X2),2:0 (2:0),PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-04-06 13:56:43
+125,2016-04-06 15:00:00,SOC,Por. Other,Clube Oriental Lisboa - Benfica B,0.00,LOST,Full Event Draw (1X2),1:3 (0:1),PINNACLE,3.13,10.00,-10.00,onlydraw1,2016-04-06 13:56:32
+126,2016-04-05 18:45:00,SOC,Eng. League Two,Dagenham & Redbridge - Morecambe,0.00,LOST,Full Event Draw (1X2),2:1 (2:0),PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-04-05 14:27:55
+127,2016-04-09 14:00:00,SOC,Eng. League One,Oldham Athletic - Walsall,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-04-05 14:27:19
+128,2016-04-05 18:45:00,SOC,Eng. Championship,Leeds United - Queens Park Rangers,32.3,WIN,Full Event Draw (1X2),1:1 (0:0),PINNACLE,3.23,10.00,22.30,onlydraw1,2016-04-05 14:26:48
+129,2016-04-05 18:45:00,SOC,Eng. Championship,Derby County - Hull City,0.00,LOST,Full Event Draw (1X2),4:0 (2:0),PINNACLE,3.22,10.00,-10.00,onlydraw1,2016-04-05 14:26:36
+130,2016-04-05 18:45:00,SOC,Eng. Championship,Birmingham City - Brighton & Hove Albion,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-04-05 14:26:24
+131,2016-04-04 18:30:00,SOC,Spa. Segunda,Athletic Bilbao B - Real Oviedo,0.00,LOST,Full Event Draw (1X2),2:1 (1:1),PINNACLE,3.32,10.00,-10.00,onlydraw1,2016-04-04 13:52:29
+132,2016-04-04 16:30:00,SOC,Russia,Dynamo Moscow - FC Krasnodar,0.00,LOST,Full Event Draw (1X2),1:4 (1:1),PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-04-04 13:38:31
+133,2016-04-03 11:45:00,SOC,Switzerland,Lugano - FC Sion,0.00,LOST,Full Event Draw (1X2),0:6,PINNACLE,3.53,10.00,-10.00,onlydraw1,2016-04-03 08:14:28
+134,2016-04-03 16:15:00,SOC,Spa. Primera,Eibar - Villarreal,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-04-03 08:13:37
+135,2016-04-03 16:00:00,SOC,Greece,Panionios - PAOK,0.00,LOST,Full Event Draw (1X2),3-1,PINNACLE,3.2,10.00,-10.00,onlydraw1,2016-04-03 08:13:18
+136,2016-04-03 16:00:00,SOC,Greece,Levadiakos - PAS Giannina,31.8,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.18,10.00,21.80,onlydraw1,2016-04-03 08:13:08
+137,2016-04-03 16:00:00,SOC,Greece,Iraklis - Asteras Tripolis,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.11,10.00,-10.00,onlydraw1,2016-04-03 08:12:59
+138,2016-04-03 15:00:00,SOC,Fra. Ligue 1,SC Bastia - Marseille,0.00,LOST,Full Event Draw (1X2),2-1,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-04-03 08:11:55
+139,2016-04-02 16:30:00,SOC,Russia,Rostov FK - Spartak Moscow,0.00,LOST,Full Event Draw (1X2),2-0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-04-02 07:06:01
+140,2016-04-02 13:00:00,SOC,Turkey,Gaziantepspor - Trabzonspor,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-04-02 07:05:20
+141,2016-04-02 15:00:00,SOC,Czech Rep.,Bohemians 1905 - Slovan Liberec,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.19,10.00,-10.00,onlydraw1,2016-04-02 07:02:41
+142,2016-04-02 13:30:00,SOC,Norway,Start IK - Viking,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.61,10.00,-10.00,onlydraw1,2016-04-02 07:01:42
+143,2016-04-02 18:00:00,SOC,Fra. Ligue 1,Troyes - Angers,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-04-02 07:00:29
+144,2016-04-02 18:00:00,SOC,Fra. Ligue 1,Gazelec Ajaccio - Saint Etienne,0.00,LOST,Full Event Draw (1X2),0-2,PINNACLE,3.1,10.00,-10.00,onlydraw1,2016-04-02 07:00:18
+145,2016-04-01 16:30:00,SOC,Ger. Bundesliga II,MSV Duisburg - FC Heidenheim,0.00,LOST,Full Event Draw (1X2),0:2 (0:1),PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-04-01 13:59:06
+146,2016-04-01 18:00:00,SOC,Netherlands,Fortuna Sittard - Jong Ajax,0.00,LOST,Full Event Draw (1X2),1:2 (1:0),PINNACLE,3.85,10.00,-10.00,onlydraw1,2016-04-01 13:58:29
+147,2016-04-01 18:00:00,SOC,Por. Other,Olhanense - Feirense,29.9,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,2.99,10.00,19.90,onlydraw1,2016-04-01 13:58:02
+148,2016-04-01 16:00:00,SOC,Poland,Gornik Zabrze - Pogon Szczecin,32.4,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.24,10.00,22.40,onlydraw1,2016-04-01 13:57:18
+149,2016-04-01 18:00:00,SOC,Fra. Ligue 2,Creteil - Clermont Foot,0.00,LOST,Full Event Draw (1X2),0:3 (0:1),PINNACLE,3.2,10.00,-10.00,onlydraw1,2016-04-01 13:56:14
+150,2016-04-01 18:00:00,SOC,Fra. Ligue 2,Bourg en Bresse Peronnas 01 - Ajaccio,0.00,LOST,Full Event Draw (1X2),3:0 (0:0),PINNACLE,3.01,10.00,-10.00,onlydraw1,2016-04-01 13:56:04
+151,2016-03-29 19:00:00,SOC,Friendly,Scotland - Denmark,0.00,LOST,Full Event Draw (1X2),1:0 (1:0),PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-03-29 05:37:33
+152,2016-03-29 17:00:00,SOC,Friendly,FYR Macedonia - Bulgaria,0.00,LOST,Full Event Draw (1X2),0:2 (0:0),PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-03-29 05:36:23
+153,2016-03-29 15:00:00,SOC,Africa,Togo - Tunisia,30,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3,10.00,20.00,onlydraw1,2016-03-29 05:34:54
+154,2016-03-29 12:30:00,SOC,Africa,Malawi - Guinea,0.00,LOST,Full Event Draw (1X2),1:2 (1:1),PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-03-29 05:34:29
+155,2016-03-29 12:30:00,SOC,WC Qual.,India - Turkmenistan,0.00,LOST,Full Event Draw (1X2),1:2 (1:0),PINNACLE,3.29,10.00,-10.00,onlydraw1,2016-03-29 05:33:52
+156,2016-03-28 14:00:00,SOC,Eng. League Two,Carlisle United - Bristol Rovers,0.00,LOST,Full Event Draw (1X2),3:2 (1:1),PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-03-28 09:12:05
+157,2016-03-28 14:00:00,SOC,Eng. League Two,Mansfield Town - Northampton Town,34.1,WIN,Full Event Draw (1X2),2:2 (2:0),PINNACLE,3.41,10.00,24.10,onlydraw1,2016-03-28 09:11:46
+158,2016-03-28 14:00:00,SOC,Eng. League Two,Notts County - Wycombe Wanderers,35.2,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.52,10.00,25.20,onlydraw1,2016-03-28 09:11:32
+159,2016-03-28 11:45:00,SOC,Eng. League Two,AFC Wimbledon - Portsmouth,10.00,PUSH,Full Event Draw (1X2),Postp.,PINNACLE,3.36,10.00,0.00,onlydraw1,2016-03-28 09:11:20
+160,2016-03-28 14:00:00,SOC,Eng. League One,Bury - Gillingham,0.00,LOST,Full Event Draw (1X2),0:1 (0:1),PINNACLE,3.4,10.00,-10.00,onlydraw1,2016-03-28 09:10:55
+161,2016-03-28 18:00:00,SOC,Int'l U21,Albania U21 - Hungary U21,0.00,LOST,Full Event Draw (1X2),2:1 (0:0),PINNACLE,3.22,10.00,-10.00,onlydraw1,2016-03-28 09:09:11
+162,2016-03-27 15:00:00,SOC,Spa. Other,Burgos - Racing Santander,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-03-27 07:43:53
+163,2016-03-27 10:00:00,SOC,Spa. Other,Cacereno - Racing Club de Ferrol,0.00,LOST,Full Event Draw (1X2),0-2,PINNACLE,3.16,10.00,-10.00,onlydraw1,2016-03-27 07:43:42
+164,2016-03-27 15:00:00,SOC,Spa. Segunda,UE Llagostera - AD Alcorcon,0.00,LOST,Full Event Draw (1X2),4:0,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-03-27 07:42:53
+165,2016-03-27 15:00:00,SOC,Spa. Segunda,CD Mirandes - Real Valladolid,0.00,LOST,Full Event Draw (1X2),4:1,PINNACLE,3.27,10.00,-10.00,onlydraw1,2016-03-27 07:42:40
+166,2016-03-27 10:00:00,SOC,Spa. Segunda,Cordoba - Alaves,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,3.16,10.00,-10.00,onlydraw1,2016-03-27 07:42:27
+167,2016-03-27 19:00:00,SOC,Argentina,Sportivo Estudiantes - Gimnasia Jujuy,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,2.91,10.00,-10.00,onlydraw1,2016-03-27 07:41:11
+168,2016-03-26 12:00:00,SOC,Poland,Sandecja Nowy Sacz - Zawisza Bydgoszcz,0.00,LOST,Full Event Draw (1X2),4:0,PINNACLE,3.32,10.00,-10.00,onlydraw1,2016-03-26 08:25:46
+169,2016-03-26 19:45:00,SOC,Ireland,Cabinteely - Waterford United,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-03-26 08:25:12
+170,2016-03-26 19:30:00,SOC,Ireland,Bray Wanderers - Sligo Rovers,0.00,LOST,Full Event Draw (1X2),4:0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-03-26 08:22:27
+171,2016-03-26 17:00:00,SOC,Ireland,Wexford Youths - Derry City,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-03-26 08:22:16
+172,2016-03-26 14:00:00,SOC,Ireland,Galway FC - Bohemians,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-03-26 08:22:07
+173,2016-03-25 15:00:00,SOC,Eng. Conference,Gateshead - Macclesfield Town,0.00,LOST,Full Event Draw (1X2),0:3 (0:2),PINNACLE,3.29,10.00,-10.00,onlydraw1,2016-03-25 05:32:10
+174,2016-03-25 15:00:00,SOC,Eng. League Two,Hartlepool United - AFC Wimbledon,0.00,LOST,Full Event Draw (1X2),1:0 (1:0),PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-03-25 05:31:54
+175,2016-03-25 15:00:00,SOC,Eng. League Two,Accrington Stanley - Leyton Orient,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.39,10.00,-10.00,onlydraw1,2016-03-25 05:31:39
+176,2016-03-25 15:00:00,SOC,Eng. League Two,Yeovil Town - Carlisle United,33.4,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.34,10.00,23.40,onlydraw1,2016-03-25 05:31:26
+177,2016-03-26 15:00:00,SOC,Eng. League One,Bradford City - Millwall,0.00,LOST,Full Event Draw (1X2),1-0,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-03-25 05:31:01
+178,2016-03-25 19:45:00,SOC,Friendly,Netherlands - France,0.00,LOST,Full Event Draw (1X2),2:3 (0:2),PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-03-25 05:30:36
+179,2016-03-25 19:45:00,SOC,Friendly,Republic of Ireland - Switzerland,0.00,LOST,Full Event Draw (1X2),1:0 (1:0),PINNACLE,3.23,10.00,-10.00,onlydraw1,2016-03-25 05:30:09
+180,2016-03-24 17:00:00,SOC,Int'l U21,Albania U21 - Greece U21,33.1,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.31,10.00,23.10,onlydraw1,2016-03-24 06:34:25
+181,2016-03-24 19:45:00,SOC,Friendly,Italy - Spain,32.2,WIN,Full Event Draw (1X2),1:1 (0:0),PINNACLE,3.22,10.00,22.20,onlydraw1,2016-03-24 06:32:15
+182,2016-03-24 14:00:00,SOC,Friendly,Malta - Moldova,31.2,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.12,10.00,21.20,onlydraw1,2016-03-24 06:31:15
+183,2016-03-21 17:30:00,SOC,Greece,PAS Giannina - Panionios,31.4,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.14,10.00,21.40,onlydraw1,2016-03-21 14:20:13
+184,2016-03-20 11:00:00,SOC,Spa. Segunda,Tenerife - Real Zaragoza,31.6,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.16,10.00,21.60,onlydraw1,2016-03-20 07:06:03
+185,2016-03-20 11:00:00,SOC,Spa. Primera,RCD Espanyol - Athletic Bilbao,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.39,10.00,-10.00,onlydraw1,2016-03-20 07:05:43
+186,2016-03-20 11:30:00,SOC,Turkey,Konyaspor - Istanbul Basaksehir FK,31.7,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.17,10.00,21.70,onlydraw1,2016-03-20 07:05:16
+187,2016-03-20 17:00:00,SOC,Norway,Brann - Odd BK,35.5,WIN,Full Event Draw (1X2),0-0,PINNACLE,3.55,10.00,25.50,onlydraw1,2016-03-20 07:05:00
+188,2016-03-20 14:30:00,SOC,Norway,Sogndal - Valerenga,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.4,10.00,-10.00,onlydraw1,2016-03-20 07:04:50
+189,2016-03-20 11:00:00,SOC,Denmark,Sonderjyske - Midtjylland,0.00,LOST,Full Event Draw (1X2),3:2,PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-03-20 07:04:31
+190,2016-03-19 14:00:00,SOC,Ita. Serie B,Vicenza - Cagliari,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,2.97,10.00,-10.00,onlydraw1,2016-03-19 08:00:11
+191,2016-03-19 15:15:00,SOC,Greece,Veria - Platanias,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.19,10.00,-10.00,onlydraw1,2016-03-19 07:59:08
+192,2016-03-19 15:00:00,SOC,Eng. Premier,Crystal Palace - Leicester City,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.39,10.00,-10.00,onlydraw1,2016-03-19 07:58:19
+193,2016-03-19 12:45:00,SOC,Eng. Premier,Everton - Arsenal,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.59,10.00,-10.00,onlydraw1,2016-03-19 07:58:05
+194,2016-03-19 14:00:00,SOC,Czech Rep.,Zbrojovka Brno - Dukla Praha,0.00,LOST,Full Event Draw (1X2),3:0,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-03-19 07:57:36
+195,2016-03-19 19:30:00,SOC,Poland,Lech Poznan - Legia Warszawa,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.51,10.00,-10.00,onlydraw1,2016-03-19 07:57:07
+196,2016-03-18 17:00:00,SOC,Poland,Korona Kielce - Piast Gliwice,34,WIN,Full Event Draw (1X2),1:1 (1:0),PINNACLE,3.4,10.00,24.00,onlydraw1,2016-03-18 14:54:17
+197,2016-03-18 19:00:00,SOC,Fra. National,AS Beziers - CS Sedan Ardennes,28.9,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,2.89,10.00,18.90,onlydraw1,2016-03-18 14:53:59
+198,2016-03-18 19:00:00,SOC,Fra. National,US Avranches - Chateauroux,0.00,LOST,Full Event Draw (1X2),2:0 (2:0),PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-03-18 14:53:43
+199,2016-03-18 19:00:00,SOC,Fra. Ligue 2,Paris FC - Metz,0.00,LOST,Full Event Draw (1X2),1:2 (0:0),PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-03-18 14:52:54
+200,2016-03-18 19:00:00,SOC,Fra. Ligue 2,Evian Thonon Gaillard - Sochaux,28.8,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,2.88,10.00,18.80,onlydraw1,2016-03-18 14:52:43
+201,2016-03-18 19:00:00,SOC,Fra. Ligue 2,Brest - Dijon,31.1,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.11,10.00,21.10,onlydraw1,2016-03-18 14:52:30
+202,2016-03-17 20:05:00,SOC,Europa League,Anderlecht - Shakhtar Donetsk,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,3.56,10.00,-10.00,onlydraw1,2016-03-17 14:31:14
+203,2016-03-17 20:05:00,SOC,Europa League,Tottenham Hotspur - Borussia Dortmund,0.00,LOST,Full Event Draw (1X2),1:2 (0:1),PINNACLE,3.71,10.00,-10.00,onlydraw1,2016-03-17 14:30:55
+204,2016-03-17 18:00:00,SOC,Europa League,Valencia - Athletic Bilbao,0.00,LOST,Full Event Draw (1X2),2:1 (2:0),PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-03-17 14:30:44
+205,2016-03-16 19:00:00,SOC,Por. Other,Santa Clara - Feirense,30,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3,10.00,20.00,onlydraw1,2016-03-16 14:23:22
+206,2016-03-16 15:00:00,SOC,Por. Other,Olhanense - Gil Vicente,31.6,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.16,10.00,21.60,onlydraw1,2016-03-16 14:23:07
+207,2016-03-16 15:00:00,SOC,Por. Other,Clube Oriental Lisboa - CD Mafra,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,2.99,10.00,-10.00,onlydraw1,2016-03-16 14:22:58
+208,2016-03-15 17:30:00,SOC,Austria,Wacker Innsbruck - FC Liefering,0.00,LOST,Full Event Draw (1X2),1:2 (0:1),PINNACLE,3.78,10.00,-10.00,onlydraw1,2016-03-15 14:38:36
+209,2016-03-14 17:00:00,SOC,Turkey,Kayseri Erciyesspor - Göztepe,0.00,LOST,Full Event Draw (1X2),1:0 (0:0),PINNACLE,3.1,10.00,-10.00,onlydraw1,2016-03-14 14:24:49
+210,2016-03-14 18:00:00,SOC,Turkey,Antalyaspor - Bursaspor,0.00,LOST,Full Event Draw (1X2),3:0 (0:0),PINNACLE,3.37,10.00,-10.00,onlydraw1,2016-03-14 14:24:30
+211,2016-03-14 19:45:00,SOC,Ireland,Bray Wanderers - Derry City,0.00,LOST,Full Event Draw (1X2),0:3 (0:1),PINNACLE,3.06,10.00,-10.00,onlydraw1,2016-03-14 14:23:52
+212,2016-03-14 19:00:00,SOC,Netherlands,Dordrecht - Go Ahead Eagles,35.5,WIN,Full Event Draw (1X2),1:1 (0:0),PINNACLE,3.55,10.00,25.50,onlydraw1,2016-03-14 14:23:22
+213,2016-03-13 14:00:00,SOC,Ita. Serie A,Genoa - Torino,0.00,LOST,Full Event Draw (1X2),3:2,PINNACLE,3.12,10.00,-10.00,onlydraw1,2016-03-13 09:58:09
+214,2016-03-13 20:00:00,SOC,Fra. Ligue 1,Rennes - Lyon,33.7,WIN,Full Event Draw (1X2),2-2,PINNACLE,3.37,10.00,23.70,onlydraw1,2016-03-13 09:57:49
+215,2016-03-13 15:15:00,SOC,Greece,Levadiakos - Platanias,0.00,LOST,Full Event Draw (1X2),0:3,PINNACLE,3.06,10.00,-10.00,onlydraw1,2016-03-13 09:57:33
+216,2016-03-13 19:00:00,SOC,Norway,Start IK - Lillestrom,35.8,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,3.58,10.00,25.80,onlydraw1,2016-03-13 09:57:12
+217,2016-03-13 15:00:00,SOC,Por. Other,Sporting Farense - Famalicao,30,WIN,Full Event Draw (1X2),2:2,PINNACLE,3,10.00,20.00,onlydraw1,2016-03-13 09:56:50
+218,2016-03-13 11:00:00,SOC,Spa. Primera,Levante - Valencia,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-03-13 09:56:30
+219,2016-03-12 16:00:00,SOC,Czech Rep.,Teplice - Mlada Boleslav,34.8,WIN,Full Event Draw (1X2),0-0,PINNACLE,3.48,10.00,24.80,onlydraw1,2016-03-12 10:26:08
+220,2016-03-12 15:00:00,SOC,Eng. Premier,Stoke City - Southampton,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.23,10.00,-10.00,onlydraw1,2016-03-12 10:25:02
+221,2016-03-12 16:30:00,SOC,Russia,Rostov FK - CSKA Moscow,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-03-12 10:24:35
+222,2016-03-12 19:00:00,SOC,Fra. Ligue 1,SC Bastia - Lille,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,2.98,10.00,-10.00,onlydraw1,2016-03-12 10:23:41
+223,2016-03-12 19:00:00,SOC,Fra. Ligue 1,Guingamp - Saint Etienne,0.00,LOST,Full Event Draw (1X2),2-0,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-03-12 10:23:30
+224,2016-03-12 16:00:00,SOC,Fra. Ligue 1,Lorient - Marseille,34.3,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.43,10.00,24.30,onlydraw1,2016-03-12 10:23:14
+225,2016-03-11 17:30:00,SOC,Ger. Bundesliga II,Arminia Bielefeld - Nurnberg,0.00,LOST,Full Event Draw (1X2),0:4 (0:0),PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-03-11 14:26:17
+226,2016-03-11 18:30:00,SOC,Romania,Petrolul Ploiesti - CSMS Iasi,0.00,LOST,Full Event Draw (1X2),1:2 (0:2),PINNACLE,3.08,10.00,-10.00,onlydraw1,2016-03-11 14:24:40
+227,2016-03-11 19:00:00,SOC,Fra. National,SAS Epinal - ASM Belfort,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,2.99,10.00,-10.00,onlydraw1,2016-03-11 14:24:02
+228,2016-03-11 19:00:00,SOC,Fra. National,FC Chambly - CA Bastia,29,WIN,Full Event Draw (1X2),2:2 (1:2),PINNACLE,2.9,10.00,19.00,onlydraw1,2016-03-11 14:23:50
+229,2016-03-11 19:00:00,SOC,Fra. National,Chateauroux - Vendee Lucon,0.00,LOST,Full Event Draw (1X2),0:3 (0:2),PINNACLE,3.2,10.00,-10.00,onlydraw1,2016-03-11 14:23:16
+230,2016-03-11 19:00:00,SOC,Fra. Ligue 2,Valenciennes - Brest,0.00,LOST,Full Event Draw (1X2),0:1 (0:0),PINNACLE,2.95,10.00,-10.00,onlydraw1,2016-03-11 14:23:00
+231,2016-03-10 20:05:00,SOC,Europa League,Sparta Praha - Lazio,33.2,WIN,Full Event Draw (1X2),1:1 (1:1),PINNACLE,3.32,10.00,23.20,onlydraw1,2016-03-10 14:24:01
+232,2016-03-10 18:00:00,SOC,Europa League,Basel - Sevilla,35.1,WIN,Full Event Draw (1X2),0:0 (0:0),PINNACLE,3.51,10.00,25.10,onlydraw1,2016-03-10 14:23:44
+233,2016-03-09 17:30:00,SOC,Fra. Ligue 1,SC Bastia - Nantes,29.3,WIN,Full Event Draw (1X2),0:0,PINNACLE,2.93,10.00,19.30,onlydraw1,2016-03-09 13:52:32
+234,2016-03-09 19:45:00,SOC,Champions L,Chelsea - Paris Saint Germain,0.00,LOST,Full Event Draw (1X2),1-2,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-03-09 13:51:16
+235,2016-03-09 16:00:00,SOC,Por. Other,Santa Clara - Portimonense,29.1,WIN,Full Event Draw (1X2),1:1,PINNACLE,2.91,10.00,19.10,onlydraw1,2016-03-09 13:40:32
+236,2016-03-09 15:00:00,SOC,Por. Other,Olhanense - GD Chaves,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-03-09 13:37:23
+237,2016-03-08 19:45:00,SOC,Eng. League One,Bradford City - Burton Albion,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.11,10.00,-10.00,onlydraw1,2016-03-08 14:47:01
+238,2016-03-08 19:45:00,SOC,Eng. League One,Shrewsbury Town - Coventry City,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-03-08 14:46:50
+239,2016-03-08 19:45:00,SOC,Eng. Championship,Wolverhampton Wanderers - Bristol City,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.35,10.00,-10.00,onlydraw1,2016-03-08 14:46:33
+240,2016-03-08 20:00:00,SOC,Eng. Championship,Bolton Wanderers - Ipswich Town,33.8,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.38,10.00,23.80,onlydraw1,2016-03-08 14:46:15
+241,2016-03-08 19:45:00,SOC,Eng. Championship,Queens Park Rangers - Derby County,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-03-08 14:45:57
+242,2016-03-08 19:45:00,SOC,Eng. Championship,Fulham - Burnley,0.00,LOST,Full Event Draw (1X2),2:3,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-03-08 14:45:38
+243,2016-03-07 18:45:00,SOC,Switzerland,Chiasso - Wil 1900,35,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.5,10.00,25.00,onlydraw1,2016-03-07 14:39:29
+244,2016-03-07 19:00:00,SOC,Switzerland,St. Gallen - Grasshopper,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.48,10.00,-10.00,onlydraw1,2016-03-07 14:39:17
+245,2016-03-07 17:30:00,SOC,Greece,Asteras Tripolis - AEK Athens,30.6,WIN,Full Event Draw (1X2),0 - 0,PINNACLE,3.06,10.00,20.60,onlydraw1,2016-03-07 14:36:17
+246,2016-03-07 18:00:00,SOC,Denmark,Nordsjaelland - Midtjylland,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.41,10.00,-10.00,onlydraw1,2016-03-07 14:35:55
+247,2016-03-06 16:00:00,SOC,Por. Superliga,CD Tondela - FC Arouca,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.29,10.00,-10.00,onlydraw1,2016-03-06 09:34:07
+248,2016-03-06 18:15:00,SOC,Spa. Segunda,Albacete - Leganes,0.00,LOST,Full Event Draw (1X2),0-3,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-03-06 09:33:46
+249,2016-03-06 16:00:00,SOC,Spa. Segunda,Ponferradina - Numancia,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-03-06 09:33:29
+250,2016-03-06 14:00:00,SOC,Ita. Serie A,Sassuolo - AC Milan,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-03-06 09:32:58
+251,2016-03-06 14:00:00,SOC,Ita. Serie A,Frosinone - Udinese,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.52,10.00,-10.00,onlydraw1,2016-03-06 09:32:41
+252,2016-03-06 11:30:00,SOC,Ita. Serie A,Torino - Lazio,32.1,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.21,10.00,22.10,onlydraw1,2016-03-06 09:32:24
+253,2016-03-05 17:00:00,SOC,Ita. Serie A,Hellas Verona - Sampdoria,0.00,LOST,Full Event Draw (1X2),0-3,PINNACLE,3.48,10.00,-10.00,onlydraw1,2016-03-05 12:48:50
+254,2016-03-05 17:30:00,SOC,Eng. Premier,Watford - Leicester City,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.32,10.00,-10.00,onlydraw1,2016-03-05 10:35:38
+255,2016-03-05 12:45:00,SOC,Eng. Premier,Tottenham Hotspur - Arsenal,34.9,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.49,10.00,24.90,onlydraw1,2016-03-05 10:35:14
+256,2016-03-05 17:00:00,SOC,Poland,Slask Wroclaw - Zaglebie Lubin,0.00,LOST,Full Event Draw (1X2),0-2,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-03-05 10:34:50
+257,2016-03-05 19:00:00,SOC,Fra. Ligue 1,SC Bastia - Lorient,31.4,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.14,10.00,21.40,onlydraw1,2016-03-05 10:33:58
+258,2016-03-05 19:00:00,SOC,Fra. Ligue 1,Angers - Saint Etienne,30.4,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.04,10.00,20.40,onlydraw1,2016-03-05 10:33:32
+259,2016-03-04 18:00:00,SOC,Turkey,Mersin Idman Yurdu - Sivasspor,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-03-04 12:24:30
+260,2016-03-04 20:00:00,SOC,Ireland,Finn Harps - Derry City,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.11,10.00,-10.00,onlydraw1,2016-03-04 12:23:52
+261,2016-03-04 19:30:00,SOC,Poland,Wisla Krakow - Piast Gliwice,33.5,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.35,10.00,23.50,onlydraw1,2016-03-04 12:23:07
+262,2016-03-04 19:00:00,SOC,Fra. National,US Avranches - FC Chambly,30.7,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.07,10.00,20.70,onlydraw1,2016-03-04 12:20:33
+263,2016-03-04 19:00:00,SOC,Fra. Ligue 2,Evian Thonon Gaillard - Dijon,0.00,LOST,Full Event Draw (1X2),1:2,PINNACLE,3.16,10.00,-10.00,onlydraw1,2016-03-04 12:18:45
+264,2016-03-04 19:00:00,SOC,Fra. Ligue 2,Laval - Lens,29.5,WIN,Full Event Draw (1X2),1:1,PINNACLE,2.95,10.00,19.50,onlydraw1,2016-03-04 12:18:06
+265,2016-03-03 19:00:00,SOC,Denmark,Midtjylland - FC Copenhagen,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.18,10.00,-10.00,onlydraw1,2016-03-03 14:34:45
+266,2016-03-02 17:30:00,SOC,Austria,Admira Wacker Modling - Austria Wien,0.00,LOST,Full Event Draw (1X2),0:3,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-03-02 14:59:49
+267,2016-03-02 20:00:00,SOC,Eng. Premier,Liverpool - Manchester City,0.00,LOST,Full Event Draw (1X2),3-0,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-03-02 14:59:31
+268,2016-03-02 16:30:00,SOC,Ger. Bundesliga II,Arminia Bielefeld - SC Freiburg,0.00,LOST,Full Event Draw (1X2),1:4,PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-03-02 14:58:58
+269,2016-03-02 19:30:00,SOC,Poland,Jagiellonia Bialystok - Pogon Szczecin,33,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.3,10.00,23.00,onlydraw1,2016-03-02 14:58:28
+270,2016-03-02 17:00:00,SOC,Poland,Ruch Chorzow - Cracovia Krakow,0.00,LOST,Full Event Draw (1X2),2:3,PINNACLE,3.42,10.00,-10.00,onlydraw1,2016-03-02 14:58:10
+271,2016-03-02 18:00:00,SOC,Fra. Coupe De France,Sochaux - Nantes,31.6,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.16,10.00,21.60,onlydraw1,2016-03-02 14:57:27
+272,2016-03-01 19:45:00,SOC,Eng. League Two,Carlisle United - Leyton Orient,34.4,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.44,10.00,24.40,onlydraw1,2016-03-01 14:42:34
+273,2016-03-01 19:45:00,SOC,Eng. League Two,Crawley Town - Newport County,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-03-01 14:42:21
+274,2016-03-01 19:45:00,SOC,Eng. League One,Bury - Peterborough United,0.00,LOST,Full Event Draw (1X2),3:1,PINNACLE,3.62,10.00,-10.00,onlydraw1,2016-03-01 14:41:54
+275,2016-03-01 19:45:00,SOC,Eng. League One,Millwall - Wigan Athletic,34.1,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.41,10.00,24.10,onlydraw1,2016-03-01 14:41:11
+276,2016-03-01 19:45:00,SOC,Eng. League One,Shrewsbury Town - Rochdale,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-03-01 14:41:00
+277,2016-03-01 19:45:00,SOC,Eng. Premier,Bournemouth AFC - Southampton,0.00,LOST,Full Event Draw (1X2),2:0,PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-03-01 14:40:28
+278,2016-02-29 20:00:00,SOC,Ita. Serie A,Fiorentina - Napoli,33.7,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.37,10.00,23.70,onlydraw1,2016-02-29 15:13:18
+279,2016-02-28 13:00:00,SOC,Fra. Ligue 1,Nantes - AS Monaco,30.9,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.09,10.00,20.90,onlydraw1,2016-02-28 11:04:52
+280,2016-02-28 14:00:00,SOC,Ita. Serie A,Chievo - Genoa,0.00,LOST,Full Event Draw (1X2),1:0,PINNACLE,3.14,10.00,-10.00,onlydraw1,2016-02-28 11:04:22
+281,2016-02-28 11:30:00,SOC,Ita. Serie A,Palermo - Bologna,33.1,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.31,10.00,23.10,onlydraw1,2016-02-28 11:04:09
+282,2016-02-28 16:00:00,SOC,Spa. Segunda,Gimnastic Tarragona - Real Valladolid,32,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.2,10.00,22.00,onlydraw1,2016-02-28 11:02:35
+283,2016-02-28 13:30:00,SOC,Netherlands,De Graafschap - SC Heerenveen,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.77,10.00,-10.00,onlydraw1,2016-02-28 11:01:47
+284,2016-02-28 12:30:00,SOC,Ger. Bundesliga II,MSV Duisburg - St. Pauli,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.36,10.00,-10.00,onlydraw1,2016-02-28 11:00:44
+285,2016-02-27 11:30:00,SOC,Turkey,Mersin Idman Yurdu - Konyaspor,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-02-27 09:53:40
+286,2016-02-27 19:00:00,SOC,Fra. Ligue 1,Troyes - Lorient,0.00,LOST,Full Event Draw (1X2),0:1,PINNACLE,3.52,10.00,-10.00,onlydraw1,2016-02-27 09:51:37
+287,2016-02-27 19:00:00,SOC,Fra. Ligue 1,Reims - Bordeaux,0.00,LOST,Full Event Draw (1X2),4:1,PINNACLE,3.33,10.00,-10.00,onlydraw1,2016-02-27 09:51:20
+288,2016-02-27 16:00:00,SOC,Fra. Ligue 1,Montpellier - Lille,0.00,LOST,Full Event Draw (1X2),3:0,PINNACLE,3.09,10.00,-10.00,onlydraw1,2016-02-27 09:51:09
+289,2016-02-27 17:30:00,SOC,Eng. Premier,W.B.A - Crystal Palace,0.00,LOST,Full Event Draw (1X2),3:2,PINNACLE,3.16,10.00,-10.00,onlydraw1,2016-02-27 09:50:23
+290,2016-02-27 14:00:00,SOC,Czech Rep.,Fastav Zlin - Mlada Boleslav,0.00,LOST,Full Event Draw (1X2),0:2,PINNACLE,3.41,10.00,-10.00,onlydraw1,2016-02-27 09:49:17
+291,2016-02-26 19:00:00,SOC,Netherlands,Achilles 29 - Jong PSV Eindhoven,0.00,LOST,Full Event Draw (1X2),3:2,PINNACLE,3.53,10.00,-10.00,onlydraw1,2016-02-26 06:18:55
+292,2016-02-26 19:00:00,SOC,Fra. National,SAS Epinal - Chateauroux,32.7,WIN,Full Event Draw (1X2),1:1,PINNACLE,3.27,10.00,22.70,onlydraw1,2016-02-26 06:17:25
+293,2016-02-26 19:00:00,SOC,Fra. Ligue 2,Valenciennes - Sochaux,29.3,WIN,Full Event Draw (1X2),2:2,PINNACLE,2.93,10.00,19.30,onlydraw1,2016-02-26 06:16:41
+294,2016-02-26 19:00:00,SOC,Fra. Ligue 2,Paris FC - Auxerre,30.9,WIN,Full Event Draw (1X2),2:2,PINNACLE,3.09,10.00,20.90,onlydraw1,2016-02-26 06:15:52
+295,2016-02-26 19:00:00,SOC,Fra. Ligue 2,Creteil - Laval,31.2,WIN,Full Event Draw (1X2),0:0,PINNACLE,3.12,10.00,21.20,onlydraw1,2016-02-26 06:14:34
+296,2016-02-26 19:00:00,SOC,Fra. Ligue 2,Ajaccio - Nancy,0.00,LOST,Full Event Draw (1X2),2:1,PINNACLE,3.15,10.00,-10.00,onlydraw1,2016-02-26 06:13:28
+297,2016-02-25 20:05:00,SOC,Europa League,Porto - Borussia Dortmund,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.64,10.00,-10.00,onlydraw1,2016-02-25 15:00:35
+298,2016-02-24 19:45:00,SOC,Champions L,Dynamo Kyiv - Manchester City,0.00,LOST,Full Event Draw (1X2),1-3,PINNACLE,3.37,10.00,-10.00,onlydraw1,2016-02-24 16:47:56
+299,2016-02-23 19:45:00,SOC,Eng. League One,Bury - Barnsley,34.3,WIN,Full Event Draw (1X2),0-0,PINNACLE,3.43,10.00,24.30,onlydraw1,2016-02-23 15:27:00
+300,2016-02-23 19:45:00,SOC,Eng. Championship,Ipswich Town - Hull City,0.00,LOST,Full Event Draw (1X2),0-1,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-02-23 14:32:59
+301,2016-02-23 19:45:00,SOC,Eng. Championship,Milton Keynes Dons - Huddersfield Town,34,WIN,Full Event Draw (1X2),1-1,PINNACLE,3.4,10.00,24.00,onlydraw1,2016-02-23 14:32:34
+302,2016-02-21 13:30:00,SOC,Turkey,Akhisar Belediyespor (n) - Istanbul Basaksehir,33,WIN,Draw (Match),0:0,PINNACLE,3.3,10.00,23.00,onlydraw1,2016-02-21 10:33:23
+303,2016-02-21 15:00:00,SOC,Por. Other,Academico Viseu - Famalicao,0.00,LOST,Draw (Match),0:1,PINNACLE,3.12,10.00,-10.00,onlydraw1,2016-02-21 10:32:47
+304,2016-02-21 15:00:00,SOC,Por. Other,Vitoria Guimaraes B - Varzim,0.00,LOST,Draw (Match),0:1,PINNACLE,3.17,10.00,-10.00,onlydraw1,2016-02-21 10:32:31
+305,2016-02-21 16:00:00,SOC,Por. Superliga,Vitoria Setubal - Nacional da Madeira,33.4,WIN,Draw (Match),1:1,PINNACLE,3.34,10.00,23.40,onlydraw1,2016-02-21 10:31:59
+306,2016-02-21 16:00:00,SOC,Por. Superliga,CD Tondela - Maritimo,0.00,LOST,Draw (Match),3:4,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-02-21 10:31:43
+307,2016-02-21 14:00:00,SOC,Ita. Serie A,Atalanta - Fiorentina,0.00,LOST,Draw (Match),2:3,PINNACLE,3.39,10.00,-10.00,onlydraw1,2016-02-21 10:31:10
+308,2016-02-20 14:00:00,SOC,Ita. Serie B,Ascoli - Como,0.00,LOST,Draw (Match),1:0,PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-02-20 09:45:03
+309,2016-02-20 17:00:00,SOC,Spa. Segunda,CD Lugo - Leganes,0.00,LOST,Draw (Match),1:2,PINNACLE,3.13,10.00,-10.00,onlydraw1,2016-02-20 09:44:26
+310,2016-02-20 14:30:00,SOC,Poland,Korona Kielce - Lechia Gdansk,0.00,LOST,Draw (Match),4-2,PINNACLE,3.06,10.00,-10.00,onlydraw1,2016-02-20 09:43:57
+311,2016-02-20 13:00:00,SOC,Czech Rep.,Bohemians 1905 - Dukla Praha,0.00,LOST,Draw (Match),1:0,PINNACLE,3.45,10.00,-10.00,onlydraw1,2016-02-20 09:43:29
+312,2016-02-20 19:30:00,SOC,Belgium,Sporting Lokeren - Racing Genk,34.2,WIN,Draw (Match),0:0,PINNACLE,3.42,10.00,24.20,onlydraw1,2016-02-20 09:42:59
+313,2016-02-20 19:00:00,SOC,Fra. Ligue 1,Angers - Montpellier,0.00,LOST,Draw (Match),2:3,PINNACLE,3.05,10.00,-10.00,onlydraw1,2016-02-20 09:42:03
+314,2016-02-19 19:00:00,SOC,Fra. National,FC Chambly - Vendee Lucon,0.00,LOST,Draw (Match),2:1,PINNACLE,3.15,10.00,-10.00,onlydraw1,2016-02-19 12:09:09
+315,2016-02-19 19:00:00,SOC,Fra. National,SAS Epinal - CA Bastia,31.8,WIN,Draw (Match),1:1,PINNACLE,3.18,10.00,21.80,onlydraw1,2016-02-19 12:08:52
+316,2016-02-19 19:00:00,SOC,Netherlands,Jong PSV Eindhoven - Emmen,36.6,WIN,Draw (Match),0:0,PINNACLE,3.66,10.00,26.60,onlydraw1,2016-02-19 07:54:26
+317,2016-02-19 19:00:00,SOC,Netherlands,Den Bosch - FC Eindhoven,0.00,LOST,Draw (Match),3:1,PINNACLE,3.51,10.00,-10.00,onlydraw1,2016-02-19 07:54:09
+318,2016-02-19 19:00:00,SOC,Netherlands,Almere City - Volendam,38,WIN,Draw (Match),2:2,PINNACLE,3.8,10.00,28.00,onlydraw1,2016-02-19 07:53:53
+319,2016-02-19 19:00:00,SOC,Fra. Ligue 2,Laval - Dijon,30.2,WIN,Draw (Match),2:2,PINNACLE,3.02,10.00,20.20,onlydraw1,2016-02-19 07:53:23
+320,2016-02-18 18:00:00,SOC,Europa League,Saint Etienne - Basel,0.00,LOST,Draw (Match),3:2,PINNACLE,3.35,10.00,-10.00,onlydraw1,2016-02-18 14:46:55
+321,2016-02-18 20:05:00,SOC,Europa League,Galatasaray - Lazio,34.5,WIN,Draw (Match),1:1,PINNACLE,3.45,10.00,24.50,onlydraw1,2016-02-18 14:46:38
+322,2016-02-18 20:05:00,SOC,Europa League,FC Sion - Sporting Braga,0.00,LOST,Draw (Match),1:2,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-02-18 14:46:20
+323,2016-02-16 19:45:00,SOC,Scotland,Berwick Rangers - Annan Athletic,0.00,LOST,Draw (Match),3:2,PINNACLE,3.7,10.00,-10.00,onlydraw1,2016-02-16 14:26:36
+324,2016-02-16 19:45:00,SOC,Eng. Conference,Gateshead - Eastleigh,0.00,LOST,Draw (Match),2:1,PINNACLE,3.56,10.00,-10.00,onlydraw1,2016-02-16 14:25:51
+325,2016-02-16 19:45:00,SOC,Eng. Conference,Altrincham - Chester,0.00,LOST,Draw (Match),0:3,PINNACLE,3.48,10.00,-10.00,onlydraw1,2016-02-16 14:25:39
+326,2016-02-16 19:45:00,SOC,Eng. League Two,Hartlepool United - Notts County,0.00,LOST,Draw (Match),2:3,PINNACLE,3.61,10.00,-10.00,onlydraw1,2016-02-16 14:25:05
+327,2016-02-16 19:45:00,SOC,Eng. League One,Bury - Sheffield United,0.00,LOST,Draw (Match),1:0,PINNACLE,3.41,10.00,-10.00,onlydraw1,2016-02-16 14:24:45
+328,2016-02-15 18:00:00,SOC,Turkey,Trabzonspor - Kayserispor,0.00,LOST,Draw (Match),2:1,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-02-15 14:31:28
+329,2016-02-15 19:00:00,SOC,Netherlands,Fortuna Sittard - Telstar,0.00,LOST,Draw (Match),0:3,PINNACLE,3.74,10.00,-10.00,onlydraw1,2016-02-15 14:31:14
+330,2016-02-15 19:45:00,SOC,Eng. Championship,Leeds United - Middlesbrough,33.3,WIN,Draw (Match),0:0,PINNACLE,3.33,10.00,23.30,onlydraw1,2016-02-15 14:26:02
+331,2016-02-14 14:30:00,SOC,Ger. Bundesliga I,Hamburger SV - Borussia Monchengladbach,0.00,LOST,Draw (Match),3:2,PINNACLE,3.62,10.00,-10.00,onlydraw1,2016-02-14 08:24:30
+332,2016-02-14 11:30:00,SOC,Turkey,Gaziantepspor - Akhisar Belediyespor,0.00,LOST,Draw (Match),0:1,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-02-14 08:23:55
+333,2016-02-14 16:00:00,SOC,Fra. Ligue 1,Saint Etienne - AS Monaco,31.5,WIN,Draw (Match),1:1,PINNACLE,3.15,10.00,21.50,onlydraw1,2016-02-14 08:23:01
+334,2016-02-14 20:00:00,SOC,Fra. Ligue 1,Nice - Marseille,33.5,WIN,Draw (Match),1:1,PINNACLE,3.35,10.00,23.50,onlydraw1,2016-02-14 08:22:50
+335,2016-02-14 14:00:00,SOC,Ita. Serie A,Palermo - Torino,0.00,LOST,Draw (Match),1:3,PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-02-14 08:22:13
+336,2016-02-14 11:15:00,SOC,Por. Other,Feirense - Portimonense,0.00,LOST,Draw (Match),2:1,PINNACLE,3.19,10.00,-10.00,onlydraw1,2016-02-14 08:21:53
+337,2016-02-13 17:00:00,SOC,Ita. Serie A,Chievo - Sassuolo,31.5,WIN,Draw (Match),1:1,PINNACLE,3.15,10.00,21.50,onlydraw1,2016-02-13 10:28:11
+338,2016-02-13 15:00:00,SOC,Eng. Premier,Swansea City - Southampton,0.00,LOST,Draw (Match),0-1,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-02-13 10:27:54
+339,2016-02-13 15:00:00,SOC,Eng. Premier,Norwich City - West Ham United,34.1,WIN,Draw (Match),2-2,PINNACLE,3.41,10.00,24.10,onlydraw1,2016-02-13 10:27:41
+340,2016-02-13 17:00:00,SOC,Spa. Segunda,Athletic Bilbao B - Real Valladolid,0.00,LOST,Draw (Match),0:1,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-02-13 10:26:59
+341,2016-02-13 17:00:00,SOC,Spa. Segunda,Ponferradina - AD Alcorcon,30.7,WIN,Draw (Match),0:0,PINNACLE,3.07,10.00,20.70,onlydraw1,2016-02-13 10:26:46
+342,2016-02-13 14:30:00,SOC,Poland,Gornik Leczna - Piast Gliwice,33.9,WIN,Draw (Match),0-0,PINNACLE,3.39,10.00,23.90,onlydraw1,2016-02-13 10:26:06
+343,2016-02-12 17:30:00,SOC,Ger. Bundesliga II,FSV Frankfurt - Greuther Furth,0.00,LOST,Draw (Match),1:2,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-02-12 05:30:49
+344,2016-02-12 17:30:00,SOC,Ger. Bundesliga II,SC Paderborn 07 - Kaiserslautern,0.00,LOST,Draw (Match),0:4,PINNACLE,3.39,10.00,-10.00,onlydraw1,2016-02-12 05:30:37
+345,2016-02-12 19:00:00,SOC,Fra. Ligue 2,Auxerre - Nancy,31.4,WIN,Draw (Match),2:2,PINNACLE,3.14,10.00,21.40,onlydraw1,2016-02-12 05:29:57
+346,2016-02-12 19:00:00,SOC,Fra. Ligue 2,Paris FC - Nimes,31.7,WIN,Draw (Match),0:0,PINNACLE,3.17,10.00,21.70,onlydraw1,2016-02-12 05:29:42
+347,2016-02-12 19:00:00,SOC,Fra. Ligue 2,Paris FC - Nimes,31.7,WIN,Draw (Match),0:0,PINNACLE,3.17,10.00,21.70,onlydraw1,2016-02-12 05:29:24
+348,2016-02-12 19:00:00,SOC,Fra. Ligue 2,Creteil - Tours,32.3,WIN,Draw (Match),2:2,PINNACLE,3.23,10.00,22.30,onlydraw1,2016-02-12 05:29:11
+349,2016-02-11 19:30:00,SOC,Spa. Copa Del Rey,Celta de Vigo - Sevilla,36.3,WIN,Draw (Match),2:2,PINNACLE,3.63,10.00,26.30,onlydraw1,2016-02-11 14:59:36
+350,2016-02-11 17:45:00,SOC,Egypt,Arab Contractors - El Daklyeh,0.00,LOST,Draw (Match),3:1,PINNACLE,2.8,10.00,-10.00,onlydraw1,2016-02-11 14:59:18
+351,2016-02-10 18:00:00,SOC,Ger. DFB Pokal,FC Heidenheim - Hertha Berlin,0.00,LOST,Draw (Match),2:3,PINNACLE,3.33,10.00,-10.00,onlydraw1,2016-02-10 15:22:08
+352,2016-02-10 18:00:00,SOC,Fra. Coupe De France,Bordeaux - Nantes,32.1,WIN,Draw (Match),2:2,PINNACLE,3.21,10.00,22.10,onlydraw1,2016-02-10 15:21:38
+353,2016-02-09 19:45:00,SOC,Eng. Other,Torquay United - Macclesfield Town,34.2,WIN,Draw (Match),3:3,PINNACLE,3.42,10.00,24.20,onlydraw1,2016-02-09 17:53:45
+354,2016-02-09 19:45:00,SOC,Eng. Other,Bognor Regis Town - Sutton United,35.3,WIN,Draw (Match),1:1,PINNACLE,3.53,10.00,25.30,onlydraw1,2016-02-09 17:53:32
+355,2016-02-09 19:45:00,SOC,Eng. League Two,Dagenham & Redbridge - Wycombe Wanderers,0.00,LOST,Draw (Match),1:2,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-02-09 17:48:10
+356,2016-02-08 19:30:00,SOC,Spa. Primera,RCD Espanyol - Real Sociedad,0.00,LOST,Draw (Match),0:5,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-02-08 14:37:44
+357,2016-02-07 11:30:00,SOC,Turkey,Boluspor - Adana Demirspor,0.00,LOST,Draw (Match),1:0,PINNACLE,3.4,10.00,-10.00,onlydraw1,2016-02-07 08:44:32
+358,2016-02-07 13:30:00,SOC,Netherlands,De Graafschap - NEC Nijmegen,36.1,WIN,Draw (Match),1:1,PINNACLE,3.61,10.00,26.10,onlydraw1,2016-02-07 08:43:35
+359,2016-02-07 15:00:00,SOC,Por. Other,Leixoes - GD Chaves,0.00,LOST,Draw (Match),1:2,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-02-07 08:31:59
+360,2016-02-07 11:00:00,SOC,Por. Other,Santa Clara - CD Aves,0.00,LOST,Draw (Match),1:2,PINNACLE,2.97,10.00,-10.00,onlydraw1,2016-02-07 08:31:34
+361,2016-02-07 16:00:00,SOC,Por. Superliga,Academica Coimbra - Nacional da Madeira,32.9,WIN,Draw (Match),2:2,PINNACLE,3.29,10.00,22.90,onlydraw1,2016-02-07 08:31:08
+362,2016-02-07 17:00:00,SOC,Ita. Serie A,Atalanta - Empoli,31.8,WIN,Draw (Match),0-0,PINNACLE,3.18,10.00,21.80,onlydraw1,2016-02-07 08:30:48
+363,2016-02-06 18:30:00,SOC,Por. Superliga,Vitoria Setubal - Maritimo,31.5,WIN,Draw (Match),1-1,PINNACLE,3.15,10.00,21.50,onlydraw1,2016-02-06 13:36:38
+364,2016-02-06 14:30:00,SOC,Ger. Bundesliga I,Eintracht Frankfurt - VfB Stuttgart,0.00,LOST,Draw (Match),2:4,PINNACLE,3.64,10.00,-10.00,onlydraw1,2016-02-06 11:15:32
+365,2016-02-06 21:05:00,SOC,Spa. Primera,Sporting Gijon - Deportivo La Coruna,34,WIN,Draw (Match),1:1,PINNACLE,3.4,10.00,24.00,onlydraw1,2016-02-06 11:14:44
+366,2016-02-08 18:30:00,SOC,Fra. Ligue 2,Le Havre - Dijon,0.00,LOST,Draw (Match),0:2,PINNACLE,3.05,10.00,-10.00,onlydraw1,2016-02-06 11:14:17
+367,2016-02-06 15:00:00,SOC,Eng. Premier,Stoke City - Everton,0.00,LOST,Draw (Match),0:3,PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-02-06 11:13:49
+368,2016-02-06 16:00:00,SOC,Fra. Ligue 1,Angers - Lyon,0.00,LOST,Draw (Match),0:3,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-02-06 11:13:23
+369,2016-02-06 19:00:00,SOC,Fra. Ligue 1,Gazelec Ajaccio - Guingamp,31.2,WIN,Draw (Match),0-0,PINNACLE,3.12,10.00,21.20,onlydraw1,2016-02-06 11:13:05
+370,2016-02-05 17:30:00,SOC,Ger. Bundesliga II,SV Sandhausen - SC Paderborn 07,0.00,LOST,Draw (Match),1:0,PINNACLE,3.35,10.00,-10.00,onlydraw1,2016-02-05 17:29:49
+371,2016-02-05 19:00:00,SOC,Fra. National,AS Beziers - ASM Belfort,0.00,LOST,Draw (Match),1:0,PINNACLE,2.86,10.00,-10.00,onlydraw1,2016-02-05 17:29:15
+372,2016-02-05 19:00:00,SOC,Fra. National,SR Colmar - Marseille Consolat,0.00,LOST,Draw (Match),1:2,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-02-05 17:29:02
+373,2016-02-05 19:00:00,SOC,Fra. National,FC Chambly - Chateauroux,0.00,LOST,Draw (Match),1:2,PINNACLE,3.15,10.00,-10.00,onlydraw1,2016-02-05 17:28:41
+374,2016-02-05 19:00:00,SOC,Fra. National,FC Chambly - Chateauroux,0.00,LOST,Draw (Match),1:2,PINNACLE,3.15,10.00,-10.00,onlydraw1,2016-02-05 17:28:26
+375,2016-02-05 19:00:00,SOC,Fra. Ligue 2,Laval - Ajaccio,28.6,WIN,Draw (Match),0:0,PINNACLE,2.86,10.00,18.60,onlydraw1,2016-02-05 17:28:06
+376,2016-02-03 19:45:00,SOC,Ita. Serie A,Palermo - AC Milan,0.00,LOST,Draw (Match),0-2,PINNACLE,3.61,10.00,-10.00,onlydraw1,2016-02-03 18:34:12
+377,2016-02-03 19:45:00,SOC,Ita. Serie A,Lazio - Napoli,0.00,LOST,Draw (Match),0-2,PINNACLE,3.4,10.00,-10.00,onlydraw1,2016-02-03 18:33:59
+378,2016-02-03 19:45:00,SOC,Ita. Serie A,Sampdoria - Torino,32.6,WIN,Draw (Match),2-2,PINNACLE,3.26,10.00,22.60,onlydraw1,2016-02-03 18:33:42
+379,2016-02-02 19:45:00,SOC,Eng. League One,Doncaster Rovers - Walsall,0.00,LOST,Draw (Match),1:2,PINNACLE,3.28,10.00,-10.00,onlydraw1,2016-02-02 17:30:03
+380,2016-02-02 19:45:00,SOC,Eng. League One,Shrewsbury Town - Southend United,0.00,LOST,Draw (Match),1:2,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-02-02 17:29:51
+381,2016-02-02 19:45:00,SOC,Eng. Championship,Sheffield Wednesday - Burnley,33.2,WIN,Draw (Match),1:1,PINNACLE,3.32,10.00,23.20,onlydraw1,2016-02-02 17:29:26
+382,2016-02-02 19:45:00,SOC,Eng. Premier,Norwich City - Tottenham Hotspur,0.00,LOST,Draw (Match),0-3,PINNACLE,3.89,10.00,-10.00,onlydraw1,2016-02-02 17:28:57
+383,2016-02-02 20:00:00,SOC,Eng. Premier,W.B.A - Swansea City,31.2,WIN,Draw (Match),1:1,PINNACLE,3.12,10.00,21.20,onlydraw1,2016-02-02 17:28:37
+384,2016-02-02 19:45:00,SOC,Eng. Premier,Leicester City - Liverpool,0.00,LOST,Draw (Match),2-0,PINNACLE,3.37,10.00,-10.00,onlydraw1,2016-02-02 17:28:21
+385,2016-01-30 17:00:00,SOC,Spa. Segunda,UE Llagostera - CD Lugo,31.8,WIN,Draw (Match),0:0,PINNACLE,3.18,10.00,21.80,onlydraw1,2016-01-30 09:16:31
+386,2016-01-30 15:15:00,SOC,Greece,Panthrakikos - Panionios,0.00,LOST,Draw (Match),0:1,PINNACLE,3.07,10.00,-10.00,onlydraw1,2016-01-30 09:16:00
+387,2016-01-30 17:15:00,SOC,Spa. Primera,Getafe - Athletic Bilbao,0.00,LOST,Draw (Match),0:1,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-01-30 09:11:59
+388,2016-01-30 19:00:00,SOC,Fra. Ligue 1,Troyes - Nantes,0.00,LOST,Draw (Match),0:1,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-01-30 09:11:32
+389,2016-01-30 16:00:00,SOC,Fra. Ligue 1,Angers - AS Monaco,0.00,LOST,Draw (Match),3:0,PINNACLE,3.13,10.00,-10.00,onlydraw1,2016-01-30 09:11:19
+390,2016-01-30 14:30:00,SOC,Ger. Bundesliga I,SV Darmstadt 98 - Schalke 04,0.00,LOST,Draw (Match),0:2,PINNACLE,3.48,10.00,-10.00,onlydraw1,2016-01-30 09:10:52
+391,2016-01-29 19:00:00,SOC,Fra. National,ASM Belfort - US Orleans,30.8,WIN,Draw (Match),1:1,PINNACLE,3.08,10.00,20.80,onlydraw1,2016-01-29 15:00:20
+392,2016-01-29 19:00:00,SOC,Fra. National,US Avranches - CS Sedan Ardennes,34.6,WIN,Draw (Match),0:0,PINNACLE,3.46,10.00,24.60,onlydraw1,2016-01-29 15:00:08
+393,2016-01-29 19:00:00,SOC,Fra. Ligue 2,Evian Thonon Gaillard - Metz,0.00,LOST,Draw (Match),0:1,PINNACLE,3.08,10.00,-10.00,onlydraw1,2016-01-29 14:59:52
+394,2016-01-29 19:00:00,SOC,Fra. Ligue 2,Valenciennes - Red Star Saint Ouen,30.1,WIN,Draw (Match),0:0,PINNACLE,3.01,10.00,20.10,onlydraw1,2016-01-29 14:59:14
+395,2016-01-27 18:45:00,SOC,Netherlands,De Graafschap - ADO Den Haag,0.00,LOST,Draw (Match),3:1,PINNACLE,3.58,10.00,-10.00,onlydraw1,2016-01-27 16:00:47
+396,2016-01-25 19:00:00,SOC,Netherlands,Achilles 29 - Fortuna Sittard,0.00,LOST,Draw (Match),3:0,PINNACLE,3.6,10.00,-10.00,onlydraw1,2016-01-25 14:44:26
+397,2016-01-25 17:30:00,SOC,Greece,Iraklis - Platanias,30.5,WIN,Draw (Match),0:0,PINNACLE,3.05,10.00,20.50,onlydraw1,2016-01-25 14:43:42
+398,2016-01-25 19:45:00,SOC,Eng. Championship,Burnley - Derby County,0.00,LOST,Draw (Match),4:1,PINNACLE,3.29,10.00,-10.00,onlydraw1,2016-01-25 14:43:26
+399,2016-01-24 14:00:00,SOC,Ita. Serie A,Hellas Verona - Genoa,34.7,WIN,Draw (Match),1:1,PINNACLE,3.47,10.00,24.70,onlydraw1,2016-01-24 10:48:07
+400,2016-01-24 16:00:00,SOC,Por. Superliga,Belenenses - Vitoria Guimaraes,32.4,WIN,Draw (Match),3:3,PINNACLE,3.24,10.00,22.40,onlydraw1,2016-01-24 10:47:28
+401,2016-01-24 14:30:00,SOC,Ger. Bundesliga I,Eintracht Frankfurt - VfL Wolfsburg,0.00,LOST,Draw (Match),3:2,PINNACLE,3.74,10.00,-10.00,onlydraw1,2016-01-24 10:47:04
+402,2016-01-24 15:15:00,SOC,Greece,Veria - Panetolikos,0.00,LOST,Draw (Match),0:1,PINNACLE,3.05,10.00,-10.00,onlydraw1,2016-01-24 10:44:28
+403,2016-01-24 16:00:00,SOC,Fra. Ligue 1,Reims - Saint Etienne,32.3,WIN,Draw (Match),1:1,PINNACLE,3.23,10.00,22.30,onlydraw1,2016-01-24 10:43:37
+404,2016-01-24 17:00:00,SOC,Belgium,Standard Liege - KAA Gent,0.00,LOST,Draw (Match),0:3,PINNACLE,3.5,10.00,-10.00,onlydraw1,2016-01-24 10:43:11
+405,2016-01-23 19:30:00,SOC,Spa. Primera,Granada - Getafe,0.00,LOST,Draw (Match),3:2,PINNACLE,3.3,10.00,-10.00,onlydraw1,2016-01-23 10:43:03
+406,2016-01-23 15:00:00,SOC,Eng. Premier,Sunderland - Bournemouth AFC,33.9,WIN,Draw (Match),1:1,PINNACLE,3.39,10.00,23.90,onlydraw1,2016-01-23 10:42:30
+407,2016-01-23 15:00:00,SOC,Eng. Premier,Crystal Palace - Tottenham Hotspur,0.00,LOST,Draw (Match),1:3,PINNACLE,3.41,10.00,-10.00,onlydraw1,2016-01-23 10:42:14
+408,2016-01-23 12:45:00,SOC,Eng. Premier,Norwich City - Liverpool,0.00,LOST,Draw (Match),4:5,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-01-23 10:41:57
+409,2016-01-23 14:30:00,SOC,Ger. Bundesliga I,Ingolstadt 04 - FSV Mainz 05,0.00,LOST,Draw (Match),1:0,PINNACLE,3.22,10.00,-10.00,onlydraw1,2016-01-23 10:41:21
+410,2016-01-23 19:00:00,SOC,Fra. Ligue 1,Nantes - Bordeaux,30.4,WIN,Draw (Match),2:2,PINNACLE,3.04,10.00,20.40,onlydraw1,2016-01-23 10:40:34
+411,2016-01-22 19:00:00,SOC,Fra. National,Chateauroux - USL Dunkerque,0.00,LOST,Draw (Match),2:0,PINNACLE,3.21,10.00,-10.00,onlydraw1,2016-01-22 15:11:15
+412,2016-01-22 19:30:00,SOC,Belgium,KV Kortrijk - KV Oostende,0.00,LOST,Draw (Match),2:1,PINNACLE,3.43,10.00,-10.00,onlydraw1,2016-01-22 15:10:58
+413,2016-01-22 19:00:00,SOC,Fra. Ligue 2,Paris FC - Sochaux,30.8,WIN,Draw (Match),0:0,PINNACLE,3.08,10.00,20.80,onlydraw1,2016-01-22 15:10:34
+414,2016-01-18 19:30:00,SOC,Ita. Serie B,Crotone - Cagliari,0.00,LOST,Draw (Match),3:1,PINNACLE,3.1,10.00,-10.00,onlydraw1,2016-01-18 16:29:58
+415,2016-01-18 19:00:00,SOC,Netherlands,Telstar - Go Ahead Eagles,0.00,LOST,Draw (Match),1:2,PINNACLE,3.6,10.00,-10.00,onlydraw1,2016-01-18 16:29:43
+416,2016-01-18 19:00:00,SOC,Netherlands,Den Bosch - Volendam,35.9,WIN,Draw (Match),0:0,PINNACLE,3.59,10.00,25.90,onlydraw1,2016-01-18 16:29:32
+417,2016-01-18 19:00:00,SOC,Netherlands,Jong PSV Eindhoven - MVV Maastricht,0.00,LOST,Draw (Match),2:0,PINNACLE,3.73,10.00,-10.00,onlydraw1,2016-01-18 16:29:17
+418,2016-01-18 19:00:00,SOC,Netherlands,Achilles 29 - Fortuna Sittard,10,PUSH,Draw (Match),Postp.,PINNACLE,3.54,10.00,0.00,onlydraw1,2016-01-18 16:29:03
+419,2016-01-18 19:30:00,SOC,Fra. Ligue 2,Valenciennes - Metz,0.00,LOST,Draw (Match),2:1,PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-01-18 16:28:12
+420,2016-01-17 20:00:00,SOC,Fra. Ligue 1,Saint Etienne - Lyon,0.00,LOST,Draw (Match),1:0,PINNACLE,3.26,10.00,-10.00,onlydraw1,2016-01-17 08:06:33
+421,2016-01-17 14:05:00,SOC,Eng. Premier,Liverpool - Manchester United,0.00,LOST,Draw (Match),0:1,PINNACLE,3.37,10.00,-10.00,onlydraw1,2016-01-17 08:05:52
+422,2016-01-17 18:15:00,SOC,Spa. Segunda,Almeria - Cordoba,0.00,LOST,Draw (Match),0:1,PINNACLE,3.18,10.00,-10.00,onlydraw1,2016-01-17 08:04:53
+423,2016-01-17 14:00:00,SOC,Ita. Serie A,Chievo - Empoli,32,WIN,Draw (Match),1:1,PINNACLE,3.2,10.00,22.00,onlydraw1,2016-01-17 08:04:30
+424,2016-01-17 14:00:00,SOC,Ita. Serie A,Carpi - Sampdoria,0.00,LOST,Draw (Match),2:1,PINNACLE,3.23,10.00,-10.00,onlydraw1,2016-01-17 08:04:14
+425,2016-01-17 14:00:00,SOC,Ita. Serie A,Bologna - Lazio,34,WIN,Draw (Match),2:2,PINNACLE,3.4,10.00,24.00,onlydraw1,2016-01-17 08:03:59
+426,2016-01-16 15:00:00,SOC,Eng. League One,Colchester United - Sheffield United,0.00,LOST,Draw (Match),1:2,PINNACLE,3.67,10.00,-10.00,onlydraw1,2016-01-16 09:44:48
+427,2016-01-16 15:00:00,SOC,Eng. Championship,Rotherham United - Queens Park Rangers,0.00,LOST,Draw (Match),0:3,PINNACLE,3.24,10.00,-10.00,onlydraw1,2016-01-16 09:44:21
+428,2016-01-16 15:00:00,SOC,Eng. Championship,Milton Keynes Dons - Reading,0.00,LOST,Draw (Match),1:0,PINNACLE,3.32,10.00,-10.00,onlydraw1,2016-01-16 09:44:07
+429,2016-01-16 17:30:00,SOC,Eng. Premier,Aston Villa - Leicester City,34.8,WIN,Draw (Match),1:1,PINNACLE,3.48,10.00,24.80,onlydraw1,2016-01-16 09:43:34
+430,2016-01-16 19:00:00,SOC,Fra. Ligue 1,Troyes - Rennes,0.00,LOST,Draw (Match),2:4,PINNACLE,3.31,10.00,-10.00,onlydraw1,2016-01-16 09:42:39
+431,2016-01-16 19:00:00,SOC,Fra. Ligue 1,SC Bastia - Montpellier,0.00,LOST,Draw (Match),1:0,PINNACLE,3.04,10.00,-10.00,onlydraw1,2016-01-16 09:42:20
+432,2016-01-15 19:00:00,SOC,Fra. National,CS Sedan Ardennes - Vendee Lucon,0.00,LOST,Draw (Match),2:0,PINNACLE,2.91,10.00,-10.00,onlydraw1,2016-01-15 16:56:49
+433,2016-01-15 19:00:00,SOC,Fra. National,FC Chambly - Amiens,0.00,LOST,Draw (Match),0:1,PINNACLE,3.03,10.00,-10.00,onlydraw1,2016-01-15 16:56:32
+434,2016-01-15 19:00:00,SOC,Fra. National,AS Beziers - CA Bastia,30.1,WIN,Draw (Match),0:0,PINNACLE,3.01,10.00,20.10,onlydraw1,2016-01-15 16:56:16
+435,2016-01-15 19:00:00,SOC,Fra. Ligue 2,Nimes - Clermont Foot,0.00,LOST,Draw (Match),6:2,PINNACLE,3.37,10.00,-10.00,onlydraw1,2016-01-15 16:55:57
+436,2016-01-15 19:00:00,SOC,Fra. Ligue 2,Laval - Auxerre,0.00,LOST,Draw (Match),4:1,PINNACLE,2.94,10.00,-10.00,onlydraw1,2016-01-15 16:55:43
+437,2016-01-15 19:00:00,SOC,Fra. Ligue 2,Creteil - Lens,33,WIN,Draw (Match),1:1,PINNACLE,3.3,10.00,23.00,onlydraw1,2016-01-15 16:55:28
+438,2016-01-13 20:00:00,SOC,Eng. Premier,Liverpool - Arsenal,35,WIN,Draw (Match),3-3,PINNACLE,3.5,10.00,25.00,onlydraw1,2016-01-13 16:25:38
+439,2016-01-12 19:45:00,SOC,Eng. League Two,Morecambe - Exeter City,36.3,WIN,Draw (Match),1:1,PINNACLE,3.63,10.00,26.30,onlydraw1,2016-01-12 14:58:01
+440,2016-01-12 19:45:00,SOC,Eng. Championship,Milton Keynes Dons - Burnley,0.00,LOST,Draw (Match),0:5,PINNACLE,3.38,10.00,-10.00,onlydraw1,2016-01-12 14:57:36
+441,2016-01-12 19:45:00,SOC,Eng. Championship,Brentford - Middlesbrough,0.00,LOST,Draw (Match),0:1,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-01-12 14:57:25
+442,2016-01-12 19:45:00,SOC,Eng. Championship,Rotherham United - Brighton & Hove Albion,0.00,LOST,Draw (Match),2:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2016-01-12 14:57:10
+443,2016-01-12 19:45:00,SOC,Eng. Premier,Aston Villa - Crystal Palace,0.00,LOST,Draw (Match),1:0,PINNACLE,3.23,10.00,-10.00,onlydraw1,2016-01-12 14:56:49
+444,2016-01-11 19:30:00,SOC,Fra. Ligue 2,Metz - Sochaux,0.00,LOST,Draw (Match),1:0,PINNACLE,3.05,10.00,-10.00,onlydraw1,2016-01-11 16:35:02
+445,2016-01-10 19:30:00,SOC,Spa. Primera,Celta Vigo - Atletico Madrid,0.00,LOST,Draw (Match),0:2,PINNACLE,3.46,10.00,-10.00,onlydraw1,2016-01-10 17:42:40
+446,2015-05-17 13:00:00,SOC,Ita. Serie A,Atalanta - Genoa,0.00,LOST,Draw (Match),1:4,PINNACLE,3.28,10.00,-10.00,onlydraw1,2015-05-17 09:14:31
+447,2015-05-17 16:59:00,SOC,Por. Superliga,Boavista - Nacional da Madeira,0.00,LOST,Draw (Match),0:1,PINNACLE,3.35,10.00,-10.00,onlydraw1,2015-05-17 09:13:47
+448,2015-05-17 17:00:00,SOC,Spa. Primera,Elche - Athletic Bilbao,0.00,LOST,Draw (Match),2:3,PINNACLE,3.47,10.00,-10.00,onlydraw1,2015-05-17 09:13:20
+449,2015-05-17 13:30:00,SOC,Ger. Bundesliga II,TSV 1860 Munchen - Nurnberg,0.00,LOST,Draw (Match),2:1,PINNACLE,3.6,10.00,-10.00,onlydraw1,2015-05-17 09:12:55
+450,2015-05-17 13:30:00,SOC,Ger. Bundesliga II,Eintracht Braunschweig - Karlsruher SC,0.00,LOST,Draw (Match),0:2,PINNACLE,3.46,10.00,-10.00,onlydraw1,2015-05-17 09:12:41
+451,2015-05-17 13:30:00,SOC,Ger. Bundesliga II,Greuther Furth - SV Darmstadt 98,0.00,LOST,Draw (Match),1:0,PINNACLE,3.41,10.00,-10.00,onlydraw1,2015-05-17 09:12:25
+452,2015-05-16 13:29:00,SOC,Poland,Gornik Leczna - Cracovia Krakow,0.00,LOST,Draw (Match),0-3,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-05-16 07:00:42
+453,2015-05-16 15:59:00,SOC,Poland,GKS Belchatow - Podbeskidzie Bielsko Biala,0.00,LOST,Draw (Match),0:2,PINNACLE,3.24,10.00,-10.00,onlydraw1,2015-05-16 07:00:29
+454,2015-05-16 14:00:00,SOC,Eng. Premier,Burnley - Stoke City,33.9,WIN,Draw (Match),0-0,PINNACLE,3.39,10.00,23.90,onlydraw1,2015-05-16 07:00:09
+455,2015-05-16 14:00:00,SOC,Eng. Premier,Queens Park Rangers - Newcastle United,0.00,LOST,Draw (Match),2-1,PINNACLE,3.56,10.00,-10.00,onlydraw1,2015-05-16 06:59:55
+456,2015-05-16 14:00:00,SOC,Eng. Premier,West Ham United - Everton,0.00,LOST,Draw (Match),1-2,PINNACLE,3.47,10.00,-10.00,onlydraw1,2015-05-16 06:59:36
+457,2015-05-16 13:30:00,SOC,Ger. Bundesliga I,VfL Wolfsburg - Borussia Dortmund,0.00,LOST,Draw (Match),2-1,PINNACLE,3.66,10.00,-10.00,onlydraw1,2015-05-16 06:59:14
+458,2015-05-15 17:59:00,SOC,Fra. National,Vendee Lucon - Strasbourg,0.00,LOST,Draw (Match),1-3,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-05-15 17:08:59
+459,2015-05-15 17:59:00,SOC,Fra. National,SR Colmar - FC Chambly,0.00,LOST,Draw (Match),2-0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-05-15 17:08:46
+460,2015-05-15 17:59:00,SOC,Fra. National,Istres - USL Dunkerque,0.00,LOST,Draw (Match),1-2,PINNACLE,3.53,10.00,-10.00,onlydraw1,2015-05-15 17:08:31
+461,2015-05-15 18:29:00,SOC,Fra. Ligue 2,AC Arles Avignon - US Orleans,0.00,LOST,Draw (Match),4:1,PINNACLE,3.35,10.00,-10.00,onlydraw1,2015-05-15 17:07:31
+462,2015-05-15 18:29:00,SOC,Fra. Ligue 2,Chateauroux - Le Havre,33,WIN,Draw (Match),0:0,PINNACLE,3.3,10.00,23.00,onlydraw1,2015-05-15 17:07:16
+463,2015-05-15 18:29:00,SOC,Fra. Ligue 2,Tours - Dijon,32,WIN,Draw (Match),0:0,PINNACLE,3.2,10.00,22.00,onlydraw1,2015-05-15 17:06:40
+464,2015-05-14 15:29:00,SOC,Finland,Jaro - Lahti,33,WIN,Draw (Match),1:1,PINNACLE,3.3,10.00,23.00,onlydraw1,2015-05-14 13:46:16
+465,2015-05-14 19:05:00,SOC,Europa League,Dnipro Dnipropetrovsk (n) - Napoli,0.00,LOST,Draw (Match),1-0,PINNACLE,3.69,10.00,-10.00,onlydraw1,2015-05-14 13:45:58
+466,2015-05-12 14:59:00,SOC,Por. Other,Vitoria Guimaraes B - Porto B,0.00,LOST,Draw (Match),3:0,PINNACLE,3.48,10.00,-10.00,onlydraw1,2015-05-12 13:49:12
+467,2015-05-12 16:29:00,SOC,Austria,SV Horn - LASK Linz,0.00,LOST,Draw (Match),2:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-05-12 13:48:37
+468,2015-05-11 17:04:00,SOC,Sweden,Elfsborg - Malmo,34.8,WIN,Draw (Match),2:2,PINNACLE,3.48,10.00,24.80,onlydraw1,2015-05-11 13:35:10
+469,2015-05-11 18:44:00,SOC,Ireland,St Patricks Athletic - Shamrock Rovers,32.2,WIN,Draw (Match),0:0,PINNACLE,3.22,10.00,22.20,onlydraw1,2015-05-11 13:34:54
+470,2015-05-11 18:44:00,SOC,Eng. League One,Swindon Town - Sheffield United,33.9,WIN,Draw (Match),5:5,PINNACLE,3.39,10.00,23.90,onlydraw1,2015-05-11 13:33:36
+471,2015-05-10 16:59:00,SOC,Spa. Segunda,Racing Santander - Tenerife,0.00,LOST,Draw (Match),1:0,PINNACLE,3.14,10.00,-10.00,onlydraw1,2015-05-10 09:24:38
+472,2015-05-10 17:00:00,SOC,Spa. Primera,Almeria - Malaga,0.00,LOST,Draw (Match),1:2,PINNACLE,3.37,10.00,-10.00,onlydraw1,2015-05-10 09:24:22
+473,2015-05-10 19:00:00,SOC,Spa. Primera,Celta Vigo - Sevilla,37.7,WIN,Draw (Match),1:1,PINNACLE,3.77,10.00,27.70,onlydraw1,2015-05-10 09:24:05
+474,2015-05-10 11:59:00,SOC,Denmark,Hobro - Sonderjyske,33.6,WIN,Draw (Match),2:2,PINNACLE,3.36,10.00,23.60,onlydraw1,2015-05-10 09:23:39
+475,2015-05-10 16:59:00,SOC,Czech Rep.,Bohemians 1905 - Mlada Boleslav,34.2,WIN,Draw (Match),1:1,PINNACLE,3.42,10.00,24.20,onlydraw1,2015-05-10 09:23:21
+476,2015-05-10 11:30:00,SOC,Ger. Bundesliga II,FC Heidenheim - Greuther Furth,0.00,LOST,Draw (Match),3:0,PINNACLE,3.32,10.00,-10.00,onlydraw1,2015-05-10 09:23:05
+477,2015-05-09 15:59:00,SOC,Spa. Segunda,CD Lugo - Sporting Gijon,0.00,LOST,Draw (Match),1:2,PINNACLE,3.17,10.00,-10.00,onlydraw1,2015-05-09 08:21:38
+478,2015-05-09 15:59:00,SOC,Poland,Pogon Szczecin - Lechia Gdansk,0.00,LOST,Draw (Match),1:3,PINNACLE,3.24,10.00,-10.00,onlydraw1,2015-05-09 08:21:13
+479,2015-05-09 17:59:00,SOC,Fra. Ligue 1,Metz - Lorient,0.00,LOST,Draw (Match),0:4,PINNACLE,3.38,10.00,-10.00,onlydraw1,2015-05-09 08:20:48
+480,2015-05-09 14:00:00,SOC,Eng. Premier,Stoke City - Tottenham Hotspur,0.00,LOST,Draw (Match),3:0,PINNACLE,3.46,10.00,-10.00,onlydraw1,2015-05-09 08:20:28
+481,2015-05-09 14:00:00,SOC,Eng. Premier,Leicester City - Southampton,0.00,LOST,Draw (Match),2:0,PINNACLE,3.36,10.00,-10.00,onlydraw1,2015-05-09 08:20:09
+482,2015-05-09 13:30:00,SOC,Ger. Bundesliga I,Borussia Monchengladbach - Bayer Leverkusen,0.00,LOST,Draw (Match),3:0,PINNACLE,3.41,10.00,-10.00,onlydraw1,2015-05-09 08:19:32
+483,2015-05-08 15:29:00,SOC,Finland,HIFK Helsinki - Inter Turku,0.00,LOST,Draw (Match),2:1,PINNACLE,3.38,10.00,-10.00,onlydraw1,2015-05-08 14:31:47
+484,2015-05-08 15:29:00,SOC,Finland,Lahti - Seinajoen JK,0.00,LOST,Draw (Match),1:0,PINNACLE,3.1,10.00,-10.00,onlydraw1,2015-05-08 14:31:36
+485,2015-05-08 15:59:00,SOC,Fra. National,Le Poire Sur Vie - Vendee Lucon,0.00,LOST,Draw (Match),0:2,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-05-08 14:30:55
+486,2015-05-08 17:59:00,SOC,Fra. Ligue 2,Ajaccio - Brest,0.00,LOST,Draw (Match),2:1,PINNACLE,3.02,10.00,-10.00,onlydraw1,2015-05-08 14:30:27
+487,2015-05-08 16:30:00,SOC,Ger. Bundesliga II,FSV Frankfurt - TSV 1860 Munchen,0.00,LOST,Draw (Match),0:1,PINNACLE,3.5,10.00,-10.00,onlydraw1,2015-05-08 14:30:09
+488,2015-05-08 16:30:00,SOC,Ger. Bundesliga II,Fortuna Dusseldorf - VfR Aalen,0.00,LOST,Draw (Match),0:2,PINNACLE,3.5,10.00,-10.00,onlydraw1,2015-05-08 14:29:55
+489,2015-05-04 16:59:00,SOC,Turkey,Kayseri Erciyesspor - Sivasspor,0.00,LOST,Draw (Match),2:3,PINNACLE,3.6,10.00,-10.00,onlydraw1,2015-05-04 13:39:20
+490,2015-05-04 17:59:00,SOC,Romania,CSMS Iasi - Rapid Bucuresti,31.1,WIN,Draw (Match),0:0,PINNACLE,3.11,10.00,21.10,onlydraw1,2015-05-04 13:38:50
+491,2015-05-04 18:59:00,SOC,Por. Superliga,Pacos de Ferreira - Sporting Braga,32.8,WIN,Draw (Match),2:2,PINNACLE,3.28,10.00,22.80,onlydraw1,2015-05-04 13:38:27
+492,2015-05-04 18:45:00,SOC,Spa. Primera,Almeria - Celta Vigo,37,WIN,Draw (Match),2:2,PINNACLE,3.7,10.00,27.00,onlydraw1,2015-05-04 13:38:04
+493,2015-05-04 16:09:00,SOC,Ireland,Bohemians - Cork City,32,WIN,Draw (Match),1:1,PINNACLE,3.2,10.00,22.00,onlydraw1,2015-05-04 13:37:44
+494,2015-05-03 17:59:00,SOC,Norway,Odd BK - Rosenborg,0.00,LOST,Draw (Match),1:2,PINNACLE,3.71,10.00,-10.00,onlydraw1,2015-05-03 06:54:02
+495,2015-05-03 15:59:00,SOC,Norway,Lillestrom - Valerenga,35.7,WIN,Draw (Match),1:1,PINNACLE,3.57,10.00,25.70,onlydraw1,2015-05-03 06:52:38
+496,2015-05-03 12:59:00,SOC,Russia,Amkar Perm - Lokomotiv Moscow,31.2,WIN,Draw (Match),1:1,PINNACLE,3.12,10.00,21.20,onlydraw1,2015-05-03 06:52:08
+497,2015-05-03 10:29:00,SOC,Russia,Kuban Krasnodar - Dynamo Moscow,0.00,LOST,Draw (Match),1:2,PINNACLE,3.24,10.00,-10.00,onlydraw1,2015-05-03 06:51:57
+498,2015-05-03 13:00:00,SOC,Ita. Serie A,Atalanta - Lazio,40,WIN,Draw (Match),1:1,PINNACLE,4,10.00,30.00,onlydraw1,2015-05-03 06:51:37
+499,2015-05-03 11:29:00,SOC,Ger. Bundesliga II,St. Pauli - RB Leipzig,0.00,LOST,Draw (Match),1:0,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-05-03 06:51:12
+500,2015-05-02 12:59:00,SOC,Ita. Serie B,Varese - Latina,0.00,LOST,Draw (Match),1:2,PINNACLE,3.26,10.00,-10.00,onlydraw1,2015-05-02 07:07:55
+501,2015-05-02 12:59:00,SOC,Ita. Serie B,Frosinone - Bologna,0.00,LOST,Draw (Match),2:1,PINNACLE,3.04,10.00,-10.00,onlydraw1,2015-05-02 07:06:19
+502,2015-05-02 20:00:00,SOC,Spa. Primera,Deportivo La Coruna - Villarreal,35.7,WIN,Draw (Match),1:1,PINNACLE,3.57,10.00,25.70,onlydraw1,2015-05-02 07:04:17
+503,2015-05-02 11:59:00,SOC,Fra. Ligue 2,Nimes - Troyes,0.00,LOST,Draw (Match),1:2,PINNACLE,3.41,10.00,-10.00,onlydraw1,2015-05-02 07:03:18
+504,2015-05-02 13:59:00,SOC,Spa. Segunda,Numancia - Alaves,0.00,LOST,Draw (Match),1:0,PINNACLE,3.17,10.00,-10.00,onlydraw1,2015-05-02 07:02:29
+505,2015-05-02 17:59:00,SOC,Fra. Ligue 1,Lorient - Bordeaux,32.2,WIN,Draw (Match),0:0,PINNACLE,3.22,10.00,22.20,onlydraw1,2015-05-02 07:01:26
+506,2015-05-02 10:59:00,SOC,Ger. Bundesliga II,SV Darmstadt 98 - Kaiserslautern,0.00,LOST,Draw (Match),3:2,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-05-02 07:00:45
+507,2015-05-01 16:29:00,SOC,Austria,Austria Lustenau - LASK Linz,0.00,LOST,Draw (Match),1:2,PINNACLE,3.5,10.00,-10.00,onlydraw1,2015-05-01 07:37:52
+508,2015-05-01 16:29:00,SOC,Austria,FAC Team fÃ¼r Wien - Kapfenberger SV,0.00,LOST,Draw (Match),1:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-05-01 07:37:37
+509,2015-05-01 17:59:00,SOC,Fra. Ligue 2,Auxerre - Gazelec Ajaccio,29.9,WIN,Draw (Match),0:0,PINNACLE,2.99,10.00,19.90,onlydraw1,2015-05-01 07:36:48
+510,2015-05-01 17:59:00,SOC,Fra. Ligue 2,Laval - Le Havre,30.6,WIN,Draw (Match),1:1,PINNACLE,3.06,10.00,20.60,onlydraw1,2015-05-01 07:36:36
+511,2015-05-01 17:59:00,SOC,Fra. Ligue 2,Chateauroux - Valenciennes,0.00,LOST,Draw (Match),3:0,PINNACLE,3.08,10.00,-10.00,onlydraw1,2015-05-01 07:36:25
+512,2015-05-01 17:59:00,SOC,Fra. Ligue 2,AC Arles Avignon - Creteil,0.00,LOST,Draw (Match),2:0,PINNACLE,3.06,10.00,-10.00,onlydraw1,2015-05-01 07:36:14
+513,2015-04-30 17:04:00,SOC,Sweden,Orebro - Hammarby,35.5,WIN,Draw (Match),2:2,PINNACLE,3.55,10.00,25.50,onlydraw1,2015-04-30 07:37:30
+514,2015-04-30 20:00:00,SOC,Spa. Primera,Granada - RCD Espanyol,0.00,LOST,Draw (Match),1:2,PINNACLE,3.31,10.00,-10.00,onlydraw1,2015-04-30 07:36:54
+515,2015-04-29 18:45:00,SOC,Ita. Serie A,Cesena - Atalanta,32.7,WIN,Draw (Match),2:2,PINNACLE,3.27,10.00,22.70,onlydraw1,2015-04-29 09:59:13
+516,2015-04-29 18:45:00,SOC,Ita. Serie A,Palermo - Torino,33.3,WIN,Draw (Match),2:2,PINNACLE,3.33,10.00,23.30,onlydraw1,2015-04-29 09:58:50
+517,2015-04-29 20:00:00,SOC,Spa. Primera,Elche - Deportivo La Coruna,0.00,LOST,Draw (Match),4:0,PINNACLE,3.28,10.00,-10.00,onlydraw1,2015-04-29 09:55:38
+518,2015-04-29 20:00:00,SOC,Spa. Primera,Villarreal - Atletico Madrid,0.00,LOST,Draw (Match),0:1,PINNACLE,3.4,10.00,-10.00,onlydraw1,2015-04-29 09:55:23
+519,2015-04-28 18:29:00,SOC,Ita. Serie B,Cittadella - Spezia,0.00,LOST,Draw (Match),1:3,PINNACLE,2.99,10.00,-10.00,onlydraw1,2015-04-28 10:41:00
+520,2015-04-28 18:29:00,SOC,Ita. Serie B,Ternana - Frosinone,0.00,LOST,Draw (Match),0:1,PINNACLE,3.04,10.00,-10.00,onlydraw1,2015-04-28 10:40:35
+521,2015-04-28 18:29:00,SOC,Fra. Ligue 2,Creteil - Brest,0.00,LOST,Draw (Match),2:1,PINNACLE,2.96,10.00,-10.00,onlydraw1,2015-04-28 10:38:02
+522,2015-04-28 18:29:00,SOC,Ita. Serie B,Brescia - Vicenza,0.00,LOST,Draw (Match),3:0,PINNACLE,3.07,10.00,-10.00,onlydraw1,2015-04-28 05:14:55
+523,2015-04-28 18:29:00,SOC,Fra. Ligue 2,Valenciennes - Nancy,31.4,WIN,Draw (Match),1:1,PINNACLE,3.14,10.00,21.40,onlydraw1,2015-04-28 05:13:24
+524,2015-04-28 18:29:00,SOC,Ita. Serie B,Crotone - Avellino,0.00,LOST,Draw (Match),2:0,PINNACLE,2.94,10.00,-10.00,onlydraw1,2015-04-28 05:12:16
+525,2015-04-27 18:29:00,SOC,Fra. Ligue 2,Clermont Foot - Sochaux,30.7,WIN,Draw (Match),0:0,PINNACLE,3.07,10.00,20.70,onlydraw1,2015-04-27 13:30:39
+526,2015-04-27 13:44:00,SOC,Egypt,Al Masry - Smouha SC,29.8,WIN,Draw (Match),0:0,PINNACLE,2.98,10.00,19.80,onlydraw1,2015-04-27 13:30:20
+527,2015-04-26 15:00:00,SOC,Eng. Premier,Arsenal - Chelsea,32.5,WIN,Draw (Match),0:0,PINNACLE,3.25,10.00,22.50,onlydraw1,2015-04-26 11:49:09
+528,2015-04-26 14:29:00,SOC,Spa. Segunda,Llagostera - Sporting Gijon,31.4,WIN,Draw (Match),0:0,PINNACLE,3.14,10.00,21.40,onlydraw1,2015-04-26 11:48:50
+529,2015-04-26 15:59:00,SOC,Spa. Segunda,Recreativo Huelva - Girona,0.00,LOST,Draw (Match),0:3,PINNACLE,3.21,10.00,-10.00,onlydraw1,2015-04-26 11:48:37
+530,2015-04-26 12:59:00,SOC,Turkey,Genclerbirligi - Trabzonspor,35.9,WIN,Draw (Match),1:1,PINNACLE,3.59,10.00,25.90,onlydraw1,2015-04-26 11:48:16
+531,2015-04-26 13:00:00,SOC,Ita. Serie A,Parma - Palermo,0.00,LOST,Draw (Match),1:0,PINNACLE,3.4,10.00,-10.00,onlydraw1,2015-04-26 11:47:47
+532,2015-04-26 15:30:00,SOC,Ger. Bundesliga I,Borussia Monchengladbach - VfL Wolfsburg,0.00,LOST,Draw (Match),1:0,PINNACLE,3.67,10.00,-10.00,onlydraw1,2015-04-26 11:47:25
+533,2015-04-25 12:59:00,SOC,Ita. Serie B,Frosinone - Carpi,0.00,LOST,Draw (Match),1:0,PINNACLE,3.04,10.00,-10.00,onlydraw1,2015-04-25 06:27:00
+534,2015-04-25 11:59:00,SOC,Fra. Ligue 2,US Orleans - Dijon,0.00,LOST,Draw (Match),0:1,PINNACLE,2.96,10.00,-10.00,onlydraw1,2015-04-25 06:26:39
+535,2015-04-25 15:59:00,SOC,Norway,Viking - Rosenborg,0.00,LOST,Draw (Match),1:4,PINNACLE,3.74,10.00,-10.00,onlydraw1,2015-04-25 06:26:20
+536,2015-04-25 14:00:00,SOC,Eng. Premier,Burnley - Leicester City,0.00,LOST,Draw (Match),0:1,PINNACLE,3.33,10.00,-10.00,onlydraw1,2015-04-25 06:25:31
+537,2015-04-25 09:59:00,SOC,Russia,Amkar Perm - Terek Grozny,0.00,LOST,Draw (Match),2:1,PINNACLE,3.08,10.00,-10.00,onlydraw1,2015-04-25 06:25:07
+538,2015-04-25 13:30:00,SOC,Ger. Bundesliga I,Hamburger SV - Augsburg,0.00,LOST,Draw (Match),3-2,PINNACLE,3.42,10.00,-10.00,onlydraw1,2015-04-25 06:24:43
+539,2015-04-24 17:59:00,SOC,Fra. Ligue 2,Nimes - Creteil,0.00,LOST,Draw (Match),0:1,PINNACLE,3.1,10.00,-10.00,onlydraw1,2015-04-24 12:29:34
+540,2015-04-24 15:59:00,SOC,Russia,Mordovia Saransk - Ural Sverdlovsk Oblast,0.00,LOST,Draw (Match),2:1,PINNACLE,3.08,10.00,-10.00,onlydraw1,2015-04-24 12:28:29
+541,2015-04-23 13:44:00,SOC,Egypt,El Daklyeh - Al Masry,0.00,LOST,Draw (Match),2:1,PINNACLE,3.05,10.00,-10.00,onlydraw1,2015-04-23 07:58:10
+542,2015-04-23 19:05:00,SOC,Europa League,Zenit St. Petersburg - Sevilla,36,WIN,Draw (Match),2-2,PINNACLE,3.6,10.00,26.00,onlydraw1,2015-04-23 07:56:11
+543,2015-04-23 15:29:00,SOC,Finland,RoPS Rovaniemi - Inter Turku,0.00,LOST,Draw (Match),0:4,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-04-23 07:55:35
+544,2015-04-22 13:44:00,SOC,Egypt,Al Nasr Cairo - El Gounah,31.3,WIN,Draw (Match),1:1,PINNACLE,3.13,10.00,21.30,onlydraw1,2015-04-22 13:24:15
+545,2015-04-22 13:44:00,SOC,Egypt,Tala.ea El Giesh - Misr Lel Makasa,0.00,LOST,Draw (Match),2:0,PINNACLE,3.19,10.00,-10.00,onlydraw1,2015-04-22 13:23:33
+546,2015-04-22 13:44:00,SOC,Egypt,El Raja Marsa Matruh - Wadi Degla,32.7,WIN,Draw (Match),1:1,PINNACLE,3.27,10.00,22.70,onlydraw1,2015-04-22 13:23:23
+547,2015-04-22 18:45:00,SOC,Champions L,AS Monaco - Juventus,31.8,WIN,Draw (Match),0-0,PINNACLE,3.18,10.00,21.80,onlydraw1,2015-04-22 13:22:37
+548,2015-04-20 13:59:00,SOC,Russia,Amkar Perm - Arsenal Tula,0.00,LOST,Draw (Match),0:1,PINNACLE,3.04,10.00,-10.00,onlydraw1,2015-04-20 13:32:08
+549,2015-04-20 18:59:00,SOC,Por. Superliga,Maritimo - Nacional da Madeira,33.2,WIN,Draw (Match),1:1,PINNACLE,3.32,10.00,23.20,onlydraw1,2015-04-20 13:31:45
+550,2015-04-20 16:29:00,SOC,Greece,Veria - Asteras Tripolis,0.00,LOST,Draw (Match),4:0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2015-04-20 13:31:14
+551,2015-04-20 16:59:00,SOC,Denmark,Esbjerg - Randers FC,33.6,WIN,Draw (Match),0:0,PINNACLE,3.36,10.00,23.60,onlydraw1,2015-04-20 13:30:51
+552,2015-04-20 18:45:00,SOC,Spa. Primera,Elche - Real Sociedad,0.00,LOST,Draw (Match),1:0,PINNACLE,3.21,10.00,-10.00,onlydraw1,2015-04-20 13:30:29
+553,2015-04-20 18:29:00,SOC,Fra. Ligue 2,Le Havre - Brest,29.8,WIN,Draw (Match),1:1,PINNACLE,2.98,10.00,19.80,onlydraw1,2015-04-20 13:30:14
+554,2015-04-19 15:59:00,SOC,Por. Superliga,Vitoria Setubal - Estoril Praia,0.00,LOST,Draw (Match),1:2,PINNACLE,3.18,10.00,-10.00,onlydraw1,2015-04-19 07:15:50
+555,2015-04-19 14:59:00,SOC,Por. Superliga,Gil Vicente - Rio Ave,32.7,WIN,Draw (Match),0:0,PINNACLE,3.27,10.00,22.70,onlydraw1,2015-04-19 07:15:40
+556,2015-04-19 15:59:00,SOC,Norway,Stabaek - Viking,0.00,LOST,Draw (Match),1:0,PINNACLE,3.55,10.00,-10.00,onlydraw1,2015-04-19 07:15:05
+557,2015-04-19 13:29:00,SOC,Norway,Bodo Glimt - Odd BK,0.00,LOST,Draw (Match),2:4,PINNACLE,3.72,10.00,-10.00,onlydraw1,2015-04-19 07:14:53
+558,2015-04-19 14:44:00,SOC,Netherlands,FC Utrecht - FC Twente Enschede,0.00,LOST,Draw (Match),1:0,PINNACLE,3.82,10.00,-10.00,onlydraw1,2015-04-19 07:14:30
+559,2015-04-19 12:29:00,SOC,Netherlands,Heracles Almelo - PEC Zwolle,0.00,LOST,Draw (Match),2:0,PINNACLE,3.7,10.00,-10.00,onlydraw1,2015-04-19 07:14:18
+560,2015-04-18 13:29:00,SOC,Poland,Slask Wroclaw - Lechia Gdansk,0.00,LOST,Draw (Match),3:0,PINNACLE,3.33,10.00,-10.00,onlydraw1,2015-04-18 08:48:52
+561,2015-04-18 12:59:00,SOC,Russia,Mordovia Saransk - Spartak Moscow,0.00,LOST,Draw (Match),1:3,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-04-18 08:48:22
+562,2015-04-18 14:00:00,SOC,Eng. Premier,Stoke City - Southampton,0.00,LOST,Draw (Match),2:1,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-04-18 08:48:03
+563,2015-04-18 14:59:00,SOC,Czech Rep.,Dynamo Ceske Budejovice - Bohemians 1905,0.00,LOST,Draw (Match),2:3,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-04-18 08:47:41
+564,2015-04-18 13:30:00,SOC,Ger. Bundesliga I,SC Freiburg - FSV Mainz 05,0.00,LOST,Draw (Match),2:3,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-04-18 08:47:18
+565,2015-04-18 11:00:00,SOC,Ger. Bundesliga II,VfR Aalen - Eintracht Braunschweig,0.00,LOST,Draw (Match),2:1,PINNACLE,3.29,10.00,-10.00,onlydraw1,2015-04-18 08:47:00
+566,2015-04-17 16:59:00,SOC,Turkey,Gaziantepspor - Konyaspor,33.5,WIN,Draw (Match),1:1,PINNACLE,3.35,10.00,23.50,onlydraw1,2015-04-17 13:39:55
+567,2015-04-17 18:29:00,SOC,Ita. Serie B,Cittadella - Vicenza,0.00,LOST,Draw (Match),0:1,PINNACLE,2.99,10.00,-10.00,onlydraw1,2015-04-17 13:39:36
+568,2015-04-17 17:59:00,SOC,Fra. Ligue 2,Creteil - Nancy,30.3,WIN,Draw (Match),1:1,PINNACLE,3.03,10.00,20.30,onlydraw1,2015-04-17 13:38:51
+569,2015-04-17 16:29:00,SOC,Ger. Bundesliga II,St. Pauli - Nurnberg,0.00,LOST,Draw (Match),1-0,PINNACLE,3.36,10.00,-10.00,onlydraw1,2015-04-17 13:38:28
+570,2015-04-17 18:29:00,SOC,Austria,Wacker Innsbruck - Mattersburg,0.00,LOST,Draw (Match),1:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-04-17 13:38:07
+571,2015-04-17 16:29:00,SOC,Austria,FAC Team fÃ¼r Wien - Austria Lustenau,0.00,LOST,Draw (Match),0-1,PINNACLE,3.28,10.00,-10.00,onlydraw1,2015-04-17 13:37:57
+572,2015-04-16 19:05:00,SOC,Europa League,Dynamo Kyiv - Fiorentina,33.1,WIN,Draw (Match),1-1,PINNACLE,3.31,10.00,23.10,onlydraw1,2015-04-16 08:01:18
+573,2015-04-15 14:59:00,SOC,Por. Other,Maritimo B - Santa Clara,0.00,LOST,Draw (Match),0:1,PINNACLE,3.21,10.00,-10.00,onlydraw1,2015-04-15 07:38:56
+574,2015-04-15 14:59:00,SOC,Por. Other,Leixoes - Sporting Covilha,32.5,WIN,Draw (Match),3:3,PINNACLE,3.25,10.00,22.50,onlydraw1,2015-04-15 07:38:42
+575,2015-04-15 14:59:00,SOC,Por. Other,Atletico Clube de Portugal - Uniao da Madeira,33.4,WIN,Draw (Match),1:1,PINNACLE,3.34,10.00,23.40,onlydraw1,2015-04-15 07:38:30
+576,2015-04-15 18:45:00,SOC,Champions L,Paris Saint Germain - Barcelona,0.00,LOST,Draw (Match),1:3,PINNACLE,3.97,10.00,-10.00,onlydraw1,2015-04-15 07:38:02
+577,2015-04-14 18:44:00,SOC,Eng. League Two,Cheltenham Town - Cambridge United,0.00,LOST,Draw (Match),3:1,PINNACLE,3.36,10.00,-10.00,onlydraw1,2015-04-14 08:07:05
+578,2015-04-14 18:44:00,SOC,Eng. League One,Bradford City - Bristol City,0.00,LOST,Draw (Match),0:6,PINNACLE,3.33,10.00,-10.00,onlydraw1,2015-04-14 08:06:37
+579,2015-04-14 18:44:00,SOC,Eng. League One,Bradford City - Bristol City,0.00,LOST,Draw (Match),0:6,PINNACLE,3.33,10.00,-10.00,onlydraw1,2015-04-14 08:06:25
+580,2015-04-14 18:44:00,SOC,Eng. Championship,Millwall - Wigan Athletic,0.00,LOST,Draw (Match),2:0,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-04-14 08:05:56
+581,2015-04-14 18:44:00,SOC,Eng. Championship,Birmingham City - Blackburn Rovers,34.3,WIN,Draw (Match),2:2,PINNACLE,3.43,10.00,24.30,onlydraw1,2015-04-14 08:05:41
+582,2015-04-14 18:45:00,SOC,Champions L,Atletico Madrid - Real Madrid,33.7,WIN,Draw (Match),0:0,PINNACLE,3.37,10.00,23.70,onlydraw1,2015-04-14 08:05:23
+583,2015-04-13 17:04:00,SOC,Sweden,Hammarby - Djurgardens,0.00,LOST,Draw (Match),2:1,PINNACLE,3.43,10.00,-10.00,onlydraw1,2015-04-13 08:51:16
+584,2015-04-13 18:59:00,SOC,Por. Superliga,Estoril Praia - Pacos de Ferreira,0.00,LOST,Draw (Match),1:0,PINNACLE,3.33,10.00,-10.00,onlydraw1,2015-04-13 08:50:44
+585,2015-04-13 16:29:00,SOC,Russia,Rostov FK - Spartak Moscow,0.00,LOST,Draw (Match),2:1,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-04-13 08:50:26
+586,2015-04-13 14:59:00,SOC,Russia,Torpedo Moscow - Terek Grozny,31.5,WIN,Draw (Match),0:0,PINNACLE,3.15,10.00,21.50,onlydraw1,2015-04-13 08:50:15
+587,2015-04-13 16:59:00,SOC,Norway,Hodd - Fredrikstad,32.7,WIN,Draw (Match),1-1,PINNACLE,3.27,10.00,22.70,onlydraw1,2015-04-13 08:49:54
+588,2015-04-13 18:14:00,SOC,Ger. Bundesliga II,Fortuna Dusseldorf - Kaiserslautern,36.9,WIN,Draw (Match),1:1,PINNACLE,3.69,10.00,26.90,onlydraw1,2015-04-13 08:49:29
+589,2015-04-12 15:59:00,SOC,Norway,Haugesund - Rosenborg,0.00,LOST,Draw (Match),0:6,PINNACLE,3.59,10.00,-10.00,onlydraw1,2015-04-12 07:12:26
+590,2015-04-12 11:29:00,SOC,Ger. Bundesliga II,VfL Bochum - RB Leipzig,0.00,LOST,Draw (Match),1:2,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-04-12 07:12:03
+591,2015-04-12 12:59:00,SOC,Sweden,Halmstads - Helsingborgs,0.00,LOST,Draw (Match),1:2,PINNACLE,3.34,10.00,-10.00,onlydraw1,2015-04-12 07:11:48
+592,2015-04-12 12:59:00,SOC,Sweden,Falkenbergs - Orebro,0.00,LOST,Draw (Match),2:0,PINNACLE,3.41,10.00,-10.00,onlydraw1,2015-04-12 07:11:37
+593,2015-04-11 15:59:00,SOC,Poland,Piast Gliwice - Slask Wroclaw,0.00,LOST,Draw (Match),2:0,PINNACLE,3.32,10.00,-10.00,onlydraw1,2015-04-11 08:18:40
+594,2015-04-12 18:59:00,SOC,Fra. Ligue 1,Bordeaux - Marseille,0.00,LOST,Draw (Match),1:0,PINNACLE,3.38,10.00,-10.00,onlydraw1,2015-04-11 08:17:57
+595,2015-04-12 14:59:00,SOC,Fra. Ligue 1,Evian Thonon Gaillard - Lille,0.00,LOST,Draw (Match),0:1,PINNACLE,3.08,10.00,-10.00,onlydraw1,2015-04-11 08:17:44
+596,2015-04-11 14:00:00,SOC,Eng. Premier,Sunderland - Crystal Palace,0.00,LOST,Draw (Match),1:4,PINNACLE,3.26,10.00,-10.00,onlydraw1,2015-04-11 08:17:27
+597,2015-04-11 11:45:00,SOC,Eng. Premier,Swansea City - Everton,33.7,WIN,Draw (Match),1:1,PINNACLE,3.37,10.00,23.70,onlydraw1,2015-04-11 08:17:05
+598,2015-04-11 11:00:00,SOC,Ger. Bundesliga II,FSV Frankfurt - Greuther Furth,33.1,WIN,Draw (Match),1:1,PINNACLE,3.31,10.00,23.10,onlydraw1,2015-04-11 08:16:46
+599,2015-04-10 17:59:00,SOC,Netherlands,VVV Venlo - FC Eindhoven,0.00,LOST,Draw (Match),2:1,PINNACLE,3.53,10.00,-10.00,onlydraw1,2015-04-10 08:41:59
+600,2015-04-10 17:59:00,SOC,Netherlands,MVV Maastricht - Volendam,0.00,LOST,Draw (Match),6:2,PINNACLE,3.5,10.00,-10.00,onlydraw1,2015-04-10 08:41:46
+601,2015-04-10 16:59:00,SOC,Norway,Sarpsborg 08 - Valerenga,35.5,WIN,Draw (Match),1:1,PINNACLE,3.55,10.00,25.50,onlydraw1,2015-04-10 08:41:13
+602,2015-04-10 17:59:00,SOC,Fra. Ligue 2,Ajaccio - Dijon,0.00,LOST,Draw (Match),1:0,PINNACLE,2.95,10.00,-10.00,onlydraw1,2015-04-10 08:39:55
+603,2015-04-10 17:59:00,SOC,Fra. Ligue 2,AC Arles Avignon - Le Havre,0.00,LOST,Draw (Match),0:1,PINNACLE,2.94,10.00,-10.00,onlydraw1,2015-04-10 08:39:34
+604,2015-04-10 17:59:00,SOC,Fra. Ligue 2,Nimes - Clermont Foot,0.00,LOST,Draw (Match),0:1,PINNACLE,3.06,10.00,-10.00,onlydraw1,2015-04-10 08:39:21
+605,2015-04-09 16:59:00,SOC,Sweden,Halmstads - IFK Norrkoping,0.00,LOST,Draw (Match),0-3,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-04-09 06:11:44
+606,2015-04-09 18:00:00,SOC,Spa. Primera,Athletic Bilbao - Valencia,33.7,WIN,Draw (Match),1-1,PINNACLE,3.37,10.00,23.70,onlydraw1,2015-04-09 06:11:24
+607,2015-04-09 20:00:00,SOC,Spa. Primera,Elche - Getafe,0.00,LOST,Draw (Match),0-1,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-04-09 06:11:15
+608,2015-04-08 18:29:00,SOC,Romania,Rapid Bucuresti - ASA Targu Mures,0.00,LOST,Draw (Match),1:2,PINNACLE,3.14,10.00,-10.00,onlydraw1,2015-04-08 14:26:54
+609,2015-04-08 18:44:00,SOC,Scotland,Dundee - Dundee United,0.00,LOST,Draw (Match),3:1,PINNACLE,3.43,10.00,-10.00,onlydraw1,2015-04-08 14:21:21
+610,2015-04-08 16:59:00,SOC,Sweden,Orebro - IFK Goteborg,0.00,LOST,Draw (Match),0:2,PINNACLE,3.4,10.00,-10.00,onlydraw1,2015-04-08 14:20:35
+611,2015-04-08 16:59:00,SOC,Sweden,Gefle - Kalmar,0.00,LOST,Draw (Match),2:0,PINNACLE,3.29,10.00,-10.00,onlydraw1,2015-04-08 14:20:24
+612,2015-04-08 20:00:00,SOC,Spa. Primera,Granada - Celta Vigo,32.6,WIN,Draw (Match),1:1,PINNACLE,3.26,10.00,22.60,onlydraw1,2015-04-08 14:19:59
+613,2015-04-06 15:59:00,SOC,Norway,Stabaek - Haugesund,34.9,WIN,Draw (Match),1:1,PINNACLE,3.49,10.00,24.90,onlydraw1,2015-04-06 12:19:04
+614,2015-04-06 13:29:00,SOC,Norway,Mjondalen IF - Viking,0.00,LOST,Draw (Match),1:0,PINNACLE,3.54,10.00,-10.00,onlydraw1,2015-04-06 12:18:53
+615,2015-04-06 12:29:00,SOC,Netherlands,Helmond Sport - Almere City,0.00,LOST,Draw (Match),1:0,PINNACLE,3.89,10.00,-10.00,onlydraw1,2015-04-06 12:18:25
+616,2015-04-06 12:29:00,SOC,Netherlands,Achilles 29 - MVV Maastricht,0.00,LOST,Draw (Match),0:2,PINNACLE,3.67,10.00,-10.00,onlydraw1,2015-04-06 12:18:11
+617,2015-04-06 18:29:00,SOC,Fra. Ligue 2,Gazelec Ajaccio - Brest,29.2,WIN,Draw (Match),1:1,PINNACLE,2.92,10.00,19.20,onlydraw1,2015-04-06 12:17:48
+618,2015-04-06 13:59:00,SOC,Denmark,Brondby IF - FC Copenhagen,32.7,WIN,Draw (Match),0:0,PINNACLE,3.27,10.00,22.70,onlydraw1,2015-04-06 12:17:25
+619,2015-04-05 15:59:00,SOC,Turkey,Konyaspor - Trabzonspor,0.00,LOST,Draw (Match),1:0,PINNACLE,3.44,10.00,-10.00,onlydraw1,2015-04-05 08:49:03
+620,2015-04-05 15:29:00,SOC,Sweden,Djurgardens - Elfsborg,0.00,LOST,Draw (Match),1:2,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-04-05 08:48:38
+621,2015-04-05 14:59:00,SOC,Russia,FC Ufa - Terek Grozny,0.00,LOST,Draw (Match),0:1,PINNACLE,3.21,10.00,-10.00,onlydraw1,2015-04-05 08:47:36
+622,2015-04-05 12:44:00,SOC,Russia,Ural Sverdlovsk Oblast - Rostov FK,0.00,LOST,Draw (Match),0:1,PINNACLE,3.06,10.00,-10.00,onlydraw1,2015-04-05 08:47:25
+623,2015-04-05 16:59:00,SOC,Denmark,Esbjerg - Midtjylland,34.6,WIN,Draw (Match),3:3,PINNACLE,3.46,10.00,24.60,onlydraw1,2015-04-05 08:46:53
+624,2015-04-05 15:00:00,SOC,Eng. Premier,Sunderland - Newcastle United,0.00,LOST,Draw (Match),1:0,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-04-05 08:46:26
+625,2015-04-04 13:00:00,SOC,Ita. Serie A,Atalanta - Torino,0.00,LOST,Draw (Match),1:2,PINNACLE,3.24,10.00,-10.00,onlydraw1,2015-04-04 11:49:14
+626,2015-04-04 16:14:00,SOC,Spa. Segunda,CD Lugo - Mallorca,0.00,LOST,Draw (Match),4:0,PINNACLE,3.2,10.00,-10.00,onlydraw1,2015-04-04 11:47:58
+627,2015-04-04 19:29:00,SOC,Spa. Segunda,Albacete - Las Palmas,0.00,LOST,Draw (Match),1:0,PINNACLE,3.45,10.00,-10.00,onlydraw1,2015-04-04 11:47:44
+628,2015-04-04 14:59:00,SOC,Por. Other,Oliveirense - Feirense,0.00,LOST,Draw (Match),0:1,PINNACLE,3.29,10.00,-10.00,onlydraw1,2015-04-04 11:46:52
+629,2015-04-04 13:30:00,SOC,Ger. Bundesliga I,Werder Bremen - FSV Mainz 05,35.2,WIN,Draw (Match),0:0,PINNACLE,3.52,10.00,25.20,onlydraw1,2015-04-04 11:46:29
+630,2015-04-04 17:59:00,SOC,Fra. Ligue 1,Metz - Toulouse,0.00,LOST,Draw (Match),3:2,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-04-04 11:46:02
+631,2015-03-31 18:44:00,SOC,Friendly,Netherlands - Spain,0.00,LOST,Draw (Match),2 0,PINNACLE,3.35,10.00,-10.00,onlydraw1,2015-03-31 10:54:43
+632,2015-03-31 18:29:00,SOC,Friendly,Slovakia - Czech Republic,0.00,LOST,Draw (Match),1 0,PINNACLE,3.31,10.00,-10.00,onlydraw1,2015-03-31 10:54:25
+633,2015-03-31 15:59:00,SOC,Friendly,Estonia - Iceland,33.6,WIN,Draw (Match),1 1,PINNACLE,3.36,10.00,23.60,onlydraw1,2015-03-31 10:54:11
+634,2015-03-31 11:34:00,SOC,Friendly,China - Tunisia,31.4,WIN,Draw (Match),1 1,PINNACLE,3.14,10.00,21.40,onlydraw1,2015-03-31 10:53:55
+635,2015-04-01 00:59:00,SOC,Friendly,Panama - Costa Rica,0.00,LOST,Draw (Match),1 0,PINNACLE,3.18,10.00,-10.00,onlydraw1,2015-03-31 10:53:38
+636,2015-03-31 23:59:00,SOC,Friendly,Peru (n) - Venezuela,0.00,LOST,Draw (Match),1 0,PINNACLE,3.23,10.00,-10.00,onlydraw1,2015-03-31 10:53:23

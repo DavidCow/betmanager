@@ -1,0 +1,388 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-05-16 17:30:00,SOC,Romania,Botosani - CSU Craiova,9.72,WIN,Full Event Over 2.5 (O/U),2:1 (1:0),PINNACLE,1943,5.00,4.72,rooney27,2016-05-16 17:09:30
+2,2016-05-11 17:30:00,SOC,Romania,ACS Poli Timisoara - CS U Craiova,5.00,PUSH,Full Time Excluding Overtime Away 0 (Asian Handicap),2:2 (0:1),SBOBET,1.74,5.00,0.00,rooney27,2016-05-11 09:16:07
+3,2016-05-10 15:00:00,SOC,Romania,CS Concordia Chiajna - FC Botosani,5.00,PUSH,Full Time Excluding Overtime Home 0 (Asian Handicap),1:1 (1:0),SBOBET,1.78,5.00,0.00,rooney27,2016-05-10 06:59:03
+4,2016-05-09 17:30:00,SOC,Romania,Pandurii Targu Jiu - Astra Giurgiu,0.00,LOST,Full Event Over 3 (O/U),2:0 (1:0),PINNACLE,2.19,5.00,-5.00,rooney27,2016-05-09 10:11:06
+5,2016-05-06 17:30:00,SOC,Livebet,Dinamo Bucuresti - Viitorul Constanta,10.55,WIN,Full Event Over 5.00 (O/U) (1 - 2),3:3 (1:2),188bet,2.11,5.00,5.55,rooney27,2016-05-06 18:09:23
+6,2016-05-02 17:30:00,SOC,Romania,Astra Giurgiu - Dinamo Bucuresti,0.00,LOST,Full Event Away +0.50 (AH),4:2 (1:2),PINNACLE,2.19,5.00,-5.00,rooney27,2016-05-01 19:27:37
+7,2016-05-01 15:00:00,SOC,Romania,CSU Craiova - Concordia Chiajna,0.00,LOST,Full Event Away +0.50 (AH),2:0,PINNACLE,1961,5.00,-5.00,rooney27,2016-04-30 12:06:02
+8,2016-05-02 15:00:00,SOC,Romania,Viitorul Constanta - ASA Targu Mures,9.63,WIN,Full Event Home -0.50 (AH),6:1 (3:1),PINNACLE,1925,5.00,4.63,rooney27,2016-04-29 17:13:41
+9,2016-05-01 17:30:00,SOC,Romania,Steaua Bucuresti - Pandurii Targu-Jiu,2.45,WIN,Full Event Away +0.50 (AH),1:1,PINNACLE,2.45,1.00,1.45,rooney27,2016-04-29 14:23:19
+10,2016-05-01 17:30:00,SOC,Romania,Steaua Bucuresti - Pandurii Targu-Jiu,9.27,WIN,Full Event Away +1.00 (AH),1:1,PINNACLE,1854,5.00,4.27,rooney27,2016-04-29 13:58:08
+11,2016-04-30 16:30:00,SOC,Romania,CFR Cluj - ACS Poli Timisoara,9.39,WIN,Full Event Home -0.50 (AH),5:1,PINNACLE,1877,5.00,4.39,rooney27,2016-04-28 17:42:10
+12,2016-04-23 15:00:00,SOC,Romania,ACS Poli Timisoara - Concordia Chiajna,9.76,WIN,Full Event Away +0.25 (AH),1-3,PINNACLE,1952,5.00,4.76,rooney27,2016-04-23 14:41:13
+13,2016-04-22 17:30:00,SOC,Romania,Petrolul Ploiesti - Botosani,8.97,WIN,Full Event Over 2 (O/U),0:4 (0:3),PINNACLE,1793,5.00,3.97,rooney27,2016-04-22 07:34:43
+14,2016-04-18 17:30:00,SOC,Romania,Viitorul Constanta - Pandurii Targu Jiu,10.4,WIN,Full Event Away +0.00 (AH),0:2 (0:0),PINNACLE,2.08,5.00,5.40,rooney27,2016-04-18 14:33:01
+15,2016-04-18 15:00:00,SOC,Romania,CSMS Iasi - ACS Poli Timisoara,0.00,LOST,Full Time Excluding Overtime Home -0.50 (Asian Handicap),0:0 (0:0),SBOBET,1.91,5.00,-5.00,rooney27,2016-04-17 15:42:06
+16,2016-04-16 15:00:00,SOC,Romania,CFR Cluj - Botosani,9.72,WIN,Full Event Home -0.50 (AH),6:0,PINNACLE,1943,5.00,4.72,rooney27,2016-04-16 10:28:27
+17,2016-04-11 17:30:00,SOC,Livebet,Pandurii Targu Jiu v FC Targu Mures,0.00,LOST,Pandurii Targu Jiu -0.5 (Asian Handicap In-Play) (1-1),3:3 (2:1),Bet365,1.92,5.00,-5.00,rooney27,2016-04-11 18:06:46
+18,2016-04-10 14:30:00,SOC,Romania,ACS Poli Timisoara - Voluntari,0.00,LOST,Full Event Away +0.00 (AH),2:1,PINNACLE,2.15,5.00,-5.00,rooney27,2016-04-08 18:26:32
+19,2016-04-10 14:30:00,SOC,Romania,ACS Poli Timisoara - Voluntari,0.00,LOST,Full Event Away +0.25 (AH),2:1,PINNACLE,1775,5.00,-5.00,rooney27,2016-04-08 18:26:19
+20,2016-04-09 17:30:00,SOC,Romania,Viitorul Constanta - Astra Giurgiu,8.97,WIN,Full Event Away +0.00 (AH),1:3,PINNACLE,1793,5.00,3.97,rooney27,2016-04-08 10:39:02
+21,2016-04-04 17:30:00,SOC,Romania,Viitorul Constanta - Dinamo Bucuresti,0.00,LOST,Full Event Home -0.25 (AH),1:2 (1:1),PINNACLE,1877,5.00,-5.00,rooney27,2016-04-04 16:54:33
+22,2016-04-02 16:00:00,SOC,Romania,CFR Cluj - Concordia Chiajna,0.00,LOST,Full Event Away +1.00 (AH),2:0,PINNACLE,1709,5.00,-5.00,rooney27,2016-04-02 15:43:27
+23,2016-04-02 13:30:00,SOC,Romania,Petrolul Ploiesti - Voluntari,10.45,WIN,Full Event Away +0.00 (AH),1:2,PINNACLE,2.09,5.00,5.45,rooney27,2016-04-02 12:22:44
+24,2016-04-02 13:30:00,SOC,Romania,Petrolul Ploiesti - Voluntari,8.52,WIN,Full Event Away +0.25 (AH),1:2,PINNACLE,1704,5.00,3.52,rooney27,2016-04-02 12:22:28
+25,2016-04-01 17:30:00,SOC,Romania,Dinamo Bucuresti - Astra Giurgiu,0.00,LOST,Full Event Draw (1X2),1:4 (1:2),PINNACLE,3.12,2.00,-2.00,rooney27,2016-04-01 17:10:39
+26,2016-04-01 17:30:00,SOC,Romania,Dinamo Bucuresti - Astra Giurgiu,0.00,LOST,Full Event Under 2.25 (O/U),1:4 (1:2),PINNACLE,1.84,2.00,-2.00,rooney27,2016-04-01 17:09:05
+27,2016-03-31 17:30:00,SOC,Livebet,FC Targu Mures v Viitorul Constanta,9.85,WIN,Over 1.25 (Goal Line In-Play) (0-0),1:1 (0:0),Bet365,1.97,5.00,4.85,rooney27,2016-03-31 18:07:36
+28,2016-03-29 17:30:00,SOC,Livebet,Poli Timisoara v Petrolul Ploiesti,2.5,LOST,Poli Timisoara -0.25 (Asian Handicap In-Play) (0-1),0:1 (0:1),Bet365,2.02,5.00,-2.50,rooney27,2016-03-29 18:51:07
+29,2016-03-30 12:00:00,SOC,Romania,Voluntari - CFR Cluj,10.3,WIN,Full Event Home +0.00 (AH),1:0 (0:0),PINNACLE,2.06,5.00,5.30,rooney27,2016-03-29 18:29:48
+30,2016-03-30 12:00:00,SOC,Romania,Concordia Chiajna - CSMS Iasi,5.00,PUSH,Full Event Home +0.00 (AH),1:1 (1:1),PINNACLE,1751,5.00,0.00,rooney27,2016-03-29 08:31:54
+31,2016-03-19 18:30:00,SOC,Romania,Viitorul Constanta - Steaua Bucharest,9.1,WIN,Full Event Away -0.50 (AH),1:3,PINNACLE,1819,5.00,4.10,rooney27,2016-03-19 16:07:38
+32,2016-03-14 16:00:00,SOC,Romania,Concordia Chiajna - CSU Craiova,1.95,WIN,Full Event Home +0.25 (AH),1:0 (1:0),PINNACLE,1952,1.00,0.95,rooney27,2016-03-13 20:35:15
+33,2016-03-14 16:00:00,SOC,Romania,Concordia Chiajna - CSU Craiova,8.55,WIN,Full Event Home +0.50 (AH),1:0 (1:0),PINNACLE,1709,5.00,3.55,rooney27,2016-03-13 15:23:11
+34,2016-03-12 16:00:00,SOC,Romania,FC Voluntari - Botosani,5.00,PUSH,Full Event Home +0.00 (AH),1-1,PINNACLE,1793,5.00,0.00,rooney27,2016-03-12 09:04:41
+35,2016-03-11 18:30:00,SOC,Romania,Petrolul Ploiesti - CSMS Iasi,1.75,WIN,Full Event Away +0.00 (AH),1:2 (0:2),PINNACLE,1746,1.00,0.75,rooney27,2016-03-11 12:24:22
+36,2016-03-11 18:30:00,SOC,Romania,Petrolul Ploiesti - CSMS Iasi,9.2,WIN,Full Event Away +0.00 (AH),1:2 (0:2),PINNACLE,1.84,5.00,4.20,rooney27,2016-03-10 15:58:13
+37,2016-03-10 16:00:00,SOC,Romania,CS Concordia Chiajna - FC Dinamo Bucuresti,9.5,WIN,Full Time Excluding Overtime Home +0.75 (Asian Handicap),3:0 (1:0),188bet,1.9,5.00,4.50,rooney27,2016-03-10 15:29:25
+38,2016-03-14 18:30:00,SOC,Romania,AS FCM Targu Mures - FC Dinamo Bucuresti,0.00,LOST,Full Time Excluding Overtime Away -1.00 (Asian Handicap),0:0 (0:0),Bet365,3.1,2.00,-2.00,rooney27,2016-03-09 19:36:32
+39,2016-03-14 11:00:00,SOC,Romania,ASA Targu Mures - Dinamo Bucuresti,0.00,LOST,Full Event Away -0.50 (AH),0:0 (0:0),PINNACLE,2.14,5.00,-5.00,rooney27,2016-03-09 19:34:31
+40,2016-03-12 12:00:00,SOC,Romania,Pandurii Targu-Jiu - Viitorul Constanta,2.5,LOST,Full Event Home -0.25 (AH),1:1 (0:0),PINNACLE,1917,5.00,-2.50,rooney27,2016-03-09 19:33:36
+41,2016-03-07 17:00:00,SOC,Livebet,Concordia Chiajna - ACS Poli Timisoara,6.83,WIN,Full Event Home +0.25 (AH) (0 - 0),0:0,188bet,1.73,5.00,1.83,rooney27,2016-03-07 16:07:02
+42,2016-03-06 12:00:00,SOC,Romania,CSU Craiova - FC Voluntari,0.00,LOST,Full Event Away +0.25 (AH),3:0,PINNACLE,1943,5.00,-5.00,rooney27,2016-03-05 20:12:15
+43,2016-03-04 18:30:00,SOC,Romania,Botosani - Petrolul Ploiesti,0.00,LOST,Full Event Over 2.5 (O/U),1:0,PINNACLE,2.34,2.00,-2.00,rooney27,2016-03-03 15:16:30
+44,2016-03-04 18:30:00,SOC,Romania,Botosani - Petrolul Ploiesti,9.46,WIN,Full Event Home -0.50 (AH),1:0,PINNACLE,1892,5.00,4.46,rooney27,2016-03-03 15:08:03
+45,2016-02-22 18:30:00,SOC,Romania,Voluntari - Steaua Bucuresti,0.00,LOST,Away -1 (Match),3-1,PINNACLE,1.99,10.00,-10.00,rooney27,2016-02-20 17:19:38
+46,2016-02-20 18:30:00,SOC,Romania,Dinamo Bucuresti - Concordia Chiajna,5,WIN,Home -1 (Match),4:0,PINNACLE,2.5,2.00,3.00,rooney27,2016-02-16 13:37:21
+47,2016-02-20 18:30:00,SOC,Romania,Dinamo Bucuresti - Concordia Chiajna,9.05,WIN,Home -0.5 (Match),4:0,PINNACLE,1.81,5.00,4.05,rooney27,2016-02-16 13:36:59
+48,2016-02-14 17:00:00,SOC,Romania,Dinamo Bucuresti - Botosani,0.00,LOST,Away 0 (Match),1:0,PINNACLE,2.65,2.00,-2.00,rooney27,2016-02-14 06:59:37
+49,2016-02-14 17:00:00,SOC,Romania,Dinamo Bucuresti - Botosani,0.00,LOST,Away +0.5 (Match),1:0,PINNACLE,1.81,5.00,-5.00,rooney27,2016-02-14 06:58:54
+50,2016-02-14 14:30:00,SOC,Romania,ACS Poli Timisoara - Voluntari,5.76,WIN,Away 0 (Match),1:2,PINNACLE,2.88,2.00,3.76,rooney27,2016-02-13 19:37:16
+51,2016-02-14 14:30:00,SOC,Romania,ACS Poli Timisoara - Voluntari,9.2,WIN,Away +0.5 (Match),1:2,PINNACLE,1.84,5.00,4.20,rooney27,2016-02-13 19:35:44
+52,2016-02-15 18:30:00,SOC,Romania,Concordia Chiajna - Steaua Bucuresti,11.5,WIN,Away -1.25 (Match),0:2,PINNACLE,2.3,5.00,6.50,rooney27,2016-02-10 06:59:55
+53,2016-02-15 18:30:00,SOC,Romania,Concordia Chiajna - Steaua Bucuresti,9.8,WIN,Away -1 (Match),0:2,PINNACLE,1.96,5.00,4.80,rooney27,2016-02-10 06:56:32
+54,2016-01-19 18:00:00,SOC,Friendly,BSC Young Boys Bern - FC Steaua Bucuresti,0.00,LOST,BSC Young Boys Bern (1X2-First Half),1-1,Bet365,2.63,2.00,-2.00,rooney27,2016-01-19 14:52:44
+55,2015-12-21 18:30:00,SOC,Romania,Steaua Bucuresti - ACS Poli Timisoara,9.55,WIN,Home -1 (Match),3:1,PINNACLE,1.91,5.00,4.55,rooney27,2015-12-21 12:06:21
+56,2015-12-21 16:00:00,SOC,Romania,Voluntari - Viitorul Constanta,9.7,WIN,Away 0 (Match),2:3,PINNACLE,1.94,5.00,4.70,rooney27,2015-12-16 14:55:47
+57,2015-12-21 16:00:00,SOC,Romania,Voluntari - Viitorul Constanta,13.55,WIN,Away -0.5 (Match),2:3,PINNACLE,2.71,5.00,8.55,rooney27,2015-12-16 14:55:09
+58,2015-12-14 18:30:00,SOC,Romania,Viitorul Constanta - Steaua Bucuresti,0.00,LOST,Over 2.25 (Match),0:1,PINNACLE,1.92,1.00,-1.00,rooney27,2015-12-13 18:17:20
+59,2015-12-14 18:30:00,SOC,Romania,Viitorul Constanta - Steaua Bucuresti,0.00,LOST,Over 2.25 (Match),0:1,PINNACLE,1.96,5.00,-5.00,rooney27,2015-12-13 17:12:45
+60,2015-12-13 12:00:00,SOC,Romania,CSU Craiova - Voluntari,9.65,WIN,Over 2.25 (Match),1:2,PINNACLE,1.93,5.00,4.65,rooney27,2015-12-12 13:51:04
+61,2015-12-11 18:30:00,SOC,Romania,ASA Targu Mures - CSMS Iasi,2.5,LOST,Home -0.25 (Match),1:1,PINNACLE,1.83,5.00,-2.50,rooney27,2015-12-09 05:10:41
+62,2015-12-07 18:30:00,SOC,Romania,Petrolul Ploiesti - Dinamo Bucuresti,2.76,WIN,Away -0.5 (Match),1:2,PINNACLE,2.76,1.00,1.76,rooney27,2015-12-06 14:15:23
+63,2015-12-07 18:30:00,SOC,Romania,Petrolul Ploiesti - Dinamo Bucuresti,9.85,WIN,Away 0 (Match),1:2,PINNACLE,1.97,5.00,4.85,rooney27,2015-12-06 14:00:32
+64,2015-12-05 18:30:00,SOC,Romania,ACS Poli Timisoara - Viitorul Constanta,8.6,WIN,Away +0.25 (Match),1:2,PINNACLE,1.72,5.00,3.60,rooney27,2015-12-05 08:19:07
+65,2015-12-05 18:30:00,SOC,Romania,ACS Poli Timisoara - Viitorul Constanta,10.4,WIN,Away 0 (Match),1:2,PINNACLE,2.08,5.00,5.40,rooney27,2015-12-05 08:18:41
+66,2015-12-03 16:00:00,SOC,Livebet,Astra Giurgiu - Voluntari,0.00,LOST,FT Over 2.5 (0:1),1:1,188bet,1.94,5.00,-5.00,rooney27,2015-12-03 17:02:35
+67,2015-12-02 18:30:00,SOC,Romania,ASA Targu Mures - Steaua Bucuresti,0.00,LOST,Home -0.5 (Match),1:1,PINNACLE,2.88,1.00,-1.00,rooney27,2015-12-02 11:45:59
+68,2015-12-02 16:00:00,SOC,Romania,Botosani - Petrolul Ploiesti,9.35,WIN,Over 2 (Match),2:1,PINNACLE,1.87,5.00,4.35,rooney27,2015-12-01 16:47:39
+69,2015-12-02 18:30:00,SOC,Romania,ASA Targu Mures - Steaua Bucuresti,5,PUSH,Home 0 (Match),1:1,PINNACLE,1.96,5.00,0.00,rooney27,2015-11-30 11:38:00
+70,2015-11-30 18:30:00,SOC,Romania,Voluntari - Dinamo Bucuresti,8.7,WIN,Over 2 (Match),1:3,PINNACLE,1.74,5.00,3.70,rooney27,2015-11-29 19:33:56
+71,2015-11-28 18:30:00,SOC,Romania,Viitorul Constanta - CSU Craiova,9.95,WIN,Home -0.25 (Match),4:0,PINNACLE,1.99,5.00,4.95,rooney27,2015-11-27 06:29:49
+72,2015-11-29 18:30:00,SOC,Romania,Steaua Bucuresti - Astra Giurgiu,14.15,WIN,Away 0 (Match),0:1,PINNACLE,2.83,5.00,9.15,rooney27,2015-11-25 10:07:12
+73,2015-11-29 19:30:00,SOC,Romania,FC Steaua Bucuresti - Astra Giurgiu,9.25,WIN,Astra Giurgiu +0.5 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.85,5.00,4.25,rooney27,2015-11-24 19:08:30
+74,2015-11-23 16:00:00,SOC,Livebet,Botosani - Voluntari,7.28,WIN,FT Over 3.75 (1:2),2:2,188bet,1.91,5.00,2.28,rooney27,2015-11-23 17:27:19
+75,2015-11-22 18:30:00,SOC,Romania,Dinamo Bucuresti - Steaua Bucuresti,13.3,WIN,Home 0 (Match),3:1,PINNACLE,2.66,5.00,8.30,rooney27,2015-11-22 15:56:43
+76,2015-11-21 19:15:00,SOC,Romania,Astra Giurgiu - ACS Poli Timisoara,0.00,LOST,Home -0.75 (Match),2:2,PINNACLE,1.88,5.00,-5.00,rooney27,2015-11-21 04:46:42
+77,2015-11-21 14:30:00,SOC,Romania,CFR Cluj - CSMS Iasi,0.00,LOST,Home -0.5 (Match),0:0,PINNACLE,1.77,5.00,-5.00,rooney27,2015-11-21 04:44:04
+78,2015-11-22 18:30:00,SOC,Romania,Dinamo Bucuresti - Steaua Bucuresti,8.7,WIN,Home +0.5 (Match),3:1,PINNACLE,1.74,5.00,3.70,rooney27,2015-11-21 04:43:23
+79,2015-11-08 18:30:00,SOC,Romania,Steaua Bucuresti - Botosani,0.00,LOST,Away +1 (Match),5:3,PINNACLE,1.96,5.00,-5.00,rooney27,2015-11-07 18:43:09
+80,2015-11-08 12:00:00,SOC,Romania,CSU Craiova - ASA Targu Mures,5,PUSH,Home 0 (Match),1:1,PINNACLE,1.66,5.00,0.00,rooney27,2015-11-07 18:41:40
+81,2015-11-07 18:30:00,SOC,Romania,ACS Poli Timisoara - Dinamo Bucuresti,10.45,WIN,Away 0 (Match),0:1,PINNACLE,2.09,5.00,5.45,rooney27,2015-11-07 18:22:47
+82,2015-11-07 16:00:00,SOC,Romania,Voluntari - CFR Cluj,2.5,LOST,Away -0.25 (Match),2:2,PINNACLE,1.99,5.00,-2.50,rooney27,2015-11-07 08:20:39
+83,2015-11-02 18:30:00,SOC,Romania,Dinamo Bucuresti - Viitorul Constanta,8.7,WIN,Away +0.5 (Match),1:5,PINNACLE,1.74,5.00,3.70,rooney27,2015-11-01 19:34:34
+84,2015-11-01 16:00:00,SOC,Romania,Pandurii Targu-Jiu - Voluntari,0.5,LOST,Home -1.25 (Match),2:1,PINNACLE,2.75,1.00,-0.50,rooney27,2015-11-01 15:30:39
+85,2015-11-01 16:00:00,SOC,Romania,Pandurii Targu-Jiu - Voluntari,7.35,WIN,Home -0.75 (Match),2:1,PINNACLE,1.94,5.00,2.35,rooney27,2015-11-01 15:22:04
+86,2015-11-02 16:00:00,SOC,Romania,Botosani - ACS Poli Timisoara,5,LOST,Home -0.25 (Match),1:1,PINNACLE,1.89,10.00,-5.00,rooney27,2015-10-31 13:58:52
+87,2015-10-30 18:30:00,SOC,Romania,Astra Giurgiu - CS U Craiova,0.00,LOST,Over 2 (Over Under-Full Time Excluding Overtime),1:0,SBOBET,2.19,5.00,-5.00,rooney27,2015-10-30 18:14:41
+88,2015-10-28 17:00:00,SOC,Romania,Viitorul 2 vs CFR Cluj,0.00,LOST,Over 2,0:1,PINNACLE,1.8,5.00,-5.00,rooney27,2015-10-28 16:31:27
+89,2015-10-26 18:30:00,SOC,Romania,Viitorul Constanta - Botosani,12.4,WIN,Over 2.5 (Match),3:1,PINNACLE,2.48,5.00,7.40,rooney27,2015-10-25 13:47:09
+90,2015-10-24 17:30:00,SOC,Romania,ASA Targu Mures - Astra Giurgiu,0.00,LOST,Away +0.25 (Match),3:1,PINNACLE,1.79,5.00,-5.00,rooney27,2015-10-24 12:59:17
+91,2015-10-19 17:30:00,SOC,Romania,CFR Cluj - Viitorul Constanta,8.6,WIN,Over 2 (Match),1-2,PINNACLE,1.72,5.00,3.60,rooney27,2015-10-19 16:00:17
+92,2015-10-18 17:30:00,SOC,Romania,Petrolul Ploiesti - Steaua Bucuresti,0.00,LOST,Away -1 (Match),0:0,PINNACLE,2.7,1.00,-1.00,rooney27,2015-10-16 09:02:56
+93,2015-10-18 17:30:00,SOC,Romania,Petrolul Ploiesti - Steaua Bucuresti,0.00,LOST,Away -0.5 (Match),0:0,PINNACLE,1.84,5.00,-5.00,rooney27,2015-10-16 09:01:23
+94,2015-10-18 15:00:00,SOC,Romania,Concordia Chiajna - Astra Giurgiu,2.64,WIN,Away -0.75 (Match),0:2,PINNACLE,2.64,1.00,1.64,rooney27,2015-10-16 09:00:44
+95,2015-10-18 15:00:00,SOC,Romania,Concordia Chiajna - Astra Giurgiu,9.55,WIN,Away -0.25 (Match),0:2,PINNACLE,1.91,5.00,4.55,rooney27,2015-10-16 08:59:56
+96,2015-10-15 18:00:00,SOC,Romania,Steaua Bucuresti - ACS Poli Timisoara,0.5,LOST,Away +0.75 (Match),1:0,PINNACLE,2.7,1.00,-0.50,rooney27,2015-10-15 17:54:11
+97,2015-10-15 15:15:00,SOC,Romania,Viitorul Constanta - Astra Giurgiu,10.2,WIN,Away 0 (Match),0:3,PINNACLE,2.04,5.00,5.20,rooney27,2015-10-15 15:07:33
+98,2015-10-14 18:00:00,SOC,Romania,Dinamo Bucuresti - CFR Cluj,8.75,WIN,Home 0 (Match),2:0,PINNACLE,1.75,5.00,3.75,rooney27,2015-10-14 17:25:39
+99,2015-10-04 15:30:00,SOC,Romania,FC Botosani - AS FCM Targu Mures,7.08,WIN,FC Botosani +0.25 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.83,5.00,2.08,rooney27,2015-10-04 15:24:50
+100,2015-10-03 18:00:00,SOC,Romania,CSMS Iasi - Steaua Bucuresti,0.00,LOST,Under 2 (Match),1:2,PINNACLE,2,5.00,-5.00,rooney27,2015-10-03 14:48:12
+101,2015-10-02 15:30:00,SOC,Romania,Voluntari - Concordia Chiajna,5,PUSH,Away 0 (Match),1:1,PINNACLE,1.97,5.00,0.00,rooney27,2015-09-30 14:33:46
+102,2015-09-26 17:00:00,SOC,Romania,Viitorul Constanta - Petrolul Ploiesti,0.00,LOST,Over 2 (Match),1:0,PINNACLE,1.75,5.00,-5.00,rooney27,2015-09-26 14:48:50
+103,2015-09-26 17:00:00,SOC,Romania,Viitorul Constanta - Petrolul Ploiesti,0.00,LOST,Over 2 (Match),1:0,PINNACLE,1.75,5.00,-5.00,rooney27,2015-09-26 14:48:03
+104,2015-09-25 18:00:00,SOC,Romania,ASA Targu Mures - CFR Cluj,0.00,LOST,Over 1.75 (Match),0:0,PINNACLE,1.75,5.00,-5.00,rooney27,2015-09-25 17:45:27
+105,2015-09-27 18:00:00,SOC,Romania,Steaua Bucuresti - Voluntari,9.2,WIN,Home -1.5 (Match),3:1,PINNACLE,1.84,5.00,4.20,rooney27,2015-09-24 13:40:41
+106,2015-09-25 15:30:00,SOC,Romania,ACS Poli Timisoara - CSMS Iasi,2.5,LOST,Home -0.25 (Match),2:2,PINNACLE,1.87,5.00,-2.50,rooney27,2015-09-24 12:34:01
+107,2015-09-20 15:30:00,SOC,Romania,Petrolul Ploiesti - CSU Craiova,0.00,LOST,Over 2 (Match),0:1,PINNACLE,1.81,5.00,-5.00,rooney27,2015-09-20 13:13:35
+108,2015-09-20 15:30:00,SOC,Romania,Petrolul Ploiesti - CSU Craiova,8.65,WIN,Away +0.25 (Match),0:1,PINNACLE,1.73,5.00,3.65,rooney27,2015-09-20 13:11:39
+109,2015-09-19 15:30:00,SOC,Romania,CSMS Iasi - Viitorul Constanta,7,WIN,Away +0.25 (Match),0:0,PINNACLE,1.8,5.00,2.00,rooney27,2015-09-19 15:10:12
+110,2015-09-20 18:00:00,SOC,Romania,Botosani - Dinamo Bucuresti,5,PUSH,Over 2 (Match),1:1,PINNACLE,1.94,5.00,0.00,rooney27,2015-09-18 10:01:12
+111,2015-09-14 18:00:00,SOC,Romania,Dinamo Bucuresti - CFR Cluj,0.00,LOST,Home -0.25 (Match),0:2,PINNACLE,2.05,5.00,-5.00,rooney27,2015-09-14 10:50:41
+112,2015-09-12 15:30:00,SOC,Romania,Concordia Chiajna - Botosani,0.00,LOST,Home -0.5 (Match),0:0,PINNACLE,2.09,5.00,-5.00,rooney27,2015-09-11 14:49:07
+113,2015-09-14 15:30:00,SOC,Romania,SC Viitorul Constanta - SC FC Voluntari SA,12.1,WIN,SC Viitorul Constanta -1 (Asian Handicap-Full Time Excluding Overtime),3:0,Bet365,2.42,5.00,7.10,rooney27,2015-09-10 14:11:10
+114,2015-09-10 16:00:00,SOC,Romania,Viitorul Constanta - CSU Craiova,2.5,LOST,Home -0.25 (Match),0:0,PINNACLE,1.94,5.00,-2.50,rooney27,2015-09-10 07:49:43
+115,2015-09-10 18:45:00,SOC,Romania,Pandurii Targu-Jiu - Dinamo Bucuresti,8.75,WIN,Away +0.5 (Match),0:2,PINNACLE,1.75,5.00,3.75,rooney27,2015-09-09 11:14:17
+116,2015-09-09 13:30:00,SOC,Romania,Concordia Chiajna - Botosani,9.15,WIN,Over 2 (Match),3:0,PINNACLE,1.83,5.00,4.15,rooney27,2015-09-08 13:19:36
+117,2015-09-09 13:30:00,SOC,Romania,Concordia Chiajna - Botosani,10.55,WIN,Home -0.25 (Match),3:0,PINNACLE,2.11,5.00,5.55,rooney27,2015-09-08 13:19:13
+118,2015-08-31 18:00:00,SOC,Romania,CFR Cluj - Botosani,10.1,WIN,Home -0.5 (Match),3:1,PINNACLE,2.02,5.00,5.10,rooney27,2015-08-31 17:54:00
+119,2015-08-30 18:00:00,SOC,Romania,Steaua Bucuresti - Viitorul Constanta,0.00,LOST,Over 2.25 (Match),1:0,PINNACLE,2,10.00,-10.00,rooney27,2015-08-27 12:02:07
+120,2015-08-27 18:00:00,SOC,Europa League,AZ Alkmaar - Astra Giurgiu,0.00,LOST,Over 2.5 (Match),2:0,PINNACLE,1.79,5.00,-5.00,rooney27,2015-08-27 05:28:51
+121,2015-08-27 18:00:00,SOC,Europa League,AZ Alkmaar Zaanstreek - Astra Giurgiu,0.00,LOST,Yes (Both Team To Score-Full Time Excluding Overtime),2:0,Bet365,1.83,5.00,-5.00,rooney27,2015-08-26 14:03:34
+122,2015-08-28 15:30:00,SOC,Romania,Voluntari - CSU Craiova,8.55,WIN,Away 0 (Match),1:2,PINNACLE,1.71,5.00,3.55,rooney27,2015-08-25 17:17:05
+123,2015-08-27 18:00:00,SOC,Europa League,Rosenborg BK - FC Steaua Bucuresti,9.75,WIN,FC Steaua Bucuresti +0.5 (Asian Handicap-Full Time Excluding Overtime),0:1,Bet365,1.95,5.00,4.75,rooney27,2015-08-25 08:59:19
+124,2015-08-24 18:00:00,SOC,Romania,Concordia Chiajna - CFR Cluj,8.85,WIN,Over 2 (Match),2:1,PINNACLE,1.77,5.00,3.85,rooney27,2015-08-24 09:50:31
+125,2015-08-22 15:30:00,SOC,Romania,Botosani - Pandurii Targu-Jiu,5,PUSH,Over 2 (Match),0:2,PINNACLE,1.81,5.00,0.00,rooney27,2015-08-21 19:31:14
+126,2015-08-21 18:00:00,SOC,Romania,Viitorul Constanta - ACS Poli Timisoara,9.35,WIN,Home -0.25 (Match),4:0,PINNACLE,1.87,5.00,4.35,rooney27,2015-08-21 04:15:49
+127,2015-08-17 18:00:00,SOC,Romania,Pandurii Targu Jiu - CFR Cluj,2.5,LOST,Home -0.25 (Match),1:1,PINNACLE,1.98,5.00,-2.50,rooney27,2015-08-17 16:24:18
+128,2015-08-12 16:30:00,SOC,Romania,ASA Targu Mures - ACS Poli Timisoara,0.00,LOST,Home -0.5 (Match),0-0,PINNACLE,1.77,5.00,-5.00,rooney27,2015-08-12 15:57:34
+129,2015-08-12 18:45:00,SOC,Romania,Astra Giurgiu - Steaua Bucuresti,2.5,LOST,Over 2.25 (Match),2:0,PINNACLE,1.97,5.00,-2.50,rooney27,2015-08-12 14:35:05
+130,2015-08-12 16:30:00,SOC,Romania,ASA Targu Mures - ACS Poli Timisoara,0.00,LOST,Home -0.5 (Match),0-0,PINNACLE,1.87,5.00,-5.00,rooney27,2015-08-10 15:27:25
+131,2015-08-09 13:30:00,SOC,Romania,Viitorul Constanta - ASA Targu Mures,0.00,LOST,Over 2.25 (Match),1-0,PINNACLE,2.08,5.00,-5.00,rooney27,2015-08-04 13:54:31
+132,2015-08-09 13:30:00,SOC,Romania,Viitorul Constanta - ASA Targu Mures,0.00,LOST,Away 0 (Match),1-0,PINNACLE,1.81,5.00,-5.00,rooney27,2015-08-04 13:52:32
+133,2015-08-07 15:30:00,SOC,Romania,FC Voluntari - Botosani,5,PUSH,Away 0 (Match),1:1,PINNACLE,2.02,5.00,0.00,rooney27,2015-08-04 13:44:33
+134,2015-08-08 18:00:00,SOC,Romania,Petrolul Ploiesti - Pandurii Targu Jiu,5,PUSH,Away 0 (Match),1-1,PINNACLE,1.83,5.00,0.00,rooney27,2015-08-04 13:43:22
+135,2015-08-02 15:30:00,SOC,Romania,Astra Giurgiu - Viitorul Constanta,5,PUSH,Away 0 (Match),2:2,PINNACLE,2.94,5.00,0.00,rooney27,2015-08-02 10:02:00
+136,2015-08-01 15:30:00,SOC,Romania,Pandurii Targu Jiu - CSMS Iasi,0.00,LOST,Away +0.75 (Match),3:0,PINNACLE,1.83,5.00,-5.00,rooney27,2015-08-01 15:22:46
+137,2015-07-31 18:00:00,SOC,Romania,CS Concordia Chiajna - SC FC Petrolul Ploiesti,10.4,WIN,Over 2 (Over Under-Full Time Excluding Overtime),2:2,SBOBET,2.08,5.00,5.40,rooney27,2015-07-31 17:32:12
+138,2015-08-02 15:30:00,SOC,Romania,Astra Giurgiu - Viitorul Constanta,9.5,WIN,Over 2.25 (Match),2:2,PINNACLE,1.9,5.00,4.50,rooney27,2015-07-31 12:56:30
+139,2015-07-31 18:00:00,SOC,Romania,Concordia Chiajna - Petrolul Ploiesti,2.5,LOST,Home -0.25 (Match),2:2,PINNACLE,2.05,5.00,-2.50,rooney27,2015-07-29 08:28:28
+140,2015-08-01 18:00:00,SOC,Romania,Botosani - Steaua Bucuresti,0.00,LOST,Over 2.25 (Match),0:1,PINNACLE,2.03,5.00,-5.00,rooney27,2015-07-28 13:49:22
+141,2015-07-26 15:30:00,SOC,Romania,CSU Craiova - Astra Giurgiu,0.00,LOST,Under 2 (Match),1:2,PINNACLE,2.04,5.00,-5.00,rooney27,2015-07-26 15:21:22
+142,2015-07-23 17:00:00,SOC,Livebet,Astra Giurgiu - Inverness CT,0.5,LOST,HT Home -0.25 (0:0),0:0,188bet,2.17,1.00,-0.50,rooney27,2015-07-23 18:19:55
+143,2015-07-26 18:00:00,SOC,Romania,CSMS Iasi - Petrolul Ploiesti,8.85,WIN,Home 0 (Match),1:0,PINNACLE,1.77,5.00,3.85,rooney27,2015-07-22 13:10:49
+144,2015-07-23 17:00:00,SOC,Europa League,Botosani - Legia Warszawa,9.2,WIN,Away -0.25 (Match),0:3,PINNACLE,1.84,5.00,4.20,rooney27,2015-07-22 12:59:30
+145,2015-07-25 15:30:00,SOC,Romania,SC Viitorul Constanta - FC Dinamo Bucuresti,2.5,LOST,Over 2.25 (Over Under-Full Time Excluding Overtime),1:1,Bet365,2,5.00,-2.50,rooney27,2015-07-22 09:28:48
+146,2015-07-24 15:30:00,SOC,Romania,Voluntari - Pandurii Targu Jiu,5,PUSH,Away 0 (Match),0:0,PINNACLE,1.8,5.00,0.00,rooney27,2015-07-22 08:16:39
+147,2015-07-22 18:30:00,SOC,Champions L,FC Steaua Bucuresti - FK AS Trencin,0.00,LOST,FC Steaua Bucuresti -0.25 (Asian Handicap-First Half),0-2,SBOBET,1.9,5.00,-5.00,rooney27,2015-07-21 04:42:32
+148,2015-07-18 17:00:00,SOC,Livebet,Pandurii Targu Jiu - Steaua Bucuresti,0.00,LOST,FT Draw (0:0),0:3,188bet,3,1.00,-1.00,rooney27,2015-07-18 18:14:22
+149,2015-07-20 18:00:00,SOC,Romania,Botosani - Viitorul Constanta,9.55,WIN,Over 2.25 (Match),2:2,PINNACLE,1.91,5.00,4.55,rooney27,2015-07-16 07:33:24
+150,2015-07-16 18:45:00,SOC,Other,Inverness - Astra Giurgiu,5,PUSH,Away -1 (Match),0:1,PINNACLE,2.65,5.00,0.00,rooney27,2015-07-14 20:27:52
+151,2015-07-14 18:30:00,SOC,Champions L,AS Trencin (n) - Steaua Bucuresti,1.75,WIN,Away +0.25 (Match),0-2,PINNACLE,1.75,1.00,0.75,rooney27,2015-07-14 18:16:50
+152,2015-07-16 18:45:00,SOC,Europa League,Inverness Caledonian Thistle - Astra Giurgiu,9.9,WIN,Astra Giurgiu -0.5 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.98,5.00,4.90,rooney27,2015-07-14 11:47:18
+153,2015-07-14 18:30:00,SOC,Champions L,AS Trencin (n) - Steaua Bucuresti,9.4,WIN,Away 0 (Match),0-2,PINNACLE,1.88,5.00,4.40,rooney27,2015-07-13 10:39:16
+154,2015-07-11 15:30:00,SOC,Romania,Viitorul Constanta - CFR Cluj,2.5,LOST,Home -0.25 (Match),2:2,PINNACLE,2.07,5.00,-2.50,rooney27,2015-07-09 20:34:42
+155,2015-07-10 18:00:00,SOC,Romania,Astra Giurgiu - Concordia Chiajna,0.00,LOST,Home -0.5 (1st Half),1-1,PINNACLE,2.13,1.00,-1.00,rooney27,2015-07-09 19:37:38
+156,2015-07-10 18:00:00,SOC,Romania,Astra Giurgiu - Concordia Chiajna,0.00,LOST,Home -0.5 (1st Half),1-1,PINNACLE,2.18,5.00,-5.00,rooney27,2015-07-09 19:08:23
+157,2015-07-10 15:30:00,SOC,Romania,Voluntari - CSMS Iasi,5,PUSH,Away 0 (Match),1:1,PINNACLE,2.03,5.00,0.00,rooney27,2015-07-09 17:28:23
+158,2015-07-08 18:00:00,SOC,Other,Steaua Bucuresti (n) - ASA Targu Mures,9.5,WIN,Under 2.25 (Match),0:1,PINNACLE,1.9,5.00,4.50,rooney27,2015-07-08 14:56:25
+159,2015-07-09 16:00:00,SOC,Other,Spartaki Tskhinvali (n) - Botosani,9.3,WIN,Away -0.75 (Match),1:3,PINNACLE,1.86,5.00,4.30,rooney27,2015-07-08 14:12:59
+160,2015-05-27 12:45:00,SOC,Livebet,Universitatea Cluj - Ceahlaul Piatra Neamt,1.86,WIN,HT Home -0.25 (0:0),1:0,188bet,1.86,1.00,0.86,rooney27,2015-05-27 13:50:22
+161,2015-05-27 15:45:00,SOC,Romania,CS Concordia Chiajna - SC FC Petrolul Ploiesti,2.5,LOST,CS Concordia Chiajna -0.25 (Asian Handicap-First Half),1-1,SBOBET,1.95,5.00,-2.50,rooney27,2015-05-26 16:10:41
+162,2015-05-27 15:44:00,SOC,Romania,FC Brasov - Gaz Metan Medias,0.00,LOST,Over 2.25 (Match),0:0,PINNACLE,1.9,5.00,-5.00,rooney27,2015-05-26 09:20:03
+163,2015-05-29 17:59:00,SOC,Romania,Dinamo Bucuresti - Astra Giurgiu,0.00,LOST,Home 0 (Match),0-2,PINNACLE,1.93,5.00,-5.00,rooney27,2015-05-26 09:13:46
+164,2015-05-27 15:45:00,SOC,Romania,CS Concordia Chiajna - SC FC Petrolul Ploiesti,9.4,WIN,CS Concordia Chiajna -0.5 (Asian Handicap-Full Time Excluding Overtime),3:2,SBOBET,1.88,5.00,4.40,rooney27,2015-05-25 21:59:12
+165,2015-05-23 12:00:00,SOC,Livebet,Otelul Galati - Universitatea Cluj,5,PUSH,FT Over 3 (1:1),2:1,188bet,1.91,5.00,0.00,rooney27,2015-05-23 14:18:46
+166,2015-05-24 15:30:00,SOC,Romania,Pandurii Targu-Jiu - CSMS Iasi,1.83,WIN,Pandurii Targu-Jiu -0.25 (Asian Handicap-First Half),"2:0, 3:2",SBOBET,1.83,1.00,0.83,rooney27,2015-05-23 08:35:22
+167,2015-05-24 15:30:00,SOC,Romania,Pandurii Targu-Jiu - CSMS Iasi,9.15,WIN,Pandurii Targu-Jiu -0.75 (Asian Handicap-Full Time Excluding Overtime),5:2,SBOBET,1.83,5.00,4.15,rooney27,2015-05-23 07:30:18
+168,2015-05-23 15:29:00,SOC,Romania,Viitorul Constanta - FC Brasov,2.5,LOST,Over 2.25 (Match),0:2,PINNACLE,1.86,5.00,-2.50,rooney27,2015-05-22 10:02:33
+169,2015-05-23 15:29:00,SOC,Romania,Viitorul Constanta - FC Brasov,0.00,LOST,Home 0 (Match),0:2,PINNACLE,1.92,5.00,-5.00,rooney27,2015-05-22 09:48:38
+170,2015-05-24 17:59:00,SOC,Romania,Astra Giurgiu - ASA Targu Mures,0.00,LOST,Away (Match),3:1,PINNACLE,2.74,1.00,-1.00,rooney27,2015-05-22 04:48:09
+171,2015-05-24 18:00:00,SOC,Romania,Astra Giurgiu - AS FCM Targu Mures,0.00,LOST,AS FCM Targu Mures 0 (Asian Handicap-Full Time Excluding Overtime),3:1,SBOBET,1.78,5.00,-5.00,rooney27,2015-05-22 03:17:19
+172,2015-05-22 18:00:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Dinamo Bucuresti,9.4,WIN,FC Dinamo Bucuresti +0.5 (Asian Handicap-Full Time Excluding Overtime),0:3,SBOBET,1.88,5.00,4.40,rooney27,2015-05-21 14:20:46
+173,2015-05-20 16:59:00,SOC,Romania,Steaua Bucuresti - Pandurii Targu-Jiu,0.00,LOST,Away 0 (Match),3-0,PINNACLE,2.97,1.00,-1.00,rooney27,2015-05-20 15:29:45
+174,2015-05-20 15:00:00,SOC,Romania,Pandurii Targu-Jiu - FC Steaua Bucuresti,0.00,LOST,Pandurii Targu-Jiu +0.5 (Asian Handicap-Full Time Excluding Overtime),0-3,SBOBET,1.83,5.00,-5.00,rooney27,2015-05-19 12:39:56
+175,2015-05-17 17:00:00,SOC,Livebet,Rapid Bucuresti - CS Universitatea Craiova,8.8,WIN,FT Away +1 (0:0),1:2,188bet,1.76,5.00,3.80,rooney27,2015-05-17 18:05:53
+176,2015-05-16 15:29:00,SOC,Romania,FC Brasov - Steaua Bucuresti,8.95,WIN,Over 2.25 (Match),2:3,PINNACLE,1.79,5.00,3.95,rooney27,2015-05-14 20:42:30
+177,2015-05-16 17:59:00,SOC,Romania,ASA Targu Mures - Petrolul Ploiesti,7.35,WIN,Home -0.75 (Match),1:0,PINNACLE,1.94,5.00,2.35,rooney27,2015-05-14 17:18:47
+178,2015-05-16 18:00:00,SOC,Romania,AS FCM Targu Mures - SC FC Petrolul Ploiesti,7.43,WIN,AS FCM Targu Mures -0.75 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,1.97,5.00,2.43,rooney27,2015-05-14 17:18:01
+179,2015-05-09 15:45:00,SOC,Livebet,Petrolul Ploiesti - Universitatea Cluj,0.00,LOST,FT Away +0.25 (0:0),1:0,188bet,1.99,5.00,-5.00,rooney27,2015-05-09 17:30:00
+180,2015-05-08 15:29:00,SOC,Romania,Pandurii Targu-Jiu - FC Brasov,0.00,LOST,Away +1 (Match),2:0,PINNACLE,1.7,5.00,-5.00,rooney27,2015-05-07 20:39:15
+181,2015-05-11 17:30:00,SOC,Romania,FC Ceahlaul Piatra Neamt - FC Rapid SA Bucuresti,8.4,WIN,FC Rapid SA Bucuresti -0.5 (Asian Handicap-Full Time Excluding Overtime),0:1,SBOBET,1.68,5.00,3.40,rooney27,2015-05-07 13:10:44
+182,2015-05-04 17:00:00,SOC,Livebet,CSMS Iasi - Rapid Bucuresti,6.9,WIN,FT Home +0.25 (0:0),0:0,188bet,1.76,5.00,1.90,rooney27,2015-05-04 19:05:01
+183,2015-05-03 12:00:00,SOC,Livebet,Ceahlaul Piatra Neamt - FC Astra Giurgiu,8.75,WIN,FT Away -0.5 (0:1),1:3,188bet,1.75,5.00,3.75,rooney27,2015-05-03 14:02:34
+184,2015-05-03 12:00:00,SOC,Livebet,Ceahlaul Piatra Neamt - FC Astra Giurgiu,9.05,WIN,FT Over 2.5 (0:1),1:3,188bet,1.81,5.00,4.05,rooney27,2015-05-03 13:32:48
+185,2015-05-03 18:00:00,SOC,Romania,FC Dinamo Bucuresti - FC Steaua Bucuresti,11.25,WIN,Yes (Both Team To Score-Full Time Excluding Overtime),1:3,Bet365,2.25,5.00,6.25,rooney27,2015-05-03 09:10:45
+186,2015-05-03 17:59:00,SOC,Romania,Dinamo Bucuresti - Steaua Bucuresti,8.75,WIN,Over 2 (Match),1:3,PINNACLE,1.75,5.00,3.75,rooney27,2015-05-03 08:50:09
+187,2015-04-29 18:29:00,SOC,Romania,Steaua Bucuresti - ASA Targu Mures,9.5,WIN,Away +1 (Match),0:1,PINNACLE,1.9,5.00,4.50,rooney27,2015-04-29 16:40:38
+188,2015-04-30 18:29:00,SOC,Romania,Petrolul Ploiesti - Astra Giurgiu,9.5,WIN,Away +0.25 (Match),1:2,PINNACLE,1.9,5.00,4.50,rooney27,2015-04-29 14:03:23
+189,2015-04-29 13:59:00,SOC,Romania,CSU Craiova - FC Brasov,0.00,LOST,Over 2 (Match),0:1,PINNACLE,1.79,5.00,-5.00,rooney27,2015-04-29 08:09:24
+190,2015-04-28 16:14:00,SOC,Romania,Rapid Bucuresti - Botosani,0.00,LOST,Home -0.5 (Match),2:2,PINNACLE,1.99,5.00,-5.00,rooney27,2015-04-27 14:15:08
+191,2015-04-26 15:29:00,SOC,Romania,Otelul Galati - Viitorul Constanta,8.85,WIN,Over 2 (Match),3:0,PINNACLE,1.77,5.00,3.85,rooney27,2015-04-23 16:19:16
+192,2015-04-26 15:29:00,SOC,Romania,Otelul Galati - Viitorul Constanta,0.00,LOST,Away -0.25 (Match),3:0,PINNACLE,1.88,5.00,-5.00,rooney27,2015-04-23 16:08:36
+193,2015-04-20 14:59:00,SOC,Romania,Pandurii Targu-Jiu - Universitatea Cluj,0.00,LOST,Home -1 (Match),0:1,PINNACLE,2.23,5.00,-5.00,rooney27,2015-04-18 20:57:17
+194,2015-04-18 12:29:00,SOC,Romania,Botosani - Ceahlaul Piatra Neamt,0.00,LOST,Away +1 (Match),2:0,PINNACLE,1.83,5.00,-5.00,rooney27,2015-04-16 20:05:40
+195,2015-04-17 17:29:00,SOC,Romania,CFR Cluj - ASA Targu Mures,0.00,LOST,Away -0.5 (Match),2:2,PINNACLE,1.94,5.00,-5.00,rooney27,2015-04-16 13:36:29
+196,2015-04-17 17:29:00,SOC,Romania,CFR Cluj - ASA Targu Mures,0.00,LOST,Away -0.75 (Match),2:2,PINNACLE,2.01,5.00,-5.00,rooney27,2015-04-15 15:31:11
+197,2015-04-18 17:30:00,SOC,Romania,Gaz Metan Medias - SC FC Petrolul Ploiesti,1,PUSH,Gaz Metan Medias 0 (Asian Handicap-Full Time Excluding Overtime),0:0,Bet365,2.02,1.00,0.00,rooney27,2015-04-15 15:08:56
+198,2015-04-18 14:59:00,SOC,Romania,Viitorul Constanta - Astra Giurgiu,9.15,WIN,Home +0.25 (Match),2:0,PINNACLE,1.83,5.00,4.15,rooney27,2015-04-15 15:06:31
+199,2015-04-18 17:29:00,SOC,Romania,Gaz Metan Medias - Petrolul Ploiesti,6.88,WIN,Home +0.25 (Match),0:0,PINNACLE,1.75,5.00,1.88,rooney27,2015-04-15 14:46:21
+200,2015-04-13 12:29:00,SOC,Romania,Otelul Galati - Pandurii Targu-Jiu,9.65,WIN,Away -0.75 (Match),0-2,PINNACLE,1.93,5.00,4.65,rooney27,2015-04-11 03:03:17
+201,2015-04-13 14:59:00,SOC,Romania,Ceahlaul Piatra Neamt - Gaz Metan Medias,5,PUSH,Home 0 (Match),0-0,PINNACLE,2.03,5.00,0.00,rooney27,2015-04-10 19:05:31
+202,2015-04-13 17:29:00,SOC,Romania,Petrolul Ploiesti - Viitorul Constanta,20.1,WIN,Away +0.75 (Match),1:2,PINNACLE,2.01,10.00,10.10,rooney27,2015-04-10 17:56:56
+203,2015-04-08 18:30:00,SOC,Romania,FC Rapid SA Bucuresti - AS FCM Targu Mures,0.00,LOST,FC Rapid SA Bucuresti 0 (Asian Handicap-Full Time Excluding Overtime),1:2,SBOBET,1.84,5.00,-5.00,rooney27,2015-04-08 18:21:04
+204,2015-04-07 18:30:00,SOC,Romania,CSMS Iasi - FC Dinamo Bucuresti,9.6,WIN,CSMS Iasi 0 (Asian Handicap-Full Time Excluding Overtime),1:0,SBOBET,1.92,5.00,4.60,rooney27,2015-04-07 13:00:28
+205,2015-04-07 13:59:00,SOC,Romania,CSU Craiova - Universitatea Cluj,9.1,WIN,Home -0.5 (Match),3:0,PINNACLE,1.82,5.00,4.10,rooney27,2015-04-07 12:42:11
+206,2015-04-09 18:29:00,SOC,Romania,Steaua Bucuresti - Petrolul Ploiesti,0.00,LOST,Home -1 (Match),0:1,PINNACLE,2.13,5.00,-5.00,rooney27,2015-04-07 02:38:10
+207,2015-04-06 16:30:00,SOC,Livebet,Petrolul Ploiesti - Pandurii Targu Jiu,0.00,LOST,FT Over 1.75 (0:1),0:1,188bet,2,5.00,-5.00,rooney27,2015-04-06 18:54:11
+208,2015-04-04 14:59:00,SOC,Romania,Astra Giurgiu - CFR Cluj,0.00,LOST,Home -1 (Match),0:1,PINNACLE,1.9,5.00,-5.00,rooney27,2015-04-04 13:11:11
+209,2015-04-05 12:29:00,SOC,Romania,Concordia Chiajna - FC Brasov,0.00,LOST,Home -0.75 (Match),1:1,PINNACLE,2.45,1.00,-1.00,rooney27,2015-04-03 20:14:53
+210,2015-04-05 14:59:00,SOC,Romania,Ceahlaul Piatra Neamt - Viitorul Constanta,8.8,WIN,Away 0 (Match),1:2,PINNACLE,1.76,5.00,3.80,rooney27,2015-03-31 13:38:03
+211,2015-04-04 17:29:00,SOC,Romania,Universitatea Cluj - Rapid Bucuresti,0.00,LOST,Away 0 (Match),1:0,PINNACLE,1.95,5.00,-5.00,rooney27,2015-03-31 13:01:38
+212,2015-04-05 12:29:00,SOC,Romania,Concordia Chiajna - FC Brasov,2.5,LOST,Home -0.25 (Match),1:1,PINNACLE,1.85,5.00,-2.50,rooney27,2015-03-31 12:43:21
+213,2015-03-22 17:59:00,SOC,Romania,Steaua Bucuresti - Viitorul Constanta,0.00,LOST,Away +1.5 (Match),4:1,PINNACLE,1.91,1.00,-1.00,rooney27,2015-03-21 16:06:02
+214,2015-03-22 15:59:00,SOC,Romania,Pandurii Targu-Jiu - Gaz Metan Medias,0.00,LOST,Home -0.75 (Match),0:1,PINNACLE,2.05,5.00,-5.00,rooney27,2015-03-20 17:45:54
+215,2015-03-23 13:29:00,SOC,Romania,Concordia Chiajna - Ceahlaul Piatra Neamt,0.00,LOST,Home -0.75 (Match),0-1,PINNACLE,1.97,5.00,-5.00,rooney27,2015-03-20 17:14:44
+216,2015-03-18 15:29:00,SOC,Romania,Astra Giurgiu - Rapid Bucuresti,8.8,WIN,Home -0.5 (Match),2-0,PINNACLE,1.76,5.00,3.80,rooney27,2015-03-18 15:26:38
+217,2015-03-18 13:29:00,SOC,Romania,Otelul Galati - CSMS Iasi,7.03,WIN,Away +0.25 (Match),0:0,PINNACLE,1.81,5.00,2.03,rooney27,2015-03-17 22:11:57
+218,2015-03-19 12:00:00,SOC,Romania,SC Viitorul Constanta - Pandurii Targu-Jiu,0.00,LOST,Pandurii Targu-Jiu (1X2-Full Time Excluding Overtime),4-0,SBOBET,2.49,1.00,-1.00,rooney27,2015-03-16 17:18:05
+219,2015-03-19 11:59:00,SOC,Romania,Viitorul Constanta - Pandurii Targu-Jiu,0.00,LOST,Away -0.25 (Match),4-0,PINNACLE,2.09,5.00,-5.00,rooney27,2015-03-16 17:12:26
+220,2015-03-17 17:29:00,SOC,Romania,Petrolul Ploiesti - CSU Craiova,18.8,WIN,Away +0.5 (Match),1-2,PINNACLE,1.88,10.00,8.80,rooney27,2015-03-16 15:02:09
+221,2015-03-16 18:29:00,SOC,Romania,ASA Targu Mures - FC Brasov,9.3,WIN,Home -0.5 (Match),1:0,PINNACLE,1.86,5.00,4.30,rooney27,2015-03-16 06:39:28
+222,2015-03-15 15:59:00,SOC,Romania,CFR Cluj - Viitorul Constanta,8.8,WIN,Away +0.5 (Match),1:2,PINNACLE,1.76,5.00,3.80,rooney27,2015-03-15 15:09:05
+223,2015-03-15 15:59:00,SOC,Romania,CFR Cluj - Viitorul Constanta,2.64,WIN,Away 0 (Match),1:2,PINNACLE,2.64,1.00,1.64,rooney27,2015-03-15 15:08:15
+224,2015-03-15 18:30:00,SOC,Romania,Pandurii Targu-Jiu - FC Steaua Bucuresti,9.65,WIN,Pandurii Targu-Jiu +0.25 (Asian Handicap-Full Time Excluding Overtime),3:1,SBOBET,1.93,5.00,4.65,rooney27,2015-03-12 20:26:45
+225,2015-03-14 18:29:00,SOC,Romania,Dinamo Bucuresti - Ceahlaul Piatra Neamt,0.00,LOST,Home -0.5 (1st Half),"1:1, 2:0",PINNACLE,1.81,5.00,-5.00,rooney27,2015-03-12 20:13:19
+226,2015-03-13 18:30:00,SOC,Romania,FC Rapid SA Bucuresti - SC FC Petrolul Ploiesti,6.9,WIN,FC Rapid SA Bucuresti +0.25 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.76,5.00,1.90,rooney27,2015-03-12 17:50:19
+227,2015-03-14 13:29:00,SOC,Romania,CSU Craiova - Gaz Metan Medias,0.00,LOST,Home -0.75 (Match),1:1,PINNACLE,1.92,5.00,-5.00,rooney27,2015-03-12 13:29:54
+228,2015-03-11 16:59:00,SOC,Romania,Astra Giurgiu - Steaua Bucuresti,10.3,WIN,Home 0 (Match),2-0,PINNACLE,2.06,5.00,5.30,rooney27,2015-03-11 07:44:06
+229,2015-03-11 16:59:00,SOC,Romania,Astra Giurgiu - Steaua Bucuresti,2.87,WIN,Home -0.5 (Match),2-0,PINNACLE,2.87,1.00,1.87,rooney27,2015-03-11 04:49:38
+230,2015-03-08 18:29:00,SOC,Romania,Steaua Bucuresti - CFR Cluj,0.00,LOST,Home -1.75 (Match),1:0,PINNACLE,2.14,5.00,-5.00,rooney27,2015-03-08 15:41:40
+231,2015-03-08 13:29:00,SOC,Romania,Universitatea Cluj - Concordia Chiajna,9.15,WIN,Away +0.5 (Match),0:0,PINNACLE,1.83,5.00,4.15,rooney27,2015-03-08 11:42:11
+232,2015-03-07 18:30:00,SOC,Romania,Astra Giurgiu - FC Botosani,9.75,WIN,Astra Giurgiu -0.25 (Asian Handicap-First Half),2:0,SBOBET,1.95,5.00,4.75,rooney27,2015-03-07 10:15:59
+233,2015-03-08 15:59:00,SOC,Romania,Viitorul Constanta - CSU Craiova,5,PUSH,Away 0 (Match),1:1,PINNACLE,1.85,5.00,0.00,rooney27,2015-03-06 12:11:46
+234,2015-03-02 18:29:00,SOC,Romania,Rapid Bucuresti - Viitorul Constanta,0.00,LOST,Over 2 (Match),0-0,PINNACLE,1.81,5.00,-5.00,rooney27,2015-02-28 08:32:08
+235,2015-03-02 15:59:00,SOC,Romania,ASA Targu Mures - Ceahlaul Piatra Neamt,10.1,WIN,Home -1.5 (Match),3-0,PINNACLE,2.02,5.00,5.10,rooney27,2015-02-26 08:14:57
+236,2015-02-27 18:29:00,SOC,Romania,Botosani - Petrolul Ploiesti,0.00,LOST,Home +0.5 (Match),0:1,PINNACLE,1.75,5.00,-5.00,rooney27,2015-02-26 07:20:47
+237,2015-03-01 15:59:00,SOC,Romania,CFR Cluj - Pandurii Targu-Jiu,20.1,WIN,Away -0.25 (Match),0:4,PINNACLE,2.01,10.00,10.10,rooney27,2015-02-26 06:59:36
+238,2015-02-20 15:59:00,SOC,Romania,Viitorul Constanta - CSMS Iasi,0.00,LOST,Home -1 (Match),0-3,PINNACLE,2.44,5.00,-5.00,rooney27,2015-02-19 16:10:40
+239,2015-02-20 16:00:00,SOC,Romania,SC Viitorul Constanta - CSMS Iasi,0.00,LOST,SC Viitorul Constanta -0.5 (Asian Handicap-Full Time Excluding Overtime),0-3,SBOBET,1.78,5.00,-5.00,rooney27,2015-02-18 23:54:41
+240,2014-12-07 15:59:00,SOC,Romania,Steaua Bucuresti - CSMS Iasi,0.00,LOST,Home -2 (Match),1:0,PINNACLE,2.55,1.00,-1.00,rooney27,2014-12-07 12:12:12
+241,2014-12-07 18:29:00,SOC,Romania,CFR Cluj - CSU Craiova,9.4,WIN,Away +0.5 (Match),0:0,PINNACLE,1.88,5.00,4.40,rooney27,2014-12-04 16:38:16
+242,2014-12-07 16:00:00,SOC,Romania,FC Steaua Bucuresti - CSMS Iasi,0.00,LOST,FC Steaua Bucuresti -0.75 (Asian Handicap-First Half),0:0 ht,SBOBET,2,5.00,-5.00,rooney27,2014-12-04 12:47:26
+243,2014-12-07 15:59:00,SOC,Romania,Steaua Bucuresti - CSMS Iasi,0.00,LOST,Home -1.5 (Match),1:0,PINNACLE,1.79,5.00,-5.00,rooney27,2014-12-04 12:40:38
+244,2014-12-06 13:29:00,SOC,Romania,Ceahlaul Piatra Neamt - Universitatea Cluj,10,WIN,Away 0 (Match),0:6,PINNACLE,2,5.00,5.00,rooney27,2014-12-04 12:21:55
+245,2014-12-06 16:00:00,SOC,Romania,Pandurii Targu-Jiu - FC Rapid SA Bucuresti,13,WIN,Pandurii Targu-Jiu -1.5 (Asian Handicap-Full Time Excluding Overtime),2:0,Bet365,2.6,5.00,8.00,rooney27,2014-12-04 11:51:15
+246,2014-12-02 18:30:00,SOC,Romania,CS Dacia Mioveni - CFR 1907 Cluj,2.75,WIN,CS Dacia Mioveni 0 (Asian Handicap-First Half),1-0,Bet365,2.75,1.00,1.75,rooney27,2014-12-02 11:43:56
+247,2014-11-28 15:59:00,SOC,Romania,Concordia Chiajna - Gaz Metan Medias,9.05,WIN,Home +0.25 (Match),2-0,PINNACLE,1.81,5.00,4.05,rooney27,2014-11-28 14:02:28
+248,2014-11-28 18:29:00,SOC,Romania,CSMS Iasi - Pandurii Targu-Jiu,9.6,WIN,Over 2.25 (Match),3-0,PINNACLE,1.92,5.00,4.60,rooney27,2014-11-26 22:27:47
+249,2014-11-30 13:29:00,SOC,Romania,FC Brasov - Viitorul Constanta,9.65,WIN,Over 2.25 (Match),1-3,PINNACLE,1.93,5.00,4.65,rooney27,2014-11-26 18:52:46
+250,2014-11-29 13:30:00,SOC,Romania,CS U Craiova - FC Ceahlaul Piatra Neamt,9,WIN,CS U Craiova -0.25 (Asian Handicap-First Half),2:0,SBOBET,1.8,5.00,4.00,rooney27,2014-11-26 12:34:41
+251,2014-11-29 13:30:00,SOC,Romania,CS U Craiova - FC Ceahlaul Piatra Neamt,20.1,WIN,CS U Craiova -1 (Asian Handicap-Full Time Excluding Overtime),2:0,SBOBET,2.01,10.00,10.10,rooney27,2014-11-26 11:36:30
+252,2014-11-23 18:30:00,SOC,Romania,SC FC Petrolul Ploiesti - AS FCM Targu Mures,0.00,LOST,AS FCM Targu Mures +0.75 (Asian Handicap-Full Time Excluding Overtime),2:0,Bet365,1.83,5.00,-5.00,rooney27,2014-11-21 14:40:25
+253,2014-11-22 18:30:00,SOC,Romania,FC Steaua Bucuresti - FC Brasov,9.65,WIN,FC Steaua Bucuresti -1.5 (Asian Handicap-Full Time Excluding Overtime),2:0,SBOBET,1.93,5.00,4.65,rooney27,2014-11-21 13:19:57
+254,2014-11-22 13:29:00,SOC,Romania,Astra Giurgiu - Universitatea Cluj,0.00,LOST,Home -1 (Match),1:1,PINNACLE,1.84,5.00,-5.00,rooney27,2014-11-21 12:52:17
+255,2014-11-23 15:59:00,SOC,Romania,CFR Cluj - CSMS Iasi,10.05,WIN,Home -0.5 (1st Half),"1:0, 3:0",PINNACLE,2.01,5.00,5.05,rooney27,2014-11-21 12:10:28
+256,2014-11-24 18:30:00,SOC,Romania,CS U Craiova - FC Rapid SA Bucuresti,11.75,WIN,CS U Craiova -1.25 (Asian Handicap-Full Time Excluding Overtime),2-0,Bet365,2.35,5.00,6.75,rooney27,2014-11-17 23:12:46
+257,2014-11-24 18:29:00,SOC,Romania,CSU Craiova - Rapid Bucuresti,17.8,WIN,Home -0.75 (Match),2-0,PINNACLE,1.78,10.00,7.80,rooney27,2014-11-17 23:03:52
+258,2014-11-23 13:29:00,SOC,Romania,Pandurii Targu-Jiu - Botosani,9,WIN,Over 2 (Match),1:2,PINNACLE,1.8,5.00,4.00,rooney27,2014-11-17 19:22:36
+259,2014-11-09 17:59:00,SOC,Romania,Concordia Chiajna - Steaua Bucuresti,9.05,WIN,Home +1.5 (Match),0:1,PINNACLE,1.81,5.00,4.05,rooney27,2014-11-09 16:34:56
+260,2014-11-09 15:30:00,SOC,Romania,FC Otelul Galati - Astra Giurgiu,8.95,WIN,Astra Giurgiu -0.25 (Asian Handicap-First Half),0:1 HT,SBOBET,1.79,5.00,3.95,rooney27,2014-11-08 18:18:49
+261,2014-11-09 13:29:00,SOC,Romania,CSMS Iasi - CSU Craiova,8.5,WIN,Away +0.25 (Match),1:3,PINNACLE,1.7,5.00,3.50,rooney27,2014-11-08 17:33:39
+262,2014-11-08 13:30:00,SOC,Romania,FC Brasov - Pandurii Targu-Jiu,10.2,WIN,Over 2.25 (Over Under-Full Time Excluding Overtime),0:3,SBOBET,2.04,5.00,5.20,rooney27,2014-11-06 09:28:33
+263,2014-11-09 13:29:00,SOC,Romania,CSMS Iasi - CSU Craiova,20,WIN,Away 0 (Match),1:3,PINNACLE,2,10.00,10.00,rooney27,2014-11-05 17:55:54
+264,2014-11-06 20:04:00,SOC,Europa League,Rio Ave - Steaua Bucuresti,5,PUSH,Away 0 (Match),2-2,PINNACLE,1.81,5.00,0.00,rooney27,2014-11-02 04:03:51
+265,2014-11-03 13:59:00,SOC,Romania,Viitorul Constanta - ASA Targu Mures,5,PUSH,Away 0 (Match),0-0,PINNACLE,1.99,5.00,0.00,rooney27,2014-11-01 10:30:50
+266,2014-11-03 16:29:00,SOC,Romania,Petrolul Ploiesti - Otelul Galati,0.00,LOST,Home -0.75 (1st Half),0-0,PINNACLE,2.04,5.00,-5.00,rooney27,2014-11-01 10:18:10
+267,2014-11-01 14:30:00,SOC,Romania,Gaz Metan Medias - CFM Universitatea Cluj,2.5,LOST,Over 2.25 (Over Under-Full Time Excluding Overtime),1:1,SBOBET,2.01,5.00,-2.50,rooney27,2014-10-31 20:54:33
+268,2014-10-31 18:29:00,SOC,Romania,Steaua Bucuresti - Dinamo Bucuresti,9.45,WIN,Over 2.25 (Match),3-0,PINNACLE,1.89,5.00,4.45,rooney27,2014-10-28 20:53:01
+269,2014-10-28 18:29:00,SOC,Romania,CSMS Iasi - Steaua Bucuresti,6.98,WIN,Home +1.25 (Match),0-1,PINNACLE,1.79,5.00,1.98,rooney27,2014-10-28 07:38:08
+270,2014-11-06 20:04:00,SOC,Europa League,Rio Ave - Steaua Bucuresti,2.5,LOST,Away -0.25 (Match),2-2,PINNACLE,1.97,5.00,-2.50,rooney27,2014-10-26 03:40:14
+271,2014-10-25 17:59:00,SOC,Romania,Botosani - Rapid Bucuresti,9.1,WIN,Home -0.75 (Match),3:0,PINNACLE,1.82,5.00,4.10,rooney27,2014-10-24 20:34:22
+272,2014-10-24 17:59:00,SOC,Romania,FC Brasov - CSU Craiova,8.5,WIN,Away +0.5 (Match),2-3,PINNACLE,1.7,5.00,3.50,rooney27,2014-10-23 22:08:35
+273,2014-10-25 15:30:00,SOC,Romania,CFM Universitatea Cluj - SC Viitorul Constanta,2.5,LOST,CFM Universitatea Cluj -0.25 (Asian Handicap-Full Time Excluding Overtime),2:2,Bet365,1.77,5.00,-2.50,rooney27,2014-10-23 21:54:42
+274,2014-10-24 15:29:00,SOC,Romania,Otelul Galati - Gaz Metan Medias,2.5,LOST,Away -0.25 (Match),1-1,PINNACLE,1.85,5.00,-2.50,rooney27,2014-10-23 07:15:36
+275,2014-10-25 17:59:00,SOC,Romania,Botosani - Rapid Bucuresti,9.2,WIN,Home -0.75 (Match),3:0,PINNACLE,1.84,5.00,4.20,rooney27,2014-10-21 18:22:05
+276,2014-10-23 16:59:00,SOC,Europa League,Steaua Bucuresti - Rio Ave,9,WIN,Over 2.25 (Match),2-1,PINNACLE,1.8,5.00,4.00,rooney27,2014-10-19 21:29:05
+277,2014-10-23 16:59:00,SOC,Europa League,Steaua Bucuresti - Rio Ave,5,PUSH,Home -1 (Match),2-1,PINNACLE,2.02,5.00,0.00,rooney27,2014-10-19 21:27:40
+278,2014-10-18 17:59:00,SOC,Romania,CFR Cluj - Dinamo Bucuresti,0.00,LOST,Away +0.5 (Match),2:1,PINNACLE,2.01,5.00,-5.00,rooney27,2014-10-15 17:08:24
+279,2014-10-18 15:30:00,SOC,Romania,Pandurii Targu-Jiu - AS FCM Targu Mures,5,PUSH,Over 2 (Over Under-Full Time Excluding Overtime),1-1,Bet365,1.73,5.00,0.00,rooney27,2014-10-15 02:24:12
+280,2014-10-18 15:30:00,SOC,Romania,Pandurii Targu-Jiu - AS FCM Targu Mures,10.3,WIN,AS FCM Targu Mures +0.5 (Asian Handicap-Full Time Excluding Overtime),1-1,SBOBET,2.06,5.00,5.30,rooney27,2014-10-15 01:41:47
+281,2014-10-20 18:00:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Ceahlaul Piatra Neamt,8.75,WIN,SC FC Petrolul Ploiesti -0.5 (Asian Handicap-First Half),1-0,SBOBET,1.75,5.00,3.75,rooney27,2014-10-15 00:58:09
+282,2014-10-19 13:00:00,SOC,Romania,CS U Craiova - CS Concordia Chiajna,0.00,LOST,CS U Craiova -0.75 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.87,5.00,-5.00,rooney27,2014-10-14 23:56:12
+283,2014-10-11 16:00:00,SOC,UEFA EURO Q,Romania - Hungary,0.00,LOST,Romania -0.5 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.83,5.00,-5.00,rooney27,2014-10-07 20:21:46
+284,2014-10-04 17:59:00,SOC,Romania,Petrolul Ploiesti - Gaz Metan Medias,5,PUSH,Home -1 (Match),1:0,PINNACLE,2.02,5.00,0.00,rooney27,2014-10-01 16:36:25
+285,2014-10-03 15:29:00,SOC,Romania,FC Brasov - CSMS Iasi,9.35,WIN,Home -0.25 (Match),2-0,PINNACLE,1.87,5.00,4.35,rooney27,2014-10-01 13:08:09
+286,2014-10-05 15:29:00,SOC,Romania,Astra Giurgiu - Viitorul Constanta,0.00,LOST,Home -1.25 (Match),0:1,PINNACLE,2.12,10.00,-10.00,rooney27,2014-10-01 12:59:45
+287,2014-09-29 17:59:00,SOC,Romania,CFR Cluj - Universitatea Cluj,5.00,PUSH,Home -1 (Match),1-0,PINNACLE,1.98,5.00,0.00,rooney27,2014-09-26 13:17:51
+288,2014-09-28 17:59:00,SOC,Romania,Steaua Bucuresti - Astra Giurgiu,0.00,LOST,Home -0.75 (Match),0-0,PINNACLE,1.94,5.00,-5.00,rooney27,2014-09-26 13:04:23
+289,2014-09-28 15:30:00,SOC,Romania,SC Viitorul Constanta - SC FC Petrolul Ploiesti,19.5,WIN,SC FC Petrolul Ploiesti -0.5 (Asian Handicap-Full Time Excluding Overtime),1-3,SBOBET,1.95,10.00,9.50,rooney27,2014-09-25 18:22:12
+290,2014-09-27 15:30:00,SOC,Romania,FC Botosani - FC Brasov,0.00,LOST,FC Botosani -0.5 (Asian Handicap-Full Time Excluding Overtime),0-0,SBOBET,1.94,5.00,-5.00,rooney27,2014-09-25 18:14:50
+291,2014-09-27 13:00:00,SOC,Romania,Gaz Metan Medias - FC Ceahlaul Piatra Neamt,0.00,LOST,Gaz Metan Medias -0.5 (Asian Handicap-Full Time Excluding Overtime),2-2,SBOBET,1.93,5.00,-5.00,rooney27,2014-09-25 17:56:49
+292,2014-09-21 17:59:00,SOC,Romania,Petrolul Ploiesti - Steaua Bucuresti,17.7,WIN,Away 0 (Match),2-3,PINNACLE,1.77,10.00,7.70,rooney27,2014-09-21 00:16:36
+293,2014-09-20 15:29:00,SOC,Romania,Dinamo Bucuresti - CSMS Iasi,1,LOST,Home -0.25 (1st Half),0-0,PINNACLE,1.85,2.00,-1.00,rooney27,2014-09-20 06:06:27
+294,2014-09-20 15:29:00,SOC,Romania,Dinamo Bucuresti - CSMS Iasi,7.38,WIN,Home -0.75 (Match),1-0,PINNACLE,1.95,5.00,2.38,rooney27,2014-09-20 06:00:47
+295,2014-09-20 15:29:00,SOC,Romania,Otelul Galati - CFR Cluj,5.00,PUSH,Away -1 (Match),0-1,PINNACLE,1.88,5.00,0.00,rooney27,2014-09-20 01:41:38
+296,2014-09-19 17:59:00,SOC,Romania,ASA Targu Mures - Rapid Bucuresti,7.28,WIN,Home -0.75 (Match),1-0,PINNACLE,1.91,5.00,2.28,rooney27,2014-09-19 11:14:15
+297,2014-09-21 15:29:00,SOC,Romania,Astra Giurgiu - Pandurii Targu-Jiu,7.45,WIN,Home -0.75 (Match),2-1,PINNACLE,1.98,5.00,2.45,rooney27,2014-09-19 10:13:42
+298,2014-09-19 15:29:00,SOC,Romania,Gaz Metan Medias - Viitorul Constanta,9.45,WIN,Home -0.25 (Match),3-1,PINNACLE,1.89,5.00,4.45,rooney27,2014-09-18 22:27:32
+299,2014-09-15 15:29:00,SOC,Romania,CSU Craiova - Otelul Galati,0.00,LOST,Over 2 (Match),1-0,PINNACLE,1.87,5.00,-5.00,rooney27,2014-09-15 00:42:55
+300,2014-09-13 15:29:00,SOC,Romania,Viitorul Constanta - Ceahlaul Piatra Neamt,0.00,LOST,Away +0.5 (Match),2-0,PINNACLE,1.85,5.00,-5.00,rooney27,2014-09-12 20:32:23
+301,2014-09-12 17:59:00,SOC,Romania,Steaua Bucuresti - Gaz Metan Medias,9.4,WIN,Home -1.25 (Match),3-1,PINNACLE,1.88,5.00,4.40,rooney27,2014-09-05 11:08:20
+302,2014-09-12 15:29:00,SOC,Romania,FC Brasov - Concordia Chiajna,5.82,WIN,Home -0.5 (Match),4-1,PINNACLE,1.94,3.00,2.82,rooney27,2014-09-04 09:39:12
+303,2014-09-12 15:29:00,SOC,Romania,FC Brasov - Concordia Chiajna,5.61,WIN,Over 2 (Match),4-1,PINNACLE,1.87,3.00,2.61,rooney27,2014-09-04 09:37:58
+304,2014-09-12 17:59:00,SOC,Romania,Steaua Bucuresti - Gaz Metan Medias,9.85,WIN,Home -1.25 (Match),3-1,PINNACLE,1.97,5.00,4.85,rooney27,2014-09-04 08:39:32
+305,2014-09-13 17:59:00,SOC,Romania,CFR Cluj - Astra Giurgiu,0.00,LOST,Away 0 (Match),4-1,PINNACLE,2.3,5.00,-5.00,rooney27,2014-09-04 08:14:52
+306,2014-09-13 16:00:00,SOC,Romania,CS U Craiova - FC Otelul Galati,22,WIN,CS U Craiova (1X2-Full Time Excluding Overtime),1-0,Bet365,2.2,10.00,12.00,rooney27,2014-09-03 09:29:03
+307,2014-08-31 17:59:00,SOC,Romania,Petrolul Ploiesti - CFR Cluj,7,WIN,Under 1 (1st Half),0-1,PINNACLE,1.8,5.00,2.00,rooney27,2014-08-30 20:47:14
+308,2014-08-31 15:59:00,SOC,Romania,Astra Giurgiu - CSU Craiova,9.55,WIN,Over 2.5 (Match),5-0,PINNACLE,1.91,5.00,4.55,rooney27,2014-08-30 20:11:41
+309,2014-08-30 17:59:00,SOC,Romania,Viitorul Constanta - Steaua Bucuresti,5.00,PUSH,Away -1 (Match),0-1,PINNACLE,1.83,5.00,0.00,rooney27,2014-08-30 15:09:05
+310,2014-08-31 13:59:00,SOC,Romania,ASA Targu Mures - Botosani,10,WIN,Home -0.5 (Match),2-1,PINNACLE,2,5.00,5.00,rooney27,2014-08-29 14:28:41
+311,2014-08-31 15:59:00,SOC,Romania,Astra Giurgiu - CSU Craiova,9.9,WIN,Home -1.25 (Match),5-0,PINNACLE,1.98,5.00,4.90,rooney27,2014-08-29 14:22:29
+312,2014-08-28 19:00:00,SOC,Europa League,NK Dinamo Zagreb - SC FC Petrolul Ploiesti,0.00,LOST,SC FC Petrolul Ploiesti +0.5 (Asian Handicap-Full Time Excluding Overtime),2-1,SBOBET,1.8,5.00,-5.00,rooney27,2014-08-26 15:07:01
+313,2014-08-28 16:45:00,SOC,Europa League,Astra Giurgiu - Olympique Lyonnais,0.00,LOST,Astra Giurgiu 0 (Asian Handicap-Full Time Excluding Overtime),0-1,Bet365,2.3,5.00,-5.00,rooney27,2014-08-26 14:59:11
+314,2014-08-24 13:59:00,SOC,Romania,Botosani - Universitatea Cluj,10.35,WIN,Home -0.25 (Match),1-0,PINNACLE,2.07,5.00,5.35,rooney27,2014-08-21 10:13:38
+315,2014-08-25 15:30:00,SOC,Romania,CSMS Iasi - FC Otelul Galati,2.5,LOST,CSMS Iasi -0.25 (Asian Handicap-First Half),0-0,SBOBET,1.85,5.00,-2.50,rooney27,2014-08-21 10:04:33
+316,2014-08-25 15:29:00,SOC,Romania,CSMS Iasi - Otelul Galati,0.00,LOST,Home -0.75 (Match),0-0,PINNACLE,1.85,5.00,-5.00,rooney27,2014-08-21 10:02:08
+317,2014-08-23 15:29:00,SOC,Romania,Pandurii Targu-Jiu - Viitorul Constanta,2.5,LOST,Over 2.25 (Match),1-1,PINNACLE,1.92,5.00,-2.50,rooney27,2014-08-20 15:57:10
+318,2014-08-22 17:59:00,SOC,Romania,Concordia Chiajna - Dinamo Bucuresti,0.00,LOST,Over 2.25 (Match),0-0,PINNACLE,1.92,5.00,-5.00,rooney27,2014-08-20 15:27:04
+319,2014-08-21 18:29:00,SOC,Europa League,Lyon - Astra Giurgiu,0.00,LOST,Home -1 (Match),1-2,PINNACLE,1.88,5.00,-5.00,rooney27,2014-08-20 13:49:01
+320,2014-08-19 18:45:00,SOC,Champions L,Steaua Bucuresti (n) - Ludogorets Razgrad,0.00,LOST,Over 2 (Match),1-0,PINNACLE,1.78,5.00,-5.00,rooney27,2014-08-17 23:34:07
+321,2014-08-15 17:59:00,SOC,Romania,Steaua Bucuresti - Pandurii Targu-Jiu,9.4,WIN,Home -1 (Match),6-0,PINNACLE,1.88,5.00,4.40,rooney27,2014-08-15 03:34:39
+322,2014-08-17 15:59:00,SOC,Romania,Otelul Galati - Botosani,10.4,WIN,Away -0.25 (Match),0-1,PINNACLE,2.08,5.00,5.40,rooney27,2014-08-13 08:46:02
+323,2014-08-16 15:29:00,SOC,Romania,Astra Giurgiu - CSMS Iasi,5,LOST,Home -1.25 (Match),2-1,PINNACLE,1.91,10.00,-5.00,rooney27,2014-08-13 07:57:18
+324,2014-08-16 17:59:00,SOC,Romania,Petrolul Ploiesti - Rapid Bucuresti,0.00,LOST,Home -1.25 (Match),0-0,PINNACLE,1.95,10.00,-10.00,rooney27,2014-08-13 07:42:06
+325,2014-08-09 17:59:00,SOC,Romania,Dinamo Bucuresti - ASA Targu Mures,0.00,LOST,Over 2.75 (Match),1-1,PINNACLE,1.86,5.00,-5.00,rooney27,2014-08-08 09:01:46
+326,2014-08-08 18:00:00,SOC,Romania,FC Rapid SA Bucuresti - Gaz Metan Medias,5.00,PUSH,Over 2 (Over Under-Full Time Excluding Overtime),1-1,Bet365,1.77,5.00,0.00,rooney27,2014-08-05 15:02:12
+327,2014-08-10 14:00:00,SOC,Romania,FC Botosani - Astra Giurgiu,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),1-0,SBOBET,1.92,5.00,-5.00,rooney27,2014-08-05 14:54:15
+328,2014-08-10 14:00:00,SOC,Romania,FC Botosani - Astra Giurgiu,0.00,LOST,Astra Giurgiu -1.25 (Asian Handicap-Full Time Excluding Overtime),1-0,SBOBET,1.99,5.00,-5.00,rooney27,2014-08-05 14:52:33
+329,2014-08-06 17:29:00,SOC,Champions L,Steaua Bucuresti - Aktobe,2.5,LOST,Home -1.25 (Match),2-1,PINNACLE,1.91,5.00,-2.50,rooney27,2014-08-04 11:34:05
+330,2014-08-03 14:00:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Botosani,9.95,WIN,SC FC Petrolul Ploiesti -1 (Asian Handicap-Full Time Excluding Overtime),4-1,SBOBET,1.99,5.00,4.95,rooney27,2014-08-01 17:35:49
+331,2014-08-04 18:00:00,SOC,Romania,CFM Universitatea Cluj - FC Dinamo Bucuresti,10,WIN,FC Dinamo Bucuresti -0.25 (Asian Handicap-Full Time Excluding Overtime),2-3,SBOBET,2,5.00,5.00,rooney27,2014-08-01 08:54:23
+332,2014-08-03 15:59:00,SOC,Romania,Astra Giurgiu - FC Brasov,10.2,WIN,Home -1.5 (Match),4-0,PINNACLE,2.04,5.00,5.20,rooney27,2014-07-31 21:16:26
+333,2014-07-31 15:59:00,SOC,Europa League,Astra Giurgiu - Slovan Liberec,10,WIN,Home -0.5 (Match),3-0,PINNACLE,2,5.00,5.00,rooney27,2014-07-31 11:28:55
+334,2014-07-31 17:59:00,SOC,Europa League,Petrolul Ploiesti - Viktoria Plzen,5.00,PUSH,Away 0 (Match),1-1,PINNACLE,1.97,5.00,0.00,rooney27,2014-07-30 21:02:11
+335,2014-08-01 15:30:00,SOC,Romania,FC Ceahlaul Piatra Neamt - AS FCM Targu Mures,9.8,WIN,AS FCM Targu Mures 0 (Asian Handicap-Full Time Excluding Overtime),1-4,SBOBET,1.96,5.00,4.80,rooney27,2014-07-29 19:18:10
+336,2014-07-28 17:59:00,SOC,Romania,Dinamo Bucuresti - Otelul Galati,18.6,WIN,Home -1 (Match),4-0,PINNACLE,1.86,10.00,8.60,rooney27,2014-07-23 21:42:53
+337,2014-07-23 17:29:00,SOC,Champions L,Steaua Bucuresti (n) - Stromsgodset,0.00,LOST,Home -0.5 (1st Half),0-0,PINNACLE,2.14,3.00,-3.00,rooney27,2014-07-23 15:31:19
+338,2014-07-27 13:59:00,SOC,Romania,Botosani - Gaz Metan Medias,9.05,WIN,Over 2 (Match),0-3,PINNACLE,1.81,5.00,4.05,rooney27,2014-07-21 20:22:33
+339,2014-07-25 15:29:00,SOC,Romania,Concordia Chiajna - Astra Giurgiu,8.95,WIN,Away -0.75 (Match),0-2,PINNACLE,1.79,5.00,3.95,rooney27,2014-07-21 20:15:27
+340,2014-07-26 15:30:00,SOC,Romania,AS FCM Targu Mures - CFM Universitatea Cluj,2.5,LOST,AS FCM Targu Mures -0.25 (Asian Handicap-Full Time Excluding Overtime),0-0,SBOBET,1.98,5.00,-2.50,rooney27,2014-07-21 20:03:39
+341,2014-07-26 18:00:00,SOC,Romania,FC Rapid SA Bucuresti - FC Steaua Bucuresti,19.7,WIN,FC Steaua Bucuresti -1 (Asian Handicap-Full Time Excluding Overtime),1-3,SBOBET,1.97,10.00,9.70,rooney27,2014-07-21 19:28:26
+342,2014-07-26 17:59:00,SOC,Romania,Rapid Bucuresti - Steaua Bucuresti,9.4,WIN,Over 2.25 (Match),1-3,PINNACLE,1.88,5.00,4.40,rooney27,2014-07-21 19:23:55
+343,2014-07-27 14:00:00,SOC,Romania,FC Botosani - Gaz Metan Medias,0.00,LOST,FC Botosani -0.5 (Asian Handicap-Full Time Excluding Overtime),0-3,SBOBET,1.99,5.00,-5.00,rooney27,2014-07-21 19:05:43
+344,2014-07-27 18:00:00,SOC,Romania,FC Brasov - SC FC Petrolul Ploiesti,0.00,LOST,Over 2 (Over Under-Full Time Excluding Overtime),0-1,SBOBET,1.91,5.00,-5.00,rooney27,2014-07-21 18:04:29
+345,2014-07-27 18:00:00,SOC,Romania,FC Brasov - SC FC Petrolul Ploiesti,21.2,WIN,SC FC Petrolul Ploiesti -0.5 (Asian Handicap-Full Time Excluding Overtime),0-1,SBOBET,2.12,10.00,11.20,rooney27,2014-07-21 17:58:14
+346,2014-07-17 16:30:00,SOC,Europa League,SC FC Petrolul Ploiesti - KS Flamurtari Vlore,5.00,PUSH,SC FC Petrolul Ploiesti -2 (Asian Handicap-Full Time Excluding Overtime),2-0,Marathonbet,2.16,5.00,0.00,rooney27,2014-07-16 13:08:03
+347,2014-07-17 16:30:00,SOC,Europa League,SC FC Petrolul Ploiesti - KS Flamurtari Vlore,0.00,LOST,SC FC Petrolul Ploiesti -1 (Asian Handicap-First Half),0-0,Bet365,1.88,5.00,-5.00,rooney27,2014-07-16 13:04:22
+348,2014-07-17 17:30:00,SOC,Europa League,CFR 1907 Cluj - FK Jagodina,0.00,LOST,CFR 1907 Cluj -0.75 (Asian Handicap-Full Time Excluding Overtime),0-0,SBOBET,1.87,10.00,-10.00,rooney27,2014-07-16 12:48:44
+349,2014-05-23 18:00:00,SOC,Livebet,Steaua Bucuresti - FC Astra Giurgiu,0.00,LOST,FT Home -0.75 (0:0),0-0,188bet,1.93,5.00,-5.00,rooney27,2014-05-23 18:07:50
+350,2014-05-21 18:00:00,SOC,Romania,SC Viitorul Constanta - FC Ceahlaul Piatra Neamt,10.00,PUSH,SC Viitorul Constanta -1 (Asian Handicap-Full Time Excluding Overtime),1-0,SBOBET,2,10.00,0.00,rooney27,2014-05-19 12:01:12
+351,2014-05-17 18:29:00,SOC,Romania,Petrolul Ploiesti - Steaua Bucuresti,5.00,PUSH,Home 0 (Match),0-0,PINNACLE,1.91,5.00,0.00,rooney27,2014-05-14 12:08:26
+352,2014-05-11 19:00:00,SOC,Livebet,FC Viitorul Constanta - Petrolul Ploiesti,0.00,LOST,FT Away -0.25 (1:0),1-0,188bet,2.19,1.00,-1.00,rooney27,2014-05-11 20:22:46
+353,2014-05-11 15:00:00,SOC,Livebet,FC Botosani - FC Astra Giurgiu,2.05,WIN,FT Over 1.5 (0:1),0-2,188bet,2.05,1.00,1.05,rooney27,2014-05-11 16:34:58
+354,2014-05-10 17:30:00,SOC,Livebet,Gaz Metan Medias - Dinamo Bucuresti,2.14,WIN,FT Over 1.5 (0:1),1-1,188bet,2.14,1.00,1.14,rooney27,2014-05-10 18:58:02
+355,2014-05-07 16:30:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Vaslui,9.75,WIN,SC FC Petrolul Ploiesti -1.5 (Asian Handicap-Full Time Excluding Overtime),3-0,Bet365,1.95,5.00,4.75,rooney27,2014-05-07 09:24:38
+356,2014-05-07 16:30:00,SOC,Romania,SC FC Petrolul Ploiesti - FC Vaslui,9.85,WIN,SC FC Petrolul Ploiesti -1.25 (Asian Handicap-Full Time Excluding Overtime),3-0,Dafabet,1.97,5.00,4.85,rooney27,2014-05-06 07:03:59
+357,2014-05-04 13:59:00,SOC,Romania,Botosani - Otelul Galati,10.1,WIN,Over 2.25 (Match),3-1,PINNACLE,2.02,5.00,5.10,rooney27,2014-05-02 07:52:30
+358,2014-04-28 17:59:00,SOC,Romania,Petrolul Ploiesti - Botosani,9.6,WIN,Home -1.25 (Match),3-0,PINNACLE,1.92,5.00,4.60,rooney27,2014-04-27 08:20:07
+359,2014-04-17 17:29:00,SOC,Romania,Dinamo Bucuresti - Steaua Bucuresti,2.5,LOST,Over 2.25 (Match),1-1,PINNACLE,1.88,5.00,-2.50,rooney27,2014-04-17 09:21:10
+360,2014-04-13 17:44:00,SOC,Romania,Ceahlaul Piatra Neamt - Dinamo Bucuresti,8.85,WIN,Away -0.25 (Match),0-1,PINNACLE,1.77,5.00,3.85,rooney27,2014-04-12 03:34:50
+361,2014-04-05 12:29:00,SOC,Romania,Botosani - Corona Brasov,9.2,WIN,Home -0.75 (Match),3-1,PINNACLE,1.84,5.00,4.20,rooney27,2014-04-04 17:07:19
+362,2014-03-31 17:59:00,SOC,Romania,Steaua Bucuresti - Botosani,7.3,WIN,Home -0.75 (1st Half),1-0,PINNACLE,1.92,5.00,2.30,rooney27,2014-03-31 02:14:06
+363,2014-03-21 16:59:00,SOC,Romania,Astra Giurgiu - Otelul Galati,0.00,LOST,Under 1 (1st Half),1-1,PINNACLE,1.86,5.00,-5.00,rooney27,2014-03-21 09:15:28
+364,2014-03-15 18:14:00,SOC,Romania,Steaua Bucuresti - Gaz Metan Medias,7.35,WIN,Home -0.75 (1st Half),1-0,PINNACLE,1.94,5.00,2.35,rooney27,2014-03-15 09:50:14
+365,2014-03-08 17:59:00,SOC,Romania,CFR Cluj - Steaua Bucuresti,9.4,WIN,Under 2.25 (Match),0-1,PINNACLE,1.88,5.00,4.40,rooney27,2014-03-06 20:22:11
+366,2014-03-01 18:59:00,SOC,Romania,Steaua Bucuresti - Dinamo Bucuresti,0.00,LOST,Over 2.5 (Match),1-1,PINNACLE,2.13,5.00,-5.00,rooney27,2014-02-28 18:54:21
+367,2014-02-22 16:59:00,SOC,Romania,Otelul Galati - Pandurii Targu Jiu,0.00,LOST,Over 2.25 (Match),1-0,PINNACLE,1.8,5.00,-5.00,rooney27,2014-02-21 16:20:00
+368,2014-02-18 16:14:00,SOC,Romania,Steaua Bucuresti - Universitatea Cluj,5.00,PUSH,Home -1 (1st Half),1-0,PINNACLE,2.08,5.00,0.00,rooney27,2014-02-18 13:38:17
+369,2013-12-19 15:59:00,SOC,Romania,Universitatea Cluj - Otelul Galati,0.00,LOST,Over 2.25 (Match),1-0,PINNACLE,1.9,5.00,-5.00,rooney27,2013-12-19 12:12:36
+370,2013-12-14 17:00:00,SOC,Romania,Astra Giurgiu - SC Viitorul Constanta,0.00,LOST,Astra Giurgiu -0.75 (Asian Handicap-First Half),0-0,SBOBET,1.87,10.00,-10.00,rooney27,2013-12-12 09:48:35
+371,2013-12-08 16:59:00,SOC,Romania,Ceahlaul Piatra Neamt - Viitorul Constanta,0.00,LOST,Home -1 (Match),0-0,PINNACLE,2.03,8.00,-8.00,rooney27,2013-12-07 07:51:33
+372,2013-11-23 19:00:00,SOC,Romania,Astra Giurgiu - FC Botosani,14.8,WIN,Over 1 (Over Under-First Half),4-0,Bet365,1.85,8.00,6.80,rooney27,2013-11-21 08:04:22
+373,2013-11-09 19:00:00,SOC,Romania,SC Viitorul Constanta - Pandurii Targu-Jiu,0.00,LOST,Over 1 (Over Under-First Half),0-0,SBOBET,2.07,5.00,-5.00,rooney27,2013-11-08 11:21:48
+374,2013-11-02 18:30:00,SOC,Livebet,ASC Corona Brasov - Steaua Bucuresti,0.00,LOST,FT Away (1:0),1-1,188bet,2.5,5.00,-5.00,rooney27,2013-11-02 19:28:34
+375,2013-11-02 15:59:00,SOC,Romania,Pandurii Targu Jiu - Vaslui,0.00,LOST,Home -0.5,1-2,PINNACLE,2.09,6.00,-6.00,rooney27,2013-10-31 15:28:15
+376,2013-10-26 18:29:00,SOC,Romania,CFR Cluj - Astra Giurgiu,5.00,PUSH,Home 0,0-0,PINNACLE,1.79,5.00,0.00,rooney27,2013-10-25 12:49:18
+377,2013-10-18 18:00:00,SOC,Romania,Steaua vs Viitorul,16.8,WIN,Over 1.25 HT,4-0,Bet365,2.1,8.00,8.80,rooney27,2013-10-17 18:48:25
+378,2013-10-06 13:59:00,SOC,Romania,Sageata Navodari - Pandurii Targu Jiu,0.00,LOST,Under 2.25,0-4,PINNACLE,1.88,5.00,-5.00,rooney27,2013-10-05 13:28:52
+379,2013-09-21 15:59:00,SOC,Romania,FC Brasov - Vaslui,5.00,PUSH,Home 0,1-1,PINNACLE,2.04,5.00,0.00,rooney27,2013-09-21 09:37:49
+380,2013-09-16 15:59:00,SOC,Romania,Ceahlaul Piatra Neamt - FC Brasov,0.00,LOST,Home -0.5,1-1,PINNACLE,1.81,5.00,-5.00,rooney27,2013-09-16 09:12:46
+381,2013-08-24 15:59:00,SOC,Romania,Ceahlaul Piatra Neamt - Otelul Galati,10.1,WIN,Home -0.25,2-0,PINNACLE,2.02,5.00,5.10,rooney27,2013-08-24 13:13:05
+382,2013-08-05 16:00:00,SOC,Romania,ACS Poli Timisoara - Gaz Metan Medias,10,WIN,Both 2 Score - Yes,2-1,Bet365,2,5.00,5.00,rooney27,2013-08-02 18:51:10
+383,2013-07-19 17:45:00,SOC,Romania,ACS Poli Timisoara - Dinamo Bucharest,0.00,LOST,Dinamo Bucharest (-0.25),2-0,Bet365,1.95,5.00,-5.00,rooney27,2013-07-18 19:18:01
+384,2013-07-18 17:00:00,SOC,Europa League,Petrolul Ploiesti - Vikingur,9.4,WIN,Petrolul Ploiesti (-2.5),3-0,Bet365,1.88,5.00,4.40,rooney27,2013-07-17 01:36:26
+385,2013-07-16 18:45:00,SOC,Champions L,Steaua Bucharest - FK Vardar,18.3,WIN,Steaua Bucharest (-2),3-0,Bet365,1.83,10.00,8.30,rooney27,2013-07-14 19:59:06
+386,2013-07-10 17:45:00,SOC,Romania,Steaua Bucharest - Petrolul Ploiesti,0.00,LOST,Under 2.5,3-0,BWIN,1.87,5.00,-5.00,rooney27,2013-07-09 13:21:38
+387,2013-07-10 17:45:00,SOC,Romania,Steaua Bucharest - Petrolul Ploiesti,11,WIN,Steaua Bucharest,3-0,Interwetten,2.2,5.00,6.00,rooney27,2013-07-09 11:17:37

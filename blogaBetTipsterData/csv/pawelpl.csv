@@ -1,0 +1,991 @@
+Count,Game date,Sport,Competition,Bet,Return,Result,Pick,Score,Bookmaker,Odd,Stake,Profit,Tipster,CST
+1,2016-05-20 11:30:00,SOC,Livebet,Ural Ekaterinburg U21 - Kuban Krasnodar U21,1.88,WIN,First Half Over 0.5 (Over/Under) (0:0),0:1 (0:1),188bet,1.88,1.00,0.88,pawelpl,2016-05-20 11:57:20
+2,2016-05-20 10:00:00,SOC,Livebet,Lokomotiv Moscow Reserves v Mordovya Saransk Reserves,0.00,LOST,Lokomotiv Moscow Reserves # 4-0 (Final Score) (2-0),3:1 (1:0),Bet365,4.33,1.00,-1.00,pawelpl,2016-05-20 11:20:54
+3,2016-05-18 16:40:00,SOC,Livebet,Kiryat Gat SC Women v ASA Tel Aviv Women,1.00,PUSH,Kiryat Gat SC Women -1 (Asian Handicap In-Play) (0-0),1:0 (1:0),Bet365,1.95,1.00,0.00,pawelpl,2016-05-18 16:51:10
+4,2016-05-18 16:40:00,SOC,Livebet,Kiryat Gat SC Women v ASA Tel Aviv Women,1.53,WIN,Kiryat Gat SC Women (Fulltime Result) (0-0),1:0 (1:0),Bet365,1.53,1.00,0.53,pawelpl,2016-05-18 16:48:33
+5,2016-05-18 16:40:00,SOC,Livebet,Kiryat Gat SC Women v ASA Tel Aviv Women,1.00,PUSH,Kiryat Gat SC Women -1 (Asian Handicap In-Play) (0-0),1:0 (1:0),Bet365,1.9,1.00,0.00,pawelpl,2016-05-18 16:47:28
+6,2016-05-18 10:30:00,SOC,Livebet,Wong Tai Sin Reserves - Kitchee SC Reserves,1.53,WIN,Full Time Excluding Overtime Home (Home Draw Away) (1:1),4:1 (1:0),Bet365,1.53,1.00,0.53,pawelpl,2016-05-18 11:41:16
+7,2016-05-18 10:00:00,SOC,Livebet,Vorskla Poltava U19 - Shakhtar Donetsk U19,1.77,WIN,Rest of 1st Half Away -0.50 (Asian Handicap) (0:0),0-1,Bet365,1.77,1.00,0.77,pawelpl,2016-05-18 10:19:29
+8,2016-05-18 10:00:00,SOC,Livebet,Vorskla Poltava U19 - Shakhtar Donetsk U19,1.51,WIN,Rest of 1st Half Away -0.75 (Asian Handicap) (0:0),0-1,Bet365,2.02,1.00,0.51,pawelpl,2016-05-18 10:15:59
+9,2016-05-14 18:30:00,SOC,Livebet,Uniao Madeira v Rio Ave,0.5,LOST,Rio Ave -0.25 (Alternative Asian Handicap) (1-2),1-2,Bet365,2.6,1.00,-0.50,pawelpl,2016-05-14 20:05:21
+10,2016-05-14 13:00:00,SOC,Livebet,Alashkert FC v Ararat Yerevan,1.87,WIN,Ararat Yerevan +1 (Asian Handicap In-Play) (0-0),0:1,Bet365,1.87,1.00,0.87,pawelpl,2016-05-14 14:05:40
+11,2016-05-14 11:30:00,SOC,Livebet,Balestier Khalsa FC v Geylang International,1.00,PUSH,Geylang International 0 (Asian Handicap In-Play) (1-2),danger-goal,Bet365,1.7,1.00,0.00,pawelpl,2016-05-14 13:03:51
+12,2016-05-14 12:00:00,SOC,Livebet,Wormatia Worms v SPVGG Neckarelz,0.00,LOST,Over 1.5 (1st Half Goal Line) (0-1),3:1 (0:1),Bet365,2,1.00,-1.00,pawelpl,2016-05-14 12:29:20
+13,2016-05-11 18:00:00,SOC,Livebet,IBV Vestmannaeyjar Women v Selfoss Women,0.00,LOST,IBV Vestmannaeyjar Women or Draw (Double Chance) (0-1),0:1 (0:1),Bet365,2.62,1.00,-1.00,pawelpl,2016-05-11 18:51:50
+14,2016-05-11 18:00:00,SOC,Livebet,IBV Vestmannaeyjar Women v Selfoss Women,1.00,PUSH,IBV Vestmannaeyjar Women 0 (Asian Handicap In-Play) (0-1),0:1 (0:1),Bet365,1.85,1.00,0.00,pawelpl,2016-05-11 18:50:52
+15,2016-05-11 18:00:00,SOC,Livebet,IBV Vestmannaeyjar Women v Selfoss Women,0.00,LOST,IBV Vestmannaeyjar Women (Next Goal) (0-1),0:1 (0:1),Bet365,2.1,1.00,-1.00,pawelpl,2016-05-11 18:50:33
+16,2016-05-11 15:00:00,SOC,Livebet,Desna Chernihiv v Cherkaskyi Dnipro,4.5,WIN,Draw (Half Time Result) (1-0),3:1 (1:1),Bet365,4.5,1.00,3.50,pawelpl,2016-05-11 15:17:13
+17,2016-05-11 15:00:00,SOC,Livebet,Desna Chernihiv v Cherkaskyi Dnipro,4,WIN,Draw (Half Time Result) (0-0),3:1 (1:1),Bet365,2,2.00,2.00,pawelpl,2016-05-11 14:59:15
+18,2016-05-11 12:00:00,SOC,Livebet,Osotspa v Buriram United,1.00,PUSH,Osotspa 0 (Alternative Asian Handicap) (2-2),2:2 (1:2),Bet365,5.6,1.00,0.00,pawelpl,2016-05-11 13:46:00
+19,2016-05-11 11:30:00,SOC,Livebet,Meizhou Hakka v Shandong Luneng,1.82,WIN,Shandong Luneng -0.5 (Asian Handicap In-Play) (0-2),0-3,Bet365,1.82,1.00,0.82,pawelpl,2016-05-11 12:55:30
+20,2016-05-11 11:30:00,SOC,Livebet,Meizhou Hakka v Shandong Luneng,1.8,WIN,Shandong Luneng -0.5 (Asian Handicap In-Play) (0-2),0-3,Bet365,1.8,1.00,0.80,pawelpl,2016-05-11 12:54:07
+21,2016-05-11 08:00:00,SOC,Livebet,Ural Ekaterinburg U21 - Spartak Moscow U21,0.00,LOST,Rest of 1st Half Away -0.50 (Asian Handicap) (0:0),0:2 (0:0),SBOBET,1.84,2.00,-2.00,pawelpl,2016-05-11 08:15:04
+22,2016-05-11 07:00:00,SOC,Livebet,Guangzhou Haoxin v Tianjin Teda,1.72,WIN,Over 3.5 (First Half Goals) (0-3),1:7 (0:4),Bet365,1.72,1.00,0.72,pawelpl,2016-05-11 07:34:09
+23,2016-05-10 19:00:00,SOC,Livebet,Throttur Vogum v Grotta Seltjarnarnes,0.00,LOST,Grotta Seltjarnarnes -0.75 (Asian Handicap In-Play) (0-1),0:1 (0:1),Bet365,1.95,1.00,-1.00,pawelpl,2016-05-10 19:18:21
+24,2016-05-10 18:00:00,SOC,Livebet,Bury Reserves v Man Utd U21,2.2,WIN,Man Utd U21 (Half Time Result) (0-0),1:4 (0:3),Bet365,2.2,1.00,1.20,pawelpl,2016-05-10 18:16:06
+25,2016-05-10 17:30:00,SOC,Livebet,FC Targu Mures v Steaua Bucharest,0.00,LOST,Over 1.5 (1st Half Goal Line) (0-1),1:4 (0:1),Bet365,1.9,1.00,-1.00,pawelpl,2016-05-10 17:59:57
+26,2016-05-10 17:30:00,SOC,Livebet,FC Targu Mures v Steaua Bucharest,1.5,WIN,Steaua Bucharest -1.75 (Asian Handicap In-Play) (0-1),1:4 (0:1),Bet365,2,1.00,0.50,pawelpl,2016-05-10 17:52:10
+27,2016-05-10 17:30:00,SOC,Livebet,FC Targu Mures v Steaua Bucharest,1.5,WIN,Steaua Bucharest -1.75 (Asian Handicap In-Play) (0-1),1:4 (0:1),Bet365,2,1.00,0.50,pawelpl,2016-05-10 17:51:38
+28,2016-05-10 15:00:00,SOC,Livebet,Alania Vladikavkaz v FK Mashuk-KMV Pyatigorsk,1.9,WIN,Alania Vladikavkaz -0.5 (Asian Handicap In-Play) (0-1),2:2 (0:1),Bet365,1.9,1.00,0.90,pawelpl,2016-05-10 16:04:24
+29,2016-05-09 19:00:00,SOC,Livebet,Skinandi Women v Keflavik Women,1.00,PUSH,Keflavik Women -0.5 (1st Half Asian Handicap) (0-0),danger goal,Bet365,2.1,1.00,0.00,pawelpl,2016-05-09 19:27:48
+30,2016-05-09 19:00:00,SOC,Livebet,Skinandi Women v Keflavik Women,2.05,WIN,Keflavik Women -0.5 (1st Half Asian Handicap) (0-0),0:2 (0:1),Bet365,2.05,1.00,1.05,pawelpl,2016-05-09 19:25:22
+31,2016-05-09 19:00:00,SOC,Livebet,Skinandi Women v Keflavik Women,2,WIN,Keflavik Women (Half Time Result) (0-0),0:2 (0:1),Bet365,2,1.00,1.00,pawelpl,2016-05-09 19:24:19
+32,2016-05-08 17:00:00,SOC,Livebet,Malacateco - Coban Imperial,5.86,WIN,Full Time Excluding Overtime Home (Home Draw Away) (0:0),9:0,Bet365,1952,3.00,2.86,pawelpl,2016-05-08 17:05:18
+33,2016-05-08 16:00:00,SOC,Livebet,Maceratese - ASD Santarcangelo,0.00,LOST,Rest of Match Home +0.50 (Asian Handicap) (0:1),1:3,Bet365,1.9,1.00,-1.00,pawelpl,2016-05-08 16:16:07
+34,2016-05-08 14:00:00,SOC,Livebet,BK Forward - Pitea IF,0.00,LOST,Full Time Excluding Overtime Under 3.0 (Over/Under) (1:1),3:1,Bet365,1725,1.00,-1.00,pawelpl,2016-05-08 15:26:01
+35,2016-05-08 13:30:00,SOC,Livebet,Karsiyaka SK - Kayseri Erciyespor,1.00,PUSH,Rest of Match Away 0 (Asian Handicap) (1:3),1:3,Bet365,2675,1.00,0.00,pawelpl,2016-05-08 14:59:11
+36,2016-05-08 13:00:00,SOC,Livebet,Helsingborgs IF - Malmo FF,0.00,LOST,Rest of Match Home 0 (Asian Handicap) (2:0),2:1,Bet365,5.75,1.00,-1.00,pawelpl,2016-05-08 14:49:31
+37,2016-05-08 11:05:36,SOC,Livebet,FC Koln (W) - FF USV Jena (W),1.00,PUSH,Rest of 1st Half Away 0 (Asian Handicap) (1:0),2:1 (1:0),Bet365,1.55,1.00,0.00,pawelpl,2016-05-08 12:35:20
+38,2016-05-08 10:00:00,SOC,Livebet,Lam Son Thanh Hoa - Song Lam Nghe An,3.2,WIN,Rest of 1st Half Away 0 (Asian Handicap) (0:0),2:2 (0:1),Bet365,3.2,1.00,2.20,pawelpl,2016-05-08 10:35:33
+39,2016-05-08 09:30:00,SOC,Livebet,San Marcial - Varea,1.00,PUSH,Rest of 1st Half Home 0 (Asian Handicap) (0:0),1:3 (1:1),Bet365,5.25,1.00,0.00,pawelpl,2016-05-08 10:06:42
+40,2016-05-08 08:45:00,SOC,Livebet,KuPS Kuopio U20 - TPS U20,3.65,WIN,Rest of Match Away +0.25 (Asian Handicap) (0:0),1:3,Bet365,1825,2.00,1.65,pawelpl,2016-05-08 08:56:47
+41,2016-05-07 10:00:00,SOC,Livebet,Debreceni U19 v Puskas Academy U19,3.9,WIN,Over 5.5 (Goal Line In-Play) (1-4),2:5,Bet365,1.95,2.00,1.90,pawelpl,2016-05-07 11:32:25
+42,2016-05-07 10:55:00,SOC,Ukraine,Volyn reserves - Dnipro (1:0 current score),0.00,LOST,Dnipro dnb,1:0,Bet365,1.66,2.00,-2.00,pawelpl,2016-05-07 10:57:16
+43,2016-05-07 09:00:00,SOC,Livebet,Banik Ostrava U19 - Sigma Olomouc U19,3.3,WIN,Full Time Excluding Overtime Over 2.75 (Over/Under) (0:0),2:2,Bet365,1.65,2.00,1.30,pawelpl,2016-05-07 09:37:52
+44,2016-05-07 08:00:00,SOC,Livebet,Maccabi Petach Tikva U19 v Beitar Tubruk U19,1.00,PUSH,Maccabi Petach Tikva U19 0 (Asian Handicap In-Play) (0-2),1:3,Bet365,2.02,1.00,0.00,pawelpl,2016-05-07 08:47:59
+45,2016-05-07 07:30:00,SOC,Livebet,Nei Mongol Zhongyou FC - Meizhou Hakka,0.5,LOST,Full Time Excluding Overtime Over 5.25 (Over/Under) (2:1),3:2,SBOBET,1.56,1.00,-0.50,pawelpl,2016-05-07 08:35:02
+46,2016-05-06 15:00:00,SOC,Livebet,CNS Cetate Deva - AS Magura Cisnadie,0.00,LOST,First Half Over 0.5 (Over/Under) (0:0),0-0,Bet365,4333,1.00,-1.00,pawelpl,2016-05-06 15:41:59
+47,2016-05-06 15:00:00,SOC,Livebet,CNS Cetate Deva - AS Magura Cisnadie,0.5,LOST,Rest of 1st Half Home -0.25 (Asian Handicap) (0:0),0-0,Bet365,2375,1.00,-0.50,pawelpl,2016-05-06 15:23:45
+48,2016-05-06 15:00:00,SOC,Livebet,CNS Cetate Deva - AS Magura Cisnadie,0.5,LOST,Rest of 1st Half Home -0.25 (Asian Handicap) (0:0),0-0,Bet365,2.3,1.00,-0.50,pawelpl,2016-05-06 15:20:25
+49,2016-05-06 17:00:00,SOC,Norway,Kongsberg - Assiden,2.1,WIN,Full Time Excluding Overtime X2 (Double Chance),2-3,Bet365,2.1,1.00,1.10,pawelpl,2016-05-06 14:48:59
+50,2016-05-06 13:00:00,SOC,Livebet,Johor Darul Takzim FC - Penang FA,0.00,LOST,Full Time Excluding Overtime Over 1.75 (Over/Under) (0:0),1:0 (0:0),SBOBET,1.85,1.00,-1.00,pawelpl,2016-05-06 14:18:23
+51,2016-05-06 17:00:00,SOC,Norway,Kongsberg - Assiden,0.00,LOST,Full Time Excluding Overtime Home 0 (Asian Handicap),2-3,Bet365,1825,3.00,-3.00,pawelpl,2016-05-06 13:35:05
+52,2016-05-06 12:00:00,SOC,Livebet,Maccabi Yafo Kabilyo - KFAR Kasem,1.00,PUSH,Rest of Match Home 0 (Asian Handicap) (0:0),0-0,Bet365,1725,1.00,0.00,pawelpl,2016-05-06 13:29:06
+53,2016-05-06 13:00:00,SOC,Livebet,Oud-Heverlee Leuven - Eupen,0.00,LOST,Rest of Match Home 0 (Asian Handicap) (0:1),0:2 (0:1),Bet365,2,1.00,-1.00,pawelpl,2016-05-06 13:25:25
+54,2016-05-06 11:00:00,SOC,Livebet,Oleksandria U21 - Hoverla U21,2.94,WIN,Full Event Over 5.75 (O/U) (2:1),5:1 (2:1),PINNACLE,1943,2.00,0.94,pawelpl,2016-05-06 12:07:29
+55,2016-05-06 10:30:00,SOC,Livebet,Para Hills Women v Adelaide University Women,1.00,PUSH,Over 1 (1st Half Goal Line) (0-0),1:3 (1:0),Bet365,2.07,1.00,0.00,pawelpl,2016-05-06 11:06:43
+56,2016-05-05 10:00:00,SOC,Livebet,TKT U19 v SalPa u19,0.00,LOST,Under 2 (Goal Line In-Play) (0-0),4:0 (1:0),Bet365,1.85,1.00,-1.00,pawelpl,2016-05-05 10:40:47
+57,2016-05-04 14:30:00,SOC,Livebet,Hanacka Slavia Kromeriz v SK Lisen,1.72,WIN,Over 3.5 (Match Goals) (1-0),4:1 (2:0),Bet365,1.72,1.00,0.72,pawelpl,2016-05-04 14:55:23
+58,2016-05-04 14:30:00,SOC,Livebet,Slavia Kromeriz - SK Lisen,1.83,WIN,Full Time Excluding Overtime Over 3.0 (Over/Under) (0:0),4:1 (2:0),Bet365,1825,1.00,0.83,pawelpl,2016-05-04 14:44:43
+59,2016-05-04 13:00:00,SOC,Livebet,Selangor v PBDKT T-Team FC,1.00,PUSH,PBDKT T-Team FC 0 (1st Half Asian Handicap) (0-0),2:1 (0:0),Bet365,3.7,1.00,0.00,pawelpl,2016-05-04 13:39:18
+60,2016-05-04 12:30:00,SOC,Livebet,Lion Blessé v APEJES Academy,1.00,PUSH,Lion Blessé 0 (Asian Handicap In-Play) (0-0),1:1 (1:0),Bet365,1.7,1.00,0.00,pawelpl,2016-05-04 12:50:42
+61,2016-05-04 10:30:00,SOC,Livebet,South China AA Reserves v Wong Tai Sin Reserves,3,WIN,Draw (Fulltime Result) (3-2),3:3 (2:0),Bet365,3,1.00,2.00,pawelpl,2016-05-04 12:09:43
+62,2016-05-04 10:30:00,SOC,Livebet,South China AA Reserves v Wong Tai Sin Reserves,2.07,WIN,Over 1.25 (1st Half Goal Line) (0-0),3:3 (2:0),Bet365,2.07,1.00,1.07,pawelpl,2016-05-04 11:00:22
+63,2016-05-04 10:30:00,SOC,Livebet,South China AA Reserves v Wong Tai Sin Reserves,2.07,WIN,Over 1.25 (1st Half Goal Line) (0-0),3:3 (2:0),Bet365,2.07,1.00,1.07,pawelpl,2016-05-04 10:59:45
+64,2016-05-04 15:30:00,SOC,Czech Rep.,Sparta Prague - Jablonec,0.00,LOST,Full Event Home +0.25 (AH),1:2 (0:2),Bet365,2.1,2.00,-2.00,pawelpl,2016-05-04 09:59:37
+65,2016-05-04 15:30:00,SOC,Czech Rep.,Sparta Prague - Jablonec,0.00,LOST,Full Event Home (DNB),1:2 (0:2),Bet365,2.63,2.00,-2.00,pawelpl,2016-05-04 09:57:54
+66,2016-05-03 14:00:00,SOC,Livebet,Chernomerets Novorosiisk v Krasnodar II,0.00,LOST,Krasnodar II 0 (1st Half Asian Handicap) (0-0),3:1 (2:0),Bet365,2.25,1.00,-1.00,pawelpl,2016-05-03 14:08:05
+67,2016-05-03 10:30:00,SOC,Livebet,Urawa Red Diamonds v Pohang Steelers,1.00,PUSH,Pohang Steelers 0 (Asian Handicap In-Play) (1-1),1:1 (0:0),Bet365,3.7,1.00,0.00,pawelpl,2016-05-03 12:15:31
+68,2016-05-03 11:00:00,SOC,Livebet,Medyk Konin Women v Zaglebie Lubin Women,1.5,LOST,Medyk Konin Women -2.25 (Asian Handicap In-Play) (0-1),2:1 (0:1),Bet365,1.82,3.00,-1.50,pawelpl,2016-05-03 11:25:57
+69,2016-05-03 11:00:00,SOC,Livebet,Medyk Konin Women v Zaglebie Lubin Women,3.00,PUSH,Medyk Konin Women -2.5 (Asian Handicap In-Play) (0-1),line change,Bet365,2,3.00,0.00,pawelpl,2016-05-03 11:24:51
+70,2016-05-03 11:00:00,SOC,Livebet,Bobruichanka Women v FC Zorka Bdu Women,3.8,WIN,FC Zorka Bdu Women -2.25 (Asian Handicap In-Play) (0-0),0:4 (0:1),Bet365,1.9,2.00,1.80,pawelpl,2016-05-03 11:05:33
+71,2016-05-02 10:00:00,SOC,Livebet,Hyundai Steel Red Angels Women v Hwacheon KSPO Women,0.00,LOST,Hyundai Steel Red Angels Women -1.25 (Asian Handicap In-Play) (0-0),1-1,Bet365,1.95,1.00,-1.00,pawelpl,2016-05-02 10:02:15
+72,2016-05-01 21:00:00,SOC,Livebet,CD Victoria v Juticalpa,2.62,WIN,Juticalpa (Half Time Result) (0-0),0:3 (0:2),Bet365,2.62,1.00,1.62,pawelpl,2016-05-01 21:29:24
+73,2016-05-01 21:00:00,SOC,Livebet,CD Victoria v Juticalpa,4.04,WIN,Juticalpa -0.25 (1st Half Asian Handicap) (0-0),0:3 (0:2),Bet365,2.02,2.00,2.04,pawelpl,2016-05-01 21:27:19
+74,2016-05-01 20:00:00,SOC,Livebet,Valur Reykjavik v Fjolnir,1.00,PUSH,Valur Reykjavik 0 (1st Half Asian Handicap) (0-0),danger-goal,Bet365,1.65,1.00,0.00,pawelpl,2016-05-01 20:37:12
+75,2016-05-01 15:00:00,SOC,Livebet,Viktorie Jirny v Jiskra Domazlice,0.00,LOST,Jiskra Domazlice +1 (Asian Handicap In-Play) (0-0),3:0,Bet365,1.95,1.00,-1.00,pawelpl,2016-05-01 15:10:18
+76,2016-05-01 19:00:00,SOC,Brazil,Campinense PB - Santa Cruz PE,1.00,PUSH,Full Event Home (DNB),1:1,Bet365,1.91,1.00,0.00,pawelpl,2016-05-01 14:22:39
+77,2016-05-01 13:00:00,SOC,Livebet,Independente FC Women v XV de Novembro Women,2,WIN,XV de Novembro Women -1.5 (Asian Handicap In-Play) (0-4),0-6,Bet365,2,1.00,1.00,pawelpl,2016-05-01 14:18:57
+78,2016-05-01 13:00:00,SOC,Livebet,Independente FC Women v XV de Novembro Women,1.49,WIN,XV de Novembro Women -1.75 (Asian Handicap In-Play) (0-4),0-6,Bet365,1.97,1.00,0.49,pawelpl,2016-05-01 14:14:16
+79,2016-05-01 12:00:00,SOC,Livebet,Dijon v Metz,1.00,PUSH,Metz 0 (Alternative Asian Handicap) (0-4),0:4,Bet365,4,1.00,0.00,pawelpl,2016-05-01 13:41:09
+80,2016-05-01 12:00:00,SOC,Livebet,FK Aktobe v Okzhetpes Kokshetau,2.00,PUSH,Okzhetpes Kokshetau 0 (Asian Handicap In-Play) (1-0),1:0,Bet365,2.42,2.00,0.00,pawelpl,2016-05-01 13:38:50
+81,2016-05-01 13:00:00,SOC,Livebet,Independente FC Women v XV de Novembro Women,4,WIN,XV de Novembro Women -3.5 (Asian Handicap In-Play) (0-0),0-6,Bet365,2,2.00,2.00,pawelpl,2016-05-01 13:19:22
+82,2016-05-01 10:15:00,SOC,Livebet,Socuéllamos v Mensajero,1.00,PUSH,Mensajero 0 (Alternative Asian Handicap) (2-0),2:0,Bet365,4.3,1.00,0.00,pawelpl,2016-05-01 12:00:05
+83,2016-05-01 11:30:00,SOC,Livebet,Arema Cronus v Persiba Balikpapan,3.6,WIN,Arema Cronus -1.5 (Asian Handicap In-Play) (0-0),2:0,Bet365,1.8,2.00,1.60,pawelpl,2016-05-01 11:44:28
+84,2016-05-01 09:30:00,SOC,Livebet,CD Zamora Amigos del Duero Women v CPM Friol Women,1.61,WIN,Under 2.5 (Match Goals) (0-1),0:1,Bet365,1.61,1.00,0.61,pawelpl,2016-05-01 10:52:45
+85,2016-05-01 11:30:00,SOC,Spa. Other,Guadalcacin - Utrera,0.00,LOST,DRAW,2:0,Dafabet,3.15,1.00,-1.00,pawelpl,2016-05-01 08:42:11
+86,2016-04-30 19:10:00,SOC,Livebet,River Plate v Velez Sarsfield,1.00,PUSH,Velez Sarsfield 0 (1st Half Asian Handicap) (0-0),0:0,Bet365,5.5,1.00,0.00,pawelpl,2016-04-30 19:50:51
+87,2016-04-30 18:30:00,SOC,Livebet,Real Betis v Barcelona,1.58,WIN,Real Betis +0.25 (1st Half Asian Handicap) (0-0),0:2 (0:0),Bet365,2.15,1.00,0.58,pawelpl,2016-04-30 19:09:26
+88,2016-04-30 18:00:00,SOC,Livebet,Tubize v Dessel Sport,1.00,PUSH,Dessel Sport 0 (Alternative 1st Half Asian) (0-0),1:2 (0:0),Bet365,3.35,1.00,0.00,pawelpl,2016-04-30 18:31:44
+89,2016-04-30 15:30:00,SOC,Livebet,Benevento v Lecce,0.00,LOST,Lecce 0 (Asian Handicap In-Play) (2-0),3:0,Bet365,2.15,1.00,-1.00,pawelpl,2016-04-30 16:32:25
+90,2016-04-30 15:00:00,SOC,Livebet,USM Alger v ASM Oran,0.00,LOST,ASM Oran +1 (Asian Handicap In-Play) (0-0),3:0,Bet365,1.95,1.00,-1.00,pawelpl,2016-04-30 15:51:17
+91,2016-04-30 15:00:00,SOC,Livebet,MO Bejaia v USM El Harrach,2.00,PUSH,MO Bejaia 0 (1st Half Asian Handicap) (0-0),0:0,Bet365,1.4,2.00,0.00,pawelpl,2016-04-30 15:30:04
+92,2016-04-30 13:30:00,SOC,Livebet,TSG Hoffenheim v FC Ingolstadt,1.00,PUSH,TSG Hoffenheim 0 (Asian Handicap In-Play) (2-1),2:1,Bet365,2.15,1.00,0.00,pawelpl,2016-04-30 15:11:59
+93,2016-04-30 14:30:00,SOC,Livebet,MTK Budapest v SC Vasas Budapest,1.00,PUSH,SC Vasas Budapest 0 (Alternative 1st Half Asian) (0-0),0:2 (0:0),Bet365,3.2,1.00,0.00,pawelpl,2016-04-30 15:03:57
+94,2016-04-30 13:00:00,SOC,Livebet,Slovacko v FC Fastav Zlín,1.00,PUSH,FC Fastav Zlín 0 (Asian Handicap In-Play) (1-1),1:1,Bet365,3.65,1.00,0.00,pawelpl,2016-04-30 14:46:37
+95,2016-04-30 13:00:00,SOC,Livebet,NK Zagreb v Slaven Belupo,2.55,WIN,Slaven Belupo 0 (Asian Handicap In-Play) (0-2),0:3,Bet365,2.55,1.00,1.55,pawelpl,2016-04-30 14:45:05
+96,2016-04-30 13:30:00,SOC,Livebet,Foolad Khuzestan v Esteghlal Ahvaz,1.9,WIN,Foolad Khuzestan -0.5 (Asian Handicap In-Play) (0-0),3:2,Bet365,1.9,1.00,0.90,pawelpl,2016-04-30 14:32:11
+97,2016-04-30 13:00:00,SOC,Livebet,Slavia Mozyr v FC Vitebsk,1.00,PUSH,Slavia Mozyr 0 (Asian Handicap In-Play) (0-4),0:4,Bet365,1.8,1.00,0.00,pawelpl,2016-04-30 14:30:56
+98,2016-04-30 12:00:00,SOC,Livebet,Isloch v Dinamo Brest,1.00,PUSH,Dinamo Brest 0 (Alternative Asian Handicap) (2-4),2:4,Bet365,4.4,1.00,0.00,pawelpl,2016-04-30 13:42:34
+99,2016-04-30 13:00:00,SOC,Livebet,Krasnodar Reserves v Anzhi Makhachkala Reserves,0.00,LOST,Anzhi Makhachkala Reserves (Next Goal) (1-1),2:1,Bet365,1.83,1.00,-1.00,pawelpl,2016-04-30 13:22:44
+100,2016-04-30 11:00:00,SOC,Livebet,Hapoel Bnei Sakhnin U19 v Sektzia Nes Tziona U19,1.9,WIN,Hapoel Bnei Sakhnin U19 -0.5 (Asian Handicap In-Play) (1-0),5:0,Bet365,1.9,1.00,0.90,pawelpl,2016-04-30 12:21:03
+101,2016-04-30 11:45:00,SOC,Livebet,Loyola Meralco Sparks v Ceres La Salle FC,1.00,PUSH,Ceres La Salle FC 0 (1st Half Asian Handicap) (1-0),3:2 (2:1),Bet365,1.77,1.00,0.00,pawelpl,2016-04-30 12:14:10
+102,2016-04-30 11:00:00,SOC,Livebet,Rot Weiss Essen U19 v TSG Sprockhovel U19,0.00,LOST,Rot Weiss Essen U19 -1 (Asian Handicap In-Play) (3-0),3:0,Bet365,1.82,2.00,-2.00,pawelpl,2016-04-30 12:12:31
+103,2016-04-30 11:00:00,SOC,Livebet,SC Freiburg U19 v Darmstadt 98 U19,2.67,WIN,SC Freiburg U19 -0.75 (Alternative Asian Handicap) (0-0),2:1,Bet365,1.67,2.00,0.67,pawelpl,2016-04-30 12:07:18
+104,2016-04-30 11:00:00,SOC,Livebet,1860 Munich U19 v TSG Hoffenheim U19,3.32,WIN,Over 4.5 (Match Goals) (0-3),0:5,Bet365,1.66,2.00,1.32,pawelpl,2016-04-30 11:55:21
+105,2016-04-30 10:00:00,SOC,Livebet,K-Jarve JK Jarve v JK Viljandi Tulevik,0.00,LOST,Over 3.5 (Match Goals) (1-2),1:2,Bet365,3.75,1.00,-1.00,pawelpl,2016-04-30 11:44:06
+106,2016-04-30 10:00:00,SOC,Livebet,Yokohama F-Marinos v Shonan Bellmare,1.00,PUSH,Shonan Bellmare 0 (Alternative Asian Handicap) (0-1),0:1,Bet365,5.5,1.00,0.00,pawelpl,2016-04-30 11:42:46
+107,2016-04-30 10:00:00,SOC,Livebet,Levadia Tallinn II v Maardu Linnameeskond,0.00,LOST,Levadia Tallinn II -0.25 (Asian Handicap In-Play) (0-1),1:3,Bet365,1.87,2.00,-2.00,pawelpl,2016-04-30 11:25:00
+108,2016-04-30 11:00:00,SOC,Livebet,Nakhon Pathom FC v Khon Kaen,2.85,WIN,Nakhon Pathom FC -0.75 (Asian Handicap In-Play) (0-0),1:0,Bet365,1.85,2.00,0.85,pawelpl,2016-04-30 11:23:09
+109,2016-04-30 11:00:00,SOC,Livebet,Hapoel Bnei Sakhnin U19 v Sektzia Nes Tziona U19,0.00,LOST,Under 3.5 (Match Goals) (0-0),5:0,Bet365,1.72,1.00,-1.00,pawelpl,2016-04-30 11:08:50
+110,2016-04-30 09:00:00,SOC,Livebet,Bonnyrigg White Eagles v Parramatta FC,1.00,PUSH,Parramatta FC 0 (Alternative Asian Handicap) (1-2),odds drop,Bet365,3.7,1.00,0.00,pawelpl,2016-04-30 10:41:12
+111,2016-04-30 10:00:00,SOC,Livebet,K-Jarve JK Jarve v JK Viljandi Tulevik,3.8,WIN,JK Viljandi Tulevik -0.5 (Asian Handicap In-Play) (1-0),1:2,Bet365,1.9,2.00,1.80,pawelpl,2016-04-30 10:36:30
+112,2016-04-30 10:00:00,SOC,Livebet,Mitech Zywiec Women v Sztorm Gdansk Women,1.92,WIN,Mitech Zywiec Women -0.5 (Asian Handicap In-Play) (1-0),4:0,Bet365,1.92,1.00,0.92,pawelpl,2016-04-30 10:34:17
+113,2016-04-30 10:00:00,SOC,Livebet,K-Jarve JK Jarve v JK Viljandi Tulevik,3.94,WIN,K-Jarve JK Jarve +1.5 (Asian Handicap In-Play) (0-0),1:2,Bet365,1.97,2.00,1.94,pawelpl,2016-04-30 10:18:38
+114,2016-04-30 09:00:00,SOC,Livebet,Persela Lamongan v Gresik United,0.00,LOST,Persela Lamongan -0.25 (Asian Handicap In-Play) (0-0),0:1,Bet365,1.87,2.00,-2.00,pawelpl,2016-04-30 09:22:18
+115,2016-04-30 11:00:00,SOC,Ger. Regionalliga,VfL Wolfsburg II - TSV Schilksee,1.7,WIN,Full Time Excluding Overtime Home -2.75 (Asian Handicap),7:0,SBOBET,1.7,1.00,0.70,pawelpl,2016-04-29 22:12:02
+116,2016-04-29 20:30:00,SOC,Livebet,UCV v Caracas II,0.00,LOST,Over 0.5 (1st Half Goal Line) (0-0),0-0,Bet365,2.5,1.00,-1.00,pawelpl,2016-04-29 21:10:15
+117,2016-04-29 17:00:00,SOC,Livebet,GKS Katowice v Bytovia Bytow,1.00,PUSH,Bytovia Bytow 0 (Asian Handicap In-Play) (0-2),0:2 (0:1),Bet365,3.55,1.00,0.00,pawelpl,2016-04-29 18:44:25
+118,2016-04-29 18:30:00,SOC,Livebet,Gibraltar United v St Joseph's FC,2,WIN,St Joseph's FC -0.75 (Asian Handicap In-Play) (0-0),1:3 (0:0),Bet365,2,1.00,1.00,pawelpl,2016-04-29 18:41:44
+119,2016-04-29 17:00:00,SOC,Livebet,Los Barrios v CD Alcala,0.00,LOST,Over 4.5 (Goal Line In-Play) (4-0),4:0 (2:0),Bet365,2.15,1.00,-1.00,pawelpl,2016-04-29 18:35:12
+120,2016-04-29 15:00:00,SOC,Livebet,CA Bordj Bou Arreridj v JSM Skikda,1.85,WIN,Under 3.5 (Goal Line In-Play) (2-1),2-1,Bet365,1.85,1.00,0.85,pawelpl,2016-04-29 16:43:07
+121,2016-04-30 16:00:00,SOC,Spa. Primera,Sociedad - Real,2.37,WIN,Bale anytime goalscorer,80 min.,Bet365,2.37,1.00,1.37,pawelpl,2016-04-29 16:21:59
+122,2016-04-29 10:30:00,SOC,Livebet,Cumberland United Women v Fulham United Women,2,WIN,Fulham United Women -1.5 (Asian Handicap In-Play) (0-0),0:2 (0:1),Bet365,2,1.00,1.00,pawelpl,2016-04-29 11:01:10
+123,2016-04-29 11:00:00,SOC,Czech Rep.,Vysocina Jihlava U19 - Sigma Olomouc U19,0.00,LOST,Full Time Excluding Overtime Away (Home Draw Away),2:0 (2:0),Bet365,2.38,1.00,-1.00,pawelpl,2016-04-29 10:06:18
+124,2016-04-29 08:00:00,SOC,Livebet,FC Clinceni v Dacia Unirea Braila,4.33,WIN,FC Clinceni (Draw No Bet) (1-1),2:1 (0:1),Bet365,4.33,1.00,3.33,pawelpl,2016-04-29 09:41:29
+125,2016-04-28 17:00:00,SOC,Livebet,IF Sylvia v Assyriska IF,1.00,PUSH,Assyriska IF 0 (Alternative 1st Half Asian) (1-1),2:2 (1:1),Bet365,4.25,1.00,0.00,pawelpl,2016-04-28 17:41:05
+126,2016-04-28 17:00:00,SOC,Livebet,IF Sylvia v Assyriska IF,0.00,LOST,Over 4.75 (Goal Line In-Play) (1-1),2:2 (1:1),Bet365,1.95,1.00,-1.00,pawelpl,2016-04-28 17:16:50
+127,2016-04-28 15:15:00,SOC,Livebet,TPV v VIFK,0.00,LOST,TPV 0 (Asian Handicap In-Play) (0-0),0:1 (0:0),Bet365,1.77,1.00,-1.00,pawelpl,2016-04-28 15:32:46
+128,2016-04-28 13:30:00,SOC,Livebet,Saipa Karadj v Esteghlal,1.00,PUSH,Saipa Karadj 0 (Alternative Asian Handicap) (1-2),1:2 (0:0),Bet365,3.5,1.00,0.00,pawelpl,2016-04-28 15:11:44
+129,2016-04-28 14:00:00,SOC,Livebet,Zenit Penza v Vityaz Podolsk,1.00,PUSH,Vityaz Podolsk 0 (Alternative 1st Half Asian) (1-0),1:0 (1:0),Bet365,2.3,1.00,0.00,pawelpl,2016-04-28 14:12:03
+130,2016-04-28 12:00:00,SOC,Livebet,Hapoel Migdal Haemeq v Maccabi Daliyat Al Karmel,1.75,WIN,Hapoel Migdal Haemeq 0 (Asian Handicap In-Play) (0-1),3:2 (0:1),Bet365,1.75,1.00,0.75,pawelpl,2016-04-28 12:47:41
+131,2016-04-28 12:00:00,SOC,Livebet,Hapoel Hadera v Hapoel Mejdel Krum,0.00,LOST,Over 1.75 (1st Half Goal Line) (1-0),4:0 (1:0),Bet365,2.05,2.00,-2.00,pawelpl,2016-04-28 12:20:05
+132,2016-04-28 12:00:00,SOC,Livebet,Hapoel Hadera v Hapoel Mejdel Krum,0.00,LOST,Over 1.75 (1st Half Goal Line) (1-0),4:0 (1:0),Bet365,2,1.00,-1.00,pawelpl,2016-04-28 12:19:02
+133,2016-04-28 12:00:00,SOC,Livebet,Hapoel Hadera v Hapoel Mejdel Krum,0.00,LOST,Over 1.75 (1st Half Goal Line) (1-0),4:0 (1:0),Bet365,2,1.00,-1.00,pawelpl,2016-04-28 12:18:04
+134,2016-04-28 11:00:00,SOC,Livebet,Dinamo Moscow U21 - Amkar U21,0.00,LOST,First Half Over 1.5 (Over/Under) (0:0),2:0 (1:0),188bet,2.61,1.00,-1.00,pawelpl,2016-04-28 11:40:26
+135,2016-04-27 13:30:00,SOC,Livebet,Bengaluru v Lao Toyota,1.8,WIN,Over 2.5 (Goal Line In-Play) (0-0),2:1 (1:0),Bet365,1.8,1.00,0.80,pawelpl,2016-04-27 14:00:38
+136,2016-04-27 12:30:00,SOC,Livebet,Cosmos de Bafia v Botafogo FC de Douala,0.00,LOST,Under 1.5 (Goal Line In-Play) (1-0),2:1 (1:0),Bet365,1.82,1.00,-1.00,pawelpl,2016-04-27 13:52:26
+137,2016-04-27 09:30:00,SOC,Livebet,Ayeyawady United - Johor Darul Takzim FC,1.00,PUSH,First Half Away (Home Draw Away) (0:0),Danger goal,SBOBET,1.81,1.00,0.00,pawelpl,2016-04-27 09:56:11
+138,2016-04-27 09:30:00,SOC,Livebet,Olympic FC U20 - Brisbane Strikers U20,3.00,PUSH,Rest of Match Away 0 (Asian Handicap) (0:0),0-2,Bet365,1.8,3.00,0.00,pawelpl,2016-04-27 09:42:50
+139,2016-04-27 08:08:30,SOC,Livebet,ZNK Ajdovscina (W) - ZNK Krim (W),1.00,PUSH,First Half Under 1.5 (Over/Under) (0:0),danger-goal,Bet365,1444,1.00,0.00,pawelpl,2016-04-27 09:24:30
+140,2016-04-27 08:45:00,SOC,Australia,Redlands United U20 - Moreton Bay United U20,2.38,WIN,Full Time Excluding Overtime 2/2 (Half Time / Full Time),1:5 (1:2),Bet365,2.38,1.00,1.38,pawelpl,2016-04-27 08:28:24
+141,2016-04-27 08:45:00,SOC,Australia,Redlands United U20 - Moreton Bay United U20,3.2,WIN,Full Time Excluding Overtime Away -0.50 (Asian Handicap),1:5 (1:2),Bet365,1.6,2.00,1.20,pawelpl,2016-04-27 08:27:27
+142,2016-04-26 12:00:00,SOC,Greece,Panserraikos - Lamia 1964,0.00,LOST,Full Time Excluding Overtime Over 2.5 (Over/Under),0:2 (0:0),Bet365,2.05,2.00,-2.00,pawelpl,2016-04-26 11:30:32
+143,2016-04-25 07:00:00,SOC,Livebet,Seoul Amazones Women v Incheon Red Angels Women,3.6,WIN,Under 6.5 (Goal Line In-Play) (2-4),2:4 (2:2),Bet365,1.8,2.00,1.60,pawelpl,2016-04-25 08:39:31
+144,2016-04-24 15:00:00,SOC,Livebet,IRT Tanger v HUSA Agadir,1.00,PUSH,IRT Tanger 0 (Asian Handicap In-Play) (3-1),3:1,Bet365,1.97,1.00,0.00,pawelpl,2016-04-24 16:44:09
+145,2016-04-24 15:00:00,SOC,Livebet,CS Sfaxien v JS Kairouanaise,1.66,WIN,CS Sfaxien (Fulltime Result) (0-0),1:0,Bet365,1.66,1.00,0.66,pawelpl,2016-04-24 16:00:30
+146,2016-04-24 15:00:00,SOC,Livebet,CS Sfaxien v JS Kairouanaise,1.5,WIN,CS Sfaxien -0.75 (Asian Handicap In-Play) (0-0),1:0,Bet365,2,1.00,0.50,pawelpl,2016-04-24 15:58:15
+147,2016-04-24 15:00:00,SOC,Livebet,Santiago Morning v Deportes Temuco,1.85,WIN,Santiago Morning +0.5 (Asian Handicap In-Play) (0-0),2:1,Bet365,1.85,1.00,0.85,pawelpl,2016-04-24 15:14:15
+148,2016-04-24 12:00:00,SOC,Livebet,Erzgebirge Aue v Chemnitzer,2.00,PUSH,Erzgebirge Aue 0 (Asian Handicap In-Play) (2-0),2:0,Bet365,1.77,2.00,0.00,pawelpl,2016-04-24 13:49:00
+149,2016-04-24 13:00:00,SOC,Livebet,Cercle Brugge v Deinze,1.00,PUSH,Deinze +1 (Asian Handicap In-Play) (0-0),1:0,Bet365,1.82,1.00,0.00,pawelpl,2016-04-24 13:42:36
+150,2016-04-24 13:00:00,SOC,Livebet,Lierse v Lommel,2.07,WIN,Under 1 (1st Half Goal Line) (0-0),0:0,Bet365,2.07,1.00,1.07,pawelpl,2016-04-24 13:12:17
+151,2016-04-24 21:30:00,SOC,Venezuela,Carabobo FC - Atletico Venezuela FC,0.00,LOST,Full Time Excluding Overtime Away +0.50 (Asian Handicap),2:1 (1:0),Bet365,1.95,1.00,-1.00,pawelpl,2016-04-24 13:05:39
+152,2016-04-24 11:00:00,SOC,Livebet,Sibir Novosibirsk II v Smena Komsomolsk,2.00,PUSH,Smena Komsomolsk 0 (Asian Handicap In-Play) (2-1),2:1,Bet365,1.5,2.00,0.00,pawelpl,2016-04-24 12:41:13
+153,2016-04-24 11:30:00,SOC,Livebet,Berliner FC Dynamo - Hertha Berlin Am,2.95,WIN,Full Event Over 1.75 (O/U) (0:0),2:0,PINNACLE,1952,2.00,0.95,pawelpl,2016-04-24 12:20:06
+154,2016-04-24 14:30:00,SOC,Livebet,Berliner FC Dynamo - Hertha Berlin Am,2.00,PUSH,First Half Over 0.5 (O/U) (0:0),market closed,PINNACLE,6.03,2.00,0.00,pawelpl,2016-04-24 12:12:59
+155,2016-04-24 12:00:00,SOC,Livebet,Ravan Baku - AZAL PFC Baku,0.00,LOST,First Half Away -0.50 (AH) (0:0),1:0 (1:0),PINNACLE,2.2,1.00,-1.00,pawelpl,2016-04-24 12:06:41
+156,2016-04-24 11:00:00,SOC,Livebet,Nakhon Pathom FC v Ang Thong FC,1.00,PUSH,Nakhon Pathom FC 0 (Alternative 1st Half Asian) (0-1),1:1 (0:1),Bet365,3.07,1.00,0.00,pawelpl,2016-04-24 11:36:34
+157,2016-04-24 11:00:00,SOC,Livebet,Posta Rangers v Tusker,2.07,WIN,Posta Rangers 0 (1st Half Asian Handicap) (0-0),1:0 (1:0),Bet365,2.07,1.00,1.07,pawelpl,2016-04-24 11:24:08
+158,2016-04-24 11:00:00,SOC,Livebet,Posta Rangers v Tusker,2.07,WIN,Posta Rangers 0 (1st Half Asian Handicap) (0-0),1:0 (1:0),Bet365,2.07,1.00,1.07,pawelpl,2016-04-24 11:23:01
+159,2016-04-24 09:00:00,SOC,Livebet,Bayern Munich U19 v Darmstadt 98 U19,3.32,WIN,Over 2.5 (Match Goals) (1-0),6:0,Bet365,1.66,2.00,1.32,pawelpl,2016-04-24 09:42:09
+160,2016-04-24 09:00:00,SOC,Livebet,MSV Duisburg U19 v Borussia M'gladbach U19,1.00,PUSH,MSV Duisburg U19 0 (1st Half Asian Handicap) (1-1),4:1 (1:1),Bet365,5.25,1.00,0.00,pawelpl,2016-04-24 09:38:59
+161,2016-04-24 21:30:00,SOC,Venezuela,Carabobo FC - Atletico Venezuela FC,2.1,WIN,Full Time Excluding Overtime Home (Home Draw Away),2:1 (1:0),Bet365,2.1,1.00,1.10,pawelpl,2016-04-24 09:12:29
+162,2016-04-23 17:30:00,SOC,Livebet,Steaua Bucharest v Viitorul Constanta,0.00,LOST,Over 3.5 (Match Goals) (3-0),3:0,Bet365,1.66,2.00,-2.00,pawelpl,2016-04-23 19:00:16
+163,2016-04-23 16:00:00,SOC,Livebet,Al Gharafa v Al-Mu'aidar,1.72,WIN,Al Gharafa (Fulltime Result) (0-0),1:0,Bet365,1.72,1.00,0.72,pawelpl,2016-04-23 17:05:05
+164,2016-04-23 15:00:00,SOC,Livebet,Robur Siena v Savona,0.00,LOST,Over 0.5 (Goal Line In-Play) (0-0),0-0,Bet365,2.85,1.00,-1.00,pawelpl,2016-04-23 16:40:05
+165,2016-04-23 15:56:00,SOC,Serbia,OFK Belgrad - Novi Pazar (0:2 ht),0.00,LOST,"Pazar +0,5",1:2,PINNACLE,2.11,1.00,-1.00,pawelpl,2016-04-23 15:57:30
+166,2016-04-23 15:00:00,SOC,Livebet,OFK Belgrade v FK Novi Pazar,1.72,WIN,OFK Belgrade (Next Goal) (0-2),1-2,Bet365,1.72,1.00,0.72,pawelpl,2016-04-23 15:53:16
+167,2016-04-23 15:00:00,SOC,Livebet,OFK Belgrade v FK Novi Pazar,3.84,WIN,OFK Belgrade -0.5 (Asian Handicap In-Play) (0-2),1-2,Bet365,1.92,2.00,1.84,pawelpl,2016-04-23 15:49:37
+168,2016-04-23 14:00:00,SOC,Scotland,Arbroath - Montrose,0.00,LOST,Full Time Excluding Overtime Over 2.75 (Over/Under),0:0,Bet365,1575,1.00,-1.00,pawelpl,2016-04-23 13:55:50
+169,2016-04-23 13:00:00,SOC,Livebet,Muang Thong United v Sisaket FC,2.9,WIN,Muang Thong United 0 (1st Half Asian Handicap) (2-0),4:0 (3:0),Bet365,1.45,2.00,0.90,pawelpl,2016-04-23 13:45:53
+170,2016-04-23 12:00:00,SOC,Livebet,Mainz II v Stuttgarter Kickers,2.00,PUSH,Stuttgarter Kickers 0 (Asian Handicap In-Play) (1-2),1:2,Bet365,2.3,2.00,0.00,pawelpl,2016-04-23 13:44:47
+171,2016-04-23 12:00:00,SOC,Livebet,Baerum v Orn Horten,3.8,WIN,Baerum +0.25 (Asian Handicap In-Play) (2-0),5:0,Bet365,1.9,2.00,1.80,pawelpl,2016-04-23 12:46:40
+172,2016-04-23 11:00:00,SOC,Livebet,MFK Karvina U19 v Sparta Prague U19,1.00,PUSH,MFK Karvina U19 0 (1st Half Asian Handicap) (0-0),2:1 (0:0),Bet365,4.1,1.00,0.00,pawelpl,2016-04-23 11:41:09
+173,2016-04-23 08:00:00,SOC,Livebet,Binh Phuoc v Dak Lak,0.00,LOST,Binh Phuoc (Next Goal) (2-2),2:2,Bet365,5,1.00,-1.00,pawelpl,2016-04-23 09:44:13
+174,2016-04-23 09:00:00,SOC,Livebet,SC Freiburg U19 v 1860 Munich U19,1.00,PUSH,SC Freiburg U19 0 (1st Half Asian Handicap) (2-0),2:1 (2:0),Bet365,3.55,1.00,0.00,pawelpl,2016-04-23 09:39:28
+175,2016-04-23 08:00:00,SOC,Livebet,Binh Phuoc v Dak Lak,1.00,PUSH,Binh Phuoc 0 (Asian Handicap In-Play) (0-1),danger-goal,Bet365,1.65,1.00,0.00,pawelpl,2016-04-23 09:09:49
+176,2016-04-23 07:00:00,SOC,Livebet,Ehime FC v Kamatamare Sanuki,2.00,PUSH,Ehime FC 0 (Asian Handicap In-Play) (1-0),1:0,Bet365,2.1,2.00,0.00,pawelpl,2016-04-23 08:38:13
+177,2016-04-23 07:00:00,SOC,Livebet,Balcatta v Perth SC,4,WIN,Balcatta 0 (1st Half Asian Handicap) (1-1),4:3 (2:1),Bet365,4,1.00,3.00,pawelpl,2016-04-23 07:40:32
+178,2016-04-23 05:30:00,SOC,Livebet,Adelaide United U21 v Adelaide Comets,1.00,PUSH,Adelaide United U21 0 (Alternative Asian Handicap) (0-3),0:3,Bet365,5.2,1.00,0.00,pawelpl,2016-04-23 07:16:38
+179,2016-04-22 15:00:00,SOC,Livebet,HNK Gorica v NK Zadar,0.00,LOST,NK Zadar +0.5 (Asian Handicap In-Play) (2-3),3:3 (0:2),Bet365,1.7,2.00,-2.00,pawelpl,2016-04-22 16:39:20
+180,2016-04-22 15:00:00,SOC,Livebet,HNK Gorica v NK Zadar,0.00,LOST,Under 4.25 (Goal Line In-Play) (1-2),3:3 (0:2),Bet365,1.95,2.00,-2.00,pawelpl,2016-04-22 16:23:44
+181,2016-04-22 11:00:00,SOC,Livebet,Spartak Moscow Reserves v Mordovya Saransk Reserves,3.32,WIN,Over 3.5 (Match Goals) (3-0),4-0 (1-0),Bet365,1.66,2.00,1.32,pawelpl,2016-04-22 12:38:02
+182,2016-04-22 11:00:00,SOC,Livebet,Spartak Moscow U21 - Mordovia Saransk U21,1,LOST,First Half Over 1.25 (O/U) (0:0),4-0 (1-0),PINNACLE,1862,2.00,-1.00,pawelpl,2016-04-22 11:12:30
+183,2016-04-22 10:15:00,SOC,Livebet,Pascoe Vale v Bentleigh Greens,1.00,PUSH,Pascoe Vale 0 (1st Half Asian Handicap) (0-2),1:4 (0:2),Bet365,3.7,1.00,0.00,pawelpl,2016-04-22 10:57:32
+184,2016-04-21 14:30:00,SOC,Livebet,Rapid Bucharest v Farul Constanta,0.00,LOST,Over 1.5 (1st Half Goal Line) (1-0),1:0 (1:0),Bet365,2.02,1.00,-1.00,pawelpl,2016-04-21 15:02:26
+185,2016-04-21 13:00:00,SOC,Livebet,Throttur Reykjavik Women v Valur Reykjavik Women,1.7,WIN,Valur Reykjavik Women -1.5 (Asian Handicap In-Play) (0-7),0:11 (0:7),Bet365,1.7,1.00,0.70,pawelpl,2016-04-21 14:25:16
+186,2016-04-21 11:30:00,SOC,Livebet,Geylang International v Tampines Rovers FC,1.00,PUSH,Tampines Rovers FC 0 (Alternative 1st Half Asian) (0-1),0:1 (0:1),Bet365,1.75,1.00,0.00,pawelpl,2016-04-21 12:12:44
+187,2016-04-21 13:00:00,SOC,Livebet,Boeun Sangmu Women v Hwacheon KSPO Women,1.00,PUSH,Under 4.25 (Goal Line In-Play) (2-1),,Bet365,2,1.00,0.00,pawelpl,2016-04-21 11:21:12
+188,2016-04-20 19:30:00,SOC,Livebet,Aragua v CD Lara,0.00,LOST,CD Lara +0.25 (Asian Handicap In-Play) (1-0),2:0 (0:0),Bet365,1.65,1.00,-1.00,pawelpl,2016-04-20 21:10:16
+189,2016-04-20 18:45:00,SOC,Livebet,Berwick U20 v Forfar U20,1.57,WIN,Over 2.5 (Match Goals) (0-1),2:3 (0:1),Bet365,1.57,1.00,0.57,pawelpl,2016-04-20 19:47:07
+190,2016-04-20 17:45:00,SOC,Livebet,Heracles v Feyenoord,1.00,PUSH,Heracles 0 (Alternative Asian Handicap) (2-2),2:2 (1:1),Bet365,3.8,1.00,0.00,pawelpl,2016-04-20 19:25:29
+191,2016-04-20 20:30:00,SOC,Livebet,Mamelodi Sundowns v ASV Club,2.00,PUSH,ASV Club +0.75 (Alternative Asian Handicap) (0-0),,Bet365,1.72,2.00,0.00,pawelpl,2016-04-20 18:09:03
+192,2016-04-20 13:00:00,SOC,Livebet,FK Zenit Izhevsk v Volga Nizhny Novgorod II,0.00,LOST,FK Zenit Izhevsk 0 (1st Half Asian Handicap) (0-0),0:1 (0:1),Bet365,1.9,1.00,-1.00,pawelpl,2016-04-20 13:17:37
+193,2016-04-20 16:00:00,SOC,Russia,FC Dynamo St. Petersburg - FK Pskov 747,0.00,LOST,Full Time Excluding Overtime Home -0.50 (Asian Handicap),3:3 (1:1),Bet365,1.8,2.00,-2.00,pawelpl,2016-04-20 12:38:54
+194,2016-04-20 09:45:00,SOC,Livebet,Heidelberg United Women v Old Xaverians SC Women,1.95,WIN,Heidelberg United Women -3 (Asian Handicap In-Play) (5-0),9:0 (5:0),Bet365,1.95,1.00,0.95,pawelpl,2016-04-20 11:04:12
+195,2016-04-19 15:00:00,SOC,Livebet,Ahli Al Khalil v Thagafi Tulkarem,1.75,WIN,Ahli Al Khalil 0 (Asian Handicap In-Play) (0-0),3:1 (1:0),Bet365,1.75,1.00,0.75,pawelpl,2016-04-19 15:37:24
+196,2016-04-19 12:30:00,SOC,Livebet,FC Zaria Balti v Saxan Cadir Lunga,1.85,WIN,Over 4 (Goal Line In-Play) (2-0),5-1,Bet365,1.85,1.00,0.85,pawelpl,2016-04-19 13:40:09
+197,2016-04-19 10:00:00,SOC,Livebet,Dynamo Kiev U19 v Olimpik Donetsk U19,2.5,WIN,Over 3.5 (Match Goals) (2-1),3-1,Bet365,2.5,1.00,1.50,pawelpl,2016-04-19 11:38:29
+198,2016-04-19 10:27:00,SOC,Ukraine,Dynamo u19 - Olimik u19,5.4,WIN,"over 0,5 ht",1-0,Dafabet,1.8,3.00,2.40,pawelpl,2016-04-19 10:28:11
+199,2016-04-17 14:00:00,SOC,Livebet,Kingstonian v Staines Town,3,WIN,Under 3.5 3.5 (Alternative Match Goals) (0-1),0:1,Bet365,1.5,2.00,1.00,pawelpl,2016-04-17 15:02:57
+200,2016-04-17 13:00:00,SOC,Livebet,Metta/LU v FK Liepaja,3.00,PUSH,FK Liepaja -1.25 (Asian Handicap In-Play) (0-0),"won, tipster cancel",Bet365,1.87,3.00,0.00,pawelpl,2016-04-17 13:34:36
+201,2016-04-17 10:00:00,SOC,Livebet,AD Ceuta FC v Cordoba B,0.00,LOST,Cordoba B (Next Goal) (1-0),1:0,Bet365,5.5,2.00,-2.00,pawelpl,2016-04-17 11:43:39
+202,2016-04-17 09:30:00,SOC,Livebet,CD Zamora Amigos del Duero Women v SD Tordoia Women,3,WIN,Under 2.5 (Match Goals) (0-1),0-2,Bet365,1.5,2.00,1.00,pawelpl,2016-04-17 11:04:08
+203,2016-04-17 10:00:00,SOC,Livebet,Barcelona Women v Fundacion Albacete Women,0.00,LOST,Barcelona Women -0.75 (1st Half Asian Handicap) (1-0),2:0 (1:0),Bet365,1.77,1.00,-1.00,pawelpl,2016-04-17 10:30:53
+204,2016-04-17 09:30:00,SOC,Livebet,CD Zamora Amigos del Duero Women v SD Tordoia Women,0.00,LOST,CD Zamora Amigos del Duero Women -0.75 (Asian Handicap In-Play) (0-0),0-2,Bet365,2.02,2.00,-2.00,pawelpl,2016-04-17 10:23:02
+205,2016-04-17 05:30:00,SOC,Livebet,Wanchai v Shatin,0.00,LOST,Over 5.5 (Goal Line In-Play) (1-4),1:4,Bet365,1.8,2.00,-2.00,pawelpl,2016-04-17 07:06:52
+206,2016-04-17 05:30:00,SOC,Livebet,Wanchai v Shatin,3,WIN,Over 4.75 (Goal Line In-Play) (0-3),1:4,Bet365,2,2.00,1.00,pawelpl,2016-04-17 06:34:24
+207,2016-04-17 05:30:00,SOC,Livebet,Wanchai v Shatin,4.98,WIN,Over 4.5 (Match Goals) (0-3),1:4,Bet365,1.66,3.00,1.98,pawelpl,2016-04-17 06:33:00
+208,2016-04-16 16:00:00,SOC,Livebet,Arenas Club de Getxo v Socuéllamos,2.00,PUSH,Socuéllamos 0 (1st Half Asian Handicap) (1-1),1:2 (1:1),Bet365,2.67,2.00,0.00,pawelpl,2016-04-16 16:39:00
+209,2016-04-16 15:00:00,SOC,Livebet,Atletico Astorga v Cacereno,2.00,PUSH,Cacereno 0 (1st Half Asian Handicap) (1-1),5:3 (1:1),Bet365,3.7,2.00,0.00,pawelpl,2016-04-16 15:36:02
+210,2016-04-16 14:00:00,SOC,Livebet,Exeter v Northampton,1.5,WIN,Under 1 (Alternative Goal Line) (0-0),0:0,Bet365,1.5,1.00,0.50,pawelpl,2016-04-16 15:26:40
+211,2016-04-16 13:30:00,SOC,Livebet,TSG Hoffenheim v Hertha Berlin,1.00,PUSH,TSG Hoffenheim 0 (Asian Handicap In-Play) (2-1),2-1,Bet365,2.25,1.00,0.00,pawelpl,2016-04-16 15:15:54
+212,2016-04-16 14:00:00,SOC,Livebet,Dnipro v Metalist Kharkiv,0.00,LOST,Under 3.5 (Match Goals) (1-0),5:0,Bet365,1.83,1.00,-1.00,pawelpl,2016-04-16 15:09:42
+213,2016-04-16 12:15:00,SOC,Livebet,Ceres La Salle FC v Global FC,2.00,PUSH,Ceres La Salle FC 0 (Asian Handicap In-Play) (0-2),1:3,Bet365,1.8,2.00,0.00,pawelpl,2016-04-16 12:59:51
+214,2016-04-16 11:00:00,SOC,Livebet,FK Zorka BDU Minsk v FC Smorgon,2.95,WIN,FK Zorka BDU Minsk +0.25 (Asian Handicap In-Play) (0-0),1:1,Bet365,1.95,2.00,0.95,pawelpl,2016-04-16 11:32:27
+215,2016-04-16 10:00:00,SOC,Livebet,Dinamo Moscow Reserves v Krylya Sovetov Reserves,4.71,WIN,Over 3.5 (Goal Line In-Play) (1-0),4:1,Bet365,1.57,3.00,1.71,pawelpl,2016-04-16 11:18:10
+216,2016-04-16 10:00:00,SOC,Livebet,Dinamo Moscow Reserves v Krylya Sovetov Reserves,1.85,WIN,Krylya Sovetov Reserves +2.5 (Asian Handicap In-Play) (1-0),4:1,Bet365,1.85,1.00,0.85,pawelpl,2016-04-16 10:49:02
+217,2016-04-16 10:00:00,SOC,Livebet,Dinamo Moscow Reserves v Krylya Sovetov Reserves,3.7,WIN,Krylya Sovetov Reserves +2.5 (Asian Handicap In-Play) (1-0),4:1,Bet365,1.85,2.00,1.70,pawelpl,2016-04-16 10:47:41
+218,2016-04-16 10:00:00,SOC,Livebet,Eskisehirspor v Konyaspor,1,LOST,Konyaspor -0.25 (Asian Handicap In-Play) (0-1),1:2,Bet365,1.85,2.00,-1.00,pawelpl,2016-04-16 10:28:14
+219,2016-04-16 10:00:00,SOC,Livebet,Dnipro U19 v FK Skala Stryi U19,0.00,LOST,Dnipro U19 -0.25 (1st Half Asian Handicap) (0-0),"0:1, 2:0",Bet365,2.15,2.00,-2.00,pawelpl,2016-04-16 10:18:53
+220,2016-04-16 09:00:00,SOC,Livebet,Opava U19 v Viktoria Plzen U19,1.97,WIN,Over 4.25 (Goal Line In-Play) (1-1),2:3,Bet365,1.97,1.00,0.97,pawelpl,2016-04-16 09:57:55
+221,2016-04-16 09:15:00,SOC,Livebet,Kaya FC v Stallions FC,3.5,WIN,Kaya FC 0 (1st Half Asian Handicap) (0-1),2:1 (1:1),Bet365,1.75,2.00,1.50,pawelpl,2016-04-16 09:55:54
+222,2016-04-16 08:00:00,SOC,Livebet,Western Pride FC v Redlands United,0.00,LOST,Western Pride FC 0 (Alternative 1st Half Asian) (0-0),1:2 (0:1),Bet365,4.3,1.00,-1.00,pawelpl,2016-04-16 09:37:04
+223,2016-04-16 08:00:00,SOC,Livebet,Western Pride FC v Redlands United,0.00,LOST,Western Pride FC +0.25 (1st Half Asian Handicap) (0-0),1:2 (0:1),Bet365,1.87,2.00,-2.00,pawelpl,2016-04-16 09:36:18
+224,2016-04-16 07:00:00,SOC,Livebet,Hakoah Sydney City East U20 v Blacktown City U20,2.00,PUSH,Hakoah Sydney City East U20 0 (Asian Handicap In-Play) (1-4),1:4,Bet365,2,2.00,0.00,pawelpl,2016-04-16 08:40:46
+225,2016-04-15 21:00:00,SOC,Livebet,Fjolnir Women v Keflavik Women,3.22,WIN,Under 4.5 (Match Goals) (0-0),2-1,Bet365,1.61,2.00,1.22,pawelpl,2016-04-15 21:09:55
+226,2016-04-15 18:45:00,SOC,Livebet,Brighton v Fulham,1.00,PUSH,Fulham 0 (Asian Handicap In-Play) (5-0),5:0 (2:0),Bet365,3.1,1.00,0.00,pawelpl,2016-04-15 20:35:09
+227,2016-04-15 14:00:00,SOC,Livebet,Dundee U20 v Celtic U20,1.00,PUSH,Dundee U20 0 (Alternative Asian Handicap) (2-2),2-2,Bet365,4.8,1.00,0.00,pawelpl,2016-04-15 15:43:38
+228,2016-04-15 16:15:00,SOC,Finland,TP-T - NoPs,0.00,LOST,Full Event Home (DNB),1 : 4,Bet365,3,1.00,-1.00,pawelpl,2016-04-15 11:50:08
+229,2016-04-15 16:15:00,SOC,Finland,TP-T - NoPs,0.00,LOST,Full Event Home +0.75 (AH),1 : 4,Bet365,2,2.00,-2.00,pawelpl,2016-04-15 11:49:44
+230,2016-04-15 10:00:00,SOC,Livebet,Lokomotiv Moscow Reserves v CSKA Moscow Reserves,2.00,PUSH,CSKA Moscow Reserves 0 (Asian Handicap In-Play) (3-2),3:2 (2:0),Bet365,1.65,2.00,0.00,pawelpl,2016-04-15 11:43:41
+231,2016-04-14 18:15:00,SOC,Livebet,Gjelleraasen U19 v Fredrikstad FK U19,2.9,WIN,Fredrikstad FK U19 -1.75 (Asian Handicap In-Play) (0-0),2:4 (1:1),Bet365,1.9,2.00,0.90,pawelpl,2016-04-14 18:25:15
+232,2016-04-14 16:45:00,SOC,Livebet,FC Ramat Hasharon Women v Kiryat Gat SC Women,5.7,WIN,FC Ramat Hasharon Women -1.25 (Asian Handicap In-Play) (2-2),4:2 (2:2),Bet365,1.9,3.00,2.70,pawelpl,2016-04-14 17:52:00
+233,2016-04-14 16:45:00,SOC,Livebet,FC Ramat Hasharon Women v Kiryat Gat SC Women,5.7,WIN,FC Ramat Hasharon Women -1.25 (Asian Handicap In-Play) (2-2),4:2 (2:2),Bet365,1.9,3.00,2.70,pawelpl,2016-04-14 17:51:15
+234,2016-04-14 13:30:00,SOC,Livebet,Al Asalah v Al-Baqa'a,1.00,PUSH,Al Asalah 0 (Alternative Asian Handicap) (1-2),1:2 (1:1),Bet365,5.5,1.00,0.00,pawelpl,2016-04-14 15:16:27
+235,2016-04-14 12:30:00,SOC,Livebet,Rah Ahan v Zob Ahan,1.00,PUSH,Rah Ahan (Draw No Bet) (1-1),1:1 (0:0),Bet365,7,1.00,0.00,pawelpl,2016-04-14 14:13:02
+236,2016-04-15 00:45:00,SOC,Libertadores,Nacional Montevideo - Rosario Central,3.5,WIN,Full Event Even (Odd/Even),0:2 (0:1),188bet,1.75,2.00,1.50,pawelpl,2016-04-14 13:44:02
+237,2016-04-13 13:30:00,SOC,Livebet,Bengaluru FC - Ayeyawady United,1.46,WIN,First Half Over 1.75 (Over/Under) (1:0),5:3 (1:1),188bet,1.91,1.00,0.46,pawelpl,2016-04-13 13:59:40
+238,2016-04-13 11:00:00,SOC,Livebet,Lao Toyota v Johor Darul Takzim,3.94,WIN,Over 4.5 (Goal Line In-Play) (1-1),1:4 (1:0),Bet365,1.97,2.00,1.94,pawelpl,2016-04-13 12:14:22
+239,2016-04-13 11:00:00,SOC,Livebet,Lao Toyota v Johor Darul Takzim,3.84,WIN,Over 4.5 (Goal Line In-Play) (1-1),1:4 (1:0),Bet365,1.92,2.00,1.84,pawelpl,2016-04-13 12:13:11
+240,2016-04-10 13:00:00,SOC,Livebet,Union Saint Gilloise v KSK Heist,0.00,LOST,Over 2.5 (First Half Goals) (2-0),4:0 (2:0),Bet365,3,1.00,-1.00,pawelpl,2016-04-10 13:35:19
+241,2016-04-10 10:00:00,SOC,Livebet,Viktoria Plzen U21 v Vysocina Jihlava U21,1,LOST,Vysocina Jihlava U21 +0.75 (Asian Handicap In-Play) (0-0),1:0,Bet365,1.82,2.00,-1.00,pawelpl,2016-04-10 10:08:45
+242,2016-04-10 09:00:00,SOC,Livebet,TSG Sprockhovel U19 v Fortuna Dusseldorf U19,0.00,LOST,Fortuna Dusseldorf U19 -0.5 (Alternative 1st Half Asian) (0-1),"0:1, 0:0",Bet365,1.7,2.00,-2.00,pawelpl,2016-04-10 09:23:12
+243,2016-04-10 09:00:00,SOC,Livebet,TSG Sprockhovel U19 v Fortuna Dusseldorf U19,0.00,LOST,Fortuna Dusseldorf U19 -0.75 (1st Half Asian Handicap) (0-1),"0:1, 0:0",Bet365,1.87,2.00,-2.00,pawelpl,2016-04-10 09:19:39
+244,2016-04-09 13:45:00,SOC,Livebet,Al Shabab Seeb v Sohar Club,4.2,WIN,Al Shabab Seeb 0 (Asian Handicap In-Play) (1-2),3:2,Bet365,2.1,2.00,2.20,pawelpl,2016-04-09 14:57:37
+245,2016-04-09 13:00:00,SOC,Livebet,Lecce v Akragas,0.00,LOST,Lecce (Next Goal) (0-0),0:0,Bet365,2.1,1.00,-1.00,pawelpl,2016-04-09 14:31:42
+246,2016-04-09 13:30:00,SOC,Livebet,That Ras v Al-Sareeh,3.64,WIN,That Ras 0 (Asian Handicap In-Play) (1-1),3:1,Bet365,1.82,2.00,1.64,pawelpl,2016-04-09 14:14:40
+247,2016-04-09 14:00:00,SOC,Livebet,EC Taubate v EC Barretos,3.8,WIN,EC Barretos +0.5 (Asian Handicap In-Play) (1-0),2:2,Bet365,1.9,2.00,1.80,pawelpl,2016-04-09 14:07:28
+248,2016-04-09 13:30:00,SOC,Livebet,Al-Hussein SC v Al Asalah,4.25,WIN,Al-Hussein SC -0.25 (1st Half Asian Handicap) (1-1),3:1 (2:1),Bet365,4.25,1.00,3.25,pawelpl,2016-04-09 14:04:08
+249,2016-04-09 13:00:00,SOC,Livebet,Matera v Melfi,2.02,WIN,Over 4.25 (Goal Line In-Play) (1-2),2:3,Bet365,2.02,1.00,1.02,pawelpl,2016-04-09 14:01:06
+250,2016-04-09 13:00:00,SOC,Livebet,Renate v Albinoleffe,2.9,WIN,Renate 0 (1st Half Asian Handicap) (1-0),2:0 (2:0),Bet365,1.45,2.00,0.90,pawelpl,2016-04-09 13:36:28
+251,2016-04-09 13:00:00,SOC,Livebet,Kolding IF v AB Tårnby,0.00,LOST,AB Tårnby +0.5 (Asian Handicap In-Play) (1-0),4:0,Bet365,1.8,2.00,-2.00,pawelpl,2016-04-09 13:34:36
+252,2016-04-09 13:00:00,SOC,Livebet,Frem v Hvidovre IF,0.00,LOST,Hvidovre IF +0.5 (Asian Handicap In-Play) (0-0),3:1,Bet365,1.9,1.00,-1.00,pawelpl,2016-04-09 13:31:13
+253,2016-04-09 13:00:00,SOC,Livebet,Frem v Hvidovre IF,0.00,LOST,Hvidovre IF 0 (Alternative Asian Handicap) (0-0),3:1,Bet365,3,1.00,-1.00,pawelpl,2016-04-09 13:30:19
+254,2016-04-09 13:00:00,SOC,Livebet,FK Krumkachy Minsk v Neman Grodno,3.00,PUSH,Neman Grodno 0 (Asian Handicap In-Play) (1-0),2:1,Bet365,1.75,3.00,0.00,pawelpl,2016-04-09 13:24:51
+255,2016-04-09 06:30:00,SOC,Livebet,Launceston City v South Hobart,3.9,WIN,South Hobart -0.75 (Asian Handicap In-Play) (0-9),0:10,Bet365,1.95,2.00,1.90,pawelpl,2016-04-09 08:14:44
+256,2016-04-09 07:00:00,SOC,Livebet,ECU Joondalup v Perth SC,1.00,PUSH,ECU Joondalup 0 (1st Half Asian Handicap) (1-0),1:2 (1:0),Bet365,3.7,1.00,0.00,pawelpl,2016-04-09 07:39:40
+257,2016-04-08 16:00:00,SOC,Livebet,FC Amberg v SpVgg Bayreuth,0.5,LOST,Over 3.25 (Goal Line In-Play) (0-2),0:3 (0:2),Bet365,1.8,1.00,-0.50,pawelpl,2016-04-08 16:41:22
+258,2016-04-08 16:00:00,SOC,Livebet,FC Amberg v SpVgg Bayreuth,2.00,PUSH,FC Amberg 0 (Asian Handicap In-Play) (0-1),danger-goal,Bet365,1.75,2.00,0.00,pawelpl,2016-04-08 16:24:20
+259,2016-04-08 10:30:00,SOC,Livebet,Maccabi Tzur Shalom v Hapoel Ironi Herzliya,1.6,WIN,Hapoel Ironi Herzliya 0 (Asian Handicap In-Play) (2-1),2:2 (2:1),Bet365,1.6,1.00,0.60,pawelpl,2016-04-08 11:58:28
+260,2016-04-08 11:30:00,SOC,Livebet,Hapoel Hod Hasharon v Hapoel Bikat Hayarden,1.00,PUSH,Hapoel Hod Hasharon 0 (Asian Handicap In-Play) (0-1),1:2 (1:1),Bet365,1.9,1.00,0.00,pawelpl,2016-04-08 11:53:22
+261,2016-04-08 07:00:00,SOC,Livebet,FC Twenty 11 v Ferrymead Bays,3.6,WIN,Ferrymead Bays +1 (Asian Handicap In-Play) (0-0),0-1,Bet365,1.8,2.00,1.60,pawelpl,2016-04-08 07:13:00
+262,2016-04-07 20:15:00,SOC,Livebet,Fylkir Reykjavik Women v Stjarnan Women,1,LOST,Stjarnan Women -1.25 (Asian Handicap In-Play) (0-0),1:2 (0:1),Bet365,1.7,2.00,-1.00,pawelpl,2016-04-07 20:34:21
+263,2016-04-07 13:00:00,SOC,Livebet,France Women U19 v Greece Women U19,1.00,PUSH,France Women U19 -0.5 (1st Half Asian Handicap) (1-0),Danger goal,Bet365,1.8,1.00,0.00,pawelpl,2016-04-07 13:30:30
+264,2016-04-06 16:00:00,SOC,Livebet,Gor Mahia v Thika Utd,3.84,WIN,Gor Mahia -0.75 (Asian Handicap In-Play) (0-1),2:1 (0:1),Bet365,1.92,2.00,1.84,pawelpl,2016-04-06 16:34:08
+265,2016-04-06 11:00:00,SOC,Livebet,Dynamo Kiev U19 v Vorskla Poltava U19,4.04,WIN,Dynamo Kiev U19 -0.5 (1st Half Asian Handicap) (0-0),1-0,Bet365,2.02,2.00,2.04,pawelpl,2016-04-06 11:29:03
+266,2016-04-06 11:22:00,SOC,Ukraine,Dynamo Kijow u19 - Vorskla u19,3.76,WIN,Dynamo ht,1-0,Dafabet,1.88,2.00,1.76,pawelpl,2016-04-06 11:23:29
+267,2016-04-05 13:00:00,SOC,Livebet,Scotland (w) U19 - Greece (w) U19,0.00,LOST,Full Event Home -1.50 (AH) (0:0),1:0 (0:0),PINNACLE,1813,2.00,-2.00,pawelpl,2016-04-05 13:25:09
+268,2016-04-03 17:00:00,SOC,Livebet,CD Espoli v CD Colon,2.00,PUSH,CD Espoli 0 (1st Half Asian Handicap) (0-0),"0:0, 3:0",Bet365,3.1,2.00,0.00,pawelpl,2016-04-03 17:38:22
+269,2016-04-03 13:00:00,SOC,Livebet,Bragantino v Juventus SP,3.5,WIN,Juventus SP +1 (Asian Handicap In-Play) (0-0),0-1,Bet365,1.75,2.00,1.50,pawelpl,2016-04-03 13:35:55
+270,2016-04-03 13:00:00,SOC,Livebet,Shabab AL Ordun - Al Jazeera,2.77,WIN,Rest of Match Away +0.25 (Asian Handicap) (0:0),0:0,Bet365,1774,2.00,0.77,pawelpl,2016-04-03 13:28:48
+271,2016-04-03 11:00:00,SOC,Livebet,Bangkok FC v Samut Songkhram,3.9,WIN,Over 2.75 (Goal Line In-Play) (1-1),2:2,Bet365,1.95,2.00,1.90,pawelpl,2016-04-03 12:23:57
+272,2016-04-03 11:30:00,SOC,Livebet,Young Lions v Tampines Rovers,0.00,LOST,Tampines Rovers -0.75 (Alternative Asian Handicap) (0-1),1:2,Bet365,1.7,2.00,-2.00,pawelpl,2016-04-03 12:21:38
+273,2016-04-03 09:00:00,SOC,Livebet,MSV Duisburg U19 v TSG Sprockhovel U19,5.16,WIN,MSV Duisburg U19 -1 (Alternative Asian Handicap) (0-1),3:2,Bet365,1.72,3.00,2.16,pawelpl,2016-04-03 09:08:07
+274,2016-04-03 07:30:00,SOC,Livebet,Wofoo Tai Po FC v Double Flower,2.75,WIN,Wofoo Tai Po FC -0.75 (Asian Handicap In-Play) (2-0),5:2,Bet365,1.75,2.00,0.75,pawelpl,2016-04-03 08:46:11
+275,2016-04-03 07:30:00,SOC,Livebet,Wofoo Tai Po FC v Double Flower,1.00,PUSH,Wofoo Tai Po FC -1 (Asian Handicap In-Play) (2-0),5:2,Bet365,1.95,1.00,0.00,pawelpl,2016-04-03 08:43:03
+276,2016-04-03 07:30:00,SOC,Livebet,Wofoo Tai Po FC v Double Flower,2.00,PUSH,Wofoo Tai Po FC -1 (Asian Handicap In-Play) (2-0),5:2,Bet365,1.97,2.00,0.00,pawelpl,2016-04-03 08:42:30
+277,2016-04-02 14:00:00,SOC,Livebet,Livingston v Alloa,3.6,WIN,Under 1 (Goal Line In-Play) (0-0),0:0,Bet365,1.8,2.00,1.60,pawelpl,2016-04-02 15:15:07
+278,2016-04-02 14:00:00,VLB,Europe,Denmark U20 - Germany U20,4,WIN,Full Event Over 141.50 (O/U),93:101,Bet365,2,2.00,2.00,pawelpl,2016-04-02 13:57:06
+279,2016-04-02 13:00:00,SOC,Livebet,NK Krka v Olimpija Ljubljana,3.5,WIN,Olimpija Ljubljana -0.5 (Asian Handicap In-Play) (0-1),0:2,Bet365,1.75,2.00,1.50,pawelpl,2016-04-02 13:39:08
+280,2016-04-02 12:00:00,SOC,Livebet,FK Naftovyk-Ukrnafta v FC Poltava,2.00,PUSH,FC Poltava 0 (Asian Handicap In-Play) (1-1),1:1,Bet365,2.2,2.00,0.00,pawelpl,2016-04-02 13:36:52
+281,2016-04-02 11:30:00,SOC,Livebet,FC Nordsjaelland U19 v Brondby U19,0.00,LOST,Over 5.5 (Goal Line In-Play) (3-2),3:2,Bet365,3,1.00,-1.00,pawelpl,2016-04-02 13:11:15
+282,2016-04-02 11:30:00,SOC,Livebet,FC Nordsjaelland U19 v Brondby U19,2.00,PUSH,Brondby U19 +1 (Asian Handicap In-Play) (2-2),3:2,Bet365,1.95,2.00,0.00,pawelpl,2016-04-02 12:58:35
+283,2016-04-02 11:30:00,SOC,Livebet,FC Nordsjaelland U19 v Brondby U19,5.44,WIN,Brondby U19 +1.25 (Asian Handicap In-Play) (2-2),3:2,Bet365,1.72,4.00,1.44,pawelpl,2016-04-02 12:56:27
+284,2016-04-02 11:30:00,SOC,Livebet,Blackburn v Preston,3.3,WIN,Preston 0 (1st Half Asian Handicap) (1-1),"1:2, 0:0",Bet365,1.65,2.00,1.30,pawelpl,2016-04-02 11:58:45
+285,2016-04-02 09:15:00,SOC,Livebet,Stallions FC v Green Archers Utd,3.6,WIN,Stallions FC (Fulltime Result) (0-0),3:2,Bet365,1.8,2.00,1.60,pawelpl,2016-04-02 09:28:35
+286,2016-04-02 09:15:00,SOC,Livebet,Stallions FC v Green Archers Utd,3.6,WIN,Stallions FC (Fulltime Result) (0-0),3:2,Bet365,1.8,2.00,1.60,pawelpl,2016-04-02 09:27:27
+287,2016-04-02 09:00:00,SOC,Livebet,Sparta Prague U19 v Ceske Budejovice U19,1,LOST,Ceske Budejovice U19 +2.75 (Asian Handicap In-Play) (0-0),3:0,Bet365,1.85,2.00,-1.00,pawelpl,2016-04-02 09:25:24
+288,2016-04-02 09:00:00,SOC,Livebet,Sparta Prague U19 v Ceske Budejovice U19,1,LOST,Ceske Budejovice U19 +2.75 (Asian Handicap In-Play) (0-0),3:0,Bet365,1.85,2.00,-1.00,pawelpl,2016-04-02 09:24:55
+289,2016-04-02 08:00:00,SOC,Livebet,Goulburn Valley Suns FC v Bendigo City,2.5,WIN,Goulburn Valley Suns FC - Goulburn Valley Suns FC (Half Time/Full Time) (0-0),"1:0, 1:0",Bet365,2.5,1.00,1.50,pawelpl,2016-04-02 08:14:16
+290,2016-04-02 08:00:00,SOC,Livebet,Goulburn Valley Suns FC v Bendigo City,2.5,WIN,Goulburn Valley Suns FC -1 (3-Way Handicap) (0-0),2:0,Bet365,2.5,1.00,1.50,pawelpl,2016-04-02 08:13:44
+291,2016-04-02 08:00:00,SOC,Livebet,Goulburn Valley Suns FC v Bendigo City,4.98,WIN,Goulburn Valley Suns FC (Fulltime Result) (0-0),2:0,Bet365,1.66,3.00,1.98,pawelpl,2016-04-02 08:10:20
+292,2016-04-02 06:00:00,SOC,Livebet,Sagan Tosu v Kashiwa Reysol,2.00,PUSH,Kashiwa Reysol 0 (Asian Handicap In-Play) (1-1),1:1,Bet365,2.9,2.00,0.00,pawelpl,2016-04-02 07:44:42
+293,2016-04-02 07:00:00,SOC,Livebet,UST Growling Tigers v Ateneo Blue Eagles,2.05,WIN,Ateneo Blue Eagles (Next Goal) (2-1),Ateneo Blue Eagles,Bet365,2.05,1.00,1.05,pawelpl,2016-04-02 07:36:46
+294,2016-04-01 11:45:00,SOC,Livebet,Geylang International v Warriors FC,4.14,WIN,Geylang International -0.25 (Alternative Asian Handicap) (0-1),2-2 (0-1),Bet365,2.07,2.00,2.14,pawelpl,2016-04-01 12:31:32
+295,2016-04-02 15:30:00,SOC,Ita. Serie C,Teramo - Rimini,4.38,WIN,Full Event Away +0.50 (AH),1:1,SBOBET,2.19,2.00,2.38,pawelpl,2016-04-01 11:56:56
+296,2016-03-31 08:00:00,SOC,Livebet,FEU Tamaraws v Adamson Falcons,0.00,LOST,FEU Tamaraws -2.5 (Asian Handicap In-Play) (2-0),3:0 (2:0),Bet365,1.82,2.00,-2.00,pawelpl,2016-03-31 09:12:43
+297,2016-03-30 16:00:00,SOC,Livebet,UP Langreo v Siero,1.00,PUSH,Siero 0 (Alternative Asian Handicap) (3-1),3:1 (2:0),Bet365,4.3,1.00,0.00,pawelpl,2016-03-30 17:46:51
+298,2016-03-30 15:30:00,SOC,Finland,FC Kuusysi (n) - JaPS,0.00,LOST,Full Event Home over 1.5 (Team O/U),1:1 (1:0),PINNACLE,2,2.00,-2.00,pawelpl,2016-03-30 15:21:48
+299,2016-03-30 14:30:00,SOC,Livebet,UMS de Loum v Union Douala,1.00,PUSH,UMS de Loum 0 (1st Half Asian Handicap) (0-0),1:0 (0:0),Bet365,2.35,1.00,0.00,pawelpl,2016-03-30 15:08:59
+300,2016-03-30 14:30:00,SOC,Livebet,UMS de Loum v Union Douala,2.00,PUSH,UMS de Loum 0 (1st Half Asian Handicap) (0-0),1:0 (0:0),Bet365,2.35,2.00,0.00,pawelpl,2016-03-30 15:06:19
+301,2016-03-29 18:00:00,SOC,Livebet,Gibraltar v Latvia,3.64,WIN,Latvia -0.25 (Asian Handicap In-Play) (0-3),0:5 (0:0),Bet365,1.82,2.00,1.64,pawelpl,2016-03-29 19:34:29
+302,2016-03-29 14:00:00,SOC,Livebet,Ethiopia v Algeria,1.00,PUSH,Ethiopia 0 (Alternative Asian Handicap) (3-3),3:3 (1:1),Bet365,4.1,1.00,0.00,pawelpl,2016-03-29 15:46:50
+303,2016-03-29 14:00:00,SOC,Livebet,Palestine v Timor-Leste,3.4,WIN,Palestine -2.75 (Alternative Asian Handicap) (2-0),7:0 (4:0),Bet365,1.7,2.00,1.40,pawelpl,2016-03-29 14:23:28
+304,2016-03-29 13:00:00,SOC,Livebet,Jonkopings Sodra U21 v Malmo FF U21,3.6,WIN,Malmo FF U21 -0.5 (1st Half Asian Handicap) (0-0),0:5 (0:1),Bet365,1.8,2.00,1.60,pawelpl,2016-03-29 13:10:04
+305,2016-03-28 14:30:00,SOC,Austria,Leobendorf - Mannsdorf,3.7,WIN,Full Event Away +0.00 (AH),1:4 (0:2),Bet365,1.85,2.00,1.70,pawelpl,2016-03-28 14:28:50
+306,2016-03-28 12:00:00,SOC,Livebet,Schalke II v TuS Erndtebruck,1.00,PUSH,TuS Erndtebruck 0 (Alternative 1st Half Asian) (1-0),1-0,Bet365,3.8,1.00,0.00,pawelpl,2016-03-28 12:41:43
+307,2016-03-28 14:30:00,SOC,Austria,Leobendorf - Mannsdorf,3.6,WIN,Full Event Away (DNB),1:4 (0:2),Bet365,1.8,2.00,1.60,pawelpl,2016-03-28 10:43:06
+308,2016-03-28 09:00:00,SOC,Livebet,NK AH Mas Tech Women v NK Velesovo Women,3.44,WIN,Under 2.5 (Match Goals) (0-1),1:1 (0:1),Bet365,1.72,2.00,1.44,pawelpl,2016-03-28 10:15:14
+309,2016-03-26 13:30:00,SOC,Livebet,Bragantino v Velo Clube SP,5.91,WIN,Bragantino -0.5 (Asian Handicap In-Play) (0-1),3:2,Bet365,1.97,3.00,2.91,pawelpl,2016-03-26 14:04:54
+310,2016-03-26 13:30:00,SOC,Livebet,Bohemians 1905 U19 v Opava U19,1,LOST,Bohemians 1905 U19 -0.25 (Asian Handicap In-Play) (0-1),0:1,Bet365,2,2.00,-1.00,pawelpl,2016-03-26 13:50:45
+311,2016-03-26 13:00:00,SOC,Livebet,Zirka Kirovograd v FK Sumy,3.74,WIN,Zirka Kirovograd -0.5 (1st Half Asian Handicap) (0-0),"1:0, 1:0",Bet365,1.87,2.00,1.74,pawelpl,2016-03-26 13:15:51
+312,2016-03-26 13:00:00,SOC,Livebet,Zirka Kirovograd v FK Sumy,3.6,WIN,Zirka Kirovograd -0.5 (1st Half Asian Handicap) (0-0),"1:0, 1:0",Bet365,1.8,2.00,1.60,pawelpl,2016-03-26 13:14:17
+313,2016-03-26 10:00:00,SOC,Livebet,Ruch Chorzow II v Lzs Piotrowka,1,LOST,Lzs Piotrowka +2.75 (Asian Handicap In-Play) (1-0),4:0,Bet365,1.85,2.00,-1.00,pawelpl,2016-03-26 10:07:01
+314,2016-03-26 10:00:00,SOC,Livebet,Ruch Chorzow II v Lzs Piotrowka,1,LOST,Lzs Piotrowka +2.75 (Asian Handicap In-Play) (1-0),4:0,Bet365,1.9,2.00,-1.00,pawelpl,2016-03-26 10:04:53
+315,2016-03-26 10:00:00,SOC,Livebet,Ruch Chorzow II v Lzs Piotrowka,0.00,LOST,Lzs Piotrowka +2.5 (Asian Handicap In-Play) (0-0),4:0,Bet365,1.97,2.00,-2.00,pawelpl,2016-03-26 09:58:48
+316,2016-03-25 20:45:00,SOC,Livebet,Portugal - Team Total Goals - OVER - Portugal - Team Total Goals - UNDER,0.00,LOST,Full Event Over 1.75 (O/U) (0 - 0),0-0,188bet,1.87,2.00,-2.00,pawelpl,2016-03-25 21:10:28
+317,2016-03-24 17:15:00,SOC,Livebet,Portugal U21 v Liechtenstein U21,0.00,LOST,Portugal U21 -3 (Asian Handicap In-Play) (4-0),4:0 (4:0),Bet365,1.9,1.00,-1.00,pawelpl,2016-03-24 18:00:55
+318,2016-03-24 17:15:00,SOC,Livebet,Portugal U21 v Liechtenstein U21,0.00,LOST,Portugal U21 -3.5 (Asian Handicap In-Play) (4-0),4:0 (4:0),Bet365,1.95,1.00,-1.00,pawelpl,2016-03-24 17:52:17
+319,2016-03-24 13:00:00,SOC,Livebet,Werder Bremen II v FC Groningen,1.75,WIN,Werder Bremen II +0.25 (Asian Handicap In-Play) (1-0),3:0 (3:0),Bet365,1.75,1.00,0.75,pawelpl,2016-03-24 13:26:29
+320,2016-03-24 13:00:00,SOC,Livebet,Werder Bremen II v FC Groningen,4.04,WIN,Werder Bremen II 0 (1st Half Asian Handicap) (1-0),3:0 (3:0),Bet365,2.02,2.00,2.04,pawelpl,2016-03-24 13:22:51
+321,2016-03-24 13:00:00,SOC,Livebet,Werder Bremen II v FC Groningen,6.06,WIN,Werder Bremen II 0 (1st Half Asian Handicap) (1-0),3:0 (3:0),Bet365,2.02,3.00,3.06,pawelpl,2016-03-24 13:22:05
+322,2016-03-24 10:00:00,SOC,Livebet,MKS Olimpia Szczecin Women v Mitech Zywiec Women,0.00,LOST,Mitech Zywiec Women -0.25 (Asian Handicap In-Play) (0-1),1:1 (0:1),Bet365,2.07,2.00,-2.00,pawelpl,2016-03-24 11:31:59
+323,2016-03-23 19:00:00,SOC,Livebet,Manchester City (W) - Notts County (W),3.8,WIN,Full Event Home -0.50 (AH) (0 - 0),1-0,188bet,1.9,2.00,1.80,pawelpl,2016-03-23 20:29:38
+324,2016-03-23 14:00:00,SOC,Livebet,Juventus U19 v AC Milan U19,0.00,LOST,Under 2.75 (Goal Line In-Play) (2-0),4:0 (2:0),Bet365,1.97,2.00,-2.00,pawelpl,2016-03-23 15:20:39
+325,2016-03-23 14:00:00,SOC,Livebet,Genoa U19 v Palermo U19,3.8,WIN,Under 4 (Goal Line In-Play) (1-2),1-2,Bet365,1.9,2.00,1.80,pawelpl,2016-03-23 15:16:31
+326,2016-03-23 14:00:00,SOC,Livebet,Juventus U19 v AC Milan U19,3.8,WIN,Under 6.5 (Asian Corners) (2-0),4:0 (2:0),Bet365,1.9,2.00,1.80,pawelpl,2016-03-23 14:51:56
+327,2016-03-23 14:00:00,SOC,Livebet,Juventus U19 v AC Milan U19,5.1,WIN,Under 2.5 (1st Half Asian Corners) (2-0),4:0 (2:0),Bet365,1.7,3.00,2.10,pawelpl,2016-03-23 14:38:35
+328,2016-03-23 14:00:00,SOC,Livebet,Sassuolo U19 v Bologna U19,4.7,WIN,Bologna U19 0 (1st Half Asian Handicap) (1-0),1:1 (1:1),Bet365,2.35,2.00,2.70,pawelpl,2016-03-23 14:33:10
+329,2016-03-23 12:00:00,SOC,Livebet,FK Gomel v FC Orsha,3.8,WIN,Over 0.5 (First Half Goals) (0-0),1:1 (0:1),Bet365,1.9,2.00,1.80,pawelpl,2016-03-23 12:28:51
+330,2016-03-23 12:00:00,SOC,Livebet,FK Gomel v FC Orsha,3.66,WIN,Over 0.5 (First Half Goals) (0-0),1:1 (0:1),Bet365,1.83,2.00,1.66,pawelpl,2016-03-23 12:26:30
+331,2016-03-23 10:00:00,SOC,Livebet,FC Clinceni v ACS Bucovina Pojorata,3.9,WIN,Over 2.75 (Goal Line In-Play) (0-0),5:1 (1:0),Bet365,1.95,2.00,1.90,pawelpl,2016-03-23 10:09:10
+332,2016-03-22 13:00:00,SOC,Livebet,Heniu Prundu Bargaului Women v Vasas Women,0.00,LOST,Over 2.75 (Goal Line In-Play) (0-0),0:1 (0:0),Bet365,1.85,2.00,-2.00,pawelpl,2016-03-22 13:21:41
+333,2016-03-21 19:30:00,SOC,Livebet,Avellino v Ternana,0.00,LOST,Under 11.5 (Asian Corners) (0-0),10-10,Bet365,1.87,2.00,-2.00,pawelpl,2016-03-21 19:56:34
+334,2016-03-21 19:15:00,SOC,Livebet,SC Freiburg v Karlsruhe,3.6,WIN,Under 10 (Asian Corners) (0-0),5-2,Bet365,1.8,2.00,1.60,pawelpl,2016-03-21 19:25:27
+335,2016-03-21 13:00:00,SOC,Livebet,Kerkyra v Zakynthos,4.43,WIN,Kerkyra -0.75 (1st Half Asian Handicap) (0-0),4:0 (1:0),Bet365,1.95,3.00,1.43,pawelpl,2016-03-21 13:13:57
+336,2016-03-21 13:00:00,SOC,Livebet,Kerkyra v Zakynthos,2.85,WIN,Kerkyra -0.75 (1st Half Asian Handicap) (0-0),4:0 (1:0),Bet365,1.85,2.00,0.85,pawelpl,2016-03-21 13:12:07
+337,2016-03-21 11:00:00,SOC,Livebet,Valerenga Women v Trondheims-Ørn Women,2.85,WIN,Valerenga Women +1.25 (Asian Handicap In-Play) (0-0),0-1,Bet365,1.85,2.00,0.85,pawelpl,2016-03-21 11:18:34
+338,2016-03-21 11:00:00,SOC,Livebet,Valerenga Women v Trondheims-Ørn Women,2.9,WIN,Valerenga Women +1.25 (Asian Handicap In-Play) (0-0),0-1,Bet365,1.9,2.00,0.90,pawelpl,2016-03-21 11:17:10
+339,2016-03-20 18:00:00,SOC,Livebet,CD FAS Reserves v Juventud Independiente Reserves,2.00,PUSH,Juventud Independiente Reserves +0.5 (Asian Handicap In-Play) (1-1),danger-goal,Bet365,1.7,2.00,0.00,pawelpl,2016-03-20 19:41:55
+340,2016-03-20 18:00:00,SOC,Livebet,CD FAS Reserves v Juventud Independiente Reserves,4.2,WIN,CD FAS Reserves (Fulltime Result) (0-0),4:1,Bet365,2.1,2.00,2.20,pawelpl,2016-03-20 18:18:25
+341,2016-03-20 14:30:00,SOC,Livebet,Admira Wacker Modling II v Neusiedl,3.32,WIN,Admira Wacker Modling II - Over 1.5 (Home Team Goals) (0-0),4:1,Bet365,1.66,2.00,1.32,pawelpl,2016-03-20 14:29:10
+342,2016-03-20 13:00:00,SOC,Livebet,Strommen v Grorud,3.44,WIN,Strommen (Next Goal) (4-0),Strommen,Bet365,1.72,2.00,1.44,pawelpl,2016-03-20 14:14:58
+343,2016-03-20 09:13:00,SOC,Livebet,SK Prevysov - FK Viktoria Zizkov,0.00,LOST,Full Event Over 2.75 (O/U) (0 - 0),0:0,188bet,1.91,2.00,-2.00,pawelpl,2016-03-20 09:24:03
+344,2016-03-19 14:00:00,SOC,Livebet,Terek Grozny v Ural,0.00,LOST,Terek Grozny # 3-1 (Final Score) (1-1),1:1,Bet365,4,1.00,-1.00,pawelpl,2016-03-19 15:33:19
+345,2016-03-19 14:00:00,SOC,Livebet,Terek Grozny v Ural,0.00,LOST,Terek Grozny # 3-1 (Final Score) (1-1),1:1,Bet365,4.33,1.00,-1.00,pawelpl,2016-03-19 15:22:14
+346,2016-03-19 13:00:00,SOC,Livebet,Rigas FS v Metta/LU,1.97,WIN,Over 2.75 (Goal Line In-Play) (0-1),3:2,Bet365,1.97,1.00,0.97,pawelpl,2016-03-19 13:27:10
+347,2016-03-19 13:00:00,SOC,Livebet,Rigas FS v Metta/LU,4.6,WIN,Over 3 (Alternative Goal Line) (0-1),3:2,Bet365,2.3,2.00,2.60,pawelpl,2016-03-19 13:24:47
+348,2016-03-19 14:30:00,SOC,Ger. Oberliga,FSV J�?¤gersburg - TSV Schott Mainz,0.00,LOST,Full Time Excluding Overtime Over 2.5 (Over/Under),1:0,Bet365,1.52,2.00,-2.00,pawelpl,2016-03-19 13:19:57
+349,2016-03-19 11:00:00,SOC,Livebet,FK Spartaks Jurmala v BFC Daugavpils,0.00,LOST,BFC Daugavpils +1 (Asian Handicap In-Play) (0-0),3:0,Bet365,1.95,2.00,-2.00,pawelpl,2016-03-19 11:12:52
+350,2016-03-19 08:45:00,SOC,Livebet,Sibir Region Women U19 v Romania Women U19,2.85,WIN,Sibir Region Women U19 +2.25 (Asian Handicap In-Play) (0-1),0:3,Bet365,1.85,2.00,0.85,pawelpl,2016-03-19 09:17:00
+351,2016-03-19 08:45:00,SOC,Livebet,Sibir Region Women U19 v Romania Women U19,3.64,WIN,Sibir Region Women U19 +2.5 (Asian Handicap In-Play) (0-1),0:3,Bet365,1.82,2.00,1.64,pawelpl,2016-03-19 09:12:40
+352,2016-03-19 08:45:00,SOC,Livebet,Sibir Region Women U19 v Romania Women U19,3.7,WIN,Sibir Region Women U19 +2.5 (Asian Handicap In-Play) (0-1),0:3,Bet365,1.85,2.00,1.70,pawelpl,2016-03-19 09:11:58
+353,2016-03-18 23:00:00,SOC,Livebet,UES v CD Pasaquina,4.33,WIN,UES (Draw No Bet) (0-1),3:2,Bet365,4.33,1.00,3.33,pawelpl,2016-03-18 23:22:43
+354,2016-03-18 23:00:00,SOC,Livebet,UES v CD Pasaquina,5.25,WIN,UES 0 (Asian Handicap In-Play) (0-1),3:2,Bet365,1.75,3.00,2.25,pawelpl,2016-03-18 23:15:52
+355,2016-03-19 17:00:00,SOC,Ger. Regionalliga,SV Lafnitz - Wallern,3.95,WIN,Full Time Excluding Overtime Home -1.25 (Asian Handicap),4:0,Bet365,1975,2.00,1.95,pawelpl,2016-03-18 21:52:38
+356,2016-03-18 12:00:00,SOC,Livebet,Mlada Boleslav U19 v Viktoria Plzen U19,3.74,WIN,Over 1.75 (Goal Line In-Play) (0-0),1:2 (0:0),Bet365,1.87,2.00,1.74,pawelpl,2016-03-18 12:41:45
+357,2016-03-18 12:30:00,SOC,Livebet,Ironi Modiin v Hapoel Rahat,3.9,WIN,Ironi Modiin -2.5 (Asian Handicap In-Play) (0-0),6:1 (2:1),Bet365,1.95,2.00,1.90,pawelpl,2016-03-18 12:41:04
+358,2016-03-18 09:00:00,SOC,Livebet,Redlands United Women v Peninsula Power Women,2.62,WIN,Peninsula Power Women -2 (3-Way Handicap) (0-1),0:5 (0:3),Bet365,2.62,1.00,1.62,pawelpl,2016-03-18 09:11:39
+359,2016-03-18 09:00:00,SOC,Livebet,Redlands United Women v Peninsula Power Women,3.64,WIN,Peninsula Power Women -0.5 (Asian Handicap In-Play) (0-1),0:5 (0:3),Bet365,1.82,2.00,1.64,pawelpl,2016-03-18 09:09:17
+360,2016-03-18 09:00:00,SOC,Livebet,Redlands United Women v Peninsula Power Women,5.4,WIN,Peninsula Power Women -0.5 (Asian Handicap In-Play) (0-1),0:5 (0:3),Bet365,1.8,3.00,2.40,pawelpl,2016-03-18 09:06:29
+361,2016-03-18 17:30:00,SOC,Austria,SKN St. Polten - Austria Klagenfurt,0.00,LOST,Full Event Home over 2 (Team O/U),1:0 (1:0),PINNACLE,1826,2.00,-2.00,pawelpl,2016-03-17 23:04:23
+362,2016-03-17 10:17:00,SOC,Int'l U19,Japan u19 W - Estonia W u19,0.00,LOST,"Japan -1,75 (1:0)",2:0 (1:0),Unibet,1.77,3.00,-3.00,pawelpl,2016-03-17 10:19:02
+363,2016-03-16 14:15:00,SOC,Livebet,Aris Salonika v Kozani,0.00,LOST,Aris Salonika -1.75 (Asian Handicap In-Play) (4-1),5:1 (4:1),Bet365,2,3.00,-3.00,pawelpl,2016-03-16 15:20:34
+364,2016-03-16 14:15:00,SOC,Livebet,Aris Salonika v Kozani,0.00,LOST,Aris Salonika -1.75 (Asian Handicap In-Play) (4-1),5:1 (4:1),Bet365,1.97,3.00,-3.00,pawelpl,2016-03-16 15:20:04
+365,2016-03-16 13:00:00,SOC,Livebet,Cracovia Krakow U19 v UKS SMS Lodz U19,5.31,WIN,Under 1.75 (1st Half Goal Line) (0-1),1:2 (0:1),Bet365,1.77,3.00,2.31,pawelpl,2016-03-16 13:34:22
+366,2016-03-16 13:20:00,SOC,Greece,Irisliakos - Iraklio,8.85,WIN,"over 1, 5 ht",2:1 (1:1),Unibet,2.95,3.00,5.85,pawelpl,2016-03-16 13:22:35
+367,2016-03-15 09:00:00,SOC,Livebet,Russia U19 (W) - Iran U19 (W),0.00,LOST,First Half Home -3.00 (Home Draw Away With Handicap),4:0 (2:0),Unibet,2.8,2.00,-2.00,pawelpl,2016-03-15 09:16:38
+368,2016-03-14 12:00:00,SOC,Livebet,Znojmo U21 - Hradec Kralove U21,7.2,WIN,First Half Home (Home Draw Away),6:1 (4:1),Unibet,2.4,3.00,4.20,pawelpl,2016-03-14 12:19:20
+369,2016-03-13 13:00:00,SOC,Livebet,AC Troyes AC - Paris Saint-Germain FC,3.64,WIN,Full Time Excluding Overtime Away -4.75 (Asian Handicap),0:9,Ladbrokes,1.82,2.00,1.64,pawelpl,2016-03-13 13:27:37
+370,2016-03-13 11:30:00,SOC,Livebet,Eskisehirspor K - Akhisar Belediye GS,0.00,LOST,Full Time Excluding Overtime Over 6.50 (Over/Under),3:3,Bet365,6.5,1.00,-1.00,pawelpl,2016-03-13 13:22:20
+371,2016-03-13 13:00:00,SOC,Livebet,Arka Gdynia U19 - Warta Poznan U19,0.00,LOST,Full Time Excluding Overtime Over Arka Gdynia U19 1.50 (Team Score Over/Under),0:4,Unibet,2.3,3.00,-3.00,pawelpl,2016-03-13 13:16:19
+372,2016-03-13 11:00:00,SOC,Livebet,Real Sociedad (W) - CD Santa Teresa (W),3.68,WIN,Full Time Excluding Overtime Home (Home Draw Away),1:0,188bet,1.84,2.00,1.68,pawelpl,2016-03-13 12:21:10
+373,2016-03-13 11:00:00,SOC,Livebet,Hannover 96 U19 - VfL Wolfsburg U19,0.00,LOST,Full Time Excluding Overtime Over 2.50 (Over/Under),1:0,Unibet,2,2.00,-2.00,pawelpl,2016-03-13 11:14:15
+374,2016-03-13 10:00:00,SOC,Livebet,Mlada Boleslav U21 - SK Slavia Praha U21,3.44,WIN,Rest of Match Home -0.50 (Asian Handicap),6:2,Unibet,1.72,2.00,1.44,pawelpl,2016-03-13 10:42:39
+375,2016-03-13 10:17:10,SOC,Livebet,KKS Czarni Sosnowiec (W) - AZS Pwsz Biala Podlaska (W),0.00,LOST,Rest of Match Home -0.50 (Asian Handicap),2:2,Bet365,1975,3.00,-3.00,pawelpl,2016-03-13 10:27:51
+376,2016-03-13 09:00:00,SOC,Kazakhstan,Irtysch Pavlodar - FC Okzhetpes,3.9,WIN,Full Time Excluding Overtime Home -0.50 (Asian Handicap),1:0,SBOBET,1.95,2.00,1.90,pawelpl,2016-03-13 08:58:34
+377,2016-03-12 14:00:00,SOC,Ita. Serie C,Ischia Isolaverde - Fidelis Andria 1928,0.00,LOST,First Half Home (Home Draw Away),0:0 (0:0),188bet,3.6,2.00,-2.00,pawelpl,2016-03-12 13:54:30
+378,2016-03-12 13:00:00,SOC,Livebet,Lechia Gdansk U19 - Slask Wroclaw U19,0.00,LOST,Full Event Over 2.50 (O/U) (1 - 1),1:1,188bet,2.03,2.00,-2.00,pawelpl,2016-03-12 13:34:00
+379,2016-03-12 11:00:00,SOC,Livebet,Nairobi City Stars - Gor Mahia,0.00,LOST,Rest of Match Away -0.75 (Asian Handicap),2:2,188bet,1.86,2.00,-2.00,pawelpl,2016-03-12 11:27:01
+380,2016-03-12 10:00:00,SOC,Livebet,FK Tosno - Gazovik Orenburg,7.2,WIN,Full Time Excluding Overtime Draw -1.00 (Home Draw Away With Handicap),0:1,Bet-at-home,2.4,3.00,4.20,pawelpl,2016-03-12 11:24:41
+381,2016-03-12 08:02:33,SOC,Livebet,Mt Druitt Town Rangers - Western Sydney Wanderers U21,7.13,WIN,Full Time Excluding Overtime Over 5.50 (Over/Under),2:5,Betfred,2375,3.00,4.13,pawelpl,2016-03-12 09:40:47
+382,2016-03-12 09:00:00,SOC,Livebet,Ferencvarosi U19 v Vasas Budapest U19,3.8,WIN,Over 2.5 (Goal Line In-Play) (0-0),1:2,Bet365,1.9,2.00,1.80,pawelpl,2016-03-12 09:31:41
+383,2016-03-12 08:00:00,SOC,Livebet,Mt Gravatt Hawks - Bayside United,4.36,WIN,First Half X2 (Double Chance),"1:1, 0:1",Unibet,2.18,2.00,2.36,pawelpl,2016-03-12 08:36:36
+384,2016-03-11 16:00:00,SOC,Livebet,Doxa Katokopias - AEL Limassol,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away),1:2 (1:0),Bet-at-home,3.95,1.00,-1.00,pawelpl,2016-03-11 17:36:04
+385,2016-03-11 16:00:00,SOC,Livebet,Doxa Katokopias - AEL Limassol,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away),1:2 (1:0),Fonbet,4.1,2.00,-2.00,pawelpl,2016-03-11 17:35:01
+386,2016-03-11 11:00:00,SOC,Israel,Hapoel Morassa Ramat Harason - Beitar Kfar Saba Shlomi,4.5,WIN,Full Time Excluding Overtime Away -0.75 (Asian Handicap),0-1,Bet365,2,3.00,1.50,pawelpl,2016-03-11 10:57:32
+387,2016-03-11 10:30:00,SOC,Livebet,Capalaba (W) - The Gap FC (W),1.00,PUSH,Rest of Match Home 0 (Asian Handicap),1:1 (1:0),Bet365,1.85,1.00,0.00,pawelpl,2016-03-11 10:43:05
+388,2016-03-11 10:30:00,SOC,Livebet,Capalaba (W) - The Gap FC (W),3.00,PUSH,Rest of Match Home 0 (Asian Handicap),1:1 (1:0),Bet365,1.85,3.00,0.00,pawelpl,2016-03-11 10:42:30
+389,2016-03-10 17:00:00,SOC,Livebet,GKS Urania Ruda Slaska v Przemsza Siewierz,0.00,LOST,Over 3 (Goal Line In-Play) (0-0),0-1,Bet365,1.85,2.00,-2.00,pawelpl,2016-03-10 17:36:42
+390,2016-03-10 15:45:00,SOC,Livebet,Brazil U17 (W) - Colombia U17 (W),4.26,WIN,Full Time Excluding Overtime Under 3.50 (Over/Under),0:0 (0:0),Betsson SB,2.13,2.00,2.26,pawelpl,2016-03-10 15:54:48
+391,2016-03-09 13:00:00,SOC,Livebet,T�?«rbuni Puk�?« - KS Vllaznia Shkoder,4.89,WIN,Full Time Excluding Overtime Over 2.50 (Over/Under),0:4,Fonbet,1.63,3.00,1.89,pawelpl,2016-03-09 14:27:02
+392,2016-03-09 14:00:00,SOC,Livebet,FK Radnicki Lukavac - Radnik Bn,4,WIN,First Half Away (Home Draw Away),0-1,Ladbrokes,2,2.00,2.00,pawelpl,2016-03-09 14:07:01
+393,2016-03-08 09:55:00,SOC,Australia,Annerley FC - Grange Thistle,4.04,WIN,"over 4,0",1-6,12BET,2.02,2.00,2.04,pawelpl,2016-03-08 09:57:22
+394,2016-03-08 09:00:00,SOC,Livebet,Annerley FC - Grange Thistle SC,0.00,LOST,Full Time Excluding Overtime Under 4.50 (Over/Under),1-6,Unibet,2.1,2.00,-2.00,pawelpl,2016-03-08 09:31:35
+395,2016-03-07 13:00:00,SOC,Livebet,IFK Norrkoping U21 - Gefle U21,0.00,LOST,Rest of Match Home -1.50 (Asian Handicap),1:0,Bet365,2024,2.00,-2.00,pawelpl,2016-03-07 14:07:49
+396,2016-03-06 16:00:00,HKY,Livebet,HK SKP Poprad - MHC Mountfield Martin,6.4,WIN,Full Time Excluding Overtime Draw (Home Draw Away),"0:0, 0:1 pen.",Bet365,3.2,2.00,4.40,pawelpl,2016-03-06 16:45:41
+397,2016-03-06 13:00:00,SOC,Livebet,Anagennisi Karditsas FC - Paneleusiniakos,16.8,WIN,Full Time Excluding Overtime Over 1.50 (Over/Under),2:0,Marathonbet,5.6,3.00,13.80,pawelpl,2016-03-06 14:46:13
+398,2016-03-06 13:00:00,SOC,Livebet,Anagennisi Karditsas FC - Paneleusiniakos,7.14,WIN,Full Time Excluding Overtime Over 1.50 (Over/Under),2:0,Marathonbet,2.38,3.00,4.14,pawelpl,2016-03-06 14:41:18
+399,2016-03-06 13:00:00,SOC,Livebet,Agrotikos Asteras - Chania FC,2.75,WIN,First Half Home (Home Draw Away),"1:0, 0:0",Bet-at-home,2.75,1.00,1.75,pawelpl,2016-03-06 13:21:59
+400,2016-03-06 13:00:00,SOC,Livebet,Agrotikos Asteras - Chania FC,5.1,WIN,First Half Home (Home Draw Away),"1:0, 0:0",Bet-at-home,2.55,2.00,3.10,pawelpl,2016-03-06 13:13:37
+401,2016-03-06 09:15:00,SOC,Livebet,Dukla Praha U21 - Znojmo U21,0.00,LOST,Rest of Match Away +1.25 (Asian Handicap),8:2,Bet365,1875,3.00,-3.00,pawelpl,2016-03-06 09:29:02
+402,2016-03-06 08:22:48,SOC,Livebet,Adamson Falcons - FEU Tamaraws,3.9,WIN,Rest of Match Away -1.00 (Asian Handicap),0:4,Bet365,1.95,2.00,1.90,pawelpl,2016-03-06 09:19:48
+403,2016-03-05 11:00:00,SOC,Livebet,Pribram U19 - FC Pardubice U19,3.95,WIN,Rest of Match Home -1.00 (Asian Handicap) (2:1),5:1,Bet365,1975,2.00,1.95,pawelpl,2016-03-05 11:42:48
+404,2016-03-05 10:00:00,SOC,Livebet,Jagiellonia Bialystok U19 - GKS Belchatow U19,3.55,WIN,Rest of Match Home -1.50 (Asian Handicap) (0:0),3:0,Bet365,1774,2.00,1.55,pawelpl,2016-03-05 10:39:01
+405,2016-03-05 10:00:00,SOC,Livebet,Empoli U19 - Crotone U19,0.00,LOST,Full Time Excluding Overtime Over 3.50 (Over/Under) (0:1),1:2,Unibet,2.3,2.00,-2.00,pawelpl,2016-03-05 10:18:19
+406,2016-03-05 09:30:00,SOC,Slovakia,MSK Zilina B - FK Borcice,0.00,LOST,Full Time Excluding Overtime Away (Home Draw Away),0:0,Bet-at-home,1.6,3.00,-3.00,pawelpl,2016-03-05 08:54:11
+407,2016-03-05 10:00:00,SOC,Friendly,KS Unia Bierun - Przemsza Siewierz,4.95,WIN,Full Time Excluding Overtime Over 3.50 (Over/Under),0:4,Bet365,1649,3.00,1.95,pawelpl,2016-03-05 00:24:46
+408,2016-03-05 13:00:00,SOC,Sweden,Varbergs BoIS FC - Tenhults IF,0.00,LOST,First Half Home (Home Draw Away),0-0,Bet365,2.1,1.00,-1.00,pawelpl,2016-03-04 15:23:01
+409,2016-03-05 15:00:00,SOC,Sweden,Varbergs BoIS FC - Tenhults IF,2.00,PUSH,Full Time Excluding Overtime Home -1.00 (Home Draw Away With Handicap),1:0,Bet365,2.38,2.00,0.00,pawelpl,2016-03-04 15:21:00
+410,2016-03-04 13:00:00,SOC,Livebet,Poland Women U20 v USA Women U23,0.00,LOST,USA Women U23 (Next Goal),0:0,Bet365,2.62,1.00,-1.00,pawelpl,2016-03-04 14:47:50
+411,2016-03-04 13:30:00,SOC,Livebet,Albania (W) - Ukraine (W),5.94,WIN,Rest of Match Away -1.50 (Asian Handicap) (0:2),0:4,188bet,1.98,3.00,2.94,pawelpl,2016-03-04 14:37:35
+412,2016-03-04 13:00:00,SOC,Livebet,Poland Women U20 v USA Women U23,0.00,LOST,(0-0) USA Women U23 -1.75 (Asian Handicap In-Play),0:0,Bet365,1.7,2.00,-2.00,pawelpl,2016-03-04 14:11:30
+413,2016-03-04 13:40:00,SOC,Livebet,Al Wahda - AL Shaab,5.61,WIN,Rest of Match Home -1.75 (Asian Handicap) (0:0),4-1,188bet,1.87,3.00,2.61,pawelpl,2016-03-04 14:07:20
+414,2016-03-04 13:30:00,SOC,Livebet,Albania (W) - Ukraine (W),2,WIN,Full Time Excluding Overtime Home +4.00 (Home Draw Away With Handicap) (0:1),0:4,Bet-at-home,2,1.00,1.00,pawelpl,2016-03-04 13:56:50
+415,2016-03-04 13:30:00,SOC,Livebet,Albania (W) - Ukraine (W),4,WIN,Full Time Excluding Overtime Home +4.00 (Home Draw Away With Handicap) (0:1),0:4,Bet-at-home,2,2.00,2.00,pawelpl,2016-03-04 13:56:31
+416,2016-03-04 12:00:00,SOC,Livebet,USA Women U20 v England Women U23,0.00,LOST,(0-0) England Women U23 0 (Asian Handicap In-Play),1:0,Bet365,2.35,1.00,-1.00,pawelpl,2016-03-04 13:35:52
+417,2016-03-04 12:00:00,SOC,Livebet,USA Women U20 v England Women U23,0.00,LOST,(0-0) England Women U23 0 (Asian Handicap In-Play),1:0,Bet365,2.35,1.00,-1.00,pawelpl,2016-03-04 13:35:21
+418,2016-03-04 12:00:00,SOC,Livebet,USA Women U20 v England Women U23,0.00,LOST,(0-0) England Women U23 +0.5 (Asian Handicap In-Play),1:0,Bet365,1.97,1.00,-1.00,pawelpl,2016-03-04 12:18:01
+419,2016-03-04 12:00:00,SOC,Livebet,USA Women U20 v England Women U23,0.00,LOST,(0-0) England Women U23 +0.5 (Asian Handicap In-Play),1:0,Bet365,1.97,1.00,-1.00,pawelpl,2016-03-04 12:17:42
+420,2016-03-04 11:00:00,SOC,Livebet,Krylya Sovetov Samara U21 - FK Rostov U21,3.65,WIN,Full Time Excluding Overtime Away -2.00 (Home Draw Away With Handicap) (0:1),1:4,Unibet,3.65,1.00,2.65,pawelpl,2016-03-04 12:16:19
+421,2016-03-04 11:00:00,SOC,Livebet,Krylya Sovetov Samara U21 - FK Rostov U21,5.31,WIN,Full Time Excluding Overtime Away -1.50 (Asian Handicap) (0:1),1:4,Unibet,1.77,3.00,2.31,pawelpl,2016-03-04 12:15:48
+422,2016-03-04 12:00:00,SOC,Livebet,USA Women U20 v England Women U23,0.00,LOST,(0-0) England Women U23 +0.5 (Asian Handicap In-Play),1:0,Bet365,2,2.00,-2.00,pawelpl,2016-03-04 12:15:03
+423,2016-03-04 09:30:00,SOC,Livebet,Binh Duong U19 v Tay Ninh U19,3.64,WIN,(6-0) Binh Duong U19 -3 (Asian Handicap In-Play),10:0,Bet365,1.82,2.00,1.64,pawelpl,2016-03-04 10:24:39
+424,2016-03-04 09:30:00,SOC,Livebet,Binh Duong U19 - Tay Ninh U19,0.00,LOST,Full Time Excluding Overtime Home -9.50 (Asian Handicap) (6:0),10:0,Unibet,2.12,3.00,-3.00,pawelpl,2016-03-04 10:14:36
+425,2016-03-02 19:00:00,SOC,Livebet,FC Bayern Munchen - 1. FSV Mainz 05,0.00,LOST,Rest of Match Home -2.00 (Asian Handicap) (0:0),1:2,SBOBET,1.95,2.00,-2.00,pawelpl,2016-03-02 19:19:21
+426,2016-03-02 17:00:00,SOC,Livebet,Termalica BB Nieciecza - KP Legia Warszawa,0.00,LOST,Rest of Match Away -0.75 (Asian Handicap) (0:0),3:0,188bet,1.97,2.00,-2.00,pawelpl,2016-03-02 17:09:24
+427,2016-03-02 12:54:00,SOC,Hungary,Tiszua - Ujpest,2.00,PUSH,Ujpest -2,0:2,PINNACLE,2,2.00,0.00,pawelpl,2016-03-02 12:55:18
+428,2016-03-02 12:53:00,SOC,Hungary,Tiszua - Ujpest,0.00,LOST,"over 2,75",0:2,PINNACLE,1943,2.00,-2.00,pawelpl,2016-03-02 12:54:42
+429,2016-03-02 12:30:00,SOC,Livebet,Tiszaujvaros - Ujpest FC,0.00,LOST,Rest of 1st Half Away -1.00 (Asian Handicap) (0:0),0:0,Bet365,2.1,2.00,-2.00,pawelpl,2016-03-02 12:44:17
+430,2016-03-02 12:00:00,SOC,Livebet,Acassuso Reserves v CA Colegiales Reserves,4.1,WIN,CA Colegiales Reserves (Next Goal),0-1,Bet365,2.05,2.00,2.10,pawelpl,2016-03-02 12:37:27
+431,2016-03-02 17:30:00,Combo pick,Combo pick,Combo pick,4.3992,WIN,,,Sportingbet,1466,3.00,1.40,pawelpl,2016-03-02 10:42:56
+,2016-03-02 17:30:00,SOC,Friendly,Przemsza Siewierz - Pogon Imielin,3.6,WIN,Full Event Over 2.50 (O/U),4-1,,1.2,,,,
+,2016-03-02 16:30:00,SOC,Friendly,Concordia Knurow - LTS Labedy,3.67,WIN,Full Event Over 2.50 (O/U),4-2,,1222,,,,
+432,2016-03-01 18:00:00,Combo pick,Combo pick,Combo pick,6.9316,WIN,,,Sportingbet,1733,4.00,2.93,pawelpl,2016-03-01 15:38:53
+,2016-03-01 18:00:00,SOC,Friendly,MRKS Czechowice-Dziedzice - Uks Josieniec Radostowice,5.33,WIN,Full Event Over 2.50 (O/U),2-4,,1333,,,,
+,2016-03-01 16:30:00,SOC,Friendly,KS Chelmek - Unia Kosztowy,5.2,WIN,Full Event Over 2.50 (O/U),1-4,,1.3,,,,
+433,2016-02-29 12:00:00,SOC,Livebet,Vysocina Jihlava U21 v Banik Ostrava U21,3.5,WIN,(0-0) Over 2.75 (Goal Line In-Play),2:5,Bet365,1.75,2.00,1.50,pawelpl,2016-02-29 12:25:24
+434,2016-02-28 16:30:00,SOC,Livebet,Slavia Prague v Banik Ostrava,4.2,WIN,Slavia Prague - Yes (To Score In Both Halves),"2:1, 1:0",Bet365,2.1,2.00,2.20,pawelpl,2016-02-28 16:45:15
+435,2016-02-28 12:00:00,SOC,Livebet,FSV Zwickau - FSV Optik Rathenow,3.74,WIN,First Half Home (Home Draw Away) (0:0),"1:0, 1:1",188bet,1.87,2.00,1.74,pawelpl,2016-02-28 12:22:50
+436,2016-02-28 09:30:00,SOC,Livebet,An Giang U19 - PVF U19,3.6,WIN,Rest of 1st Half Away -0.50 (Asian Handicap) (0:0),0-1,Bet365,1.8,2.00,1.60,pawelpl,2016-02-28 09:43:06
+437,2016-02-28 13:00:00,SOC,Ger. Oberliga,FSV Union F,7.6,WIN,Full Time Excluding Overtime Over 4.50 (Over/Under),5-0,Unibet,1.9,4.00,3.60,pawelpl,2016-02-28 07:05:53
+438,2016-02-27 17:30:00,RGB,Livebet,ASM Clermont Auvergne - Oyonnax,3.6,WIN,Full Time Excluding Overtime Home -17.50 (Asian Handicap),44:16,Ladbrokes,1.8,2.00,1.60,pawelpl,2016-02-27 18:26:39
+439,2016-02-27 13:00:00,SOC,Livebet,Bohemians 1905 U19 v Slovacko U19,0.00,LOST,Slovacko U19 - Over 1.5 (Away Team Goals),0:1,Bet365,2.62,1.00,-1.00,pawelpl,2016-02-27 13:23:25
+440,2016-02-27 13:00:00,SOC,Livebet,Bohemians 1905 U19 v Slovacko U19,2.15,WIN,(0-0) Slovacko U19 0 (Alternative Asian Handicap),0:1,Bet365,2.15,1.00,1.15,pawelpl,2016-02-27 13:22:55
+441,2016-02-27 13:00:00,SOC,Livebet,Radomlje - Aluminij,5.78,WIN,Full Time Excluding Overtime Home (Home Draw Away),3:2,William Hill,1444,4.00,1.78,pawelpl,2016-02-27 13:07:31
+442,2016-02-27 09:00:00,SOC,Friendly,Concordia Knurow - GTS Bojszowy,5.4,WIN,Full Time Excluding Overtime Home -1.25 (Asian Handicap),3:1,Bet365,1.8,3.00,2.40,pawelpl,2016-02-27 08:18:20
+443,2016-02-27 08:00:00,SOC,Livebet,GKS Wawel Wirek - MKS Siemianowiczanka,5.82,WIN,Full Time Excluding Overtime Over 3.50 (Over/Under) (0:0),3:1,Unibet,1.94,3.00,2.82,pawelpl,2016-02-27 08:16:43
+444,2016-02-27 09:00:00,SOC,Friendly,MSK Zilina B - MSK Fomat Martin,3.24,WIN,Full Time Excluding Overtime Home (Home Draw Away),2:1,Bet365,1.62,2.00,1.24,pawelpl,2016-02-26 15:31:58
+445,2016-02-27 09:00:00,SOC,Friendly,MSK Zilina B - MSK Fomat Martin,2.1,WIN,First Half Home (Home Draw Away),"2:1, 0:0",Bet365,2.1,1.00,1.10,pawelpl,2016-02-26 15:31:38
+446,2016-02-26 18:00:00,SOC,Friendly,Unia Oswiecim - Sosnowianka Stanislaw Dolny,0.00,LOST,First Half Over 1.50 (Over/Under),1-0,Bet365,1.83,3.00,-3.00,pawelpl,2016-02-26 14:39:03
+447,2016-02-26 13:00:00,SOC,Livebet,Kelantan FC - Sarawak,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away) (0:1),2-2,Bet-at-home,1.9,1.00,-1.00,pawelpl,2016-02-26 13:36:35
+448,2016-02-26 13:00:00,SOC,Livebet,Kelantan FC - Sarawak,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away) (0:1),2-2,Unibet,1.85,3.00,-3.00,pawelpl,2016-02-26 13:30:11
+449,2016-02-26 11:25:00,SOC,Livebet,FK Minsk (W) - FC Zorka Bdu (W),3.6,WIN,First Half Home (Home Draw Away) (0:0),3:0,Bet365,1.8,2.00,1.60,pawelpl,2016-02-26 11:55:47
+450,2016-02-26 19:00:00,SOC,Friendly,KS Kamionka Mikolow - Strazak Mikolow,7.2,WIN,Full Time Excluding Overtime Over 4.50 (Over/Under),3:8,Bet365,1.8,4.00,3.20,pawelpl,2016-02-26 10:18:24
+451,2016-02-26 09:00:00,SOC,Livebet,Nadezhda (W) - FC Bobruichanka Bobruisk(W),6.33,WIN,First Half Home (Home Draw Away) (0:0),1:0,Betsson SB,2.11,3.00,3.33,pawelpl,2016-02-26 09:17:03
+452,2016-02-26 14:00:00,HKY,Russia,Krasnaya Armiya U20 - HC Riga U20,0.00,LOST,Full Time Excluding Overtime Home -2.50 (Asian Handicap),2:0,Bet365,1.72,4.00,-4.00,pawelpl,2016-02-25 20:01:51
+453,2016-02-25 12:07:15,SOC,Livebet,Mohun Bagan U19 - Liverpool FCI Academy U19,0.00,LOST,Rest of Match Away -1.75 (Asian Handicap) (0:1),0-2,Bet365,1975,2.00,-2.00,pawelpl,2016-02-25 13:24:34
+454,2016-02-24 12:45:00,SOC,Livebet,Johor Darul Takzim FC - Ayeyawady United,6.88,WIN,Full Time Excluding Overtime Home -2.00 (Home Draw Away With Handicap) (2:1),8:1,Betsson SB,1.72,4.00,2.88,pawelpl,2016-02-24 13:06:27
+455,2016-02-24 13:15:00,SOC,Friendly,Flora Tallinn (n) - KuPS,1.00,PUSH,Full Event Home over 2 (Team O/U),2:1,PINNACLE,2,1.00,0.00,pawelpl,2016-02-24 12:49:41
+456,2016-02-24 13:15:00,SOC,Friendly,Flora Tallinn (n) - KuPS,1.74,WIN,Full Event Home -0.50 (AH),2:1,PINNACLE,1735,1.00,0.74,pawelpl,2016-02-24 11:11:48
+457,2016-02-24 13:15:00,SOC,Friendly,Flora Tallinn (n) - KuPS,3.00,PUSH,Full Event Home over 2 (Team O/U),2:1,PINNACLE,1.84,3.00,0.00,pawelpl,2016-02-24 11:05:49
+458,2016-02-23 19:26:00,SOC,Friendly,Unterpremstatten - Ragnitz,7.8,WIN,"over 4,5",4:3,Sportingbet,1.95,4.00,3.80,pawelpl,2016-02-23 19:28:12
+459,2016-02-23 18:00:00,SOC,Livebet,SV Lippstadt 08 v Sportfreunde Lotte,0.00,LOST,(0-0) Sportfreunde Lotte -0.75 (Asian Handicap In-Play),2:2,Bet365,1.8,2.00,-2.00,pawelpl,2016-02-23 18:26:57
+460,2016-02-23 18:00:00,SOC,Livebet,SV Lippstadt 08 v Sportfreunde Lotte,0.00,LOST,(0-0) Sportfreunde Lotte -0.75 (Asian Handicap In-Play),2:2,Bet365,1.8,4.00,-4.00,pawelpl,2016-02-23 18:26:27
+461,2016-02-23 17:00:00,SOC,Livebet,Voitsberg - FC Grossklein,0.00,LOST,Full Time Excluding Overtime Home (Home Draw Away) (1:2),2-2,William Hill,3.3,2.00,-2.00,pawelpl,2016-02-23 18:05:11
+462,2016-02-23 17:07:00,SOC,Friendly,Hibernian - Aalesund,7.2,WIN,"over 2,5",1-4,Bet-at-home,1.8,4.00,3.20,pawelpl,2016-02-23 17:08:43
+463,2016-02-23 13:30:00,SOC,Livebet,FK Jelgava - FK Tosno,9,WIN,First Half Over 1.50 (Over/Under) (0:1),0:2,Betsson SB,3,3.00,6.00,pawelpl,2016-02-23 14:05:51
+464,2016-02-23 13:00:00,SOC,Livebet,Aris Limmasol - FC Sheriff Tiraspol,6.2,WIN,First Half Away -1.00 (Asian Handicap),1-3,Marathonbet,3.1,2.00,4.20,pawelpl,2016-02-23 13:09:35
+465,2016-02-23 13:00:00,SOC,Livebet,Aris Limmasol - FC Sheriff Tiraspol,3.1,WIN,First Half Away -1.00 (Asian Handicap),1-3,Marathonbet,3.1,1.00,2.10,pawelpl,2016-02-23 13:09:15
+466,2016-02-23 13:00:00,SOC,Livebet,Aris Limmasol - FC Sheriff Tiraspol,6.88,WIN,Full Time Excluding Overtime Away -0.75 (Asian Handicap),1-8,Marathonbet,1.72,4.00,2.88,pawelpl,2016-02-23 13:04:58
+467,2016-02-21 19:30:00,SOC,Livebet,Real Garcilaso - Sporting Cristal Lima,1,PUSH,Real Garcilaso (Draw No Bet-Full Time Excluding Overtime)(0:1),1:1,Bet365,3.4,1.00,0.00,pawelpl,2016-02-21 19:44:43
+468,2016-02-21 17:00:00,SOC,Livebet,Ayia Napa - AEK Larnaca,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime)(1:3),1:3,Marathonbet,2.9,3.00,-3.00,pawelpl,2016-02-21 17:47:54
+469,2016-02-21 14:00:00,SOC,Other,Kifisia OFI Kreta,6,WIN,OFI -1EH,0:3,Sportingbet,1.5,4.00,2.00,pawelpl,2016-02-21 13:12:59
+470,2016-02-21 13:30:00,SOC,Livebet,FK Fotbal Trinec U21 - Sparta Prague U21,6.09,WIN,FK Fotbal Trinec U21 (EH 2:0 - Full Time Excluding Overtime)(0:0),0:1,Nordicbet,2.03,3.00,3.09,pawelpl,2016-02-21 12:57:08
+471,2016-02-21 12:00:00,SOC,Livebet,CD Mostoles - CU Collado Villalba,0.00,LOST,CD Mostoles -0.75 (Asian Handicap-Rest of Match)(1:0),1:0,Bet365,1.83,2.00,-2.00,pawelpl,2016-02-21 12:16:58
+472,2016-02-21 12:30:00,SOC,Livebet,Kocaeli Birlik Spor - Tarsus Idman Yurdu,2.77,WIN,Kocaeli Birlik Spor -0.75 (Asian Handicap-Rest of Match)(0:0),2:1,Bet365,1.77,2.00,0.77,pawelpl,2016-02-21 12:11:20
+473,2016-02-21 12:30:00,SOC,Livebet,Kocaeli Birlik Spor - Tarsus Idman Yurdu,2.75,WIN,Kocaeli Birlik Spor -0.75 (Asian Handicap-Rest of Match)(0:0),2:1,Bet365,1.75,2.00,0.75,pawelpl,2016-02-21 12:09:54
+474,2016-02-21 12:00:00,SOC,Livebet,CMD San Juan - San Fernando CD,4,PUSH,San Fernando CD (Draw No Bet-Full Time Excluding Overtime)(0:0),1:1,Betsson SB,1.78,4.00,0.00,pawelpl,2016-02-21 11:07:01
+475,2016-02-21 09:55:00,SOC,Livebet,Sivasspor U19 - Torku Konyaspor U19,1.8,WIN,Sivasspor U19 -0.25 (Asian Handicap-Rest of Match)(0:1),5:2,Bet365,1.8,1.00,0.80,pawelpl,2016-02-21 09:50:52
+476,2016-02-21 09:55:00,SOC,Livebet,Sivasspor U19 - Torku Konyaspor U19,2.1,WIN,Sivasspor U19 (EH 1:0 - Full Time Excluding Overtime)(0:1),5:2,Bet365,2.1,1.00,1.10,pawelpl,2016-02-21 09:45:54
+477,2016-02-21 09:55:00,SOC,Livebet,Sivasspor U19 - Torku Konyaspor U19,6.3,WIN,Sivasspor U19 (EH 1:0 - Full Time Excluding Overtime)(0:1),5:2,Bet365,2.1,3.00,3.30,pawelpl,2016-02-21 09:45:29
+478,2016-02-20 16:00:00,SOC,Friendly,FK AS Trencin - Znojmo,6,WIN,FK AS Trencin -1.25 (Asian Handicap-Full Time Excluding Overtime),5:1,Bet365,2,3.00,3.00,pawelpl,2016-02-20 13:18:23
+479,2016-02-20 12:10:00,SOC,Livebet,Panegialios U19 - Chania U19,3.00,PUSH,Over 2 (Over Under-Full Time Excluding Overtime),voided,Marathonbet,2,3.00,0.00,pawelpl,2016-02-20 11:39:57
+480,2016-02-20 10:45:00,SOC,Livebet,Estonia U17 - Lithuania U17,6.51,WIN,Estonia U17 +1.5 (Asian Handicap-Full Time Excluding Overtime),1:2,Fonbet,2.17,3.00,3.51,pawelpl,2016-02-20 10:44:35
+481,2016-02-20 09:30:00,SOC,Livebet,Port Adelaide Pirates - Sturt Lions,7.5,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),2:0,Fonbet,2.5,3.00,4.50,pawelpl,2016-02-20 08:56:48
+482,2016-02-19 13:00:00,SOC,Livebet,Torpedo Zhodino - Naftan Novopolotsk,0.00,LOST,Naftan Novopolotsk 0 (Asian Handicap-Rest of 1st Half)(0:0),1:0,Bet365,2.2,2.00,-2.00,pawelpl,2016-02-19 12:14:56
+483,2016-02-19 13:00:00,SOC,Livebet,Torpedo Zhodino - Naftan Novopolotsk,0.00,LOST,Naftan Novopolotsk 0 (Asian Handicap-Rest of 1st Half)(0:0),1:0,Bet365,2.2,3.00,-3.00,pawelpl,2016-02-19 12:13:57
+484,2016-02-19 11:00:00,SOC,Livebet,FK Luch-Energiya Vladivostok - FC Ufa,4,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),1:4,Bet-at-home,2,2.00,2.00,pawelpl,2016-02-19 10:20:35
+485,2016-02-19 11:00:00,SOC,Livebet,FK Luch-Energiya Vladivostok - FC Ufa,7.5,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),1:4,William Hill,2.5,3.00,4.50,pawelpl,2016-02-19 10:16:14
+486,2016-02-19 09:30:00,SOC,Livebet,Obolon Kiev - Arsenal Kyiv,3.66,WIN,Over 2.5 (Over Under-First Half),2-2,Fonbet,1.83,2.00,1.66,pawelpl,2016-02-19 09:01:24
+487,2016-02-19 09:30:00,SOC,Livebet,Obolon Kiev - Arsenal Kyiv,5.34,WIN,Over 2.5 (Over Under-First Half),2-2,Fonbet,1.78,3.00,2.34,pawelpl,2016-02-19 09:00:16
+488,2016-02-19 09:00:00,SOC,Livebet,Blacktown Spartans - Sydney Olympic FC,12,WIN,Sydney Olympic FC (Draw No Bet-Full Time Excluding Overtime)(0:0),1:2,Betfred,3,4.00,8.00,pawelpl,2016-02-19 08:41:26
+489,2016-02-18 18:45:00,SOC,Livebet,MKS Zory - Gwarek Ornontowice,3.46,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:1),2-2,Bet365,1.73,2.00,1.46,pawelpl,2016-02-18 18:56:59
+490,2016-02-18 18:45:00,SOC,Friendly,MKS Zory - Gwarek Ornontowice,0.00,LOST,Over 5.5 (Over Under-Full Time Excluding Overtime),2-2,Betfred,3.75,2.00,-2.00,pawelpl,2016-02-18 17:53:36
+491,2016-02-18 14:55:00,TNS,Livebet,Evgeny Donskoy - Oleksandr Nedovyesov,0.00,LOST,Over 2.5 (Sets Over/Under-Full Event)(6:4-3:2),2-0,TIPICO,6.5,1.00,-1.00,pawelpl,2016-02-18 14:53:23
+492,2016-02-18 14:55:00,TNS,Livebet,Evgeny Donskoy - Oleksandr Nedovyesov,0.00,LOST,Oleksandr Nedovyesov (Match Winner-Full Event)(6:4-0:0),2-0,Bet-at-home,4.5,2.00,-2.00,pawelpl,2016-02-18 14:35:23
+493,2016-02-18 00:00:00,SOC,Livebet,Deportivo Pasto - Atletico Bucaramanga,1,LOST,Deportivo Pasto -0.25 (Asian Handicap-Rest of Match)(0:0),0:0,SBOBET,2.08,2.00,-1.00,pawelpl,2016-02-18 00:29:08
+494,2016-02-18 00:00:00,SOC,Livebet,Deportivo Pasto - Atletico Bucaramanga,1,LOST,Deportivo Pasto -0.25 (Asian Handicap-Rest of Match)(0:0),0:0,SBOBET,2.08,2.00,-1.00,pawelpl,2016-02-18 00:28:34
+495,2016-02-17 15:00:00,SOC,Other,Radomlje - Roltek Dob,10.75,WIN,"over 3,5",3-2,Sportingbet,2.15,5.00,5.75,pawelpl,2016-02-17 14:54:25
+496,2016-02-17 18:30:00,SOC,Friendly,Hirschstetten-ASK/BSC Bruck Leitha,2.25,WIN,2 ( 3WHT),0-4,Bet365,2.25,1.00,1.25,pawelpl,2016-02-17 01:20:53
+497,2016-02-17 18:30:00,SOC,Friendly,Hirschstetten-ASK/BSC Bruck Leitha,3.6,WIN,2 ( 1X2),0-7,Bet365,1.8,2.00,1.60,pawelpl,2016-02-17 01:20:38
+498,2016-02-17 02:30:00,SOC,Women,Canada W - Guatemala W,7.6,WIN,Canada W -5.25 (Asian Handicap-Full Time Excluding Overtime),10:0,Bet365,1.9,4.00,3.60,pawelpl,2016-02-17 00:10:46
+499,2016-02-17 18:00:00,HKY,Czech R.,HC Slovan Ustecti Lvi - SK Horacka Slavia Trebic,0.00,LOST,Draw (1X2-Full Time Excluding Overtime),1:0,Ladbrokes,3.2,3.00,-3.00,pawelpl,2016-02-16 23:51:08
+500,2016-02-16 18:10:00,SOC,Livebet,Girls Soccer Academy W - Kiryat Gat SC W,2.93,WIN,Kiryat Gat SC W -0.75 (Asian Handicap-Rest of Match)(0:1),0:2,Bet365,1.93,2.00,0.93,pawelpl,2016-02-16 18:19:14
+501,2016-02-16 18:10:00,SOC,Livebet,Girls Soccer Academy W - Kiryat Gat SC W,4.4,WIN,Kiryat Gat SC W -0.75 (Asian Handicap-Rest of Match)(0:1),0:2,Bet365,1.93,3.00,1.40,pawelpl,2016-02-16 18:18:44
+502,2016-02-16 19:00:00,SOC,Livebet,Wiener Viktoria - SC Mannsdorf,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(0:0),0-3,Bet-at-home,2.3,2.00,-2.00,pawelpl,2016-02-16 18:03:52
+503,2016-02-16 19:00:00,SOC,Livebet,Wiener Viktoria - SC Mannsdorf,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(0:0),0-3,Bet-at-home,2.3,4.00,-4.00,pawelpl,2016-02-16 18:03:20
+504,2016-02-16 18:00:00,SOC,Europa League,Fenerbahce SK - FK Lokomotiv Moscow,0.00,LOST,Over 4.5 (Cards Over/Under-Full Time Excluding Overtime),no,Bet365,1.9,2.00,-2.00,pawelpl,2016-02-16 16:58:18
+505,2016-02-16 18:00:00,SOC,Europa League,Fenerbahce SK - FK Lokomotiv Moscow,0.00,LOST,Over 4.5 (Cards Over/Under-Full Time Excluding Overtime),no,Bet365,1.9,3.00,-3.00,pawelpl,2016-02-16 16:55:26
+506,2016-02-16 17:00:00,SOC,Friendly,GKS Tychy II-AKS Mikolow,6.4,WIN,over (2.5 TOT),6-1,Bet365,1.6,4.00,2.40,pawelpl,2016-02-16 15:43:26
+507,2016-02-16 11:45:00,SOC,Livebet,Zenit Izhevsk - Volga Ulyanovsk,3.6,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),3:0,Bet365,1.8,2.00,1.60,pawelpl,2016-02-16 10:55:58
+508,2016-02-16 11:45:00,SOC,Livebet,Zenit Izhevsk - Volga Ulyanovsk,3.6,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),3:0,Betfred,1.8,2.00,1.60,pawelpl,2016-02-16 10:52:04
+509,2016-02-16 11:45:00,SOC,Livebet,Zenit Izhevsk - Volga Ulyanovsk,7.32,WIN,Zenit Izhevsk (1X2-Full Time Excluding Overtime)(0:0),3:0,Betfred,1.83,4.00,3.32,pawelpl,2016-02-16 10:51:09
+510,2016-02-15 17:00:00,SOC,Friendly,FK Dinamo Moscow - Zawisza Bydgoszcz,0.00,LOST,FK Dinamo Moscow -0.75 (Asian Handicap-Full Time Excluding Overtime),1:1,188bet,1.87,2.00,-2.00,pawelpl,2016-02-15 14:26:59
+511,2016-02-15 17:00:00,SOC,Friendly,FK Dinamo Moscow - Zawisza Bydgoszcz,0.00,LOST,FK Dinamo Moscow -0.75 (Asian Handicap-Full Time Excluding Overtime),1:1,188bet,1.87,3.00,-3.00,pawelpl,2016-02-15 14:26:32
+512,2016-02-15 00:13:20,SOC,Livebet,Liverpool Montevideo U20 - Sao Paulo SP U20,1,LOST,Sao Paulo SP U20 -1.25 (Asian Handicap-Rest of Match)(0:0),0:1,188bet,1.99,2.00,-1.00,pawelpl,2016-02-14 23:31:26
+513,2016-02-14 23:00:00,SOC,Livebet,CD Chalatenango - CD Aguila,4.53,WIN,CD Aguila +0.25 (Asian Handicap-Rest of Match)(0:0),0:0,Bet365,2.02,3.00,1.53,pawelpl,2016-02-14 23:00:01
+514,2016-02-14 15:00:00,SOC,Other,Neftekhimik - Volga,0.00,LOST,Volga -1EH,1:1,Sportingbet,3.7,2.00,-2.00,pawelpl,2016-02-14 14:45:52
+515,2016-02-14 13:10:07,SOC,Livebet,AC Oulu U20 - FC Honka U20,1.62,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime)(0:0),1-0,Bet365,1.62,1.00,0.62,pawelpl,2016-02-14 12:25:49
+516,2016-02-14 13:10:07,SOC,Livebet,AC Oulu U20 - FC Honka U20,1.83,WIN,AC Oulu U20 +2 (Asian Handicap-Rest of Match)(0:0),1-0,Bet365,1.83,1.00,0.83,pawelpl,2016-02-14 12:25:11
+517,2016-02-14 13:10:07,SOC,Livebet,AC Oulu U20 - FC Honka U20,5.49,WIN,AC Oulu U20 +2 (Asian Handicap-Rest of Match)(0:0),1-0,Bet365,1.83,3.00,2.49,pawelpl,2016-02-14 12:24:55
+518,2016-02-14 11:00:00,SOC,Livebet,SC Freiburg W - 1. FFC Turbine Potsdam W,0.00,LOST,1. FFC Turbine Potsdam W (EH 0:2 - Full Time Excluding Overtime)(2:0),2:0,Betsson SB,2.5,3.00,-3.00,pawelpl,2016-02-14 10:28:04
+519,2016-02-14 09:30:00,SOC,Livebet,Eastern Suburbs W - Peninsula Power W,4.1,WIN,Eastern Suburbs W -1.25 (Asian Handicap-Rest of Match)(4:0),7:0,Bet365,2.05,2.00,2.10,pawelpl,2016-02-14 09:47:41
+520,2016-02-14 09:30:00,SOC,Livebet,Eastern Suburbs W - Peninsula Power W,9.44,WIN,Eastern Suburbs W -2.5 (Asian Handicap-First Half)(2:0),"4:0, 3:0",Marathonbet,2.36,4.00,5.44,pawelpl,2016-02-14 09:04:43
+521,2016-02-13 17:00:00,SOC,Livebet,CD Santa Ursula - CD Union Sur Yaiza,4,PUSH,CD Santa Ursula 0 (Asian Handicap-Full Time Excluding Overtime)(0:0),0:0,Marathonbet,1.87,4.00,0.00,pawelpl,2016-02-13 17:13:28
+522,2016-02-13 16:00:00,SOC,Livebet,Vikingur Olafsvik - UMF Selfoss,2,PUSH,Vikingur Olafsvik -1 (Asian Handicap-Rest of Match)(0:0),2:1,Bet365,1.98,2.00,0.00,pawelpl,2016-02-13 15:31:20
+523,2016-02-13 16:00:00,SOC,Livebet,Vikingur Olafsvik - UMF Selfoss,4,PUSH,Vikingur Olafsvik -1 (Asian Handicap-Rest of Match)(0:0),2:1,Bet365,1.98,4.00,0.00,pawelpl,2016-02-13 15:30:34
+524,2016-02-13 13:00:00,SOC,Livebet,Athletic FC United - Degerfors IF,2,PUSH,Over 3 (Over Under-Full Time Excluding Overtime)(1:0),2:1,Bet365,2.02,2.00,0.00,pawelpl,2016-02-13 12:32:41
+525,2016-02-13 13:00:00,SOC,Livebet,Athletic FC United - Degerfors IF,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(1:0),2:1,Bet365,1.83,2.00,-2.00,pawelpl,2016-02-13 12:17:03
+526,2016-02-13 13:00:00,SOC,Livebet,Athletic FC United - Degerfors IF,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(1:0),2:1,Bet365,1.83,4.00,-4.00,pawelpl,2016-02-13 12:15:35
+527,2016-02-13 12:00:00,SOC,Livebet,FC Dacia Chisinau - MFK ZemplÃ­n Michalovce,5.2,WIN,Over 0.5 (Over Under-First Half),"0:1, 2:2",Bet-at-home,2.6,2.00,3.20,pawelpl,2016-02-13 11:37:29
+528,2016-02-13 12:00:00,SOC,Livebet,FC Dacia Chisinau - MFK ZemplÃ­n Michalovce,7.5,WIN,Over 0.5 (Over Under-First Half),"0:1, 2:2",Bet-at-home,2.5,3.00,4.50,pawelpl,2016-02-13 11:37:11
+529,2016-02-13 11:00:00,SOC,Livebet,FK Red Star Belgrade Crvena Zvezda - FK Ural,5.4,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(0:0),1:2,Marathonbet,1.8,3.00,2.40,pawelpl,2016-02-13 10:50:52
+530,2016-02-13 11:00:00,SOC,Livebet,FK Red Star Belgrade Crvena Zvezda - FK Ural,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),"0:0, 1:2",Ladbrokes,2.38,4.00,-4.00,pawelpl,2016-02-13 10:31:51
+531,2016-02-13 11:00:00,SOC,Livebet,FK Red Star Belgrade Crvena Zvezda - FK Ural,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),"0:0, 1:2",Marathonbet,2.28,4.00,-4.00,pawelpl,2016-02-13 10:28:36
+532,2016-02-13 11:00:00,SOC,Livebet,FC Ingolstadt 04 U19 - SV Darmstadt 98 U19,3.8,WIN,FC Ingolstadt 04 U19 -0.5 (Asian Handicap-Rest of Match)(0:0),3:0,Bet365,1.9,2.00,1.80,pawelpl,2016-02-13 10:10:19
+533,2016-02-13 11:00:00,SOC,Livebet,FC Ingolstadt 04 U19 - SV Darmstadt 98 U19,7.6,WIN,FC Ingolstadt 04 U19 -0.5 (Asian Handicap-Rest of Match)(0:0),3:0,Bet365,1.9,4.00,3.60,pawelpl,2016-02-13 10:10:04
+534,2016-02-13 09:55:00,SOC,Livebet,Frydek-Mistek - Banik Ostrava B,6.68,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime)(2:0),4:1,Unibet,1.67,4.00,2.68,pawelpl,2016-02-13 09:50:24
+535,2016-02-13 10:30:00,SOC,Livebet,Rakhine United FC - Hantharwady United,0.00,LOST,Hantharwady United (1X2-Full Time Excluding Overtime)(0:0),1:1,Marathonbet,2.05,3.00,-3.00,pawelpl,2016-02-13 09:49:05
+536,2016-02-13 09:00:00,SOC,Livebet,Brisbane City - Eastern Suburbs,0.00,LOST,Over 9.5 (Over Under-Full Time Excluding Overtime)(5:4),5:4,Marathonbet,3.35,2.00,-2.00,pawelpl,2016-02-13 09:42:44
+537,2016-02-13 09:00:00,SOC,Livebet,Global FC - Green Archers,7.32,WIN,Global FC 0 (Asian Handicap-Full Time Excluding Overtime)(0:1),2:1,Marathonbet,2.44,3.00,4.32,pawelpl,2016-02-13 09:23:20
+538,2016-02-12 17:00:00,SOC,Livebet,SV Allerheiligen - TUS Heiligenkreuz,4.9,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime)(0:1),4-1,Bet-at-home,2.45,2.00,2.90,pawelpl,2016-02-12 16:21:24
+539,2016-02-12 17:00:00,SOC,Livebet,SV Allerheiligen - TUS Heiligenkreuz,3.1,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime)(0:1),4:1,Bet-at-home,1.55,2.00,1.10,pawelpl,2016-02-12 16:21:11
+540,2016-02-13 09:00:00,SOC,Friendly,Zilina II-Lokomotiva Zvolen,3,PUSH,2 ( DNB),1:1,Bet365,1.8,3.00,0.00,pawelpl,2016-02-12 16:03:25
+541,2016-02-12 16:00:00,SOC,Livebet,Kuban Krasnodar - FK Torpedo Armavir,0.00,LOST,Kuban Krasnodar (EH 0:1 - Full Time Excluding Overtime)(1:0),1:2,Ladbrokes,2.63,3.00,-3.00,pawelpl,2016-02-12 15:56:11
+542,2016-02-12 16:00:00,SOC,Livebet,Kuban Krasnodar - FK Torpedo Armavir,8.4,WIN,Over 0.5 (Over Under-First Half)(0:0),1-0,EXPEKT,2.8,3.00,5.40,pawelpl,2016-02-12 15:31:01
+543,2016-02-12 16:00:00,SOC,Livebet,Czech Republic U17 - Sweden U17,0.00,LOST,Czech Republic U17 (1X2-First Half),0-0,Unibet,3,2.00,-2.00,pawelpl,2016-02-12 15:22:26
+544,2016-02-12 13:00:00,SOC,Livebet,Turkey U17 - Norway U17,6.3,WIN,Over 0.5 (Over Under-First Half),1:0,BetClic,2.1,3.00,3.30,pawelpl,2016-02-12 12:25:22
+545,2016-02-12 20:00:00,BSK,France,JSA Bordeaux - Ujap Quimper 29,0.00,LOST,JSA Bordeaux -3.5 (Asian Handicap-Full Time Including Overtime),67:80,Sportingbet,1.85,4.00,-4.00,pawelpl,2016-02-12 11:27:20
+546,2016-02-12 17:00:00,SOC,Friendly,LKS Forteca Swierklany - GKS Pniowek Pawlowice Slaskie,0.00,LOST,GKS Pniowek Pawlowice Slaskie -1.75 (Asian Handicap-Full Time Excluding Overtime),0-1,Bet365,1.98,4.00,-4.00,pawelpl,2016-02-12 11:21:45
+547,2016-02-12 10:30:00,SOC,Livebet,Greenbank - The Gap,7.14,WIN,The Gap (EH 2:0 - Full Time Excluding Overtime)(0:0),0:12,Ladbrokes,2.38,3.00,4.14,pawelpl,2016-02-12 09:42:15
+548,2016-02-11 22:00:00,SOC,Livebet,Rio Preto EC - Gremio Barueri,6.75,WIN,Rio Preto EC (EH 0:3 - Full Time Excluding Overtime)(3:0),4-0,Bet365,2.25,3.00,3.75,pawelpl,2016-02-11 22:24:38
+549,2016-02-11 22:00:00,SOC,Livebet,Rio Preto EC - Gremio Barueri,8.8,WIN,Rio Preto EC (EH 0:3 - Full Time Excluding Overtime)(3:0),4-0,Bet365,2.2,4.00,4.80,pawelpl,2016-02-11 22:22:41
+550,2016-02-11 16:00:00,SOC,Livebet,Real Madrid U17 - Kashiwa Reysol U17,0.00,LOST,Real Madrid U17 (1X2-Full Time Excluding Overtime),0:0,Betsson SB,2.7,4.00,-4.00,pawelpl,2016-02-11 16:34:59
+551,2016-02-11 17:00:00,SOC,Other,Sarmacja - Iskra,7.4,WIN,"over 2,5",4-2,Sportingbet,1.85,4.00,3.40,pawelpl,2016-02-11 16:15:13
+552,2016-02-11 16:30:00,SOC,Livebet,Poland U17 - Belgium U17,0.00,LOST,Over 0.5 (Over Under-First Half),0-0,Marathonbet,2,3.00,-3.00,pawelpl,2016-02-11 15:54:52
+553,2016-02-11 11:30:00,SOC,Livebet,FK Zalgiris Vilnius - Wigry Suwalki,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),0-0,EXPEKT,1.95,1.00,-1.00,pawelpl,2016-02-11 10:51:50
+554,2016-02-11 11:30:00,SOC,Livebet,FK Zalgiris Vilnius - Wigry Suwalki,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),0-0,BetClic,1.9,4.00,-4.00,pawelpl,2016-02-11 10:50:07
+555,2016-02-11 11:00:00,SOC,Livebet,Sri Lanka W - Maldives W,5.58,WIN,Over 1.5 (Over Under-First Half)(0:1),0:2,Betsson SB,1.86,3.00,2.58,pawelpl,2016-02-11 10:40:32
+556,2016-02-11 11:00:00,SOC,Livebet,FC Shakhtar Donetsk - FC Dacia Chisinau,7.65,WIN,Draw (1X2-First Half),0-0,Ladbrokes,1.53,5.00,2.65,pawelpl,2016-02-11 10:30:14
+557,2016-02-11 10:19:35,SOC,Livebet,Adelaide Hills - Adelaide Cobras,6.84,WIN,Over 3 (Over Under-Full Time Excluding Overtime)(1:0),4-1,Marathonbet,1.71,4.00,2.84,pawelpl,2016-02-11 09:32:42
+558,2016-02-11 09:30:00,SOC,Livebet,Macarthur Rams - Western Sydney Wanderers U21,9,WIN,Macarthur Rams 0 (Asian Handicap-Full Time Excluding Overtime)(0:0),1-0,Fonbet,9,1.00,8.00,pawelpl,2016-02-11 08:38:07
+559,2016-02-11 09:30:00,SOC,Livebet,Macarthur Rams - Western Sydney Wanderers U21,10.72,WIN,Macarthur Rams +2 (Asian Handicap-Full Time Excluding Overtime)(0:0),1-0,Marathonbet,2.68,4.00,6.72,pawelpl,2016-02-11 08:37:39
+560,2016-02-10 15:00:00,SOC,Livebet,Energetyk ROW Rybnik - GKS Pniowek Pawlowice Slaskie,3,PUSH,Over 3 (Over Under-Full Time Excluding Overtime)(0:0),2-1,Bet365,1.83,3.00,0.00,pawelpl,2016-02-10 14:02:45
+561,2016-02-10 09:45:00,SOC,Livebet,Adelaide Blue Eagles - West Adelaide,12,WIN,Over 1.5 (Over Under-First Half)(0:1),0:2,Ladbrokes,3,4.00,8.00,pawelpl,2016-02-10 09:18:22
+562,2016-02-09 20:45:00,SOC,Livebet,Dundalk FC - Waterford United,0.00,LOST,Over 9.5 (Over Under-Full Time Excluding Overtime)(7:1),8:1,Ladbrokes,1.73,2.00,-2.00,pawelpl,2016-02-09 21:06:34
+563,2016-02-09 20:35:45,SOC,Livebet,Malahide - Cork City FC,7.68,WIN,Cork City FC -4.5 (Asian Handicap-Full Time Excluding Overtime)(0:4),0:6,Marathonbet,1.92,4.00,3.68,pawelpl,2016-02-09 20:46:47
+564,2016-02-09 13:00:00,SOC,Livebet,JSM Bejaia U21 - ES Setif U21,6.88,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime)(0:0),0:0,Betsson SB,1.72,4.00,2.88,pawelpl,2016-02-09 12:13:01
+565,2016-02-09 11:33:02,SOC,Livebet,India W - Sri Lanka W,0.00,LOST,Under 4.5 (Over Under-Full Time Excluding Overtime)(0:0),5:0,Bet365,1.83,3.00,-3.00,pawelpl,2016-02-09 10:42:01
+566,2016-02-08 21:00:00,SOC,Other,Raith u20 - Stirling u20,8.2,WIN,Raith u20,3:1,PINNACLE,2.05,4.00,4.20,pawelpl,2016-02-08 20:36:36
+567,2016-02-08 13:00:00,SOC,Other,Al Ahli Jeddah U17 - Real Madrid U17,0.00,LOST,"over 4,5 ht",0:3,Sportingbet,2,4.00,-4.00,pawelpl,2016-02-08 12:53:04
+568,2016-02-08 19:40:00,BSK,Poland,Siden Polski Cukier Torun - AZS Koszalin,0.00,LOST,Home -12.5,84:77,PINNACLE,2.07,2.00,-2.00,pawelpl,2016-02-07 23:30:48
+569,2016-02-07 19:00:00,SOC,Livebet,Maccabi Kishronot Hadera W - AS Tel Aviv University W,6.36,WIN,Maccabi Kishronot Hadera W (1X2-Full Time Excluding Overtime)(1:0),6:1,Betsson SB,1.59,4.00,2.36,pawelpl,2016-02-07 18:35:12
+570,2016-02-07 17:00:00,SOC,Livebet,Cordoba B - Castilleja,0.00,LOST,Cordoba B (EH 0:1 - Full Time Excluding Overtime)(0:0),2:1,Ladbrokes,1.91,4.00,-4.00,pawelpl,2016-02-07 16:07:43
+571,2016-02-07 15:00:00,SOC,Livebet,VGA Saint-Maur W - FCF Juvisy-Essonne W,4.4,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime)(0:0),0:1,Bet365,2.2,2.00,2.40,pawelpl,2016-02-07 14:21:55
+572,2016-02-07 15:00:00,SOC,Livebet,VGA Saint-Maur W - FCF Juvisy-Essonne W,0.00,LOST,FCF Juvisy-Essonne W -2.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),0:1,Fonbet,1.53,2.00,-2.00,pawelpl,2016-02-07 14:16:40
+573,2016-02-07 15:00:00,SOC,Livebet,VGA Saint-Maur W - FCF Juvisy-Essonne W,0.00,LOST,FCF Juvisy-Essonne W -3.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),0:1,Fonbet,2.35,2.00,-2.00,pawelpl,2016-02-07 14:15:49
+574,2016-02-07 15:00:00,SOC,Livebet,VGA Saint-Maur W - FCF Juvisy-Essonne W,0.00,LOST,FCF Juvisy-Essonne W -3.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),0:1,Fonbet,2.3,2.00,-2.00,pawelpl,2016-02-07 14:15:10
+575,2016-02-07 15:00:00,SOC,Livebet,VGA Saint-Maur W - FCF Juvisy-Essonne W,0.00,LOST,FCF Juvisy-Essonne W -2.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),0:1,Fonbet,1.6,4.00,-4.00,pawelpl,2016-02-07 14:14:58
+576,2016-02-07 14:30:00,SOC,Livebet,SV Darmstadt 98 U19 - VfB Stuttgart U19,0.00,LOST,VfB Stuttgart U19 (EH 1:0 - Full Time Excluding Overtime)(0:0),1:1,Ladbrokes,2.1,3.00,-3.00,pawelpl,2016-02-07 13:50:54
+577,2016-02-07 14:00:00,SOC,Livebet,Koninklijke HFC - WKE Emmen,6,WIN,Over 6.5 (Over Under-Full Time Excluding Overtime)(3:1),6:2,Ladbrokes,3,2.00,4.00,pawelpl,2016-02-07 13:48:14
+578,2016-02-07 14:00:00,SOC,Livebet,Koninklijke HFC - WKE Emmen,6.48,WIN,Over 5.5 (Over Under-Full Time Excluding Overtime)(3:1),6:2,Ladbrokes,1.62,4.00,2.48,pawelpl,2016-02-07 13:47:51
+579,2016-02-07 13:00:00,SOC,Livebet,Werder Bremen U19 - FC St. Pauli U19,6.24,WIN,Werder Bremen U19 (EH 0:1 - Full Time Excluding Overtime)(0:0),5:3,Unibet,2.08,3.00,3.24,pawelpl,2016-02-07 12:07:42
+580,2016-02-08 20:40:00,BSK,Poland,SIDEn Polski Cukier Torun - AZS Gaz Ziemny Koszalin,0.00,LOST,SIDEn Polski Cukier Torun (EH 0:9 - Full Time Including Overtime),84:77,Sportingbet,1.88,3.00,-3.00,pawelpl,2016-02-07 10:25:32
+581,2016-02-07 11:00:00,SOC,Ger. Other,VfL Bochum U19 - 1. FC Monchengladbach U19,5.55,WIN,VfL Bochum U19 -2 (Asian Handicap-Full Time Excluding Overtime),8:1,188bet,1.85,3.00,2.55,pawelpl,2016-02-07 09:30:15
+582,2016-02-07 08:58:16,SOC,Livebet,FA Bratislava - MFK Rusovce,6,WIN,FA Bratislava -1.5 (Asian Handicap-Full Time Excluding Overtime)(3:2),4:2,Marathonbet,2,3.00,3.00,pawelpl,2016-02-07 09:09:36
+583,2016-02-07 09:00:00,SOC,Other,Hawsk - Sydney University,3,PUSH,Sydney University DNB,0-0,Sportingbet,3.2,3.00,0.00,pawelpl,2016-02-07 08:53:10
+584,2016-02-07 09:30:00,SOC,Livebet,Nepal U23 - Bhutan U23,0.00,LOST,Bhutan U23 +1.5 (Asian Handicap-Rest of Match)(0:0),5:0,Bet365,1.98,3.00,-3.00,pawelpl,2016-02-07 08:40:26
+585,2016-02-07 09:30:00,SOC,Livebet,Nepal U23 - Bhutan U23,0.00,LOST,Bhutan U23 +1.5 (Asian Handicap-Rest of Match)(0:0),5:0,Bet365,1.98,3.00,-3.00,pawelpl,2016-02-07 08:40:04
+586,2016-02-06 15:00:00,SOC,Livebet,Bursaspor - Istanbul Basaksehir FK,2,PUSH,Bursaspor 0 (Asian Handicap-Full Time Excluding Overtime)(3:3),3:3,Marathonbet,4.5,2.00,0.00,pawelpl,2016-02-06 15:54:47
+587,2016-02-06 12:00:00,SOC,Livebet,Galatasaray U21 - Torku Konyaspor U21,6.64,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime)(1:0),3:0,Betsson SB,1.66,4.00,2.64,pawelpl,2016-02-06 12:22:31
+588,2016-02-06 12:00:00,SOC,Livebet,FC Banik Ostrava - FC Spartak Trnava,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),0:2,Unibet,1.55,3.00,-3.00,pawelpl,2016-02-06 11:11:48
+589,2016-02-06 11:00:00,SOC,Livebet,Chojniczanka Chojnice - Gryf Wejherowo,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime)(1:0),2:0,Ladbrokes,1.85,4.00,-4.00,pawelpl,2016-02-06 10:16:01
+590,2016-02-06 09:30:00,SOC,Livebet,Beitar Kfar Kana - FC Ahva Kfar Manda,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,Bet-at-home,2.35,2.00,-2.00,pawelpl,2016-02-06 09:24:11
+591,2016-02-06 09:30:00,SOC,Livebet,Beitar Kfar Kana - FC Ahva Kfar Manda,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,Bet-at-home,2.35,3.00,-3.00,pawelpl,2016-02-06 09:20:19
+592,2016-02-06 01:00:00,SOC,Livebet,Platense - Talleres Remedios Escalada,2.9,WIN,Talleres Remedios Escalada +0.25 (Asian Handicap-Rest of Match)(0:0),0:0,Bet365,1.9,2.00,0.90,pawelpl,2016-02-05 22:52:19
+593,2016-02-05 22:00:00,SOC,Livebet,Bolivar U20 - Liverpool Montevideo U20,2.5,LOST,Liverpool Montevideo U20 -0.25 (Asian Handicap-Rest of Match)(0:12),0:12,Bet365,1.83,5.00,-2.50,pawelpl,2016-02-05 22:39:50
+594,2016-02-05 14:00:00,SOC,Livebet,FK Tosno - FK Spartak Moscow II,9,WIN,Over 0.5 (Over Under-First Half)(0:0),1-0,Betfred,3,3.00,6.00,pawelpl,2016-02-05 13:35:11
+595,2016-02-05 13:00:00,SOC,Other,Hapoel Azor - Shikun,7.8,WIN,Azor,4:0,Bet-at-home,1.95,4.00,3.80,pawelpl,2016-02-05 12:00:34
+596,2016-02-05 09:00:00,SOC,Other,Malediwy W - Indie W,0.00,LOST,iNDIE W -2eh,0-0,Sportingbet,4.7,2.00,-2.00,pawelpl,2016-02-05 08:41:20
+597,2016-02-05 09:00:00,SOC,Other,Malediwy W - Indie W,0.00,LOST,Indie -1EH,0-0,Sportingbet,2.3,4.00,-4.00,pawelpl,2016-02-05 08:40:10
+598,2016-02-04 18:00:00,SOC,Livebet,Orgryte IS - Gunnilse IS Angered,0.00,LOST,Orgryte IS -1.5 (Asian Handicap-Rest of Match)(2:0),3:3,10bet,1.42,3.00,-3.00,pawelpl,2016-02-04 17:35:30
+599,2016-02-04 17:00:00,SOC,Other,Krasnodar - Lech,5,PUSH,Krasnodar 0,1:1,PINNACLE,1.97,5.00,0.00,pawelpl,2016-02-04 16:36:20
+600,2016-02-04 19:30:00,SOC,Friendly,Spvgg Erkenschwick - SV Fortuna Herne,0.00,LOST,SV Fortuna Herne (1X2-Full Time Excluding Overtime),8-1,Coral,29,1.00,-1.00,pawelpl,2016-02-04 14:01:33
+601,2016-02-04 19:30:00,SOC,Friendly,Spvgg Erkenschwick - SV Fortuna Herne,0.00,LOST,X2 (Double chance-Full Time Excluding Overtime),8-1,Coral,10,1.00,-1.00,pawelpl,2016-02-04 13:59:10
+602,2016-02-04 12:00:00,SOC,Livebet,FK Metalurg Skopje - Renova,0.00,LOST,X2 (Double chance-Full Time Excluding Overtime),1:0,Bet365,3,4.00,-4.00,pawelpl,2016-02-04 11:49:38
+603,2016-02-04 11:55:00,SOC,Livebet,Casa do Sport Lisboa e Benfica - Chuac Lun,0.00,LOST,Over 8.5 (Over Under-Full Time Excluding Overtime)(2:0),7-0,Ladbrokes,1.85,4.00,-4.00,pawelpl,2016-02-04 11:10:11
+604,2016-02-04 11:00:00,SOC,Livebet,YFK Shinnik Yaroslav - FK Dolgoprudny,1.5,LOST,YFK Shinnik Yaroslav -0.25 (Asian Handicap-Rest of Match)(0:0),1:1,Bet365,1.77,3.00,-1.50,pawelpl,2016-02-04 10:57:57
+605,2016-02-04 12:00:00,SOC,Friendly,FK Metalurg Skopje - Renova,0.00,LOST,Renova (1X2-Full Time Excluding Overtime),1:0,Betfred,2.4,4.00,-4.00,pawelpl,2016-02-04 09:56:09
+606,2016-02-04 09:55:00,SOC,Livebet,Mt Druitt Town Rangers - Western Sydney Wanderers U21,7.5,WIN,Western Sydney Wanderers U21 Over 3.5 (Team Score Over Under-Full Time Excluding Overtime),0:4,Betfred,3.75,2.00,5.50,pawelpl,2016-02-04 09:30:07
+607,2016-02-04 10:00:00,SOC,Other,Druiit - wESTERN sYDNEY U21,4.5,WIN,wESTERN -1eh,0:1,Sportingbet,2.25,2.00,2.50,pawelpl,2016-02-04 09:23:12
+608,2016-02-03 21:00:00,SOC,Livebet,FC Barcelona - Valencia CF,5.64,WIN,FC Barcelona -1.5 (Asian Handicap-Rest of Match)(3:0),7-0,Bet365,1.88,3.00,2.64,pawelpl,2016-02-03 21:16:05
+609,2016-02-03 19:30:00,SOC,Livebet,IR Reykjavik W - Valur ReykjavÃ­k W,4.32,WIN,Valur ReykjavÃ­k W -1.75 (Asian Handicap-Rest of Match)(0:5),0-7,Bet365,1.88,3.00,1.32,pawelpl,2016-02-03 19:52:51
+610,2016-02-02 18:15:00,SOC,Livebet,FC Stadlau - Team Wiener Linien,0.00,LOST,Over 5.5 (Over Under-Full Time Excluding Overtime)(1:0),3:1,Ladbrokes,2.1,3.00,-3.00,pawelpl,2016-02-02 17:22:27
+611,2016-02-02 18:00:00,SOC,Livebet,NK Spansko - NK Lucko,0.00,LOST,NK Lucko (1X2-First Half)(0:0),1-1,TIPICO,2.05,1.00,-1.00,pawelpl,2016-02-02 17:08:17
+612,2016-02-02 18:00:00,SOC,Livebet,NK Spansko - NK Lucko,0.00,LOST,NK Lucko (1X2-Full Time Excluding Overtime)(0:0),4-4,TIPICO,1.45,3.00,-3.00,pawelpl,2016-02-02 17:07:55
+613,2016-02-02 16:30:00,SOC,Livebet,FC Botosani - Jagiellonia Bialystok SSA,6.75,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime)(0:0),3:2,Betfred,2.25,3.00,3.75,pawelpl,2016-02-02 15:47:17
+614,2016-02-02 14:00:00,SOC,Livebet,NK Radnik Sesvete - NK Vinogradar,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),1-1,Marathonbet,1.95,3.00,-3.00,pawelpl,2016-02-02 14:18:21
+615,2016-02-02 11:30:00,SOC,Livebet,Logan Lightning - Sydney Olympic FC,4.95,WIN,Under 9.5 (Over Under-Full Time Excluding Overtime)(1:2),3:5,Bet-at-home,1.65,3.00,1.95,pawelpl,2016-02-02 11:49:06
+616,2016-02-02 11:00:00,SOC,Livebet,Doxa Katokopias - FK Tosno,3.34,WIN,FK Tosno (1X2-Full Time Excluding Overtime)(0:0),0:6,Betfred,1.67,2.00,1.34,pawelpl,2016-02-02 10:39:20
+617,2016-02-02 09:30:00,SOC,Livebet,Mitchelton FC - Brisbane Strikers,0.00,LOST,Brisbane Strikers (EH 2:0 - Full Time Excluding Overtime)(1:1),1:3,Betsson SB,2.4,2.00,-2.00,pawelpl,2016-02-02 10:04:21
+618,2016-02-02 10:00:00,SOC,Friendly,FC Astra Giurgiu (n) - Korona Kielce,0.00,LOST,Home -0.5 (Match),0:0,PINNACLE,1.95,2.00,-2.00,pawelpl,2016-02-02 09:53:04
+619,2016-02-02 10:00:00,SOC,Other,Royla u18 - Pune u19,5.01,WIN,Pune u18 DNB,0:1,BetSafe,1.67,3.00,2.01,pawelpl,2016-02-02 09:08:55
+620,2016-02-02 09:30:00,SOC,Livebet,Mitchelton FC - Brisbane Strikers,4.65,WIN,Mitchelton FC (EH 3:0 - Full Time Excluding Overtime),1:3,Betsson SB,1.55,3.00,1.65,pawelpl,2016-02-02 08:37:01
+621,2016-02-01 17:00:00,HKY,Ukraine,Rapid Kiev - Generals Kiev,0.00,LOST,Rapid +14 EH,0-15,Bet365,1.9,3.00,-3.00,pawelpl,2016-02-01 16:56:33
+622,2016-02-01 16:30:00,SOC,Livebet,KKS Lech Poznan - SK Slavia Praha,5.19,WIN,Under 10.5 (Corners Over Under-Full Time Excluding Overtime)(0:1),1:5,Bet365,1.73,3.00,2.19,pawelpl,2016-02-01 15:35:29
+623,2016-02-01 13:54:51,SOC,Livebet,Olympiakos Nicosia FC - Rubin Kazan U21,4.9,WIN,Rubin Kazan U21 (1X2-Full Time Excluding Overtime)(1:0),1:3,Fonbet,2.45,2.00,2.90,pawelpl,2016-02-01 14:11:54
+624,2016-02-01 11:54:23,SOC,Livebet,Balestier Khalsa FC - Ceres-La Salle FC,10.24,WIN,Ceres-La Salle FC (Draw No Bet-Full Time Excluding Overtime)(0:0),1:3,Nordicbet,2.56,4.00,6.24,pawelpl,2016-02-01 11:18:19
+625,2016-01-30 18:00:00,SOC,Friendly,Slask Wroclaw (n) - GKS Belchatow,7.36,WIN,Over 2.5 (Match),3:0,PINNACLE,1.84,4.00,3.36,pawelpl,2016-01-30 14:27:39
+626,2016-01-30 13:00:00,SOC,Livebet,FK Zvezdara - Donji Srem,3.74,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2:1,Unibet,1.87,2.00,1.74,pawelpl,2016-01-30 12:41:11
+627,2016-01-30 13:30:00,SOC,Friendly,FK Amkar Perm - MSK Zilina,6.3,WIN,FK Amkar Perm (1X2-Full Time Excluding Overtime),5:0,William Hill,2.1,3.00,3.30,pawelpl,2016-01-29 16:30:44
+628,2016-01-29 13:00:00,SOC,Livebet,FK Cukaricki Stankom - FK Kolubara,0.00,LOST,FK Cukaricki Stankom (EH 0:2 - Full Time Excluding Overtime)(0:0),2-1,Unibet,2.7,4.00,-4.00,pawelpl,2016-01-29 12:06:24
+629,2016-01-29 11:00:00,SOC,Livebet,PFK Botev Vratsa - FC Bdin Vidin,7.8,WIN,PFK Botev Vratsa (EH 0:1 - Full Time Excluding Overtime),6-0,Betsson SB,1.95,4.00,3.80,pawelpl,2016-01-29 10:35:45
+630,2016-01-28 20:00:00,SOC,Livebet,Hapoel Ironi Rishon Lezion - Maccabi Tel-Aviv,0.00,LOST,Maccabi Tel-Aviv (EH 1:0 - Full Time Excluding Overtime)(1:0),1:1,Unibet,3.5,2.00,-2.00,pawelpl,2016-01-28 19:31:29
+631,2016-01-28 18:30:00,SOC,Other,Flora u19 - Viimisi (0:1 current score),10,WIN,Viimisi -1EH,0:4,Ladbrokes,5,2.00,8.00,pawelpl,2016-01-28 17:31:40
+632,2016-01-28 18:00:00,SOC,Other,Flora u19 - Viimisi (0:1 current score),6.92,WIN,Viimisi DNB,0:4,Ladbrokes,1.73,4.00,2.92,pawelpl,2016-01-28 17:29:32
+633,2016-01-27 18:00:00,SOC,Livebet,Admira Technopool - SK Rapid Wien II,7.64,WIN,Over 5.5 (Over Under-Full Time Excluding Overtime),2:4,Ladbrokes,1.91,4.00,3.64,pawelpl,2016-01-27 17:12:58
+634,2016-01-27 15:00:00,SOC,Livebet,FK Austria Wien - SV Horn,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,EXPEKT,2.8,4.00,-4.00,pawelpl,2016-01-27 14:54:34
+635,2016-01-27 11:00:00,SOC,Livebet,Trabzon Karadeniz SK - Kardemir DC Karabukspor,0.00,LOST,Over 2.5 (Over Under-First Half)(2:0),2:0,Unibet,2.3,2.00,-2.00,pawelpl,2016-01-27 10:28:34
+636,2016-01-27 04:00:00,SOC,Mexico,Club Leones Negros de la Universidad de Guadalajara - Dorados,3,PUSH,Club Leones Negros de la Universidad de Guadalajara -1 (Asian Handicap-Full Time Excluding Overtime),2:1,Unibet,2.4,3.00,0.00,pawelpl,2016-01-26 23:00:18
+637,2016-01-26 14:00:00,SOC,Livebet,Aris Limmasol - FC Dinamo Bucuresti,0.00,LOST,FC Dinamo Bucuresti (1X2-Full Time Excluding Overtime),1:1,Marathonbet,5.1,3.00,-3.00,pawelpl,2016-01-26 14:32:12
+638,2016-01-26 14:00:00,SOC,Livebet,Aris Limmasol - FC Dinamo Bucuresti,0.00,LOST,FC Dinamo Bucuresti (1X2-Full Time Excluding Overtime),1:1,Betsson SB,1.97,4.00,-4.00,pawelpl,2016-01-26 14:26:22
+639,2016-01-26 10:00:00,SOC,Livebet,Thanh Hoa U19 - Nam Dinh FC U19,0.00,LOST,Nam Dinh FC U19 (Draw No Bet-Full Time Excluding Overtime)(1:1),2:1,Unibet,2.4,3.00,-3.00,pawelpl,2016-01-26 09:38:56
+640,2016-01-25 19:30:00,HNB,Europe,Polska - Bialorus,0.00,LOST,"Bielecki over 4,5",1,Unibet,1.75,4.00,-4.00,pawelpl,2016-01-25 10:41:49
+641,2016-01-24 16:30:00,SOC,Livebet,Mar Menor - EF Alhama,0.00,LOST,Mar Menor (EH 0:2 - Full Time Excluding Overtime)(0:0),1-2,Bet365,3.1,2.00,-2.00,pawelpl,2016-01-24 15:35:09
+642,2016-01-24 14:00:00,SOC,Livebet,Agrotikos Asteras - Panachaiki,0.00,LOST,Agrotikos Asteras (1X2-First Half),0:0,Unibet,2.45,3.00,-3.00,pawelpl,2016-01-24 13:27:26
+643,2016-01-24 14:00:00,SOC,Livebet,Agrotikos Asteras - Panachaiki,0.00,LOST,Agrotikos Asteras (1X2-First Half),0:0,Unibet,2.45,3.00,-3.00,pawelpl,2016-01-24 13:27:07
+644,2016-01-24 08:10:00,TNS,Livebet,Agnieszka Radwanska - Anna Lena Friedsam,12,WIN,Agnieszka Radwanska 0 (Game Score-12th game of the 3rd set)(6:7-6:1-6:5),yes,BetClic,6,2.00,10.00,pawelpl,2016-01-24 09:54:22
+645,2016-01-23 14:30:00,SOC,Livebet,NK Maribor - NK Zagreb,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime)(3:0),3-1,Bet365,1.83,2.00,-2.00,pawelpl,2016-01-23 15:53:37
+646,2016-01-23 14:30:00,SOC,Livebet,NK Maribor - NK Zagreb,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime)(3:0),3-1,Bet365,1.83,3.00,-3.00,pawelpl,2016-01-23 15:53:22
+647,2016-01-23 18:00:00,HNB,Other,Tatran Presov - Slovan Duslo Sala,5.55,WIN,Slovan Duslo Sala +12.5 (Asian Handicap-Full Time Excluding Overtime),32:25,Nordicbet,1.85,3.00,2.55,pawelpl,2016-01-23 15:09:03
+648,2016-01-23 18:00:00,HNB,Other,Tatran Presov - Slovan Duslo Sala,5.55,WIN,Slovan Duslo Sala +12.5 (Asian Handicap-Full Time Excluding Overtime),32:25,Betsson SB,1.85,3.00,2.55,pawelpl,2016-01-23 15:05:19
+649,2016-01-23 14:00:00,SOC,Livebet,Alta IF - Bossekop UL,6.75,WIN,Alta IF Over 4.5 (Team Score Over Under-Full Time Excluding Overtime)(1:0),5-2,Bet365,2.25,3.00,3.75,pawelpl,2016-01-23 13:21:15
+650,2016-01-23 13:00:00,SOC,Livebet,Panelefsiniakos FC U19 - Kallithea FC U19,5.43,WIN,Over 1.5 (Over Under-First Half)(0:0),"0:2, 0:3",Betsson SB,1.81,3.00,2.43,pawelpl,2016-01-23 12:33:42
+651,2016-01-23 13:00:00,SOC,Livebet,Panelefsiniakos FC U19 - Kallithea FC U19,7.08,WIN,Over 1.5 (Over Under-First Half)(0:0),"0:2, 0:3",Betsson SB,1.77,4.00,3.08,pawelpl,2016-01-23 12:32:01
+652,2016-01-23 13:00:00,SOC,Livebet,Arka Gdynia - KS Chwaszczyno,5.4,WIN,Arka Gdynia -3.5 (Asian Handicap-Full Time Excluding Overtime)(2:0),4:0,Fonbet,1.8,3.00,2.40,pawelpl,2016-01-23 12:16:13
+653,2016-01-23 13:00:00,SOC,Livebet,Panelefsiniakos FC U19 - Kallithea FC U19,6.6,WIN,Kallithea FC U19 (1X2-First Half)(0:0),"0:2, 0:3",Betfred,2.2,3.00,3.60,pawelpl,2016-01-23 12:03:02
+654,2016-01-23 16:00:00,RGB,Challenge cup,Connacht - Enisei-STM,5.4,WIN,Connacht -38.5 (Asian Handicap-Full Time Excluding Overtime),47:5,Dafabet,1.8,3.00,2.40,pawelpl,2016-01-23 11:57:55
+655,2016-01-23 10:00:00,SOC,Livebet,VfB Admira Wacker MÃ¶dling - Diosgyor VTK,4.9,WIN,Over 1.5 (Over Under-First Half),"2:0, 1:2",BetClic,2.45,2.00,2.90,pawelpl,2016-01-23 09:33:02
+656,2016-01-23 10:00:00,SOC,Livebet,VfB Admira Wacker MÃ¶dling - Diosgyor VTK,8.2,WIN,Over 1.5 (Over Under-First Half),"2:0, 1:2",BetClic,2.05,4.00,4.20,pawelpl,2016-01-23 09:24:15
+657,2016-01-23 17:00:00,BSK,Austria,Kapfenberg Bulls - Basketclubs Vienna,5.55,WIN,Basketclubs Vienna +2.5 (Asian Handicap-Full Time Including Overtime),65:83,Ladbrokes,1.85,3.00,2.55,pawelpl,2016-01-22 21:27:24
+658,2016-01-22 19:30:00,RGB,Fra. Pro-D2,USA Perpignan - Tarbes Pyrenees Rugby,0.00,LOST,USA Perpignan -16.5 (Asian Handicap-Full Time Excluding Overtime),21:16,William Hill,1.8,3.00,-3.00,pawelpl,2016-01-22 13:39:31
+659,2016-01-21 10:53:10,SOC,Livebet,Tay Ninh U19 - Binh Duong U19,4.2,WIN,Under 6.5 (Over Under-Full Time Excluding Overtime)(1:5),1:5,Ladbrokes,2.1,2.00,2.20,pawelpl,2016-01-21 11:07:24
+660,2016-01-21 11:00:00,SOC,Livebet,Amedspor SK - Bandirmaspor,4.3,WIN,Over 3.5 (Over Under-First Half)(0:3),1:3,Bet-at-home,2.15,2.00,2.30,pawelpl,2016-01-21 10:31:41
+661,2016-01-21 10:53:10,SOC,Livebet,Tay Ninh U19 - Binh Duong U19,0.00,LOST,Over 6.5 (Over Under-Full Time Excluding Overtime)(0:4),1:5,Unibet,2.45,2.00,-2.00,pawelpl,2016-01-21 10:16:27
+662,2016-01-20 18:00:00,SOC,Livebet,Albacete W - Romania W,2,PUSH,Under 3 (Over Under-Full Time Excluding Overtime)(0:2),1:2,Bet365,1.9,2.00,0.00,pawelpl,2016-01-20 18:22:07
+663,2016-01-20 18:00:00,SOC,Livebet,Albacete W - Romania W,4.6,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),1:2,Unibet,2.3,2.00,2.60,pawelpl,2016-01-20 17:20:04
+664,2016-01-20 17:00:00,SOC,Livebet,Trabzonspor - Nazilli Belediyespor Aydin,3.44,WIN,Nazilli Belediyespor Aydin +1.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),1:0,Unibet,1.72,2.00,1.44,pawelpl,2016-01-20 16:11:07
+665,2016-01-20 16:45:00,SOC,Livebet,Belarus U17 - Slovakia U17,0.00,LOST,Over 0.5 (Over Under-First Half),0-0,Betfred,1.91,2.00,-2.00,pawelpl,2016-01-20 16:10:06
+666,2016-01-20 15:00:00,SOC,Livebet,Bursaspor - Tepecikspor,5,WIN,Over 5.5 (Over Under-Full Time Excluding Overtime)(3:2),4:2,Unibet,2.5,2.00,3.00,pawelpl,2016-01-20 15:41:00
+667,2016-01-20 15:00:00,SOC,Livebet,Italy U17 - Spain U17,6.6,WIN,Over 0.5 (Over Under-First Half),0:1,EXPEKT,2.2,3.00,3.60,pawelpl,2016-01-20 14:21:33
+668,2016-01-20 15:00:00,SOC,Other,Karmiotissa - Astra,0.00,LOST,"over 7,5",1:4,Unibet,2.7,3.00,-3.00,pawelpl,2016-01-20 14:09:35
+669,2016-01-20 14:00:00,SOC,Livebet,Dolny Kubin - MFK Ruzomberok,9,WIN,MFK Ruzomberok (EH 5:0 - Full Time Excluding Overtime)(0:1),0:8,Ladbrokes,3,3.00,6.00,pawelpl,2016-01-20 13:44:35
+670,2016-01-20 14:00:00,SOC,Livebet,Dolny Kubin - MFK Ruzomberok,2.5,WIN,MFK Ruzomberok (EH 3:0 - Full Time Excluding Overtime)(0:1),0:8,Ladbrokes,2.5,1.00,1.50,pawelpl,2016-01-20 13:30:40
+671,2016-01-20 14:00:00,SOC,Livebet,Dolny Kubin - MFK Ruzomberok,2.5,WIN,MFK Ruzomberok (EH 3:0 - Full Time Excluding Overtime)(0:1),0:8,Ladbrokes,2.5,1.00,1.50,pawelpl,2016-01-20 13:30:18
+672,2016-01-20 14:00:00,SOC,Livebet,Anagennisi Deryneia - Anorthosis Famagusta,0.00,LOST,Anorthosis Famagusta (1X2-First Half)(0:0),0:0,Unibet,2.2,2.00,-2.00,pawelpl,2016-01-20 13:20:11
+673,2016-01-20 11:30:00,SOC,Livebet,Kitchee SC Reserves - Metro Gallery Sun Source Resreves,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime),2-2,Betfred,2.2,4.00,-4.00,pawelpl,2016-01-20 12:06:50
+674,2016-01-20 11:00:00,SOC,Livebet,FC Dnipro Dnipropetrovsk - SV Rodinghausen,0.00,LOST,Under 1.5 (Over Under-Full Time Excluding Overtime),1:3,Unibet,2.33,3.00,-3.00,pawelpl,2016-01-20 11:05:24
+675,2016-01-20 11:00:00,SOC,Livebet,FC Dnipro Dnipropetrovsk - SV Rodinghausen,0.00,LOST,Under 2.5 (Over Under-Full Time Excluding Overtime),1:3,Unibet,1.68,4.00,-4.00,pawelpl,2016-01-20 10:53:21
+676,2016-01-20 11:30:00,SOC,Livebet,Kitchee SC Reserves - Metro Gallery Sun Source Resreves,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime),2-2,Marathonbet,1.93,2.00,-2.00,pawelpl,2016-01-20 10:35:29
+677,2016-01-20 11:00:00,SOC,Livebet,FC Dnipro Dnipropetrovsk - SV Rodinghausen,3.34,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),1:3,Unibet,1.67,2.00,1.34,pawelpl,2016-01-20 10:22:47
+678,2016-01-20 11:00:00,SOC,Livebet,FC Dnipro Dnipropetrovsk - SV Rodinghausen,2.7,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),1:3,Unibet,2.7,1.00,1.70,pawelpl,2016-01-20 10:22:27
+679,2016-01-20 11:00:00,SOC,Livebet,FC Dnipro Dnipropetrovsk - SV Rodinghausen,6.4,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),1:3,Unibet,1.6,4.00,2.40,pawelpl,2016-01-20 10:22:00
+680,2016-01-20 13:00:00,SOC,Friendly,Dolny Kubin - Ruzomberok,4.26,WIN,Away over 2.25 (Match),0:8,PINNACLE,2.13,2.00,2.26,pawelpl,2016-01-20 08:46:41
+681,2016-01-20 13:00:00,SOC,Friendly,Dolny Kubin - Ruzomberok,2.3,WIN,Away -1.5 (Match),0:8,PINNACLE,2.3,1.00,1.30,pawelpl,2016-01-20 08:46:22
+682,2016-01-19 14:00:00,SOC,Other,Russia u17 - Lithuania u17,5.46,WIN,Russia ht,2-0,BetSafe,1.82,3.00,2.46,pawelpl,2016-01-19 13:47:38
+683,2016-01-19 14:30:00,SOC,Livebet,NK Domzale - Radomlje,5.1,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),5:1,BETWAY,1.7,3.00,2.10,pawelpl,2016-01-19 13:41:03
+684,2016-01-19 12:15:00,SOC,Livebet,Finland U17 - Georgia U17,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),1:0,Unibet,2.14,2.00,-2.00,pawelpl,2016-01-19 12:22:30
+685,2016-01-19 11:00:00,SOC,Livebet,FC Nitra - FK Nove Zamky,0.00,LOST,Over 4.5 (Over Under-First Half)(3:1),3:1,Unibet,2.35,4.00,-4.00,pawelpl,2016-01-19 10:41:09
+686,2016-01-19 10:00:00,SOC,Livebet,Ukraine U17 - Moldova U17,5.1,WIN,Moldova U17 (EH 0:5 - Full Time Excluding Overtime),5:1,Unibet,2.55,2.00,3.10,pawelpl,2016-01-19 10:06:38
+687,2016-01-19 10:00:00,SOC,Livebet,Ukraine U17 - Moldova U17,0.00,LOST,Over 3.5 (Over Under-First Half),3-0,Betsson SB,2.04,3.00,-3.00,pawelpl,2016-01-19 09:31:55
+688,2016-01-19 09:30:00,SOC,Livebet,Mitchelton FC - Logan Lightning,0.00,LOST,Over 1.5 (Over Under-First Half)(1:0),1-0,Betsson SB,1.9,3.00,-3.00,pawelpl,2016-01-19 09:03:42
+689,2016-01-18 19:55:00,SOC,Livebet,Beitar Jerusalem - Hapoel Bnei Sakhnin,0.00,LOST,Over 1.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,EXPEKT,4.25,1.00,-1.00,pawelpl,2016-01-18 20:41:35
+690,2016-01-18 19:55:00,SOC,Livebet,Beitar Jerusalem - Hapoel Bnei Sakhnin,5,WIN,Draw (EH 0:1 - Full Time Excluding Overtime)(1:0),1:0,Bet-at-home,2.5,2.00,3.00,pawelpl,2016-01-18 20:18:32
+691,2016-01-18 11:55:00,SOC,Livebet,Platanias U20 - Olympiakos Piraeus U20,3.6,WIN,Over 0.5 (Over Under-First Half)(0:0),0:2,Betfred,1.8,2.00,1.60,pawelpl,2016-01-18 11:26:43
+692,2016-01-18 11:55:00,SOC,Livebet,Platanias U20 - Olympiakos Piraeus U20,6.15,WIN,Olympiakos Piraeus U20 (1X2-First Half)(0:0),0:2,Nordicbet,2.05,3.00,3.15,pawelpl,2016-01-18 11:25:32
+693,2016-01-17 21:30:00,SOC,Livebet,CS CartaginÃ©s - Limon FC,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,Bet365,1.91,2.00,-2.00,pawelpl,2016-01-17 21:20:10
+694,2016-01-17 21:30:00,SOC,Livebet,CS CartaginÃ©s - Limon FC,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(1:0),1:0,Bet365,1.91,3.00,-3.00,pawelpl,2016-01-17 21:19:52
+695,2016-01-17 14:30:00,SOC,Friendly,TSV Marl-Huels - SC Rot-Weiss Oberhausen,3.9,WIN,2/2 (HT/FT-Full Time Excluding Overtime),"0:1, 0:1",Bet365,1.95,2.00,1.90,pawelpl,2016-01-17 12:38:02
+696,2016-01-17 14:30:00,SOC,Friendly,TSV Marl-Huels - SC Rot-Weiss Oberhausen,4,WIN,SC Rot-Weiss Oberhausen -1.5 (Asian Handicap-Full Time Excluding Overtime),0:2,Bet365,2,2.00,2.00,pawelpl,2016-01-17 12:37:22
+697,2016-01-17 12:00:00,WIN,Other,Poland - Czech Republic,1.88,WIN,Home (Matchups),P5-P6,PINNACLE,1.88,1.00,0.88,pawelpl,2016-01-17 09:08:04
+698,2016-01-17 12:00:00,WIN,Other,Poland - Czech Republic,1.88,WIN,Home (Matchups),P5-P6,PINNACLE,1.88,1.00,0.88,pawelpl,2016-01-17 09:07:49
+699,2016-01-16 14:30:00,SOC,Livebet,Thailand U23 - Japan U23,6.3,WIN,Over 0.5 (Over Under-First Half)(0:0),0:1,BetClic,2.1,3.00,3.30,pawelpl,2016-01-16 13:54:39
+700,2016-01-16 14:00:00,SOC,Livebet,Pembroke Athleta FC - Naxxar Lions FC,0.00,LOST,Over 0.5 (Over Under-First Half),"0:0, 2:0",Betfred,3.75,2.00,-2.00,pawelpl,2016-01-16 13:38:18
+701,2016-01-16 14:00:00,SOC,Livebet,Pembroke Athleta FC - Naxxar Lions FC,0.00,LOST,Over 0.5 (Over Under-First Half),"0:0, 2:0",Betfred,3.5,2.00,-2.00,pawelpl,2016-01-16 13:37:41
+702,2016-01-16 11:00:00,SOC,Livebet,FC Banik Ostrava - Znojmo,5.8,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),3:0,Bet-at-home,2.9,2.00,3.80,pawelpl,2016-01-16 10:53:20
+703,2016-01-15 20:00:00,SOC,Livebet,Valur Reykjavik - Fram Reykjavik,5.1,WIN,Over 1.5 (Over Under-First Half)(1:0),2:0,Unibet,1.7,3.00,2.10,pawelpl,2016-01-15 19:25:14
+704,2016-01-15 20:00:00,SOC,Livebet,Valur Reykjavik - Fram Reykjavik,5.1,WIN,Over 1.5 (Over Under-First Half)(1:0),2:0,Unibet,1.7,3.00,2.10,pawelpl,2016-01-15 19:24:52
+705,2016-01-15 15:00:00,SOC,Livebet,SK Rapid Wien - FAC Team fur Wien,0.00,LOST,SK Rapid Wien (1X2-Full Time Excluding Overtime)(1:2),1:3,BetClic,2.75,4.00,-4.00,pawelpl,2016-01-15 14:58:54
+706,2016-01-14 22:00:00,SOC,Livebet,IR Reykjavik - Fylkir Reykjavik,6.54,WIN,Fylkir Reykjavik (1X2-First Half)(0:0),0:3,Fonbet,2.18,3.00,3.54,pawelpl,2016-01-14 21:15:25
+707,2016-01-15 19:15:00,HKY,Austria,Graz 99ers - EHC Liwest Black Wings Linz,0.00,LOST,Graz 99ers (1X2-Full Time Excluding Overtime),1:3,William Hill,2.62,3.00,-3.00,pawelpl,2016-01-14 16:00:42
+708,2016-01-14 16:15:00,SOC,Livebet,FC PAOK Thessaloniki - Kalloni Lekanopedio FC,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),0:0,Betsson SB,2.22,3.00,-3.00,pawelpl,2016-01-14 15:51:11
+709,2016-01-14 16:15:00,SOC,Livebet,FC PAOK Thessaloniki - Kalloni Lekanopedio FC,0.00,LOST,FC PAOK Thessaloniki (1X2-First Half)(0:0),0:0,Unibet,1.83,3.00,-3.00,pawelpl,2016-01-14 15:39:47
+710,2016-01-13 14:00:00,SOC,Livebet,Olympiakos Nicosia FC - Aris Limmasol,7.2,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime)(0:3),1:3,Marathonbet,1.8,4.00,3.20,pawelpl,2016-01-13 14:50:28
+711,2016-01-13 14:25:00,SOC,Livebet,FC Ingolstadt 04 - Karlsruher SC,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),1:0,Nordicbet,1.94,3.00,-3.00,pawelpl,2016-01-13 14:02:28
+712,2016-01-13 14:25:00,SOC,Livebet,FC Ingolstadt 04 - Karlsruher SC,5.28,WIN,FC Ingolstadt 04 (1X2-Full Time Excluding Overtime),1:0,Betsson SB,1.76,3.00,2.28,pawelpl,2016-01-13 14:00:06
+713,2016-01-13 14:25:00,SOC,Livebet,FC Ingolstadt 04 - Karlsruher SC,5.25,WIN,FC Ingolstadt 04 (1X2-Full Time Excluding Overtime),1:0,Nordicbet,1.75,3.00,2.25,pawelpl,2016-01-13 13:59:04
+714,2016-01-13 14:00:00,SOC,Livebet,FK Hirnyk Kryvyi Rih - PFK Oleksandria,5.85,WIN,PFK Oleksandria (1X2-Full Time Excluding Overtime)(0:0),2:5,Bet-at-home,1.95,3.00,2.85,pawelpl,2016-01-13 13:13:08
+715,2016-01-13 11:30:00,SOC,Livebet,TSW Pegasus FC Reserves - South China FC Reserves,10.5,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime)(2:0),6:0,Betsson SB,2.1,5.00,5.50,pawelpl,2016-01-13 10:52:48
+716,2016-01-12 18:00:00,SOC,Livebet,Beitar Kfar Saba Shlomi - Hapoel Bnei Sakhnin,0.00,LOST,Hapoel Bnei Sakhnin (1X2-First Half)(0:0),0-0,TIPICO,2.05,3.00,-3.00,pawelpl,2016-01-12 17:13:20
+717,2016-01-12 14:30:00,SOC,Livebet,Syria U23 - Iran U23,0.00,LOST,Over 0.5 (Over Under-First Half)(0:0),0:0,Betsson SB,2,3.00,-3.00,pawelpl,2016-01-12 13:49:54
+718,2016-01-12 14:00:00,SOC,Livebet,Sivasspor - Borussia Monchengladbach,0.00,LOST,Under 2.5 (Over Under-Full Time Excluding Overtime),1:2,Betsson SB,1.73,3.00,-3.00,pawelpl,2016-01-12 13:29:15
+719,2016-01-12 13:00:00,SOC,Livebet,FC Vysocina Jihlava - Bohemians 1905,5.82,WIN,Bohemians 1905 (1X2-Full Time Excluding Overtime)(1:1),1:4,Unibet,1.94,3.00,2.82,pawelpl,2016-01-12 12:31:14
+720,2016-01-12 12:45:00,SOC,Livebet,Kayserispor - Etimesgut Belediyespor,11.52,WIN,Kayserispor (EH 0:2 - Full Time Excluding Overtime)(1:0),3:0,Ladbrokes,2.88,4.00,7.52,pawelpl,2016-01-12 12:26:38
+721,2016-01-11 14:00:00,SOC,Livebet,Ermis Aradippou - Cercle Brugge KSV,6.68,WIN,Cercle Brugge KSV (1X2-Full Time Excluding Overtime),3:5,Fonbet,1.67,4.00,2.68,pawelpl,2016-01-11 13:44:36
+722,2016-01-10 17:00:00,SOC,Livebet,Aris Limmasol - APOEL Nicosia FC,15.05,WIN,APOEL Nicosia FC (1X2-First Half)(0:0),0:1,Marathonbet,2.15,7.00,8.05,pawelpl,2016-01-10 16:13:23
+723,2016-01-10 10:00:00,SOC,Livebet,Rayo Vallecano II W - Pozuelo de Alarcon W,0.00,LOST,Rayo Vallecano II W (Draw No Bet-Full Time Excluding Overtime)(0:0),0:2,Betfred,2,3.00,-3.00,pawelpl,2016-01-10 10:06:38
+724,2016-01-10 10:00:00,SOC,Livebet,AEK Kokkinochorion W - Apollon Limmassol FC W,7.84,WIN,Over 8.5 (Over Under-Full Time Excluding Overtime)(0:2),0:12,Betsson SB,1.96,4.00,3.84,pawelpl,2016-01-10 09:19:01
+725,2016-01-09 17:00:00,WIN,Other,Austria - Slovenia,6.3,WIN,Home (Matchups),easy,PINNACLE,3.15,2.00,4.30,pawelpl,2016-01-09 14:08:53
+726,2016-01-09 17:00:00,WIN,Other,Germany - Slovenia,4.92,WIN,Home (Matchups),easy,PINNACLE,1.64,3.00,1.92,pawelpl,2016-01-09 14:08:07
+727,2016-01-08 13:30:00,SOC,Livebet,De Graafschap - Chemnitzer FC,0.00,LOST,Over 7.5 (Over Under-Full Time Excluding Overtime),7,Marathonbet,3.45,2.00,-2.00,pawelpl,2016-01-08 14:10:02
+728,2016-01-03 14:45:00,SOC,Livebet,Kazakhstan U18 - Russia U18,3.86,WIN,Russia U18 (1X2-First Half),0:2 ht,Betsson SB,1.93,2.00,1.86,pawelpl,2016-01-03 14:08:04
+729,2016-01-03 14:45:00,SOC,Livebet,Kazakhstan U18 - Russia U18,9.9,WIN,Russia U18 (EH 2:0 - Full Time Excluding Overtime),0:5,Nordicbet,3.3,3.00,6.90,pawelpl,2016-01-03 14:04:11
+730,2016-01-03 14:45:00,SOC,Livebet,Kazakhstan U18 - Russia U18,5.01,WIN,Russia U18 (EH 1:0 - Full Time Excluding Overtime),0:5,Betsson SB,1.67,3.00,2.01,pawelpl,2016-01-03 14:03:50
+731,2016-01-01 11:00:00,OTH,Other,"1jump,Tepes - Kot, Stoch-Schli.,Hula-Sev,Kub-Desch",0.00,LOST,"Desch@2,1, Stoch@2,2,Tepes @2,7,Sev@1,75",0,Unibet,21.83,1.00,-1.00,pawelpl,2015-12-31 23:36:32
+732,2016-01-01 00:00:00,OTH,Other,1jump Tepes - Kot,0.00,LOST,Tepes,0,Unibet,2.7,1.00,-1.00,pawelpl,2015-12-31 23:33:20
+733,2016-01-01 00:00:00,OTH,Other,1jump Stoch - Schlierenzauer,2.2,WIN,Stoch,1,Unibet,2.2,1.00,1.20,pawelpl,2015-12-31 23:32:37
+734,2016-01-01 00:00:00,OTH,Other,"Amman , Hauer , Domen Prevc - h2h",4.9,WIN,Amman,1,Unibet,2.45,2.00,2.90,pawelpl,2015-12-31 23:27:34
+735,2016-01-01 11:00:00,SOC,Other,Ski Jumping Ga-Pa Stoch - Hula h2h,5.25,WIN,Stoch,1,Unibet,1.75,3.00,2.25,pawelpl,2015-12-31 23:25:28
+736,2015-12-21 14:00:00,SOC,Livebet,Panachaiki - GS Apollon Smyrnis,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),2,Fonbet,2.25,6.00,-6.00,pawelpl,2015-12-21 14:38:59
+737,2015-12-21 14:00:00,SOC,Livebet,Panachaiki - GS Apollon Smyrnis,0.00,LOST,Over 1.5 (Over Under-First Half),0:1,Betsson SB,2.04,6.00,-6.00,pawelpl,2015-12-21 13:33:44
+738,2015-12-20 16:00:00,SOC,Livebet,Real Madrid - Rayo Vallecano,7.64,WIN,Real Madrid (EH 0:4 - Full Time Excluding Overtime),10:2,Betsson SB,1.91,4.00,3.64,pawelpl,2015-12-20 15:42:47
+739,2015-12-16 16:15:00,SOC,Livebet,Kallithea - PAE APS Atromitos Athens,7.38,WIN,PAE APS Atromitos Athens (1X2-First Half),1:2,Nordicbet,2.46,3.00,4.38,pawelpl,2015-12-16 15:31:22
+740,2015-12-16 16:15:00,SOC,Livebet,Kallithea - PAE APS Atromitos Athens,11.6,WIN,PAE APS Atromitos Athens (1X2-First Half),1:2,Nordicbet,2.32,5.00,6.60,pawelpl,2015-12-16 15:26:49
+741,2015-11-03 10:00:00,SOC,Livebet,Mlada Boleslav U19 - Sparta Prague U19,0.00,LOST,Over 1.5 (Over Under-First Half),1:0,Bet-at-home,2,3.00,-3.00,pawelpl,2015-11-03 10:35:25
+742,2015-10-22 17:00:00,SOC,Livebet,Sporting CP - Skenderbeu Korce,11,WIN,Over 5.5 (Over Under-Full Time Excluding Overtime)(5:0),5:1,EXPEKT,2.2,5.00,6.00,pawelpl,2015-10-22 18:46:53
+743,2015-10-14 13:00:00,SOC,Livebet,FC Rohoznik - MFK ZemplÃ­n Michalovce,0.00,LOST,MFK ZemplÃ­n Michalovce (1X2-Full Time Excluding Overtime),1:1,Bet-at-home,2,3.00,-3.00,pawelpl,2015-10-14 13:16:28
+744,2015-10-11 12:00:00,SOC,Livebet,Skala Stryi U19 - FC Oleksandria U19,12.48,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2:1,Betsson SB,2.08,6.00,6.48,pawelpl,2015-10-11 13:37:25
+745,2015-10-11 13:00:00,BSK,Denmark,Bakken Bears - SISU Copenhagen,0.00,LOST,Home -26.5,107:82,PINNACLE,1.77,3.00,-3.00,pawelpl,2015-10-11 12:52:40
+746,2015-10-11 12:00:00,SOC,Livebet,Teplice U21 - FK Fotbal Trinec U21,0.00,LOST,Over 0.5 (Over Under-First Half),0:0,Ladbrokes,2.2,5.00,-5.00,pawelpl,2015-10-11 12:40:16
+747,2015-10-11 11:00:00,SOC,Livebet,Zorya Lugansk U19 - Vorskla Poltava U19,0.00,LOST,Over 1.5 (Over Under-First Half),0:1,Betsson SB,2.3,6.00,-6.00,pawelpl,2015-10-11 11:09:29
+748,2015-10-11 09:30:00,SOC,Livebet,Sevilla B - CF Villanovense,18,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime),3:2,Ladbrokes,6,3.00,15.00,pawelpl,2015-10-11 10:29:00
+749,2015-10-11 09:30:00,SOC,Livebet,Sevilla B - CF Villanovense,16.52,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),3:2,Betsson SB,2.36,7.00,9.52,pawelpl,2015-10-11 10:28:40
+750,2015-10-10 11:00:00,SOC,Livebet,FC Guria Lanchkhuti - FK Baia Zugdidi,0.00,LOST,Over 1.5 (Over Under-First Half)(1:0),1:0,Betsson SB,3.75,5.00,-5.00,pawelpl,2015-10-10 11:43:43
+751,2015-10-10 11:00:00,SOC,Livebet,FC Guria Lanchkhuti - FK Baia Zugdidi,0.00,LOST,Over 1.5 (Over Under-First Half)(1:0),1:0,Betsson SB,1.7,7.00,-7.00,pawelpl,2015-10-10 11:19:34
+752,2015-10-10 11:00:00,SOC,Livebet,Opava U19 - Jablonec U19,7.05,WIN,Opava U19 (1X2-First Half),1:0,TIPICO,2.35,3.00,4.05,pawelpl,2015-10-10 11:17:25
+753,2015-10-10 10:00:00,SOC,Livebet,FC Stal Dniprodzerzhynsk U19 - Goverla Uzhgorod U19,13.04,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime),4:2,Betsson SB,1.63,8.00,5.04,pawelpl,2015-10-10 10:27:55
+754,2015-10-10 17:00:00,BSK,Croatia,KK Zabok - KK Split Croatia Osiguranje,7.4,WIN,KK Split Croatia Osiguranje +4.5 (Asian Handicap-Full Time Including Overtime),77:79,Unibet,1.85,4.00,3.40,pawelpl,2015-10-10 09:50:12
+755,2015-10-11 10:00:00,SOC,Other,Alcala - Lucena,4.65,WIN,Alcala,3:1,Bet-at-home,1.55,3.00,1.65,pawelpl,2015-10-10 09:25:30
+756,2015-10-10 10:00:00,SOC,Other,Plodiv - Vereya,15.36,WIN,Plodiv ht,1:0,BetSafe,2.56,6.00,9.36,pawelpl,2015-10-10 08:58:42
+757,2015-10-10 10:00:00,SOC,Ukraine,FC Stal Dniprodzerzhynsk U19 - Goverla Uzhgorod U19,7,WIN,FC Stal Dniprodzerzhynsk U19 (1X2-Full Time Excluding Overtime),4:2,TIPICO,1.4,5.00,2.00,pawelpl,2015-10-10 08:43:48
+758,2015-10-10 10:00:00,SOC,Ukraine,FC Stal Dniprodzerzhynsk U19 - Goverla Uzhgorod U19,11.7,WIN,FC Stal Dniprodzerzhynsk U19 (EH 0:1 - Full Time Excluding Overtime),4:2,TIPICO,1.95,6.00,5.70,pawelpl,2015-10-10 08:42:46
+759,2015-10-08 12:00:00,SOC,Other,Vasco SC U20- Churchill u20,9.3,WIN,Vasco DNB,2:1,BetSafe,1.86,5.00,4.30,pawelpl,2015-10-08 10:44:30
+760,2015-10-04 12:00:00,SOC,Livebet,Granitas Klaipeda - FK Atlantas Klaipeda,10,WIN,FK Atlantas Klaipeda (1X2-First Half),0:2,Betfred,2,5.00,5.00,pawelpl,2015-10-04 12:24:34
+761,2015-10-04 09:30:00,SOC,Livebet,Eastern AA - Rangers,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),2:0,Betsson SB,2.78,3.00,-3.00,pawelpl,2015-10-04 11:12:04
+762,2015-10-04 10:30:00,SOC,Livebet,UD Telde - CD El Cotillo,9.6,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),3:1 43\',Betsson SB,3.2,3.00,6.60,pawelpl,2015-10-04 11:04:43
+763,2015-10-04 10:30:00,SOC,Livebet,UD Telde - CD El Cotillo,10.2,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),3:1 43\',Betsson SB,1.7,6.00,4.20,pawelpl,2015-10-04 11:04:16
+764,2015-10-03 16:00:00,BSK,Slovakia,BK 04 AC LB Spisska Nova Ves - Dobri Anjeli Kosice W,11.28,WIN,Dobri Anjeli Kosice W -20.5 (Asian Handicap-Full Time Including Overtime),54:91,Sportingbet,1.88,6.00,5.28,pawelpl,2015-10-03 14:48:19
+765,2015-10-03 08:30:00,SOC,Livebet,FK Dukla Praha W - FC Slovacko W,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime),0:3,Unibet,2.1,7.00,-7.00,pawelpl,2015-10-03 08:59:37
+766,2015-10-03 07:30:00,SOC,Livebet,Hapoel Tel Aviv U19 - Hapoel Rishon Lezion U19,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime),3:0,Betsson SB,2.06,6.00,-6.00,pawelpl,2015-10-03 08:05:32
+767,2015-10-01 08:00:00,SOC,Livebet,Romania U17 - Croatia U17,16.5,WIN,Over 1.5 (Over Under-First Half)(0:1),0:2,Betsson SB,3.3,5.00,11.50,pawelpl,2015-10-01 08:37:09
+768,2015-09-30 14:00:00,SOC,Livebet,Nomme Kalju B - Flora Tallinn II,17.92,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),w,Betsson SB,2.24,8.00,9.92,pawelpl,2015-09-30 14:22:20
+769,2015-09-30 12:00:00,SOC,Livebet,Tchiatura - FC Betlemi Keda,15.24,WIN,Tchiatura (Draw No Bet-Full Time Excluding Overtime),1:0,Nordicbet,2.54,6.00,9.24,pawelpl,2015-09-30 12:13:48
+770,2015-09-29 17:00:00,SOC,Livebet,FK Atlantas Klaipeda - FK Siauliai,9.5,WIN,FK Atlantas Klaipeda (1X2-First Half),2:0,Betsson SB,4.75,2.00,7.50,pawelpl,2015-09-29 17:40:28
+771,2015-09-29 17:00:00,SOC,Livebet,FK Atlantas Klaipeda - FK Siauliai,6.1,WIN,Over 1.5 (Over Under-First Half),2:0,Betsson SB,3.05,2.00,4.10,pawelpl,2015-09-29 17:18:56
+772,2015-09-29 17:00:00,SOC,Livebet,FK Atlantas Klaipeda - FK Siauliai,17.64,WIN,Over 1.5 (Over Under-First Half),2:0,Betsson SB,2.94,6.00,11.64,pawelpl,2015-09-29 17:17:15
+773,2015-09-29 14:00:00,SOC,Livebet,Hammarby U21 - Mjallby Aif U21,0.00,LOST,Hammarby U21 (1X2-First Half),1:1,Ladbrokes,2,4.00,-4.00,pawelpl,2015-09-29 14:08:46
+774,2015-09-29 13:00:00,SOC,Livebet,Slovenia U17 - Faroe Islands U17,10.65,WIN,Faroe Islands U17 (EH 0:3 - Full Time Excluding Overtime),1:0,Betsson SB,2.13,5.00,5.65,pawelpl,2015-09-29 13:18:56
+775,2015-09-29 13:00:00,SOC,Livebet,England U17 - San Marino U17,4.68,WIN,Under 9.5 (Over Under-Full Time Excluding Overtime),8:0,Betsson SB,1.56,3.00,1.68,pawelpl,2015-09-29 13:17:40
+776,2015-09-29 12:00:00,SOC,Livebet,Bayern Munich U19 - NK Dinamo Zagreb U19,5.96,WIN,Bayern Munich U19 (EH 2:0 - Full Time Excluding Overtime)(0:2),1:2,Betsson SB,2.98,2.00,3.96,pawelpl,2015-09-29 13:02:46
+777,2015-09-29 12:00:00,SOC,Livebet,Bayern Munich U19 - NK Dinamo Zagreb U19,14.2,WIN,Bayern Munich U19 (EH 2:0 - Full Time Excluding Overtime)(0:2),1:2,Betsson SB,2.84,5.00,9.20,pawelpl,2015-09-29 12:32:19
+778,2015-09-29 12:00:00,SOC,Livebet,Olympique Lyonnais U19 - CF Valencia U19,7.32,WIN,Olympique Lyonnais U19 (1X2-Full Time Excluding Overtime)(0:0),1:0,Betsson SB,2.44,3.00,4.32,pawelpl,2015-09-29 12:24:46
+779,2015-09-28 12:00:00,SOC,Livebet,Northern Mariana Islands U19 - Taiwan U19,3.46,WIN,Under 10.5 (Over Under-Full Time Excluding Overtime),0:10,Bet365,1.73,2.00,1.46,pawelpl,2015-09-28 12:29:39
+780,2015-09-27 13:00:00,SOC,Livebet,KPV Kokkola - AC Kajaani,13.5,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),2:1,Betsson SB,2.25,6.00,7.50,pawelpl,2015-09-27 14:40:16
+781,2015-09-27 11:00:00,RGB,Livebet,Australia - Uruguay,5.73,WIN,Australia -56.5 (Asian Handicap-Full Time Excluding Overtime)(12:0),65:3,Unibet,1.91,3.00,2.73,pawelpl,2015-09-27 11:28:44
+782,2015-09-26 17:00:00,SOC,Livebet,APOEL Nicosia FC - Aris Limmasol,15.52,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),4:0,Nordicbet,1.94,8.00,7.52,pawelpl,2015-09-26 18:44:00
+783,2015-09-26 11:00:00,SOC,Livebet,Olimpik Donetsk - FC Shakhtar Donetsk,12.74,WIN,Over 4.5 (Over Under-Full Time Excluding Overtime)(2:2),w,Marathonbet,1.82,7.00,5.74,pawelpl,2015-09-26 12:42:10
+784,2015-09-26 12:00:00,SOC,Livebet,Metalist Kharkiv U21 - Dnipro Dnipropetrovsk U21,0.00,LOST,Dnipro Dnipropetrovsk U21 (1X2-Full Time Excluding Overtime),3:1,Unibet,3.35,5.00,-5.00,pawelpl,2015-09-26 12:27:25
+785,2015-09-26 11:00:00,SOC,Livebet,Olimpik Donetsk - FC Shakhtar Donetsk,0.00,LOST,FC Shakhtar Donetsk (EH 1:0 - Full Time Excluding Overtime)(1:1),2:3,Betsson SB,1.8,6.00,-6.00,pawelpl,2015-09-26 11:51:35
+786,2015-09-26 11:00:00,SOC,Livebet,Olimpik Donetsk - FC Shakhtar Donetsk,0.00,LOST,Under 4.5 (Over Under-Full Time Excluding Overtime)(1:0),l,Unibet,2.06,5.00,-5.00,pawelpl,2015-09-26 11:25:35
+787,2015-09-26 09:00:00,SOC,Livebet,Phetchaburi FC - Samut Sakhon FC,8.5,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime),2:0,Betsson SB,1.7,5.00,3.50,pawelpl,2015-09-26 09:12:23
+788,2015-09-26 09:00:00,SOC,Livebet,Phetchaburi FC - Samut Sakhon FC,8.34,WIN,Under 2.5 (Over Under-Full Time Excluding Overtime),2:0,Betsson SB,2.78,3.00,5.34,pawelpl,2015-09-26 09:11:59
+789,2015-09-26 08:00:00,SOC,Livebet,Videoton FC U19 - Gyori ETO FC U19,0.00,LOST,Over 3.5 (Over Under-First Half),1:2,Betfred,2.25,5.00,-5.00,pawelpl,2015-09-26 08:36:11
+790,2015-09-26 08:15:00,SOC,Livebet,MKF Chrudim - FK MAS Taborsko II,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime),3:0,Nordicbet,7,1.00,-1.00,pawelpl,2015-09-26 08:30:21
+791,2015-09-26 08:15:00,SOC,Livebet,MKF Chrudim - FK MAS Taborsko II,15.3,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime),2:0 ht,Betsson SB,1.7,9.00,6.30,pawelpl,2015-09-26 08:27:59
+792,2015-09-26 08:15:00,SOC,Livebet,MKF Chrudim - FK MAS Taborsko II,12.2,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),3:0 54\',Betsson SB,3.05,4.00,8.20,pawelpl,2015-09-26 08:25:09
+793,2015-09-25 14:15:00,SOC,Livebet,Flora Tallinn II - VÃ¤ndra JK Vaprus,10.55,WIN,Under 3.5 (Over Under-Full Time Excluding Overtime),0:1,Betsson SB,2.11,5.00,5.55,pawelpl,2015-09-25 14:33:48
+794,2015-09-25 12:00:00,SOC,Livebet,Saburtalo - FC Sioni Bolnisi,0.00,LOST,Saburtalo (1X2-First Half)(1:1),1:1,Betsson SB,3.25,4.00,-4.00,pawelpl,2015-09-25 12:26:04
+795,2015-09-25 12:00:00,SOC,Livebet,Saburtalo - FC Sioni Bolnisi,0.00,LOST,Saburtalo (1X2-First Half)(1:1),1:1,Betsson SB,2.9,4.00,-4.00,pawelpl,2015-09-25 12:21:22
+796,2015-09-25 09:00:00,SOC,Livebet,FK Bakili Baku - Ansad-Petrol Neftcala,0.00,LOST,FK Bakili Baku (1X2-First Half),0:1,TIPICO,7.5,2.00,-2.00,pawelpl,2015-09-25 09:09:25
+797,2015-09-25 13:00:00,BSK,Other,South Africa-Gabon,9,WIN,1 (+37.5 PTS),42:71,Sportingbet,1.8,5.00,4.00,pawelpl,2015-09-25 08:44:36
+798,2015-09-24 15:00:00,SOC,Livebet,Denmark U17 - Kazakhstan U17,0.00,LOST,Over 2.5 (Over Under-First Half),2:0,Unibet,2.5,5.00,-5.00,pawelpl,2015-09-24 15:12:00
+799,2015-09-23 17:00:00,SOC,Livebet,FC Wels - FK Austria Wien,11.55,WIN,FK Austria Wien (EH 4:0 - Full Time Excluding Overtime),0:7,Bet-at-home,1.65,7.00,4.55,pawelpl,2015-09-23 17:14:06
+800,2015-09-23 17:00:00,SOC,Livebet,FC Wels - FK Austria Wien,11.75,WIN,FK Austria Wien (EH 5:0 - Full Time Excluding Overtime),0:7,Bet-at-home,2.35,5.00,6.75,pawelpl,2015-09-23 17:13:43
+801,2015-09-23 14:30:00,SOC,Livebet,Stumbras Kaunas - FK Siauliai,5,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),3:2,Betfred,2.5,2.00,3.00,pawelpl,2015-09-23 15:29:06
+802,2015-09-23 14:30:00,SOC,Livebet,Stumbras Kaunas - FK Siauliai,4.59,WIN,Over 1.5 (Over Under-Full Time Excluding Overtime),3:2,Betfred,1.53,3.00,1.59,pawelpl,2015-09-23 15:28:48
+803,2015-09-23 14:30:00,SOC,Livebet,Stumbras Kaunas - FK Siauliai,0.00,LOST,Over 0.5 (Over Under-First Half),0:0,Betsson SB,3.25,7.00,-7.00,pawelpl,2015-09-23 15:08:33
+804,2015-09-23 13:30:00,SOC,Livebet,Sloga Nova Gradiska - HNK Hajduk Split,4.26,WIN,Over 6.5 (Over Under-Full Time Excluding Overtime),0:7 88\',Betsson SB,1.42,3.00,1.26,pawelpl,2015-09-23 14:27:40
+805,2015-09-23 13:30:00,SOC,Livebet,Sloga Nova Gradiska - HNK Hajduk Split,0.00,LOST,Over 7.5 (Over Under-Full Time Excluding Overtime),7:0,Betsson SB,2.09,3.00,-3.00,pawelpl,2015-09-23 14:26:55
+806,2015-09-23 14:00:00,SOC,Livebet,Koninklijke HFC - FC Eindhoven,5.12,WIN,FC Eindhoven (1X2-First Half),0:1,Nordicbet,2.56,2.00,3.12,pawelpl,2015-09-23 14:19:50
+807,2015-09-23 14:00:00,SOC,Livebet,Koninklijke HFC - FC Eindhoven,0.00,LOST,FC Eindhoven (EH 1:0 - Full Time Excluding Overtime),2:3,Betsson SB,3.1,3.00,-3.00,pawelpl,2015-09-23 14:16:58
+808,2015-09-23 14:00:00,SOC,Livebet,Koninklijke HFC - FC Eindhoven,0.00,LOST,FC Eindhoven (1X2-Full Time Excluding Overtime),2:3,Betsson SB,1.74,5.00,-5.00,pawelpl,2015-09-23 14:16:26
+809,2015-09-22 14:00:00,SOC,Livebet,FBK Kaunas - FK Spyris Kaunas,0.00,LOST,Over 4.5 (Over Under-Full Time Excluding Overtime),3,Betfred,2.38,5.00,-5.00,pawelpl,2015-09-22 15:20:21
+810,2015-09-22 14:00:00,SOC,Livebet,FBK Kaunas - FK Spyris Kaunas,8.7,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),0:3 ht,Marathonbet,1.74,5.00,3.70,pawelpl,2015-09-22 14:22:58
+811,2015-09-22 14:00:00,SOC,Livebet,FBK Kaunas - FK Spyris Kaunas,0.00,LOST,FBK Kaunas (EH 1:0 - Full Time Excluding Overtime),loss,Betsson SB,3.45,6.00,-6.00,pawelpl,2015-09-22 14:07:24
+812,2015-09-22 14:00:00,SOC,Livebet,FBK Kaunas - FK Spyris Kaunas,0.00,LOST,FBK Kaunas (1X2-Full Time Excluding Overtime),loss,Betfred,8.5,4.00,-4.00,pawelpl,2015-09-22 14:06:25
+813,2015-09-22 13:30:00,SOC,Livebet,FK Silas - Lietava Jonava,0.00,LOST,FK Silas (EH 1:0 - Full Time Excluding Overtime),0:4,Betsson SB,1.86,4.00,-4.00,pawelpl,2015-09-22 13:40:13
+814,2015-09-22 13:30:00,SOC,Livebet,FK Silas - Lietava Jonava,0.00,LOST,FK Silas (1X2-Full Time Excluding Overtime),0:4,Betfred,4,2.00,-2.00,pawelpl,2015-09-22 13:39:15
+815,2015-09-22 13:00:00,SOC,Livebet,FC Dunav Ruse - Botev Galabovo,3.28,WIN,FC Dunav Ruse (EH 0:2 - Full Time Excluding Overtime),4:0,Betsson SB,1.64,2.00,1.28,pawelpl,2015-09-22 13:18:50
+816,2015-09-22 13:00:00,SOC,Livebet,FC Dunav Ruse - Botev Galabovo,5.44,WIN,FC Dunav Ruse (EH 0:3 - Full Time Excluding Overtime),4:0,Betsson SB,2.72,2.00,3.44,pawelpl,2015-09-22 13:17:29
+817,2015-09-21 16:30:00,SOC,Livebet,Brande IF U21 - Skanderborg IF U21,6.75,WIN,Skanderborg IF U21 -5.5 (Asian Handicap-First Half),0:6,Unibet,2.25,3.00,3.75,pawelpl,2015-09-21 17:01:05
+818,2015-09-21 13:00:00,SOC,Livebet,FC Ulisses Yerevan 2 - Banants 2,4.29,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),0:3 ht,Nordicbet,1.43,3.00,1.29,pawelpl,2015-09-21 13:13:44
+819,2015-09-21 13:00:00,SOC,Livebet,FC Ulisses Yerevan 2 - Banants 2,16.96,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),0:4 75\',Betsson SB,2.12,8.00,8.96,pawelpl,2015-09-21 13:13:19
+820,2015-09-21 12:00:00,SOC,Livebet,FC Oleksandria U19 - Volyn Lutsk U19,5.00,PUSH,Over 3 (Over Under-Full Time Excluding Overtime),0:3,10bet,1.71,5.00,0.00,pawelpl,2015-09-21 12:37:29
+821,2015-09-21 12:00:00,SOC,Livebet,Jablonec U21 - Znojmo U21,7.98,WIN,Over 4.5 (Over Under-First Half),4:1,Nordicbet,2.66,3.00,4.98,pawelpl,2015-09-21 12:24:39
+822,2015-09-21 12:00:00,SOC,Livebet,Jablonec U21 - Znojmo U21,8.88,WIN,Jablonec U21 (1X2-First Half),4:1,Marathonbet,2.96,3.00,5.88,pawelpl,2015-09-21 12:10:57
+823,2015-09-20 12:30:00,SOC,Livebet,Moldova U19 W - Cyprus U19 W,4.34,WIN,Moldova U19 W (1X2-Full Time Excluding Overtime),2:1,Nordicbet,2.17,2.00,2.34,pawelpl,2015-09-20 12:48:15
+824,2015-09-20 12:30:00,SOC,Livebet,Moldova U19 W - Cyprus U19 W,6.36,WIN,Moldova U19 W (Draw No Bet-Full Time Excluding Overtime),2:1,Nordicbet,1.59,4.00,2.36,pawelpl,2015-09-20 12:47:52
+825,2015-09-19 11:00:00,SOC,Livebet,Goverla Uzhgorod U21 - Chernomorets Odessa U21,12.5,WIN,Over 1.5 (Over Under-First Half),0:2,Betfred,2.5,5.00,7.50,pawelpl,2015-09-19 11:36:11
+826,2015-09-19 09:00:00,SOC,Livebet,Cracovia Krakow U19 - AP-TOP 54 Biala Podlaska U19,0.00,LOST,Over 1.5 (Over Under-First Half),1:0,Betsson SB,2.03,4.00,-4.00,pawelpl,2015-09-19 09:26:39
+827,2015-09-19 09:00:00,SOC,Livebet,Motor Lublin U19 - Legia Warszawa U19,10.68,WIN,Over 1.5 (Over Under-First Half),1:1,Betsson SB,1.78,6.00,4.68,pawelpl,2015-09-19 09:23:03
+828,2015-09-18 18:00:00,SOC,Other,AIn Fakroun - Skikda,0.00,LOST,"over 6,5",3:2,Betsson SB,5.2,3.00,-3.00,pawelpl,2015-09-18 16:18:36
+829,2015-09-18 18:00:00,SOC,Other,AIn Fakroun - Skikda,0.00,LOST,"over 7,5",3:2,BetSafe,9.8,1.00,-1.00,pawelpl,2015-09-18 16:17:55
+830,2015-09-18 18:00:00,SOC,Other,AIn Fakroun - Skikda,0.00,LOST,"over 5,5",3:2,BetSafe,2.28,6.00,-6.00,pawelpl,2015-09-18 16:17:06
+831,2015-09-18 18:00:00,SOC,Other,AIn Fakroun - Skikda,18.9,WIN,"over 4,5",3:2,BetSafe,1.89,10.00,8.90,pawelpl,2015-09-18 16:03:05
+832,2015-09-18 11:00:00,SOC,Livebet,FK Kyran - FK Ekibastuz,17.32,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),1:2,Betfred,4.33,4.00,13.32,pawelpl,2015-09-18 12:51:23
+833,2015-09-17 19:05:00,SOC,Livebet,Skenderbeu Korce - Besiktas JK,0.00,LOST,Over 1.5 (Over Under-Full Time Excluding Overtime)(0:1),0:1,SBOBET,2.88,3.00,-3.00,pawelpl,2015-09-17 20:51:37
+834,2015-09-17 16:00:00,SOC,Livebet,Raasiku FC Joker - JK Tallinna Kalev II,2.00,PUSH,Raasiku FC Joker (Draw No Bet-Full Time Excluding Overtime),0:0,Ladbrokes,1.67,2.00,0.00,pawelpl,2015-09-17 17:27:29
+835,2015-09-17 16:00:00,SOC,Livebet,Raasiku FC Joker - JK Tallinna Kalev II,6.00,PUSH,Raasiku FC Joker (Draw No Bet-Full Time Excluding Overtime),0:0,Ladbrokes,1.67,6.00,0.00,pawelpl,2015-09-17 17:25:21
+836,2015-09-17 15:00:00,SOC,Livebet,Finland W - Montenegro W,6.2,WIN,Montenegro W Under 0.5 (Team Score Over Under-Full Time Excluding Overtime)(0:0),0,Bet-at-home,1.55,4.00,2.20,pawelpl,2015-09-17 15:19:30
+837,2015-09-17 09:00:00,SOC,Livebet,FYR of Macedonia U19 W - Northern Ireland U19 W,11.3,WIN,Over 2.5 (Over Under-First Half),0:3,Betsson SB,2.26,5.00,6.30,pawelpl,2015-09-17 09:31:44
+838,2015-09-16 18:45:00,SOC,Champions L,NK Dinamo Zagreb - Arsenal,0.00,LOST,Arsenal -1 (Asian Handicap-Full Time Excluding Overtime),lost,SBOBET,1.95,3.00,-3.00,pawelpl,2015-09-16 09:02:45
+839,2015-09-14 14:00:00,SOC,Russia,Mashuk Pyatigorsk - FC Afips,0.00,LOST,Mashuk Pyatigorsk (1X2-Full Time Excluding Overtime),0:1,William Hill,2,3.00,-3.00,pawelpl,2015-09-13 21:37:17
+840,2015-09-13 10:00:00,SOC,Livebet,Can Tho - Dong Thap,0.00,LOST,Can Tho (1X2-Full Time Excluding Overtime),1:1,Bet365,7,1.00,-1.00,pawelpl,2015-09-13 10:26:58
+841,2015-09-13 10:00:00,SOC,Livebet,Can Tho - Dong Thap,11.46,WIN,Can Tho +1 (Asian Handicap-Full Time Excluding Overtime),1:1,Marathonbet,1.91,6.00,5.46,pawelpl,2015-09-13 10:25:16
+842,2015-09-13 10:00:00,SOC,Other,Northern W - Uwa W,28,WIN,Northern -11EH,14:0,Unibet,2.8,10.00,18.00,pawelpl,2015-09-13 08:33:03
+843,2015-09-13 10:00:00,SOC,Other,Northern W - Uwa W,28,WIN,Northern -11EH,14:0,Unibet,2.8,10.00,18.00,pawelpl,2015-09-13 08:32:00
+844,2015-09-13 09:00:00,SOC,Other,Kwai Tsing - Yau Tsim,0.00,LOST,"over 3,5",0:2,BetSafe,2.1,7.00,-7.00,pawelpl,2015-09-13 07:58:44
+845,2015-09-12 12:00:00,SOC,Livebet,Kortedala IF - Assyriska BK,14,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),5:2 75\',Betsson SB,1.75,8.00,6.00,pawelpl,2015-09-12 12:34:24
+846,2015-09-12 10:00:00,SOC,Livebet,FC Honka Espoo W - Aland United W,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),0:1,Betsson SB,2.36,6.00,-6.00,pawelpl,2015-09-12 11:20:08
+847,2015-09-12 10:00:00,SOC,Livebet,Porto U19 - Sporting Braga U19,12.9,WIN,Porto U19 (1X2-First Half),1:0,Betsson SB,2.58,5.00,7.90,pawelpl,2015-09-12 10:26:43
+848,2015-09-11 18:30:00,SOC,Poland,Legia Warszawa - Zaglebie Lubin,0.00,LOST,Home -0.5 (Match),2:2,PINNACLE,1.76,3.00,-3.00,pawelpl,2015-09-11 18:03:00
+849,2015-09-11 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Dnipro Dnipropetrovsk U21,0.00,LOST,Over 1.5 (Over Under-First Half),0:1,Betsson SB,3.35,2.00,-2.00,pawelpl,2015-09-11 09:43:38
+850,2015-09-11 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Dnipro Dnipropetrovsk U21,0.00,LOST,Over 1.5 (Over Under-First Half),0:1,Betsson SB,2.66,6.00,-6.00,pawelpl,2015-09-11 09:40:38
+851,2015-09-11 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Dnipro Dnipropetrovsk U21,10.32,WIN,Over 0.5 (Over Under-First Half),0:1,Betsson SB,1.72,6.00,4.32,pawelpl,2015-09-11 09:33:15
+852,2015-09-11 09:00:00,SOC,Livebet,Metalurg Zaporizhya U21 - Dnipro Dnipropetrovsk U21,12.42,WIN,Dnipro Dnipropetrovsk U21 (1X2-First Half),0:1,Betsson SB,2.07,6.00,6.42,pawelpl,2015-09-11 09:24:11
+853,2015-09-09 12:00:00,SOC,Livebet,IK Sirius U21 - Halmstads BK U21,18.06,WIN,IK Sirius U21 (Draw No Bet-Full Time Excluding Overtime),2:0,Betsson SB,2.58,7.00,11.06,pawelpl,2015-09-09 12:23:28
+854,2015-09-07 16:00:00,SOC,Livebet,Odd Grenland 2 - Flekkeroy IL,4.14,WIN,Odd Grenland 2 (1X2-First Half),1:0,Betsson SB,2.07,2.00,2.14,pawelpl,2015-09-07 16:18:58
+855,2015-09-07 16:00:00,SOC,Livebet,Odd Grenland 2 - Flekkeroy IL,8.2,WIN,Odd Grenland 2 (1X2-First Half),1:0,Betsson SB,2.05,4.00,4.20,pawelpl,2015-09-07 16:17:48
+856,2015-09-07 14:00:00,SOC,Livebet,NK Krka - NK Zavrc,12,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),3:1,Betsson SB,2,6.00,6.00,pawelpl,2015-09-07 14:38:54
+857,2015-09-05 09:00:00,SOC,Livebet,Sigma Olomouc U19 - Opava U19,0.00,LOST,Sigma Olomouc U19 (1X2-First Half),0:0,Marathonbet,1.96,5.00,-5.00,pawelpl,2015-09-05 09:22:31
+858,2015-09-03 10:25:00,SOC,Livebet,Japan - Cambodia,0.00,LOST,Japan -4.5 (Asian Handicap-Full Time Excluding Overtime)(0:0),3:0,Unibet,1.75,4.00,-4.00,pawelpl,2015-09-03 10:50:06
+859,2015-09-01 18:00:00,SOC,Livebet,Fylkir Reykjavik W - Throttur Reykjavik W,12,WIN,Fylkir Reykjavik W (1X2-First Half),4:0,Unibet,2,6.00,6.00,pawelpl,2015-09-01 18:28:31
+860,2015-09-01 17:30:00,SOC,Livebet,IA Akranes W - Fjardabyggd W,8.5,WIN,IA Akranes W -2.5 (Asian Handicap-Full Time Excluding Overtime),3:0,Fonbet,1.7,5.00,3.50,pawelpl,2015-09-01 17:33:07
+861,2015-08-30 15:00:00,SOC,Other,Laos u19 - Philippines u19,20.1,WIN,Phillipinnes u19 +4EH,3:1,BetSafe,2.01,10.00,10.10,pawelpl,2015-08-30 13:20:37
+862,2015-08-29 16:30:00,SOC,Livebet,Ebro - Real Sociedad B,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),1:0,Betsson SB,2.16,6.00,-6.00,pawelpl,2015-08-29 17:32:43
+863,2015-08-29 12:00:00,SOC,Livebet,Nacka FF - Stromsberg IF,0.00,LOST,Stromsberg IF (Draw No Bet-Full Time Excluding Overtime),2:0,Nordicbet,3.5,2.00,-2.00,pawelpl,2015-08-29 12:14:56
+864,2015-08-29 12:00:00,SOC,Livebet,Nacka FF - Stromsberg IF,0.00,LOST,Stromsberg IF (EH 0:1 - Full Time Excluding Overtime),2:0,Betsson SB,2.06,5.00,-5.00,pawelpl,2015-08-29 12:13:40
+865,2015-08-29 09:00:00,SOC,Livebet,Sparta Prague U19 - Viktoria Plzen U19,7.62,WIN,Sparta Prague U19 (EH 0:1 - Full Time Excluding Overtime),5:1,Betsson SB,2.54,3.00,4.62,pawelpl,2015-08-29 10:05:00
+866,2015-08-29 09:00:00,SOC,Livebet,Sparta Prague U19 - Viktoria Plzen U19,5.8,WIN,Sparta Prague U19 (1X2-Full Time Excluding Overtime),5:1,Betsson SB,1.45,4.00,1.80,pawelpl,2015-08-29 10:04:24
+867,2015-08-29 05:30:00,SOC,Livebet,Sturt Lions - Eastern United,0.00,LOST,Sturt Lions (EH 0:4 - Full Time Excluding Overtime),5:1,Nordicbet,1.92,2.00,-2.00,pawelpl,2015-08-29 06:32:06
+868,2015-08-29 05:30:00,SOC,Livebet,Sturt Lions - Eastern United,0.00,LOST,Sturt Lions (EH 0:5 - Full Time Excluding Overtime),5:1,Betsson SB,3,1.00,-1.00,pawelpl,2015-08-29 06:31:36
+869,2015-08-29 05:30:00,SOC,Livebet,Sturt Lions - Eastern United,0.00,LOST,Sturt Lions (EH 0:5 - Full Time Excluding Overtime),5:1,Betsson SB,3,5.00,-5.00,pawelpl,2015-08-29 06:18:11
+870,2015-08-29 05:30:00,SOC,Livebet,Sturt Lions - Eastern United,0.00,LOST,Sturt Lions (EH 0:4 - Full Time Excluding Overtime),5:1,Betsson SB,1.92,7.00,-7.00,pawelpl,2015-08-29 06:17:21
+871,2015-08-28 15:30:00,SOC,Livebet,FK Atlantas Klaipeda - Stumbras Kaunas,12.6,WIN,FK Atlantas Klaipeda -1.5 (Asian Handicap-First Half),3:0,Marathonbet,2.1,6.00,6.60,pawelpl,2015-08-28 15:56:22
+872,2015-08-25 16:30:00,SOC,Livebet,Naestved Boldklub A/S - FC Nordsjaelland,10.00,PUSH,FC Nordsjaelland (1X2-Full Time Excluding Overtime),void,Unibet,1.77,10.00,0.00,pawelpl,2015-08-25 17:17:36
+873,2015-08-23 08:30:00,SOC,Livebet,FC Viktoria Otrokovice - Horacky FK Trebic,14.28,WIN,FC Viktoria Otrokovice (1X2-First Half),3:0,Betsson SB,2.38,6.00,8.28,pawelpl,2015-08-23 08:57:29
+874,2015-08-21 16:00:00,SOC,Other,Rodina W - Kharkiv W,14.7,WIN,Kharkiv W -2EH,0:4,Unibet,2.45,6.00,8.70,pawelpl,2015-08-21 14:59:51
+875,2015-08-20 16:00:00,SOC,Livebet,FC Flora Tallinn III - JK Sillamae Kalev II,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime),0:1,Betsson SB,1.42,4.00,-4.00,pawelpl,2015-08-20 16:17:21
+876,2015-08-20 16:00:00,SOC,Livebet,FC Flora Tallinn III - JK Sillamae Kalev II,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime),0:1,Nordicbet,2.06,4.00,-4.00,pawelpl,2015-08-20 16:16:29
+877,2015-08-19 16:30:00,SOC,Livebet,FSV Mainz 05 U19 - Karlsruher SC U19,18.88,WIN,FSV Mainz 05 U19 (1X2-Full Time Excluding Overtime),1:0,Betsson SB,2.36,8.00,10.88,pawelpl,2015-08-19 17:45:39
+878,2015-08-19 16:00:00,SOC,Livebet,Benfica U19 - Portimonense SC U19,13,WIN,Benfica U19 (EH 0:2 - Full Time Excluding Overtime),5:0,Betsson SB,3.25,4.00,9.00,pawelpl,2015-08-19 16:14:24
+879,2015-08-19 16:00:00,SOC,Livebet,Benfica U19 - Portimonense SC U19,14.64,WIN,Benfica U19 (EH 0:1 - Full Time Excluding Overtime),5:0,Betsson SB,1.83,8.00,6.64,pawelpl,2015-08-19 16:13:09
+880,2015-08-18 18:00:00,SOC,Other,Feyennord eserves - Helmond reserves,0.00,LOST,"Feye -1,5 ht",1:0,Unibet,1.65,5.00,-5.00,pawelpl,2015-08-18 16:52:46
+881,2015-08-18 15:00:00,SOC,Other,Obod Tahkent - Hotira,8.5,WIN,"over 2,5",3:0 68\',Betsson SB,1.7,5.00,3.50,pawelpl,2015-08-18 13:34:53
+882,2015-08-18 15:00:00,SOC,Other,Obod Tahkent - Hotira,11.6,WIN,"over 4,5",8:0,BetSafe,5.8,2.00,9.60,pawelpl,2015-08-18 13:33:03
+883,2015-08-18 15:30:00,SOC,Other,Obod Tahkent - Hotira,22.08,WIN,"over 3,5",6:0 79\',BetSafe,2.76,8.00,14.08,pawelpl,2015-08-18 13:31:35
+884,2015-08-17 11:15:00,SOC,Livebet,Sparta Praha U21 - Fotbal Trinec U21,0.00,LOST,FT Over 3.25 (0:0),2:0,188bet,1.89,4.00,-4.00,pawelpl,2015-08-17 12:24:29
+885,2015-08-16 14:00:00,SOC,Livebet,AS Tel Aviv University W - FC Twente 1965 W,11.22,WIN,FC Twente 1965 W -5.5 (Asian Handicap-Full Time Excluding Overtime),7:0,Unibet,1.87,6.00,5.22,pawelpl,2015-08-16 14:34:48
+886,2015-08-16 10:00:00,SOC,Other,Boroondara W - Sputh Yarra,21.6,WIN,Booroondara -5EH,9:0,Unibet,2.4,9.00,12.60,pawelpl,2015-08-16 08:16:52
+887,2015-08-15 13:00:00,SOC,Other,Porto u19,0.00,LOST,Leixoes u19,2:1,BetSafe,1.9,7.00,-7.00,pawelpl,2015-08-15 11:19:24
+888,2015-08-14 16:30:00,SOC,Livebet,SC Paderborn 07 - SV 1916 Sandhausen,0.00,LOST,Under 5.5 (Over Under-Full Time Excluding Overtime)(0:5),6:0,Betsson SB,2.17,7.00,-7.00,pawelpl,2015-08-14 18:08:26
+889,2015-08-14 16:30:00,SOC,Livebet,Real Betis Sevilla - Granada CF,0.00,LOST,Under 2.5 (Over Under-Full Time Excluding Overtime),2:1,Betsson SB,1.79,6.00,-6.00,pawelpl,2015-08-14 18:07:14
+890,2015-08-12 15:30:00,SOC,Livebet,FK Krazante Kelme - Auska Alytus,3.7,WIN,Over 0.5 (Over Under-Full Time Excluding Overtime),1:0 81\',Unibet,1.85,2.00,1.70,pawelpl,2015-08-12 17:04:16
+891,2015-08-12 15:30:00,SOC,Livebet,FK Krazante Kelme - Auska Alytus,14.24,WIN,Over 0.5 (Over Under-Full Time Excluding Overtime),1:0 81\',Unibet,1.78,8.00,6.24,pawelpl,2015-08-12 17:03:27
+892,2015-08-12 14:30:00,SOC,Livebet,CS Sanatatea Servicii Publice Cluj - Metalurgistul Cugir,11.84,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),1:4,Betsson SB,2.96,4.00,7.84,pawelpl,2015-08-12 14:47:08
+893,2015-08-12 14:30:00,SOC,Livebet,CS Sanatatea Servicii Publice Cluj - Metalurgistul Cugir,11.34,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),0:3,Betsson SB,1.62,7.00,4.34,pawelpl,2015-08-12 14:45:47
+894,2015-08-11 16:00:00,SOC,Livebet,KKPK Medyk Konin W - Cardiff Metropolitan LFC W,0.00,LOST,KKPK Medyk Konin W (EH 0:3 - First Half),3:0,Unibet,2.75,6.00,-6.00,pawelpl,2015-08-11 16:19:55
+895,2015-08-11 11:30:00,SOC,Livebet,WFC Zhytlobud 1 Kharkiv W - Rigas FS W,6.32,WIN,Under 7.5 (Over Under-Full Time Excluding Overtime)(1:0),4:1,Betsson SB,1.58,4.00,2.32,pawelpl,2015-08-11 11:55:34
+896,2015-08-09 12:00:00,SOC,Livebet,Weiche Flensburg - Drochtersen / Assel,0.00,LOST,Under 2.5 (Over Under-Full Time Excluding Overtime),4:0,Betsson SB,3.3,2.00,-2.00,pawelpl,2015-08-09 12:43:04
+897,2015-08-09 12:00:00,SOC,Livebet,Weiche Flensburg - Drochtersen / Assel,0.00,LOST,Under 3.5 (Over Under-Full Time Excluding Overtime),4:0,Betsson SB,1.75,6.00,-6.00,pawelpl,2015-08-09 12:42:36
+898,2015-08-08 21:00:00,SOC,Other,Rotena - College,0.00,LOST,College,2:0,PINNACLE,2.52,6.00,-6.00,pawelpl,2015-08-08 19:14:03
+899,2015-08-07 14:00:00,SOC,Livebet,Zorya Luhansk U21 - Olimpik Donetsk U21,0.00,LOST,Over 1.5 (Over Under-First Half),1:0,Fonbet,2.1,7.00,-7.00,pawelpl,2015-08-07 14:13:21
+900,2015-08-07 13:30:00,SOC,Livebet,PFC-D Oleksandria U21 - Stal-D Dniprodzerzhynsk U21,12,WIN,Over 1.5 (Over Under-First Half),2:0,Betfred,4,3.00,9.00,pawelpl,2015-08-07 13:54:38
+901,2015-08-07 13:30:00,SOC,Livebet,PFC-D Oleksandria U21 - Stal-D Dniprodzerzhynsk U21,16.66,WIN,Over 1.5 (Over Under-First Half),2:0,Betfred,2.38,7.00,9.66,pawelpl,2015-08-07 13:43:34
+902,2015-08-06 17:00:00,SOC,Other,Olympiakos Nicosia - Doxa,0.00,LOST,over 2.5,1:1,William Hill,2.37,8.00,-8.00,pawelpl,2015-08-06 15:10:56
+903,2015-08-06 14:00:00,SOC,Other,Borussia Monchengladbach U19 - Kaiserslautern u19,10,WIN,"over 2,5",4:2,William Hill,2,5.00,5.00,pawelpl,2015-08-06 12:25:55
+904,2015-08-05 16:30:00,SOC,Livebet,SK Upesciems - RTU FC,14.4,WIN,Under 5.5 (Over Under-Full Time Excluding Overtime),0:3,Betsson SB,1.8,8.00,6.40,pawelpl,2015-08-05 16:47:41
+905,2015-08-05 15:00:00,SOC,Livebet,Israel U19 - Armenia U19,17.1,WIN,Armenia U19 (EH 0:3 - Full Time Excluding Overtime)(3:1),3:3,Betsson SB,1.9,9.00,8.10,pawelpl,2015-08-05 16:38:21
+906,2015-08-01 09:00:00,SOC,Livebet,Bohemians 1905 U19 - Teplice U19,19.04,WIN,Teplice U19 (Draw No Bet-Full Time Excluding Overtime),1:3,Bet365,2.38,8.00,11.04,pawelpl,2015-08-01 09:36:46
+907,2015-07-19 14:00:00,SOC,Friendly,University College Dublin FC - Liverpool FC U21,9.2,WIN,2/2 (HT/FT-Full Time Excluding Overtime),2/2 ht/ft,Ladbrokes,2.3,4.00,5.20,pawelpl,2015-07-19 13:59:32
+908,2015-07-20 14:45:00,SOC,Other,Russia U21 - Paraguay U21,0.00,LOST,Handicap (-21.5) 1,44:30,Marathonbet,1.9,5.00,-5.00,pawelpl,2015-07-18 21:51:42
+909,2015-07-16 17:15:00,SOC,Livebet,Slovan Bratislava - UC Dublin,0.00,LOST,FT Home -2 (0:0),1:0,188bet,1.82,5.00,-5.00,pawelpl,2015-07-16 18:43:04
+910,2015-07-09 18:45:00,SOC,Friendly,Darlington - Sunderland,3.96,WIN,Sunderland Over 3.5 (Team Score Over Under-Full Time Excluding Overtime),4,Unibet,1.98,2.00,1.96,pawelpl,2015-07-09 10:18:45
+911,2015-07-09 18:45:00,SOC,Friendly,Darlington - Sunderland,3.7,WIN,Over 4 (Over Under-Full Time Excluding Overtime),2:4,SBOBET,1.85,2.00,1.70,pawelpl,2015-07-09 09:57:13
+912,2015-07-09 18:45:00,SOC,Friendly,Darlington - Sunderland,12.12,WIN,Sunderland Over 3.5 (Team Score Over Under-Full Time Excluding Overtime),4,Unibet,2.02,6.00,6.12,pawelpl,2015-07-09 09:54:43
+913,2015-07-07 16:00:00,SOC,Other,Eintracht Frankfurt - FC Wacker Innsbruck Amateure,15.6,WIN,Handicap (0:3) 1,4:0,BWIN,1.95,8.00,7.60,pawelpl,2015-07-07 11:03:53
+914,2015-07-06 16:30:00,SOC,Other,St. Johann - Duisburg,8.16,WIN,Over 6.5,1:7 59\',YOUWIN,4.08,2.00,6.16,pawelpl,2015-07-06 13:29:40
+915,2015-07-06 16:30:00,SOC,Other,St. Johann - Duisburg,10.48,WIN,Over 5.5,1:7 59\',YOUWIN,2.62,4.00,6.48,pawelpl,2015-07-06 13:28:56
+916,2015-07-06 16:30:00,SOC,Other,St. Johann - Duisburg,18.1,WIN,Over 4.5,1:4 42\',YOUWIN,1.81,10.00,8.10,pawelpl,2015-07-06 13:27:56
+917,2015-07-02 17:30:00,SOC,Other,Eik-Tonsberg - Birkebeineren,0.00,LOST,Handicap (0:3) 1,5:2,Unibet,2.17,4.00,-4.00,pawelpl,2015-07-02 14:37:41
+918,2015-05-02 19:54:51,SOC,Outrights,Primera Division 2014/2015,0.00,LOST,Real Madrid (Winner-Full Event),0:1,EXPEKT,3.8,5.00,-5.00,pawelpl,2015-05-02 19:54:51
+919,2015-04-09 12:15:00,TNS,ATP,Guillermo Garcia Lopez (-1.5 Sets) - Lamine Ouahab (+1.5 Sets),0.00,LOST,Home (Match),0:2,PINNACLE,2.09,4.00,-4.00,pawelpl,2015-04-09 12:06:16
+920,2015-03-14 14:00:00,SOC,Russia,FC Dynamo St. Petersburg - Anzhi Makhachkala,5.64,WIN,Anzhi Makhachkala (EH 1:0 - Full Time Excluding Overtime),0:2,Bet-at-home,1.88,3.00,2.64,pawelpl,2015-03-13 21:13:00
+921,2015-02-23 15:00:00,SOC,Livebet,FK Radnicki Nis - FK Red Star Belgrade Crvena Zvezda,0.00,LOST,Over 2.5 (Over Under-Full Time Excluding Overtime)(0:0),0:0,Betsson SB,2.45,3.00,-3.00,pawelpl,2015-02-23 15:05:52
+922,2015-02-21 14:00:00,SOC,Hungary,Paksi FC - Nyiregyhaza Spartacus FC,0.00,LOST,Paksi FC -1.25 (Asian Handicap-Full Time Excluding Overtime),1:1,SBOBET,1.72,5.00,-5.00,pawelpl,2015-02-20 12:21:57
+923,2015-02-14 16:30:00,HNB,Poland,KS EB Start Elblag W - MKS Olimpia-Beskid Nowy Sacz W,17.4,WIN,KS EB Start Elblag W -5.5 (Asian Handicap-Full Time Excluding Overtime),35:24,YOUWIN,1.74,10.00,7.40,pawelpl,2015-02-14 08:09:42
+924,2015-02-14 16:30:00,HNB,Poland,KS EB Start Elblag W - MKS Olimpia-Beskid Nowy Sacz W,29,WIN,KS EB Start Elblag W -8.5 (Asian Handicap-Full Time Excluding Overtime),35:24,YOUWIN,2.9,10.00,19.00,pawelpl,2015-02-14 08:08:55
+925,2015-02-11 15:00:00,SOC,Other,Omonia Nicosia - Karmiotissa,8.00,PUSH,Omonia Nicosia (-2),2:0,Marathonbet,2.2,8.00,0.00,pawelpl,2015-02-11 13:38:53
+926,2015-01-17 13:00:00,SOC,Other,Veria - OFI Crete,12,WIN,Handicap (0:1) 1,4:1,MYBET,2,6.00,6.00,pawelpl,2015-01-17 12:41:47
+927,2014-11-30 20:30:00,SOC,Peru,FBC Melgar Arequipa - Alianza Lima,12.96,WIN,Alianza Lima (Draw No Bet-Full Time Excluding Overtime),2:3,Marathonbet,2.16,6.00,6.96,pawelpl,2014-11-28 17:38:14
+928,2014-11-28 19:00:00,SOC,Fra. Ligue 2,Stade Brestois 29 - US Creteil,0.00,LOST,2-0 (Correct Score-Full Time Excluding Overtime),wrong,Bet365,7,8.00,-8.00,pawelpl,2014-11-28 12:05:56
+929,2014-10-04 14:00:00,SOC,Latvia,Liepajas Metalurgs - FC Jurmala,19.5,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),6:0,MYBET,1.95,10.00,9.50,pawelpl,2014-10-04 13:59:28
+930,2014-10-03 16:30:00,SOC,Turkey,Denizlispor - Giresunspor,7.00,PUSH,Denizlispor (Draw No Bet-Full Time Excluding Overtime),0:0,Sportingbet,2.2,7.00,0.00,pawelpl,2014-10-02 13:19:37
+931,2014-09-24 15:00:00,BSK,Lithuania,Nevezis Kedainiai - BC Zalgiris Kaunas,9.25,WIN,BC Zalgiris Kaunas -19.5 (Asian Handicap-Full Time Including Overtime),59:93,MYBET,1.85,5.00,4.25,pawelpl,2014-09-24 08:53:45
+932,2014-09-10 19:00:00,SOC,Spa. Copa Del Rey,Cadiz - CD Lealtad,8,WIN,Cadiz (1X2-First Half),1:0,Sportingbet,2,4.00,4.00,pawelpl,2014-09-09 22:17:12
+933,2014-09-10 19:00:00,SOC,Spa. Copa Del Rey,Cadiz - CD Lealtad,0.00,LOST,Cadiz (EH 0:1 - Full Time Excluding Overtime),2:1,Sportingbet,2.3,4.00,-4.00,pawelpl,2014-09-09 22:15:49
+934,2014-08-31 15:30:00,SOC,Finland,Pallokerho-35 Vantaa - FC Viikingit Helsinki,9.6,WIN,Pallokerho-35 Vantaa (EH 0:2 - Full Time Excluding Overtime),5:2,Sportingbet,3.2,3.00,6.60,pawelpl,2014-08-28 15:24:23
+935,2014-08-31 15:30:00,SOC,Finland,Pallokerho-35 Vantaa - FC Viikingit Helsinki,14,WIN,Pallokerho-35 Vantaa (EH 0:1 - Full Time Excluding Overtime),5:2,Sportingbet,1.75,8.00,6.00,pawelpl,2014-08-28 15:23:55
+936,2014-08-31 15:30:00,SOC,Finland,Pallokerho-35 Vantaa - FC Viikingit Helsinki,17.1,WIN,Over 2.5 (Over Under-Full Time Excluding Overtime),5:2,Ladbrokes,1.9,9.00,8.10,pawelpl,2014-08-28 15:18:41
+937,2014-08-28 16:00:00,SOC,Other,Inter - Stjarnan,16.96,WIN,Inter (-2.5),6:0,Marathonbet,2.12,8.00,8.96,pawelpl,2014-08-21 09:39:14
+938,2014-08-20 00:00:00,SOC,Other,America de Mexico-Bayamon FC,6.8,WIN,1 ( 3WHT),5:0,Unibet,1.36,5.00,1.80,pawelpl,2014-08-19 22:53:44
+939,2014-08-11 15:00:00,SOC,Women,Parnu FCW - ZNK Pomurje W,19.8,WIN,ZNK Pomurje W (EH 1:0 - Full Time Excluding Overtime),0:4,Nordicbet,2.2,9.00,10.80,pawelpl,2014-08-11 13:29:22
+940,2014-08-03 12:30:00,SOC,Friendly,FC Den Bosch - PSV Eindhoven,8.46,WIN,FC Den Bosch (Draw No Bet-Full Time Excluding Overtime),1:0,Marathonbet,2.82,3.00,5.46,pawelpl,2014-08-03 08:44:36
+941,2014-08-02 14:00:00,SOC,Friendly,Shamrock Rovers - Queens Park Rangers FC,8.5,WIN,Queens Park Rangers FC (EH 1:0 - Full Time Excluding Overtime),0:4,MYBET,1.7,5.00,3.50,pawelpl,2014-08-02 10:02:50
+942,2014-08-02 14:00:00,SOC,Friendly,Blackpool FC - Burnley FC,5.00,PUSH,Burnley FC -1 (Asian Handicap-Full Time Excluding Overtime),0:1,Marathonbet,2.82,5.00,0.00,pawelpl,2014-08-02 06:22:23
+943,2014-08-02 14:00:00,SOC,Friendly,Blackpool FC - Burnley FC,14,WIN,Burnley FC (1X2-Full Time Excluding Overtime),0:1,Marathonbet,2,7.00,7.00,pawelpl,2014-08-02 06:21:03
+944,2014-08-02 18:00:00,SOC,Friendly,Olympique Marseille - Chievo Verona,9.15,WIN,Olympique Marseille (1X2-Full Time Excluding Overtime),3:1,Bet365,1.83,5.00,4.15,pawelpl,2014-08-01 23:21:37
+945,2014-07-27 21:36:00,SOC,Livebet,Brampton City United FC - SC Waterloo,0.00,LOST,FT Home -0.5 (0:1),0:1,188bet,3.43,3.00,-3.00,pawelpl,2014-07-27 22:36:53
+946,2014-07-27 21:30:00,SOC,Canada,Brampton Lions - Waterloo,19.2,WIN,Waterloo (1X2-Full Time Excluding Overtime),0:1,BETWAY,3.2,6.00,13.20,pawelpl,2014-07-27 19:45:44
+947,2014-07-28 19:00:00,SOC,Other,Tigre - All Boys,0.00,LOST,Tigre,0:0,Marathonbet,2.12,6.00,-6.00,pawelpl,2014-07-27 14:28:48
+948,2014-07-24 01:59:00,SOC,Chile,San Marcos de Arica - Deportes Iquique,13.02,WIN,Home -0.25 (Match),3:0,PINNACLE,1.86,7.00,6.02,pawelpl,2014-07-23 20:06:50
+949,2014-07-24 01:00:00,SOC,Colombia,Deportivo Pasto - Deportivo Cali,0.00,LOST,Deportivo Pasto (1X2-Full Time Excluding Overtime),1:1,BETWAY,1.9,8.00,-8.00,pawelpl,2014-07-23 09:21:49
+950,2014-07-23 22:30:00,SOC,Other,Arsenal Sarandi - Instituto,0.00,LOST,Arsenal Sarandi,shame on you arsenal,William Hill,1.62,7.00,-7.00,pawelpl,2014-07-22 16:18:36
+951,2014-07-21 18:30:00,SOC,Other,Apoel Nicosia - Ergotelis,0.00,LOST,Over 3.5,2:0,Unibet,2.23,7.00,-7.00,pawelpl,2014-07-21 13:45:21
+952,2014-07-20 20:30:00,SOC,Peru,Sporting Cristal Lima - CD San Simon,13.2,WIN,Sporting Cristal Lima (EH 0:1 - Full Time Excluding Overtime),6:0,Unibet,2.2,6.00,7.20,pawelpl,2014-07-19 19:21:15
+953,2014-07-06 23:00:00,SOC,Canada,Waterloo - Serbian White Eagles,19.35,WIN,Over 3.5 (Over Under-Full Time Excluding Overtime),0:4,BETWAY,2.15,9.00,10.35,pawelpl,2014-07-06 21:59:04
+954,2014-07-05 17:00:00,VLB,World League (M),Bulgaria - Russia,0.00,LOST,Under 173.5 (Over Under-Full Event),lost,William Hill,1.92,8.00,-8.00,pawelpl,2014-07-05 12:36:03
+955,2014-07-03 10:45:00,BSK,Int'l Youth,Romania U20 W - Portugal U20 W,11.1,WIN,Portugal U20 W -10.5 (Asian Handicap-Full Time Including Overtime),47:74,EXPEKT,1.85,6.00,5.10,pawelpl,2014-07-03 09:51:22
+956,2014-06-29 20:00:00,SOC,World Cup,CostaRica - Greece,0.00,LOST,1st half injury time - 3+ minutes,2,Bet365,3.5,8.00,-8.00,pawelpl,2014-06-29 19:23:35
+957,2014-06-23 15:00:00,TNS,Grand Slam (M),Pablo Carreno-Busta - D Ferrer,16.47,WIN,2 (-7.5 games),0:6 7:6 1:6 1:6,Ladbrokes,1.83,9.00,7.47,pawelpl,2014-06-22 18:05:02
+958,2014-05-16 18:00:00,SOC,Fra. National,Uzes Pont du Gard - GazÃ©lec FCO Ajaccio,10.85,WIN,GazÃ©lec FCO Ajaccio (1X2-First Half),0:1,Betsson SB,2.17,5.00,5.85,pawelpl,2014-05-16 13:36:40
+959,2014-05-15 22:30:00,SOC,Brazil,Paysandu PA-Sport Recife,27,WIN,1 ( 1X2),2:1,TIPICO,2.7,10.00,17.00,pawelpl,2014-05-14 22:34:01
+960,2014-05-09 18:00:00,SOC,Fra. National,Frejus St-Raphael-Colomiers,24.21,WIN,2 ( 1X2),1:4,SBOBET,2.69,9.00,15.21,pawelpl,2014-05-09 17:37:04
+961,2014-05-08 08:30:00,SOC,Indonesia,Perseru Serui - Persipura Jayapura,0.00,LOST,Persipura Jayapura (1X2-Full Time Excluding Overtime),0:0,Bet365,2.4,8.00,-8.00,pawelpl,2014-05-07 11:50:25
+962,2014-03-14 19:45:00,SOC,Ireland,Waterford United - Galway United,8.00,PUSH,Galway United (Draw No Bet-Full Time Excluding Overtime),0:0,Ladbrokes,2.5,8.00,0.00,pawelpl,2014-03-14 12:48:53
+963,2014-03-12 18:00:00,SOC,Iceland,Fram - Afturelding,13.3,WIN,Over 3.5,3:1,Marathonbet,1.9,7.00,6.30,pawelpl,2014-03-12 14:39:26
+964,2014-03-10 12:30:00,SOC,Czech Rep.,Dukla Prague U21-Sigma Olomouc U21,10.25,WIN,2 ( 1X2),2:5,188bet,2.05,5.00,5.25,pawelpl,2014-03-10 11:12:42
+965,2014-03-10 13:10:00,TNS,ATP Challenger,Axel Michon - Valery Rudnev,16.2,WIN,Axel Michon (Match Winner-Full Event),12:3,Ladbrokes,1.8,9.00,7.20,pawelpl,2014-03-10 11:06:42
+966,2014-03-09 21:00:00,SOC,Bolivia,Oriente Petrolero - Sport Boys Warnes,14.8,WIN,Oriente Petrolero (1X2-Full Time Excluding Overtime),1:0,William Hill,1.85,8.00,6.80,pawelpl,2014-03-07 22:05:51
+967,2014-03-08 19:30:00,SOC,Other,Guabira - The Strongest,15,WIN,Guabira,3:2,William Hill,2.5,6.00,9.00,pawelpl,2014-03-07 21:53:36
+968,2014-03-09 01:00:00,SOC,Peru,Alianza Lima - Real Garcilaso,15.7,WIN,Alianza Lima (1X2-Full Time Excluding Overtime),1:0,William Hill,1.57,10.00,5.70,pawelpl,2014-03-07 21:25:52
+969,2014-03-05 11:40:00,SOC,Other,Japan - New Zealand,8.35,WIN,Japan (-1.5),4:2,Dafabet,1.67,5.00,3.35,pawelpl,2014-03-02 13:10:45
+970,2014-03-02 14:00:00,BSK,Turkey,Istanbul W - Tarsus Belediye Spor W,13.37,WIN,Over 140 (Over Under-Full Time Including Overtime),82:73,Marathonbet,1.91,7.00,6.37,pawelpl,2014-03-02 13:06:19
+971,2014-02-23 16:00:00,SOC,Spa. Other,Algeciras - La Hoya Lorca,0.00,LOST,Algeciras (+0),0:2,BetSafe,2.19,7.00,-7.00,pawelpl,2014-02-22 13:14:20
+972,2014-02-18 13:00:00,SOC,Other,Hammarby - FC Mika,12.6,WIN,Over 3,4:4,10bet,1.8,7.00,5.60,pawelpl,2014-02-18 12:18:40
+973,2014-02-18 14:00:00,SOC,Other,Gefle IF - Changchun Yatai,7.92,WIN,Over 3.5,1:3,188bet,1.98,4.00,3.92,pawelpl,2014-02-18 12:16:34
+974,2014-02-17 14:30:00,HKY,Russia,Olympia - Stalnye Lisy,43,WIN,Olympia 1X2,2:1,Bet-at-home,4.3,10.00,33.00,pawelpl,2014-02-17 11:46:24
+975,2014-02-08 13:00:00,HKY,Olympics,Canada W - Switzerland,0.00,LOST,"Canada -5,5",5:0,PaddyPower,191,10.00,-10.00,pawelpl,2014-02-06 23:15:54
+976,2014-02-05 14:00:00,SOC,Other,Benfica U19 - Envigado U19,9,WIN,X2,0:1,BWIN,1.8,5.00,4.00,pawelpl,2014-02-05 13:56:46
+977,2014-02-05 19:00:00,SOC,Other,RSC Anderlecht U19 - A.P.I.A. Leichhardt (U19),0.00,LOST,Over 3.5,3:0,BWIN,1.8,10.00,-10.00,pawelpl,2014-02-05 13:45:22
+978,2014-01-25 19:30:00,SOC,Bolivia,Nacional Potosi - Oriente Petrolero,11.1,WIN,Over 2.5,3:1,BWIN,1.85,6.00,5.10,pawelpl,2014-01-25 16:01:07
+979,2014-01-26 15:00:00,FBL,Sweden,Jonkopings IK - Caperio/TÃ¤by FC,0.00,LOST,Caperio/TÃ¤by FC (EH 2:0 - Full Time Excluding Overtime),10:4,Nordicbet,2,7.00,-7.00,pawelpl,2014-01-25 15:54:13
+980,2014-01-26 13:30:00,SOC,Ita. Serie C,AG Nocerina 1910 - Pisa,11,WIN,Pisa (1X2-Full Time Excluding Overtime),0:2,Marathonbet,2.2,5.00,6.00,pawelpl,2014-01-25 13:46:41
+981,2014-01-25 15:00:00,SOC,Scotland,East Fife - Forfar Athletic,0.00,LOST,Over 3.5 (Over Under-Full Time Excluding Overtime),2:1,William Hill,2.75,4.00,-4.00,pawelpl,2014-01-25 13:44:26
+982,2014-01-25 20:45:00,SOC,Por. Cup,FC Porto - CS MarÃ­timo Funchal,0.00,LOST,FC Porto (EH 0:2 - Full Time Excluding Overtime),2:2,Betsson SB,2.19,4.00,-4.00,pawelpl,2014-01-25 13:41:58
+983,2014-01-25 20:00:00,VLB,Other,Brasilia Volei W - Maranhao Volei/Cemar W,0.00,LOST,Over 110.5 (Over Under-Full Event),103,Bet365,1.75,9.00,-9.00,pawelpl,2014-01-25 09:25:14
+984,2014-01-22 18:15:00,BSK,Eurochallenge,Bakken Bears - KTP Basket,11.1,WIN,Over 158.5,86-90,Sportingbet,1.85,6.00,5.10,pawelpl,2014-01-22 13:15:10
+985,2014-01-16 12:54:01,WIN,Outrights,FIS-SKI Wisla HS 134 2014,0.00,LOST,Gregor Schlierenzauer (Winner-Full Event),0:1,Nordicbet,6,4.00,-4.00,pawelpl,2014-01-16 12:54:01
+986,2014-01-16 13:00:00,WIN,Other,Ski Jumping Wisla HS 134,0.00,LOST,K. Stoch to win,2,BWIN,11,2.00,-2.00,pawelpl,2014-01-16 12:51:02
