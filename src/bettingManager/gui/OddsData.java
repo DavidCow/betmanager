@@ -33,8 +33,7 @@ public class OddsData {
 	
 	@Override
 	public String toString() {
-		System.out.println("Greater:"+ getGreaterThan() + " Less than:"+ getLessThan() + " Between"+getBetween()+" And" + getAnd());
-		return "";
+		return "Greater:"+ getGreaterThan() + " Less than:"+ getLessThan() + " Between"+getBetween()+" And" + getAnd();
 	}
 	
 }

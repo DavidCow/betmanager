@@ -117,4 +117,48 @@ public class FilterSettingsContainer {
 		return "--------------------------------------";
 	}
 	
+	private final String title = "Active Filters: ";
+	private String limiter = " | ";
+	
+	public String getActiveFiltersString() {
+		String activeFiltersString = "";
+		
+		activeFiltersString += getDataString();
+		activeFiltersString += limiter;
+		
+		activeFiltersString += dateRangeMessage.getAllFiltersLabel();
+		activeFiltersString += limiter;
+
+		activeFiltersString += getSitesString();
+		activeFiltersString += limiter;
+
+		
+		return activeFiltersString;
+	}
+	
+	private String getSitesString() {
+		String siteLabel = "";
+		for(String s:getSitesList()) {
+			siteLabel += s;
+			siteLabel += ", ";
+		}
+		return siteLabel;
+	}
+	
+	/**
+	 * Real/Historic or Both string
+	 * @return
+	 */
+	private String getDataString() {
+		if (getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_HISTORIC) {
+			return "Historic";
+		} else if (getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_REAL) {
+			return "Real";
+		}  else if (getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_BOTH) {
+			return "Historic and Real";
+		} 
+		
+		return "Should never show up";
+	}
+	
 }

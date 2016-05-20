@@ -153,10 +153,20 @@ public class AverageOddsController extends Observable{
 		if (filters.getOddsDataAverageOdds() == null) return;
 		
 		this.oddsData = filters.getOddsDataAverageOdds();
-		greaterThanTextField.setText(""+oddsData.getGreaterThan());
-		lessThanTextField.setText(""+oddsData.getLessThan());
-		betweenTextField.setText(""+oddsData.getBetween());
-		andTextField.setText(""+oddsData.getAnd());
+		greaterThanTextField.setText(getValueString(oddsData.getGreaterThan()));
+		lessThanTextField.setText(getValueString(oddsData.getLessThan()));
+		betweenTextField.setText(getValueString(oddsData.getBetween()));
+		andTextField.setText(getValueString(oddsData.getAnd()));
+	}
+	
+	/**
+	 * A value that is not set is internally set to -1. The textfield should just display an empty string
+	 * @param val
+	 * @return
+	 */
+	private String getValueString(float val) {
+		if (val == -1) return "";
+		return ""+val;
 	}
 	
 }

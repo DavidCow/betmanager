@@ -8,6 +8,7 @@ import java.util.prefs.Preferences;
 import com.google.gson.Gson;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 
 public class MainController implements Observer{
 
@@ -29,6 +30,11 @@ public class MainController implements Observer{
 	 * Table controller
 	 */
 	@FXML TableKindOfBetController tableKindOfBetController;
+	
+	/**
+	 * Filter String
+	 */
+	@FXML Label activeFiltersLabel;
 	
 	
 	/**
@@ -124,9 +130,16 @@ public class MainController implements Observer{
 			System.out.println("OptionsDateRangeContr has sent something");
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
 		}
-		//ADD Tipsters
+		//ADD Tipsters Controller
 		System.out.println(allFilters);
 		saveFilters();
+		
+		updateFilterLabel();
+	}
+	
+	private void updateFilterLabel() {
+		//Update Filter Label
+		activeFiltersLabel.setText(allFilters.getActiveFiltersString());
 	}
 	
 	/**
@@ -148,6 +161,7 @@ public class MainController implements Observer{
 		this.allFilters.setSitesList(old.getSitesList());
 		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1_NO_SITES);
 		saveFilters();
+		updateFilterLabel();
 	}
 	
 	

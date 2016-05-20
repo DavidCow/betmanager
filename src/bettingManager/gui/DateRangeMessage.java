@@ -1,5 +1,6 @@
 package bettingManager.gui;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class DateRangeMessage {
@@ -58,6 +59,42 @@ public class DateRangeMessage {
 	}
 	public void setLast_state_value(int last_state_value) {
 		this.last_state_value = last_state_value;
+	}
+	
+	public String hourOrMinuteString(int value) {
+		if (value < 10) return "0"+value;
+		return ""+value;
+	}
+	
+	public String getAllFiltersLabel() {
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(d1);
+
+		String timeString = hourOrMinuteString(cal.get(Calendar.HOUR_OF_DAY)) + ":" + hourOrMinuteString(cal.get(Calendar.MINUTE));
+		String d1String = cal.get(Calendar.DAY_OF_MONTH) + " " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
+		
+		if (state == MONTH) {
+			return "Month: " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
+		} else if (state == DAY) {
+			return "Day: " + d1String;
+		}  else if (state == BEFORE) {
+			return "Before: " + timeString + " " + d1String;
+		}  else if (state == AFTER) {
+			return "After: " + timeString + " " + d1String;
+		}  else if (state == BETWEEN) {
+			Calendar cal2 = Calendar.getInstance();
+			cal2.setTime(d2);
+			String timeString2 = hourOrMinuteString(cal2.get(Calendar.HOUR_OF_DAY)) + ":" + hourOrMinuteString(cal2.get(Calendar.MINUTE));
+			return "Between: " + timeString + " " + d1String + " and " + timeString2 + " " + cal2.get(Calendar.DAY_OF_MONTH) + " " + OptionsDateRangeController.theMonth(cal2.get(Calendar.MONTH)) + " " + cal2.get(Calendar.YEAR);
+		}  else if (state == LAST) {
+			if (last_state == LAST_STATE_TIPS) {
+				return "Last " + last_state_value + " Tips";
+			}
+			/**
+			 * ADD MORE LAST values 
+			 */
+		} 
+		return "Should never be returned - DateRangeMessage";
 	}
 	
 	

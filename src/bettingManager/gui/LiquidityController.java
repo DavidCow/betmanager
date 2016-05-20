@@ -136,10 +136,15 @@ public class LiquidityController extends Observable{
 		if (filters.getOddsDataAverageOdds() == null) return;
 		
 		this.oddsData = filters.getOddsDataLiquidity();
-		greaterThanTF.setText(""+oddsData.getGreaterThan());
-		lessThanTF.setText(""+oddsData.getLessThan());
-		betweenTF.setText(""+oddsData.getBetween());
-		andTF.setText(""+oddsData.getAnd());
+		greaterThanTF.setText(getValueString(oddsData.getGreaterThan()));
+		lessThanTF.setText(getValueString(oddsData.getLessThan()));
+		betweenTF.setText(getValueString(oddsData.getBetween()));
+		andTF.setText(getValueString(oddsData.getAnd()));
+	}
+	
+	private String getValueString(float val) {
+		if (val == -1) return "";
+		return ""+val;
 	}
 }
 

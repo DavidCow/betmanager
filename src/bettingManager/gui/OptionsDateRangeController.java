@@ -27,7 +27,7 @@ public class OptionsDateRangeController extends Observable{
 	
 	private OptionsController optionsController;
 	
-	String[] monthNames = {"January", 
+	public static String[] monthNames = {"January", 
 			"February", 
 			"March", 
 			"April", 
@@ -313,11 +313,11 @@ public class OptionsDateRangeController extends Observable{
 		return date;
 	}
 	
-	public String theMonth(int month){
+	public static String theMonth(int month){
 	    return monthNames[month];
 	}
 	
-	public int theNumberOfMonth(String month) {
+	public static int theNumberOfMonth(String month) {
 		for(int i=0; i<monthNames.length; i+=1) {
 			if (monthNames[i].contentEquals(month)) {
 				return i;
