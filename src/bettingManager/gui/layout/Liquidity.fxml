@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
@@ -22,8 +23,14 @@
 			<children>
 				<Label text="Greater than" />
 				<Label text="Less than" GridPane.rowIndex="1" />
-				<TextField fx:id="greaterThanTF" onKeyReleased="#handleGreaterThanLiq" GridPane.columnIndex="1" />
-				<TextField fx:id="lessThanTF" onKeyReleased="#handleLessThanLiq" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				<TextField fx:id="greaterThanTF" onKeyReleased="#handleGreaterThanLiq" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="lessThanTF" onKeyReleased="#handleLessThanLiq" promptText="Enter value" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
 			</children>
 		</GridPane>
 		<GridPane>
@@ -39,8 +46,14 @@
 			<children>
 				<Label text="Between" />
 				<Label alignment="CENTER" prefHeight="17.0" prefWidth="53.0" text="and" textAlignment="CENTER" GridPane.columnIndex="2" />
-				<TextField fx:id="betweenTF" onKeyReleased="#handleBetweenLiq" GridPane.columnIndex="1" />
-				<TextField fx:id="andTF" onKeyReleased="#handleAndLiq" GridPane.columnIndex="3" />
+				<TextField fx:id="betweenTF" onKeyReleased="#handleBetweenLiq" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="andTF" onKeyReleased="#handleAndLiq" promptText="Enter value" GridPane.columnIndex="3">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
 			</children>
 		</GridPane>
 	</children>

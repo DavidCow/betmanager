@@ -7,6 +7,7 @@
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.effect.Bloom?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
@@ -105,11 +106,17 @@
                   <Label id="activeFiltersLab" layoutX="20.0" layoutY="10.0" prefHeight="24.0" prefWidth="137.0" text="Active Filters: " HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="10.0" />
-                     </HBox.margin></Label>
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Shows all active filters" />
+                     </tooltip></Label>
 						<Label fx:id="activeFiltersLabel" maxWidth="1.7976931348623157E308" prefHeight="24.0" prefWidth="1028.0" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
+                     <tooltip>
+                        <Tooltip fx:id="allFiltersToolTip" prefWidth="500.0" wrapText="true" />
+                     </tooltip>
 						</Label>
                </children>
             </HBox>

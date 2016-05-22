@@ -3,6 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
@@ -27,8 +28,14 @@
 					</GridPane.margin>
 				</Label>
 				<Label text="Less than" GridPane.rowIndex="1" />
-				<TextField fx:id="greaterThanTextField" onKeyReleased="#handleGreaterThan" GridPane.columnIndex="1" />
-				<TextField fx:id="lessThanTextField" onKeyReleased="#handleLessThan" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				<TextField fx:id="greaterThanTextField" onKeyReleased="#handleGreaterThan" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="lessThanTextField" onKeyReleased="#handleLessThan" promptText="Enter value" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
 			</children>
 		</GridPane>
 		<GridPane>
@@ -44,8 +51,14 @@
 			<children>
 				<Label text="Between" />
 				<Label alignment="CENTER" prefHeight="17.0" prefWidth="53.0" text="and" textAlignment="CENTER" GridPane.columnIndex="2" />
-				<TextField fx:id="betweenTextField" onKeyReleased="#handleBetween" GridPane.columnIndex="1" />
-				<TextField fx:id="andTextField" onKeyReleased="#handleAnd" GridPane.columnIndex="3" />
+				<TextField fx:id="betweenTextField" onKeyReleased="#handleBetween" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="andTextField" onKeyReleased="#handleAnd" promptText="Enter value" GridPane.columnIndex="3">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
 			</children>
 		</GridPane>
 	</children>

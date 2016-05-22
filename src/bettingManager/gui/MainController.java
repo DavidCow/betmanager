@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tooltip;
 
 public class MainController implements Observer{
 
@@ -35,6 +36,7 @@ public class MainController implements Observer{
 	 * Filter String
 	 */
 	@FXML Label activeFiltersLabel;
+	@FXML Tooltip allFiltersToolTip;
 	
 	
 	/**
@@ -140,7 +142,9 @@ public class MainController implements Observer{
 	
 	private void updateFilterLabel() {
 		//Update Filter Label
-		activeFiltersLabel.setText(allFilters.getActiveFiltersString());
+		String actFilterText = allFilters.getActiveFiltersString();
+		activeFiltersLabel.setText(actFilterText);
+		allFiltersToolTip.setText(actFilterText);
 	}
 	
 	/**

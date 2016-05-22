@@ -12,7 +12,7 @@
 
 <VBox layoutX="302.0" layoutY="10.0" prefHeight="100.0" prefWidth="191.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.KoBController">
 	<children>
-		<Label alignment="TOP_RIGHT" prefHeight="26.0" prefWidth="191.0" text="KoB">
+		<Label alignment="TOP_RIGHT" prefHeight="26.0" prefWidth="191.0" text="Kind of Bet">
 			<VBox.margin>
 				<Insets />
 			</VBox.margin>

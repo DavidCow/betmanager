@@ -117,7 +117,6 @@ public class FilterSettingsContainer {
 		return "--------------------------------------";
 	}
 	
-	private final String title = "Active Filters: ";
 	private String limiter = " | ";
 	
 	public String getActiveFiltersString() {
