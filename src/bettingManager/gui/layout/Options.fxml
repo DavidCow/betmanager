@@ -4,11 +4,12 @@
 <?import javafx.scene.control.CustomMenuItem?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox fx:id="optionsVbox" prefHeight="110.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.OptionsController">
    <children>
@@ -25,9 +26,27 @@
       		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
       	</rowConstraints>
       	<children>
-            <Button fx:id="moreFiltersButton" mnemonicParsing="false" onAction="#handleMoreFiltersButton" prefHeight="25.0" prefWidth="108.0" text="More Filters" GridPane.rowIndex="2" />
-            <Button fx:id="clearAllButton" mnemonicParsing="false" onAction="#handleClearAllButton" prefHeight="25.0" prefWidth="100.0" text="Clear All" GridPane.columnIndex="2" />
-            <Button fx:id="refreshButton" mnemonicParsing="false" onAction="#handleRefreshButton" prefHeight="25.0" prefWidth="106.0" text="Refresh" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="moreFiltersButton" mnemonicParsing="false" onAction="#handleMoreFiltersButton" prefHeight="25.0" prefWidth="108.0" text="More Filters" GridPane.rowIndex="2">
+               <tooltip>
+                  <Tooltip opacity="0.85" text="Add more filters (coming soon)">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Tooltip>
+               </tooltip></Button>
+            <Button fx:id="clearAllButton" mnemonicParsing="false" onAction="#handleClearAllButton" prefHeight="25.0" prefWidth="100.0" text="Clear All" GridPane.columnIndex="2">
+               <tooltip>
+                  <Tooltip opacity="0.85" text="Resets all filters except Data and Sites">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Tooltip>
+               </tooltip></Button>
+            <Button fx:id="refreshButton" mnemonicParsing="false" onAction="#handleRefreshButton" prefHeight="25.0" prefWidth="106.0" text="Refresh" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <tooltip>
+                  <Tooltip opacity="0.85" text="Apply filter settings">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Tooltip>
+               </tooltip></Button>
             <MenuButton fx:id="dateRangeButton" alignment="CENTER" mnemonicParsing="false" onAction="#handleDateRangeButton" popupSide="RIGHT" prefHeight="26.0" prefWidth="106.0" text="Date Range">
                <items>
                   <CustomMenuItem fx:id="customMenuItemDateRange" mnemonicParsing="false" text="Unspecified Action">
@@ -36,6 +55,12 @@
                      </content>
                   </CustomMenuItem>
                </items>
+               <tooltip>
+                  <Tooltip opacity="0.85" text="Select date range">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Tooltip>
+               </tooltip>
             </MenuButton>
             <MenuButton fx:id="tipstersButton" alignment="CENTER" layoutX="10.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleTipstersButton" popupSide="RIGHT" prefHeight="26.0" prefWidth="106.0" text="Tipsters" GridPane.rowIndex="1">
                <items>
@@ -45,6 +70,12 @@
                      </content>
                   </CustomMenuItem>
                </items>
+               <tooltip>
+                  <Tooltip opacity="0.85" text="Select tipsters and create aliases">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Tooltip>
+               </tooltip>
             </MenuButton>
       	</children>
       	<!-- <HBox.margin>

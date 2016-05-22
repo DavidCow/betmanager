@@ -36,4 +36,32 @@ public class OddsData {
 		return "Greater:"+ getGreaterThan() + " Less than:"+ getLessThan() + " Between"+getBetween()+" And" + getAnd();
 	}
 	
+	public String getAllFiltersLabel(String title) {
+		String s = title + " : ";
+		boolean emptyString = true;
+		if (greaterThan != -1) {
+			s += "Greater than " + greaterThan;
+			emptyString = false;
+			if (lessThan != -1 || (between != -1 && and != -1)) {
+				s += "; ";
+			}
+		}
+		if (lessThan != -1) {
+			s += "Less than " + lessThan;
+			emptyString = false;
+			
+			if (between != -1 && and != -1) {
+				s += "; ";
+			}
+		}
+		if (between != -1 && and != -1) {
+			s += "Between " + between + " and " + and;
+			emptyString = false;
+		}
+		
+		if (emptyString) return "";
+		
+		return s;
+	}
+	
 }

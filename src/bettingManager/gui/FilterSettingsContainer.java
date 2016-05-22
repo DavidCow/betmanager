@@ -129,13 +129,54 @@ public class FilterSettingsContainer {
 		activeFiltersString += dateRangeMessage.getAllFiltersLabel();
 		activeFiltersString += limiter;
 
-		activeFiltersString += getSitesString();
-		activeFiltersString += limiter;
-
 		
+		String sitesTempString = getSitesString();
+		if (!sitesTempString.isEmpty()) {
+			activeFiltersString += sitesTempString;
+			activeFiltersString += limiter;
+		}
+		
+		String avgOdds = getAverageOddsString();
+		if (!avgOdds.isEmpty()) {
+			activeFiltersString += avgOdds;
+			activeFiltersString += limiter;
+		}
+		
+		String kob = getKoBString();
+		if (!kob.isEmpty()) {
+			activeFiltersString += kob;
+			activeFiltersString += limiter;
+		}
+
+		String liq = getLiquidityString();
+		if (!liq.isEmpty()) {
+			activeFiltersString += liq;
+			activeFiltersString += limiter;
+		}
 		return activeFiltersString;
 	}
+
+	private String getLiquidityString() {
+		return oddsDataLiquidity.getAllFiltersLabel("Liquidity");
+	}
 	
+	private String getKoBString() {
+		String koBLabel = "";
+		for(int i=0; i<getKoBList().size(); i+=1) {
+			koBLabel += getKoBList().get(i);
+			if(i < getKoBList().size()-1) {
+				koBLabel += ", ";
+			}
+		}
+		return koBLabel;
+	}
+
+
+	private String getAverageOddsString() {
+		return oddsDataAverageOdds.getAllFiltersLabel("Average Odds");
+	}
+
+
 	private String getSitesString() {
 		String siteLabel = "";
 		for(int i=0; i<getSitesList().size(); i+=1) {

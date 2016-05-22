@@ -102,13 +102,13 @@
 						</HBox>
             <HBox fx:id="hboxActiveFilters" prefHeight="26.0" prefWidth="1087.0">
                <children>
-                  <Label id="activeFiltersLab" layoutX="20.0" layoutY="10.0" prefHeight="24.0" prefWidth="116.0" text="Active Filters: ">
+                  <Label id="activeFiltersLab" layoutX="20.0" layoutY="10.0" prefHeight="24.0" prefWidth="137.0" text="Active Filters: " HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin></Label>
-						<Label fx:id="activeFiltersLabel" prefHeight="24.0" prefWidth="936.0">
+						<Label fx:id="activeFiltersLabel" maxWidth="1.7976931348623157E308" prefHeight="24.0" prefWidth="1028.0" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets left="10.0" />
+                        <Insets />
                      </HBox.margin>
 						</Label>
                </children>
@@ -151,9 +151,9 @@
       </HBox>
    </bottom>
    <center>
-				<SplitPane dividerPositions="0.7361111111111112" orientation="VERTICAL" BorderPane.alignment="CENTER">
+				<SplitPane dividerPositions="0.7643564356435644" orientation="VERTICAL" BorderPane.alignment="CENTER">
 					<items>
-						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+						<AnchorPane minHeight="100.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
 							<children>
 								<TabPane layoutX="109.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 									<tabs>
@@ -196,8 +196,14 @@
                   </Button>
 							</children>
 						</AnchorPane>
-						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="399.0" prefWidth="1085.0" />
+						<AnchorPane minHeight="100.0" minWidth="0.0" prefHeight="399.0" prefWidth="1085.0" />
 					</items>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
 				</SplitPane>
    </center>
 </BorderPane>

@@ -26,6 +26,9 @@
 linear-gradient(to bottom, derive(-fx-base,+50%), derive(-fx-base,-40%), derive(-fx-base,-20%));
 }
  
+.tooltip {
+	-fx-font-size: 16px;
+}
  
 .button:hover, .menu-button:hover {
 -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
