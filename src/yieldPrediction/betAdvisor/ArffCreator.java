@@ -15,6 +15,8 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToNominal;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
+import blogaBetHistoricalDataParsing.BlogaBetElement;
+import blogaBetHistoricalDataParsing.BlogaBetParser;
 
 public class ArffCreator {
 
@@ -184,17 +186,65 @@ public class ArffCreator {
 		}
 	}
 	
+	public void createWithoutTipsterInformationBB() throws IOException{
+		
+		// Load historical Data
+		BlogaBetParser blogaBetParser = new BlogaBetParser();
+		List<BlogaBetElement> blogaBetList = blogaBetParser.parseSheets("blogaBetTipsterData/csv");
+		
+		// Liquidity Model
+		eastbridgeLiquidityMining.regression.PredictiveModel liquidityModel = new eastbridgeLiquidityMining.regression.PredictiveModel("EastBridge6BackTest.arff", "bagging.model");
+		
+		// Create each record
+		for(int i = 0; i < blogaBetList.size(); i++){
+			try{
+				BlogaBetElement element = blogaBetList.get(i);
+				String tipster = element.getTipster();
+//				if(!activeTipsters.contains(tipster))
+//					continue;
+				String typeOfBet = element.getTypeOfBet();
+				typeOfBet = typeOfBet.toUpperCase();
+				if(typeOfBet.contains("CORNER") || element.getBestOdds()>15)
+					continue;
+				typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+				typeOfBet = typeOfBet.replaceAll(" HALF TIME", "");
+				typeOfBet = typeOfBet.replaceAll(" TEAM", "");
+				double odds = element.getBestOdds();
+				Instance record = liquidityModel.createWekaInstance(element);
+				if(record == null)
+					continue;
+				double liquidity = -1;
+				try {
+					liquidity = liquidityModel.classifyInstance(record);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+				double[] vals = new double[data.numAttributes()];
+				vals[0] = data.attribute(0).addStringValue(typeOfBet);
+				vals[1] = odds;
+				if(liquidity > 0)
+					vals[2] = liquidity;
+				else
+					vals[2] = Instance.missingValue();
+				data.add(new Instance(1.0, vals));
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
 	
 	
 	public static void main(String[] args) throws IOException {
 		ArffCreator analyser = new ArffCreator();
-		analyser.createWithoutTipsterInformation();
+		analyser.createWithoutTipsterInformationBB();
 		analyser.useStringToNominalFilter(1, 1);
 		System.out.println(analyser.data);
 		ArffSaver saver = new ArffSaver();
 		saver.setInstances(analyser.data);
 		try {
-			saver.setFile(new File("Yield_activeTipster.arff"));
+			saver.setFile(new File("Yield_noTipsterBB.arff"));
 			saver.writeBatch();
 		} catch (IOException e) {
 			e.printStackTrace();
