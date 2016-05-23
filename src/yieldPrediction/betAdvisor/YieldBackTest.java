@@ -9,6 +9,7 @@ import java.util.Set;
 
 import javafx.util.Pair;
 import mailParsing.BetAdvisorTip;
+import mailParsing.BlogaBetTip;
 import weka.core.Instance;
 import betadvisor.BetAdvisorElement;
 import betadvisor.BetAdvisorParser;
@@ -398,6 +399,36 @@ public class YieldBackTest {
 			betOdds++;
 		}
 		double oddsRatio = Math.min(1,  betOdds / tip.bestOdds);
+		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(betAdvisorList, oddsRatio);
+		
+		double yield = yieldMap.get(cluster);
+		return yield;
+	}
+	
+	public static double predictYield(BlogaBetTip tip, BetTicket betTicket) throws Exception{
+		//load models
+		ClusterPrediction em = new ClusterPrediction("Yield_noTipsterBB.arff", "yieldNoTipsterEM_BB.model");
+		
+		// Load historical Data
+		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
+		List<BetAdvisorElement> betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
+		
+		// Predict cluster
+		String typeOfBet = tip.pivotType;
+		typeOfBet = typeOfBet.toUpperCase();
+		typeOfBet = typeOfBet.replaceAll(" 1ST HALF", "");
+		typeOfBet = typeOfBet.replaceAll(" HALF TIME", "");
+		typeOfBet = typeOfBet.replaceAll(" TEAM", "");
+		typeOfBet = typeOfBet.toUpperCase();
+		Instance i = em.createWekaInstance(typeOfBet, tip.odds, betTicket.getMaxStake());
+		int cluster = em.predictCluster(i);
+
+		// Calculate average yield
+		double betOdds = betTicket.getCurrentOdd();
+		if(typeOfBet.indexOf("OVER / UNDER") == 0 || typeOfBet.indexOf("ASIAN HANDICAP") == 0){
+			betOdds++;
+		}
+		double oddsRatio = Math.min(1,  betOdds / tip.odds);
 		Map<Integer, Double> yieldMap = StatsCalculation.calculateYieldsNoTipster(betAdvisorList, oddsRatio);
 		
 		double yield = yieldMap.get(cluster);
