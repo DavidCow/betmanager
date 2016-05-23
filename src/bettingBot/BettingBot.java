@@ -398,8 +398,7 @@ public class BettingBot {
 										} catch (Exception e1) {
 											e1.printStackTrace();
 										}
-										System.out.println("Predicted Yield: " + predictedYield);
-										
+										System.out.println("Predicted Yield: " + predictedYield);	
 										if(predictedYield < 0.02){
 											break;
 										}
@@ -1154,6 +1153,14 @@ public class BettingBot {
 										if(alreadyBetAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -1277,6 +1284,14 @@ public class BettingBot {
 										if(alreadyBetAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+										
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -1445,6 +1460,14 @@ public class BettingBot {
 										if(alreadyBetAmountForTip > 0){
 											mainFrame.addEvent("Additional betting attempt for tip, invested so far: " + alreadyBetAmountForTip);	
 										}
+										double predictedYield = -100;
+										try {
+											predictedYield = YieldBackTest.predictYield(tip, bestBetTicket);
+										} catch (Exception e1) {
+											e1.printStackTrace();
+										}
+										System.out.println("Predicted Yield: " + predictedYield);
+
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
