@@ -400,6 +400,10 @@ public class BettingBot {
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
 										
+										if(predictedYield < 0.02){
+											break;
+										}
+										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -530,6 +534,9 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
+										if(predictedYield < 0.02){
+											break;
+										}
 										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
@@ -667,6 +674,9 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
+										if(predictedYield < 0.02){
+											break;
+										}
 										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
@@ -868,6 +878,9 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
+										if(predictedYield < 0.02){
+											break;
+										}
 										
 										double stakeLeftForTip = Math.min(MAX_STAKE, AVERAGE_STAKE * StakeCalculation.betAdvisorPercent(tip.take)) - betAmountForTip;
 										double betAmount = Math.min(stakeLeftForTip, bestBetTicket.getMaxStake());
