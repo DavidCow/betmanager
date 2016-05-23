@@ -279,6 +279,56 @@ public class PredictiveModel {
 		return instance;
 	}
 	
+	public Instance createWekaInstance(BlogaBetElement tip){
+		Instance instance = null;
+		String league = "";
+		String source = "";
+		long timebeforestart = (tip.getGameDate().getTime() - tip.getPublicationDate().getTime())/3600000;
+		String selection = "";
+		PivotType pivotType = null;
+		double pivotValue = Instance.missingValue();
+		String pivotBias = tip.getPivotBias();
+		String host = tip.getHost();
+		String guest = tip.getGuest();
+		if(tip.getTypeOfBet().indexOf("Match Odds") == 0){
+			pivotBias = "NEUTRAL";
+			pivotType = PivotType.ONE_TWO;
+			if(tip.getTipTeam().equalsIgnoreCase("Draw"))
+				selection = "draw";
+			else{
+				String h = tip.getHost();
+				String g = tip.getGuest();
+				
+				if(tip.getTipTeam().equals(h))
+					selection = "one";	
+				if(tip.getTipTeam().equals(g))
+					selection = "two";
+			}		
+		}
+		if(tip.getTypeOfBet().indexOf("Over Under") == 0){
+			pivotType = PivotType.TOTAL;
+			if(tip.getTipTeam().toUpperCase().indexOf("OVER") != -1)
+				selection = "over";
+			if(tip.getTipTeam().toUpperCase().indexOf("UNDER") != -1)
+				selection = "under";	
+			pivotValue = tip.getPivotValue();
+			pivotBias = "NEUTRAL";
+		}
+		if(tip.getTypeOfBet().indexOf("Asian Handicap") == 0){
+			pivotType = PivotType.HDP;
+			if(tip.getSelection().indexOf("+") != -1)
+				selection = "take";
+			else
+				selection = "give";	
+			pivotValue = tip.getPivotValue();
+		}
+		if(selection.isEmpty()){
+			System.out.println();
+		}
+		instance = createWekaInstance(league, source, selection, pivotType, pivotValue, pivotBias, timebeforestart, tip.getBestOdds());
+		return instance;				
+	}
+	
 	private void addLeagueMapping(String league){
 		if(!league_mapping.containsKey(league)){
 			if(model_leagues.contains(league))
