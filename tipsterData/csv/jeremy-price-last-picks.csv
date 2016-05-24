@@ -1,10 +1,19 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
-2016-05-08 15:30:00,Norway,Adeccoligaen,ULLENSAKER/KISA vs FREDRIKSTAD FK,1-2 (0-1),Asian handicap,FREDRIKSTAD FK +0,1.98,,100,98.00,Win,Jeremy Price,Football,2016-05-07 19:07:03
+2016-05-16 17:30:00,Finland,Ykkonen,JJK JYVASKYLA vs FF JARO,1-1 (0-1),Asian handicap,FF JARO +0,1.75,,100,0.00,Void,Jeremy Price,Football,2016-05-16 13:41:02
+2016-05-16 15:00:00,Norway,OBOS-ligaen,SANDNES ULF vs JERV FK,0-1 (0-0),Asian handicap,SANDNES ULF -1.00,2.21,,100,-100.00,Lost,Jeremy Price,Football,2016-05-16 13:10:05
+2016-05-15 15:00:00,Sweden,Superettan,DALKURD FF vs DEGERFORS IF,2-2 (2-0),Asian handicap,DALKURD FF -1.00,2.17,,100,-100.00,Lost,Jeremy Price,Football,2016-05-14 12:00:16
+2016-05-14 19:45:00,Saudi Arabia,Saudi Professional League,HAJER CLUB vs AL QADISIYAH,0-2 (0-0),Match Odds,AL QADISIYAH,2.03,,100,103.00,Win,Jeremy Price,Football,2016-05-14 18:06:02
+2016-05-14 16:00:00,Portugal,Liga Vitalis,GIL VICENTE FC vs SPORTING FARENSE,2-3 (1-1),Asian handicap,SPORTING FARENSE -0.25,2.00,,100,100.00,Win,Jeremy Price,Football,2016-05-14 12:21:04
+2016-05-11 19:00:00,Sweden,Superettan,GAIS vs AATVIDABERG FF,1-0 (1-0),Asian handicap,GAIS -0.25,2.05,,100,105.00,Win,Jeremy Price,Football,2016-05-11 16:54:03
+2016-05-11 19:00:00,Sweden,Superettan,DEGERFORS IF vs IFK VARNAMO,3-1 (2-0),Asian handicap,DEGERFORS IF +0,1.81,,100,81.00,Win,Jeremy Price,Football,2016-05-11 09:32:02
+2016-05-11 18:00:00,International Clubs,AFC Cup,AL JAISH SYR vs AHLI AL KHALIL,1-0 (0-0),Asian handicap,AL JAISH SYR +0,2.03,,100,103.00,Win,Jeremy Price,Football,2016-05-11 14:42:03
+2016-05-10 13:00:00,International Clubs,AFC Cup,TAMPINES ROVERS FC vs SELANGOR FC,1-0 (1-0),Asian handicap,TAMPINES ROVERS FC -0.75,2.00,,100,50.00,Half win,Jeremy Price,Football,2016-05-10 10:33:02
+2016-05-08 15:30:00,Norway,OBOS-ligaen,ULLENSAKER/KISA vs FREDRIKSTAD FK,1-2 (0-1),Asian handicap,FREDRIKSTAD FK +0,1.98,,100,98.00,Win,Jeremy Price,Football,2016-05-07 19:07:03
 2016-05-08 14:00:00,Sweden,Superettan,SYRIANSKA FC vs LJUNGSKILLE SK,1-0 (1-0),Asian handicap,SYRIANSKA FC -0.50,2.08,,100,108.00,Win,Jeremy Price,Football,2016-05-07 18:44:02
 2016-05-07 21:00:00,Bolivia,"Liga Profesional Boliviano, Clausura",SAN JOSE ORURO vs UNIVERSITARIO DE SUCRE,1-1 (0-0),Asian handicap,UNIVERSITARIO DE SUCRE +0.25,1.86,,100,43.00,Half win,Jeremy Price,Football,2016-05-07 13:56:03
-2016-05-07 14:00:00,Sweden,2nd Division,KORTEDALA IF vs SKOVDE AIK,0-2 (0-1),Asian handicap,SKOVDE AIK -1.00,2.01,,100,101.00,Win,Jeremy Price,Football,2016-05-07 11:49:08
+2016-05-07 14:00:00,Sweden,2nd Division n,KORTEDALA IF vs SKOVDE AIK,0-2 (0-1),Asian handicap,SKOVDE AIK -1.00,2.01,,100,101.00,Win,Jeremy Price,Football,2016-05-07 11:49:08
 2016-05-05 17:30:00,Sweden,Superettan,ORGRYTE IS vs VARBERGS BOIS,3-0 (3-0),Asian handicap,ORGRYTE IS -0.50,2.00,,100,100.00,Win,Jeremy Price,Football,2016-05-04 13:48:02
-2016-05-01 18:00:00,Norway,Adeccoligaen,RANHEIM IL vs KONGSVINGER IL,0-3 (0-0),Asian handicap,KONGSVINGER IL +0.25,2.11,,100,111.00,Win,Jeremy Price,Football,2016-05-01 13:06:01
+2016-05-01 18:00:00,Norway,OBOS-ligaen,RANHEIM IL vs KONGSVINGER IL,0-3 (0-0),Asian handicap,KONGSVINGER IL +0.25,2.11,,100,111.00,Win,Jeremy Price,Football,2016-05-01 13:06:01
 2016-05-01 15:00:00,Switzerland,Challenge League,FC LAUSANNE-SPORT vs FC CHIASSO,0-0 (0-0),Asian handicap,FC LAUSANNE-SPORT -1.00,1.93,,100,-100.00,Lost,Jeremy Price,Football,2016-05-01 13:56:04
 2016-04-30 16:00:00,England,Skrill South,ST ALBANS CITY vs DARTFORD FC,4-0 (1-0),Match Odds,ST ALBANS CITY,2.19,,100,119.00,Win,Jeremy Price,Football,2016-04-30 13:56:05
 2016-04-30 15:00:00,Sweden,Superettan,GAIS vs ORGRYTE IS,0-0 (0-0),Asian handicap,GAIS +0.25,1.85,,100,42.50,Half win,Jeremy Price,Football,2016-04-30 13:06:03
@@ -27,7 +36,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-12 18:30:00,Austria,ADEG Erste Liga,AUSTRIA SALZBURG vs KSV 1919,0-4 (0-3),Asian handicap,AUSTRIA SALZBURG +0,2.37,,100,-100.00,Lost,Jeremy Price,Football,2016-04-12 11:38:03
 2016-04-11 19:30:00,Sweden,Superettan,ORGRYTE IS vs ANGELHOLMS FF,0-1 (0-0),Asian handicap,ORGRYTE IS -0.75,2.20,,100,-100.00,Lost,Jeremy Price,Football,2016-04-11 09:19:01
 2016-04-10 16:00:00,Sweden,Superettan,SYRIANSKA FC vs DEGERFORS IF,1-1 (1-0),Asian handicap,SYRIANSKA FC -0.50,1.96,,100,-100.00,Lost,Jeremy Price,Football,2016-04-10 11:32:03
-2016-04-10 15:30:00,Norway,Adeccoligaen,STROMMEN IF vs FREDRIKSTAD FK,0-0 (0-0),Asian handicap,FREDRIKSTAD FK +0,2.02,,100,0.00,Void,Jeremy Price,Football,2016-04-10 10:44:02
+2016-04-10 15:30:00,Norway,OBOS-ligaen,STROMMEN IF vs FREDRIKSTAD FK,0-0 (0-0),Asian handicap,FREDRIKSTAD FK +0,2.02,,100,0.00,Void,Jeremy Price,Football,2016-04-10 10:44:02
 2016-04-10 01:15:00,Ecuador,"Serie A, Primera Etapa",LIGA DEP UNIVERSITARIA QUITO vs DEPORTIVO CUENCA,0-1 (0-1),Asian handicap,LIGA DEP UNIVERSITARIA QUITO -1.00,1.97,,100,-100.00,Lost,Jeremy Price,Football,2016-04-09 13:20:03
 2016-04-09 14:00:00,Germany,Regionalliga Southwest,TSV STEINBACH vs SPVGG ELVERSBERG 07,1-1 (0-0),Asian handicap,TSV STEINBACH +0.50,1.81,,100,81.00,Win,Jeremy Price,Football,2016-04-09 12:57:02
 2016-04-08 18:30:00,Austria,ADEG Erste Liga,KSV 1919 vs LASK LINZ,1-2 (1-1),Asian handicap,LASK LINZ -0.75,2.05,,100,52.50,Half win,Jeremy Price,Football,2016-04-08 16:33:02
@@ -123,7 +132,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-04 14:30:00,India,Indian Super League,KERALA BLASTERS FC vs FC PUNE CITY,2-0 (1-0),Asian handicap,KERALA BLASTERS FC +0,2.05,,100,105.00,Win,Jeremy Price,Football,2015-11-04 09:42:02
 2015-11-03 20:45:00,England,Championship,BRISTOL CITY vs WOLVERHAMPTON WANDERERS,1-0 (1-0),Asian handicap,BRISTOL CITY +0,1.77,,100,77.00,Win,Jeremy Price,Football,2015-11-03 12:14:04
 2015-11-01 15:00:00,Switzerland,Challenge League,FC BIEL-BIENNE vs FC AARAU,3-1 (2-0),Asian handicap,FC AARAU +0,2.11,,100,-100.00,Lost,Jeremy Price,Football,2015-11-01 10:18:04
-2015-11-01 13:00:00,Norway,Adeccoligaen,LEVANGER vs SOGNDAL IL,4-1 (3-0),Asian handicap,LEVANGER +0.25,2.05,,100,105.00,Win,Jeremy Price,Football,2015-10-31 10:27:02
+2015-11-01 13:00:00,Norway,OBOS-ligaen,LEVANGER vs SOGNDAL IL,4-1 (3-0),Asian handicap,LEVANGER +0.25,2.05,,100,105.00,Win,Jeremy Price,Football,2015-10-31 10:27:02
 2015-10-30 20:45:00,England,Skrill Premier,GRIMSBY TOWN vs CHELTENHAM TOWN,0-1 (0-0),Asian handicap,GRIMSBY TOWN -0.50,1.84,,80,-80.00,Lost,Jeremy Price,Football,2015-10-30 11:46:11
 2015-10-25 21:00:00,Peru,"Primera Division, Clausura",ALIANZA ATLETICO vs CC DEPORTIVO MUNICIPAL,4-1 (2-1),Asian handicap,ALIANZA ATLETICO -0.25,2.03,,100,103.00,Win,Jeremy Price,Football,2015-10-25 17:20:30
 2015-10-25 17:30:00,Ecuador,Serie A,LIGA DEP UNIVERSITARIA QUITO vs MUSHUC RUNA,1-1 (0-1),Asian handicap,LIGA DEP UNIVERSITARIA QUITO -1.25,1.84,,100,-100.00,Lost,Jeremy Price,Football,2015-10-25 11:52:04
@@ -200,17 +209,17 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-08 16:00:00,Scotland,Third Division,STIRLING ALBION vs CLYDE FC,0-1 (0-0),Asian handicap,CLYDE FC +0,2.14,,100,114.00,Win,Jeremy Price,Football,2015-08-08 14:29:04
 2015-08-08 16:00:00,England,Skrill North,BRADFORD PARK AVENUE vs ALFRETON TOWN FC,2-2 (2-0),Asian handicap,BRADFORD PARK AVENUE +0,1.85,,100,0.00,Void,Jeremy Price,Football,2015-08-08 10:41:02
 2015-08-07 20:00:00,France,Ligue 2,AC HAVRE vs AC AJACCIO,1-0 (0-0),Asian handicap,AC HAVRE -0.75,2.19,,100,59.50,Half win,Jeremy Price,Football,2015-08-07 14:32:02
-2015-08-07 19:00:00,Denmark,Viasat Sport Divisionen,FC ROSKILDE vs HB KOGE,1-0 (0-0),Asian handicap,HB KOGE +0,2.11,,100,-100.00,Lost,Jeremy Price,Football,2015-08-07 14:44:03
+2015-08-07 19:00:00,Denmark,Bet25 Liga,FC ROSKILDE vs HB KOGE,1-0 (0-0),Asian handicap,HB KOGE +0,2.11,,100,-100.00,Lost,Jeremy Price,Football,2015-08-07 14:44:03
 2015-08-05 19:00:00,Sweden,"Svenska Cup, Preliminary Round",SOLLENTUNA UTD FF vs VASALUNDS IF,2-2 (0-0),Asian handicap,SOLLENTUNA UTD FF +0.50,1.87,,100,87.00,Win,Jeremy Price,Football,2015-08-05 11:37:02
 2015-08-04 18:30:00,Austria,ADEG Erste Liga,KSV 1919 vs FC LIEFERING,5-2 (2-0),Asian handicap,FC LIEFERING +0.25,2.19,,100,-100.00,Lost,Jeremy Price,Football,2015-08-04 10:48:03
 2015-08-02 17:00:00,Portugal,"League Cup, Qualification Playoffs",CD FEIRENSE vs SC COVILHA,2-1 (0-1),Asian handicap,CD FEIRENSE -0.25,2.10,,100,110.00,Win,Jeremy Price,Football,2015-08-02 14:53:03
 2015-08-01 18:00:00,Sweden,Superettan,VARBERGS BOIS vs IK FREJ,5-0 (2-0),Asian handicap,VARBERGS BOIS -1.00,1.92,,100,92.00,Win,Jeremy Price,Football,2015-08-01 13:13:02
 2015-08-01 14:00:00,Germany,Regionalliga West,ROT-WEISS ESSEN vs SC WIEDENBRUCK,0-3 (0-0),Asian handicap,ROT-WEISS ESSEN -1.00,2.01,,100,-100.00,Lost,Jeremy Price,Football,2015-08-01 12:49:02
 2015-07-30 19:00:00,European cups,UEFA Europa League,APOLLON LIMASSOL FC vs FK GABALA,1-1 (1-0),Match Odds,APOLLON LIMASSOL FC,1.82,,100,-100.00,Lost,Jeremy Price,Football,2015-07-28 12:01:05
-2015-07-26 18:00:00,Norway,Adeccoligaen,HONEFOSS BK vs STROMMEN IF,1-3 (0-2),Asian handicap,HONEFOSS BK +0,1.89,,100,-100.00,Lost,Jeremy Price,Football,2015-07-26 11:53:11
+2015-07-26 18:00:00,Norway,OBOS-ligaen,HONEFOSS BK vs STROMMEN IF,1-3 (0-2),Asian handicap,HONEFOSS BK +0,1.89,,100,-100.00,Lost,Jeremy Price,Football,2015-07-26 11:53:11
 2015-07-25 16:00:00,Sweden,Superettan,SYRIANSKA FC vs ANGELHOLMS FF,1-3 (1-0),Asian handicap,ANGELHOLMS FF +1.00,1.83,,100,83.00,Win,Jeremy Price,Football,2015-07-25 10:48:03
 2015-07-24 18:30:00,Austria,ADEG Erste Liga,AUSTRIA KLAGENFURT vs FC LIEFERING,4-0 (3-0),Asian handicap,AUSTRIA KLAGENFURT +0,1.83,,100,83.00,Win,Jeremy Price,Football,2015-07-24 12:41:03
-2015-07-23 17:45:00,Denmark,Viasat Sport Divisionen,LYNGBY BK vs HB KOGE,1-0 (0-0),Asian handicap,LYNGBY BK -0.75,2.20,,100,60.00,Half win,Jeremy Price,Football,2015-07-23 15:39:03
+2015-07-23 17:45:00,Denmark,Bet25 Liga,LYNGBY BK vs HB KOGE,1-0 (0-0),Asian handicap,LYNGBY BK -0.75,2.20,,100,60.00,Half win,Jeremy Price,Football,2015-07-23 15:39:03
 2015-07-19 23:30:00,Chile,"Copa Chile, Group 6",UNIVERSIDAD DE CHILE vs O'HIGGINS FC,2-2 (1-1),Asian handicap,O'HIGGINS FC +1.00,2.09,,100,109.00,Win,Jeremy Price,Football,2015-07-19 18:03:06
 2015-07-19 17:00:00,Chile,"Copa Chile, Group 3",SANTIAGO WANDERERS vs EVERTON DE VINA DEL MAR,1-3 (0-1),Asian handicap,SANTIAGO WANDERERS -1.00,2.17,,100,-100.00,Lost,Jeremy Price,Football,2015-07-19 15:00:12
 2015-07-19 03:00:00,Colombia,Apertura II,CLUB CORTULUA vs DEPORTIVO PASTO,5-1 (1-0),Asian handicap,DEPORTIVO PASTO +0.25,2.10,,100,-100.00,Lost,Jeremy Price,Football,2015-07-18 10:42:12
@@ -225,7 +234,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-06-29 19:00:00,Sweden,Div 1,LANDSKRONA BOIS vs HOLLVIKENS GIF,4-2 (3-2),Asian handicap,LANDSKRONA BOIS -0.50,1.84,,100,84.00,Win,Jeremy Price,Football,2015-06-28 12:01:11
 2015-06-27 16:00:00,Sweden,Div 1,OSTERS IF vs ESKILSMINNE IF,4-1 (1-0),Asian handicap,OSTERS IF -0.50,1.79,,100,79.00,Win,Jeremy Price,Football,2015-06-27 09:45:04
 2015-06-27 10:00:00,Australia,Brisbane Premier League,ALBANY CREEK vs ROCHEDALE ROVERS,1-3,Asian handicap,ROCHEDALE ROVERS +0,2.07,,100,107.00,Win,Jeremy Price,Football,2015-06-26 12:58:03
-2015-06-21 15:00:00,Norway,Adeccoligaen,BAERUM SK vs FREDRIKSTAD FK,2-3 (1-0),Asian handicap,FREDRIKSTAD FK +0.25,2.02,,100,102.00,Win,Jeremy Price,Football,2015-06-21 11:35:13
+2015-06-21 15:00:00,Norway,OBOS-ligaen,BAERUM SK vs FREDRIKSTAD FK,2-3 (1-0),Asian handicap,FREDRIKSTAD FK +0.25,2.02,,100,102.00,Win,Jeremy Price,Football,2015-06-21 11:35:13
 2015-06-21 08:15:00,Australia,Brisbane Premier League,QUEENSLAND LIONS vs EASTERN SUBURBS BRISBANE,0-2,Asian handicap,EASTERN SUBURBS BRISBANE +1.00,1.94,,100,94.00,Win,Jeremy Price,Football,2015-06-20 11:03:05
 2015-06-17 17:30:00,Finland,Ykkonen,MIKKELIN PALLOILIJAT vs EIF,0-1 (0-1),Asian handicap,EIF +0.25,2.21,,100,121.00,Win,Jeremy Price,Football,2015-06-17 12:51:09
 2015-06-14 18:00:00,Sweden,Div 1,ORGRYTE IS vs OSKARSHAMNS AIK,3-2 (1-1),Asian handicap,ORGRYTE IS -1.50,2.02,,100,-100.00,Lost,Jeremy Price,Football,2015-06-14 12:41:03
@@ -252,7 +261,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-10 17:00:00,Sweden,Div 1,NYKOPING BIS vs SODERTALJE FK,0-0 (0-0),Asian handicap,NYKOPING BIS -0.50,1.99,,100,-100.00,Lost,Jeremy Price,Football,2015-05-10 12:28:12
 2015-05-09 14:00:00,Finland,Ykkonen,AC OULU vs TPS TURKU,0-0 (0-0),Asian handicap,TPS TURKU +0,2.08,,100,0.00,Void,Jeremy Price,Football,2015-05-09 11:50:05
 2015-05-08 18:30:00,Austria,ADEG Erste Liga,SKN ST. POLTEN vs FC LIEFERING,1-0 (0-0),Asian handicap,SKN ST. POLTEN +0.25,2.24,,100,124.00,Win,Jeremy Price,Football,2015-05-08 14:27:04
-2015-05-03 18:00:00,Norway,Adeccoligaen,AASANE FOTBALL vs SANDNES ULF,0-0 (0-0),Asian handicap,SANDNES ULF +0,1.91,,100,0.00,Void,Jeremy Price,Football,2015-05-03 12:36:13
+2015-05-03 18:00:00,Norway,OBOS-ligaen,AASANE FOTBALL vs SANDNES ULF,0-0 (0-0),Asian handicap,SANDNES ULF +0,1.91,,100,0.00,Void,Jeremy Price,Football,2015-05-03 12:36:13
 2015-05-03 16:00:00,Sweden,Div 1,BK FORWARD vs NYKOPING BIS,2-2 (1-0),Asian handicap,NYKOPING BIS +0.25,2.12,,100,56.00,Half win,Jeremy Price,Football,2015-05-03 12:43:05
 2015-05-02 23:00:00,Paraguay,Primera Division,NACIONAL FC vs SP. SAN LORENZO,2-0 (1-0),Asian handicap,NACIONAL FC -1.00,1.99,,100,99.00,Win,Jeremy Price,Football,2015-05-02 14:13:09
 2015-05-02 16:00:00,Sweden,Div 1,OSTERS IF vs KRISTIANSTADS FF,1-0 (0-0),Asian handicap,OSTERS IF -1.25,1.95,,100,-50.00,Half lost,Jeremy Price,Football,2015-05-02 13:43:19
@@ -261,7 +270,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-01 15:00:00,Sweden,Div 1,ESKILSMINNE IF vs LANDSKRONA BOIS,3-0 (1-0),Asian handicap,LANDSKRONA BOIS +0,2.12,,100,-100.00,Lost,Jeremy Price,Football,2015-05-01 11:39:02
 2015-04-30 19:45:00,Switzerland,Challenge League,FC LE MONT LS vs FC WIL 1900,4-0 (1-0),Asian handicap,FC LE MONT LS +0,1.85,,100,85.00,Win,Jeremy Price,Football,2015-04-30 11:00:09
 2015-04-29 22:30:00,Colombia,"Copa Postobon, Group D",ALIANZA PETROLERA vs CUCUTA DEPORTIVO,0-1 (0-1),Asian handicap,ALIANZA PETROLERA -0.25,1.91,,100,-100.00,Lost,Jeremy Price,Football,2015-04-29 13:20:06
-2015-04-26 18:00:00,Norway,Adeccoligaen,RANHEIM IL vs FOLLO,0-1 (0-0),Asian handicap,RANHEIM IL -0.75,2.05,,100,-100.00,Lost,Jeremy Price,Football,2015-04-26 13:10:11
+2015-04-26 18:00:00,Norway,OBOS-ligaen,RANHEIM IL vs FOLLO,0-1 (0-0),Asian handicap,RANHEIM IL -0.75,2.05,,100,-100.00,Lost,Jeremy Price,Football,2015-04-26 13:10:11
 2015-04-25 17:45:00,Switzerland,Challenge League,FC CHIASSO vs FC WIL 1900,1-1 (0-0),Asian handicap,FC CHIASSO +0,1.89,,100,0.00,Void,Jeremy Price,Football,2015-04-25 13:16:16
 2015-04-22 15:30:00,India,I-League,DEMPO SC vs ROYAL WAHINGDOH FC,3-2,Asian handicap,DEMPO SC +0,2.05,,100,105.00,Win,Jeremy Price,Football,2015-04-22 10:28:03
 2015-04-19 17:00:00,Sweden,Superettan,SYRIANSKA FC vs LJUNGSKILLE SK,2-0 (2-0),Asian handicap,SYRIANSKA FC +0.25,2.20,,100,120.00,Win,Jeremy Price,Football,2015-04-19 13:34:02
@@ -436,7 +445,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-09-26 18:30:00,Austria,ADEG Erste Liga,SV MATTERSBURG vs TSV HARTBERG,1-0 (0-0),Asian handicap,TSV HARTBERG +1.25,1.98,,100,49.00,Half win,Jeremy Price,Football,2014-09-26 12:54:02
 2014-09-24 20:45:00,Italy,Serie A,CAGLIARI CALCIO vs TURIN FC,1-2 (1-2),Asian handicap,TURIN FC +0.25,1.86,,100,86.00,Win,Jeremy Price,Football,2014-09-24 12:14:03
 2014-09-24 19:30:00,Portugal,"League Cup, Qualification Playoffs",GD CHAVES vs RIO AVE FC,1-1 (1-0),Asian handicap,GD CHAVES +0,1.98,,100,0.00,Void,Jeremy Price,Football,2014-09-24 12:41:02
-2014-09-24 18:00:00,Denmark,Ekstra Bladet Cup,BRONSHOJ BK vs ODENSE BK,1-0 (0-0),Asian handicap,ODENSE BK -1.00,1.84,,100,-100.00,Lost,Jeremy Price,Football,2014-09-24 13:02:04
+2014-09-24 18:00:00,Denmark,Landspokal Cup,BRONSHOJ BK vs ODENSE BK,1-0 (0-0),Asian handicap,ODENSE BK -1.00,1.84,,100,-100.00,Lost,Jeremy Price,Football,2014-09-24 13:02:04
 2014-09-23 20:45:00,Scotland,Third Division,CLYDE FC vs MONTROSE FC,1-2 (1-1),Asian handicap,CLYDE FC -0.25,1.92,,100,-100.00,Lost,Jeremy Price,Football,2014-09-23 11:52:03
 2014-09-22 00:00:00,Mexico,"Primera Division, Apertura",GUADALAJARA CHIVAS vs GALLOS BLANCOS QUERETARO,1-4 (0-1),Asian handicap,GALLOS BLANCOS QUERETARO +0.25,2.12,,100,112.00,Win,Jeremy Price,Football,2014-09-21 16:12:02
 2014-09-21 21:00:00,Bolivia,"Liga Profesional, Apertura",UNIVERSITARIO DE PANDO vs SAN JOSE ORURO,1-2 (0-1),Asian handicap,UNIVERSITARIO DE PANDO +0,1.83,,100,-100.00,Lost,Jeremy Price,Football,2014-09-21 19:01:05
@@ -454,8 +463,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-09-16 20:45:00,England,Skrill Premier,EASTLEIGH FC vs FOREST GREEN ROVERS,2-2 (0-1),Asian handicap,FOREST GREEN ROVERS +0,2.04,,100,0.00,Void,Jeremy Price,Football,2014-09-16 11:23:02
 2014-09-16 20:45:00,England,League Two,OXFORD UTD vs ACCRINGTON STANLEY,3-1 (2-1),Asian handicap,OXFORD UTD -0.75,2.29,,100,129.00,Win,Jeremy Price,Football,2014-09-16 10:54:02
 2014-09-14 19:00:00,Turkey,Bank Asya 1. Lig,DENIZLISPOR vs BUCASPOR,2-1 (0-1),Asian handicap,DENIZLISPOR -0.75,2.29,,100,64.50,Half win,Jeremy Price,Football,2014-09-14 17:56:02
-2014-09-14 16:00:00,Norway,Adeccoligaen,NEST-SOTRA vs KRISTIANSUND BK,1-1 (0-1),Asian handicap,KRISTIANSUND BK -0.75,2.11,,100,-100.00,Lost,Jeremy Price,Football,2014-09-14 14:02:04
-2014-09-14 15:00:00,Denmark,Viasat Sport Divisionen,FC FREDERICIA vs HB KOGE,0-0 (0-0),Match Odds,FC FREDERICIA,2.56,,100,-100.00,Lost,Jeremy Price,Football,2014-09-14 13:11:03
+2014-09-14 16:00:00,Norway,OBOS-ligaen,NEST-SOTRA vs KRISTIANSUND BK,1-1 (0-1),Asian handicap,KRISTIANSUND BK -0.75,2.11,,100,-100.00,Lost,Jeremy Price,Football,2014-09-14 14:02:04
+2014-09-14 15:00:00,Denmark,Bet25 Liga,FC FREDERICIA vs HB KOGE,0-0 (0-0),Match Odds,FC FREDERICIA,2.56,,100,-100.00,Lost,Jeremy Price,Football,2014-09-14 13:11:03
 2014-09-14 14:00:00,Germany,Regionalliga North,EINTRACHT NORDERSTEDT vs VFB OLDENBURG,0-2 (0-1),Asian handicap,VFB OLDENBURG +0,2.51,,100,151.00,Win,Jeremy Price,Football,2014-09-14 11:55:03
 2014-09-14 13:00:00,Germany,Regionalliga North,TSV HAVELSE vs LUNEBURGER SK,1-2 (0-2),Asian handicap,LUNEBURGER SK +0.75,2.86,,100,186.00,Win,Jeremy Price,Football,2014-09-14 11:44:02
 2014-09-14 12:00:00,Spain,Segunda B Group III,CELTA DE VIGO B vs ATLETICO ASTORGA FC,0-2,Asian handicap,CELTA DE VIGO B -1.00,1.95,,100,-100.00,Lost,Jeremy Price,Football,2014-09-14 10:59:02
@@ -479,11 +488,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-09-06 14:00:00,Germany,Regionalliga North,BV CLOPPENBURG vs VFR NEUMUNSTER,0-3 (0-1),Asian handicap,BV CLOPPENBURG +0,1.81,,100,-100.00,Lost,Jeremy Price,Football,2014-09-06 11:20:03
 2014-09-03 18:30:00,International,International Friendly Games,LITHUANIA vs UNITED ARAB EMIRATES,1-1 (1-0),Asian handicap,UNITED ARAB EMIRATES +0,2.10,,100,0.00,Void,Jeremy Price,Football,2014-09-03 16:18:08
 2014-09-01 19:45:00,Switzerland,Challenge League,FC SCHAFFHAUSEN vs FC WINTERTHUR,1-4 (0-0),Asian handicap,FC WINTERTHUR +0,2.19,,100,119.00,Win,Jeremy Price,Football,2014-09-01 12:53:04
-2014-09-01 19:00:00,Norway,Adeccoligaen,RANHEIM IL vs MJONDALEN,1-1 (1-1),Asian handicap,MJONDALEN +0,2.19,,100,0.00,Void,Jeremy Price,Football,2014-09-01 13:25:03
+2014-09-01 19:00:00,Norway,OBOS-ligaen,RANHEIM IL vs MJONDALEN,1-1 (1-1),Asian handicap,MJONDALEN +0,2.19,,100,0.00,Void,Jeremy Price,Football,2014-09-01 13:25:03
 2014-09-01 02:45:00,Colombia,Apertura II,MILLONARIOS FC vs INDEPENDIENTE SANTA FE,0-1 (0-0),Asian handicap,MILLONARIOS FC +0,1.96,,100,-100.00,Lost,Jeremy Price,Football,2014-08-31 12:39:02
 2014-08-30 16:00:00,England,League Two,OXFORD UTD vs DAGENHAM & REDBRIDGE,3-3 (1-1),Asian handicap,OXFORD UTD -0.25,1.99,,100,-50.00,Half lost,Jeremy Price,Football,2014-08-30 13:04:05
 2014-08-30 16:00:00,Scotland,Third Division,ALBION ROVERS FC vs QUEENS PARK FC,1-0 (0-0),Asian handicap,ALBION ROVERS FC -0.75,1.98,,100,49.00,Half win,Jeremy Price,Football,2014-08-30 09:18:02
-2014-08-28 19:00:00,Denmark,Viasat Sport Divisionen,AGF AARHUS vs FC FREDERICIA,2-1 (1-0),Asian handicap,AGF AARHUS -0.75,1.82,,100,41.00,Half win,Jeremy Price,Football,2014-08-28 11:41:01
+2014-08-28 19:00:00,Denmark,Bet25 Liga,AGF AARHUS vs FC FREDERICIA,2-1 (1-0),Asian handicap,AGF AARHUS -0.75,1.82,,100,41.00,Half win,Jeremy Price,Football,2014-08-28 11:41:01
 2014-08-28 02:00:00,International Clubs,"CONCACAF Champions League, Group 7",LEON vs CS HEREDIANO,1-1 (0-0),Asian handicap,CS HEREDIANO +1.25,2.07,,100,107.00,Win,Jeremy Price,Football,2014-08-27 11:15:02
 2014-08-28 01:30:00,International Clubs,Copa Sudamericana,CLUB LIBERTAD ASUNCION vs CA NACIONAL POTOSI,3-0 (2-0),Asian handicap,CLUB LIBERTAD ASUNCION -1.50,1.83,,100,83.00,Win,Jeremy Price,Football,2014-08-27 11:06:01
 2014-08-27 17:00:00,Portugal,Liga Vitalis,CD FEIRENSE vs FC PORTO B,1-2 (0-1),Asian handicap,FC PORTO B +0,1.84,,100,84.00,Win,Jeremy Price,Football,2014-08-27 11:01:04
@@ -518,10 +527,10 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-08-02 16:00:00,Germany,Regionalliga West,SC VERL vs RW OBERHAUSEN,3-0 (2-0),Asian handicap,SC VERL +0.25,1.94,,100,94.00,Win,Jeremy Price,Football,2014-08-02 09:28:02
 2014-08-02 14:00:00,Germany,Regionalliga West,FC VIKTORIA COLOGNE vs BORUSSIA M'GLADBACH II,3-1 (1-1),Match Odds,FC VIKTORIA COLOGNE,1.91,,100,91.00,Win,Jeremy Price,Football,2014-08-02 11:04:04
 2014-08-02 07:00:00,Australia,Victoria Premier League,BENTLEIGH GREENS vs GOULBURN VALLEY SUNS,2-2,Asian handicap,BENTLEIGH GREENS -1.50,1.85,,100,-100.00,Lost,Jeremy Price,Football,2014-08-01 15:29:02
-2014-08-01 19:00:00,Sweden,2nd Division,YTTERBY IS vs IF HEIMER,6-3 (4-1),Asian handicap,LIDKOPINGS FK -0.25,1.90,,100,-100.00,Lost,Jeremy Price,Football,2014-08-01 15:29:08
+2014-08-01 19:00:00,Sweden,2nd Division n,YTTERBY IS vs IF HEIMER,6-3 (4-1),Asian handicap,LIDKOPINGS FK -0.25,1.90,,100,-100.00,Lost,Jeremy Price,Football,2014-08-01 15:29:08
 2014-07-30 18:00:00,Portugal,"League Cup, Phase 3, Gr. C",CD TONDELA vs CLUBE ORIENTAL DE LISBOA,4-2 (3-0),Asian handicap,CLUBE ORIENTAL DE LISBOA +0.50,2.19,,100,-100.00,Lost,Jeremy Price,Football,2014-07-30 11:50:03
 2014-07-28 02:30:00,Colombia,Apertura II,ATLETICO NACIONAL MEDELLIN vs DEPORTIVO CALI,2-2 (2-1),Asian handicap,DEPORTIVO CALI +1.00,1.75,,100,75.00,Win,Jeremy Price,Football,2014-07-27 11:43:01
-2014-07-27 17:00:00,Sweden,2nd Division,LARJE/ANGEREDS IF vs CARLSTAD UNITED,2-2 (1-1),Asian handicap,LARJE/ANGEREDS IF +0.25,1.90,,100,45.00,Half win,Jeremy Price,Football,2014-07-27 10:18:03
+2014-07-27 17:00:00,Sweden,2nd Division n,LARJE/ANGEREDS IF vs CARLSTAD UNITED,2-2 (1-1),Asian handicap,LARJE/ANGEREDS IF +0.25,1.90,,100,45.00,Half win,Jeremy Price,Football,2014-07-27 10:18:03
 2014-07-27 15:00:00,Switzerland,Challenge League,FC BIEL-BIENNE vs FC CHIASSO,0-1 (0-1),Asian handicap,FC CHIASSO +0.25,2.02,,100,102.00,Win,Jeremy Price,Football,2014-07-27 13:54:02
 2014-07-27 12:00:00,Japan,League 1,CEREZO OSAKA vs SAGAN TOSU,0-1 (0-0),Asian handicap,CEREZO OSAKA +0,1.78,,100,-100.00,Lost,Jeremy Price,Football,2014-07-26 12:52:03
 2014-07-26 14:00:00,Germany,Regionalliga North,ETSV WEICHE FLENSBURG vs FC ST. PAULI II,0-0 (0-0),Match Odds,ETSV WEICHE FLENSBURG,1.83,,100,-100.00,Lost,Jeremy Price,Football,2014-07-26 11:13:01
@@ -572,7 +581,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-06-07 18:15:00,Sweden,Superettan,GIF SUNDSVALL vs SYRIANSKA FC,3-1 (1-0),Asian handicap,GIF SUNDSVALL -1.00,1.80,,100,80.00,Win,Jeremy Price,Football,2014-06-07 09:25:03
 2014-06-07 16:00:00,Sweden,Div 1,KRISTIANSTADS FF vs IFK UDDEVALLA,3-1 (2-1),Asian handicap,IFK UDDEVALLA +1.00,1.89,,100,-100.00,Lost,Jeremy Price,Football,2014-06-07 10:18:02
 2014-06-06 17:30:00,Finland,Kakkonen Etelainen,IF GNISTAN vs SALPA,2-0 (1-0),Asian handicap,IF GNISTAN +0.25,2.00,,100,100.00,Win,Jeremy Price,Football,2014-06-06 12:19:02
-2014-06-01 18:00:00,Norway,Adeccoligaen,FREDRIKSTAD FK vs HONEFOSS BK,5-0 (2-0),Asian handicap,FREDRIKSTAD FK -1.00,2.05,,100,105.00,Win,Jeremy Price,Football,2014-06-01 09:10:24
+2014-06-01 18:00:00,Norway,OBOS-ligaen,FREDRIKSTAD FK vs HONEFOSS BK,5-0 (2-0),Asian handicap,FREDRIKSTAD FK -1.00,2.05,,100,105.00,Win,Jeremy Price,Football,2014-06-01 09:10:24
 2014-06-01 15:00:00,Finland,Kakkonen Etelainen,GRANKULLA IFK vs KLUBI 04,4-1 (3-0),Asian handicap,GRANKULLA IFK -0.75,1.80,,100,80.00,Win,Jeremy Price,Football,2014-06-01 11:34:02
 2014-06-01 15:00:00,Sweden,Div 1,QVIDING FIF vs LUNDS BK,0-4 (0-1),Asian handicap,LUNDS BK +0.25,1.97,,100,97.00,Win,Jeremy Price,Football,2014-06-01 09:10:04
 2014-06-01 09:00:00,Australia,Victoria Premier League,SOUTH MELBOURNE vs DANDENONG THUNDER,5-0,Asian handicap,DANDENONG THUNDER +0.75,2.06,,100,-100.00,Lost,Jeremy Price,Football,2014-05-31 15:29:02
@@ -585,16 +594,16 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-05-23 17:30:00,Finland,Ykkonen,FC KOOTEEPEE vs FC HAKA VALKEAKOSKI,3-0 (2-0),Asian handicap,FC HAKA VALKEAKOSKI +0.25,1.81,,100,-100.00,Lost,Jeremy Price,Football,2014-05-23 09:51:03
 2014-05-23 12:30:00,Australia,Victoria Premier League,PASCOE VALE vs OAKLEIGH CANNONS,2-0,Asian handicap,PASCOE VALE +1.50,1.84,,100,84.00,Win,Jeremy Price,Football,2014-05-23 09:31:02
 2014-05-21 22:00:00,Colombia,"Torneo Postobon I, Final",ATLETICO BUCARAMANGA vs U. M. SANTA MARTA,6-4 (0-0),Asian handicap,ATLETICO BUCARAMANGA -0.50,1.79,,100,79.00,Win,Jeremy Price,Football,2014-05-21 13:28:02
-2014-05-20 19:00:00,Norway,Adeccoligaen,HONEFOSS BK vs HAM-KAM,2-0 (0-0),Asian handicap,HAM-KAM +0.25,1.92,,100,-100.00,Lost,Jeremy Price,Football,2014-05-20 09:36:02
+2014-05-20 19:00:00,Norway,OBOS-ligaen,HONEFOSS BK vs HAM-KAM,2-0 (0-0),Asian handicap,HAM-KAM +0.25,1.92,,100,-100.00,Lost,Jeremy Price,Football,2014-05-20 09:36:02
 2014-05-18 23:30:00,Brazil,Brasilero Serie A,VITORIA BA vs PALMEIRAS SP,0-1 (0-0),Asian handicap,PALMEIRAS SP +0.25,1.87,,100,87.00,Win,Jeremy Price,Football,2014-05-18 09:35:03
 2014-05-18 01:30:00,Argentina,"Primera Division, Clausura",CA ROSARIO CENTRAL vs ARGENTINOS JRS,3-2 (2-0),Asian handicap,CA ROSARIO CENTRAL -1.00,1.83,,100,0.00,Void,Jeremy Price,Football,2014-05-17 10:55:03
 2014-05-17 18:00:00,Algeria,Ligue 1,JS KABYLIE vs JS SAOURA,2-0 (2-0),Asian handicap,JS KABYLIE -1.00,1.84,,100,84.00,Win,Jeremy Price,Football,2014-05-17 12:50:05
 2014-05-17 14:00:00,Germany,Regionalliga West,SC WIEDENBRUCK vs SC VERL,3-1 (1-1),Asian handicap,SC WIEDENBRUCK +0,1.89,,100,89.00,Win,Jeremy Price,Football,2014-05-17 12:01:04
-2014-05-16 18:00:00,Norway,Adeccoligaen,KRISTIANSUND BK vs RANHEIM IL,0-3 (0-0),Asian handicap,RANHEIM IL +0.25,2.06,,100,106.00,Win,Jeremy Price,Football,2014-05-16 10:00:06
-2014-05-16 14:00:00,Denmark,Viasat Sport Divisionen,FC FREDERICIA vs HOBRO IK,0-3 (0-0),Asian handicap,HOBRO IK +0,2.06,,100,106.00,Win,Jeremy Price,Football,2014-05-16 09:35:19
+2014-05-16 18:00:00,Norway,OBOS-ligaen,KRISTIANSUND BK vs RANHEIM IL,0-3 (0-0),Asian handicap,RANHEIM IL +0.25,2.06,,100,106.00,Win,Jeremy Price,Football,2014-05-16 10:00:06
+2014-05-16 14:00:00,Denmark,Bet25 Liga,FC FREDERICIA vs HOBRO IK,0-3 (0-0),Asian handicap,HOBRO IK +0,2.06,,100,106.00,Win,Jeremy Price,Football,2014-05-16 09:35:19
 2014-05-16 12:30:00,Australia,Victoria Premier League,PORT MELBOURNE SHARKS vs HUME CITY,1-1,Asian handicap,PORT MELBOURNE SHARKS -0.25,2.03,,100,-50.00,Half lost,Jeremy Price,Football,2014-05-16 09:42:09
 2014-05-13 18:30:00,Austria,ADEG Erste Liga,TSV HARTBERG vs SKN ST. POLTEN,0-0 (0-0),Asian handicap,TSV HARTBERG +0,1.75,,100,0.00,Void,Jeremy Price,Football,2014-05-13 10:50:04
-2014-05-11 18:00:00,Norway,Adeccoligaen,MJONDALEN vs ALTA IF,4-1 (3-1),Asian handicap,MJONDALEN -1.25,1.91,,100,91.00,Win,Jeremy Price,Football,2014-05-11 09:50:03
+2014-05-11 18:00:00,Norway,OBOS-ligaen,MJONDALEN vs ALTA IF,4-1 (3-1),Asian handicap,MJONDALEN -1.25,1.91,,100,91.00,Win,Jeremy Price,Football,2014-05-11 09:50:03
 2014-05-11 15:00:00,Finland,Ykkonen,FC ILVES vs JJK JYVASKYLA,4-1 (2-0),Asian handicap,FC ILVES -0.50,1.86,,100,86.00,Win,Jeremy Price,Football,2014-05-11 09:00:06
 2014-05-11 02:00:00,Paraguay,Primera Division,NACIONAL FC vs RUBIO NU,0-1 (0-1),Asian handicap,RUBIO NU +0.50,1.96,,100,96.00,Win,Jeremy Price,Football,2014-05-10 11:36:04
 2014-05-10 23:30:00,Brazil,Brasilero Serie A,INTERNACIONAL RS vs ATLETICO PARANAENSE,2-1 (0-0),Asian handicap,INTERNACIONAL RS -1.00,1.95,,100,0.00,Void,Jeremy Price,Football,2014-05-10 09:36:02
@@ -608,8 +617,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-05-04 07:00:00,Australia,Victoria Premier League,NORTHCOTE CITY vs PORT MELBOURNE SHARKS,2-3,Asian handicap,NORTHCOTE CITY -0.75,1.82,,100,-100.00,Lost,Jeremy Price,Football,2014-05-03 11:40:04
 2014-05-03 22:00:00,Paraguay,Primera Division,CLUB SPORTIVO LUQUENO vs NACIONAL FC,1-1 (0-0),Asian handicap,CLUB SPORTIVO LUQUENO +0,1.74,,100,0.00,Void,Jeremy Price,Football,2014-05-03 11:28:02
 2014-05-03 17:00:00,Switzerland,Challenge League,FC LOCARNO vs FC WINTERTHUR,2-2 (2-1),Asian handicap,FC LOCARNO +0.25,2.14,,100,57.00,Half win,Jeremy Price,Football,2014-05-03 12:36:03
-2014-05-01 15:00:00,Sweden,2nd Division,TIBRO AIK vs NORDVARMLAND FF,2-2 (0-1),Asian handicap,TIBRO AIK +0.50,1.83,,100,83.00,Win,Jeremy Price,Football,2014-05-01 10:06:02
-2014-04-27 18:00:00,Norway,Adeccoligaen,BRYNE FK vs TROMSDALEN,2-0 (0-0),Asian handicap,BRYNE FK -0.75,1.95,,100,95.00,Win,Jeremy Price,Football,2014-04-27 11:32:02
+2014-05-01 15:00:00,Sweden,2nd Division n,TIBRO AIK vs NORDVARMLAND FF,2-2 (0-1),Asian handicap,TIBRO AIK +0.50,1.83,,100,83.00,Win,Jeremy Price,Football,2014-05-01 10:06:02
+2014-04-27 18:00:00,Norway,OBOS-ligaen,BRYNE FK vs TROMSDALEN,2-0 (0-0),Asian handicap,BRYNE FK -0.75,1.95,,100,95.00,Win,Jeremy Price,Football,2014-04-27 11:32:02
 2014-04-27 17:00:00,Sweden,Div 1,ATHLETIC UNITED vs BK FORWARD,2-0 (1-0),Asian handicap,ATHLETIC UNITED -0.75,1.82,,100,82.00,Win,Jeremy Price,Football,2014-04-27 09:49:06
 2014-04-26 22:00:00,USA,Major League Soccer,SEATTLE SOUNDERS vs COLORADO RAPIDS,4-1 (1-0),Asian handicap,SEATTLE SOUNDERS -0.75,1.98,,100,98.00,Win,Jeremy Price,Football,2014-04-26 15:00:06
 2014-04-26 16:00:00,Scotland,Second Division,ARBROATH FC vs DUNFERMLINE ATHLETIC,1-2 (0-1),Asian handicap,ARBROATH FC +0,2.01,,100,-100.00,Lost,Jeremy Price,Football,2014-04-26 14:30:15
@@ -654,7 +663,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-03-23 23:30:00,Colombia,Apertura I,CLUB ATLETICO JUNIOR vs ENVIGADO FC,1-0 (0-0),Asian handicap,CLUB ATLETICO JUNIOR -0.75,1.86,,100,43.00,Half win,Jeremy Price,Football,2014-03-23 16:56:03
 2014-03-23 17:00:00,Portugal,Liga Vitalis,UD OLIVEIRENSE vs SPORTING FARENSE,2-0 (0-0),Asian handicap,SPORTING FARENSE +0.25,2.05,,100,-100.00,Lost,Jeremy Price,Football,2014-03-23 15:50:05
 2014-03-23 14:30:00,Italy,"Lega Pro Prima Divisione, Girone B",US CREMONESE vs AC PAVIA,1-0 (0-0),Asian handicap,US CREMONESE -1.00,2.02,,100,0.00,Void,Jeremy Price,Football,2014-03-23 11:14:03
-2014-03-23 13:45:00,Denmark,Viasat Sport Divisionen,SILKEBORG IF vs HVIDOVRE IF,2-0 (1-0),Asian handicap,SILKEBORG IF -1.00,1.73,,100,73.00,Win,Jeremy Price,Football,2014-03-23 11:14:13
+2014-03-23 13:45:00,Denmark,Bet25 Liga,SILKEBORG IF vs HVIDOVRE IF,2-0 (1-0),Asian handicap,SILKEBORG IF -1.00,1.73,,100,73.00,Win,Jeremy Price,Football,2014-03-23 11:14:13
 2014-03-22 20:00:00,Hungary,NB I,PAKSI FC vs FC GYORI ETO,1-2 (1-2),Asian handicap,PAKSI FC +0,2.68,,100,-100.00,Lost,Jeremy Price,Football,2014-03-22 17:06:03
 2014-03-22 16:00:00,England,Skrill South,WHITEHAWK vs TONBRIDGE ANGELS,1-0 (0-0),Asian handicap,WHITEHAWK -0.25,2.11,,100,111.00,Win,Jeremy Price,Football,2014-03-22 13:30:05
 2014-03-22 16:00:00,England,Skrill South,BASINGSTOKE TOWN vs HAVANT & WATERLOOVILLE,0-1 (0-1),Asian handicap,HAVANT & WATERLOOVILLE +0.50,1.82,,100,82.00,Win,Jeremy Price,Football,2014-03-22 13:09:07
@@ -663,7 +672,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-03-21 21:00:00,Portugal,Liga Sagres,RIO AVE FC vs SPORTING BRAGA,1-1 (0-0),Asian handicap,SPORTING BRAGA +0,1.78,,100,0.00,Void,Jeremy Price,Football,2014-03-21 10:13:03
 2014-03-21 20:30:00,Austria,ADEG Erste Liga,SC PARNDORF vs SCR ALTACH,0-3 (0-2),Asian handicap,SC PARNDORF +0,3.21,,100,-100.00,Lost,Jeremy Price,Football,2014-03-21 09:51:01
 2014-03-21 18:30:00,Austria,ADEG Erste Liga,SKN ST. POLTEN vs SV MATTERSBURG,2-2 (1-1),Match Odds,SKN ST. POLTEN,1.98,,100,-100.00,Lost,Jeremy Price,Football,2014-03-21 10:03:07
-2014-03-20 18:00:00,Denmark,Viasat Sport Divisionen,HOBRO IK vs FC FREDERICIA,1-0 (0-0),Asian handicap,FC FREDERICIA +0.25,2.05,,100,-100.00,Lost,Jeremy Price,Football,2014-03-20 10:20:04
+2014-03-20 18:00:00,Denmark,Bet25 Liga,HOBRO IK vs FC FREDERICIA,1-0 (0-0),Asian handicap,FC FREDERICIA +0.25,2.05,,100,-100.00,Lost,Jeremy Price,Football,2014-03-20 10:20:04
 2014-03-19 12:30:00,International,AFC Asian Cup,TAMPINES ROVERS FC vs PUNE FC,3-1 (1-1),Asian handicap,TAMPINES ROVERS FC +0.75,2.29,,100,129.00,Win,Jeremy Price,Football,2014-03-19 10:09:02
 2014-03-18 20:45:00,England,Skrill Premier,FOREST GREEN ROVERS vs GRIMSBY TOWN,2-1 (2-0),Asian handicap,GRIMSBY TOWN +0.25,1.98,,100,-100.00,Lost,Jeremy Price,Football,2014-03-18 11:46:03
 2014-03-18 17:30:00,Algeria,Ligue 1,CS CONSTANTINE vs ES SETIF,2-1 (1-0),Asian handicap,ES SETIF +0,2.14,,100,-100.00,Lost,Jeremy Price,Football,2014-03-18 12:32:03
@@ -813,7 +822,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-11-16 14:00:00,Germany,Regionalliga North,WERDER BREMEN II vs GOSLARER SC,0-2 (0-0),Asian handicap,GOSLARER SC +0.50,2.05,,100,105.00,Win,Jeremy Price,Football,2013-11-16 11:11:02
 2013-11-15 13:30:00,International,International Friendly Games,INDIA vs PHILIPPINES,1-1 (1-1),Asian handicap,PHILIPPINES +0,2.29,,100,0.00,Void,Jeremy Price,Football,2013-11-15 11:23:02
 2013-11-14 19:30:00,Switzerland,Swiss Cup,FC BIEL-BIENNE vs FC THUN,0-0 (0-0),Asian handicap,FC THUN -0.75,2.01,,100,-100.00,Lost,Jeremy Price,Football,2013-11-14 11:48:03
-2013-11-14 18:30:00,Denmark,Viasat Sport Divisionen,HOBRO IK vs LYNGBY BK,3-0 (1-0),Asian handicap,LYNGBY BK +0,2.30,,100,-100.00,Lost,Jeremy Price,Football,2013-11-14 11:39:02
+2013-11-14 18:30:00,Denmark,Bet25 Liga,HOBRO IK vs LYNGBY BK,3-0 (1-0),Asian handicap,LYNGBY BK +0,2.30,,100,-100.00,Lost,Jeremy Price,Football,2013-11-14 11:39:02
 2013-11-13 23:00:00,Paraguay,"Primera Division, Clausura",NACIONAL FC vs CLUB LIBERTAD ASUNCION,0-1 (0-0),Asian handicap,NACIONAL FC +0,2.12,,100,-100.00,Lost,Jeremy Price,Football,2013-11-13 11:56:03
 2013-11-10 19:15:00,Peru,"Primera Division, Liguilla B",CLUB CIENCIANO vs JUAN AURICH DE CHICLAYO,2-1 (1-0),Asian handicap,JUAN AURICH DE CHICLAYO +0.50,1.85,,100,-100.00,Lost,Jeremy Price,Football,2013-11-10 13:23:02
 2013-11-10 16:00:00,Portugal,Liga Vitalis,CD TONDELA vs SC BEIRA MAR,2-1 (0-1),Asian handicap,SC BEIRA MAR +0.25,1.96,,100,-100.00,Lost,Jeremy Price,Football,2013-11-10 12:29:03
@@ -823,7 +832,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-11-09 14:00:00,Germany,Regionalliga North,HAMBURGER SV II vs TSV HAVELSE,2-0 (1-0),Asian handicap,TSV HAVELSE +0,2.02,,100,-100.00,Lost,Jeremy Price,Football,2013-11-09 11:01:05
 2013-11-08 23:00:00,Paraguay,"Primera Division, Clausura",CLUB SPORTIVO LUQUENO vs CLUB GUARANI,0-4 (0-2),Over / Under,Over +2.50,2.08,,100,108.00,Win,Jeremy Price,Football,2013-11-08 12:26:03
 2013-11-08 18:30:00,Austria,ADEG Erste Liga,FC LIEFERING vs SKN ST. POLTEN,0-1 (0-0),Asian handicap,SKN ST. POLTEN +0.25,2.21,,100,121.00,Win,Jeremy Price,Football,2013-11-08 12:54:03
-2013-11-08 18:30:00,Denmark,Viasat Sport Divisionen,HVIDOVRE IF vs AB COPENHAGEN,0-0 (0-0),Asian handicap,AB COPENHAGEN +0,2.18,,100,0.00,Void,Jeremy Price,Football,2013-11-08 12:42:03
+2013-11-08 18:30:00,Denmark,Bet25 Liga,HVIDOVRE IF vs AB COPENHAGEN,0-0 (0-0),Asian handicap,AB COPENHAGEN +0,2.18,,100,0.00,Void,Jeremy Price,Football,2013-11-08 12:42:03
 2013-11-08 01:00:00,Bolivia,"Liga Profesional, Apertura",REAL POTOSI vs GUABIRA MONTERO,3-0,Asian handicap,GUABIRA MONTERO +1.25,1.80,,100,-100.00,Lost,Jeremy Price,Football,2013-11-07 10:53:02
 2013-11-07 16:30:00,Qatar,Stars League,AL KHOOR vs SADD SC,1-2 (1-1),Asian handicap,SADD SC -0.75,2.12,,100,56.00,Half win,Jeremy Price,Football,2013-11-07 10:26:12
 2013-11-07 14:15:00,Qatar,Stars League,UMM-SALAL SC vs AL-SAILIYA SC,0-1 (0-1),Asian handicap,UMM-SALAL SC +0,2.09,,100,-100.00,Lost,Jeremy Price,Football,2013-11-07 11:15:03
@@ -878,7 +887,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-10-02 18:30:00,Germany,Regionalliga North,SV WILHELMSHAVEN vs HAMBURGER SV II,2-2 (1-2),Asian handicap,SV WILHELMSHAVEN +0,2.13,,100,0.00,Void,Jeremy Price,Football,2013-10-02 11:28:02
 2013-10-02 18:00:00,Peru,"Primera Division, Liguilla A",UNION COMERCIO vs FBC MELGAR,0-2 (0-0),Asian handicap,UNION COMERCIO -0.50,1.88,,100,-100.00,Lost,Jeremy Price,Football,2013-10-02 10:55:05
 2013-10-02 03:10:00,Colombia,Apertura II,DEPORTES TOLIMA vs BOYACA PATRIOTAS,1-1 (1-0),Asian handicap,DEPORTES TOLIMA -0.75,2.03,,100,-100.00,Lost,Jeremy Price,Football,2013-10-01 10:44:03
-2013-09-29 15:00:00,Denmark,Viasat Sport Divisionen,FC FREDERICIA vs AB COPENHAGEN,1-1 (0-1),Asian handicap,AB COPENHAGEN +0.50,2.01,,100,101.00,Win,Jeremy Price,Football,2013-09-29 10:54:04
+2013-09-29 15:00:00,Denmark,Bet25 Liga,FC FREDERICIA vs AB COPENHAGEN,1-1 (0-1),Asian handicap,AB COPENHAGEN +0.50,2.01,,100,101.00,Win,Jeremy Price,Football,2013-09-29 10:54:04
 2013-09-29 12:30:00,India,I-League,MUMBAI FC vs DEMPO SC,1-1,Match Odds,DEMPO SC,1.94,,100,-100.00,Lost,Jeremy Price,Football,2013-09-29 09:57:02
 2013-09-29 02:45:00,Colombia,Apertura II,DEPORTES QUINDIO vs DEPORTES TOLIMA,1-0 (1-0),Over / Under,Over +2.25,1.98,,100,-100.00,Lost,Jeremy Price,Football,2013-09-28 13:09:02
 2013-09-28 19:30:00,Qatar,Stars League,AL GHARAFA SC vs AL-SAILIYA SC,1-1 (0-1),Asian handicap,AL GHARAFA SC -0.25,1.93,,100,-50.00,Half lost,Jeremy Price,Football,2013-09-28 13:16:03
@@ -937,7 +946,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-08-16 19:00:00,Sweden,Div 1,KARLSTAD BK vs SKOVDE AIK,0-0 (0-0),Asian handicap,KARLSTAD BK +0.25,1.93,,100,46.50,Half win,Jeremy Price,Football,2013-08-16 10:52:54
 2013-08-16 02:45:00,Colombia,"Copa Postobon, Knockout stage",REAL CARTAGENA vs ATLETICO BUCARAMANGA,2-0,Asian handicap,REAL CARTAGENA -0.75,1.99,,100,99.00,Win,Jeremy Price,Football,2013-08-15 12:20:04
 2013-08-15 02:45:00,Colombia,"Copa Postobon, Knockout stage",MILLONARIOS FC vs CLUB ATLETICO JUNIOR,2-0 (0-0),Asian handicap,MILLONARIOS FC -0.75,1.96,,100,96.00,Win,Jeremy Price,Football,2013-08-14 15:51:02
-2013-08-14 18:30:00,Denmark,Ekstra Bladet Cup,RISHOJ BOLDKLUB vs HVIDOVRE IF,1-3,Asian handicap,RISHOJ BOLDKLUB +1.00,1.85,,100,-100.00,Lost,Jeremy Price,Football,2013-08-14 15:30:05
+2013-08-14 18:30:00,Denmark,Landspokal Cup,RISHOJ BOLDKLUB vs HVIDOVRE IF,1-3,Asian handicap,RISHOJ BOLDKLUB +1.00,1.85,,100,-100.00,Lost,Jeremy Price,Football,2013-08-14 15:30:05
 2013-08-14 18:00:00,Portugal,Carlsberg Cup,CD FEIRENSE vs SC COVILHA,4-1 (2-1),Asian handicap,SC COVILHA +0.25,1.83,,100,-100.00,Lost,Jeremy Price,Football,2013-08-14 10:08:02
 2013-08-14 01:00:00,Argentina,Primera B Nacional,CA BANFIELD vs CRUCERO DEL NORTE,2-0 (0-0),Asian handicap,CRUCERO DEL NORTE +1.00,1.83,,100,-100.00,Lost,Jeremy Price,Football,2013-08-13 12:45:04
 2013-08-12 02:45:00,Colombia,Apertura II,INDEPENDIENTE MEDELLIN vs DEPORTIVO LA EQUIDAD,2-1 (1-0),Match Odds,INDEPENDIENTE MEDELLIN,1.96,,100,96.00,Win,Jeremy Price,Football,2013-08-11 08:46:03
@@ -957,7 +966,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-08-03 14:00:00,Germany,Regionalliga North,ETSV WEICHE FLENSBURG vs SV EICHEDE,3-1 (2-0),Asian handicap,ETSV WEICHE FLENSBURG -0.50,1.90,,100,90.00,Win,Jeremy Price,Football,2013-08-03 10:36:35
 2013-08-03 02:00:00,Chile,Primera Division,O`HIGGINS FC vs ANTOFAGASTA,2-1 (1-1),Asian handicap,ANTOFAGASTA +0.75,2.00,,100,-50.00,Half lost,Jeremy Price,Football,2013-08-02 15:13:02
 2013-08-02 01:30:00,International Clubs,Copa Sudamericana,MINEROS DE GUAYANA vs BARCELONA GUAYAQUIL,2-2 (1-1),Asian handicap,MINEROS DE GUAYANA +0.25,2.02,,100,51.00,Half win,Jeremy Price,Football,2013-08-01 11:22:02
-2013-08-01 18:00:00,Denmark,Viasat Sport Divisionen,VEJLE BK vs LYNGBY BK,2-0 (0-0),Asian handicap,LYNGBY BK +0.25,1.90,,100,-100.00,Lost,Jeremy Price,Football,2013-08-01 09:40:04
+2013-08-01 18:00:00,Denmark,Bet25 Liga,VEJLE BK vs LYNGBY BK,2-0 (0-0),Asian handicap,LYNGBY BK +0.25,1.90,,100,-100.00,Lost,Jeremy Price,Football,2013-08-01 09:40:04
 2013-07-31 19:00:00,Sweden,"Svenska Cup, Preliminary Round",VARMDO IF vs AKROPOLIS IF,1-2 (1-0),Asian handicap,VARMDO IF -0.25,1.98,,100,-100.00,Lost,Jeremy Price,Football,2013-07-31 12:01:05
 2013-07-31 02:45:00,Colombia,Apertura II,INDEPENDIENTE SANTA FE vs ALIANZA PETROLERA,2-2 (0-0),Asian handicap,ALIANZA PETROLERA +1.25,1.87,,100,87.00,Win,Jeremy Price,Football,2013-07-30 09:51:02
 2013-07-31 01:30:00,International Clubs,Copa Sudamericana,REAL POTOSI vs UNIVERSIDAD DE CHILE,3-1 (1-1),Asian handicap,UNIVERSIDAD DE CHILE +0.25,1.97,,100,-100.00,Lost,Jeremy Price,Football,2013-07-30 10:36:03
@@ -1009,7 +1018,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-07-09 15:30:00,European cups,UEFA Europa League,MIKA FC vs FK RUDAR PLJEVLJA,1-1 (1-0),Asian handicap,MIKA FC -0.75,2.33,,100,-100.00,Lost,Jeremy Price,Football,2013-07-09 11:29:02
 2013-07-08 15:00:00,International Clubs,Club Friendly Games,SKIVE IK vs VIBORG FF,1-0 (0-0),Asian handicap,VIBORG FF -0.75,1.80,,100,-100.00,Lost,Jeremy Price,Football,2013-07-08 10:09:03
 2013-07-08 00:30:00,Colombia,"Apertura I, Group B",ATLETICO NACIONAL MEDELLIN vs DEPORTIVO PASTO,2-1 (1-1),Asian handicap,ATLETICO NACIONAL MEDELLIN -0.75,1.97,,100,48.50,Half win,Jeremy Price,Football,2013-07-07 11:26:29
-2013-07-07 18:00:00,Norway,Adeccoligaen,FOLLO vs RANHEIM IL,0-2 (0-1),Asian handicap,FOLLO +0.50,1.95,,100,-100.00,Lost,Jeremy Price,Football,2013-07-07 11:21:03
+2013-07-07 18:00:00,Norway,OBOS-ligaen,FOLLO vs RANHEIM IL,0-2 (0-1),Asian handicap,FOLLO +0.50,1.95,,100,-100.00,Lost,Jeremy Price,Football,2013-07-07 11:21:03
 2013-07-07 17:00:00,Sweden,Div 1,SKOVDE AIK vs IS HALMIA,3-2 (3-0),Asian handicap,SKOVDE AIK +0.25,1.86,,100,86.00,Win,Jeremy Price,Football,2013-07-07 08:54:02
 2013-07-07 07:00:00,Australia,Queensland National Premier League,OLYMPIC FC vs FNQ BULLS,4-2,Over / Under,Under +4.75,2.03,,100,-100.00,Lost,Jeremy Price,Football,2013-07-06 18:55:27
 2013-07-06 16:00:00,Sweden,Div 1,TORSLANDA IK vs KARLSTAD BK,3-0 (1-0),Over / Under,Under +2.50,2.04,,100,-100.00,Lost,Jeremy Price,Football,2013-07-06 11:08:02
@@ -1017,7 +1026,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-07-06 09:00:00,Australia,Football West State League,BALCATTA vs INGLEWOOD UNITED,1-3,Asian handicap,BALCATTA +0.25,2.04,,100,-100.00,Lost,Jeremy Price,Football,2013-07-05 11:26:02
 2013-07-04 19:00:00,European cups,UEFA Europa League,FC TIRASPOL vs SKONTO RIGA,0-1 (0-0),Over / Under,Under +2.50,1.89,,100,89.00,Win,Jeremy Price,Football,2013-07-04 09:34:02
 2013-07-04 16:00:00,European cups,UEFA Europa League,FC CHIKHURA SACHKHERE vs FC VADUZ,0-0 (0-0),Asian handicap,FC VADUZ +0.25,1.86,,100,43.00,Half win,Jeremy Price,Football,2013-07-04 09:00:06
-2013-07-01 19:00:00,Norway,Adeccoligaen,FREDRIKSTAD FK vs KRISTIANSUND BK,1-4 (0-2),Asian handicap,KRISTIANSUND BK +0.50,2.11,,100,111.00,Win,Jeremy Price,Football,2013-07-01 10:53:02
+2013-07-01 19:00:00,Norway,OBOS-ligaen,FREDRIKSTAD FK vs KRISTIANSUND BK,1-4 (0-2),Asian handicap,KRISTIANSUND BK +0.50,2.11,,100,111.00,Win,Jeremy Price,Football,2013-07-01 10:53:02
 2013-06-30 17:00:00,Sweden,Div 1,IK SIRIUS FK vs DALKURD FF,4-1 (3-0),Asian handicap,IK SIRIUS FK -1.00,2.07,,100,107.00,Win,Jeremy Price,Football,2013-06-29 18:10:04
 2013-06-30 16:00:00,Sweden,Div 1,VASTERAS SK vs UMEAA FC,2-3 (1-3),Match Odds,VASTERAS SK,2.12,,100,-100.00,Lost,Jeremy Price,Football,2013-06-29 22:08:03
 2013-06-30 14:00:00,Indonesia,Indonesia Super League,AREMA INDONESIA (ISL) vs PERSIJA JAKARTA,3-1 (2-0),Over / Under,Under +3.00,2.00,,100,-100.00,Lost,Jeremy Price,Football,2013-06-30 09:25:03
@@ -1027,7 +1036,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-06-25 18:00:00,International Clubs,Club Friendly Games,SC WIENER NEUSTADT vs FK DUKLA BANSKA BYSTRICA,1-1 (0-0),Asian handicap,SC WIENER NEUSTADT -0.25,2.17,,82,-41.00,Half lost,Jeremy Price,Football,2013-06-25 11:13:02
 2013-06-23 22:00:00,Colombia,"Apertura I, Group B",ITAGUI DITAIRES vs DEPORTIVO PASTO,2-3 (1-2),Asian handicap,DEPORTIVO PASTO +0.50,2.25,,100,125.00,Win,Jeremy Price,Football,2013-06-23 10:28:02
 2013-06-23 17:00:00,Sweden,Div 1,TORSLANDA IK vs IF SYLVIA,1-1 (1-0),Asian handicap,TORSLANDA IK +0.25,2.12,,100,56.00,Half win,Jeremy Price,Football,2013-06-22 17:45:03
-2013-06-20 19:00:00,Sweden,2nd Division,RYNNINGE IK vs IK GAUTHIOD,3-0 (2-0),Match Odds,RYNNINGE IK,3.30,,100,230.00,Win,Jeremy Price,Football,2013-06-20 10:19:02
+2013-06-20 19:00:00,Sweden,2nd Division n,RYNNINGE IK vs IK GAUTHIOD,3-0 (2-0),Match Odds,RYNNINGE IK,3.30,,100,230.00,Win,Jeremy Price,Football,2013-06-20 10:19:02
 2013-06-20 19:00:00,Sweden,Div 1,DALKURD FF vs VASALUNDS IF,1-1 (0-0),Over / Under,Under +3.25,1.76,,100,76.00,Win,Jeremy Price,Football,2013-06-20 09:38:03
 2013-06-20 19:00:00,Sweden,Div 1,KRISTIANSTADS FF vs LUNDS BK,1-0,Over / Under,Under +2.75,1.97,,100,97.00,Win,Jeremy Price,Football,2013-06-19 20:20:05
 2013-06-20 00:30:00,Paraguay,Primera Division,CLUB GUARANI vs CLUB CERRO PORTENO,2-0 (1-0),Over / Under,Over +2.50,2.05,,100,-100.00,Lost,Jeremy Price,Football,2013-06-19 19:33:02
@@ -1036,10 +1045,10 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-06-18 18:30:00,International Clubs,Club Friendly Games,SC WIENER NEUSTADT vs SV HORN,2-1 (2-1),Asian handicap,SC WIENER NEUSTADT -0.75,2.02,,100,51.00,Half win,Jeremy Price,Football,2013-06-18 10:31:04
 2013-06-17 19:00:00,Sweden,Superettan,JONKOPINGS SODRA vs IK BRAGE,4-0 (1-0),Asian handicap,IK BRAGE +1.00,1.85,,100,-100.00,Lost,Jeremy Price,Football,2013-06-17 10:48:02
 2013-06-16 16:00:00,Sweden,Div 1,VASTERAS SK vs SELAANGER FK,1-2 (0-0),Asian handicap,SELAANGER FK +1.25,2.05,,100,105.00,Win,Jeremy Price,Football,2013-06-16 13:53:03
-2013-06-15 15:00:00,Sweden,2nd Division,TIBRO AIK vs IFK UDDEVALLA,1-4 (1-2),Asian handicap,IFK UDDEVALLA +0.25,1.83,,100,83.00,Win,Jeremy Price,Football,2013-06-15 11:07:02
+2013-06-15 15:00:00,Sweden,2nd Division n,TIBRO AIK vs IFK UDDEVALLA,1-4 (1-2),Asian handicap,IFK UDDEVALLA +0.25,1.83,,100,83.00,Win,Jeremy Price,Football,2013-06-15 11:07:02
 2013-06-15 09:15:00,Australia,Brisbane Premier League,ALBANY CREEK vs PENINSULA POWER FC,0-3,Over / Under,Under +4.50,1.97,,100,97.00,Win,Jeremy Price,Football,2013-06-14 16:33:02
 2013-06-15 00:45:00,Peru,Primera Division,JOSE GALVEZ FBC vs UNIVERSIDAD SAN MARTIN,1-2 (0-1),Asian handicap,UNIVERSIDAD SAN MARTIN +0.50,1.93,,84,78.12,Win,Jeremy Price,Football,2013-06-14 16:22:03
-2013-06-13 19:00:00,Sweden,2nd Division,KARLSLUNDS IF vs CARLSTAD UNITED,0-1 (0-0),Match Odds,CARLSTAD UNITED,2.00,,92,92.00,Win,Jeremy Price,Football,2013-06-13 14:19:02
+2013-06-13 19:00:00,Sweden,2nd Division n,KARLSLUNDS IF vs CARLSTAD UNITED,0-1 (0-0),Match Odds,CARLSTAD UNITED,2.00,,92,92.00,Win,Jeremy Price,Football,2013-06-13 14:19:02
 2013-06-13 11:00:00,International Youth,U20 Friendly Games,CHILE vs CONGO DEMOCRATIC REPUBLIC U20,3-0 (3-0),Asian handicap,CHILE -1.25,2.04,,94,97.76,Win,Jeremy Price,Football,2013-06-12 18:39:03
 2013-06-12 02:50:00,Brazil,Brasilero Serie B,PARANA CLUBE PR vs ASA AL,1-0 (0-0),Asian handicap,PARANA CLUBE PR -0.75,1.93,,100,46.50,Half win,Jeremy Price,Football,2013-06-11 15:03:15
 2013-06-10 19:00:00,Sweden,Div 1,UTSIKTENS BK vs FC TROLLHATTAN,0-3 (0-2),Over / Under,Over +2.50,1.87,,100,87.00,Win,Jeremy Price,Football,2013-06-10 12:06:21
@@ -1061,11 +1070,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-06-03 17:30:00,Finland,Kakkonen Etelainen,KLUBI 04 vs GRANKULLA IFK,0-0 (0-0),Asian handicap,GRANKULLA IFK +0.25,1.85,,100,42.50,Half win,Jeremy Price,Football,2013-06-03 10:08:02
 2013-06-02 21:00:00,Paraguay,Primera Division,CARAPEGUA vs DEPORTIVO CAPIATA,0-2 (0-1),Over / Under,Over +2.50,2.06,,100,-100.00,Lost,Jeremy Price,Football,2013-06-02 18:54:03
 2013-06-02 20:15:00,Peru,Primera Division,INTI GAS DEPORTES vs UTC DE CAJAMARCA,0-2 (0-1),Asian handicap,UTC DE CAJAMARCA +0.50,2.02,,100,102.00,Win,Jeremy Price,Football,2013-06-02 10:12:02
-2013-06-02 18:00:00,Norway,Adeccoligaen,ELVERUM vs HODD,0-2 (0-1),Asian handicap,ELVERUM +0,2.93,,100,-100.00,Lost,Jeremy Price,Football,2013-06-02 10:30:04
+2013-06-02 18:00:00,Norway,OBOS-ligaen,ELVERUM vs HODD,0-2 (0-1),Asian handicap,ELVERUM +0,2.93,,100,-100.00,Lost,Jeremy Price,Football,2013-06-02 10:30:04
 2013-06-02 17:30:00,Finland,Ykkonen,FC ILVES vs JIPPO,5-0 (4-0),Asian handicap,FC ILVES -1.00,2.02,,100,102.00,Win,Jeremy Price,Football,2013-06-02 09:42:02
 2013-06-02 07:00:00,Australia,Brisbane Premier League,IPSWICH KNIGHTS vs LOGAN LIGHTNING,1-1,Match Odds,IPSWICH KNIGHTS,3.00,,100,-100.00,Lost,Jeremy Price,Football,2013-06-01 10:34:52
 2013-06-02 02:45:00,Colombia,Apertura I,CUCUTA DEPORTIVO vs ATLETICO NACIONAL MEDELLIN,1-1 (0-0),Match Odds,CUCUTA DEPORTIVO,2.09,,100,-100.00,Lost,Jeremy Price,Football,2013-06-01 09:51:49
-2013-06-01 16:00:00,Sweden,2nd Division,IFK UDDEVALLA vs CARLSTAD UNITED,2-0 (0-0),Asian handicap,IFK UDDEVALLA -0.25,1.95,,100,95.00,Win,Jeremy Price,Football,2013-06-01 13:06:03
+2013-06-01 16:00:00,Sweden,2nd Division n,IFK UDDEVALLA vs CARLSTAD UNITED,2-0 (0-0),Asian handicap,IFK UDDEVALLA -0.25,1.95,,100,95.00,Win,Jeremy Price,Football,2013-06-01 13:06:03
 2013-06-01 11:00:00,Australia,Brisbane Premier League,BRISBANE FORCE vs ALBANY CREEK,4-1,Asian handicap,BRISBANE FORCE +0.25,1.98,,100,98.00,Win,Jeremy Price,Football,2013-06-01 08:56:03
 2013-06-01 09:00:00,Australia,Football West State League,FLOREAT ATHENA vs PERTH SC,0-0 (0-0),Match Odds,FLOREAT ATHENA,2.02,,90,-90.00,Lost,Jeremy Price,Football,2013-05-31 10:57:03
 2013-06-01 07:30:00,Australia,South Australia Premier League,WESTERN STRIKERS vs ADELAIDE BLUE EAGLES,4-3,Asian handicap,ADELAIDE BLUE EAGLES -0.75,1.99,,100,-100.00,Lost,Jeremy Price,Football,2013-05-31 09:39:02
@@ -1087,13 +1096,13 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-05-24 00:30:00,Brazil,Copa do Brasil,FORTALEZA CE vs CONFIANCA SE,4-0 (2-0),Over / Under,Under +2.50,2.30,,100,-100.00,Lost,Jeremy Price,Football,2013-05-23 21:15:03
 2013-05-23 20:45:00,Poland,Ekstraklasa,GKS PIAST GLIWICE vs KORONA KIELCE SA,1-1 (1-1),Match Odds,GKS PIAST GLIWICE,1.93,,100,-100.00,Lost,Jeremy Price,Football,2013-05-22 17:03:04
 2013-05-23 19:00:00,Sweden,Superettan,LANDSKRONA BOIS vs FALKENBERGS FF,0-0 (0-0),Asian handicap,FALKENBERGS FF +0,2.19,,100,0.00,Void,Jeremy Price,Football,2013-05-23 11:33:02
-2013-05-23 18:00:00,Norway,Adeccoligaen,ELVERUM vs STROMMEN IF,1-1 (0-0),Over / Under,Under +2.75,1.99,,100,99.00,Win,Jeremy Price,Football,2013-05-23 01:47:02
+2013-05-23 18:00:00,Norway,OBOS-ligaen,ELVERUM vs STROMMEN IF,1-1 (0-0),Over / Under,Under +2.75,1.99,,100,99.00,Win,Jeremy Price,Football,2013-05-23 01:47:02
 2013-05-23 00:00:00,Paraguay,Primera Division,CLUB GUARANI vs CLUB SPORTIVO LUQUENO,4-1 (4-0),Asian handicap,CLUB SPORTIVO LUQUENO +1.00,1.94,,100,-100.00,Lost,Jeremy Price,Football,2013-05-22 11:55:03
 2013-05-21 19:00:00,Sweden,Div 1,LUNDS BK vs IF LIMHAMN BUNKEFLO,6-2 (1-0),Asian handicap,LUNDS BK -0.75,1.88,,100,88.00,Win,Jeremy Price,Football,2013-05-21 10:31:30
 2013-05-21 18:30:00,Austria,ADEG Erste Liga,KSV 1919 vs SV SCHOLZ GRODIG,1-1 (1-1),Asian handicap,SV SCHOLZ GRODIG +0,2.02,,100,0.00,Void,Jeremy Price,Football,2013-05-21 14:21:02
-2013-05-20 18:00:00,Norway,Adeccoligaen,FOLLO vs ELVERUM,3-1 (2-0),Match Odds,FOLLO,2.18,,100,118.00,Win,Jeremy Price,Football,2013-05-20 13:43:00
+2013-05-20 18:00:00,Norway,OBOS-ligaen,FOLLO vs ELVERUM,3-1 (2-0),Match Odds,FOLLO,2.18,,100,118.00,Win,Jeremy Price,Football,2013-05-20 13:43:00
 2013-05-20 18:00:00,Norway,Tippeligaen,HAUGESUND FK vs SOGNDAL IL,0-1 (0-0),Asian handicap,SOGNDAL IL +1.00,1.93,,100,93.00,Win,Jeremy Price,Football,2013-05-20 11:27:24
-2013-05-20 18:00:00,Norway,Adeccoligaen,STROMMEN IF vs FREDRIKSTAD FK,2-1 (0-1),Asian handicap,FREDRIKSTAD FK -0.25,1.76,,100,-100.00,Lost,Jeremy Price,Football,2013-05-20 10:35:18
+2013-05-20 18:00:00,Norway,OBOS-ligaen,STROMMEN IF vs FREDRIKSTAD FK,2-1 (0-1),Asian handicap,FREDRIKSTAD FK -0.25,1.76,,100,-100.00,Lost,Jeremy Price,Football,2013-05-20 10:35:18
 2013-05-19 21:00:00,Paraguay,Primera Division,CARAPEGUA vs SOL DE AMERICA,1-1 (1-1),Over / Under,Over +2.50,2.00,,100,-100.00,Lost,Jeremy Price,Football,2013-05-18 01:39:54
 2013-05-19 14:00:00,Germany,Regionalliga West,SC WIEDENBRUCK vs BERGISCH GLADBACH,3-2 (2-1),Asian handicap,SC WIEDENBRUCK -0.50,1.86,,100,86.00,Win,Jeremy Price,Football,2013-05-19 10:43:07
 2013-05-19 14:00:00,Germany,Regionalliga West,FC VIKTORIA COLOGNE vs FORTUNA DUSSELDORF II,2-3 (1-2),Asian handicap,FC VIKTORIA COLOGNE +0,2.13,,100,-100.00,Lost,Jeremy Price,Football,2013-05-18 02:07:53
@@ -1101,7 +1110,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-05-13 16:00:00,Germany,Regionalliga West,1 FC COLOGNE II vs MSV DUISBURG II,9-0 (5-0),Asian handicap,1 FC COLOGNE II -0.50,1.85,,96,81.60,Win,Jeremy Price,Football,2013-05-13 12:33:44
 2013-05-12 23:30:00,Paraguay,Primera Division,CLUB CERRO PORTENO vs CARAPEGUA,3-0 (1-0),Asian handicap,CLUB CERRO PORTENO -1.00,1.91,,100,91.00,Win,Jeremy Price,Football,2013-05-12 14:06:30
 2013-05-12 17:00:00,Portugal,Liga Vitalis,MARITIMO FUNCHAL B vs CD TONDELA,4-1 (2-0),Asian handicap,MARITIMO FUNCHAL B -0.25,2.01,,100,101.00,Win,Jeremy Price,Football,2013-05-12 11:17:20
-2013-05-12 15:00:00,Norway,Adeccoligaen,STABAEK FOTBALL vs MJONDALEN,2-0 (0-0),Asian handicap,STABAEK FOTBALL -0.25,2.03,,100,103.00,Win,Jeremy Price,Football,2013-05-12 11:29:53
+2013-05-12 15:00:00,Norway,OBOS-ligaen,STABAEK FOTBALL vs MJONDALEN,2-0 (0-0),Asian handicap,STABAEK FOTBALL -0.25,2.03,,100,103.00,Win,Jeremy Price,Football,2013-05-12 11:29:53
 2013-05-12 13:00:00,Turkey,Bank Asya 1. Lig,KAYSERI ERCIYESSPOR vs SANLIURFASPOR,3-1 (1-1),Match Odds,KAYSERI ERCIYESSPOR,1.76,,100,76.00,Win,Jeremy Price,Football,2013-05-12 10:59:18
 2013-05-12 01:30:00,USA,Major League Soccer,COLUMBUS CREW vs COLORADO RAPIDS,0-2 (0-1),Match Odds,COLUMBUS CREW,2.00,,100,-100.00,Lost,Jeremy Price,Football,2013-05-11 10:35:15
 2013-05-11 22:15:00,Colombia,Apertura I,ITAGUI DITAIRES vs ENVIGADO FC,1-1 (0-1),Asian handicap,ENVIGADO FC +0.50,2.30,,100,130.00,Win,Jeremy Price,Football,2013-05-11 11:11:05
@@ -1112,7 +1121,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-05-10 19:00:00,Germany,Regionalliga North,FC OBERNEULAND vs SV MEPPEN,2-2 (0-1),Asian handicap,FC OBERNEULAND -0.25,2.04,,100,-50.00,Half lost,Jeremy Price,Football,2013-05-10 01:30:20
 2013-05-10 02:00:00,Mexico,"Primera Division, Clausura Playoffs",SANTOS LAGUNA vs ATLAS,0-0 (0-0),Match Odds,SANTOS LAGUNA,2.00,,100,-100.00,Lost,Jeremy Price,Football,2013-05-09 20:39:15
 2013-05-09 18:00:00,Norway,Tippeligaen,SARPSBORG vs SANDNES ULF,3-2 (0-1),Asian handicap,SARPSBORG -0.25,1.91,,100,91.00,Win,Jeremy Price,Football,2013-05-09 13:20:06
-2013-05-09 15:30:00,Norway,Adeccoligaen,FREDRIKSTAD FK vs ULLENSAKER/KISA,2-2 (1-1),Asian handicap,FREDRIKSTAD FK -1.00,2.14,,100,-100.00,Lost,Jeremy Price,Football,2013-05-09 13:15:59
+2013-05-09 15:30:00,Norway,OBOS-ligaen,FREDRIKSTAD FK vs ULLENSAKER/KISA,2-2 (1-1),Asian handicap,FREDRIKSTAD FK -1.00,2.14,,100,-100.00,Lost,Jeremy Price,Football,2013-05-09 13:15:59
 2013-05-08 19:30:00,Germany,Regionalliga West,RW OBERHAUSEN vs SF LOTTE,1-0 (0-0),Asian handicap,RW OBERHAUSEN +0.50,2.05,,100,105.00,Win,Jeremy Price,Football,2013-05-07 08:53:26
 2013-05-08 17:00:00,Portugal,Liga Vitalis,CD TONDELA vs ATLETICO CP,2-1 (2-1),Asian handicap,CD TONDELA -0.50,2.08,,100,108.00,Win,Jeremy Price,Football,2013-05-08 09:09:20
 2013-05-07 20:45:00,England,Premier League,WIGAN ATHLETIC vs SWANSEA CITY,2-3 (1-0),Asian handicap,WIGAN ATHLETIC -1.00,2.63,,100,-100.00,Lost,Jeremy Price,Football,2013-05-07 11:35:50
@@ -1173,7 +1182,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-04-09 20:45:00,England,Blue Square Premier,NEWPORT COUNTY vs BRAINTREE TOWN,1-0 (0-0),Asian handicap,NEWPORT COUNTY -0.75,2.07,,100,53.50,Half win,Jeremy Price,Football,2013-04-08 11:02:05
 2013-04-09 19:30:00,Germany,Regionalliga West,VFL BOCHUM II vs BERGISCH GLADBACH,1-1 (1-0),Asian handicap,BERGISCH GLADBACH +0,3.20,,70,0.00,Void,Jeremy Price,Football,2013-04-09 13:49:25
 2013-04-07 15:00:00,Germany,Regionalliga North,BSV REHDEN vs HAMBURGER SV II,4-1 (2-0),Asian handicap,BSV REHDEN -0.50,1.81,,100,81.00,Win,Jeremy Price,Football,2013-04-07 11:19:39
-2013-04-07 15:00:00,Denmark,Viasat Sport Divisionen,HJORRING FC vs HOBRO IK,3-1 (0-1),Match Odds,HJORRING FC,2.52,,100,152.00,Win,Jeremy Price,Football,2013-04-07 10:44:55
+2013-04-07 15:00:00,Denmark,Bet25 Liga,HJORRING FC vs HOBRO IK,3-1 (0-1),Match Odds,HJORRING FC,2.52,,100,152.00,Win,Jeremy Price,Football,2013-04-07 10:44:55
 2013-04-07 13:30:00,Turkey,"2. Lig, Beyaz Grup",BAYRAMPASA vs C. SEKERSPOR,2-1 (1-1),Match Odds,BAYRAMPASA,2.05,,100,105.00,Win,Jeremy Price,Football,2013-04-07 11:26:18
 2013-04-07 01:30:00,Chile,"Primera Division, Torneo Transicion",O`HIGGINS FC vs COBRESAL,2-2 (2-1),Asian handicap,O'HIGGINS -1.25,2.04,,100,-100.00,Lost,Jeremy Price,Football,2013-04-06 17:45:04
 2013-04-06 23:00:00,Chile,"Primera Division, Torneo Transicion",UNIVERSIDAD CATOLICA vs UNION ESPANOLA,1-3 (0-0),Match Odds,UNIVERSIDAD CATOLICA,2.46,,100,-100.00,Lost,Jeremy Price,Football,2013-04-06 17:40:33
@@ -1183,7 +1192,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-04-06 14:00:00,Germany,Regionalliga West,SSVG VELBERT vs FC KRAY,1-1 (1-0),Asian handicap,SSVG VELBERT -1.00,2.08,,100,-100.00,Lost,Jeremy Price,Football,2013-04-06 01:54:11
 2013-04-06 07:00:00,Japan,League 1,SAGAN TOSU vs SHIMIZU S-PULSE,0-1 (0-0),Match Odds,SAGAN TOSU,2.14,,100,-100.00,Lost,Jeremy Price,Football,2013-04-04 10:03:39
 2013-04-05 18:30:00,Austria,ADEG Erste Liga,SCR ALTACH vs TSV HARTBERG,2-0 (1-0),Over / Under,Under +2.50,2.10,,100,110.00,Win,Jeremy Price,Football,2013-04-04 10:18:35
-2013-04-04 19:00:00,Denmark,Viasat Sport Divisionen,BRONSHOJ BK vs HJORRING FC,0-0 (0-0),Asian handicap,HJORRING FC +1.00,1.74,,100,74.00,Win,Jeremy Price,Football,2013-04-04 09:55:23
+2013-04-04 19:00:00,Denmark,Bet25 Liga,BRONSHOJ BK vs HJORRING FC,0-0 (0-0),Asian handicap,HJORRING FC +1.00,1.74,,100,74.00,Win,Jeremy Price,Football,2013-04-04 09:55:23
 2013-04-04 01:30:00,Brazil,Copa do Brasil,NOROESTE SP vs CRICIUMA SC,0-0 (0-0),Match Odds,CRICIUMA SC,2.10,,100,-100.00,Lost,Jeremy Price,Football,2013-04-02 12:52:18
 2013-04-03 13:30:00,International,AFC Asian Cup,SAIGON XUAN THANH vs SELANGOR FC,2-1 (1-0),Asian handicap,SELANGOR FC +1.00,1.88,,100,0.00,Void,Jeremy Price,Football,2013-04-03 11:03:40
 2013-04-03 00:15:00,Copa Libertadores,Copa Libertadores,REAL GARCILASO vs DEPORTES TOLIMA,0-3 (0-0),Asian handicap,DEPORTES TOLIMA -0.50,1.89,,100,89.00,Win,Jeremy Price,Football,2013-04-02 14:48:10

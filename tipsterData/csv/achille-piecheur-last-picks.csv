@@ -1,4 +1,19 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-17 11:45:00,International Clubs,"AFC Champions League, Knockout stage",MELBOURNE VICTORY vs JEONBUK HYUNDAI,1-1 (1-1),Over / Under 1st Half Team,JEONBUK HYUNDAI Under +0.50,1.70,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-16 16:41:02
+2016-05-16 18:30:00,Russia,Premier League,CSKA MOSCOW vs FC KRASNODAR,2-0 (1-0),Asian handicap,CSKA MOSCOW -0.75,1.99,,100,99.00,Win,Achille Piecheur,Football,2016-05-16 09:22:03
+2016-05-16 16:00:00,Denmark,Superliga,FC COPENHAGEN vs FC NORDSJALLAND,2-0 (0-0),Asian handicap,FC COPENHAGEN -1.50,1.85,,100,85.00,Win,Achille Piecheur,Football,2016-05-16 10:18:03
+2016-05-15 16:00:00,England,Premier League,EVERTON FC vs NORWICH CITY,3-0 (2-0),Asian handicap,EVERTON FC -0.75,1.88,,100,88.00,Win,Achille Piecheur,Football,2016-05-15 14:30:09
+2016-05-15 16:00:00,England,Premier League,CHELSEA FC vs LEICESTER CITY,1-1 (0-0),Asian handicap,CHELSEA FC -0.50,2.32,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-15 14:29:07
+2016-05-15 13:30:00,Scotland,Premier League,ABERDEEN FC vs ROSS COUNTY FC,0-4 (0-2),Asian Handicap 1st Half,ABERDEEN FC -0.50 Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-15 09:40:02
+2016-05-14 17:00:00,Italy,Serie A,JUVENTUS TURIN vs SAMPDORIA GENOA,5-0 (3-0),Over / Under Team,SAMPDORIA GENOA Under +0.50,2.13,,100,113.00,Win,Achille Piecheur,Football,2016-05-14 10:43:02
+2016-05-14 11:00:00,Australia,Brisbane Premier League,CAPALABA FC vs UQ FC,5-2 (3-1),Asian Handicap 1st Half,CAPALABA FC -0.50 Half time,2.03,,100,103.00,Win,Achille Piecheur,Football,2016-05-14 09:31:04
+2016-05-14 11:00:00,Australia,Victoria Premier League,HUME CITY vs PORT MELBOURNE SHARKS,4-1,Match Odds,HUME CITY,2.10,,100,110.00,Win,Achille Piecheur,Football,2016-05-14 09:24:02
+2016-05-13 20:30:00,Italy,Serie B,PERUGIA vs PRO VERCELLI,1-2 (0-1),Match Odds,PRO VERCELLI,2.46,,100,146.00,Win,Achille Piecheur,Football,2016-05-13 15:47:02
+2016-05-13 12:30:00,Australia,Victoria Premier League,SOUTH MELBOURNE vs PASCOE VALE,0-1 (0-0),Asian Handicap 1st Half,SOUTH MELBOURNE -0.75 Half time,1.84,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-13 09:40:08
+2016-05-13 12:15:00,Australia,Victoria Premier League,BENTLEIGH GREENS vs NORTHCOTE CITY,5-0 (2-0),Asian Handicap 1st Half,BENTLEIGH GREENS -1.50 Half time,2.75,,100,175.00,Win,Achille Piecheur,Football,2016-05-13 09:37:02
+2016-05-13 02:45:00,Copa Libertadores,Copa Libertadores,CA ROSARIO CENTRAL vs ATLETICO NACIONAL MEDELLIN,1-0 (1-0),Asian handicap,CA ROSARIO CENTRAL -0.50,1.93,,100,93.00,Win,Achille Piecheur,Football,2016-05-12 15:06:02
+2016-05-12 20:45:00,England,League Two,PORTSMOUTH FC vs PLYMOUTH ARGYLE,2-2 (1-2),Match Odds 1st Half,Draw Half time,2.08,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-12 09:35:09
+2016-05-12 19:00:00,Norway,Tippeligaen,SOGNDAL IL vs TROMSO IL,0-0 (0-0),Asian handicap,SOGNDAL IL -0.50,1.81,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-12 14:54:01
 2016-05-09 21:00:00,Portugal,Liga Sagres,GD ESTORIL PRAIA vs FC AROUCA,1-1 (0-1),Asian handicap,GD ESTORIL PRAIA -0.50,2.11,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-09 09:27:04
 2016-05-08 20:45:00,Italy,Serie A,HELLAS VERONA vs JUVENTUS TURIN,2-1 (1-0),Asian handicap,JUVENTUS TURIN -0.75,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2016-05-08 17:34:01
 2016-05-08 14:30:00,Netherlands,Eredivisie,PEC ZWOLLE vs PSV EINDHOVEN,1-3 (0-2),Asian Handicap 1st Half,PSV EINDHOVEN -0.50 Half time,1.87,,100,87.00,Win,Achille Piecheur,Football,2016-05-08 10:57:04
@@ -71,7 +86,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-16 23:30:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",BOCA JUNIORS vs CA ALDOSIVI,4-1 (1-1),Asian Handicap 1st Half,BOCA JUNIORS -0.50 Half time,2.17,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 21:14:02
 2016-04-16 20:00:00,France,Ligue 1,TROYES AC vs STADE REIMS,2-1 (0-0),Asian handicap,STADE REIMS -0.75,1.89,,100,-100.00,Lost,Achille Piecheur,Football,2016-04-16 09:27:03
 2016-04-16 18:30:00,Russia,Premier League,ZENIT ST PETERSBURG vs FC SPARTAK MOSCOW,5-2 (1-2),Asian handicap,ZENIT ST PETERSBURG -0.75,1.85,,100,85.00,Win,Achille Piecheur,Football,2016-04-16 11:06:02
-2016-04-16 18:00:00,Norway,Eliteserien,ROSENBORG BK vs SK BRANN,3-0 (1-0),Asian Handicap 1st Half,ROSENBORG BK -0.75 Half time,2.08,,100,54.00,Half win,Achille Piecheur,Football,2016-04-16 15:59:02
+2016-04-16 18:00:00,Norway,Tippeligaen,ROSENBORG BK vs SK BRANN,3-0 (1-0),Asian Handicap 1st Half,ROSENBORG BK -0.75 Half time,2.08,,100,54.00,Half win,Achille Piecheur,Football,2016-04-16 15:59:02
 2016-04-16 17:00:00,France,Ligue 1,PARIS ST GERMAIN vs SM CAEN,6-0 (2-0),Asian Handicap 1st Half,PARIS ST GERMAIN -0.75 Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2016-04-16 15:56:01
 2016-04-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs SWANSEA CITY,3-0 (1-0),Match Odds,NEWCASTLE UNITED,2.37,,100,137.00,Win,Achille Piecheur,Football,2016-04-16 14:52:06
 2016-04-16 16:00:00,Spain,Liga BBVA,GETAFE CF vs REAL MADRID,1-5 (0-2),Asian Handicap 1st Half,REAL MADRID -0.75 Half time,1.81,,100,81.00,Win,Achille Piecheur,Football,2016-04-16 10:58:03
@@ -331,7 +346,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-21 13:45:00,England,Premier League,WATFORD FC vs MANCHESTER UNITED,1-2 (0-1),Match Odds,MANCHESTER UNITED,2.08,,100,108.00,Win,Achille Piecheur,Football,2015-11-21 10:28:14
 2015-11-20 20:00:00,France,Ligue 2,US CRETEIL vs AS NANCY,0-3 (0-1),Both team to score,Yes,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-19 10:40:06
 2015-11-20 18:00:00,Croatia,1. HNL,NK SLAVEN BELUPO vs NK DINAMO ZAGREB,1-2 (1-1),Match Odds 1st Half,NK DINAMO ZAGREB Half time,2.02,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-20 11:29:02
-2015-11-19 20:30:00,Denmark,Viasat Sport Divisionen,LYNGBY BK vs VEJLE BK,1-0 (1-0),Over / Under,Over +2.50,1.78,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-19 18:00:12
+2015-11-19 20:30:00,Denmark,Bet25 Liga,LYNGBY BK vs VEJLE BK,1-0 (1-0),Over / Under,Over +2.50,1.78,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-19 18:00:12
 2015-11-19 10:00:00,Australia,Hyundai A-League,MELBOURNE VICTORY vs CENTRAL COAST MARINERS FC,2-1 (2-0),Match Odds 1st Half,MELBOURNE VICTORY Half time,1.80,,100,80.00,Win,Achille Piecheur,Football,2015-11-18 09:32:03
 2015-11-18 16:30:00,International Youth,U19 European Championship,LATVIA vs SLOVENIA,0-0 (0-0),Match Odds,SLOVENIA,1.60,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-18 11:41:03
 2015-11-17 19:15:00,International,International Friendly Games,TURKEY vs GREECE,0-0 (0-0),Match Odds,TURKEY,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-17 09:56:03
@@ -347,8 +362,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-12 20:45:00,International,"Euro Cup Qualification, Playoffs",NORWAY vs HUNGARY,0-1 (0-1),Over / Under Team,HUNGARY Under +0.75,1.70,,100,-50.00,Half lost,Achille Piecheur,Football,2015-11-12 09:25:03
 2015-11-12 18:15:00,International Youth,U21 Euro Qualification,PORTUGAL vs ALBANIA,4-0 (1-0),Asian handicap,PORTUGAL -2.25,1.86,,100,86.00,Win,Achille Piecheur,Football,2015-11-12 15:33:21
 2015-11-08 22:15:00,Argentina,Primera Division,ATLETICO DE RAFAELA vs CA SAN LORENZO,0-1 (0-1),Match Odds,CA SAN LORENZO,1.85,,100,85.00,Win,Achille Piecheur,Football,2015-11-07 10:43:10
-2015-11-08 18:00:00,Norway,Eliteserien,IK START vs MOLDE FK,0-3 (0-2),Over / Under,Over +3.50,2.20,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-08 10:17:03
-2015-11-08 18:00:00,Norway,Eliteserien,BODO/GLIMT vs STABAEK FOTBALL,6-1 (0-1),Over / Under,Over +3.50,2.13,,100,113.00,Win,Achille Piecheur,Football,2015-11-08 10:15:02
+2015-11-08 18:00:00,Norway,Tippeligaen,IK START vs MOLDE FK,0-3 (0-2),Over / Under,Over +3.50,2.20,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-08 10:17:03
+2015-11-08 18:00:00,Norway,Tippeligaen,BODO/GLIMT vs STABAEK FOTBALL,6-1 (0-1),Over / Under,Over +3.50,2.13,,100,113.00,Win,Achille Piecheur,Football,2015-11-08 10:15:02
 2015-11-08 16:15:00,Greece,Super League,PAOK FC vs PANTHRAKIKOS FC KOMOTINI,3-3 (1-2),Match Odds 1st Half,PANTHRAKIKOS FC KOMOTINI Half time,7.00,,100,600.00,Win,Achille Piecheur,Football,2015-11-08 13:07:03
 2015-11-08 16:15:00,Greece,Super League,PAOK FC vs PANTHRAKIKOS FC KOMOTINI,3-3 (1-2),Asian Handicap 1st Half,PANTHRAKIKOS FC KOMOTINI +0.25 Half time,2.38,,100,138.00,Win,Achille Piecheur,Football,2015-11-08 12:44:10
 2015-11-08 16:05:00,Argentina,Primera B Nacional,ALMIRANTE BROWN vs DEFENSORES DE BELGRANO,0-0 (0-0),Match Odds,DEFENSORES DE BELGRANO,1.85,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-07 17:49:20
@@ -379,7 +394,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-01 22:00:00,Argentina,Primera Division,BOCA JUNIORS vs CA TIGRE,1-0 (1-0),Asian handicap,BOCA JUNIORS -1.00,1.83,,100,0.00,Void,Achille Piecheur,Football,2015-11-01 19:00:15
 2015-11-01 22:00:00,Argentina,Primera Division,CA BANFIELD vs CA ROSARIO CENTRAL,2-1 (2-0),Asian handicap,CA ROSARIO CENTRAL -0.25,1.99,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-01 18:22:13
 2015-11-01 21:00:00,USA,Major League Soccer,DC UNITED vs NY RED BULLS,0-1 (0-0),Over / Under Team,NY RED BULLS Over +1.50,2.08,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-01 14:14:05
-2015-11-01 18:00:00,Norway,Eliteserien,STABAEK FOTBALL vs IK START,3-2 (1-1),Over / Under,Over +4.50,3.75,,100,275.00,Win,Achille Piecheur,Football,2015-11-01 14:18:26
+2015-11-01 18:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs IK START,3-2 (1-1),Over / Under,Over +4.50,3.75,,100,275.00,Win,Achille Piecheur,Football,2015-11-01 14:18:26
 2015-11-01 16:15:00,Greece,Super League,PAS GIANNINA FC vs PANTHRAKIKOS FC KOMOTINI,2-0 (0-0),Asian handicap,PAS GIANNINA FC -0.75,1.74,,100,74.00,Win,Achille Piecheur,Football,2015-11-01 14:09:02
 2015-11-01 15:00:00,Italy,Serie A,UDINESE CALCIO vs US SASSUOLO,0-0 (0-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-01 11:48:06
 2015-11-01 14:00:00,France,Ligue 1,OGC NICE vs LILLE OSC,0-0 (0-0),Over / Under,Over +2.25,1.90,,100,-100.00,Lost,Achille Piecheur,Football,2015-11-01 11:52:25
@@ -508,7 +523,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-27 18:00:00,Portugal,Liga Sagres,FC AROUCA vs CF OS BELENENSES,2-2 (0-1),Match Odds,Draw,3.08,,100,208.00,Win,Achille Piecheur,Football,2015-09-27 16:02:06
 2015-09-27 15:30:00,Germany,Bundesliga,EINTRACHT FRANKFURT vs HERTHA BSC,1-1 (1-0),Match Odds,EINTRACHT FRANKFURT,2.03,,100,-100.00,Lost,Achille Piecheur,Football,2015-09-27 13:46:03
 2015-09-27 15:00:00,Italy,Serie A,BOLOGNA FC vs UDINESE CALCIO,1-2 (1-0),Match Odds,Draw,3.23,,80,-80.00,Lost,Achille Piecheur,Football,2015-09-27 10:52:02
-2015-09-27 13:00:00,Denmark,SAS Ligaen,BRONDBY IF vs FC COPENHAGEN,1-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-09-27 11:53:07
+2015-09-27 13:00:00,Denmark,Superliga,BRONDBY IF vs FC COPENHAGEN,1-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-09-27 11:53:07
 2015-09-27 12:30:00,Italy,Serie A,GENOA FC vs AC MILAN,1-0 (1-0),Asian handicap,AC MILAN -0.25,2.15,,100,-100.00,Lost,Achille Piecheur,Football,2015-09-27 09:50:24
 2015-09-26 23:10:00,Argentina,Primera Division,CA TIGRE vs CA SAN LORENZO,1-1 (0-0),Match Odds,Draw,3.05,,80,164.00,Win,Achille Piecheur,Football,2015-09-26 17:56:04
 2015-09-26 20:00:00,France,Ligue 1,SC BASTIA vs TOULOUSE FC,3-0 (3-0),Both team to score,Yes,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-09-26 18:16:02
@@ -598,7 +613,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-30 18:00:00,Portugal,Liga Sagres,FC PACOS FERREIRA vs FC AROUCA,1-1 (1-1),Over / Under 1st Half,Under +0.50 Half time,2.60,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-30 16:44:26
 2015-08-30 18:00:00,Italy,Serie A,AS ROMA vs JUVENTUS TURIN,2-1 (0-0),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-08-30 16:40:07
 2015-08-30 17:00:00,Argentina,Primera B Nacional,CSD FLANDRIA vs ALMIRANTE BROWN,3-0 (1-0),Match Odds,Draw,2.75,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-30 15:45:20
-2015-08-30 15:30:00,Norway,Eliteserien,MOLDE FK vs LILLESTROM SK,2-2 (0-1),Both team to score,Yes,1.80,,100,80.00,Win,Achille Piecheur,Football,2015-08-30 13:32:04
+2015-08-30 15:30:00,Norway,Tippeligaen,MOLDE FK vs LILLESTROM SK,2-2 (0-1),Both team to score,Yes,1.80,,100,80.00,Win,Achille Piecheur,Football,2015-08-30 13:32:04
 2015-08-30 15:30:00,Germany,Bundesliga,BORUSSIA DORTMUND vs HERTHA BSC,3-1 (1-0),Asian Handicap 1st Half,BORUSSIA DORTMUND -1.00 Half time,2.05,,100,0.00,Void,Achille Piecheur,Football,2015-08-30 13:04:19
 2015-08-30 14:30:00,Netherlands,Eredivisie,VITESSE ARNHEM vs CAMBUUR LEEUWARDEN,4-1 (2-1),Match Odds 1st Half,VITESSE ARNHEM Half time,1.83,,100,83.00,Win,Achille Piecheur,Football,2015-08-30 13:18:04
 2015-08-30 12:30:00,Netherlands,Eredivisie,AJAX AMSTERDAM vs ADO DEN HAAG,4-0 (2-0),Asian handicap,AJAX AMSTERDAM -1.50,2.15,,100,115.00,Win,Achille Piecheur,Football,2015-08-30 04:12:03
@@ -769,14 +784,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-11 11:30:00,Australia,FFA Cup,NEWCASTLE UNITED JETS FC vs PERTH GLORY FC,5-6 (1-0),Match Odds,PERTH GLORY FC,2.28,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-10 23:51:02
 2015-08-10 21:00:00,England,Premier League,WEST BROMWICH ALBION vs MANCHESTER CITY,0-3 (0-2),Match Odds,MANCHESTER CITY,1.70,,100,70.00,Win,Achille Piecheur,Football,2015-08-10 15:20:10
 2015-08-10 19:15:00,Belarus,Vysshaya League,FC BATE BORISOV vs FC DINAMO MINSK,0-1 (0-1),Match Odds 1st Half,Draw Half time,2.05,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-10 12:25:03
-2015-08-10 19:00:00,Denmark,SAS Ligaen,AALBORG BK vs FC MIDTJYLLAND,0-2 (0-1),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-10 12:27:06
+2015-08-10 19:00:00,Denmark,Superliga,AALBORG BK vs FC MIDTJYLLAND,0-2 (0-1),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-10 12:27:06
 2015-08-10 02:30:00,Colombia,Apertura II,ALIANZA PETROLERA vs DEPORTIVO CALI,3-2 (2-1),Match Odds,Draw,3.31,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 23:42:03
 2015-08-10 01:00:00,USA,Major League Soccer,NY RED BULLS vs NEW YORK CITY FC,2-0 (1-0),Over / Under 1st Half,Over +1.50 Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 22:50:06
 2015-08-09 22:15:00,Colombia,Apertura II,UNIAUTONOMA vs ENVIGADO FC,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Achille Piecheur,Football,2015-08-09 20:50:07
 2015-08-09 22:00:00,USA,Major League Soccer,LA GALAXY vs SEATTLE SOUNDERS,3-1 (1-1),Over / Under,Over +4.50,6.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 19:03:10
 2015-08-09 21:45:00,Portugal,Supercup,BENFICA LISBON vs SPORTING CP,0-1 (0-0),Match Odds,Draw,3.31,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 18:05:06
 2015-08-09 19:00:00,Austria,tipp3-Bundesliga,SK RAPID VIENNA vs WOLFSBERGER AC,2-1 (0-1),Over / Under,Over +3.50,2.51,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 17:09:02
-2015-08-09 18:00:00,Norway,Eliteserien,STROMSGODSET vs STABAEK FOTBALL,0-2 (0-0),Over / Under,Over +3.50,2.41,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 16:31:03
+2015-08-09 18:00:00,Norway,Tippeligaen,STROMSGODSET vs STABAEK FOTBALL,0-2 (0-0),Over / Under,Over +3.50,2.41,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 16:31:03
 2015-08-09 17:00:00,France,Ligue 1,TOULOUSE FC vs AS SAINT ETIENNE,2-1 (1-1),Match Odds,Draw,3.14,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 14:31:10
 2015-08-09 16:00:00,Germany,DFB Pokal,FC NOTTINGEN vs BAYERN MUNICH,1-3 (1-3),Over / Under,Over +3.50,3.25,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 14:02:06
 2015-08-09 15:00:00,Russia,Premier League,FC UFA vs ZENIT ST PETERSBURG,0-1 (0-0),Match Odds 1st Half,ZENIT ST PETERSBURG Half time,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-08-09 13:40:10
@@ -866,9 +881,9 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-01 02:10:00,Argentina,Primera Division,CA TEMPERLEY vs VELEZ SARSFIELD,2-1 (0-1),Match Odds,Draw,3.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-31 21:42:03
 2015-07-31 23:00:00,Argentina,Primera Division,ATLETICO DE RAFAELA vs CA ALDOSIVI,2-1 (1-1),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2015-07-31 20:54:04
 2015-07-31 20:45:00,International Clubs,Club Friendly Games,WATFORD FC vs SEVILLA FC,0-1 (0-0),Over / Under,Over +2.50,1.67,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-31 12:38:08
-2015-07-31 20:30:00,Denmark,SAS Ligaen,FC MIDTJYLLAND vs ODENSE BK,1-0 (0-0),Over / Under,Over +2.50,1.84,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-31 19:02:05
+2015-07-31 20:30:00,Denmark,Superliga,FC MIDTJYLLAND vs ODENSE BK,1-0 (0-0),Over / Under,Over +2.50,1.84,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-31 19:02:05
 2015-07-31 19:00:00,Russia,Premier League,FC KUBAN KRASNODAR vs FC UFA,1-1 (1-0),Match Odds 1st Half,Draw Half time,2.05,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-31 05:12:03
-2015-07-31 18:00:00,Denmark,SAS Ligaen,VIBORG FF vs ESBJERG FB,2-1 (1-1),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-07-31 05:16:02
+2015-07-31 18:00:00,Denmark,Superliga,VIBORG FF vs ESBJERG FB,2-1 (1-1),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-07-31 05:16:02
 2015-07-31 01:30:00,International Clubs,Club Friendly Games,CA SAN LORENZO vs MALAGA CF,4-3 (0-0),Match Odds,Draw,3.30,,100,230.00,Win,Achille Piecheur,Football,2015-07-30 22:11:02
 2015-07-31 01:00:00,Chile,"Copa Chile, Group 7",COLO COLO vs HUACHIPATO,1-1 (1-1),Match Odds 1st Half,COLO COLO Half time,1.91,,80,-80.00,Lost,Achille Piecheur,Football,2015-07-30 22:31:02
 2015-07-31 01:00:00,Chile,"Copa Chile, Group 7",COLO COLO vs HUACHIPATO,1-1 (1-1),Over / Under,Over +2.50,1.72,,20,-20.00,Lost,Achille Piecheur,Football,2015-07-30 20:49:02
@@ -881,8 +896,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-30 03:00:00,Copa Libertadores,Copa Libertadores,UANL TIGRES vs RIVER PLATE,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Achille Piecheur,Football,2015-07-29 21:50:12
 2015-07-30 02:45:00,Colombia,"Copa Postobon, Knockout stage",CLUB ATLETICO JUNIOR vs ATLETICO NACIONAL MEDELLIN,2-0 (0-0),Match Odds 1st Half,Draw Half time,1.83,,100,83.00,Win,Achille Piecheur,Football,2015-07-29 23:03:12
 2015-07-30 00:30:00,Argentina,Copa Argentina,BOCA JUNIORS vs CA BANFIELD,3-0 (2-0),Over / Under,Over +3.50,4.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-29 22:13:04
-2015-07-29 22:00:00,Iceland,1 deild,THOR AKUREYRI vs BI/BOLUNGARVIK,6-1 (2-1),Over / Under 1st Half,Over +1.50 Half time,2.10,,50,55.00,Win,Achille Piecheur,Football,2015-07-29 20:29:07
-2015-07-29 22:00:00,Iceland,1 deild,THOR AKUREYRI vs BI/BOLUNGARVIK,6-1 (2-1),Over / Under,Over +3.50,2.15,,50,57.50,Win,Achille Piecheur,Football,2015-07-29 20:28:04
+2015-07-29 22:00:00,Iceland,"Iceland,Inkasso-deildin",THOR AKUREYRI vs BI/BOLUNGARVIK,6-1 (2-1),Over / Under 1st Half,Over +1.50 Half time,2.10,,50,55.00,Win,Achille Piecheur,Football,2015-07-29 20:29:07
+2015-07-29 22:00:00,Iceland,"Iceland,Inkasso-deildin",THOR AKUREYRI vs BI/BOLUNGARVIK,6-1 (2-1),Over / Under,Over +3.50,2.15,,50,57.50,Win,Achille Piecheur,Football,2015-07-29 20:28:04
 2015-07-29 21:05:00,European cups,UEFA Champions League,SK RAPID VIENNA vs AJAX AMSTERDAM,2-2 (0-2),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-29 19:29:01
 2015-07-29 20:30:00,European cups,UEFA Champions League,STEAUA BUCURESTI vs PARTIZAN BELGRADE,1-1 (0-0),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2015-07-29 17:07:33
 2015-07-29 19:00:00,European cups,UEFA Champions League,RB SALZBURG vs MALMO FF,2-0 (0-0),Over / Under,Over +4.50,4.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-29 13:08:03
@@ -909,15 +924,15 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-27 01:30:00,International,Concacaf Gold Cup,JAMAICA vs MEXICO,1-3 (0-1),Match Odds 1st Half,Draw Half time,1.95,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-26 22:43:03
 2015-07-27 01:00:00,USA,Major League Soccer,VANCOUVER WHITECAPS FC vs SAN JOSE EARTHQUAKES,3-1 (2-0),Match Odds,VANCOUVER WHITECAPS FC,1.68,,100,68.00,Win,Achille Piecheur,Football,2015-07-26 22:48:03
 2015-07-27 00:30:00,Chile,Primera Division,UNIVERSIDAD DE CHILE vs ANTOFAGASTA,1-1 (0-1),Over / Under,Over +4.50,4.33,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-26 22:55:03
-2015-07-26 20:00:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs ROSENBORG BK,1-2 (0-2),Over / Under 1st Half,Over +1.50 Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-07-26 07:36:03
+2015-07-26 20:00:00,Norway,Tippeligaen,SANDEFJORD FOTBALL vs ROSENBORG BK,1-2 (0-2),Over / Under 1st Half,Over +1.50 Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-07-26 07:36:03
 2015-07-26 19:00:00,Russia,Premier League,FC KRASNODAR vs FC SPARTAK MOSCOW,0-1 (0-1),Match Odds 1st Half,Draw Half time,2.25,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-26 15:33:02
-2015-07-26 18:00:00,Denmark,SAS Ligaen,ESBJERG FB vs FC COPENHAGEN,1-2 (0-2),Match Odds,FC COPENHAGEN,2.24,,100,124.00,Win,Achille Piecheur,Football,2015-07-26 07:27:02
+2015-07-26 18:00:00,Denmark,Superliga,ESBJERG FB vs FC COPENHAGEN,1-2 (0-2),Match Odds,FC COPENHAGEN,2.24,,100,124.00,Win,Achille Piecheur,Football,2015-07-26 07:27:02
 2015-07-26 12:30:00,International Clubs,Club Friendly Games,FC GRONINGEN vs RODA JC KERKRADE,2-1 (1-0),Over / Under,Over +3.50,2.64,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-25 23:02:07
 2015-07-26 03:00:00,USA,Major League Soccer,FC DALLAS vs PORTLAND TIMBERS,4-1 (2-0),Match Odds,FC DALLAS,2.12,,100,112.00,Win,Achille Piecheur,Football,2015-07-25 22:56:04
 2015-07-26 03:00:00,USA,Major League Soccer,HOUSTON DYNAMO vs LA GALAXY,3-0 (2-0),Over / Under,Over +4.50,7.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-25 22:47:02
 2015-07-25 20:30:00,Poland,Ekstraklasa,KKS LECH POZNAN vs KS LECHIA GDANSK,2-1 (1-0),Match Odds,KKS LECH POZNAN,1.88,,100,88.00,Win,Achille Piecheur,Football,2015-07-25 18:20:14
 2015-07-25 20:00:00,Romania,Liga 1,STEAUA BUCURESTI vs CFR CLUJ,1-1 (0-1),Match Odds,STEAUA BUCURESTI,1.65,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-25 18:53:10
-2015-07-25 18:00:00,Norway,Eliteserien,HAUGESUND FK vs STABAEK FOTBALL,2-2 (1-2),Over / Under,Over +2.50,1.70,,100,70.00,Win,Achille Piecheur,Football,2015-07-25 06:39:02
+2015-07-25 18:00:00,Norway,Tippeligaen,HAUGESUND FK vs STABAEK FOTBALL,2-2 (1-2),Over / Under,Over +2.50,1.70,,100,70.00,Win,Achille Piecheur,Football,2015-07-25 06:39:02
 2015-07-25 17:45:00,Switzerland,Axpo Super League,YOUNG BOYS BERN vs FC LUZERN,1-1 (1-1),Match Odds,YOUNG BOYS BERN,1.73,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-25 06:46:03
 2015-07-25 16:00:00,International Clubs,Club Friendly Games,CHARLTON ATHLETIC vs WEST HAM UTD,0-0 (0-0),Match Odds,WEST HAM UTD,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-25 06:53:03
 2015-07-24 21:00:00,International Clubs,Club Friendly Games,SSC NAPOLI vs AC FERALPI SALO,5-2 (4-1),Match Odds 1st Half,SSC NAPOLI Half time,1.53,,100,53.00,Win,Achille Piecheur,Football,2015-07-24 06:41:02
@@ -994,10 +1009,10 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-09 18:00:00,European cups,UEFA Europa League,IF ELFSBORG vs FC LAHTI,5-0 (3-0),Over / Under,Over +4.50,4.75,,100,375.00,Win,Achille Piecheur,Football,2015-07-09 15:58:06
 2015-07-09 02:00:00,Brazil,Brasilero Serie A,FIGUEIRENSE FC vs JOINVILLE SC,0-2 (0-1),Match Odds,FIGUEIRENSE FC,1.83,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-08 18:25:03
 2015-07-08 02:50:00,Brazil,Brasilero Serie B,CEARA CE vs BOTAFOGO RJ,0-0 (0-0),Match Odds,BOTAFOGO RJ,2.59,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-07 18:55:15
-2015-07-06 19:00:00,Norway,Adeccoligaen,HONEFOSS BK vs SANDNES ULF,0-1 (0-1),Match Odds,SANDNES ULF,2.17,,100,117.00,Win,Achille Piecheur,Football,2015-07-06 07:29:02
+2015-07-06 19:00:00,Norway,OBOS-ligaen,HONEFOSS BK vs SANDNES ULF,0-1 (0-1),Match Odds,SANDNES ULF,2.17,,100,117.00,Win,Achille Piecheur,Football,2015-07-06 07:29:02
 2015-07-06 05:00:00,USA,Major League Soccer,PORTLAND TIMBERS vs SAN JOSE EARTHQUAKES,1-0 (0-0),Over / Under,Over +2.50,2.01,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-05 23:09:07
 2015-07-06 01:00:00,International,"Euro Cup Women, Final Round",USA vs JAPAN,5-2 (4-1),Match Odds 1st Half,Draw Half time,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-05 23:09:24
-2015-07-05 20:00:00,Norway,Eliteserien,BODO/GLIMT vs ROSENBORG BK,1-0 (1-0),Over / Under 1st Half,Over +1.50 Half time,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-05 08:45:08
+2015-07-05 20:00:00,Norway,Tippeligaen,BODO/GLIMT vs ROSENBORG BK,1-0 (1-0),Over / Under 1st Half,Over +1.50 Half time,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-05 08:45:08
 2015-07-05 03:00:00,USA,Major League Soccer,COLORADO RAPIDS vs VANCOUVER WHITECAPS FC,2-1 (1-1),Match Odds,VANCOUVER WHITECAPS FC,3.31,,100,-100.00,Lost,Achille Piecheur,Football,2015-07-04 23:37:02
 2015-07-04 22:00:00,International,"Copa America, Final Round",CHILE vs ARGENTINA,4-1 (0-0),Match Odds 1st Half,Draw Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-07-04 10:18:15
 2015-07-02 03:00:00,Brazil,Brasilero Serie A,GREMIO RS vs CRUZEIRO MG,1-0 (0-0),Match Odds,GREMIO RS,1.95,,100,95.00,Win,Achille Piecheur,Football,2015-07-02 01:32:03
@@ -1058,10 +1073,10 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-06-09 19:00:00,International,International Friendly Games,LUXEMBOURG vs MOLDOVA,0-0 (0-0),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2015-06-09 11:57:02
 2015-06-07 23:15:00,Argentina,Primera Division,BOCA JUNIORS vs NEWELL'S OLD BOYS,4-0 (1-0),Match Odds,BOCA JUNIORS,1.70,,100,70.00,Win,Achille Piecheur,Football,2015-06-07 10:39:06
 2015-06-07 18:00:00,Spain,Liga Adelante,CD LEGANES vs REAL ZARAGOZA,2-2 (2-2),Match Odds,REAL ZARAGOZA,1.67,,100,-100.00,Lost,Achille Piecheur,Football,2015-06-07 10:41:03
-2015-06-07 18:00:00,Norway,Eliteserien,STABAEK FOTBALL vs BODO/GLIMT,3-2 (1-1),Match Odds,STABAEK FOTBALL,1.58,,100,58.00,Win,Achille Piecheur,Football,2015-06-07 10:39:15
+2015-06-07 18:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs BODO/GLIMT,3-2 (1-1),Match Odds,STABAEK FOTBALL,1.58,,100,58.00,Win,Achille Piecheur,Football,2015-06-07 10:39:15
 2015-06-06 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs FC BARCELONA,1-3 (0-1),Match Odds 1st Half,Draw Half time,2.30,,100,-100.00,Lost,Achille Piecheur,Football,2015-06-06 09:19:03
 2015-06-06 18:30:00,Italy,Serie B,FC MODENA vs VIRTUS ENTELLA,1-1 (1-1),Match Odds 1st Half,Draw Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-06-06 09:20:05
-2015-06-06 15:30:00,Norway,Eliteserien,VALERENGA IF vs ROSENBORG BK,1-2 (0-0),Over / Under,Over +4.50,3.25,,100,-100.00,Lost,Achille Piecheur,Football,2015-06-06 09:19:09
+2015-06-06 15:30:00,Norway,Tippeligaen,VALERENGA IF vs ROSENBORG BK,1-2 (0-0),Over / Under,Over +4.50,3.25,,100,-100.00,Lost,Achille Piecheur,Football,2015-06-06 09:19:09
 2015-06-05 20:30:00,Italy,Serie B,PESCARA CALCIO vs BOLOGNA FC,0-0 (0-0),Match Odds 1st Half,Draw Half time,2.00,,100,100.00,Win,Achille Piecheur,Football,2015-06-05 07:56:03
 2015-06-03 20:30:00,Poland,"Ekstraklasa, Championship Round",KS GORNIK ZABRZE vs KKS LECH POZNAN,1-6 (1-4),Match Odds,KKS LECH POZNAN,1.62,,100,62.00,Win,Achille Piecheur,Football,2015-06-03 17:14:03
 2015-06-03 19:30:00,Turkey,Turkish Cup,GALATASARAY ISTANBUL vs BURSASPOR,3-2 (1-1),Match Odds 1st Half,Draw Half time,2.30,,100,130.00,Win,Achille Piecheur,Football,2015-06-03 17:15:41
@@ -1071,7 +1086,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-31 18:00:00,Poland,"Ekstraklasa, Championship Round",KKS LECH POZNAN vs MKS POGON SZCZECIN,1-0 (1-0),Over / Under,Over +3.50,3.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-31 13:47:04
 2015-05-31 18:00:00,Spain,Liga Adelante,RACING SANTANDER vs SD PONFERRADINA,0-1 (0-0),Match Odds,RACING SANTANDER,2.01,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-31 13:43:02
 2015-05-29 19:00:00,Turkey,Turkcell Super Lig,BESIKTAS ISTANBUL vs GENCLERBIRLIGI,2-1 (1-0),Match Odds,BESIKTAS ISTANBUL,1.93,,100,93.00,Win,Achille Piecheur,Football,2015-05-29 09:58:03
-2015-05-25 18:00:00,Norway,Eliteserien,STABAEK FOTBALL vs ROSENBORG BK,2-3 (2-2),Over / Under,Over +4.50,4.33,,100,333.00,Win,Achille Piecheur,Football,2015-05-25 10:12:04
+2015-05-25 18:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs ROSENBORG BK,2-3 (2-2),Over / Under,Over +4.50,4.33,,100,333.00,Win,Achille Piecheur,Football,2015-05-25 10:12:04
 2015-05-25 16:00:00,England,Championship,MIDDLESBROUGH FC vs NORWICH CITY,0-2 (0-2),Match Odds,Draw,3.30,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-25 10:11:03
 2015-05-24 18:30:00,England,League One,PRESTON NORTH END vs SWINDON TOWN,4-0 (3-0),Match Odds,Draw,3.52,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-24 14:27:02
 2015-05-24 15:30:00,Germany,2. Bundesliga,FORTUNA DUSSELDORF vs FSV FRANKFURT,2-3 (2-2),Match Odds,FSV FRANKFURT,2.50,,100,150.00,Win,Achille Piecheur,Football,2015-05-24 14:26:04
@@ -1115,7 +1130,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-17 01:00:00,USA,Major League Soccer,VANCOUVER WHITECAPS FC vs SEATTLE SOUNDERS,0-2 (0-2),Match Odds,Draw,3.47,,80,-80.00,Lost,Achille Piecheur,Football,2015-05-16 23:32:54
 2015-05-16 21:00:00,France,Ligue 1,FC NANTES vs FC LORIENT,1-1 (1-1),Match Odds,Draw,3.15,,100,215.00,Win,Achille Piecheur,Football,2015-05-16 19:05:41
 2015-05-16 18:30:00,England,Premier League,LIVERPOOL FC vs CRYSTAL PALACE,1-3 (1-1),Match Odds,LIVERPOOL FC,1.50,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-16 17:11:03
-2015-05-16 18:00:00,Norway,Eliteserien,MOLDE FK vs STABAEK FOTBALL,3-3 (2-1),Both team to score,Yes,1.83,,100,83.00,Win,Achille Piecheur,Football,2015-05-16 16:03:07
+2015-05-16 18:00:00,Norway,Tippeligaen,MOLDE FK vs STABAEK FOTBALL,3-3 (2-1),Both team to score,Yes,1.83,,100,83.00,Win,Achille Piecheur,Football,2015-05-16 16:03:07
 2015-05-16 16:00:00,England,Premier League,WEST HAM UTD vs EVERTON FC,1-2 (0-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-16 13:01:07
 2015-05-16 15:00:00,Italy,Serie B,VIRTUS LANCIANO vs SPEZIA CALCIO,0-2 (0-1),Match Odds,Draw,3.07,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-16 10:25:04
 2015-05-16 12:00:00,Russia,1st Division,FC SIBIR NOVOSIBIRSK vs FC ANZHI MAKHACHKALA,0-2 (0-1),Match Odds,FC ANZHI MAKHACHKALA,1.73,,100,73.00,Win,Achille Piecheur,Football,2015-05-15 21:22:03
@@ -1127,7 +1142,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-14 21:05:00,European cups,UEFA Europa League,DNIPRO DNIPROPETROVSK vs SSC NAPOLI,1-0 (0-0),Both team to score,Yes,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-14 16:20:05
 2015-05-14 18:45:00,Turkey,Turkcell Super Lig,AKHISAR BLD SPOR vs BESIKTAS ISTANBUL,1-1 (1-0),Match Odds,BESIKTAS ISTANBUL,1.55,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-14 10:42:02
 2015-05-14 04:06:00,Mexico,"Primera Division, Clausura Playoffs",CF PACHUCA vs AMERICA DE MEXICO,3-2 (3-1),Match Odds,Draw,3.33,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-14 02:09:02
-2015-05-13 18:00:00,Norway,Eliteserien,STABAEK FOTBALL vs SANDEFJORD FOTBALL,4-0 (1-0),Match Odds 1st Half,STABAEK FOTBALL Half time,2.30,,100,130.00,Win,Achille Piecheur,Football,2015-05-13 07:29:02
+2015-05-13 18:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs SANDEFJORD FOTBALL,4-0 (1-0),Match Odds 1st Half,STABAEK FOTBALL Half time,2.30,,100,130.00,Win,Achille Piecheur,Football,2015-05-13 07:29:02
 2015-05-13 17:00:00,Greece,B'Ethniki,GS APOLLON SMYRNIS vs IRAKLIS 1908,1-0 (0-0),Match Odds,Draw,3.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-13 07:35:04
 2015-05-12 18:30:00,Austria,ADEG Erste Liga,SV MATTERSBURG vs AUSTRIA LUSTENAU,1-1 (1-0),Match Odds,SV MATTERSBURG,1.65,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-12 08:03:05
 2015-05-11 20:00:00,Netherlands,Eredivisie,FEYENOORD ROTTERDAM vs VITESSE ARNHEM,1-4 (1-3),Over / Under,Over +4.50,4.00,,100,300.00,Win,Achille Piecheur,Football,2015-05-11 07:55:02
@@ -1137,7 +1152,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-10 12:30:00,Italy,Serie A,AC CHIEVO VERONA vs HELLAS VERONA,2-2 (2-2),Match Odds 1st Half,Draw Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-05-10 08:32:03
 2015-05-10 12:00:00,Spain,Liga BBVA,LEVANTE UD vs ATLETICO MADRID,2-2 (1-1),Match Odds,Draw,4.08,,100,308.00,Win,Achille Piecheur,Football,2015-05-10 08:01:08
 2015-05-09 22:00:00,Spain,Liga BBVA,ATHLETIC BILBAO vs DEPORTIVO LA CORUNA,1-1 (1-0),Match Odds,DEPORTIVO LA CORUNA,5.64,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-09 20:52:04
-2015-05-09 18:00:00,Norway,Eliteserien,ROSENBORG BK vs LILLESTROM SK,3-0 (3-0),Over / Under,Over +5.50,6.00,,80,-80.00,Lost,Achille Piecheur,Football,2015-05-09 15:20:05
+2015-05-09 18:00:00,Norway,Tippeligaen,ROSENBORG BK vs LILLESTROM SK,3-0 (3-0),Over / Under,Over +5.50,6.00,,80,-80.00,Lost,Achille Piecheur,Football,2015-05-09 15:20:05
 2015-05-09 16:00:00,England,Premier League,ASTON VILLA vs WEST HAM UTD,1-0 (1-0),Match Odds,ASTON VILLA,1.91,,100,91.00,Win,Achille Piecheur,Football,2015-05-09 14:01:11
 2015-05-09 16:00:00,England,Premier League,STOKE CITY vs TOTTENHAM HOTSPUR,3-0 (2-0),Match Odds,TOTTENHAM HOTSPUR,2.50,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-09 12:38:03
 2015-05-09 13:45:00,England,Premier League,EVERTON FC vs SUNDERLAND AFC,0-2 (0-0),Match Odds,EVERTON FC,5.15,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-09 09:23:02
@@ -1156,14 +1171,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-05 20:45:00,European cups,UEFA Champions League,JUVENTUS TURIN vs REAL MADRID,2-1 (1-1),Match Odds,Draw,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-04 22:49:02
 2015-05-05 02:30:00,Bolivia,"Liga Profesional Boliviano, Clausura",ORIENTE PETROLERO vs THE STRONGEST,0-0 (0-0),Match Odds,Draw,3.60,,100,260.00,Win,Achille Piecheur,Football,2015-05-04 22:40:56
 2015-05-04 20:30:00,France,Ligue 2,STADE BREST vs DIJON FCO,0-0 (0-0),Match Odds,Draw,3.10,,100,210.00,Win,Achille Piecheur,Football,2015-05-04 07:25:04
-2015-05-04 19:00:00,Norway,Eliteserien,VIKING FK vs MOLDE FK,2-1 (1-1),Match Odds,MOLDE FK,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-04 17:20:28
+2015-05-04 19:00:00,Norway,Tippeligaen,VIKING FK vs MOLDE FK,2-1 (1-1),Match Odds,MOLDE FK,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-04 17:20:28
 2015-05-04 19:00:00,Turkey,Turkcell Super Lig,AKHISAR BLD SPOR vs GALATASARAY ISTANBUL,0-2 (0-2),Match Odds,GALATASARAY ISTANBUL,1.75,,100,75.00,Win,Achille Piecheur,Football,2015-05-04 07:36:03
 2015-05-04 15:30:00,Turkey,Bank Asya 1. Lig,ALTINORDU vs GAZIANTEP BLD SPOR,3-0 (1-0),Over / Under,Over +2.50,1.97,,100,97.00,Win,Achille Piecheur,Football,2015-05-04 07:45:04
 2015-05-04 02:30:00,Colombia,Apertura I,DEPORTIVO CALI vs BOYACA CHICO FC,3-0 (1-0),Over / Under,Over +2.50,2.08,,100,108.00,Win,Achille Piecheur,Football,2015-05-04 00:38:04
 2015-05-04 02:30:00,Argentina,Primera Division,UNION DE SANTA FE vs CA BELGRANO,1-1 (1-1),Match Odds,Draw,3.13,,100,213.00,Win,Achille Piecheur,Football,2015-05-03 22:02:07
 2015-05-04 00:00:00,Mexico,"Primera Division, Clausura",LEONES NEGROS UDG vs TIBURONES ROJOS DE VERACRUZ,1-2 (1-0),Match Odds,TIBURONES ROJOS DE VERACRUZ,3.12,,100,212.00,Win,Achille Piecheur,Football,2015-05-03 21:53:03
 2015-05-03 23:15:00,Argentina,Primera Division,BOCA JUNIORS vs RIVER PLATE,2-0 (0-0),Match Odds,BOCA JUNIORS,2.58,,100,158.00,Win,Achille Piecheur,Football,2015-05-03 21:42:50
-2015-05-03 20:00:00,Norway,Eliteserien,ODDS BK vs ROSENBORG BK,1-2 (1-1),Over / Under,Over +3.00,2.02,,100,0.00,Void,Achille Piecheur,Football,2015-05-03 18:02:08
+2015-05-03 20:00:00,Norway,Tippeligaen,ODDS BK vs ROSENBORG BK,1-2 (1-1),Over / Under,Over +3.00,2.02,,100,0.00,Void,Achille Piecheur,Football,2015-05-03 18:02:08
 2015-05-03 17:30:00,Russia,Premier League,FC TORPEDO MOSCOW vs FC RUBIN KAZAN,2-2 (0-1),Match Odds 1st Half,Draw Half time,2.05,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-03 16:12:05
 2015-05-03 17:00:00,Portugal,Liga Sagres,BOAVISTA FC vs MOREIRENSE FC,3-1 (1-0),Match Odds,Draw,3.12,,100,-100.00,Lost,Achille Piecheur,Football,2015-05-03 14:25:53
 2015-05-03 17:00:00,Spain,Liga BBVA,GETAFE CF vs GRANADA CF,1-2 (1-1),Match Odds 1st Half,Draw Half time,2.05,,100,105.00,Win,Achille Piecheur,Football,2015-05-03 14:20:11
@@ -1227,7 +1242,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-04-21 03:00:00,Colombia,Apertura I,BOYACA CHICO FC vs AGUILAS DORADAS,0-1 (0-0),Over / Under,Under +2.50,1.62,,100,62.00,Win,Achille Piecheur,Football,2015-04-20 22:51:02
 2015-04-20 20:45:00,Italy,"Lega Pro, Girone A",NOVARA CALCIO vs GIANA ERMINIO,2-0 (0-0),Match Odds,NOVARA CALCIO,1.50,,100,50.00,Win,Achille Piecheur,Football,2015-04-20 07:03:07
 2015-04-20 20:15:00,Germany,2. Bundesliga,1 FC KAISERSLAUTERN vs RB LEIPZIG,1-1 (1-1),Match Odds,1 FC KAISERSLAUTERN,1.97,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-20 06:54:03
-2015-04-20 18:50:00,Bahrain,Premier League,AL RIFFA vs BUSAITEEN,3-1 (1-0),Match Odds,AL RIFFA,1.67,,100,67.00,Win,Achille Piecheur,Football,2015-04-20 00:14:02
+2015-04-20 18:50:00,Bahrain,Bahrain Premier League,AL RIFFA vs BUSAITEEN,3-1 (1-0),Match Odds,AL RIFFA,1.67,,100,67.00,Win,Achille Piecheur,Football,2015-04-20 00:14:02
 2015-04-20 02:30:00,Argentina,Primera Division,ATLETICO LANUS vs BOCA JUNIORS,1-3 (1-1),Match Odds 1st Half,BOCA JUNIORS Half time,3.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-20 00:06:03
 2015-04-20 01:30:00,Bolivia,"Liga Profesional Boliviano, Clausura",CA NACIONAL POTOSI vs ORIENTE PETROLERO,1-0 (1-0),Match Odds,ORIENTE PETROLERO,3.21,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-20 00:18:03
 2015-04-19 21:00:00,Spain,Liga BBVA,SD EIBAR vs CELTA DE VIGO,0-1 (0-1),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-19 18:28:03
@@ -1303,7 +1318,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-04-09 20:30:00,Romania,Liga 1,STEAUA BUCURESTI vs FC PETROLUL PLOIESTI,0-1 (0-0),Match Odds 1st Half,STEAUA BUCURESTI Half time,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-09 19:27:12
 2015-04-09 19:00:00,Russia,Premier League,FC ROSTOV vs FC UFA,2-0 (0-0),Match Odds 1st Half,Draw Half time,1.91,,100,91.00,Win,Achille Piecheur,Football,2015-04-09 17:09:07
 2015-04-09 18:15:00,Romania,Liga 1,CS PANDURII TARGU JIU vs AFC ASTRA GIURGIU,1-1 (0-0),Over / Under,Under +2.50,1.91,,100,91.00,Win,Achille Piecheur,Football,2015-04-09 07:44:04
-2015-04-09 16:30:00,Bahrain,Premier League,AL-HALA MUHARRAQ vs AL RIFFA,1-2 (1-0),Match Odds,AL-HALA MUHARRAQ,1.50,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-09 07:48:02
+2015-04-09 16:30:00,Bahrain,Bahrain Premier League,AL-HALA MUHARRAQ vs AL RIFFA,1-2 (1-0),Match Odds,AL-HALA MUHARRAQ,1.50,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-09 07:48:02
 2015-04-09 16:00:00,Greece,Greece Cup,IRAKLIS 1908 vs SKODA XANTHI FC,0-1 (0-1),Over / Under,Under +2.50,1.62,,100,62.00,Win,Achille Piecheur,Football,2015-04-09 07:57:03
 2015-04-09 03:00:00,Brazil,Carioca,BOTAFOGO RJ vs MACAE ESPORTE RJ,1-0 (1-0),Match Odds 1st Half,BOTAFOGO RJ Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-04-08 23:52:06
 2015-04-09 03:00:00,Brazil,Paulista Serie A1,RED BULL BRASIL SP vs ATLETICO LINENSE SP,0-1 (0-0),Match Odds,RED BULL BRASIL SP,1.94,,100,-100.00,Lost,Achille Piecheur,Football,2015-04-08 23:45:02
@@ -1438,7 +1453,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-03-06 18:30:00,Austria,ADEG Erste Liga,TSV HARTBERG vs SV HORN,1-1 (0-1),Over / Under 1st Half,Under +0.50 Half time,3.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-06 16:14:05
 2015-03-06 18:30:00,Germany,2. Bundesliga,1 FC NUREMBERG vs 1 FC HEIDENHEIM,0-1 (0-1),Over / Under,Over +2.50,2.02,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-06 16:09:02
 2015-03-05 21:15:00,Portugal,Taca de Portugal,CD NACIONAL vs SPORTING CP,2-2 (0-0),Match Odds 1st Half,Draw Half time,2.10,,100,110.00,Win,Achille Piecheur,Football,2015-03-05 20:14:06
-2015-03-05 20:30:00,Denmark,Ekstra Bladet Cup,ESBJERG FB vs AALBORG BK,4-2 (0-2),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-05 08:38:03
+2015-03-05 20:30:00,Denmark,Landspokal Cup,ESBJERG FB vs AALBORG BK,4-2 (0-2),Match Odds 1st Half,Draw Half time,2.10,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-05 08:38:03
 2015-03-05 20:00:00,Poland,Puchar Polski,LEGIA WARSAW vs WKS SLASK WROCLAW,4-2 (0-1),Match Odds,LEGIA WARSAW,1.80,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-05 08:19:03
 2015-03-05 19:00:00,France,Coupe de France,STADE BREST vs AJ AUXERRE,2-4 (0-0),Over / Under 1st Half,Under +0.50 Half time,2.38,,100,138.00,Win,Achille Piecheur,Football,2015-03-05 08:25:05
 2015-03-04 20:45:00,Scotland,Third Division,ARBROATH FC vs EAST STIRLING,0-1 (0-0),Match Odds,ARBROATH FC,1.54,,100,-100.00,Lost,Achille Piecheur,Football,2015-03-04 09:23:03
@@ -1489,7 +1504,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-02-22 20:45:00,Italy,Serie A,AC FIORENTINA vs TURIN FC,1-1 (0-0),Match Odds,AC FIORENTINA,1.91,,100,-100.00,Lost,Achille Piecheur,Football,2015-02-22 19:16:05
 2015-02-22 17:00:00,France,Ligue 1,OLYMPIQUE LYON vs FC NANTES,1-0 (0-0),Match Odds,OLYMPIQUE LYON,1.58,,100,58.00,Win,Achille Piecheur,Football,2015-02-22 10:38:03
 2015-02-22 16:00:00,Switzerland,Axpo Super League,YOUNG BOYS BERN vs FC BASEL,4-2 (2-0),Both team to score,Yes,1.62,,100,62.00,Win,Achille Piecheur,Football,2015-02-22 12:07:03
-2015-02-22 14:00:00,Denmark,SAS Ligaen,SONDERJYSKE vs HOBRO IK,1-0 (0-0),Match Odds,Draw,3.40,,80,-80.00,Lost,Achille Piecheur,Football,2015-02-22 12:20:20
+2015-02-22 14:00:00,Denmark,Superliga,SONDERJYSKE vs HOBRO IK,1-0 (0-0),Match Odds,Draw,3.40,,80,-80.00,Lost,Achille Piecheur,Football,2015-02-22 12:20:20
 2015-02-21 18:00:00,Italy,Serie B,AS BARI vs VIRTUS LANCIANO,2-0 (2-0),Over / Under,Over +2.75,2.82,,80,-80.00,Lost,Achille Piecheur,Football,2015-02-21 09:26:03
 2015-02-21 16:00:00,England,Premier League,SWANSEA CITY vs MANCHESTER UTD,2-1 (1-1),Both team to score,Yes,1.80,,100,80.00,Win,Achille Piecheur,Football,2015-02-21 09:21:02
 2015-02-21 15:30:00,Germany,Bundesliga,FC SCHALKE 04 vs WERDER BREMEN,1-1 (0-0),Match Odds,FC SCHALKE 04,2.05,,100,-100.00,Lost,Achille Piecheur,Football,2015-02-21 09:16:03
@@ -1513,7 +1528,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-02-13 20:30:00,Germany,Bundesliga,BORUSSIA DORTMUND vs 1 FSV MAINZ 05,4-2 (0-1),Over / Under,Over +2.50,1.61,,100,61.00,Win,Achille Piecheur,Football,2015-02-13 19:03:05
 2015-02-13 20:00:00,France,Ligue 2,LB CHATEAUROUX vs AC AJACCIO,0-0 (0-0),Over / Under 1st Half,Under +0.50 Half time,2.50,,100,150.00,Win,Achille Piecheur,Football,2015-02-13 18:53:03
 2015-02-13 20:00:00,France,Ligue 2,STADE LAVALLOIS MFC vs US ORLEANS 45,1-1 (1-1),Match Odds 1st Half,Draw Half time,1.95,,100,95.00,Win,Achille Piecheur,Football,2015-02-13 08:57:02
-2015-02-13 16:30:00,Bahrain,Premier League,AL-SHABBAB vs BAHRAIN SC,0-0 (0-0),Match Odds,BAHRAIN SC,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-02-13 09:37:02
+2015-02-13 16:30:00,Bahrain,Bahrain Premier League,AL-SHABBAB vs BAHRAIN SC,0-0 (0-0),Match Odds,BAHRAIN SC,2.00,,100,-100.00,Lost,Achille Piecheur,Football,2015-02-13 09:37:02
 2015-02-13 09:40:00,Australia,Hyundai A-League,CENTRAL COAST MARINERS FC vs BRISBANE ROAR FC,0-2 (0-0),Over / Under,Over +2.50,1.97,,100,-100.00,Lost,Achille Piecheur,Football,2015-02-12 18:03:07
 2015-02-12 20:00:00,Brazil,Carioca,NOVA IGUACU RJ vs VOLTA REDONDA RJ,1-2 (0-1),Match Odds,Draw,3.39,,80,-80.00,Lost,Achille Piecheur,Football,2015-02-12 10:11:02
 2015-02-11 20:45:00,England,Premier League,MANCHESTER UTD vs BURNLEY FC,3-1 (2-1),Over / Under,Over +3.00,2.06,,100,106.00,Win,Achille Piecheur,Football,2015-02-11 09:06:03

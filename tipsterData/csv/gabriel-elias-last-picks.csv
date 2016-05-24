@@ -1,4 +1,24 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-17 20:45:00,England,Championship,HULL CITY vs DERBY COUNTY,0-2 (0-2),Match Odds,Draw,3.52,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-17 06:34:02
+2016-05-16 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs SHEFFIELD WEDNESDAY,1-1 (1-1),Match Odds,Draw,3.50,,60,150.00,Win,Gabriel Elias,Football,2016-05-14 22:00:01
+2016-05-16 18:00:00,Norway,Tippeligaen,ODDS BK vs MOLDE FK,2-0 (0-0),Match Odds,ODDS BK,2.35,,60,81.00,Win,Gabriel Elias,Football,2016-05-14 21:59:02
+2016-05-16 17:00:00,Romania,"Liga 1,Relegation round",FC PETROLUL PLOIESTI vs ACS POLI TIMISOARA,3-2 (2-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-14 21:58:03
+2016-05-16 00:00:00,Colombia,Apertura I,DEPORTIVO LA EQUIDAD vs MILLONARIOS FC,0-3 (0-2),Match Odds,Draw,3.70,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-14 22:03:02
+2016-05-15 22:15:00,Colombia,Apertura I,BOYACA PATRIOTAS vs ATLETICO NACIONAL MEDELLIN,2-2 (2-2),Match Odds,Draw,3.46,,60,147.60,Win,Gabriel Elias,Football,2016-05-14 22:01:02
+2016-05-15 17:00:00,Romania,"Liga 1,Relegation round",CS MUNICIPAL STUDENTESC IASI vs CS CONCORDIA CHIAJNA,2-3 (0-1),Match Odds,Draw,3.45,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-14 21:57:02
+2016-05-15 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs CD LUGO,2-1 (1-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-14 21:56:01
+2016-05-15 17:00:00,Spain,Liga Adelante,ELCHE CF vs GIRONA FC,1-1 (0-1),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2016-05-14 21:55:05
+2016-05-15 17:00:00,Spain,Liga Adelante,ALCORCON AD vs CD ALAVES,0-1 (0-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-14 21:55:02
+2016-05-15 02:00:00,Colombia,Apertura I,ENVIGADO FC vs CLUB ATLETICO JUNIOR,1-1 (0-0),Match Odds,Draw,3.25,,20,45.00,Win,Gabriel Elias,Football,2016-05-13 07:18:05
+2016-05-14 19:00:00,Spain,Liga Adelante,RCD MALLORCA vs TENERIFE CD,1-0 (0-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-13 07:12:03
+2016-05-14 16:00:00,Ukraine,Premier League,STAL DNEPRODZERZHINSK vs CHERNOMORETS ODESSA,0-1 (0-0),Match Odds,Draw,3.50,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-13 07:16:03
+2016-05-14 15:30:00,Germany,Bundesliga,1899 HOFFENHEIM vs FC SCHALKE 04,1-4 (1-2),Match Odds,1899 HOFFENHEIM,3.29,,40,-40.00,Lost,Gabriel Elias,Football,2016-05-13 07:15:02
+2016-05-14 15:30:00,Germany,Bundesliga,SV DARMSTADT 98 vs MONCHENGLADBACH,0-2 (0-1),Match Odds,MONCHENGLADBACH,2.01,,40,40.40,Win,Gabriel Elias,Football,2016-05-13 07:14:05
+2016-05-14 15:30:00,Germany,Bundesliga,FC AUGSBURG vs HAMBURGER SV,1-3 (1-1),Match Odds,FC AUGSBURG,2.07,,40,-40.00,Lost,Gabriel Elias,Football,2016-05-13 07:14:02
+2016-05-14 13:30:00,England,Championship,DERBY COUNTY vs HULL CITY,0-3 (0-2),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-13 07:11:06
+2016-05-14 03:00:00,Colombia,Apertura I,DEPORTIVO PASTO vs DEPORTES TOLIMA,1-1 (1-1),Match Odds,Draw,3.29,,20,45.80,Win,Gabriel Elias,Football,2016-05-13 07:18:02
+2016-05-14 01:00:00,Colombia,Apertura I,ALIANZA PETROLERA vs RIONEGRO AGUILAS,2-1 (0-0),Match Odds,Draw,3.22,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-13 07:17:02
+2016-05-13 20:45:00,England,Championship,SHEFFIELD WEDNESDAY vs BRIGHTON & HOVE ALBION FC,2-0 (1-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-13 07:11:02
 2016-05-09 01:00:00,Colombia,Apertura I,ATLETICO BUCARAMANGA vs ENVIGADO FC,0-1 (0-1),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-08 09:05:03
 2016-05-09 00:00:00,Colombia,Apertura I,DEPORTES TOLIMA vs INDEPENDIENTE SANTA FE,2-2 (1-1),Match Odds,Draw,3.20,,20,44.00,Win,Gabriel Elias,Football,2016-05-08 09:04:04
 2016-05-08 23:00:00,Colombia,Apertura I,RIONEGRO AGUILAS vs DEPORTIVO PASTO,1-1 (0-1),Match Odds,Draw,3.50,,20,50.00,Win,Gabriel Elias,Football,2016-05-08 09:04:01
@@ -12,7 +32,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-05-07 21:00:00,Colombia,Apertura I,FORTALEZA FC vs BOYACA PATRIOTAS,3-2 (0-0),Match Odds,Draw,3.20,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-07 13:16:06
 2016-05-07 18:00:00,Spain,Liga Adelante,CA OSASUNA vs SD PONFERRADINA,0-0 (0-0),Match Odds,Draw,3.58,,60,154.80,Win,Gabriel Elias,Football,2016-05-07 13:15:04
 2016-05-07 18:00:00,Spain,Liga Adelante,CD LUGO vs ALCORCON AD,1-2 (1-1),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-05-07 13:15:01
-2016-05-07 18:00:00,Norway,Eliteserien,STROMSGODSET vs LILLESTROM SK,3-1 (1-0),Match Odds,STROMSGODSET IF,1.80,,60,48.00,Win,Gabriel Elias,Football,2016-05-07 13:14:02
+2016-05-07 18:00:00,Norway,Tippeligaen,STROMSGODSET vs LILLESTROM SK,3-1 (1-0),Match Odds,STROMSGODSET IF,1.80,,60,48.00,Win,Gabriel Elias,Football,2016-05-07 13:14:02
 2016-05-02 18:30:00,Germany,2. Bundesliga,KARLSRUHER SC vs SV SANDHAUSEN,3-0 (0-0),Match Odds,Draw,3.62,,30,-30.00,Lost,Gabriel Elias,Football,2016-05-01 08:27:02
 2016-05-01 20:15:00,Colombia,Apertura I,BOYACA PATRIOTAS vs DEPORTES TOLIMA,2-1 (2-0),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2016-05-01 08:26:04
 2016-05-01 19:15:00,Spain,Liga Adelante,SD PONFERRADINA vs REAL ZARAGOZA,1-1 (0-0),Match Odds,Draw,3.21,,60,132.60,Win,Gabriel Elias,Football,2016-05-01 08:24:02
@@ -65,7 +85,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-17 17:00:00,Romania,"Liga 1,Relegation round",CS VOLUNTARI vs CS CONCORDIA CHIAJNA,1-2 (0-1),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:23:09
 2016-04-17 17:00:00,Spain,Liga Adelante,SD PONFERRADINA vs UD ALMERIA,1-3 (0-2),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:21:04
 2016-04-17 17:00:00,Spain,Liga Adelante,ALCORCON AD vs CD LEGANES,2-0 (1-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-17 11:20:07
-2016-04-17 15:30:00,Norway,Eliteserien,BODO/GLIMT vs MOLDE FK,1-2 (1-0),Match Odds,MOLDE FK,1.85,,60,51.00,Win,Gabriel Elias,Football,2016-04-17 11:23:07
+2016-04-17 15:30:00,Norway,Tippeligaen,BODO/GLIMT vs MOLDE FK,1-2 (1-0),Match Odds,MOLDE FK,1.85,,60,51.00,Win,Gabriel Elias,Football,2016-04-17 11:23:07
 2016-04-17 13:30:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs 1 FC KAISERSLAUTERN,0-1 (0-0),Match Odds,Draw,3.21,,40,-40.00,Lost,Gabriel Elias,Football,2016-04-17 11:25:02
 2016-04-16 19:30:00,Romania,"Liga 1, Championship round",AFC ASTRA GIURGIU vs STEAUA BUCURESTI,2-0 (1-0),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:16:03
 2016-04-16 18:00:00,Spain,Liga Adelante,GIRONA FC vs CD ALAVES,1-0 (1-0),Match Odds,Draw,3.39,,60,-60.00,Lost,Gabriel Elias,Football,2016-04-16 08:12:04
@@ -193,7 +213,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-03-15 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs READING FC,1-0 (1-0),Match Odds,Draw,3.54,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-15 07:06:02
 2016-03-14 19:30:00,Romania,"Liga 1, Championship round",ASA TARGU MURES vs DINAMO BUCURESTI,0-0 (0-0),Match Odds,Draw,3.60,,60,156.00,Win,Gabriel Elias,Football,2016-03-14 06:30:02
 2016-03-14 17:00:00,Romania,"Liga 1,Relegation round",CS CONCORDIA CHIAJNA vs CS UNIVERSITATEA CRAIOVA,1-0 (1-0),Match Odds,Draw,3.28,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-14 06:29:02
-2016-03-13 18:00:00,Norway,Eliteserien,STROMSGODSET vs SK BRANN,2-2 (2-1),Match Odds,STROMSGODSET,1.65,,100,-100.00,Lost,Gabriel Elias,Football,2016-03-13 10:12:02
+2016-03-13 18:00:00,Norway,Tippeligaen,STROMSGODSET vs SK BRANN,2-2 (2-1),Match Odds,STROMSGODSET,1.65,,100,-100.00,Lost,Gabriel Elias,Football,2016-03-13 10:12:02
 2016-03-13 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs RCD MALLORCA,3-0 (1-0),Match Odds,Draw,3.17,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-13 10:14:03
 2016-03-13 17:00:00,Spain,Liga Adelante,SD HUESCA vs ALCORCON AD,1-0 (1-0),Match Odds,Draw,3.09,,60,-60.00,Lost,Gabriel Elias,Football,2016-03-13 10:13:03
 2016-03-13 17:00:00,Spain,Liga Adelante,GIMNASTIC DE TARRAGONA vs SD PONFERRADINA,1-1 (0-1),Match Odds,Draw,3.42,,60,145.20,Win,Gabriel Elias,Football,2016-03-13 10:12:07
@@ -494,10 +514,10 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-09 00:00:00,Colombia,Apertura II,UNIAUTONOMA vs DEPORTIVO LA EQUIDAD,3-0 (2-0),Match Odds 1st Half,Draw Half time,2.10,,40,-40.00,Lost,Gabriel Elias,Football,2015-11-08 19:35:04
 2015-11-08 22:00:00,Colombia,Apertura II,CLUB CORTULUA vs AGUILAS DORADAS,0-0 (0-0),Match Odds,Draw,3.20,,20,44.00,Win,Gabriel Elias,Football,2015-11-08 19:32:03
 2015-11-08 22:00:00,Colombia,Apertura II,CLUB CORTULUA vs AGUILAS DORADAS,0-0 (0-0),Match Odds 1st Half,Draw Half time,2.05,,40,42.00,Win,Gabriel Elias,Football,2015-11-08 19:31:10
-2015-11-08 18:00:00,Norway,Eliteserien,VIKING FK vs MJONDALEN,3-1 (0-1),Match Odds,VIKING FK,1.67,,60,40.20,Win,Gabriel Elias,Football,2015-11-08 16:37:12
-2015-11-08 18:00:00,Norway,Eliteserien,IK START vs MOLDE FK,0-3 (0-2),Match Odds,MOLDE FK,1.85,,80,68.00,Win,Gabriel Elias,Football,2015-11-08 14:06:31
-2015-11-08 18:00:00,Norway,Eliteserien,BODO/GLIMT vs STABAEK FOTBALL,6-1 (0-1),Match Odds,STABAEK FOTBALL,2.03,,80,-80.00,Lost,Gabriel Elias,Football,2015-11-08 14:00:44
-2015-11-08 18:00:00,Norway,Eliteserien,AALESUNDS FK vs ROSENBORG BK,0-1 (0-0),Match Odds,ROSENBORG BK,2.01,,80,80.80,Win,Gabriel Elias,Football,2015-11-08 09:08:05
+2015-11-08 18:00:00,Norway,Tippeligaen,VIKING FK vs MJONDALEN,3-1 (0-1),Match Odds,VIKING FK,1.67,,60,40.20,Win,Gabriel Elias,Football,2015-11-08 16:37:12
+2015-11-08 18:00:00,Norway,Tippeligaen,IK START vs MOLDE FK,0-3 (0-2),Match Odds,MOLDE FK,1.85,,80,68.00,Win,Gabriel Elias,Football,2015-11-08 14:06:31
+2015-11-08 18:00:00,Norway,Tippeligaen,BODO/GLIMT vs STABAEK FOTBALL,6-1 (0-1),Match Odds,STABAEK FOTBALL,2.03,,80,-80.00,Lost,Gabriel Elias,Football,2015-11-08 14:00:44
+2015-11-08 18:00:00,Norway,Tippeligaen,AALESUNDS FK vs ROSENBORG BK,0-1 (0-0),Match Odds,ROSENBORG BK,2.01,,80,80.80,Win,Gabriel Elias,Football,2015-11-08 09:08:05
 2015-11-08 16:00:00,Portugal,Liga Vitalis,CD MAFRA vs ATLETICO CP,0-0 (0-0),Match Odds,Draw,3.10,,20,42.00,Win,Gabriel Elias,Football,2015-11-08 14:04:24
 2015-11-08 15:00:00,Italy,Serie A,US PALERMO vs AC CHIEVO VERONA,1-0 (0-0),Match Odds,Draw,3.22,,60,-60.00,Lost,Gabriel Elias,Football,2015-11-08 09:04:19
 2015-11-08 13:00:00,Romania,Liga 1,CS UNIVERSITATEA CRAIOVA vs ASA TARGU MURES,1-1 (1-1),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-11-08 09:01:07
@@ -544,8 +564,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-01 23:00:00,Colombia,Apertura II,INDEPENDIENTE SANTA FE vs ENVIGADO FC,1-1 (1-0),Match Odds 1st Half,Draw Half time,1.95,,40,-40.00,Lost,Gabriel Elias,Football,2015-11-01 20:58:05
 2015-11-01 20:15:00,Portugal,Liga Sagres,BOAVISTA FC vs CS MARITIMO,0-1 (0-1),Match Odds,Draw,3.12,,60,-60.00,Lost,Gabriel Elias,Football,2015-11-01 19:02:22
 2015-11-01 19:30:00,Romania,Liga 1,CFR CLUJ vs STEAUA BUCURESTI,2-0 (1-0),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2015-11-01 18:18:10
-2015-11-01 18:00:00,Norway,Eliteserien,VALERENGA IF vs ODDS BK,2-2 (2-0),Match Odds,ODDS BK,2.38,,80,-80.00,Lost,Gabriel Elias,Football,2015-11-01 15:37:11
-2015-11-01 18:00:00,Norway,Eliteserien,LILLESTROM SK vs SARPSBORG,3-1 (0-0),Match Odds,LILLESTROM SK,1.86,,80,68.80,Win,Gabriel Elias,Football,2015-11-01 15:35:42
+2015-11-01 18:00:00,Norway,Tippeligaen,VALERENGA IF vs ODDS BK,2-2 (2-0),Match Odds,ODDS BK,2.38,,80,-80.00,Lost,Gabriel Elias,Football,2015-11-01 15:37:11
+2015-11-01 18:00:00,Norway,Tippeligaen,LILLESTROM SK vs SARPSBORG,3-1 (0-0),Match Odds,LILLESTROM SK,1.86,,80,68.80,Win,Gabriel Elias,Football,2015-11-01 15:35:42
 2015-11-01 17:30:00,Germany,Bundesliga,HAMBURGER SV vs HANNOVER 96,1-2 (1-0),Match Odds,Draw,3.53,,60,-60.00,Lost,Gabriel Elias,Football,2015-11-01 15:32:18
 2015-11-01 17:00:00,Portugal,Liga Sagres,ACADEMICA COIMBRA vs MOREIRENSE FC,1-1 (1-0),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-11-01 15:20:10
 2015-11-01 15:00:00,Italy,Serie A,BOLOGNA FC vs ATALANTA BERGAMASCA,3-0 (0-0),Match Odds,Draw,3.19,,40,-40.00,Lost,Gabriel Elias,Football,2015-11-01 13:50:09
@@ -579,12 +599,12 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-26 19:00:00,Sweden,Allsvenskan,AATVIDABERG FF vs OREBRO SK,2-3 (1-3),Match Odds,OREBRO SK,2.13,,80,90.40,Win,Gabriel Elias,Football,2015-10-26 07:15:03
 2015-10-25 19:15:00,Spain,Liga Adelante,TENERIFE CD vs CA OSASUNA,2-2 (1-1),Match Odds,Draw,3.14,,60,128.40,Win,Gabriel Elias,Football,2015-10-25 17:18:09
 2015-10-25 18:30:00,Greece,Super League,PAOK FC vs PANATHINAIKOS ATHENS,3-1 (3-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-25 17:13:14
-2015-10-25 18:00:00,Norway,Eliteserien,STROMSGODSET vs ROSENBORG BK,3-3 (3-1),Match Odds,STROMSGODSET,2.19,,80,-80.00,Lost,Gabriel Elias,Football,2015-10-25 16:41:08
-2015-10-25 18:00:00,Norway,Eliteserien,BODO/GLIMT vs LILLESTROM SK,0-3 (0-1),Match Odds,BODO/GLIMT,2.06,,80,-80.00,Lost,Gabriel Elias,Football,2015-10-25 16:35:16
+2015-10-25 18:00:00,Norway,Tippeligaen,STROMSGODSET vs ROSENBORG BK,3-3 (3-1),Match Odds,STROMSGODSET,2.19,,80,-80.00,Lost,Gabriel Elias,Football,2015-10-25 16:41:08
+2015-10-25 18:00:00,Norway,Tippeligaen,BODO/GLIMT vs LILLESTROM SK,0-3 (0-1),Match Odds,BODO/GLIMT,2.06,,80,-80.00,Lost,Gabriel Elias,Football,2015-10-25 16:35:16
 2015-10-25 17:00:00,Portugal,Liga Sagres,FC AROUCA vs CD TONDELA,1-1 (0-0),Match Odds,Draw,3.25,,40,90.00,Win,Gabriel Elias,Football,2015-10-25 15:47:07
 2015-10-25 16:15:00,Greece,Super League,PANTHRAKIKOS FC KOMOTINI vs SKODA XANTHI FC,0-0 (0-0),Match Odds,Draw,3.08,,60,124.80,Win,Gabriel Elias,Football,2015-10-25 15:08:09
 2015-10-25 16:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs ACADEMICO VISEU,2-2 (1-1),Match Odds,Draw,3.00,,60,120.00,Win,Gabriel Elias,Football,2015-10-25 14:46:19
-2015-10-25 15:30:00,Norway,Eliteserien,AALESUNDS FK vs MOLDE FK,1-2 (1-1),Match Odds,MOLDE FK,1.90,,80,72.00,Win,Gabriel Elias,Football,2015-10-25 13:16:09
+2015-10-25 15:30:00,Norway,Tippeligaen,AALESUNDS FK vs MOLDE FK,1-2 (1-1),Match Odds,MOLDE FK,1.90,,80,72.00,Win,Gabriel Elias,Football,2015-10-25 13:16:09
 2015-10-25 15:00:00,Sweden,Allsvenskan,GIF SUNDSVALL vs HELSINGBORGS IF,2-1 (1-0),Match Odds,GIF SUNDSVALL,2.21,,80,96.80,Win,Gabriel Elias,Football,2015-10-25 10:50:21
 2015-10-25 14:00:00,Romania,Liga 1,CS UNIVERSITATEA CRAIOVA vs DINAMO BUCURESTI,3-0 (1-0),Match Odds,Draw,3.08,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-25 10:48:17
 2015-10-25 13:30:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs SV SANDHAUSEN,0-0 (0-0),Match Odds,Draw,3.31,,60,138.60,Win,Gabriel Elias,Football,2015-10-25 10:47:04
@@ -658,7 +678,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-17 03:00:00,Colombia,Apertura II,BOYACA PATRIOTAS vs CLUB CORTULUA,2-2 (1-1),Match Odds 1st Half,Draw Half time,2.05,,60,63.00,Win,Gabriel Elias,Football,2015-10-16 20:00:32
 2015-10-16 19:30:00,Romania,Liga 1,FC BOTOSANI vs CS UNIVERSITATEA CRAIOVA,3-2 (2-1),Match Odds,Draw,3.10,,40,-40.00,Lost,Gabriel Elias,Football,2015-10-16 06:44:02
 2015-10-16 19:30:00,Romania,Liga 1,FC BOTOSANI vs CS UNIVERSITATEA CRAIOVA,3-2 (2-1),Match Odds 1st Half,Draw Half time,2.00,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-16 06:43:02
-2015-10-16 19:00:00,Norway,Eliteserien,STROMSGODSET vs ODDS BK,2-1 (2-0),Match Odds,STROMSGODSET,2.00,,60,60.00,Win,Gabriel Elias,Football,2015-10-16 06:40:04
+2015-10-16 19:00:00,Norway,Tippeligaen,STROMSGODSET vs ODDS BK,2-1 (2-0),Match Odds,STROMSGODSET,2.00,,60,60.00,Win,Gabriel Elias,Football,2015-10-16 06:40:04
 2015-10-16 18:30:00,Germany,2. Bundesliga,SV SANDHAUSEN vs 1 FC KAISERSLAUTERN,1-0 (1-0),Match Odds,Draw,3.37,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-16 06:38:03
 2015-10-16 18:30:00,Germany,2. Bundesliga,SC PADERBORN vs EINTRACHT BRAUNSCHWEIG,2-0 (1-0),Asian handicap,SC PADERBORN +0,1.87,,60,52.20,Win,Gabriel Elias,Football,2015-10-16 06:36:03
 2015-10-16 02:45:00,Colombia,"Copa Postobon, Knockout stage",INDEPENDIENTE SANTA FE vs CD ONCE CALDAS,3-1 (0-0),Match Odds,Draw,3.55,,40,-40.00,Lost,Gabriel Elias,Football,2015-10-15 21:09:09
@@ -703,7 +723,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-04 17:30:00,Romania,Liga 1,FC BOTOSANI vs ASA TARGU MURES,1-1 (0-1),Match Odds,Draw,2.98,,60,118.80,Win,Gabriel Elias,Football,2015-10-04 16:05:05
 2015-10-04 17:15:00,Greece,Super League,KALLONI AEL FC vs VEROIA FC,0-1 (0-0),Match Odds,Draw,3.15,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-04 16:02:06
 2015-10-04 17:00:00,Spain,Liga Adelante,UE LLAGOSTERA vs ELCHE CF,4-1 (2-0),Match Odds,Draw,3.17,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-04 09:32:12
-2015-10-04 15:30:00,Norway,Eliteserien,HAUGESUND FK vs ODDS BK,1-2 (0-1),Match Odds,ODDS BK,2.02,,80,81.60,Win,Gabriel Elias,Football,2015-10-04 09:26:03
+2015-10-04 15:30:00,Norway,Tippeligaen,HAUGESUND FK vs ODDS BK,1-2 (0-1),Match Odds,ODDS BK,2.02,,80,81.60,Win,Gabriel Elias,Football,2015-10-04 09:26:03
 2015-10-04 15:30:00,Germany,Bundesliga,FC SCHALKE 04 vs 1 FC COLOGNE,0-3 (0-1),Match Odds,FC SCHALKE 04,1.76,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-03 22:00:05
 2015-10-04 15:00:00,Sweden,Allsvenskan,HELSINGBORGS IF vs IF ELFSBORG,2-1 (1-0),Match Odds,IF ELFSBORG,2.07,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-04 09:25:04
 2015-10-04 13:30:00,Germany,2. Bundesliga,KARLSRUHER SC vs SC FREIBURG,1-1 (0-0),Match Odds,Draw,3.33,,60,139.80,Win,Gabriel Elias,Football,2015-10-04 09:21:25
@@ -723,7 +743,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-03 03:00:00,Colombia,Apertura II,DEPORTIVO LA EQUIDAD vs CD ONCE CALDAS,1-2 (0-0),Match Odds,Draw,3.35,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-02 20:47:03
 2015-10-02 20:30:00,Italy,Serie B,FC CROTONE vs SPORTIVA SALERNITANA,4-0 (2-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-02 19:16:06
 2015-10-02 20:30:00,Germany,Bundesliga,SV DARMSTADT 98 vs 1 FSV MAINZ 05,2-3 (1-2),Match Odds,Draw,3.35,,60,-60.00,Lost,Gabriel Elias,Football,2015-10-02 14:01:14
-2015-10-02 19:00:00,Norway,Eliteserien,BODO/GLIMT vs VALERENGA IF,1-1 (0-0),Match Odds,BODO/GLIMT,2.48,,70,-70.00,Lost,Gabriel Elias,Football,2015-10-02 13:58:06
+2015-10-02 19:00:00,Norway,Tippeligaen,BODO/GLIMT vs VALERENGA IF,1-1 (0-0),Match Odds,BODO/GLIMT,2.48,,70,-70.00,Lost,Gabriel Elias,Football,2015-10-02 13:58:06
 2015-10-02 18:30:00,Germany,2. Bundesliga,FSV FRANKFURT vs 1 FC HEIDENHEIM,0-4 (0-3),Match Odds,Draw,3.34,,70,-70.00,Lost,Gabriel Elias,Football,2015-10-02 13:56:04
 2015-10-02 18:30:00,Germany,2. Bundesliga,ARMINIA BIELEFELD vs 1860 MUNICH,1-1 (1-1),Match Odds,Draw,3.31,,60,138.60,Win,Gabriel Elias,Football,2015-10-02 13:53:02
 2015-10-02 17:30:00,Romania,Liga 1,CS VOLUNTARI vs CS CONCORDIA CHIAJNA,1-1 (1-0),Match Odds,Draw,3.22,,60,133.20,Win,Gabriel Elias,Football,2015-10-02 13:51:02
@@ -771,7 +791,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-20 17:00:00,Portugal,Liga Sagres,CF UNIAO MADEIRA vs FC AROUCA,0-0 (0-0),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-09-20 14:41:08
 2015-09-20 17:00:00,Portugal,Liga Sagres,ACADEMICA COIMBRA vs BOAVISTA FC,0-2 (0-1),Match Odds,Draw,3.01,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-20 14:40:06
 2015-09-20 16:00:00,Turkey,Turkcell Super Lig,GAZIANTEPSPOR vs KAYSERISPOR,1-0 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-20 14:38:03
-2015-09-20 15:30:00,Norway,Eliteserien,AALESUNDS FK vs ODDS BK,1-3 (1-1),Match Odds,ODDS BK,2.18,,80,94.40,Win,Gabriel Elias,Football,2015-09-20 13:33:02
+2015-09-20 15:30:00,Norway,Tippeligaen,AALESUNDS FK vs ODDS BK,1-3 (1-1),Match Odds,ODDS BK,2.18,,80,94.40,Win,Gabriel Elias,Football,2015-09-20 13:33:02
 2015-09-20 13:30:00,Germany,2. Bundesliga,MSV DUISBURG vs FSV FRANKFURT,0-1 (0-1),Match Odds,Draw,3.40,,80,-80.00,Lost,Gabriel Elias,Football,2015-09-20 12:18:07
 2015-09-20 13:30:00,Germany,2. Bundesliga,FC UNION BERLIN vs GREUTHER FURTH,1-2 (1-0),Asian handicap,FC UNION BERLIN +0,1.92,,80,-80.00,Lost,Gabriel Elias,Football,2015-09-20 09:04:11
 2015-09-20 13:00:00,Ukraine,Premier League,GOVERLA-UZHGOROD vs CHERNOMORETS ODESSA,1-1 (1-1),Match Odds,Draw,3.37,,60,142.20,Win,Gabriel Elias,Football,2015-09-20 11:55:06
@@ -788,7 +808,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-18 21:30:00,Portugal,Liga Sagres,VITORIA SETUBAL vs VITORIA GUIMARAES,2-2 (1-1),Match Odds,Draw,3.13,,60,127.80,Win,Gabriel Elias,Football,2015-09-18 20:19:08
 2015-09-18 20:30:00,Spain,Liga BBVA,GETAFE CF vs MALAGA CF,1-0 (1-0),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-18 19:21:02
 2015-09-18 20:00:00,Romania,Liga 1,CS PANDURII TARGU JIU vs ASA TARGU MURES,2-0 (1-0),Match Odds,Draw,3.14,,50,-50.00,Lost,Gabriel Elias,Football,2015-09-18 17:52:03
-2015-09-18 19:00:00,Norway,Eliteserien,VIKING FK vs STROMSGODSET,1-1 (0-1),Match Odds,VIKING FK,2.31,,50,-50.00,Lost,Gabriel Elias,Football,2015-09-18 17:51:02
+2015-09-18 19:00:00,Norway,Tippeligaen,VIKING FK vs STROMSGODSET,1-1 (0-1),Match Odds,VIKING FK,2.31,,50,-50.00,Lost,Gabriel Elias,Football,2015-09-18 17:51:02
 2015-09-18 19:00:00,Italy,Serie B,FC MODENA vs TERNANA CALCIO,1-0 (0-0),Match Odds,Draw,3.15,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-18 17:31:02
 2015-09-18 18:30:00,Germany,2. Bundesliga,1 FC HEIDENHEIM vs RB LEIPZIG,1-1 (0-1),Match Odds,Draw,3.32,,100,232.00,Win,Gabriel Elias,Football,2015-09-18 17:29:02
 2015-09-18 17:30:00,Romania,Liga 1,CS VOLUNTARI vs ACS POLI TIMISOARA,0-0 (0-0),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-09-18 07:28:04
@@ -816,7 +836,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-13 19:15:00,Turkey,Turkcell Super Lig,OSMANLISPOR FK vs KONYASPOR,1-2 (1-0),Match Odds,Draw,3.49,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-13 18:06:17
 2015-09-13 18:30:00,Ukraine,Premier League,KARPATY LVIV vs FC ZORYA LUGANSK,1-1 (0-1),Match Odds,Draw,3.28,,60,136.80,Win,Gabriel Elias,Football,2015-09-13 16:58:04
 2015-09-13 18:00:00,Portugal,Liga Sagres,VITORIA GUIMARAES vs CD TONDELA,1-0 (1-0),Match Odds,Draw,3.41,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-13 16:53:03
-2015-09-13 18:00:00,Norway,Eliteserien,SARPSBORG vs IK START,3-1 (2-0),Match Odds,SARPSBORG,1.70,,80,56.00,Win,Gabriel Elias,Football,2015-09-13 16:49:10
+2015-09-13 18:00:00,Norway,Tippeligaen,SARPSBORG vs IK START,3-1 (2-0),Match Odds,SARPSBORG,1.70,,80,56.00,Win,Gabriel Elias,Football,2015-09-13 16:49:10
 2015-09-13 17:00:00,Spain,Liga Adelante,ALCORCON AD vs SD PONFERRADINA,1-0 (0-0),Match Odds,Draw,3.26,,60,-60.00,Lost,Gabriel Elias,Football,2015-09-13 13:26:18
 2015-09-13 17:00:00,Portugal,Liga Sagres,MOREIRENSE FC vs CF UNIAO MADEIRA,0-0 (0-0),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2015-09-13 13:24:06
 2015-09-13 15:00:00,Romania,Liga 1,CS UNIVERSITATEA CRAIOVA vs CS MUNICIPAL STUDENTESC IASI,2-0 (1-0),Match Odds,Draw,3.30,,80,-80.00,Lost,Gabriel Elias,Football,2015-09-13 13:18:03
@@ -889,12 +909,12 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-30 20:30:00,Spain,Liga Adelante,ELCHE CF vs ATHLETIC BILBAO B,2-1 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-30 19:20:05
 2015-08-30 20:30:00,Greece,Super League,PAS GIANNINA FC vs PAOK FC,3-1 (1-0),Match Odds,Draw,3.45,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-30 18:22:02
 2015-08-30 18:15:00,Greece,Super League,IRAKLIS 1908 vs PANIONIOS ATHENS,0-1 (0-1),Match Odds,Draw,3.22,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-30 17:01:16
-2015-08-30 18:00:00,Norway,Eliteserien,MJONDALEN vs STROMSGODSET,2-4 (0-2),Match Odds,STROMSGODSET,2.00,,90,90.00,Win,Gabriel Elias,Football,2015-08-30 16:50:30
-2015-08-30 18:00:00,Norway,Eliteserien,BODO/GLIMT vs SARPSBORG,3-1 (1-0),Match Odds,BODO/GLIMT,2.08,,90,97.20,Win,Gabriel Elias,Football,2015-08-30 16:50:07
+2015-08-30 18:00:00,Norway,Tippeligaen,MJONDALEN vs STROMSGODSET,2-4 (0-2),Match Odds,STROMSGODSET,2.00,,90,90.00,Win,Gabriel Elias,Football,2015-08-30 16:50:30
+2015-08-30 18:00:00,Norway,Tippeligaen,BODO/GLIMT vs SARPSBORG,3-1 (1-0),Match Odds,BODO/GLIMT,2.08,,90,97.20,Win,Gabriel Elias,Football,2015-08-30 16:50:07
 2015-08-30 18:00:00,Italy,Serie A,AS ROMA vs JUVENTUS TURIN,2-1 (0-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-30 14:40:18
 2015-08-30 17:00:00,Portugal,Liga Sagres,CD TONDELA vs CD NACIONAL,1-0 (0-0),Match Odds,Draw,3.20,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-30 14:26:04
 2015-08-30 16:00:00,Ukraine,Premier League,FC OLEKSANDRIA vs CHERNOMORETS ODESSA,0-0 (0-0),Match Odds,Draw,3.60,,40,104.00,Win,Gabriel Elias,Football,2015-08-30 14:34:04
-2015-08-30 15:30:00,Norway,Eliteserien,STABAEK FOTBALL vs ODDS BK,1-2 (0-2),Match Odds,STABAEK FOTBALL,2.01,,100,-100.00,Lost,Gabriel Elias,Football,2015-08-30 12:11:04
+2015-08-30 15:30:00,Norway,Tippeligaen,STABAEK FOTBALL vs ODDS BK,1-2 (0-2),Match Odds,STABAEK FOTBALL,2.01,,100,-100.00,Lost,Gabriel Elias,Football,2015-08-30 12:11:04
 2015-08-30 13:30:00,Germany,2. Bundesliga,1 FC NUREMBERG vs FORTUNA DUSSELDORF,1-0 (0-0),Match Odds,FORTUNA DUSSELDORF,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-30 12:04:05
 2015-08-30 13:30:00,Germany,2. Bundesliga,EINTRACHT BRAUNSCHWEIG vs KARLSRUHER SC,6-0 (2-0),Match Odds,Draw,3.18,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-30 11:56:03
 2015-08-30 00:30:00,Colombia,Apertura II,CLUB CORTULUA vs ALIANZA PETROLERA,0-0 (0-0),Match Odds,Draw,3.19,,60,131.40,Win,Gabriel Elias,Football,2015-08-29 20:06:02
@@ -911,7 +931,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-29 13:00:00,Germany,2. Bundesliga,MSV DUISBURG vs GREUTHER FURTH,2-2 (1-0),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2015-08-29 06:53:02
 2015-08-29 03:00:00,Colombia,Apertura II,BOYACA PATRIOTAS vs BOYACA CHICO FC,0-0 (0-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2015-08-28 22:01:13
 2015-08-28 20:00:00,Romania,Liga 1,CS MUNICIPAL STUDENTESC IASI vs ASA TARGU MURES,0-1 (0-0),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-27 21:25:03
-2015-08-28 19:00:00,Norway,Eliteserien,AALESUNDS FK vs VALERENGA IF,2-0 (2-0),Match Odds,AALESUNDS FK,2.61,,80,128.80,Win,Gabriel Elias,Football,2015-08-27 21:32:04
+2015-08-28 19:00:00,Norway,Tippeligaen,AALESUNDS FK vs VALERENGA IF,2-0 (2-0),Match Odds,AALESUNDS FK,2.61,,80,128.80,Win,Gabriel Elias,Football,2015-08-27 21:32:04
 2015-08-28 17:30:00,Romania,Liga 1,CS VOLUNTARI vs CS UNIVERSITATEA CRAIOVA,1-2 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-27 21:22:07
 2015-08-27 20:45:00,European cups,UEFA Europa League,FC MIDTJYLLAND vs SOUTHAMPTON FC,1-0 (1-0),Match Odds,Draw,3.40,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-27 07:24:03
 2015-08-27 18:00:00,European cups,UEFA Europa League,QARABAG FK vs YOUNG BOYS BERN,3-0 (2-0),Match Odds,Draw,3.35,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-27 07:21:02
@@ -934,9 +954,9 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-23 20:00:00,Romania,Liga 1,AFC ASTRA GIURGIU vs CS MUNICIPAL STUDENTESC IASI,4-1 (2-0),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-23 17:29:06
 2015-08-23 18:00:00,Portugal,Liga Sagres,GD ESTORIL PRAIA vs MOREIRENSE FC,2-0 (0-0),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-23 16:38:06
 2015-08-23 18:00:00,Portugal,Liga Sagres,BOAVISTA FC vs CD TONDELA,1-0 (0-0),Match Odds,Draw,3.24,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-23 16:36:05
-2015-08-23 18:00:00,Norway,Eliteserien,HAUGESUND FK vs BODO/GLIMT,2-4 (1-2),Match Odds,HAUGESUND FK,2.02,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-23 16:32:03
+2015-08-23 18:00:00,Norway,Tippeligaen,HAUGESUND FK vs BODO/GLIMT,2-4 (1-2),Match Odds,HAUGESUND FK,2.02,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-23 16:32:03
 2015-08-23 17:00:00,Romania,Liga 1,CS UNIVERSITATEA CRAIOVA vs STEAUA BUCURESTI,1-2 (1-1),Match Odds,Draw,3.14,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-23 11:44:09
-2015-08-23 15:30:00,Norway,Eliteserien,ODDS BK vs VIKING FK,1-0 (1-0),Match Odds,ODDS BK,2.15,,80,92.00,Win,Gabriel Elias,Football,2015-08-23 11:40:07
+2015-08-23 15:30:00,Norway,Tippeligaen,ODDS BK vs VIKING FK,1-0 (1-0),Match Odds,ODDS BK,2.15,,80,92.00,Win,Gabriel Elias,Football,2015-08-23 11:40:07
 2015-08-23 13:30:00,Germany,2. Bundesliga,RB LEIPZIG vs FC ST. PAULI,0-1 (0-1),Match Odds,FC ST. PAULI,5.76,,20,95.20,Win,Gabriel Elias,Football,2015-08-23 11:38:04
 2015-08-23 13:30:00,Germany,2. Bundesliga,1860 MUNICH vs FC UNION BERLIN,0-0 (0-0),Match Odds,1860 MUNICH,2.37,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-23 11:33:03
 2015-08-23 13:30:00,Germany,2. Bundesliga,VFL BOCHUM vs 1 FC NUREMBERG,2-1 (1-1),Match Odds,VFL BOCHUM,2.12,,40,44.80,Win,Gabriel Elias,Football,2015-08-23 11:30:05
@@ -950,7 +970,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-22 18:30:00,Spain,Liga BBVA,ESPANYOL BARCELONA vs GETAFE CF,1-0 (1-0),Match Odds,Draw,3.43,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-22 17:12:05
 2015-08-22 18:15:00,Greece,Super League,PANTHRAKIKOS FC KOMOTINI vs ASTERAS TRIPOLIS,0-2 (0-1),Match Odds,Draw,3.21,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-22 17:11:01
 2015-08-22 18:15:00,Greece,Super League,KALLONI AEL FC vs IRAKLIS 1908,0-1 (0-1),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-22 17:10:06
-2015-08-22 18:00:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs STABAEK FOTBALL,2-4 (1-2),Match Odds,STABAEK FOTBALL,1.76,,80,60.80,Win,Gabriel Elias,Football,2015-08-22 16:41:02
+2015-08-22 18:00:00,Norway,Tippeligaen,SANDEFJORD FOTBALL vs STABAEK FOTBALL,2-4 (1-2),Match Odds,STABAEK FOTBALL,1.76,,80,60.80,Win,Gabriel Elias,Football,2015-08-22 16:41:02
 2015-08-22 16:00:00,England,Championship,READING FC vs MILTON KEYNES DONS,0-0 (0-0),Match Odds,Draw,3.47,,60,148.20,Win,Gabriel Elias,Football,2015-08-22 10:25:07
 2015-08-22 16:00:00,England,Championship,PRESTON NORTH END vs IPSWICH TOWN,1-2 (1-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-22 10:22:21
 2015-08-22 16:00:00,England,Championship,CHARLTON ATHLETIC vs HULL CITY,2-1 (0-0),Match Odds,Draw,3.35,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-22 10:21:03
@@ -985,7 +1005,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-16 17:00:00,Portugal,Liga Sagres,VITORIA SETUBAL vs BOAVISTA FC,2-2 (2-0),Match Odds,Draw,3.20,,60,132.00,Win,Gabriel Elias,Football,2015-08-16 15:57:02
 2015-08-16 16:00:00,Ukraine,Premier League,STAL DNEPRODZERZHINSK vs VOLYN LUTSK,1-2 (0-1),Match Odds,Draw,3.25,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-16 14:53:02
 2015-08-16 16:00:00,England,Championship,READING FC vs LEEDS UTD,0-0 (0-0),Match Odds,Draw,3.45,,60,147.00,Win,Gabriel Elias,Football,2015-08-16 14:51:02
-2015-08-16 15:30:00,Norway,Eliteserien,IK START vs ODDS BK,0-4 (0-3),Match Odds,ODDS BK,2.07,,80,85.60,Win,Gabriel Elias,Football,2015-08-15 23:01:09
+2015-08-16 15:30:00,Norway,Tippeligaen,IK START vs ODDS BK,0-4 (0-3),Match Odds,ODDS BK,2.07,,80,85.60,Win,Gabriel Elias,Football,2015-08-15 23:01:09
 2015-08-16 13:30:00,Germany,2. Bundesliga,FC ST. PAULI vs GREUTHER FURTH,3-2 (2-1),Match Odds,Draw,3.30,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-16 09:34:04
 2015-08-16 13:30:00,Germany,2. Bundesliga,MSV DUISBURG vs ARMINIA BIELEFELD,2-2 (0-2),Match Odds,Draw,3.28,,80,182.40,Win,Gabriel Elias,Football,2015-08-16 09:33:03
 2015-08-16 13:00:00,England,Championship,WOLVERHAMPTON WANDERERS vs HULL CITY,1-1 (0-1),Match Odds,Draw,3.40,,60,144.00,Win,Gabriel Elias,Football,2015-08-15 23:08:03
@@ -1004,7 +1024,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-15 13:00:00,Germany,2. Bundesliga,EINTRACHT BRAUNSCHWEIG vs RB LEIPZIG,0-2 (0-0),Match Odds,Draw,3.30,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-15 11:01:15
 2015-08-15 03:00:00,Colombia,Apertura II,ENVIGADO FC vs BOYACA CHICO FC,0-0 (0-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2015-08-14 11:47:11
 2015-08-14 20:00:00,Romania,Liga 1,FC PETROLUL PLOIESTI vs FC BOTOSANI,2-1 (0-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-14 11:43:02
-2015-08-14 19:00:00,Norway,Eliteserien,AALESUNDS FK vs STROMSGODSET,2-1 (1-0),Match Odds,STROMSGODSET,2.38,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-13 11:10:05
+2015-08-14 19:00:00,Norway,Tippeligaen,AALESUNDS FK vs STROMSGODSET,2-1 (1-0),Match Odds,STROMSGODSET,2.38,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-13 11:10:05
 2015-08-14 18:30:00,Germany,2. Bundesliga,FSV FRANKFURT vs KARLSRUHER SC,1-2 (1-1),Match Odds,Draw,3.40,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-13 11:51:02
 2015-08-13 20:00:00,Romania,Liga 1,DINAMO BUCURESTI vs CS VOLUNTARI,3-0 (1-0),Match Odds,Draw,3.88,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-13 11:04:05
 2015-08-13 17:30:00,Romania,Liga 1,CS CONCORDIA CHIAJNA vs CS PANDURII TARGU JIU,3-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-13 11:03:11
@@ -1018,9 +1038,9 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-10 00:30:00,Colombia,Apertura II,CD ONCE CALDAS vs BOYACA PATRIOTAS,1-3 (1-2),Match Odds,Draw,3.50,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-09 21:42:03
 2015-08-10 00:00:00,Colombia,Apertura II,CLUB CORTULUA vs MILLONARIOS FC,2-0 (1-0),Match Odds,Draw,3.27,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-09 21:40:06
 2015-08-09 22:15:00,Colombia,Apertura II,UNIAUTONOMA vs ENVIGADO FC,0-0 (0-0),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-08-09 19:00:06
-2015-08-09 18:00:00,Norway,Eliteserien,STROMSGODSET vs STABAEK FOTBALL,0-2 (0-0),Match Odds,STROMSGODSET,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-09 16:44:03
-2015-08-09 18:00:00,Norway,Eliteserien,HAUGESUND FK vs AALESUNDS FK,3-1 (2-0),Match Odds,HAUGESUND FK,2.12,,80,89.60,Win,Gabriel Elias,Football,2015-08-09 15:13:04
-2015-08-09 18:00:00,Norway,Eliteserien,BODO/GLIMT vs IK START,5-1 (2-1),Match Odds,BODO/GLIMT,1.93,,80,74.40,Win,Gabriel Elias,Football,2015-08-09 15:11:06
+2015-08-09 18:00:00,Norway,Tippeligaen,STROMSGODSET vs STABAEK FOTBALL,0-2 (0-0),Match Odds,STROMSGODSET,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-09 16:44:03
+2015-08-09 18:00:00,Norway,Tippeligaen,HAUGESUND FK vs AALESUNDS FK,3-1 (2-0),Match Odds,HAUGESUND FK,2.12,,80,89.60,Win,Gabriel Elias,Football,2015-08-09 15:13:04
+2015-08-09 18:00:00,Norway,Tippeligaen,BODO/GLIMT vs IK START,5-1 (2-1),Match Odds,BODO/GLIMT,1.93,,80,74.40,Win,Gabriel Elias,Football,2015-08-09 15:11:06
 2015-08-09 17:30:00,Romania,Liga 1,ACS POLI TIMISOARA vs AFC ASTRA GIURGIU,1-3 (0-1),Match Odds,Draw,3.18,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-09 08:11:02
 2015-08-09 15:30:00,Romania,Liga 1,FC VIITORUL CONSTANTA vs ASA TARGU MURES,1-0 (1-0),Match Odds,Draw,3.24,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-09 08:09:02
 2015-08-09 13:00:00,England,Championship,PRESTON NORTH END vs MIDDLESBROUGH FC,0-0 (0-0),Match Odds,Draw,3.35,,60,141.00,Win,Gabriel Elias,Football,2015-08-09 11:02:05
@@ -1037,8 +1057,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-08 03:00:00,Colombia,Apertura II,DEPORTIVO LA EQUIDAD vs INDEPENDIENTE MEDELLIN,2-0 (1-0),Match Odds,Draw,3.12,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-07 20:52:06
 2015-08-07 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs NOTTINGHAM FOREST,1-0 (0-0),Match Odds,Draw,3.40,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-07 19:41:06
 2015-08-07 20:00:00,Romania,Liga 1,CS MUNICIPAL STUDENTESC IASI vs CFR CLUJ,2-1 (2-0),Match Odds,Draw,3.10,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-07 18:53:02
-2015-08-07 19:00:00,Norway,Eliteserien,VALERENGA IF vs TROMSO IL,1-0 (1-0),Match Odds,VALERENGA IF,1.70,,80,56.00,Win,Gabriel Elias,Football,2015-08-07 07:24:03
-2015-08-07 19:00:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs MJONDALEN,2-1 (1-1),Match Odds,SANDEFJORD FOTBALL,2.29,,80,103.20,Win,Gabriel Elias,Football,2015-08-07 07:23:01
+2015-08-07 19:00:00,Norway,Tippeligaen,VALERENGA IF vs TROMSO IL,1-0 (1-0),Match Odds,VALERENGA IF,1.70,,80,56.00,Win,Gabriel Elias,Football,2015-08-07 07:24:03
+2015-08-07 19:00:00,Norway,Tippeligaen,SANDEFJORD FOTBALL vs MJONDALEN,2-1 (1-1),Match Odds,SANDEFJORD FOTBALL,2.29,,80,103.20,Win,Gabriel Elias,Football,2015-08-07 07:23:01
 2015-08-07 18:00:00,Ukraine,Premier League,VOLYN LUTSK vs METALIST KHARKIV,2-2 (2-1),Match Odds,Draw,3.40,,40,96.00,Win,Gabriel Elias,Football,2015-08-07 13:49:03
 2015-08-07 17:30:00,Romania,Liga 1,CS VOLUNTARI vs FC BOTOSANI,1-1 (0-1),Match Odds,Draw,3.25,,80,180.00,Win,Gabriel Elias,Football,2015-08-07 07:20:05
 2015-08-07 02:45:00,Colombia,Apertura II,BOYACA PATRIOTAS vs MILLONARIOS FC,2-3 (1-2),Match Odds,Draw,3.61,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-06 22:22:02
@@ -1056,22 +1076,22 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-02 20:00:00,Romania,Liga 1,FCM TARGU MURES vs CS UNIVERSITATEA CRAIOVA,0-0 (0-0),Match Odds,Draw,3.12,,60,127.20,Win,Gabriel Elias,Football,2015-08-02 17:01:11
 2015-08-02 18:30:00,Ukraine,Premier League,STAL DNEPRODZERZHINSK vs FC ZORYA LUGANSK,2-0 (1-0),Match Odds,Draw,3.34,,40,-40.00,Lost,Gabriel Elias,Football,2015-08-02 17:22:03
 2015-08-02 18:30:00,Ecuador,Serie A,LIGA DEP UNIVERSITARIA QUITO vs CLUB SPORT EMELEC,2-1 (2-0),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2015-08-02 17:16:12
-2015-08-02 18:00:00,Norway,Eliteserien,AALESUNDS FK vs IK START,2-0 (0-0),Match Odds,AALESUNDS FK,1.98,,80,78.40,Win,Gabriel Elias,Football,2015-08-02 16:52:06
+2015-08-02 18:00:00,Norway,Tippeligaen,AALESUNDS FK vs IK START,2-0 (0-0),Match Odds,AALESUNDS FK,1.98,,80,78.40,Win,Gabriel Elias,Football,2015-08-02 16:52:06
 2015-08-02 17:30:00,Romania,Liga 1,AFC ASTRA GIURGIU vs FC VIITORUL CONSTANTA,2-2 (1-1),Match Odds,Draw,3.42,,60,145.20,Win,Gabriel Elias,Football,2015-08-02 13:33:02
 2015-08-02 15:30:00,Germany,2. Bundesliga,SV SANDHAUSEN vs FC UNION BERLIN,4-3 (1-1),Match Odds,Draw,3.35,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-02 13:30:14
 2015-08-02 15:30:00,Germany,2. Bundesliga,KARLSRUHER SC vs FC ST. PAULI,1-2 (1-2),Match Odds,Draw,3.61,,80,-80.00,Lost,Gabriel Elias,Football,2015-08-02 13:28:03
-2015-08-02 15:30:00,Norway,Eliteserien,MJONDALEN vs ODDS BK,3-6 (1-3),Match Odds,ODDS BK,2.31,,80,104.80,Win,Gabriel Elias,Football,2015-08-01 19:36:03
+2015-08-02 15:30:00,Norway,Tippeligaen,MJONDALEN vs ODDS BK,3-6 (1-3),Match Odds,ODDS BK,2.31,,80,104.80,Win,Gabriel Elias,Football,2015-08-01 19:36:03
 2015-08-02 01:00:00,Colombia,Apertura II,UNIAUTONOMA vs BOYACA CHICO FC,0-1 (0-1),Match Odds,Draw,3.10,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-01 19:29:07
 2015-08-01 23:00:00,Colombia,Apertura II,AGUILAS DORADAS vs DEPORTIVO LA EQUIDAD,2-1 (1-1),Match Odds,Draw,3.05,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-01 19:28:03
 2015-08-01 21:00:00,Colombia,Apertura II,ATLETICO HUILA vs CLUB CORTULUA,1-0 (0-0),Match Odds,Draw,3.36,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-01 19:25:03
 2015-08-01 20:00:00,Romania,Liga 1,FC BOTOSANI vs STEAUA BUCURESTI,0-1 (0-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-01 10:34:04
-2015-08-01 18:00:00,Norway,Eliteserien,STABAEK FOTBALL vs VALERENGA IF,2-0 (1-0),Match Odds,STABAEK FOTBALL,2.13,,80,90.40,Win,Gabriel Elias,Football,2015-08-01 10:32:03
+2015-08-01 18:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs VALERENGA IF,2-0 (1-0),Match Odds,STABAEK FOTBALL,2.13,,80,90.40,Win,Gabriel Elias,Football,2015-08-01 10:32:03
 2015-08-01 17:30:00,Romania,Liga 1,CS PANDURII TARGU JIU vs CS MUNICIPAL STUDENTESC IASI,3-0 (2-0),Match Odds,Draw,3.45,,60,-60.00,Lost,Gabriel Elias,Football,2015-08-01 10:29:02
 2015-08-01 15:30:00,Germany,2. Bundesliga,1860 MUNICH vs SC FREIBURG,0-1 (0-0),Match Odds,SC FREIBURG,2.15,,30,34.50,Win,Gabriel Elias,Football,2015-08-01 10:44:03
 2015-08-01 03:00:00,Colombia,Apertura II,CUCUTA DEPORTIVO vs MILLONARIOS FC,1-1 (1-0),Match Odds,Draw,3.30,,60,138.00,Win,Gabriel Elias,Football,2015-07-31 18:04:05
 2015-07-31 20:30:00,Germany,2. Bundesliga,1 FC KAISERSLAUTERN vs EINTRACHT BRAUNSCHWEIG,0-0 (0-0),Match Odds,1 FC KAISERSLAUTERN,1.71,,40,-40.00,Lost,Gabriel Elias,Football,2015-07-31 18:08:11
 2015-07-31 20:00:00,Romania,Liga 1,CS CONCORDIA CHIAJNA vs FC PETROLUL PLOIESTI,2-2 (1-1),Match Odds,Draw,3.10,,60,126.00,Win,Gabriel Elias,Football,2015-07-31 18:02:07
-2015-07-31 19:00:00,Norway,Eliteserien,VIKING FK vs HAUGESUND FK,0-1 (0-0),Match Odds,VIKING FK,1.65,,30,-30.00,Lost,Gabriel Elias,Football,2015-07-31 18:00:06
+2015-07-31 19:00:00,Norway,Tippeligaen,VIKING FK vs HAUGESUND FK,0-1 (0-0),Match Odds,VIKING FK,1.65,,30,-30.00,Lost,Gabriel Elias,Football,2015-07-31 18:00:06
 2015-07-30 21:00:00,European cups,UEFA Europa League,CF OS BELENENSES vs IFK GOTHENBURG,2-1 (2-0),Match Odds,Draw,3.25,,30,-30.00,Lost,Gabriel Elias,Football,2015-07-29 20:50:06
 2015-07-30 20:00:00,European cups,UEFA Europa League,FCM TARGU MURES vs AS SAINT ETIENNE,0-3 (0-1),Match Odds,Draw,3.30,,30,-30.00,Lost,Gabriel Elias,Football,2015-07-29 21:02:17
 2015-07-30 19:00:00,European cups,UEFA Europa League,SCR ALTACH vs VITORIA GUIMARAES,2-1 (1-0),Match Odds,Draw,3.30,,30,-30.00,Lost,Gabriel Elias,Football,2015-07-29 20:59:02
@@ -1082,20 +1102,20 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-28 19:00:00,European cups,UEFA Champions League,FC MILSAMI vs SKENDERBEU KORCE,0-2 (0-0),Match Odds,Draw,3.25,,20,-20.00,Lost,Gabriel Elias,Football,2015-07-27 19:21:03
 2015-07-28 19:00:00,European cups,UEFA Champions League,FC MIDTJYLLAND vs APOEL NICOSIA FC,1-2 (0-2),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2015-07-27 19:19:11
 2015-07-27 20:00:00,Romania,Liga 1,ACS POLI TIMISOARA vs FC BOTOSANI,1-0 (0-0),Match Odds,Draw,3.23,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-26 21:22:03
-2015-07-27 19:00:00,Norway,Eliteserien,VALERENGA IF vs LILLESTROM SK,2-0 (0-0),Match Odds,VALERENGA IF,1.85,,80,68.00,Win,Gabriel Elias,Football,2015-07-26 17:36:08
+2015-07-27 19:00:00,Norway,Tippeligaen,VALERENGA IF vs LILLESTROM SK,2-0 (0-0),Match Odds,VALERENGA IF,1.85,,80,68.00,Win,Gabriel Elias,Football,2015-07-26 17:36:08
 2015-07-27 02:30:00,Colombia,Apertura II,CUCUTA DEPORTIVO vs BOYACA PATRIOTAS,1-0 (0-0),Match Odds,Draw,3.20,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-26 17:29:07
 2015-07-26 22:15:00,Colombia,Apertura II,AGUILAS DORADAS vs ALIANZA PETROLERA,0-0 (0-0),Match Odds,Draw,3.50,,60,150.00,Win,Gabriel Elias,Football,2015-07-26 17:25:05
 2015-07-26 20:00:00,Romania,Liga 1,CS MUNICIPAL STUDENTESC IASI vs FC PETROLUL PLOIESTI,1-0 (0-0),Match Odds,Draw,3.25,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-26 17:18:09
 2015-07-26 17:30:00,Romania,Liga 1,CS UNIVERSITATEA CRAIOVA vs AFC ASTRA GIURGIU,1-2 (0-0),Match Odds,Draw,3.28,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-25 17:29:15
 2015-07-26 15:30:00,Germany,2. Bundesliga,1 FC HEIDENHEIM vs 1860 MUNICH,1-0 (0-0),Match Odds,Draw,3.50,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-26 13:18:04
 2015-07-26 15:30:00,Germany,2. Bundesliga,EINTRACHT BRAUNSCHWEIG vs SV SANDHAUSEN,1-3 (1-2),Match Odds,Draw,3.72,,100,-100.00,Lost,Gabriel Elias,Football,2015-07-26 13:12:07
-2015-07-26 15:30:00,Norway,Eliteserien,BODO/GLIMT vs AALESUNDS FK,1-0 (0-0),Match Odds,BODO/GLIMT,1.99,,80,79.20,Win,Gabriel Elias,Football,2015-07-25 17:23:04
+2015-07-26 15:30:00,Norway,Tippeligaen,BODO/GLIMT vs AALESUNDS FK,1-0 (0-0),Match Odds,BODO/GLIMT,1.99,,80,79.20,Win,Gabriel Elias,Football,2015-07-25 17:23:04
 2015-07-26 01:00:00,Colombia,Apertura II,ATLETICO HUILA vs ATLETICO NACIONAL MEDELLIN,0-2 (0-1),Match Odds,Draw,3.40,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-25 22:48:10
 2015-07-25 17:30:00,Romania,Liga 1,FC VIITORUL CONSTANTA vs DINAMO BUCURESTI,1-1 (0-0),Match Odds,Draw,3.31,,60,138.60,Win,Gabriel Elias,Football,2015-07-25 08:49:15
 2015-07-25 13:00:00,Germany,2. Bundesliga,GREUTHER FURTH vs KARLSRUHER SC,1-0 (0-0),Match Odds,Draw,3.30,,100,-100.00,Lost,Gabriel Elias,Football,2015-07-25 08:45:06
 2015-07-25 03:00:00,Colombia,Apertura II,ENVIGADO FC vs DEPORTIVO LA EQUIDAD,0-2 (0-1),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-24 17:05:06
 2015-07-24 20:30:00,Germany,2. Bundesliga,MSV DUISBURG vs 1 FC KAISERSLAUTERN,1-3 (0-3),Match Odds,Draw,3.34,,100,-100.00,Lost,Gabriel Elias,Football,2015-07-23 22:06:07
-2015-07-24 19:00:00,Norway,Eliteserien,IK START vs VIKING FK,0-3 (0-3),Match Odds,VIKING FK,2.48,,80,118.40,Win,Gabriel Elias,Football,2015-07-23 21:51:40
+2015-07-24 19:00:00,Norway,Tippeligaen,IK START vs VIKING FK,0-3 (0-3),Match Odds,VIKING FK,2.48,,80,118.40,Win,Gabriel Elias,Football,2015-07-23 21:51:40
 2015-07-24 17:30:00,Romania,Liga 1,CS VOLUNTARI vs CS PANDURII TARGU JIU,0-0 (0-0),Match Odds,Draw,3.25,,60,135.00,Win,Gabriel Elias,Football,2015-07-23 21:43:03
 2015-07-20 20:00:00,Romania,Liga 1,FC BOTOSANI vs FC VIITORUL CONSTANTA,2-2 (1-2),Match Odds,Draw,3.59,,40,103.60,Win,Gabriel Elias,Football,2015-07-20 18:56:03
 2015-07-20 01:00:00,Colombia,Apertura II,ALIANZA PETROLERA vs BOYACA CHICO FC,1-0 (0-0),Match Odds,Draw,3.60,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-19 21:51:03
@@ -1107,24 +1127,24 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-13 00:30:00,Colombia,Apertura II,DEPORTIVO PASTO vs MILLONARIOS FC,0-0 (0-0),Match Odds,Draw,3.29,,60,137.40,Win,Gabriel Elias,Football,2015-07-12 21:18:03
 2015-07-12 20:00:00,International Youth,U19 European Championship,FRANCE vs GREECE,2-0 (1-0),Match Odds,Draw,2.85,,20,-20.00,Lost,Gabriel Elias,Football,2015-07-12 10:25:03
 2015-07-12 19:00:00,Ecuador,"Serie A, Primera Etapa",EL NACIONAL QUITO vs LIGA DEP UNIVERSITARIA QUITO,0-1 (0-1),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2015-07-12 10:11:02
-2015-07-12 18:00:00,Norway,Eliteserien,MJONDALEN vs BODO/GLIMT,1-2 (0-1),Match Odds,MJONDALEN,1.98,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-12 10:07:02
+2015-07-12 18:00:00,Norway,Tippeligaen,MJONDALEN vs BODO/GLIMT,1-2 (0-1),Match Odds,MJONDALEN,1.98,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-12 10:07:02
 2015-07-11 22:15:00,Colombia,Apertura II,ENVIGADO FC vs CLUB CORTULUA,1-2 (0-1),Match Odds,Draw,3.35,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-11 10:26:14
 2015-07-11 02:45:00,Colombia,Apertura II,ALIANZA PETROLERA vs UNIAUTONOMA,2-0 (0-0),Match Odds,Draw,3.30,,60,-60.00,Lost,Gabriel Elias,Football,2015-07-10 11:32:16
-2015-07-05 18:00:00,Norway,Eliteserien,ODDS BK vs VALERENGA IF,1-2 (0-1),Match Odds,ODDS BK,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-05 09:55:04
-2015-07-05 18:00:00,Norway,Eliteserien,AALESUNDS FK vs MJONDALEN,4-2 (0-2),Match Odds,AALESUNDS FK,1.87,,80,69.60,Win,Gabriel Elias,Football,2015-07-05 09:54:02
-2015-07-05 15:30:00,Norway,Eliteserien,STROMSGODSET vs VIKING FK,4-1 (2-1),Match Odds,STROMSGODSET,2.11,,80,88.80,Win,Gabriel Elias,Football,2015-07-05 09:47:03
-2015-07-04 15:30:00,Norway,Eliteserien,IK START vs STABAEK FOTBALL,4-1 (2-0),Match Odds,STABAEK FOTBALL,2.30,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-03 19:48:09
+2015-07-05 18:00:00,Norway,Tippeligaen,ODDS BK vs VALERENGA IF,1-2 (0-1),Match Odds,ODDS BK,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-05 09:55:04
+2015-07-05 18:00:00,Norway,Tippeligaen,AALESUNDS FK vs MJONDALEN,4-2 (0-2),Match Odds,AALESUNDS FK,1.87,,80,69.60,Win,Gabriel Elias,Football,2015-07-05 09:54:02
+2015-07-05 15:30:00,Norway,Tippeligaen,STROMSGODSET vs VIKING FK,4-1 (2-1),Match Odds,STROMSGODSET,2.11,,80,88.80,Win,Gabriel Elias,Football,2015-07-05 09:47:03
+2015-07-04 15:30:00,Norway,Tippeligaen,IK START vs STABAEK FOTBALL,4-1 (2-0),Match Odds,STABAEK FOTBALL,2.30,,80,-80.00,Lost,Gabriel Elias,Football,2015-07-03 19:48:09
 2015-06-28 18:30:00,Ecuador,"Serie A, Primera Etapa",MUSHUC RUNA vs LIGA DEP UNIVERSITARIA QUITO,0-1 (0-1),Match Odds,Draw,3.26,,40,-40.00,Lost,Gabriel Elias,Football,2015-06-28 14:30:21
-2015-06-28 18:00:00,Norway,Eliteserien,MJONDALEN vs SANDEFJORD FOTBALL,2-2 (0-2),Match Odds,MJONDALEN,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-06-28 14:30:08
-2015-06-27 20:00:00,Norway,Eliteserien,STABAEK FOTBALL vs STROMSGODSET,3-2 (2-0),Match Odds,STABAEK FOTBALL,2.30,,60,78.00,Win,Gabriel Elias,Football,2015-06-26 21:25:05
-2015-06-27 18:00:00,Norway,Eliteserien,ROSENBORG BK vs MOLDE FK,1-1 (1-1),Match Odds,ROSENBORG BK,1.85,,60,-60.00,Lost,Gabriel Elias,Football,2015-06-26 21:24:02
-2015-06-27 15:30:00,Norway,Eliteserien,IK START vs AALESUNDS FK,3-1 (2-1),Match Odds,IK START,2.29,,60,77.40,Win,Gabriel Elias,Football,2015-06-26 21:22:03
+2015-06-28 18:00:00,Norway,Tippeligaen,MJONDALEN vs SANDEFJORD FOTBALL,2-2 (0-2),Match Odds,MJONDALEN,1.89,,80,-80.00,Lost,Gabriel Elias,Football,2015-06-28 14:30:08
+2015-06-27 20:00:00,Norway,Tippeligaen,STABAEK FOTBALL vs STROMSGODSET,3-2 (2-0),Match Odds,STABAEK FOTBALL,2.30,,60,78.00,Win,Gabriel Elias,Football,2015-06-26 21:25:05
+2015-06-27 18:00:00,Norway,Tippeligaen,ROSENBORG BK vs MOLDE FK,1-1 (1-1),Match Odds,ROSENBORG BK,1.85,,60,-60.00,Lost,Gabriel Elias,Football,2015-06-26 21:24:02
+2015-06-27 15:30:00,Norway,Tippeligaen,IK START vs AALESUNDS FK,3-1 (2-1),Match Odds,IK START,2.29,,60,77.40,Win,Gabriel Elias,Football,2015-06-26 21:22:03
 2015-06-27 01:30:00,International,"Copa America, Final Round",ARGENTINA vs COLOMBIA,5-4 (0-0),Match Odds,Draw,3.51,,30,75.30,Win,Gabriel Elias,Football,2015-06-26 21:18:04
 2015-06-26 01:30:00,International,"Copa America, Final Round",BOLIVIA vs PERU,1-3 (0-2),Match Odds,Draw,3.31,,30,-30.00,Lost,Gabriel Elias,Football,2015-06-25 20:09:02
-2015-06-21 20:00:00,Norway,Eliteserien,SARPSBORG vs ROSENBORG BK,0-2 (0-1),Match Odds,ROSENBORG BK,1.72,,80,57.60,Win,Gabriel Elias,Football,2015-06-21 15:22:03
-2015-06-21 15:30:00,Norway,Eliteserien,BODO/GLIMT vs VIKING FK,0-3 (0-3),Match Odds,VIKING FK,2.25,,80,100.00,Win,Gabriel Elias,Football,2015-06-20 09:47:12
+2015-06-21 20:00:00,Norway,Tippeligaen,SARPSBORG vs ROSENBORG BK,0-2 (0-1),Match Odds,ROSENBORG BK,1.72,,80,57.60,Win,Gabriel Elias,Football,2015-06-21 15:22:03
+2015-06-21 15:30:00,Norway,Tippeligaen,BODO/GLIMT vs VIKING FK,0-3 (0-3),Match Odds,VIKING FK,2.25,,80,100.00,Win,Gabriel Elias,Football,2015-06-20 09:47:12
 2015-06-20 21:00:00,International,Copa America,URUGUAY vs PARAGUAY,1-1 (1-1),Match Odds,Draw,3.10,,30,63.00,Win,Gabriel Elias,Football,2015-06-20 09:37:03
-2015-06-20 15:30:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs LILLESTROM SK,0-0 (0-0),Match Odds,LILLESTROM SK,2.16,,80,-80.00,Lost,Gabriel Elias,Football,2015-06-20 09:34:04
+2015-06-20 15:30:00,Norway,Tippeligaen,SANDEFJORD FOTBALL vs LILLESTROM SK,0-0 (0-0),Match Odds,LILLESTROM SK,2.16,,80,-80.00,Lost,Gabriel Elias,Football,2015-06-20 09:34:04
 2015-06-16 20:30:00,International,International Friendly Games,PORTUGAL vs ITALY,1-0 (0-0),Match Odds,Draw,3.28,,20,-20.00,Lost,Gabriel Elias,Football,2015-06-16 07:15:04
 2015-06-14 18:00:00,International,Euro Cup,RUSSIA vs AUSTRIA,0-1 (0-1),Match Odds,Draw,3.28,,20,-20.00,Lost,Gabriel Elias,Football,2015-06-14 14:23:03
 2015-06-14 18:00:00,International,Euro Cup,LIECHTENSTEIN vs MOLDOVA,1-1 (1-1),Match Odds,Draw,3.36,,20,47.20,Win,Gabriel Elias,Football,2015-06-14 14:22:11
@@ -1148,8 +1168,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-06-07 21:00:00,International,International Friendly Games,FRANCE vs BELGIUM,3-4 (0-2),Match Odds,Draw,3.63,,20,-20.00,Lost,Gabriel Elias,Football,2015-06-07 18:13:00
 2015-06-07 18:00:00,Spain,Liga Adelante,CE SABADELL vs CA OSASUNA,2-2 (2-0),Match Odds,Draw,2.98,,20,39.60,Win,Gabriel Elias,Football,2015-06-07 16:55:24
 2015-06-07 18:00:00,Spain,Liga Adelante,RECREATIVO HUELVA vs BARCELONA B FC,2-0 (2-0),Match Odds,RECREATIVO HUELVA,2.00,,20,20.00,Win,Gabriel Elias,Football,2015-06-07 16:54:09
-2015-06-07 18:00:00,Norway,Eliteserien,IK START vs STROMSGODSET,0-1 (0-0),Match Odds,STROMSGODSET,2.24,,40,49.60,Win,Gabriel Elias,Football,2015-06-07 16:53:15
-2015-06-07 18:00:00,Norway,Eliteserien,AALESUNDS FK vs HAUGESUND FK,2-1 (2-0),Match Odds,AALESUNDS FK,2.08,,40,43.20,Win,Gabriel Elias,Football,2015-06-07 16:52:13
+2015-06-07 18:00:00,Norway,Tippeligaen,IK START vs STROMSGODSET,0-1 (0-0),Match Odds,STROMSGODSET,2.24,,40,49.60,Win,Gabriel Elias,Football,2015-06-07 16:53:15
+2015-06-07 18:00:00,Norway,Tippeligaen,AALESUNDS FK vs HAUGESUND FK,2-1 (2-0),Match Odds,AALESUNDS FK,2.08,,40,43.20,Win,Gabriel Elias,Football,2015-06-07 16:52:13
 2015-06-07 14:00:00,International,International Friendly Games,IRELAND vs ENGLAND,0-0 (0-0),Match Odds,Draw,3.36,,20,47.20,Win,Gabriel Elias,Football,2015-06-07 12:31:02
 2015-06-07 01:15:00,International,International Friendly Games,PARAGUAY vs HONDURAS,2-2 (1-2),Match Odds,Draw,3.75,,20,55.00,Win,Gabriel Elias,Football,2015-06-06 09:27:03
 2015-06-06 18:30:00,Italy,Serie B,FC MODENA vs VIRTUS ENTELLA,1-1 (1-1),Match Odds,Draw,3.36,,20,47.20,Win,Gabriel Elias,Football,2015-06-06 09:21:04
@@ -1370,7 +1390,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-02-21 14:00:00,Germany,3.Liga,PREUSSEN MUNSTER vs HOLSTEIN KIEL,1-3 (1-2),Match Odds,Draw,3.30,,20,-20.00,Lost,Gabriel Elias,Football,2015-02-21 12:04:06
 2015-02-21 13:00:00,Germany,2. Bundesliga,KARLSRUHER SC vs VFL BOCHUM,0-0 (0-0),Asian handicap,KARLSRUHER SC -1.00,2.23,,30,-30.00,Lost,Gabriel Elias,Football,2015-02-21 12:00:06
 2015-02-20 20:30:00,France,Ligue 1,OGC NICE vs AS MONACO,0-1 (0-0),Match Odds,Draw,3.10,,20,-20.00,Lost,Gabriel Elias,Football,2015-02-20 07:27:02
-2015-02-20 18:30:00,Denmark,SAS Ligaen,FC NORDSJALLAND vs RANDERS FC,0-3 (0-3),Match Odds,Draw,3.25,,20,-20.00,Lost,Gabriel Elias,Football,2015-02-20 07:24:03
+2015-02-20 18:30:00,Denmark,Superliga,FC NORDSJALLAND vs RANDERS FC,0-3 (0-3),Match Odds,Draw,3.25,,20,-20.00,Lost,Gabriel Elias,Football,2015-02-20 07:24:03
 2015-02-20 18:30:00,Germany,2. Bundesliga,GREUTHER FURTH vs SV SANDHAUSEN,0-0 (0-0),Match Odds,Draw,3.56,,20,51.20,Win,Gabriel Elias,Football,2015-02-20 07:19:03
 2015-02-20 18:30:00,Germany,2. Bundesliga,ERZGEBIRGE AUE vs SV DARMSTADT 98,0-1 (0-0),Match Odds,Draw,3.22,,20,-20.00,Lost,Gabriel Elias,Football,2015-02-20 07:14:03
 2015-02-20 18:30:00,Germany,2. Bundesliga,VFR AALEN vs FC INGOLSTADT,1-1 (0-0),Match Odds,Draw,3.31,,20,46.20,Win,Gabriel Elias,Football,2015-02-20 07:08:03

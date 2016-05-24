@@ -1,237 +1,249 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-17 21:00:00,England,Premier League,MANCHESTER UNITED vs BOURNEMOUTH AFC,3-1 (1-0),Asian handicap,MANCHESTER UNITED -1.00,1.97,Pinnacle Sports,100,97.00,Win,Don Sorensen,Football,2016-05-17 14:42:02
+2016-05-16 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs SHEFFIELD WEDNESDAY,1-1 (1-1),Both team to score,Yes,1.95,William Hill,100,95.00,Win,Don Sorensen,Football,2016-05-16 09:47:03
+2016-05-15 16:00:00,England,Premier League,EVERTON FC vs NORWICH CITY,3-0 (2-0),Asian handicap,EVERTON FC -0.75,1.91,Pinnacle Sports,100,91.00,Win,Don Sorensen,Football,2016-05-15 12:58:02
+2016-05-15 16:00:00,England,Premier League,ARSENAL FC vs ASTON VILLA,4-0 (1-0),Asian Handicap 1st Half,ARSENAL FC -1.25 Half time,2.30,Bet365,100,-50.00,Half lost,Don Sorensen,Football,2016-05-15 10:01:02
+2016-05-15 16:00:00,England,Premier League,CHELSEA FC vs LEICESTER CITY,1-1 (0-0),Asian handicap,CHELSEA FC -0.50,2.30,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-05-15 09:42:02
+2016-05-15 13:30:00,Scotland,Premier League,ABERDEEN FC vs ROSS COUNTY FC,0-4 (0-2),Asian handicap,ABERDEEN FC -0.75,1.81,,100,-100.00,Lost,Don Sorensen,Football,2016-05-15 12:44:02
+2016-05-14 20:30:00,England,League Two,AFC WIMBLEDON vs ACCRINGTON STANLEY,1-0 (0-0),Over / Under 1st Half,Under +0.75 Half time,2.21,,100,121.00,Win,Don Sorensen,Football,2016-05-14 16:43:03
+2016-05-14 19:15:00,Iceland,"Iceland,Inkasso-deildin",HAUKAR HAFNARFJORDUR vs KA AKUREYRI,4-1 (0-0),Asian handicap,KA AKUREYRI -1.00,2.15,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-05-14 15:15:02
+2016-05-14 18:30:00,England,League One,BARNSLEY FC vs WALSALL FC,3-0 (1-0),Over / Under 1st Half,Under +1.00 Half time,1.91,Pinnacle Sports,100,0.00,Void,Don Sorensen,Football,2016-05-14 16:42:02
+2016-05-14 13:30:00,England,Championship,DERBY COUNTY vs HULL CITY,0-3 (0-2),Over / Under 1st Half,Under +0.75 Half time,2.02,,100,-100.00,Lost,Don Sorensen,Football,2016-05-14 10:15:03
+2016-05-13 20:45:00,England,Championship,SHEFFIELD WEDNESDAY vs BRIGHTON & HOVE ALBION FC,2-0 (1-0),Asian handicap,SHEFFIELD WEDNESDAY -0.25,2.11,,100,111.00,Win,Don Sorensen,Football,2016-05-13 18:32:01
+2016-05-10 21:30:00,England,Premier League,WEST HAM UNITED vs MANCHESTER UNITED,3-2 (1-0),Asian handicap,MANCHESTER UNITED -0.25,2.08,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-05-09 16:36:02
 2016-05-08 14:30:00,England,Premier League,TOTTENHAM HOTSPUR vs SOUTHAMPTON FC,1-2 (1-1),Over / Under,Over +2.25,1.75,,100,75.00,Win,Don Sorensen,Football,2016-05-08 13:49:03
 2016-05-07 13:30:00,England,Championship,MIDDLESBROUGH FC vs BRIGHTON & HOVE ALBION FC,1-1 (1-0),Asian handicap,MIDDLESBROUGH FC -0.50,2.06,,100,-100.00,Lost,Don Sorensen,Football,2016-05-07 11:52:02
-2016-05-06 20:45:00,Ireland,Airtricity First Division,ATHLONE TOWN AFC vs DROGHEDA UNITED FC,1-2 (1-1),Asian handicap,DROGHEDA UNITED FC -0.50,1.85,,100,85.00,Win,Don Sorensen,Football,2016-05-06 20:15:02
-2016-05-05 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs VILLARREAL CF,3-0 (1-0),Asian handicap,LIVERPOOL FC -0.50,1.75,,100,75.00,Win,Don Sorensen,Football,2016-05-05 11:51:04
-2016-05-02 17:45:00,England,Championship,BURNLEY FC vs QUEENS PARK RANGERS,1-0 (0-0),Asian handicap,BURNLEY FC -1.25,1.98,,100,-50.00,Half lost,Don Sorensen,Football,2016-05-02 17:03:02
-2016-05-01 13:00:00,England,Premier League,SWANSEA CITY vs LIVERPOOL FC,3-1 (2-0),Asian handicap,SWANSEA CITY +0.25,2.05,,100,105.00,Win,Don Sorensen,Football,2016-05-01 12:07:03
-2016-04-30 18:30:00,England,Premier League,ARSENAL FC vs NORWICH CITY,1-0 (0-0),Asian Handicap 1st Half,ARSENAL FC -0.75 Half time,1.90,,100,-100.00,Lost,Don Sorensen,Football,2016-04-30 17:42:02
-2016-04-30 16:00:00,England,League Two,WYCOMBE WANDERERS vs ACCRINGTON STANLEY,0-1 (0-0),Asian handicap,ACCRINGTON STANLEY -0.50,1.85,,100,85.00,Win,Don Sorensen,Football,2016-04-30 15:32:04
+2016-05-06 20:45:00,Ireland,Airtricity First Division,ATHLONE TOWN AFC vs DROGHEDA UNITED FC,1-2 (1-1),Asian handicap,DROGHEDA UNITED FC -0.50,1.85,Pinnacle Sports,100,85.00,Win,Don Sorensen,Football,2016-05-06 20:15:02
+2016-05-05 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs VILLARREAL CF,3-0 (1-0),Asian handicap,LIVERPOOL FC -0.50,1.75,Pinnacle Sports,100,75.00,Win,Don Sorensen,Football,2016-05-05 11:51:04
+2016-05-02 17:45:00,England,Championship,BURNLEY FC vs QUEENS PARK RANGERS,1-0 (0-0),Asian handicap,BURNLEY FC -1.25,1.98,Pinnacle Sports,100,-50.00,Half lost,Don Sorensen,Football,2016-05-02 17:03:02
+2016-05-01 13:00:00,England,Premier League,SWANSEA CITY vs LIVERPOOL FC,3-1 (2-0),Asian handicap,SWANSEA CITY +0.25,2.05,Bet365,100,105.00,Win,Don Sorensen,Football,2016-05-01 12:07:03
+2016-04-30 18:30:00,England,Premier League,ARSENAL FC vs NORWICH CITY,1-0 (0-0),Asian Handicap 1st Half,ARSENAL FC -0.75 Half time,1.90,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-04-30 17:42:02
+2016-04-30 16:00:00,England,League Two,WYCOMBE WANDERERS vs ACCRINGTON STANLEY,0-1 (0-0),Asian handicap,ACCRINGTON STANLEY -0.50,1.85,Pinnacle Sports,100,85.00,Win,Don Sorensen,Football,2016-04-30 15:32:04
 2016-04-30 16:00:00,England,Premier League,STOKE CITY vs SUNDERLAND AFC,1-1 (0-0),Asian handicap,SUNDERLAND AFC -0.25,2.11,,100,-50.00,Half lost,Don Sorensen,Football,2016-04-30 14:42:01
-2016-04-30 16:00:00,England,Premier League,NEWCASTLE UNITED vs CRYSTAL PALACE,1-0 (0-0),Asian handicap,NEWCASTLE UNITED -0.50,1.96,,100,96.00,Win,Don Sorensen,Football,2016-04-30 12:24:01
+2016-04-30 16:00:00,England,Premier League,NEWCASTLE UNITED vs CRYSTAL PALACE,1-0 (0-0),Asian handicap,NEWCASTLE UNITED -0.50,1.96,Pinnacle Sports,100,96.00,Win,Don Sorensen,Football,2016-04-30 12:24:01
 2016-04-29 20:45:00,England,Championship,BIRMINGHAM CITY vs MIDDLESBROUGH FC,2-2 (1-1),Asian handicap,MIDDLESBROUGH FC -0.75,1.79,,100,-100.00,Lost,Don Sorensen,Football,2016-04-29 10:33:03
-2016-04-26 20:45:00,England,League One,WALSALL FC vs SHREWSBURY TOWN,2-1 (2-0),Asian handicap,SHREWSBURY TOWN +0.75,1.90,,100,-50.00,Half lost,Don Sorensen,Football,2016-04-26 19:47:01
+2016-04-26 20:45:00,England,League One,WALSALL FC vs SHREWSBURY TOWN,2-1 (2-0),Asian handicap,SHREWSBURY TOWN +0.75,1.90,Pinnacle Sports,100,-50.00,Half lost,Don Sorensen,Football,2016-04-26 19:47:01
 2016-04-24 15:05:00,England,Premier League,SUNDERLAND AFC vs ARSENAL FC,0-0 (0-0),Asian handicap,SUNDERLAND AFC +1.00,1.82,,100,82.00,Win,Don Sorensen,Football,2016-04-24 11:07:01
 2016-04-23 16:00:00,England,Premier League,BOURNEMOUTH AFC vs CHELSEA FC,1-4 (1-2),Asian handicap,CHELSEA FC +0,1.71,,100,71.00,Win,Don Sorensen,Football,2016-04-23 14:37:09
 2016-04-23 16:00:00,England,Premier League,LIVERPOOL FC vs NEWCASTLE UNITED,2-2 (2-0),Asian handicap,NEWCASTLE UNITED +1.00,2.14,,100,114.00,Win,Don Sorensen,Football,2016-04-23 14:24:07
-2016-04-23 16:00:00,Scotland,Third Division,ARBROATH FC vs MONTROSE FC,0-0 (0-0),Asian handicap,ARBROATH FC -0.50,1.79,,100,-100.00,Lost,Don Sorensen,Football,2016-04-23 10:59:07
+2016-04-23 16:00:00,Scotland,Third Division,ARBROATH FC vs MONTROSE FC,0-0 (0-0),Asian handicap,ARBROATH FC -0.50,1.79,Unibet,100,-100.00,Lost,Don Sorensen,Football,2016-04-23 10:59:07
 2016-04-22 20:45:00,Ireland,Airtricity Premier Division,SHAMROCK ROVERS FC vs DUNDALK FC,0-2 (0-1),Asian handicap,DUNDALK FC -0.25,1.98,,100,98.00,Win,Don Sorensen,Football,2016-04-22 20:10:04
-2016-04-22 20:45:00,England,Championship,PRESTON NORTH END vs BURNLEY FC,0-1 (0-1),Match Odds,BURNLEY FC,2.15,,100,115.00,Win,Don Sorensen,Football,2016-04-21 10:35:01
-2016-04-21 20:45:00,England,Premier League,ARSENAL FC vs WEST BROMWICH ALBION,2-0 (2-0),Asian handicap,ARSENAL FC -1.50,1.81,,100,81.00,Win,Don Sorensen,Football,2016-04-21 09:57:02
+2016-04-22 20:45:00,England,Championship,PRESTON NORTH END vs BURNLEY FC,0-1 (0-1),Match Odds,BURNLEY FC,2.15,Pinnacle Sports,100,115.00,Win,Don Sorensen,Football,2016-04-21 10:35:01
+2016-04-21 20:45:00,England,Premier League,ARSENAL FC vs WEST BROMWICH ALBION,2-0 (2-0),Asian handicap,ARSENAL FC -1.50,1.81,Pinnacle Sports,100,81.00,Win,Don Sorensen,Football,2016-04-21 09:57:02
 2016-04-20 21:00:00,England,Premier League,MANCHESTER UNITED vs CRYSTAL PALACE,2-0 (1-0),Asian handicap,MANCHESTER UNITED -1.50,2.17,,100,117.00,Win,Don Sorensen,Football,2016-04-20 16:50:02
 2016-04-20 20:45:00,England,Premier League,WEST HAM UNITED vs WATFORD FC,3-1 (2-0),Asian handicap,WEST HAM UNITED -1.00,1.77,,100,77.00,Win,Don Sorensen,Football,2016-04-20 18:38:03
-2016-04-19 21:00:00,England,Championship,READING FC vs HULL CITY,1-2 (1-1),Asian handicap,HULL CITY -0.25,1.79,,100,79.00,Win,Don Sorensen,Football,2016-04-19 20:04:02
-2016-04-19 20:45:00,England,Championship,BRISTOL CITY vs DERBY COUNTY,2-3 (2-1),Asian handicap,DERBY COUNTY -0.25,1.97,,100,97.00,Win,Don Sorensen,Football,2016-04-19 19:36:02
+2016-04-19 21:00:00,England,Championship,READING FC vs HULL CITY,1-2 (1-1),Asian handicap,HULL CITY -0.25,1.79,Pinnacle Sports,100,79.00,Win,Don Sorensen,Football,2016-04-19 20:04:02
+2016-04-19 20:45:00,England,Championship,BRISTOL CITY vs DERBY COUNTY,2-3 (2-1),Asian handicap,DERBY COUNTY -0.25,1.97,Pinnacle Sports,100,97.00,Win,Don Sorensen,Football,2016-04-19 19:36:02
 2016-04-18 21:00:00,England,Premier League,STOKE CITY vs TOTTENHAM HOTSPUR,0-4 (0-1),Asian handicap,TOTTENHAM HOTSPUR -0.75,1.94,,100,94.00,Win,Don Sorensen,Football,2016-04-18 10:47:02
 2016-04-17 17:00:00,England,Premier League,ARSENAL FC vs CRYSTAL PALACE,1-1 (1-0),Asian handicap,ARSENAL FC -1.50,1.93,,100,-100.00,Lost,Don Sorensen,Football,2016-04-17 16:32:01
 2016-04-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs SWANSEA CITY,3-0 (1-0),Asian handicap,NEWCASTLE UNITED -0.25,2.03,,100,103.00,Win,Don Sorensen,Football,2016-04-16 14:42:05
-2016-04-16 16:00:00,England,Premier League,MANCHESTER UNITED vs ASTON VILLA,1-0 (1-0),Asian handicap,MANCHESTER UNITED -1.50,1.88,,100,-100.00,Lost,Don Sorensen,Football,2016-04-16 11:34:02
-2016-04-16 13:30:00,England,Championship,BOLTON WANDERERS vs MIDDLESBROUGH FC,1-2 (0-0),Match Odds 1st Half,MIDDLESBROUGH FC Half time,1.91,,100,-100.00,Lost,Don Sorensen,Football,2016-04-16 11:32:03
+2016-04-16 16:00:00,England,Premier League,MANCHESTER UNITED vs ASTON VILLA,1-0 (1-0),Asian handicap,MANCHESTER UNITED -1.50,1.88,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-04-16 11:34:02
+2016-04-16 13:30:00,England,Championship,BOLTON WANDERERS vs MIDDLESBROUGH FC,1-2 (0-0),Match Odds 1st Half,MIDDLESBROUGH FC Half time,1.91,Bet365,100,-100.00,Lost,Don Sorensen,Football,2016-04-16 11:32:03
 2016-04-15 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs FULHAM FC,5-0 (2-0),Asian Handicap 1st Half,BRIGHTON & HOVE ALBION FC -0.50 Half time,2.17,,100,117.00,Win,Don Sorensen,Football,2016-04-15 16:08:01
-2016-04-14 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs BORUSSIA DORTMUND,4-3 (0-2),Asian handicap,LIVERPOOL FC +0.25,1.83,,100,83.00,Win,Don Sorensen,Football,2016-04-14 10:50:02
+2016-04-14 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs BORUSSIA DORTMUND,4-3 (0-2),Asian handicap,LIVERPOOL FC +0.25,1.83,Pinnacle Sports,100,83.00,Win,Don Sorensen,Football,2016-04-14 10:50:02
 2016-04-13 20:00:00,England,FA Cup,WEST HAM UNITED vs MANCHESTER UNITED,1-2 (0-0),Asian handicap,MANCHESTER UNITED +0,2.02,,100,102.00,Win,Don Sorensen,Football,2016-04-13 19:10:14
-2016-04-12 20:45:00,England,Championship,BIRMINGHAM CITY vs LEEDS UNITED,1-2 (0-1),Asian handicap,BIRMINGHAM CITY -0.50,2.00,,100,-100.00,Lost,Don Sorensen,Football,2016-04-12 20:07:01
-2016-04-11 20:45:00,England,Championship,NOTTINGHAM FOREST vs BRIGHTON & HOVE ALBION FC,1-2 (0-1),Match Odds,BRIGHTON & HOVE ALBION FC,2.10,,100,110.00,Win,Don Sorensen,Football,2016-04-11 16:44:01
+2016-04-12 20:45:00,England,Championship,BIRMINGHAM CITY vs LEEDS UNITED,1-2 (0-1),Asian handicap,BIRMINGHAM CITY -0.50,2.00,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-04-12 20:07:01
+2016-04-11 20:45:00,England,Championship,NOTTINGHAM FOREST vs BRIGHTON & HOVE ALBION FC,1-2 (0-1),Match Odds,BRIGHTON & HOVE ALBION FC,2.10,William Hill,100,110.00,Win,Don Sorensen,Football,2016-04-11 16:44:01
 2016-04-10 17:00:00,England,Premier League,LIVERPOOL FC vs STOKE CITY,4-1 (2-1),Asian handicap,STOKE CITY +0.75,2.11,,100,-100.00,Lost,Don Sorensen,Football,2016-04-10 16:27:03
 2016-04-10 14:30:00,England,Premier League,SUNDERLAND AFC vs LEICESTER CITY,0-2 (0-0),Asian handicap,SUNDERLAND AFC +0.25,2.05,,100,-100.00,Lost,Don Sorensen,Football,2016-04-10 12:17:04
 2016-04-09 16:00:00,England,Premier League,SOUTHAMPTON FC vs NEWCASTLE UNITED,3-1 (2-0),Asian handicap,NEWCASTLE UNITED +1.00,1.81,,100,-100.00,Lost,Don Sorensen,Football,2016-04-09 10:35:05
-2016-04-09 13:45:00,England,Premier League,WEST HAM UNITED vs ARSENAL FC,3-3 (2-2),Match Odds,ARSENAL FC,2.05,,100,-100.00,Lost,Don Sorensen,Football,2016-04-09 12:14:05
+2016-04-09 13:45:00,England,Premier League,WEST HAM UNITED vs ARSENAL FC,3-3 (2-2),Match Odds,ARSENAL FC,2.05,William Hill,100,-100.00,Lost,Don Sorensen,Football,2016-04-09 12:14:05
 2016-04-09 13:30:00,England,Championship,BURNLEY FC vs LEEDS UNITED,1-0 (1-0),Asian handicap,BURNLEY FC -1.00,2.06,,100,0.00,Void,Don Sorensen,Football,2016-04-09 10:34:02
-2016-04-05 20:45:00,England,Championship,MIDDLESBROUGH FC vs HUDDERSFIELD TOWN,3-0 (2-0),Asian handicap,MIDDLESBROUGH FC -1.00,2.06,,100,106.00,Win,Don Sorensen,Football,2016-04-05 19:08:01
+2016-04-05 20:45:00,England,Championship,MIDDLESBROUGH FC vs HUDDERSFIELD TOWN,3-0 (2-0),Asian handicap,MIDDLESBROUGH FC -1.00,2.06,Pinnacle Sports,100,106.00,Win,Don Sorensen,Football,2016-04-05 19:08:01
 2016-04-05 20:45:00,England,League One,OLDHAM ATHLETIC vs SWINDON TOWN,2-0 (1-0),Asian handicap,OLDHAM ATHLETIC -0.50,1.98,,100,98.00,Win,Don Sorensen,Football,2016-04-05 17:02:02
 2016-04-03 17:00:00,England,Premier League,MANCHESTER UNITED vs EVERTON FC,1-0 (0-0),Match Odds,MANCHESTER UNITED,2.03,,100,103.00,Win,Don Sorensen,Football,2016-04-03 16:20:04
 2016-04-03 14:30:00,England,Premier League,LEICESTER CITY vs SOUTHAMPTON FC,1-0 (1-0),Asian handicap,SOUTHAMPTON FC +0.25,2.02,,100,-100.00,Lost,Don Sorensen,Football,2016-04-03 11:48:03
-2016-04-02 18:30:00,England,Premier League,LIVERPOOL FC vs TOTTENHAM HOTSPUR,1-1 (0-0),Asian handicap,TOTTENHAM HOTSPUR +0.25,1.90,,100,45.00,Half win,Don Sorensen,Football,2016-04-02 12:02:02
-2016-04-02 16:00:00,England,Premier League,BOURNEMOUTH AFC vs MANCHESTER CITY,0-4 (0-3),Match Odds,MANCHESTER CITY,2.15,,100,115.00,Win,Don Sorensen,Football,2016-04-02 12:01:01
-2016-04-02 16:00:00,England,Premier League,SUNDERLAND AFC vs WEST BROMWICH ALBION,0-0 (0-0),Match Odds,SUNDERLAND AFC,2.05,,100,-100.00,Lost,Don Sorensen,Football,2016-04-02 11:59:07
-2016-04-01 20:45:00,England,Championship,QUEENS PARK RANGERS vs MIDDLESBROUGH FC,2-3 (1-1),Asian handicap,MIDDLESBROUGH FC -0.25,1.99,,100,99.00,Win,Don Sorensen,Football,2016-04-01 19:46:02
+2016-04-02 18:30:00,England,Premier League,LIVERPOOL FC vs TOTTENHAM HOTSPUR,1-1 (0-0),Asian handicap,TOTTENHAM HOTSPUR +0.25,1.90,Bet365,100,45.00,Half win,Don Sorensen,Football,2016-04-02 12:02:02
+2016-04-02 16:00:00,England,Premier League,BOURNEMOUTH AFC vs MANCHESTER CITY,0-4 (0-3),Match Odds,MANCHESTER CITY,2.15,Pinnacle Sports,100,115.00,Win,Don Sorensen,Football,2016-04-02 12:01:01
+2016-04-02 16:00:00,England,Premier League,SUNDERLAND AFC vs WEST BROMWICH ALBION,0-0 (0-0),Match Odds,SUNDERLAND AFC,2.05,William Hill,100,-100.00,Lost,Don Sorensen,Football,2016-04-02 11:59:07
+2016-04-01 20:45:00,England,Championship,QUEENS PARK RANGERS vs MIDDLESBROUGH FC,2-3 (1-1),Asian handicap,MIDDLESBROUGH FC -0.25,1.99,Pinnacle Sports,100,99.00,Win,Don Sorensen,Football,2016-04-01 19:46:02
 2016-03-28 14:30:00,England,League One,WIGAN ATHLETIC vs ROCHDALE FC,1-0 (0-0),Asian handicap,WIGAN ATHLETIC -0.75,1.89,,100,44.50,Half win,Don Sorensen,Football,2016-03-28 11:57:02
 2016-03-26 20:45:00,International,International Friendly Games,GERMANY vs ENGLAND,2-3 (1-0),Asian handicap,GERMANY -0.75,2.09,,100,-100.00,Lost,Don Sorensen,Football,2016-03-26 18:42:02
-2016-03-26 13:30:00,England,League One,BURTON ALBION vs OLDHAM ATHLETIC,0-0 (0-0),Asian handicap,BURTON ALBION -0.75,1.89,,100,-100.00,Lost,Don Sorensen,Football,2016-03-26 11:30:04
-2016-03-25 18:30:00,England,League One,SWINDON TOWN vs WIGAN ATHLETIC,1-4 (0-1),Match Odds,WIGAN ATHLETIC,2.05,,100,105.00,Win,Don Sorensen,Football,2016-03-25 11:38:02
+2016-03-26 13:30:00,England,League One,BURTON ALBION vs OLDHAM ATHLETIC,0-0 (0-0),Asian handicap,BURTON ALBION -0.75,1.89,BetVictor,100,-100.00,Lost,Don Sorensen,Football,2016-03-26 11:30:04
+2016-03-25 18:30:00,England,League One,SWINDON TOWN vs WIGAN ATHLETIC,1-4 (0-1),Match Odds,WIGAN ATHLETIC,2.05,William Hill,100,105.00,Win,Don Sorensen,Football,2016-03-25 11:38:02
 2016-03-20 17:00:00,England,Premier League,MANCHESTER CITY vs MANCHESTER UNITED,0-1 (0-1),Over / Under Team,MANCHESTER CITY Over +0.50,1.94,,100,-100.00,Lost,Don Sorensen,Football,2016-03-20 16:02:03
-2016-03-20 14:30:00,England,Premier League,SOUTHAMPTON FC vs LIVERPOOL FC,3-2 (0-2),Both team to score,Yes,1.91,,100,91.00,Win,Don Sorensen,Football,2016-03-20 11:14:04
-2016-03-20 14:30:00,England,Premier League,NEWCASTLE UNITED vs SUNDERLAND AFC,1-1 (0-1),Match Odds,NEWCASTLE UNITED,2.23,,100,-100.00,Lost,Don Sorensen,Football,2016-03-20 11:13:05
-2016-03-19 16:00:00,England,Championship,MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC,1-2 (0-0),Match Odds,BRIGHTON & HOVE ALBION FC,2.33,,100,133.00,Win,Don Sorensen,Football,2016-03-19 12:55:02
+2016-03-20 14:30:00,England,Premier League,SOUTHAMPTON FC vs LIVERPOOL FC,3-2 (0-2),Both team to score,Yes,1.91,William Hill,100,91.00,Win,Don Sorensen,Football,2016-03-20 11:14:04
+2016-03-20 14:30:00,England,Premier League,NEWCASTLE UNITED vs SUNDERLAND AFC,1-1 (0-1),Match Odds,NEWCASTLE UNITED,2.23,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-03-20 11:13:05
+2016-03-19 16:00:00,England,Championship,MILTON KEYNES DONS vs BRIGHTON & HOVE ALBION FC,1-2 (0-0),Match Odds,BRIGHTON & HOVE ALBION FC,2.33,Pinnacle Sports,100,133.00,Win,Don Sorensen,Football,2016-03-19 12:55:02
 2016-03-19 16:00:00,England,League One,WIGAN ATHLETIC vs BRADFORD CITY,1-0 (0-0),Match Odds,WIGAN ATHLETIC,1.95,,100,95.00,Win,Don Sorensen,Football,2016-03-19 12:53:03
-2016-03-18 20:45:00,England,Championship,MIDDLESBROUGH FC vs HULL CITY,1-0 (0-0),Match Odds,MIDDLESBROUGH FC,2.49,,100,149.00,Win,Don Sorensen,Football,2016-03-18 11:07:03
-2016-03-16 20:45:00,European cups,UEFA Champions League,FC BARCELONA vs ARSENAL FC,3-1 (1-0),Both team to score,Yes,1.75,,100,75.00,Win,Don Sorensen,Football,2016-03-16 19:08:02
+2016-03-18 20:45:00,England,Championship,MIDDLESBROUGH FC vs HULL CITY,1-0 (0-0),Match Odds,MIDDLESBROUGH FC,2.49,Pinnacle Sports,100,149.00,Win,Don Sorensen,Football,2016-03-18 11:07:03
+2016-03-16 20:45:00,European cups,UEFA Champions League,FC BARCELONA vs ARSENAL FC,3-1 (1-0),Both team to score,Yes,1.75,Bet365,100,75.00,Win,Don Sorensen,Football,2016-03-16 19:08:02
 2016-03-15 20:45:00,England,Championship,HULL CITY vs NOTTINGHAM FOREST,1-1 (0-1),Asian handicap,HULL CITY -1.00,1.94,,100,-100.00,Lost,Don Sorensen,Football,2016-03-15 15:59:02
 2016-03-13 17:00:00,England,Premier League,ASTON VILLA vs TOTTENHAM HOTSPUR,0-2 (0-1),Asian handicap,TOTTENHAM HOTSPUR -1.00,1.93,,100,93.00,Win,Don Sorensen,Football,2016-03-13 14:33:03
-2016-03-13 16:30:00,England,Championship,CHARLTON ATHLETIC vs MIDDLESBROUGH FC,2-0 (0-0),Asian handicap,MIDDLESBROUGH FC -1.00,2.17,,100,-100.00,Lost,Don Sorensen,Football,2016-03-13 14:35:02
+2016-03-13 16:30:00,England,Championship,CHARLTON ATHLETIC vs MIDDLESBROUGH FC,2-0 (0-0),Asian handicap,MIDDLESBROUGH FC -1.00,2.17,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-03-13 14:35:02
 2016-03-12 16:00:00,England,Premier League,BOURNEMOUTH AFC vs SWANSEA CITY,3-2 (1-1),Asian handicap,BOURNEMOUTH AFC -0.50,1.98,,100,98.00,Win,Don Sorensen,Football,2016-03-12 15:21:02
 2016-03-12 13:45:00,England,Premier League,NORWICH CITY vs MANCHESTER CITY,0-0 (0-0),Asian handicap,MANCHESTER CITY -1.00,1.95,,100,-100.00,Lost,Don Sorensen,Football,2016-03-12 12:25:04
-2016-03-10 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs MANCHESTER UNITED,2-0 (1-0),Asian handicap,LIVERPOOL FC -0.25,1.85,,100,85.00,Win,Don Sorensen,Football,2016-03-10 19:42:01
-2016-03-08 20:45:00,England,Championship,ROTHERHAM UNITED vs MIDDLESBROUGH FC,1-0 (0-0),Asian handicap,MIDDLESBROUGH FC -0.75,2.04,,100,-100.00,Lost,Don Sorensen,Football,2016-03-08 19:29:02
-2016-03-08 20:00:00,England,FA Cup,HULL CITY vs ARSENAL FC,0-4 (0-1),Asian handicap,ARSENAL FC -0.75,2.17,,100,117.00,Win,Don Sorensen,Football,2016-03-08 19:46:03
+2016-03-10 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs MANCHESTER UNITED,2-0 (1-0),Asian handicap,LIVERPOOL FC -0.25,1.85,Pinnacle Sports,100,85.00,Win,Don Sorensen,Football,2016-03-10 19:42:01
+2016-03-08 20:45:00,England,Championship,ROTHERHAM UNITED vs MIDDLESBROUGH FC,1-0 (0-0),Asian handicap,MIDDLESBROUGH FC -0.75,2.04,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-03-08 19:29:02
+2016-03-08 20:00:00,England,FA Cup,HULL CITY vs ARSENAL FC,0-4 (0-1),Asian handicap,ARSENAL FC -0.75,2.17,Pinnacle Sports,100,117.00,Win,Don Sorensen,Football,2016-03-08 19:46:03
 2016-03-06 17:00:00,England,Premier League,WEST BROMWICH ALBION vs MANCHESTER UNITED,1-0 (0-0),Asian handicap,WEST BROMWICH ALBION +0.50,1.98,,100,98.00,Win,Don Sorensen,Football,2016-03-06 16:08:02
 2016-03-06 14:30:00,England,Premier League,CRYSTAL PALACE vs LIVERPOOL FC,1-2 (0-0),Over / Under,Over +2.50,2.04,,100,104.00,Win,Don Sorensen,Football,2016-03-06 11:25:01
-2016-03-05 16:00:00,England,Championship,DERBY COUNTY vs HUDDERSFIELD TOWN,2-0 (1-0),Match Odds,DERBY COUNTY,1.89,,100,89.00,Win,Don Sorensen,Football,2016-03-05 14:59:02
+2016-03-05 16:00:00,England,Championship,DERBY COUNTY vs HUDDERSFIELD TOWN,2-0 (1-0),Match Odds,DERBY COUNTY,1.89,Unibet,100,89.00,Win,Don Sorensen,Football,2016-03-05 14:59:02
 2016-03-05 13:45:00,England,Premier League,TOTTENHAM HOTSPUR vs ARSENAL FC,2-2 (0-1),Asian handicap,TOTTENHAM HOTSPUR -0.25,2.07,,100,-50.00,Half lost,Don Sorensen,Football,2016-03-05 11:57:04
-2016-03-05 13:30:00,England,Championship,BURNLEY FC vs BLACKBURN ROVERS,1-0 (1-0),Match Odds,BURNLEY FC,1.95,,100,95.00,Win,Don Sorensen,Football,2016-03-05 12:02:07
+2016-03-05 13:30:00,England,Championship,BURNLEY FC vs BLACKBURN ROVERS,1-0 (1-0),Match Odds,BURNLEY FC,1.95,Bet365,100,95.00,Win,Don Sorensen,Football,2016-03-05 12:02:07
 2016-03-04 20:45:00,England,Championship,MIDDLESBROUGH FC vs WOLVERHAMPTON WANDERERS,2-1 (1-0),Asian handicap,MIDDLESBROUGH FC -1.00,2.12,,100,0.00,Void,Don Sorensen,Football,2016-03-04 17:11:02
 2016-03-01 20:45:00,England,Premier League,LEICESTER CITY vs WEST BROMWICH ALBION,2-2 (2-1),Asian handicap,WEST BROMWICH ALBION -0.75,1.98,,100,-100.00,Lost,Don Sorensen,Football,2016-03-01 18:57:06
 2016-03-01 20:45:00,England,Premier League,NORWICH CITY vs CHELSEA FC,1-2 (0-2),Asian handicap,CHELSEA FC -0.75,1.90,,100,45.00,Half win,Don Sorensen,Football,2016-03-01 15:25:02
-2016-02-28 17:30:00,England,Carling Cup,LIVERPOOL FC vs MANCHESTER CITY,2-4 (0-0),Asian handicap,MANCHESTER CITY +0,1.78,,100,0.00,Void,Don Sorensen,Football,2016-02-28 16:28:02
-2016-02-27 16:00:00,England,League Two,PLYMOUTH ARGYLE vs NOTTS COUNTY,1-0 (0-0),Match Odds,PLYMOUTH ARGYLE,1.83,,100,83.00,Win,Don Sorensen,Football,2016-02-27 11:59:09
-2016-02-27 13:45:00,England,Premier League,WEST HAM UNITED vs SUNDERLAND AFC,1-0 (1-0),Match Odds,WEST HAM UNITED,1.88,,100,88.00,Win,Don Sorensen,Football,2016-02-27 11:57:02
-2016-02-26 20:45:00,England,Championship,HULL CITY vs SHEFFIELD WEDNESDAY,0-0 (0-0),Match Odds,HULL CITY,1.80,,100,-100.00,Lost,Don Sorensen,Football,2016-02-26 12:13:01
-2016-02-25 21:05:00,European cups,UEFA Europa League,MANCHESTER UNITED vs FC MIDTJYLLAND,5-1 (1-1),Over / Under,Under +3.00,1.93,,100,-100.00,Lost,Don Sorensen,Football,2016-02-25 14:24:01
+2016-02-28 17:30:00,England,Carling Cup,LIVERPOOL FC vs MANCHESTER CITY,2-4 (0-0),Asian handicap,MANCHESTER CITY +0,1.78,Pinnacle Sports,100,0.00,Void,Don Sorensen,Football,2016-02-28 16:28:02
+2016-02-27 16:00:00,England,League Two,PLYMOUTH ARGYLE vs NOTTS COUNTY,1-0 (0-0),Match Odds,PLYMOUTH ARGYLE,1.83,William Hill,100,83.00,Win,Don Sorensen,Football,2016-02-27 11:59:09
+2016-02-27 13:45:00,England,Premier League,WEST HAM UNITED vs SUNDERLAND AFC,1-0 (1-0),Match Odds,WEST HAM UNITED,1.88,Pinnacle Sports,100,88.00,Win,Don Sorensen,Football,2016-02-27 11:57:02
+2016-02-26 20:45:00,England,Championship,HULL CITY vs SHEFFIELD WEDNESDAY,0-0 (0-0),Match Odds,HULL CITY,1.80,William Hill,100,-100.00,Lost,Don Sorensen,Football,2016-02-26 12:13:01
+2016-02-25 21:05:00,European cups,UEFA Europa League,MANCHESTER UNITED vs FC MIDTJYLLAND,5-1 (1-1),Over / Under,Under +3.00,1.93,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-02-25 14:24:01
 2016-02-25 19:00:00,European cups,UEFA Europa League,LIVERPOOL FC vs FC AUGSBURG,1-0 (1-0),Asian Handicap 1st Half,LIVERPOOL FC -0.50 Half time,1.95,,100,95.00,Win,Don Sorensen,Football,2016-02-25 14:23:03
 2016-02-24 20:45:00,England,Championship,DERBY COUNTY vs BLACKBURN ROVERS,1-0 (1-0),Over / Under 1st Half,Over +0.75 Half time,1.78,,100,39.00,Half win,Don Sorensen,Football,2016-02-24 19:28:02
-2016-02-24 20:45:00,European cups,UEFA Champions League,FC DYNAMO KIEV vs MANCHESTER CITY,1-3 (0-2),Match Odds,MANCHESTER CITY,2.10,,100,110.00,Win,Don Sorensen,Football,2016-02-24 10:29:02
+2016-02-24 20:45:00,European cups,UEFA Champions League,FC DYNAMO KIEV vs MANCHESTER CITY,1-3 (0-2),Match Odds,MANCHESTER CITY,2.10,Bet365,100,110.00,Win,Don Sorensen,Football,2016-02-24 10:29:02
 2016-02-23 20:45:00,Scotland,Third Division,STIRLING ALBION vs CLYDE FC,1-2 (1-0),Asian handicap,CLYDE FC +0.25,1.88,,100,88.00,Win,Don Sorensen,Football,2016-02-23 18:56:06
-2016-02-23 20:45:00,England,Championship,BIRMINGHAM CITY vs BOLTON WANDERERS,1-0 (1-0),Match Odds,BIRMINGHAM CITY,1.91,,100,91.00,Win,Don Sorensen,Football,2016-02-23 14:20:06
+2016-02-23 20:45:00,England,Championship,BIRMINGHAM CITY vs BOLTON WANDERERS,1-0 (1-0),Match Odds,BIRMINGHAM CITY,1.91,Bet365,100,91.00,Win,Don Sorensen,Football,2016-02-23 14:20:06
 2016-02-21 16:00:00,England,FA Cup,TOTTENHAM HOTSPUR vs CRYSTAL PALACE,0-1 (0-1),Asian handicap,CRYSTAL PALACE +0.50,2.23,,100,123.00,Win,Don Sorensen,Football,2016-02-21 15:52:05
-2016-02-20 16:00:00,England,League Two,NORTHAMPTON TOWN vs WYCOMBE WANDERERS,1-0 (0-0),Match Odds,NORTHAMPTON TOWN,2.15,,100,115.00,Win,Don Sorensen,Football,2016-02-20 12:15:07
+2016-02-20 16:00:00,England,League Two,NORTHAMPTON TOWN vs WYCOMBE WANDERERS,1-0 (0-0),Match Odds,NORTHAMPTON TOWN,2.15,Bet365,100,115.00,Win,Don Sorensen,Football,2016-02-20 12:15:07
 2016-02-20 16:00:00,England,League One,BURY FC vs COLCHESTER UNITED,5-2 (1-2),Match Odds,BURY FC,2.09,,100,109.00,Win,Don Sorensen,Football,2016-02-20 12:13:02
 2016-02-20 13:45:00,England,FA Cup,ARSENAL FC vs HULL CITY,0-0 (0-0),Asian handicap,HULL CITY +1.50,1.84,,100,84.00,Win,Don Sorensen,Football,2016-02-20 12:11:05
-2016-02-18 21:05:00,European cups,UEFA Europa League,FC AUGSBURG vs LIVERPOOL FC,0-0 (0-0),Asian handicap,LIVERPOOL FC -0.75,2.20,,100,-100.00,Lost,Don Sorensen,Football,2016-02-18 20:21:01
+2016-02-18 21:05:00,European cups,UEFA Europa League,FC AUGSBURG vs LIVERPOOL FC,0-0 (0-0),Asian handicap,LIVERPOOL FC -0.75,2.20,Unibet,100,-100.00,Lost,Don Sorensen,Football,2016-02-18 20:21:01
 2016-02-18 19:00:00,European cups,UEFA Europa League,FC MIDTJYLLAND vs MANCHESTER UNITED,2-1 (1-1),Match Odds 1st Half,MANCHESTER UNITED Half time,2.29,,100,-100.00,Lost,Don Sorensen,Football,2016-02-18 17:33:05
-2016-02-16 20:45:00,England,League One,BRADFORD CITY vs SOUTHEND UNITED,2-0 (1-0),Asian handicap,BRADFORD CITY -0.75,2.07,,100,107.00,Win,Don Sorensen,Football,2016-02-16 20:19:02
+2016-02-16 20:45:00,England,League One,BRADFORD CITY vs SOUTHEND UNITED,2-0 (1-0),Asian handicap,BRADFORD CITY -0.75,2.07,Pinnacle Sports,100,107.00,Win,Don Sorensen,Football,2016-02-16 20:19:02
 2016-02-16 20:45:00,England Amateur,FA Trophy,GUISELEY FC vs DOVER ATHLETIC,0-3 (0-1),Asian handicap,DOVER ATHLETIC -0.25,1.87,,100,87.00,Win,Don Sorensen,Football,2016-02-16 18:37:03
 2016-02-14 13:00:00,England,Premier League,ARSENAL FC vs LEICESTER CITY,2-1 (0-1),Over / Under,Over +2.50,1.83,,100,83.00,Win,Don Sorensen,Football,2016-02-14 10:28:02
-2016-02-13 16:00:00,England,Premier League,BOURNEMOUTH AFC vs STOKE CITY,1-3 (0-1),Match Odds,BOURNEMOUTH AFC,2.10,,100,-100.00,Lost,Don Sorensen,Football,2016-02-13 10:58:06
+2016-02-13 16:00:00,England,Premier League,BOURNEMOUTH AFC vs STOKE CITY,1-3 (0-1),Match Odds,BOURNEMOUTH AFC,2.10,BetVictor,100,-100.00,Lost,Don Sorensen,Football,2016-02-13 10:58:06
 2016-02-13 16:00:00,England,Premier League,EVERTON FC vs WEST BROMWICH ALBION,0-1 (0-1),Match Odds 1st Half,EVERTON FC Half time,2.08,,100,-100.00,Lost,Don Sorensen,Football,2016-02-13 10:48:04
 2016-02-13 13:30:00,England,Championship,QUEENS PARK RANGERS vs FULHAM FC,1-3 (0-3),Over / Under,Over +2.50,2.00,,100,100.00,Win,Don Sorensen,Football,2016-02-13 10:57:06
-2016-02-12 20:45:00,England,League One,BURTON ALBION vs CHESTERFIELD FC,1-0 (1-0),Asian handicap,BURTON ALBION -0.75,1.93,,100,46.50,Half win,Don Sorensen,Football,2016-02-12 11:31:04
+2016-02-12 20:45:00,England,League One,BURTON ALBION vs CHESTERFIELD FC,1-0 (1-0),Asian handicap,BURTON ALBION -0.75,1.93,Pinnacle Sports,100,46.50,Half win,Don Sorensen,Football,2016-02-12 11:31:04
 2016-02-10 20:45:00,Scotland,Premier League,ROSS COUNTY FC vs HEART OF MIDLOTHIAN,0-3 (0-0),Asian handicap,ROSS COUNTY FC -0.25,2.03,,100,-100.00,Lost,Don Sorensen,Football,2016-02-10 14:45:02
 2016-02-09 20:45:00,England,League Two,DAGENHAM & REDBRIDGE vs WYCOMBE WANDERERS,1-2 (0-1),Over / Under,Over +2.25,2.02,,100,102.00,Win,Don Sorensen,Football,2016-02-09 15:01:05
 2016-02-06 16:00:00,England,Championship,MIDDLESBROUGH FC vs BLACKBURN ROVERS,1-1 (0-0),Asian handicap,MIDDLESBROUGH FC -0.75,1.95,,100,-100.00,Lost,Don Sorensen,Football,2016-02-06 12:31:02
 2016-02-06 16:00:00,England,Premier League,NEWCASTLE UNITED vs WEST BROMWICH ALBION,1-0 (1-0),Match Odds,NEWCASTLE UNITED,2.20,,100,120.00,Win,Don Sorensen,Football,2016-02-06 12:29:05
-2016-02-06 16:00:00,England,Premier League,TOTTENHAM HOTSPUR vs WATFORD FC,1-0 (0-0),Over / Under,Over +2.50,1.94,,100,-100.00,Lost,Don Sorensen,Football,2016-02-06 12:26:05
-2016-02-05 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs BRENTFORD FC,3-0 (2-0),Asian handicap,BRIGHTON & HOVE ALBION FC -0.50,2.08,,100,108.00,Win,Don Sorensen,Football,2016-02-05 12:29:02
-2016-02-03 20:45:00,England,Premier League,WATFORD FC vs CHELSEA FC,0-0 (0-0),Match Odds,CHELSEA FC,1.92,,100,-100.00,Lost,Don Sorensen,Football,2016-02-03 17:14:05
+2016-02-06 16:00:00,England,Premier League,TOTTENHAM HOTSPUR vs WATFORD FC,1-0 (0-0),Over / Under,Over +2.50,1.94,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-02-06 12:26:05
+2016-02-05 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs BRENTFORD FC,3-0 (2-0),Asian handicap,BRIGHTON & HOVE ALBION FC -0.50,2.08,Pinnacle Sports,100,108.00,Win,Don Sorensen,Football,2016-02-05 12:29:02
+2016-02-03 20:45:00,England,Premier League,WATFORD FC vs CHELSEA FC,0-0 (0-0),Match Odds,CHELSEA FC,1.92,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-02-03 17:14:05
 2016-02-03 20:45:00,England,Premier League,EVERTON FC vs NEWCASTLE UNITED,3-0 (1-0),Asian handicap,EVERTON FC -0.75,1.83,,100,83.00,Win,Don Sorensen,Football,2016-02-03 12:32:02
 2016-02-02 20:45:00,England,Premier League,NORWICH CITY vs TOTTENHAM HOTSPUR,0-3 (0-2),Asian handicap,TOTTENHAM HOTSPUR -0.75,2.12,,100,112.00,Win,Don Sorensen,Football,2016-02-02 18:56:02
-2016-01-31 14:30:00,England,FA Cup,CARLISLE UNITED vs EVERTON FC,0-3 (0-2),Over / Under 1st Half,Over +1.25 Half time,1.94,,100,94.00,Win,Don Sorensen,Football,2016-01-31 10:23:02
+2016-01-31 14:30:00,England,FA Cup,CARLISLE UNITED vs EVERTON FC,0-3 (0-2),Over / Under 1st Half,Over +1.25 Half time,1.94,Pinnacle Sports,100,94.00,Win,Don Sorensen,Football,2016-01-31 10:23:02
 2016-01-30 16:00:00,England,League Two,LEYTON ORIENT vs CAMBRIDGE UNITED FC,1-3 (0-1),Match Odds,LEYTON ORIENT,2.08,,80,-80.00,Lost,Don Sorensen,Football,2016-01-30 11:37:02
 2016-01-30 16:00:00,England,League One,BLACKPOOL FC vs GILLINGHAM FC,1-0 (1-0),Over / Under,Over +2.50,2.12,,100,-100.00,Lost,Don Sorensen,Football,2016-01-30 11:35:05
 2016-01-30 16:00:00,England,Championship,ROTHERHAM UNITED vs CHARLTON ATHLETIC,1-4 (1-2),Over / Under,Over +2.50,2.01,,100,101.00,Win,Don Sorensen,Football,2016-01-30 11:33:01
 2016-01-27 20:45:00,England,Carling Cup,MANCHESTER CITY vs EVERTON FC,3-1 (1-1),Over / Under,Under +3.25,1.85,,100,-100.00,Lost,Don Sorensen,Football,2016-01-27 10:50:03
-2016-01-26 20:45:00,England,League One,BLACKPOOL FC vs SHEFFIELD UNITED,0-0 (0-0),Match Odds,SHEFFIELD UNITED,2.05,,100,-100.00,Lost,Don Sorensen,Football,2016-01-26 14:01:05
+2016-01-26 20:45:00,England,League One,BLACKPOOL FC vs SHEFFIELD UNITED,0-0 (0-0),Match Odds,SHEFFIELD UNITED,2.05,Bet365,100,-100.00,Lost,Don Sorensen,Football,2016-01-26 14:01:05
 2016-01-26 20:45:00,England,Carling Cup,LIVERPOOL FC vs STOKE CITY,6-6 (0-1),Asian handicap,LIVERPOOL FC -0.75,1.89,,100,-100.00,Lost,Don Sorensen,Football,2016-01-26 13:57:05
 2016-01-24 17:00:00,England,Premier League,ARSENAL FC vs CHELSEA FC,0-1 (0-1),Over / Under,Under +2.50,1.90,,100,90.00,Win,Don Sorensen,Football,2016-01-24 13:59:07
-2016-01-23 16:00:00,England,Championship,BRIGHTON & HOVE ALBION FC vs HUDDERSFIELD TOWN,2-1 (1-1),Match Odds,BRIGHTON & HOVE ALBION FC,2.15,,100,115.00,Win,Don Sorensen,Football,2016-01-23 11:17:04
+2016-01-23 16:00:00,England,Championship,BRIGHTON & HOVE ALBION FC vs HUDDERSFIELD TOWN,2-1 (1-1),Match Odds,BRIGHTON & HOVE ALBION FC,2.15,Pinnacle Sports,100,115.00,Win,Don Sorensen,Football,2016-01-23 11:17:04
 2016-01-23 16:00:00,England,Premier League,WATFORD FC vs NEWCASTLE UNITED,2-1 (0-0),Match Odds,WATFORD FC,1.97,,100,97.00,Win,Don Sorensen,Football,2016-01-23 11:17:02
-2016-01-23 13:45:00,England,Premier League,NORWICH CITY vs LIVERPOOL FC,4-5 (2-1),Match Odds,LIVERPOOL FC,1.99,,100,99.00,Win,Don Sorensen,Football,2016-01-21 15:46:02
-2016-01-23 13:30:00,England,Championship,QUEENS PARK RANGERS vs WOLVERHAMPTON WANDERERS,1-1 (1-0),Asian handicap,QUEENS PARK RANGERS -0.25,2.05,,100,-50.00,Half lost,Don Sorensen,Football,2016-01-23 11:15:05
+2016-01-23 13:45:00,England,Premier League,NORWICH CITY vs LIVERPOOL FC,4-5 (2-1),Match Odds,LIVERPOOL FC,1.99,Pinnacle Sports,100,99.00,Win,Don Sorensen,Football,2016-01-21 15:46:02
+2016-01-23 13:30:00,England,Championship,QUEENS PARK RANGERS vs WOLVERHAMPTON WANDERERS,1-1 (1-0),Asian handicap,QUEENS PARK RANGERS -0.25,2.05,Pinnacle Sports,100,-50.00,Half lost,Don Sorensen,Football,2016-01-23 11:15:05
 2016-01-22 20:45:00,Scotland,Premier League,ABERDEEN FC vs FC DUNDEE,1-0 (1-0),Match Odds 1st Half,ABERDEEN FC Half time,2.13,,100,113.00,Win,Don Sorensen,Football,2016-01-22 12:37:05
 2016-01-20 21:00:00,England,FA Cup,LIVERPOOL FC vs EXETER CITY,3-0 (1-0),Over / Under 1st Half,Over +1.25 Half time,1.90,,100,-50.00,Half lost,Don Sorensen,Football,2016-01-20 14:03:01
-2016-01-19 20:45:00,England,FA Cup,ASTON VILLA vs WYCOMBE WANDERERS,2-0 (0-0),Asian Handicap 1st Half,ASTON VILLA -0.50 Half time,2.07,,100,-100.00,Lost,Don Sorensen,Football,2016-01-19 12:35:01
+2016-01-19 20:45:00,England,FA Cup,ASTON VILLA vs WYCOMBE WANDERERS,2-0 (0-0),Asian Handicap 1st Half,ASTON VILLA -0.50 Half time,2.07,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-01-19 12:35:01
 2016-01-18 21:00:00,England,Premier League,SWANSEA CITY vs WATFORD FC,1-0 (1-0),Match Odds,SWANSEA CITY,2.45,,100,145.00,Win,Don Sorensen,Football,2016-01-18 12:50:03
 2016-01-17 17:15:00,England,Premier League,STOKE CITY vs ARSENAL FC,0-0 (0-0),Match Odds,ARSENAL FC,2.29,,100,-100.00,Lost,Don Sorensen,Football,2016-01-17 15:53:02
 2016-01-17 16:00:00,England,League Two,OXFORD UNITED vs BRISTOL ROVERS,1-2 (0-0),Over / Under,Over +2.25,1.90,,100,90.00,Win,Don Sorensen,Football,2016-01-17 12:47:02
-2016-01-17 15:05:00,England,Premier League,LIVERPOOL FC vs MANCHESTER UNITED,0-1 (0-0),Match Odds,LIVERPOOL FC,2.52,,100,-100.00,Lost,Don Sorensen,Football,2016-01-17 12:46:04
-2016-01-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs WEST HAM UNITED,2-1 (2-0),Both team to score,Yes,1.73,,100,73.00,Win,Don Sorensen,Football,2016-01-14 14:46:01
-2016-01-16 13:45:00,England,Premier League,TOTTENHAM HOTSPUR vs SUNDERLAND AFC,4-1 (1-1),Over / Under,Over +2.75,1.92,,100,92.00,Win,Don Sorensen,Football,2016-01-16 12:04:02
-2016-01-16 13:30:00,England,Championship,SHEFFIELD WEDNESDAY vs LEEDS UNITED,2-0 (0-0),Match Odds,SHEFFIELD WEDNESDAY,2.02,,100,102.00,Win,Don Sorensen,Football,2016-01-16 12:03:02
+2016-01-17 15:05:00,England,Premier League,LIVERPOOL FC vs MANCHESTER UNITED,0-1 (0-0),Match Odds,LIVERPOOL FC,2.52,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-01-17 12:46:04
+2016-01-16 16:00:00,England,Premier League,NEWCASTLE UNITED vs WEST HAM UNITED,2-1 (2-0),Both team to score,Yes,1.73,Bet365,100,73.00,Win,Don Sorensen,Football,2016-01-14 14:46:01
+2016-01-16 13:45:00,England,Premier League,TOTTENHAM HOTSPUR vs SUNDERLAND AFC,4-1 (1-1),Over / Under,Over +2.75,1.92,Pinnacle Sports,100,92.00,Win,Don Sorensen,Football,2016-01-16 12:04:02
+2016-01-16 13:30:00,England,Championship,SHEFFIELD WEDNESDAY vs LEEDS UNITED,2-0 (0-0),Match Odds,SHEFFIELD WEDNESDAY,2.02,Pinnacle Sports,100,102.00,Win,Don Sorensen,Football,2016-01-16 12:03:02
 2016-01-15 20:45:00,Scotland,Premier League,DUNDEE UNITED vs CELTIC FC,1-4 (1-2),Both team to score,Yes,1.95,Bwin,100,95.00,Win,Don Sorensen,Football,2016-01-15 16:58:01
-2016-01-15 20:45:00,England,Championship,BRENTFORD FC vs BURNLEY FC,1-3 (0-3),Asian handicap,BURNLEY FC +0,2.02,,100,102.00,Win,Don Sorensen,Football,2016-01-15 16:57:04
-2016-01-13 21:00:00,England,Premier League,TOTTENHAM HOTSPUR vs LEICESTER CITY,0-1 (0-0),Asian handicap,TOTTENHAM HOTSPUR -0.75,1.81,,100,-100.00,Lost,Don Sorensen,Football,2016-01-10 10:55:03
+2016-01-15 20:45:00,England,Championship,BRENTFORD FC vs BURNLEY FC,1-3 (0-3),Asian handicap,BURNLEY FC +0,2.02,Pinnacle Sports,100,102.00,Win,Don Sorensen,Football,2016-01-15 16:57:04
+2016-01-13 21:00:00,England,Premier League,TOTTENHAM HOTSPUR vs LEICESTER CITY,0-1 (0-0),Asian handicap,TOTTENHAM HOTSPUR -0.75,1.81,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-01-10 10:55:03
 2016-01-13 20:45:00,England,Premier League,STOKE CITY vs NORWICH CITY,3-1 (0-0),Asian handicap,NORWICH CITY +0.50,1.94,,100,-100.00,Lost,Don Sorensen,Football,2016-01-13 14:55:02
-2016-01-13 20:45:00,England,Premier League,MANCHESTER CITY vs EVERTON FC,0-0 (0-0),Asian handicap,MANCHESTER CITY -1.00,1.88,,100,-100.00,Lost,Don Sorensen,Football,2016-01-13 14:54:03
-2016-01-13 20:45:00,England,Premier League,CHELSEA FC vs WEST BROMWICH ALBION,2-2 (1-1),Asian handicap,CHELSEA FC -1.25,2.14,,100,-100.00,Lost,Don Sorensen,Football,2016-01-13 14:52:02
+2016-01-13 20:45:00,England,Premier League,MANCHESTER CITY vs EVERTON FC,0-0 (0-0),Asian handicap,MANCHESTER CITY -1.00,1.88,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-01-13 14:54:03
+2016-01-13 20:45:00,England,Premier League,CHELSEA FC vs WEST BROMWICH ALBION,2-2 (1-1),Asian handicap,CHELSEA FC -1.25,2.14,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2016-01-13 14:52:02
 2016-01-13 20:45:00,England Amateur,FA Trophy,WESTON SUPER MARE FC vs WEALDSTONE FC,3-2,Over / Under,Over +2.50,1.87,,100,87.00,Win,Don Sorensen,Football,2016-01-11 11:18:02
-2016-01-12 20:45:00,England,Championship,MILTON KEYNES DONS vs BURNLEY FC,0-5 (0-1),Match Odds,BURNLEY FC,2.38,,100,138.00,Win,Don Sorensen,Football,2016-01-12 12:29:02
+2016-01-12 20:45:00,England,Championship,MILTON KEYNES DONS vs BURNLEY FC,0-5 (0-1),Match Odds,BURNLEY FC,2.38,Bet365,100,138.00,Win,Don Sorensen,Football,2016-01-12 12:29:02
 2016-01-10 15:00:00,England,FA Cup,CARLISLE UNITED vs YEOVIL TOWN,2-2 (1-0),Over / Under,Over +2.50,1.91,,100,91.00,Win,Don Sorensen,Football,2016-01-10 10:53:07
 2016-01-09 16:00:00,England,FA Cup,WATFORD FC vs NEWCASTLE UNITED,1-0 (1-0),Match Odds,WATFORD FC,1.81,,100,81.00,Win,Don Sorensen,Football,2016-01-09 11:37:01
 2016-01-09 16:00:00,England,FA Cup,NORTHAMPTON TOWN vs MILTON KEYNES DONS,2-2 (0-1),Asian handicap,NORTHAMPTON TOWN +0,1.93,,100,0.00,Void,Don Sorensen,Football,2016-01-09 11:24:02
 2016-01-09 13:45:00,England,FA Cup,WYCOMBE WANDERERS vs ASTON VILLA,1-1 (0-1),Match Odds,ASTON VILLA,1.91,Bwin,100,-100.00,Lost,Don Sorensen,Football,2016-01-09 11:17:09
-2016-01-06 21:00:00,England,Carling Cup,EVERTON FC vs MANCHESTER CITY,2-1 (1-0),Over / Under,Over +2.75,1.85,,100,42.50,Half win,Don Sorensen,Football,2016-01-06 10:21:06
-2016-01-05 21:00:00,England,Carling Cup,STOKE CITY vs LIVERPOOL FC,0-1 (0-1),Both team to score,Yes,2.00,,100,-100.00,Lost,Don Sorensen,Football,2016-01-05 12:26:02
+2016-01-06 21:00:00,England,Carling Cup,EVERTON FC vs MANCHESTER CITY,2-1 (1-0),Over / Under,Over +2.75,1.85,Pinnacle Sports,100,42.50,Half win,Don Sorensen,Football,2016-01-06 10:21:06
+2016-01-05 21:00:00,England,Carling Cup,STOKE CITY vs LIVERPOOL FC,0-1 (0-1),Both team to score,Yes,2.00,Bet365,100,-100.00,Lost,Don Sorensen,Football,2016-01-05 12:26:02
 2016-01-02 18:30:00,England,Premier League,WATFORD FC vs MANCHESTER CITY,1-2 (0-0),Match Odds,MANCHESTER CITY,1.76,,100,76.00,Win,Don Sorensen,Football,2016-01-02 00:16:02
 2016-01-02 16:00:00,England,Premier League,SUNDERLAND AFC vs ASTON VILLA,3-1 (1-0),Asian handicap,ASTON VILLA +0.25,1.90,,100,-100.00,Lost,Don Sorensen,Football,2016-01-02 13:58:05
 2016-01-02 16:00:00,England,Premier League,MANCHESTER UNITED vs SWANSEA CITY,2-1 (0-0),Asian handicap,SWANSEA CITY +1.00,2.05,,100,0.00,Void,Don Sorensen,Football,2016-01-02 13:56:05
 2016-01-02 16:00:00,England,Premier League,ARSENAL FC vs NEWCASTLE UNITED,1-0 (0-0),Over / Under 1st Half Team,ARSENAL FC Over +1.00,2.08,,100,-100.00,Lost,Don Sorensen,Football,2015-12-30 14:05:01
 2015-12-30 20:45:00,Scotland,Premier League,ABERDEEN FC vs PARTICK THISTLE,0-0 (0-0),Over / Under 1st Half Team,ABERDEEN FC Over +0.50,1.85,,100,-100.00,Lost,Don Sorensen,Football,2015-12-30 11:06:02
-2015-12-30 20:45:00,England,Premier League,SUNDERLAND AFC vs LIVERPOOL FC,0-1 (0-0),Asian handicap,LIVERPOOL FC -0.75,1.91,,100,45.50,Half win,Don Sorensen,Football,2015-12-30 11:00:03
-2015-12-29 20:45:00,England,Championship,LEEDS UNITED vs DERBY COUNTY,2-2 (1-1),Asian handicap,LEEDS UNITED +0.50,1.95,,100,95.00,Win,Don Sorensen,Football,2015-12-29 11:44:02
+2015-12-30 20:45:00,England,Premier League,SUNDERLAND AFC vs LIVERPOOL FC,0-1 (0-0),Asian handicap,LIVERPOOL FC -0.75,1.91,Pinnacle Sports,100,45.50,Half win,Don Sorensen,Football,2015-12-30 11:00:03
+2015-12-29 20:45:00,England,Championship,LEEDS UNITED vs DERBY COUNTY,2-2 (1-1),Asian handicap,LEEDS UNITED +0.50,1.95,Pinnacle Sports,100,95.00,Win,Don Sorensen,Football,2015-12-29 11:44:02
 2015-12-29 20:45:00,England,Championship,BRIGHTON & HOVE ALBION FC vs IPSWICH TOWN,0-1 (0-1),Over / Under 1st Half Team,BRIGHTON & HOVE ALBION FC Under +0.50,1.75,,100,75.00,Win,Don Sorensen,Football,2015-12-29 11:43:02
 2015-12-29 20:45:00,England,Premier League,LEICESTER CITY vs MANCHESTER CITY,0-0 (0-0),Match Odds,MANCHESTER CITY,1.92,,100,-100.00,Lost,Don Sorensen,Football,2015-12-29 11:42:02
-2015-12-28 16:00:00,England,League One,WALSALL FC vs PETERBOROUGH UNITED,2-0 (0-0),Over / Under,Under +2.75,1.99,,100,99.00,Win,Don Sorensen,Football,2015-12-28 11:22:04
-2015-12-28 16:00:00,England,League One,CREWE ALEXANDRA FC vs SHREWSBURY TOWN,1-2 (1-1),Both team to score,Yes,1.80,,100,80.00,Win,Don Sorensen,Football,2015-12-28 11:21:02
+2015-12-28 16:00:00,England,League One,WALSALL FC vs PETERBOROUGH UNITED,2-0 (0-0),Over / Under,Under +2.75,1.99,Pinnacle Sports,100,99.00,Win,Don Sorensen,Football,2015-12-28 11:22:04
+2015-12-28 16:00:00,England,League One,CREWE ALEXANDRA FC vs SHREWSBURY TOWN,1-2 (1-1),Both team to score,Yes,1.80,Bet365,100,80.00,Win,Don Sorensen,Football,2015-12-28 11:21:02
 2015-12-28 16:00:00,England,Premier League,WATFORD FC vs TOTTENHAM HOTSPUR,1-2 (1-1),Over / Under,Over +2.50,2.05,,100,105.00,Win,Don Sorensen,Football,2015-12-27 16:02:02
 2015-12-27 17:30:00,England,Championship,NOTTINGHAM FOREST vs LEEDS UNITED,1-1 (1-0),Both team to score,Yes,1.87,Bwin,100,87.00,Win,Don Sorensen,Football,2015-12-27 14:16:02
 2015-12-26 18:30:00,England,Premier League,NEWCASTLE UNITED vs EVERTON FC,0-1 (0-0),Match Odds,EVERTON FC,2.33,,100,133.00,Win,Don Sorensen,Football,2015-12-23 15:24:02
-2015-12-26 16:00:00,England,Premier League,LIVERPOOL FC vs LEICESTER CITY,1-0 (0-0),Asian handicap,LEICESTER CITY +0.50,1.96,,100,-100.00,Lost,Don Sorensen,Football,2015-12-26 11:24:05
+2015-12-26 16:00:00,England,Premier League,LIVERPOOL FC vs LEICESTER CITY,1-0 (0-0),Asian handicap,LEICESTER CITY +0.50,1.96,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-12-26 11:24:05
 2015-12-22 20:45:00,England Amateur,FA Trophy,SOLIHULL MOORS FC vs GRIMSBY TOWN,2-3,Match Odds,GRIMSBY TOWN,1.94,,100,94.00,Win,Don Sorensen,Football,2015-12-22 10:24:02
 2015-12-21 21:00:00,England,Premier League,ARSENAL FC vs MANCHESTER CITY,2-1 (2-0),Over / Under,Over +2.50,1.73,,100,73.00,Win,Don Sorensen,Football,2015-12-18 16:59:01
 2015-12-21 20:45:00,England Amateur,FA Trophy,CONCORD RANGERS vs SUTTON UNITED,0-2 (0-1),Match Odds,SUTTON UNITED,1.88,,100,88.00,Win,Don Sorensen,Football,2015-12-21 11:24:02
 2015-12-20 17:00:00,England,Premier League,SWANSEA CITY vs WEST HAM UNITED,0-0 (0-0),Match Odds,SWANSEA CITY,2.10,Bwin,100,-100.00,Lost,Don Sorensen,Football,2015-12-16 15:21:05
 2015-12-20 13:00:00,England,League One,WALSALL FC vs PORT VALE FC,2-0 (0-0),Match Odds,WALSALL FC,1.78,,100,78.00,Win,Don Sorensen,Football,2015-12-20 10:33:01
 2015-12-19 16:00:00,England,Championship,IPSWICH TOWN vs DERBY COUNTY,0-1 (0-1),Asian handicap,IPSWICH TOWN +0.25,1.91,,100,-100.00,Lost,Don Sorensen,Football,2015-12-19 11:47:05
-2015-12-19 16:00:00,England,Championship,BURNLEY FC vs CHARLTON ATHLETIC,4-0 (1-0),Asian handicap,BURNLEY FC -1.00,2.05,,100,105.00,Win,Don Sorensen,Football,2015-12-19 11:45:04
+2015-12-19 16:00:00,England,Championship,BURNLEY FC vs CHARLTON ATHLETIC,4-0 (1-0),Asian handicap,BURNLEY FC -1.00,2.05,Pinnacle Sports,100,105.00,Win,Don Sorensen,Football,2015-12-19 11:45:04
 2015-12-19 16:00:00,England,League One,BURTON ALBION vs DONCASTER ROVERS,3-3 (1-1),Match Odds,BURTON ALBION,2.05,,100,-100.00,Lost,Don Sorensen,Football,2015-12-19 11:43:06
-2015-12-19 16:00:00,England,Premier League,SOUTHAMPTON FC vs TOTTENHAM HOTSPUR,0-2 (0-2),Both team to score,Yes,1.73,,100,-100.00,Lost,Don Sorensen,Football,2015-12-16 13:39:04
-2015-12-19 16:00:00,England,Premier League,CHELSEA FC vs SUNDERLAND AFC,3-1 (2-0),Over / Under 1st Half,Over +1.00 Half time,1.83,,100,83.00,Win,Don Sorensen,Football,2015-12-16 13:08:03
-2015-12-18 20:45:00,England,League One,SOUTHEND UNITED vs BURY FC,4-1 (2-1),Over / Under,Under +2.50,1.83,,100,-100.00,Lost,Don Sorensen,Football,2015-12-18 14:20:02
+2015-12-19 16:00:00,England,Premier League,SOUTHAMPTON FC vs TOTTENHAM HOTSPUR,0-2 (0-2),Both team to score,Yes,1.73,William Hill,100,-100.00,Lost,Don Sorensen,Football,2015-12-16 13:39:04
+2015-12-19 16:00:00,England,Premier League,CHELSEA FC vs SUNDERLAND AFC,3-1 (2-0),Over / Under 1st Half,Over +1.00 Half time,1.83,Pinnacle Sports,100,83.00,Win,Don Sorensen,Football,2015-12-16 13:08:03
+2015-12-18 20:45:00,England,League One,SOUTHEND UNITED vs BURY FC,4-1 (2-1),Over / Under,Under +2.50,1.83,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-12-18 14:20:02
 2015-12-18 20:45:00,Scotland,First Division,GREENOCK MORTON FC vs RAITH ROVERS FC,1-2 (1-0),Asian handicap,GREENOCK MORTON FC -0.25,1.99,,100,-100.00,Lost,Don Sorensen,Football,2015-12-18 14:14:04
 2015-12-17 20:45:00,England,Championship,WOLVERHAMPTON WANDERERS vs LEEDS UNITED,2-3 (1-1),Both team to score,Yes,1.91,Bwin,100,91.00,Win,Don Sorensen,Football,
-2015-12-15 20:45:00,England,Championship,MIDDLESBROUGH FC vs BURNLEY FC,1-0 (0-0),Match Odds,MIDDLESBROUGH FC,1.99,,100,99.00,Win,Don Sorensen,Football,2015-12-15 12:18:02
-2015-12-15 20:45:00,England,Championship,FULHAM FC vs IPSWICH TOWN,1-2 (1-1),Asian handicap,IPSWICH TOWN +0,1.83,,100,83.00,Win,Don Sorensen,Football,2015-12-15 12:16:05
-2015-12-14 21:00:00,England,Premier League,LEICESTER CITY vs CHELSEA FC,2-1 (1-0),Asian handicap,CHELSEA FC -0.25,2.09,,100,-100.00,Lost,Don Sorensen,Football,2015-12-14 14:40:05
+2015-12-15 20:45:00,England,Championship,MIDDLESBROUGH FC vs BURNLEY FC,1-0 (0-0),Match Odds,MIDDLESBROUGH FC,1.99,Pinnacle Sports,100,99.00,Win,Don Sorensen,Football,2015-12-15 12:18:02
+2015-12-15 20:45:00,England,Championship,FULHAM FC vs IPSWICH TOWN,1-2 (1-1),Asian handicap,IPSWICH TOWN +0,1.83,Pinnacle Sports,100,83.00,Win,Don Sorensen,Football,2015-12-15 12:16:05
+2015-12-14 21:00:00,England,Premier League,LEICESTER CITY vs CHELSEA FC,2-1 (1-0),Asian handicap,CHELSEA FC -0.25,2.09,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-12-14 14:40:05
 2015-12-13 17:00:00,England,Premier League,LIVERPOOL FC vs WEST BROMWICH ALBION,2-2 (1-1),Match Odds 1st Half,LIVERPOOL FC Half time,2.00,,100,-100.00,Lost,Don Sorensen,Football,2015-12-13 14:48:02
-2015-12-12 16:00:00,England,League Two,NOTTS COUNTY vs NEWPORT COUNTY,4-3 (2-2),Match Odds,NOTTS COUNTY,1.82,,100,82.00,Win,Don Sorensen,Football,2015-12-12 12:11:02
+2015-12-12 16:00:00,England,League Two,NOTTS COUNTY vs NEWPORT COUNTY,4-3 (2-2),Match Odds,NOTTS COUNTY,1.82,Pinnacle Sports,100,82.00,Win,Don Sorensen,Football,2015-12-12 12:11:02
 2015-12-12 16:00:00,England,Championship,HUDDERSFIELD TOWN vs BRISTOL CITY,1-2 (0-2),Asian handicap,HUDDERSFIELD TOWN -0.25,1.99,,100,-100.00,Lost,Don Sorensen,Football,2015-12-12 12:10:05
 2015-12-12 13:45:00,England,Premier League,NORWICH CITY vs EVERTON FC,1-1 (0-1),Asian handicap,EVERTON FC +0,1.81,,100,0.00,Void,Don Sorensen,Football,2015-12-12 10:10:02
-2015-12-12 13:30:00,Scotland,Premier League,ABERDEEN FC vs HEART OF MIDLOTHIAN,1-0 (0-0),Both team to score,Yes,1.83,,100,-100.00,Lost,Don Sorensen,Football,2015-12-12 10:06:05
+2015-12-12 13:30:00,Scotland,Premier League,ABERDEEN FC vs HEART OF MIDLOTHIAN,1-0 (0-0),Both team to score,Yes,1.83,Bet365,100,-100.00,Lost,Don Sorensen,Football,2015-12-12 10:06:05
 2015-12-11 20:45:00,Scotland,First Division,QUEEN OF THE SOUTH FC vs RAITH ROVERS FC,1-1 (0-1),Asian handicap,QUEEN OF THE SOUTH FC -0.25,1.88,,100,-50.00,Half lost,Don Sorensen,Football,2015-12-11 14:24:02
 2015-12-10 19:00:00,European cups,UEFA Europa League,FC SION vs LIVERPOOL FC,0-0 (0-0),Over / Under Team,LIVERPOOL FC Under +1.25,1.80,,100,80.00,Win,Don Sorensen,Football,2015-12-10 14:04:03
 2015-12-09 20:45:00,European cups,UEFA Champions League,OLYMPIACOS FC vs ARSENAL FC,0-3 (0-1),Match Odds,ARSENAL FC,2.12,,100,112.00,Win,Don Sorensen,Football,2015-12-07 16:24:02
-2015-12-09 20:45:00,European cups,UEFA Champions League,CHELSEA FC vs FC PORTO,2-0 (1-0),Match Odds,CHELSEA FC,2.00,,100,100.00,Win,Don Sorensen,Football,2015-12-07 16:09:04
+2015-12-09 20:45:00,European cups,UEFA Champions League,CHELSEA FC vs FC PORTO,2-0 (1-0),Match Odds,CHELSEA FC,2.00,Pinnacle Sports,100,100.00,Win,Don Sorensen,Football,2015-12-07 16:09:04
 2015-12-08 20:45:00,England,Skrill Premier,MACCLESFIELD TOWN vs EASTLEIGH FC,1-2 (1-1),Over / Under,Over +2.50,1.87,,80,69.60,Win,Don Sorensen,Football,2015-12-08 15:25:03
-2015-12-07 21:00:00,England,Premier League,EVERTON FC vs CRYSTAL PALACE,1-1 (0-0),Both team to score,Yes,2.20,,100,-100.00,Lost,Don Sorensen,Football,2015-12-06 21:04:05
-2015-12-06 14:15:00,England,Championship,SHEFFIELD WEDNESDAY vs DERBY COUNTY,0-0 (0-0),Over / Under,Under +2.50,1.70,,100,70.00,Win,Don Sorensen,Football,2015-12-06 11:55:04
+2015-12-07 21:00:00,England,Premier League,EVERTON FC vs CRYSTAL PALACE,1-1 (0-0),Both team to score,Yes,2.20,Bet365,100,-100.00,Lost,Don Sorensen,Football,2015-12-06 21:04:05
+2015-12-06 14:15:00,England,Championship,SHEFFIELD WEDNESDAY vs DERBY COUNTY,0-0 (0-0),Over / Under,Under +2.50,1.70,Pinnacle Sports,100,70.00,Win,Don Sorensen,Football,2015-12-06 11:55:04
 2015-12-05 18:30:00,England,Premier League,CHELSEA FC vs BOURNEMOUTH AFC,0-1 (0-0),Asian Handicap 1st Half,CHELSEA FC -0.75 Half time,2.25,,100,-100.00,Lost,Don Sorensen,Football,2015-12-05 14:26:09
 2015-12-05 16:00:00,England,Premier League,WEST BROMWICH ALBION vs TOTTENHAM HOTSPUR,1-1 (1-1),Match Odds,TOTTENHAM HOTSPUR,1.91,,100,-100.00,Lost,Don Sorensen,Football,2015-12-05 14:27:06
 2015-12-05 16:00:00,England,Skrill Premier,WOKING FC vs LINCOLN CITY,3-1 (2-0),Over / Under,Over +2.50,1.84,,100,84.00,Win,Don Sorensen,Football,2015-12-05 11:11:02
-2015-12-05 16:00:00,England,Premier League,ARSENAL FC vs SUNDERLAND AFC,3-1 (1-1),Over / Under,Under +3.00,1.93,,100,-100.00,Lost,Don Sorensen,Football,2015-12-02 15:08:05
-2015-12-01 20:45:00,England,Carling Cup,MIDDLESBROUGH FC vs EVERTON FC,0-2 (0-2),Asian handicap,EVERTON FC +0,1.89,,100,89.00,Win,Don Sorensen,Football,2015-12-01 16:00:03
+2015-12-05 16:00:00,England,Premier League,ARSENAL FC vs SUNDERLAND AFC,3-1 (1-1),Over / Under,Under +3.00,1.93,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-12-02 15:08:05
+2015-12-01 20:45:00,England,Carling Cup,MIDDLESBROUGH FC vs EVERTON FC,0-2 (0-2),Asian handicap,EVERTON FC +0,1.89,Pinnacle Sports,100,89.00,Win,Don Sorensen,Football,2015-12-01 16:00:03
 2015-12-01 20:45:00,England,League Two,MORECAMBE FC vs DAGENHAM & REDBRIDGE,1-0 (1-0),Over / Under,Over +2.50,1.87,,100,-100.00,Lost,Don Sorensen,Football,2015-12-01 13:57:01
 2015-12-01 20:45:00,England,League One,BURTON ALBION vs MILLWALL FC,2-1 (2-0),Asian handicap,BURTON ALBION +0,1.79,,100,79.00,Win,Don Sorensen,Football,2015-12-01 13:54:02
-2015-11-30 20:45:00,England,Championship,BOLTON WANDERERS vs BRENTFORD FC,1-1 (0-1),Asian handicap,BRENTFORD FC +0,1.98,,100,0.00,Void,Don Sorensen,Football,2015-11-30 11:26:02
-2015-11-27 20:45:00,England Amateur,FA Trophy,FC UNITED OF MANCHESTER vs TELFORD UNITED,1-2,Over / Under,Over +2.50,1.83,,100,83.00,Win,Don Sorensen,Football,2015-11-27 13:55:02
-2015-11-26 19:00:00,European cups,UEFA Europa League,QARABAG FK vs TOTTENHAM HOTSPUR,0-1 (0-0),Asian handicap,QARABAG FK +0.50,1.80,,100,-100.00,Lost,Don Sorensen,Football,
-2015-11-25 20:45:00,European cups,UEFA Champions League,FC SHAKHTAR DONETSK vs REAL MADRID,3-4 (0-1),Asian handicap,REAL MADRID -0.75,2.30,,100,65.00,Half win,Don Sorensen,Football,2015-11-25 15:13:05
-2015-11-25 20:45:00,European cups,UEFA Champions League,MANCHESTER UNITED vs PSV EINDHOVEN,0-0 (0-0),Both team to score,Yes,1.95,,100,-100.00,Lost,Don Sorensen,Football,2015-11-25 15:10:02
+2015-11-30 20:45:00,England,Championship,BOLTON WANDERERS vs BRENTFORD FC,1-1 (0-1),Asian handicap,BRENTFORD FC +0,1.98,Pinnacle Sports,100,0.00,Void,Don Sorensen,Football,2015-11-30 11:26:02
+2015-11-27 20:45:00,England Amateur,FA Trophy,FC UNITED OF MANCHESTER vs TELFORD UNITED,1-2,Over / Under,Over +2.50,1.83,Pinnacle Sports,100,83.00,Win,Don Sorensen,Football,2015-11-27 13:55:02
+2015-11-26 19:00:00,European cups,UEFA Europa League,QARABAG FK vs TOTTENHAM HOTSPUR,0-1 (0-0),Asian handicap,QARABAG FK +0.50,1.80,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,
+2015-11-25 20:45:00,European cups,UEFA Champions League,FC SHAKHTAR DONETSK vs REAL MADRID,3-4 (0-1),Asian handicap,REAL MADRID -0.75,2.30,Pinnacle Sports,100,65.00,Half win,Don Sorensen,Football,2015-11-25 15:13:05
+2015-11-25 20:45:00,European cups,UEFA Champions League,MANCHESTER UNITED vs PSV EINDHOVEN,0-0 (0-0),Both team to score,Yes,1.95,William Hill,100,-100.00,Lost,Don Sorensen,Football,2015-11-25 15:10:02
 2015-11-24 20:45:00,England,League One,WIGAN ATHLETIC vs BURTON ALBION,0-1 (0-0),Over / Under,Over +2.25,1.90,,100,-100.00,Lost,Don Sorensen,Football,2015-11-24 10:47:03
-2015-11-24 20:45:00,England,League One,PORT VALE FC vs BLACKPOOL FC,2-0 (0-0),Match Odds,PORT VALE FC,1.88,,100,88.00,Win,Don Sorensen,Football,2015-11-24 10:45:03
+2015-11-24 20:45:00,England,League One,PORT VALE FC vs BLACKPOOL FC,2-0 (0-0),Match Odds,PORT VALE FC,1.88,Pinnacle Sports,100,88.00,Win,Don Sorensen,Football,2015-11-24 10:45:03
 2015-11-23 21:00:00,England,Premier League,CRYSTAL PALACE vs SUNDERLAND AFC,0-1 (0-0),Asian handicap,SUNDERLAND AFC +1.00,1.88,,100,88.00,Win,Don Sorensen,Football,2015-11-23 17:14:04
 2015-11-21 18:30:00,England,Premier League,MANCHESTER CITY vs LIVERPOOL FC,1-4 (1-3),Over / Under Team,MANCHESTER CITY Over +1.75,1.98,,100,-100.00,Lost,Don Sorensen,Football,2015-11-21 17:08:03
-2015-11-21 16:00:00,Scotland,Premier League,HEART OF MIDLOTHIAN vs FC DUNDEE,1-1 (1-0),Match Odds,HEART OF MIDLOTHIAN,1.80,,100,-100.00,Lost,Don Sorensen,Football,2015-11-21 12:25:05
-2015-11-21 16:00:00,England,Skrill Premier,MACCLESFIELD TOWN vs BROMLEY FC,2-0 (0-0),Match Odds,MACCLESFIELD TOWN,1.80,,100,80.00,Win,Don Sorensen,Football,2015-11-21 11:50:21
+2015-11-21 16:00:00,Scotland,Premier League,HEART OF MIDLOTHIAN vs FC DUNDEE,1-1 (1-0),Match Odds,HEART OF MIDLOTHIAN,1.80,William Hill,100,-100.00,Lost,Don Sorensen,Football,2015-11-21 12:25:05
+2015-11-21 16:00:00,England,Skrill Premier,MACCLESFIELD TOWN vs BROMLEY FC,2-0 (0-0),Match Odds,MACCLESFIELD TOWN,1.80,William Hill,100,80.00,Win,Don Sorensen,Football,2015-11-21 11:50:21
 2015-11-21 16:00:00,England,League One,DONCASTER ROVERS vs ROCHDALE FC,0-2 (0-0),Asian handicap,DONCASTER ROVERS +0,1.93,,100,-100.00,Lost,Don Sorensen,Football,2015-11-21 11:46:28
-2015-11-20 20:45:00,Scotland,First Division,FC ST MIRREN vs GREENOCK MORTON FC,1-1 (1-0),Asian handicap,FC ST MIRREN -0.25,1.95,,100,-50.00,Half lost,Don Sorensen,Football,2015-11-20 14:35:04
-2015-11-14 16:00:00,Scotland,Second Division,AIRDRIEONIANS vs DUNFERMLINE ATHLETIC,0-2 (0-1),Asian handicap,DUNFERMLINE ATHLETIC -0.50,1.75,,100,75.00,Win,Don Sorensen,Football,2015-11-14 14:57:02
+2015-11-20 20:45:00,Scotland,First Division,FC ST MIRREN vs GREENOCK MORTON FC,1-1 (1-0),Asian handicap,FC ST MIRREN -0.25,1.95,Pinnacle Sports,100,-50.00,Half lost,Don Sorensen,Football,2015-11-20 14:35:04
+2015-11-14 16:00:00,Scotland,Second Division,AIRDRIEONIANS vs DUNFERMLINE ATHLETIC,0-2 (0-1),Asian handicap,DUNFERMLINE ATHLETIC -0.50,1.75,Pinnacle Sports,100,75.00,Win,Don Sorensen,Football,2015-11-14 14:57:02
 2015-11-14 16:00:00,England,League One,GILLINGHAM FC vs BURY FC,3-1 (2-1),Asian handicap,GILLINGHAM FC -0.25,1.83,,100,83.00,Win,Don Sorensen,Football,2015-11-14 12:55:14
-2015-11-14 16:00:00,Scotland,Second Division,COWDENBEATH FC vs BRECHIN CITY FC,3-0 (1-0),Asian handicap,BRECHIN CITY FC +0,2.02,,100,-100.00,Lost,Don Sorensen,Football,2015-11-14 10:17:11
+2015-11-14 16:00:00,Scotland,Second Division,COWDENBEATH FC vs BRECHIN CITY FC,3-0 (1-0),Asian handicap,BRECHIN CITY FC +0,2.02,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-11-14 10:17:11
 2015-11-14 16:00:00,England,League Two,ACCRINGTON STANLEY vs NEWPORT COUNTY,2-2 (0-0),Over / Under,Over +2.50,2.01,,100,101.00,Win,Don Sorensen,Football,2015-11-14 10:06:03
-2015-11-13 20:45:00,International,International Friendly Games,NORTHERN IRELAND vs LATVIA,1-0 (0-0),Over / Under,Over +2.25,2.07,,100,-100.00,Lost,Don Sorensen,Football,2015-11-13 17:57:08
+2015-11-13 20:45:00,International,International Friendly Games,NORTHERN IRELAND vs LATVIA,1-0 (0-0),Over / Under,Over +2.25,2.07,Pinnacle Sports,100,-100.00,Lost,Don Sorensen,Football,2015-11-13 17:57:08
 2015-11-10 20:45:00,England,Football League Trophy,BARNSLEY FC vs YORK CITY,2-1 (0-1),Asian handicap,BARNSLEY FC -0.75,1.87,,100,43.50,Half win,Don Sorensen,Football,2015-11-10 12:21:02
 2015-11-08 17:00:00,England,Premier League,ARSENAL FC vs TOTTENHAM HOTSPUR,1-1 (0-1),Match Odds,ARSENAL FC,1.73,,100,-100.00,Lost,Don Sorensen,Football,2015-11-08 12:33:06
 2015-11-08 16:30:00,Scotland,Premier League,ROSS COUNTY FC vs CELTIC FC,1-4 (0-1),Match Odds 1st Half,CELTIC FC Half time,1.83,,100,83.00,Win,Don Sorensen,Football,2015-11-08 12:28:11
 2015-11-08 14:30:00,England,Premier League,ASTON VILLA vs MANCHESTER CITY,0-0 (0-0),Asian handicap,MANCHESTER CITY -1.25,1.92,,100,-100.00,Lost,Don Sorensen,Football,2015-11-08 12:22:06
 2015-11-07 16:00:00,England,Premier League,NORWICH CITY vs SWANSEA CITY,1-0 (0-0),Match Odds,NORWICH CITY,2.53,,100,153.00,Win,Don Sorensen,Football,2015-11-07 15:25:08
-2015-11-07 16:00:00,England,Championship,ROTHERHAM UNITED vs IPSWICH TOWN,2-5 (0-3),Asian handicap,IPSWICH TOWN -0.25,1.98,,100,98.00,Win,Don Sorensen,Football,2015-11-07 14:35:13
-2015-11-07 16:00:00,Scotland,Premier League,MOTHERWELL FC vs INVERNESS CALEDONIAN THISTLE,1-3 (0-2),Match Odds,MOTHERWELL FC,2.40,,100,-100.00,Lost,Don Sorensen,Football,2015-11-07 14:29:16
-2015-11-07 16:00:00,England,Championship,CARDIFF CITY vs READING FC,2-0 (1-0),Both team to score,Yes,1.83,,100,83.00,Win,Don Sorensen,Football,2015-11-07 14:17:06
-2015-11-07 16:00:00,England,Championship,CHARLTON ATHLETIC vs SHEFFIELD WEDNESDAY,3-1 (2-0),Match Odds,SHEFFIELD WEDNESDAY,2.00,,100,-100.00,Lost,Don Sorensen,Football,2015-11-07 14:13:13
+2015-11-07 16:00:00,England,Championship,ROTHERHAM UNITED vs IPSWICH TOWN,2-5 (0-3),Asian handicap,IPSWICH TOWN -0.25,1.98,Pinnacle Sports,100,98.00,Win,Don Sorensen,Football,2015-11-07 14:35:13
+2015-11-07 16:00:00,Scotland,Premier League,MOTHERWELL FC vs INVERNESS CALEDONIAN THISTLE,1-3 (0-2),Match Odds,MOTHERWELL FC,2.40,William Hill,100,-100.00,Lost,Don Sorensen,Football,2015-11-07 14:29:16
+2015-11-07 16:00:00,England,Championship,CARDIFF CITY vs READING FC,2-0 (1-0),Both team to score,Yes,1.83,Bet365,100,83.00,Win,Don Sorensen,Football,2015-11-07 14:17:06
+2015-11-07 16:00:00,England,Championship,CHARLTON ATHLETIC vs SHEFFIELD WEDNESDAY,3-1 (2-0),Match Odds,SHEFFIELD WEDNESDAY,2.00,William Hill,100,-100.00,Lost,Don Sorensen,Football,2015-11-07 14:13:13
 2015-11-07 16:00:00,England,Championship,BLACKBURN ROVERS vs BRENTFORD FC,1-1 (1-1),Over / Under,Over +2.50,1.92,,100,92.00,Win,Don Sorensen,Football,2015-11-07 14:11:33
-2015-11-03 20:45:00,England,Championship,BRENTFORD FC vs HULL CITY,0-2 (0-0),Both team to score,Yes,1.91,,100,91.00,Win,Don Sorensen,Football,2015-11-03 17:42:19
+2015-11-03 20:45:00,England,Championship,BRENTFORD FC vs HULL CITY,0-2 (0-0),Both team to score,Yes,1.91,William Hill,100,91.00,Win,Don Sorensen,Football,2015-11-03 17:42:19
 2015-11-03 20:45:00,England,Championship,IPSWICH TOWN vs BOLTON WANDERERS,2-0 (1-0),Match Odds,IPSWICH TOWN,1.88,,100,88.00,Win,Don Sorensen,Football,2015-11-03 15:43:17
 2015-11-03 20:45:00,England,Championship,MIDDLESBROUGH FC vs ROTHERHAM UNITED,1-0 (1-0),Asian handicap,ROTHERHAM UNITED +1.50,1.76,,100,76.00,Win,Don Sorensen,Football,2015-11-03 15:41:07
-2015-10-25 15:05:00,England,Premier League,BOURNEMOUTH AFC vs TOTTENHAM HOTSPUR,1-5 (1-3),Lay Match Odds,Lay BOURNEMOUTH AFC,3.60,,38,36.10,Win,Don Sorensen,Football,2015-10-25 14:36:20
+2015-10-25 15:05:00,England,Premier League,BOURNEMOUTH AFC vs TOTTENHAM HOTSPUR,1-5 (1-3),Lay Match Odds,Lay BOURNEMOUTH AFC,3.60,Betfair,38,36.10,Win,Don Sorensen,Football,2015-10-25 14:36:20
 2015-10-24 14:30:00,England,Championship,FULHAM FC vs READING FC,4-2 (0-1),Match Odds,READING FC,2.07,,100,-100.00,Lost,Don Sorensen,Football,2015-10-24 10:33:02
-2015-10-23 20:45:00,England,Championship,ROTHERHAM UTD vs SHEFFIELD WEDNESDAY,1-2 (0-0),Both team to score,Yes,1.91,,100,91.00,Win,Don Sorensen,Football,2015-10-23 15:55:05
+2015-10-23 20:45:00,England,Championship,ROTHERHAM UTD vs SHEFFIELD WEDNESDAY,1-2 (0-0),Both team to score,Yes,1.91,William Hill,100,91.00,Win,Don Sorensen,Football,2015-10-23 15:55:05
 2015-10-06 20:45:00,England,Football League Trophy,MILLWALL FC vs NORTHAMPTON TOWN,2-0 (0-0),Asian handicap,NORTHAMPTON TOWN -0.50,1.93,,100,93.00,Win,Don Sorensen,Football,2015-10-06 19:49:02
 2015-10-06 20:45:00,England,Skrill Premier,ALTRINCHAM FC vs HALIFAX TOWN,1-3 (0-1),Over / Under 1st Half,Under +1.00 Half time,2.07,,100,0.00,Void,Don Sorensen,Football,2015-10-06 19:39:02
 2015-10-01 21:05:00,European cups,UEFA Europa League,LIVERPOOL FC vs FC SION,1-1 (1-1),Match Odds,LIVERPOOL FC,1.57,,100,-100.00,Lost,Don Sorensen,Football,2015-10-01 17:52:04
 2015-10-01 21:05:00,European cups,UEFA Europa League,CELTIC FC vs FENERBAHCE,2-2 (2-1),Over / Under,Over +2.50,1.84,,100,84.00,Win,Don Sorensen,Football,2015-10-01 17:49:04
 2015-09-29 20:45:00,England,Championship,FULHAM FC vs WOLVERHAMPTON WANDERERS,0-3 (0-0),Asian handicap,FULHAM FC -0.25,2.01,,100,-100.00,Lost,Don Sorensen,Football,2015-09-29 18:33:06
 2015-09-29 20:45:00,England,Championship,BRENTFORD FC vs BIRMINGHAM CITY,0-2 (0-0),Over / Under,Under +2.75,1.96,,100,96.00,Win,Don Sorensen,Football,2015-09-29 18:12:09
-2015-09-29 20:45:00,England,League One,BURTON ALBION vs SHEFFIELD UNITED,0-0 (0-0),Lay Match Odds,Lay SHEFFIELD UNITED,3.05,,48,45.60,Win,Don Sorensen,Football,2015-09-29 16:52:21
-2015-09-26 16:00:00,England,Premier League,MANCHESTER UTD vs SUNDERLAND AFC,3-0 (1-0),Over / Under,Over +3.00,1.96,,100,0.00,Void,Don Sorensen,Football,2015-09-26 14:59:02
-2015-09-19 16:00:00,England,Skrill Premier,DOVER ATHLETIC vs GUISELEY FC,0-0 (0-0),Both team to score,Yes,1.80,,100,-100.00,Lost,Don Sorensen,Football,2015-09-19 11:57:08
+2015-09-29 20:45:00,England,League One,BURTON ALBION vs SHEFFIELD UNITED,0-0 (0-0),Lay Match Odds,Lay SHEFFIELD UNITED,3.05,Betfair,48,45.60,Win,Don Sorensen,Football,2015-09-29 16:52:21
+2015-09-26 16:00:00,England,Premier League,MANCHESTER UTD vs SUNDERLAND AFC,3-0 (1-0),Over / Under,Over +3.00,1.96,Pinnacle Sports,100,0.00,Void,Don Sorensen,Football,2015-09-26 14:59:02
+2015-09-19 16:00:00,England,Skrill Premier,DOVER ATHLETIC vs GUISELEY FC,0-0 (0-0),Both team to score,Yes,1.80,Bet365,100,-100.00,Lost,Don Sorensen,Football,2015-09-19 11:57:08
 2015-09-18 20:45:00,Scotland,First Division,FC ST MIRREN vs RAITH ROVERS FC,1-2 (1-1),Match Odds,FC ST MIRREN,2.20,,100,-100.00,Lost,Don Sorensen,Football,2015-09-18 17:24:03
-2015-09-15 20:45:00,England,Skrill Premier,WOKING FC vs FOREST GREEN ROVERS,2-1 (1-0),Asian handicap,WOKING FC +0.50,1.60,,100,60.00,Win,Don Sorensen,Football,2015-09-15 19:19:03
+2015-09-15 20:45:00,England,Skrill Premier,WOKING FC vs FOREST GREEN ROVERS,2-1 (1-0),Asian handicap,WOKING FC +0.50,1.60,Pinnacle Sports,100,60.00,Win,Don Sorensen,Football,2015-09-15 19:19:03

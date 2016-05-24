@@ -1,4 +1,24 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-18 02:45:00,Copa Libertadores,Copa Libertadores,INDEPENDIENTE DEL VALLE vs UNAM PUMAS,2-1 (1-0),Asian handicap,UNAM PUMAS +0.50,1.76,,100,-100.00,Lost,Socceroo,Football,2016-05-17 08:49:03
+2016-05-17 19:00:00,Denmark,Superliga,AGF AARHUS vs AALBORG BK,2-0 (0-0),Asian handicap,AALBORG BK +0,1.72,,100,-100.00,Lost,Socceroo,Football,2016-05-16 22:18:02
+2016-05-17 16:30:00,Belarus,Vysshaya League,FC GRANIT MIKASHEVICHI vs SLUTSKSAKHAR SLUTSK,2-1 (1-0),Match Odds,FC GRANIT MIKASHEVICHI,1.98,,100,98.00,Win,Socceroo,Football,2016-05-17 09:15:02
+2016-05-16 21:15:00,Iceland,"Iceland,Pepsideild",FH HAFNARFJORDUR vs FJOLNIR REYKJAVIK,2-0 (1-0),Asian handicap,FH HAFNARFJORDUR -1.00,1.88,,100,88.00,Win,Socceroo,Football,2016-05-16 15:20:07
+2016-05-16 18:00:00,Norway,OBOS-ligaen,KRISTIANSUND BK vs HODD,2-0 (0-0),Match Odds,KRISTIANSUND BK,1.83,,80,66.40,Win,Socceroo,Football,2016-05-16 16:25:04
+2016-05-15 15:30:00,Germany,2. Bundesliga,FSV FRANKFURT vs 1860 MUNICH,2-1 (0-0),Asian handicap,1860 MUNICH +0,2.82,,100,-100.00,Lost,Socceroo,Football,2016-05-12 20:46:02
+2016-05-15 15:30:00,Germany,2. Bundesliga,FC UNION BERLIN vs SC FREIBURG,2-1 (0-0),Over / Under,Over +3.00,1.94,,100,0.00,Void,Socceroo,Football,2016-05-12 14:16:02
+2016-05-15 13:40:00,Germany,Regionalliga Northeast,BERLINER AK 07 vs ZFC MEUSELWITZ,3-1 (1-1),Asian handicap,BERLINER AK 07 -2.50,2.21,,100,-100.00,Lost,Socceroo,Football,2016-05-15 10:35:02
+2016-05-14 21:00:00,Brazil,Brasilero Serie B,SAMPAIO CORREA MA vs VASCO DA GAMA RJ,0-4 (0-2),Asian handicap,VASCO DA GAMA RJ +0,1.79,,100,79.00,Win,Socceroo,Football,2016-05-13 13:33:02
+2016-05-14 14:00:00,Germany,Regionalliga Southwest,SPVGG ELVERSBERG 07 vs SV WALDHOF MANNHEIM,3-1 (1-0),Over / Under,Under +2.50,2.15,,100,-100.00,Lost,Socceroo,Football,2016-05-13 18:25:02
+2016-05-14 13:45:00,Germany,3.Liga,FC MAGDEBURG vs FC KICKERS WURZBURG,0-1 (0-1),Match Odds,FC MAGDEBURG,1.95,,100,-100.00,Lost,Socceroo,Football,2016-05-13 13:29:02
+2016-05-12 19:00:00,Norway,Tippeligaen,SOGNDAL IL vs TROMSO IL,0-0 (0-0),Match Odds,SOGNDAL IL,1.83,Bwin,100,-100.00,Lost,Socceroo,Football,2016-05-12 14:03:02
+2016-05-12 19:00:00,Norway,OBOS-ligaen,HODD vs SANDEFJORD FOTBALL,1-3 (0-0),Asian handicap,SANDEFJORD FOTBALL +0,1.84,,100,84.00,Win,Socceroo,Football,2016-05-12 13:52:01
+2016-05-12 02:45:00,Brazil,Copa do Brasil,PORTUGUESA SP vs VITORIA BA,0-0 (0-0),Match Odds,VITORIA BA,1.80,,100,-100.00,Lost,Socceroo,Football,2016-05-11 14:29:04
+2016-05-11 19:00:00,Germany,Regionalliga Northeast,VFB AUERBACH vs BERLINER AK 07,2-3 (1-1),Asian handicap,BERLINER AK 07 -1.00,1.86,,100,0.00,Void,Socceroo,Football,2016-05-11 14:00:02
+2016-05-11 19:00:00,Germany,Regionalliga Southwest,SPVGG NECKARELZ vs TSV STEINBACH,0-1 (0-1),Match Odds,TSV STEINBACH,3.25,,100,225.00,Win,Socceroo,Football,2016-05-09 16:16:03
+2016-05-11 18:00:00,Denmark,Superliga,SONDERJYSKE vs VIBORG FF,2-0 (1-0),Match Odds,SONDERJYSKE,1.85,,100,85.00,Win,Socceroo,Football,2016-05-11 11:16:04
+2016-05-10 21:30:00,England,Premier League,WEST HAM UNITED vs MANCHESTER UNITED,3-2 (1-0),Match Odds,MANCHESTER UNITED,2.32,,100,-100.00,Lost,Socceroo,Football,2016-05-09 08:54:04
+2016-05-10 19:00:00,Germany,Regionalliga Southwest,ASTORIA WALLDORF vs SC FREIBURG II,3-3 (1-0),Match Odds,SC FREIBURG II,2.75,,100,-100.00,Lost,Socceroo,Football,2016-05-09 15:02:04
+2016-05-10 18:30:00,Austria,ADEG Erste Liga,AUSTRIA KLAGENFURT vs SKN ST. POLTEN,0-2 (0-1),Asian handicap,SKN ST. POLTEN -1.00,1.80,,80,64.00,Win,Socceroo,Football,2016-05-10 13:55:02
 2016-05-08 15:30:00,Germany,2. Bundesliga,VFL BOCHUM vs EINTRACHT BRAUNSCHWEIG,2-3 (2-1),Over / Under,Over +3.00,2.04,,100,104.00,Win,Socceroo,Football,2016-05-04 20:03:02
 2016-05-08 15:30:00,Germany,2. Bundesliga,FORTUNA DUSSELDORF vs FSV FRANKFURT,1-0 (0-0),Match Odds,FSV FRANKFURT,1.85,,100,-100.00,Lost,Socceroo,Football,2016-05-02 16:58:02
 2016-05-08 15:30:00,Germany,2. Bundesliga,SV SANDHAUSEN vs MSV DUISBURG,2-2 (0-0),Asian handicap,MSV DUISBURG +0,1.80,,100,0.00,Void,Socceroo,Football,2016-05-02 16:43:02
@@ -12,7 +32,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-05-04 17:00:00,International Clubs,"AFC Champions League, Group A",FOOLAD MOBARAKE SEPAHAN vs AL ITTIHAD,0-2 (0-1),Match Odds,AL ITTIHAD,1.80,,80,64.00,Win,Socceroo,Football,2016-05-03 19:44:02
 2016-05-03 12:00:00,International Clubs,"AFC Champions League, Group G",MELBOURNE VICTORY vs GAMBA OSAKA,2-1 (2-0),Asian handicap,MELBOURNE VICTORY -1.00,2.11,,100,0.00,Void,Socceroo,Football,2016-05-02 11:25:01
 2016-05-01 22:00:00,Bolivia,"Liga Profesional Boliviano, Clausura",BOLIVAR LA PAZ vs THE STRONGEST,1-1 (0-0),Asian handicap,THE STRONGEST +0,2.20,,100,0.00,Void,Socceroo,Football,2016-05-01 11:49:02
-2016-05-01 18:00:00,Norway,Eliteserien,SOGNDAL IL vs ROSENBORG BK,1-1 (1-0),Asian handicap,ROSENBORG BK -1.00,1.82,,80,-80.00,Lost,Socceroo,Football,2016-05-01 11:51:04
+2016-05-01 18:00:00,Norway,Tippeligaen,SOGNDAL IL vs ROSENBORG BK,1-1 (1-0),Asian handicap,ROSENBORG BK -1.00,1.82,,80,-80.00,Lost,Socceroo,Football,2016-05-01 11:51:04
 2016-05-01 15:00:00,Italy,Serie A,US PALERMO vs SAMPDORIA GENOA,2-0 (1-0),Match Odds,US PALERMO,1.95,,80,76.00,Win,Socceroo,Football,2016-05-01 11:53:04
 2016-04-30 15:30:00,Germany,Bundesliga,BAYERN MUNICH vs MONCHENGLADBACH,1-1 (1-0),Over / Under,Under +3.50,1.85,,100,85.00,Win,Socceroo,Football,2016-04-29 10:22:01
 2016-04-30 15:30:00,Germany,Bundesliga,1899 HOFFENHEIM vs FC INGOLSTADT,2-1 (1-1),Match Odds,1899 HOFFENHEIM,1.95,,100,95.00,Win,Socceroo,Football,2016-04-28 15:48:03
@@ -22,7 +42,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-29 18:30:00,Germany,2. Bundesliga,MSV DUISBURG vs FORTUNA DUSSELDORF,2-1 (0-0),Match Odds,FORTUNA DUSSELDORF,3.30,,80,-80.00,Lost,Socceroo,Football,2016-04-26 14:28:02
 2016-04-26 19:00:00,Germany,Regionalliga Bavaria,TSV 1860 MUNICH II vs SPVGG BAYREUTH,4-0 (2-0),Asian handicap,SPVGG BAYREUTH +0.50,1.78,,80,-80.00,Lost,Socceroo,Football,2016-04-26 14:30:03
 2016-04-25 01:30:00,Paraguay,Primera Division,DEPORTIVO CAPIATA vs CLUB LIBERTAD ASUNCION,0-2 (0-1),Match Odds,CLUB LIBERTAD ASUNCION,1.95,,100,95.00,Win,Socceroo,Football,2016-04-24 21:52:02
-2016-04-24 18:00:00,Norway,Eliteserien,ODDS BK vs LILLESTROM SK,1-3 (0-1),Match Odds,ODDS BK,2.00,,100,-100.00,Lost,Socceroo,Football,2016-04-20 10:34:02
+2016-04-24 18:00:00,Norway,Tippeligaen,ODDS BK vs LILLESTROM SK,1-3 (0-1),Match Odds,ODDS BK,2.00,,100,-100.00,Lost,Socceroo,Football,2016-04-20 10:34:02
 2016-04-22 19:00:00,Germany,3.Liga,VFB STUTTGART II vs ENERGIE COTTBUS,0-1 (0-1),Asian handicap,ENERGIE COTTBUS +0,2.74,,80,139.20,Win,Socceroo,Football,2016-04-22 10:54:03
 2016-04-22 19:00:00,Sweden,Allsvenskan,FALKENBERGS FF vs IFK NORRKOPING,2-1 (1-0),Match Odds,IFK NORRKOPING,1.87,,100,-100.00,Lost,Socceroo,Football,2016-04-19 09:37:02
 2016-04-22 11:45:00,Australia,Hyundai A-League,ADELAIDE UNITED FC vs MELBOURNE CITY FC,4-1 (0-0),Match Odds,ADELAIDE UNITED FC,2.10,,100,110.00,Win,Socceroo,Football,2016-04-21 15:18:02
@@ -61,7 +81,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-03-20 13:00:00,Ukraine,Premier League,OLIMPIK DONETSK vs VOLYN LUTSK,1-1 (0-0),Match Odds,OLIMPIK DONETSK,2.10,,80,-80.00,Lost,Socceroo,Football,2016-03-20 00:11:03
 2016-03-20 02:00:00,USA,Major League Soccer,FC DALLAS vs MONTREAL IMPACT,2-0 (0-0),Over / Under,Over +2.50,1.86,,100,-100.00,Lost,Socceroo,Football,2016-03-20 00:18:02
 2016-03-19 18:30:00,Germany,Bundesliga,EINTRACHT FRANKFURT vs HANNOVER 96,1-0 (1-0),Asian handicap,EINTRACHT FRANKFURT -0.50,1.84,,100,84.00,Win,Socceroo,Football,2016-03-14 09:25:02
-2016-03-19 16:00:00,Denmark,SAS Ligaen,HOBRO IK vs ODENSE BK,0-2 (0-0),Match Odds,ODENSE BK,1.80,,100,80.00,Win,Socceroo,Football,2016-03-18 22:38:02
+2016-03-19 16:00:00,Denmark,Superliga,HOBRO IK vs ODENSE BK,0-2 (0-0),Match Odds,ODENSE BK,1.80,,100,80.00,Win,Socceroo,Football,2016-03-18 22:38:02
 2016-03-19 14:00:00,Germany,Regionalliga Southwest,SPVGG NECKARELZ vs EINTRACHT TRIER,1-1 (0-0),Asian handicap,EINTRACHT TRIER -1.00,1.86,,100,-100.00,Lost,Socceroo,Football,2016-03-17 16:58:02
 2016-03-19 14:00:00,Germany,Regionalliga Southwest,FC KAISERSLAUTERN II vs SV WALDHOF MANNHEIM,0-1 (0-0),Match Odds,SV WALDHOF MANNHEIM,1.81,,100,81.00,Win,Socceroo,Football,2016-03-17 16:37:05
 2016-03-19 14:00:00,Germany,Regionalliga Southwest,1 FC SAARBRUCKEN vs SPVGG ELVERSBERG 07,2-0 (1-0),Asian handicap,SPVGG ELVERSBERG 07 +0,1.94,,100,-100.00,Lost,Socceroo,Football,2016-03-17 15:57:03
@@ -207,7 +227,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-04 14:00:00,Germany,"Bundesliga, Women",TSG 1899 HOFFENHEIM vs BAYER LEVERKUSEN,3-1 (1-0),Asian handicap,BAYER LEVERKUSEN -1.25,1.90,,100,-100.00,Lost,Socceroo,Football,2015-10-02 18:17:03
 2015-10-03 23:00:00,USA,Major League Soccer,TORONTO FC vs PHILADELPHIA UNION,3-1 (1-0),Asian handicap,TORONTO FC -1.00,1.83,,100,83.00,Win,Socceroo,Football,2015-10-03 20:58:51
 2015-10-03 18:30:00,Ukraine,Premier League,FC METALURG ZAPORIZHYA vs OLIMPIK DONETSK,0-3 (0-1),Match Odds,OLIMPIK DONETSK,2.00,,100,100.00,Win,Socceroo,Football,2015-10-02 18:14:03
-2015-10-03 16:00:00,Iceland,Iceland,IBV VESTMANNAEYJAR vs IA AKRANES,1-2 (1-1),Over / Under,Over +3.00,1.92,,100,0.00,Void,Socceroo,Football,2015-10-02 23:10:05
+2015-10-03 16:00:00,Iceland,"Iceland,Pepsideild",IBV VESTMANNAEYJAR vs IA AKRANES,1-2 (1-1),Over / Under,Over +3.00,1.92,,100,0.00,Void,Socceroo,Football,2015-10-02 23:10:05
 2015-10-03 14:00:00,Germany,3.Liga,HANSA ROSTOCK vs DYNAMO DRESDEN,1-3 (0-1),Match Odds,DYNAMO DRESDEN,1.85,,100,85.00,Win,Socceroo,Football,2015-10-01 15:48:23
 2015-10-01 21:05:00,European cups,UEFA Europa League,PAOK FC vs BORUSSIA DORTMUND,1-1 (1-0),Both team to score,Yes,1.73,,100,73.00,Win,Socceroo,Football,2015-10-01 15:38:41
 2015-10-01 19:00:00,Qatar,Stars League,AL ARABI DOHA SC vs AL GHARAFA SC,0-1 (0-1),Asian handicap,AL ARABI DOHA SC -0.25,1.90,,100,-100.00,Lost,Socceroo,Football,2015-10-01 15:12:03
@@ -216,8 +236,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-29 20:45:00,European cups,UEFA Champions League,MACCABI TEL AVIV vs FC DYNAMO KIEV,0-2 (0-1),Asian handicap,FC DYNAMO KIEV -1.00,2.75,,100,175.00,Win,Socceroo,Football,2015-09-29 10:19:02
 2015-09-29 20:45:00,European cups,UEFA Champions League,FC BATE BORISOV vs AS ROMA,3-2 (3-0),Over / Under 1st Half,Under +0.50 Half time,2.75,,100,-100.00,Lost,Socceroo,Football,2015-09-28 22:06:07
 2015-09-27 01:30:00,USA,Major League Soccer,NEW ENGLAND REVOLUTION vs PHILADELPHIA UNION,1-1 (1-0),Asian handicap,NEW ENGLAND REVOLUTION -1.00,2.09,,100,-100.00,Lost,Socceroo,Football,2015-09-24 15:52:03
-2015-09-26 16:00:00,Iceland,Iceland,IA AKRANES vs VALUR REYKJAVIK,1-0 (1-0),Over / Under,Over +3.50,2.42,,40,-40.00,Lost,Socceroo,Football,2015-09-26 12:13:02
-2015-09-26 16:00:00,Iceland,Iceland,STJARNAN GARDABAE vs KEFLAVIK IF,7-0 (3-0),Over / Under,Over +3.00,1.95,,80,76.00,Win,Socceroo,Football,2015-09-26 12:10:10
+2015-09-26 16:00:00,Iceland,"Iceland,Pepsideild",IA AKRANES vs VALUR REYKJAVIK,1-0 (1-0),Over / Under,Over +3.50,2.42,,40,-40.00,Lost,Socceroo,Football,2015-09-26 12:13:02
+2015-09-26 16:00:00,Iceland,"Iceland,Pepsideild",STJARNAN GARDABAE vs KEFLAVIK IF,7-0 (3-0),Over / Under,Over +3.00,1.95,,80,76.00,Win,Socceroo,Football,2015-09-26 12:10:10
 2015-09-26 14:00:00,Germany,Regionalliga Southwest,SPVGG NECKARELZ vs BAHLINGER SC,3-1 (2-1),Over / Under,Under +2.50,2.19,,80,-80.00,Lost,Socceroo,Football,2015-09-26 11:19:19
 2015-09-26 14:00:00,Germany,3.Liga,FC MAGDEBURG vs ENERGIE COTTBUS,2-2 (0-0),Asian handicap,FC MAGDEBURG -0.25,1.85,,100,-50.00,Half lost,Socceroo,Football,2015-09-24 21:22:15
 2015-09-25 20:30:00,Germany,Bundesliga,1 FC COLOGNE vs FC INGOLSTADT,1-1 (1-1),Over / Under,Under +1.00,1.75,,80,-80.00,Lost,Socceroo,Football,2015-09-24 15:17:02
@@ -230,7 +250,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-19 14:00:00,Germany,3.Liga,SG SONNENHOF GROSSASPACH vs CHEMNITZER FC,4-2 (0-0),Asian handicap,CHEMNITZER FC +0,1.96,,100,-100.00,Lost,Socceroo,Football,2015-09-17 15:31:02
 2015-09-19 13:45:00,England,Premier League,CHELSEA FC vs ARSENAL FC,,Asian handicap,ARSENAL FC -1.00,2.01,,100,-100.00,Lost,Socceroo,Football,2015-09-16 18:17:05
 2015-09-17 21:05:00,European cups,UEFA Europa League,ATHLETIC BILBAO vs FC AUGSBURG,3-1 (0-1),Asian handicap,ATHLETIC BILBAO -1.00,2.20,,100,120.00,Win,Socceroo,Football,2015-09-17 09:24:03
-2015-09-15 19:15:00,Iceland,1 deild,THROTTUR REYKJAVIK vs HAUKAR HAFNARFJORDUR,1-1 (1-1),Match Odds,THROTTUR REYKJAVIK,1.50,,100,-100.00,Lost,Socceroo,Football,2015-09-15 11:18:03
+2015-09-15 19:15:00,Iceland,"Iceland,Inkasso-deildin",THROTTUR REYKJAVIK vs HAUKAR HAFNARFJORDUR,1-1 (1-1),Match Odds,THROTTUR REYKJAVIK,1.50,,100,-100.00,Lost,Socceroo,Football,2015-09-15 11:18:03
 2015-09-15 19:00:00,Germany,3.Liga,VFB STUTTGART II vs FSV MAINZ 05 II,1-1 (0-1),Over / Under,Over +2.50,2.05,,100,-100.00,Lost,Socceroo,Football,2015-09-15 13:53:03
 2015-09-12 15:30:00,Germany,Bundesliga,HANNOVER 96 vs BORUSSIA DORTMUND,2-4 (1-2),Asian handicap,BORUSSIA DORTMUND -1.00,1.73,,100,73.00,Win,Socceroo,Football,2015-09-10 22:59:03
 2015-09-11 19:00:00,Germany,3.Liga,STUTTGARTER KICKERS vs FC MAGDEBURG,1-0 (1-0),Match Odds,STUTTGARTER KICKERS,1.95,,100,95.00,Win,Socceroo,Football,2015-09-10 18:10:12
@@ -271,7 +291,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-01 14:00:00,Germany,Regionalliga West,FC WEGBERG-BEECK vs RODINGHAUSEN,0-5 (0-2),Match Odds,RODINGHAUSEN,1.85,,100,85.00,Win,Socceroo,Football,2015-07-31 17:24:04
 2015-08-01 14:00:00,Germany,3.Liga,FORTUNA COLOGNE vs VFR AALEN,1-1 (1-0),Asian handicap,VFR AALEN +0,1.86,,100,0.00,Void,Socceroo,Football,2015-07-29 14:49:04
 2015-07-31 19:00:00,Germany,3.Liga,FSV MAINZ 05 II vs FC MAGDEBURG,2-2 (0-2),Over / Under,Over +3.00,2.85,,100,185.00,Win,Socceroo,Football,2015-07-30 13:26:04
-2015-07-29 21:15:00,Iceland,1 deild,UMF SELFOSS vs VIKINGUR OLAFSVIK,0-2 (0-1),Asian handicap,VIKINGUR OLAFSVIK -0.25,1.88,,100,88.00,Win,Socceroo,Football,2015-07-28 22:15:13
+2015-07-29 21:15:00,Iceland,"Iceland,Inkasso-deildin",UMF SELFOSS vs VIKINGUR OLAFSVIK,0-2 (0-1),Asian handicap,VIKINGUR OLAFSVIK -0.25,1.88,,100,88.00,Win,Socceroo,Football,2015-07-28 22:15:13
 2015-07-29 19:30:00,Germany,Regionalliga North,VFB LUBECK vs FC ST. PAULI II,2-0 (1-0),Match Odds,VFB LUBECK,1.82,,100,82.00,Win,Socceroo,Football,2015-07-28 20:24:03
 2015-07-28 18:30:00,International Clubs,Club Friendly Games,VIKTORIA ASCHAFFENBURG vs SV DARMSTADT 98,1-3 (0-1),Asian handicap,SV DARMSTADT 98 -1.25,1.80,,80,64.00,Win,Socceroo,Football,2015-07-28 12:24:05
 2015-07-28 18:30:00,International Clubs,Club Friendly Games,SV WILHELMSHAVEN vs WERDER BREMEN,0-7 (0-2),Over / Under,Over +4.50,1.90,,100,90.00,Win,Socceroo,Football,2015-07-28 12:17:02
@@ -288,7 +308,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-22 19:00:00,International Clubs,Club Friendly Games,VFB GARTENSTADT vs SV WALDHOF MANNHEIM,0-6 (0-5),Asian handicap,SV WALDHOF MANNHEIM -1.50,1.77,,100,77.00,Win,Socceroo,Football,2015-07-22 17:12:09
 2015-07-21 19:00:00,International Clubs,Club Friendly Games,LILLESTROM SK vs 1899 HOFFENHEIM,1-1 (1-0),Over / Under,Over +3.00,1.83,,100,-100.00,Lost,Socceroo,Football,2015-07-21 16:34:03
 2015-07-21 18:30:00,International Clubs,Club Friendly Games,KSV BAUNATAL vs HESSEN KASSEL,0-3 (0-2),Asian handicap,HESSEN KASSEL -1.00,1.90,,100,90.00,Win,Socceroo,Football,2015-07-21 16:52:19
-2015-07-20 22:00:00,Iceland,Iceland,LEIKNIR REYKJAVIK vs VALUR REYKJAVIK,0-1 (0-1),Match Odds,VALUR REYKJAVIK,1.75,,100,75.00,Win,Socceroo,Football,2015-07-20 14:26:07
+2015-07-20 22:00:00,Iceland,"Iceland,Pepsideild",LEIKNIR REYKJAVIK vs VALUR REYKJAVIK,0-1 (0-1),Match Odds,VALUR REYKJAVIK,1.75,,100,75.00,Win,Socceroo,Football,2015-07-20 14:26:07
 2015-07-20 18:00:00,Poland,Ekstraklasa,GKS PIAST GLIWICE vs TERMALICA BRUK-BET NIECIECZA,1-0 (1-0),Asian handicap,TERMALICA BRUK-BET NIECIECZA +0,2.17,,80,-80.00,Lost,Socceroo,Football,2015-07-20 14:44:09
 2015-07-17 20:00:00,International Clubs,Club Friendly Games,VFL BOCHUM vs BORUSSIA DORTMUND,2-1 (1-0),Over / Under,Over +3.25,1.94,,100,-50.00,Half lost,Socceroo,Football,2015-07-17 14:03:13
 2015-07-17 19:00:00,International Clubs,Club Friendly Games,VFC PLAUEN vs VFB AUERBACH,1-1 (0-0),Asian handicap,VFB AUERBACH +0,1.83,,100,0.00,Void,Socceroo,Football,2015-07-16 22:38:03
@@ -301,7 +321,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-14 20:00:00,Ukraine,Supercup,FC DYNAMO KIEV vs FC SHAKHTAR DONETSK,0-2 (0-0),Asian handicap,FC DYNAMO KIEV -0.25,1.90,,100,-100.00,Lost,Socceroo,Football,2015-07-14 10:23:02
 2015-07-14 19:30:00,International Clubs,Club Friendly Games,SV JOSKO RIED vs GALATASARAY ISTANBUL,2-3 (0-0),Match Odds,GALATASARAY ISTANBUL,1.53,,100,53.00,Win,Socceroo,Football,2015-07-14 12:26:22
 2015-07-14 19:00:00,International Clubs,Club Friendly Games,BV CLOPPENBURG vs SF LOTTE,1-2 (1-2),Match Odds,SF LOTTE,2.05,,100,105.00,Win,Socceroo,Football,2015-07-14 09:44:03
-2015-07-13 21:15:00,Iceland,1 deild,UMF SELFOSS vs THROTTUR REYKJAVIK,2-0 (1-0),Match Odds,THROTTUR REYKJAVIK,1.91,,100,-100.00,Lost,Socceroo,Football,2015-07-13 18:31:03
+2015-07-13 21:15:00,Iceland,"Iceland,Inkasso-deildin",UMF SELFOSS vs THROTTUR REYKJAVIK,2-0 (1-0),Match Odds,THROTTUR REYKJAVIK,1.91,,100,-100.00,Lost,Socceroo,Football,2015-07-13 18:31:03
 2015-07-13 18:30:00,International Clubs,Club Friendly Games,HALLESCHER FC vs FC UNION BERLIN,0-3 (0-1),Asian handicap,FC UNION BERLIN +0,1.80,,100,80.00,Win,Socceroo,Football,2015-07-13 16:37:02
 2015-07-12 22:30:00,Colombia,Apertura II,AGUILAS DORADAS vs ATLETICO NACIONAL MEDELLIN,0-2 (0-1),Asian handicap,ATLETICO NACIONAL MEDELLIN -1.00,1.84,,100,84.00,Win,Socceroo,Football,2015-07-12 12:16:06
 2015-07-12 20:00:00,International Youth,U19 European Championship,FRANCE vs GREECE,2-0 (1-0),Over / Under 1st Half,Under +0.50 Half time,2.36,,80,-80.00,Lost,Socceroo,Football,2015-07-12 17:12:07
@@ -321,7 +341,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-08 18:00:00,International Clubs,Club Friendly Games,SOUTHAMPTON FC vs RB LEIPZIG,4-5 (1-1),Asian handicap,RB LEIPZIG +0.50,1.80,,80,64.00,Win,Socceroo,Football,2015-07-08 14:02:11
 2015-07-08 17:30:00,Finland,Ykkonen,EIF vs JJK JYVASKYLA,1-1 (0-0),Match Odds,JJK JYVASKYLA,1.76,,100,-100.00,Lost,Socceroo,Football,2015-07-08 13:50:06
 2015-07-08 02:50:00,Brazil,Brasilero Serie B,CEARA CE vs BOTAFOGO RJ,0-0 (0-0),Asian handicap,BOTAFOGO RJ +0,1.83,,80,0.00,Void,Socceroo,Football,2015-07-07 22:55:46
-2015-07-07 21:15:00,Iceland,1 deild,BI/BOLUNGARVIK vs HAUKAR HAFNARFJORDUR,2-2 (1-0),Match Odds,HAUKAR HAFNARFJORDUR,2.05,,100,-100.00,Lost,Socceroo,Football,2015-07-07 12:29:02
+2015-07-07 21:15:00,Iceland,"Iceland,Inkasso-deildin",BI/BOLUNGARVIK vs HAUKAR HAFNARFJORDUR,2-2 (1-0),Match Odds,HAUKAR HAFNARFJORDUR,2.05,,100,-100.00,Lost,Socceroo,Football,2015-07-07 12:29:02
 2015-07-07 20:45:00,International Youth,U19 European Championship,GERMANY vs SPAIN,0-3 (0-1),Match Odds,SPAIN,2.42,,20,28.40,Win,Socceroo,Football,2015-07-07 08:38:02
 2015-07-07 20:45:00,International Youth,U19 European Championship,GERMANY vs SPAIN,0-3 (0-1),Asian handicap,SPAIN +0,1.76,,80,60.80,Win,Socceroo,Football,2015-07-06 09:52:22
 2015-07-06 20:00:00,International Youth,U19 European Championship,AUSTRIA vs FRANCE,0-1 (0-1),Match Odds,FRANCE,1.86,,60,51.60,Win,Socceroo,Football,2015-07-06 09:37:05
@@ -329,14 +349,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-06 19:00:00,Sweden,Div 1,KRISTIANSTADS FF vs LANDSKRONA BOIS,0-1 (0-0),Match Odds,LANDSKRONA BOIS,1.74,,100,74.00,Win,Socceroo,Football,2015-07-06 11:03:06
 2015-07-06 05:00:00,USA,Major League Soccer,PORTLAND TIMBERS vs SAN JOSE EARTHQUAKES,1-0 (0-0),Over / Under,Under +2.50,1.88,,60,52.80,Win,Socceroo,Football,2015-07-05 22:44:03
 2015-07-05 23:30:00,Brazil,Brasilero Serie A,INTERNACIONAL RS vs ATLETICO MINEIRO MG,1-3 (0-0),Asian handicap,INTERNACIONAL RS +0,1.81,,80,-80.00,Lost,Socceroo,Football,2015-07-05 20:55:05
-2015-07-05 18:00:00,Norway,Adeccoligaen,RANHEIM IL vs AASANE FOTBALL,3-2 (1-0),Asian handicap,RANHEIM IL -1.00,1.91,,100,0.00,Void,Socceroo,Football,2015-07-05 15:49:03
+2015-07-05 18:00:00,Norway,OBOS-ligaen,RANHEIM IL vs AASANE FOTBALL,3-2 (1-0),Asian handicap,RANHEIM IL -1.00,1.91,,100,0.00,Void,Socceroo,Football,2015-07-05 15:49:03
 2015-07-05 04:30:00,USA,Major League Soccer,LA GALAXY vs TORONTO FC,4-0 (2-0),Asian handicap,LA GALAXY -0.75,1.81,,100,81.00,Win,Socceroo,Football,2015-07-04 14:22:03
 2015-07-05 01:30:00,USA,Major League Soccer,COLUMBUS CREW vs NY RED BULLS,2-1 (1-1),Asian handicap,COLUMBUS CREW -0.25,1.86,,100,86.00,Win,Socceroo,Football,2015-07-04 14:25:28
 2015-07-04 16:00:00,International Clubs,Club Friendly Games,RW ERFURT vs SCHWEINFURT 05,5-1 (2-0),Match Odds,RW ERFURT,1.83,,100,83.00,Win,Socceroo,Football,2015-07-04 14:28:12
 2015-07-04 05:00:00,USA,Major League Soccer,SEATTLE SOUNDERS vs WASHINGTON DC UTD,1-0 (0-0),Match Odds,WASHINGTON DC UTD,4.04,,20,-20.00,Lost,Socceroo,Football,2015-07-04 02:03:21
 2015-07-04 05:00:00,USA,Major League Soccer,SEATTLE SOUNDERS vs WASHINGTON DC UTD,1-0 (0-0),Asian handicap,WASHINGTON DC UTD +0.50,1.83,,80,-80.00,Lost,Socceroo,Football,2015-07-04 02:03:18
-2015-07-02 21:15:00,Iceland,1 deild,HAUKAR HAFNARFJORDUR vs THROTTUR REYKJAVIK,1-2 (0-2),Match Odds,THROTTUR REYKJAVIK,1.91,,60,54.60,Win,Socceroo,Football,2015-07-01 10:08:02
-2015-07-02 21:15:00,Iceland,1 deild,FRAM REYKJAVIK vs HK KOPAVOGS,1-2 (0-1),Match Odds,FRAM REYKJAVIK,2.05,,100,-100.00,Lost,Socceroo,Football,2015-07-01 10:03:05
+2015-07-02 21:15:00,Iceland,"Iceland,Inkasso-deildin",HAUKAR HAFNARFJORDUR vs THROTTUR REYKJAVIK,1-2 (0-2),Match Odds,THROTTUR REYKJAVIK,1.91,,60,54.60,Win,Socceroo,Football,2015-07-01 10:08:02
+2015-07-02 21:15:00,Iceland,"Iceland,Inkasso-deildin",FRAM REYKJAVIK vs HK KOPAVOGS,1-2 (0-1),Match Odds,FRAM REYKJAVIK,2.05,,100,-100.00,Lost,Socceroo,Football,2015-07-01 10:03:05
 2015-07-02 20:00:00,European cups,UEFA Europa League,GO AHEAD EAGLES vs FERENCVAROSI TC,1-1 (1-1),Match Odds,FERENCVAROSI TC,2.30,,100,-100.00,Lost,Socceroo,Football,2015-06-30 11:30:06
 2015-07-02 19:00:00,European cups,UEFA Europa League,TRAKAI FK vs HB TORSHAVN,3-0 (1-0),Asian handicap,TRAKAI FK -1.00,1.84,,60,50.40,Win,Socceroo,Football,2015-07-02 09:36:04
 2015-07-02 01:00:00,International,"Euro Cup Women, Final Round",JAPAN vs ENGLAND,2-1 (1-1),Match Odds,JAPAN,2.15,,60,69.00,Win,Socceroo,Football,2015-07-01 09:19:04
@@ -345,21 +365,21 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-06-30 19:00:00,European cups,UEFA Europa League,PROGRES NIEDERCORN vs SHAMROCK ROVERS FC,0-0 (0-0),Match Odds,SHAMROCK ROVERS FC,1.99,,60,-60.00,Lost,Socceroo,Football,2015-06-29 23:31:05
 2015-06-30 18:30:00,International Clubs,Club Friendly Games,CHEMNITZER FC vs TSG NEUSTRELITZ,3-1 (1-1),Asian handicap,CHEMNITZER FC -1.00,1.77,,40,30.80,Win,Socceroo,Football,2015-06-30 15:40:06
 2015-06-30 01:30:00,International,"Copa America, Final Round",CHILE vs PERU,2-1 (1-0),Over / Under,Over +6.00,1.80,,100,-100.00,Lost,Socceroo,Football,2015-06-29 14:00:08
-2015-06-29 22:00:00,Iceland,Iceland,KEFLAVIK IF vs STJARNAN GARDABAE,1-2 (1-1),Match Odds,STJARNAN GARDABAE,1.91,,100,91.00,Win,Socceroo,Football,2015-06-27 12:45:03
+2015-06-29 22:00:00,Iceland,"Iceland,Pepsideild",KEFLAVIK IF vs STJARNAN GARDABAE,1-2 (1-1),Match Odds,STJARNAN GARDABAE,1.91,,100,91.00,Win,Socceroo,Football,2015-06-27 12:45:03
 2015-06-28 22:30:00,USA,Major League Soccer,NEW YORK CITY FC vs NY RED BULLS,1-3 (1-0),Over / Under,Over +2.50,1.91,,40,36.40,Win,Socceroo,Football,2015-06-28 20:56:27
-2015-06-28 22:00:00,Iceland,Iceland,FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR,1-3 (1-1),Asian handicap,FH HAFNARFJORDUR -0.50,1.80,,60,48.00,Win,Socceroo,Football,2015-06-28 18:18:01
-2015-06-28 22:00:00,Iceland,Iceland,FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR,1-3 (1-1),Match Odds,FH HAFNARFJORDUR,1.77,,40,30.80,Win,Socceroo,Football,2015-06-28 14:40:06
-2015-06-28 20:00:00,Norway,Eliteserien,VALERENGA IF vs BODO/GLIMT,1-2 (0-0),Over / Under,Over +3.50,2.03,,80,-80.00,Lost,Socceroo,Football,2015-06-28 14:18:04
+2015-06-28 22:00:00,Iceland,"Iceland,Pepsideild",FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR,1-3 (1-1),Asian handicap,FH HAFNARFJORDUR -0.50,1.80,,60,48.00,Win,Socceroo,Football,2015-06-28 18:18:01
+2015-06-28 22:00:00,Iceland,"Iceland,Pepsideild",FJOLNIR REYKJAVIK vs FH HAFNARFJORDUR,1-3 (1-1),Match Odds,FH HAFNARFJORDUR,1.77,,40,30.80,Win,Socceroo,Football,2015-06-28 14:40:06
+2015-06-28 20:00:00,Norway,Tippeligaen,VALERENGA IF vs BODO/GLIMT,1-2 (0-0),Over / Under,Over +3.50,2.03,,80,-80.00,Lost,Socceroo,Football,2015-06-28 14:18:04
 2015-06-28 15:30:00,International Clubs,"CAF Champions League, Group A",TP MAZEMBE vs AL HILAL,0-0 (0-0),Asian handicap,TP MAZEMBE -1.00,1.79,,100,-100.00,Lost,Socceroo,Football,2015-06-28 14:09:05
 2015-06-27 18:00:00,International Youth,U21 European Championship,PORTUGAL vs GERMANY,5-0 (3-0),Match Odds,Draw,3.30,,40,-40.00,Lost,Socceroo,Football,2015-06-27 12:48:11
-2015-06-27 15:30:00,Norway,Eliteserien,IK START vs AALESUNDS FK,3-1 (2-1),Match Odds,AALESUNDS FK,3.30,,40,-40.00,Lost,Socceroo,Football,2015-06-27 13:01:08
+2015-06-27 15:30:00,Norway,Tippeligaen,IK START vs AALESUNDS FK,3-1 (2-1),Match Odds,AALESUNDS FK,3.30,,40,-40.00,Lost,Socceroo,Football,2015-06-27 13:01:08
 2015-06-27 01:30:00,International,"Euro Cup Women, Final Round",CHINA vs USA,0-1 (0-0),Asian handicap,USA -1.00,1.79,,100,0.00,Void,Socceroo,Football,2015-06-26 20:08:04
 2015-06-26 22:00:00,International,"Euro Cup Women, Final Round",GERMANY vs FRANCE,6-5 (0-0),Match Odds,Draw,3.64,,60,158.40,Win,Socceroo,Football,2015-06-26 20:12:03
 2015-06-26 15:00:00,International Clubs,Club Friendly Games,SSV JAHN REGENSBURG vs 1860 MUNICH,1-2 (0-1),Draw no bet,SSV JAHN REGENSBURG,6.50,,80,-80.00,Lost,Socceroo,Football,2015-06-26 09:48:04
 2015-06-25 20:45:00,Ireland,Airtricity First Division,WATERFORD UNITED FC vs ATHLONE TOWN AFC,0-1 (0-1),Match Odds,WATERFORD UNITED FC,3.90,,40,-40.00,Lost,Socceroo,Football,2015-06-25 11:46:08
 2015-06-25 17:30:00,Finland,Veikkausliiga,ROVANIEMI PALLOSEURA vs FC INTER TURKU,1-1 (1-0),Over / Under,Over +2.50,2.00,,100,-100.00,Lost,Socceroo,Football,2015-06-25 10:48:03
 2015-06-25 14:00:00,International Clubs,Club Friendly Games,FC NORDSJALLAND vs AIK,1-1 (1-0),Match Odds,AIK,1.80,,100,-100.00,Lost,Socceroo,Football,2015-06-25 10:15:05
-2015-06-23 21:15:00,Iceland,1 deild,UMF GRINDAVIK vs HK KOPAVOGS,2-0 (0-0),Match Odds,UMF GRINDAVIK,1.72,,100,72.00,Win,Socceroo,Football,2015-06-23 17:08:14
+2015-06-23 21:15:00,Iceland,"Iceland,Inkasso-deildin",UMF GRINDAVIK vs HK KOPAVOGS,2-0 (0-0),Match Odds,UMF GRINDAVIK,1.72,,100,72.00,Win,Socceroo,Football,2015-06-23 17:08:14
 2015-06-23 20:45:00,International Youth,U21 European Championship,DENMARK vs SERBIA,2-0 (1-0),Asian handicap,DENMARK +0,1.71,,100,71.00,Win,Socceroo,Football,2015-06-23 11:14:03
 2015-06-16 01:30:00,International,Copa America,CHILE vs MEXICO,3-3 (2-2),Asian handicap,CHILE -1.00,1.94,,60,-60.00,Lost,Socceroo,Football,2015-06-15 15:02:12
 2015-06-14 03:00:00,International Youth,U20 World Cup,MALI vs GERMANY,5-4 (0-1),Asian handicap,GERMANY -1.00,1.79,,100,-100.00,Lost,Socceroo,Football,2015-06-13 11:15:08
@@ -376,7 +396,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-06-07 14:00:00,Germany,Oberliga NOFV Sued,LOKOMOTIVE LEIPZIG vs FC EISENACH,1-0,Match Odds,LOKOMOTIVE LEIPZIG,1.40,,100,40.00,Win,Socceroo,Football,2015-06-07 12:39:20
 2015-06-07 03:00:00,International,Womens WC,NEW ZEALAND vs NETHERLANDS,0-1 (0-1),Match Odds,NETHERLANDS,1.85,,100,85.00,Win,Socceroo,Football,2015-06-04 21:14:02
 2015-06-07 01:30:00,USA,Major League Soccer,COLUMBUS CREW vs MONTREAL IMPACT,1-2 (0-0),Match Odds,COLUMBUS CREW,1.73,,100,-100.00,Lost,Socceroo,Football,2015-06-04 21:02:07
-2015-06-06 18:00:00,Norway,Eliteserien,SANDEFJORD FOTBALL vs ODDS BK,0-1 (0-0),Match Odds,ODDS BK,1.76,,100,76.00,Win,Socceroo,Football,2015-06-04 21:08:06
+2015-06-06 18:00:00,Norway,Tippeligaen,SANDEFJORD FOTBALL vs ODDS BK,0-1 (0-0),Match Odds,ODDS BK,1.76,,100,76.00,Win,Socceroo,Football,2015-06-04 21:08:06
 2015-06-03 20:30:00,Austria,ÖFB Stiegl Cup,FK AUSTRIA VIENNA vs RB SALZBURG,0-0 (0-0),Asian handicap,RB SALZBURG -1.00,1.86,,80,-80.00,Lost,Socceroo,Football,2015-06-02 17:17:02
 2015-06-03 18:00:00,Norway,NM Cup,SENJA FK vs STABAEK FOTBALL,1-3 (0-1),Asian handicap,STABAEK FOTBALL -2.00,1.78,,60,0.00,Void,Socceroo,Football,2015-06-03 16:37:02
 2015-06-03 17:30:00,Russia,"Premier League, Relegation Promotion",FK TOSNO vs FC ROSTOV,0-1 (0-0),Asian handicap,FK TOSNO +0,2.84,,40,-40.00,Lost,Socceroo,Football,2015-06-03 09:13:04

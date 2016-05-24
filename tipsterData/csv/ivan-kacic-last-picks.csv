@@ -1,4 +1,8 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-17 22:00:00,Iceland,"Iceland,Pepsideild",KR REYKJAVIK vs STJARNAN GARDABAE,1-1 (0-1),Asian handicap,STJARNAN GARDABAE +0.25,1.89,,100,44.50,Half win,Ivan Kacic,Football,2016-05-17 17:15:04
+2016-05-15 20:00:00,Argentina,"Primera Division, Liguilla Pre-Libertadores",ARGENTINOS JRS vs ATLETICO LANUS,1-1 (0-0),Asian handicap,ARGENTINOS JRS +0,1.89,,100,0.00,Void,Ivan Kacic,Football,2016-05-15 16:07:01
+2016-05-14 22:00:00,Peru,"Primera Division, Clausura",CC DEPORTIVO MUNICIPAL vs UNIVERSIDAD SAN MARTIN,1-0 (1-0),Match Odds,CC DEPORTIVO MUNICIPAL,2.05,,100,105.00,Win,Ivan Kacic,Football,2016-05-14 19:39:03
+2016-05-13 18:30:00,Austria,ADEG Erste Liga,FC LIEFERING vs SC AUSTRIA LUSTENAU,2-2 (2-1),Asian handicap,SC AUSTRIA LUSTENAU +0,1.75,,100,0.00,Void,Ivan Kacic,Football,2016-05-13 11:30:05
 2016-05-08 20:00:00,Spain,Liga Adelante,CD MIRANDES vs SD HUESCA,1-0 (1-0),Asian handicap,SD HUESCA +0.25,2.00,,100,-100.00,Lost,Ivan Kacic,Football,2016-05-08 14:07:02
 2016-05-07 13:30:00,Germany,Regionalliga Northeast,FC VIKTORIA BERLIN vs BERLINER AK 07,1-3 (0-0),Asian handicap,BERLINER AK 07 -1.25,1.88,,100,88.00,Win,Ivan Kacic,Football,2016-05-07 11:41:10
 2016-05-06 20:30:00,Belgium,Jupiler Pro League,KRC GENK vs SV ZULTE WAREGEM,2-0 (0-0),Asian handicap,KRC GENK -1.25,1.89,,100,89.00,Win,Ivan Kacic,Football,2016-05-06 11:34:03
@@ -16,7 +20,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-12 18:30:00,Austria,ADEG Erste Liga,FLORIDSDORFER AC vs SKN ST. POLTEN,0-3 (0-0),Asian handicap,SKN ST. POLTEN -0.75,1.88,,100,88.00,Win,Ivan Kacic,Football,2016-04-12 14:35:01
 2016-04-11 20:00:00,Netherlands,Jupiler League,GO AHEAD EAGLES vs FC VOLENDAM,3-2 (1-1),Asian handicap,GO AHEAD EAGLES -0.75,1.80,,100,40.00,Half win,Ivan Kacic,Football,2016-04-11 16:03:03
 2016-04-10 16:00:00,Switzerland,Axpo Super League,FC VADUZ vs FC ST. GALLEN,3-0 (3-0),Asian handicap,FC ST. GALLEN +0,1.98,,100,-100.00,Lost,Ivan Kacic,Football,2016-04-10 14:23:05
-2016-04-10 16:00:00,Denmark,SAS Ligaen,RANDERS FC vs FC COPENHAGEN,1-1 (0-0),Asian handicap,FC COPENHAGEN -0.25,1.88,,100,-50.00,Half lost,Ivan Kacic,Football,2016-04-10 12:22:05
+2016-04-10 16:00:00,Denmark,Superliga,RANDERS FC vs FC COPENHAGEN,1-1 (0-0),Asian handicap,FC COPENHAGEN -0.25,1.88,,100,-50.00,Half lost,Ivan Kacic,Football,2016-04-10 12:22:05
 2016-04-09 17:15:00,Qatar,Stars League,AL GHARAFA SC vs QATAR SC,1-3 (1-2),Asian handicap,AL GHARAFA SC +0,1.80,,100,-100.00,Lost,Ivan Kacic,Football,2016-04-09 14:17:06
 2016-04-08 18:00:00,Croatia,1. HNL,NK OSIJEK vs RNK SPLIT,0-0 (0-0),Asian handicap,NK OSIJEK +0,1.73,,100,0.00,Void,Ivan Kacic,Football,2016-04-08 14:54:04
 2016-04-03 15:00:00,Croatia,1. HNL,NK DINAMO ZAGREB vs NK OSIJEK,3-0 (1-0),Asian handicap,NK DINAMO ZAGREB -2.00,2.03,,100,103.00,Win,Ivan Kacic,Football,2016-04-03 13:31:05
@@ -34,7 +38,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-03-09 23:30:00,Copa Libertadores,Copa Libertadores,CERRO PORTENO vs CORINTHIANS SP,3-2 (0-1),Asian handicap,CORINTHIANS SP +0,2.03,,100,-100.00,Lost,Ivan Kacic,Football,2016-03-09 18:45:02
 2016-03-06 20:00:00,Brazil,Campeonato Carioca,VOLTA REDONDA RJ vs CABOFRIENSE RJ,2-1 (2-1),Asian handicap,VOLTA REDONDA RJ -1.00,2.04,,100,0.00,Void,Ivan Kacic,Football,2016-03-06 13:28:03
 2016-03-05 17:00:00,Slovenia,PrvaLiga,FC LUKA KOPER vs NK RUDAR VELENJE,0-1 (0-1),Match Odds,FC LUKA KOPER,1.95,,100,-100.00,Lost,Ivan Kacic,Football,2016-03-05 12:10:02
-2016-03-04 18:00:00,Denmark,SAS Ligaen,AALBORG BK vs ODENSE BK,0-1 (0-0),Match Odds,AALBORG BK,1.70,,100,-100.00,Lost,Ivan Kacic,Football,2016-03-04 16:04:04
+2016-03-04 18:00:00,Denmark,Superliga,AALBORG BK vs ODENSE BK,0-1 (0-0),Match Odds,AALBORG BK,1.70,,100,-100.00,Lost,Ivan Kacic,Football,2016-03-04 16:04:04
 2016-03-04 01:45:00,Copa Libertadores,Copa Libertadores,PALMEIRAS SP vs CA ROSARIO CENTRAL,2-0 (1-0),Match Odds,PALMEIRAS SP,2.02,,100,102.00,Win,Ivan Kacic,Football,2016-03-03 18:21:01
 2016-02-29 02:00:00,Chile,"Primera Division, Clausura",AUDAX ITALIANO vs O'HIGGINS FC,2-2 (0-0),Asian handicap,O'HIGGINS FC +0.25,1.91,,100,45.50,Half win,Ivan Kacic,Football,2016-02-28 15:01:02
 2016-02-28 21:00:00,Chile,"Primera Division, Clausura",COBRESAL vs UNIVERSIDAD DE CHILE,1-4 (1-2),Match Odds,UNIVERSIDAD DE CHILE,1.80,,100,80.00,Win,Ivan Kacic,Football,2016-02-28 15:00:10
@@ -81,11 +85,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-12-05 18:00:00,Poland,Ekstraklasa,GKS PIAST GLIWICE vs KS CRACOVIA,2-2 (1-1),Over / Under,Over +2.50,1.79,,100,79.00,Win,Ivan Kacic,Football,2015-12-05 16:34:02
 2015-12-04 19:00:00,Germany,3.Liga,SG SONNENHOF GROSSASPACH vs DYNAMO DRESDEN,0-0 (0-0),Over / Under,Over +2.50,1.88,,100,-100.00,Lost,Ivan Kacic,Football,2015-12-04 16:20:05
 2015-11-30 21:00:00,Italy,Serie A,SSC NAPOLI vs INTER MILAN,2-1 (1-0),Asian handicap,SSC NAPOLI -0.75,1.91,,100,45.50,Half win,Ivan Kacic,Football,2015-11-30 17:39:02
-2015-11-30 19:00:00,Denmark,SAS Ligaen,ODENSE BK vs ESBJERG FB,2-1 (0-1),Asian handicap,ODENSE BK -0.25,2.04,,100,104.00,Win,Ivan Kacic,Football,2015-11-30 14:20:06
+2015-11-30 19:00:00,Denmark,Superliga,ODENSE BK vs ESBJERG FB,2-1 (0-1),Asian handicap,ODENSE BK -0.25,2.04,,100,104.00,Win,Ivan Kacic,Football,2015-11-30 14:20:06
 2015-11-29 21:30:00,Peru,"Primera Division, Clausura",ALIANZA LIMA vs UNIVERSIDAD CESAR VALLEJO,2-2 (1-0),Asian handicap,ALIANZA LIMA -0.75,2.05,,100,-100.00,Lost,Ivan Kacic,Football,2015-11-29 20:25:02
 2015-11-28 23:00:00,Ecuador,Serie A,INDEPENDIENTE DEL VALLE vs BARCELONA GUAYAQUIL,3-3 (2-2),Match Odds,INDEPENDIENTE DEL VALLE,1.83,,100,-100.00,Lost,Ivan Kacic,Football,2015-11-28 13:49:08
 2015-11-26 00:00:00,Chile,Copa Chile,UNION ESPANOLA vs COLO COLO,6-6 (1-0),Asian handicap,UNION ESPANOLA +0.50,1.84,,100,84.00,Win,Ivan Kacic,Football,2015-11-25 19:51:01
-2015-11-22 16:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs VIBORG FF,0-0 (0-0),Asian handicap,FC COPENHAGEN -1.25,2.05,,100,-100.00,Lost,Ivan Kacic,Football,2015-11-22 12:44:10
+2015-11-22 16:00:00,Denmark,Superliga,FC COPENHAGEN vs VIBORG FF,0-0 (0-0),Asian handicap,FC COPENHAGEN -1.25,2.05,,100,-100.00,Lost,Ivan Kacic,Football,2015-11-22 12:44:10
 2015-11-21 13:30:00,Czech Republic,1st Division,FK USTI NAD LABEM vs SK SIGMA OLOMOUC B,2-1 (2-1),Asian handicap,FK USTI NAD LABEM -0.75,1.90,,100,45.00,Half win,Ivan Kacic,Football,2015-11-21 12:02:18
 2015-11-18 00:00:00,International,World Cup Qualification,URUGUAY vs CHILE,3-0 (1-0),Asian handicap,URUGUAY -0.25,2.11,,100,111.00,Win,Ivan Kacic,Football,2015-11-17 19:58:16
 2015-11-14 20:00:00,Belgium,EXQI League,KVV COXYDE vs ROYAL ANTWERP FC,0-3 (0-2),Asian handicap,ROYAL ANTWERP FC -1.00,1.89,,100,89.00,Win,Ivan Kacic,Football,2015-11-14 17:32:17
@@ -124,7 +128,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-25 02:00:00,International Clubs,Copa Sudamericana,CLUB LIBERTAD ASUNCION vs CHAPECOENSE SC,1-1 (0-1),Asian handicap,CLUB LIBERTAD ASUNCION -0.75,1.83,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-22 16:49:09
 2015-09-23 18:00:00,Austria,ÖFB Stiegl Cup,SKU AMSTETTEN vs SK RAPID VIENNA,4-5 (1-1),Asian handicap,SK RAPID VIENNA -2.00,1.75,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-23 14:55:08
 2015-09-22 19:30:00,Austria,ÖFB Stiegl Cup,SV HORN vs RB SALZBURG,2-2 (1-2),Asian handicap,RB SALZBURG -3.00,1.80,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-22 16:49:03
-2015-09-20 16:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs HOBRO IK,1-0 (0-0),Asian handicap,FC COPENHAGEN -1.50,1.85,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-20 14:18:04
+2015-09-20 16:00:00,Denmark,Superliga,FC COPENHAGEN vs HOBRO IK,1-0 (0-0),Asian handicap,FC COPENHAGEN -1.50,1.85,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-20 14:18:04
 2015-09-19 19:15:00,Croatia,1. HNL,HNK RIJEKA vs NK INTER ZAPRESIC,0-0 (0-0),Asian handicap,HNK RIJEKA -1.75,1.82,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-19 13:00:08
 2015-09-18 18:00:00,Slovenia,PrvaLiga,NK CELJE vs NK KRSKO,0-0 (0-0),Asian handicap,NK CELJE -0.50,1.84,,100,-100.00,Lost,Ivan Kacic,Football,2015-09-18 11:48:04
 2015-09-16 16:00:00,Slovenia,Slovenia Cup,PSC TOLMIN vs NK MARIBOR,0-3 (0-0),Asian handicap,NK MARIBOR -1.75,1.70,,100,70.00,Win,Ivan Kacic,Football,2015-09-16 12:01:15
@@ -142,7 +146,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-29 16:00:00,Croatia,Druga Liga,NK DINAMO ZAGREB II vs NK ZADAR,0-0,Asian handicap,NK DINAMO ZAGREB II -1.25,1.80,,100,-100.00,Lost,Ivan Kacic,Football,2015-08-29 13:56:04
 2015-08-26 23:45:00,International Clubs,Copa Sudamericana,LIGA DEP UNIVERSITARIA QUITO vs NACIONAL FC,1-0 (1-0),Asian handicap,LIGA DEP UNIVERSITARIA QUITO -1.00,1.83,,100,0.00,Void,Ivan Kacic,Football,2015-08-26 19:20:13
 2015-08-24 20:00:00,Netherlands,Jupiler League,JONG AJAX vs FC EINDHOVEN,0-0 (0-0),Asian handicap,JONG AJAX +0.25,2.04,,100,52.00,Half win,Ivan Kacic,Football,2015-08-24 14:54:08
-2015-08-23 20:30:00,Denmark,SAS Ligaen,ESBJERG FB vs FC MIDTJYLLAND,1-1 (1-1),Asian handicap,ESBJERG FB +0,2.02,,100,0.00,Void,Ivan Kacic,Football,2015-08-21 14:48:41
+2015-08-23 20:30:00,Denmark,Superliga,ESBJERG FB vs FC MIDTJYLLAND,1-1 (1-1),Asian handicap,ESBJERG FB +0,2.02,,100,0.00,Void,Ivan Kacic,Football,2015-08-21 14:48:41
 2015-08-22 19:00:00,Croatia,Druga Liga,NK DUGOPOLJE vs HNK SEGESTA,2-1,Match Odds,NK DUGOPOLJE,1.75,,100,75.00,Win,Ivan Kacic,Football,2015-08-22 11:34:20
 2015-08-22 16:00:00,Sweden,Allsvenskan,BK HACKEN vs MALMO FF,1-0 (0-0),Asian handicap,BK HACKEN +0,2.09,,100,109.00,Win,Ivan Kacic,Football,2015-08-21 14:48:17
 2015-08-20 19:00:00,European cups,UEFA Europa League,FC KRASNODAR vs HJK HELSINKI,5-1 (2-1),Asian handicap,FC KRASNODAR -1.75,1.88,,100,88.00,Win,Ivan Kacic,Football,2015-08-20 16:58:15
@@ -152,7 +156,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-14 20:00:00,International Clubs,Club Friendly Games,AS ROMA vs SEVILLA FC,6-4 (4-0),Match Odds,AS ROMA,2.00,,100,100.00,Win,Ivan Kacic,Football,2015-08-14 11:39:03
 2015-08-12 18:00:00,Poland,Puchar Polski,ZAWISZA BYDGOSZCZ vs CHROBRY GLOGOW,4-1 (2-0),Match Odds,ZAWISZA BYDGOSZCZ,1.80,,100,80.00,Win,Ivan Kacic,Football,2015-08-12 11:51:07
 2015-08-11 18:30:00,Austria,tipp3-Bundesliga,SV JOSKO RIED vs RB SALZBURG,1-4 (0-4),Asian handicap,RB SALZBURG -1.00,1.94,,100,94.00,Win,Ivan Kacic,Football,2015-08-10 22:23:02
-2015-08-09 16:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs FC NORDSJALLAND,1-1 (0-0),Asian handicap,FC COPENHAGEN -1.00,1.84,,100,-100.00,Lost,Ivan Kacic,Football,2015-08-09 13:09:03
+2015-08-09 16:00:00,Denmark,Superliga,FC COPENHAGEN vs FC NORDSJALLAND,1-1 (0-0),Asian handicap,FC COPENHAGEN -1.00,1.84,,100,-100.00,Lost,Ivan Kacic,Football,2015-08-09 13:09:03
 2015-08-08 21:00:00,International Clubs,Club Friendly Games,INTER MILAN vs ATHLETIC BILBAO,2-0 (1-0),Asian handicap,INTER MILAN -1.00,2.08,,100,108.00,Win,Ivan Kacic,Football,2015-08-08 12:16:03
 2015-08-05 17:00:00,International Clubs,Club Friendly Games,ZAWISZA BYDGOSZCZ vs ANORTHOSIS FAMAGUSTA FC,0-2 (0-1),Match Odds,ANORTHOSIS FAMAGUSTA FC,2.00,,100,100.00,Win,Ivan Kacic,Football,2015-08-05 13:16:02
 2015-08-02 19:00:00,Croatia,1. HNL,HNK HAJDUK SPLIT vs NK SLAVEN BELUPO,2-2 (0-2),Asian handicap,HNK HAJDUK SPLIT -0.75,1.85,,100,-100.00,Lost,Ivan Kacic,Football,2015-08-02 12:20:06
@@ -160,7 +164,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-07-30 19:00:00,European cups,UEFA Europa League,PAOK FC vs FC SPARTAK TRNAVA,1-0 (0-0),Asian handicap,PAOK FC -1.50,1.91,,100,-100.00,Lost,Ivan Kacic,Football,2015-07-30 14:44:03
 2015-07-29 20:45:00,International Clubs,Club Friendly Games,DONCASTER ROVERS vs SUNDERLAND AFC,2-0 (1-0),Asian handicap,SUNDERLAND AFC -0.75,1.98,,100,-100.00,Lost,Ivan Kacic,Football,2015-07-29 16:32:05
 2015-07-27 19:00:00,International Clubs,Club Friendly Games,ASK EGGENDORF vs 1. SC SOLLENAU,7-0 (5-0),Asian handicap,1. SC SOLLENAU -0.75,1.85,,100,-100.00,Lost,Ivan Kacic,Football,2015-07-27 13:58:03
-2015-07-26 18:00:00,Denmark,SAS Ligaen,ESBJERG FB vs FC COPENHAGEN,1-2 (0-2),Asian handicap,FC COPENHAGEN -0.25,1.94,,100,94.00,Win,Ivan Kacic,Football,2015-07-26 14:43:05
+2015-07-26 18:00:00,Denmark,Superliga,ESBJERG FB vs FC COPENHAGEN,1-2 (0-2),Asian handicap,FC COPENHAGEN -0.25,1.94,,100,94.00,Win,Ivan Kacic,Football,2015-07-26 14:43:05
 2015-07-25 14:00:00,Germany,Regionalliga North,GOSLARER SC vs HAMBURGER SV II,1-2 (0-1),Asian handicap,HAMBURGER SV II -0.50,1.85,,100,85.00,Win,Ivan Kacic,Football,2015-07-25 11:36:07
 2015-07-22 20:30:00,International Clubs,Club Friendly Games,KIDSGROVE ATHLETIC FC vs CREWE ALEXANDRA FC,1-2 (1-1),Asian handicap,CREWE ALEXANDRA FC -2.25,1.90,,100,-100.00,Lost,Ivan Kacic,Football,2015-07-22 15:56:04
 2015-07-22 19:00:00,International Clubs,Club Friendly Games,VITESSE ARNHEM vs ASTERAS TRIPOLIS,3-2 (2-1),Asian handicap,VITESSE ARNHEM -0.75,1.78,,100,39.00,Half win,Ivan Kacic,Football,2015-07-22 11:51:12
@@ -211,16 +215,16 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-24 18:00:00,Portugal,Liga Vitalis,SC OLHANENSE vs ATLETICO CP,1-1 (0-0),Asian handicap,SC OLHANENSE +0,2.00,,100,0.00,Void,Ivan Kacic,Football,2015-05-23 11:11:03
 2015-05-23 23:30:00,Brazil,Brasilero Serie A,VASCO DA GAMA RJ vs INTERNACIONAL RS,1-1 (0-1),Asian handicap,VASCO DA GAMA RJ -0.75,2.07,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-23 13:32:05
 2015-05-23 17:30:00,Croatia,Druga Liga,NK RADNIK SESVETE vs HNK GORICA,3-1,Match Odds,NK RADNIK SESVETE,2.15,,100,115.00,Win,Ivan Kacic,Football,2015-05-22 19:06:03
-2015-05-21 18:00:00,Denmark,SAS Ligaen,FC VESTSJAELLAND vs FC MIDTJYLLAND,0-0 (0-0),Asian handicap,FC MIDTJYLLAND -0.50,1.92,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-20 12:07:06
+2015-05-21 18:00:00,Denmark,Superliga,FC VESTSJAELLAND vs FC MIDTJYLLAND,0-0 (0-0),Asian handicap,FC MIDTJYLLAND -0.50,1.92,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-20 12:07:06
 2015-05-20 20:30:00,Austria,tipp3-Bundesliga,SK STURM GRAZ vs RB SALZBURG,0-0 (0-0),Asian handicap,RB SALZBURG -0.50,1.90,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-20 13:54:03
 2015-05-18 19:00:00,Italy,Serie A,AC FIORENTINA vs PARMA FC,3-0 (2-0),Asian handicap,AC FIORENTINA -1.75,1.86,,100,86.00,Win,Ivan Kacic,Football,2015-05-17 21:42:02
 2015-05-17 19:00:00,Ecuador,"Serie A, Primera Etapa",MUSHUC RUNA vs CD RIVER PLATE ECUADOR,1-0 (0-0),Asian handicap,MUSHUC RUNA -0.50,1.76,,100,76.00,Win,Ivan Kacic,Football,2015-05-15 22:09:02
-2015-05-17 17:00:00,Denmark,SAS Ligaen,SILKEBORG IF vs BRONDBY IF,0-2 (0-2),Asian handicap,BRONDBY IF -1.00,1.78,,100,78.00,Win,Ivan Kacic,Football,2015-05-17 12:39:10
+2015-05-17 17:00:00,Denmark,Superliga,SILKEBORG IF vs BRONDBY IF,0-2 (0-2),Asian handicap,BRONDBY IF -1.00,1.78,,100,78.00,Win,Ivan Kacic,Football,2015-05-17 12:39:10
 2015-05-17 14:00:00,Germany,Regionalliga West,RW OBERHAUSEN vs FC VIKTORIA COLOGNE,3-2 (2-1),Asian handicap,FC VIKTORIA COLOGNE -0.50,1.95,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-17 12:47:04
 2015-05-16 16:00:00,Ukraine,Premier League,FC SHAKHTAR DONETSK vs FC METALURG DONETSK,2-0 (2-0),Asian handicap,FC SHAKHTAR DONETSK -2.75,1.80,,100,-100.00,Lost,Ivan Kacic,Football,2015-05-16 11:55:04
 2015-05-15 18:00:00,Bulgaria,"A PFG, Championship Round",LUDOGORETS RAZGRAD vs LOKOMOTIVE SOFIA,4-1 (2-0),Asian handicap,LUDOGORETS RAZGRAD -1.50,1.79,,100,79.00,Win,Ivan Kacic,Football,2015-05-15 12:17:10
 2015-05-13 02:50:00,Brazil,Copa do Brasil,LUVERDENSE MT vs EC BAHIA BA,0-0 (0-0),Asian handicap,LUVERDENSE MT -0.25,2.00,,100,-50.00,Half lost,Ivan Kacic,Football,2015-05-12 13:30:07
-2015-05-11 19:00:00,Denmark,SAS Ligaen,FC VESTSJAELLAND vs FC COPENHAGEN,0-1 (0-0),Asian handicap,FC COPENHAGEN -0.25,1.80,,100,80.00,Win,Ivan Kacic,Football,2015-05-10 19:06:03
+2015-05-11 19:00:00,Denmark,Superliga,FC VESTSJAELLAND vs FC COPENHAGEN,0-1 (0-0),Asian handicap,FC COPENHAGEN -0.25,1.80,,100,80.00,Win,Ivan Kacic,Football,2015-05-10 19:06:03
 2015-05-10 19:00:00,Bulgaria,"A PFG, Relegation Round",LOKOMOTIV PLOVDIV vs HASKOVO,4-0 (3-0),Asian handicap,LOKOMOTIV PLOVDIV -0.50,1.99,,100,99.00,Win,Ivan Kacic,Football,2015-05-10 14:13:02
 2015-05-10 17:00:00,Croatia,1. HNL,NK ISTRA 1961 vs NK ZADAR,0-0 (0-0),Asian handicap,NK ZADAR +0.50,1.86,,100,86.00,Win,Ivan Kacic,Football,2015-05-10 11:50:04
 2015-05-10 16:00:00,Greece,B'Ethniki,IRAKLIS PSACHNON FC vs ERMIONIDAS,2-0 (1-0),Asian handicap,IRAKLIS PSACHNON FC +0,2.00,,100,100.00,Win,Ivan Kacic,Football,2015-05-10 14:43:03
@@ -251,7 +255,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-04-12 17:30:00,Sweden,Allsvenskan,AIK vs GEFLE IF,3-1 (1-0),Asian handicap,AIK -1.00,1.88,,100,88.00,Win,Ivan Kacic,Football,2015-04-12 15:15:04
 2015-04-11 19:00:00,Ecuador,"Serie A, Primera Etapa",CD UNIVERSIDAD CATOLICA vs EL NACIONAL QUITO,0-4 (0-1),Asian handicap,EL NACIONAL QUITO +0.50,2.10,,100,110.00,Win,Ivan Kacic,Football,2015-04-10 13:00:59
 2015-04-10 19:00:00,Bulgaria,"A PFG, Championship Round",CSKA SOFIA vs BOTEV PLOVDIV,0-0 (0-0),Match Odds,CSKA SOFIA,1.91,,100,-100.00,Lost,Ivan Kacic,Football,2015-04-10 12:56:23
-2015-04-07 19:00:00,Denmark,SAS Ligaen,ODENSE BK vs FC VESTSJAELLAND,1-2 (1-0),Match Odds,ODENSE BK,1.94,,100,-100.00,Lost,Ivan Kacic,Football,2015-04-07 16:11:03
+2015-04-07 19:00:00,Denmark,Superliga,ODENSE BK vs FC VESTSJAELLAND,1-2 (1-0),Match Odds,ODENSE BK,1.94,,100,-100.00,Lost,Ivan Kacic,Football,2015-04-07 16:11:03
 2015-04-05 21:00:00,Chile,"Primera Division, Clausura",CD COBRELOA CALAMA vs HUACHIPATO,6-0 (1-0),Match Odds,CD COBRELOA CALAMA,2.10,,100,110.00,Win,Ivan Kacic,Football,2015-04-05 15:28:02
 2015-04-05 13:30:00,Germany,2. Bundesliga,RB LEIPZIG vs 1 FC NUREMBERG,2-1 (0-1),Asian handicap,RB LEIPZIG -0.25,1.90,,100,90.00,Win,Ivan Kacic,Football,2015-04-05 12:08:02
 2015-04-05 05:00:00,Mexico,"Primera Division, Clausura",CLUB TIJUANA vs CF MONTERREY,3-4 (1-2),Match Odds,CLUB TIJUANA,1.82,,100,-100.00,Lost,Ivan Kacic,Football,2015-04-03 13:55:09
@@ -274,7 +278,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-03-23 01:10:00,Paraguay,Primera Division,SOL DE AMERICA vs OLIMPIA ASUNCION,2-2 (0-1),Asian handicap,SOL DE AMERICA +0.25,2.16,,100,58.00,Half win,Ivan Kacic,Football,2015-03-22 18:23:02
 2015-03-22 19:15:00,Israel,National League Playoff 11-16,IRONI KIRYAT SHMONA vs BEITAR JERUSALEM,1-2 (0-2),Asian handicap,BEITAR JERUSALEM +0,1.98,,100,98.00,Win,Ivan Kacic,Football,2015-03-22 11:58:02
 2015-03-22 16:30:00,Hungary,NB I,FERENCVAROSI TC vs MTK BUDAPEST FC,2-0 (1-0),Match Odds,FERENCVAROSI TC,1.84,,100,84.00,Win,Ivan Kacic,Football,2015-03-22 12:02:11
-2015-03-22 13:00:00,Denmark,SAS Ligaen,SILKEBORG IF vs FC NORDSJALLAND,2-2 (2-1),Match Odds,FC NORDSJALLAND,2.05,,100,-100.00,Lost,Ivan Kacic,Football,2015-03-22 11:59:06
+2015-03-22 13:00:00,Denmark,Superliga,SILKEBORG IF vs FC NORDSJALLAND,2-2 (2-1),Match Odds,FC NORDSJALLAND,2.05,,100,-100.00,Lost,Ivan Kacic,Football,2015-03-22 11:59:06
 2015-03-22 06:00:00,Japan,League 1,VENTFORET KOFU vs GAMBA OSAKA,0-2 (0-0),Asian handicap,GAMBA OSAKA -0.25,1.87,,100,87.00,Win,Ivan Kacic,Football,2015-03-21 17:36:04
 2015-03-22 03:06:00,Mexico,"Primera Division, Clausura",CF PACHUCA vs MONARCAS MORELIA,2-0 (1-0),Match Odds,CF PACHUCA,2.03,,100,103.00,Win,Ivan Kacic,Football,2015-03-21 17:33:02
 2015-03-21 18:00:00,Spain,Segunda B Group III,ESPANYOL BARCELONA B vs ELCHE B,0-0,Asian handicap,ESPANYOL BARCELONA B -0.75,1.85,,100,-100.00,Lost,Ivan Kacic,Football,2015-03-21 15:10:05
@@ -301,7 +305,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-03-14 19:45:00,Netherlands,Eredivisie,CAMBUUR LEEUWARDEN vs FC UTRECHT,3-1 (2-1),Over / Under,Over +3.00,2.21,,80,96.80,Win,Ivan Kacic,Football,2015-03-14 18:02:06
 2015-03-14 18:00:00,Hungary,NB I,SZOMBATHELYI HALADAS FC vs DEBRECENI VSC,2-0 (2-0),Asian handicap,DEBRECENI VSC -0.75,1.96,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-14 11:44:02
 2015-03-14 17:00:00,France,Ligue 1,FC METZ vs AS SAINT ETIENNE,2-3 (0-2),Match Odds,AS SAINT ETIENNE,2.10,,80,88.00,Win,Ivan Kacic,Football,2015-03-14 11:49:05
-2015-03-14 17:00:00,Denmark,SAS Ligaen,SONDERJYSKE vs SILKEBORG IF,1-4 (0-3),Asian handicap,SONDERJYSKE -0.75,2.10,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-14 11:46:06
+2015-03-14 17:00:00,Denmark,Superliga,SONDERJYSKE vs SILKEBORG IF,1-4 (0-3),Asian handicap,SONDERJYSKE -0.75,2.10,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-14 11:46:06
 2015-03-14 16:00:00,Austria,tipp3-Bundesliga,ADMIRA WACKER vs FK AUSTRIA VIENNA,1-1 (0-0),Asian handicap,ADMIRA WACKER +0,2.23,,80,0.00,Void,Ivan Kacic,Football,2015-03-14 11:47:20
 2015-03-14 01:10:00,Argentina,Primera Division,RACING CLUB vs COLON DE SANTA FE,4-1 (2-0),Asian handicap,COLON DE SANTA FE +0.50,1.93,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-13 11:54:03
 2015-03-13 21:30:00,Portugal,Liga Sagres,FC PACOS FERREIRA vs BOAVISTA FC,1-0 (1-0),Match Odds,FC PACOS FERREIRA,1.83,,80,66.40,Win,Ivan Kacic,Football,2015-03-13 14:32:03
@@ -313,14 +317,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-03-10 23:30:00,Copa Libertadores,Copa Libertadores,UNIVERSITARIO DE SUCRE vs CA HURACAN,0-0 (0-0),Asian handicap,UNIVERSITARIO DE SUCRE -0.25,1.96,,80,-40.00,Half lost,Ivan Kacic,Football,2015-03-10 18:20:05
 2015-03-10 01:10:00,Argentina,Primera Division,ESTUDIANTES DE LA PLATA vs CA SAN LORENZO,0-2 (0-1),Asian handicap,CA SAN LORENZO +0.25,1.90,,80,72.00,Win,Ivan Kacic,Football,2015-03-09 11:24:08
 2015-03-09 20:15:00,Germany,2. Bundesliga,KARLSRUHER SC vs RB LEIPZIG,0-0 (0-0),Asian handicap,RB LEIPZIG +0.25,2.19,,80,47.60,Half win,Ivan Kacic,Football,2015-03-09 17:26:06
-2015-03-09 19:00:00,Denmark,SAS Ligaen,FC VESTSJAELLAND vs ODENSE BK,1-2 (1-1),Asian handicap,ODENSE BK +0,1.84,,80,67.20,Win,Ivan Kacic,Football,2015-03-09 11:26:04
+2015-03-09 19:00:00,Denmark,Superliga,FC VESTSJAELLAND vs ODENSE BK,1-2 (1-1),Asian handicap,ODENSE BK +0,1.84,,80,67.20,Win,Ivan Kacic,Football,2015-03-09 11:26:04
 2015-03-09 18:00:00,Croatia,1. HNL,NK LOKOMOTIVA ZAGREB vs HNK RIJEKA,1-0 (0-0),Asian handicap,HNK RIJEKA -0.50,1.93,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-08 19:47:02
 2015-03-08 22:30:00,Chile,"Primera Division, Clausura",COLO COLO vs UNIVERSIDAD DE CONCEPCION,3-0 (1-0),Asian handicap,UNIVERSIDAD DE CONCEPCION +1.00,2.16,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-08 19:51:02
 2015-03-08 22:15:00,Argentina,Primera Division,RIVER PLATE vs UNION DE SANTA FE,2-2 (2-0),Asian handicap,UNION DE SANTA FE +0.75,2.14,,80,91.20,Win,Ivan Kacic,Football,2015-03-08 14:34:03
 2015-03-08 20:00:00,Bolivia,"Liga Profesional Boliviano, Clausura",SAN JOSE ORURO vs BOLIVAR LA PAZ,0-2 (0-1),Match Odds,SAN JOSE ORURO,3.20,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-07 23:31:03
 2015-03-08 18:30:00,Greece,Super League,PANATHINAIKOS ATHEN vs PAOK FC,4-3 (1-1),Match Odds,PANATHINAIKOS ATHEN,2.02,,80,81.60,Win,Ivan Kacic,Football,2015-03-08 17:19:08
 2015-03-08 17:00:00,Portugal,Liga Sagres,CS MARITIMO vs FC PACOS FERREIRA,2-1 (1-1),Asian handicap,FC PACOS FERREIRA +0.25,1.83,,80,-80.00,Lost,Ivan Kacic,Football,2015-03-07 19:34:03
-2015-03-08 15:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs BRONDBY IF,3-1 (1-0),Asian handicap,FC COPENHAGEN -0.75,2.07,,80,85.60,Win,Ivan Kacic,Football,2015-03-07 23:35:08
+2015-03-08 15:00:00,Denmark,Superliga,FC COPENHAGEN vs BRONDBY IF,3-1 (1-0),Asian handicap,FC COPENHAGEN -0.75,2.07,,80,85.60,Win,Ivan Kacic,Football,2015-03-07 23:35:08
 2015-03-08 12:30:00,Italy,"Lega Pro, Girone A",NOVARA CALCIO vs SSC VENEZIA,3-0 (1-0),Asian handicap,NOVARA CALCIO -0.75,1.94,,80,75.20,Win,Ivan Kacic,Football,2015-03-07 19:35:05
 2015-03-07 18:30:00,Hungary,NB I,VIDEOTON FC vs NYIREGYHAZA SPARTACUS FC,3-0 (1-0),Asian handicap,VIDEOTON FC -1.75,1.94,,80,75.20,Win,Ivan Kacic,Football,2015-03-07 16:45:04
 2015-03-07 18:30:00,Austria,tipp3-Bundesliga,SV JOSKO RIED vs SV SCHOLZ GRODIG,2-1 (1-1),Over / Under,Over +2.75,1.97,,80,38.80,Half win,Ivan Kacic,Football,2015-03-07 11:43:08

@@ -1,10 +1,12 @@
 Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Stake (in units),Profit,Result,Tipster,Sport,Publication date
+2016-05-15 23:00:00,Peru,"Primera Division, Clausura",UNIVERSITARIO DE DEPORTES vs INTI GAS AYACUCHO,0-2 (0-1),Asian handicap,UNIVERSITARIO DE DEPORTES -1.25,2.06,,100,-100.00,Lost,Chris Tomas,Football,2016-05-15 15:56:05
+2016-05-15 17:30:00,Sweden,Allsvenskan,FALKENBERGS FF vs BK HACKEN,1-4 (1-2),Match Odds,BK HACKEN,1.80,,100,80.00,Win,Chris Tomas,Football,2016-05-15 15:58:19
 2016-05-08 17:00:00,Spain,Liga BBVA,SEVILLA FC vs GRANADA CF,1-4 (0-1),Asian handicap,GRANADA CF +0,1.81,,100,81.00,Win,Chris Tomas,Football,2016-05-06 20:46:02
 2016-05-08 15:30:00,Germany,2. Bundesliga,FORTUNA DUSSELDORF vs FSV FRANKFURT,1-0 (0-0),Match Odds,FORTUNA DUSSELDORF,1.88,,100,88.00,Win,Chris Tomas,Football,2016-05-06 20:48:01
 2016-05-08 07:00:00,South Korea,K-League Classic,FC SEOUL vs POHANG STEELERS FC,1-3 (0-2),Asian handicap,FC SEOUL -0.75,1.99,,100,-100.00,Lost,Chris Tomas,Football,2016-05-06 20:43:01
 2016-05-07 15:30:00,Germany,Bundesliga,VFB STUTTGART vs 1 FSV MAINZ 05,1-3 (1-1),Asian handicap,1 FSV MAINZ 05 +0.50,1.82,,100,82.00,Win,Chris Tomas,Football,2016-05-06 20:49:02
 2016-05-06 18:30:00,Germany,Regionalliga Bavaria,FC AMBERG vs WACKER BURGHAUSEN,0-2 (0-1),Asian handicap,FC AMBERG +0.25,1.84,,100,-100.00,Lost,Chris Tomas,Football,2016-05-06 11:28:01
-2016-05-06 18:00:00,Denmark,SAS Ligaen,SONDERJYSKE vs ESBJERG FB,2-0 (1-0),Match Odds,SONDERJYSKE,1.67,,100,67.00,Win,Chris Tomas,Football,2016-05-06 11:26:02
+2016-05-06 18:00:00,Denmark,Superliga,SONDERJYSKE vs ESBJERG FB,2-0 (1-0),Match Odds,SONDERJYSKE,1.67,,100,67.00,Win,Chris Tomas,Football,2016-05-06 11:26:02
 2016-04-30 20:30:00,Belgium,Jupiler Pro League,KV KORTRIJK vs STANDARD LIEGE,1-0 (0-0),Match Odds,KV KORTRIJK,1.75,,100,75.00,Win,Chris Tomas,Football,2016-04-30 11:30:04
 2016-04-30 17:00:00,France,Ligue 1,AS SAINT ETIENNE vs TOULOUSE FC,0-0 (0-0),Match Odds,AS SAINT ETIENNE,2.00,,100,-100.00,Lost,Chris Tomas,Football,2016-04-30 11:11:02
 2016-04-30 16:30:00,Hungary,NB I,PUSKAS AKADEMIA vs BUDAPEST HONVED FC,2-1 (2-0),Match Odds,PUSKAS AKADEMIA,1.88,,100,88.00,Win,Chris Tomas,Football,2016-04-30 11:25:02
@@ -35,7 +37,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2016-04-09 20:45:00,Italy,Serie A,AC MILAN vs JUVENTUS TURIN,1-2 (1-1),Match Odds,JUVENTUS TURIN,2.15,,100,115.00,Win,Chris Tomas,Football,2016-04-09 00:28:02
 2016-04-09 13:45:00,England,Premier League,WEST HAM UNITED vs ARSENAL FC,3-3 (2-2),Asian handicap,WEST HAM UNITED +0.50,1.93,,100,93.00,Win,Chris Tomas,Football,2016-04-09 00:29:02
 2016-04-08 19:00:00,Germany,Bayernliga North,FC EINTRACHT BAMBERG 2010 vs 1 FC SAND,1-2,Match Odds,1 FC SAND,2.15,,100,115.00,Win,Chris Tomas,Football,2016-04-08 14:51:02
-2016-04-03 16:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs SONDERJYSKE,1-0 (1-0),Asian handicap,FC COPENHAGEN -1.00,1.95,,100,0.00,Void,Chris Tomas,Football,2016-04-03 13:44:03
+2016-04-03 16:00:00,Denmark,Superliga,FC COPENHAGEN vs SONDERJYSKE,1-0 (1-0),Asian handicap,FC COPENHAGEN -1.00,1.95,,100,0.00,Void,Chris Tomas,Football,2016-04-03 13:44:03
 2016-04-03 15:00:00,Turkey,Turkcell Super Lig,ANTALYASPOR vs AKHISAR BLD SPOR,2-2 (0-1),Over / Under,Over +2.50,2.19,,100,119.00,Win,Chris Tomas,Football,2016-04-03 13:47:06
 2016-04-02 14:00:00,Germany,Regionalliga North,HAMBURGER SV II vs EINTRACHT BRAUNSCHWEIG II,2-1 (1-1),Match Odds,HAMBURGER SV II,1.91,,100,91.00,Win,Chris Tomas,Football,2016-03-31 20:39:02
 2016-03-25 18:00:00,International,"Africa Cup of Nations, Qualification, Group L",GUINEA vs MALAWI,0-0 (0-0),Match Odds,GUINEA,2.10,,100,-100.00,Lost,Chris Tomas,Football,2016-03-24 00:04:02
@@ -145,14 +147,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-11-04 20:45:00,European cups,UEFA Champions League,FC BARCELONA vs FC BATE BORISOV,3-0 (1-0),Asian handicap,FC BARCELONA -2.50,1.92,,100,92.00,Win,Chris Tomas,Football,2015-11-04 16:23:10
 2015-11-02 17:00:00,Romania,Liga 1,FC BOTOSANI vs ACS POLI TIMISOARA,1-1 (0-1),Match Odds,FC BOTOSANI,2.24,,100,-100.00,Lost,Chris Tomas,Football,2015-11-01 21:36:03
 2015-11-01 19:00:00,Croatia,1. HNL,NK SLAVEN BELUPO vs NK INTER ZAPRESIC,4-0 (1-0),Match Odds,NK SLAVEN BELUPO,1.83,,100,83.00,Win,Chris Tomas,Football,2015-11-01 11:27:36
-2015-11-01 18:00:00,Norway,Eliteserien,TROMSO IL vs BODO/GLIMT,3-1 (1-1),Asian handicap,TROMSO IL -1.00,2.04,,100,104.00,Win,Chris Tomas,Football,2015-11-01 11:24:16
+2015-11-01 18:00:00,Norway,Tippeligaen,TROMSO IL vs BODO/GLIMT,3-1 (1-1),Asian handicap,TROMSO IL -1.00,2.04,,100,104.00,Win,Chris Tomas,Football,2015-11-01 11:24:16
 2015-10-30 18:30:00,Germany,2. Bundesliga,VFL BOCHUM vs FC ST. PAULI,1-1 (1-1),Match Odds,VFL BOCHUM,2.08,,100,-100.00,Lost,Chris Tomas,Football,2015-10-30 11:18:03
 2015-10-30 14:00:00,Croatia,Druga Liga,HNK GORICA vs NK ZADAR,1-0,Asian handicap,HNK GORICA -0.75,1.80,,100,40.00,Half win,Chris Tomas,Football,2015-10-30 11:15:07
-2015-10-28 20:45:00,Denmark,Ekstra Bladet Cup,LYNGBY BK vs AALBORG BK,1-2 (0-1),Asian handicap,AALBORG BK -1.00,2.08,,100,0.00,Void,Chris Tomas,Football,2015-10-28 15:56:11
+2015-10-28 20:45:00,Denmark,Landspokal Cup,LYNGBY BK vs AALBORG BK,1-2 (0-1),Asian handicap,AALBORG BK -1.00,2.08,,100,0.00,Void,Chris Tomas,Football,2015-10-28 15:56:11
 2015-10-28 17:00:00,Croatia,Croatia Cup,NK ZADAR vs NK LOKOMOTIVA ZAGREB,6-7 (0-1),Asian handicap,NK LOKOMOTIVA ZAGREB -0.75,2.00,,100,-100.00,Lost,Chris Tomas,Football,2015-10-28 15:53:07
 2015-10-27 20:30:00,Belgium,Jupiler Pro League,SPORTING LOKEREN vs KAA GENT,1-2 (0-1),Match Odds,KAA GENT,2.13,,100,113.00,Win,Chris Tomas,Football,2015-10-27 16:51:21
 2015-10-27 18:30:00,Austria,ÖFB Stiegl Cup,ASK EBREICHSDORF vs SK STURM GRAZ,2-3 (0-1),Asian handicap,SK STURM GRAZ -2.00,1.90,,100,-100.00,Lost,Chris Tomas,Football,2015-10-27 16:47:02
-2015-10-25 16:00:00,Denmark,SAS Ligaen,SONDERJYSKE vs FC COPENHAGEN,1-2 (1-0),Match Odds,FC COPENHAGEN,1.95,,100,95.00,Win,Chris Tomas,Football,2015-10-25 13:26:03
+2015-10-25 16:00:00,Denmark,Superliga,SONDERJYSKE vs FC COPENHAGEN,1-2 (1-0),Match Odds,FC COPENHAGEN,1.95,,100,95.00,Win,Chris Tomas,Football,2015-10-25 13:26:03
 2015-10-25 15:00:00,Sweden,Allsvenskan,HAMMARBY IF vs MALMO FF,0-1 (0-0),Match Odds,MALMO FF,2.09,,100,109.00,Win,Chris Tomas,Football,2015-10-25 11:21:06
 2015-10-24 17:45:00,Switzerland,Axpo Super League,FC ZURICH vs FC ST. GALLEN,2-2 (1-1),Match Odds,FC ZURICH,1.93,,100,-100.00,Lost,Chris Tomas,Football,2015-10-24 12:04:22
 2015-10-24 16:00:00,Austria,tipp3-Bundesliga,SV MATTERSBURG vs SCR ALTACH,2-1 (1-1),Match Odds,SV MATTERSBURG,2.06,,100,106.00,Win,Chris Tomas,Football,2015-10-24 12:06:34
@@ -181,7 +183,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-10-02 18:00:00,Czech Republic,1st Division,FK USTI NAD LABEM vs FOTBAL TRINEC,3-1 (3-1),Match Odds,FK USTI NAD LABEM,2.02,,100,102.00,Win,Chris Tomas,Football,2015-10-02 14:56:04
 2015-10-01 21:05:00,European cups,UEFA Europa League,PAOK FC vs BORUSSIA DORTMUND,1-1 (1-0),Asian handicap,PAOK FC +0,4.00,,100,0.00,Void,Chris Tomas,Football,2015-10-01 17:36:03
 2015-09-27 15:00:00,Czech Republic,1st Division,SK SLAVIA PRAGUE vs SPARTA PRAGUE,1-0 (1-0),Match Odds,SPARTA PRAGUE,1.70,,100,-100.00,Lost,Chris Tomas,Football,2015-09-27 12:10:33
-2015-09-27 15:00:00,Denmark,Viasat Sport Divisionen,FC VESTSJAELLAND vs LYNGBY BK,1-1 (0-0),Asian handicap,LYNGBY BK -0.25,1.98,,100,-50.00,Half lost,Chris Tomas,Football,2015-09-27 12:09:15
+2015-09-27 15:00:00,Denmark,Bet25 Liga,FC VESTSJAELLAND vs LYNGBY BK,1-1 (0-0),Asian handicap,LYNGBY BK -0.25,1.98,,100,-50.00,Half lost,Chris Tomas,Football,2015-09-27 12:09:15
 2015-09-27 15:00:00,Sweden,Allsvenskan,HAMMARBY IF vs AIK,1-0 (0-0),Asian handicap,AIK +0,1.91,,100,-100.00,Lost,Chris Tomas,Football,2015-09-27 12:08:26
 2015-09-26 13:30:00,England,Championship,MILTON KEYNES DONS vs DERBY COUNTY,1-3 (0-0),Match Odds,DERBY COUNTY,2.05,,30,31.50,Win,Chris Tomas,Football,2015-09-26 11:16:06
 2015-09-26 13:00:00,Germany,2. Bundesliga,FC UNION BERLIN vs MSV DUISBURG,3-2 (3-0),Asian handicap,FC UNION BERLIN -0.75,1.83,,100,41.50,Half win,Chris Tomas,Football,2015-09-25 14:59:05
@@ -189,7 +191,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-25 18:00:00,Latvia,Virsliga,FS METTA/LU vs BFC DAUGAVPILS,0-2 (0-1),Match Odds,FS METTA/LU,2.50,,100,-100.00,Lost,Chris Tomas,Football,2015-09-25 15:01:06
 2015-09-24 19:05:00,Sweden,Allsvenskan,IF ELFSBORG vs IFK GOTHENBURG,1-1 (0-0),Asian handicap,IF ELFSBORG +0,1.83,,100,0.00,Void,Chris Tomas,Football,2015-09-24 13:12:17
 2015-09-22 18:30:00,Germany,3.Liga,FSV MAINZ 05 II vs ERZGEBIRGE AUE,1-1 (1-1),Asian handicap,ERZGEBIRGE AUE +0.25,1.80,,60,24.00,Half win,Chris Tomas,Football,2015-09-22 16:53:08
-2015-09-20 18:00:00,Norway,Eliteserien,HAUGESUND FK vs SARPSBORG,1-1 (1-0),Asian handicap,SARPSBORG +0,2.25,,100,0.00,Void,Chris Tomas,Football,2015-09-20 12:40:46
+2015-09-20 18:00:00,Norway,Tippeligaen,HAUGESUND FK vs SARPSBORG,1-1 (1-0),Asian handicap,SARPSBORG +0,2.25,,100,0.00,Void,Chris Tomas,Football,2015-09-20 12:40:46
 2015-09-17 21:05:00,European cups,UEFA Europa League,PARTIZAN BELGRADE vs AZ ALKMAAR,3-2 (2-1),Asian handicap,AZ ALKMAAR +0.50,1.88,,100,-100.00,Lost,Chris Tomas,Football,2015-09-17 16:40:07
 2015-09-17 19:00:00,European cups,UEFA Europa League,SSC NAPOLI vs CLUB BRUGGE,5-0 (3-0),Asian handicap,SSC NAPOLI -1.25,1.98,,100,98.00,Win,Chris Tomas,Football,2015-09-17 16:42:06
 2015-09-13 19:30:00,Ecuador,Serie A,CD UNIVERSIDAD CATOLICA vs DEPORTIVO QUITO,2-1 (2-0),Match Odds,CD UNIVERSIDAD CATOLICA,1.95,,100,95.00,Win,Chris Tomas,Football,2015-09-13 13:01:11
@@ -206,7 +208,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-09-04 22:21:00,International,World Cup Qualification,GRENADA vs HAITI,1-3 (1-2),Asian handicap,HAITI -1.25,2.03,,100,103.00,Win,Chris Tomas,Football,2015-09-04 20:46:11
 2015-08-30 20:45:00,Italy,Serie A,AC CHIEVO VERONA vs LAZIO ROMA,4-0 (3-0),Match Odds,LAZIO ROMA,2.15,,100,-100.00,Lost,Chris Tomas,Football,2015-08-30 14:28:22
 2015-08-30 18:00:00,Portugal,Liga Sagres,SPORTING BRAGA vs BOAVISTA FC,4-0 (1-0),Asian handicap,SPORTING BRAGA -1.00,1.99,,100,99.00,Win,Chris Tomas,Football,2015-08-30 14:27:28
-2015-08-30 18:00:00,Denmark,SAS Ligaen,ODENSE BK vs FC COPENHAGEN,1-0 (0-0),Match Odds,FC COPENHAGEN,1.80,,100,-100.00,Lost,Chris Tomas,Football,2015-08-30 14:27:03
+2015-08-30 18:00:00,Denmark,Superliga,ODENSE BK vs FC COPENHAGEN,1-0 (0-0),Match Odds,FC COPENHAGEN,1.80,,100,-100.00,Lost,Chris Tomas,Football,2015-08-30 14:27:03
 2015-08-29 19:00:00,Croatia,1. HNL,RNK SPLIT vs NK ISTRA 1961,3-0 (3-0),Asian handicap,RNK SPLIT -0.75,2.03,,100,103.00,Win,Chris Tomas,Football,2015-08-29 14:26:10
 2015-08-29 16:00:00,Croatia,Druga Liga,NK DINAMO ZAGREB II vs NK ZADAR,0-0,Asian handicap,NK DINAMO ZAGREB II -1.25,1.80,,100,-100.00,Lost,Chris Tomas,Football,2015-08-29 14:25:08
 2015-08-27 20:30:00,European cups,UEFA Europa League,RB SALZBURG vs FC DINAMO MINSK,4-3 (1-0),Asian handicap,RB SALZBURG -1.50,2.16,,100,116.00,Win,Chris Tomas,Football,2015-08-27 17:04:08
@@ -215,7 +217,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-08-25 19:50:00,International Clubs,"AFC Champions League, Knockout stage",AL HILAL RIYADH vs LEKHWIYA SC,4-1 (3-1),Asian handicap,AL HILAL RIYADH -1.00,2.28,,100,128.00,Win,Chris Tomas,Football,2015-08-25 16:34:03
 2015-08-23 20:15:00,Portugal,Liga Sagres,FC AROUCA vs BENFICA LISBON,1-0 (1-0),Asian handicap,BENFICA LISBON -1.50,2.20,,100,-100.00,Lost,Chris Tomas,Football,2015-08-23 12:16:16
 2015-08-23 15:00:00,Sweden,Allsvenskan,GEFLE IF vs AIK,1-2 (0-1),Asian handicap,AIK SOLNA -0.75,1.99,,100,49.50,Half win,Chris Tomas,Football,2015-08-23 12:18:04
-2015-08-23 13:30:00,Denmark,SAS Ligaen,RANDERS FC vs VIBORG FF,0-1 (0-0),Asian handicap,RANDERS FC -1.00,2.27,,100,-100.00,Lost,Chris Tomas,Football,2015-08-23 12:18:12
+2015-08-23 13:30:00,Denmark,Superliga,RANDERS FC vs VIBORG FF,0-1 (0-0),Asian handicap,RANDERS FC -1.00,2.27,,100,-100.00,Lost,Chris Tomas,Football,2015-08-23 12:18:12
 2015-08-22 19:00:00,Serbia,Superliga,FK BORAC CACAK vs PARTIZAN BELGRADE,1-3 (0-1),Asian handicap,FK BORAC CACAK +0.50,1.88,,100,-100.00,Lost,Chris Tomas,Football,2015-08-22 11:39:02
 2015-08-22 16:30:00,Bulgaria,A PFG,CHERNO MORE VARNA vs PFC MONTANA 1921,1-0 (0-0),Asian handicap,CHERNO MORE VARNA -1.00,1.93,,100,0.00,Void,Chris Tomas,Football,2015-08-22 11:38:02
 2015-08-20 21:00:00,European cups,UEFA Europa League,KKS LECH POZNAN vs VIDEOTON FC,3-0 (1-0),Asian handicap,KKS LECH POZNAN -1.00,1.78,,100,78.00,Win,Chris Tomas,Football,2015-08-20 12:57:02
@@ -317,7 +319,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-24 17:00:00,Sweden,Superettan,LJUNGSKILLE SK vs ANGELHOLMS FF,0-0 (0-0),Asian handicap,LJUNGSKILLE SK -1.00,1.83,,100,-100.00,Lost,Chris Tomas,Football,2015-05-24 13:11:06
 2015-05-23 17:15:00,Slovakia,1. Liga,MFK KOSICE vs FK SENICA,1-1 (1-0),Match Odds,MFK KOSICE,1.91,,100,-100.00,Lost,Chris Tomas,Football,2015-05-23 13:51:13
 2015-05-21 19:05:00,Sweden,Allsvenskan,IFK GOTHENBURG vs AIK,3-0 (1-0),Asian handicap,AIK +0.50,2.05,,100,-100.00,Lost,Chris Tomas,Football,2015-05-21 16:00:07
-2015-05-20 19:00:00,Denmark,Viasat Sport Divisionen,BRONSHOJ BK vs LYNGBY BK,1-2 (0-1),Asian handicap,LYNGBY BK -0.75,2.09,,100,54.50,Half win,Chris Tomas,Football,2015-05-20 16:13:03
+2015-05-20 19:00:00,Denmark,Bet25 Liga,BRONSHOJ BK vs LYNGBY BK,1-2 (0-1),Asian handicap,LYNGBY BK -0.75,2.09,,100,54.50,Half win,Chris Tomas,Football,2015-05-20 16:13:03
 2015-05-20 19:00:00,Sweden,Superettan,ATHLETIC UNITED vs IFK VARNAMO,1-1 (0-0),Asian handicap,IFK VARNAMO +0,2.23,,100,0.00,Void,Chris Tomas,Football,2015-05-20 16:05:07
 2015-05-17 21:00:00,Chile,"Primera Division, Liguilla Pre-Libertadores",SAN MARCOS DE ARICA vs UNIVERSIDAD CATOLICA,3-1 (2-0),Asian handicap,SAN MARCOS DE ARICA +0.50,1.84,,100,84.00,Win,Chris Tomas,Football,2015-05-17 18:15:04
 2015-05-16 16:00:00,Sweden,Superettan,IF BROMMAPOJKARNA vs ANGELHOLMS FF,1-1 (0-1),Asian handicap,ANGELHOLMS FF +0,2.13,,100,0.00,Void,Chris Tomas,Football,2015-05-16 13:57:04
@@ -325,7 +327,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-05-15 18:00:00,Croatia,1. HNL,NK LOKOMOTIVA ZAGREB vs NK SLAVEN BELUPO,2-0 (1-0),Asian handicap,NK SLAVEN BELUPO +0.25,1.81,,100,-100.00,Lost,Chris Tomas,Football,2015-05-15 15:42:04
 2015-05-12 18:30:00,Austria,ADEG Erste Liga,SV MATTERSBURG vs AUSTRIA LUSTENAU,1-1 (1-0),Asian handicap,SV MATTERSBURG -1.00,1.99,,100,-100.00,Lost,Chris Tomas,Football,2015-05-12 15:12:09
 2015-05-11 19:00:00,Sweden,Allsvenskan,HAMMARBY IF vs GIF SUNDSVALL,1-2 (1-1),Asian handicap,GIF SUNDSVALL +0.75,2.17,,100,117.00,Win,Chris Tomas,Football,2015-05-11 15:11:02
-2015-05-10 18:00:00,Norway,Eliteserien,SARPSBORG vs HAUGESUND FK,3-0 (1-0),Over / Under,Over +2.50,1.93,,100,93.00,Win,Chris Tomas,Football,2015-05-10 16:28:09
+2015-05-10 18:00:00,Norway,Tippeligaen,SARPSBORG vs HAUGESUND FK,3-0 (1-0),Over / Under,Over +2.50,1.93,,100,93.00,Win,Chris Tomas,Football,2015-05-10 16:28:09
 2015-05-10 18:00:00,Sweden,Superettan,ATHLETIC UNITED vs OSTERSUNDS FK,1-2 (0-0),Asian handicap,OSTERSUNDS FK -0.75,1.83,,100,41.50,Half win,Chris Tomas,Football,2015-05-10 16:18:07
 2015-05-06 19:00:00,Sweden,Superettan,LJUNGSKILLE SK vs IK SIRIUS FK,4-3 (3-3),Asian handicap,IK SIRIUS FK +0.25,1.83,,100,-100.00,Lost,Chris Tomas,Football,2015-05-06 13:43:02
 2015-05-05 19:00:00,Sweden,Superettan,OSTERSUNDS FK vs SYRIANSKA FC,4-1 (2-1),Asian handicap,SYRIANSKA FC +0.50,2.45,,100,-100.00,Lost,Chris Tomas,Football,2015-05-05 14:41:01
@@ -339,11 +341,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-04-28 18:00:00,Croatia,1. HNL,NK DINAMO ZAGREB vs NK OSIJEK,3-0 (1-0),Asian handicap,NK DINAMO ZAGREB -2.00,2.10,,100,110.00,Win,Chris Tomas,Football,2015-04-28 16:11:04
 2015-04-26 17:30:00,Sweden,Allsvenskan,AIK vs OREBRO SK,3-0 (2-0),Over / Under,Over +2.50,1.80,,100,80.00,Win,Chris Tomas,Football,2015-04-26 16:04:05
 2015-04-26 17:00:00,Czech Republic,1st Division,1 SC ZNOJMO vs FK VIKTORIA ZIZKOV,1-0 (1-0),Asian handicap,1 SC ZNOJMO -0.25,1.98,,100,98.00,Win,Chris Tomas,Football,2015-04-26 14:41:05
-2015-04-24 18:30:00,Denmark,SAS Ligaen,ESBJERG FB vs ODENSE BK,0-2 (0-1),Asian handicap,ODENSE BK +0.50,1.88,,100,88.00,Win,Chris Tomas,Football,2015-04-24 15:28:03
+2015-04-24 18:30:00,Denmark,Superliga,ESBJERG FB vs ODENSE BK,0-2 (0-1),Asian handicap,ODENSE BK +0.50,1.88,,100,88.00,Win,Chris Tomas,Football,2015-04-24 15:28:03
 2015-04-23 21:05:00,European cups,UEFA Europa League,DNIPRO DNIPROPETROVSK vs CLUB BRUGGE,1-0 (0-0),Asian handicap,CLUB BRUGGE +0.25,2.17,,100,-100.00,Lost,Chris Tomas,Football,2015-04-23 15:16:03
 2015-04-23 21:05:00,European cups,UEFA Europa League,ZENIT ST PETERSBURG vs SEVILLA FC,2-2 (0-1),Asian handicap,SEVILLA FC +0.25,1.95,,80,38.00,Half win,Chris Tomas,Football,2015-04-23 15:07:05
 2015-04-16 21:05:00,European cups,UEFA Europa League,VFL WOLFSBURG vs SSC NAPOLI,1-4 (0-2),Asian handicap,SSC NAPOLI +0.50,2.03,,100,103.00,Win,Chris Tomas,Football,2015-04-16 16:56:04
-2015-04-12 18:00:00,Norway,Eliteserien,IK START vs SANDEFJORD FOTBALL,2-1 (0-0),Asian handicap,SANDEFJORD FOTBALL +0.25,1.95,,100,-100.00,Lost,Chris Tomas,Football,2015-04-12 13:37:03
+2015-04-12 18:00:00,Norway,Tippeligaen,IK START vs SANDEFJORD FOTBALL,2-1 (0-0),Asian handicap,SANDEFJORD FOTBALL +0.25,1.95,,100,-100.00,Lost,Chris Tomas,Football,2015-04-12 13:37:03
 2015-04-12 15:00:00,Sweden,Allsvenskan,FALKENBERGS FF vs OREBRO SK,2-0 (1-0),Asian handicap,OREBRO SK +0,1.81,,100,-100.00,Lost,Chris Tomas,Football,2015-04-12 13:34:04
 2015-04-09 19:00:00,Sweden,Allsvenskan,BK HACKEN vs DJURGARDENS IF,1-1 (0-0),Asian handicap,BK HACKEN -0.50,1.93,,100,-100.00,Lost,Chris Tomas,Football,2015-04-09 15:17:04
 2015-04-08 19:00:00,Sweden,Allsvenskan,GEFLE IF vs KALMAR FF,2-0 (2-0),Asian handicap,KALMAR FF +0,1.86,,100,-100.00,Lost,Chris Tomas,Football,2015-04-08 15:45:06
@@ -353,12 +355,12 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2015-04-04 18:00:00,Russia,Premier League,FC SPARTAK MOSCOW vs FC KUBAN KRASNODAR,1-1 (1-0),Asian handicap,FC KUBAN KRASNODAR +0.25,1.90,,80,36.00,Half win,Chris Tomas,Football,2015-04-04 15:02:09
 2015-04-04 16:00:00,England,Championship,BOLTON WANDERERS vs BLACKPOOL FC,1-1 (0-1),Asian handicap,BLACKPOOL FC +0,4.40,,70,0.00,Void,Chris Tomas,Football,2015-04-04 14:58:02
 2015-04-04 16:00:00,Sweden,Allsvenskan,KALMAR FF vs HELSINGBORGS IF,0-0 (0-0),Asian handicap,HELSINGBORGS IF +0.25,2.11,,100,55.50,Half win,Chris Tomas,Football,2015-04-04 14:43:02
-2015-04-02 15:00:00,Denmark,Viasat Sport Divisionen,VENDSYSSEL FF vs FC FREDERICIA,0-0 (0-0),Asian handicap,FC FREDERICIA +0.25,2.11,,100,55.50,Half win,Chris Tomas,Football,2015-04-02 13:35:05
-2015-03-27 19:00:00,Denmark,Viasat Sport Divisionen,SKIVE IK vs VIBORG FF,0-0 (0-0),Asian handicap,VIBORG FF -1.00,1.81,,100,-100.00,Lost,Chris Tomas,Football,2015-03-27 15:54:05
+2015-04-02 15:00:00,Denmark,Bet25 Liga,VENDSYSSEL FF vs FC FREDERICIA,0-0 (0-0),Asian handicap,FC FREDERICIA +0.25,2.11,,100,55.50,Half win,Chris Tomas,Football,2015-04-02 13:35:05
+2015-03-27 19:00:00,Denmark,Bet25 Liga,SKIVE IK vs VIBORG FF,0-0 (0-0),Asian handicap,VIBORG FF -1.00,1.81,,100,-100.00,Lost,Chris Tomas,Football,2015-03-27 15:54:05
 2015-03-24 20:45:00,Scotland,Second Division,BRECHIN CITY FC vs PETERHEAD FC,2-2 (1-2),Asian handicap,PETERHEAD FC +0.25,1.78,,100,39.00,Half win,Chris Tomas,Football,2015-03-24 18:45:06
 2015-03-23 20:15:00,Germany,2. Bundesliga,1 FC NUREMBERG vs VFL BOCHUM,1-2 (0-1),Asian handicap,VFL BOCHUM +0.50,1.92,,100,92.00,Win,Chris Tomas,Football,2015-03-23 16:53:02
 2015-03-22 17:00:00,Spain,Liga BBVA,VILLARREAL CF vs SEVILLA FC,0-2 (0-0),Asian handicap,SEVILLA FC +0.25,1.95,,100,95.00,Win,Chris Tomas,Football,2015-03-19 18:00:06
-2015-03-20 18:30:00,Denmark,SAS Ligaen,ODENSE BK vs ESBJERG FB,0-2 (0-1),Asian handicap,ESBJERG FB +0.25,1.93,,100,93.00,Win,Chris Tomas,Football,2015-03-20 16:24:05
+2015-03-20 18:30:00,Denmark,Superliga,ODENSE BK vs ESBJERG FB,0-2 (0-1),Asian handicap,ESBJERG FB +0.25,1.93,,100,93.00,Win,Chris Tomas,Football,2015-03-20 16:24:05
 2015-03-15 19:00:00,Turkey,Turkcell Super Lig,GENCLERBIRLIGI vs FENERBAHCE,2-1 (1-0),Asian handicap,FENERBAHCE -1.00,1.97,,100,-100.00,Lost,Chris Tomas,Football,2015-03-15 14:00:33
 2015-03-14 20:00:00,Belgium,EXQI League,R AEC MONS vs FC TUBIZE,4-0 (2-0),Asian handicap,R AEC MONS -1.00,2.05,,100,105.00,Win,Chris Tomas,Football,2015-03-14 14:53:03
 2015-03-14 16:00:00,England,Championship,ROTHERHAM UTD vs WIGAN ATHLETIC,1-2 (1-2),Asian handicap,WIGAN ATHLETIC -0.25,2.54,,100,154.00,Win,Chris Tomas,Football,2015-03-14 14:48:08
@@ -469,7 +471,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-11-27 19:00:00,European cups,UEFA Europa League,SLOVAN BRATISLAVA vs YOUNG BOYS BERN,1-3 (1-2),Asian handicap,YOUNG BOYS BERN -1.00,1.84,,50,42.00,Win,Chris Tomas,Football,2014-11-27 09:47:02
 2014-11-27 19:00:00,European cups,UEFA Europa League,FC DINAMO MINSK vs PAOK FC,0-2 (0-0),Asian handicap,PAOK FC -0.50,1.83,,50,41.50,Win,Chris Tomas,Football,2014-11-27 09:46:04
 2014-11-26 20:45:00,European cups,UEFA Champions League,ATLETICO MADRID vs OLYMPIACOS FC,4-0 (2-0),Asian Handicap 1st Half,OLYMPIACOS FC +0.50 Half time,2.03,,70,-70.00,Lost,Chris Tomas,Football,2014-11-26 16:11:02
-2014-11-26 18:30:00,Denmark,Viasat Sport Divisionen,BRONSHOJ BK vs AGF AARHUS,1-2 (1-1),Asian handicap,AGF AARHUS -0.75,1.89,,100,44.50,Half win,Chris Tomas,Football,2014-11-26 16:05:05
+2014-11-26 18:30:00,Denmark,Bet25 Liga,BRONSHOJ BK vs AGF AARHUS,1-2 (1-1),Asian handicap,AGF AARHUS -0.75,1.89,,100,44.50,Half win,Chris Tomas,Football,2014-11-26 16:05:05
 2014-11-26 18:00:00,European cups,UEFA Champions League,ZENIT ST PETERSBURG vs BENFICA LISBON,1-0 (0-0),Over / Under,Under +2.50,1.91,,100,91.00,Win,Chris Tomas,Football,2014-11-26 15:40:08
 2014-11-25 20:45:00,European cups,UEFA Champions League,SPORTING CP vs NK MARIBOR,3-1 (2-1),Over / Under,Over +2.75,1.90,,100,90.00,Win,Chris Tomas,Football,2014-11-25 16:14:03
 2014-11-25 20:45:00,European cups,UEFA Champions League,APOEL NICOSIA FC vs FC BARCELONA,0-4 (0-2),Asian handicap,FC BARCELONA -1.50,1.85,,100,85.00,Win,Chris Tomas,Football,2014-11-25 16:07:02
@@ -479,8 +481,8 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-11-23 20:45:00,Italy,Serie A,AC MILAN vs INTER MILAN,1-1 (1-0),Over / Under,Over +2.50,2.04,,50,-50.00,Lost,Chris Tomas,Football,2014-11-23 18:26:03
 2014-11-23 20:00:00,Belgium,Jupiler Pro League,KV KORTRIJK vs SV ZULTE WAREGEM,3-1 (0-1),Asian handicap,SV ZULTE WAREGEM +0.25,1.90,,60,-60.00,Lost,Chris Tomas,Football,2014-11-23 12:53:02
 2014-11-23 16:00:00,Ukraine,Premier League,VORSKLA POLTAVA vs FC ZORYA LUGANSK,2-0 (1-0),Asian handicap,FC ZORYA LUGANSK +0.25,1.88,,100,-100.00,Lost,Chris Tomas,Football,2014-11-23 12:45:02
-2014-11-23 15:00:00,Denmark,Viasat Sport Divisionen,VIBORG FF vs BRONSHOJ BK,2-0 (1-0),Asian handicap,VIBORG FF -1.00,2.02,,80,81.60,Win,Chris Tomas,Football,2014-11-23 12:50:09
-2014-11-23 14:00:00,Denmark,SAS Ligaen,ODENSE BK vs FC NORDSJALLAND,1-0 (1-0),Asian handicap,ODENSE BK +0,1.93,,80,74.40,Win,Chris Tomas,Football,2014-11-23 12:47:02
+2014-11-23 15:00:00,Denmark,Bet25 Liga,VIBORG FF vs BRONSHOJ BK,2-0 (1-0),Asian handicap,VIBORG FF -1.00,2.02,,80,81.60,Win,Chris Tomas,Football,2014-11-23 12:50:09
+2014-11-23 14:00:00,Denmark,Superliga,ODENSE BK vs FC NORDSJALLAND,1-0 (1-0),Asian handicap,ODENSE BK +0,1.93,,80,74.40,Win,Chris Tomas,Football,2014-11-23 12:47:02
 2014-11-22 18:30:00,Austria,tipp3-Bundesliga,FK AUSTRIA VIENNA vs ADMIRA WACKER,4-0 (0-0),Asian handicap,FK AUSTRIA VIENNA -1.00,1.93,,80,74.40,Win,Chris Tomas,Football,2014-11-22 13:23:02
 2014-11-22 18:00:00,Belgium,Jupiler Pro League,ROYAL CHARLEROI SC vs RSC ANDERLECHT,3-1 (1-1),Asian handicap,ROYAL CHARLEROI SC +0.50,1.99,,100,99.00,Win,Chris Tomas,Football,2014-11-22 13:46:03
 2014-11-22 15:30:00,Germany,Bundesliga,SC PADERBORN vs BORUSSIA DORTMUND,2-2 (0-2),Asian handicap,BORUSSIA DORTMUND -1.25,1.97,,80,-80.00,Lost,Chris Tomas,Football,2014-11-22 13:25:03
@@ -502,7 +504,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-11-12 00:00:00,Brazil,Brasilero Serie B,PARANA CLUBE PR vs ATLETICO GOIANIENSE,2-0 (1-0),Asian handicap,ATLETICO GOIANIENSE -0.25,2.32,,100,-100.00,Lost,Chris Tomas,Football,2014-11-11 21:54:03
 2014-11-11 20:45:00,England,Skrill Premier,FOREST GREEN ROVERS vs EASTLEIGH FC,1-1 (0-0),Asian handicap,EASTLEIGH FC +0.25,1.94,,70,32.90,Half win,Chris Tomas,Football,2014-11-11 17:40:06
 2014-11-09 21:15:00,Portugal,Liga Sagres,GD ESTORIL PRAIA vs FC PORTO,2-2 (1-1),Asian handicap,FC PORTO -1.00,1.86,,70,-70.00,Lost,Chris Tomas,Football,2014-11-09 19:33:02
-2014-11-09 18:00:00,Norway,Eliteserien,MOLDE FK vs ODDS BK,2-0 (0-0),Asian handicap,ODDS BK +0.75,1.87,,70,-70.00,Lost,Chris Tomas,Football,2014-11-09 14:42:03
+2014-11-09 18:00:00,Norway,Tippeligaen,MOLDE FK vs ODDS BK,2-0 (0-0),Asian handicap,ODDS BK +0.75,1.87,,70,-70.00,Lost,Chris Tomas,Football,2014-11-09 14:42:03
 2014-11-09 16:00:00,Ukraine,Premier League,FC SHAKHTAR DONETSK vs DNIPRO DNIPROPETROVSK,0-0 (0-0),Over / Under,Over +2.50,1.98,,70,-70.00,Lost,Chris Tomas,Football,2014-11-09 14:31:02
 2014-11-08 18:30:00,Ukraine,Premier League,CHERNOMORETS ODESSA vs VORSKLA POLTAVA,1-0 (1-0),Asian handicap,VORSKLA POLTAVA +0.25,1.88,,100,-100.00,Lost,Chris Tomas,Football,2014-11-08 14:37:02
 2014-11-08 11:00:00,Russia,Premier League,FC AMKAR PERM vs FC MORDOVIA SARANSK,0-1 (0-0),Asian handicap,FC MORDOVIA SARANSK +0.50,1.85,,100,85.00,Win,Chris Tomas,Football,2014-11-07 22:15:03
@@ -523,7 +525,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-10-31 13:45:00,Poland,I Liga,MKS FLOTA SWINOUJSCIE vs WIGRY SUWALKI,1-0 (1-0),Match Odds,MKS FLOTA SWINOUJSCIE,1.93,,100,93.00,Win,Chris Tomas,Football,2014-10-31 12:15:08
 2014-10-30 20:45:00,Italy,Serie A,HELLAS VERONA vs LAZIO ROMA,1-1 (0-1),Match Odds,LAZIO ROMA,2.22,,100,-100.00,Lost,Chris Tomas,Football,2014-10-30 16:59:02
 2014-10-30 20:30:00,Belgium,Jupiler Pro League,ROYAL MOUSCRON vs CLUB BRUGGE,1-4 (0-1),Over / Under,Over +2.75,1.97,,100,97.00,Win,Chris Tomas,Football,2014-10-30 17:03:05
-2014-10-30 18:00:00,Denmark,Ekstra Bladet Cup,VEJLE BK vs AALBORG BK,0-0 (0-0),Asian handicap,VEJLE BK +1.00,1.89,,100,89.00,Win,Chris Tomas,Football,2014-10-30 12:24:02
+2014-10-30 18:00:00,Denmark,Landspokal Cup,VEJLE BK vs AALBORG BK,0-0 (0-0),Asian handicap,VEJLE BK +1.00,1.89,,100,89.00,Win,Chris Tomas,Football,2014-10-30 12:24:02
 2014-10-30 15:00:00,Russia,Russian Cup,FC MORDOVIA SARANSK vs FC SHINNIK YAROSLAVL,5-1 (0-0),Asian handicap,FC SHINNIK YAROSLAVL +0.75,1.95,,100,-100.00,Lost,Chris Tomas,Football,2014-10-30 12:21:02
 2014-10-29 20:45:00,Scotland,Co-operative Insurance Cup,HIBERNIAN FC vs DUNDEE UNITED,9-10 (1-2),Asian handicap,HIBERNIAN FC +0.25,1.99,,100,49.50,Half win,Chris Tomas,Football,2014-10-29 14:52:02
 2014-10-29 19:00:00,Germany,DFB Pokal,RB LEIPZIG vs ERZGEBIRGE AUE,1-1 (0-1),Asian handicap,ERZGEBIRGE AUE +0.75,2.09,,100,109.00,Win,Chris Tomas,Football,2014-10-29 14:34:03
@@ -536,17 +538,17 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-10-27 19:20:00,Sweden,Superettan,IK SIRIUS FK vs GIF SUNDSVALL,0-1 (0-1),Asian handicap,GIF SUNDSVALL -0.75,2.01,,100,50.50,Half win,Chris Tomas,Football,2014-10-27 12:37:02
 2014-10-27 19:00:00,Sweden,Superettan,JONKOPINGS SODRA vs OSTERS IF,3-3 (1-0),Asian handicap,OSTERS IF +0.50,1.90,,100,90.00,Win,Chris Tomas,Football,2014-10-27 12:41:02
 2014-10-27 16:45:00,Russia,Premier League,FC KRASNODAR vs RFK TEREK GROZNY,2-0 (0-0),Asian handicap,RFK TEREK GROZNY +0.50,1.88,,100,-100.00,Lost,Chris Tomas,Football,2014-10-27 12:29:04
-2014-10-26 18:00:00,Norway,Eliteserien,VIKING FK vs AALESUNDS FK,1-2 (0-2),Asian handicap,AALESUNDS FK +0.25,2.17,,100,117.00,Win,Chris Tomas,Football,2014-10-26 16:32:02
+2014-10-26 18:00:00,Norway,Tippeligaen,VIKING FK vs AALESUNDS FK,1-2 (0-2),Asian handicap,AALESUNDS FK +0.25,2.17,,100,117.00,Win,Chris Tomas,Football,2014-10-26 16:32:02
 2014-10-26 17:30:00,Sweden,Allsvenskan,IF ELFSBORG vs DJURGARDENS IF,0-1 (0-0),Asian handicap,IF ELFSBORG -1.00,1.83,,100,-100.00,Lost,Chris Tomas,Football,2014-10-26 12:53:02
-2014-10-26 15:00:00,Denmark,Viasat Sport Divisionen,FC FREDERICIA vs VEJLE BK,1-3 (0-1),Asian handicap,VEJLE BK +0.25,1.97,,100,97.00,Win,Chris Tomas,Football,2014-10-26 13:09:01
+2014-10-26 15:00:00,Denmark,Bet25 Liga,FC FREDERICIA vs VEJLE BK,1-3 (0-1),Asian handicap,VEJLE BK +0.25,1.97,,100,97.00,Win,Chris Tomas,Football,2014-10-26 13:09:01
 2014-10-26 15:00:00,Turkey,Bank Asya 1. Lig,ALTINORDU vs KAYSERISPOR,0-2 (0-1),Asian handicap,KAYSERISPOR -0.75,1.94,,100,94.00,Win,Chris Tomas,Football,2014-10-26 13:06:04
 2014-10-26 11:30:00,Russia,Premier League,FC UFA vs CSKA MOSCOW,3-3 (1-1),Asian handicap,CSKA MOSCOW -1.00,1.80,,100,-100.00,Lost,Chris Tomas,Football,2014-10-25 17:24:02
 2014-10-25 21:15:00,Portugal,Liga Sagres,FC AROUCA vs FC PORTO,0-5 (0-3),Asian handicap,FC PORTO -1.25,1.84,,100,84.00,Win,Chris Tomas,Football,2014-10-25 17:12:02
 2014-10-25 18:30:00,Austria,tipp3-Bundesliga,ADMIRA WACKER vs SV JOSKO RIED,0-0 (0-0),Asian handicap,SV JOSKO RIED +0.50,1.82,,100,82.00,Win,Chris Tomas,Football,2014-10-24 15:40:05
 2014-10-25 16:00:00,Scotland,First Division,DUMBARTON FC vs RANGERS FC,0-3 (0-1),Asian handicap,RANGERS FC -1.50,1.87,,100,87.00,Win,Chris Tomas,Football,2014-10-25 14:03:06
-2014-10-25 15:30:00,Norway,Eliteserien,HAUGESUND FK vs STROMSGODSET,3-2 (1-0),Match Odds,STROMSGODSET,2.41,,100,-100.00,Lost,Chris Tomas,Football,2014-10-25 13:50:04
+2014-10-25 15:30:00,Norway,Tippeligaen,HAUGESUND FK vs STROMSGODSET,3-2 (1-0),Match Odds,STROMSGODSET,2.41,,100,-100.00,Lost,Chris Tomas,Football,2014-10-25 13:50:04
 2014-10-24 20:00:00,France,Ligue 2,OLYMPIQUE NIMES vs AJ AUXERRE,0-1 (0-1),Asian handicap,AJ AUXERRE +0.25,1.98,,100,98.00,Win,Chris Tomas,Football,2014-10-24 13:28:02
-2014-10-24 19:00:00,Denmark,Viasat Sport Divisionen,SKIVE IK vs AB COPENHAGEN,2-1 (2-0),Asian handicap,AB COPENHAGEN +0,2.05,,100,-100.00,Lost,Chris Tomas,Football,2014-10-24 13:51:02
+2014-10-24 19:00:00,Denmark,Bet25 Liga,SKIVE IK vs AB COPENHAGEN,2-1 (2-0),Asian handicap,AB COPENHAGEN +0,2.05,,100,-100.00,Lost,Chris Tomas,Football,2014-10-24 13:51:02
 2014-10-23 21:05:00,European cups,UEFA Europa League,CELTIC FC vs AFC ASTRA GIURGIU,2-1 (0-0),Asian handicap,CELTIC FC -0.75,1.83,,100,41.50,Half win,Chris Tomas,Football,2014-10-23 12:17:02
 2014-10-23 19:00:00,European cups,UEFA Europa League,TRABZONSPOR vs SPORTING LOKEREN,2-0 (0-0),Asian handicap,TRABZONSPOR -0.75,1.96,,100,96.00,Win,Chris Tomas,Football,2014-10-23 12:21:02
 2014-10-22 20:45:00,European cups,UEFA Champions League,OLYMPIACOS FC vs JUVENTUS TURIN,1-0 (1-0),Match Odds,JUVENTUS TURIN,1.95,,100,-100.00,Lost,Chris Tomas,Football,2014-10-23 00:05:11
@@ -555,18 +557,18 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-10-21 18:00:00,European cups,UEFA Champions League,CSKA MOSCOW vs MANCHESTER CITY,2-2 (0-2),Asian handicap,MANCHESTER CITY -0.75,1.96,,100,-100.00,Lost,Chris Tomas,Football,2014-10-21 16:35:03
 2014-10-20 19:20:00,Sweden,Superettan,GIF SUNDSVALL vs VARBERGS BOIS,2-1 (0-0),Asian handicap,GIF SUNDSVALL -1.75,1.96,,100,-100.00,Lost,Chris Tomas,Football,2014-10-20 15:21:01
 2014-10-20 19:00:00,Sweden,Allsvenskan,DJURGARDENS IF vs OREBRO SK,0-3 (0-1),Asian handicap,OREBRO SK +0.50,2.12,,100,112.00,Win,Chris Tomas,Football,2014-10-20 15:17:02
-2014-10-19 19:00:00,Denmark,SAS Ligaen,FC COPENHAGEN vs RANDERS FC,1-0 (1-0),Match Odds,FC COPENHAGEN,1.85,,100,85.00,Win,Chris Tomas,Football,2014-10-19 14:17:02
-2014-10-19 18:00:00,Norway,Eliteserien,SANDNES ULF vs SOGNDAL IL,1-0 (1-0),Asian handicap,SOGNDAL IL +0,2.22,,100,-100.00,Lost,Chris Tomas,Football,2014-10-19 14:09:02
-2014-10-19 15:30:00,Denmark,Viasat Sport Divisionen,AGF AARHUS vs VENDSYSSEL FF,0-0 (0-0),Asian handicap,AGF AARHUS -1.00,1.82,,100,-100.00,Lost,Chris Tomas,Football,2014-10-19 14:04:05
+2014-10-19 19:00:00,Denmark,Superliga,FC COPENHAGEN vs RANDERS FC,1-0 (1-0),Match Odds,FC COPENHAGEN,1.85,,100,85.00,Win,Chris Tomas,Football,2014-10-19 14:17:02
+2014-10-19 18:00:00,Norway,Tippeligaen,SANDNES ULF vs SOGNDAL IL,1-0 (1-0),Asian handicap,SOGNDAL IL +0,2.22,,100,-100.00,Lost,Chris Tomas,Football,2014-10-19 14:09:02
+2014-10-19 15:30:00,Denmark,Bet25 Liga,AGF AARHUS vs VENDSYSSEL FF,0-0 (0-0),Asian handicap,AGF AARHUS -1.00,1.82,,100,-100.00,Lost,Chris Tomas,Football,2014-10-19 14:04:05
 2014-10-18 18:30:00,Austria,tipp3-Bundesliga,SK RAPID VIENNA vs ADMIRA WACKER,0-0 (0-0),Asian handicap,SK RAPID VIENNA -1.00,1.83,,100,-100.00,Lost,Chris Tomas,Football,2014-10-18 14:22:02
 2014-10-18 17:30:00,Russia,Premier League,FC LOKOMOTIV MOSCOW vs RFK TEREK GROZNY,2-1 (1-1),Asian handicap,RFK TEREK GROZNY +0.25,1.84,,100,-100.00,Lost,Chris Tomas,Football,2014-10-18 14:55:03
 2014-10-18 16:00:00,Sweden,Allsvenskan,AATVIDABERG FF vs MJALLBY AIF,2-1 (2-1),Asian handicap,MJALLBY AIF +0.50,1.90,,100,-100.00,Lost,Chris Tomas,Football,2014-10-18 14:43:01
-2014-10-17 19:00:00,Norway,Eliteserien,SK BRANN vs SARPSBORG,1-2 (1-0),Asian handicap,SK BRANN -0.75,1.88,,100,-100.00,Lost,Chris Tomas,Football,2014-10-17 14:02:05
-2014-10-17 18:30:00,Denmark,SAS Ligaen,AALBORG BK vs HOBRO IK,1-1 (0-1),Asian handicap,AALBORG BK -0.75,1.80,,100,-100.00,Lost,Chris Tomas,Football,2014-10-17 13:57:02
+2014-10-17 19:00:00,Norway,Tippeligaen,SK BRANN vs SARPSBORG,1-2 (1-0),Asian handicap,SK BRANN -0.75,1.88,,100,-100.00,Lost,Chris Tomas,Football,2014-10-17 14:02:05
+2014-10-17 18:30:00,Denmark,Superliga,AALBORG BK vs HOBRO IK,1-1 (0-1),Asian handicap,AALBORG BK -0.75,1.80,,100,-100.00,Lost,Chris Tomas,Football,2014-10-17 13:57:02
 2014-10-14 20:45:00,International,Euro Cup,FAROE ISLANDS vs HUNGARY,0-1 (0-1),Asian handicap,HUNGARY -1.25,1.83,,100,-50.00,Half lost,Chris Tomas,Football,2014-10-14 18:03:04
 2014-10-13 20:45:00,International,Euro Cup,LATVIA vs TURKEY,1-1 (0-0),Asian handicap,TURKEY -0.75,1.90,,100,-100.00,Lost,Chris Tomas,Football,2014-10-13 14:38:02
 2014-10-12 18:00:00,International,Euro Cup,UKRAINE vs MACEDONIA,1-0 (1-0),Asian handicap,UKRAINE -1.50,1.98,,60,-60.00,Lost,Chris Tomas,Football,2014-10-12 16:55:03
-2014-10-12 16:30:00,Denmark,Viasat Sport Divisionen,FC ROSKILDE vs VIBORG FF,1-1 (1-1),Asian handicap,VIBORG FF -0.75,2.11,,100,-100.00,Lost,Chris Tomas,Football,2014-10-12 12:39:02
+2014-10-12 16:30:00,Denmark,Bet25 Liga,FC ROSKILDE vs VIBORG FF,1-1 (1-1),Asian handicap,VIBORG FF -0.75,2.11,,100,-100.00,Lost,Chris Tomas,Football,2014-10-12 12:39:02
 2014-10-11 20:45:00,International,Euro Cup,POLAND vs GERMANY,2-0 (0-0),Asian handicap,GERMANY -1.00,2.05,,100,-100.00,Lost,Chris Tomas,Football,2014-10-11 16:39:02
 2014-10-11 18:00:00,International,Euro Cup,ARMENIA vs SERBIA,1-1 (0-0),Asian handicap,SERBIA -0.75,1.89,,70,-70.00,Lost,Chris Tomas,Football,2014-10-11 13:43:02
 2014-10-11 15:00:00,International Youth,U19 European Championship,RUSSIA vs NORTHERN IRELAND,5-2 (2-0),Asian handicap,RUSSIA -1.00,1.79,,100,79.00,Win,Chris Tomas,Football,2014-10-11 13:26:02
@@ -578,7 +580,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-10-07 19:20:00,Sweden,Superettan,HUSQVARNA FF vs IFK VARNAMO,0-0 (0-0),Asian handicap,HUSQVARNA FF +0.25,1.92,,100,46.00,Half win,Chris Tomas,Football,2014-10-07 14:44:02
 2014-10-06 19:20:00,Sweden,Superettan,SYRIANSKA FC vs GIF SUNDSVALL,1-2 (1-0),Asian handicap,GIF SUNDSVALL -0.75,1.90,,100,45.00,Half win,Chris Tomas,Football,2014-10-06 13:31:03
 2014-10-05 17:00:00,Sweden,Superettan,VARBERGS BOIS vs ANGELHOLMS FF,0-1 (0-1),Asian handicap,VARBERGS BOIS -0.50,1.94,,100,-100.00,Lost,Chris Tomas,Football,2014-10-05 15:23:02
-2014-10-05 15:30:00,Norway,Eliteserien,SARPSBORG vs STROMSGODSET,0-0 (0-0),Match Odds,STROMSGODSET,2.00,,100,-100.00,Lost,Chris Tomas,Football,2014-10-05 14:18:02
+2014-10-05 15:30:00,Norway,Tippeligaen,SARPSBORG vs STROMSGODSET,0-0 (0-0),Match Odds,STROMSGODSET,2.00,,100,-100.00,Lost,Chris Tomas,Football,2014-10-05 14:18:02
 2014-10-04 18:00:00,Norway,Tippeligaen,VIKING FK vs MOLDE FK,1-2 (1-0),Asian handicap,MOLDE FK -0.75,1.95,,100,47.50,Half win,Chris Tomas,Football,2014-10-04 13:01:05
 2014-10-04 17:00:00,Sweden,Superettan,OSTERSUNDS FK vs OSTERS IF,0-0 (0-0),Asian handicap,OSTERS IF +0.50,1.96,,100,96.00,Win,Chris Tomas,Football,2014-10-04 13:06:02
 2014-10-03 19:00:00,Sweden,Allsvenskan,HELSINGBORGS IF vs KALMAR FF,4-1 (2-1),Asian handicap,HELSINGBORGS IF -0.75,1.92,,100,92.00,Win,Chris Tomas,Football,2014-10-03 13:41:01
@@ -586,23 +588,23 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-10-02 19:00:00,European cups,UEFA Europa League,SPORTING LOKEREN vs METALIST KHARKIV,1-0 (0-0),Asian handicap,METALIST KHARKIV +0,2.07,,100,-100.00,Lost,Chris Tomas,Football,2014-10-02 13:00:05
 2014-10-01 20:45:00,European cups,UEFA Champions League,ATLETICO MADRID vs JUVENTUS TURIN,1-0 (0-0),Asian handicap,JUVENTUS TURIN +0.25,2.00,,100,-100.00,Lost,Chris Tomas,Football,2014-10-01 12:16:03
 2014-09-29 19:00:00,Sweden,Superettan,IFK VARNAMO vs LJUNGSKILLE SK,1-4 (0-4),Asian handicap,LJUNGSKILLE SK -1.00,2.40,,100,140.00,Win,Chris Tomas,Football,2014-09-29 15:08:02
-2014-09-28 19:00:00,Denmark,SAS Ligaen,ESBJERG FB vs BRONDBY IF,2-2 (0-0),Asian handicap,BRONDBY IF +0,2.19,,100,0.00,Void,Chris Tomas,Football,2014-09-27 20:59:02
+2014-09-28 19:00:00,Denmark,Superliga,ESBJERG FB vs BRONDBY IF,2-2 (0-0),Asian handicap,BRONDBY IF +0,2.19,,100,0.00,Void,Chris Tomas,Football,2014-09-27 20:59:02
 2014-09-28 18:20:00,Sweden,Superettan,HAMMARBY IF vs IK SIRIUS FK,4-1 (0-0),Asian handicap,HAMMARBY IF -1.00,1.88,,100,88.00,Win,Chris Tomas,Football,2014-09-28 13:04:04
 2014-09-28 11:30:00,Russia,Premier League,FC DINAMO MOSCOW vs FC KUBAN KRASNODAR,2-2 (2-0),Asian handicap,FC KUBAN KRASNODAR +0.75,1.99,,100,99.00,Win,Chris Tomas,Football,2014-09-27 20:52:03
 2014-09-27 18:00:00,Belgium,Jupiler Pro League,SV ZULTE WAREGEM vs RSC ANDERLECHT,0-2 (0-1),Asian handicap,SV ZULTE WAREGEM +0.25,2.22,,100,-100.00,Lost,Chris Tomas,Football,2014-09-27 13:52:02
 2014-09-27 18:00:00,Norway,Tippeligaen,STROMSGODSET vs VIKING FK,2-1 (1-1),Asian handicap,STROMSGODSET -0.75,1.83,,100,41.50,Half win,Chris Tomas,Football,2014-09-27 13:43:04
 2014-09-27 16:00:00,Spain,Liga BBVA,VILLARREAL CF vs REAL MADRID,0-2 (0-2),Asian handicap,REAL MADRID -0.75,1.99,,100,99.00,Win,Chris Tomas,Football,2014-09-27 14:21:02
 2014-09-26 19:00:00,Norway,Tippeligaen,SANDNES ULF vs VALERENGA IF,2-1 (0-0),Match Odds,VALERENGA IF,2.11,,100,-100.00,Lost,Chris Tomas,Football,2014-09-26 15:06:03
-2014-09-26 18:30:00,Denmark,SAS Ligaen,AALBORG BK vs RANDERS FC,0-0 (0-0),Asian handicap,RANDERS FC +0.25,1.96,,100,48.00,Half win,Chris Tomas,Football,2014-09-26 14:59:02
+2014-09-26 18:30:00,Denmark,Superliga,AALBORG BK vs RANDERS FC,0-0 (0-0),Asian handicap,RANDERS FC +0.25,1.96,,100,48.00,Half win,Chris Tomas,Football,2014-09-26 14:59:02
 2014-09-25 19:00:00,Sweden,Superettan,LJUNGSKILLE SK vs GIF SUNDSVALL,0-0 (0-0),Asian handicap,GIF SUNDSVALL +0.25,1.94,,100,47.00,Half win,Chris Tomas,Football,2014-09-25 14:22:03
 2014-09-25 19:00:00,Sweden,Allsvenskan,IFK NORRKOPING vs KALMAR FF,0-0 (0-0),Match Odds,KALMAR FF,1.89,,100,-100.00,Lost,Chris Tomas,Football,2014-09-25 13:29:01
 2014-09-24 18:45:00,Sweden,Superettan,VARBERGS BOIS vs HAMMARBY IF,1-1 (1-0),Asian handicap,HAMMARBY IF -0.75,1.89,,100,-100.00,Lost,Chris Tomas,Football,2014-09-24 13:24:03
-2014-09-21 15:00:00,Norway,Adeccoligaen,TROMSDALEN vs SANDEFJORD FOTBALL,1-2 (1-0),Asian handicap,SANDEFJORD FOTBALL -0.75,1.90,,100,45.00,Half win,Chris Tomas,Football,2014-09-21 13:16:02
+2014-09-21 15:00:00,Norway,OBOS-ligaen,TROMSDALEN vs SANDEFJORD FOTBALL,1-2 (1-0),Asian handicap,SANDEFJORD FOTBALL -0.75,1.90,,100,45.00,Half win,Chris Tomas,Football,2014-09-21 13:16:02
 2014-09-21 15:00:00,Sweden,Allsvenskan,AIK vs HALMSTADS BK,0-1 (0-1),Asian handicap,AIK -1.00,1.85,,100,-100.00,Lost,Chris Tomas,Football,2014-09-21 12:47:03
 2014-09-20 15:00:00,Russia,Premier League,FC KUBAN KRASNODAR vs FC RUBIN KAZAN,2-1 (2-1),Asian handicap,FC RUBIN KAZAN +0.25,1.97,,100,-100.00,Lost,Chris Tomas,Football,2014-09-20 12:39:01
-2014-09-19 18:30:00,Denmark,SAS Ligaen,RANDERS FC vs SILKEBORG IF,1-0 (0-0),Asian handicap,SILKEBORG IF +0.50,2.09,,50,-50.00,Lost,Chris Tomas,Football,2014-09-19 16:13:02
+2014-09-19 18:30:00,Denmark,Superliga,RANDERS FC vs SILKEBORG IF,1-0 (0-0),Asian handicap,SILKEBORG IF +0.50,2.09,,50,-50.00,Lost,Chris Tomas,Football,2014-09-19 16:13:02
 2014-09-18 21:05:00,European cups,UEFA Europa League,METALIST KHARKIV vs TRABZONSPOR,1-2 (0-1),Asian handicap,TRABZONSPOR +0.25,1.83,,100,83.00,Win,Chris Tomas,Football,2014-09-17 13:57:03
-2014-09-17 19:00:00,Denmark,Viasat Sport Divisionen,FC ROSKILDE vs AC HORSENS,0-1 (0-1),Asian handicap,AC HORSENS -0.50,1.91,,100,91.00,Win,Chris Tomas,Football,2014-09-17 14:35:03
+2014-09-17 19:00:00,Denmark,Bet25 Liga,FC ROSKILDE vs AC HORSENS,0-1 (0-1),Asian handicap,AC HORSENS -0.50,1.91,,100,91.00,Win,Chris Tomas,Football,2014-09-17 14:35:03
 2014-09-16 20:45:00,European cups,UEFA Champions League,BENFICA LISBON vs ZENIT ST PETERSBURG,0-2 (0-2),Asian handicap,ZENIT ST PETERSBURG +0.50,1.95,,100,95.00,Win,Chris Tomas,Football,2014-09-16 19:20:04
 2014-09-15 19:05:00,Sweden,Allsvenskan,HELSINGBORGS IF vs AIK,3-1 (3-0),Asian handicap,AIK +0,1.96,,100,-100.00,Lost,Chris Tomas,Football,2014-09-15 15:04:04
 2014-09-14 17:30:00,Sweden,Allsvenskan,IF ELFSBORG vs IFK GOTHENBURG,0-0 (0-0),Asian handicap,IFK GOTHENBURG +0.25,2.19,,50,29.75,Half win,Chris Tomas,Football,2014-09-14 14:36:02
@@ -635,11 +637,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-08-17 16:30:00,Russia,Premier League,FC RUBIN KAZAN vs FC LOKOMOTIV MOSCOW,1-1 (1-1),Asian handicap,FC LOKOMOTIV MOSCOW +0,1.82,,100,0.00,Void,Chris Tomas,Football,2014-08-17 14:05:09
 2014-08-16 20:00:00,Sweden,Superettan,HUSQVARNA FF vs OSTERSUNDS FK,1-4 (0-2),Asian handicap,OSTERSUNDS FK -0.75,2.02,,100,102.00,Win,Chris Tomas,Football,2014-08-16 14:56:02
 2014-08-16 18:30:00,Ukraine,Premier League,CHERNOMORETS ODESSA vs FC ZORYA LUGANSK,0-0 (0-0),Asian handicap,FC ZORYA LUGANSK +0.50,1.96,,100,96.00,Win,Chris Tomas,Football,2014-08-16 16:51:02
-2014-08-15 19:30:00,Denmark,SAS Ligaen,FC COPENHAGEN vs FC MIDTJYLLAND,1-2 (0-0),Asian handicap,FC MIDTJYLLAND +0.50,1.80,,100,80.00,Win,Chris Tomas,Football,2014-08-15 12:23:02
+2014-08-15 19:30:00,Denmark,Superliga,FC COPENHAGEN vs FC MIDTJYLLAND,1-2 (0-0),Asian handicap,FC MIDTJYLLAND +0.50,1.80,,100,80.00,Win,Chris Tomas,Football,2014-08-15 12:23:02
 2014-08-13 18:00:00,Russia,Premier League,ARSENAL TULA vs FC RUBIN KAZAN,0-0 (0-0),Match Odds,FC RUBIN KAZAN,2.14,,100,-100.00,Lost,Chris Tomas,Football,2014-08-12 21:40:04
 2014-08-11 19:05:00,Sweden,Allsvenskan,BK HACKEN vs IF ELFSBORG,0-2 (0-2),Asian handicap,IF ELFSBORG +0,2.09,,100,109.00,Win,Chris Tomas,Football,2014-08-11 17:16:03
 2014-08-10 17:30:00,Russia,Premier League,ARSENAL TULA vs FC LOKOMOTIV MOSCOW,0-2 (0-0),Asian handicap,FC LOKOMOTIV MOSCOW -1.00,2.01,,100,101.00,Win,Chris Tomas,Football,2014-08-10 15:19:02
-2014-08-09 17:00:00,Denmark,SAS Ligaen,AALBORG BK vs FC NORDSJALLAND,1-2 (1-0),Asian handicap,FC NORDSJALLAND +0.50,1.79,,100,79.00,Win,Chris Tomas,Football,2014-08-09 15:05:05
+2014-08-09 17:00:00,Denmark,Superliga,AALBORG BK vs FC NORDSJALLAND,1-2 (1-0),Asian handicap,FC NORDSJALLAND +0.50,1.79,,100,79.00,Win,Chris Tomas,Football,2014-08-09 15:05:05
 2014-08-07 19:00:00,European cups,UEFA Europa League,IRONI KIRYAT SHMONA vs FC DINAMO MOSCOW,1-2 (1-2),Asian handicap,FC DINAMO MOSCOW -1.25,2.00,,80,-40.00,Half lost,Chris Tomas,Football,2014-08-07 14:13:01
 2014-08-07 18:00:00,European cups,UEFA Europa League,MOLDE FK vs FC ZORYA LUGANSK,1-2 (1-1),Asian handicap,FC ZORYA LUGANSK +1.25,1.85,,80,68.00,Win,Chris Tomas,Football,2014-08-07 14:09:02
 2014-08-06 20:00:00,European cups,UEFA Champions League,FC COPENHAGEN vs DNIPRO DNIPROPETROVSK,2-0 (1-0),Asian handicap,DNIPRO DNIPROPETROVSK +0,1.81,,100,-100.00,Lost,Chris Tomas,Football,2014-08-05 22:14:02
@@ -651,7 +653,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-07-31 19:00:00,European cups,UEFA Europa League,IFK GOTHENBURG vs RIO AVE FC,0-1 (0-1),Match Odds,IFK GOTHENBURG,2.41,,90,-90.00,Lost,Chris Tomas,Football,2014-07-31 13:47:02
 2014-07-30 18:00:00,European cups,UEFA Champions League,HJK HELSINKI vs APOEL NICOSIA FC,2-2 (2-0),Asian handicap,HJK HELSINKI +0.25,1.79,,70,27.65,Half win,Chris Tomas,Football,2014-07-30 14:34:03
 2014-07-27 17:30:00,Sweden,Allsvenskan,HELSINGBORGS IF vs OREBRO SK,1-1 (1-0),Asian handicap,HELSINGBORGS IF -0.75,1.92,,80,-80.00,Lost,Chris Tomas,Football,2014-07-27 13:42:02
-2014-07-26 17:00:00,Denmark,SAS Ligaen,AALBORG BK vs FC MIDTJYLLAND,2-0 (0-0),Asian handicap,FC MIDTJYLLAND +0,1.93,,100,-100.00,Lost,Chris Tomas,Football,2014-07-26 15:11:02
+2014-07-26 17:00:00,Denmark,Superliga,AALBORG BK vs FC MIDTJYLLAND,2-0 (0-0),Asian handicap,FC MIDTJYLLAND +0,1.93,,100,-100.00,Lost,Chris Tomas,Football,2014-07-26 15:11:02
 2014-07-26 16:00:00,Sweden,Superettan,VARBERGS BOIS vs DEGERFORS IF,0-0 (0-0),Asian handicap,DEGERFORS IF +0.50,2.02,,100,102.00,Win,Chris Tomas,Football,2014-07-26 14:36:03
 2014-07-26 16:00:00,Sweden,Allsvenskan,MALMO FF vs KALMAR FF,3-1 (0-1),Asian handicap,KALMAR FF +0.50,2.39,,50,-50.00,Lost,Chris Tomas,Football,2014-07-26 14:26:03
 2014-07-25 18:00:00,Ukraine,Premier League,FC METALURG DONETSK vs DNIPRO DNIPROPETROVSK,0-2 (0-0),Asian handicap,DNIPRO DNIPROPETROVSK -0.75,1.83,,90,74.70,Win,Chris Tomas,Football,2014-07-25 14:07:02
@@ -692,7 +694,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-06-24 17:30:00,Finland,Veikkausliiga,FC LAHTI vs FF JARO,1-0 (1-0),Match Odds,Draw,3.50,,100,-100.00,Lost,Chris Tomas,Football,2014-06-24 12:29:02
 2014-06-23 22:00:00,World Cup,World Cup,CAMEROON vs BRAZIL,1-4 (1-2),Over / Under,Over +3.50,2.14,,100,114.00,Win,Chris Tomas,Football,2014-06-23 17:20:04
 2014-06-23 22:00:00,World Cup,World Cup,CROATIA vs MEXICO,1-3 (0-0),Match Odds,CROATIA,2.86,,100,-100.00,Lost,Chris Tomas,Football,2014-06-23 17:16:03
-2014-06-22 18:00:00,Norway,Adeccoligaen,ALTA IF vs NEST-SOTRA,2-2 (1-1),Match Odds,ALTA IF,1.81,,100,-100.00,Lost,Chris Tomas,Football,2014-06-22 16:47:02
+2014-06-22 18:00:00,Norway,OBOS-ligaen,ALTA IF vs NEST-SOTRA,2-2 (1-1),Match Odds,ALTA IF,1.81,,100,-100.00,Lost,Chris Tomas,Football,2014-06-22 16:47:02
 2014-06-21 00:00:00,World Cup,World Cup,HONDURAS vs ECUADOR,1-2 (1-1),Asian handicap,ECUADOR -0.75,1.83,,100,41.50,Half win,Chris Tomas,Football,2014-06-20 18:22:03
 2014-06-20 21:00:00,World Cup,World Cup,SWITZERLAND vs FRANCE,2-5 (0-3),Asian handicap,SWITZERLAND +0.50,2.06,,100,-100.00,Lost,Chris Tomas,Football,2014-06-20 17:09:02
 2014-06-20 00:00:00,World Cup,World Cup,JAPAN vs GREECE,0-0 (0-0),Asian handicap,GREECE +0.25,1.94,,100,47.00,Half win,Chris Tomas,Football,2014-06-19 16:30:03
@@ -729,20 +731,20 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-05-31 19:00:00,Spain,Liga Adelante,REAL ZARAGOZA vs SPORTING GIJON,1-1 (1-0),Asian handicap,SPORTING GIJON -0.25,1.81,,100,-50.00,Half lost,Chris Tomas,Football,2014-05-30 17:25:04
 2014-05-31 16:00:00,Sweden,Allsvenskan,HALMSTADS BK vs KALMAR FF,1-1 (0-0),Asian handicap,KALMAR FF +0.25,1.89,,100,44.50,Half win,Chris Tomas,Football,2014-05-31 13:40:04
 2014-05-29 16:00:00,International Youth,U21 Friendly Games,AUSTRIA vs SERBIA,2-2 (1-2),Asian handicap,AUSTRIA +0,1.85,,100,0.00,Void,Chris Tomas,Football,2014-05-29 12:52:02
-2014-05-29 15:00:00,Denmark,Viasat Sport Divisionen,FC FREDERICIA vs LYNGBY BK,2-0 (0-0),Asian handicap,LYNGBY BK -0.25,1.85,,100,-100.00,Lost,Chris Tomas,Football,2014-05-29 13:05:04
+2014-05-29 15:00:00,Denmark,Bet25 Liga,FC FREDERICIA vs LYNGBY BK,2-0 (0-0),Asian handicap,LYNGBY BK -0.25,1.85,,100,-100.00,Lost,Chris Tomas,Football,2014-05-29 13:05:04
 2014-05-28 19:00:00,International Youth,U21 Euro Qualification,CROATIA vs UKRAINE,1-1 (0-0),Asian handicap,CROATIA -0.75,1.93,,100,-100.00,Lost,Chris Tomas,Football,2014-05-28 11:49:01
 2014-05-26 19:05:00,Sweden,Allsvenskan,MALMO FF vs AIK STOCKHOLM,2-2 (0-1),Both team to score,Yes,1.73,,100,73.00,Win,Chris Tomas,Football,2014-05-26 15:53:02
 2014-05-25 17:30:00,Sweden,Allsvenskan,IFK GOTHENBURG vs IFK NORRKOPING,2-2 (2-1),Over / Under,Over +2.50,1.88,,100,88.00,Win,Chris Tomas,Football,2014-05-24 19:26:03
-2014-05-24 15:00:00,Denmark,Viasat Sport Divisionen,BRONSHOJ BK vs AB COPENHAGEN,2-2 (1-0),Asian handicap,AB COPENHAGEN +0.25,2.11,,100,55.50,Half win,Chris Tomas,Football,2014-05-24 12:40:06
+2014-05-24 15:00:00,Denmark,Bet25 Liga,BRONSHOJ BK vs AB COPENHAGEN,2-2 (1-0),Asian handicap,AB COPENHAGEN +0.25,2.11,,100,55.50,Half win,Chris Tomas,Football,2014-05-24 12:40:06
 2014-05-21 19:05:00,Sweden,Allsvenskan,DJURGARDENS IF vs IFK GOTHENBURG,0-0 (0-0),Asian handicap,IFK GOTHENBURG +0,2.09,,100,0.00,Void,Chris Tomas,Football,2014-05-21 15:19:05
 2014-05-21 19:00:00,Sweden,Allsvenskan,HELSINGBORGS IF vs AATVIDABERG FF,0-0 (0-0),Asian handicap,AATVIDABERG FF +0.50,2.01,,100,101.00,Win,Chris Tomas,Football,2014-05-21 15:13:02
-2014-05-21 18:30:00,Denmark,Viasat Sport Divisionen,SILKEBORG IF vs FC FREDERICIA,4-0 (1-0),Asian handicap,SILKEBORG IF -1.00,1.83,,100,83.00,Win,Chris Tomas,Football,2014-05-21 15:34:03
+2014-05-21 18:30:00,Denmark,Bet25 Liga,SILKEBORG IF vs FC FREDERICIA,4-0 (1-0),Asian handicap,SILKEBORG IF -1.00,1.83,,100,83.00,Win,Chris Tomas,Football,2014-05-21 15:34:03
 2014-05-20 19:00:00,Sweden,Allsvenskan,BK HACKEN vs KALMAR FF,4-1 (2-1),Match Odds,BK HACKEN,2.04,,100,104.00,Win,Chris Tomas,Football,2014-05-20 17:03:04
 2014-05-19 19:00:00,Sweden,Allsvenskan,OREBRO SK vs GEFLE IF,2-2 (0-1),Asian handicap,GEFLE IF +0.50,1.88,,100,88.00,Win,Chris Tomas,Football,2014-05-19 14:07:02
 2014-05-18 01:30:00,Argentina,"Primera Division, Clausura",CA ROSARIO CENTRAL vs ARGENTINOS JRS,3-2 (2-0),Asian handicap,CA ROSARIO CENTRAL -1.00,1.79,,100,0.00,Void,Chris Tomas,Football,2014-05-17 13:29:02
 2014-05-17 20:00:00,Belgium,"Pro League, Europa League Playoffs, Knockout stage",KV OOSTENDE vs KV KORTRIJK,9-8 (0-0),Over / Under,Over +2.50,2.01,,100,101.00,Win,Chris Tomas,Football,2014-05-17 14:59:02
 2014-05-17 19:00:00,Croatia,1. HNL,NK ZADAR vs NK ISTRA 1961,1-0 (1-0),Asian handicap,NK ZADAR -1.00,1.85,,100,0.00,Void,Chris Tomas,Football,2014-05-17 15:05:05
-2014-05-16 18:30:00,Denmark,Viasat Sport Divisionen,HVIDOVRE IF vs SILKEBORG IF,3-3 (1-2),Asian handicap,SILKEBORG IF -1.00,1.98,,100,-100.00,Lost,Chris Tomas,Football,2014-05-16 15:09:02
+2014-05-16 18:30:00,Denmark,Bet25 Liga,HVIDOVRE IF vs SILKEBORG IF,3-3 (1-2),Asian handicap,SILKEBORG IF -1.00,1.98,,100,-100.00,Lost,Chris Tomas,Football,2014-05-16 15:09:02
 2014-05-16 17:30:00,Finland,Veikkausliiga,HJK HELSINKI vs MYPA MYLLYKOSKI,4-0 (2-0),Over / Under,Over +2.75,1.93,,100,93.00,Win,Chris Tomas,Football,2014-05-16 15:13:02
 2014-05-15 16:30:00,Russia,Premier League,FC SPARTAK MOSCOW vs FC DINAMO MOSCOW,3-2 (0-1),Asian handicap,FC SPARTAK MOSCOW +0.25,1.89,,100,89.00,Win,Chris Tomas,Football,2014-05-15 11:09:02
 2014-05-14 18:30:00,Switzerland,Challenge League,FC LOCARNO vs FC LUGANO,0-3 (0-2),Asian handicap,FC LOCARNO +0,1.95,,100,-100.00,Lost,Chris Tomas,Football,2014-05-14 13:21:02
@@ -762,22 +764,22 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-04-27 16:00:00,Ukraine,Premier League,FC ZORYA LUGANSK vs GOVERLA-UZHGOROD,1-0 (0-0),Asian handicap,FC ZORYA LUGANSK -0.75,1.86,,100,43.00,Half win,Chris Tomas,Football,2014-04-27 12:54:03
 2014-04-26 20:45:00,Italy,Serie A,INTER MILAN vs SSC NAPOLI,0-0 (0-0),Over / Under,Over +2.75,1.95,,100,-100.00,Lost,Chris Tomas,Football,2014-04-26 13:59:01
 2014-04-26 18:00:00,Belgium,Jupiler Pro League,SPORTING LOKEREN vs CLUB BRUGGE,1-3 (1-0),Asian handicap,CLUB BRUGGE -0.25,1.95,,100,95.00,Win,Chris Tomas,Football,2014-04-26 13:51:02
-2014-04-26 17:00:00,Denmark,SAS Ligaen,ODENSE BK vs AALBORG BK,2-3 (0-1),Match Odds,AALBORG BK,2.28,,100,128.00,Win,Chris Tomas,Football,2014-04-26 13:55:03
+2014-04-26 17:00:00,Denmark,Superliga,ODENSE BK vs AALBORG BK,2-3 (0-1),Match Odds,AALBORG BK,2.28,,100,128.00,Win,Chris Tomas,Football,2014-04-26 13:55:03
 2014-04-25 19:00:00,Sweden,Allsvenskan,OREBRO SK vs AATVIDABERG FF,3-2 (3-0),Asian handicap,AATVIDABERG FF +0.25,2.02,,100,-100.00,Lost,Chris Tomas,Football,2014-04-25 12:29:01
 2014-04-24 21:05:00,European cups,UEFA Europa League,BENFICA LISBON vs JUVENTUS TURIN,2-1 (1-0),Asian handicap,BENFICA LISBON +0,1.91,,100,91.00,Win,Chris Tomas,Football,2014-04-24 19:25:03
 2014-04-24 18:30:00,Ukraine,Premier League,VOLYN LUTSK vs METALIST KHARKIV,1-4 (0-1),Over / Under,Over +2.50,1.82,,100,82.00,Win,Chris Tomas,Football,2014-04-24 13:14:02
 2014-04-23 20:45:00,European cups,UEFA Champions League,REAL MADRID vs BAYERN MUNICH,1-0 (1-0),Asian handicap,REAL MADRID -0.25,2.11,,100,111.00,Win,Chris Tomas,Football,2014-04-23 16:05:04
 2014-04-23 16:00:00,Ukraine,Premier League,FC ZORYA LUGANSK vs KARPATY LVIV,2-2 (0-1),Match Odds,FC ZORYA LUGANSK,1.80,,100,-100.00,Lost,Chris Tomas,Football,2014-04-22 23:44:03
-2014-04-21 17:00:00,Denmark,SAS Ligaen,AGF AARHUS vs BRONDBY IF,1-2 (1-1),Match Odds,BRONDBY IF,1.92,,100,92.00,Win,Chris Tomas,Football,2014-04-21 13:36:03
+2014-04-21 17:00:00,Denmark,Superliga,AGF AARHUS vs BRONDBY IF,1-2 (1-1),Match Odds,BRONDBY IF,1.92,,100,92.00,Win,Chris Tomas,Football,2014-04-21 13:36:03
 2014-04-21 15:00:00,Sweden,Allsvenskan,AATVIDABERG FF vs GEFLE IF,2-2 (1-1),Asian handicap,GEFLE IF +0.50,1.98,,100,98.00,Win,Chris Tomas,Football,2014-04-21 13:48:02
 2014-04-19 21:20:00,Brazil,Brasilero Serie B,BRAGANTINO SP vs NAUTICO PE,2-2 (1-0),Match Odds,BRAGANTINO SP,1.93,,100,-100.00,Lost,Chris Tomas,Football,2014-04-18 16:59:02
 2014-04-19 16:00:00,Scotland,First Division,GREENOCK MORTON FC vs FC DUNDEE,1-0 (0-0),Asian handicap,FC DUNDEE -0.75,1.83,,100,-100.00,Lost,Chris Tomas,Football,2014-04-19 00:12:03
-2014-04-18 19:00:00,Denmark,SAS Ligaen,AGF AARHUS vs FC MIDTJYLLAND,0-4 (0-2),Match Odds,FC MIDTJYLLAND,1.87,,100,87.00,Win,Chris Tomas,Football,2014-04-18 15:18:02
+2014-04-18 19:00:00,Denmark,Superliga,AGF AARHUS vs FC MIDTJYLLAND,0-4 (0-2),Match Odds,FC MIDTJYLLAND,1.87,,100,87.00,Win,Chris Tomas,Football,2014-04-18 15:18:02
 2014-04-17 20:30:00,Belgium,Jupiler Pro League,STANDARD LIEGE vs SPORTING LOKEREN,2-2 (0-1),Over / Under,Over +2.75,2.02,,100,102.00,Win,Chris Tomas,Football,2014-04-17 13:41:02
 2014-04-17 02:30:00,Chile,Copa Chile,DEPORTES IQUIQUE vs HUACHIPATO,3-1 (2-0),Match Odds,DEPORTES IQUIQUE,2.14,,100,114.00,Win,Chris Tomas,Football,2014-04-16 14:59:02
-2014-04-16 20:00:00,Denmark,SAS Ligaen,VIBORG FF vs AALBORG BK,0-2 (0-0),Asian handicap,AALBORG BK -0.75,2.13,,100,113.00,Win,Chris Tomas,Football,2014-04-15 19:58:02
+2014-04-16 20:00:00,Denmark,Superliga,VIBORG FF vs AALBORG BK,0-2 (0-0),Asian handicap,AALBORG BK -0.75,2.13,,100,113.00,Win,Chris Tomas,Football,2014-04-15 19:58:02
 2014-04-14 20:15:00,Germany,2. Bundesliga,DYNAMO DRESDEN vs 1860 MUNICH,4-2 (4-1),Asian handicap,DYNAMO DRESDEN -0.50,1.98,,100,98.00,Win,Chris Tomas,Football,2014-04-14 14:21:02
-2014-04-13 19:00:00,Denmark,SAS Ligaen,AALBORG BK vs BRONDBY IF,2-0 (2-0),Asian handicap,BRONDBY IF +0.25,2.05,,100,-100.00,Lost,Chris Tomas,Football,2014-04-13 16:49:02
+2014-04-13 19:00:00,Denmark,Superliga,AALBORG BK vs BRONDBY IF,2-0 (2-0),Asian handicap,BRONDBY IF +0.25,2.05,,100,-100.00,Lost,Chris Tomas,Football,2014-04-13 16:49:02
 2014-04-13 14:00:00,Russia,Premier League,FC RUBIN KAZAN vs FC KUBAN KRASNODAR,0-2 (0-1),Asian handicap,FC KUBAN KRASNODAR +0.50,1.83,,100,83.00,Win,Chris Tomas,Football,2014-04-12 19:44:02
 2014-04-12 19:00:00,Austria,tipp3-Bundesliga,SK RAPID VIENNA vs ADMIRA WACKER,0-0 (0-0),Asian handicap,SK RAPID VIENNA -1.00,2.15,,100,-100.00,Lost,Chris Tomas,Football,2014-04-12 17:31:02
 2014-04-12 19:00:00,Croatia,1. HNL,NK OSIJEK vs NK ZADAR,4-0 (1-0),Asian handicap,NK OSIJEK -0.75,2.00,,100,100.00,Win,Chris Tomas,Football,2014-04-11 22:58:02
@@ -795,7 +797,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2014-04-04 16:15:00,Russia,Premier League,FC KUBAN KRASNODAR vs FC TOM TOMSK,2-0 (0-0),Asian handicap,FC TOM TOMSK +0.50,2.14,,100,-100.00,Lost,Chris Tomas,Football,2014-04-03 20:32:02
 2014-04-04 01:45:00,Copa Libertadores,Copa Libertadores,UNIVERSIDAD DE CHILE vs CRUZEIRO MG,0-2 (0-2),Match Odds,CRUZEIRO MG,2.69,,100,169.00,Win,Chris Tomas,Football,2014-04-03 12:40:05
 2014-04-03 21:05:00,European cups,UEFA Europa League,AZ ALKMAAR vs BENFICA LISBON,0-1 (0-0),Asian handicap,BENFICA LISBON -0.75,1.90,,100,45.00,Half win,Chris Tomas,Football,2014-04-03 16:33:02
-2014-04-03 18:30:00,Denmark,Viasat Sport Divisionen,AC HORSENS vs HOBRO IK,2-0 (0-0),Asian handicap,AC HORSENS -0.75,1.98,,100,98.00,Win,Chris Tomas,Football,2014-04-03 12:20:03
+2014-04-03 18:30:00,Denmark,Bet25 Liga,AC HORSENS vs HOBRO IK,2-0 (0-0),Asian handicap,AC HORSENS -0.75,1.98,,100,98.00,Win,Chris Tomas,Football,2014-04-03 12:20:03
 2014-04-02 20:45:00,Scotland,Premier League,HEART OF MIDLOTHIAN vs ABERDEEN FC,1-1 (0-0),Over / Under,Over +2.75,2.24,,100,-100.00,Lost,Chris Tomas,Football,2014-04-01 23:27:02
 2014-04-02 20:45:00,European cups,UEFA Champions League,PARIS ST GERMAIN vs CHELSEA FC,3-1 (1-1),Match Odds,PARIS ST GERMAIN,2.06,,100,106.00,Win,Chris Tomas,Football,2014-04-01 23:12:02
 2014-04-02 20:00:00,Netherlands,Jupiler League,MVV MAASTRICHT vs FC DEN BOSCH,0-1 (0-1),Asian handicap,FC DEN BOSCH +0,2.09,,100,109.00,Win,Chris Tomas,Football,2014-04-01 23:35:02
@@ -821,7 +823,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-09-25 19:00:00,Sweden,Allsvenskan,BK HACKEN vs SYRIANSKA FC,4-0 (1-0),Asian handicap,BK HACKEN -1.75,1.92,,100,92.00,Win,Chris Tomas,Football,2013-09-25 01:50:04
 2013-09-25 00:30:00,Brazil,Brasilero Serie B,PAYSANDU PA vs CHAPECOENSE SC,2-1 (2-0),Asian handicap,PAYSANDU PA -1.50,5.25,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 23:30:05
 2013-09-24 22:00:00,Spain,Liga BBVA,MALAGA CF vs UD ALMERIA,2-0 (0-0),Match Odds,UD ALMERIA,5.90,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 20:15:04
-2013-09-24 20:00:00,Denmark,Ekstra Bladet Cup,HB KOGE vs AALBORG BK,1-2 (1-1),Match Odds 1st Half,HB KOGE Half time,4.40,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 13:29:02
+2013-09-24 20:00:00,Denmark,Landspokal Cup,HB KOGE vs AALBORG BK,1-2 (1-1),Match Odds 1st Half,HB KOGE Half time,4.40,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 13:29:02
 2013-09-24 19:05:00,Sweden,Allsvenskan,OSTERS IF vs KALMAR FF,1-2 (0-1),Match Odds,KALMAR FF,3.31,,100,231.00,Win,Chris Tomas,Football,2013-09-24 13:20:04
 2013-09-24 18:00:00,Poland,Ekstraklasa,ZAWISZA BYDGOSZCZ vs KGHM ZAGLEBIE LUBIN,2-0 (0-0),Match Odds,KGHM ZAGLEBIE LUBIN,3.85,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 13:40:05
 2013-09-24 01:30:00,Argentina,Primera B Nacional,DOUGLAS HAIG vs CA ALDOSIVI,1-1 (0-1),Match Odds,CA ALDOSIVI,4.33,,100,-100.00,Lost,Chris Tomas,Football,2013-09-24 00:28:02
@@ -879,7 +881,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-08-30 21:00:00,Ireland,Airtricity Premier Division,SHELBOURNE DUBLIN FC vs SHAMROCK ROVERS FC,1-2 (0-2),Asian handicap,SHAMROCK ROVERS FC -0.75,1.98,,100,49.00,Half win,Chris Tomas,Football,2013-08-30 13:57:03
 2013-08-29 19:30:00,European cups,UEFA Europa League,BESIKTAS ISTANBUL vs TROMSO IL,2-0 (0-0),Asian handicap,BESIKTAS ISTANBUL -1.50,2.01,,100,101.00,Win,Chris Tomas,Football,2013-08-29 15:55:02
 2013-08-28 20:45:00,European cups,UEFA Champions League,NK MARIBOR vs FC VIKTORIA PLZEN,0-1 (0-1),Over / Under,Over +2.75,2.11,,100,-100.00,Lost,Chris Tomas,Football,2013-08-28 13:26:02
-2013-08-27 17:45:00,Denmark,Ekstra Bladet Cup,ODDER IGF vs FC SYDVEST 05,1-1 (1-1),Asian handicap,FC SYDVEST 05 -0.25,1.85,,100,-50.00,Half lost,Chris Tomas,Football,2013-08-27 13:12:02
+2013-08-27 17:45:00,Denmark,Landspokal Cup,ODDER IGF vs FC SYDVEST 05,1-1 (1-1),Asian handicap,FC SYDVEST 05 -0.25,1.85,,100,-50.00,Half lost,Chris Tomas,Football,2013-08-27 13:12:02
 2013-08-26 21:00:00,Spain,Liga BBVA,GRANADA CF vs REAL MADRID,0-1 (0-1),Asian handicap,REAL MADRID -1.25,1.94,,100,-50.00,Half lost,Chris Tomas,Football,2013-08-26 17:14:02
 2013-08-26 20:15:00,Germany,2. Bundesliga,FC ST. PAULI vs DYNAMO DRESDEN,2-1 (0-0),Asian handicap,FC ST. PAULI -0.75,2.11,,100,55.50,Half win,Chris Tomas,Football,2013-08-26 17:12:03
 2013-08-26 19:00:00,Portugal,Liga Vitalis,FC PORTO B vs FC PENAFIEL,0-0 (0-0),Match Odds,FC PORTO B,1.95,,100,-100.00,Lost,Chris Tomas,Football,2013-08-26 17:05:04
@@ -901,11 +903,11 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-08-17 19:00:00,Portugal,Liga Vitalis,FC PORTO B vs CD TROFENSE,2-1 (1-0),Match Odds,FC PORTO B,1.80,,100,80.00,Win,Chris Tomas,Football,2013-08-17 17:26:03
 2013-08-17 16:15:00,Russia,Premier League,ZENIT ST. PETERSBURG vs FC ANZHI MAKHACHKALA,3-0 (2-0),Asian handicap,ZENIT ST. PETERSBURG -1.25,2.04,,100,104.00,Win,Chris Tomas,Football,2013-08-16 13:32:02
 2013-08-16 20:00:00,Netherlands,Jupiler League,MVV MAASTRICHT vs AJAX,1-0 (0-0),Match Odds,MVV MAASTRICHT,1.97,,100,97.00,Win,Chris Tomas,Football,2013-08-16 13:30:06
-2013-08-16 18:30:00,Denmark,SAS Ligaen,FC MIDTJYLLAND vs BRONDBY IF,5-2 (2-1),Asian handicap,FC MIDTJYLLAND -0.50,2.02,,100,102.00,Win,Chris Tomas,Football,2013-08-16 13:57:02
+2013-08-16 18:30:00,Denmark,Superliga,FC MIDTJYLLAND vs BRONDBY IF,5-2 (2-1),Asian handicap,FC MIDTJYLLAND -0.50,2.02,,100,102.00,Win,Chris Tomas,Football,2013-08-16 13:57:02
 2013-08-15 19:20:00,Sweden,Superettan,GAIS vs ANGELHOLMS FF,2-1 (2-1),Asian handicap,ANGELHOLMS FF +0.50,1.96,,100,-100.00,Lost,Chris Tomas,Football,2013-08-14 22:57:02
-2013-08-14 18:30:00,Denmark,Ekstra Bladet Cup,VARDE IF vs VEJLE BK,1-2,Asian handicap,VEJLE BK -2.50,1.80,,100,-100.00,Lost,Chris Tomas,Football,2013-08-14 16:42:02
+2013-08-14 18:30:00,Denmark,Landspokal Cup,VARDE IF vs VEJLE BK,1-2,Asian handicap,VEJLE BK -2.50,1.80,,100,-100.00,Lost,Chris Tomas,Football,2013-08-14 16:42:02
 2013-08-14 18:00:00,International Youth,U21 Friendly Games,CZECH REPUBLIC vs NETHERLANDS,1-0 (0-0),Asian handicap,NETHERLANDS -0.25,2.17,,100,-100.00,Lost,Chris Tomas,Football,2013-08-14 14:08:03
-2013-08-13 18:30:00,Denmark,Ekstra Bladet Cup,ODDER IGF vs FC SKANDERBORG,2-2 (0-0),Match Odds,ODDER IGF,2.88,,100,-100.00,Lost,Chris Tomas,Football,2013-08-13 15:24:03
+2013-08-13 18:30:00,Denmark,Landspokal Cup,ODDER IGF vs FC SKANDERBORG,2-2 (0-0),Match Odds,ODDER IGF,2.88,,100,-100.00,Lost,Chris Tomas,Football,2013-08-13 15:24:03
 2013-08-13 17:00:00,International Youth,U21 Euro Qualification,LIECHTENSTEIN vs CROATIA,0-5 (0-1),Asian handicap,CROATIA -2.50,1.84,,100,84.00,Win,Chris Tomas,Football,2013-08-13 15:09:03
 2013-08-11 18:00:00,Ukraine,Premier League,FC METALURG DONETSK vs ARSENAL KIEV,2-0 (2-0),Asian handicap,ARSENAL KIEV +0.25,2.06,,100,-100.00,Lost,Chris Tomas,Football,2013-08-11 12:43:03
 2013-08-11 18:00:00,Belgium,Jupiler Pro League,RSC ANDERLECHT vs KAA GENT,4-1 (2-0),Asian handicap,RSC ANDERLECHT -1.00,1.99,,100,99.00,Win,Chris Tomas,Football,2013-08-10 17:59:02
@@ -914,14 +916,14 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-08-10 19:00:00,Austria,tipp3-Bundesliga,ADMIRA WACKER vs SK STURM GRAZ,1-1 (0-1),Asian handicap,SK STURM GRAZ +0,1.92,,100,0.00,Void,Chris Tomas,Football,2013-08-10 13:15:04
 2013-08-10 15:30:00,Poland,Ekstraklasa,KS WIDZEW LODZ vs KS GORNIK ZABRZE,0-3 (0-2),Asian handicap,KS GORNIK ZABRZE -0.25,2.12,,100,112.00,Win,Chris Tomas,Football,2013-08-09 19:30:05
 2013-08-09 20:15:00,Croatia,1. HNL,RNK SPLIT vs NK ZADAR,1-3 (1-1),Asian handicap,RNK SPLIT -1.25,1.99,,100,-100.00,Lost,Chris Tomas,Football,2013-08-09 00:24:02
-2013-08-09 18:30:00,Denmark,SAS Ligaen,VIBORG FF vs BRONDBY IF,2-2 (1-0),Asian handicap,VIBORG FF +0.25,1.83,,100,41.50,Half win,Chris Tomas,Football,2013-08-09 00:21:02
+2013-08-09 18:30:00,Denmark,Superliga,VIBORG FF vs BRONDBY IF,2-2 (1-0),Asian handicap,VIBORG FF +0.25,1.83,,100,41.50,Half win,Chris Tomas,Football,2013-08-09 00:21:02
 2013-08-08 19:30:00,European cups,UEFA Europa League,BURSASPOR vs FK VOJVODINA,0-3 (0-2),Asian handicap,BURSASPOR -1.00,1.93,,100,-100.00,Lost,Chris Tomas,Football,2013-08-08 16:07:02
 2013-08-07 18:00:00,Portugal,Carlsberg Cup,UD OLIVEIRENSE vs CD FEIRENSE,2-1 (2-1),Asian handicap,CD FEIRENSE +0,2.12,,100,-100.00,Lost,Chris Tomas,Football,2013-08-07 13:03:55
 2013-08-05 20:15:00,Croatia,1. HNL,NK ISTRA 1961 vs NK LOKOMOTIVA ZAGREB,1-2 (0-0),Asian handicap,NK ISTRA 1961 +0,1.97,,80,-80.00,Lost,Chris Tomas,Football,2013-08-05 00:06:03
 2013-08-05 20:00:00,Netherlands,Jupiler League,AJAX vs SC TELSTAR,2-0 (1-0),Match Odds,AJAX,1.80,,80,64.00,Win,Chris Tomas,Football,2013-08-05 00:01:05
 2013-08-05 19:00:00,Sweden,Superettan,IK BRAGE vs ANGELHOLMS FF,0-1 (0-0),Match Odds,ANGELHOLMS FF,1.98,,80,78.40,Win,Chris Tomas,Football,2013-08-05 17:58:02
 2013-08-04 20:30:00,Belgium,Jupiler Pro League,KV OOSTENDE vs CLUB BRUGGE,1-2 (1-1),Asian handicap,CLUB BRUGGE -1.00,1.91,,80,0.00,Void,Chris Tomas,Football,2013-08-03 03:20:04
-2013-08-04 15:00:00,Denmark,Viasat Sport Divisionen,HJORRING FC vs AC HORSENS,0-1 (0-1),Asian handicap,AC HORSENS -0.75,2.06,,80,42.40,Half win,Chris Tomas,Football,2013-08-03 15:06:03
+2013-08-04 15:00:00,Denmark,Bet25 Liga,HJORRING FC vs AC HORSENS,0-1 (0-1),Asian handicap,AC HORSENS -0.75,2.06,,80,42.40,Half win,Chris Tomas,Football,2013-08-03 15:06:03
 2013-08-03 15:00:00,Finland,Veikkausliiga,ROVANIEMI PALLOSEURA vs FF JARO,0-0 (0-0),Match Odds,ROVANIEMI PALLOSEURA,2.00,,80,-80.00,Lost,Chris Tomas,Football,2013-08-03 13:10:03
 2013-08-01 19:00:00,European cups,UEFA Europa League,HNK RIJEKA vs MSK ZILINA,2-1 (1-0),Asian handicap,HNK RIJEKA -0.75,2.06,,80,42.40,Half win,Chris Tomas,Football,2013-08-01 15:18:03
 2013-08-01 18:00:00,European cups,UEFA Europa League,FC DINAMO MINSK vs TRABZONSPOR,0-1 (0-1),Asian handicap,TRABZONSPOR -0.50,2.11,,80,88.80,Win,Chris Tomas,Football,2013-07-31 19:41:03
@@ -986,7 +988,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-05-18 13:30:00,Germany,3.Liga,HANSA ROSTOCK vs RW ERFURT,0-0 (0-0),Asian handicap,HANSA ROSTOCK -0.50,2.14,,60,-60.00,Lost,Chris Tomas,Football,2013-05-18 11:10:05
 2013-05-16 20:30:00,Belgium,Jupiler Pro League,SPORTING LOKEREN vs RSC ANDERLECHT,2-4 (0-2),Asian handicap,RSC ANDERLECHT -1.00,1.80,,70,56.00,Win,Chris Tomas,Football,2013-05-16 18:26:03
 2013-05-16 19:45:00,Switzerland,Axpo Super League,FC SION vs GRASSHOPPERS ZURICH,0-4 (0-2),Asian handicap,GRASSHOPPERS ZURICH -0.25,1.96,,70,67.20,Win,Chris Tomas,Football,2013-05-14 19:48:03
-2013-05-16 19:00:00,Denmark,SAS Ligaen,SILKEBORG IF vs FC MIDTJYLLAND,1-1 (0-0),Match Odds,FC MIDTJYLLAND,1.80,,80,-80.00,Lost,Chris Tomas,Football,2013-05-15 17:53:01
+2013-05-16 19:00:00,Denmark,Superliga,SILKEBORG IF vs FC MIDTJYLLAND,1-1 (0-0),Match Odds,FC MIDTJYLLAND,1.80,,80,-80.00,Lost,Chris Tomas,Football,2013-05-15 17:53:01
 2013-05-12 14:30:00,Turkey,Bank Asya 1. Lig,SAMSUNSPOR vs ADANA DEMIRSPOR,1-1 (1-0),Match Odds,ADANA DEMIRSPOR,2.40,,60,-60.00,Lost,Chris Tomas,Football,2013-05-12 00:36:03
 2013-05-12 13:45:00,Switzerland,Axpo Super League,FC BASEL vs SERVETTE GENEVA FC,2-0 (2-0),Asian handicap,FC BASEL -1.50,1.93,,70,65.10,Win,Chris Tomas,Football,2013-05-12 00:45:03
 2013-05-11 19:00:00,Croatia,1. HNL,NK OSIJEK vs NK INTER ZAPRESIC,0-2 (0-0),Asian handicap,NK INTER ZAPRESIC +0.25,1.99,,80,79.20,Win,Chris Tomas,Football,2013-05-10 13:10:03
@@ -1018,9 +1020,9 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2013-04-13 18:00:00,Belgium,Jupiler Pro League,LIERSE SK vs KAA GENT,1-2 (1-1),Asian handicap,KAA GENT -0.25,1.81,,70,56.70,Win,Chris Tomas,Football,2013-04-13 12:52:06
 2013-04-13 15:00:00,Turkey,Turkcell Super Lig,MERSIN IDMAN YURDU SK vs BURSASPOR,0-1 (0-0),Asian handicap,BURSASPOR -0.50,1.82,,80,65.60,Win,Chris Tomas,Football,2013-04-11 20:28:05
 2013-04-12 19:00:00,Italy,Serie B,US GROSSETO vs FC EMPOLI,0-1 (0-1),Asian handicap,FC EMPOLI -0.50,1.88,,80,70.40,Win,Chris Tomas,Football,2013-04-12 12:54:07
-2013-04-10 18:00:00,Denmark,Ekstra Bladet Cup,RANDERS FC vs AC HORSENS,1-0 (0-0),Match Odds,RANDERS FC,2.11,,70,77.70,Win,Chris Tomas,Football,2013-04-10 15:35:04
+2013-04-10 18:00:00,Denmark,Landspokal Cup,RANDERS FC vs AC HORSENS,1-0 (0-0),Match Odds,RANDERS FC,2.11,,70,77.70,Win,Chris Tomas,Football,2013-04-10 15:35:04
 2013-04-07 14:30:00,Netherlands,Eredivisie,FC GRONINGEN vs SC HEERENVEEN,3-1 (2-0),Asian handicap,SC HEERENVEEN +0,1.90,,80,-80.00,Lost,Chris Tomas,Football,2013-04-07 02:23:04
-2013-04-07 14:00:00,Denmark,SAS Ligaen,AC HORSENS vs FC NORDSJALLAND,0-2 (0-1),Asian handicap,FC NORDSJALLAND -0.50,2.05,,80,84.00,Win,Chris Tomas,Football,2013-04-07 02:13:02
+2013-04-07 14:00:00,Denmark,Superliga,AC HORSENS vs FC NORDSJALLAND,0-2 (0-1),Asian handicap,FC NORDSJALLAND -0.50,2.05,,80,84.00,Win,Chris Tomas,Football,2013-04-07 02:13:02
 2013-04-06 18:45:00,Netherlands,Eredivisie,VITESSE ARNHEM vs NAC BREDA,3-0 (1-0),Asian handicap,VITESSE ARNHEM -1.25,1.98,,80,78.40,Win,Chris Tomas,Football,2013-04-06 12:59:04
 2013-04-06 16:00:00,Scotland,Third Division,PETERHEAD FC vs EAST STIRLING,6-0 (5-0),Asian handicap,PETERHEAD FC -1.25,1.95,,80,76.00,Win,Chris Tomas,Football,2013-04-06 12:43:04
 2013-04-06 02:45:00,Colombia,Apertura I,ATLETICO HUILA vs DEPORTES TOLIMA,2-2 (1-1),Asian handicap,ATLETICO HUILA -0.25,2.00,,80,-40.00,Half lost,Chris Tomas,Football,2013-04-05 13:57:05
@@ -1238,7 +1240,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2012-11-03 00:00:00,Brazil,Brasilero Serie B,CEARA CE vs AVAI SC,0-1 (0-0),Asian handicap,CEARA CE -0.50,1.85,,50,-50.00,Lost,Chris Tomas,Football,2012-11-02 17:37:03
 2012-11-01 18:00:00,Sweden,Allsvenskan,MJALLBY AIF vs IF ELFSBORG,2-3 (1-2),Asian handicap,IF ELFSBORG -0.50,1.91,,80,72.80,Win,Chris Tomas,Football,2012-11-01 13:50:10
 2012-11-01 18:00:00,Sweden,Allsvenskan,GAIS vs GEFLE IF,2-3 (1-1),Asian handicap,GEFLE IF -0.50,1.98,,40,39.20,Win,Chris Tomas,Football,2012-11-01 13:37:02
-2012-10-31 19:00:00,Denmark,Ekstra Bladet Cup,FC NORDSJALLAND vs FC MIDTJYLLAND,2-2 (1-2),Asian handicap,FC MIDTJYLLAND +0,2.04,,50,0.00,Void,Chris Tomas,Football,2012-10-31 16:20:10
+2012-10-31 19:00:00,Denmark,Landspokal Cup,FC NORDSJALLAND vs FC MIDTJYLLAND,2-2 (1-2),Asian handicap,FC MIDTJYLLAND +0,2.04,,50,0.00,Void,Chris Tomas,Football,2012-10-31 16:20:10
 2012-10-30 19:00:00,Germany,DFB Pokal,EINTRACHT BRAUNSCHWEIG vs SC FREIBURG,0-2 (0-1),Over / Under,Over +2.50,2.06,,50,-50.00,Lost,Chris Tomas,Football,2012-10-30 11:57:03
 2012-10-29 19:05:00,Sweden,Allsvenskan,IF ELFSBORG vs GEFLE IF,2-0 (2-0),Asian handicap,IF ELFSBORG -1.25,1.84,,50,42.00,Win,Chris Tomas,Football,2012-10-29 16:39:04
 2012-10-28 20:45:00,Italy,Serie A,SSC NAPOLI vs AC CHIEVO VERONA,1-0 (0-0),Asian handicap,SSC NAPOLI -1.00,1.76,,50,0.00,Void,Chris Tomas,Football,2012-10-28 12:14:20
@@ -1326,7 +1328,7 @@ Date,Category,League,Event,Event result,Type of bet,Selection,Odds,Bookmaker,Sta
 2012-08-19 17:30:00,Finland,Veikkausliiga,VAASA PS vs FC HAKA VALKEAKOSKI,2-1 (2-1),Over / Under,Over +2.25,1.93,,48,44.64,Win,Chris Tomas,Football,2012-08-18 22:23:36
 2012-08-19 17:30:00,Finland,Veikkausliiga,FF JARO vs TPS TURKU,0-1 (0-0),Over / Under,Over +2.25,1.66,,80,-80.00,Lost,Chris Tomas,Football,2012-08-18 22:22:24
 2012-08-19 16:00:00,Switzerland,Axpo Super League,FC LUZERN vs GRASSHOPPERS ZURICH,0-2 (0-1),Over / Under,Over +2.25,1.64,,30,-15.00,Half lost,Chris Tomas,Football,2012-08-18 22:27:09
-2012-08-19 14:00:00,Denmark,SAS Ligaen,ESBJERG FB vs AC HORSENS,0-0 (0-0),Over / Under,Over +2.25,1.59,,80,-80.00,Lost,Chris Tomas,Football,2012-08-18 22:21:08
+2012-08-19 14:00:00,Denmark,Superliga,ESBJERG FB vs AC HORSENS,0-0 (0-0),Over / Under,Over +2.25,1.59,,80,-80.00,Lost,Chris Tomas,Football,2012-08-18 22:21:08
 2012-08-19 02:00:00,Brazil,Brasilero Serie A,SAO PAULO SP vs PONTE PRETA SP,3-0 (2-0),Asian handicap,SAO PAULO SP -0.75,1.79,,80,63.20,Win,Chris Tomas,Football,2012-08-18 22:16:36
 2012-08-18 19:45:00,Netherlands,Eredivisie,FC ZWOLLE vs VITESSE ARNHEM,0-1 (0-0),Over / Under,Over +2.50,1.80,,42,-42.00,Lost,Chris Tomas,Football,2012-08-17 23:03:28
 2012-08-18 17:30:00,Finland,Veikkausliiga,FC INTER TURKU vs FC HONKA,2-1 (0-0),Over / Under,Over +2.50,1.78,,52,40.56,Win,Chris Tomas,Football,2012-08-17 23:09:19
