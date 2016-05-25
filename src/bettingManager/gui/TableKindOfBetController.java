@@ -1,16 +1,15 @@
 package bettingManager.gui;
 
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
-import betadvisor.BetAdvisorElement;
-import betadvisor.BetAdvisorParser;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 public class TableKindOfBetController extends Observable{
 	private MainController mainC;
@@ -21,7 +20,7 @@ public class TableKindOfBetController extends Observable{
 		        		"T", "T2", "T3","T", "T2", "T3","T", "T2", "T3"
 		        		);   
 	
-	@FXML TableView tableKindOfBet;
+	@FXML TableView<TableValue> tableKindOfBet;
 	
 	/**
 	 * Initialize
@@ -34,8 +33,9 @@ public class TableKindOfBetController extends Observable{
 	}
 	
 	private void inflateTable(String [] tableTitles) {
-		for(int i=0; i<tableTitles.length; i+=1) {
-			TableColumn newTC = new TableColumn(tableTitles[i]);
+		for(int i = 0; i<tableTitles.length; i+=1) {
+			TableColumn<TableValue, String> newTC = new TableColumn<TableValue, String>(tableTitles[i]);
+			newTC.setCellValueFactory(new PropertyValueFactory<TableValue, String>(TableTitles.kindOfBetTableValueNames[i]));
 			tableKindOfBet.getColumns().add(newTC);
 		}
 		
@@ -52,6 +52,21 @@ public class TableKindOfBetController extends Observable{
 //		}
 
 //		tableKindOfBet.setItems(betAdvisorList);
+		TableValue tv = new TableValue();
+		tv.setKindOfBet(new String("KindofBet"));
+		tv.setAverageYield(new String("yieldi"));
+		tv.setAverageOdds(new String("works"));
+		tv.setNumberOfBets(new String("3434"));
+		tv.setPercentWeGet(new String("works"));
+		tv.setPercentOver95(new String("works"));
+		tv.setAverageLiquidity(new String("works"));
+		tv.setPercentOfTipsFound(new String("works"));
+		tv.setFlatStakeYield(new String("flatt"));
+		List<TableValue> arr = new ArrayList<TableValue>();
+		arr.add(tv);
+		ObservableList data = FXCollections.observableList(arr);
+		
+		tableKindOfBet.getItems().setAll(data);
 		
 		/**
 		 * TEST TO FILL IN TABLES WITH DATA
