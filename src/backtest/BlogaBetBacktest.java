@@ -29,6 +29,7 @@ import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
 import betadvisor.BetAdvisorElement;
+import betadvisor.BetAdvisorElement;
 import bettingBot.TeamMapping;
 import blogaBetHistoricalDataParsing.BlogaBetComparator;
 import blogaBetHistoricalDataParsing.BlogaBetElement;
@@ -44,14 +45,13 @@ import weka.core.Instance;
 
 public class BlogaBetBacktest {
 	
-	public static final String blogaBetBackTestPath = "blogaBetBackTestBets.dat";
-	public static final String blogaBetBackTestRecordPath = "blogaBetBackTestRecords.dat";
-	public static final String blogaBetBackTestLiquidityPath = "blogaBetBackTestLiquidities.dat";
-
+	public static final String BLOGABET_BACKTEST_PATH = "blogaBetBackTestBets.dat";
+	public static final String BLOGABET_BACKTEST_RECORD_PATH = "blogaBetBackTestRecords.dat";
+	public static final String BLOGABET_BACKTEST_LIQUIDITY_PATH = "blogaBetBackTestLiquidities.dat";
+	public static final String BLOGABET_BACKTEST_BESTODDS_PATH = "blogaBetBackTestBestOdds.dat";
+	
 	public void runBacktest() throws IOException{
-		
-		
-		
+			
 		BlogaBetParser parser = new BlogaBetParser();
 		List<BlogaBetElement> blogaBetList = parser.parseSheets("blogaBetTipsterData/csv");
 		Collections.sort(blogaBetList, new BlogaBetComparator());
@@ -103,6 +103,8 @@ public class BlogaBetBacktest {
 		List<HistoricalDataElement> records = new ArrayList<HistoricalDataElement>();
 		// This list holds all the liquidities for the bets, the indexes correspond to the bets that they were calculated for
 		List<Double> liquidities = new ArrayList<Double>();
+		// This list holds all the best Odds for the bets, the indexes correspond to the bets that they were calculated for
+		List<Double> bestOddsList = new ArrayList<Double>();
 		
 		// Liquidity Calculation
 		double evAllPossibleBetsTakenMaxLiquidity = 0;
@@ -652,6 +654,7 @@ public class BlogaBetBacktest {
 				bets.add(tipp);
 				records.add(bestSource);
 				liquidities.add(liquidity);
+				bestOddsList.add(bestOdds);
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / suggestedOdds;
@@ -1051,6 +1054,11 @@ public class BlogaBetBacktest {
 					System.out.println();
 				}
 				
+				bets.add(tipp);
+				records.add(bestSource);
+				liquidities.add(liquidity);
+				bestOddsList.add(bestOdds);
+				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / suggestedOdds;
 				if(tipp.getTypeOfBet().equals("Match Odds Half Time")){
@@ -1443,17 +1451,16 @@ public class BlogaBetBacktest {
             }
         }
         // Save result lists
-        FileOutputStream fileOutput = new FileOutputStream(blogaBetBackTestPath);
+        FileOutputStream fileOutput = new FileOutputStream(BLOGABET_BACKTEST_PATH);
         BufferedOutputStream br = new BufferedOutputStream(fileOutput);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(bets);
-        objectOutputStream.close();
-        fileOutput = new FileOutputStream(blogaBetBackTestRecordPath);
+        fileOutput = new FileOutputStream(BLOGABET_BACKTEST_RECORD_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(records);
         objectOutputStream.close();
-        fileOutput = new FileOutputStream(blogaBetBackTestLiquidityPath);
+        fileOutput = new FileOutputStream(BLOGABET_BACKTEST_LIQUIDITY_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(liquidities);

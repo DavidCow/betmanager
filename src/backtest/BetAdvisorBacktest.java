@@ -46,9 +46,10 @@ import eastbridgeLiquidityMining.regression.PredictiveModel;
 
 public class BetAdvisorBacktest {
 	
-	public static final String betAdvisorBackTestPath = "betAdvisorBackTestBets.dat";
-	public static final String betAdvisorBackTestRecordPath = "betAdvisorBackTestRecords.dat";
-	public static final String betAdvisorBackTestLiquidityPath = "betAdvisorBackTestLiquidities.dat";
+	public static final String BETADVISOR_BACKTEST_PATH = "betAdvisorBackTestBets.dat";
+	public static final String BETADVISOR_BACKTEST_RECORD_PATH = "betAdvisorBackTestRecords.dat";
+	public static final String BETADVISOR_BACKTEST_LIQUIDITY_PATH = "betAdvisorBackTestLiquidities.dat";
+	public static final String BETADVISOR_BACKTEST_BESTODDS_PATH = "betAdvisorBackTestBestOdds.dat";
 	
 	public void runBacktest() throws IOException{
 
@@ -107,6 +108,8 @@ public class BetAdvisorBacktest {
 		List<HistoricalDataElement> records = new ArrayList<HistoricalDataElement>();
 		// This list holds all the liquidities for the bets, the indexes correspond to the bets that they were calculated for
 		List<Double> liquidities = new ArrayList<Double>();
+		// This list holds all the best Odds for the bets, the indexes correspond to the bets that they were calculated for
+		List<Double> bestOddsList = new ArrayList<Double>();
 		
 		
 		// Odds Ratio
@@ -694,6 +697,7 @@ public class BetAdvisorBacktest {
 				bets.add(tipp);
 				records.add(bestSource);
 				liquidities.add(liquidity);
+				bestOddsList.add(bestOdds);
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / tipp.getOdds();
@@ -1394,6 +1398,11 @@ public class BetAdvisorBacktest {
 					System.out.println();
 				}
 				
+				bets.add(tipp);
+				records.add(bestSource);
+				liquidities.add(liquidity);
+				bestOddsList.add(bestOdds);
+				
 				
 				bestOdds *= bestOddsFactor;
 				oddsRatio += bestOdds / tipp.getOdds();
@@ -1952,17 +1961,16 @@ public class BetAdvisorBacktest {
         frameMax.setVisible(true);
         
         // Save result lists
-        FileOutputStream fileOutput = new FileOutputStream(betAdvisorBackTestPath);
+        FileOutputStream fileOutput = new FileOutputStream(BETADVISOR_BACKTEST_PATH);
         BufferedOutputStream br = new BufferedOutputStream(fileOutput);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(bets);
-        objectOutputStream.close();
-        fileOutput = new FileOutputStream(betAdvisorBackTestRecordPath);
+        fileOutput = new FileOutputStream(BETADVISOR_BACKTEST_RECORD_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(records);
         objectOutputStream.close();
-        fileOutput = new FileOutputStream(betAdvisorBackTestLiquidityPath);
+        fileOutput = new FileOutputStream(BETADVISOR_BACKTEST_LIQUIDITY_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(liquidities);
