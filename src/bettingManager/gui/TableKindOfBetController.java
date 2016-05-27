@@ -53,18 +53,18 @@ public class TableKindOfBetController extends Observable{
 
 //		tableKindOfBet.setItems(betAdvisorList);
 		TableValue tv = new TableValue();
-		tv.setKindOfBet(new String("KindofBet"));
-		tv.setAverageYield(new String("yieldi"));
+		tv.setKindOfBet(new String("works"));
+		tv.setAverageYield(new String("works"));
 		tv.setAverageOdds(new String("works"));
-		tv.setNumberOfBets(new String("3434"));
+		tv.setNumberOfBets(new String("works"));
 		tv.setPercentWeGet(new String("works"));
 		tv.setPercentOver95(new String("works"));
 		tv.setAverageLiquidity(new String("works"));
 		tv.setPercentOfTipsFound(new String("works"));
-		tv.setFlatStakeYield(new String("flatt"));
+		tv.setFlatStakeYield(new String("works"));
 		List<TableValue> arr = new ArrayList<TableValue>();
 		arr.add(tv);
-		ObservableList data = FXCollections.observableList(arr);
+		ObservableList<TableValue> data = FXCollections.observableList(arr);
 		
 		tableKindOfBet.getItems().setAll(data);
 		
