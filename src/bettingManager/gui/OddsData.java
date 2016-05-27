@@ -36,6 +36,11 @@ public class OddsData {
 		return "Greater:"+ getGreaterThan() + " Less than:"+ getLessThan() + " Between"+getBetween()+" And" + getAnd();
 	}
 	
+	/**
+	 * Create the String for "Active Filter:"
+	 * @param title
+	 * @return
+	 */
 	public String getAllFiltersLabel(String title) {
 		String s = title + " : ";
 		boolean emptyString = true;

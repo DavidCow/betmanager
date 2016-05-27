@@ -9,41 +9,64 @@ import java.util.ArrayList;
  */
 public class FilterSettingsContainer {
 	/**
-	 * Historic / Real, both
+	 *  HISTORIC / REAL, BOTH
+	 *  dateState is an int, which can be 0,1,2
+	 *  
+	 * 	public static int CHECKBOX_GROUP1_HISTORIC = 0;
+	 *  public static int CHECKBOX_GROUP1_REAL = 1;
+	 *  public static int CHECKBOX_GROUP1_BOTH = 2;
+	 *  From the class Checkbox1Controller
+	 *  
+	 *  Represents what the user has chosen
+	 * 
 	 */
 	private int dataState = Checkbox1Controller.CHECKBOX_GROUP1_HISTORIC;
 	
-	/**
-	 * More
-	 */
-	
 	
 	/**
-	 * Site
+	 * SITE
+	 * This is a List with Strings "BlogaBet" and/or "BetAdvisor"
+	 * The ones that are in the list, are currently selected by
+	 * the user.
 	 */
 	private ArrayList<String> sitesList = new ArrayList<String>();
 	
+	
 	/**
-	 * Average odds
+	 * AVERAGE ODDS
+	 * Contains the GreaterThan, LessThan, Between-And
+	 * values "Average Odds".
+	 * IMPORTANT: Notice that a value is -1 if the user has left the TextField empty. 
 	 */
 	private OddsData oddsDataAverageOdds = new OddsData();
 	
 	/**
 	 * KoB
+	 * A list of the selected KoB's the user has chosen.
+	 * "Asian Handicap", "Over - Under", "X Result", "1 2 Result", "Final score"
+	 * The ones that are in the list, are the ones that are selected currently.
 	 */
 	private ArrayList<String> koBList = new ArrayList<String>();
 	
 	
 	/**
-	 * Liquidity
+	 * LIQUIDITY
+	 * Contains the GreaterThan, LessThan, Between-And
+	 * values "Liquidity".
+	 * IMPORTANT: Notice that a value is -1 if the user has left the TextField empty. 
 	 */
 	private OddsData oddsDataLiquidity = new OddsData();
 
 	/**
-	 * DateRange
-	 * @return
+	 * DATE RANGE
+	 * Contains information about what the user has chosen in the "Date Range" filter
+	 * What Month, Day, Before, After, Between and Last "Tips"
+	 * Please check the class Documentation (DateRangeMessage) for more detailed information.
 	 */
 	private DateRangeMessage dateRangeMessage = new DateRangeMessage();
+	
+	private String limiter = " | ";
+	
 	
 	public DateRangeMessage getDateRangeMessage() {
 		return dateRangeMessage;
@@ -104,6 +127,15 @@ public class FilterSettingsContainer {
 		this.oddsDataLiquidity = oddsDataLiquidity;
 	}
 	
+	
+
+	
+	
+	/**
+	 * Everything below this line is just for creating a String 
+	 * for "Active Filters:" in the UI.
+	 */
+
 	@Override
 	public String toString() {
 		System.out.println("--------------------------------------");
@@ -117,8 +149,13 @@ public class FilterSettingsContainer {
 		return "--------------------------------------";
 	}
 	
-	private String limiter = " | ";
+
 	
+
+	/**
+	 * This is the String for the "Active Filters:" in the UI
+	 * @return
+	 */
 	public String getActiveFiltersString() {
 		String activeFiltersString = "";
 		
@@ -155,10 +192,18 @@ public class FilterSettingsContainer {
 		return activeFiltersString;
 	}
 
+	/**
+	 * Used to assemble the "Active Filter:" string
+	 * @return
+	 */
 	private String getLiquidityString() {
 		return oddsDataLiquidity.getAllFiltersLabel("Liquidity");
 	}
 	
+	/**
+	 * Used to assemble the "Active Filter:" string
+	 * @return
+	 */
 	private String getKoBString() {
 		String koBLabel = "";
 		for(int i=0; i<getKoBList().size(); i+=1) {
@@ -171,11 +216,19 @@ public class FilterSettingsContainer {
 	}
 
 
+	/**
+	 * Used to assemble the "Active Filter:" string
+	 * @return
+	 */
 	private String getAverageOddsString() {
 		return oddsDataAverageOdds.getAllFiltersLabel("Average Odds");
 	}
 
 
+	/**
+	 * Used to assemble the "Active Filter:" string
+	 * @return
+	 */
 	private String getSitesString() {
 		String siteLabel = "";
 		for(int i=0; i<getSitesList().size(); i+=1) {
@@ -188,7 +241,7 @@ public class FilterSettingsContainer {
 	}
 	
 	/**
-	 * Real/Historic or Both string
+	 * Used to assemble the "Active Filter:" string
 	 * @return
 	 */
 	private String getDataString() {

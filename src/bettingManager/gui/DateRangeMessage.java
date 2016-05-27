@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class DateRangeMessage {
 	/**
-	 * Finals
+	 * Selected by user in "Date Range" button
 	 */
 	public static final int MONTH = 0;
 	public static final int DAY = 1;
@@ -14,21 +14,37 @@ public class DateRangeMessage {
 	public static final int BETWEEN = 4;
 	public static final int LAST = 5;
 	
+	/**
+	 * Additionally set, for example "Last Tips"
+	 */
 	public static final int LAST_STATE_TIPS = 100;
 	
 	/**
-	 * States
+	 * The "state" variable is either (Variable represents what the user has selected as Date Range filter)
+	 * MONTH  0
+	 * DAY	1
+	 * BEFORE	2 
+	 * AFTER 	3
+	 * BETWEEN 	4
+	 * LAST	5
 	 */
 	private int state = 0;
+	
+	
+	/**
+	 * The "last_state" variable is so far only
+	 * LAST_STATE_TIPS	100
+	 * If the user has selected Last Tips, then this value is set to the final int variable LAST_STATE_TIPS (see above)
+	 */
 	private int last_state = 0;
 	
 	
 	/**
 	 * Variables
 	 */
-	private Date d1;
-	private Date d2;
-	private int last_state_value;
+	private Date d1;		// If user has selected Date Range "Month", "Day", "Before", "After" -> the date is stored in d1
+	private Date d2;		// If user has selected Date Range "Between" -> the value for Between Date1 and Date2 is stored in d1 and d2.
+	private int last_state_value;	//If user has selected "Last Tips" -> last_state_value has the value, for example 5000 "Last Tips"
 	
 	public int getState() {
 		return state;
@@ -66,6 +82,12 @@ public class DateRangeMessage {
 		return ""+value;
 	}
 	
+	
+	
+	/**
+	 * String for "Active Filters:"
+	 * @return
+	 */
 	public String getAllFiltersLabel() {
 		Calendar cal = Calendar.getInstance();
 		String timeString = "";
