@@ -6,6 +6,7 @@ import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -35,7 +36,7 @@ public class StatsCalculator {
 	
 	// Filters
 	public boolean historical = true;
-	public boolean real = true;
+	public boolean real = false;
 	public boolean betAdvisor = true;
 	public boolean blogaBet = true;
 	public boolean asianHandicap = true;
@@ -68,14 +69,16 @@ public class StatsCalculator {
 	private List<HistoricalDataElement> betAdvisorHistorical;
 	private List<Double> betAdvisorBacktestLiquidity;
 	private List<BetAdvisorElement> betAdvisorBacktestBets;
+	private List<Double> betAdvisorBacktestBestOddsList;
 	
 	private List<HistoricalDataElement> blogaBetHistorical;
 	private List<Double> blogaBetBacktestLiquidity;
 	private List<BlogaBetElement> blogaBetBacktestBets;
+	private List<Double> blogaBetBacktestBestOddsList;
 	
 	// Received Tips
-	List<BetAdvisorTip> betAdvisorTips;
-	List<BlogaBetTip> blogaBetTips;
+	private List<BetAdvisorTip> betAdvisorTips;
+	private List<BlogaBetTip> blogaBetTips;
 	
 	// Real Bets
 	private List<Bet> betAdvisorBets;
@@ -169,6 +172,17 @@ public class StatsCalculator {
 			System.exit(-1);
 		}
 		
+		try {
+			FileInputStream fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_BESTODDS_PATH);
+			BufferedInputStream br = new BufferedInputStream(fileInput);
+			ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+			betAdvisorBacktestBestOddsList = (List<Double>)objectInputStream.readObject();
+			objectInputStream.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		
         try {
         	FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_RECORD_PATH);
 	        BufferedInputStream br = new BufferedInputStream(fileInput);
@@ -185,6 +199,17 @@ public class StatsCalculator {
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);	
 			blogaBetBacktestBets = (List<BlogaBetElement>)objectInputStream.readObject();
+			objectInputStream.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+		
+		try {
+			FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_BESTODDS_PATH);
+			BufferedInputStream br = new BufferedInputStream(fileInput);
+			ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+			blogaBetBacktestBestOddsList = (List<Double>)objectInputStream.readObject();
 			objectInputStream.close();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -293,19 +318,23 @@ public class StatsCalculator {
 		return result;
 	}
 	
-	public void getKoBStats(){
+	public List<StatsRow> getKoBStats(){
 		
 		Gson gson = new Gson();
 		
-		double averageYield = 0;
-		double averageOdds = 0;
-		double numberOfBets = 0;
-		double numberOfTips = 0;
-		double percentWeGet = 0;
-		double percentOver95 = 0;
-		double averageLiquidity = 0;
-		double percentOfTipsFound = 0;
-		double flatStakeYield = 0;	
+		List<StatsRow> result = new ArrayList<StatsRow>();
+		StatsRow oneTwoRow = new StatsRow();
+		oneTwoRow.groupBy = "One Two Result";
+		StatsRow xRow = new StatsRow();
+		xRow.groupBy = "X result";
+		StatsRow asianHandicapRow = new StatsRow();
+		asianHandicapRow.groupBy = "Asian Handicap";
+		StatsRow overUnderRow = new StatsRow();
+		overUnderRow.groupBy = "Over Under";
+		result.add(oneTwoRow);
+		result.add(xRow);
+		result.add(asianHandicapRow);
+		result.add(overUnderRow);
 		
 		// BetAdvisor Backtest
 		if(betAdvisor && historical){
@@ -315,13 +344,52 @@ public class StatsCalculator {
 				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
 				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
 				double liquidity = betAdvisorBacktestLiquidity.get(i);
-				
-				
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+								
 				Date gameDate = element.getGameDate();
-				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity){
-					numberOfBets++;
-					averageYield += element.getProfit();	
-					averageOdds += element.getOdds();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					StatsRow row = null;
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+							row = xRow;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+							row = oneTwoRow;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+						row = overUnderRow;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+						row = asianHandicapRow;
+					}
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getOdds();
+					if(element.getProfit() > 0){
+						row.averageYield += bestOdds * element.getTake() - element.getTake();
+						row.flatStakeYield += bestOdds * 100 - 100;
+						
+					}
+					if(element.getProfit() < 0){
+						row.averageYield -= element.getTake();
+						row.flatStakeYield -= 100;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getOdds();
 				}				
 			}
 		}
@@ -334,11 +402,65 @@ public class StatsCalculator {
 				BlogaBetElement element = blogaBetBacktestBets.get(i);
 				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
 				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					StatsRow row = null;
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+							row = xRow;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+							row = oneTwoRow;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+						row = overUnderRow;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+						row = asianHandicapRow;
+					}
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getBestOdds();
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
+						row.flatStakeYield += bestOdds * 100 - 100;
+						
+					}
+					if(element.getResult().equalsIgnoreCase("LOST")){
+						row.averageYield -= element.getStake() * 100;
+						row.flatStakeYield -= 100;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getBestOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getBestOdds();
+				}				
 			}		
 		}
 		
 		// Bet Advisor real results
 		if(betAdvisor && real){
+			// Get tips
+			for(int i = 0; i < betAdvisorTips.size(); i++){
+				BetAdvisorTip tip = betAdvisorTips.get(i);
+				Date gameDate = tip.date;
+				
+			}
+			
 			for(int i = 0; i < betAdvisorBets.size(); i++){
 				Bet bet = betAdvisorBets.get(i);
 				
@@ -399,11 +521,26 @@ public class StatsCalculator {
 				}
 			}		
 		}
+		
+		// Compute averages
+		for(int i = 0; i < result.size(); i++){
+			StatsRow row = result.get(i);
+			row.averageLiquidity /= row.numberOfBets;
+			row.averageOdds /= row.numberOfBets;
+			row.averageYield /= row.numberOfBets;
+			row.flatStakeYield /= row.numberOfBets;
+			row.percentOver95 /= row.numberOfBets;
+			row.percentWeGet /= row.numberOfBets;
+		}
+		
+		return result;
 	}
 	
 	public static void main(String[] args) {
 		StatsCalculator calculator = new StatsCalculator();
 		Set<String> res = calculator.getAllTipsters();
 		System.out.println(res);
+		List<StatsRow> row = calculator.getKoBStats();
+		System.out.println();
 	}
 }
