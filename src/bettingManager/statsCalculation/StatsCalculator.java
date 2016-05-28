@@ -35,9 +35,9 @@ import com.google.gson.Gson;
 public class StatsCalculator {
 	
 	// Filters
-	public boolean historical = true;
-	public boolean real = false;
-	public boolean betAdvisor = true;
+	public boolean historical = false;
+	public boolean real = true;
+	public boolean betAdvisor = false;
 	public boolean blogaBet = true;
 	public boolean asianHandicap = true;
 	public boolean overUnder = true;
@@ -376,14 +376,15 @@ public class StatsCalculator {
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getOdds();
+					row.invested += element.getTake();
 					if(element.getProfit() > 0){
 						row.averageYield += bestOdds * element.getTake() - element.getTake();
-						row.flatStakeYield += bestOdds * 100 - 100;
+						row.flatStakeYield += bestOdds - 1;
 						
 					}
 					if(element.getProfit() < 0){
 						row.averageYield -= element.getTake();
-						row.flatStakeYield -= 100;				
+						row.flatStakeYield -= 1;				
 					}
 					row.percentOfTipsFound++;
 					if(bestOdds / element.getOdds() > 0.95){
@@ -434,14 +435,15 @@ public class StatsCalculator {
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getBestOdds();
+					row.invested += element.getStake() * 100;
 					if(element.getResult().equalsIgnoreCase("WIN")){
 						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
-						row.flatStakeYield += bestOdds * 100 - 100;
+						row.flatStakeYield += bestOdds - 1;
 						
 					}
 					if(element.getResult().equalsIgnoreCase("LOST")){
 						row.averageYield -= element.getStake() * 100;
-						row.flatStakeYield -= 100;				
+						row.flatStakeYield -= 1;				
 					}
 					row.percentOfTipsFound++;
 					if(bestOdds / element.getBestOdds() > 0.95){
@@ -453,14 +455,7 @@ public class StatsCalculator {
 		}
 		
 		// Bet Advisor real results
-		if(betAdvisor && real){
-			// Get tips
-			for(int i = 0; i < betAdvisorTips.size(); i++){
-				BetAdvisorTip tip = betAdvisorTips.get(i);
-				Date gameDate = tip.date;
-				
-			}
-			
+		if(betAdvisor && real){		
 			for(int i = 0; i < betAdvisorBets.size(); i++){
 				Bet bet = betAdvisorBets.get(i);
 				
@@ -479,8 +474,50 @@ public class StatsCalculator {
 				double liquidity = betTicket.getMaxStake();
 				double tipOdds = tip.bestOdds;
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
-
-
+					String typeOfBet = tip.typeOfBet;
+					StatsRow row = null;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+							row = xRow;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+							row = oneTwoRow;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+						row = overUnderRow;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+						row = asianHandicapRow;
+					}
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.bestOdds;
+					row.invested += tip.take;
+					if(bet.getBetStatus() == 4){
+						row.averageYield += betTicket.getCurrentOdd() * tip.take -tip.take;
+						row.flatStakeYield += betTicket.getCurrentOdd() - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= tip.take;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / betTicket.getCurrentOdd();
 				}	
 			}
 		}
@@ -516,8 +553,52 @@ public class StatsCalculator {
 				double liquidity = betTicket.getMaxStake();
 				double tipOdds = tip.odds;
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
-
-
+					String typeOfBet = tip.pivotType;
+					StatsRow row = null;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+							row = xRow;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+							row = oneTwoRow;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+						row = overUnderRow;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+						row = asianHandicapRow;
+					}
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.odds;
+					row.invested += tip.stake;
+					if(bet.getBetStatus() == 4){
+						row.averageYield += betTicket.getCurrentOdd() * tip.stake * 100 -tip.stake * 100;
+						row.flatStakeYield += betTicket.getCurrentOdd() - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= tip.stake * 100;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / betTicket.getCurrentOdd();
 				}
 			}		
 		}
@@ -525,12 +606,12 @@ public class StatsCalculator {
 		// Compute averages
 		for(int i = 0; i < result.size(); i++){
 			StatsRow row = result.get(i);
-			row.averageLiquidity /= row.numberOfBets;
-			row.averageOdds /= row.numberOfBets;
-			row.averageYield /= row.numberOfBets;
-			row.flatStakeYield /= row.numberOfBets;
-			row.percentOver95 /= row.numberOfBets;
-			row.percentWeGet /= row.numberOfBets;
+			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
+			row.averageOdds /= Math.max(row.numberOfBets, 1);
+			row.averageYield /= Math.max(row.invested, 1);
+			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
+			row.percentOver95 /= Math.max(row.numberOfBets, 1);
+			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 		}
 		
 		return result;

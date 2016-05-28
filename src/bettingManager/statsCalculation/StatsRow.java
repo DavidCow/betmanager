@@ -2,6 +2,7 @@ package bettingManager.statsCalculation;
 
 public class StatsRow {
 	public String groupBy;
+	public double invested = 0;
 	public double averageYield = 0;
 	public double averageOdds = 0;
 	public double numberOfBets = 0;
