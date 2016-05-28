@@ -89,8 +89,10 @@ public class BlogaBetParser {
 		            		String tipTeam = parseTipTeam(selection, typeOfBet, host, guest);
 		            		// pivot Bias
 		            		String pivotBias = parsePivotBias(selection, typeOfBet, host, guest, pivotvalue);
+		            		// stake
+		            		double stake = Double.parseDouble(tokens[5]);
 		            		
-		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest, pivotvalue, tipTeam, pivotBias);
+		            		BlogaBetElement element = new BlogaBetElement(gameDate, publicationDate, sport, competition, event, tipster, selection, typeOfBet, bestOdds, result, host, guest, pivotvalue, tipTeam, pivotBias, stake);
 		            		res.add(element);
            		
 		            	}catch(Exception e){

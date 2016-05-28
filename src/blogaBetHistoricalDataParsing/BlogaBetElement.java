@@ -23,13 +23,13 @@ public class BlogaBetElement implements java.io.Serializable {
 	private double pivotValue;
 	private String tipTeam;
 	private String pivotBias;
-	
+	private double stake;
 
-	
 	public BlogaBetElement(Date gameDate, Date publicationDate, String sport,
 			String competition, String event, String tipster, String selection,
 			String typeOfBet, double bestOdds, String result, String host,
-			String guest, double pivotValue, String tipTeam, String pivotBias) {
+			String guest, double pivotValue, String tipTeam, String pivotBias,
+			double stake) {
 		super();
 		this.gameDate = gameDate;
 		this.publicationDate = publicationDate;
@@ -46,9 +46,8 @@ public class BlogaBetElement implements java.io.Serializable {
 		this.pivotValue = pivotValue;
 		this.tipTeam = tipTeam;
 		this.pivotBias = pivotBias;
+		this.stake = stake;
 	}
-	
-	
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
@@ -61,12 +60,23 @@ public class BlogaBetElement implements java.io.Serializable {
 				+ ", selection=" + selection + ", typeOfBet=" + typeOfBet
 				+ ", bestOdds=" + bestOdds + ", result=" + result + ", host="
 				+ host + ", guest=" + guest + ", pivotValue=" + pivotValue
-				+ ", tipTeam=" + tipTeam + ", pivotBias=" + pivotBias + "]";
+				+ ", tipTeam=" + tipTeam + ", pivotBias=" + pivotBias
+				+ ", stake=" + stake + "]";
 	}
 	
-	
+	/**
+	 * @return the stake
+	 */
+	public double getStake() {
+		return stake;
+	}
 
-
+	/**
+	 * @param stake the stake to set
+	 */
+	public void setStake(double stake) {
+		this.stake = stake;
+	}
 
 	/**
 	 * @return the pivotBias
