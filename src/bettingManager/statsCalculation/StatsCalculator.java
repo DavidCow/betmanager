@@ -400,9 +400,9 @@ public class StatsCalculator {
 				
 				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
 				BlogaBetElement element = blogaBetBacktestBets.get(i);
-				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
-				double liquidity = betAdvisorBacktestLiquidity.get(i);
-				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
 				
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
