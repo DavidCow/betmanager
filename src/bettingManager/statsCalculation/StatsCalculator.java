@@ -1,17 +1,15 @@
 package bettingManager.statsCalculation;
 
-import historicalData.HdpElement;
 import historicalData.HistoricalDataElement;
-import historicalData.OneTwoElement;
-import historicalData.TotalElement;
 
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
@@ -20,11 +18,9 @@ import mailParsing.BlogaBetTip;
 import backtest.BetAdvisorBacktest;
 import backtest.BlogaBetBacktest;
 import betadvisor.BetAdvisorElement;
-import betadvisor.BetAdvisorParser;
 import bettingBot.entities.Bet;
 import bettingBot.entities.BetTicket;
 import blogaBetHistoricalDataParsing.BlogaBetElement;
-import blogaBetHistoricalDataParsing.BlogaBetParser;
 
 import com.google.gson.Gson;
 
@@ -56,6 +52,10 @@ public class StatsCalculator {
 	public double minOdds = 0;
 	public double maxOdds = Double.MAX_VALUE;
 	
+	// This Set should contain all the names of the tipsters, that are currently active
+	// Tipsters not in the set will be ignored
+	public Set<String> activeTipsters;
+	
 	// Classes for Gson
 	private Class recordClass;
 	private Class eventClass;
@@ -72,6 +72,10 @@ public class StatsCalculator {
 	private List<HistoricalDataElement> blogaBetHistorical;
 	private List<Double> blogaBetBacktestLiquidity;
 	private List<BlogaBetElement> blogaBetBacktestBets;
+	
+	// Received Tips
+	List<BetAdvisorTip> betAdvisorTips;
+	List<BlogaBetTip> blogaBetTips;
 	
 	// Real Bets
 	private List<Bet> betAdvisorBets;
@@ -107,26 +111,33 @@ public class StatsCalculator {
 			System.exit(-1);
 		}
 		// Read historical Tipster Data
-		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
-		try {
-			betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
-		} catch (IOException e) {
+		try {			
+			FileInputStream fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_TIP_PATH);
+	        BufferedInputStream br = new BufferedInputStream(fileInput);
+	        ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+			betAdvisorList = (List<BetAdvisorElement>)objectInputStream.readObject();
+			objectInputStream.close();
+		} catch (Exception e) {
 			System.out.println("Error reading BetAdvisor Historical Tipster Data");
 			e.printStackTrace();
 			System.exit(-1);
 		}
-		BlogaBetParser parser = new BlogaBetParser();
+
 		try {
-			blogaBetList = parser.parseSheets("blogaBetTipsterData/csv");
-		} catch (IOException e) {
+			FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_TIP_PATH);
+	        BufferedInputStream br = new BufferedInputStream(fileInput);
+	        ObjectInputStream objectInputStream = new ObjectInputStream(br);	
+			blogaBetList = (List<BlogaBetElement>)objectInputStream.readObject();
+			objectInputStream.close();
+		} catch (Exception e) {
 			System.out.println("Error reading BlogaBet Historical Tipster Data");
 			e.printStackTrace();
+			System.exit(-1);
 		}
 
 		// Read backtest results
-        FileInputStream fileInput;
 		try {
-			fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_RECORD_PATH);
+			FileInputStream fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_RECORD_PATH);
 	        BufferedInputStream br = new BufferedInputStream(fileInput);
 	        ObjectInputStream objectInputStream = new ObjectInputStream(br);	
 			betAdvisorHistorical = (List<HistoricalDataElement>)objectInputStream.readObject();
@@ -137,7 +148,7 @@ public class StatsCalculator {
 		}
 		
 		try {
-			fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_LIQUIDITY_PATH);
+			FileInputStream fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_LIQUIDITY_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			betAdvisorBacktestLiquidity = (List<Double>)objectInputStream.readObject();
@@ -148,7 +159,7 @@ public class StatsCalculator {
 		}
 		
 		try {
-			fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_PATH);
+			FileInputStream fileInput = new FileInputStream(BetAdvisorBacktest.BETADVISOR_BACKTEST_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);	
 			betAdvisorBacktestBets = (List<BetAdvisorElement>)objectInputStream.readObject();
@@ -159,7 +170,7 @@ public class StatsCalculator {
 		}
 		
         try {
-			fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_RECORD_PATH);
+        	FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_RECORD_PATH);
 	        BufferedInputStream br = new BufferedInputStream(fileInput);
 	        ObjectInputStream objectInputStream = new ObjectInputStream(br);	
 			blogaBetHistorical = (List<HistoricalDataElement>)objectInputStream.readObject();
@@ -170,7 +181,7 @@ public class StatsCalculator {
 		}
 
 		try {
-			fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_PATH);
+			FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);	
 			blogaBetBacktestBets = (List<BlogaBetElement>)objectInputStream.readObject();
@@ -181,7 +192,7 @@ public class StatsCalculator {
 		}
 
 		try {
-			fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_LIQUIDITY_PATH);
+			FileInputStream fileInput = new FileInputStream(BlogaBetBacktest.BLOGABET_BACKTEST_LIQUIDITY_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			blogaBetBacktestLiquidity= (List<Double>)objectInputStream.readObject();
@@ -191,9 +202,30 @@ public class StatsCalculator {
 			System.exit(-1);
 		}
 		
+		// Read received Tips
+		try {
+			FileInputStream fileInput = new FileInputStream(DataCreation.BETADVISOR_TIP_PATH);
+			BufferedInputStream br = new BufferedInputStream(fileInput);
+			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
+			betAdvisorTips = (List<BetAdvisorTip>)objectInputStream.readObject();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}
+
+		try {
+			FileInputStream fileInput = new FileInputStream(DataCreation.BLOGABET_TIP_PATH);
+			BufferedInputStream br = new BufferedInputStream(fileInput);
+			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
+			blogaBetTips = (List<BlogaBetTip>)objectInputStream.readObject();	
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(-1);
+		}	
+		
 		// Read real bets
 		try {
-			fileInput = new FileInputStream(DataCreation.BETADVISOR_RESULT_PATH);
+			FileInputStream fileInput = new FileInputStream(DataCreation.BETADVISOR_RESULT_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			betAdvisorBets = (List<Bet>)objectInputStream.readObject();
@@ -203,7 +235,7 @@ public class StatsCalculator {
 		}
 
 		try {
-			fileInput = new FileInputStream(DataCreation.BLOGABET_RESULT_PATH);
+			FileInputStream fileInput = new FileInputStream(DataCreation.BLOGABET_RESULT_PATH);
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			blogaBetBets = (List<Bet>)objectInputStream.readObject();	
@@ -213,6 +245,54 @@ public class StatsCalculator {
 		}			
 	}
 	
+	/**
+	 * This method returns the names of all tipsters found in the historical and real data with a suffix, representing their site
+	 * The (BA) suffix means, that it's a BetAdvisor tipster, (BB) is a BlogaBet tipster
+	 * @return
+	 */
+	public Set<String> getAllTipsters(){
+		Set<String> result = new HashSet<String>();
+		
+		// BA historical
+		for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+			BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+			String tipster = element.getTipster();
+			tipster += " (BA)";
+			if(!result.contains(tipster)){
+				result.add(tipster);
+			}
+		}
+		// BB historical
+		for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+			BlogaBetElement element = blogaBetBacktestBets.get(i);
+			String tipster = element.getTipster();
+			tipster += " (BB)";
+			if(!result.contains(tipster)){
+				result.add(tipster);
+			}
+		}
+		// BA real
+		for(int i = 0; i < betAdvisorTips.size(); i++){
+			BetAdvisorTip tip = betAdvisorTips.get(i);
+			String tipster = tip.tipster;
+			tipster += " (BA)";
+			if(!result.contains(tipster)){
+				result.add(tipster);
+			}
+		}
+		// BB real
+		for(int i = 0; i < blogaBetTips.size(); i++){
+			BlogaBetTip tip = blogaBetTips.get(i);
+			String tipster = tip.tipster;
+			tipster += " (BB)";
+			if(!result.contains(tipster)){
+				result.add(tipster);
+			}
+		}
+		
+		return result;
+	}
+	
 	public void getKoBStats(){
 		
 		Gson gson = new Gson();
@@ -220,6 +300,7 @@ public class StatsCalculator {
 		double averageYield = 0;
 		double averageOdds = 0;
 		double numberOfBets = 0;
+		double numberOfTips = 0;
 		double percentWeGet = 0;
 		double percentOver95 = 0;
 		double averageLiquidity = 0;
@@ -322,5 +403,7 @@ public class StatsCalculator {
 	
 	public static void main(String[] args) {
 		StatsCalculator calculator = new StatsCalculator();
+		Set<String> res = calculator.getAllTipsters();
+		System.out.println(res);
 	}
 }

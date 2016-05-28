@@ -109,7 +109,11 @@ public class DataCreation {
 		fileOutput = new FileOutputStream(BLOGABET_TIP_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
-        objectOutputStream.writeObject(tips);
+        objectOutputStream.writeObject(tipsBlogaBet);
         objectOutputStream.close();	
+	}
+	
+	public static void main(String[] args) throws Exception {
+		saveTipLists();
 	}
 }

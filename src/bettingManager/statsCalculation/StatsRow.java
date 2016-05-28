@@ -1,7 +1,7 @@
 package bettingManager.statsCalculation;
 
 public class StatsRow {
-	public String kindOfBet;
+	public String groupBy;
 	public String averageYield;
 	public String averageOdds;
 	public String numberOfBets;
