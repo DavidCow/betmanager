@@ -470,6 +470,8 @@ public class StatsCalculator {
 				
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
 				
+				if(tip.betOn == null)
+					continue;
 				Date gameDate = tip.date;
 				double liquidity = betTicket.getMaxStake();
 				double tipOdds = tip.bestOdds;
@@ -503,21 +505,25 @@ public class StatsCalculator {
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += tip.bestOdds;
-					row.invested += tip.take;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
 					if(bet.getBetStatus() == 4){
-						row.averageYield += betTicket.getCurrentOdd() * tip.take -tip.take;
-						row.flatStakeYield += betTicket.getCurrentOdd() - 1;
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
 						
 					}
 					if(bet.getBetStatus() == 5){
-						row.averageYield -= tip.take;
+						row.averageYield -= bet.getBetAmount();
 						row.flatStakeYield -= 1;				
 					}
-					row.percentOfTipsFound++;
+					//row.percentOfTipsFound++;
 					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
 						row.percentOver95++;
 					}
-					row.percentWeGet += tipOdds / betTicket.getCurrentOdd();
+					row.percentWeGet += tipOdds / realOdds;
 				}	
 			}
 		}
@@ -540,10 +546,12 @@ public class StatsCalculator {
 				int stakeEnd = tipJsonString.indexOf("\"", startStake);
 				String stakeString = tipJsonString.substring(startStake, stakeEnd);
 				int splitPoint = stakeString.indexOf("/");
-				String a = stakeString.substring(0, splitPoint);
-				String b = stakeString.substring(splitPoint + 1);
-				double stake = Double.parseDouble(a) / Double.parseDouble(b);
-				tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
 				
 				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
 				
@@ -584,21 +592,25 @@ public class StatsCalculator {
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += tip.odds;
-					row.invested += tip.stake;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
 					if(bet.getBetStatus() == 4){
-						row.averageYield += betTicket.getCurrentOdd() * tip.stake * 100 -tip.stake * 100;
-						row.flatStakeYield += betTicket.getCurrentOdd() - 1;
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
 						
 					}
 					if(bet.getBetStatus() == 5){
-						row.averageYield -= tip.stake * 100;
+						row.averageYield -= bet.getBetAmount();
 						row.flatStakeYield -= 1;				
 					}
-					row.percentOfTipsFound++;
+					//row.percentOfTipsFound++;
 					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
 						row.percentOver95++;
 					}
-					row.percentWeGet += tipOdds / betTicket.getCurrentOdd();
+					row.percentWeGet += tipOdds / realOdds;
 				}
 			}		
 		}
