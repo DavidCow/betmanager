@@ -49,6 +49,7 @@ public class BlogaBetBacktest {
 	public static final String BLOGABET_BACKTEST_RECORD_PATH = "blogaBetBackTestRecords.dat";
 	public static final String BLOGABET_BACKTEST_LIQUIDITY_PATH = "blogaBetBackTestLiquidities.dat";
 	public static final String BLOGABET_BACKTEST_BESTODDS_PATH = "blogaBetBackTestBestOdds.dat";
+	public static final String BLOGABET_BACKTEST_TIP_PATH = "blogaBetBackTestTips.dat";
 	
 	public void runBacktest() throws IOException{
 			
@@ -1464,6 +1465,16 @@ public class BlogaBetBacktest {
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(liquidities);
+        objectOutputStream.close();
+        fileOutput = new FileOutputStream(BLOGABET_BACKTEST_BESTODDS_PATH);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(bestOddsList);
+        objectOutputStream.close();
+        fileOutput = new FileOutputStream(BLOGABET_BACKTEST_TIP_PATH);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(blogaBetList);
         objectOutputStream.close();
 	}
 	

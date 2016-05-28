@@ -50,6 +50,7 @@ public class BetAdvisorBacktest {
 	public static final String BETADVISOR_BACKTEST_RECORD_PATH = "betAdvisorBackTestRecords.dat";
 	public static final String BETADVISOR_BACKTEST_LIQUIDITY_PATH = "betAdvisorBackTestLiquidities.dat";
 	public static final String BETADVISOR_BACKTEST_BESTODDS_PATH = "betAdvisorBackTestBestOdds.dat";
+	public static final String BETADVISOR_BACKTEST_TIP_PATH = "betAdvisorBackTestTips.dat";
 	
 	public void runBacktest() throws IOException{
 
@@ -1974,6 +1975,16 @@ public class BetAdvisorBacktest {
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(liquidities);
+        objectOutputStream.close();
+        fileOutput = new FileOutputStream(BETADVISOR_BACKTEST_BESTODDS_PATH);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(bestOddsList);
+        objectOutputStream.close();
+        fileOutput = new FileOutputStream(BETADVISOR_BACKTEST_TIP_PATH);
+        br = new BufferedOutputStream(fileOutput);
+        objectOutputStream = new ObjectOutputStream(br);	
+        objectOutputStream.writeObject(betAdvisorList);
         objectOutputStream.close();
 	}
 	public static void main(String[] args) throws IOException {
