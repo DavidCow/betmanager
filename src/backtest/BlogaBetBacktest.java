@@ -1456,6 +1456,7 @@ public class BlogaBetBacktest {
         BufferedOutputStream br = new BufferedOutputStream(fileOutput);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(br);	
         objectOutputStream.writeObject(bets);
+        objectOutputStream.close();
         fileOutput = new FileOutputStream(BLOGABET_BACKTEST_RECORD_PATH);
         br = new BufferedOutputStream(fileOutput);
         objectOutputStream = new ObjectOutputStream(br);	
