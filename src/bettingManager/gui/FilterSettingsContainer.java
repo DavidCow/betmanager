@@ -2,6 +2,9 @@ package bettingManager.gui;
 
 import java.util.ArrayList;
 
+import bettingManager.gui.OptionsTipstersController.TipsterRow;
+import javafx.collections.ObservableList;
+
 /**
  * Container, that keeps track of all current active filters
  * @author David
@@ -65,6 +68,21 @@ public class FilterSettingsContainer {
 	 */
 	private DateRangeMessage dateRangeMessage = new DateRangeMessage();
 	
+//	/**
+//	 * TIPSTERS
+//	 * Saving the tipsters that are selected
+//	 */
+//	private ObservableList<TipsterRow> tipstersMessage = null;
+//	
+//	public ObservableList<TipsterRow> getTipstersMessage() {
+//		return tipstersMessage;
+//	}
+//
+//
+//	public void setTipstersMessage(ObservableList<TipsterRow> tipstersMessage) {
+//		this.tipstersMessage = tipstersMessage;
+//	}
+
 	private String limiter = " | ";
 	
 	
@@ -255,5 +273,5 @@ public class FilterSettingsContainer {
 		
 		return "Should never show up";
 	}
-	
+
 }

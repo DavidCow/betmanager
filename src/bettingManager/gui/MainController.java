@@ -7,6 +7,8 @@ import java.util.prefs.Preferences;
 
 import com.google.gson.Gson;
 
+import bettingManager.gui.OptionsTipstersController.TipsterRow;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
@@ -44,14 +46,20 @@ public class MainController implements Observer{
 	 */
 	private FilterSettingsContainer allFilters;
 	private Preferences prefs;
+	public Preferences getPrefs() {
+		return prefs;
+	}
+
 	private Gson gson; 
+
 	public final String PREFS_ALLFILTERS = "PREFS_ALLFILTERS";
 	
 	public MainController() {
 		this.prefs = Preferences.userNodeForPackage(bettingManager.gui.MainController.class);
 		this.gson = new Gson();
+//		prefs.put(PREFS_ALLFILTERS, null);
 		String json = prefs.get(PREFS_ALLFILTERS, null);
-		
+//		json = null;
 		if (json == null) {
 			/*
 			 * If no previous filter settings 
@@ -132,7 +140,11 @@ public class MainController implements Observer{
 		} else if (o instanceof OptionsDateRangeController) {
 			System.out.println("OptionsDateRangeContr has sent something");
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
-		}
+		} 
+//		else if (o instanceof OptionsTipstersController) {
+//			System.out.println("OptionsTipstersContr has sent something");
+//			allFilters.setTipstersMessage((ObservableList<TipsterRow>)argMsg.getMsg());
+//		}
 		//ADD Tipsters Controller
 		System.out.println(allFilters);
 		saveFilters();
