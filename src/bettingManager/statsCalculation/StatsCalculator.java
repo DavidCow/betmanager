@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import jayeson.lib.datastructure.Record;
@@ -55,7 +56,7 @@ public class StatsCalculator {
 	
 	// This Set should contain all the names of the tipsters, that are currently active
 	// Tipsters not in the set will be ignored
-	public Set<String> activeTipsters;
+	public Map<String, Boolean> activeTipsters;
 	
 	// Classes for Gson
 	private Class recordClass;
@@ -345,6 +346,13 @@ public class StatsCalculator {
 				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
 				double liquidity = betAdvisorBacktestLiquidity.get(i);
 				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
 								
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -404,6 +412,13 @@ public class StatsCalculator {
 				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
 				double liquidity = blogaBetBacktestLiquidity.get(i);
 				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
 				
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -469,6 +484,13 @@ public class StatsCalculator {
 				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
 				
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
 				
 				if(tip.betOn == null)
 					continue;
@@ -556,6 +578,13 @@ public class StatsCalculator {
 				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
 				
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
 				
 				Date gameDate = tip.startDate;
 				double liquidity = betTicket.getMaxStake();
