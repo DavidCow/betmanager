@@ -16,9 +16,10 @@
    <top>
       <GridPane prefHeight="38.0" prefWidth="319.0" BorderPane.alignment="CENTER">
          <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="158.0" minWidth="10.0" prefWidth="116.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="192.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="10.0" prefWidth="96.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="137.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="217.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="66.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="0.0" prefWidth="18.0" />
          </columnConstraints>
          <rowConstraints>
             <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
@@ -29,12 +30,12 @@
                   <Insets left="5.0" />
                </GridPane.margin>
             </Label>
-            <TextField alignment="CENTER" prefHeight="25.0" prefWidth="139.0" promptText="Tipster Search" GridPane.columnIndex="1">
+            <TextField fx:id="tipsterSearchTextField" alignment="CENTER" prefHeight="25.0" prefWidth="139.0" promptText="Tipster Search" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets left="5.0" right="5.0" />
                </GridPane.margin>
             </TextField>
-            <MenuButton contentDisplay="CENTER" disable="true" mnemonicParsing="false" popupSide="RIGHT" text="+Add Aliases" visible="false" GridPane.columnIndex="2">
+            <MenuButton contentDisplay="CENTER" disable="true" mnemonicParsing="false" popupSide="RIGHT" text="+Add Aliases" visible="false" GridPane.columnIndex="3">
                <items>
                   <CustomMenuItem fx:id="customMenuItemAddAliases" mnemonicParsing="false" text="Unspecified Action">
                      <content>
@@ -42,6 +43,7 @@
                      </content></CustomMenuItem>
                </items>
             </MenuButton>
+            <Button fx:id="tipsterSearchButton" disable="true" mnemonicParsing="false" onAction="#handleTipsterSearch" prefHeight="25.0" prefWidth="72.0" text="Search" visible="false" GridPane.columnIndex="2" />
          </children>
       </GridPane>
    </top>
@@ -58,7 +60,7 @@
          <children>
             <Button alignment="CENTER" contentDisplay="CENTER" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Cancel" visible="false" GridPane.columnIndex="1" />
             <Button fx:id="applyButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleApply" prefHeight="25.0" prefWidth="64.0" text="Apply" GridPane.columnIndex="2" />
-            <Label text="x Tipsters selected">
+            <Label fx:id="tipstersSelectedLabel" text="x Tipsters selected">
                <GridPane.margin>
                   <Insets left="5.0" />
                </GridPane.margin>

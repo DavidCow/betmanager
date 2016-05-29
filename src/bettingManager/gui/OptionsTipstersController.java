@@ -1,7 +1,9 @@
 package bettingManager.gui;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Observable;
 import java.util.Set;
 
@@ -9,14 +11,18 @@ import bettingManager.statsCalculation.StatsCalculator;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.CustomMenuItem;
+import javafx.scene.control.Label;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 public class OptionsTipstersController extends Observable{
@@ -34,8 +40,13 @@ public class OptionsTipstersController extends Observable{
 	@FXML CustomMenuItem customMenuItemAddAliases;
 	
 	@FXML TableView<TipsterRow> tipsterTable;
+	@FXML TextField tipsterSearchTextField;
+	@FXML Button tipsterSearchButton;
 	
+	@FXML Label tipstersSelectedLabel;
 	@FXML Button applyButton;
+	
+	private ArrayList<TipsterRow> tipsterAllForTable;
 	
 	private final String[] tipsterTitles = {
 				"+",
@@ -74,7 +85,35 @@ public class OptionsTipstersController extends Observable{
 			);
 		inflateTable(tipsterTitles);
 		
+		setTipstersSelectedLabel();
+		
+		tipsterAllForTable = putObservableToArrayListTipsters(tipsterTable.getItems());
+		
 //		this.msg = new DateRangeMessage();
+	}
+	
+	private ArrayList<TipsterRow> putObservableToArrayListTipsters(ObservableList<TipsterRow> items) {
+		ArrayList<TipsterRow> trow = new ArrayList<TipsterRow>(); 
+//		for (TipsterRow tr: items){
+			trow.addAll(items);
+//		}
+		return trow;
+	}
+
+	private void setTipstersSelectedLabel() {
+		if (mainC.getAllFilters() != null && mainC.getAllFilters().getTipstersMessage() != null) {
+			tipstersSelectedLabel.setText(countSelectedTipsters(mainC.getAllFilters().getTipstersMessage())+" Tipster selected.");
+		}
+	}
+	
+	private int countSelectedTipsters(Map<String, Boolean> tipsters) {
+		int num = 0;
+		for(String s:tipsters.keySet()) {
+			if (tipsters.get(s)) {
+				num += 1;
+			}
+		}
+		return num;
 	}
 	
 	/**
@@ -109,7 +148,31 @@ public class OptionsTipstersController extends Observable{
 			     System.out.println("ListChangeListener");
 			}
 		});
+		FilteredList<TipsterRow> filteredData = new FilteredList<>(data, p -> true);
+		
+		  tipsterSearchTextField.textProperty().addListener((observable, oldValue, newValue) -> {
+	            filteredData.setPredicate(tipsterRow -> {
+	                // If filter text is empty, display all persons.
+	                if (newValue == null || newValue.isEmpty()) {
+	                    return true;
+	                }
 
+	                // Compare first name and last name of every person with filter text.
+	                String lowerCaseFilter = newValue.toLowerCase();
+
+	                if (tipsterRow.getTipster().toLowerCase().contains(lowerCaseFilter)) {
+	                    return true; // Filter matches first name.
+	                } 
+	                return false; // Does not match.
+	            });
+	        });
+		  SortedList<TipsterRow> sortedData = new SortedList<>(filteredData);
+
+	        // 4. Bind the SortedList comparator to the TableView comparator.
+	        sortedData.comparatorProperty().bind(tipsterTable.comparatorProperty());
+
+	        // 5. Add sorted (and filtered) data to the table.
+	        tipsterTable.setItems(sortedData);
 	}
 	
 	/**
@@ -127,16 +190,18 @@ public class OptionsTipstersController extends Observable{
 		return tr;
 	}
 	
-	private String TipsterToString(TipsterRow tr) {
+	private String tipsterToString(TipsterRow tr) {
 		return tr.getTipster()+"("+tr.getSite()+")";
 	}
+	
+	public static final String SELECTION_LIMITER = " -- ";
 	
 	/**
 	 * Notify MainController with the current msg
 	 */
-	private void notifyMainController() {
+	private void notifyMainController(Map<String, Boolean> lis) {
 		setChanged();
-		notifyObservers(new ObservableMessage(OPTIONS_TIPSTERS_ID, tipsterTable.getItems())); 
+		notifyObservers(new ObservableMessage(OPTIONS_TIPSTERS_ID, lis)); 
 	}
 	
 	
@@ -145,11 +210,36 @@ public class OptionsTipstersController extends Observable{
 		System.out.println("Apply");
 	    ObservableList<TipsterRow> data = tipsterTable.getItems();
 
-	    ArrayList<String> tipstersSaved = new ArrayList<String>();
+	    Map<String, Boolean> tipstersSaved = new HashMap<String, Boolean>();
 	    for (TipsterRow tr: data){
-	    	System.out.println(tr.getInclude().selectedProperty());
+	    	tipstersSaved.put(tipsterToString(tr), tr.getInclude().isSelected());
 	    }
-//	    notifyMainController();
+	    notifyMainController(tipstersSaved);
+	    setTipstersSelectedLabel();
+	}
+
+	/**
+	 * Filter by text from TextField
+	 * @param event
+	 */
+	public void handleTipsterSearch(ActionEvent event) {
+//		System.out.println("SEARCH..");
+//		ObservableList<TipsterRow> data = tipsterTable.getItems();
+//		System.out.println("0");
+//		//Clear and put all initial tipster back into table
+//		//then filter through textfield text again
+//		data.clear();
+//		System.out.println("1");
+//		data.addAll(tipsterAllForTable);
+//		System.out.println("2");
+//		for(int i=0; i<data.size(); i+=1) {
+//			if (data.get(i).getTipster().contains(tipsterSearchTextField.getText())) {
+//				System.out.println(data.get(i).getTipster() + " contains:  " + tipsterSearchTextField.getText());
+//			} else {
+////	    		data.remove(data.get(i));
+//			}
+//		}
+//		System.out.println("3");
 	}
 	
 	/**
@@ -157,8 +247,19 @@ public class OptionsTipstersController extends Observable{
 	 * @param filters
 	 */
 	public void updateSettings(FilterSettingsContainer filters) {
-//		this.msg = filters.getDateRangeMessage();
-//		if (this.msg == null) return;
+		Map<String, Boolean> tipsSaved = filters.getTipstersMessage();
+		if (tipsSaved.size() <= 0 || tipsSaved == null) return;
+		ObservableList<TipsterRow> data = tipsterTable.getItems();
+
+	    for (TipsterRow tr: data){
+	    	try {
+	    		boolean selected = tipsSaved.get(tipsterToString(tr));
+	    		tr.getInclude().setSelected(selected);
+	    	} catch (NullPointerException e) {
+	    		System.out.println(e);
+	    		tr.getInclude().setSelected(true);
+	    	}
+	    }
 	}
 	
 	/**

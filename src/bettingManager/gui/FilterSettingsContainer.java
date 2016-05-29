@@ -1,6 +1,8 @@
 package bettingManager.gui;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import bettingManager.gui.OptionsTipstersController.TipsterRow;
 import javafx.collections.ObservableList;
@@ -68,20 +70,23 @@ public class FilterSettingsContainer {
 	 */
 	private DateRangeMessage dateRangeMessage = new DateRangeMessage();
 	
-//	/**
-//	 * TIPSTERS
-//	 * Saving the tipsters that are selected
-//	 */
-//	private ObservableList<TipsterRow> tipstersMessage = null;
-//	
-//	public ObservableList<TipsterRow> getTipstersMessage() {
-//		return tipstersMessage;
-//	}
-//
-//
-//	public void setTipstersMessage(ObservableList<TipsterRow> tipstersMessage) {
+	/**
+	 * TIPSTERS
+	 * Saving the tipsters that are selected
+	 */
+	private Map<String, Boolean> tipstersMessage = new HashMap<String, Boolean>();
+	
+	public Map<String, Boolean> getTipstersMessage() {
+		return tipstersMessage;
+	}
+
+
+	public void setTipstersMessage(Map<String, Boolean> tipstersMessage) {
+		for(String s:tipstersMessage.keySet()) {
+			this.tipstersMessage.put(s, tipstersMessage.get(s));
+		}
 //		this.tipstersMessage = tipstersMessage;
-//	}
+	}
 
 	private String limiter = " | ";
 	

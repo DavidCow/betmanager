@@ -1,6 +1,7 @@
 package bettingManager.gui;
 
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
 import java.util.prefs.Preferences;
@@ -45,6 +46,10 @@ public class MainController implements Observer{
 	 * All filter options
 	 */
 	private FilterSettingsContainer allFilters;
+	public FilterSettingsContainer getAllFilters() {
+		return allFilters;
+	}
+
 	private Preferences prefs;
 	public Preferences getPrefs() {
 		return prefs;
@@ -57,10 +62,10 @@ public class MainController implements Observer{
 	public MainController() {
 		this.prefs = Preferences.userNodeForPackage(bettingManager.gui.MainController.class);
 		this.gson = new Gson();
-//		prefs.put(PREFS_ALLFILTERS, null);
+//		prefs.put(PREFS_ALLFILTERS, "");
 		String json = prefs.get(PREFS_ALLFILTERS, null);
 //		json = null;
-		if (json == null) {
+		if (json == null || json.isEmpty()) {
 			/*
 			 * If no previous filter settings 
 			 */
@@ -99,6 +104,10 @@ public class MainController implements Observer{
 	}
 
 	public void updateSettingsControllers(int updateMode) {
+		if (allFilters == null) {
+			System.out.println("AllFilters is null");
+			return;
+		}
 		/*
 		 * Update the views according to last FilterSettingsContainer
 		 */
@@ -140,11 +149,10 @@ public class MainController implements Observer{
 		} else if (o instanceof OptionsDateRangeController) {
 			System.out.println("OptionsDateRangeContr has sent something");
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
-		} 
-//		else if (o instanceof OptionsTipstersController) {
-//			System.out.println("OptionsTipstersContr has sent something");
-//			allFilters.setTipstersMessage((ObservableList<TipsterRow>)argMsg.getMsg());
-//		}
+		} else if (o instanceof OptionsTipstersController) {
+			System.out.println("OptionsTipstersContr has sent something");
+			allFilters.setTipstersMessage((Map<String, Boolean>)argMsg.getMsg());
+		}
 		//ADD Tipsters Controller
 		System.out.println(allFilters);
 		saveFilters();
@@ -153,6 +161,10 @@ public class MainController implements Observer{
 	}
 	
 	private void updateFilterLabel() {
+		if (allFilters == null) {
+			System.out.println("AllFilters is null at updateFilterLabel()");
+			return;
+		}
 		//Update Filter Label
 		String actFilterText = allFilters.getActiveFiltersString();
 		activeFiltersLabel.setText(actFilterText);
