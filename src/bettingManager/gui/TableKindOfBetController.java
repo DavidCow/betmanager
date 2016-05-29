@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
+import bettingManager.statsCalculation.StatsCalculator;
+import bettingManager.statsCalculation.StatsRow;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -17,7 +19,8 @@ public class TableKindOfBetController extends Observable{
 	private MainController mainC;
 	public static int OPTIONS_TABLEKINDOFBET_ID = 10;
 	
-	@FXML TableView<TableValue> tableKindOfBet;
+	
+	@FXML TableView<StatsRow> tableKindOfBet;
 	
 	/**
 	 * Initialize
@@ -26,6 +29,7 @@ public class TableKindOfBetController extends Observable{
 		this.mainC = mainC;
 		inflateTable(TableTitles.TABLE_TITLES_KINDOFBET);
 
+		
 		tableKindOfBet.getSelectionModel().setSelectionMode(
 		    SelectionMode.MULTIPLE
 		);
@@ -37,8 +41,8 @@ public class TableKindOfBetController extends Observable{
 	 */
 	private void inflateTable(String [] tableTitles) {
 		for(int i = 0; i<tableTitles.length; i+=1) {
-			TableColumn<TableValue, String> newTC = new TableColumn<TableValue, String>(tableTitles[i]);
-			newTC.setCellValueFactory(new PropertyValueFactory<TableValue, String>(TableTitles.kindOfBetTableValueNames[i]));
+			TableColumn<StatsRow, String> newTC = new TableColumn<StatsRow, String>(tableTitles[i]);
+			newTC.setCellValueFactory(new PropertyValueFactory<StatsRow, String>(TableTitles.kindOfBetTableValueNames[i]));
 			tableKindOfBet.getColumns().add(newTC);
 		}
 		
@@ -46,48 +50,43 @@ public class TableKindOfBetController extends Observable{
 		/**
 		 * TEST TO FILL IN TABLES WITH DATA
 		 */
-//		BetAdvisorParser betAdvisorParser = new BetAdvisorParser();
-//		List<BetAdvisorElement> betAdvisorList = null;
-//		try {
-//			betAdvisorList = betAdvisorParser.parseSheets("TipsterData/csv");
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
-//		tableKindOfBet.setItems(betAdvisorList);
-		TableValue tv = new TableValue();
-		tv.setKindOfBet(new String("works"));
-		tv.setAverageYield(new String("works"));
-		tv.setAverageOdds(new String("works"));
-		tv.setNumberOfBets(new String("works"));
-		tv.setPercentWeGet(new String("works"));
-		tv.setPercentOver95(new String("works"));
-		tv.setAverageLiquidity(new String("works"));
-		tv.setPercentOfTipsFound(new String("works"));
-		tv.setFlatStakeYield(new String("works"));
+		System.out.println("Reading KoB Data...");
+		List<StatsRow> rows = this.mainC.getStatsCalc().getKoBStats();
+		System.out.println("Reading KoB Data Done!");
 		
-		TableValue tv2 = new TableValue();
-		tv2.setKindOfBet(new String("works2"));
-		tv2.setAverageYield(new String("works2"));
-		tv2.setAverageOdds(new String("works2"));
-		tv2.setNumberOfBets(new String("works2"));
-		tv2.setPercentWeGet(new String("works2"));
-		tv2.setPercentOver95(new String("works2"));
-		tv2.setAverageLiquidity(new String("works2"));
-		tv2.setPercentOfTipsFound(new String("works2"));
-		tv2.setFlatStakeYield(new String("works2"));
-		
-		List<TableValue> arr = new ArrayList<TableValue>();
-		arr.add(tv);
-		arr.add(tv2);
-		ObservableList<TableValue> data = FXCollections.observableList(arr);
+//		TableValue tv = new TableValue();
+//		tv.setKindOfBet(new String("works"));
+//		tv.setAverageYield(new String("works"));
+//		tv.setAverageOdds(new String("works"));
+//		tv.setNumberOfBets(new String("works"));
+//		tv.setPercentWeGet(new String("works"));
+//		tv.setPercentOver95(new String("works"));
+//		tv.setAverageLiquidity(new String("works"));
+//		tv.setPercentOfTipsFound(new String("works"));
+//		tv.setFlatStakeYield(new String("works"));
+//		
+//		TableValue tv2 = new TableValue();
+//		tv2.setKindOfBet(new String("works2"));
+//		tv2.setAverageYield(new String("works2"));
+//		tv2.setAverageOdds(new String("works2"));
+//		tv2.setNumberOfBets(new String("works2"));
+//		tv2.setPercentWeGet(new String("works2"));
+//		tv2.setPercentOver95(new String("works2"));
+//		tv2.setAverageLiquidity(new String("works2"));
+//		tv2.setPercentOfTipsFound(new String("works2"));
+//		tv2.setFlatStakeYield(new String("works2"));
+//		
+//		List<StatsRow> arr = new ArrayList<TableValue>();
+//		arr.add(tv);
+//		arr.add(tv2);
+		ObservableList<StatsRow> data = FXCollections.observableList(rows);
 		
 		tableKindOfBet.getItems().setAll(data);
-		tableKindOfBet.getSelectionModel().getSelectedItems().addListener(new ListChangeListener<TableValue>() {
+		tableKindOfBet.getSelectionModel().getSelectedItems().addListener(new ListChangeListener<StatsRow>() {
 
 			@Override
-			public void onChanged(ListChangeListener.Change<? extends TableValue> c) {
-			     for( TableValue t : c.getList())
+			public void onChanged(ListChangeListener.Change<? extends StatsRow> c) {
+			     for(StatsRow t : c.getList())
 		                System.out.println(t);
 			}
 		});

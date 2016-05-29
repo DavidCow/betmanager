@@ -9,6 +9,7 @@ import java.util.prefs.Preferences;
 import com.google.gson.Gson;
 
 import bettingManager.gui.OptionsTipstersController.TipsterRow;
+import bettingManager.statsCalculation.StatsCalculator;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -50,6 +51,12 @@ public class MainController implements Observer{
 		return allFilters;
 	}
 
+	private StatsCalculator statsCalc;
+
+	public StatsCalculator getStatsCalc() {
+		return statsCalc;
+	}
+
 	private Preferences prefs;
 	public Preferences getPrefs() {
 		return prefs;
@@ -62,6 +69,9 @@ public class MainController implements Observer{
 	public MainController() {
 		this.prefs = Preferences.userNodeForPackage(bettingManager.gui.MainController.class);
 		this.gson = new Gson();
+		System.out.println("Loading StatsCalculator..");
+		this.statsCalc = new StatsCalculator();
+		System.out.println("Loading StatsCalculator Done!");
 //		prefs.put(PREFS_ALLFILTERS, "");
 		String json = prefs.get(PREFS_ALLFILTERS, null);
 //		json = null;

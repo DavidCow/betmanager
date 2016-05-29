@@ -33,8 +33,6 @@ public class OptionsTipstersController extends Observable{
 	
 	private OptionsController optionsController;
 	
-	private StatsCalculator statsCalculator;
-	
 	@FXML OptionsAddAliasesController optionsAddAliasesController;
 	
 	@FXML CustomMenuItem customMenuItemAddAliases;
@@ -75,8 +73,6 @@ public class OptionsTipstersController extends Observable{
 		this.addObserver(mainC);
 		this.optionsController = opt;
 		optionsAddAliasesController.init(mainC, opt, this);
-		
-		this.statsCalculator = new StatsCalculator();
 		
 		customMenuItemAddAliases.setHideOnClick(false);
 		
@@ -129,7 +125,9 @@ public class OptionsTipstersController extends Observable{
 		
 		List<TipsterRow> tipsterList = new ArrayList<TipsterRow>();
 		//ADD TIPSTER STRINGS
-		Set<String> all = statsCalculator.getAllTipsters();
+		System.out.println("Reading Tipsters..");
+		Set<String> all = mainC.getStatsCalc().getAllTipsters();
+		System.out.println("Reading Tipsters Done!");
 		
 		for(String t:all) {
 			tipsterList.add(stringToTipster(t));

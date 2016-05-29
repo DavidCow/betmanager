@@ -11,7 +11,7 @@ public class TableTitles {
 	public final static String PERCENTOFTIPSFOUND = "% of tips found";
 	public final static String FLATSTAKEYIELD = "Flat stake yield";
 	
-	public final static String[] kindOfBetTableValueNames = {"kindOfBet","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
+	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
 	
 	
 	
