@@ -7,12 +7,17 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import javafx.util.Pair;
 import jayeson.lib.datastructure.Record;
 import jayeson.lib.datastructure.SoccerEvent;
 import mailParsing.BetAdvisorTip;
@@ -36,10 +41,10 @@ import com.google.gson.Gson;
 public class StatsCalculator {
 	
 	// Filters
-	public boolean historical = false;
-	public boolean real = true;
-	public boolean betAdvisor = false;
-	public boolean blogaBet = true;
+	public boolean historical = true;
+	public boolean real = false;
+	public boolean betAdvisor = true;
+	public boolean blogaBet = false;
 	public boolean asianHandicap = true;
 	public boolean overUnder = true;
 	public boolean oneTwoResult = true;
@@ -658,11 +663,1902 @@ public class StatsCalculator {
 		return result;
 	}
 	
+
+	
+	public List<StatsRow> getMonthlyStats(){
+		
+		Gson gson = new Gson();
+		Map<String, StatsRow> rows = new HashMap<String, StatsRow>();
+		
+		// BetAdvisor Backtest
+		if(betAdvisor && historical){
+			for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+								
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int month = gameDate.getMonth();
+					int year = gameDate.getYear() + 1900;
+					String dateString = month + " " + year;
+					if(!rows.containsKey(dateString)){
+						StatsRow row = new StatsRow();
+						row.groupBy = dateString;
+						rows.put(dateString, row);
+					}
+					
+					
+					StatsRow row = rows.get(dateString);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getOdds();
+					row.invested += element.getTake();
+					if(element.getProfit() > 0){
+						row.averageYield += bestOdds * element.getTake() - element.getTake();
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getProfit() < 0){
+						row.averageYield -= element.getTake();
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getOdds();
+				}				
+			}
+		}
+		
+		// BlogaBet Backtest
+		if(blogaBet && historical){
+			for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int month = gameDate.getMonth();
+					int year = gameDate.getYear() + 1900;
+					String dateString = month + " " + year;
+					if(!rows.containsKey(dateString)){
+						StatsRow row = new StatsRow();
+						row.groupBy = dateString;
+						rows.put(dateString, row);
+					}
+					
+					
+					StatsRow row = rows.get(dateString);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getBestOdds();
+					row.invested += element.getStake() * 100;
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getResult().equalsIgnoreCase("LOST")){
+						row.averageYield -= element.getStake() * 100;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getBestOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getBestOdds();
+				}				
+			}		
+		}
+		
+		// Bet Advisor real results
+		if(betAdvisor && real){		
+			for(int i = 0; i < betAdvisorBets.size(); i++){
+				Bet bet = betAdvisorBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				if(tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.typeOfBet;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int month = gameDate.getMonth();
+					int year = gameDate.getYear() + 1900;
+					String dateString = month + " " + year;
+					if(!rows.containsKey(dateString)){
+						StatsRow row = new StatsRow();
+						row.groupBy = dateString;
+						rows.put(dateString, row);
+					}
+					
+					
+					StatsRow row = rows.get(dateString);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.bestOdds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}	
+			}
+		}
+		
+		// BlogaBet real results
+		if(blogaBet && real){
+			for(int i = 0; i < blogaBetBets.size(); i++){
+				Bet bet = blogaBetBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake, stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
+				
+				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.pivotType;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int month = gameDate.getMonth();
+					int year = gameDate.getYear() + 1900;
+					String dateString = month + " " + year;
+					if(!rows.containsKey(dateString)){
+						StatsRow row = new StatsRow();
+						row.groupBy = dateString;
+						rows.put(dateString, row);
+					}
+					
+					
+					StatsRow row = rows.get(dateString);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.odds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}
+			}		
+		}
+		
+		// Compute averages
+		for(String tipster : rows.keySet()){
+			StatsRow row = rows.get(tipster);
+			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
+			row.averageOdds /= Math.max(row.numberOfBets, 1);
+			row.averageYield /= Math.max(row.invested, 1);
+			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
+			row.percentOver95 /= Math.max(row.numberOfBets, 1);
+			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+		}
+		
+		List<StatsRow> result = new ArrayList<StatsRow>();
+		for(String tipster : rows.keySet()){
+			result.add(rows.get(tipster));
+		}
+		
+		return result;
+	}
+	
+	public List<StatsRow> getTipsterStats(){
+		
+		Gson gson = new Gson();
+		Map<String, StatsRow> rows = new HashMap<String, StatsRow>();
+		for(String tipster : activeTipsters.keySet()){
+			if(activeTipsters.get(tipster)){
+				StatsRow row = new StatsRow();
+				row.groupBy = tipster;
+				rows.put(tipster, row);
+			}
+		}
+		
+		// BetAdvisor Backtest
+		if(betAdvisor && historical){
+			for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+								
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get(siteTipster);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getOdds();
+					row.invested += element.getTake();
+					if(element.getProfit() > 0){
+						row.averageYield += bestOdds * element.getTake() - element.getTake();
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getProfit() < 0){
+						row.averageYield -= element.getTake();
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getOdds();
+				}				
+			}
+		}
+		
+		// BlogaBet Backtest
+		if(blogaBet && historical){
+			for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get(siteTipster);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getBestOdds();
+					row.invested += element.getStake() * 100;
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getResult().equalsIgnoreCase("LOST")){
+						row.averageYield -= element.getStake() * 100;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getBestOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getBestOdds();
+				}				
+			}		
+		}
+		
+		// Bet Advisor real results
+		if(betAdvisor && real){		
+			for(int i = 0; i < betAdvisorBets.size(); i++){
+				Bet bet = betAdvisorBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				if(tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.typeOfBet;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get(siteTipster);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.bestOdds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}	
+			}
+		}
+		
+		// BlogaBet real results
+		if(blogaBet && real){
+			for(int i = 0; i < blogaBetBets.size(); i++){
+				Bet bet = blogaBetBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake, stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
+				
+				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.pivotType;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get(siteTipster);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.odds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}
+			}		
+		}
+		
+		// Compute averages
+		for(String tipster : rows.keySet()){
+			StatsRow row = rows.get(tipster);
+			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
+			row.averageOdds /= Math.max(row.numberOfBets, 1);
+			row.averageYield /= Math.max(row.invested, 1);
+			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
+			row.percentOver95 /= Math.max(row.numberOfBets, 1);
+			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+		}
+		
+		List<StatsRow> result = new ArrayList<StatsRow>();
+		for(String tipster : rows.keySet()){
+			result.add(rows.get(tipster));
+		}
+		
+		return result;
+	}
+	
+	
+
+	public List<StatsRow> getLiquidityStats(){
+		
+		Gson gson = new Gson();
+		List<StatsRow> rows = new ArrayList<StatsRow>();
+		for(int i = 0; i < 10; i++){
+			StatsRow row = new StatsRow();
+			row.groupBy = "" + i;
+			rows.add(row);
+		}
+		double minLiquidity = Double.MAX_VALUE;
+		double maxLiquidity = Double.MIN_VALUE;
+		double stakeLevel = (maxLiquidity - minLiquidity) / rows.size();
+		
+		// BetAdvisor Backtest
+		if (betAdvisor && historical) {
+			for (int i = 0; i < betAdvisorBacktestBets.size(); i++) {
+
+				// Those 3 elements combined hold all the relevant informations
+				// about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical
+						.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+
+				String siteTipster = element.getTipster() + " (BA)";
+				if (activeTipsters != null) {
+					if (!activeTipsters.containsKey(siteTipster)
+							|| !activeTipsters.get(siteTipster)) {
+						continue;
+					}
+				}
+
+				Date gameDate = element.getGameDate();
+				if (gameDate.after(startdate) && gameDate.before(endDate)
+						&& liquidity >= minLiquidity
+						&& liquidity <= maxLiquidity && bestOdds >= minOdds
+						&& bestOdds <= maxOdds) {
+					if(liquidity < minLiquidity){
+						minLiquidity = liquidity;
+					}
+					if(liquidity > maxLiquidity){
+						maxLiquidity = liquidity;
+					}
+				}
+			}
+		}
+
+		// BlogaBet Backtest
+		if (blogaBet && historical) {
+			for (int i = 0; i < blogaBetBacktestBets.size(); i++) {
+
+				// Those 3 elements combined hold all the relevant informations
+				// about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical
+						.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+
+				String siteTipster = element.getTipster() + " (BB)";
+				if (activeTipsters != null) {
+					if (!activeTipsters.containsKey(siteTipster)
+							|| !activeTipsters.get(siteTipster)) {
+						continue;
+					}
+				}
+
+				Date gameDate = element.getGameDate();
+				if (gameDate.after(startdate) && gameDate.before(endDate)
+						&& liquidity >= minLiquidity
+						&& liquidity <= maxLiquidity && bestOdds >= minOdds
+						&& bestOdds <= maxOdds) {
+					if(liquidity < minLiquidity){
+						minLiquidity = liquidity;
+					}
+					if(liquidity > maxLiquidity){
+						maxLiquidity = liquidity;
+					}
+				}
+			}
+		}
+
+		// Bet Advisor real results
+		if (betAdvisor && real) {
+			for (int i = 0; i < betAdvisorBets.size(); i++) {
+				Bet bet = betAdvisorBets.get(i);
+
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record) gson.fromJson(
+						bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent) gson.fromJson(
+						bet.getEventJsonString(), eventClass);
+
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip) gson.fromJson(
+						bet.getTipJsonString(), BetAdvisorTip.class);
+
+				BetTicket betTicket = (BetTicket) gson.fromJson(
+						bet.getBetTicketJsonString(), BetTicket.class);
+
+				String siteTipster = tip.tipster + " (BA)";
+				if (activeTipsters != null) {
+					if (!activeTipsters.containsKey(siteTipster)
+							|| !activeTipsters.get(siteTipster)) {
+						continue;
+					}
+				}
+
+				if (tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if (gameDate.after(startdate) && gameDate.before(endDate)
+						&& liquidity >= minLiquidity
+						&& liquidity <= maxLiquidity && tipOdds >= minOdds
+						&& tipOdds <= maxOdds) {
+					if(liquidity < minLiquidity){
+						minLiquidity = liquidity;
+					}
+					if(liquidity > maxLiquidity){
+						maxLiquidity = liquidity;
+					}
+				}
+			}
+		}
+
+		// BlogaBet real results
+		if (blogaBet && real) {
+			for (int i = 0; i < blogaBetBets.size(); i++) {
+				Bet bet = blogaBetBets.get(i);
+
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record) gson.fromJson(
+						bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent) gson.fromJson(
+						bet.getEventJsonString(), eventClass);
+
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake,
+						stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if (splitPoint != -1) {
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a)
+							/ Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake
+							+ "");
+				}
+
+				BlogaBetTip tip = (BlogaBetTip) gson.fromJson(tipJsonString,
+						BlogaBetTip.class);
+
+				BetTicket betTicket = (BetTicket) gson.fromJson(
+						bet.getBetTicketJsonString(), BetTicket.class);
+
+				String siteTipster = tip.tipster + " (BB)";
+				if (activeTipsters != null) {
+					if (!activeTipsters.containsKey(siteTipster)
+							|| !activeTipsters.get(siteTipster)) {
+						continue;
+					}
+				}
+
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if (gameDate.after(startdate) && gameDate.before(endDate)
+						&& liquidity >= minLiquidity
+						&& liquidity <= maxLiquidity && tipOdds >= minOdds
+						&& tipOdds <= maxOdds) {
+					if(liquidity < minLiquidity){
+						minLiquidity = liquidity;
+					}
+					if(liquidity > maxLiquidity){
+						maxLiquidity = liquidity;
+					}
+				}
+			}
+		}
+		
+		
+		// BetAdvisor Backtest
+		if(betAdvisor && historical){
+			for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+								
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int stakeIndex = -1;
+					for(int j = 0; j < rows.size(); j++){
+						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+							continue;
+						stakeIndex = j;
+						break;
+					}
+					
+					StatsRow row = rows.get(stakeIndex);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getOdds();
+					row.invested += element.getTake();
+					if(element.getProfit() > 0){
+						row.averageYield += bestOdds * element.getTake() - element.getTake();
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getProfit() < 0){
+						row.averageYield -= element.getTake();
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getOdds();
+				}				
+			}
+		}
+		
+		// BlogaBet Backtest
+		if(blogaBet && historical){
+			for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int stakeIndex = -1;
+					for(int j = 0; j < rows.size(); j++){
+						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+							continue;
+						stakeIndex = j;
+						break;
+					}
+					
+					StatsRow row = rows.get(stakeIndex);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getBestOdds();
+					row.invested += element.getStake() * 100;
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getResult().equalsIgnoreCase("LOST")){
+						row.averageYield -= element.getStake() * 100;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getBestOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getBestOdds();
+				}				
+			}		
+		}
+		
+		// Bet Advisor real results
+		if(betAdvisor && real){		
+			for(int i = 0; i < betAdvisorBets.size(); i++){
+				Bet bet = betAdvisorBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				if(tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.typeOfBet;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int stakeIndex = -1;
+					for(int j = 0; j < rows.size(); j++){
+						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+							continue;
+						stakeIndex = j;
+						break;
+					}
+					
+					StatsRow row = rows.get(stakeIndex);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.bestOdds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}	
+			}
+		}
+		
+		// BlogaBet real results
+		if(blogaBet && real){
+			for(int i = 0; i < blogaBetBets.size(); i++){
+				Bet bet = blogaBetBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake, stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
+				
+				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.pivotType;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					int stakeIndex = -1;
+					for(int j = 0; j < rows.size(); j++){
+						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+							continue;
+						stakeIndex = j;
+						break;
+					}
+					
+					StatsRow row = rows.get(stakeIndex);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.odds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}
+			}		
+		}
+		
+		// Compute averages
+		for(int i = 0; i < rows.size(); i++){
+			StatsRow row = rows.get(i);
+			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
+			row.averageOdds /= Math.max(row.numberOfBets, 1);
+			row.averageYield /= Math.max(row.invested, 1);
+			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
+			row.percentOver95 /= Math.max(row.numberOfBets, 1);
+			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+		}	
+		
+		return rows;
+	}
+	
+public List<StatsRow> getWeekStats(){
+		
+		Gson gson = new Gson();
+		List<StatsRow> rows = new ArrayList<StatsRow>();
+		StatsRow r0 = new StatsRow();
+		r0.groupBy = "Monday";
+		rows.add(r0);
+		StatsRow r1 = new StatsRow();
+		r1.groupBy = "Tuesday";
+		rows.add(r1);
+		StatsRow r2 = new StatsRow();
+		r2.groupBy = "Wednesday";
+		rows.add(r2);
+		StatsRow r3 = new StatsRow();
+		r3.groupBy = "Thursday";
+		rows.add(r3);
+		StatsRow r4 = new StatsRow();
+		r4.groupBy = "Friday";
+		rows.add(r4);
+		StatsRow r5 = new StatsRow();
+		r5.groupBy = "Saturday";
+		rows.add(r5);
+		StatsRow r6 = new StatsRow();
+		r6.groupBy = "Sunday";
+		rows.add(r6);
+		
+		// BetAdvisor Backtest
+		if(betAdvisor && historical){
+			for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+								
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get((gameDate.getDay() + 6) % 7);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getOdds();
+					row.invested += element.getTake();
+					if(element.getProfit() > 0){
+						row.averageYield += bestOdds * element.getTake() - element.getTake();
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getProfit() < 0){
+						row.averageYield -= element.getTake();
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getOdds();
+				}				
+			}
+		}
+		
+		// BlogaBet Backtest
+		if(blogaBet && historical){
+			for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get((gameDate.getDay() + 6) % 7);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += element.getBestOdds();
+					row.invested += element.getStake() * 100;
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
+						row.flatStakeYield += bestOdds - 1;
+						
+					}
+					if(element.getResult().equalsIgnoreCase("LOST")){
+						row.averageYield -= element.getStake() * 100;
+						row.flatStakeYield -= 1;				
+					}
+					row.percentOfTipsFound++;
+					if(bestOdds / element.getBestOdds() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += bestOdds / element.getBestOdds();
+				}				
+			}		
+		}
+		
+		// Bet Advisor real results
+		if(betAdvisor && real){		
+			for(int i = 0; i < betAdvisorBets.size(); i++){
+				Bet bet = betAdvisorBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				if(tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.typeOfBet;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get((gameDate.getDay() + 6) % 7);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.bestOdds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}	
+			}
+		}
+		
+		// BlogaBet real results
+		if(blogaBet && real){
+			for(int i = 0; i < blogaBetBets.size(); i++){
+				Bet bet = blogaBetBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake, stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
+				
+				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.pivotType;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					StatsRow row = rows.get((gameDate.getDay() + 6) % 7);
+					row.numberOfBets++;
+					row.averageLiquidity += liquidity;
+					row.averageOdds += tip.odds;
+					row.invested += bet.getBetAmount();
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
+						row.flatStakeYield += realOdds - 1;
+						
+					}
+					if(bet.getBetStatus() == 5){
+						row.averageYield -= bet.getBetAmount();
+						row.flatStakeYield -= 1;				
+					}
+					//row.percentOfTipsFound++;
+					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
+						row.percentOver95++;
+					}
+					row.percentWeGet += tipOdds / realOdds;
+				}
+			}		
+		}
+		
+		// Compute averages
+		for(int i = 0; i < rows.size(); i++){
+			StatsRow row = rows.get(i);
+			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
+			row.averageOdds /= Math.max(row.numberOfBets, 1);
+			row.averageYield /= Math.max(row.invested, 1);
+			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
+			row.percentOver95 /= Math.max(row.numberOfBets, 1);
+			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+		}	
+		
+		return rows;
+	}
+	
+	// BA List
+	// BB List
+	// Total list
+	public List<List<Double>> getGraphs(){
+		List<List<Double>> result = new ArrayList<List<Double>>();
+		result.add(new ArrayList<Double>());
+		result.add(new ArrayList<Double>());
+		result.add(new ArrayList<Double>());
+		
+		List<Pair<Date, Double>> baList = new ArrayList<Pair<Date, Double>>();
+		List<Pair<Date, Double>> bbList = new ArrayList<Pair<Date, Double>>();
+		List<Pair<Date, Double>> totalList = new ArrayList<Pair<Date, Double>>();
+
+
+		Gson gson = new Gson();
+		
+		// BetAdvisor Backtest
+		if(betAdvisor && historical){
+			for(int i = 0; i < betAdvisorBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
+				HistoricalDataElement historicalElement = betAdvisorHistorical.get(i);
+				double liquidity = betAdvisorBacktestLiquidity.get(i);
+				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+								
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					if(element.getProfit() > 0){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, bestOdds * element.getTake() - element.getTake());
+						baList.add(p);
+						totalList.add(p);
+						
+					}
+					if(element.getProfit() < 0){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -element.getTake());
+						baList.add(p);
+						totalList.add(p);			
+					}
+					else{
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, 0.0);
+						baList.add(p);
+						totalList.add(p);						
+					}
+
+				}				
+			}
+		}
+		
+		// BlogaBet Backtest
+		if(blogaBet && historical){
+			for(int i = 0; i < blogaBetBacktestBets.size(); i++){
+				
+				// Those 3 elements combined hold all the relevant informations about a bet in the bet advisor backtest
+				BlogaBetElement element = blogaBetBacktestBets.get(i);
+				HistoricalDataElement historicalElement = blogaBetHistorical.get(i);
+				double liquidity = blogaBetBacktestLiquidity.get(i);
+				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				
+				String siteTipster = element.getTipster() + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = element.getGameDate();
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+					String typeOfBet = element.getTypeOfBet();
+					typeOfBet = typeOfBet.replace(" Half Time", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(element.getSelection().equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					if(element.getResult().equalsIgnoreCase("WIN")){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, element.getStake() * 100 * bestOdds - element.getStake() * 100);
+						baList.add(p);
+						totalList.add(p);		
+					}
+					else if(element.getResult().equalsIgnoreCase("LOST")){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -element.getStake() * 100);
+						baList.add(p);
+						totalList.add(p);		
+					}
+					else{
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, 0.0);
+						baList.add(p);
+						totalList.add(p);		
+					}
+				}				
+			}		
+		}
+		
+		// Bet Advisor real results
+		if(betAdvisor && real){		
+			for(int i = 0; i < betAdvisorBets.size(); i++){
+				Bet bet = betAdvisorBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a Blogabet tip
+				// Some variables also have difefrent names and possible values
+				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BA)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				if(tip.betOn == null)
+					continue;
+				Date gameDate = tip.date;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.bestOdds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.typeOfBet;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.betOn.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+			
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, bet.getBetAmount() * realOdds - bet.getBetAmount());
+						baList.add(p);
+						totalList.add(p);	
+						
+					}
+					else if(bet.getBetStatus() == 5){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -bet.getBetAmount());
+						baList.add(p);
+						totalList.add(p);				
+					}
+				}	
+			}
+		}
+		
+		// BlogaBet real results
+		if(blogaBet && real){
+			for(int i = 0; i < blogaBetBets.size(); i++){
+				Bet bet = blogaBetBets.get(i);
+				
+				// Some objects were saved to our SQL database as JSON string
+				// We have to convert them to objects again
+				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
+				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
+				
+				// The tip, its a different class than a betAdvisor tip
+				// Some variables also have difefrent names and possible values
+				// Conversion from String to double
+				String tipJsonString = bet.getTipJsonString();
+				int startStake = tipJsonString.indexOf("\"stake\"") + 9;
+				int stakeEnd = tipJsonString.indexOf("\"", startStake);
+				String stakeString = tipJsonString.substring(startStake, stakeEnd);
+				int splitPoint = stakeString.indexOf("/");
+				if(splitPoint != -1){
+					String a = stakeString.substring(0, splitPoint);
+					String b = stakeString.substring(splitPoint + 1);
+					double stake = Double.parseDouble(a) / Double.parseDouble(b);
+					tipJsonString = tipJsonString.replace(stakeString, stake + "");
+				}
+				
+				BlogaBetTip tip = (BlogaBetTip)gson.fromJson(tipJsonString, BlogaBetTip.class);
+				
+				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
+				
+				String siteTipster = tip.tipster + " (BB)";
+				if(activeTipsters != null){
+					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
+						continue;
+					}
+				}
+				
+				Date gameDate = tip.startDate;
+				double liquidity = betTicket.getMaxStake();
+				double tipOdds = tip.odds;
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && tipOdds >= minOdds && tipOdds <= maxOdds){
+					String typeOfBet = tip.pivotType;
+					typeOfBet = typeOfBet.replace(" Team", "");
+					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					typeOfBet = typeOfBet.replace(" Corners", "");
+					typeOfBet = typeOfBet.replace(" Alternative", "");
+					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
+						if(tip.selection.equalsIgnoreCase("DRAW")){
+							if(!xResult)
+								continue;
+						}
+						else{
+							if(!oneTwoResult)
+								continue;
+						}
+					}
+					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+						if(!overUnder)
+							continue;
+					}
+					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						if(!asianHandicap)
+							continue;
+					}
+					
+					double realOdds = betTicket.getCurrentOdd();
+					if(typeOfBet.equalsIgnoreCase("Over / Under") || typeOfBet.equalsIgnoreCase("Asian Handicap")){
+						realOdds++;
+					}
+					if(bet.getBetStatus() == 4){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, bet.getBetAmount() * realOdds - bet.getBetAmount());
+						baList.add(p);
+						totalList.add(p);	
+						
+					}
+					else if(bet.getBetStatus() == 5){
+						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -bet.getBetAmount());
+						baList.add(p);
+						totalList.add(p);				
+					}
+				}
+			}	
+		}
+		
+		Comparator<Pair<Date, Double>> c = new Comparator<Pair<Date,Double>>() {
+
+			@Override
+			public int compare(Pair<Date, Double> o1, Pair<Date, Double> o2) {
+				long m0 = o1.getKey().getTime();
+				
+				long m1 = o2.getKey().getTime();
+				
+				if(m0 < m1)
+					return -1;
+				if(m1 < m0)
+					return 1;
+				return 0;
+			}
+		};
+		
+		Collections.sort(baList, c);
+		Collections.sort(bbList, c);
+		Collections.sort(totalList, c);
+		
+		double baTotal = 0;
+		for(int i = 0; i < baList.size(); i++){
+			result.get(0).add(baTotal);
+			baTotal += baList.get(i).getValue();
+		}
+		result.get(0).add(baTotal);
+		
+		double bbTotal = 0;
+		for(int i = 0; i < bbList.size(); i++){
+			result.get(1).add(bbTotal);
+			bbTotal += bbList.get(i).getValue();
+		}
+		result.get(1).add(bbTotal);
+		
+		double totalTotal = 0;
+		for(int i = 0; i < totalList.size(); i++){
+			result.get(2).add(totalTotal);
+			totalTotal += totalList.get(i).getValue();
+		}
+		result.get(2).add(totalTotal);		
+			
+		return result;
+	}
+	
 	public static void main(String[] args) {
 		StatsCalculator calculator = new StatsCalculator();
 		Set<String> res = calculator.getAllTipsters();
 		System.out.println(res);
-		List<StatsRow> row = calculator.getKoBStats();
+		List<StatsRow> row = calculator.getLiquidityStats();
+		List<List<Double>> g = calculator.getGraphs();
 		System.out.println();
 	}
 }
