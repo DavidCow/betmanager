@@ -214,7 +214,12 @@ public class ResultAnalyser {
 			SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
 			
 			BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
-			String key = tip.tipster + tip.event + tip.date.toString();
+			String key = "";
+			try{
+				key = tip.tipster + tip.event + tip.date.toString();
+			} catch(Exception e){
+				continue;
+			}
 			if(processedTipsBetAdvisor.contains(key))
 				continue;
 			processedTipsBetAdvisor.add(key);
