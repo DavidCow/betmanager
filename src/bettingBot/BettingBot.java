@@ -43,8 +43,8 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 20;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 1500;
-	private static final int AVERAGE_STAKE = 1000;
+	private static final int MAX_STAKE = 300;
+	private static final int AVERAGE_STAKE = 200;
 	
 	public void run(){
 		
@@ -169,9 +169,9 @@ public class BettingBot {
 			mainFrame.setFunds(funds);
 			
 			// Emergency stop
-			if(funds < 40000 && funds != -1){
-				System.out.println("INSUFFICIENT FUNDS");
-				System.exit(-1);
+			if(funds < 15000 && funds != -1){
+				//System.out.println("INSUFFICIENT FUNDS");
+				//System.exit(-1);
 			}
 			
 			// Get Events
@@ -399,7 +399,7 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);	
-										if(predictedYield < 0.02){
+										if(predictedYield < 0.02 && predictedYield != -100){
 											break;
 										}
 										
@@ -533,7 +533,7 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
-										if(predictedYield < 0.02){
+										if(predictedYield < 0.02 && predictedYield != -100){
 											break;
 										}
 										
@@ -673,7 +673,7 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
-										if(predictedYield < 0.02){
+										if(predictedYield < 0.02 && predictedYield != -100){
 											break;
 										}
 										
@@ -877,7 +877,7 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
-										if(predictedYield < 0.02){
+										if(predictedYield < 0.02 && predictedYield != -100){
 											break;
 										}
 										
@@ -956,7 +956,7 @@ public class BettingBot {
 				try{
 					tipsBlogaBet.add(BlogaBetEmailParser.parseEmail(mail));
 				} catch(RuntimeException e){
-					e.printStackTrace();
+					//e.printStackTrace();
 				}
 			}
 				
@@ -1160,7 +1160,10 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
-
+										if(predictedYield < 0.02 && predictedYield != -100){
+											break;
+										}
+										
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
@@ -1291,6 +1294,9 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
+										if(predictedYield < 0.02 && predictedYield != -100){
+											break;
+										}
 										
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
@@ -1467,7 +1473,10 @@ public class BettingBot {
 											e1.printStackTrace();
 										}
 										System.out.println("Predicted Yield: " + predictedYield);
-
+										if(predictedYield < 0.02 && predictedYield != -100){
+											break;
+										}
+										
 										double stakeLeftForTip = stakeForTip - alreadyBetAmountForTip;
 										double betAmount = Math.min(MAX_STAKE, Math.min(stakeLeftForTip, bestBetTicket.getMaxStake()));
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
