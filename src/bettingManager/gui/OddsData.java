@@ -2,9 +2,9 @@ package bettingManager.gui;
 
 public class OddsData {
 	private float greaterThan = -1;
-	private float lessThan = -1;
+	private float lessThan = Float.MAX_VALUE;
 	private float between = -1;
-	private float and = -1;
+	private float and = Float.MAX_VALUE;
 	
 	public float getGreaterThan() {
 		return greaterThan;
@@ -51,7 +51,7 @@ public class OddsData {
 				s += "; ";
 			}
 		}
-		if (lessThan != -1) {
+		if (lessThan != -1 && lessThan != Float.MAX_VALUE) {
 			s += "Less than " + lessThan;
 			emptyString = false;
 			
@@ -59,7 +59,7 @@ public class OddsData {
 				s += "; ";
 			}
 		}
-		if (between != -1 && and != -1) {
+		if (between != -1 && and != Float.MAX_VALUE) {
 			s += "Between " + between + " and " + and;
 			emptyString = false;
 		}

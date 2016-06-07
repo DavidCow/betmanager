@@ -46,21 +46,41 @@ public class AverageOddsController extends Observable{
 	public void handleGreaterThan(KeyEvent event) {
 		System.out.println("handle greater than");
 		checkTFInput(event, greaterThanTextField);
+		betweenTextField.setText("");
+		andTextField.setText("");
+		if (greaterThanTextField.getText().equals("")) {
+			oddsData.setGreaterThan(-1);
+		}
 	}
 
 	public void handleLessThan(KeyEvent event) {
 		System.out.println("handle less than");
 		checkTFInput(event, lessThanTextField);
+		betweenTextField.setText("");
+		andTextField.setText("");
+		if (lessThanTextField.getText().equals("")) {
+			oddsData.setLessThan(Float.MAX_VALUE);
+		}
 	}
 	
 	public void handleBetween(KeyEvent event) {
 		System.out.println("handle between");
 		checkTFInput(event, betweenTextField);
+		lessThanTextField.setText("");
+		greaterThanTextField.setText("");
+		if (betweenTextField.getText().equals("")) {
+			oddsData.setBetween(-1);
+		}
 	}
 
 	public void handleAnd(KeyEvent event) {
 		System.out.println("handle and");
 		checkTFInput(event, andTextField);
+		lessThanTextField.setText("");
+		greaterThanTextField.setText("");
+		if (andTextField.getText().equals("")) {
+			oddsData.setAnd(Float.MAX_VALUE);
+		}
 	}
 
 	/**
@@ -94,7 +114,7 @@ public class AverageOddsController extends Observable{
 		}
 		catch (NumberFormatException ex) {
 			System.out.println("Parse error 2, no correct float number in one of the text fields.");
-			oddsData.setLessThan(-1);
+			oddsData.setLessThan(Float.MAX_VALUE);
 		}
 		
 		try {
@@ -110,7 +130,7 @@ public class AverageOddsController extends Observable{
 		}
 		catch (NumberFormatException ex) {
 			System.out.println("Parse error 4, no correct float number in one of the text fields.");
-			oddsData.setAnd(-1);
+			oddsData.setAnd(Float.MAX_VALUE);
 		}
 	}
 	
@@ -165,7 +185,7 @@ public class AverageOddsController extends Observable{
 	 * @return
 	 */
 	private String getValueString(float val) {
-		if (val == -1) return "";
+		if (val == -1 || val == Float.MAX_VALUE) return "";
 		return ""+val;
 	}
 	

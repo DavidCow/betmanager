@@ -91,7 +91,13 @@ public class OptionsController extends Observable{
 	
 	public void handleRefreshButton(ActionEvent event) {
 		System.out.println("refresh button clicked");
+		mainC.setStatsCalculator(mainC.getAllFilters());
 		
+		if (mainC.getSelectedTab() == 0) {
+			mainC.getTableKindOfBetController().init(mainC);
+		} else if (mainC.getSelectedTab() == 1) {
+			mainC.getTableAverageLiquidityController().init(mainC);
+		}
 	}
 
 	public void hideWindow() {

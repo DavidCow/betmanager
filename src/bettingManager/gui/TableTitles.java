@@ -12,8 +12,20 @@ public class TableTitles {
 	public final static String FLATSTAKEYIELD = "Flat stake yield";
 	
 	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
+	public final static String[] averageLiquidityTableValueNames = {"averageLiquidity", 
+			"averageYield","averageOdds","numberOfBets","percentWeGet",
+			"percentOver95","percentOfTipsFound"};
 	
 	
 	
 	public final static String[] TABLE_TITLES_KINDOFBET = {KINDOFBET, AVERAGEYIELD, AVERAGEODDS, NUMBEROFBETS, PERCENTWEGET, PERCENTOVER95, AVERAGELIQUIDITY, PERCENTOFTIPSFOUND, FLATSTAKEYIELD};
+	public final static String[] TABLE_TITLES_AVERAGELIQUIDITY = {
+			AVERAGELIQUIDITY,
+			AVERAGEYIELD, 
+			AVERAGEODDS, 
+			NUMBEROFBETS, 
+			PERCENTWEGET, 
+			PERCENTOVER95, 
+			PERCENTOFTIPSFOUND
+			};
 }

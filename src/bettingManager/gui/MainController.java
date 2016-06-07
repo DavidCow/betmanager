@@ -1,6 +1,7 @@
 package bettingManager.gui;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
@@ -8,11 +9,10 @@ import java.util.prefs.Preferences;
 
 import com.google.gson.Gson;
 
-import bettingManager.gui.OptionsTipstersController.TipsterRow;
 import bettingManager.statsCalculation.StatsCalculator;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TabPane;
 import javafx.scene.control.Tooltip;
 
 public class MainController implements Observer{
@@ -31,11 +31,23 @@ public class MainController implements Observer{
 	@FXML KoBController koBController;
 	@FXML LiquidityController liquidityController;
 	
+	
+	@FXML TabPane tabPane;
+	
 	/**
 	 * Table controller
 	 */
 	@FXML TableKindOfBetController tableKindOfBetController;
+	@FXML TableAverageLiquidityController tableAverageLiquidityController;
 	
+	public TableAverageLiquidityController getTableAverageLiquidityController() {
+		return tableAverageLiquidityController;
+	}
+
+	public TableKindOfBetController getTableKindOfBetController() {
+		return tableKindOfBetController;
+	}
+
 	/**
 	 * Filter String
 	 */
@@ -108,6 +120,7 @@ public class MainController implements Observer{
 		liquidityController.init(this);
 		
 		tableKindOfBetController.init(this);
+		tableAverageLiquidityController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 		updateFilterLabel();
@@ -198,10 +211,88 @@ public class MainController implements Observer{
 		//Don't clear Data and Site (Requested by stakeholder)
 		this.allFilters.setDataState(old.getDataState());
 		this.allFilters.setSitesList(old.getSitesList());
+		this.allFilters.setTipstersMessage(old.getTipstersMessage());
 		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1_NO_SITES);
 		saveFilters();
 		updateFilterLabel();
 	}
 	
+	public void setStatsCalculator(FilterSettingsContainer c) {
+		if (c.getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_HISTORIC  || c.getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_BOTH) {
+			statsCalc.historical = true;
+		} else {
+			statsCalc.historical = false;
+		}
+		if (c.getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_REAL || c.getDataState() == Checkbox1Controller.CHECKBOX_GROUP1_BOTH) {
+			statsCalc.real = true;
+		} else {
+			statsCalc.real = false;
+		}
+		//
+		if (c.getDateRangeMessage().getD1() != null) {
+			statsCalc.startdate = c.getDateRangeMessage().getD1();
+		} else {
+			statsCalc.startdate = new Date(0);
+		}
+		if(c.getDateRangeMessage().getD2() != null) {
+			statsCalc.endDate = c.getDateRangeMessage().getD2();
+		} else {
+			statsCalc.endDate = new Date(Long.MAX_VALUE);
+		}
+		//
+		if (c.getSitesList().contains("Blogabet")) {
+			statsCalc.blogaBet = true;
+		} else {
+			statsCalc.blogaBet = false;
+		}
+		if (c.getSitesList().contains("BetAdvisor")) {
+			statsCalc.betAdvisor = true;
+		} else {
+			statsCalc.betAdvisor = false;
+		}
+		//
+		if (c.getOddsDataAverageOdds().getGreaterThan() != -1 || c.getOddsDataAverageOdds().getLessThan() != Float.MAX_VALUE) {
+			statsCalc.minOdds = c.getOddsDataAverageOdds().getGreaterThan();
+			statsCalc.maxOdds = c.getOddsDataAverageOdds().getLessThan();
+		} else if (c.getOddsDataAverageOdds().getBetween() != -1 || c.getOddsDataAverageOdds().getAnd() != Float.MAX_VALUE) {
+			statsCalc.minOdds = c.getOddsDataAverageOdds().getBetween(); 
+			statsCalc.maxOdds = c.getOddsDataAverageOdds().getAnd(); 
+		}
+		//
+		if (c.getKoBList().contains("Asian Handicap")) {
+			statsCalc.asianHandicap = true;
+		} else {
+			statsCalc.asianHandicap = false;
+		}
+		if (c.getKoBList().contains("Over - Under")) {
+			statsCalc.overUnder = true;
+		} else {
+			statsCalc.overUnder = false;
+		}
+		if (c.getKoBList().contains("1 2 Result")) {
+			statsCalc.oneTwoResult = true;
+		} else {
+			statsCalc.oneTwoResult = false;
+		}
+		if (c.getKoBList().contains("X Result")) {
+			statsCalc.xResult = true;
+		} else {
+			statsCalc.xResult = false;
+		}
+		//
+		if (c.getOddsDataLiquidity().getGreaterThan() != -1 || c.getOddsDataLiquidity().getLessThan() != Float.MAX_VALUE) {
+			statsCalc.minLiquidity = c.getOddsDataLiquidity().getGreaterThan();
+			statsCalc.maxLiquidity = c.getOddsDataLiquidity().getLessThan();
+		} else if (c.getOddsDataLiquidity().getBetween() != -1 || c.getOddsDataLiquidity().getAnd() != Float.MAX_VALUE) {
+			statsCalc.minLiquidity = c.getOddsDataLiquidity().getBetween(); 
+			statsCalc.maxLiquidity = c.getOddsDataLiquidity().getAnd(); 
+		}
+		//
+		statsCalc.activeTipsters = c.getTipstersMessage();
+	}
+	
+	public int getSelectedTab() {
+		return tabPane.getSelectionModel().getSelectedIndex();
+	}
 	
 }

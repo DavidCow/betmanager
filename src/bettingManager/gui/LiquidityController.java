@@ -40,21 +40,41 @@ public class LiquidityController extends Observable{
 	public void handleGreaterThanLiq(KeyEvent event) {
 		System.out.println("handle greater than");
 		AverageOddsController.checkTFInput(event, greaterThanTF);
+		betweenTF.setText("");
+		andTF.setText("");
+		if (greaterThanTF.getText().equals("")) {
+			oddsData.setGreaterThan(-1);
+		}
 	}
 
 	public void handleLessThanLiq(KeyEvent event) {
 		System.out.println("handle less than");
 		AverageOddsController.checkTFInput(event, lessThanTF);
+		betweenTF.setText("");
+		andTF.setText("");
+		if (lessThanTF.getText().equals("")) {
+			oddsData.setLessThan(Float.MAX_VALUE);
+		}
 	}
 	
 	public void handleBetweenLiq(KeyEvent event) {
 		System.out.println("handle between");
 		AverageOddsController.checkTFInput(event, betweenTF);
+		lessThanTF.setText("");
+		greaterThanTF.setText("");
+		if (betweenTF.getText().equals("")) {
+			oddsData.setBetween(-1);
+		}
 	}
 
 	public void handleAndLiq(KeyEvent event) {
 		System.out.println("handle and");
 		AverageOddsController.checkTFInput(event, andTF);
+		lessThanTF.setText("");
+		greaterThanTF.setText("");
+		if (andTF.getText().equals("")) {
+			oddsData.setAnd(Float.MAX_VALUE);
+		}
 	}
 	
 	
@@ -76,7 +96,7 @@ public class LiquidityController extends Observable{
 		}
 		catch (NumberFormatException ex) {
 			System.out.println("Parse error 2, no correct float number in one of the text fields.");
-			oddsData.setLessThan(-1);
+			oddsData.setLessThan(Float.MAX_VALUE);
 		}
 		
 		try {
@@ -92,7 +112,7 @@ public class LiquidityController extends Observable{
 		}
 		catch (NumberFormatException ex) {
 			System.out.println("Parse error 4, no correct float number in one of the text fields.");
-			oddsData.setAnd(-1);
+			oddsData.setAnd(Float.MAX_VALUE);
 		}
 	}
 	
@@ -143,7 +163,7 @@ public class LiquidityController extends Observable{
 	}
 	
 	private String getValueString(float val) {
-		if (val == -1) return "";
+		if (val == -1 || val == Float.MAX_VALUE) return "";
 		return ""+val;
 	}
 }
