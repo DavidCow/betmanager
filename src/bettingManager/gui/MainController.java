@@ -42,27 +42,8 @@ public class MainController implements Observer{
 	@FXML TableTipsterNameController tableTipsterNameController;
 	@FXML TableDayWeekController tableDayWeekController;
 	@FXML TableMonthlyController tableMonthlyController;
+	@FXML TableGraphController tableGraphController;
 	
-	public TableMonthlyController getTableMonthlyController() {
-		return tableMonthlyController;
-	}
-
-	public TableDayWeekController getTableDayWeekController() {
-		return tableDayWeekController;
-	}
-
-	public TableTipsterNameController getTableTipsterNameController() {
-		return tableTipsterNameController;
-	}
-
-	public TableAverageLiquidityController getTableAverageLiquidityController() {
-		return tableAverageLiquidityController;
-	}
-
-	public TableKindOfBetController getTableKindOfBetController() {
-		return tableKindOfBetController;
-	}
-
 	/**
 	 * Filter String
 	 */
@@ -140,6 +121,7 @@ public class MainController implements Observer{
 		tableTipsterNameController.init(this);
 		tableDayWeekController.init(this);
 		tableMonthlyController.init(this);
+		tableGraphController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 		updateFilterLabel();
@@ -312,6 +294,30 @@ public class MainController implements Observer{
 	
 	public int getSelectedTab() {
 		return tabPane.getSelectionModel().getSelectedIndex();
+	}
+	
+	public TableGraphController getTableGraphController() {
+		return tableGraphController;
+	}
+
+	public TableMonthlyController getTableMonthlyController() {
+		return tableMonthlyController;
+	}
+
+	public TableDayWeekController getTableDayWeekController() {
+		return tableDayWeekController;
+	}
+
+	public TableTipsterNameController getTableTipsterNameController() {
+		return tableTipsterNameController;
+	}
+
+	public TableAverageLiquidityController getTableAverageLiquidityController() {
+		return tableAverageLiquidityController;
+	}
+
+	public TableKindOfBetController getTableKindOfBetController() {
+		return tableKindOfBetController;
 	}
 	
 }
