@@ -1361,9 +1361,8 @@ public class StatsCalculator {
 			row.groupBy = "" + i;
 			rows.add(row);
 		}
-		double minLiquidity = Double.MAX_VALUE;
-		double maxLiquidity = Double.MIN_VALUE;
-		double stakeLevel = (maxLiquidity - minLiquidity) / rows.size();
+		double minLiquiditySeen = Double.MAX_VALUE;
+		double maxLiquiditySeen = Double.MIN_VALUE;
 		
 		// BetAdvisor Backtest
 		if (betAdvisor && historical) {
@@ -1390,11 +1389,11 @@ public class StatsCalculator {
 						&& liquidity >= minLiquidity
 						&& liquidity <= maxLiquidity && bestOdds >= minOdds
 						&& bestOdds <= maxOdds) {
-					if(liquidity < minLiquidity){
-						minLiquidity = liquidity;
+					if(liquidity < minLiquiditySeen){
+						minLiquiditySeen = liquidity;
 					}
-					if(liquidity > maxLiquidity){
-						maxLiquidity = liquidity;
+					if(liquidity > maxLiquiditySeen){
+						maxLiquiditySeen = liquidity;
 					}
 				}
 			}
@@ -1425,11 +1424,11 @@ public class StatsCalculator {
 						&& liquidity >= minLiquidity
 						&& liquidity <= maxLiquidity && bestOdds >= minOdds
 						&& bestOdds <= maxOdds) {
-					if(liquidity < minLiquidity){
-						minLiquidity = liquidity;
+					if(liquidity < minLiquiditySeen){
+						minLiquiditySeen = liquidity;
 					}
-					if(liquidity > maxLiquidity){
-						maxLiquidity = liquidity;
+					if(liquidity > maxLiquiditySeen){
+						maxLiquiditySeen = liquidity;
 					}
 				}
 			}
@@ -1472,11 +1471,11 @@ public class StatsCalculator {
 						&& liquidity >= minLiquidity
 						&& liquidity <= maxLiquidity && tipOdds >= minOdds
 						&& tipOdds <= maxOdds) {
-					if(liquidity < minLiquidity){
-						minLiquidity = liquidity;
+					if(liquidity < minLiquiditySeen){
+						minLiquiditySeen = liquidity;
 					}
-					if(liquidity > maxLiquidity){
-						maxLiquidity = liquidity;
+					if(liquidity > maxLiquiditySeen){
+						maxLiquiditySeen = liquidity;
 					}
 				}
 			}
@@ -1533,15 +1532,16 @@ public class StatsCalculator {
 						&& liquidity >= minLiquidity
 						&& liquidity <= maxLiquidity && tipOdds >= minOdds
 						&& tipOdds <= maxOdds) {
-					if(liquidity < minLiquidity){
-						minLiquidity = liquidity;
+					if(liquidity < minLiquiditySeen){
+						minLiquiditySeen = liquidity;
 					}
-					if(liquidity > maxLiquidity){
-						maxLiquidity = liquidity;
+					if(liquidity > maxLiquiditySeen){
+						maxLiquiditySeen = liquidity;
 					}
 				}
 			}
 		}
+		double stakeLevel = (maxLiquiditySeen - minLiquiditySeen) / rows.size();
 		
 		
 		// BetAdvisor Backtest
