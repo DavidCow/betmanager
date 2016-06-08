@@ -39,7 +39,22 @@ public class MainController implements Observer{
 	 */
 	@FXML TableKindOfBetController tableKindOfBetController;
 	@FXML TableAverageLiquidityController tableAverageLiquidityController;
+	@FXML TableTipsterNameController tableTipsterNameController;
+	@FXML TableDayWeekController tableDayWeekController;
+	@FXML TableMonthlyController tableMonthlyController;
 	
+	public TableMonthlyController getTableMonthlyController() {
+		return tableMonthlyController;
+	}
+
+	public TableDayWeekController getTableDayWeekController() {
+		return tableDayWeekController;
+	}
+
+	public TableTipsterNameController getTableTipsterNameController() {
+		return tableTipsterNameController;
+	}
+
 	public TableAverageLiquidityController getTableAverageLiquidityController() {
 		return tableAverageLiquidityController;
 	}
@@ -98,6 +113,7 @@ public class MainController implements Observer{
 			 */
 			this.allFilters = gson.fromJson(json, FilterSettingsContainer.class);
 		}
+		setStatsCalculator(allFilters);
 	}
 	
 	/**
@@ -121,6 +137,9 @@ public class MainController implements Observer{
 		
 		tableKindOfBetController.init(this);
 		tableAverageLiquidityController.init(this);
+		tableTipsterNameController.init(this);
+		tableDayWeekController.init(this);
+		tableMonthlyController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 		updateFilterLabel();

@@ -176,17 +176,17 @@
 										</Tab>
 										<Tab text="Tipster Name">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+												<fx:include fx:id="tableTipsterName" source="TableTipsterName.fxml" />
 											</content>
 										</Tab>
 										<Tab text="Day/Week">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+												<fx:include fx:id="tableDayWeek" source="TableDayWeek.fxml" />
 											</content>
 										</Tab>
 										<Tab text="Monthly">
 											<content>
-												<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+												<fx:include fx:id="tableMonthly" source="TableMonthly.fxml" />
 											</content>
 										</Tab>
 										<Tab text="Graph">

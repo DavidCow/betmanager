@@ -93,10 +93,17 @@ public class OptionsController extends Observable{
 		System.out.println("refresh button clicked");
 		mainC.setStatsCalculator(mainC.getAllFilters());
 		
-		if (mainC.getSelectedTab() == 0) {
+		int selectedTab = mainC.getSelectedTab();
+		if (selectedTab == 0) {
 			mainC.getTableKindOfBetController().init(mainC);
-		} else if (mainC.getSelectedTab() == 1) {
+		} else if (selectedTab == 1) {
 			mainC.getTableAverageLiquidityController().init(mainC);
+		} else if (selectedTab == 2) {
+			mainC.getTableTipsterNameController().init(mainC);
+		} else if (selectedTab == 3) {
+			mainC.getTableDayWeekController().init(mainC);
+		} else if (selectedTab == 4) {
+			mainC.getTableMonthlyController().init(mainC);
 		}
 	}
 

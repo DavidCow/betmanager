@@ -1,6 +1,9 @@
 package bettingManager.gui;
 
 public class TableTitles {
+	/**
+	 * Column name definitions
+	 */
 	public final static String KINDOFBET = "Kind of Bet";
 	public final static String AVERAGEYIELD = "Average yield";
 	public final static String AVERAGEODDS = "Average odds";
@@ -10,14 +13,32 @@ public class TableTitles {
 	public final static String AVERAGELIQUIDITY = "Average Liquidity";
 	public final static String PERCENTOFTIPSFOUND = "% of tips found";
 	public final static String FLATSTAKEYIELD = "Flat stake yield";
+	public final static String TIPSTERNAME = "Tipster";
+	public final static String DAY = "Day";
+	public final static String MONTH = "Month";
 	
+	/**
+	 * Variable names for Table injection
+	 */
 	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
 	public final static String[] averageLiquidityTableValueNames = {"averageLiquidity", 
 			"averageYield","averageOdds","numberOfBets","percentWeGet",
 			"percentOver95","percentOfTipsFound"};
+	public final static String[] tipsterNameTableValueNames = {"groupBy", 
+			"averageLiquidity","averageYield","averageOdds","numberOfBets",
+			"percentWeGet", "percentOver95","percentOfTipsFound"};
+	public final static String[] dayWeekTableValueNames = {"groupBy", 
+			"averageLiquidity","averageYield","averageOdds","numberOfBets",
+			"percentWeGet", "percentOver95","percentOfTipsFound"};
+	
+	public final static String[] monthlyTableValueNames = {"groupBy", 
+			"averageLiquidity","averageYield","averageOdds","numberOfBets",
+			"percentWeGet", "percentOver95","percentOfTipsFound"};
 	
 	
-	
+	/**
+	 * Title of column (string)
+	 */
 	public final static String[] TABLE_TITLES_KINDOFBET = {KINDOFBET, AVERAGEYIELD, AVERAGEODDS, NUMBEROFBETS, PERCENTWEGET, PERCENTOVER95, AVERAGELIQUIDITY, PERCENTOFTIPSFOUND, FLATSTAKEYIELD};
 	public final static String[] TABLE_TITLES_AVERAGELIQUIDITY = {
 			AVERAGELIQUIDITY,
@@ -28,4 +49,34 @@ public class TableTitles {
 			PERCENTOVER95, 
 			PERCENTOFTIPSFOUND
 			};
+	public final static String[] TABLE_TITLES_TIPSTERNAME = {
+			TIPSTERNAME,
+			AVERAGELIQUIDITY,
+			AVERAGEYIELD, 
+			AVERAGEODDS, 
+			NUMBEROFBETS, 
+			PERCENTWEGET, 
+			PERCENTOVER95, 
+			PERCENTOFTIPSFOUND
+	};
+	public final static String[] TABLE_TITLES_DAYWEEK = {
+			DAY,
+			AVERAGELIQUIDITY,
+			AVERAGEYIELD, 
+			AVERAGEODDS, 
+			NUMBEROFBETS, 
+			PERCENTWEGET, 
+			PERCENTOVER95, 
+			PERCENTOFTIPSFOUND
+	};
+	public final static String[] TABLE_TITLES_MONTHLY = {
+			MONTH,
+			AVERAGELIQUIDITY,
+			AVERAGEYIELD, 
+			AVERAGEODDS, 
+			NUMBEROFBETS, 
+			PERCENTWEGET, 
+			PERCENTOVER95, 
+			PERCENTOFTIPSFOUND
+	};
 }
