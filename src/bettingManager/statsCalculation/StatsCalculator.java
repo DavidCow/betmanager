@@ -1586,7 +1586,7 @@ public class StatsCalculator {
 					
 					int stakeIndex = -1;
 					for(int j = 0; j < rows.size(); j++){
-						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+						if(liquidity > minLiquiditySeen + (j + 1) * stakeLevel + 0.01)
 							continue;
 						stakeIndex = j;
 						break;
@@ -1657,7 +1657,7 @@ public class StatsCalculator {
 					
 					int stakeIndex = -1;
 					for(int j = 0; j < rows.size(); j++){
-						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+						if(liquidity > minLiquiditySeen + (j + 1) * stakeLevel + 0.01)
 							continue;
 						stakeIndex = j;
 						break;
@@ -1739,7 +1739,7 @@ public class StatsCalculator {
 					
 					int stakeIndex = -1;
 					for(int j = 0; j < rows.size(); j++){
-						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+						if(liquidity > minLiquiditySeen + (j + 1) * stakeLevel + 0.01)
 							continue;
 						stakeIndex = j;
 						break;
@@ -1838,7 +1838,7 @@ public class StatsCalculator {
 					
 					int stakeIndex = -1;
 					for(int j = 0; j < rows.size(); j++){
-						if(liquidity > minLiquidity + (j + 1) * stakeLevel + 0.01)
+						if(liquidity > minLiquiditySeen + (j + 1) * stakeLevel + 0.01)
 							continue;
 						stakeIndex = j;
 						break;
