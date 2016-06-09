@@ -63,6 +63,7 @@ public class TableGraphController extends Observable{
 	    lineChart = new LineChart<Number, Number>(xAxis, yAxis);
 	    lineChart.setCreateSymbols(false);
 	    lineChart.setTitle(TITLE);
+	    lineChart.getStyleClass().add("thick-chart");
 	    graphAnchorPane.getChildren().add(lineChart);
 	    
 		List<List<Double>> graphs = mainC.getStatsCalc().getGraphs();

@@ -4,7 +4,11 @@
 	-fx-background: #575b5e;
 	-fx-control-inner-background:  rgb(110, 110, 110);
 }
- 
+
+ .thick-chart .chart-series-line {    
+-fx-stroke-width: 1px;
+}
+
  .choice-box .menu-item:focused {
   -fx-background-color: orange; 
 }
