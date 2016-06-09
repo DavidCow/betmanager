@@ -47,7 +47,7 @@ public class OddsData {
 		if (greaterThan != -1) {
 			s += "Greater than " + greaterThan;
 			emptyString = false;
-			if (lessThan != -1 || (between != -1 && and != -1)) {
+			if (lessThan != -1 || (between != -1 && and != Float.MAX_VALUE)) {
 				s += "; ";
 			}
 		}
@@ -55,7 +55,7 @@ public class OddsData {
 			s += "Less than " + lessThan;
 			emptyString = false;
 			
-			if (between != -1 && and != -1) {
+			if (between != -1 && and != Float.MAX_VALUE) {
 				s += "; ";
 			}
 		}

@@ -64,7 +64,8 @@ public class TableAverageLiquidityController extends Observable{
 					public String toString(Object value) {
 						try {
 							if (value instanceof String) {
-								return nf.format(Double.parseDouble((String) value));
+								return (String)value;
+//								return nf.format(Double.parseDouble((String) value));
 							} else {
 								return nf.format((Double) value);
 							}

@@ -2,6 +2,7 @@ package bettingManager.gui;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
@@ -9,6 +10,7 @@ import java.util.prefs.Preferences;
 
 import com.google.gson.Gson;
 
+import bettingManager.gui.OptionsTipstersController.TipsterRow;
 import bettingManager.statsCalculation.StatsCalculator;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -77,6 +79,10 @@ public class MainController implements Observer{
 	public MainController() {
 		this.prefs = Preferences.userNodeForPackage(bettingManager.gui.MainController.class);
 		this.gson = new Gson();
+		//RESET SAVED FILTERSETTINGS
+//		String json = gson.toJson(new FilterSettingsContainer());
+//		prefs.put(PREFS_ALLFILTERS, json);
+		
 		System.out.println("Loading StatsCalculator..");
 		this.statsCalc = new StatsCalculator();
 		System.out.println("Loading StatsCalculator Done!");
@@ -88,6 +94,11 @@ public class MainController implements Observer{
 			 * If no previous filter settings 
 			 */
 			this.allFilters = new FilterSettingsContainer();
+			Map<String, Boolean> tipstersSaved = new HashMap<String, Boolean>();
+			for (String t:statsCalc.getAllTipsters()) {
+				tipstersSaved.put(t, true);
+			}
+			this.allFilters.setTipstersMessage(tipstersSaved);
 		} else {
 			/*
 			 * Load last filter settings

@@ -126,12 +126,12 @@ public class OptionsTipstersController extends Observable{
 		List<TipsterRow> tipsterList = new ArrayList<TipsterRow>();
 		//ADD TIPSTER STRINGS
 		System.out.println("Reading Tipsters..");
-		Set<String> all = mainC.getStatsCalc().getAllTipsters();
-		System.out.println("Reading Tipsters Done!");
+//		Set<String> all = mainC.getStatsCalc().getAllTipsters();
 		
-		for(String t:all) {
-			tipsterList.add(stringToTipster(t));
+		for(String key:mainC.getAllFilters().getTipstersMessage().keySet()) {
+			tipsterList.add(stringToTipster(key));
 		}
+		System.out.println("Reading Tipsters Done!");
 		
 		ObservableList<TipsterRow> data = FXCollections.observableList(tipsterList);
 		

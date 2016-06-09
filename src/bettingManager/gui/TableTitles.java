@@ -16,12 +16,14 @@ public class TableTitles {
 	public final static String TIPSTERNAME = "Tipster";
 	public final static String DAY = "Day";
 	public final static String MONTH = "Month";
+	public final static String LIQUIDITY = "Liquidity";
+	
 	
 	/**
 	 * Variable names for Table injection
 	 */
 	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
-	public final static String[] averageLiquidityTableValueNames = {"averageLiquidity", 
+	public final static String[] averageLiquidityTableValueNames = {"groupBy", "averageLiquidity", 
 			"averageYield","averageOdds","numberOfBets","percentWeGet",
 			"percentOver95","percentOfTipsFound"};
 	public final static String[] tipsterNameTableValueNames = {"groupBy", 
@@ -41,6 +43,7 @@ public class TableTitles {
 	 */
 	public final static String[] TABLE_TITLES_KINDOFBET = {KINDOFBET, AVERAGEYIELD, AVERAGEODDS, NUMBEROFBETS, PERCENTWEGET, PERCENTOVER95, AVERAGELIQUIDITY, PERCENTOFTIPSFOUND, FLATSTAKEYIELD};
 	public final static String[] TABLE_TITLES_AVERAGELIQUIDITY = {
+			LIQUIDITY,
 			AVERAGELIQUIDITY,
 			AVERAGEYIELD, 
 			AVERAGEODDS, 

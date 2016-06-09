@@ -3,11 +3,14 @@ package bettingManager.gui;
 import java.util.List;
 import java.util.Observable;
 
+
+import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.layout.AnchorPane;
+import javafx.application.Platform;
 
 public class TableGraphController extends Observable{
 	private MainController mainC;
@@ -19,7 +22,7 @@ public class TableGraphController extends Observable{
 	public final String BETADVISOR = "BetAdvisor";
 	public final String TOTAL = "Total";
 	public final String X_AXIS = "Time";
-	public final String Y_AXIS = "Data";
+	public final String Y_AXIS = "Bets";
 	
 	public final String[] graphsTitleArray = {BLOGABET, BETADVISOR, TOTAL};
 	
@@ -31,10 +34,18 @@ public class TableGraphController extends Observable{
 	 */
 	public void init(MainController mainC) {
 		this.mainC = mainC;
-		setUpLineChart();
+//		setUpLineChart();
+		new Thread(task).start();
 //		inflateGraph();
 	}
 	
+	Task<Void> task = new Task<Void>() {
+	    @Override public Void call() {
+	        setUpLineChart();
+//	            updateProgress(i, max);
+	        return null;
+	    }
+	};
 	
 	private void setUpLineChart() {
 		System.out.println("Setting up Graph");
@@ -50,7 +61,9 @@ public class TableGraphController extends Observable{
 	     * Create chart
 	     */
 	    lineChart = new LineChart<Number, Number>(xAxis, yAxis);
+	    lineChart.setCreateSymbols(false);
 	    lineChart.setTitle(TITLE);
+	    graphAnchorPane.getChildren().add(lineChart);
 	    
 		List<List<Double>> graphs = mainC.getStatsCalc().getGraphs();
 		int i = 0;
@@ -59,13 +72,23 @@ public class TableGraphController extends Observable{
 		    series.setName(graphsTitleArray[i]);
 		    int j = 0;
 			for(Double value:graph) {
-				series.getData().add(new XYChart.Data<Number, Number>(j, value));
 				j += 1;
+				if (j % 5 == 0) continue;
+				series.getData().add(new XYChart.Data<Number, Number>(j, value));
+				
 			}
-			lineChart.getData().add(series);
+			Platform.runLater(new Runnable() {
+				
+				@Override
+				public void run() {
+					lineChart.getData().add(series);
+				}
+			});
 			i += 1;
+			System.out.println("Graph " + i + " done!");
 		}
 	    
+	    //Simple data test
 //		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 //	    series.setName("Schmosby");
 //	    //populating the series with data
@@ -81,10 +104,8 @@ public class TableGraphController extends Observable{
 //	    series.getData().add(new XYChart.Data<Number, Number>(10, 1000));
 //	    series.getData().add(new XYChart.Data<Number, Number>(11, 129));
 //	    series.getData().add(new XYChart.Data<Number, Number>(12, 125));
-//	        
 //	    lineChart.getData().add(series);
 	    
-	    graphAnchorPane.getChildren().add(lineChart);
 
 	    System.out.println("Setting up Graph done!");
 	}
