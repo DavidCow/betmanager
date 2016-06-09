@@ -2339,17 +2339,17 @@ public List<StatsRow> getWeekStats(){
 					
 					if(element.getResult().equalsIgnoreCase("WIN")){
 						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, element.getStake() * 100 * bestOdds - element.getStake() * 100);
-						baList.add(p);
+						bbList.add(p);
 						totalList.add(p);		
 					}
 					else if(element.getResult().equalsIgnoreCase("LOST")){
 						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -element.getStake() * 100);
-						baList.add(p);
+						bbList.add(p);
 						totalList.add(p);		
 					}
 					else{
 						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, 0.0);
-						baList.add(p);
+						bbList.add(p);
 						totalList.add(p);		
 					}
 				}				
@@ -2496,13 +2496,13 @@ public List<StatsRow> getWeekStats(){
 					}
 					if(bet.getBetStatus() == 4){
 						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, bet.getBetAmount() * realOdds - bet.getBetAmount());
-						baList.add(p);
+						bbList.add(p);
 						totalList.add(p);	
 						
 					}
 					else if(bet.getBetStatus() == 5){
 						Pair<Date, Double> p = new Pair<Date, Double>(gameDate, -bet.getBetAmount());
-						baList.add(p);
+						bbList.add(p);
 						totalList.add(p);				
 					}
 				}
