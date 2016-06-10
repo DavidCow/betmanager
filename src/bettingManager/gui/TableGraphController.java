@@ -3,14 +3,20 @@ package bettingManager.gui;
 import java.util.List;
 import java.util.Observable;
 
-
+import javafx.application.Platform;
 import javafx.concurrent.Task;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.Cursor;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressIndicator;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.application.Platform;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
 
 public class TableGraphController extends Observable{
 	private MainController mainC;
@@ -28,24 +34,31 @@ public class TableGraphController extends Observable{
 	
 	LineChart<Number, Number> lineChart;
 	@FXML AnchorPane graphAnchorPane;
+	@FXML ProgressIndicator progress;
 	
+	private Task<Void> task;
 	/**
 	 * Initialize
 	 */
 	public void init(MainController mainC) {
 		this.mainC = mainC;
 //		setUpLineChart();
+		createTask();
 		new Thread(task).start();
 //		inflateGraph();
 	}
 	
-	Task<Void> task = new Task<Void>() {
-	    @Override public Void call() {
-	        setUpLineChart();
-//	            updateProgress(i, max);
-	        return null;
-	    }
-	};
+	private void createTask() {
+		task = new Task<Void>() {
+		    @Override public Void call() {
+		        setUpLineChart();
+//		            updateProgress(i, max);
+		        return null;
+		    }
+		};
+	}
+	
+	 
 	
 	private void setUpLineChart() {
 		System.out.println("Setting up Graph");
@@ -60,14 +73,34 @@ public class TableGraphController extends Observable{
 	    /**
 	     * Create chart
 	     */
-	    lineChart = new LineChart<Number, Number>(xAxis, yAxis);
-	    lineChart.setCreateSymbols(false);
-	    lineChart.setTitle(TITLE);
-	    lineChart.getStyleClass().add("thick-chart");
-	    graphAnchorPane.getChildren().add(lineChart);
-	    
+	    System.out.println("Creating line chart");
+//	    graphAnchorPane.getChildren().clear();
+	    if (graphAnchorPane.getChildren().size() == 1) {
+	        lineChart = new LineChart<Number, Number>(xAxis, yAxis);
+		    lineChart.setCreateSymbols(false);
+		    lineChart.setTitle(TITLE);
+		    lineChart.getStyleClass().add("thick-chart");
+	    	graphAnchorPane.getChildren().add(lineChart);
+	    } else {
+	    		Platform.runLater(new Runnable() {
+				@Override
+				public void run() {
+					lineChart.getData().clear();
+				}
+			});
+	    	System.out.println("Clear");
+	    }
+	    System.out.println("Creating line chart done!");
 		List<List<Double>> graphs = mainC.getStatsCalc().getGraphs();
 		int i = 0;
+		System.out.println("Inflating Graph data..");
+		Platform.runLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				progress.setProgress(-1);
+			}
+		});
 		for (List<Double> graph:graphs) {
 			XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 		    series.setName(graphsTitleArray[i]);
@@ -75,8 +108,9 @@ public class TableGraphController extends Observable{
 			for(Double value:graph) {
 				j += 1;
 				if (j % 5 == 0) continue;
-				series.getData().add(new XYChart.Data<Number, Number>(j, value));
-				
+				final XYChart.Data<Number, Number> data = new XYChart.Data<Number, Number>(j, value);
+//				data.setNode(new HoveredThresholdNode(value));
+				series.getData().add(data);
 			}
 			Platform.runLater(new Runnable() {
 				
@@ -88,7 +122,13 @@ public class TableGraphController extends Observable{
 			i += 1;
 			System.out.println("Graph " + i + " done!");
 		}
-	    
+		Platform.runLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				progress.setProgress(1);
+			}
+		});
 	    //Simple data test
 //		XYChart.Series<Number, Number> series = new XYChart.Series<Number, Number>();
 //	    series.setName("Schmosby");
@@ -111,7 +151,41 @@ public class TableGraphController extends Observable{
 	    System.out.println("Setting up Graph done!");
 	}
 
+	/** a node which displays a value on hover, but is otherwise empty */
+	  class HoveredThresholdNode extends StackPane {
+	    HoveredThresholdNode(double value) {
+	      setPrefSize(1, 1);
 
+	      final Label label = createDataThresholdLabel(value);
+
+	      setOnMouseEntered(new EventHandler<MouseEvent>() {
+	        @Override public void handle(MouseEvent mouseEvent) {
+	          getChildren().setAll(label);
+	          setCursor(Cursor.NONE);
+	          toFront();
+	        }
+	      });
+	      setOnMouseExited(new EventHandler<MouseEvent>() {
+	        @Override public void handle(MouseEvent mouseEvent) {
+	          getChildren().clear();
+	          setCursor(Cursor.CROSSHAIR);
+	        }
+	      });
+	    }
+
+	    private Label createDataThresholdLabel(double value) {
+	      final Label label = new Label(String.format("%.2f", value));
+	      label.getStyleClass().addAll("default-color0", "chart-line-symbol", "chart-series-line");
+	      label.setStyle("-fx-font-size: 14; -fx-font-weight: bold;");
+
+	       label.setTextFill(Color.FORESTGREEN);
+
+	      label.setMinSize(Label.USE_PREF_SIZE, Label.USE_PREF_SIZE);
+	      return label;
+	    }
+	}
+	
+	
 	public void inflateGraph() {
 		List<List<Double>> graphs = mainC.getStatsCalc().getGraphs();
 		for (List<Double> d:graphs) {

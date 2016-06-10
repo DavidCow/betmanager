@@ -104,6 +104,8 @@ public class OptionsController extends Observable{
 			mainC.getTableDayWeekController().init(mainC);
 		} else if (selectedTab == 4) {
 			mainC.getTableMonthlyController().init(mainC);
+		} else if (selectedTab == 5) {
+			mainC.getTableGraphController().init(mainC);
 		}
 	}
 
