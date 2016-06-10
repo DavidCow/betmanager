@@ -6,14 +6,16 @@ import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -1021,6 +1023,29 @@ public class StatsCalculator {
 			result.add(rows.get(tipster));
 		}
 		
+//		Comparator<StatsRow> c = new Comparator<StatsRow>() {
+//
+//			DateFormat dF = new SimpleDateFormat("MM yyyy", Locale.US);
+//			@Override
+//			public int compare(StatsRow o1, StatsRow o2) {
+//				try{
+//					String s0 = o1.groupBy;
+//					String s1 = o2.groupBy;
+//					Date d0 = dF.parse(s0);
+//					Date d1 = dF.parse(s1);
+//					if(d0.after(d1))
+//						return 1;
+//					else if(d1.after(d0)){
+//						return -1;
+//					}
+//				}catch(Exception e){
+//					return 0;
+//				}
+//				return 0;
+//			}
+//		};
+//		
+//		Collections.sort(result, c);
 		return result;
 	}
 	
@@ -1028,13 +1053,6 @@ public class StatsCalculator {
 		
 		Gson gson = new Gson();
 		Map<String, StatsRow> rows = new HashMap<String, StatsRow>();
-		for(String tipster : activeTipsters.keySet()){
-			if(activeTipsters.get(tipster)){
-				StatsRow row = new StatsRow();
-				row.groupBy = tipster;
-				rows.put(tipster, row);
-			}
-		}
 		
 		// BetAdvisor Backtest
 		if(betAdvisor && historical){
@@ -1076,6 +1094,11 @@ public class StatsCalculator {
 							continue;
 					}
 					
+					if(!rows.containsKey(siteTipster)){
+						StatsRow row = new StatsRow();
+						row.groupBy = siteTipster;
+						rows.put(siteTipster, row);
+					}
 					StatsRow row = rows.get(siteTipster);
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -1139,6 +1162,11 @@ public class StatsCalculator {
 							continue;
 					}
 					
+					if(!rows.containsKey(siteTipster)){
+						StatsRow row = new StatsRow();
+						row.groupBy = siteTipster;
+						rows.put(siteTipster, row);
+					}
 					StatsRow row = rows.get(siteTipster);
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -1213,6 +1241,11 @@ public class StatsCalculator {
 							continue;
 					}
 					
+					if(!rows.containsKey(siteTipster)){
+						StatsRow row = new StatsRow();
+						row.groupBy = siteTipster;
+						rows.put(siteTipster, row);
+					}
 					StatsRow row = rows.get(siteTipster);
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -1304,6 +1337,11 @@ public class StatsCalculator {
 							continue;
 					}
 					
+					if(!rows.containsKey(siteTipster)){
+						StatsRow row = new StatsRow();
+						row.groupBy = siteTipster;
+						rows.put(siteTipster, row);
+					}
 					StatsRow row = rows.get(siteTipster);
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -2557,7 +2595,7 @@ public List<StatsRow> getWeekStats(){
 		StatsCalculator calculator = new StatsCalculator();
 		Set<String> res = calculator.getAllTipsters();
 		System.out.println(res);
-		List<StatsRow> row = calculator.getLiquidityStats();
+		List<StatsRow> row = calculator.getMonthlyStats();
 		List<List<Double>> g = calculator.getGraphs();
 		System.out.println();
 	}
