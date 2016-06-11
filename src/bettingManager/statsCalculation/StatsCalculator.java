@@ -1023,29 +1023,31 @@ public class StatsCalculator {
 			result.add(rows.get(tipster));
 		}
 		
-//		Comparator<StatsRow> c = new Comparator<StatsRow>() {
-//
-//			DateFormat dF = new SimpleDateFormat("MM yyyy", Locale.US);
-//			@Override
-//			public int compare(StatsRow o1, StatsRow o2) {
-//				try{
-//					String s0 = o1.groupBy;
-//					String s1 = o2.groupBy;
-//					Date d0 = dF.parse(s0);
-//					Date d1 = dF.parse(s1);
-//					if(d0.after(d1))
-//						return 1;
-//					else if(d1.after(d0)){
-//						return -1;
-//					}
-//				}catch(Exception e){
-//					return 0;
-//				}
-//				return 0;
-//			}
-//		};
-//		
-//		Collections.sort(result, c);
+		Comparator<StatsRow> c = new Comparator<StatsRow>() {
+
+			@Override
+			public int compare(StatsRow o1, StatsRow o2) {
+				try{
+					String s0 = o1.groupBy;
+					String s1 = o2.groupBy;
+					String[] ss0 = s0.split(" ");
+					int d0 = Integer.parseInt(ss0[1]) * 13 + Integer.parseInt(ss0[0]);
+					String[] ss1 = s1.split(" ");
+					int d1 = Integer.parseInt(ss1[1]) * 13 + Integer.parseInt(ss1[0]);
+					
+					if(d0 > d1)
+						return 1;
+					else if(d1 > d0){
+						return -1;
+					}
+				}catch(Exception e){
+					return 0;
+				}
+				return 0;
+			}
+		};
+		
+		Collections.sort(result, c);
 		return result;
 	}
 	
