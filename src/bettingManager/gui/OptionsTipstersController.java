@@ -214,6 +214,7 @@ public class OptionsTipstersController extends Observable{
 	    }
 	    notifyMainController(tipstersSaved);
 	    setTipstersSelectedLabel();
+	    optionsController.hideTipstersWindow();
 	}
 
 	/**

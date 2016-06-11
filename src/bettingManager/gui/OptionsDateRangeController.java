@@ -115,6 +115,7 @@ public class OptionsDateRangeController extends Observable{
 		this.optionsController = opt;
 		
 		this.msg = new DateRangeMessage();
+		System.out.println("YES WE DID IT");
 	}
 	
 	@FXML public void initialize() {
@@ -192,6 +193,7 @@ public class OptionsDateRangeController extends Observable{
 	@FXML
 	public void handleDateRangeCancelButton(ActionEvent event){
 		System.out.println("Date Range Cancel");
+		optionsController.hideDateRangeWindow();
 	}
 
 	@FXML
@@ -281,6 +283,7 @@ public class OptionsDateRangeController extends Observable{
 			System.out.println(msg.getLast_state_value());
 		}
 		notifyMainController();
+		optionsController.hideDateRangeWindow();
 	}
 	
 	/**

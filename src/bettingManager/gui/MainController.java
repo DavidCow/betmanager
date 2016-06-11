@@ -1,5 +1,6 @@
 package bettingManager.gui;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -111,8 +112,9 @@ public class MainController implements Observer{
 	/**
 	 * Initialize MainController references
 	 * and add Observer to each controller
+	 * @throws IOException 
 	 */
-	@FXML public void initialize() {
+	@FXML public void initialize() throws IOException {
 		System.out.println("MainController initialize");
 		
 		/*
@@ -266,7 +268,7 @@ public class MainController implements Observer{
 		if (c.getOddsDataAverageOdds().getGreaterThan() != -1 || c.getOddsDataAverageOdds().getLessThan() != Float.MAX_VALUE) {
 			statsCalc.minOdds = c.getOddsDataAverageOdds().getGreaterThan();
 			statsCalc.maxOdds = c.getOddsDataAverageOdds().getLessThan();
-		} else if (c.getOddsDataAverageOdds().getBetween() != -1 || c.getOddsDataAverageOdds().getAnd() != Float.MAX_VALUE) {
+		} else {
 			statsCalc.minOdds = c.getOddsDataAverageOdds().getBetween(); 
 			statsCalc.maxOdds = c.getOddsDataAverageOdds().getAnd(); 
 		}
@@ -295,7 +297,7 @@ public class MainController implements Observer{
 		if (c.getOddsDataLiquidity().getGreaterThan() != -1 || c.getOddsDataLiquidity().getLessThan() != Float.MAX_VALUE) {
 			statsCalc.minLiquidity = c.getOddsDataLiquidity().getGreaterThan();
 			statsCalc.maxLiquidity = c.getOddsDataLiquidity().getLessThan();
-		} else if (c.getOddsDataLiquidity().getBetween() != -1 || c.getOddsDataLiquidity().getAnd() != Float.MAX_VALUE) {
+		} else {
 			statsCalc.minLiquidity = c.getOddsDataLiquidity().getBetween(); 
 			statsCalc.maxLiquidity = c.getOddsDataLiquidity().getAnd(); 
 		}
