@@ -50,7 +50,7 @@ public class StatsCalculator {
 	public boolean asianHandicap = true;
 	public boolean overUnder = true;
 	public boolean oneTwoResult = true;
-	public boolean xResult = true;
+	public boolean xResult = false;
 	
 	public double minLiquidity = 0;
 	public double maxLiquidity = Double.MAX_VALUE;
@@ -742,7 +742,8 @@ public class StatsCalculator {
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 			Collections.sort(row.bets, c);
-			result.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
+			if(result.get(i).bets.size() > 20)
+				result.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
 		}
 		
 		return result;
