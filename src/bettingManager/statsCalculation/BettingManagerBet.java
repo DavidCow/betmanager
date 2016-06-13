@@ -5,6 +5,7 @@ import java.util.Date;
 public class BettingManagerBet {
 
 	public Date betDate;
+	
 	public Date gameDate;
 	public String koB;
 	public String tipster;
@@ -23,4 +24,37 @@ public class BettingManagerBet {
 				+ ", event=" + event + ", selection=" + selection + ", netWon="
 				+ netWon + ", odds=" + odds + "]";
 	}
+	
+	public Date getBetDate() {
+		return betDate;
+	}
+
+	public Date getGameDate() {
+		return gameDate;
+	}
+
+	public String getKoB() {
+		return koB;
+	}
+
+	public String getTipster() {
+		return tipster;
+	}
+
+	public String getEvent() {
+		return event;
+	}
+
+	public String getSelection() {
+		return selection;
+	}
+
+	public String getNetWon() {
+		return netWon;
+	}
+
+	public double getOdds() {
+		return odds;
+	}
+
 }

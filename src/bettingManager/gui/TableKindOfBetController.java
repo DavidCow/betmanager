@@ -120,8 +120,10 @@ public class TableKindOfBetController extends Observable{
 
 			@Override
 			public void onChanged(ListChangeListener.Change<? extends StatsRow> c) {
-			     for(StatsRow t : c.getList())
-		                System.out.println(t);
+			     for(StatsRow t : c.getList()) {
+			    	 System.out.println(t);
+			     }
+			     mainC.getTableLastBetsController().setDataList(c.getList());
 			}
 		});
 		/**

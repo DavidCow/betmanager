@@ -48,6 +48,13 @@ public class MainController implements Observer{
 	@FXML TableGraphController tableGraphController;
 	
 	/**
+	 * Last Bets
+	 */
+	@FXML TableLastBetsController tableLastBetsController;
+	
+
+
+	/**
 	 * Filter String
 	 */
 	@FXML Label activeFiltersLabel;
@@ -135,6 +142,8 @@ public class MainController implements Observer{
 		tableDayWeekController.init(this);
 		tableMonthlyController.init(this);
 		tableGraphController.init(this);
+		
+		tableLastBetsController.init(this);
 		
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 		updateFilterLabel();
@@ -331,6 +340,10 @@ public class MainController implements Observer{
 
 	public TableKindOfBetController getTableKindOfBetController() {
 		return tableKindOfBetController;
+	}
+
+	public TableLastBetsController getTableLastBetsController() {
+		return tableLastBetsController;
 	}
 	
 }

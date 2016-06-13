@@ -115,7 +115,6 @@ public class OptionsDateRangeController extends Observable{
 		this.optionsController = opt;
 		
 		this.msg = new DateRangeMessage();
-		System.out.println("YES WE DID IT");
 	}
 	
 	@FXML public void initialize() {

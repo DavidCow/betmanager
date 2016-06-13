@@ -203,7 +203,9 @@
                   </Button>
 							</children>
 						</AnchorPane>
-						<AnchorPane minHeight="100.0" minWidth="0.0" prefHeight="399.0" prefWidth="1085.0" />
+						<AnchorPane minHeight="100.0" minWidth="0.0" prefHeight="399.0" prefWidth="1085.0" >
+							<fx:include fx:id="tableLastBets" source="TableLastBets.fxml" />
+						</AnchorPane>
 					</items>
          <BorderPane.margin>
             <Insets />

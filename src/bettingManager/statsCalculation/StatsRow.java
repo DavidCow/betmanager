@@ -17,6 +17,9 @@ public class StatsRow {
 	public double flatStakeYield = 0;
 	public List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
 	
+	public List<BettingManagerBet> getBets() {
+		return bets;
+	}
 	public String getGroupBy() {
 		return groupBy;
 	}
