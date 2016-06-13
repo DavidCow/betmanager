@@ -46,7 +46,7 @@ public class StatsCalculator {
 	public boolean historical = true;
 	public boolean real = false;
 	public boolean betAdvisor = true;
-	public boolean blogaBet = false;
+	public boolean blogaBet = true;
 	public boolean asianHandicap = true;
 	public boolean overUnder = true;
 	public boolean oneTwoResult = true;
@@ -366,46 +366,69 @@ public class StatsCalculator {
 					StatsRow row = null;
 					String typeOfBet = element.getTypeOfBet();
 					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					
+					BettingManagerBet bet = new BettingManagerBet();
+					bet.tipster = siteTipster;
+					bet.betDate = element.getPublicationDate();
+					bet.gameDate = element.getGameDate();
+					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(element.getSelection().equalsIgnoreCase("DRAW")){
 							if(!xResult)
 								continue;
 							row = xRow;
+							bet.koB = "X";
 						}
 						else{
 							if(!oneTwoResult)
 								continue;
 							row = oneTwoRow;
+							bet.koB = "1/2";
 						}
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
 						if(!overUnder)
 							continue;
 						row = overUnderRow;
+						bet.koB = "O/U";
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						row = asianHandicapRow;
+						bet.koB = "AH";
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getOdds();
 					row.invested += element.getTake();
+					
+					bet.event = element.getEvent();
+					bet.selection = element.getSelection();
+					bet.odds = bestOdds;
+					
 					if(element.getProfit() > 0){
 						row.averageYield += bestOdds * element.getTake() - element.getTake();
 						row.flatStakeYield += bestOdds - 1;
-						
+						bet.netWon = "" + (bestOdds * element.getTake() - element.getTake());
 					}
-					if(element.getProfit() < 0){
+					else if(element.getProfit() < 0){
 						row.averageYield -= element.getTake();
-						row.flatStakeYield -= 1;				
+						row.flatStakeYield -= 1;	
+						bet.netWon = "" + (- element.getTake());
+					}
+					else{
+						bet.netWon = "0";
 					}
 					row.percentOfTipsFound++;
 					if(bestOdds / element.getOdds() > 0.95){
 						row.percentOver95++;
 					}
 					row.percentWeGet += bestOdds / element.getOdds();
+					List<BettingManagerBet> bets = row.bets;
+//					if(bets.size() < 10){
+						bets.add(bet);
+//					}
 				}				
 			}
 		}
@@ -432,27 +455,37 @@ public class StatsCalculator {
 					StatsRow row = null;
 					String typeOfBet = element.getTypeOfBet();
 					typeOfBet = typeOfBet.replace(" Half Time", "");
+					
+					BettingManagerBet bet = new BettingManagerBet();
+					bet.tipster = siteTipster;
+					bet.betDate = element.getPublicationDate();
+					bet.gameDate = element.getGameDate();
+					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(element.getSelection().equalsIgnoreCase("DRAW")){
 							if(!xResult)
 								continue;
 							row = xRow;
+							bet.koB = "X";
 						}
 						else{
 							if(!oneTwoResult)
 								continue;
 							row = oneTwoRow;
+							bet.koB = "1/2";
 						}
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over Under")){
 						if(!overUnder)
 							continue;
 						row = overUnderRow;
+						bet.koB = "O/U";
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						row = asianHandicapRow;
+						bet.koB = "AH";
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -461,17 +494,25 @@ public class StatsCalculator {
 					if(element.getResult().equalsIgnoreCase("WIN")){
 						row.averageYield += bestOdds * element.getStake() * 100 - element.getStake() * 100;
 						row.flatStakeYield += bestOdds - 1;
-						
+						bet.netWon = "" + (bestOdds * element.getStake() * 100 - element.getStake() * 100);
 					}
-					if(element.getResult().equalsIgnoreCase("LOST")){
+					else if(element.getResult().equalsIgnoreCase("LOST")){
 						row.averageYield -= element.getStake() * 100;
-						row.flatStakeYield -= 1;				
+						row.flatStakeYield -= 1;	
+						bet.netWon = "" + (-element.getStake() * 100);
+					}
+					else{
+						bet.netWon = "0";
 					}
 					row.percentOfTipsFound++;
 					if(bestOdds / element.getBestOdds() > 0.95){
 						row.percentOver95++;
 					}
 					row.percentWeGet += bestOdds / element.getBestOdds();
+					List<BettingManagerBet> bets = row.bets;
+//					if(bets.size() < 10){
+						bets.add(bet);
+//					}
 				}				
 			}		
 		}
@@ -509,27 +550,38 @@ public class StatsCalculator {
 					StatsRow row = null;
 					typeOfBet = typeOfBet.replace(" Team", "");
 					typeOfBet = typeOfBet.replace(" 1st Half", "");
+					
+					BettingManagerBet bBet = new BettingManagerBet();
+					bBet.tipster = siteTipster;
+					bBet.betDate = tip.receivedDate;
+					bBet.gameDate = tip.date;
+					bBet.event = tip.event;
+					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.betOn.equalsIgnoreCase("DRAW")){
 							if(!xResult)
 								continue;
 							row = xRow;
+							bBet.koB = "X";
 						}
 						else{
 							if(!oneTwoResult)
 								continue;
 							row = oneTwoRow;
+							bBet.koB = "1/2";
 						}
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
 						if(!overUnder)
 							continue;
 						row = overUnderRow;
+						bBet.koB = "O/U";
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						row = asianHandicapRow;
+						bBet.koB = "AH";
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -542,17 +594,26 @@ public class StatsCalculator {
 					if(bet.getBetStatus() == 4){
 						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
 						row.flatStakeYield += realOdds - 1;
+						bBet.netWon = "" + (realOdds * bet.getBetAmount() - bet.getBetAmount());
 						
 					}
-					if(bet.getBetStatus() == 5){
+					else if(bet.getBetStatus() == 5){
 						row.averageYield -= bet.getBetAmount();
-						row.flatStakeYield -= 1;				
+						row.flatStakeYield -= 1;	
+						bBet.netWon = "" + (-bet.getBetAmount());
+					}
+					else{
+						bBet.netWon = "0";
 					}
 					//row.percentOfTipsFound++;
 					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
 						row.percentOver95++;
 					}
 					row.percentWeGet += tipOdds / realOdds;
+					List<BettingManagerBet> bets = row.bets;
+//					if(bets.size() < 10){
+						bets.add(bBet);
+//					}
 				}	
 			}
 		}
@@ -603,27 +664,38 @@ public class StatsCalculator {
 					typeOfBet = typeOfBet.replace(" 1st Half", "");
 					typeOfBet = typeOfBet.replace(" Corners", "");
 					typeOfBet = typeOfBet.replace(" Alternative", "");
+					
+					BettingManagerBet bBet = new BettingManagerBet();
+					bBet.tipster = siteTipster;
+					bBet.betDate = tip.receivedDate;
+					bBet.gameDate = tip.startDate;
+					bBet.event = tip.event;
+					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.selection.equalsIgnoreCase("DRAW")){
 							if(!xResult)
 								continue;
 							row = xRow;
+							bBet.koB = "X";
 						}
 						else{
 							if(!oneTwoResult)
 								continue;
 							row = oneTwoRow;
+							bBet.koB = "1/2";
 						}
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
 						if(!overUnder)
 							continue;
 						row = overUnderRow;
+						bBet.koB = "O/U";
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						row = asianHandicapRow;
+						bBet.koB = "AH";
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -636,22 +708,31 @@ public class StatsCalculator {
 					if(bet.getBetStatus() == 4){
 						row.averageYield += realOdds * bet.getBetAmount() - bet.getBetAmount();
 						row.flatStakeYield += realOdds - 1;
-						
+						bBet.netWon = "" + (realOdds * bet.getBetAmount() - bet.getBetAmount());
 					}
-					if(bet.getBetStatus() == 5){
+					else if(bet.getBetStatus() == 5){
 						row.averageYield -= bet.getBetAmount();
-						row.flatStakeYield -= 1;				
+						row.flatStakeYield -= 1;	
+						bBet.netWon = "" + (-bet.getBetAmount());
+					}
+					else{
+						bBet.netWon = "0";
 					}
 					//row.percentOfTipsFound++;
 					if(tipOdds / betTicket.getCurrentOdd() > 0.95){
 						row.percentOver95++;
 					}
 					row.percentWeGet += tipOdds / realOdds;
+					List<BettingManagerBet> bets = row.bets;
+//					if(bets.size() < 10){
+						bets.add(bBet);
+//					}
 				}
 			}		
 		}
 		
-		// Compute averages
+		BettingManagerBetComparator c = new BettingManagerBetComparator();
+		// Compute averages and sort Bets
 		for(int i = 0; i < result.size(); i++){
 			StatsRow row = result.get(i);
 			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
@@ -660,6 +741,8 @@ public class StatsCalculator {
 			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+			Collections.sort(row.bets, c);
+			result.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
 		}
 		
 		return result;
@@ -2597,7 +2680,7 @@ public List<StatsRow> getWeekStats(){
 		StatsCalculator calculator = new StatsCalculator();
 		Set<String> res = calculator.getAllTipsters();
 		System.out.println(res);
-		List<StatsRow> row = calculator.getMonthlyStats();
+		List<StatsRow> row = calculator.getKoBStats();
 		List<List<Double>> g = calculator.getGraphs();
 		System.out.println();
 	}

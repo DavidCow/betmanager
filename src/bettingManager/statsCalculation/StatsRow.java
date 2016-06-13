@@ -1,5 +1,8 @@
 package bettingManager.statsCalculation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StatsRow {
 	public String groupBy;
 	public double invested = 0;
@@ -12,6 +15,7 @@ public class StatsRow {
 	public double averageLiquidity = 0;
 	public double percentOfTipsFound = 0;
 	public double flatStakeYield = 0;
+	public List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
 	
 	public String getGroupBy() {
 		return groupBy;
