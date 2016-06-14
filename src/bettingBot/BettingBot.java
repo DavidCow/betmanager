@@ -408,7 +408,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -542,7 +542,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -682,7 +682,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -886,7 +886,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -1169,7 +1169,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -1303,7 +1303,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -1482,7 +1482,7 @@ public class BettingBot {
 										String betString = BettingApi.placeBet(bestCompany, betOn, bestMarket, bestEventId, bestOddId, bestOdd, betAmount, true, -1, -1);
 										if(betString != null){
 											Bet bet = Bet.fromJson(betString);
-											if(bet.getBetStatus() == 1){
+											if(bet.getBetStatus() != 2){
 												System.out.println(bestBetTicket);
 												try {
 													if(!secondBetForTip)
@@ -1547,11 +1547,11 @@ public class BettingBot {
 			for(int b = 0; b < bets.size(); b++){
 				Bet bet = bets.get(b);
 				// Update bet status
-				if(bet.getBetStatus() == 1){
+				if(bet.getBetStatus() == 1 || bet.getBetStatus() == 0 || bet.getBetStatus() == 3){
 					String betString = BettingApi.getBetStatus(bet.getId());
 					if(betString != null){
 						Bet newBet = Bet.fromJson(betString);
-						if(newBet.getBetStatus() != 1){
+						if(newBet.getBetStatus() != bet.getBetStatus()){
 							bet.setBetStatus(newBet.getBetStatus());
 							dataBase.updateBet(bet.getId(), newBet.getBetStatus());
 							mainFrame.addEvent("Bet Status changed: " + bet);
@@ -1580,11 +1580,11 @@ public class BettingBot {
 			for(int b = 0; b < betsBlogaBet.size(); b++){
 				Bet bet = betsBlogaBet.get(b);
 				// Update bet status
-				if(bet.getBetStatus() == 1){
+				if(bet.getBetStatus() == 1 || bet.getBetStatus() == 0 || bet.getBetStatus() == 3){
 					String betString = BettingApi.getBetStatus(bet.getId());
 					if(betString != null){
 						Bet newBet = Bet.fromJson(betString);
-						if(newBet.getBetStatus() != 1){
+						if(newBet.getBetStatus() != bet.getBetStatus()){
 							bet.setBetStatus(newBet.getBetStatus());
 							dataBase.updateBetBlogaBet(bet.getId(), newBet.getBetStatus());
 							mainFrame.addEvent("Bet Status changed: " + bet);
