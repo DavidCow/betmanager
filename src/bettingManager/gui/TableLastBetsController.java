@@ -1,9 +1,12 @@
 package bettingManager.gui;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.text.ParsePosition;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.Observable;
 
 import bettingManager.statsCalculation.BettingManagerBet;
@@ -11,11 +14,18 @@ import bettingManager.statsCalculation.StatsRow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.geometry.Pos;
 import javafx.scene.control.SelectionMode;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.control.TextFormatter;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
+import javafx.util.Callback;
 import javafx.util.StringConverter;
 
 public class TableLastBetsController extends Observable{
@@ -86,33 +96,65 @@ public class TableLastBetsController extends Observable{
 		
 		for(int i = 0; i<tableTitles.length; i+=1) {
 			TableColumn<BettingManagerBet, Object> newTC = new TableColumn<BettingManagerBet, Object>(tableTitles[i]);
-			 newTC.setCellFactory(TextFieldTableCell.<BettingManagerBet, Object>forTableColumn(new StringConverter<Object>() {
-			        private final NumberFormat nf = NumberFormat.getNumberInstance();
-
-			        {
-			             nf.setMaximumFractionDigits(2);
-			             nf.setMinimumFractionDigits(2);
-			        }
-
-
-			        @Override public String fromString(final String s) {
-			            // Don't need this, unless table is editable, see DoubleStringConverter if needed
-			            return null; 
-			        }
-
-					@Override
-					public String toString(Object value) {
-						if (value instanceof String) {
-							return (String) value;
-						} else if (value instanceof Date) {
-								return ((Date) value).toString();
-			        	} else if (value instanceof Double) {
-			        		return ((Double) value).toString();
-//			        		return nf.format(Double.parseDouble((String) value));
-			        	}
-						return "NOT WORKING";
-					}
-			    }));
+//			 newTC.setCellFactory(EditingDoubleCell.<BettingManagerBet, Object>forTableColumn(new StringConverter<Object>() {
+//			        private final NumberFormat nf = NumberFormat.getNumberInstance();
+//
+//			        {
+//			             nf.setMaximumFractionDigits(2);
+//			             nf.setMinimumFractionDigits(2);
+//			        }
+//
+//			        
+//			        
+//			        @Override public String fromString(final String s) {
+//			            // Don't need this, unless table is editable, see DoubleStringConverter if needed
+//			            return null; 
+//			        }
+//
+//					@Override
+//					public String toString(Object value) {
+//						if (value instanceof String) {
+//							return (String) value;
+//						} else if (value instanceof Date) {
+//								return ((Date) value).toString();
+//			        	} else if (value instanceof Double) {
+//			        		return ((Double) value).toString();
+////			        		return nf.format(Double.parseDouble((String) value));
+//			        	}
+//						return "NOT WORKING";
+//					}
+//			    }));
+			
+//			 newTC.setCellFactory(new Callback<TableColumn<BettingManagerBet, Object>, TableCell<BettingManagerBet, Object>>() {
+//			        @Override
+//			        public TableCell call(TableColumn p) {
+//			            return new TableCell<BettingManagerBet, Object>() {
+//			                @Override
+//			                public void updateItem(Object item,boolean empty) {
+//			                    super.updateItem(item, empty);
+//			                    if (item != null) {
+//			                        if (item instanceof String) {
+//			                        	setText((String) item);
+//			                        } else if (item instanceof Date) {
+//										setText(((Date) item).toString());
+//						        	} else if (item instanceof Double) {
+//						        		setText(((Double) item).toString());
+////						        		return nf.format(Double.parseDouble((String) value));
+//						        	}
+//			                        setAlignment(Pos.CENTER);
+//			                        this.setTextFill(Color.BLUE);
+//			                        System.out.println("updateItem()");
+//
+//			                    } 
+//			                }
+//			            };
+//
+//
+//			        }
+//			    });
+			 
+			newTC.setCellFactory(col -> new CustomTableCell());
+			
 			newTC.setCellValueFactory(new PropertyValueFactory<BettingManagerBet, Object>(lastBetsTableValueNames[i]));
 			table.getColumns().add(newTC);
 		}
@@ -167,4 +209,126 @@ public class TableLastBetsController extends Observable{
 		data = FXCollections.observableList(bets);
 		inflateTable(TABLE_TITLES_LASTBETS);
 	}
+	
+	public static class CustomTableCell extends TableCell<BettingManagerBet, Object>{
+
+	    private TextField textField;
+
+	    private DecimalFormat df ;
+	    private final NumberFormat nf = NumberFormat.getNumberInstance();
+
+        {
+             nf.setMaximumFractionDigits(2);
+             nf.setMinimumFractionDigits(2);
+        }
+        
+	    public CustomTableCell() {
+	        Locale locale  = new Locale("en", "UK");
+	        String pattern = "###,###.##";
+	        df = (DecimalFormat) NumberFormat.getNumberInstance(locale);
+	        df.applyPattern(pattern);
+	        createTextField();
+	    }
+
+	    @Override
+	    public void updateItem(Object item, boolean empty) {
+	        super.updateItem(item, empty);
+
+	        int columnNo = getTableView().getColumns().indexOf(getTableColumn());
+	        if (empty) {
+	            setText("null 1");
+	        } else {
+	        	if (item instanceof String) {
+                	setText((String) item);
+                } else if (item instanceof Date) {
+					setText(((Date) item).toString());
+	        	} else if (item instanceof Double) {
+	        		setText(((Double) item).toString());
+	        	}
+                if (columnNo == 6) {
+//                	setTextFill(Color.WHITE);
+                	double netWon = 0;
+                	try {
+                		netWon = Double.parseDouble(getText());
+                		if (netWon < 0) {
+                			setStyle("-fx-background-color:#F64D54");		//RED
+                		} else if (netWon > 0){ 
+                			setStyle("-fx-background-color:#8CDD81");		//GREEN
+                		}
+                	} catch (NumberFormatException e) {
+                		
+                	}
+                	setText(nf.format(netWon));
+                }
+                
+                setAlignment(Pos.CENTER);
+                System.out.println("updateItem()");
+	        }
+	    }
+
+	    private String getString() {
+	        return getItem() == null ? "null 2" : (String) getItem();
+	    }
+
+	    private void createTextField(){
+	        textField = new TextField();
+	        textField.setText( getString() );
+	        StringConverter<Object> converter = new StringConverter<Object>() {
+		        private final NumberFormat nf = NumberFormat.getNumberInstance();
+
+		        {
+		             nf.setMaximumFractionDigits(2);
+		             nf.setMinimumFractionDigits(2);
+		        }
+
+		        
+		        
+		        @Override public String fromString(final String s) {
+		            // Don't need this, unless table is editable, see DoubleStringConverter if needed
+		            return null; 
+		        }
+
+				@Override
+				public String toString(Object value) {
+					if (value instanceof String) {
+						return (String) value;
+					} else if (value instanceof Date) {
+							return ((Date) value).toString();
+		        	} else if (value instanceof Double) {
+//		        		return ((Double) value).toString();
+		        		return nf.format(((Double) value));
+		        	}
+					return "NOT WORKING";
+				}
+	        };
+	        
+	        TextFormatter textFormatter = new TextFormatter<>(converter,  0.0, c ->
+	        {
+	            if (c.getControlNewText().isEmpty()) {
+	                return c;
+	            }
+	            ParsePosition parsePosition = new ParsePosition( 0 );
+	            Object object = df.parse( c.getControlNewText(), parsePosition );
+
+	            if ( object == null || parsePosition.getIndex() < c.getControlNewText().length() )
+	            {
+	                return null;
+	            }
+	            else
+	            {
+	                return c;
+	            }
+	        } ) ;
+
+	        // add filter to allow for typing only integer
+	        textField.setTextFormatter( textFormatter);
+//	        textField.setMinWidth( this.getWidth() - this.getGraphicTextGap() * 2 );
+
+	        // commit on Enter
+//	        textFormatter.valueProperty().addListener((obs, oldValue, newValue) -> {
+//	            commitEdit(newValue);
+//	        });
+	    }
+	}
+	
 }
