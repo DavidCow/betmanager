@@ -7,6 +7,7 @@ import java.util.Observable;
 
 import bettingManager.statsCalculation.StatsCalculator;
 import bettingManager.statsCalculation.StatsRow;
+import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;

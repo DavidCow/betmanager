@@ -11,10 +11,11 @@ import java.util.prefs.Preferences;
 
 import com.google.gson.Gson;
 
-import bettingManager.gui.OptionsTipstersController.TipsterRow;
 import bettingManager.statsCalculation.StatsCalculator;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.Tooltip;
 
@@ -61,6 +62,10 @@ public class MainController implements Observer{
 	@FXML Tooltip allFiltersToolTip;
 	
 	
+	/**
+	 * Progress Indicator
+	 */
+	@FXML ProgressIndicator progressIndicatorMain;
 	/**
 	 * All filter options
 	 */
@@ -135,16 +140,22 @@ public class MainController implements Observer{
 		averageOddsController.init(this);
 		koBController.init(this);
 		liquidityController.init(this);
-		
-		tableKindOfBetController.init(this);
-		tableAverageLiquidityController.init(this);
-		tableTipsterNameController.init(this);
-		tableDayWeekController.init(this);
-		tableMonthlyController.init(this);
-		tableGraphController.init(this);
-		
-		tableLastBetsController.init(this);
-		
+//		
+//		Platform.runLater(new Runnable() {
+//			
+//			@Override
+//			public void run() {
+				tableKindOfBetController.init(MainController.this);
+				tableAverageLiquidityController.init(MainController.this);
+				tableTipsterNameController.init(MainController.this);
+				tableDayWeekController.init(MainController.this);
+				tableMonthlyController.init(MainController.this);
+				
+				tableLastBetsController.init(MainController.this);
+				System.out.println("DONE loading tables.");
+//			}
+//		});
+		tableGraphController.init(MainController.this);
 		updateSettingsControllers(MainController.UPDATE_MODE_ALL);
 		updateFilterLabel();
 	}
