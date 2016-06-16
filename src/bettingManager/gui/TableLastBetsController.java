@@ -12,8 +12,10 @@ import java.util.Observable;
 import bettingManager.statsCalculation.BettingManagerBet;
 import bettingManager.statsCalculation.BettingManagerBetComparator;
 import bettingManager.statsCalculation.StatsRow;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.control.SelectionMode;
@@ -194,17 +196,24 @@ public class TableLastBetsController extends Observable{
 //		this.msg = filters.getDateRangeMessage();
 //		if (this.msg == null) return;
 	}
-
+	
 	public void setDataList(ObservableList<? extends StatsRow> list) {
-		List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
-		for(StatsRow statsRow:list) {
-			for (BettingManagerBet bet:statsRow.getBets()) {
-				bets.add(bet);
+		Platform.runLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
+				for(StatsRow statsRow:list) {
+					for (BettingManagerBet bet:statsRow.getBets()) {
+						bets.add(bet);
+					}
+				}
+				table.getColumns().clear();
+				data = FXCollections.observableList(bets);
+				inflateTable(TABLE_TITLES_LASTBETS);
 			}
-		}
-		table.getColumns().clear();
-		data = FXCollections.observableList(bets);
-		inflateTable(TABLE_TITLES_LASTBETS);
+		});
+		
 	}
 	
 	public static class CustomTableCell extends TableCell<BettingManagerBet, Object>{
