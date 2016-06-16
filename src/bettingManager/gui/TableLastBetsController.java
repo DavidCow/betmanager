@@ -22,10 +22,6 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
-import javafx.util.Callback;
 import javafx.util.StringConverter;
 
 public class TableLastBetsController extends Observable{
