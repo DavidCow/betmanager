@@ -10,6 +10,7 @@ import java.util.Locale;
 import java.util.Observable;
 
 import bettingManager.statsCalculation.BettingManagerBet;
+import bettingManager.statsCalculation.BettingManagerBetComparator;
 import bettingManager.statsCalculation.StatsRow;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -162,7 +163,7 @@ public class TableLastBetsController extends Observable{
 //		List<BettingManagerBet> rows = this.mainC.getStatsCalc().getMonthlyStats();
 			
 //		data = FXCollections.observableList(rows);
-		
+		data.sort(new BettingManagerBetComparator());
 		table.getItems().setAll(data);
 //		table.getSelectionModel().getSelectedItems().addListener(new ListChangeListener<BettingManagerBet>() {
 //
@@ -236,6 +237,9 @@ public class TableLastBetsController extends Observable{
 	        } else {
 	        	if (item instanceof String) {
                 	setText((String) item);
+                	if (((String) item).isEmpty()) {
+                		setText("Empty String");
+                	}
                 } else if (item instanceof Date) {
 					setText(((Date) item).toString());
 	        	} else if (item instanceof Double) {
@@ -256,9 +260,8 @@ public class TableLastBetsController extends Observable{
                 	}
                 	setText(nf.format(netWon));
                 }
-                
                 setAlignment(Pos.CENTER);
-                System.out.println("updateItem()");
+                System.out.println("updateItem() ");
 	        }
 	    }
 
