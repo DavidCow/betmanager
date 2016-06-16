@@ -556,6 +556,7 @@ public class StatsCalculator {
 					bBet.betDate = tip.receivedDate;
 					bBet.gameDate = tip.date;
 					bBet.event = tip.event;
+					bBet.selection = tip.betOn;
 					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.betOn.equalsIgnoreCase("DRAW")){
@@ -670,6 +671,7 @@ public class StatsCalculator {
 					bBet.betDate = tip.receivedDate;
 					bBet.gameDate = tip.startDate;
 					bBet.event = tip.event;
+					bBet.selection = tip.selection;
 					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.selection.equalsIgnoreCase("DRAW")){
