@@ -12,7 +12,8 @@ import java.util.prefs.Preferences;
 import com.google.gson.Gson;
 
 import bettingManager.statsCalculation.StatsCalculator;
-import javafx.application.Platform;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressIndicator;
@@ -128,6 +129,35 @@ public class MainController implements Observer{
 	 */
 	@FXML public void initialize() throws IOException {
 		System.out.println("MainController initialize");
+		
+		tabPane.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Number>() {
+		    @Override
+		    public void changed(ObservableValue<? extends Number> ov, Number oldValue, Number newValue) {
+		    	switch (newValue.intValue()) {
+			    	case TableTitles.TAB_KOB:
+//			    		tableLastBetsController.setDataList(tableKindOfBetController.getData());
+			    		break;
+			    	case TableTitles.TAB_AVG_LIQ:
+//			    		tableLastBetsController.setDataList(tableAverageLiquidityController.getData());
+			    		break;
+			    	case TableTitles.TAB_TIPSTER:
+//			    		tableLastBetsController.setDataList(tableTipsterNameController.getData());
+			    		break;
+			    	case TableTitles.TAB_DAYWEEK:
+//			    		tableLastBetsController.setDataList(tableDayWeekController.getData());
+			    		break;
+			    	case TableTitles.TAB_MONTHLY:
+//			    		tableLastBetsController.setDataList(tableMonthlyController.getData());
+			    		break;
+			    	case TableTitles.TAB_GRAPH:
+			    		break;
+			    	default:
+			    		break;
+		    	}
+		    	tableLastBetsController.table.getColumns().clear();
+		    	tableLastBetsController.labelLastBets.setText("0 Last Bet(s)");
+		    }
+		});
 		
 		/*
 		 * Pass instance of MainController to filter controllers

@@ -15,9 +15,9 @@ import bettingManager.statsCalculation.StatsRow;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
+import javafx.scene.control.Label;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
@@ -70,7 +70,12 @@ public class TableLastBetsController extends Observable{
 			ODDS };
 	
 	
+	protected static final String LAST_BET_LABEL_TEXT = " Last bet(s)";
+	
+	
 	@FXML TableView<BettingManagerBet> table;
+	@FXML Label labelLastBets;
+	
 	ObservableList<BettingManagerBet> data;
 	
 	/**
@@ -175,9 +180,7 @@ public class TableLastBetsController extends Observable{
 //		                System.out.println(t);
 //			}
 //		});
-		/**
-		 * TEST TO FILL IN TABLES WITH DATA
-		 */
+		System.out.println("Inflating last bets done.");
 	}
 	
 	/**
@@ -203,12 +206,15 @@ public class TableLastBetsController extends Observable{
 			@Override
 			public void run() {
 				List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
+				int betSize = 0;
 				for(StatsRow statsRow:list) {
+					betSize += statsRow.getBets().size();
 					for (BettingManagerBet bet:statsRow.getBets()) {
 						bets.add(bet);
 					}
 				}
 				table.getColumns().clear();
+				labelLastBets.setText(betSize + LAST_BET_LABEL_TEXT);
 				data = FXCollections.observableList(bets);
 				inflateTable(TABLE_TITLES_LASTBETS);
 			}
@@ -265,12 +271,15 @@ public class TableLastBetsController extends Observable{
                 			setStyle("-fx-background-color:#8CDD81");		//GREEN
                 		}
                 	} catch (NumberFormatException e) {
-                		
+                		System.out.println(e);
+                	} catch (NullPointerException e) {
+                		System.out.println(e);
+                		System.out.println("getText(): " + getText());
+                		System.out.println("netWon: " + netWon);
                 	}
                 	setText(nf.format(netWon));
                 }
                 setAlignment(Pos.CENTER);
-                System.out.println("updateItem() ");
 	        }
 	    }
 

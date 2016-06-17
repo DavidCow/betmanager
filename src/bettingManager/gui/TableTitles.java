@@ -1,6 +1,14 @@
 package bettingManager.gui;
 
 public class TableTitles {
+	
+	public final static int TAB_KOB = 0;
+	public final static int TAB_AVG_LIQ = 1;
+	public final static int TAB_TIPSTER = 2;
+	public final static int TAB_DAYWEEK = 3;
+	public final static int TAB_MONTHLY = 4;
+	public final static int TAB_GRAPH = 5;
+	
 	/**
 	 * Column name definitions
 	 */

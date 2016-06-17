@@ -23,7 +23,7 @@ public class TableAverageLiquidityController extends Observable{
 	
 	
 	@FXML TableView<StatsRow> table;
-	ObservableList<StatsRow> data;
+	private ObservableList<StatsRow> data;
 	
 	/**
 	 * Initialize
@@ -94,8 +94,7 @@ public class TableAverageLiquidityController extends Observable{
 
 			@Override
 			public void onChanged(ListChangeListener.Change<? extends StatsRow> c) {
-			     for(StatsRow t : c.getList())
-		                System.out.println(t);
+				mainC.getTableLastBetsController().setDataList(c.getList());
 			}
 		});
 		/**
@@ -118,5 +117,9 @@ public class TableAverageLiquidityController extends Observable{
 	public void updateSettings(FilterSettingsContainer filters) {
 //		this.msg = filters.getDateRangeMessage();
 //		if (this.msg == null) return;
+	}
+	
+	public ObservableList<StatsRow> getData() {
+		return data;
 	}
 }

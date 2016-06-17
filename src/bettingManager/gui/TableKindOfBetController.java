@@ -26,8 +26,10 @@ public class TableKindOfBetController extends Observable{
 	
 	
 	@FXML TableView<StatsRow> tableKindOfBet;
-	ObservableList<StatsRow> data;
+	private ObservableList<StatsRow> data;
 	
+
+
 	/**
 	 * Initialize
 	 */
@@ -147,5 +149,9 @@ public class TableKindOfBetController extends Observable{
 	public void updateSettings(FilterSettingsContainer filters) {
 //		this.msg = filters.getDateRangeMessage();
 //		if (this.msg == null) return;
+	}
+	
+	public ObservableList<StatsRow> getData() {
+		return data;
 	}
 }
