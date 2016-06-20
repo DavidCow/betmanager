@@ -147,7 +147,7 @@
                </HBox.margin>
                <children>
                   <Label prefHeight="26.0" prefWidth="774.0" text="Ready" />
-                  <ProgressIndicator fx:id="progressIndicatorMain" progress="0.0" />
+                  <ProgressIndicator fx:id="progressIndicatorMain" progress="0.0" visible="false" />
                </children>
             </HBox>
             <Separator orientation="VERTICAL" prefHeight="200.0" />

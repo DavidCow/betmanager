@@ -141,17 +141,35 @@ public class OptionsDateRangeController extends Observable{
 		hboxes[4] = hboxBetween; 
 		hboxes[5] = hboxLast;
 		
+		String standardHour = "15";
 		populateChoicebox(beforeHourChoiceBox, 0, 23, 1);
+		beforeHourChoiceBox.setValue(standardHour);
 		populateChoicebox(afterHourChoiceBox, 0, 23, 1);
+		afterHourChoiceBox.setValue(standardHour);
 		populateChoicebox(betweenHourChoiceBox1, 0, 23, 1);
+		betweenHourChoiceBox1.setValue(standardHour);
 		populateChoicebox(betweenHourChoiceBox2, 0, 23, 1);
+		betweenHourChoiceBox2.setValue(standardHour);
 
 		populateChoicebox(beforeMinuteChoiceBox, 0, 59, 10);
+		beforeMinuteChoiceBox.setValue("00");
 		populateChoicebox(afterMinuteChoiceBox, 0, 59, 10);
+		afterMinuteChoiceBox.setValue("00");
 		populateChoicebox(betweenMinuteChoiceBox1, 0, 59, 10);
+		betweenMinuteChoiceBox1.setValue("00");
 		populateChoicebox(betweenMinuteChoiceBox2, 0, 59, 10);
+		betweenMinuteChoiceBox2.setValue("00");
 		
+		
+		/**
+		 * Populate month, year ComboBox
+		 * Set month, year to current date
+		 */
 		populateMonthYear();
+		Date date = new Date();
+		Calendar now = Calendar.getInstance();
+		monthMonth.setValue(monthNames[now.get(Calendar.MONTH)]);
+		monthYear.setValue(now.get(Calendar.YEAR)+"");
 	}
 	
 	public void handleMonth(ActionEvent event) {
