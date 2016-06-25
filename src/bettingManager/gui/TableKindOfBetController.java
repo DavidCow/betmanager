@@ -1,14 +1,10 @@
 package bettingManager.gui;
 
 import java.text.NumberFormat;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
-import bettingManager.statsCalculation.StatsCalculator;
 import bettingManager.statsCalculation.StatsRow;
-import javafx.application.Platform;
-import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -52,33 +48,34 @@ public class TableKindOfBetController extends Observable{
 		tableKindOfBet.getColumns().clear();
 		for(int i = 0; i<tableTitles.length; i+=1) {
 			TableColumn<StatsRow, Object> newTC = new TableColumn<StatsRow, Object>(tableTitles[i]);
-			 newTC.setCellFactory(TextFieldTableCell.<StatsRow, Object>forTableColumn(new StringConverter<Object>() {
-			        private final NumberFormat nf = NumberFormat.getNumberInstance();
-
-			        {
-			             nf.setMaximumFractionDigits(2);
-			             nf.setMinimumFractionDigits(2);
-			        }
-
-
-			        @Override public String fromString(final String s) {
-			            // Don't need this, unless table is editable, see DoubleStringConverter if needed
-			            return null; 
-			        }
-
-					@Override
-					public String toString(Object value) {
-						try {
-							if (value instanceof String) {
-								return nf.format(Double.parseDouble((String) value));
-							} else {
-								return nf.format((Double) value);
-							}
-			        	} catch (NumberFormatException n) {
-			        		return (String)value;
-			        	}
+			//Backup on the bottom 
+			newTC.setCellFactory(TextFieldTableCell.<StatsRow, Object>forTableColumn(new StringConverter<Object>() {
+		    private final NumberFormat nf = NumberFormat.getNumberInstance();
+		
+		    {
+		         nf.setMaximumFractionDigits(2);
+		         nf.setMinimumFractionDigits(2);
+		    }
+		
+		
+		    @Override public String fromString(final String s) {
+		        // Don't need this, unless table is editable, see DoubleStringConverter if needed
+		        return null; 
+		    }
+		
+			@Override
+			public String toString(Object value) {
+				try {
+					if (value instanceof String) {
+						return nf.format(Double.parseDouble((String) value));
+					} else {
+						return nf.format((Double) value);
 					}
-			    }));
+		    	} catch (NumberFormatException n) {
+		    		return (String)value;
+		    	}
+			}
+		}));
 			newTC.setCellValueFactory(new PropertyValueFactory<StatsRow, Object>(TableTitles.kindOfBetTableValueNames[i]));
 			tableKindOfBet.getColumns().add(newTC);
 		}
@@ -154,4 +151,160 @@ public class TableKindOfBetController extends Observable{
 	public ObservableList<StatsRow> getData() {
 		return data;
 	}
+	
+//	public static class CustomTableCell extends TableCell<StatsRow, Object>{
+//
+//	    private Label label;
+//
+//	    private DecimalFormat df ;
+//	    private final NumberFormat nf = NumberFormat.getNumberInstance();
+//
+//        {
+//             nf.setMaximumFractionDigits(2);
+//             nf.setMinimumFractionDigits(2);
+//        }
+//        
+//	    public CustomTableCell() {
+//	        Locale locale  = new Locale("en", "UK");
+//	        String pattern = "###,###.##";
+//	        df = (DecimalFormat) NumberFormat.getNumberInstance(locale);
+//	        df.applyPattern(pattern);
+//	        createTextField();
+//	    }
+//
+//	    @Override
+//	    public void updateItem(Object item, boolean empty) {
+//	        super.updateItem(item, empty);
+//
+//	        int columnNo = getTableView().getColumns().indexOf(getTableColumn());
+//	        if (empty) {
+//	            setText("null 1");
+//	        } else {
+//	        	if (item instanceof String) {
+//                	setText((String) item);
+//                	if (((String) item).isEmpty()) {
+//                		setText("Empty String");
+//                	}
+//                } else if (item instanceof Date) {
+//					setText(((Date) item).toString());
+//	        	} else if (item instanceof Double) {
+//	        		setText(((Double) item).toString());
+//	        	}
+//                if (columnNo == 6) {
+////                	setTextFill(Color.WHITE);
+//                	double netWon = 0;
+//                	try {
+//                		netWon = Double.parseDouble(getText());
+//                		if (netWon < 0) {
+//                			setStyle("-fx-background-color:#F64D54");		//RED
+//                		} else if (netWon > 0){ 
+//                			setStyle("-fx-background-color:#8CDD81");		//GREEN
+//                		}
+//                	} catch (NumberFormatException e) {
+//                		System.out.println(e);
+//                	} catch (NullPointerException e) {
+//                		System.out.println(e);
+//                		System.out.println("getText(): " + getText());
+//                		System.out.println("netWon: " + netWon);
+//                	}
+//                	setText(nf.format(netWon));
+//                }
+//                setAlignment(Pos.CENTER);
+//	        }
+//	    }
+//
+//	    private String getString() {
+//	        return getItem() == null ? "null 2" : (String) getItem();
+//	    }
+//
+//	    private void createTextField(){
+//	        label = new Label();
+//	        label.setText( getString() );
+//	        
+//	        StringConverter<Object> converter = new StringConverter<Object>() {
+//		        private final NumberFormat nf = NumberFormat.getNumberInstance();
+//
+//		        {
+//		             nf.setMaximumFractionDigits(2);
+//		             nf.setMinimumFractionDigits(2);
+//		        }
+//
+//		        
+//		        
+//		        @Override public String fromString(final String s) {
+//		            // Don't need this, unless table is editable, see DoubleStringConverter if needed
+//		            return null; 
+//		        }
+//
+//				@Override
+//				public String toString(Object value) {
+//					if (value instanceof String) {
+//						return (String) value;
+//					} else if (value instanceof Date) {
+//							return ((Date) value).toString();
+//		        	} else if (value instanceof Double) {
+////		        		return ((Double) value).toString();
+//		        		return nf.format(((Double) value));
+//		        	}
+//					return "NOT WORKING";
+//				}
+//	        };
+//	        
+//	        TextFormatter textFormatter = new TextFormatter<>(converter,  0.0, c ->
+//	        {
+//	            if (c.getControlNewText().isEmpty()) {
+//	                return c;
+//	            }
+//	            ParsePosition parsePosition = new ParsePosition( 0 );
+//	            Object object = df.parse( c.getControlNewText(), parsePosition );
+//
+//	            if ( object == null || parsePosition.getIndex() < c.getControlNewText().length() )
+//	            {
+//	                return null;
+//	            }
+//	            else
+//	            {
+//	                return c;
+//	            }
+//	        } ) ;
+//
+//	        // add filter to allow for typing only integer
+//	        label.setTextFormatter( textFormatter);
+////	        textField.setMinWidth( this.getWidth() - this.getGraphicTextGap() * 2 );
+//
+//	        // commit on Enter
+////	        textFormatter.valueProperty().addListener((obs, oldValue, newValue) -> {
+////	            commitEdit(newValue);
+////	        });
+//	    }
+//	}
+	
 }
+
+//newTC.setCellFactory(TextFieldTableCell.<StatsRow, Object>forTableColumn(new StringConverter<Object>() {
+//    private final NumberFormat nf = NumberFormat.getNumberInstance();
+//
+//    {
+//         nf.setMaximumFractionDigits(2);
+//         nf.setMinimumFractionDigits(2);
+//    }
+//
+//
+//    @Override public String fromString(final String s) {
+//        // Don't need this, unless table is editable, see DoubleStringConverter if needed
+//        return null; 
+//    }
+//
+//	@Override
+//	public String toString(Object value) {
+//		try {
+//			if (value instanceof String) {
+//				return nf.format(Double.parseDouble((String) value));
+//			} else {
+//				return nf.format((Double) value);
+//			}
+//    	} catch (NumberFormatException n) {
+//    		return (String)value;
+//    	}
+//	}
+//}));

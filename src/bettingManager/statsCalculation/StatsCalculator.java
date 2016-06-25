@@ -746,6 +746,10 @@ public class StatsCalculator {
 			Collections.sort(row.bets, c);
 			if(result.get(i).bets.size() > 20)
 				result.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
+			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			row.percentOver95 *= 100;
+			row.percentWeGet *= 100; 
+			// TODO: Approve von Patryk
 		}
 		
 		return result;
@@ -1184,6 +1188,11 @@ public class StatsCalculator {
 			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+			
+			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			row.percentOver95 *= 100;
+			row.percentWeGet *= 100; 
+			// TODO: Approve von Patryk
 		}
 		
 		List<StatsRow> result = new ArrayList<StatsRow>();
@@ -1630,6 +1639,11 @@ public class StatsCalculator {
 			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+			
+			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			row.percentOver95 *= 100;
+			row.percentWeGet *= 100; 
+			// TODO: Approve von Patryk
 		}
 		
 		List<StatsRow> result = new ArrayList<StatsRow>();
@@ -2252,6 +2266,11 @@ public class StatsCalculator {
 			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+			
+			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			row.percentOver95 *= 100;
+			row.percentWeGet *= 100; 
+			// TODO: Approve von Patryk
 		}	
 		
 		return rows;
@@ -2637,6 +2656,11 @@ public List<StatsRow> getWeekStats(){
 			row.flatStakeYield /= Math.max(row.numberOfBets, 1);
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
+			
+			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			row.percentOver95 *= 100;
+			row.percentWeGet *= 100; 
+			// TODO: Approve von Patryk
 		}	
 		
 		return rows;
