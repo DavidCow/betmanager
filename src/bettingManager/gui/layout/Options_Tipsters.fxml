@@ -16,10 +16,10 @@
    <top>
       <GridPane prefHeight="38.0" prefWidth="319.0" BorderPane.alignment="CENTER">
          <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="137.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="217.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="66.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="0.0" prefWidth="18.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="111.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="183.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="21.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="0.0" prefWidth="104.0" />
          </columnConstraints>
          <rowConstraints>
             <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
@@ -35,7 +35,7 @@
                   <Insets left="5.0" right="5.0" />
                </GridPane.margin>
             </TextField>
-            <MenuButton contentDisplay="CENTER" disable="true" mnemonicParsing="false" popupSide="RIGHT" text="+Add Aliases" visible="false" GridPane.columnIndex="3">
+            <MenuButton contentDisplay="CENTER" mnemonicParsing="false" popupSide="RIGHT" text="+Add Aliases" GridPane.columnIndex="3">
                <items>
                   <CustomMenuItem fx:id="customMenuItemAddAliases" mnemonicParsing="false" text="Unspecified Action">
                      <content>
