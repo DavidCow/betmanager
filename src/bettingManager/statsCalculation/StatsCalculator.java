@@ -749,6 +749,8 @@ public class StatsCalculator {
 			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
+			row.averageYield *= 100;
+			row.flatStakeYield *= 100;
 			// TODO: Approve von Patryk
 		}
 		
@@ -1192,6 +1194,8 @@ public class StatsCalculator {
 			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
+			row.averageYield *= 100;
+			row.flatStakeYield *= 100;
 			// TODO: Approve von Patryk
 		}
 		
@@ -1643,6 +1647,8 @@ public class StatsCalculator {
 			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
+			row.averageYield *= 100;
+			row.flatStakeYield *= 100;
 			// TODO: Approve von Patryk
 		}
 		
@@ -2270,6 +2276,8 @@ public class StatsCalculator {
 			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
+			row.averageYield *= 100;
+			row.flatStakeYield *= 100;
 			// TODO: Approve von Patryk
 		}	
 		
@@ -2660,6 +2668,8 @@ public List<StatsRow> getWeekStats(){
 			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
+			row.averageYield *= 100;
+			row.flatStakeYield *= 100;
 			// TODO: Approve von Patryk
 		}	
 		
