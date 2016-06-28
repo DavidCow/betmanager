@@ -62,8 +62,10 @@ public class StatsCalculator {
 	public double maxOdds = Double.MAX_VALUE;
 	
 	// This Set should contain all the names of the tipsters, that are currently active
-	// Tipsters not in the set will be ignored
+	// Tipsters not in this set, or in the alias set, will be ignored
 	public Map<String, Boolean> activeTipsters;
+	// The alias List
+	public List<Alias> aliasList;
 	
 	// Classes for Gson
 	private Class recordClass;
@@ -746,7 +748,7 @@ public class StatsCalculator {
 			Collections.sort(row.bets, c);
 			if(result.get(i).bets.size() > 20)
 				result.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
-			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			// TODO: DAVID, hab hier erstmal das hier hinzugefï¿½gt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
 			row.averageYield *= 100;
@@ -1191,7 +1193,7 @@ public class StatsCalculator {
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 			
-			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			// TODO: DAVID, hab hier erstmal das hier hinzugefï¿½gt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
 			row.averageYield *= 100;
@@ -1644,7 +1646,7 @@ public class StatsCalculator {
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 			
-			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			// TODO: DAVID, hab hier erstmal das hier hinzugefï¿½gt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
 			row.averageYield *= 100;
@@ -2273,7 +2275,7 @@ public class StatsCalculator {
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 			
-			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			// TODO: DAVID, hab hier erstmal das hier hinzugefï¿½gt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
 			row.averageYield *= 100;
@@ -2665,7 +2667,7 @@ public List<StatsRow> getWeekStats(){
 			row.percentOver95 /= Math.max(row.numberOfBets, 1);
 			row.percentWeGet /= Math.max(row.numberOfBets, 1);
 			
-			// TODO: DAVID, hab hier erstmal das hier hinzugefügt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
+			// TODO: DAVID, hab hier erstmal das hier hinzugefï¿½gt, um die prozentwerte auf die richtigen zu kriegen. Schau dann nach, obs stimmt.
 			row.percentOver95 *= 100;
 			row.percentWeGet *= 100; 
 			row.averageYield *= 100;
