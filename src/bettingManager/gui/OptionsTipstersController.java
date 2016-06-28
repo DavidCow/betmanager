@@ -46,6 +46,10 @@ public class OptionsTipstersController extends Observable{
 	
 	private ArrayList<TipsterRow> tipsterAllForTable;
 	
+	
+	@FXML Button buttonSelectAll;
+	@FXML Button buttonDeselectAll;
+	
 	private final String[] tipsterTitles = {
 				"+",
 				"Tipster",
@@ -239,6 +243,20 @@ public class OptionsTipstersController extends Observable{
 //			}
 //		}
 //		System.out.println("3");
+	}
+	
+	public void handleSelectAll(ActionEvent event){
+		System.out.println("Select all");
+	    for (TipsterRow tr: tipsterTable.getItems()){
+	    	tr.getInclude().setSelected(true);
+	    }
+	}
+
+	public void handleDeselectAll(ActionEvent event){
+		System.out.println("Deelect all");
+	    for (TipsterRow tr: tipsterTable.getItems()){
+	    	tr.getInclude().setSelected(false);
+	    }
 	}
 	
 	/**
