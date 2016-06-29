@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
@@ -11,6 +12,7 @@ import java.util.prefs.Preferences;
 
 import com.google.gson.Gson;
 
+import bettingManager.statsCalculation.Alias;
 import bettingManager.statsCalculation.StatsCalculator;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -210,7 +212,7 @@ public class MainController implements Observer{
 	}
 	
 	/**
-	 * Controllers notifie MainController
+	 * Controllers notify MainController
 	 */
 	@Override
 	public void update(Observable o, Object arg) {
@@ -239,10 +241,20 @@ public class MainController implements Observer{
 		} else if (o instanceof OptionsTipstersController) {
 			System.out.println("OptionsTipstersContr has sent something");
 			allFilters.setTipstersMessage((Map<String, Boolean>)argMsg.getMsg());
+		} else if (o instanceof OptionsAddAliasesController) {
+			System.out.println("OptionsAddAliasesContr has sent something");
+			allFilters.setAliases((List<Alias>)argMsg.getMsg());
 		}
 		//ADD Tipsters Controller
 		System.out.println(allFilters);
 		saveFilters();
+//			for(Alias a:allFilters.getAliases()) {
+//				System.out.println(a.getAliasName());
+//				for(String s:a) {
+//					System.out.println(s);
+//				}
+//				System.out.println("AFTER---");
+//			}
 		
 		updateFilterLabel();
 	}
@@ -353,6 +365,7 @@ public class MainController implements Observer{
 		}
 		//
 		statsCalc.activeTipsters = c.getTipstersMessage();
+		statsCalc.aliasList = c.getAliases();
 	}
 	
 	public int getSelectedTab() {

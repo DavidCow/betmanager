@@ -2,9 +2,11 @@ package bettingManager.gui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import bettingManager.gui.OptionsTipstersController.TipsterRow;
+import bettingManager.statsCalculation.Alias;
 import javafx.collections.ObservableList;
 
 /**
@@ -78,6 +80,18 @@ public class FilterSettingsContainer {
 	
 	public Map<String, Boolean> getTipstersMessage() {
 		return tipstersMessage;
+	}
+
+	private List<Alias> aliases = new ArrayList<Alias>();
+
+
+	public List<Alias> getAliases() {
+		return aliases;
+	}
+
+
+	public void setAliases(List<Alias> aliases) {
+		this.aliases = aliases;
 	}
 
 

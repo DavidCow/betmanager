@@ -1,5 +1,6 @@
 package bettingManager.gui;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +16,9 @@ import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.CustomMenuItem;
@@ -24,6 +28,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 public class OptionsTipstersController extends Observable{
 	private MainController mainC;
@@ -31,12 +37,16 @@ public class OptionsTipstersController extends Observable{
 	
 	public static final String PREFS_TIPSTERS = "PREFS_TIPSTERS";
 	
+	public static String ALIAS_TITLE = "Manage Aliases";
+	public static String ALIAS_RESOURCE = "/bettingManager/gui/layout/Options_AddAliases.fxml";
+	public static String STYLESHEET = "/bettingManager/gui/layout/style.css";
+	
 	private OptionsController optionsController;
 	
 	@FXML OptionsAddAliasesController optionsAddAliasesController;
 	
-	@FXML CustomMenuItem customMenuItemAddAliases;
-	
+
+
 	@FXML TableView<TipsterRow> tipsterTable;
 	@FXML TextField tipsterSearchTextField;
 	@FXML Button tipsterSearchButton;
@@ -45,7 +55,7 @@ public class OptionsTipstersController extends Observable{
 	@FXML Button applyButton;
 	
 	private ArrayList<TipsterRow> tipsterAllForTable;
-	
+	private Stage stageAlias;
 	
 	@FXML Button buttonSelectAll;
 	@FXML Button buttonDeselectAll;
@@ -67,6 +77,26 @@ public class OptionsTipstersController extends Observable{
 				"averageYield"
 		};
 	
+	private void createTipstersStage() throws IOException {
+		stageAlias = new Stage();
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(ALIAS_RESOURCE));
+		Parent root = loader.load();
+		optionsAddAliasesController = (OptionsAddAliasesController) loader.getController();
+		root.getStylesheets().add(getClass().getResource(STYLESHEET).toExternalForm());
+		stageAlias.setScene(new Scene(root));
+		stageAlias.setTitle(ALIAS_TITLE);
+		stageAlias.initModality(Modality.APPLICATION_MODAL);
+	}
+	
+	public void handleAliasButton(ActionEvent event) {
+		stageAlias.showAndWait();
+	}
+	
+	public void hideAliasWindow() {
+		stageAlias.hide();
+	}
+	
+	
 	/**
 	 * Initialize
 	 * @param mainC
@@ -76,9 +106,13 @@ public class OptionsTipstersController extends Observable{
 		this.mainC = mainC;
 		this.addObserver(mainC);
 		this.optionsController = opt;
+		try {
+			createTipstersStage();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		optionsAddAliasesController.init(mainC, opt, this);
 		
-		customMenuItemAddAliases.setHideOnClick(false);
 		
 		tipsterTable.getSelectionModel().setSelectionMode(
 			    SelectionMode.MULTIPLE
@@ -226,23 +260,6 @@ public class OptionsTipstersController extends Observable{
 	 * @param event
 	 */
 	public void handleTipsterSearch(ActionEvent event) {
-//		System.out.println("SEARCH..");
-//		ObservableList<TipsterRow> data = tipsterTable.getItems();
-//		System.out.println("0");
-//		//Clear and put all initial tipster back into table
-//		//then filter through textfield text again
-//		data.clear();
-//		System.out.println("1");
-//		data.addAll(tipsterAllForTable);
-//		System.out.println("2");
-//		for(int i=0; i<data.size(); i+=1) {
-//			if (data.get(i).getTipster().contains(tipsterSearchTextField.getText())) {
-//				System.out.println(data.get(i).getTipster() + " contains:  " + tipsterSearchTextField.getText());
-//			} else {
-////	    		data.remove(data.get(i));
-//			}
-//		}
-//		System.out.println("3");
 	}
 	
 	public void handleSelectAll(ActionEvent event){
@@ -277,8 +294,12 @@ public class OptionsTipstersController extends Observable{
 	    		tr.getInclude().setSelected(true);
 	    	}
 	    }
+	    optionsAddAliasesController.updateSettings(filters);
 	}
 	
+	public OptionsAddAliasesController getOptionsAddAliasesController() {
+		return optionsAddAliasesController;
+	}
 	/**
 	 * Table row
 	 *
