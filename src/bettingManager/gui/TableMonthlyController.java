@@ -65,6 +65,9 @@ public class TableMonthlyController extends Observable{
 					public String toString(Object value) {
 						try {
 							if (value instanceof String) {
+								if(value.equals("Average")){
+									return "Average";
+								}
 								return nf.format(Double.parseDouble((String) value));
 							} else {
 								return nf.format((Double) value);

@@ -27,10 +27,10 @@ public class TableGraphController extends Observable{
 	public final String BLOGABET = "Blogabet";
 	public final String BETADVISOR = "BetAdvisor";
 	public final String TOTAL = "Total";
-	public final String X_AXIS = "Time";
-	public final String Y_AXIS = "Bets";
+	public final String X_AXIS = "Bets";
+	public final String Y_AXIS = "Profit";
 	
-	public final String[] graphsTitleArray = {BLOGABET, BETADVISOR, TOTAL};
+	public final String[] graphsTitleArray = {BETADVISOR, BLOGABET, TOTAL};
 	
 	LineChart<Number, Number> lineChart;
 	@FXML AnchorPane graphAnchorPane;

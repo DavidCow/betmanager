@@ -2,6 +2,9 @@ package bettingManager.gui;
 
  
 import java.io.IOException;
+import java.util.Locale;
+
+import com.sun.javafx.collections.SetListenerHelper;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -30,6 +33,7 @@ public class StageLoader extends Application {
     }
     
     public static void main(String[] args) {
+    	Locale.setDefault(Locale.UK);
         launch(args);
     }
 }

@@ -9,9 +9,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Observable;
 
-import bettingManager.statsCalculation.BettingManagerBet;
-import bettingManager.statsCalculation.BettingManagerBetComparator;
-import bettingManager.statsCalculation.StatsRow;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -26,6 +23,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.StringConverter;
+import bettingManager.statsCalculation.BettingManagerBet;
+import bettingManager.statsCalculation.BettingManagerBetComparator;
+import bettingManager.statsCalculation.StatsRow;
 
 public class TableLastBetsController extends Observable{
 	private MainController mainC;
