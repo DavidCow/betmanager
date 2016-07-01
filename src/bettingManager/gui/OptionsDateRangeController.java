@@ -234,19 +234,32 @@ public class OptionsDateRangeController extends Observable{
 		if (hbox.equals(hboxMonth)) {
 			System.out.println("HboxMonth");
 			msg.setState(DateRangeMessage.MONTH);
-			
-			Date date = get2CalendarValuesDate(Calendar.MONTH, Calendar.YEAR, theNumberOfMonth(monthMonth.getValue()), Integer.parseInt(monthYear.getValue()));
-			System.out.println(date);
+			Date date = get2CalendarValuesDate(Calendar.DAY_OF_MONTH, Calendar.MONTH, Calendar.YEAR, Calendar.HOUR, Calendar.MINUTE, 1, theNumberOfMonth(monthMonth.getValue()), Integer.parseInt(monthYear.getValue()), 0, 0);
+			System.out.println("month1: "+ msg.getD1());
 			msg.setD1(date);
+			
+			date = get2CalendarValuesDate(Calendar.DAY_OF_MONTH, Calendar.MONTH, Calendar.YEAR, Calendar.HOUR, Calendar.MINUTE, findMaxDaysOfMonth(date), theNumberOfMonth(monthMonth.getValue()), Integer.parseInt(monthYear.getValue()), 23, 59);
+			System.out.println("month2: "+ msg.getD2());
+			msg.setD2(date);
+			
+			
 		} else if (hbox.equals(hboxDay)) {
 			System.out.println("HboxDay");
 			msg.setState(DateRangeMessage.DAY);
 			
 			//Get date from DatePicker
 			Date date = convertLocalDateToDate(datePickerDay.getValue());
-
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, 0, 0, date);
 			msg.setD1(date);
-			System.out.println(date);
+			System.out.println("day1: " + msg.getD1());
+
+			//date 2
+//			date = convertLocalDateToDate(datePickerDay.getValue());
+			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, 23, 59, date);
+			msg.setD2(date);
+			System.out.println("day2: " + msg.getD2());
+			
+			
 		} else if (hbox.equals(hboxBefore)) {
 			System.out.println("HboxBefore");
 			msg.setState(DateRangeMessage.BEFORE);
@@ -303,16 +316,25 @@ public class OptionsDateRangeController extends Observable{
 		optionsController.hideDateRangeWindow();
 	}
 	
+	private int findMaxDaysOfMonth(Date date) {
+		Calendar now = Calendar.getInstance();
+		now.setTime(date);
+		return now.getActualMaximum(Calendar.DAY_OF_MONTH);
+	}
+
 	/**
 	 * Change 2 values, e.g. month and year, hour and minute, etc.
 	 * @return
 	 */
-	private Date get2CalendarValuesDate(int date1, int date2, int value1, int value2) {
+	private Date get2CalendarValuesDate(int dayCal, int monthCal, int yearCal, int hourCal, int minuteCal, int day, int month, int year, int hour, int minute) {
 		Calendar now = Calendar.getInstance();
 		Date date = new Date();
 		now.setTime(date);
-		now.set(date1, value1);
-		now.set(date2, value2);
+		now.set(dayCal, day);
+		now.set(monthCal, month);
+		now.set(yearCal, year);
+		now.set(hourCal, hour);
+		now.set(minuteCal, minute);
 		date = now.getTime();
 		return date;
 	}
