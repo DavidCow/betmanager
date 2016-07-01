@@ -265,7 +265,6 @@ public class StatsCalculator {
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			betAdvisorBets = (List<Bet>)objectInputStream.readObject();
-			System.out.println(betAdvisorBets.size());
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(-1);
@@ -276,7 +275,6 @@ public class StatsCalculator {
 			BufferedInputStream br = new BufferedInputStream(fileInput);
 			ObjectInputStream objectInputStream = new ObjectInputStream(br);        
 			blogaBetBets = (List<Bet>)objectInputStream.readObject();	
-			System.out.println(blogaBetBets.size());
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(-1);
@@ -332,6 +330,9 @@ public class StatsCalculator {
 	}
 	
 	public List<StatsRow> getKoBStats(){
+		
+		System.out.println("StartDate: " + startdate);
+		System.out.println("EndDate: " + endDate);
 		
 		Gson gson = new Gson();
 		
@@ -531,7 +532,6 @@ public class StatsCalculator {
 		// Bet Advisor real results
 		if(betAdvisor && real){		
 			for(int i = 0; i < betAdvisorBets.size(); i++){
-				System.out.println(i);
 				Bet bet = betAdvisorBets.get(i);
 				
 				// Some objects were saved to our SQL database as JSON string
@@ -548,13 +548,11 @@ public class StatsCalculator {
 				String siteTipster = tip.tipster + " (BA)";
 				if(activeTipsters != null){
 					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						System.out.println("tipster");
 						continue;
 					}
 				}
 				
 				if(tip.betOn == null){
-					System.out.println("BO");
 					continue;
 				}
 				Date gameDate = tip.date;
@@ -640,7 +638,6 @@ public class StatsCalculator {
 		if(blogaBet && real){
 			for(int i = 0; i < blogaBetBets.size(); i++){
 				Bet bet = blogaBetBets.get(i);
-				System.out.println(i);
 				
 				// Some objects were saved to our SQL database as JSON string
 				// We have to convert them to objects again
@@ -669,7 +666,6 @@ public class StatsCalculator {
 				String siteTipster = tip.tipster + " (BB)";
 				if(activeTipsters != null){
 					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						System.out.println(siteTipster);
 						continue;
 					}
 				}
@@ -751,7 +747,7 @@ public class StatsCalculator {
 					List<BettingManagerBet> bets = row.bets;
 					bets.add(bBet);
 				}
-			}		
+			}	
 		}
 		
 		BettingManagerBetComparator c = new BettingManagerBetComparator();
@@ -798,7 +794,6 @@ public class StatsCalculator {
 		}
 		
 		result.add(averageRow);
-		System.out.println(averageRow.numberOfBets);
 		return result;
 	}
 	
@@ -1289,11 +1284,9 @@ public class StatsCalculator {
 					String s1 = o2.groupBy;
 					
 					if(s0.equals("Average")){
-						System.out.println("AV");
 						return 1;
 					}
 					if(s1.equals("Average")){
-						System.out.println("AV");
 						return -1;
 					}
 					

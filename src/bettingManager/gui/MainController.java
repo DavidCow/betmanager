@@ -8,12 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
+import java.util.Set;
 import java.util.prefs.Preferences;
 
-import com.google.gson.Gson;
-
-import bettingManager.statsCalculation.Alias;
-import bettingManager.statsCalculation.StatsCalculator;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -21,6 +18,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.Tooltip;
+import bettingManager.statsCalculation.Alias;
+import bettingManager.statsCalculation.StatsCalculator;
+
+import com.google.gson.Gson;
 
 public class MainController implements Observer{
 
@@ -120,6 +121,22 @@ public class MainController implements Observer{
 			 * Load last filter settings
 			 */
 			this.allFilters = gson.fromJson(json, FilterSettingsContainer.class);
+			
+			// PATRYK: Added code to load new tipster names, even if the tipster map already exists
+			Map<String, Boolean> tipstersSaved = this.allFilters.getTipstersMessage();
+			Set<String> tipstersInStatsCalculator = statsCalc.getAllTipsters();
+			for (String t:tipstersInStatsCalculator) {
+				if(!tipstersSaved.containsKey(t)){
+					tipstersSaved.put(t, true);
+				}
+			}
+			// PATRYK: Remove tipsters, which are no longer used
+			for(String t:tipstersSaved.keySet()){
+				if(!tipstersInStatsCalculator.contains(t)){
+					tipstersSaved.remove(t);
+				}
+			}
+			this.allFilters.setTipstersMessage(tipstersSaved);
 		}
 		setStatsCalculator(allFilters);
 	}
