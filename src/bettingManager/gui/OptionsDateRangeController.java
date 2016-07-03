@@ -271,7 +271,8 @@ public class OptionsDateRangeController extends Observable{
 			date = get2CalendarValuesDate(Calendar.HOUR, Calendar.MINUTE, Integer.parseInt(beforeHourChoiceBox.getValue()), Integer.parseInt(beforeMinuteChoiceBox.getValue()), date);
 			
 			System.out.println(date);
-			msg.setD1(date);
+			msg.setD1(new Date(Long.MIN_VALUE)); //startDate
+			msg.setD2(date); //endDate
 		} else if (hbox.equals(hboxAfter)) {
 			System.out.println("HboxAfter");
 			msg.setState(DateRangeMessage.AFTER);
@@ -284,6 +285,7 @@ public class OptionsDateRangeController extends Observable{
 			
 			System.out.println(date);
 			msg.setD1(date);
+			msg.setD2(new Date(Long.MAX_VALUE));
 		} else if (hbox.equals(hboxBetween)) {
 			System.out.println("HboxBetween");
 			msg.setState(DateRangeMessage.BETWEEN);

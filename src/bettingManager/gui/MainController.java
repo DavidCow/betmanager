@@ -301,10 +301,19 @@ public class MainController implements Observer{
 	public void clearFilters() {
 		FilterSettingsContainer old = this.allFilters;
 		this.allFilters = new FilterSettingsContainer();
-		//Don't clear Data and Site (Requested by stakeholder)
+		//Keep Historic/Real preference
 		this.allFilters.setDataState(old.getDataState());
+		
+		//Keep sites list
 		this.allFilters.setSitesList(old.getSitesList());
+		
+		//Reset Date Range to minimum and maximum dates
+		this.allFilters.getDateRangeMessage().setD1(new Date(Long.MIN_VALUE));
+		this.allFilters.getDateRangeMessage().setD2(new Date(Long.MAX_VALUE));
+		
+		//Keep Tipster selections
 		this.allFilters.setTipstersMessage(old.getTipstersMessage());
+		
 		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1_NO_SITES);
 		saveFilters();
 		updateFilterLabel();
