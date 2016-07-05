@@ -1397,9 +1397,9 @@ public class StatsCalculator {
 		
 		for(int i = 0; i < rows.size() -1; i++){
 			rows.get(rows.size() -1).numberOfTips += rows.get(i).numberOfTips;
-			rows.get(i).percentOfTipsFound = rows.get(i).numberOfBets / rows.get(i).numberOfTips;
+			rows.get(i).percentOfTipsFound = 100.0 * rows.get(i).numberOfBets / rows.get(i).numberOfTips;
 		}
-		rows.get(rows.size() -1).percentOfTipsFound = rows.get(rows.size() -1).numberOfBets * 1.0 / rows.get(rows.size() -1).numberOfTips;
+		rows.get(rows.size() -1).percentOfTipsFound = 100.0 * rows.get(rows.size() -1).numberOfBets * 1.0 / rows.get(rows.size() -1).numberOfTips;
 	}
 	
 	public void calculateStats(List<StatsRow> rows, int[] mapping){
