@@ -1480,7 +1480,6 @@ public class StatsCalculator {
 					else{
 						bet.netWon = "0";
 					}
-					row.percentOfTipsFound++;
 					if(bestOdds / element.getOdds() > 0.95){
 						row.percentOver95++;
 					}
@@ -1546,7 +1545,11 @@ public class StatsCalculator {
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getBestOdds();
-					row.invested += element.getStake() * 100;				
+					row.invested += element.getStake() * 100;	
+					
+					bet.event = element.getEvent();
+					bet.selection = element.getSelection();
+					bet.odds = bestOdds;
 					
 					if(element.getResult().equalsIgnoreCase("WIN")){
 						row.averageYield += bestOdds * StakeCalculation.blogaBetPercent(element.getStake())  * 50 - StakeCalculation.blogaBetPercent(element.getStake())  * 50;
@@ -1563,7 +1566,6 @@ public class StatsCalculator {
 					else{
 						bet.netWon = "0";
 					}
-					row.percentOfTipsFound++;
 					
 					if(bestOdds / element.getBestOdds() > 0.95){
 						row.percentOver95++;
@@ -1614,6 +1616,7 @@ public class StatsCalculator {
 					bBet.gameDate = tip.date;
 					bBet.event = tip.event.replaceAll("121921  ", "");
 					bBet.selection = tip.betOn;
+					bBet.odds = betTicket.getCurrentOdd();
 					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.betOn.equalsIgnoreCase("DRAW")){
@@ -1631,11 +1634,13 @@ public class StatsCalculator {
 						if(!overUnder)
 							continue;
 						bBet.koB = "O/U";
+						bBet.odds++;
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						bBet.koB = "AH";
+						bBet.odds++;
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
@@ -1729,6 +1734,7 @@ public class StatsCalculator {
 					bBet.gameDate = tip.startDate;
 					bBet.event = tip.event.replaceAll("121921  ", "");
 					bBet.selection = tip.selection;
+					bBet.odds = betTicket.getCurrentOdd();
 					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(tip.selection.equalsIgnoreCase("DRAW")){
@@ -1746,11 +1752,13 @@ public class StatsCalculator {
 						if(!overUnder)
 							continue;
 						bBet.koB = "O/U";
+						bBet.odds++;
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						bBet.koB = "AH";
+						bBet.odds++;
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
