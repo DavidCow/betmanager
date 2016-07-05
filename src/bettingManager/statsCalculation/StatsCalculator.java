@@ -441,6 +441,75 @@ public class StatsCalculator {
 			mapIndex++;
 		}	
 		calculateStats(rows, mapping);
+		
+		int[] tipMapping = new int[betAdvisorList.size() + blogaBetList.size() + betAdvisorTips.size() + blogaBetTips.size()];
+		int tipMapIndex = 0;
+		// BA Historical
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			BetAdvisorElement element = betAdvisorList.get(i);
+			int index = -1;
+			Date gameDate = element.getGameDate();
+			int month = gameDate.getMonth();
+			int year = gameDate.getYear() + 1900;
+			String dateString = month + " " + year;
+			
+			if(rowMap.keySet().contains(dateString)){
+				index = rowMap.get(dateString);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB Historical
+		for(int i = 0; i < blogaBetList.size(); i++){
+			
+			BlogaBetElement element = blogaBetList.get(i);
+			int index = -1;
+			Date gameDate = element.getGameDate();
+			int month = gameDate.getMonth();
+			int year = gameDate.getYear() + 1900;
+			String dateString = month + " " + year;
+			
+			if(rowMap.keySet().contains(dateString)){
+				index = rowMap.get(dateString);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BA Real
+		for(int i = 0; i < betAdvisorTips.size(); i++){
+			BetAdvisorTip tip = betAdvisorTips.get(i);
+			Date gameDate = tip.date;
+			int month = gameDate.getMonth();
+			int year = gameDate.getYear() + 1900;
+			String dateString = month + " " + year;
+			
+			int index = -1;
+			if(rowMap.keySet().contains(dateString)){
+				index = rowMap.get(dateString);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB real
+		for(int i = 0; i < blogaBetTips.size(); i++){
+			BlogaBetTip tip = blogaBetTips.get(i);
+			Date gameDate = tip.startDate;
+			int month = gameDate.getMonth();
+			int year = gameDate.getYear() + 1900;
+			String dateString = month + " " + year;
+			
+			int index = -1;
+			if(rowMap.keySet().contains(dateString)){
+				index = rowMap.get(dateString);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}	
+		calculateTipStats(rows, tipMapping);
+		
 		Comparator<StatsRow> c = new Comparator<StatsRow>() {
 
 			@Override
@@ -559,6 +628,59 @@ public class StatsCalculator {
 			mapIndex++;
 		}	
 		calculateStats(rows, mapping);
+		
+		int[] tipMapping = new int[betAdvisorList.size() + blogaBetList.size() + betAdvisorTips.size() + blogaBetTips.size()];
+		int tipMapIndex = 0;
+		// BA Historical
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			BetAdvisorElement element = betAdvisorList.get(i);
+			String siteTipster = element.getTipster() + " (BB)";
+			int index = -1;
+			if(rowMap.containsKey(siteTipster)){
+				index = rowMap.get(siteTipster);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB Historical
+		for(int i = 0; i < blogaBetList.size(); i++){
+			
+			BlogaBetElement element = blogaBetList.get(i);
+			String siteTipster = element.getTipster() + " (BB)";
+			int index = -1;
+			if(rowMap.containsKey(siteTipster)){
+				index = rowMap.get(siteTipster);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BA Real
+		for(int i = 0; i < betAdvisorTips.size(); i++){
+			BetAdvisorTip tip = betAdvisorTips.get(i);
+			String siteTipster = tip.tipster + " (BA)";
+			int index = -1;
+			if(rowMap.containsKey(siteTipster)){
+				index = rowMap.get(siteTipster);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB real
+		for(int i = 0; i < blogaBetTips.size(); i++){
+			BlogaBetTip tip = blogaBetTips.get(i);
+			String siteTipster = tip.tipster + " (BB)";
+			int index = -1;
+			if(rowMap.containsKey(siteTipster)){
+				index = rowMap.get(siteTipster);
+			}
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}	
+		calculateTipStats(rows, tipMapping);
+		
 		return rows;		
 	}
 	
@@ -745,7 +867,7 @@ public class StatsCalculator {
 			mapping[mapIndex] = index;
 			mapIndex++;
 		}	
-		calculateStats(rows, mapping);
+		calculateStats(rows, mapping);	
 		return rows;
 	}
 	
@@ -1044,6 +1166,43 @@ public class StatsCalculator {
 			mapIndex++;
 		}	
 		calculateStats(rows, mapping);
+		
+		int[] tipMapping = new int[betAdvisorList.size() + blogaBetList.size() + betAdvisorTips.size() + blogaBetTips.size()];
+		int tipMapIndex = 0;
+		// BA Historical
+		for(int i = 0; i < betAdvisorList.size(); i++){
+			BetAdvisorElement element = betAdvisorList.get(i);
+			int index = (element.getGameDate().getDay() + 6) % 7;
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB Historical
+		for(int i = 0; i < blogaBetList.size(); i++){
+			
+			BlogaBetElement element = blogaBetList.get(i);
+			int index = (element.getGameDate().getDay() + 6) % 7;
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BA Real
+		for(int i = 0; i < betAdvisorTips.size(); i++){
+			BetAdvisorTip tip = betAdvisorTips.get(i);
+			int index = (tip.date.getDay() + 6) % 7;
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}
+		
+		// BB real
+		for(int i = 0; i < blogaBetTips.size(); i++){
+			BlogaBetTip tip = blogaBetTips.get(i);
+			int index = (tip.startDate.getDay() + 6) % 7;
+			tipMapping[tipMapIndex] = index;
+			tipMapIndex++;
+		}	
+		calculateTipStats(rows, tipMapping);
+		
 		return rows;
 	}
 	
@@ -1463,7 +1622,6 @@ public class StatsCalculator {
 							bBet.koB = "X";
 						}
 						else{
-							System.out.println(tip.betOn);
 							if(!oneTwoResult)
 								continue;
 							bBet.koB = "1/2";
