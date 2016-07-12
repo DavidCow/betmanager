@@ -25,6 +25,7 @@ public class BlogaBetEmailParser {
 	
 	public static BlogaBetTip parseEmail(ParsedTextMail mail){
 		String s = mail.content.replaceAll("\r", "");
+		//s = "Fab Loso\n+12% (551)\nFab Loso published a new pick: 2 mins ago\nRosenborg B - Nybergsund IL\nFull Event Away +0.50 (AH) (0 - 0) @ 1.87\n5/10 LIVE 188bet\nFootball / Livebet / Kick off: 09 May 2016, 18:00";
 		BlogaBetTip tip = new BlogaBetTip();
 		String[] lines = s.split("\n");
 		
@@ -208,6 +209,14 @@ public class BlogaBetEmailParser {
 			Date publishDate = new Date(publishedTime);	
 			tip.publishDate = publishDate;
 		}
+		else if(publishdateString.contains("hr ago") || publishdateString.contains("hrs ago")){
+			int secsEnd = publishdateString.indexOf(" hr");
+			String secsString = publishdateString.substring(0, secsEnd);
+			int secsAgo = Integer.parseInt(secsString);
+			long publishedTime = mail.receivedDate.getTime() - secsAgo * 1000;
+			Date publishDate = new Date(publishedTime);	
+			tip.publishDate = publishDate;
+		}
 		else{
 			// Remove the suffix of the day 
 			// There is nothing in the java standard library to do this more elegantly
@@ -266,7 +275,7 @@ public class BlogaBetEmailParser {
 //			System.exit(-1);
 //		}
 		GMailReader reader = new GMailReader("blogabetcaptcha@gmail.com", "bmw735tdi");
-		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com");
+		List<ParsedTextMail> mails = reader.read("vicentbet90@gmail.com", 20);
 		List<BlogaBetTip> tips = new ArrayList<BlogaBetTip>();
 		for(int i = 0; i < mails.size(); i++){
 			ParsedTextMail mail = mails.get(i);
