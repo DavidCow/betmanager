@@ -260,7 +260,7 @@ public class MainController implements Observer{
 			allFilters.setTipstersMessage((Map<String, Boolean>)argMsg.getMsg());
 		} else if (o instanceof OptionsAddAliasesController) {
 			System.out.println("OptionsAddAliasesContr has sent something");
-			allFilters.setAliases((List<Alias>)argMsg.getMsg());
+			allFilters.setAliases((ArrayList<Alias>)argMsg.getMsg());
 		}
 		//ADD Tipsters Controller
 		System.out.println(allFilters);
@@ -306,6 +306,8 @@ public class MainController implements Observer{
 		
 		//Keep sites list
 		this.allFilters.setSitesList(old.getSitesList());
+		//Keep aliases
+		this.allFilters.setAliases(old.getAliases());
 		
 		//Reset Date Range to minimum and maximum dates
 		this.allFilters.getDateRangeMessage().setD1(new Date(Long.MIN_VALUE));

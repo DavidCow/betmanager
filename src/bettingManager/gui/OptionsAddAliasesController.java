@@ -1,6 +1,7 @@
 package bettingManager.gui;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Observable;
 
@@ -24,7 +25,7 @@ public class OptionsAddAliasesController extends Observable{
 	private OptionsController optionsController;
 	private OptionsTipstersController optionsTipstersController;
 	
-	private List<Alias> aliases = new ArrayList<Alias>();
+	private ArrayList<Alias> aliases = new ArrayList<Alias>();
 	
 	@FXML private ListView<String> lvAlias;
 	@FXML private ListView<String> lvTipster;
@@ -46,8 +47,8 @@ public class OptionsAddAliasesController extends Observable{
 //		for (int i=0;i<10;i+=1) {
 //			Alias a = new Alias();
 //			a.setAliasName("Hello" + i);
-//			a.add("Wurst" + i);
-//			a.add("Pommes" + i);
+//			a.getTipsters().add("Wurst" + i);
+//			a.getTipsters().add("Pommes" + i);
 //			aliases.add(a);
 //		}
 //		notifyMainController();
@@ -59,14 +60,7 @@ public class OptionsAddAliasesController extends Observable{
 		aliases = mainC.getAllFilters().getAliases();
 		
 		
-		System.out.println("no: "+aliases.size());
-		for(Alias a:aliases) {
-			System.out.println(a.getAliasName());
-			for (String s:a) {
-				System.out.println(s);
-			}
-			System.out.println("-");
-		}
+
 		
 		
 		 itemsAlias = FXCollections.observableArrayList (getAliasNamesAsList(aliases));
@@ -79,7 +73,7 @@ public class OptionsAddAliasesController extends Observable{
 	                    			if (new_val.equals(s.getAliasName())) {
 	                    				lvTipster.getItems().clear();
 //	                    				itemsTipster.setAll(s);
-	                    				itemsTipster = FXCollections.observableArrayList(s);
+	                    				itemsTipster = FXCollections.observableArrayList(s.getTipsters());
 	                    				lvTipster.setItems(itemsTipster);
 	                    				break;
 	                    			}
@@ -140,18 +134,48 @@ public class OptionsAddAliasesController extends Observable{
 	public void handleButtonDeleteAlias(ActionEvent action) {
 		System.out.println("Button Delete Alias");
 //		lvAlias.getItems().remove(lvAlias.getSelectionModel().getSelectedIndex());
-		lvAlias.getItems().remove(lvAlias.getSelectionModel().getSelectedItem());
+		
+		//REMOVE FROM aliases
+		Iterator<Alias> iter = aliases.iterator();
+
+		while (iter.hasNext()) {
+		    Alias a = iter.next();
+
+		    if (a.getAliasName().equals(lvAlias.getSelectionModel().getSelectedItem())) {
+//				aliases.remove(a);
+		    	iter.remove();
+			}
+		}
+		
+		//REMOVE FROM listview
+		try {
+			lvAlias.getItems().remove(lvAlias.getSelectionModel().getSelectedItem());
+		} catch (NullPointerException e) {
+			System.out.println("Caught: "+e);
+		}
+		notifyMainController();
 		
 	}
 	public void handleButtonAddTipster(ActionEvent action) {
 		System.out.println("Button Add Tipster");
+		
+		
+		//DEBUG CHECK FILTER
+		System.out.println("no: " + mainC.getAllFilters().getAliases().size());
+		for(Alias a:mainC.getAllFilters().getAliases()) {
+			System.out.println(a.getAliasName());
+			for (String s:a.getTipsters()) {
+				System.out.println(s);
+			}
+			System.out.println("-");
+		}
 		
 	}
 	public void handleButtonDeleteTipster(ActionEvent action) {
 		System.out.println("Button Delete Tipster");
 		for (Alias a:aliases) {
 			if (a.getAliasName().equals(lvAlias.getSelectionModel().getSelectedItem())) {
-				a.remove(lvTipster.getSelectionModel().getSelectedItem());
+				a.getTipsters().remove(lvTipster.getSelectionModel().getSelectedItem());
 			}
 		}
 		lvTipster.getItems().remove(lvTipster.getSelectionModel().getSelectedItem());

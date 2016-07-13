@@ -2,9 +2,19 @@ package bettingManager.statsCalculation;
 
 import java.util.ArrayList;
 
-public class Alias extends ArrayList<String> {
+public class Alias {
 
-	private String aliasName;
+	public ArrayList<String> tipsters = new ArrayList<String>();
+	
+	public String aliasName;
+	
+	public ArrayList<String> getTipsters() {
+		return tipsters;
+	}
+	public void setTipsters(ArrayList<String> tipsters) {
+		this.tipsters = tipsters;
+	}
+
 
 	public String getAliasName() {
 		return aliasName;

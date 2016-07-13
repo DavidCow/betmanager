@@ -82,15 +82,15 @@ public class FilterSettingsContainer {
 		return tipstersMessage;
 	}
 
-	private List<Alias> aliases = new ArrayList<Alias>();
+	private ArrayList<Alias> aliases = new ArrayList<Alias>();
 
 
-	public List<Alias> getAliases() {
+	public ArrayList<Alias> getAliases() {
 		return aliases;
 	}
 
 
-	public void setAliases(List<Alias> aliases) {
+	public void setAliases(ArrayList<Alias> aliases) {
 		this.aliases = aliases;
 	}
 
