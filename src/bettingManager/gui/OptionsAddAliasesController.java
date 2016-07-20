@@ -171,6 +171,7 @@ public class OptionsAddAliasesController extends Observable{
 		}
 		
 	}
+	
 	public void handleButtonDeleteTipster(ActionEvent action) {
 		System.out.println("Button Delete Tipster");
 		for (Alias a:aliases) {
