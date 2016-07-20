@@ -921,6 +921,7 @@ public class StatsCalculator {
 			typeOfBet = typeOfBet.replace(" 1st Half", "");
 			typeOfBet = typeOfBet.replace(" Corners", "");
 			typeOfBet = typeOfBet.replace(" Alternative", "");
+			typeOfBet = typeOfBet.replace(" Half Time", "");
 
 			int index = -1;
 			if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
@@ -932,6 +933,9 @@ public class StatsCalculator {
 				}
 			}
 			else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+				index = 3;
+			}
+			else if(typeOfBet.equalsIgnoreCase("Over Under")){
 				index = 3;
 			}
 			else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
@@ -1510,6 +1514,9 @@ public class StatsCalculator {
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
 					int mapIndex = mapping[mappingBaseIndex + i];
+					
+					if(mapIndex == -1)
+						System.out.println();
 
 					StatsRow row = rows.get(mapIndex);
 					String typeOfBet = element.getTypeOfBet();
