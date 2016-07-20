@@ -97,15 +97,15 @@ public class MainController implements Observer{
 		this.prefs = Preferences.userNodeForPackage(bettingManager.gui.MainController.class);
 		this.gson = new Gson();
 		//RESET SAVED FILTERSETTINGS
-//		String json = gson.toJson(new FilterSettingsContainer());
-//		prefs.put(PREFS_ALLFILTERS, json);
+//		String json = gson.toJson(new FilterSettingsContainer()); //RESET FILTER
+//		prefs.put(PREFS_ALLFILTERS, json);							//RESET FILTER
 		
 		System.out.println("Loading StatsCalculator..");
 		this.statsCalc = new StatsCalculator();
 		System.out.println("Loading StatsCalculator Done!");
 //		prefs.put(PREFS_ALLFILTERS, "");
-		String json = prefs.get(PREFS_ALLFILTERS, null);
-//		json = null;
+		String json = prefs.get(PREFS_ALLFILTERS, null);		//COMMENT OUT WHEN RESET FILTER
+//		json = null;											//RESET FILTER
 		if (json == null || json.isEmpty()) {
 			/*
 			 * If no previous filter settings 
