@@ -261,6 +261,9 @@ public class MainController implements Observer{
 		} else if (o instanceof OptionsAddAliasesController) {
 			System.out.println("OptionsAddAliasesContr has sent something");
 			allFilters.setAliases((ArrayList<Alias>)argMsg.getMsg());
+		} else if (o instanceof OptionsAddAliasesSelectTipstersController) {
+			System.out.println("OptionsAddAliasesSelectTisptersContr has sent something");
+			allFilters.setAliases((ArrayList<Alias>)argMsg.getMsg());
 		}
 		//ADD Tipsters Controller
 		System.out.println(allFilters);

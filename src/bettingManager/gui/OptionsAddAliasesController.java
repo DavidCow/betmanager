@@ -1,5 +1,6 @@
 package bettingManager.gui;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -13,9 +14,14 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.util.Callback;
 
 public class OptionsAddAliasesController extends Observable{
@@ -24,6 +30,16 @@ public class OptionsAddAliasesController extends Observable{
 	
 	private OptionsController optionsController;
 	private OptionsTipstersController optionsTipstersController;
+	
+	//NEW
+	public static String ALIASSELECTTIPSTERS_TITLE = "Select Tipsters";
+	public static String ALIASSELECTTIPSTERS_RESOURCE = "/bettingManager/gui/layout/Options_AddAliasesSelectTipsters.fxml";
+	public static String STYLESHEET = "/bettingManager/gui/layout/style.css";
+	
+	@FXML OptionsAddAliasesSelectTipstersController optionsAddAliasesSelectTipstersController;
+	
+	private Stage stageAliasSelectTipsters;
+	//NEW
 	
 	private ArrayList<Alias> aliases = new ArrayList<Alias>();
 	
@@ -43,7 +59,12 @@ public class OptionsAddAliasesController extends Observable{
 		this.addObserver(mainC);
 		this.optionsController = opt;
 		this.optionsTipstersController = optT;
-		
+		try {
+			createSelectTipstersStage();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		optionsAddAliasesSelectTipstersController.init(mainC, opt, this);
 //		for (int i=0;i<10;i+=1) {
 //			Alias a = new Alias();
 //			a.setAliasName("Hello" + i);
@@ -56,12 +77,31 @@ public class OptionsAddAliasesController extends Observable{
 	
 	}
 	
+	private void createSelectTipstersStage() throws IOException {
+		stageAliasSelectTipsters = new Stage();
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(ALIASSELECTTIPSTERS_RESOURCE));
+		Parent root = loader.load();
+		optionsAddAliasesSelectTipstersController = (OptionsAddAliasesSelectTipstersController) loader.getController();
+		root.getStylesheets().add(getClass().getResource(STYLESHEET).toExternalForm());
+		stageAliasSelectTipsters.setScene(new Scene(root));
+		stageAliasSelectTipsters.setTitle(ALIASSELECTTIPSTERS_TITLE);
+		stageAliasSelectTipsters.initModality(Modality.APPLICATION_MODAL);
+	}
+	
+	public void updateAliasAfterSelectTipster() {
+    	for(Alias s:aliases) {
+			if (optionsAddAliasesSelectTipstersController.getCurrentAliasName().equals(s.getAliasName())) {
+				lvTipster.getItems().clear();
+//				itemsTipster.setAll(s);
+				itemsTipster = FXCollections.observableArrayList(s.getTipsters());
+				lvTipster.setItems(itemsTipster);
+				break;
+			}
+		}
+	}
+	
 	private void setUpAliasTable() {
 		aliases = mainC.getAllFilters().getAliases();
-		
-		
-
-		
 		
 		 itemsAlias = FXCollections.observableArrayList (getAliasNamesAsList(aliases));
 			lvAlias.setItems(itemsAlias);
@@ -71,6 +111,7 @@ public class OptionsAddAliasesController extends Observable{
 	                            System.out.println(new_val);
 	                        	for(Alias s:aliases) {
 	                    			if (new_val.equals(s.getAliasName())) {
+	                    				optionsAddAliasesSelectTipstersController.setCurrentAliasName(s.getAliasName());
 	                    				lvTipster.getItems().clear();
 //	                    				itemsTipster.setAll(s);
 	                    				itemsTipster = FXCollections.observableArrayList(s.getTipsters());
@@ -170,6 +211,13 @@ public class OptionsAddAliasesController extends Observable{
 			System.out.println("-");
 		}
 		
+		
+		stageAliasSelectTipsters.showAndWait();
+
+	}
+	
+	public void hideSelectTipstersWindow() {
+		stageAliasSelectTipsters.hide();
 	}
 	
 	public void handleButtonDeleteTipster(ActionEvent action) {
