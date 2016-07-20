@@ -44,8 +44,8 @@ public class StatsCalculator {
 	// Filters
 	public boolean historical = false;
 	public boolean real = true;
-	public boolean betAdvisor = true;
-	public boolean blogaBet = false;
+	public boolean betAdvisor = false;
+	public boolean blogaBet = true;
 	public boolean asianHandicap = true;
 	public boolean overUnder = true;
 	public boolean oneTwoResult = true;
@@ -1683,12 +1683,7 @@ public class StatsCalculator {
 		if(blogaBet && real){
 			for(int i = 0; i < blogaBetBets.size(); i++){
 				Bet bet = blogaBetBets.get(i);
-				
-				// Some objects were saved to our SQL database as JSON string
-				// We have to convert them to objects again
-				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
-				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
-				
+						
 				// The tip, its a different class than a betAdvisor tip
 				// Some variables also have difefrent names and possible values
 				// Conversion from String to double
@@ -1820,8 +1815,8 @@ public class StatsCalculator {
 			row.percentOver95 = row.percentOver95 * 100.0 / Math.max(row.numberOfBets, 1);
 			row.percentWeGet = row.percentWeGet * 100.0 / Math.max(row.numberOfBets, 1);
 			Collections.sort(row.bets, c);
-			if(rows.get(i).bets.size() > 20)
-				rows.get(i).bets = row.bets.subList(row.bets.size() - 21, row.bets.size() - 1);
+			if(rows.get(i).bets.size() > 100)
+				rows.get(i).bets = row.bets.subList(row.bets.size() - 101, row.bets.size() - 1);
 		}
 		averageRow.averageLiquidity /= Math.max(averageRow.numberOfBets, 1);
 		averageRow.averageOdds /= Math.max(averageRow.numberOfBets, 1);
@@ -1975,11 +1970,6 @@ public class StatsCalculator {
 			for(int i = 0; i < betAdvisorBets.size(); i++){
 				Bet bet = betAdvisorBets.get(i);
 				
-				// Some objects were saved to our SQL database as JSON string
-				// We have to convert them to objects again
-				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
-				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
-				
 				// The tip, its a different class than a Blogabet tip
 				// Some variables also have difefrent names and possible values
 				BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);
@@ -2044,11 +2034,6 @@ public class StatsCalculator {
 		if(blogaBet && real){
 			for(int i = 0; i < blogaBetBets.size(); i++){
 				Bet bet = blogaBetBets.get(i);
-				
-				// Some objects were saved to our SQL database as JSON string
-				// We have to convert them to objects again
-				Record record = (Record)gson.fromJson(bet.getRecordJsonString(), recordClass);
-				SoccerEvent event = (SoccerEvent)gson.fromJson(bet.getEventJsonString(), eventClass);
 				
 				// The tip, its a different class than a betAdvisor tip
 				// Some variables also have difefrent names and possible values
