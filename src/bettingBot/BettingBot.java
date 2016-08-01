@@ -43,8 +43,8 @@ public class BettingBot {
 	private static final int numberOfMessagesToCheck = 20;
 	private BettingBotFrame mainFrame = new BettingBotFrame();
 	private BettingBotDatabase dataBase;
-	private static final int MAX_STAKE = 300;
-	private static final int AVERAGE_STAKE = 200;
+	private static final int MAX_STAKE = 150;
+	private static final int AVERAGE_STAKE = 100;
 	
 	public void run(){
 		
@@ -280,6 +280,14 @@ public class BettingBot {
 					if(eventHost.indexOf(" Corner") != -1)
 						continue;
 					if(eventGuest.indexOf(" Corner") != -1)
+						continue;
+					if(eventHost.indexOf(" Booking") != -1)
+						continue;
+					if(eventGuest.indexOf(" Booking") != -1)
+						continue;
+					if(eventGuest.indexOf(" Throw") != -1)
+						continue;
+					if(eventGuest.indexOf(" Offside") != -1)
 						continue;
 					/* We do not bet on "Home Team" */
 					if(eventHost.indexOf("Home Team") == 0)
@@ -600,6 +608,9 @@ public class BettingBot {
 									tipTimeType = "FULL_TIME";
 								}
 								else if(tip.typeOfBet.equals("Over / Under Team 1st Half")){
+									tipTimeType = "HALF_TIME";
+								}
+								else if(tip.typeOfBet.equals("Over / Under 1st Half Team")){
 									tipTimeType = "HALF_TIME";
 								}
 								if(tipTimeType.isEmpty()){
@@ -1047,6 +1058,14 @@ public class BettingBot {
 					if(eventHost.indexOf(" Corner") != -1)
 						continue;
 					if(eventGuest.indexOf(" Corner") != -1)
+						continue;
+					if(eventHost.indexOf(" Booking") != -1)
+						continue;
+					if(eventGuest.indexOf(" Booking") != -1)
+						continue;
+					if(eventGuest.indexOf(" Throw") != -1)
+						continue;
+					if(eventGuest.indexOf(" Offside") != -1)
 						continue;
 					/* We do not bet on "Home Team" */
 					if(eventHost.indexOf("Home Team") == 0)
