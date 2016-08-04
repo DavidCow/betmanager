@@ -26,7 +26,7 @@ import com.google.gson.Gson;
 public class MainController implements Observer{
 
 	public static final int UPDATE_MODE_ALL = 0;
-	public static final int UPDATE_MODE_NOCHECKBOX1_NO_SITES = 1;
+	public static final int UPDATE_MODE_NOCHECKBOX1 = 1;
 	
 	
 	/**
@@ -219,8 +219,8 @@ public class MainController implements Observer{
 		 */
 		if (updateMode == MainController.UPDATE_MODE_ALL) {
 			checkbox1Controller.updateSettings(allFilters);
-			siteController.updateSettings(allFilters);
 		}
+		siteController.updateSettings(allFilters);
 		optionsController.updateSettings(allFilters);		//Updates DateRange as well
 		//siteController
 		averageOddsController.updateSettings(allFilters);
@@ -307,8 +307,21 @@ public class MainController implements Observer{
 		//Keep Historic/Real preference
 		this.allFilters.setDataState(old.getDataState());
 		
-		//Keep sites list
-		this.allFilters.setSitesList(old.getSitesList());
+		//enable BB, BA
+		ArrayList<String> sitesList = new ArrayList<String>();
+		sitesList.add("BetAdvisor");
+		sitesList.add("Blogabet");
+		this.allFilters.setSitesList(sitesList);
+		
+		//enable kob's
+		ArrayList<String> koBList = new ArrayList<String>();
+		koBList.add("Asian Handicap");
+		koBList.add("Over - Under");
+		koBList.add("X Result");
+		koBList.add("1 2 Result");
+		this.allFilters.setKoBList(koBList);
+		
+		
 		//Keep aliases
 		this.allFilters.setAliases(old.getAliases());
 		
@@ -319,7 +332,7 @@ public class MainController implements Observer{
 		//Keep Tipster selections
 		this.allFilters.setTipstersMessage(old.getTipstersMessage());
 		
-		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1_NO_SITES);
+		updateSettingsControllers(MainController.UPDATE_MODE_NOCHECKBOX1);
 		saveFilters();
 		updateFilterLabel();
 	}
