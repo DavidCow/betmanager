@@ -279,6 +279,15 @@ public class TableLastBetsController extends Observable{
                 	}
                 	setText(nf.format(netWon));
                 }
+                if (columnNo == 7) {
+                	double odds = 0;
+                	try {
+                		odds = Double.parseDouble(getText());
+                	} catch (NumberFormatException e) {
+                		System.out.println(e);
+                	}
+                	setText(nf.format(odds));
+                }
                 setAlignment(Pos.CENTER);
 	        }
 	    }

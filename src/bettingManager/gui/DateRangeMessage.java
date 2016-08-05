@@ -7,12 +7,13 @@ public class DateRangeMessage {
 	/**
 	 * Selected by user in "Date Range" button
 	 */
-	public static final int MONTH = 0;
-	public static final int DAY = 1;
-	public static final int BEFORE = 2;
-	public static final int AFTER = 3;
-	public static final int BETWEEN = 4;
-	public static final int LAST = 5;
+	public static final int ALL = 0;
+	public static final int MONTH = 1;
+	public static final int DAY = 2;
+	public static final int BEFORE = 3;
+	public static final int AFTER = 4;
+	public static final int BETWEEN = 5;
+	public static final int LAST = 6;
 	
 	/**
 	 * Additionally set, for example "Last Tips"
@@ -98,7 +99,9 @@ public class DateRangeMessage {
 			d1String = cal.get(Calendar.DAY_OF_MONTH) + " " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
 		}
 		
-		if (state == MONTH) {
+		if (state == ALL) {
+			return "All bets";
+		} else if (state == MONTH) {
 			return "Month: " + OptionsDateRangeController.theMonth(cal.get(Calendar.MONTH)) + " " + cal.get(Calendar.YEAR);
 		} else if (state == DAY) {
 			return "Day: " + d1String;

@@ -137,6 +137,11 @@ public class MainController implements Observer{
 				}
 			}
 			this.allFilters.setTipstersMessage(tipstersSaved);
+			
+			//Reset Date Range to minimum and maximum dates
+			this.allFilters.getDateRangeMessage().setState(DateRangeMessage.ALL);
+			this.allFilters.getDateRangeMessage().setD1(new Date(Long.MIN_VALUE));
+			this.allFilters.getDateRangeMessage().setD2(new Date(Long.MAX_VALUE));
 		}
 		setStatsCalculator(allFilters);
 	}
@@ -326,6 +331,7 @@ public class MainController implements Observer{
 		this.allFilters.setAliases(old.getAliases());
 		
 		//Reset Date Range to minimum and maximum dates
+		this.allFilters.getDateRangeMessage().setState(DateRangeMessage.ALL);
 		this.allFilters.getDateRangeMessage().setD1(new Date(Long.MIN_VALUE));
 		this.allFilters.getDateRangeMessage().setD2(new Date(Long.MAX_VALUE));
 		
@@ -352,7 +358,7 @@ public class MainController implements Observer{
 		if (c.getDateRangeMessage().getD1() != null) {
 			statsCalc.startdate = c.getDateRangeMessage().getD1();
 		} else {
-			statsCalc.startdate = new Date(0);
+			statsCalc.startdate = new Date(Long.MIN_VALUE);
 		}
 		if(c.getDateRangeMessage().getD2() != null) {
 			statsCalc.endDate = c.getDateRangeMessage().getD2();

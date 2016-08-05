@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="318.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.OptionsDateRangeController">
+<AnchorPane prefHeight="358.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.OptionsDateRangeController">
    <children>
       <GridPane layoutX="14.0" layoutY="10.0" prefHeight="305.0" prefWidth="268.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
         <columnConstraints>
@@ -22,47 +22,49 @@
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="198.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="92.0" minHeight="3.0" prefHeight="48.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="108.0" minHeight="0.0" prefHeight="49.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="70.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="53.0" minHeight="0.0" prefHeight="51.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="49.0" minHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="92.0" minHeight="0.0" prefHeight="43.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="108.0" minHeight="0.0" prefHeight="63.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="95.0" minHeight="0.0" prefHeight="39.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="70.0" minHeight="0.0" prefHeight="48.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="62.0" minHeight="0.0" prefHeight="7.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <RadioButton fx:id="dateRangeMonth" mnemonicParsing="false" onAction="#handleMonth" text="Month" />
-            <RadioButton fx:id="dateRangeDay" mnemonicParsing="false" onAction="#handleDay" text="Day" GridPane.rowIndex="1" />
-            <RadioButton fx:id="dateRangeBefore" mnemonicParsing="false" onAction="#handleBefore" text="Before" GridPane.rowIndex="2" />
-            <RadioButton fx:id="dateRangeAfter" mnemonicParsing="false" onAction="#handleAfter" text="After" GridPane.rowIndex="3" />
-            <RadioButton fx:id="dateRangeLast" mnemonicParsing="false" onAction="#handleLast" text="Last" GridPane.rowIndex="5" />
-            <RadioButton fx:id="dateRangeBetween" mnemonicParsing="false" onAction="#handleBetween" text="Between" GridPane.rowIndex="4" />
-            <HBox fx:id="hboxMonth" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+            <RadioButton fx:id="dateRangeMonth" mnemonicParsing="false" onAction="#handleMonth" text="Month" GridPane.rowIndex="1" />
+            <RadioButton fx:id="dateRangeDay" mnemonicParsing="false" onAction="#handleDay" text="Day" GridPane.rowIndex="2" />
+            <RadioButton fx:id="dateRangeBefore" mnemonicParsing="false" onAction="#handleBefore" text="Before" GridPane.rowIndex="3" />
+            <RadioButton fx:id="dateRangeAfter" mnemonicParsing="false" onAction="#handleAfter" text="After" GridPane.rowIndex="4" />
+            <RadioButton fx:id="dateRangeLast" mnemonicParsing="false" onAction="#handleLast" text="Last" GridPane.rowIndex="6" />
+            <RadioButton fx:id="dateRangeBetween" mnemonicParsing="false" onAction="#handleBetween" text="Between" GridPane.rowIndex="5" />
+            <HBox fx:id="hboxAll" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" />
+            <HBox fx:id="hboxMonth" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
                   <ComboBox fx:id="monthMonth" prefWidth="150.0" promptText="Month" />
                   <ComboBox fx:id="monthYear" layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="Year" />
                </children>
             </HBox>
-            <HBox fx:id="hboxDay" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <HBox fx:id="hboxDay" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
                   <DatePicker fx:id="datePickerDay" prefHeight="25.0" prefWidth="201.0" />
                </children>
             </HBox>
-            <HBox fx:id="hboxBefore" alignment="CENTER" prefHeight="52.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <HBox fx:id="hboxBefore" alignment="CENTER" prefHeight="52.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <children>
                   <ChoiceBox fx:id="beforeHourChoiceBox" prefHeight="25.0" prefWidth="33.0" />
                   <ChoiceBox fx:id="beforeMinuteChoiceBox" layoutX="10.0" layoutY="20.0" prefHeight="25.0" prefWidth="35.0" />
                   <DatePicker fx:id="datePickerBefore" />
                </children>
             </HBox>
-            <HBox fx:id="hboxAfter" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <HBox fx:id="hboxAfter" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <children>
                   <ChoiceBox fx:id="afterHourChoiceBox" prefHeight="25.0" prefWidth="33.0" />
                   <ChoiceBox fx:id="afterMinuteChoiceBox" prefHeight="25.0" prefWidth="35.0" />
                   <DatePicker fx:id="datePickerAfter" />
                </children>
             </HBox>
-            <HBox fx:id="hboxBetween" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <HBox fx:id="hboxBetween" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <children>
                   <VBox prefHeight="56.0" prefWidth="228.0">
                      <children>
@@ -88,13 +90,13 @@
                   </VBox>
                </children>
             </HBox>
-            <HBox fx:id="hboxLast" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <HBox fx:id="hboxLast" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <children>
                   <TextField fx:id="lastTextField" />
                   <ComboBox prefWidth="150.0" promptText="Tips" />
                </children>
             </HBox>
-            <HBox alignment="BOTTOM_RIGHT" prefHeight="25.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="25.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
                <children>
                   <Button fx:id="dateRangeCancelButton" mnemonicParsing="false" onAction="#handleDateRangeCancelButton" prefHeight="25.0" prefWidth="90.0" text="Cancel" />
                   <Button fx:id="dateRangeOkButton" mnemonicParsing="false" onAction="#handleDateRangeOkButton" prefHeight="25.0" prefWidth="92.0" text="OK">
@@ -104,6 +106,7 @@
                   </Button>
                </children>
             </HBox>
+            <RadioButton fx:id="dateRangeAll" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleAll" text="All" />
          </children>
       </GridPane>
    </children>

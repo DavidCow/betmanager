@@ -42,6 +42,8 @@ public class OptionsDateRangeController extends Observable{
 	 * Radio buttons
 	 */
 	final ToggleGroup toggleGroup = new ToggleGroup();
+	
+	@FXML private RadioButton dateRangeAll;
 	@FXML private RadioButton dateRangeMonth;
 	@FXML private RadioButton dateRangeDay;
 	@FXML private RadioButton dateRangeBefore;
@@ -53,6 +55,7 @@ public class OptionsDateRangeController extends Observable{
 	/**
 	 * Hboxes
 	 */
+	@FXML private HBox hboxAll;
 	@FXML private HBox hboxMonth;
 	@FXML private HBox hboxDay;
 	@FXML private HBox hboxBefore;
@@ -118,6 +121,7 @@ public class OptionsDateRangeController extends Observable{
 	}
 	
 	@FXML public void initialize() {
+		dateRangeAll.setToggleGroup(toggleGroup);
 		dateRangeMonth.setToggleGroup(toggleGroup);
 		dateRangeDay.setToggleGroup(toggleGroup);
 		dateRangeBefore.setToggleGroup(toggleGroup);
@@ -125,21 +129,23 @@ public class OptionsDateRangeController extends Observable{
 		dateRangeBetween.setToggleGroup(toggleGroup);
 		dateRangeLast.setToggleGroup(toggleGroup);
 		
-		radioButtons = new RadioButton[6];
-		radioButtons[0] = dateRangeMonth;
-		radioButtons[1] = dateRangeDay;
-		radioButtons[2] = dateRangeBefore;
-		radioButtons[3] = dateRangeAfter;
-		radioButtons[4] = dateRangeBetween;
-		radioButtons[5] = dateRangeLast;
+		radioButtons = new RadioButton[7];
+		radioButtons[0] = dateRangeAll;
+		radioButtons[1] = dateRangeMonth;
+		radioButtons[2] = dateRangeDay;
+		radioButtons[3] = dateRangeBefore;
+		radioButtons[4] = dateRangeAfter;
+		radioButtons[5] = dateRangeBetween;
+		radioButtons[6] = dateRangeLast;
 		
-		hboxes = new HBox[6];
-		hboxes[0] = hboxMonth;
-		hboxes[1] = hboxDay;
-		hboxes[2] = hboxBefore; 
-		hboxes[3] = hboxAfter; 
-		hboxes[4] = hboxBetween; 
-		hboxes[5] = hboxLast;
+		hboxes = new HBox[7];
+		hboxes[0] = hboxAll;
+		hboxes[1] = hboxMonth;
+		hboxes[2] = hboxDay;
+		hboxes[3] = hboxBefore; 
+		hboxes[4] = hboxAfter; 
+		hboxes[5] = hboxBetween; 
+		hboxes[6] = hboxLast;
 		
 		String standardHour = "15";
 		populateChoicebox(beforeHourChoiceBox, 0, 23, 1);
@@ -172,6 +178,11 @@ public class OptionsDateRangeController extends Observable{
 		monthYear.setValue(now.get(Calendar.YEAR)+"");
 	}
 	
+	public void handleAll(ActionEvent event) {
+		System.out.println("Handle all");
+		disableNonSelectedRows(hboxAll);
+	}
+
 	public void handleMonth(ActionEvent event) {
 		System.out.println("Handle month");
 		disableNonSelectedRows(hboxMonth);
@@ -231,7 +242,12 @@ public class OptionsDateRangeController extends Observable{
 			return;
 		}
 
-		if (hbox.equals(hboxMonth)) {
+		if (hbox.equals(hboxAll)) {
+			System.out.println("HboxAll");
+			msg.setState(DateRangeMessage.ALL);
+			msg.setD1(new Date(Long.MIN_VALUE));
+			msg.setD2(new Date(Long.MAX_VALUE));
+		} else if (hbox.equals(hboxMonth)) {
 			System.out.println("HboxMonth");
 			msg.setState(DateRangeMessage.MONTH);
 			Date date = get2CalendarValuesDate(Calendar.DAY_OF_MONTH, Calendar.MONTH, Calendar.YEAR, Calendar.HOUR, Calendar.MINUTE, 1, theNumberOfMonth(monthMonth.getValue()), Integer.parseInt(monthYear.getValue()), 0, 0);
