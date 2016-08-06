@@ -8,6 +8,14 @@ public class Alias {
 	
 	public String aliasName;
 	
+	public boolean selected = true;
+	
+	public boolean isSelected() {
+		return selected;
+	}
+	public void setSelected(boolean selected) {
+		this.selected = selected;
+	}
 	public ArrayList<String> getTipsters() {
 		return tipsters;
 	}

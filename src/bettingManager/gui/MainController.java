@@ -103,7 +103,6 @@ public class MainController implements Observer{
 		System.out.println("Loading StatsCalculator..");
 		this.statsCalc = new StatsCalculator();
 		System.out.println("Loading StatsCalculator Done!");
-//		prefs.put(PREFS_ALLFILTERS, "");
 		String json = prefs.get(PREFS_ALLFILTERS, null);		//COMMENT OUT WHEN RESET FILTER
 //		json = null;											//RESET FILTER
 		if (json == null || json.isEmpty()) {

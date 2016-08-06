@@ -6,9 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Observable;
-import java.util.Set;
 
-import bettingManager.statsCalculation.StatsCalculator;
+import bettingManager.statsCalculation.Alias;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -21,7 +20,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
-import javafx.scene.control.CustomMenuItem;
 import javafx.scene.control.Label;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TableColumn;
@@ -60,7 +58,7 @@ public class OptionsTipstersController extends Observable{
 	@FXML Button buttonSelectAll;
 	@FXML Button buttonDeselectAll;
 	
-	private final String[] tipsterTitles = {
+	public static final String[] tipsterTitles = {
 				"+",
 				"Tipster",
 				"Site",
@@ -119,7 +117,7 @@ public class OptionsTipstersController extends Observable{
 			);
 		inflateTable(tipsterTitles);
 		
-		setTipstersSelectedLabel();
+		
 		
 		tipsterAllForTable = putObservableToArrayListTipsters(tipsterTable.getItems());
 		
@@ -154,7 +152,8 @@ public class OptionsTipstersController extends Observable{
 	 * Populate Table with Column Headers
 	 * @param tableTitles
 	 */
-	private void inflateTable(String [] tableTitles) {
+	public void inflateTable(String [] tableTitles) {
+		tipsterTable.getItems().clear();
 		for(int i = 0; i<tableTitles.length; i+=1) {
 			TableColumn<TipsterRow, String> newTC = new TableColumn<TipsterRow, String>(tableTitles[i]);
 			newTC.setCellValueFactory(new PropertyValueFactory<TipsterRow, String>(tipstersTableValueNames[i]));
@@ -170,6 +169,12 @@ public class OptionsTipstersController extends Observable{
 			tipsterList.add(stringToTipster(key));
 		}
 		System.out.println("Reading Tipsters Done!");
+		
+		// ADD ALIASES TO Tipster List
+		for(Alias al:mainC.getAllFilters().getAliases()) {
+			tipsterList.add(aliasToTipster(al));
+		}
+		////
 		
 		ObservableList<TipsterRow> data = FXCollections.observableList(tipsterList);
 		
@@ -209,6 +214,26 @@ public class OptionsTipstersController extends Observable{
 
 	        // 5. Add sorted (and filtered) data to the table.
 	        tipsterTable.setItems(sortedData);
+	        
+	        setTipstersSelectedLabel();
+	}
+	
+	
+	public static String ALIAS_SITE = "ALIAS";
+	
+	/**
+	 * Create TipsterRow from Set element 
+	 */
+	private TipsterRow aliasToTipster(Alias a) {
+		TipsterRow tr = new TipsterRow();
+		CheckBox box = new CheckBox();
+		box.setSelected(a.isSelected());
+		tr.setInclude(box);
+		tr.setTipster(a.getAliasName());
+		tr.setSite(ALIAS_SITE);
+		tr.setTips("-");
+		tr.setAverageYield("-");
+		return tr;
 	}
 	
 	/**
@@ -248,8 +273,19 @@ public class OptionsTipstersController extends Observable{
 
 	    Map<String, Boolean> tipstersSaved = new HashMap<String, Boolean>();
 	    for (TipsterRow tr: data){
-	    	tipstersSaved.put(tipsterToString(tr), tr.getInclude().isSelected());
+	    	if (tr.getSite().equals(ALIAS_SITE)) {
+	    		for (Alias a:mainC.getAllFilters().getAliases()) {
+	    			if (a.getAliasName().equalsIgnoreCase(tr.getTipster())) {
+	    				a.setSelected(tr.getInclude().isSelected());
+	    			}
+	    		}
+	    	} else {
+	    		tipstersSaved.put(tipsterToString(tr), tr.getInclude().isSelected());
+	    	}
 	    }
+//	    for (Alias a:mainC.getAllFilters().getAliases()) {
+//	    	System.out.println(a.getAliasName() + ":" + a.isSelected());
+//	    }
 	    notifyMainController(tipstersSaved);
 	    setTipstersSelectedLabel();
 	    optionsController.hideTipstersWindow();
@@ -277,7 +313,6 @@ public class OptionsTipstersController extends Observable{
 	}
 	
 	/**
-	 * Select the last used RadioButton
 	 * @param filters
 	 */
 	public void updateSettings(FilterSettingsContainer filters) {
@@ -286,12 +321,20 @@ public class OptionsTipstersController extends Observable{
 		ObservableList<TipsterRow> data = tipsterTable.getItems();
 
 	    for (TipsterRow tr: data){
-	    	try {
-	    		boolean selected = tipsSaved.get(tipsterToString(tr));
-	    		tr.getInclude().setSelected(selected);
-	    	} catch (NullPointerException e) {
-	    		System.out.println(e);
-	    		tr.getInclude().setSelected(true);
+	    	if (tr.getSite().equalsIgnoreCase(ALIAS_SITE)) {
+	    		for (Alias a:mainC.getAllFilters().getAliases()) {
+	    			if (a.getAliasName().equalsIgnoreCase(tr.getSite())) {
+	    				tr.getInclude().setSelected(a.isSelected());
+	    			}
+	    		}
+	    	} else {
+	    		try {
+	    			boolean selected = tipsSaved.get(tipsterToString(tr));
+	    			tr.getInclude().setSelected(selected);
+	    		} catch (NullPointerException e) {
+	    			System.out.println(e);
+	    			tr.getInclude().setSelected(true);
+	    		}
 	    	}
 	    }
 	    optionsAddAliasesController.updateSettings(filters);
@@ -300,6 +343,7 @@ public class OptionsTipstersController extends Observable{
 	public OptionsAddAliasesController getOptionsAddAliasesController() {
 		return optionsAddAliasesController;
 	}
+	
 	/**
 	 * Table row
 	 *

@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Observable;
 
 import bettingManager.statsCalculation.Alias;
+import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -163,7 +164,12 @@ public class OptionsAddAliasesController extends Observable{
 	 */
 	public void handleButtonNewAlias(ActionEvent action) {
 		System.out.println("Button New Alias");
-		String newAlias = "New Alias";
+		String newAlias = "New Alias " + lvAlias.getItems().size();
+		for (String al:lvAlias.getItems()) {
+			if (newAlias.equalsIgnoreCase(al)) {
+				newAlias += " a";
+			}
+		}
 		lvAlias.getItems().add(newAlias);
 		
 		Alias a = new Alias();
@@ -171,6 +177,7 @@ public class OptionsAddAliasesController extends Observable{
 		
 		aliases.add(a);
 		notifyMainController();
+		refreshTipsterList();
 	}
 	public void handleButtonDeleteAlias(ActionEvent action) {
 		System.out.println("Button Delete Alias");
@@ -195,7 +202,7 @@ public class OptionsAddAliasesController extends Observable{
 			System.out.println("Caught: "+e);
 		}
 		notifyMainController();
-		
+		refreshTipsterList();
 	}
 	public void handleButtonAddTipster(ActionEvent action) {
 		System.out.println("Button Add Tipster");
@@ -231,6 +238,15 @@ public class OptionsAddAliasesController extends Observable{
 		notifyMainController();
 	}
 	
+	private void refreshTipsterList() {
+		Platform.runLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				optionsTipstersController.inflateTable(OptionsTipstersController.tipsterTitles);
+			}
+		});
+	}
 	
 	/**
 	 * Edit test
@@ -243,13 +259,23 @@ public class OptionsAddAliasesController extends Observable{
 	    private String oldText = "OLDTEXT";
 	    
 	    @Override
+	    public void cancelEdit() {
+	        super.cancelEdit();
+	        
+	        setText((String) getItem());
+	        setGraphic(null);
+	    }
+	    
+	    @Override
 	    public void startEdit() {
 	        if (!isEditable() || !getListView().isEditable()) {
+	        	System.out.println("startEdit() - Not editable");
 	            return;
 	        }
 	        super.startEdit();
 
 	        if (isEditing()) {
+	        	System.out.println("isEditing()");
 	            if (textField == null) {
 //	                textField = new TextField(getItem());
 	                textField = new TextField("NEW TF");
@@ -264,21 +290,30 @@ public class OptionsAddAliasesController extends Observable{
 	                        	}
 	                        }
 	                        notifyMainController();
-//	                        commitEdit("commitEdit");
 	                        System.out.println("COMMITEDIT()");
+	                        refreshTipsterList();
 	                    }
 	                });
 	                textField.focusedProperty().addListener(new ChangeListener<Boolean>() {
 	                    @Override
 	                    public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-	                    	if(!newValue) {
+//	                    	cancelEdit();
+	                    	System.out.println("Focus lost");
+//	                    	if(!newValue) {
 //	                    		commitEdit(textField.getText());
-	                        }
+//	                    	     for(Alias a:aliases) {
+//	 	                        	if (a.getAliasName().equals(oldText)) {
+//	 	                        		a.setAliasName(textField.getText());
+//	 	                        	}
+//	 	                        }
+//	 	                        notifyMainController();
+//	                    		System.out.println("OUT OF FOCUS, COMMITEDIT() " + Math.random());
+//	                        }
 	                    }
 	                });
 	            }
 	        }
-	        System.out.println("OUTSIDE");
+	        System.out.println("startEdit()");
 //	        textField.setText(getItem());
 	        textField.setText(getText());
 	        setText(null);
@@ -294,15 +329,19 @@ public class OptionsAddAliasesController extends Observable{
 	        if (isEmpty()) {
 	            setText(null);
 	            setGraphic(null);
+	            System.out.println("updateItem() - empty");
 	        } else {
 	            if (!isEditing()) {
+	            	System.out.println("updateItem() - !isEditing");
 	                if (textField != null) {
 	                    setText(textField.getText());
 //	                    setText("wurst");
+	                    System.out.println("tf null");
 	                } else {
 	                    setText(item);
 	                    oldText = getText();
 //	                    setText("wurst2");	//textField == null
+	                    System.out.println("tf sth");
 	                }
 	                setGraphic(null);
 	            }
