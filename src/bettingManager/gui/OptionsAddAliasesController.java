@@ -177,7 +177,6 @@ public class OptionsAddAliasesController extends Observable{
 		
 		aliases.add(a);
 		notifyMainController();
-		refreshTipsterList();
 	}
 	public void handleButtonDeleteAlias(ActionEvent action) {
 		System.out.println("Button Delete Alias");
@@ -202,7 +201,6 @@ public class OptionsAddAliasesController extends Observable{
 			System.out.println("Caught: "+e);
 		}
 		notifyMainController();
-		refreshTipsterList();
 	}
 	public void handleButtonAddTipster(ActionEvent action) {
 		System.out.println("Button Add Tipster");
@@ -238,15 +236,7 @@ public class OptionsAddAliasesController extends Observable{
 		notifyMainController();
 	}
 	
-	private void refreshTipsterList() {
-		Platform.runLater(new Runnable() {
-			
-			@Override
-			public void run() {
-				optionsTipstersController.inflateTable(OptionsTipstersController.tipsterTitles);
-			}
-		});
-	}
+
 	
 	/**
 	 * Edit test
@@ -291,7 +281,6 @@ public class OptionsAddAliasesController extends Observable{
 	                        }
 	                        notifyMainController();
 	                        System.out.println("COMMITEDIT()");
-	                        refreshTipsterList();
 	                    }
 	                });
 	                textField.focusedProperty().addListener(new ChangeListener<Boolean>() {

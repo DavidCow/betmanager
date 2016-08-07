@@ -8,12 +8,14 @@ import java.util.Map;
 import java.util.Observable;
 
 import bettingManager.statsCalculation.Alias;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -28,6 +30,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 
 public class OptionsTipstersController extends Observable{
 	private MainController mainC;
@@ -84,6 +87,21 @@ public class OptionsTipstersController extends Observable{
 		stageAlias.setScene(new Scene(root));
 		stageAlias.setTitle(ALIAS_TITLE);
 		stageAlias.initModality(Modality.APPLICATION_MODAL);
+		
+		stageAlias.setOnCloseRequest(new EventHandler<WindowEvent>() {
+
+	            @Override
+	            public void handle(WindowEvent event) {
+	                Platform.runLater(new Runnable() {
+
+	                    @Override
+	                    public void run() {
+	                        System.out.println("Application Closed by click to Close Button(X)");
+	                        inflateTable(tipsterTitles);
+	                    }
+	                });
+	            }
+	        });
 	}
 	
 	public void handleAliasButton(ActionEvent event) {
@@ -147,17 +165,21 @@ public class OptionsTipstersController extends Observable{
 		}
 		return num;
 	}
-	
+	boolean firstTime = true;
 	/**
 	 * Populate Table with Column Headers
 	 * @param tableTitles
 	 */
 	public void inflateTable(String [] tableTitles) {
-		tipsterTable.getItems().clear();
+	
+//		tipsterTable.getItems().clear();
+		if (firstTime) {
+			
 		for(int i = 0; i<tableTitles.length; i+=1) {
 			TableColumn<TipsterRow, String> newTC = new TableColumn<TipsterRow, String>(tableTitles[i]);
 			newTC.setCellValueFactory(new PropertyValueFactory<TipsterRow, String>(tipstersTableValueNames[i]));
 			tipsterTable.getColumns().add(newTC);
+		}
 		}
 		
 		List<TipsterRow> tipsterList = new ArrayList<TipsterRow>();
@@ -170,25 +192,29 @@ public class OptionsTipstersController extends Observable{
 		}
 		System.out.println("Reading Tipsters Done!");
 		
+		System.out.println("Reading Aliases..");
 		// ADD ALIASES TO Tipster List
 		for(Alias al:mainC.getAllFilters().getAliases()) {
 			tipsterList.add(aliasToTipster(al));
 		}
 		////
+		System.out.println("Reading Aliases Done!");
 		
 		ObservableList<TipsterRow> data = FXCollections.observableList(tipsterList);
 		
+		if (firstTime) {
 		tipsterTable.getItems().setAll(data);
-		tipsterTable.getSelectionModel().getSelectedItems().addListener(new ListChangeListener<TipsterRow>() {
-
-			@Override
-			public void onChanged(ListChangeListener.Change<? extends TipsterRow> c) {
-			     for( TipsterRow t : c.getList()) {
-//		                System.out.println(t);
-			     }
-			     System.out.println("ListChangeListener");
-			}
-		});
+//		tipsterTable.getSelectionModel().getSelectedItems().addListener(new ListChangeListener<TipsterRow>() {
+//
+//			@Override
+//			public void onChanged(ListChangeListener.Change<? extends TipsterRow> c) {
+//			     for( TipsterRow t : c.getList()) {
+////		                System.out.println(t);
+//			     }
+//			     System.out.println("ListChangeListener");
+//			}
+//		});
+		}
 		FilteredList<TipsterRow> filteredData = new FilteredList<>(data, p -> true);
 		
 		  tipsterSearchTextField.textProperty().addListener((observable, oldValue, newValue) -> {
@@ -216,6 +242,9 @@ public class OptionsTipstersController extends Observable{
 	        tipsterTable.setItems(sortedData);
 	        
 	        setTipstersSelectedLabel();
+	    	if (firstTime) {
+				firstTime = false;
+			}
 	}
 	
 	
