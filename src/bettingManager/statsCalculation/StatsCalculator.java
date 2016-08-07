@@ -556,17 +556,34 @@ public class StatsCalculator {
 		for (int i = 0; i < betAdvisorBacktestBets.size(); i++) {
 			BetAdvisorElement element = betAdvisorBacktestBets.get(i);
 			String siteTipster = element.getTipster() + " (BA)";
-			if(activeTipsters == null || (activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster))){
-				if(betAdvisor && historical){
-					if(!rowMap.keySet().contains(siteTipster)){
-						rowMap.put(siteTipster, rowIndex);
-						StatsRow row = new StatsRow();
-						row.groupBy = siteTipster;
-						rows.add(row);
-						rowIndex++;
-					}	
-					mapping[mapIndex] = rowMap.get(siteTipster);	
+			boolean tipsterContained = false;
+			if(activeTipsters != null){
+				if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+					tipsterContained = true;
 				}
+				for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+					if(aliasList.get(a).isSelected()){
+						for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+							String aliasTipster = aliasList.get(a).tipsters.get(al);
+							if(aliasTipster.equals(siteTipster)){
+								tipsterContained = true;
+								break;
+							}
+						}
+					}
+				}
+			}
+			if(!tipsterContained)
+				continue;
+			if(betAdvisor && historical){
+				if(!rowMap.keySet().contains(siteTipster)){
+					rowMap.put(siteTipster, rowIndex);
+					StatsRow row = new StatsRow();
+					row.groupBy = siteTipster;
+					rows.add(row);
+					rowIndex++;
+				}	
+				mapping[mapIndex] = rowMap.get(siteTipster);	
 			}
 			mapIndex++;
 		}
@@ -574,17 +591,34 @@ public class StatsCalculator {
 		for (int i = 0; i < blogaBetBacktestBets.size(); i++) {
 			BlogaBetElement element = blogaBetBacktestBets.get(i);
 			String siteTipster = element.getTipster() + " (BB)";
-			if(activeTipsters == null || (activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster))){
-				if(blogaBet && historical){
-					if(!rowMap.keySet().contains(siteTipster)){
-						rowMap.put(siteTipster, rowIndex);
-						StatsRow row = new StatsRow();
-						row.groupBy = siteTipster;
-						rows.add(row);
-						rowIndex++;		
-					}
-					mapping[mapIndex] = rowMap.get(siteTipster);
+			boolean tipsterContained = false;
+			if(activeTipsters != null){
+				if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+					tipsterContained = true;
 				}
+				for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+					if(aliasList.get(a).isSelected()){
+						for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+							String aliasTipster = aliasList.get(a).tipsters.get(al);
+							if(aliasTipster.equals(siteTipster)){
+								tipsterContained = true;
+								break;
+							}
+						}
+					}
+				}
+			}
+			if(!tipsterContained)
+				continue;
+			if(blogaBet && historical){
+				if(!rowMap.keySet().contains(siteTipster)){
+					rowMap.put(siteTipster, rowIndex);
+					StatsRow row = new StatsRow();
+					row.groupBy = siteTipster;
+					rows.add(row);
+					rowIndex++;		
+				}
+				mapping[mapIndex] = rowMap.get(siteTipster);
 			}
 			mapIndex++;
 		}
@@ -594,17 +628,34 @@ public class StatsCalculator {
 			Bet bet = betAdvisorBets.get(i);
 			BetAdvisorTip tip = (BetAdvisorTip)gson.fromJson(bet.getTipJsonString(), BetAdvisorTip.class);	
 			String siteTipster = tip.tipster + " (BA)";
-			if(activeTipsters == null || (activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster))){
-				if(betAdvisor && real){
-					if(!rowMap.keySet().contains(siteTipster)){
-						rowMap.put(siteTipster, rowIndex);
-						StatsRow row = new StatsRow();
-						row.groupBy = siteTipster;
-						rows.add(row);
-						rowIndex++;		
-					}
-					mapping[mapIndex] = rowMap.get(siteTipster);
+			boolean tipsterContained = false;
+			if(activeTipsters != null){
+				if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+					tipsterContained = true;
 				}
+				for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+					if(aliasList.get(a).isSelected()){
+						for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+							String aliasTipster = aliasList.get(a).tipsters.get(al);
+							if(aliasTipster.equals(siteTipster)){
+								tipsterContained = true;
+								break;
+							}
+						}
+					}
+				}
+			}
+			if(!tipsterContained)
+				continue;
+			if(betAdvisor && real){
+				if(!rowMap.keySet().contains(siteTipster)){
+					rowMap.put(siteTipster, rowIndex);
+					StatsRow row = new StatsRow();
+					row.groupBy = siteTipster;
+					rows.add(row);
+					rowIndex++;		
+				}
+				mapping[mapIndex] = rowMap.get(siteTipster);
 			}
 			mapIndex++;
 		}
@@ -613,17 +664,34 @@ public class StatsCalculator {
 			Bet bet = blogaBetBets.get(i);		
 			BlogaBetTip tip = (BlogaBetTip)gson.fromJson(bet.getTipJsonString(), BlogaBetTip.class);	
 			String siteTipster = tip.tipster + " (BB)";
-			if(activeTipsters == null || (activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster) && blogaBet && real)){
-				if(blogaBet && real){
-					if(!rowMap.keySet().contains(siteTipster)){
-						rowMap.put(siteTipster, rowIndex);
-						StatsRow row = new StatsRow();
-						row.groupBy = siteTipster;
-						rows.add(row);
-						rowIndex++;		
-					}
-					mapping[mapIndex] = rowMap.get(siteTipster);
+			boolean tipsterContained = false;
+			if(activeTipsters != null){
+				if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+					tipsterContained = true;
 				}
+				for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+					if(aliasList.get(a).isSelected()){
+						for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+							String aliasTipster = aliasList.get(a).tipsters.get(al);
+							if(aliasTipster.equals(siteTipster)){
+								tipsterContained = true;
+								break;
+							}
+						}
+					}
+				}
+			}
+			if(!tipsterContained)
+				continue;
+			if(blogaBet && real){
+				if(!rowMap.keySet().contains(siteTipster)){
+					rowMap.put(siteTipster, rowIndex);
+					StatsRow row = new StatsRow();
+					row.groupBy = siteTipster;
+					rows.add(row);
+					rowIndex++;		
+				}
+				mapping[mapIndex] = rowMap.get(siteTipster);
 			}
 			mapIndex++;
 		}	
@@ -1211,6 +1279,9 @@ public class StatsCalculator {
 	}
 	
 	public void calculateTipStats(List<StatsRow> rows, int[] mapping){
+		if(rows.isEmpty())
+			return;
+		
 		int mappingBaseIndex = 0;
 		
 		// BA Historical
@@ -1408,6 +1479,10 @@ public class StatsCalculator {
 	
 	public void calculateStats(List<StatsRow> rows, int[] mapping){
 		
+		if(rows.isEmpty()){
+			return;		
+		}
+		
 		int mappingBaseIndex = 0;
 		// BetAdvisor Backtest
 		if(betAdvisor && historical){
@@ -1419,11 +1494,25 @@ public class StatsCalculator {
 				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
 				
 				String siteTipster = element.getTipster() + " (BA)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 								
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -1505,11 +1594,25 @@ public class StatsCalculator {
 				double bestOdds = blogaBetBacktestBestOddsList.get(i);
 				
 				String siteTipster = element.getTipster() + " (BB)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -1597,11 +1700,25 @@ public class StatsCalculator {
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
 				
 				String siteTipster = tip.tipster + " (BA)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				if(tip.betOn == null){
 					continue;
@@ -1711,11 +1828,25 @@ public class StatsCalculator {
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
 				
 				String siteTipster = tip.tipster + " (BB)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				Date gameDate = tip.startDate;
 				double liquidity = betTicket.getMaxStake();
@@ -1863,11 +1994,25 @@ public class StatsCalculator {
 				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
 				
 				String siteTipster = element.getTipster() + " (BA)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 								
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -1924,11 +2069,25 @@ public class StatsCalculator {
 				double bestOdds = blogaBetBacktestBestOddsList.get(i);
 				
 				String siteTipster = element.getTipster() + " (BB)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				Date gameDate = element.getGameDate();
 				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
@@ -1984,11 +2143,25 @@ public class StatsCalculator {
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
 				
 				String siteTipster = tip.tipster + " (BA)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				if(tip.betOn == null)
 					continue;
@@ -2062,11 +2235,25 @@ public class StatsCalculator {
 				BetTicket betTicket = (BetTicket)gson.fromJson(bet.getBetTicketJsonString(), BetTicket.class);
 				
 				String siteTipster = tip.tipster + " (BB)";
+				boolean tipsterContained = false;
 				if(activeTipsters != null){
-					if(!activeTipsters.containsKey(siteTipster) || !activeTipsters.get(siteTipster)){
-						continue;
+					if(activeTipsters.containsKey(siteTipster) && activeTipsters.get(siteTipster)){
+						tipsterContained = true;
+					}
+					for(int a = 0; a < aliasList.size() && !tipsterContained; a++){
+						if(aliasList.get(a).isSelected()){
+							for(int al = 0; al < aliasList.get(a).tipsters.size(); al++){
+								String aliasTipster = aliasList.get(a).tipsters.get(al);
+								if(aliasTipster.equals(siteTipster)){
+									tipsterContained = true;
+									break;
+								}
+							}
+						}
 					}
 				}
+				if(!tipsterContained)
+					continue;
 				
 				Date gameDate = tip.startDate;
 				double liquidity = betTicket.getMaxStake();
