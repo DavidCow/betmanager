@@ -123,6 +123,7 @@ public class MainController implements Observer{
 			
 			// PATRYK: Added code to load new tipster names, even if the tipster map already exists
 			Map<String, Boolean> tipstersSaved = this.allFilters.getTipstersMessage();
+			Map<String, Boolean> newTipstersSaved = new HashMap<String, Boolean>();
 			Set<String> tipstersInStatsCalculator = statsCalc.getAllTipsters();
 			for (String t:tipstersInStatsCalculator) {
 				if(!tipstersSaved.containsKey(t)){
@@ -131,11 +132,11 @@ public class MainController implements Observer{
 			}
 			// PATRYK: Remove tipsters, which are no longer used
 			for(String t:tipstersSaved.keySet()){
-				if(!tipstersInStatsCalculator.contains(t)){
-					tipstersSaved.remove(t);
+				if(tipstersInStatsCalculator.contains(t)){
+					newTipstersSaved.put(t, tipstersSaved.get(t));
 				}
 			}
-			this.allFilters.setTipstersMessage(tipstersSaved);
+			this.allFilters.setTipstersMessage(newTipstersSaved);
 			
 			//Reset Date Range to minimum and maximum dates
 			this.allFilters.getDateRangeMessage().setState(DateRangeMessage.ALL);
