@@ -24,12 +24,15 @@ public class BlogaBetElement implements java.io.Serializable {
 	private String tipTeam;
 	private String pivotBias;
 	private double stake;
+	private double profit;
+
+	
 
 	public BlogaBetElement(Date gameDate, Date publicationDate, String sport,
 			String competition, String event, String tipster, String selection,
 			String typeOfBet, double bestOdds, String result, String host,
 			String guest, double pivotValue, String tipTeam, String pivotBias,
-			double stake) {
+			double stake, double profit) {
 		super();
 		this.gameDate = gameDate;
 		this.publicationDate = publicationDate;
@@ -47,8 +50,9 @@ public class BlogaBetElement implements java.io.Serializable {
 		this.tipTeam = tipTeam;
 		this.pivotBias = pivotBias;
 		this.stake = stake;
+		this.profit = profit;
 	}
-
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
@@ -61,9 +65,24 @@ public class BlogaBetElement implements java.io.Serializable {
 				+ ", bestOdds=" + bestOdds + ", result=" + result + ", host="
 				+ host + ", guest=" + guest + ", pivotValue=" + pivotValue
 				+ ", tipTeam=" + tipTeam + ", pivotBias=" + pivotBias
-				+ ", stake=" + stake + "]";
+				+ ", stake=" + stake + ", profit=" + profit + "]";
 	}
-	
+
+
+	/**
+	 * @return the profit
+	 */
+	public double getProfit() {
+		return profit;
+	}
+
+	/**
+	 * @param profit the profit to set
+	 */
+	public void setProfit(double profit) {
+		this.profit = profit;
+	}
+
 	/**
 	 * @return the stake
 	 */
