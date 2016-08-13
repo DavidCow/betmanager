@@ -30,20 +30,21 @@ public class TableTitles {
 	/**
 	 * Variable names for Table injection
 	 */
-	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95","averageLiquidity","percentOfTipsFound","flatStakeYield"};
+	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95",
+			"averageLiquidity","percentOfTipsFound","flatStakeYield"};
 	public final static String[] averageLiquidityTableValueNames = {"groupBy", "averageLiquidity", 
 			"averageYield","averageOdds","numberOfBets","percentWeGet",
-			"percentOver95","percentOfTipsFound"};
+			"percentOver95","percentOfTipsFound","flatStakeYield"};
 	public final static String[] tipsterNameTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
 	public final static String[] dayWeekTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
 	
 	public final static String[] monthlyTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
 	
 	
 	/**
@@ -58,7 +59,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
 			};
 	public final static String[] TABLE_TITLES_TIPSTERNAME = {
 			TIPSTERNAME,
@@ -68,7 +69,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
 	};
 	public final static String[] TABLE_TITLES_DAYWEEK = {
 			DAY,
@@ -78,7 +79,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
 	};
 	public final static String[] TABLE_TITLES_MONTHLY = {
 			MONTH,
@@ -88,6 +89,6 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
 	};
 }
