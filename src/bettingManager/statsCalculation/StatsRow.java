@@ -15,6 +15,10 @@ public class StatsRow {
 	public double averageLiquidity = 0;
 	public double percentOfTipsFound = 0;
 	public double flatStakeYield = 0;
+	public double probabilityRatio = 0;
+	public double flatStakeYieldEv = 0;
+	public double averageYieldEv = 0;
+	
 	public List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
 	
 	public List<BettingManagerBet> getBets() {
