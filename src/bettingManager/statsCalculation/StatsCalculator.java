@@ -60,6 +60,9 @@ public class StatsCalculator {
 	public double minOdds = 0;
 	public double maxOdds = Double.MAX_VALUE;
 	
+	public double minOddsOfTheTip = 0;
+	public double maxOddsOfTheTip = Double.MAX_VALUE;
+	
 	// This Set should contain all the names of the tipsters, that are currently active
 	// Tipsters not in this set, or in the alias set, will be ignored
 	public Map<String, Boolean> activeTipsters;

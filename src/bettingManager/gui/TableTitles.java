@@ -26,31 +26,35 @@ public class TableTitles {
 	public final static String MONTH = "Month";
 	public final static String LIQUIDITY = "Liquidity";
 	
+	public final static String PROBABILITYRATIO = "Probability Ratio";
+	public final static String FLATSTAKEYIELDEV = "Flat stake yield Ev";
+	public final static String AVERAGEYIELDEV = "Average yield Ev";
 	
 	/**
 	 * Variable names for Table injection
 	 */
 	public final static String[] kindOfBetTableValueNames = {"groupBy","averageYield","averageOdds","numberOfBets","percentWeGet","percentOver95",
-			"averageLiquidity","percentOfTipsFound","flatStakeYield"};
+			"averageLiquidity","percentOfTipsFound","flatStakeYield","probabilityRatio","flatStakeYieldEv","averageYieldEv"};
 	public final static String[] averageLiquidityTableValueNames = {"groupBy", "averageLiquidity", 
 			"averageYield","averageOdds","numberOfBets","percentWeGet",
-			"percentOver95","percentOfTipsFound","flatStakeYield"};
+			"percentOver95","percentOfTipsFound","flatStakeYield",
+			"probabilityRatio","flatStakeYieldEv","averageYieldEv"};
 	public final static String[] tipsterNameTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield","probabilityRatio","flatStakeYieldEv","averageYieldEv"};
 	public final static String[] dayWeekTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield","probabilityRatio","flatStakeYieldEv","averageYieldEv"};
 	
 	public final static String[] monthlyTableValueNames = {"groupBy", 
 			"averageLiquidity","averageYield","averageOdds","numberOfBets",
-			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield"};
+			"percentWeGet", "percentOver95","percentOfTipsFound","flatStakeYield","probabilityRatio","flatStakeYieldEv","averageYieldEv"};
 	
 	
 	/**
 	 * Title of column (string)
 	 */
-	public final static String[] TABLE_TITLES_KINDOFBET = {KINDOFBET, AVERAGEYIELD, AVERAGEODDS, NUMBEROFBETS, PERCENTWEGET, PERCENTOVER95, AVERAGELIQUIDITY, PERCENTOFTIPSFOUND, FLATSTAKEYIELD};
+	public final static String[] TABLE_TITLES_KINDOFBET = {KINDOFBET, AVERAGEYIELD, AVERAGEODDS, NUMBEROFBETS, PERCENTWEGET, PERCENTOVER95, AVERAGELIQUIDITY, PERCENTOFTIPSFOUND, FLATSTAKEYIELD, PROBABILITYRATIO, FLATSTAKEYIELDEV, AVERAGEYIELDEV};
 	public final static String[] TABLE_TITLES_AVERAGELIQUIDITY = {
 			LIQUIDITY,
 			AVERAGELIQUIDITY,
@@ -59,7 +63,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD, PROBABILITYRATIO, FLATSTAKEYIELDEV, AVERAGEYIELDEV
 			};
 	public final static String[] TABLE_TITLES_TIPSTERNAME = {
 			TIPSTERNAME,
@@ -69,7 +73,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD, PROBABILITYRATIO, FLATSTAKEYIELDEV, AVERAGEYIELDEV
 	};
 	public final static String[] TABLE_TITLES_DAYWEEK = {
 			DAY,
@@ -79,7 +83,7 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD, PROBABILITYRATIO, FLATSTAKEYIELDEV, AVERAGEYIELDEV
 	};
 	public final static String[] TABLE_TITLES_MONTHLY = {
 			MONTH,
@@ -89,6 +93,6 @@ public class TableTitles {
 			NUMBEROFBETS, 
 			PERCENTWEGET, 
 			PERCENTOVER95, 
-			PERCENTOFTIPSFOUND, FLATSTAKEYIELD
+			PERCENTOFTIPSFOUND, FLATSTAKEYIELD, PROBABILITYRATIO, FLATSTAKEYIELDEV, AVERAGEYIELDEV
 	};
 }

@@ -19,6 +19,7 @@ public class StatsRow {
 	public double flatStakeYieldEv = 0;
 	public double averageYieldEv = 0;
 	
+	
 	public List<BettingManagerBet> bets = new ArrayList<BettingManagerBet>();
 	
 	public List<BettingManagerBet> getBets() {
@@ -56,5 +57,15 @@ public class StatsRow {
 	}
 	public double getFlatStakeYield() {
 		return flatStakeYield;
+	}
+	
+	public double getProbabilityRatio() {
+		return probabilityRatio;
+	}
+	public double getFlatStakeYieldEv() {
+		return flatStakeYieldEv;
+	}
+	public double getAverageYieldEv() {
+		return averageYieldEv;
 	}
 }

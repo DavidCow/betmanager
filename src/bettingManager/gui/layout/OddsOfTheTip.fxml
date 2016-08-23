@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox layoutX="428.0" layoutY="10.0" prefHeight="100.0" prefWidth="217.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bettingManager.gui.OddsOfTheTipController">
+	<children>
+		<Label alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="25.0" prefWidth="217.0" text="Odds of the Tip" />
+		<GridPane>
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+				<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			<children>
+				<Label text="Greater than" />
+				<Label text="Less than" GridPane.rowIndex="1" />
+				<TextField fx:id="greaterThanTF" onKeyReleased="#handleGreaterThan" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="lessThanTF" onKeyReleased="#handleLessThan" promptText="Enter value" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+			</children>
+		</GridPane>
+		<GridPane>
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			<children>
+				<Label text="Between" />
+				<Label alignment="CENTER" prefHeight="17.0" prefWidth="53.0" text="and" textAlignment="CENTER" GridPane.columnIndex="2" />
+				<TextField fx:id="betweenTF" onKeyReleased="#handleBetween" promptText="Enter value" GridPane.columnIndex="1">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+				<TextField fx:id="andTF" onKeyReleased="#handleAnd" promptText="Enter value" GridPane.columnIndex="3">
+               <tooltip>
+                  <Tooltip text="Fill in value or leave empty" />
+               </tooltip></TextField>
+			</children>
+		</GridPane>
+	</children>
+</VBox>

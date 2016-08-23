@@ -38,7 +38,7 @@ public class MainController implements Observer{
 	@FXML AverageOddsController averageOddsController;
 	@FXML KoBController koBController;
 	@FXML LiquidityController liquidityController;
-	
+	@FXML OddsOfTheTipController oddsOfTheTipController;
 	
 	@FXML TabPane tabPane;
 	
@@ -194,6 +194,7 @@ public class MainController implements Observer{
 		averageOddsController.init(this);
 		koBController.init(this);
 		liquidityController.init(this);
+		oddsOfTheTipController.init(this);
 //		
 //		Platform.runLater(new Runnable() {
 //			
@@ -231,6 +232,7 @@ public class MainController implements Observer{
 		averageOddsController.updateSettings(allFilters);
 		koBController.updateSettings(allFilters);
 		liquidityController.updateSettings(allFilters);
+		oddsOfTheTipController.updateSettings(allFilters);
 	}
 	
 	/**
@@ -257,6 +259,9 @@ public class MainController implements Observer{
 		} else if (o instanceof LiquidityController) {
 			System.out.println("LiquidityContr has sent something");
 			allFilters.setOddsDataLiquidity((OddsData)argMsg.getMsg());
+		}  else if (o instanceof OddsOfTheTipController) {
+			System.out.println("OddsOfTheTipContr has sent something");
+			allFilters.setOddsDataOddsOfTheTip((OddsData)argMsg.getMsg());
 		} else if (o instanceof OptionsDateRangeController) {
 			System.out.println("OptionsDateRangeContr has sent something");
 			allFilters.setDateRangeMessage((DateRangeMessage)argMsg.getMsg());
@@ -412,6 +417,15 @@ public class MainController implements Observer{
 		} else {
 			statsCalc.minLiquidity = c.getOddsDataLiquidity().getBetween(); 
 			statsCalc.maxLiquidity = c.getOddsDataLiquidity().getAnd(); 
+		}
+		//
+		//
+		if (c.getOddsDataOddsOfTheTip().getGreaterThan() != -1 || c.getOddsDataOddsOfTheTip().getLessThan() != Float.MAX_VALUE) {
+			statsCalc.minOddsOfTheTip = c.getOddsDataOddsOfTheTip().getGreaterThan();
+			statsCalc.maxOddsOfTheTip = c.getOddsDataOddsOfTheTip().getLessThan();
+		} else {
+			statsCalc.minOddsOfTheTip = c.getOddsDataOddsOfTheTip().getBetween(); 
+			statsCalc.maxOddsOfTheTip = c.getOddsDataOddsOfTheTip().getAnd(); 
 		}
 		//
 		statsCalc.activeTipsters = c.getTipstersMessage();

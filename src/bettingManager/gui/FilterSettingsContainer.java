@@ -78,6 +78,16 @@ public class FilterSettingsContainer {
 	 */
 	private Map<String, Boolean> tipstersMessage = new HashMap<String, Boolean>();
 	
+	
+	/**
+	 * ODDSOFTHETIP
+	 * Contains the GreaterThan, LessThan, Between-And
+	 * values "".
+	 * IMPORTANT: Notice that a value is -1 if the user has left the TextField empty. 
+	 */
+	private OddsData oddsDataOddsOfTheTip = new OddsData();
+	
+	
 	public Map<String, Boolean> getTipstersMessage() {
 		return tipstersMessage;
 	}
@@ -183,11 +193,22 @@ public class FilterSettingsContainer {
 		System.out.println("AverageOdds:"+getOddsDataAverageOdds());
 		System.out.println("KoB:"+getKoBList());
 		System.out.println("Liquidity:"+getOddsDataLiquidity());
+		System.out.println("OddsOfTheTip:"+getOddsDataOddsOfTheTip());
 		return "--------------------------------------";
 	}
 	
 
 	
+
+	public OddsData getOddsDataOddsOfTheTip() {
+		return oddsDataOddsOfTheTip;
+	}
+
+
+	public void setOddsDataOddsOfTheTip(OddsData oddsDataOddsOfTheTip) {
+		this.oddsDataOddsOfTheTip = oddsDataOddsOfTheTip;
+	}
+
 
 	/**
 	 * This is the String for the "Active Filters:" in the UI
@@ -226,7 +247,17 @@ public class FilterSettingsContainer {
 			activeFiltersString += liq;
 			activeFiltersString += limiter;
 		}
+		
+		String oddsOfTheT = getOddsOfTheTipString();
+		if (!oddsOfTheT.isEmpty()) {
+			activeFiltersString += oddsOfTheT;
+			activeFiltersString += limiter;
+		}
 		return activeFiltersString;
+	}
+	
+	private String getOddsOfTheTipString() {
+		return oddsDataLiquidity.getAllFiltersLabel("Odds of the Tip");
 	}
 
 	/**

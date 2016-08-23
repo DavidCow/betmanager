@@ -8,9 +8,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 
-public class LiquidityController extends Observable{
+public class OddsOfTheTipController extends Observable{
 	private MainController mainC;
-	public static int LIQUIDITY_ID = 5;
+	public static int ODDSOFTHETIP_ID = 510;
 	
 	@FXML private TextField greaterThanTF;
 	@FXML private TextField lessThanTF;
@@ -20,7 +20,7 @@ public class LiquidityController extends Observable{
 	private OddsData oddsData;
 	private String regex = "[^0-9\\.]+";
 	
-	public LiquidityController() {
+	public OddsOfTheTipController() {
 		oddsData = new OddsData();
 	}
 	
@@ -37,7 +37,7 @@ public class LiquidityController extends Observable{
 		this.addObserver(mainC);
 	}
 	
-	public void handleGreaterThanLiq(KeyEvent event) {
+	public void handleGreaterThan(KeyEvent event) {
 		System.out.println("handle greater than");
 		AverageOddsController.checkTFInput(event, greaterThanTF);
 		betweenTF.setText("");
@@ -47,7 +47,7 @@ public class LiquidityController extends Observable{
 		}
 	}
 
-	public void handleLessThanLiq(KeyEvent event) {
+	public void handleLessThan(KeyEvent event) {
 		System.out.println("handle less than");
 		AverageOddsController.checkTFInput(event, lessThanTF);
 		betweenTF.setText("");
@@ -57,7 +57,7 @@ public class LiquidityController extends Observable{
 		}
 	}
 	
-	public void handleBetweenLiq(KeyEvent event) {
+	public void handleBetween(KeyEvent event) {
 		System.out.println("handle between");
 		AverageOddsController.checkTFInput(event, betweenTF);
 		lessThanTF.setText("");
@@ -67,7 +67,7 @@ public class LiquidityController extends Observable{
 		}
 	}
 
-	public void handleAndLiq(KeyEvent event) {
+	public void handleAnd(KeyEvent event) {
 		System.out.println("handle and");
 		AverageOddsController.checkTFInput(event, andTF);
 		lessThanTF.setText("");
@@ -148,14 +148,14 @@ public class LiquidityController extends Observable{
 	
 	private void notifyMainController() {
 		setChanged();
-		notifyObservers(new ObservableMessage(LIQUIDITY_ID, oddsData));
+		notifyObservers(new ObservableMessage(ODDSOFTHETIP_ID, oddsData));
 	}
 	
 	
 	public void updateSettings(FilterSettingsContainer filters) {
-		if (filters.getOddsDataLiquidity() == null) return;
+		if (filters.getOddsDataOddsOfTheTip() == null) return;
 		
-		this.oddsData = filters.getOddsDataLiquidity();
+		this.oddsData = filters.getOddsDataOddsOfTheTip();
 		greaterThanTF.setText(getValueString(oddsData.getGreaterThan()));
 		lessThanTF.setText(getValueString(oddsData.getLessThan()));
 		betweenTF.setText(getValueString(oddsData.getBetween()));
