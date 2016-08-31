@@ -1,6 +1,9 @@
 package bettingManager.statsCalculation;
 
+import historicalData.HdpElement;
 import historicalData.HistoricalDataElement;
+import historicalData.OneTwoElement;
+import historicalData.TotalElement;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -25,6 +28,8 @@ import moneyManagement.StakeCalculation;
 import backtest.BetAdvisorBacktest;
 import backtest.BlogaBetBacktest;
 import betadvisor.BetAdvisorElement;
+import betadvisor.BetAdvisorParser;
+import bettingBot.TeamMapping;
 import bettingBot.entities.Bet;
 import bettingBot.entities.BetTicket;
 import blogaBetHistoricalDataParsing.BlogaBetElement;
@@ -1495,6 +1500,7 @@ public class StatsCalculator {
 				BetAdvisorElement element = betAdvisorBacktestBets.get(i);
 				double liquidity = betAdvisorBacktestLiquidity.get(i);
 				double bestOdds = betAdvisorBacktestBestOddsList.get(i);
+				HistoricalDataElement bestSource = betAdvisorHistorical.get(i);
 				
 				String siteTipster = element.getTipster() + " (BA)";
 				boolean tipsterContained = false;
@@ -1518,7 +1524,7 @@ public class StatsCalculator {
 					continue;
 								
 				Date gameDate = element.getGameDate();
-				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){
+				if(gameDate.after(startdate) && gameDate.before(endDate) && liquidity >= minLiquidity && liquidity <= maxLiquidity && bestOdds >= minOdds && bestOdds <= maxOdds){					
 					int mapIndex = mapping[mappingBaseIndex + i];
 					
 					StatsRow row = rows.get(mapIndex);
@@ -1529,6 +1535,8 @@ public class StatsCalculator {
 					bet.tipster = siteTipster;
 					bet.betDate = element.getPublicationDate();
 					bet.gameDate = element.getGameDate();
+					double probabilityRatio = 1;
+					double evProbability = 1 / bestOdds;
 					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(element.getSelection().equalsIgnoreCase("DRAW")){
@@ -1538,24 +1546,186 @@ public class StatsCalculator {
 						}
 						else{
 							if(!oneTwoResult)
-								continue;
+								continue; 
 							bet.koB = "1/2";
 						}
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						String tippTeam = element.getSelection();
+						String betAdvisorHost = BetAdvisorParser.parseHostFromEvent(element.getEvent());
+						String betAdvisorGuest = BetAdvisorParser.parseGuestFromEvent(element.getEvent());
+						
+						List<OneTwoElement> oddsList = bestSource.getOneTwoList();
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							OneTwoElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >= gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000){
+								double gOdds = 0;
+								if(element.getSelection().equalsIgnoreCase("DRAW")){
+									gOdds = oddsElement.getDraw();
+								}
+								else if(tippTeam.equalsIgnoreCase(betAdvisorHost) || TeamMapping.teamsMatch(tippTeam, betAdvisorHost)){
+									gOdds = oddsElement.getOne();
+								}
+								else if(tippTeam.equalsIgnoreCase(betAdvisorGuest) || TeamMapping.teamsMatch(tippTeam, betAdvisorGuest)){
+									gOdds = oddsElement.getTwo();
+								}	
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() + 3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over / Under")){
 						if(!overUnder)
 							continue;
 						bet.koB = "O/U";
+						
+						int totalStart = element.getSelection().lastIndexOf("+") + 1;
+						String totalString = element.getSelection().substring(totalStart);
+						double total = Double.parseDouble(totalString);
+						
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						
+						List<TotalElement> oddsList = bestSource.getTotalList();
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							TotalElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >= gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000 && oddsElement.getTotal() == total){
+								double gOdds = 0;
+								if(element.getSelection().indexOf("Over") == 0){
+									gOdds = oddsElement.getOver() + 1;
+								}
+								else if(element.getSelection().indexOf("Under") == 0){
+									gOdds = oddsElement.getUnder() + 1;
+								}
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() + 3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor Over Under: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						bet.koB = "AH";
+						
+						
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						List<HdpElement> oddsList = bestSource.getHdpList();
+						String tippTeam = element.getSelection();
+						double pivot = -1;
+						boolean plus = false;
+						int tippIndex = -1;
+						String betAdvisorHost = BetAdvisorParser.parseHostFromEvent(element.getEvent());
+						String betAdvisorGuest = BetAdvisorParser.parseGuestFromEvent(element.getEvent());
+						
+						if(tippTeam.indexOf(betAdvisorHost) != -1){
+							tippIndex = 0;
+						}
+						else if(tippTeam.indexOf(betAdvisorGuest) != -1){
+							tippIndex = 1;
+						}
+						
+						int pivotStart = element.getSelection().lastIndexOf("-") + 1;
+						if(pivotStart != 0){
+							String pivotString = element.getSelection().substring(pivotStart);
+							pivot = Double.parseDouble(pivotString);
+						}
+						else{
+							pivotStart = element.getSelection().lastIndexOf("+") + 1;
+							if(pivotStart != 0){
+								String pivotString = element.getSelection().substring(pivotStart);
+								pivot = Double.parseDouble(pivotString);
+								plus = true;
+							}					
+						}
+						
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							HdpElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >=  gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000 && oddsElement.getPivot() == pivot){
+								double gOdds = 0;
+								if(plus){
+									if(tippIndex == 0){
+										gOdds = 1 + oddsElement.getHost();
+									}
+									else if(tippIndex == 1){
+										gOdds = 1 + oddsElement.getGuest();
+									}
+								}
+								else{
+									if(tippIndex == 1){
+										gOdds = 1 + oddsElement.getHost();
+									}
+									else if(tippIndex == 0){
+										gOdds = 1 + oddsElement.getGuest();
+									}
+								}
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() + 3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor Asian Handicap: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
 					}
+					
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getOdds();
 					row.invested += element.getTake();
+					
+					if(!Double.isNaN(probabilityRatio)){
+						row.probabilityRatio += probabilityRatio;
+						double betEv = evProbability * (bestOdds * element.getTake() - element.getTake()) - (1 - evProbability) * element.getTake();
+						double flatEv = evProbability * (bestOdds - 1)  - (1 - evProbability);
+						row.flatStakeYieldEv += flatEv;
+						row.averageYieldEv += betEv;
+					}
+					else{
+						System.out.println("kek");
+					}
+					
 					
 					bet.event = element.getEvent();
 					bet.selection = element.getSelection();
@@ -1595,6 +1765,7 @@ public class StatsCalculator {
 				BlogaBetElement element = blogaBetBacktestBets.get(i);
 				double liquidity = blogaBetBacktestLiquidity.get(i);
 				double bestOdds = blogaBetBacktestBestOddsList.get(i);
+				HistoricalDataElement bestSource = blogaBetHistorical.get(i);
 				
 				String siteTipster = element.getTipster() + " (BB)";
 				boolean tipsterContained = false;
@@ -1633,6 +1804,9 @@ public class StatsCalculator {
 					bet.betDate = element.getPublicationDate();
 					bet.gameDate = element.getGameDate();
 					
+					double probabilityRatio = 1;
+					double evProbability = 1 / bestOdds;
+					
 					if(typeOfBet.equalsIgnoreCase("MATCH ODDS")){
 						if(element.getSelection().equalsIgnoreCase("DRAW")){
 							if(!xResult)
@@ -1644,21 +1818,154 @@ public class StatsCalculator {
 								continue;
 							bet.koB = "1/2";
 						}
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						String tippTeam = element.getTipTeam();
+						String blogaBetHost = element.getHost();
+						String blogaBetGuest = element.getGuest();
+						
+						List<OneTwoElement> oddsList = bestSource.getOneTwoList();
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							OneTwoElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >= gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000){
+								double gOdds = 0;
+								if(tippTeam.equalsIgnoreCase("DRAW")){
+									gOdds = oddsElement.getDraw();
+								}
+								else if(tippTeam.equalsIgnoreCase(blogaBetHost)){
+									gOdds = oddsElement.getOne();
+								}
+								else if(tippTeam.equalsIgnoreCase(blogaBetGuest)){
+									gOdds = oddsElement.getTwo();
+								}	
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() +3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
+						
+						if(Double.isNaN(probabilityRatio) || Double.isInfinite(probabilityRatio)){
+							System.out.println("kek");
+						}
 					}
 					else if(typeOfBet.equalsIgnoreCase("Over Under")){
 						if(!overUnder)
 							continue;
 						bet.koB = "O/U";
+						
+						double total = element.getPivotValue();
+						
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						
+						List<TotalElement> oddsList = bestSource.getTotalList();
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							TotalElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >= gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000 && oddsElement.getTotal() == total){
+								double gOdds = 0;
+								if(element.getTipTeam().indexOf("Over") == 0){
+									gOdds = oddsElement.getOver() + 1;
+								}
+								else if(element.getTipTeam().indexOf("Under") == 0){
+									gOdds = oddsElement.getUnder() + 1;
+								}
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() + 3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor Over Under: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
 					}
 					else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
 						if(!asianHandicap)
 							continue;
 						bet.koB = "AH";
+						
+						// see odds over the game
+						long gameDateLong = gameDate.getTime();
+						long lastTimePoint = gameDateLong;
+						long betLong = element.getPublicationDate().getTime();
+						double impliedProbability = 1 / bestOdds;
+						double probabilityOverGame = 0;
+						double lastGameProbability = impliedProbability;
+						List<HdpElement> oddsList = bestSource.getHdpList();
+						String tippTeam = element.getTipTeam();
+						double pivot = element.getPivotValue();
+						int tippIndex = -1;
+						String blogaBetHost = element.getHost();
+						String blogaBetGuest = element.getGuest();
+						
+						if(tippTeam.indexOf(blogaBetHost) != -1){
+							tippIndex = 0;
+						}
+						else if(tippTeam.indexOf(blogaBetGuest) != -1){
+							tippIndex = 1;
+						}
+						
+						for(int oddsIndex = 0; oddsIndex < oddsList.size(); oddsIndex++){
+							HdpElement oddsElement = oddsList.get(oddsIndex);
+							if(oddsElement.getTime() >=  gameDateLong - 3600000 && oddsElement.getTime() >= betLong - 3600000 && oddsElement.getPivot() == pivot){
+								double gOdds = 0;
+								if(tippIndex == 0){
+									gOdds = 1 + oddsElement.getHost();
+								}
+								else if(tippIndex == 1){
+									gOdds = 1 + oddsElement.getGuest();
+								}
+								
+								double gameProbability = 1 / gOdds;
+								double timeFactor = (oddsElement.getTime() + 3600000 - lastTimePoint) * 1.0 / (90 * 60 * 1000);
+								probabilityOverGame += timeFactor * gameProbability;
+								
+								lastTimePoint = oddsElement.getTime() + 3600000;
+								lastGameProbability = gameProbability;
+							}
+						}
+						double lastTimeFactor = (gameDateLong + 5400000 - lastTimePoint) * lastGameProbability / 5400000;
+						probabilityOverGame += lastTimeFactor;
+						System.out.println("Factor Asian Handicap: " + (probabilityOverGame / impliedProbability));
+						probabilityRatio = probabilityOverGame / impliedProbability;
+						evProbability = probabilityOverGame;
 					}
 					row.numberOfBets++;
 					row.averageLiquidity += liquidity;
 					row.averageOdds += element.getBestOdds();
 					row.invested += element.getStake() * 100;	
+					
+					if(!Double.isNaN(probabilityRatio)){
+						row.probabilityRatio += probabilityRatio;
+						double betEv = evProbability * (bestOdds * element.getStake() - element.getStake()) - (1 - evProbability) * element.getStake();
+						double flatEv = evProbability * (bestOdds - 1)  - (1 - evProbability);
+						row.flatStakeYieldEv += flatEv;
+						row.averageYieldEv += betEv;
+					}
 					
 					bet.event = element.getEvent();
 					bet.selection = element.getSelection();
@@ -1947,6 +2254,9 @@ public class StatsCalculator {
 			averageRow.percentWeGet += row.percentWeGet;
 			averageRow.numberOfBets += row.numberOfBets;
 			averageRow.invested += row.invested;
+			averageRow.probabilityRatio += row.probabilityRatio;
+			averageRow.flatStakeYieldEv += row.flatStakeYieldEv;
+			averageRow.averageYieldEv += row.averageYieldEv;
 			averageRow.bets.addAll(row.getBets());
 			
 			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
@@ -1955,6 +2265,12 @@ public class StatsCalculator {
 			row.flatStakeYield = row.flatStakeYield * 100.0 / Math.max(row.numberOfBets, 1);
 			row.percentOver95 = row.percentOver95 * 100.0 / Math.max(row.numberOfBets, 1);
 			row.percentWeGet = row.percentWeGet * 100.0 / Math.max(row.numberOfBets, 1);
+			row.probabilityRatio = row.probabilityRatio * 100.0 / Math.max(row.numberOfBets, 1);
+			row.averageYieldEv = row.averageYieldEv * 100.0 / Math.max(row.invested, 1);
+			row.averageYieldEv += row.averageYield;
+			row.flatStakeYieldEv = row.flatStakeYieldEv * 100.0 / Math.max(row.numberOfBets, 1);
+			row.flatStakeYieldEv += row.flatStakeYield;
+			
 			Collections.sort(row.bets, c);
 			if(rows.get(i).bets.size() > 100)
 				rows.get(i).bets = row.bets.subList(row.bets.size() - 101, row.bets.size() - 1);
@@ -1965,11 +2281,17 @@ public class StatsCalculator {
 		averageRow.flatStakeYield /= Math.max(averageRow.numberOfBets, 1);
 		averageRow.percentOver95 /= Math.max(averageRow.numberOfBets, 1);
 		averageRow.percentWeGet /= Math.max(averageRow.numberOfBets, 1);
+		averageRow.probabilityRatio /= Math.max(averageRow.numberOfBets, 1);
+		averageRow.flatStakeYieldEv /= Math.max(averageRow.numberOfBets, 1);
+		averageRow.averageYieldEv /= Math.max(averageRow.invested, 1);
 		
 		averageRow.percentOver95 *= 100;
 		averageRow.percentWeGet *= 100; 
 		averageRow.averageYield *= 100;
 		averageRow.flatStakeYield *= 100;	
+		averageRow.flatStakeYieldEv *= 100;	
+		averageRow.averageYieldEv *= 100;
+		
 		rows.add(averageRow);
 	}
 	
