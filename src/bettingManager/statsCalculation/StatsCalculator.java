@@ -2291,6 +2291,7 @@ public class StatsCalculator {
 		averageRow.flatStakeYield *= 100;	
 		averageRow.flatStakeYieldEv *= 100;	
 		averageRow.averageYieldEv *= 100;
+		averageRow.probabilityRatio *= 100;
 		
 		rows.add(averageRow);
 	}
