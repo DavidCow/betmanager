@@ -319,7 +319,7 @@ public class CaptchaCracking {
 						
 						int width = ScreenScraping.getCaptchaWidth();
 						int height = ScreenScraping.getCaptchaHeight();
-						if(width > 1 && height > 1)
+						if(clickIndexes != null && width > 1 && height > 1)
 							clickCaptcha(clickIndexes, width, height);
 					} 
 					// Sleep
@@ -377,9 +377,9 @@ public class CaptchaCracking {
 					} catch (Exception e) {
 						e.printStackTrace();
 						System.exit(-1);
-					}		
+					}	
+					closeTab();
 				}		
-				closeTab();
 			}
 			
 			// Save Set of cracked Captchas
@@ -403,7 +403,6 @@ public class CaptchaCracking {
 //				// TODO Auto-generated catch block
 //				e1.printStackTrace();
 //			}
-			closeTab();
 //			String originalHandle = driver.getWindowHandle();
 //		    for(String handle : driver.getWindowHandles()) {
 //		        if (!handle.equals(originalHandle)) {
