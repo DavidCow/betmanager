@@ -28,6 +28,7 @@ import java.util.Set;
 
 import javax.imageio.ImageIO;
 
+
 import mailParsing.GMailReader;
 import mailParsing.ParsedTextMail;
 
@@ -145,6 +146,13 @@ public class CaptchaCracking {
 		robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	}
 	
+	public static void closeTab(){
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_W);
+		robot.keyRelease(KeyEvent.VK_W);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+	}
+	
 	public static void saveImage() throws Exception{
 		Point p = ScreenScraping.getCaptchaClickPoint();
 		if(p == null)
@@ -190,7 +198,8 @@ public class CaptchaCracking {
 	}
 	
 	public static void getBlogabetTips() {
-		
+//		System.setProperty("webdriver.chrome.driver", "C://Users//Suiteng//Downloads//chromedriver_win32//chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
 		// Get Sets to see which Mails were already cracked
 		Set<String> crackedCaptchas = null;
 		File crackedCaptchaSetFile = new File("crackedCaptchas.dat");
@@ -357,7 +366,7 @@ public class CaptchaCracking {
 						String data = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 						System.out.println(data);
 						try{
-							mailReader.sendMail("blogabetCaptcha@gmail.com", "BlogaBetTips", data);
+//							mailReader.sendMail("blogabetCaptcha@gmail.com", "BlogaBetTips", data);
 							
 							// Everything went ok, we save this mail as cracked
 							crackedCaptchas.add(key);
@@ -369,7 +378,8 @@ public class CaptchaCracking {
 						e.printStackTrace();
 						System.exit(-1);
 					}		
-				}			
+				}		
+				closeTab();
 			}
 			
 			// Save Set of cracked Captchas
@@ -393,6 +403,16 @@ public class CaptchaCracking {
 //				// TODO Auto-generated catch block
 //				e1.printStackTrace();
 //			}
+			closeTab();
+//			String originalHandle = driver.getWindowHandle();
+//		    for(String handle : driver.getWindowHandles()) {
+//		        if (!handle.equals(originalHandle)) {
+//		            driver.switchTo().window(handle);
+//		            driver.close();
+//		        }
+//		    }
+//
+//		    driver.switchTo().window(originalHandle);
             
 			// Sleep at end of infinite Loop
 			try {
@@ -401,6 +421,7 @@ public class CaptchaCracking {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
 		}
 	}
 	
