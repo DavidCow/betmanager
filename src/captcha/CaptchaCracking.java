@@ -378,8 +378,8 @@ public class CaptchaCracking {
 						e.printStackTrace();
 						System.exit(-1);
 					}	
-					closeTab();
-				}		
+				}	
+				closeTab();
 			}
 			
 			// Save Set of cracked Captchas
