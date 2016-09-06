@@ -710,7 +710,7 @@ public class StatsCalculator {
 		// BA Historical
 		for(int i = 0; i < betAdvisorList.size(); i++){
 			BetAdvisorElement element = betAdvisorList.get(i);
-			String siteTipster = element.getTipster() + " (BB)";
+			String siteTipster = element.getTipster() + " (BA)";
 			int index = -1;
 			if(rowMap.containsKey(siteTipster)){
 				index = rowMap.get(siteTipster);
@@ -1124,7 +1124,7 @@ public class StatsCalculator {
 					index = 0;
 				}
 			}
-			else if(typeOfBet.equalsIgnoreCase("Over / Under")){
+			else if(typeOfBet.equalsIgnoreCase("Over Under")){
 				index = 3;
 			}
 			else if(typeOfBet.equalsIgnoreCase("Asian Handicap")){
