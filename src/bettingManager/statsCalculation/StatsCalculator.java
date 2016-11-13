@@ -6,8 +6,11 @@ import historicalData.OneTwoElement;
 import historicalData.TotalElement;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,8 +23,6 @@ import java.util.Map;
 import java.util.Set;
 
 import javafx.util.Pair;
-import jayeson.lib.datastructure.Record;
-import jayeson.lib.datastructure.SoccerEvent;
 import mailParsing.BetAdvisorTip;
 import mailParsing.BlogaBetTip;
 import moneyManagement.StakeCalculation;
@@ -756,6 +757,20 @@ public class StatsCalculator {
 			tipMapIndex++;
 		}	
 		calculateTipStats(rows, tipMapping);
+		String csv = StatsRow.createHeader() + "\n";
+		for(int i = 0; i < rows.size(); i++){
+			System.out.println(rows.get(i));
+			csv += rows.get(i).toString() + "\n";
+		}		
+		String fileName = "" + System.currentTimeMillis() + ".csv";
+		File f = new File(fileName);
+		try {
+			BufferedWriter writer = new BufferedWriter(new FileWriter(f));
+			writer.write(csv);
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		return rows;		
 	}
@@ -2246,6 +2261,12 @@ public class StatsCalculator {
 		// Compute averages and sort Bets
 		for(int i = 0; i < rows.size(); i++){
 			StatsRow row = rows.get(i);
+			
+			for(int j = 0; j < row.bets.size(); j++){
+				row.profit += Double.parseDouble(row.bets.get(j).netWon);
+			}
+			row.averageBetSize = row.invested / row.numberOfBets;
+			
 			averageRow.averageLiquidity += row.averageLiquidity;
 			averageRow.averageOdds += row.averageOdds;
 			averageRow.averageYield += row.averageYield;
@@ -2257,6 +2278,8 @@ public class StatsCalculator {
 			averageRow.probabilityRatio += row.probabilityRatio;
 			averageRow.flatStakeYieldEv += row.flatStakeYieldEv;
 			averageRow.averageYieldEv += row.averageYieldEv;
+			averageRow.averageBetSize += row.averageBetSize;
+			averageRow.profit += row.profit;
 			averageRow.bets.addAll(row.getBets());
 			
 			row.averageLiquidity /= Math.max(row.numberOfBets, 1);
@@ -2270,6 +2293,7 @@ public class StatsCalculator {
 			row.averageYieldEv += row.averageYield;
 			row.flatStakeYieldEv = row.flatStakeYieldEv * 100.0 / Math.max(row.numberOfBets, 1);
 			row.flatStakeYieldEv += row.flatStakeYield;
+
 			
 			Collections.sort(row.bets, c);
 			if(rows.get(i).bets.size() > 100)
@@ -2284,6 +2308,7 @@ public class StatsCalculator {
 		averageRow.probabilityRatio /= Math.max(averageRow.numberOfBets, 1);
 		averageRow.flatStakeYieldEv /= Math.max(averageRow.numberOfBets, 1);
 		averageRow.averageYieldEv /= Math.max(averageRow.invested, 1);
+		averageRow.averageBetSize /= Math.max(rows.size(), 1);
 		
 		averageRow.percentOver95 *= 100;
 		averageRow.percentWeGet *= 100; 
@@ -2674,7 +2699,7 @@ public class StatsCalculator {
 	
 	public static void main(String[] args) {
 		StatsCalculator calculator = new StatsCalculator();
-		List<StatsRow> row = calculator.getKoBStats();
+		List<StatsRow> row = calculator.getTipsterStats();
 		System.out.println();
 	}
 }
