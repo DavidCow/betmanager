@@ -759,8 +759,11 @@ public class StatsCalculator {
 		calculateTipStats(rows, tipMapping);
 		String csv = StatsRow.createHeader() + "\n";
 		for(int i = 0; i < rows.size(); i++){
-			System.out.println(rows.get(i));
-			csv += rows.get(i).toString() + "\n";
+			
+			if(!Double.isNaN(rows.get(i).averageBetSize)){
+				System.out.println(rows.get(i));
+				csv += rows.get(i).toString() + "\n";		
+			}
 		}		
 		String fileName = "" + System.currentTimeMillis() + ".csv";
 		File f = new File(fileName);
