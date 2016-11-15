@@ -455,7 +455,7 @@ public class BetAdvisorEmailParser {
 		dateString = dateString.replaceAll("1st", "1"); // as in 1st
 		dateString = dateString.replaceAll("2nd", "2"); // as in 2nd
 		dateString = dateString.replaceAll("3rd", "3"); // as in 3rd
-		dateString = dateString.replaceAll("4th", "4"); // as in 4th
+		dateString = dateString.replaceAll("th ", " "); // as in 4th
 		Date date = null;
 		try {
 			date = format.parse(dateString);
